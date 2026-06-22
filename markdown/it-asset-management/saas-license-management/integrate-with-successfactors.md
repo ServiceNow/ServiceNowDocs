@@ -222,7 +222,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see Upload a certificate to an instance.\[Omitted image "saml-oauth-sf.png"\] Alt text: Uploading certificate to an instance
+    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/t_UploadACertificateToAnInstance.md).\[Omitted image "saml-oauth-sf.png"\] Alt text: Uploading certificate to an instance
 
 
 ## Register SuccessFactors as an OAuth provider
@@ -511,15 +511,15 @@ If you’re using Software Asset Workspace, the option to create the SuccessFact
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d51596e2326">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d51685e2326">
 
 Interface
 
-</th><th align="left" id="d51596e2329">
+</th><th align="left" id="d51685e2329">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d51596e2335">
+</th></tr></thead><tbody><tr><td id="d51685e2335">
 
 **Core UI**
 
@@ -530,7 +530,7 @@ Action
 3.  Select **SuccessFactors Integration Profile**.
 
 
-</td></tr><tr><td id="d51596e2377">
+</td></tr><tr><td id="d51685e2377">
 
 **Software Asset Workspace**
 

@@ -28,15 +28,15 @@ Role required: admin
 
 4.  Enter the rule details.
 
-<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d51804e126">
+<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d51823e126">
 
 Field
 
-</th><th align="left" id="d51804e129">
+</th><th align="left" id="d51823e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51804e135">
+</th></tr></thead><tbody><tr><td id="d51823e135">
 
 **Select icon by**
 
@@ -44,7 +44,7 @@ Description
 
 Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon specified by **MIME Type** and a different icon specified by **File Extension**, the **MIME Type** icon takes precedence.
 
-</td></tr><tr><td id="d51804e162">
+</td></tr><tr><td id="d51823e162">
 
 **MIME type**
 
@@ -52,7 +52,7 @@ Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon 
 
 If **Select icon by** is **MIME Type**, enter the MIME type and subtype to associate with the icon, separated by a slash \(example: `application/pdf`\).
 
-</td></tr><tr><td id="d51804e180">
+</td></tr><tr><td id="d51823e180">
 
 **File extension**
 
@@ -60,7 +60,7 @@ If **Select icon by** is **MIME Type**, enter the MIME type and subtype to assoc
 
 If **Select icon by** is **FIle Extension**, enter the file extension to associate with the icon beginning with the period \(example: `.pdf`\).
 
-</td></tr><tr><td id="d51804e198">
+</td></tr><tr><td id="d51823e198">
 
 **Icon**
 

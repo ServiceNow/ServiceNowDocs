@@ -1876,11 +1876,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d3338e138">
+</th></tr></thead><tbody><tr><td id="d3304e138">
 
 @type
 
-</td><td id="d3338e141">
+</td><td id="d3304e141">
 
 The type of resource.Valid values:
 
@@ -2922,11 +2922,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d3338e138">
+</th></tr></thead><tbody><tr><td id="d3304e138">
 
 @type
 
-</td><td id="d3338e141">
+</td><td id="d3304e141">
 
 The type of resource.Valid values:
 
@@ -3067,7 +3067,7 @@ Sys\_id of the place record in the Network Site \[cmdb\_ci\_ni\_site\] table.
 
 Data type: String
 
-</td></tr><tr><td id="d3338e404">
+</td></tr><tr><td id="d3304e404">
 
 relatedParty
 

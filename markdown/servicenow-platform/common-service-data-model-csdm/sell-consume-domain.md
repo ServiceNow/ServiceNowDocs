@@ -38,7 +38,7 @@ Business service offerings are the starting point for configuring Service Portfo
 -   A silver offering of upgrades and virus protection.
 -   A gold offering with the silver commitments plus a response time guarantee of 30 minutes between the hours of 8:00 a.m. and 5:00 p.m., Monday through Friday.
 
-**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See .
+**Note:** Business services and technology management services connect to the spm\_service\_portfolio through the spm\_taxonomy\_node. See [Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md).
 
 Business service offerings have the following characteristics:
 

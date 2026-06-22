@@ -94,7 +94,7 @@ Use the Homepage deprecation help tool to convert the homepages on your instance
 
 For more information, see:
 
--   Dashboards in the Analytics Center.
+-   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-dashboards.md).
 -   Working with responsive dashboards.
 
 </td></tr><tr><td>
@@ -277,7 +277,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side JavaScript debug window.
+\(Administrators only\) Opens the client-side [JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_JavaScriptDebugWindow.md).
 
 </td></tr><tr><td>
 

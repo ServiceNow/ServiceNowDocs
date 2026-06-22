@@ -14,5 +14,5 @@ breadcrumb: [Email client, Notifications, Configure core features, Administer th
 
 The reference section provides additional information about the email client.
 
-Generate an email reply based on the context of the conversation using Write with Now Assist. This skill can help agents draft emails quickly and stay focused. For more information, see .
+Generate an email reply based on the context of the conversation using Write with Now Assist. This skill can help agents draft emails quickly and stay focused. For more information, see [Email response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-email-recommendation.md).
 

@@ -33,15 +33,15 @@ Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servic
 
 1.  Perform any of the following tasks to install the Now Assist for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d115000e113">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d109221e113">
 
 Option
 
-</th><th align="left" id="d115000e116">
+</th><th align="left" id="d109221e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115000e122">
+</th></tr></thead><tbody><tr><td id="d109221e122">
 
 **From Now Assist Admin**
 
@@ -54,7 +54,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d115000e184">
+</td></tr><tr><td id="d109221e184">
 
 **From System Applications**
 
@@ -83,7 +83,7 @@ To view the installed plugins, navigate to **All** &gt; **Now Assist Admin** &gt
 
 ## What to do next
 
-If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see . In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
+If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/index-multiple-sources-ais.md). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
 
 Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/turn-rpa-bot-generation-skill.md).
 

@@ -22,7 +22,7 @@ Microsoft offers a wide variety of products that span from database servers to s
 
 To learn more about Microsoft licensing models, see [Microsoft licensing](https://www.microsoft.com/en-us/Licensing).
 
-Set up ServiceNow Discovery to identify Microsoft installations on your network. For more information, see Data collected by ITOM Visibility.
+Set up ServiceNow Discovery to identify Microsoft installations on your network. For more information, see [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md).
 
 The Software Asset Management publisher pack for Microsoft supports the following licensing models.
 

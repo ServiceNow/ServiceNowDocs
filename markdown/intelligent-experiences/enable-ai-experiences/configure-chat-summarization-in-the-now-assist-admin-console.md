@@ -85,7 +85,7 @@ Chat summarization for the workflow is active on the instance.
 
 ## What to do next
 
-Analyze your skill performance on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at .
+Analyze your skill performance on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 **Parent Topic:**[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md)
 

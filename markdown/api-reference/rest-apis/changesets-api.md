@@ -35,7 +35,7 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on changesets, see Changesets and version control in CDM.
+For additional information on changesets, see [Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-changesets-version-control.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -416,7 +416,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -1043,7 +1043,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -2407,7 +2407,7 @@ Publish option for the associated configuration snapshots. Valid values:
 
 **Note:** This option is only available if the value for the **autoCommit** parameter is true.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -2828,7 +2828,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -3034,7 +3034,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 

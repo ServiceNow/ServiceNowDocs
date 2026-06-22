@@ -36,15 +36,15 @@ To connect to a different instance, you must close and reopen the RPA Desktop De
 
 1.  To connect to an RPA Hub instance, do any of the following actions in the Connection Manager dialog box.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d188385e150">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d182606e150">
 
 Option
 
-</th><th align="left" id="d188385e153">
+</th><th align="left" id="d182606e153">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188385e159">
+</th></tr></thead><tbody><tr><td id="d182606e159">
 
 **If there is a single instance**
 
@@ -54,7 +54,7 @@ Action
 2.  Select **Connect**.
 
 
-</td></tr><tr><td id="d188385e186">
+</td></tr><tr><td id="d182606e186">
 
 **If there are multiple instances and none of them are marked as default**
 
@@ -69,7 +69,7 @@ Action
 7.  Select **Log in**.
 
 
-</td></tr><tr><td id="d188385e241">
+</td></tr><tr><td id="d182606e241">
 
 **If an instance is marked as default**
 

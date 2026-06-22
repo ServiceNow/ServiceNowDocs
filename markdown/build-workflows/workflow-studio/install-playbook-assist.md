@@ -20,7 +20,7 @@ Install the Now Assist for Creator application to add the Playbook Assist genera
 
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Upgrade to [Process Automation Designer](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1293c996ad48c7d88400c13afef3cdff) 25.2 or later. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
--   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
+-   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   Role required: admin
 
 ## Procedure

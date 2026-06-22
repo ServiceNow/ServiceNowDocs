@@ -33,11 +33,11 @@ To learn more about topic blocks and how to use them in Virtual Agent conversati
 
 Before creating Virtual Agent conversations, review the following prerequisites and the basic process for working with pre-built topics and topic blocks in Virtual Agent Designer.
 
--   Activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
+-   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
 -   Determine the public sector use cases for topics to be created.
 -   In Virtual Agent Designer:
     -   Preview \(test\) pre-built topics and topic blocks, such as the public sector blocks, to see how they work. Use the **Type** filter to sort the list of items, such as topic blocks, in the Topics page.
-    -   If you want to use a pre-built topic or topic block, duplicate and publish it.
+    -   If you want to use a pre-built topic or topic block, [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) and [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it.
     -   Add the appropriate copies of topic blocks, such as the public sector topic blocks, to the originating \(calling\) topic. To learn more about adding topic blocks to a conversation, see Add a reusable topic block to a calling topic or topic block
 
         **Note:** You can use both public sector topic blocks in a conversation.

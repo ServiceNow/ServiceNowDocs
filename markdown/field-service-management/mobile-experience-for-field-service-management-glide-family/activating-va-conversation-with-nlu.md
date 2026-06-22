@@ -36,7 +36,7 @@ To use these intents, you must train and publish the predefined Field Service NL
 
 1.  Enable ServiceNow NLU in Virtual Agent.
 
-    For more information, see Configure Natural Language Understanding in Virtual Agent.
+    For more information, see [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 2.  Customize an intent by importing an existing intent from the Field Service NLU for Virtual Agent model.
 
@@ -44,6 +44,6 @@ To use these intents, you must train and publish the predefined Field Service NL
 
 3.  Link the NLU model with associated intents in the Virtual Agent topics.
 
-    For more information, see Natural Language Understanding in Virtual Agent.
+    For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
 
 

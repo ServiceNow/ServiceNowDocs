@@ -78,7 +78,7 @@ Create a PagerDuty application to integrate with your ServiceNow instance.
 
 ### Before you begin
 
--   Activate the PagerDuty spoke. For more information, see .
+-   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/pagerduty-spoke.md).
 -   PagerDuty Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
 ### Procedure
@@ -160,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the PagerDuty i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d106054e648">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d106143e649">
 
 Interface
 
-</th><th align="left" id="d106054e651">
+</th><th align="left" id="d106143e652">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d106054e657">
+</th></tr></thead><tbody><tr><td id="d106143e658">
 
 **Core UI**
 
@@ -179,7 +179,7 @@ Action
 3.  Select **PagerDuty Integration Profile**.
 
 
-</td></tr><tr><td id="d106054e699">
+</td></tr><tr><td id="d106143e700">
 
 **Software Asset Workspace**
 

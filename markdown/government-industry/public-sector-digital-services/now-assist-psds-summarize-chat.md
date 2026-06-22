@@ -31,7 +31,7 @@ The chat summarization skill enables you to do the following actions:
 -   Summarize the chat at any point during the conversation using the `/summarize` quick action.
 -   Summarize the chat between a live agent and a customer when a chat is handed off to another live agent or when an agent wraps up the conversation and ends the interaction.
 
-**Note:** You can also generate a chat summary on demand from the Now Assist panel. For more information, see .
+**Note:** You can also generate a chat summary on demand from the Now Assist panel. For more information, see [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-chat-summary.md).
 
 The chat summarization skill updates the Short description and Chat Summary fields on the interaction record once the chat is ended.
 

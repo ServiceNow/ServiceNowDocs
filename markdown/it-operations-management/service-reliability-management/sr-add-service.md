@@ -36,15 +36,15 @@ Role required: Responder, Manager, or Administrator
     -   On the Services page \(\[Omitted image "icon-sr-services.png"\] Alt text: services\), select **Add a service**.
 3.  Add a new service or register an existing one.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d95402e113">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d93801e113">
 
 Option
 
-</th><th align="left" id="d95402e116">
+</th><th align="left" id="d93801e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95402e122">
+</th></tr></thead><tbody><tr><td id="d93801e122">
 
 **Add a new service**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Add service form](https://r
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d95402e164">
+</td></tr><tr><td id="d93801e164">
 
 **Register an existing service**
 

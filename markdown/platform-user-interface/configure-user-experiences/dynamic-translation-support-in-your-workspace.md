@@ -20,7 +20,7 @@ Dynamic Translation support in Workspace enables on-demand translation of text i
 
 To enable and configure Dynamic Translation for Activity stream, do the following.
 
-1.  Activate the Dynamic Translation \(com.glide.dynamic\_translation\) plugin. For more information see .
+1.  Activate the Dynamic Translation \(com.glide.dynamic\_translation\) plugin. For more information see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md).
 2.  Configure Dynamic Translation for the translation service provider. For more information, see .
 
 ## Translation button in the Activity Stream

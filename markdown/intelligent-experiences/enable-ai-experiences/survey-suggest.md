@@ -28,7 +28,7 @@ The agents, tools, and triggers that are associated with the suggest survey resp
 
 To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as Now Assist for IT Service Management \(ITSM\).
 
-You must have an email configuration for sending surveys to users. For more information, see Survey trigger conditions.
+You must have an email configuration for sending surveys to users. For more information, see [Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/c_TriggerConditions.md).
 
 ## AI agents used in the Suggest survey responses agentic workflow
 

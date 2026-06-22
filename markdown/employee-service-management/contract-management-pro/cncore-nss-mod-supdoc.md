@@ -28,15 +28,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d557460e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d557295e67">
 
 Action
 
-</th><th align="left" id="d557460e70">
+</th><th align="left" id="d557295e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d557460e76">
+</th></tr></thead><tbody><tr><td id="d557295e76">
 
 **Add supporting documents**
 
@@ -44,7 +44,7 @@ Steps
 
 [Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d557460e90">
+</td></tr><tr><td id="d557295e90">
 
 **Reclassify supporting documents**
 
@@ -52,7 +52,7 @@ Steps
 
 [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d557460e104">
+</td></tr><tr><td id="d557295e104">
 
 **Remove the supporting document**
 

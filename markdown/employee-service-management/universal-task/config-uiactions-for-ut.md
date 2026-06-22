@@ -58,7 +58,7 @@ Administrators and users with the ui\_action\_admin role can define UI actions. 
 
 9.  On the form, fill in the fields.
 
-    For more information on fields and descriptions, see Create a UI action.
+    For more information on fields and descriptions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_EditingAUIAction.md).
 
 10. Click **Submit**.
 

@@ -16,7 +16,7 @@ breadcrumb: [Forms, fields, and lists, Configure core features, Administer the S
 
 Administrators control the data presented to end users in a list, the controls that appear, and the behavior of the controls.
 
-**Note:** For information about using lists, see Lists.
+**Note:** For information about using lists, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md).
 
 -   **[List configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_ListConfiguration.md)**  
 Users with the appropriate roles can configure various aspects of lists. Configuration changes apply to all users.

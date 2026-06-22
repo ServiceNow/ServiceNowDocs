@@ -25,7 +25,7 @@ The fulfillers can get a summary of the following procurement records using the 
 -   Purchase requisition summarization
 -   Procurement case summarization
 
-For more information, see .
+For more information, see [Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md).
 
 \[Omitted image "record-summarized-pc.png"\] Alt text: The record summary shows an overview, the actions completed, and next steps.
 
@@ -35,7 +35,7 @@ This skill is available in the workflow and product as shown in the following ta
 
 |Workflow|Product|
 |--------|-------|
-|Finance &amp; Supply Chain||
+|Finance &amp; Supply Chain|[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

@@ -23,7 +23,7 @@ You can use the related information you generate from existing security incident
 
 ## Generating correlation insights
 
-You can generate correlation insights with Correlation insights with Now Assist for Security Incident Response.
+You can generate correlation insights with [Correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.md).
 
 ## Availability
 
@@ -31,7 +31,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

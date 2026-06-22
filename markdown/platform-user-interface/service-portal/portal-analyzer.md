@@ -33,7 +33,7 @@ The Portal Analyzer is active by default on your instance.
 **Related topics**  
 
 
-[bundle-platadm.c_ScheduledJobs]
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
 
 ## Run the Portal Analyzer
 

@@ -30,15 +30,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d75704e85">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d75172e85">
 
 Option
 
-</th><th align="left" id="d75704e88">
+</th><th align="left" id="d75172e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75704e94">
+</th></tr></thead><tbody><tr><td id="d75172e94">
 
 **From Accessibility inspector \(available starting in Xanadu Theme Builder version 4.1\)**
 
@@ -50,7 +50,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d75704e138">
+</td></tr><tr><td id="d75172e138">
 
 **From the Component styles menu**
 

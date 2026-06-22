@@ -30,7 +30,7 @@ The portal used for previews is determined by the sn\_ca.campaign.preview.portal
 
 An email notification is sent to the content requester and appears as a to-do under **My Tasks** in the Employee Center Pro. A link is provided to the to-do.
 
-For information on setting up email notifications, see Create an email notification.
+For information on setting up email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md).
 
 **Parent Topic:**[Managing content requests with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

@@ -38,7 +38,7 @@ Xanadu Patch 8 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 8
 
--   ****
+-   **[Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md)**
 
     Progressive push
 
@@ -46,7 +46,7 @@ Xanadu Patch 8 includes fixes for security-related problems that affected certai
 
     If the contractor does not respond or accept within a specified time frame, the request is shared automatically to the next ranked candidate. This process continues sequentially down the ranking list until it is shared with all contractors.
 
--   ****
+-   **[Add a contractor to Marketplace participants post-push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/push-task-fsm-mktplc.md)**
 
     Use the Add Contractor button to add an eligible contractor to the list of marketplace participants once a work order task has already been pushed to Marketplace.
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The integration of User Experience Analytics data with Performance Analytics is included in the base system. This task describes a scenario where you have uninstalled the User Experience Analytics Performance Analytics Integration plugin and now want to reinstall it. For information about ServiceNow Store applications, see .
+The integration of User Experience Analytics data with Performance Analytics is included in the base system. This task describes a scenario where you have uninstalled the User Experience Analytics Performance Analytics Integration plugin and now want to reinstall it. For information about ServiceNow Store applications, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
 To learn more about exporting data to the UI Builder, see [Data Visualization UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/sandiego/shared-components/sn-par-visualization-base/uib-setup).
 

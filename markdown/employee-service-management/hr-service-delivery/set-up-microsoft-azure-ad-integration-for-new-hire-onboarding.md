@@ -20,7 +20,7 @@ To set up the Microsoft Azure AD integration for new hire onboarding, you must f
 
 This integration requires subscriptions to the following:
 
--   Microsoft Azure AD spoke
+-   [Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)
 -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin
 
     **Note:** The Lifecycle Events for new hire onboarding is included as demo data with this plugin.
@@ -32,7 +32,7 @@ Role required: admin
 
 1.  Set up the Microsoft Azure AD spoke.
 
-    For instructions on how to set up the spoke, see Set up Microsoft Azure AD spoke.
+    For instructions on how to set up the spoke, see [Set up Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/set-up-azure.md).
 
 2.  Configure the remote directory sync to fetch the groups into your instance.
 

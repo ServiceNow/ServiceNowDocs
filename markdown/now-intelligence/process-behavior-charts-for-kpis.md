@@ -22,7 +22,7 @@ KPI Signals uses standard 3-sigma parameters. "Three-sigma" means that the indic
 
 ## Disabling KPI Signals
 
-KPI Signals is activated by default. If you do not want this feature, request a ServiceNow AI Platform administrator to set the property **com.snc.pa.activate\_kpi\_signals** to **false**. Because this property does not exist by default, the administrator must add it. You can refer them to Add a system property.
+KPI Signals is activated by default. If you do not want this feature, request a ServiceNow AI Platform administrator to set the property **com.snc.pa.activate\_kpi\_signals** to **false**. Because this property does not exist by default, the administrator must add it. You can refer them to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Important:** If you reactivate KPI Signals, signal detection resumes from the time you originally deactivated the feature, not from the time you reactivated it.
 

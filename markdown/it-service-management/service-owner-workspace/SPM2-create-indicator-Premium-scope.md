@@ -43,6 +43,6 @@ When you create an indicator and associate it with a job in an application, both
 
 4.  Navigate to **Performance Analytics** &gt; **Indicators** &gt; **Automated Indicators** and click **New** to create an indicator in the Service Portfolio Management Premium scope.
 
-    For details on how to create an automated indicator, refer to Create an automated indicator.
+    For details on how to create an automated indicator, refer to [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 

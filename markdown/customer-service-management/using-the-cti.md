@@ -47,7 +47,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 1.  Select one of the following options.
 
-<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d131295e172">
+<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d131278e172">
 
 **Click the phone icon in the banner frame.**
 
@@ -55,7 +55,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 Enter the phone number in the **Number** field and click **Call**.
 
-</td></tr><tr><td id="d131295e187">
+</td></tr><tr><td id="d131278e187">
 
 **Click the phone icon next to the __Contact__ or __Consumer__ fields on the Case form.**
 
@@ -102,7 +102,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 2.  Select your availability.
 
-<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d131295e369">
+<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d131278e369">
 
 **Available**
 
@@ -110,7 +110,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 The agent is available to take a call.
 
-</td></tr><tr><td id="d131295e378">
+</td></tr><tr><td id="d131278e378">
 
 **Not Available**
 
@@ -118,7 +118,7 @@ The agent is available to take a call.
 
 The agent is not available to take a call.
 
-</td></tr><tr><td id="d131295e387">
+</td></tr><tr><td id="d131278e387">
 
 **Busy**
 
@@ -126,7 +126,7 @@ The agent is not available to take a call.
 
 The agent is currently on a call with a customer.
 
-</td></tr><tr><td id="d131295e396">
+</td></tr><tr><td id="d131278e396">
 
 **Wrap Up**
 

@@ -30,15 +30,15 @@ The base system provides content types and content that you can use.
 
     **Note:** For more information on how to create and use content types, see [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d126397e100">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d126181e100">
 
 Field
 
-</th><th align="left" id="d126397e103">
+</th><th align="left" id="d126181e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126397e109">
+</th></tr></thead><tbody><tr><td id="d126181e109">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d126397e118">
+</td></tr><tr><td id="d126181e118">
 
 **Category**
 
@@ -60,7 +60,7 @@ The content type categories are:-   Portal Content
 
 For more information, see [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d126397e156">
+</td></tr><tr><td id="d126181e156">
 
 **Associated widgets**
 
@@ -68,7 +68,7 @@ For more information, see [Content Library](https://raw.githubusercontent.com/Se
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d126397e165">
+</td></tr><tr><td id="d126181e165">
 
 **Active**
 
@@ -76,7 +76,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d126397e175">
+</td></tr><tr><td id="d126181e175">
 
 **Value**
 

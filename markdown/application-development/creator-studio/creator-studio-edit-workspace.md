@@ -34,7 +34,7 @@ To customize how the form submission workspace appears, you must be given permis
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -84,7 +84,7 @@ Update the types of records that appear in a list
 
 </td><td>
 
-For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see .1.  Select **Modify conditions** in the Filtered list details panel.
+For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).1.  Select **Modify conditions** in the Filtered list details panel.
 2.  Use the condition builder to update what types of records the list should contain.
 3.  Save the update by selecting the **Apply** button.
 

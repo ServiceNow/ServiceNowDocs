@@ -68,7 +68,7 @@ Enter search query terms and operators in this field. To preview the query's res
 
 Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab.
 
- To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/session-debugging-ais.md) and .
+ To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/session-debugging-ais.md) and [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/script-debugger.md).
 
 </td></tr><tr><td>
 

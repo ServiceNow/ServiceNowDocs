@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
 
-The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**. Credential aliases allow an administrator to use specific credentials on Discovery schedules. Credential aliases provide more granular control over which credential a Discovery table is allowed to use. To remediate this security vulnerability, set **alias\_filtering\_behavior** to strict to prevent unnecessary exposure of credentials with elevated privileges. See  for more details.
+The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**. Credential aliases allow an administrator to use specific credentials on Discovery schedules. Credential aliases provide more granular control over which credential a Discovery table is allowed to use. To remediate this security vulnerability, set **alias\_filtering\_behavior** to strict to prevent unnecessary exposure of credentials with elevated privileges. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more details.
 
 ## More information
 
@@ -100,7 +100,7 @@ References
 
 </td><td>
 
--   
+-   [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 -   [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/connections-and-credentials/discovery-credential-alias.md)
 
 </td></tr></tbody>

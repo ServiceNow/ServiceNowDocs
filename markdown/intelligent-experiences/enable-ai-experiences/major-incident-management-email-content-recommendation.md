@@ -26,7 +26,7 @@ Use Now Assist context menu to refine the recommended content by elaborating, sh
 
 ## Composing an email content recommendation by for major incident management
 
-You can compose a major incident management email content recommendation for . To learn more, see .
+You can compose a major incident management email content recommendation for [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md). To learn more, see [Generate a Major Incident email content recommendation by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-mim-email-recommendation.md).
 
 ## Availability
 
@@ -46,7 +46,7 @@ IT Service Management
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 </td></tr></tbody>
 </table>

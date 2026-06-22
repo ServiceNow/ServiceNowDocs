@@ -197,15 +197,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d75764e631">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d74142e631">
 
 Option
 
-</th><th align="left" id="d75764e634">
+</th><th align="left" id="d74142e634">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75764e640">
+</th></tr></thead><tbody><tr><td id="d74142e640">
 
 **Create an assume role configuration for the management account**
 
@@ -223,7 +223,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/create-assume-role-config.md).
 
-</td></tr><tr><td id="d75764e697">
+</td></tr><tr><td id="d74142e697">
 
 **Configure the trusting account for Cloud Configuration Governance**
 

@@ -40,15 +40,15 @@ Customers can submit policy service requests from the Consumer Service Portal or
 
 3.  Create a policy service request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d70755e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d48685e116">
 
 Option
 
-</th><th align="left" id="d70755e119">
+</th><th align="left" id="d48685e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70755e125">
+</th></tr></thead><tbody><tr><td id="d48685e125">
 
 **Policy service request from a customer record**
 
@@ -58,7 +58,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d70755e152">
+</td></tr><tr><td id="d48685e152">
 
 **Policy service request from an interaction record**
 

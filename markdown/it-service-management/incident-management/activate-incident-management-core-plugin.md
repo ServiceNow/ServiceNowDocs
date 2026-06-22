@@ -7,7 +7,7 @@ release: xanadu
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -95,5 +95,5 @@ The date and time to activate the plugin.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Xanadu plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

@@ -26,7 +26,7 @@ The following image shows a sample data collector:
 
 \[Omitted image "pace-data-collector-script.jpg"\] Alt text: Data collector script.
 
-To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see .
+To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/scriptdebugger-api.md).
 
 The following table lists the data collector function parameters and how they can be used in the script.
 

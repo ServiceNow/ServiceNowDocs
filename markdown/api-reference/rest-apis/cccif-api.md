@@ -22,7 +22,7 @@ If the attachment is public, you can just send the attachment URL in the request
 
 To access this API, the Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\) plugin must be activated. In addition, the attachment system properties must be configured.
 
-For additional information on the capabilities of the Virtual Agent API, see Virtual Agent API.
+For additional information on the capabilities of the Virtual Agent API, see [Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/virtual-agent-api.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 

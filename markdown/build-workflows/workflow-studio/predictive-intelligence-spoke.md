@@ -18,7 +18,7 @@ Provides actions to make predictions from trained Predictive Intelligence soluti
 
 ## Predictive Intelligence subscription
 
-This spoke requires a subscription to Predictive Intelligence. For more information, see .
+This spoke requires a subscription to Predictive Intelligence. For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
 ## Key features
 
@@ -69,5 +69,5 @@ Predictive Intelligence for Flow Designer provides these user roles to control a
 **Related topics**  
 
 
-[bundle-platai.use-predictive-intelligence-flow-designer-ml-actions]
+[Use Predictive Intelligence in Flow Designer with ML actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.md)
 

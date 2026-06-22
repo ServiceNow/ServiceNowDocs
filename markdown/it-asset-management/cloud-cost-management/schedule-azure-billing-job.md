@@ -47,9 +47,9 @@ The support for Azure Exports method is available from Cloud Cost Management ver
     **Note:**
 
     -   If you provide your own name to the asset or resources of a resource group, you can't view the spend for Kubernetes clusters.
-    -   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see 
-    -   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see 
-    -   To set up Kubernetes discovery, see .
+    -   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.md)
+    -   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models.md)
+    -   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 -   If you have installed the Cloud Cost Management Infra Stack application along with Cloud Cost Management version 8.1, bill processing only happens on the Kubernetes cluster outside the Glide but within the ServiceNow datacenter. This framework supports parallel processing of data in chunks, making the billing file download faster.
 
     After you submit a request for Azure billing data, the blobs are generated based on the chunk size. You can use the system property **sn\_cld\_intg\_azure.billing\_chunk\_duration** to set the chunk size. For details, see [Configure the chunk size of Microsoft Azure billing blob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/config-aws-blob-ccminfra.md). Consider an example where you want to download 30 days of billing data and you have set the chunk size to 3, then the billing data is available in 10 blobs. After all the blobs are generated, the state of the job changes from Ready to Requested. These blobs are stored in some blob storage on the Azure portal. The Kubernetes framework then downloads and processes the generated blobs from Azure.
@@ -102,7 +102,7 @@ Notify users/groups
 
 The users or groups to be notified by email of the status of the job execution \(for example, download failure\). The system doesn’t send a notification for success.Users or groups with the Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integrations\_admin\] role are well suited to handle these issues.
 
-To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see .
+To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr><td>
 

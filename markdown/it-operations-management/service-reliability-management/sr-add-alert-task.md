@@ -32,15 +32,15 @@ Role required: Responder, Manager, or Administrator
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d373525e94">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d371954e94">
 
 Option
 
-</th><th align="left" id="d373525e97">
+</th><th align="left" id="d371954e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d373525e103">
+</th></tr></thead><tbody><tr><td id="d371954e103">
 
 **In the alert list view**
 
@@ -52,7 +52,7 @@ Select **Update**.
 
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d373525e127">
+</td></tr><tr><td id="d371954e127">
 
 **In the alert form**
 

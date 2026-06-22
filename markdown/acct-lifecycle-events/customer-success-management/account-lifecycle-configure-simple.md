@@ -21,7 +21,7 @@ You can configure simple playbook tasks using the Playbooks.
 Role required:
 
 -   sn\_acct\_lc.agent
--   One or more Playbooks roles. See  for details.
+-   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md) for details.
 
 ## About this task
 

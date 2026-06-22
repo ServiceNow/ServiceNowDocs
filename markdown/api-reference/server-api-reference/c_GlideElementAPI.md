@@ -193,7 +193,7 @@ Determines if the current field has been modified. This functionality is availab
 |----|-----------|
 |Boolean|True if the field has changed, false otherwise.|
 
-The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see .
+The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see [Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-events/r_ChangeEventsSampleScripts.md).
 
 ```
 if (!current.assigned_to.nil() && current.assigned_to.changes()) {
@@ -350,7 +350,7 @@ Gets the base table of the field.
 
 |Type|Description|
 |----|-----------|
-|String|Name of the base table. This name might be different from the table that the field is defined on. See  in the product documentation.|
+|String|Name of the base table. This name might be different from the table that the field is defined on. See [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md) in the product documentation.|
 
 The following example shows how to the base table for the Assignment Group field of an Incident record.
 
@@ -670,7 +670,7 @@ Gets the display value of the field in the language passed as a parameter.
 
 The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see .
+You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
@@ -1084,7 +1084,7 @@ To use the getLabel\(\) method in a scoped application, use the corresponding sc
 
 Gets the label value of the field in the language passed as a parameter.
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see .
+You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 See also:
 
@@ -1282,7 +1282,7 @@ Retrieves the display value for the associated field and escapes the HTML.
 
 |Type|Description|
 |----|-----------|
-|String|Escaped display value HTML for the associated field.|
+|String|Escaped [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_DisplayValues.md) HTML for the associated field.|
 
 The following example retrieves the display value of a KB article.
 
@@ -1688,9 +1688,9 @@ Sets the value of a field.
 
     See also:
 
-    -   
+    -   [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)
     -   [Alternatives to GlideEncrypter usage in knowledge base article KB1320986](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986)
-    -   
+    -   [Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -39,15 +39,15 @@ The **Reassign** option is displayed only for the following task types:
 
 2.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d73027e99">
+<table><thead><tr><th align="left" id="d73051e99">
 
 To
 
-</th><th align="left" id="d73027e102">
+</th><th align="left" id="d73051e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d73027e108">
+</th></tr></thead><tbody><tr><td id="d73051e108">
 
 **Open a task from the portal header**
 
@@ -65,7 +65,7 @@ The Supplier Task List is displayed.
 2.  Select the task that you want to reassign to a different contact.
 
 
-</td></tr><tr><td id="d73027e142">
+</td></tr><tr><td id="d73051e142">
 
 **Open a task from the My active items widget**
 
@@ -73,7 +73,7 @@ The Supplier Task List is displayed.
 
 Select the Tasks tile, which opens the The My To-dos page.
 
-</td></tr><tr><td id="d73027e151">
+</td></tr><tr><td id="d73051e151">
 
 **Open a task from the My tasks widget**
 

@@ -21,7 +21,7 @@ Now Assist in AI Search uses the Now LLM to extract actionable Q&amp;A Genius Re
 
 \[Omitted image "ai-search-answer-generation.png"\] Alt text: Now Assist Q&amp;A Genius Results in the Virtual Agent chat window.
 
-For more information, see .
+For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/now-assist-ais.md).
 
 **Parent Topic:**[Now Assist conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-platform-conv-experience.md)
 

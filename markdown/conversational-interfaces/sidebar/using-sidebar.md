@@ -87,15 +87,15 @@ Enter a short message for the participants of the Sidebar discussion.
 
 6.  After a discussion has been started, you can edit and delete messages.
 
-<table id="choicetable_e3f_lvd_rxb"><thead><tr><th align="left" id="d37990e269">
+<table id="choicetable_e3f_lvd_rxb"><thead><tr><th align="left" id="d59173e269">
 
 Option
 
-</th><th align="left" id="d37990e272">
+</th><th align="left" id="d59173e272">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37990e278">
+</th></tr></thead><tbody><tr><td id="d59173e278">
 
 **Edit a message**
 
@@ -107,7 +107,7 @@ Select the More options icon \[Omitted image "ci\_more\_options\_icon.png"\] Alt
 -   If a message you sent contains a URL, you can delete the message but you can't edit it.
 
 
-</td></tr><tr><td id="d37990e308">
+</td></tr><tr><td id="d59173e308">
 
 **Delete a message**
 

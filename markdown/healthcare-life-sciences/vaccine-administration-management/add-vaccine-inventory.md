@@ -123,7 +123,7 @@ Depreciation
 
 </td><td>
 
-The depreciation scheme for the model.
+The [depreciation scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/asset-management/c_CreatingFixedAssets.md) for the model.
 
 </td></tr><tr><td>
 

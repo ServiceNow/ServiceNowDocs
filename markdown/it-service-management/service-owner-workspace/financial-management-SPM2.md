@@ -55,5 +55,5 @@ When the system property **sn\_spm\_spend.offering\_cost\_source** = **Financial
 
 For each node, determine the Financial Management estimated spend for the currently selected Financial Management period by adding all the child entity estimated spends. This happens recursively up the entire taxonomy structure, starting with the service offering, to the service, to the taxonomy.
 
-For detailed information about integrating with Financial Management and configuring costing for a service offering, refer to Financial Management for licensed SPM users.
+For detailed information about integrating with Financial Management and configuring costing for a service offering, refer to [Financial Management for licensed SPM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/financial-management-spm.md).
 

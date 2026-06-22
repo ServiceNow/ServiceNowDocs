@@ -32,15 +32,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 3.  View the legal request.
 
-<table id="choicetable_spn_5bq_bcc"><thead><tr><th align="left" id="d280675e122">
+<table id="choicetable_spn_5bq_bcc"><thead><tr><th align="left" id="d280496e122">
 
 Method
 
-</th><th align="left" id="d280675e125">
+</th><th align="left" id="d280496e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d280675e131">
+</th></tr></thead><tbody><tr><td id="d280496e131">
 
 **Using search**
 
@@ -53,7 +53,7 @@ Legal requests and matters matching the search criteria will be displayed.
 2.  Select the legal request or matter.
 
 
-</td></tr><tr><td id="d280675e165">
+</td></tr><tr><td id="d280496e165">
 
 **For an email**
 

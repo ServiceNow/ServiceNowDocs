@@ -29,5 +29,5 @@ The system administrator can also create a channel configuration to associate an
 **Related topics**  
 
 
-[bundle-platadm.c_EmailAccounts]
+[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_EmailAccounts.md)
 

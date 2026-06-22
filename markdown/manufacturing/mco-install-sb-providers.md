@@ -31,7 +31,7 @@ The following plugins are automatically installed with the Service Exchange for 
 -   com.glide.hub.process.sync
 -   com.snc.ihub\_spoke\_util\_pack
 
-Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see.
+Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see[Components installed with Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-installed-components-provider.md).
 
 ## Procedure
 

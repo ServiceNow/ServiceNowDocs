@@ -7,7 +7,7 @@ release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Metric rules for Digital End-User Experience, Configuring Digital End-User Experience, Digital End-User Experience, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d197980e44">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d198071e44">
 
 Options
 
-</th><th align="left" id="d197980e47">
+</th><th align="left" id="d198071e47">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d197980e53">
+</th></tr></thead><tbody><tr><td id="d198071e53">
 
 **System Properties table \[sys\_properties\]**
 
@@ -40,7 +40,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d197980e68">
+</td></tr><tr><td id="d198071e68">
 
 **Alert Correlation Rules**
 

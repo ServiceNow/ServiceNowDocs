@@ -33,7 +33,7 @@ This task enables you to create, review, and update all xNFs. By default, 19 fun
 
 3.  On the form, fill in the fields.
 
-    To see a description of the fields, see .
+    To see a description of the fields, see [Design domain of the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
 4.  Select **Submit**.
 

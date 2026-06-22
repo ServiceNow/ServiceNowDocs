@@ -54,5 +54,5 @@ For more information, see [Taxonomy and connected content](https://raw.githubuse
 **Related topics**  
 
 
-[bundle-platcap.t_DefineAKnowledgeCategory]
+[Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)
 

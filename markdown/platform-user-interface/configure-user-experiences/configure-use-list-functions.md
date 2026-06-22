@@ -68,7 +68,7 @@ To sort a list, use one of the following methods:
 **Related topics**  
 
 
-[bundle-platadm.c_ChoiceLists]
+[Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_ChoiceLists.md)
 
 [bundle-platadm.c_IntValsForDfltChoiceList]
 

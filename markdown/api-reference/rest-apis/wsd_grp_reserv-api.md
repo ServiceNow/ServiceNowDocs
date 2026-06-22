@@ -20,7 +20,7 @@ Group reservations allow you to reserve different locations for various people \
 
 This API runs in the `sn_wsd_rsv` namespace. To access this API, the caller must have the sn\_wsd\_core.workplace\_user role and the Workplace Reservation Management \(sn\_wsd\_rsv\) plugin must be activated.
 
-For additional information on Workplace Reservation Management, see Workplace Reservation Management.
+For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -1663,7 +1663,7 @@ children.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -1714,7 +1714,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -1722,7 +1722,7 @@ shift
 
 </td><td id="shift-update_reserv-entry">
 
-Updated sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table.For additional information on shift-based reservations, see Enable shift-based reservation.
+Updated sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table.For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
  Data type: String
 
@@ -2078,7 +2078,7 @@ children.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -2131,7 +2131,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -2141,7 +2141,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see Enable shift-based reservation.
+For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Data type: String
 

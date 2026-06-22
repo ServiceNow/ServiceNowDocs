@@ -18,7 +18,7 @@ The Customer Service Management for Orders feature adds support for orders and o
 
 **Note:** Starting with the Utah release, the Customer Service Management for Orders feature has been deprecated. It is no longer supported, enhanced, nor available for activation. For details, see the  [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-The  application replaces the Customer Service Management for Orders feature. For information on moving to Order Management for Customer Service Management, see the [Fix Script to Support Script-Based Data Migration to New Order Management Application](https://www.servicenow.com/community/csm-articles/fix-script-to-support-script-based-data-migration-to-new-order/ta-p/2297073) article in ServiceNow Community.
+The [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-overview.md) application replaces the Customer Service Management for Orders feature. For information on moving to Order Management for Customer Service Management, see the [Fix Script to Support Script-Based Data Migration to New Order Management Application](https://www.servicenow.com/community/csm-articles/fix-script-to-support-script-based-data-migration-to-new-order/ta-p/2297073) article in ServiceNow Community.
 
 Customer Service Management for Orders enables customers and consumers to do the following through a self-service portal:
 

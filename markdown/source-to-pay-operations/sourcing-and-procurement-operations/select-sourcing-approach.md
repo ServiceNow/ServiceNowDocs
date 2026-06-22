@@ -34,15 +34,15 @@ Ensure that you have complete clarity on the sourcing request by reviewing the i
 
 3.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d75813e95">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d75837e95">
 
 Decision
 
-</th><th align="left" id="d75813e98">
+</th><th align="left" id="d75837e98">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d75813e104">
+</th></tr></thead><tbody><tr><td id="d75837e104">
 
 **Add to an existing negotiation event**
 
@@ -50,7 +50,7 @@ Action
 
 To source with an existing group of requests, select an existing negotiation event from the list.The **Supplier response close** field is auto-populated with the supplier response close date specified in the existing negotiation event that you're adding the sourcing request to.
 
-</td></tr><tr><td id="d75813e118">
+</td></tr><tr><td id="d75837e118">
 
 **Add to a new negotiation event**
 
@@ -58,7 +58,7 @@ To source with an existing group of requests, select an existing negotiation eve
 
 To source the request by itself or with a new group of similar requests, add to a new negotiation event and update the details of this negotiation event.The supplier response close date specified in the sourcing request is auto-populated in the **Supplier response close** field. If the sourcing manager changes the supplier response deadline for a new negotiation event, the sourcing request also reflects this updated date.
 
-</td></tr><tr><td id="d75813e132">
+</td></tr><tr><td id="d75837e132">
 
 **Continue**
 

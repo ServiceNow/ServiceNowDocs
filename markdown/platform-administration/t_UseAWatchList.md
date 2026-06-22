@@ -22,7 +22,7 @@ Role required: none
 
 1.  Navigate to a record that you want to add watchers to.
 
-    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may need to adjust your form view or ask your administrator to update the form to add a watch list.
+    **Note:** Not all records have watch lists. If you’re unable to see a watch list, you may need to [adjust your form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md) or ask your administrator to update the form to add a watch list.
 
 2.  Expand the watch list by selecting the lock icon \( \[Omitted image "LockIconNE.png"\] Alt text: lock icon\).
 

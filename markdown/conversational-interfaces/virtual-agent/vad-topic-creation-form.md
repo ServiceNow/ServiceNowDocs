@@ -46,7 +46,7 @@ Model Type
 
 The **LLM** value is used for topic discovery within LLMs, and the **NLU/Keywords** value is used for either keyword or NLU discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see  and [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) and [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

@@ -101,15 +101,15 @@ If you’re using Software Asset Workspace, the option to create the monday.com 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114024e500">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114113e500">
 
 Interface
 
-</th><th align="left" id="d114024e503">
+</th><th align="left" id="d114113e503">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114024e509">
+</th></tr></thead><tbody><tr><td id="d114113e509">
 
 **Core UI**
 
@@ -120,7 +120,7 @@ Action
 3.  Select **monday.com Integration Profile**.
 
 
-</td></tr><tr><td id="d114024e551">
+</td></tr><tr><td id="d114113e551">
 
 **Software Asset Workspace**
 

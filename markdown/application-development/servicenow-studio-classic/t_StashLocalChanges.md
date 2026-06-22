@@ -52,7 +52,7 @@ Stashing changes removes them from the current application and saves them for a 
 -   Close dialog
 -   [Legacy - Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/t_ManageStashes.md)
 
-To learn more see Getting started with credentials
+To learn more see [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 
 **Parent Topic:**[Legacy - Source Control integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/c_SourceControlIntegration.md)
 

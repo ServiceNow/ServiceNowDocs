@@ -18,7 +18,7 @@ With Financial Modeling, you can determine the allocation rules and run them aut
 
 Start with associating data sources to cost models. Use data source to add additional columns for cleansing or bucket split by selecting the Used by cleansing option of the Financial Data Source Field Map record.
 
-Fiscal calendars, which was under IT Financial Management, has been moved to ServiceNow AI Platform area. You can access the documentation for Fiscal calendars here.
+Fiscal calendars, which was under IT Financial Management, has been moved to ServiceNow AI Platform area. You can access the documentation for Fiscal calendars [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
 
 -   **[Financial data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_FinancialManagementImport.md)**  
 Financial data resides in the General Ledger Staged Data table.

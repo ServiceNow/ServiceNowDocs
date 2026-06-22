@@ -55,7 +55,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
     2.  Enter the required fields.
 
-<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d41342e232">
+<table id="choicetable_qcs_vmh_j1c"><tbody><tr><td id="d40609e232">
 
 **Type**
 
@@ -63,7 +63,7 @@ For example, you may have multiple teams that perform activities. One team enter
 
 The type of input the agent is collecting for a field. For example, string, reference, integer, etc.
 
-</td></tr><tr><td id="d41342e241">
+</td></tr><tr><td id="d40609e241">
 
 **Label**
 
@@ -71,7 +71,7 @@ The type of input the agent is collecting for a field. For example, string, refe
 
 The label of the field in the UI, during the playbook run. The label can consist of any text.
 
-</td></tr><tr><td id="d41342e253">
+</td></tr><tr><td id="d40609e253">
 
 **Column name**
 
@@ -79,7 +79,7 @@ The label of the field in the UI, during the playbook run. The label can consist
 
 The name of the input being collected. Spaces cannot be used to delimit words.
 
-</td></tr><tr><td id="d41342e262">
+</td></tr><tr><td id="d40609e262">
 
 **Max Length**
 
@@ -87,7 +87,7 @@ The name of the input being collected. Spaces cannot be used to delimit words.
 
 The maximum length a string value can be entered for a string type of field. The variable can store longer strings than it can display.
 
-</td></tr><tr><td id="d41342e271">
+</td></tr><tr><td id="d40609e271">
 
 **Application**
 

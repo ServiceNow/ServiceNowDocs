@@ -54,15 +54,15 @@ The following is a short summary of each of the navigation tab types:
 
 6.  Select or create navigation tab types to add to your navigation bar.
 
-<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d68297e150">
+<table id="choicetable_opn_3z2_ccc"><thead><tr><th align="left" id="d68334e150">
 
 Method to add navigation tabs
 
-</th><th align="left" id="d68297e153">
+</th><th align="left" id="d68334e153">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d68297e159">
+</th></tr></thead><tbody><tr><td id="d68334e159">
 
 **Select existing navigation tabs**
 
@@ -74,7 +74,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d68297e192">
+</td></tr><tr><td id="d68334e192">
 
 **Create either a saved, notifications, or settings navigation tab type**
 
@@ -95,7 +95,7 @@ Procedure
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d68297e295">
+</td></tr><tr><td id="d68334e295">
 
 **Create either a launcher or screen navigation tab type**
 

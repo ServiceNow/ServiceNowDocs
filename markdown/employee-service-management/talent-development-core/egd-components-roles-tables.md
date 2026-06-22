@@ -16,7 +16,7 @@ breadcrumb: [Talent Development Core application reference, Talent Development C
 
 Several type of components are installed with Talent Development Core, including roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 ## Talent Development Core Roles
 

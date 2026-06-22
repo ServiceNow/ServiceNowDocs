@@ -29,7 +29,7 @@ An app is a standalone piece of code that implements a collection of features on
 
 After getting an app from the ServiceNow Store, install it using the Application Manager. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/application-manager.md).
 
-You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see .
+You can also create your own apps. For more information about creating apps for your ServiceNow AI Platform instance, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/build-applications.md).
 
 ## Integrations
 

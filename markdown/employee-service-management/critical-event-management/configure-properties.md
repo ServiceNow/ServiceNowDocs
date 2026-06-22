@@ -42,7 +42,7 @@ Role required: admin
 
     -   To add a client id, obtain a client id from Google and enter it in the **Client ID from google to access Geo map** field.
     -   To add an API key, obtain an API key from Google and enter it in the **Api key from Google to access Geo map** field.
-    For more information, see .
+    For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/set-up-google-maps-api.md).
 
 7.  Select **Save**.
 

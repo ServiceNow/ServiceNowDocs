@@ -38,15 +38,15 @@ Role required: sn\_si.admin
 
 6.  In the record that is displayed, edit the fields.
 
-<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d130717e160">
+<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d130752e160">
 
 Option
 
-</th><th align="left" id="d130717e163">
+</th><th align="left" id="d130752e163">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d130717e169">
+</th></tr></thead><tbody><tr><td id="d130752e169">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Unique name for the security tag.
 
-</td></tr><tr><td id="d130717e178">
+</td></tr><tr><td id="d130752e178">
 
 **Color**
 
@@ -62,7 +62,7 @@ Unique name for the security tag.
 
 Security tag color. Select a color from the choice list.
 
-</td></tr><tr><td id="d130717e187">
+</td></tr><tr><td id="d130752e187">
 
 **Security Tag Group**
 
@@ -70,7 +70,7 @@ Security tag color. Select a color from the choice list.
 
 Name of the security tag group. Click the information icon to view the available groups. Default is Metatag group.
 
-</td></tr><tr><td id="d130717e196">
+</td></tr><tr><td id="d130752e196">
 
 **Enforce restricted access**
 
@@ -78,7 +78,7 @@ Name of the security tag group. Click the information icon to view the available
 
 Select this option to assign read and write roles needed by users to read or write to records that have this security tag. Default is cleared.
 
-</td></tr><tr><td id="d130717e206">
+</td></tr><tr><td id="d130752e206">
 
 **Order**
 
@@ -86,7 +86,7 @@ Select this option to assign read and write roles needed by users to read or wri
 
 Specify the order the tag appears on forms or within a list. Default is 100.To set the order on the list, enter a value. For example, 100, 200, 300, 400. The tag with the lowest the number is displayed first on the list. The profile with the highest number is displayed last.
 
-</td></tr><tr><td id="d130717e218">
+</td></tr><tr><td id="d130752e218">
 
 **Active**
 
@@ -94,7 +94,7 @@ Specify the order the tag appears on forms or within a list. Default is 100.To s
 
 Turn this tag on or off. Default is selected \(active\)
 
-</td></tr><tr><td id="d130717e227">
+</td></tr><tr><td id="d130752e227">
 
 **Description**
 

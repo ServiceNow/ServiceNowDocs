@@ -53,7 +53,7 @@ Use this plugin to install the Knowledge Management Advanced plugin. Activating 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 
 -   **[Component installed with KCS Integration for Incident Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
@@ -64,5 +64,5 @@ The Incident KCS Article table is installed with the activation of the KCS Integ
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Xanadu plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

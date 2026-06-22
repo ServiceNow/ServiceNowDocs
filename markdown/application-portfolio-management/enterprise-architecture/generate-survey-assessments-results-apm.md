@@ -66,7 +66,7 @@ Your business application is the assessable record and it is linked to a metric 
 
     The user can view and take the assigned assessments by navigating to **Self-Service** &gt; **My Assessments &amp; Surveys**.
 
-    For more information, see Take a survey.
+    For more information, see [Take a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/t_TakeASurvey.md).
 
     After the user submits the assessments, the **State** of the assessment instance in the **Assessments Instances** tab changes to **Complete**.
 
@@ -80,7 +80,7 @@ Your business application is the assessable record and it is linked to a metric 
 
 12. Click the **Metric Category Results** tab to view the weight, rating, and normalized value of each business application that was assessed by the user or the user group.
 
-    For more information, see View an assessment category result to know how the assessment results are calculated.
+    For more information, see [View an assessment category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/t_ViewACategoryResult.md) to know how the assessment results are calculated.
 
 
 **Parent Topic:**[Create or edit an indicator to assess an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-portfolio-management/enterprise-architecture/create-application-indicators.md)

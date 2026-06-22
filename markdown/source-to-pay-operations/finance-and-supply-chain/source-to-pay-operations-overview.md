@@ -143,7 +143,7 @@ Source-to-Pay Operations supports the following integrations:
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Source-to-Pay Operations users at [Now Community](https://www.servicenow.com/community/)
--   Explore which other tools can optimize your Source-to-Pay Operations experience, like Virtual Agent, and .
+-   Explore which other tools can optimize your Source-to-Pay Operations experience, like [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md), and [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
 
 ## Products, features, and customer journeys
 

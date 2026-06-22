@@ -141,15 +141,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_ov3_gbq_nkb"><thead><tr><th align="left" id="d166901e483">
+<table id="choicetable_ov3_gbq_nkb"><thead><tr><th align="left" id="d166940e483">
 
 Option
 
-</th><th align="left" id="d166901e486">
+</th><th align="left" id="d166940e486">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166901e492">
+</th></tr></thead><tbody><tr><td id="d166940e492">
 
 ** **
 
@@ -157,7 +157,7 @@ Description
 
  
 
-</td></tr><tr><td id="d166901e499">
+</td></tr><tr><td id="d166940e499">
 
 **Continue**
 
@@ -165,7 +165,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d166901e516">
+</td></tr><tr><td id="d166940e516">
 
 **Update**
 
@@ -173,7 +173,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the ArcSight ESM Event Profiles list is displayed.
 
-</td></tr><tr><td id="d166901e528">
+</td></tr><tr><td id="d166940e528">
 
 **Previous**
 
@@ -181,7 +181,7 @@ Your data is saved and the ArcSight ESM Event Profiles list is displayed.
 
 The Correlation Event Selection form is displayed.
 
-</td></tr><tr><td id="d166901e538">
+</td></tr><tr><td id="d166940e538">
 
 **Delete**
 

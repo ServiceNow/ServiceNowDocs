@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for FSO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 

@@ -20,7 +20,7 @@ This API is a ServiceNow® implementation of the Open API TMForum TMF641 Service
 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
-To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see . For information about Order Management tables, entities, and relationships, see .
+To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see . For information about Order Management tables, entities, and relationships, see [Order Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-order-data-model.md).
 
 This API is provided within the `sn_tmf_api` namespace.
 
@@ -432,7 +432,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see .
+Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -709,7 +709,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1327,7 +1327,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see 
+Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md)
 
 Data type: String
 
@@ -1602,7 +1602,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -2116,7 +2116,7 @@ Required. Action to perform on the service order item. Possible actions are defi
 -   resume
 -   suspend
 
-For details, see .
+For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -2405,7 +2405,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -2413,7 +2413,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -2757,7 +2757,7 @@ Action to perform on the service order item. Possible actions are defined on the
 -   change
 -   delete
 
-For details, see .
+For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -3024,7 +3024,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3032,7 +3032,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3817,7 +3817,7 @@ Required. Action to perform on the service order item. Possible actions are defi
 -   resume
 -   suspend
 
-For details, see .
+For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -4108,7 +4108,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4116,7 +4116,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4532,7 +4532,7 @@ Action to perform on the service order item. Possible actions are defined on the
 -   resume
 -   suspend
 
-For details, see .
+For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -4795,7 +4795,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4803,7 +4803,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -5568,7 +5568,7 @@ To use this method, the Outbound Request table must contain the specified domain
 
 **Note:** You can't create new records in this table using this endpoint.
 
-For additional information on domain orders, see .
+For additional information on domain orders, see [Order Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-order-data-model.md).
 
 ### URL format
 

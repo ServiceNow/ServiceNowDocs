@@ -94,7 +94,7 @@ Automatically assign supplier cases to agents based on availability and capacity
 
 </td></tr><tr><td>
 
-Risk Assessments Integration for Supplier Lifecycle Operations
+[Risk Assessments Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/better-together/solutions/better-tprm-slo.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the .
+    Learn more about what's new and changed. See the [Supplier Lifecycle Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/supplier-lifecycle-operations-rn.md).
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 

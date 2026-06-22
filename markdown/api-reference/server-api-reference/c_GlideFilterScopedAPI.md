@@ -190,7 +190,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See Encoded query strings. Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md). Results are case-sensitive, unless disabled using the [setCaseSensitive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) method.To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See Encoded query strings. To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
+Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md). To exclude null values from GlideFilter query results, add ISNOTEMPTY to the query condition.
 
  **Note:** The **filter** values are case-sensitive. In addition, you cannot use [setCaseSensitive\(false\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideFilterScopedAPI.md) to change the change the case-sensitive value.
 

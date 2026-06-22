@@ -50,7 +50,7 @@ You can do the following tasks to set the existing time-limited authentication p
 
 To learn how to configure the properties, see [Time Limited Authentication Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/issue-auto-resolution-for-hr/iar-time-limited-authentication-properties-form.md).
 
-To learn more about time-limited authentication, see Time limited authentication.
+To learn more about time-limited authentication, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/time-based-authentication-with-mfa.md).
 
 ## User criteria for generating the digest link
 

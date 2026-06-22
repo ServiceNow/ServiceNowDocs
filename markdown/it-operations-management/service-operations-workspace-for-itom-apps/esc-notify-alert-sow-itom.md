@@ -67,15 +67,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d264167e240">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d262579e240">
 
 Action
 
-</th><th align="left" id="d264167e243">
+</th><th align="left" id="d262579e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d264167e249">
+</th></tr></thead><tbody><tr><td id="d262579e249">
 
 **Create an incident**
 
@@ -85,7 +85,7 @@ Creates an incident for the alerts that match the specified filter.For details o
 
 To include additional fields in the incident, select **+ Add**.
 
-</td></tr><tr><td id="d264167e272">
+</td></tr><tr><td id="d262579e272">
 
 **Use outbound webhooks to send data to other systems**
 

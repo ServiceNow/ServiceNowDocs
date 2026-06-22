@@ -30,7 +30,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
 ### Before you begin
 
--   Activate the Tableau spoke. For more information, see .
+-   Activate the Tableau spoke. For more information, see [Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/tableau-spoke.md).
 -   Tableau Cloud Role required: site administrator
 
 ### Procedure
@@ -102,15 +102,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d38705e471">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d38794e472">
 
 Interface
 
-</th><th align="left" id="d38705e474">
+</th><th align="left" id="d38794e475">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d38705e480">
+</th></tr></thead><tbody><tr><td id="d38794e481">
 
 **Core UI**
 
@@ -121,7 +121,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d38705e522">
+</td></tr><tr><td id="d38794e523">
 
 **Software Asset Workspace**
 

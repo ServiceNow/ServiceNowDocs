@@ -32,5 +32,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platux.c_PersonalLists]
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md)
 

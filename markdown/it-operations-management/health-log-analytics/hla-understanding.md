@@ -30,7 +30,7 @@ Health Log Analytics can handle any kind of machine-generated textual log data. 
 
 ## Architecture
 
-Health Log Analytics collects logs streaming into your ServiceNow instance from endpoints or data lakes, such as Splunk and Elasticsearch. The instance receives the logs via the MID Server connector instance. Health Log Analytics identifies and triages anomalies in your log data using unsupervised machine-learning \(ML\) models. It then groups the anomalies together and applies further algorithms to help identify the root cause of the issue.
+Health Log Analytics collects logs streaming into your ServiceNow instance from endpoints or data lakes, such as Splunk and Elasticsearch. The instance receives the logs via the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md) connector instance. Health Log Analytics identifies and triages anomalies in your log data using unsupervised machine-learning \(ML\) models. It then groups the anomalies together and applies further algorithms to help identify the root cause of the issue.
 
 The following figure shows a setup using Rsyslog, Splunk, Filebeat, and Elasticsearch.
 

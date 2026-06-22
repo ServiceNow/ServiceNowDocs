@@ -26,7 +26,7 @@ Role required: admin
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.   called glide.ui.polaris.login.logo.height.
+2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) called glide.ui.polaris.login.logo.height.
 
 3.  Set the system property **Value** to the maximum CSS height value for your logo.
 

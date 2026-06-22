@@ -32,15 +32,15 @@ Role required: sn\_shop.shopper
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d80585e91">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d80609e91">
 
 Action
 
-</th><th align="left" id="d80585e94">
+</th><th align="left" id="d80609e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80585e100">
+</th></tr></thead><tbody><tr><td id="d80609e100">
 
 **Checkout now**
 
@@ -48,7 +48,7 @@ Description
 
 Select the quote that works best for you and proceed to checkout. The quick checkout pane is displayed, with the details for your purchase already filled in. For more information on how to proceed, see [Order a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
 
-</td></tr><tr><td id="d80585e119">
+</td></tr><tr><td id="d80609e119">
 
 **Reject all quotes**
 

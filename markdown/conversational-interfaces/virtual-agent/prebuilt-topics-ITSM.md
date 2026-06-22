@@ -32,7 +32,7 @@ Activated by
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Virtual Agent conversations
+[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ com.sn\_csm.virtualagent
 
 </td></tr><tr><td>
 
-Human Resources Virtual Agent conversations
+[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ Request the HR Service Delivery Virtual Agent Conversations from the ServiceNow 
 
 </td></tr><tr><td>
 
-ITSM Virtual Agent Conversations
+[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -84,9 +84,9 @@ For details on creating, testing \(previewing\), duplicating, and publishing a t
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 
 -   Reviewing a prebuilt NLU model – After you install the plugins for predefined topics, you can view the prebuilt models in NLU Workbench. The prebuilt NLU models for ServiceNow applications define the intents, entities, and utterances used for the predefined topics. These models are also trained and published. You can also review the utterances for a prebuilt model in Virtual Agent Designer. However to copy a prebuilt model, you use NLU Workbench.
--   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can Duplicate an NLU model prebuilt NLU models to create your own NLU models and Import an NLU intent from prebuilt models or other NLU models that you create in NLU Workbench.
+-   Duplicating prebuilt NLU models – Although prebuilt NLU models are read only and can't be edited, you can [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md) prebuilt NLU models to create your own NLU models and [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/import-nlu-intent.md) from prebuilt models or other NLU models that you create in NLU Workbench.
 
-For details on creating, training, and publishing ServiceNow NLU models, see .
+For details on creating, training, and publishing ServiceNow NLU models, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 **Parent Topic:**[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.md)
 

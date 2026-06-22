@@ -34,15 +34,15 @@ When a DLP analyst or approver performs the Download evidence files for DLP Inci
 
 3.  Select the preferred storage type.
 
-<table id="choicetable_tq4_n1g_ldc"><thead><tr><th align="left" id="d39146e119">
+<table id="choicetable_tq4_n1g_ldc"><thead><tr><th align="left" id="d39181e119">
 
 Field
 
-</th><th align="left" id="d39146e122">
+</th><th align="left" id="d39181e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39146e128">
+</th></tr></thead><tbody><tr><td id="d39181e128">
 
 **Evidence file storage**
 
@@ -50,7 +50,7 @@ Description
 
 Option to enable the evidence file storage.
 
-</td></tr><tr><td id="d39146e137">
+</td></tr><tr><td id="d39181e137">
 
 **Storage type**
 

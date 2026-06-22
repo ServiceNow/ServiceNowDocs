@@ -31,7 +31,7 @@ The **glide.authenticate.multisso.debug** property controls debug logging for Mu
 |Security risk rating|4.0|
 |References|[Multi-Provider SSO properties, tables, and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/r_InstalledWithMultiProviderSSO.md)|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

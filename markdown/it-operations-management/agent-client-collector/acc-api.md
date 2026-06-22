@@ -18,7 +18,7 @@ Use the Agent Client Collector API to create a flow that executes an `osquery` c
 
 The system supports osquery 5.7.0.
 
-For details on agent APIs, see Enable agent APIs.
+For details on agent APIs, see [Enable agent APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/AccAgentsAPIAPIScoped.md).
 
-For details on enabling policy APIs, see Enable policy APIs.
+For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
 

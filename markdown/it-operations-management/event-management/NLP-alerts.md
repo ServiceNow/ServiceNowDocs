@@ -40,6 +40,6 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Submit &amp; Train**.
 
-    For details on ML solutions, see Reviewing your ML solution training jobs.
+    For details on ML solutions, see [Reviewing your ML solution training jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/reviewing-ml-solution-training-jobs.md).
 
 

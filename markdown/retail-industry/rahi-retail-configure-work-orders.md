@@ -20,5 +20,5 @@ In Retail Core, both work orders and work order tasks must be created and comple
 
 Work orders used in Retail Core are configured just as they are for Field Service Management.
 
-For information on configuring work orders, see .
+For information on configuring work orders, see [Configuring work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/work-order-management/configure-work-orders.md).
 

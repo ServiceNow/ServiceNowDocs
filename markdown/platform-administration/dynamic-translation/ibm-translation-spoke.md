@@ -56,7 +56,7 @@ For information on the IBM Language Translator API and the notice of deprecation
 
 ## Connection and credential alias requirements
 
-IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Credentials and connection information.
+IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 This spoke used the IBMTranslation alias \(sn\_ibm\_trans\_spoke.IBMTranslation\) to authorize actions.
 

@@ -100,7 +100,7 @@ References
 
 </td><td>
 
-
+[Attachment limit properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AttachmentLimitProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-file-resources.md)

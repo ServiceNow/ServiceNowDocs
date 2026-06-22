@@ -26,7 +26,7 @@ The following elements work together to identify what the user wants to do so th
 
     A model group supports a given application, user roles, and languages. For example, you may have a model that supports the Search feature and another model that supports Virtual Agent. Typically, a model group contains multiple intents.
 
-    For more information, see Model management.
+    For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
 
 -   **Intents**
 
@@ -37,7 +37,7 @@ The following elements work together to identify what the user wants to do so th
     -   Customers, such as the US Army, Wells Fargo, or Boeing.
     In Virtual Agent, a single intent is mapped to one conversation topic.
 
-    For more information, see NLU intents.
+    For more information, see [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/intents.md).
 
 -   **Utterances**
 
@@ -56,7 +56,7 @@ The following elements work together to identify what the user wants to do so th
     -   Entities based on ServiceNow records, such as a case number.
     -   Company- or domain-specific entities, such as meeting rooms, company policies, and so forth.
 
-For more information, see NLU entities.
+For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/entities.md).
 
 \[Omitted image "nlu-intent-example.png"\] Alt text: The Check IT Ticket Status intent contains utterances that include the many ways a user asks a question. The terms "ticket," "issue," and "request" refer to the same thing.
 
@@ -143,7 +143,7 @@ Another example is when a user might ask a casual question or engage in small ta
 
 If you're using ServiceNow NLU, you can map an NLU model group and an associated intent to a topic. You can also update, train, and test the associated NLU model from within Virtual Agent Designer. As you work on a topic, you can also improve or modify the utterances and the associated entities for an intent without leaving the interface.
 
-ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see Multilingual model management.
+ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
 
 As you work on your topics, Virtual Agent Designer provides language-mapping views for previewing and testing topics with their associated language-specific models. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/localize-va-topic.md).
 

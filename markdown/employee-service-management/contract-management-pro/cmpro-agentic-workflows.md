@@ -48,9 +48,9 @@ Uses AI agents to retrieve contract details such as renewal notice period, termi
 
 To modify an agentic workflow, you must first duplicate it, and then update it. For more information see:
 
--   
--   
--   
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md)
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/modify-aia-use-case.md)
 
 **Note:** When you modify an agentic workflow, AI agents, or tools, make sure that you update all instructions accordingly.
 
@@ -58,6 +58,6 @@ If you have customized the Manage contract repository agentic workflow, [update 
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

@@ -83,7 +83,7 @@ Work notes
 
 Information specific to the case that can help other HR agents. **Work Notes** are not visible to the **Subject person**.The sn\_hr\_core.restrict\_guest\_email system property allows a user to send an email from a personal email account referencing an HR case. When the property has a value of false \(default\), the text from the email appears in the Work notes field. To access system properties, enter `sys_properties.list` in the navigation filter.
 
- **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+ **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr></tbody>
 </table>8.  Select **Create Case**.

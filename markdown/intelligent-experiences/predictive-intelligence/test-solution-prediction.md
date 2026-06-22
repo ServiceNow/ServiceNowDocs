@@ -105,7 +105,7 @@ Result: When the form refreshes, an information message appears with the inciden
 **Related topics**  
 
 
-[bundle-crapiref.agent-intelligence-api]
+[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/agent-intelligence-api.md)
 
-[bundle-crapiref.c_MLPredictorAPI]
+[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
 

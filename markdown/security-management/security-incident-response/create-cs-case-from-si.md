@@ -50,5 +50,5 @@ Role required: sn\_si.basic and sn\_customerservice\_agent
 **Related topics**  
 
 
-[bundle-csm.configure-csm-case-management]
+[Customer service case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-csm-case-management.md)
 

@@ -37,15 +37,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d140018e127">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d139097e127">
 
 Choice
 
-</th><th align="left" id="d140018e130">
+</th><th align="left" id="d139097e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140018e136">
+</th></tr></thead><tbody><tr><td id="d139097e136">
 
 **Use the Duplicate CI Remediator**
 
@@ -55,7 +55,7 @@ Use the legacy Duplicate CI Remediator to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d140018e162">
+</td></tr><tr><td id="d139097e162">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -65,7 +65,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d140018e195">
+</td></tr><tr><td id="d139097e195">
 
 **Remediate using a template**
 

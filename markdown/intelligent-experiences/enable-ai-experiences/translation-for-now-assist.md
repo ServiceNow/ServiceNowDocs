@@ -49,7 +49,7 @@ The following languages are supported:
 
 ## Choosing a translation service
 
-There are different factors that can go into your decision to use one translation service over the other, such as latency and quality of translation. Your entitlements determine what is available to you, and there are different costs associated with translation. For more information on tracking Now Assist usage, see Monitoring Now Assist usage.
+There are different factors that can go into your decision to use one translation service over the other, such as latency and quality of translation. Your entitlements determine what is available to you, and there are different costs associated with translation. For more information on tracking Now Assist usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Enabling translation for Now Assist
 

@@ -50,5 +50,5 @@ Restricting a case means that even if an Employee Relations agent is part of the
 
 For Employee Relations COE \(Center of Excellence\), the HR matching rules skip any Employee Relations agent who meets the criteria so that the case is not assigned to them. For more information, see [Create a COE security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.md).
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md).
 

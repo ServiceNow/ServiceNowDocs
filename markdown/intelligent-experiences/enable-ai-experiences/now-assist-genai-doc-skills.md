@@ -31,8 +31,8 @@ In the following example, Now Assist generated a document summary in Now Assist 
 
 For more information, see the following topics:
 
--   
--   
+-   [Generate the summary for selected or complete content with Project doc summarization skill in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-doc-content-genai-skill-pw.md)
+-   [Generate the summary for selected or complete content with Planning item doc summarization skill in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-documents-genai-skill-spw.md)
 
 ## Availability
 
@@ -40,7 +40,7 @@ This skill is available in the workflow and product as shown in the following ta
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

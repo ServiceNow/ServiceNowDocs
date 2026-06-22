@@ -36,7 +36,7 @@ You can access the following information through the Insights tab:
 -   [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 -   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md)
 -   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
--   
+-   [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md)
 -   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/agent-health-dashboard.md)
 -   [Discover missing compute resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discover-missing-compute-resources.md)
 -   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/shazzam-insights.md)

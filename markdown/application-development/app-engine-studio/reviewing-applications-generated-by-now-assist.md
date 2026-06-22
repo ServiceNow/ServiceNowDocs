@@ -93,7 +93,7 @@ In Xanadu Store Release 1, apps generated with Now Assist automatically open in 
 
         \[Omitted image "app-generation-review-record-producer.png"\] Alt text: Preview of a record producer.
 
-        Verify that the catalog item for your record producer appears in the Service Catalog. To learn more, see .
+        Verify that the catalog item for your record producer appears in the Service Catalog. To learn more, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/service-catalog.md).
 
         \[Omitted image "app-generation-review-catalog-item.png"\] Alt text: Generated catalog items that are listed in the Service Catalog.
 

@@ -20,7 +20,7 @@ Monitor over 50 different security metrics to identify potential security threat
 
 ## My security metrics dashboard
 
-View metrics such as failed logins, exports, and impersonations using this dashboard. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see .
+View metrics such as failed logins, exports, and impersonations using this dashboard. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-dashboards.md).
 
 ## Metrics navigation pane
 

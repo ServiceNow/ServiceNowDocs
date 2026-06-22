@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the Label column, search for either the personal insurance model or the commercial insurance model.
 
-<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d37781e75">
+<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d62622e75">
 
 **Personal insurance model**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Search for and select **Personal lines insurance product model**.
 
-</td></tr><tr><td id="d37781e87">
+</td></tr><tr><td id="d62622e87">
 
 **Commercial insurance model**
 

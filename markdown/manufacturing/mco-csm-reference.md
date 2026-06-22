@@ -14,5 +14,5 @@ breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing]
 
 Reference topics provide additional information about the Customer Service Management for Manufacturing Commercial Operations application.
 
-For more reference information about Customer Service Management, see .
+For more reference information about Customer Service Management, see [Customer Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-reference.md).
 

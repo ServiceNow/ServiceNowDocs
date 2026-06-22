@@ -34,15 +34,15 @@ Internal claims can also be created by inquiry agents if the investigation of an
 
 3.  Create a claim from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d38742e101">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d32667e101">
 
 Option
 
-</th><th align="left" id="d38742e104">
+</th><th align="left" id="d32667e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d38742e110">
+</th></tr></thead><tbody><tr><td id="d32667e110">
 
 **Create a claim from a consumer record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Click the customer that you want to create a claim for.
 
 
-</td></tr><tr><td id="d38742e137">
+</td></tr><tr><td id="d32667e137">
 
 **Create a claim from a business account record**
 
@@ -62,7 +62,7 @@ Steps
 2.  Click the account that you want to create a claim for.
 
 
-</td></tr><tr><td id="d38742e164">
+</td></tr><tr><td id="d32667e164">
 
 **Create a claim from an interaction record**
 

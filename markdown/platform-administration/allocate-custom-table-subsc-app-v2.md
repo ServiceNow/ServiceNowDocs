@@ -30,15 +30,15 @@ Role required: usage\_admin or admin
 
     Subscription Management recommends product subscriptions with available custom table entitlements in the **Recommended Product** column.
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d38130e122">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d38149e122">
 
 Option
 
-</th><th align="left" id="d38130e125">
+</th><th align="left" id="d38149e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38130e131">
+</th></tr></thead><tbody><tr><td id="d38149e131">
 
 **Map to a recommended product**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d38130e158">
+</td></tr><tr><td id="d38149e158">
 
 **Map to a product of your choice**
 

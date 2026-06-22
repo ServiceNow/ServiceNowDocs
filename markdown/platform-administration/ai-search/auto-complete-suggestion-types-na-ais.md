@@ -17,7 +17,7 @@ breadcrumb: [Now Assist in AI Search reference, Now Assist in AI Search, Service
 
 Now Assist in AI Search includes an auto-complete suggestion type that displays suggested Now Assist in Virtual Agent queries.
 
-To learn more about how this auto-complete suggestion type appears to search and chat users, see . For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/auto-complete-ais.md).
+To learn more about how this auto-complete suggestion type appears to search and chat users, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/auto-complete-ais.md).
 
 <table id="table_rc4_z2y_v2c"><thead><tr><th>
 

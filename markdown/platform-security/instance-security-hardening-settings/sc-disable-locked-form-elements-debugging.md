@@ -32,7 +32,7 @@ Set **glide.security.explain.write.locks** to the recommended value of **false**
 |Security risk|\(Low\) Will prevent the display of the explanation on locked form elements. This makes the application slightly more secure, as less information is being provided by the security debugger.|
 |Security risk rating|3.5|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

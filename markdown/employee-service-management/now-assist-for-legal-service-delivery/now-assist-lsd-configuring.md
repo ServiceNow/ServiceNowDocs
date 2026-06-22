@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure the Now Assist for Legal Service Delivery \(LSD\) application. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure the Now Assist for Legal Service Delivery \(LSD\) application. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -58,7 +58,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 1.  Install the Now Assist for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
 3.  Navigate to **Employee** &gt; **LSD**.
@@ -105,15 +105,15 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 15. Select where you would like to display the skill.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d85401e410">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d85185e412">
 
 Action
 
-</th><th align="left" id="d85401e413">
+</th><th align="left" id="d85185e415">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85401e419">
+</th></tr></thead><tbody><tr><td id="d85185e421">
 
 **In-product**
 
@@ -121,13 +121,13 @@ Steps
 
 When selected, the Now Assist skills are displayed on workspaces.For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-</td></tr><tr><td id="d85401e433">
+</td></tr><tr><td id="d85185e435">
 
 **Now Assist panel**
 
 </td><td>
 
-When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see .For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
 </td></tr></tbody>
 </table>16. After you configure the display for the selected skill, select **Save and continue** to go to the next step.

@@ -16,7 +16,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 Configure Service Operations Workspace so that agents can manage IT fulfillment volume efficiently.
 
-For information about configuring Service Operations Workspace for ITOM, see Configuring Service Operations Workspace for ITOM.
+For information about configuring Service Operations Workspace for ITOM, see [Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-sow-itom.md).
 
 -   **[Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/admin-center-sow.md)**  
 The Admin Center provides centralized control of the instance to admins. It provides effortless, quick access to manage all customizations in Service Operations Workspace \(SOW\) for IT Service Management \(ITSM\), and additional plugins that extend the Service Operations Workspace for ITSM capabilities.

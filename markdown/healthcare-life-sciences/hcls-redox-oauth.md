@@ -16,7 +16,7 @@ Create an OAuth application endpoint for the external Redox healthcare system to
 
 ## Before you begin
 
-Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see Application picker.
+Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_hcls.admin or admin
 
@@ -32,7 +32,7 @@ Role required: sn\_hcls.admin or admin
 
     **Note:** You can ignore the **Redirect URL** and **Logo URL** fields, which are not used for this configuration.
 
-    For more information, see Create an endpoint for clients to access the instance.
+    For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
 5.  Click **Submit**.
 

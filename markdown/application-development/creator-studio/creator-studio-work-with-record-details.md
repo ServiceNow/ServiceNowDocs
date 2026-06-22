@@ -40,7 +40,7 @@ All columns of the app's Task table are available as fields on the record page, 
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -60,7 +60,7 @@ All columns of the app's Task table are available as fields on the record page, 
 
 6.  Make any additional changes to how the record appears, such as moving the fields around.
 
-    Check out  for a list of the most commonly used fields that you can work with and their definitions.
+    Check out [Important Task table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/r_ImportantTaskTableFields.md) for a list of the most commonly used fields that you can work with and their definitions.
 
     \[Omitted image "cs-record-details.png"\] Alt text: Record details in the editor to design how the record appears
 

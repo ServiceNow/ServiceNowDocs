@@ -16,7 +16,7 @@ breadcrumb: [Healthcare and Life Sciences Service Management Core reference, Hea
 
 Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -280,7 +280,7 @@ sn\_hcls.patient
 
 Views own records including healthcare cases, addresses, patient data, and clinical data as a patient. Also, views the records of other patients including their addresses for whom they are the authorized representative. Adds comments to their healthcare cases and for whom they are the authorized representative. Views their household members, if any.
 
- Household members and addresses associated with a patient are maintained by using the Household Member \[csm\_household\_member\] and Location \[cmn\_location\] tables, respectively. For more information about household members and their relationships, see Industry data model households. Location is associated with the foundation domain in the Common Service Data Model \(CSDM\).
+ Household members and addresses associated with a patient are maintained by using the Household Member \[csm\_household\_member\] and Location \[cmn\_location\] tables, respectively. For more information about household members and their relationships, see [Industry data model households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/industry-data-model-households.md). Location is associated with the foundation domain in the Common Service Data Model \(CSDM\).
 
 </td><td>
 
@@ -1635,5 +1635,5 @@ Before insert and update
 Sets subscriber to the patient if the relationship is set to Self. Validates the relationship field value if the subscriber is set.
 
 </td></tr></tbody>
-</table>**Note:** To learn about before query business rules, see Before Query business rules.
+</table>**Note:** To learn about before query business rules, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/bp-before-query-business-rules.md).
 

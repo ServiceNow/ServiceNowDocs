@@ -24,15 +24,15 @@ Role required: System admin or AIOps LEAP admin
 
 1.  Activate **AIOps LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d156903e88">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d155304e88">
 
 Options
 
-</th><th align="left" id="d156903e93">
+</th><th align="left" id="d155304e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d156903e100">
+</th></tr></thead><tbody><tr><td id="d155304e100">
 
 **Workspaces**
 
@@ -43,7 +43,7 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d156903e142">
+</td></tr><tr><td id="d155304e142">
 
 **Now Assist Admin**
 

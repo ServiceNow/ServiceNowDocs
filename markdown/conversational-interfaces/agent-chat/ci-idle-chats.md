@@ -22,7 +22,7 @@ You can change the idle chat reminder message and the default time after which t
 
 **Important:**
 
-Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
+Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/migrate-from-connect-support.md).
 
 ## Change the idle chat reminder message
 
@@ -83,7 +83,7 @@ Value
 
 Enter the number of seconds before the idle chat reminder message is displayed, after the requester's last response. This value must be equal to or greater than 120 seconds, since the Idle Chat Timer Task job runs every 120 seconds to check active chat sessions.For example, if the idle chat reminder message is to be displayed 5 minutes after the requester's last response, enter 300 seconds.
 
- **Note:** If you want to set an idle chat message reminder timeout that is under 120 seconds, you must also change the time at which the Idle Chat Timer Task job runs. The job must check for idle chats within a shorter time frame. For example, if the reminder message timeout is 60 seconds after the requester's last response, set the Idle Chat Timer Task job to run every 60 seconds. For more information on base system scheduled jobs, see System scheduler.
+ **Note:** If you want to set an idle chat message reminder timeout that is under 120 seconds, you must also change the time at which the Idle Chat Timer Task job runs. The job must check for idle chats within a shorter time frame. For example, if the reminder message timeout is 60 seconds after the requester's last response, set the Idle Chat Timer Task job to run every 60 seconds. For more information on base system scheduled jobs, see [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_SystemScheduler.md).
 
 </td></tr></tbody>
 </table>    2.  Select **Submit**.

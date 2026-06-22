@@ -40,15 +40,15 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d41918e138">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d41839e138">
 
 Covered product type
 
-</th><th align="left" id="d41918e141">
+</th><th align="left" id="d41839e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41918e147">
+</th></tr></thead><tbody><tr><td id="d41839e147">
 
 **Covered quote line item**
 
@@ -56,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d41918e156">
+</td></tr><tr><td id="d41839e156">
 
 **Covered sold product**
 
@@ -64,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d41918e168">
+</td></tr><tr><td id="d41839e168">
 
 **Covered install base item**
 

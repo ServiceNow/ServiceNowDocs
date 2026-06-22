@@ -403,5 +403,5 @@ Provides a series of standard user fields used on each of the tables that extend
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown), Industry data model tables, Tables installed with Model Management, and Tables installed with Customer Service Management.
+</table>To learn about Healthcare and Life Sciences Service Management Core, ServiceNow AI Platform, and CSM tables, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown), [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-data-model-tables.md), [Tables installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/asset-management/c_InstalledWithModelManagement.md), and [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/r_TIWCustomerService.md).
 

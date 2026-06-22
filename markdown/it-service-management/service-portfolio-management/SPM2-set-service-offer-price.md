@@ -16,9 +16,9 @@ breadcrumb: [Service offerings in Service Portfolio Management, Using Service Po
 
 Service offerings inherit the pricing structure of the associated parent service. If the price model for each service offering in Service Portfolio Management is defined in the parent service as per unit, then each service offering must also have an associated price unit. The actual price for that unit is established in the service offering record.
 
-You can review service offering information regularly as a part of Data Certification and workflow. For example, you can set up a certification to validate pricing for your service offerings.
+You can review service offering information regularly as a part of [Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md) and workflow. For example, you can set up a certification to validate pricing for your service offerings.
 
-Forecast service usage and cost for a fiscal period to plan your future business using the Showback functionality of Financial Management.
+Forecast service usage and cost for a fiscal period to plan your future business using the [Showback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/showback-statements.md) functionality of Financial Management.
 
 To set a service offering price, navigate to **Service Portfolio Management** &gt; **Service Offerings** and select an offering for which a defined pricing structure exists. Enter the **Price** for the service price unit and update the record. You can also type an optional description in the **Unit description** field of the service offering record.
 

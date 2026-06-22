@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d192755e78">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d192565e78">
 
 Action
 
-</th><th align="left" id="d192755e81">
+</th><th align="left" id="d192565e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192755e87">
+</th></tr></thead><tbody><tr><td id="d192565e87">
 
 **Edit request details**
 
@@ -57,7 +57,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The digital forensic request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d192755e181">
+</td></tr><tr><td id="d192565e181">
 
 **Cancel the request**
 
@@ -73,15 +73,15 @@ The request is canceled and the cancellation comments appear in the Additional C
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d192755e228">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d192565e228">
 
 Option
 
-</th><th align="left" id="d192755e231">
+</th><th align="left" id="d192565e231">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192755e237">
+</th></tr></thead><tbody><tr><td id="d192565e237">
 
 **If the Attachments tab is visible**
 
@@ -92,7 +92,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d192755e276">
+</td></tr><tr><td id="d192565e276">
 
 **If the Documents tab is visible**
 

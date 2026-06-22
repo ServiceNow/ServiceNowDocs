@@ -28,7 +28,7 @@ Insights Explorer displays metric boundaries according to the most recently conf
 
 You can also access the Insights Explorer from the following maps:
 
--   View metrics in a Dependency Views map
+-   [View metrics in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/dependency-views/view-ci-metrics.md)
 -   [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMViewDashboard.md)
 
 \[Omitted image "InsightsExplorerLondon.png"\] Alt text: Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.
@@ -132,7 +132,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 7.  Click the cog **Settings** icon to open application settings:
 
     -   Enable, disable, or set the frequency for refreshing anomaly data on the Insights Explorer.
-    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see .
+    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see [Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md).
 8.  Click the **Chart Settings** icon to toggle the display of statistics and aggregations on the chart.
 
     Enabling or disabling an item to add or to remove metrics from a chart, also updates the legend of the chart to reflect the change.

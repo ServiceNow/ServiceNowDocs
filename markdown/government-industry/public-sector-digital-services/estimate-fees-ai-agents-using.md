@@ -45,7 +45,7 @@ To access the **Help manage public information requests** agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Help manage public information requests**.
 
-To modify the agentic workflow, duplicate it by selecting the duplicate \(\[Omitted image "duplicate\_ai\_agent\_button\_psds.png"\] Alt text:\) icon, and adjust the settings according to your requirements. You can activate the duplicated agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) by selecting the duplicate \(\[Omitted image "duplicate\_ai\_agent\_button\_psds.png"\] Alt text:\) icon, and adjust the settings according to your requirements. You can activate the duplicated agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

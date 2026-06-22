@@ -21,7 +21,7 @@ Use the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now as
 
 \[Omitted image "now-assist-chg-risk-explanation.png"\] Alt text: Change request risk explanation in Service Operations Workspace.
 
-For more information, see .
+For more information, see [Explain the risk of a change request by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.md).
 
 ## Availability
 
@@ -29,7 +29,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)|
 
 **Parent Topic:**[Now Assist explanation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-change-request-skills.md)
 

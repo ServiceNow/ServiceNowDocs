@@ -65,11 +65,11 @@ private func initializeChatService() {
 }
 ```
 
-Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see .
+Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## Passing context variables to Live Agent and Virtual Agent chat
 
-You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService - startChat\(contextData: \[String: Any\]?\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) or [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) functions. For additional information on chat context variables, see .
+You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService - startChat\(contextData: \[String: Any\]?\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) or [NowChatService - startChat\(contextData: \[String: Any\]? = nil, \_ completion: @escaping \(Result&lt;Void, NowChatServiceError&gt;\)\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md) functions. For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 ```
 func startChat() {

@@ -20,7 +20,7 @@ Performance Analytics drives business transformation by enabling businesses to s
 
 Explanation of Performance Analytics with an example of a business scenario. 
 
-For a video about how different dashboards with Performance Analytics content can help different personas in the ITSM department of your organization, see .
+For a video about how different dashboards with Performance Analytics content can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md).
 
 Performance Analytics improves performance and accelerates continual service improvement by:
 

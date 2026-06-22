@@ -16,7 +16,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 Service Operations Workspace provides a unified experience for multiple IT Service Management workflows by integrating with various applications.
 
-For information about using Service Operations Workspace for ITOM, see Using Service Operations Workspace for ITOM.
+For information about using Service Operations Workspace for ITOM, see [Using Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-operations-workspace-for-itom-apps/use-sow-itom.md).
 
 -   **[Add a user-specific quick link on the ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/add-quick-link.md)**  
 Refer to a URL quickly from the Service Operations Workspace landing page.

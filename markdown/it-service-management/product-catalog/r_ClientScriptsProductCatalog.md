@@ -25,5 +25,5 @@ Product Catalog plugin adds the following client script.
 **Related topics**  
 
 
-[bundle-cadev.client-scripts]
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/client-scripts.md)
 

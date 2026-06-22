@@ -26,7 +26,7 @@ Role required: admin
 
 With scripting, you have greater flexibility in how you use Generative AI Controller capabilities across the platform. By accessing the capability programmatically, you can capture the LLM's response and use that to determine next actions.
 
-For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
+For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Procedure
 

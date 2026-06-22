@@ -98,7 +98,7 @@ Release notes
 
 </td><td>
 
-
+[AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/ai-search-rn.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Release notes
 
 </td><td>
 
-
+[Application Manager release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/app-manager-rn.md)
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Release notes
 
 </td><td>
 
-
+[Core ServiceNow AI Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/core-platform-rn.md)
 
 </td></tr><tr><td>
 
@@ -198,7 +198,7 @@ Release notes
 
 </td><td>
 
-
+[Data Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/data-management-rn.md)
 
 </td></tr><tr><td>
 
@@ -284,7 +284,7 @@ Release notes
 
 </td><td>
 
-
+[Dynamic Translation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/dynamic-translation-rn.md)
 
 </td></tr><tr><td>
 
@@ -614,7 +614,7 @@ Release notes
 
 </td><td>
 
-
+[Upgrade Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/upgrade-center-rn.md)
 
 </td></tr><tr><td>
 

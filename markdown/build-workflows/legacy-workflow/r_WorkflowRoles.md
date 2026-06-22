@@ -16,7 +16,7 @@ breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 
 Certain roles are required to use workflows.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 <table id="table_g2t_fww_1r"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Web service administrator
 
 </td><td>
 
-Accesses and uses REST and SOAP messages in the Orchestration activity designer. Creates and edits custom activities that use the REST web service and SOAP web service templates.
+Accesses and uses REST and SOAP messages in the [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md). Creates and edits custom activities that use the REST web service and SOAP web service templates.
 
 </td></tr><tr><td>
 

@@ -28,13 +28,13 @@ The AI Search Analytics dashboard displays key performance metrics, trends, and 
 
 \[Omitted image "ais-queries-dashboard-2.png"\] Alt text: AI Search Analytics dashboard - Queries page, Query Analysis section.
 
-To access the AI Search Analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the User Experience Analytics dashboard, see Overview of the dashboard.
+To access the AI Search Analytics dashboard, navigate to **All** &gt; **User Experience Analytics**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the User Experience Analytics dashboard, see [Overview of the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
 
 **Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/adv-ais-enable-sp-analytics-data.md) to enable it.
 
 To access the Queries page, select **View all** in the **Queries** section header of the main page.
 
-You can improve the visual experience by using the dark theme. For more information, see .
+You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 ## Required ServiceNow AI Platform roles
 

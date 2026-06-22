@@ -28,15 +28,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d28775e104">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d28380e104">
 
 Option
 
-</th><th align="left" id="d28775e107">
+</th><th align="left" id="d28380e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d28775e113">
+</th></tr></thead><tbody><tr><td id="d28380e113">
 
 **To add a space**
 
@@ -45,7 +45,7 @@ Action
 -   Click **New**. The Facility Space interceptor page displays. Select the type of space you are creating.\[Omitted image "SpaceInterceptor.png"\] Alt text: Facility Space interceptor page displays list of space types.
 
 
-</td></tr><tr><td id="d28775e136">
+</td></tr><tr><td id="d28380e136">
 
 **To edit the details of a space**
 
@@ -123,7 +123,7 @@ Cost center
 
 </td><td>
 
-Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see Activate Cost Management. This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
+Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md). This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
 
 </td></tr><tr><td>
 
@@ -196,15 +196,15 @@ Select this check box if the space can be occupied. See [Space roll up calculati
 
 6.  Continue with one of the following options.
 
-<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d28775e436">
+<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d28380e436">
 
 Option
 
-</th><th align="left" id="d28775e439">
+</th><th align="left" id="d28380e439">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d28775e445">
+</th></tr></thead><tbody><tr><td id="d28380e445">
 
 **To add the space**
 
@@ -213,7 +213,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d28775e463">
+</td></tr><tr><td id="d28380e463">
 
 **To update the space details**
 

@@ -41,7 +41,7 @@ Role required: user
 
 Users with the admin role can customize colors and fonts.
 
--   For more information on customizing colors, see .
+-   For more information on customizing colors, see [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_Widgets.md).
 -   To customize fonts, navigate to **sys\_ux\_theme\_property.list** and edit the applicable fonts.
 
 **Parent Topic:**[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/event-content-pack.md)

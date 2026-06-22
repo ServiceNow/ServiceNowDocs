@@ -137,7 +137,7 @@ Create a connection between your GitHub Enterprise Cloud applications and your S
 
 ### Before you begin
 
-If you want to use a MID Server for communication between your ServiceNow instance and your GitHub Enterprise Cloud applications, you must first set up a MID Server on your instance. See MID Server for detailed instructions.
+If you want to use a MID Server for communication between your ServiceNow instance and your GitHub Enterprise Cloud applications, you must first set up a MID Server on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md) for detailed instructions.
 
 ServiceNow Role required: admin
 
@@ -187,7 +187,7 @@ Use MID Server
 
 Option that enables your ServiceNow instance to use a MID Server for communication with your GitHub Enterprise Cloud applications.-   If your instance requires a MID Server, set this field to `true`.
 -   If your instance doesn’t require a MID Server, leave this field empty.
-**Important:** To enable this option, you must already have a MID Server set up on your instance. See MID Server for detailed instructions.
+**Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 
@@ -221,15 +221,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Clou
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41091e767">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41180e767">
 
 Interface
 
-</th><th align="left" id="d41091e770">
+</th><th align="left" id="d41180e770">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41091e776">
+</th></tr></thead><tbody><tr><td id="d41180e776">
 
 **Core UI**
 
@@ -240,7 +240,7 @@ Action
 3.  Select **GitHub Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d41091e818">
+</td></tr><tr><td id="d41180e818">
 
 **Software Asset Workspace**
 

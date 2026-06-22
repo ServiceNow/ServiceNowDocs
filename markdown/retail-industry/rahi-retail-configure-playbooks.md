@@ -23,5 +23,5 @@ A playbook includes multiple stages and each stage includes one or more activiti
 
 Playbooks for use with Retail Core are configured just as they are for Customer Service Management.
 
-For information on configuring your Playbooks experience, see .
+For information on configuring your Playbooks experience, see [Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-playbooks-configuring.md).
 

@@ -28,7 +28,7 @@ Role required: sn\_hr\_core.admin
 
 3.  Or, select a queue to edit.
 
-    For more information, see Work item queues.
+    For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-queues.md).
 
 4.  Select the **Save** icon.
 

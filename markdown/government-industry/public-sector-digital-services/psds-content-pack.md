@@ -31,5 +31,5 @@ Use the Public Services Performance Overview dashboard to assess key performance
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

@@ -26,7 +26,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create SNMP Community credentials**
 
-    Create an SNMP Community credential for the Isilon cluster. The discovery process begins with using SNMP-based queries to classify an application as an Isilon cluster. For more information, see SNMP community credentials in .
+    Create an SNMP Community credential for the Isilon cluster. The discovery process begins with using SNMP-based queries to classify an application as an Isilon cluster. For more information, see SNMP community credentials in [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
 
 -   **Verify Dell EMC Isilon user permissions and roles**
 
@@ -52,7 +52,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   ISI\_PRIV\_SMB
 -   **Create basic authentication credentials**
 
-    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see .
+    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
 
 ## Data collected by Discovery for Dell EMC Isilon

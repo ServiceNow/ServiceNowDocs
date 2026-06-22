@@ -19,7 +19,7 @@ Use this skill to provide simplified generative AI alert analyses for the Servic
 
 Alert analyses include a human-readable brief of the alert, as well as technical information to help you investigate the alert more effectively. In Event Management, alert analysis is a crucial feature that completely transforms the alert triage process and can help achieve faster, seamless alert management. This skill uses a large language model \(LLM\) to generate human-readable alert titles and detailed descriptions based on enriched and actionable alert data. The AI-generated alert information facilitates quick alert triage and effective analysis for your team, which can lead to a substantial reduction in resolution time.
 
-For more information, see .
+For more information, see [Using Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md).
 
 ## Availability
 
@@ -27,5 +27,5 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)|
 

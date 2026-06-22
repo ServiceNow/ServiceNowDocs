@@ -128,15 +128,15 @@ The order the indicator appears in the **Indicators** list above the treemap.
 </td></tr></tbody>
 </table>5.  Click the **Data Source Configuration** tab and configure one of the following data source options for the indicator.
 
-<table id="choicetable_x2q_twj_bt"><thead><tr><th align="left" id="d177330e294">
+<table id="choicetable_x2q_twj_bt"><thead><tr><th align="left" id="d177369e294">
 
 Option
 
-</th><th align="left" id="d177330e297">
+</th><th align="left" id="d177369e297">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d177330e303">
+</th></tr></thead><tbody><tr><td id="d177369e303">
 
 **Performance analytics**
 
@@ -146,7 +146,7 @@ Select **Performance Analytics** from the **Data source** field, then make the f
 -   **Default breakdown:** The default breakdown used to break the selected PA indicator into multiple parts.
 
 
-</td></tr><tr><td id="d177330e331">
+</td></tr><tr><td id="d177369e331">
 
 **Custom script**
 
@@ -154,7 +154,7 @@ Select **Performance Analytics** from the **Data source** field, then make the f
 
 Select **Custom Script** from the **Data Source** field. Then use the HTML editor to customize the script as needed. The result of running the script must be an array in order for the information to display in the treemap.
 
-</td></tr><tr><td id="d177330e346">
+</td></tr><tr><td id="d177369e346">
 
 **Query conditions**
 

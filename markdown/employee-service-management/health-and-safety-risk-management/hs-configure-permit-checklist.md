@@ -92,9 +92,9 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
     3.  Select **Duplicate action** for the existing **Create permit checklist record** action.
 
-        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
+        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-designer-home-landing-page.md) basics.
 
-        For information on how to create or modify flows, see Create a flow.
+        For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/create-flow.md).
 
     4.  Select the new checklist type in the **Checklist type** field.
 

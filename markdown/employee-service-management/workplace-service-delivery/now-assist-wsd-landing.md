@@ -35,7 +35,7 @@ Now Assist for Workplace Service Delivery \(WSD\) elevates your Workplace Servic
 [Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-using.md) Use generative AI capabilities offered by [Using Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-using.md)
 
 </td></tr></tbody>
-</table>You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+</table>You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see .
 
 **Important:**
 
@@ -60,7 +60,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data about workplace requests \(e.g. reservations\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data about workplace requests \(e.g. reservations\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the Now Assist documentation.
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 

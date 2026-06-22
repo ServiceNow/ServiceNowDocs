@@ -28,15 +28,15 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d378286e84">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d378109e84">
 
 Option
 
-</th><th align="left" id="d378286e87">
+</th><th align="left" id="d378109e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d378286e93">
+</th></tr></thead><tbody><tr><td id="d378109e93">
 
 **From a Risk assessment record**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the **Risk actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d378286e126">
+</td></tr><tr><td id="d378109e126">
 
 **From the Risk actions list**
 

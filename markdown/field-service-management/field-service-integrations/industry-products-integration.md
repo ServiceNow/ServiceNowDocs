@@ -26,7 +26,7 @@ When a customer or consumer views a case from any of the Industry products, they
 
 The following ServiceNow® Industry Products extend the value of supporting data models, frameworks, and capabilities required to integrate with work orders in Field Service Management.
 
--   Financial Services Operations. For more information, see Financial Services Operations integration with Field Service Management.
+-   Financial Services Operations. For more information, see [Financial Services Operations integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/financial-services/integration-with-fsm.md).
 -   -   Technology Provider Service Management. For more information, see Technology Provider Service Management integration with Field Service Management.
 
 ## Product use rights included with Industry products

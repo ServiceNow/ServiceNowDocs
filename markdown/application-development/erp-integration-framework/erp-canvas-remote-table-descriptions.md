@@ -124,7 +124,7 @@ Scheduled encoded query
 
 </td><td>
 
-Details on any scheduled extraction queries for the remote table.Create an encoded query string using a filter on the remote table list and paste the string into the **Encoded query** field. For more information on creating encoded queries, see .
+Details on any scheduled extraction queries for the remote table.Create an encoded query string using a filter on the remote table list and paste the string into the **Encoded query** field. For more information on creating encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)

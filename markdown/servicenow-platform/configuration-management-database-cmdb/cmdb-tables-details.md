@@ -5642,8 +5642,8 @@ Service classification
 
 Designates the type of the service. -   Application Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/application-services.md)\)
 -   Technical Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md)\)
--   Service Offering \(For more information, see Service Portfolio Management service offerings\)
--   Shared Service \(For more information, see IT shared services\)
+-   Service Offering \(For more information, see [Service Portfolio Management service offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)\)
+-   Shared Service \(For more information, see [IT shared services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_ITSharedService.md)\)
 -   Billable Service \(To represents a service that is billed, or that is cost managed\)
 
 </td></tr><tr><td>

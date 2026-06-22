@@ -20,7 +20,7 @@ Watch this short video for an introduction to the Hardware Asset Management appl
 
 Hardware Asset Management overview 
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/using-ham-workspace.md) and .
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Hardware Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584544](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584544), [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/using-ham-workspace.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

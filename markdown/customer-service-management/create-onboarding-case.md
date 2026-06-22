@@ -37,15 +37,15 @@ If the case playbook for onboarding is available, you can use the playbook to gu
 
 2.  Select the case type.
 
-<table id="choicetable_tyb_yjz_vmb"><thead><tr><th align="left" id="d145302e112">
+<table id="choicetable_tyb_yjz_vmb"><thead><tr><th align="left" id="d145285e112">
 
 Interface
 
-</th><th align="left" id="d145302e115">
+</th><th align="left" id="d145285e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145302e121">
+</th></tr></thead><tbody><tr><td id="d145285e121">
 
 **CSM Configurable Workspace**
 
@@ -56,7 +56,7 @@ In the Select Case Type popup window:1.  Select a **Case Type**.
 3.  Click **Create Case**.
 
 
-</td></tr><tr><td id="d145302e152">
+</td></tr><tr><td id="d145285e152">
 
 **Platform**
 
@@ -69,15 +69,15 @@ Select Customer Onboarding in the list of available case types in the intercepto
 
     -   If the onboarding case is for an existing customer, fill in the **Account** and **Contact** or **Consumer** fields.
     -   If the onboarding case is for a new customer, enable the **New customer** check box and fill in the fields in the New Customer Information form section.
-<table id="choicetable_xsw_jlz_vmb"><thead><tr><th align="left" id="d145302e194">
+<table id="choicetable_xsw_jlz_vmb"><thead><tr><th align="left" id="d145285e194">
 
 Field
 
-</th><th align="left" id="d145302e197">
+</th><th align="left" id="d145285e197">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145302e203">
+</th></tr></thead><tbody><tr><td id="d145285e203">
 
 **Customer type**
 
@@ -85,7 +85,7 @@ Description
 
 The type of customer, either Business or Individual.
 
-</td></tr><tr><td id="d145302e212">
+</td></tr><tr><td id="d145285e212">
 
 **Business name**
 
@@ -93,7 +93,7 @@ The type of customer, either Business or Individual.
 
 The name of the business. This field is displayed and is required when you select Business as the customer type. **Note:** You can enter customer names in this field but not partner names.
 
-</td></tr><tr><td id="d145302e224">
+</td></tr><tr><td id="d145285e224">
 
 **User name**
 
@@ -101,7 +101,7 @@ The name of the business. This field is displayed and is required when you selec
 
 The name of the contact or consumer. This field is displayed and is required when you select Individual as the customer type.
 
-</td></tr><tr><td id="d145302e233">
+</td></tr><tr><td id="d145285e233">
 
 **Email address**
 
@@ -109,7 +109,7 @@ The name of the contact or consumer. This field is displayed and is required whe
 
 The email address for the user. This address is used for notifications.
 
-</td></tr><tr><td id="d145302e243">
+</td></tr><tr><td id="d145285e243">
 
 **Phone number**
 
@@ -122,15 +122,15 @@ The phone number for the user.
 
     Use this related list to create the users or business entities that should be included in the onboarding case. Click **New** and fill in the fields on the Related Party form.
 
-<table id="choicetable_idk_n31_wmb"><thead><tr><th align="left" id="d145302e270">
+<table id="choicetable_idk_n31_wmb"><thead><tr><th align="left" id="d145285e270">
 
 Field
 
-</th><th align="left" id="d145302e273">
+</th><th align="left" id="d145285e273">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145302e279">
+</th></tr></thead><tbody><tr><td id="d145285e279">
 
 **Type**
 
@@ -149,7 +149,7 @@ Use the **Type** field to select the authorization type of the additional member
 -   Account
 
 
-</td></tr><tr><td id="d145302e325">
+</td></tr><tr><td id="d145285e325">
 
 **User**
 
@@ -157,7 +157,7 @@ Use the **Type** field to select the authorization type of the additional member
 
 The name of the contact being added as an additional member.
 
-</td></tr><tr><td id="d145302e334">
+</td></tr><tr><td id="d145285e334">
 
 **Consumer**
 
@@ -165,7 +165,7 @@ The name of the contact being added as an additional member.
 
 The name of the consumer being added as an additional member.
 
-</td></tr><tr><td id="d145302e343">
+</td></tr><tr><td id="d145285e343">
 
 **Account**
 

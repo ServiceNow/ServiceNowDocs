@@ -8,7 +8,7 @@ product: Document Management Services
 classification: document-management-services
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Microsoft OneDrive integration with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -175,7 +175,7 @@ Syncs all Microsoft Azure users into the Multi Provider Collaborators \[mp\_coll
 
 If the user is newly added, then it creates an entry in the Multi Provider Collaborators \[mp\_collaborators\] table under Multi Provider Documents.
 
-**Note:** The scheduled job with the name **Sync Collaborators** triggers the subflow for Sync Collaborators. You can choose from the available run a script option. The default option is **On Demand**. The job is run based on the set schedule and collaborators are synchronized accordingly. For more information, see .
+**Note:** The scheduled job with the name **Sync Collaborators** triggers the subflow for Sync Collaborators. You can choose from the available run a script option. The default option is **On Demand**. The job is run based on the set schedule and collaborators are synchronized accordingly. For more information, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 
@@ -377,9 +377,9 @@ The Microsoft OneDrive Spoke for Document Services Framework provides sample act
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
-For information about setting up the spoke, see .
+For information about setting up the spoke, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
 
 **Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/document-management-services/one-drive-integration.md)
 

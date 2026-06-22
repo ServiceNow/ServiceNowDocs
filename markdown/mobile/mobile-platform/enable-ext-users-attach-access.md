@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-When you assign the snc\_external role to users who are external to your organization, they can't access resources with their ServiceNow mobile app unless explicitly enabled. For more information about the snc\_external role, see Explicit Roles.
+When you assign the snc\_external role to users who are external to your organization, they can't access resources with their ServiceNow mobile app unless explicitly enabled. For more information about the snc\_external role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/explicit-roles.md).
 
 You can use the mobile property **allow\_snc\_external\_attachment\_access** to remove restrictions on attachments for users assigned the snc\_external role. When the **allow\_snc\_external\_attachment\_access** mobile property is set `true`, external users can use the mobile offline mode and access attachments from the following components and locations:
 

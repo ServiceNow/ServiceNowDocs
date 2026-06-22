@@ -18,7 +18,7 @@ Use the Now Assist panel to request the contextual generative AI capabilities in
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For information about enabling Next Experience, see . For information about Next Experience, see .
+Make sure that Next Experience is enabled in the instance. For information about enabling Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md). For information about Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Role required: itil
 
@@ -26,9 +26,9 @@ Role required: itil
 
 You can access the Now Assist panel from the Core UI or Service Operations Workspace for ITSM to request generative AI capabilities for Now Assist for ITSM skills. For information about these skills, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
-Using the Now Assist panel saves time for an agent, for example, the agent can quickly learn the details of an incident by reading the incident summarization. The summarization gives enough details about the associated interaction so that the requester doesn't have to repeat the same information to the agent. For information about the Now Assist panel, see .
+Using the Now Assist panel saves time for an agent, for example, the agent can quickly learn the details of an incident by reading the incident summarization. The summarization gives enough details about the associated interaction so that the requester doesn't have to repeat the same information to the agent. For information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
-For information about how to activate the Now Assist panel, see .
+For information about how to activate the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ For information about how to activate the Now Assist panel, see .
 
     \[Omitted image "itsm-now-assist-panel.png"\] Alt text: Now Assist panel for ITSM skills.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d103130e196">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d103187e200">
 
 Option
 
-</th><th align="left" id="d103130e199">
+</th><th align="left" id="d103187e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103130e205">
+</th></tr></thead><tbody><tr><td id="d103187e209">
 
 **Summarize the chat for an interaction**
 
@@ -57,7 +57,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d103130e241">
+</td></tr><tr><td id="d103187e245">
 
 **Summarize the chat for an incident that is created from an interaction**
 
@@ -68,7 +68,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the incident was created is displayed.
 
 
-</td></tr><tr><td id="d103130e277">
+</td></tr><tr><td id="d103187e281">
 
 **Summarize a Sidebar discussion**
 
@@ -79,7 +79,7 @@ Description
 3.  In the Now Assist panel, select **Sidebar Discussion Summarization**. A summary of the discussion with the live agent is displayed.
 
 
-</td></tr><tr><td id="d103130e316">
+</td></tr><tr><td id="d103187e320">
 
 **Summarize an incident**
 
@@ -90,7 +90,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**. An incident summary that helps you quickly understand the incident context is generated.
 
 
-</td></tr><tr><td id="d103130e353">
+</td></tr><tr><td id="d103187e357">
 
 **Summarize a change request**
 
@@ -101,7 +101,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a change request**. A change request summary that helps you quickly understand the change request context is generated.
 
 
-</td></tr><tr><td id="d103130e389">
+</td></tr><tr><td id="d103187e393">
 
 **Change risk explanation**
 
@@ -112,7 +112,7 @@ Description
 3.  In the Now Assist panel, select **Explain change risk**. An explanation of the change request risk that helps you quickly understand the change request risk rating is generated.
 
 
-</td></tr><tr><td id="d103130e425">
+</td></tr><tr><td id="d103187e429">
 
 **Generate incident resolution notes**
 
@@ -123,7 +123,7 @@ Description
 3.  In the Now Assist panel, select **Generate resolution notes**. The incident resolution notes that provide a summary of the steps taken to resolve the issue are generated.
 
 
-</td></tr><tr><td id="d103130e461">
+</td></tr><tr><td id="d103187e465">
 
 **Generate a knowledge article**
 
@@ -134,7 +134,7 @@ Description
 3.  In the Now Assist panel, select **Generate Article**. A Knowledge article is drafted for the incident using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d103130e500">
+</td></tr><tr><td id="d103187e504">
 
 **Generate chat reply recommendation**
 
@@ -145,7 +145,7 @@ Description
 3.  In the Now Assist panel, select **Generate Chat Reply Recommendation**. The reply that provides a recommendation for the issue in the chat is generated.
 
 
-</td></tr><tr><td id="d103130e536">
+</td></tr><tr><td id="d103187e540">
 
 **Ask questions about an incident**
 
@@ -156,7 +156,7 @@ Description
 3.  In the Now Assist panel, either type in an incident assist topic question, or select **Answer questions about an incident**, and select an incident assist topic. Information requested about the incident is shown.
 
 
-</td></tr><tr><td id="d103130e573">
+</td></tr><tr><td id="d103187e577">
 
 **Use AI agents to complete tasks**
 
@@ -166,7 +166,7 @@ Description
 2.  Follow the on-screen instructions to complete the task.
 
 
-</td></tr><tr><td id="d103130e591">
+</td></tr><tr><td id="d103187e595">
 
 **Add comments or work notes to a task record**
 
@@ -177,7 +177,7 @@ Description
 The conversational flow for adding a comment or work note is triggered.
 
 2.  Follow the on-screen instructions to complete the task.
-For more information, see .
+For more information, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/conversational-actions.md).
 
 </td></tr></tbody>
 </table>

@@ -32,7 +32,7 @@ Application developers can queue a local change for a push to ensure the changes
 
     This step is a recommended best practice.
 
-<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d63836e112">
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d63764e112">
 
 **To remove changes from the queue**
 
@@ -40,7 +40,7 @@ Application developers can queue a local change for a push to ensure the changes
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
 
-</td></tr><tr><td id="d63836e130">
+</td></tr><tr><td id="d63764e130">
 
 **To remove changes from the queue and choose to ignore them instead**
 

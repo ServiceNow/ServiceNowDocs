@@ -18,7 +18,7 @@ Associate an SDLC component to a digital interface in the Enterprise Architectur
 
 ## Before you begin
 
-Activate the CMDB CI Class Models \[app-cmdb-content\] store app \(version 1.49.0 or later\). For instructions, see .
+Activate the CMDB CI Class Models \[app-cmdb-content\] store app \(version 1.49.0 or later\). For instructions, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models.md).
 
 **Note:** You must have the read access to the cmdb\_ci\_sdlc\_component table to view the SDLC component tab in the digital interface related list
 

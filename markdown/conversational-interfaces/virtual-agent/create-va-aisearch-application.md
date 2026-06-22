@@ -18,7 +18,7 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
+[Create the search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/create-search-profile-ais.md) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/defining-search-profiles-ais.md) and [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
@@ -95,15 +95,15 @@ Option to auto-correct search query terms to match terms found in the search pro
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d46274e295">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d67457e295">
 
 Option
 
-</th><th align="left" id="d46274e298">
+</th><th align="left" id="d67457e298">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d46274e304">
+</th></tr></thead><tbody><tr><td id="d67457e304">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
@@ -123,7 +123,7 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d46274e414">
+</td></tr><tr><td id="d67457e414">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

@@ -16,7 +16,7 @@ breadcrumb: [Monitoring platform performance, Platform performance, Maintain and
 
 The ServiceNow® Application Insights application available in the ServiceNow Store, provides a centralized location where you can visualize and monitor system health.
 
-Starting with the Xanadu release, Application Insights is being deprecated and will no longer be available on the Store for installation. Support will continue until Zurich release. It is recommended to evaluate the  product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
+Starting with the Xanadu release, Application Insights is being deprecated and will no longer be available on the Store for installation. Support will continue until Zurich release. It is recommended to evaluate the [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-overview.md) product available with the ServiceNow Impact packages. Work with your Account team to review Impact packages.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 

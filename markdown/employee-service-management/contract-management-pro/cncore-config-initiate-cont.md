@@ -27,7 +27,7 @@ Role required: admin
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**
 
-        For more information, see 
+        For more information, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
 
     2.  Select **New**.
 

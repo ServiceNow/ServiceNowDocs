@@ -117,15 +117,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 4.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d120700e399">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d120757e399">
 
 Options
 
-</th><th align="left" id="d120700e402">
+</th><th align="left" id="d120757e402">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120700e408">
+</th></tr></thead><tbody><tr><td id="d120757e408">
 
 **Autofill**
 
@@ -133,7 +133,7 @@ Description
 
 Adds the best predicted value to the field on the Incident form.
 
-</td></tr><tr><td id="d120700e417">
+</td></tr><tr><td id="d120757e417">
 
 **Recommendations**
 
@@ -141,7 +141,7 @@ Adds the best predicted value to the field on the Incident form.
 
 Shows the top recommended values for a field. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d120700e442">
+</td></tr><tr><td id="d120757e442">
 
 **Turn off predictions**
 
@@ -149,7 +149,7 @@ Shows the top recommended values for a field. Agents can choose to accept or rej
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d120700e451">
+</td></tr><tr><td id="d120757e451">
 
 **Monitor only**
 

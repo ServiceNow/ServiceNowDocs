@@ -134,7 +134,7 @@ Filter conditions to generate the suggested steps.Similar incidents closed withi
 **Note:**
 
 -   When you create a Major Incident email content recommendation using the default templates, you can use the corresponding Gen AI variables to compose the content.
--   For information on generating Major Incident email content recommendation, see .
+-   For information on generating Major Incident email content recommendation, see [Major Incident Management email content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/major-incident-management-email-content-recommendation.md).
 
 <table id="table_cfn_tpt_t2c"><thead><tr><th>
 

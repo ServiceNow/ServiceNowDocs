@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You must create a Now Experience Framework page in  before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/mobile/mobile-platform/configure-mobile-playbooks.md).
+You must create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/mobile/mobile-platform/configure-mobile-playbooks.md).
 
 ## Procedure
 

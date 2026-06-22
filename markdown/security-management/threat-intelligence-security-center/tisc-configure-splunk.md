@@ -154,7 +154,7 @@ JSON based filters allows you to define more intricate conditions.
     {"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
     ```
 
-    **Note:** Accounts are active by default, but inputs are inactive by default, you must activate them to start importing the data. For possible filters refer to Observable\_filters section in Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
+    **Note:** Accounts are active by default, but inputs are inactive by default, you must activate them to start importing the data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/tisc-api.md#title_tisc-POST-observables) application.
 
 9.  Click **Add** to add the inputs.
 

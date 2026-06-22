@@ -92,15 +92,15 @@ Configure the Event Management environment for the collection of events from Azu
 
 8.  Enter the `OIDC Metadata URL` according to the Azure token used by the registered application, as shown in the following table.
 
-<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d132281e469">
+<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d130682e469">
 
 Azure token
 
-</th><th align="left" id="d132281e472">
+</th><th align="left" id="d130682e472">
 
 OIDC Metadata URL
 
-</th></tr></thead><tbody><tr><td id="d132281e478">
+</th></tr></thead><tbody><tr><td id="d130682e478">
 
 **V2**
 
@@ -112,7 +112,7 @@ In the OIDC Provider Configuration form, add the following URL to the **OIDC Met
 
  **Note:** If attempting to integrate Azure Gov Cloud with the ServiceNow Azure Monitor Connector, remember to change the claim value to `f1f34126-d4ef-40e1-ad4b-bf5d47b4860d`.
 
-</td></tr><tr><td id="d132281e505">
+</td></tr><tr><td id="d130682e505">
 
 **V1**
 

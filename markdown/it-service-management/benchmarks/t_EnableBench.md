@@ -34,15 +34,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt in to Benchmarks by using the guided setup or by using the Success Dashboard.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d51154e98">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d51192e98">
 
 Using
 
-</th><th align="left" id="d51154e101">
+</th><th align="left" id="d51192e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51154e107">
+</th></tr></thead><tbody><tr><td id="d51192e107">
 
 **Guided setup**
 
@@ -52,7 +52,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and select **Configure**.
 
 
-</td></tr><tr><td id="d51154e143">
+</td></tr><tr><td id="d51192e143">
 
 **ITSM Success Dashboard**
 

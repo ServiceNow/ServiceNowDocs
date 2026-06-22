@@ -18,7 +18,7 @@ Approval rules can automatically set the approval state to something other than 
 
 ## Prerequisites
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Role required: admin
 

@@ -20,7 +20,7 @@ Platform Analytics Solutions and in-form analytics contain preconfigured dashboa
 
 Starting in Xanadu release, the Incident Management Platform Analytics Solutions dashboards are deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident.md) to view the actionable data visualizations that help in improving the business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -48,7 +48,7 @@ View the current information about open incidents as a list, or as a heatmap or 
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

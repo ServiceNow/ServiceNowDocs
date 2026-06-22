@@ -192,15 +192,15 @@ View the available correlation rules in your ServiceNow AI Platform instance so 
 
 3.  Choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e857">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88528e857">
 
 Option
 
-</th><th align="left" id="d88493e860">
+</th><th align="left" id="d88528e860">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e866">
+</th></tr></thead><tbody><tr><td id="d88528e866">
 
 **Continue, or alternatively, click Mapping in the progress bar**
 
@@ -208,7 +208,7 @@ Description
 
 The Mapping form is displayed. **Mapping** is selected on the progress bar. The next step is to map notable event fields to a SIR security incident.
 
-</td></tr><tr><td id="d88493e883">
+</td></tr><tr><td id="d88528e883">
 
 **Update**
 
@@ -216,7 +216,7 @@ The Mapping form is displayed. **Mapping** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Notable Event Profiles list is displayed.
 
-</td></tr><tr><td id="d88493e892">
+</td></tr><tr><td id="d88528e892">
 
 **Previous**
 
@@ -224,7 +224,7 @@ Your data is saved and the Splunk Notable Event Profiles list is displayed.
 
 The **Name** step is displayed.
 
-</td></tr><tr><td id="d88493e904">
+</td></tr><tr><td id="d88528e904">
 
 **Delete**
 
@@ -409,15 +409,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e1588">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88528e1588">
 
 Option
 
-</th><th align="left" id="d88493e1591">
+</th><th align="left" id="d88528e1591">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e1597">
+</th></tr></thead><tbody><tr><td id="d88528e1597">
 
 ** **
 
@@ -425,7 +425,7 @@ Description
 
  
 
-</td></tr><tr><td id="d88493e1604">
+</td></tr><tr><td id="d88528e1604">
 
 **Continue**
 
@@ -433,7 +433,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d88493e1621">
+</td></tr><tr><td id="d88528e1621">
 
 **Update**
 
@@ -441,7 +441,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d88493e1630">
+</td></tr><tr><td id="d88528e1630">
 
 **Previous**
 
@@ -449,7 +449,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d88493e1640">
+</td></tr><tr><td id="d88528e1640">
 
 **Delete**
 
@@ -507,15 +507,15 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 9.  After you have fixed any errors and verified that the fields are the way you want them, choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88493e1841">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d88528e1841">
 
 Option
 
-</th><th align="left" id="d88493e1844">
+</th><th align="left" id="d88528e1844">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e1850">
+</th></tr></thead><tbody><tr><td id="d88528e1850">
 
 **Continue**
 
@@ -523,7 +523,7 @@ Description
 
 The Scheduling form is displayed for profiles with scheduled notable events. **Scheduling** is selected on the progress bar.
 
-</td></tr><tr><td id="d88493e1864">
+</td></tr><tr><td id="d88528e1864">
 
 **Finish**
 
@@ -531,7 +531,7 @@ The Scheduling form is displayed for profiles with scheduled notable events. **S
 
 For profiles with configured for manual event forwarding, click **Finish**. There is no scheduling step for profiles with event data that are exported on-demand directly from the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d88493e1879">
+</td></tr><tr><td id="d88528e1879">
 
 **Update**
 
@@ -539,7 +539,7 @@ For profiles with configured for manual event forwarding, click **Finish**. Ther
 
 Your data is saved, and you are returned to the Splunk Event Profiles list.
 
-</td></tr><tr><td id="d88493e1891">
+</td></tr><tr><td id="d88528e1891">
 
 **Previous**
 
@@ -547,7 +547,7 @@ Your data is saved, and you are returned to the Splunk Event Profiles list.
 
 The Mapping step on the progress bar is displayed.
 
-</td></tr><tr><td id="d88493e1901">
+</td></tr><tr><td id="d88528e1901">
 
 **Delete**
 
@@ -587,15 +587,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d88493e2023">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d88528e2023">
 
 Option
 
-</th><th align="left" id="d88493e2026">
+</th><th align="left" id="d88528e2026">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e2032">
+</th></tr></thead><tbody><tr><td id="d88528e2032">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -605,7 +605,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d88493e2059">
+</td></tr><tr><td id="d88528e2059">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected
@@ -666,15 +666,15 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 2.  Follow the instructions below to complete the configuration for updating notable events based on security incident updates.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d88493e2318">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d88528e2318">
 
 Option or Field
 
-</th><th align="left" id="d88493e2321">
+</th><th align="left" id="d88528e2321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e2327">
+</th></tr></thead><tbody><tr><td id="d88528e2327">
 
 **Update Notable Events upon SIR Incident Creation**
 
@@ -682,7 +682,7 @@ Description
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is created from the notable event. This can occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d88493e2336">
+</td></tr><tr><td id="d88528e2336">
 
 **Initial Notable Event Status Update**
 
@@ -690,7 +690,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the menu that displays all available status values retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents and notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d88493e2351">
+</td></tr><tr><td id="d88528e2351">
 
 **Initial Comments posted back to Notable Event**
 
@@ -698,7 +698,7 @@ You must select a status option from the menu that displays all available status
 
 In addition to updating the notable status value, you can also post comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d88493e2363">
+</td></tr><tr><td id="d88528e2363">
 
 **Close out Notable Events upon SIR Incident Closure**
 
@@ -706,7 +706,7 @@ In addition to updating the notable status value, you can also post comments to 
 
 Select this option if you want to update the notable event status and add additional comments when a security incident is closed from the notable event. This will occur for both the initial triggering notable events that create the security incident, as well as aggregated events.
 
-</td></tr><tr><td id="d88493e2373">
+</td></tr><tr><td id="d88528e2373">
 
 **Closure Notable Event Status Update**
 
@@ -714,7 +714,7 @@ Select this option if you want to update the notable event status and add additi
 
 You must select a status option from the list menu that displays all available status values that are retrieved from the Splunk Enterprise Security server. This may include a custom created status, such as ServiceNow - Assigned as shown in the screen shot below. Select the status value to be set for all notable events when a security incident is created for an ingested notable event. This includes notables that create new incidents as well as notables that are ingested and aggregated to an existing open incident.
 
-</td></tr><tr><td id="d88493e2388">
+</td></tr><tr><td id="d88528e2388">
 
 **Closure Comments Posted back to Notable Event**
 
@@ -722,7 +722,7 @@ You must select a status option from the list menu that displays all available s
 
 In addition to updating the notable status value, you can also post closure comments to the notable event incident review history. As indicated in the instructions, you may edit the default text displayed in the comments section including adding or modifying the substitution variables using format $⁠\{field name\}$ for any field on the Security Incident Response incident form.
 
-</td></tr><tr><td id="d88493e2400">
+</td></tr><tr><td id="d88528e2400">
 
 **Update SIR Automation Activity with Splunk Event comments**
 
@@ -732,7 +732,7 @@ Option to update your Splunk Event comments in the SIR Automation Activity. The 
 
 Starting from Splunk Enterprise Security version 8.0.x, the comments field has been deprecated, and therefore our application can no longer retrieve comments from Splunk Enterprise Security.
 
-</td></tr><tr><td id="d88493e2429">
+</td></tr><tr><td id="d88528e2429">
 
 **Update Splunk comments with SIR work notes**
 
@@ -1112,15 +1112,15 @@ For manual event forwarding, you can identify up to two different ServiceNow AI 
 
         \[Omitted image "splunk\_es\_api\_endpoint\_security.png"\] Alt text: API endpoints
 
-<table id="choicetable_knk_rmg_wgb"><thead><tr><th align="left" id="d88493e3679">
+<table id="choicetable_knk_rmg_wgb"><thead><tr><th align="left" id="d88528e3679">
 
 Field on Specify ServiceNow Primary Instance section
 
-</th><th align="left" id="d88493e3682">
+</th><th align="left" id="d88528e3682">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88493e3688">
+</th></tr></thead><tbody><tr><td id="d88528e3688">
 
 **Workflow action label**
 
@@ -1130,7 +1130,7 @@ Name of the ServiceNow AI Platform workflow for your production \(primary\) inst
 
  In your Splunk Enterprise Security console, this workflow name is displayed for the production \(Primary\) instance in the expanded `Event Actions` drop-down list of a search. This name is the name of your production instance. You can edit the name.
 
-</td></tr><tr><td id="d88493e3718">
+</td></tr><tr><td id="d88528e3718">
 
 **URL**
 
@@ -1138,7 +1138,7 @@ Name of the ServiceNow AI Platform workflow for your production \(primary\) inst
 
 The URL for the ServiceNow AI Platform instance you entered in the preceding Workflow action label field.Copy the URL in your browser and paste it in this field in the form.
 
-</td></tr><tr><td id="d88493e3733">
+</td></tr><tr><td id="d88528e3733">
 
 **Endpoint**
 
@@ -1153,7 +1153,7 @@ Base API path. For more information, refer to the figure that follows the table.
 5.  In the Base API path column on the refreshed page, copy this value and paste it in the Endpoint field on the form. An example base api path is, `/api/sn_sec_splunk_v2/event_ingestion`.
 
 
-</td></tr><tr><td id="d88493e3784">
+</td></tr><tr><td id="d88528e3784">
 
 **Username**
 
@@ -1161,7 +1161,7 @@ Base API path. For more information, refer to the figure that follows the table.
 
 User name for your ServiceNow AI Platform instance. This name is the user name for the ServiceNow AI Platform instance in which you assigned a user with the \(sn\_sec\_splunk\_v2.api\_account\_access\) role for manual event forwarding. For more information about assigning this role, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-setup-sn.md).
 
-</td></tr><tr><td id="d88493e3817">
+</td></tr><tr><td id="d88528e3817">
 
 **Password**
 
@@ -1169,7 +1169,7 @@ User name for your ServiceNow AI Platform instance. This name is the user name f
 
 Password for your ServiceNow AI Platform instance.This password is the password for the ServiceNow AI Platform instance in which you assigned a user with the \(sn\_sec\_splunk\_v2.api\_account\_access\) role for manual event forwarding.
 
-</td></tr><tr><td id="d88493e3835">
+</td></tr><tr><td id="d88528e3835">
 
 **\(Optional\) Fields on Specify ServiceNow Secondary Instance section**
 
@@ -1177,7 +1177,7 @@ Password for your ServiceNow AI Platform instance.This password is the password 
 
 Description These fields are optional. You are not required to specify a secondary instance.
 
-</td></tr><tr><td id="d88493e3850">
+</td></tr><tr><td id="d88528e3850">
 
 **Workflow action label**
 
@@ -1185,7 +1185,7 @@ Description These fields are optional. You are not required to specify a seconda
 
 Name of the ServiceNow AI Platform workflow for your secondary \(staging\) instance. This name is the name of a ServiceNow AI Platform instance that your users who are monitoring Splunk events identify as a secondary instance, for example, ServiceNow Event Ingestion \(Staging\).In your Splunk Enterprise Security console, this workflow name is displayed for the staging \(Secondary\) instance in the expanded Event Actions drop-down list of a search. This ServiceNow AI Platform instance is your staging instance. You can edit the name.
 
-</td></tr><tr><td id="d88493e3880">
+</td></tr><tr><td id="d88528e3880">
 
 **URL**
 
@@ -1193,7 +1193,7 @@ Name of the ServiceNow AI Platform workflow for your secondary \(staging\) insta
 
 The URL for the ServiceNow AI Platform instance you entered in the preceding Workflow action label field for the secondary ServiceNow AI Platform instance.Copy the URL in your browser and paste it in this field in the form.
 
-</td></tr><tr><td id="d88493e3898">
+</td></tr><tr><td id="d88528e3898">
 
 **Endpoint**
 
@@ -1201,7 +1201,7 @@ The URL for the ServiceNow AI Platform instance you entered in the preceding Wor
 
 Base API path. This value for the Base API path for your secondary instance is the same value as the Base API path for your primary instance. See the preceding figure of the form for more information.
 
-</td></tr><tr><td id="d88493e3907">
+</td></tr><tr><td id="d88528e3907">
 
 **Username**
 
@@ -1209,7 +1209,7 @@ Base API path. This value for the Base API path for your secondary instance is t
 
 Username for your ServiceNow AI Platform staging instance. The user must have the \(sn\_sec\_splunk\_v2.api\_account\_access\) role.
 
-</td></tr><tr><td id="d88493e3920">
+</td></tr><tr><td id="d88528e3920">
 
 **Password**
 

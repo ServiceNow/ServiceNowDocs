@@ -39,15 +39,15 @@ Role required: hr\_basic or hr\_case\_writer
 
 4.  Review the list of suggested knowledge articles.
 
-<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d126792e137">
+<table id="choicetable_pgl_nkt_hcc"><thead><tr><th align="left" id="d126576e137">
 
 Action
 
-</th><th align="left" id="d126792e140">
+</th><th align="left" id="d126576e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126792e146">
+</th></tr></thead><tbody><tr><td id="d126576e146">
 
 **Preview the article**
 
@@ -55,7 +55,7 @@ Description
 
 Click the article title. After reviewing the article in the pop-up window, click **Attach to HR Case** if it is relevant, or click **\(X\)** to close the article.
 
-</td></tr><tr><td id="d126792e161">
+</td></tr><tr><td id="d126576e161">
 
 **Attach the article without previewing it**
 

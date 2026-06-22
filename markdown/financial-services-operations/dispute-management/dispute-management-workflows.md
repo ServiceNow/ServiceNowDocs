@@ -26,13 +26,13 @@ When a dispute agent initiates a case, the case begins in the Initiate stage.
 
 During this phase, you can identify the disputed transaction, add more transactions \(if the dispute category is Fraud\), complete the dispute questionnaire, and upload any supporting documentation.
 
-When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as Ethoca Consumer Clarity and Order Insight Digital Management.
+When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/ethoca-spoke.md) and [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/visa-spoke.md).
 
 The system evaluates decision rules and determines policy rules for each transaction in the case \(for example, which transaction qualifies for a provisional credit as opposed to a final credit\).
 
 The system generates tasks based on the policy rules that are evaluated when a case is submitted. For instance, when a case has a dispute category of Fraud, the system creates a task to block and reissue the card.
 
-For information about configuring business rules, see .
+For information about configuring business rules, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 ## Review
 

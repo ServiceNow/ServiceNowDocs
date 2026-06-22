@@ -16,7 +16,7 @@ breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 
 Reference topics provide additional information about ServiceNow Service Operations Workspace.
 
-For information about components installed with Service Operations Workspace for ITOM, see Service Operations Workspace for ITOM reference.
+For information about components installed with Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md).
 
 -   **[Service Operations Workspace for ITSM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/sow-itsm-data-model.md)**  
 Learn about Service Operations Workspace \(SOW\) for ITSM by viewing the data model relationship diagram. This diagram shows the relationships between the tables within the application and provide an overall picture of how SOW operates.

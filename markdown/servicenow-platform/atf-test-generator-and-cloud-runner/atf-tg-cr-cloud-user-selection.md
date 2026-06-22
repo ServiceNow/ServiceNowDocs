@@ -20,7 +20,7 @@ Set the credentials for the cloud user to be able to generate and run tests. Thi
 
 Role required: admin
 
-**Note:** The cloud runner works as expected, even if you have Multi-factor authentication \(MFA\) set up for your cloud user.
+**Note:** The cloud runner works as expected, even if you have [Multi-factor authentication \(MFA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/explore-mfa.md) set up for your cloud user.
 
 ## Procedure
 

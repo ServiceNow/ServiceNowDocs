@@ -36,15 +36,15 @@ A treasury agent can also create a treasury service case by navigating to **Trea
 
 3.  Create a treasury case from the treasury case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d77780e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d51900e116">
 
 Option
 
-</th><th align="left" id="d77780e119">
+</th><th align="left" id="d51900e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77780e125">
+</th></tr></thead><tbody><tr><td id="d51900e125">
 
 **Treasury case from the treasury case list**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d77780e155">
+</td></tr><tr><td id="d51900e155">
 
 **Treasury case from an interaction record**
 

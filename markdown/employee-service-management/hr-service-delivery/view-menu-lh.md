@@ -34,15 +34,15 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
 
 4.  Select the View menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) to perform one of the following steps.
 
-<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d310593e113">
+<table id="choicetable_czg_2pb_pcc"><thead><tr><th align="left" id="d310414e113">
 
 Action
 
-</th><th align="left" id="d310593e116">
+</th><th align="left" id="d310414e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310593e122">
+</th></tr></thead><tbody><tr><td id="d310414e122">
 
 **View career profile**
 
@@ -50,7 +50,7 @@ Description
 
 View a comprehensive career profile of an employee.
 
-</td></tr><tr><td id="d310593e131">
+</td></tr><tr><td id="d310414e131">
 
 **Create a conversation**
 
@@ -58,7 +58,7 @@ View a comprehensive career profile of an employee.
 
 Create a conversation with an employee.This option is only visible if the Microsoft Outlook integration isn’t enabled for Leader hub. For more information, see [Create a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/create-conversation-lh.md).
 
-</td></tr><tr><td id="d310593e158">
+</td></tr><tr><td id="d310414e158">
 
 **Schedule conversation**
 
@@ -66,7 +66,7 @@ Create a conversation with an employee.This option is only visible if the Micros
 
 Schedule a conversation with an employee.This option is only visible if the Microsoft Outlook integration is enabled for Leader hub. For more information, see [Schedule a conversation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/schedule-conversation-lh.md).
 
-</td></tr><tr><td id="d310593e185">
+</td></tr><tr><td id="d310414e185">
 
 **Send email**
 

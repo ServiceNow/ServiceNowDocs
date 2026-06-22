@@ -20,7 +20,7 @@ These functions are called when the **Get Topics** button is selected on the Top
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topics, see .
+For additional information on topics, see [Handling the external events using Telecommunications API notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 

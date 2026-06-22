@@ -18,7 +18,7 @@ Enable dynamic translation of chat messages into English before they are sent to
 
 ## Before you begin
 
-You must have Dynamic Translation for Virtual Agent installed and active for your Virtual Agent. For more information, check out .
+You must have Dynamic Translation for Virtual Agent installed and active for your Virtual Agent. For more information, check out [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
 Role required: admin
 

@@ -32,15 +32,15 @@ Role required: sn\_si.admin
 
 4.  In the Alert Ingestions Configuration dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d63840e129">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d63875e129">
 
 Field
 
-</th><th align="left" id="d63840e132">
+</th><th align="left" id="d63875e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63840e138">
+</th></tr></thead><tbody><tr><td id="d63875e138">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d63840e153">
+</td></tr><tr><td id="d63875e153">
 
 **Tenant ID**
 
@@ -56,7 +56,7 @@ Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric valu
 
 The Microsoft Azure Tenant ID. This is the instance from which all the alerts in the Microsoft Azure portal are retrieved.
 
-</td></tr><tr><td id="d63840e168">
+</td></tr><tr><td id="d63875e168">
 
 **Client ID**
 
@@ -64,7 +64,7 @@ The Microsoft Azure Tenant ID. This is the instance from which all the alerts in
 
 The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/ms-graph-configure-azure.md) for details.
 
-</td></tr><tr><td id="d63840e193">
+</td></tr><tr><td id="d63875e193">
 
 **Client Secret**
 

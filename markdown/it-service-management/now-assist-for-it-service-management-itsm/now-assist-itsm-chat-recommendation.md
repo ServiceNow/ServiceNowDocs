@@ -45,15 +45,15 @@ You can do these actions by using Now Assist icon:
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d95161e155">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d95218e155">
 
 Chat message window
 
-</th><th align="left" id="d95161e158">
+</th><th align="left" id="d95218e158">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d95161e166">
+</th></tr></thead><tbody><tr><td id="d95218e166">
 
 **Typed response**
 
@@ -65,7 +65,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d95161e186">
+</td></tr><tr><td id="d95218e186">
 
 **Left blank**
 

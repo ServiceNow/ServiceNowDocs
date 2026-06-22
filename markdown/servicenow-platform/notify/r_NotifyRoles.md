@@ -16,7 +16,7 @@ breadcrumb: [Components installed with Notify, Reference, Notify, Manage service
 
 Notify adds the following roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/notify/installed-with-notify2.md)
 

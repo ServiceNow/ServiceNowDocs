@@ -58,7 +58,7 @@ Role required: admin
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see .
+To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 **Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

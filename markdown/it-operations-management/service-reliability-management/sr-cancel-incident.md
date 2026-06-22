@@ -34,15 +34,15 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d64957e98">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d63332e98">
 
 Option
 
-</th><th align="left" id="d64957e101">
+</th><th align="left" id="d63332e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64957e107">
+</th></tr></thead><tbody><tr><td id="d63332e107">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d64957e131">
+</td></tr><tr><td id="d63332e131">
 
 **In the incident form**
 

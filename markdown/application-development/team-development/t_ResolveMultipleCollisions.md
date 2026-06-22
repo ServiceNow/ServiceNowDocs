@@ -28,7 +28,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d274050e87">
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d274155e87">
 
 **To load the version pulled from the parent as the current version for all selected collisions**
 
@@ -36,7 +36,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 Select **Use Pulled Version**
 
-</td></tr><tr><td id="d274050e99">
+</td></tr><tr><td id="d274155e99">
 
 **To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
 

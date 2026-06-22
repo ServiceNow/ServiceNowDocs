@@ -151,7 +151,7 @@ Process Mining for Source-to-Pay Operations
 
 </td><td>
 
-With this application, provide your customers with the ability to use Platform's Process Mining capabilities on the Source-to-Pay workflows to which customers are entitled to analyze and improve source-to-pay processes.For more information on this, see .
+With this application, provide your customers with the ability to use Platform's Process Mining capabilities on the Source-to-Pay workflows to which customers are entitled to analyze and improve source-to-pay processes.For more information on this, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/process-mining.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the .
+    Learn more about what's new and changed. See the [Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/sourcing-procurement-operations-rn.md).
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 

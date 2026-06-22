@@ -16,7 +16,7 @@ breadcrumb: [Application Insights, Monitoring platform performance, Platform per
 
 You can monitor the performance of a MID Server by tracking the status of entries in the ECC queue.
 
-Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see MID Server ECC Queue.
+Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see [MID Server ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md).
 
 You can monitor the relationship between the number of ready, processing, and processed records by viewing the ECC queue graphs. Use the ECC queue graphs to monitor the following:
 

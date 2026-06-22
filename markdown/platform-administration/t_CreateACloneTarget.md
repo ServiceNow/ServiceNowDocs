@@ -18,7 +18,7 @@ A clone target record specifies the instance URL and credentials used for clonin
 
 -   Provide credentials for the target instance for a user with the admin role. Use a local, user account, not an LDAP or SSO user account. The target instance credentials must exist in the User \[sys\_user\] table as a user record or as part of an LDAP integration. Clone requests cannot redirect authentication requests to a single sign-on identity provider.
 -   Verify the system property **glide.db.clone.allow\_clone\_target** is set to **True**. By default, this property is enabled on instances whose name ends in Dev, Test, Stage, UAT, or QA.
--   If the target instance uses IP range based authentication, it must allow the IP range 10.0.0.0/10.255.255.255 to communicate on a local network.
+-   If the target instance uses [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_IPRangeBasedAuthentication.md), it must allow the IP range 10.0.0.0/10.255.255.255 to communicate on a local network.
 -   Role required: clone\_admin or admin.
 
 ## Procedure

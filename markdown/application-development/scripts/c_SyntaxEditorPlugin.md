@@ -25,7 +25,7 @@ The syntax editor enables the following features for all script fields:
 
 \[Omitted image "JavaScriptSyntaxEditor.png"\] Alt text: Edit JavaScript syntax
 
-The syntax editor can be disabled or enabled by modifying the **glide.ui.javascript\_editor** property in the sys\_properties.list. In addition, administrators can configure the syntax editor to show error and warning indicators next to a line of code that contains an error by modifying the **glide.ui.syntax\_editor.show\_warnings\_errors** property. For information on the sys\_properties.list, refer to Available system properties.
+The syntax editor can be disabled or enabled by modifying the **glide.ui.javascript\_editor** property in the sys\_properties.list. In addition, administrators can configure the syntax editor to show error and warning indicators next to a line of code that contains an error by modifying the **glide.ui.syntax\_editor.show\_warnings\_errors** property. For information on the sys\_properties.list, refer to [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** Administrators can disable or enable the syntax editor for all users, regardless of user preference.
 

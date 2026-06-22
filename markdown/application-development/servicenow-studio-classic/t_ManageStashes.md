@@ -34,7 +34,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
 2.  Click the action next to the stash you want to manage.
 
-<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d41781e141">
+<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d41708e141">
 
 **Apply**
 
@@ -42,7 +42,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
 Commits the stashed changes to the application and checks for conflicts.
 
-</td></tr><tr><td id="d41781e150">
+</td></tr><tr><td id="d41708e150">
 
 **Delete**
 
@@ -50,7 +50,7 @@ Commits the stashed changes to the application and checks for conflicts.
 
 Removes the stashed changes.
 
-</td></tr><tr><td id="d41781e159">
+</td></tr><tr><td id="d41708e159">
 
 **View**
 

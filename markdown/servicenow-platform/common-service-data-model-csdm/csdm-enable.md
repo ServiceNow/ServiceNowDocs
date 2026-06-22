@@ -24,9 +24,9 @@ Activate the CSDM plugin so you can begin implementing the framework.
 
 ## Procedure
 
-1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in Activate a plugin.
+1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ActivateAPlugin.md).
 
-    For information about the components installed with a plugin, see Find components installed with an application.
+    For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 
 **Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)

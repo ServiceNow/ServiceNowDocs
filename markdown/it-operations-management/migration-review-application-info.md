@@ -90,5 +90,5 @@ Displays the filter panel on the right. If there are filters applied to the list
 **Related topics**  
 
 
-[bundle-platux.work-with-lists]
+[Work with lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/work-with-lists.md)
 

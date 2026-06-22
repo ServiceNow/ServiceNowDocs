@@ -29,7 +29,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run .
+    -   Activate and run [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/automation-discovery.md).
     -   Assess current AI maturity
     ​
 

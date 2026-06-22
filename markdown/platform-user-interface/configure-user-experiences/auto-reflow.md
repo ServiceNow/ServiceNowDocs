@@ -16,7 +16,7 @@ breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Co
 
 Reflow enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
 
-**Important:** Configurable Workspace pages must use the latest layout system for reflow to be available. For more information, see 
+**Important:** Configurable Workspace pages must use the latest layout system for reflow to be available. For more information, see [Upgrading layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/upgrade-layout-uib.md)
 
 Reflow helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations by transforming page layouts into a vertical, stacked view automatically when users increase browser zoom to 400%. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 

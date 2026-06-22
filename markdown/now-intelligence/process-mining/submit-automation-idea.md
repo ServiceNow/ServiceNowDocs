@@ -18,7 +18,7 @@ Discover, prioritize, and manage automation requests from different sources thro
 
 ## Before you begin
 
-You must install and configure the Automation Center plugin before configuring. See  for more information.
+You must install and configure the Automation Center plugin before configuring. See [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/automation-center/install-automation-center.md) for more information.
 
 Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
@@ -38,7 +38,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 5.  Fill out the required fields for your request, and select **Submit**. \[Omitted image "new-automation-request.png"\] Alt text: new automation idea form
 
-    For more information, see .
+    For more information, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
 
 ## Result

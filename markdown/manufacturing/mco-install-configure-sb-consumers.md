@@ -20,14 +20,14 @@ As a consumer, follow these steps to set up the Service Exchange for Consumers a
 
 |Task|Link|
 |----|----|
-|Install the Service Exchange for Consumers application.|See .|
+|Install the Service Exchange for Consumers application.|See [Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/install-service-bridge-v2-customer.md).|
 |Upgrade from version 1.x.x of Service Exchange for Consumers if required.|See [Upgrade Guide - Service Bridge for Providers and Consumers application \(v2.x.x release - KB1700387\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387).|
-|Add Service Exchange roles for consumers.|See .|
-|Register with a provider.|See .|
-|Activate entitlements.|See .|
-|Configure consumer pre-flows.|See .|
-|Add authorized users.|See .|
-|Create transforms.|See .|
-|Create remote tasks to sync data.|See .|
-|Configure settings.|See .|
+|Add Service Exchange roles for consumers.|See [Personas for consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-customer-roles.md).|
+|Register with a provider.|See [Registering with a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-register.md).|
+|Activate entitlements.|See [Activate entitlements in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-activate-entitlements.md).|
+|Configure consumer pre-flows.|See [Service Exchange consumer pre-flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-conf-consumer-flow.md).|
+|Add authorized users.|See [Add an authorized user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-auth-user.md).|
+|Create transforms.|See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-transform.md).|
+|Create remote tasks to sync data.|See [Create remote tasks to sync data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-remote-task-create.md).|
+|Configure settings.|See [Configure settings on the consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-configure-consumer-settings.md).|
 

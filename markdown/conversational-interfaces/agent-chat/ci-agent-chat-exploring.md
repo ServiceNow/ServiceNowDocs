@@ -35,7 +35,7 @@ Virtual chat conducts a survey before and after the Agent Chat. The pre-survey g
 |Download a transcript of the conversation between the agent and the requester.|[Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/agent-chat/ci-chat-transcripts.md)|Requester|
 |Carry out a conversation in another language.|[Dynamic Translation for Agent Chat overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/agent-chat/ci-dtac-overview.md)|Agent, requester|
 |Initiate conversations with requesters on a messaging app of the requester's choice.|[Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/agent-chat/agent-init-messg-interface.md)|Agent, requester|
-|Read a summarization of the chat \(this is available only if you have Now Assist installed\).||Agent|
+|Read a summarization of the chat \(this is available only if you have Now Assist installed\).|[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-chat-summary.md)|Agent|
 
 ## Routing chats
 
@@ -47,5 +47,5 @@ If an agent or requester enters a link during an Agent Chat conversation, the li
 
 ## Cross-channel conversation history and cross-channel message-level sentiment
 
-Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see .
+Agents can see cross-channel conversation history and cross-channel message-level sentiment in real time when an agent is having a live conversation with a requester in the chat panel in Agent Chat. For more information, see [Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/live-agent-overview.md).
 

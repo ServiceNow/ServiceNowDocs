@@ -18,7 +18,7 @@ Assign roles to control access to features, capabilities, and data in the Health
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_hcls.manager or admin
 
@@ -284,7 +284,7 @@ sn\_hcls.patient
 
 Views own records including healthcare cases, addresses, patient data, and clinical data as a patient. Also, views the records of other patients including their addresses for whom they are the authorized representative. Adds comments to their healthcare cases and for whom they are the authorized representative. Views their household members, if any.
 
- Household members and addresses associated with a patient are maintained by using the Household Member \[csm\_household\_member\] and Location \[cmn\_location\] tables, respectively. For more information about household members and their relationships, see Industry data model households. Location is associated with the foundation domain in the Common Service Data Model \(CSDM\).
+ Household members and addresses associated with a patient are maintained by using the Household Member \[csm\_household\_member\] and Location \[cmn\_location\] tables, respectively. For more information about household members and their relationships, see [Industry data model households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/industry-data-model-households.md). Location is associated with the foundation domain in the Common Service Data Model \(CSDM\).
 
 </td><td>
 
@@ -408,6 +408,6 @@ sn\_hcls.revenue\_cycle\_data\_viewer
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see Assign a role to a user.
-    -   To assign a role to a group, see Assign a role to a group.
+    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 

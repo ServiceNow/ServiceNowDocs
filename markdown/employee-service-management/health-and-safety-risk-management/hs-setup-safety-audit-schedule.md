@@ -65,7 +65,7 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
     Audit records are created using the **Automate audit schedule** flow available with the application. To generate the audits instantly rather than on scheduled days, your administrator can adjust the job in this flow.
 
-    The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
+    The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-designer-home-landing-page.md) basics.
 
 -   All audit records for an audit schedule are generated in its **Scheduled audits** tab. These audit records are also available under **Audits** &gt; **All**.
 -   All required fields are copied from the audit schedule to its audit records.

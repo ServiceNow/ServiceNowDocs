@@ -78,7 +78,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-Service Catalog UI policies
+[Service Catalog UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ client
 
 </td></tr><tr><td>
 
-Script actions
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/r_ScriptActions.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ server
 
 </td></tr><tr><td>
 
-Transform maps
+[Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
 
 </td><td>
 
@@ -158,7 +158,7 @@ server
 
 </td></tr><tr><td>
 
-UI actions
+[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UIActions.md)
 
 </td><td>
 
@@ -308,7 +308,7 @@ client
 
 </td></tr><tr><td>
 
-Workflow editor
+[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/legacy-workflow/workflow-editor.md)
 
 </td><td>
 

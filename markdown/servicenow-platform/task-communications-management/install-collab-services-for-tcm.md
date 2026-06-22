@@ -34,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Xanadu\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 
-[bundle-crint.configure-slack-workspace]
+[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/configure-slack-workspace.md)
 

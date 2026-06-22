@@ -52,7 +52,7 @@ Role required: sn\_apm.apm\_analyst
 
 8.  To know the application cost in the last period, manage application cost as a percentage of total spend, determine its future trend, and provide a cost-effective business application, select **Application TCO**.
 
-    For more information, see Application TCO.
+    For more information, see [Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/financial-mgmt-application-TCO-dashboard.md).
 
     **Note:**
 

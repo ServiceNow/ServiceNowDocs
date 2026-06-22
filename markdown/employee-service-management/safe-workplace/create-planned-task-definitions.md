@@ -91,15 +91,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d234528e230">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d234338e230">
 
 Option
 
-</th><th align="left" id="d234528e233">
+</th><th align="left" id="d234338e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d234528e239">
+</th></tr></thead><tbody><tr><td id="d234338e239">
 
 **Create another planned task definition**
 
@@ -107,7 +107,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d234528e251">
+</td></tr><tr><td id="d234338e251">
 
 **Generate planned tasks immediately**
 

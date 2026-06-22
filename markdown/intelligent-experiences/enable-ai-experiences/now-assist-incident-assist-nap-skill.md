@@ -21,7 +21,7 @@ You can ask questions about an incident by using the Now Assist panel in Core UI
 
 \[Omitted image "now-assist-itsm-inc-assist-pnl.png"\] Alt text: A conversation using incident assist in the Now Assist panel in Service Operations Workspace.
 
-For more information, see .
+For more information, see [Ask questions about an incident by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md).
 
 ## Availability
 
@@ -41,7 +41,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 </td></tr></tbody>
 </table>

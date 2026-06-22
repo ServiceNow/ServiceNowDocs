@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see Activate External User Self-Registration.
+Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see [Activate External User Self-Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/external-user-registration-plugin.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
 2.  On the User Registration Configuration form, fill in the fields.
 
-    For more information about the form fields and descriptions, see Create a user registration configuration for external users.
+    For more information about the form fields and descriptions, see [Create a user registration configuration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/external-user-configuration.md).
 
 3.  From the form context menu, select **Save**.
 

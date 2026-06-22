@@ -350,7 +350,7 @@ Each record contains the following fields: \(You can refresh, edit columns, and 
 
 With the itil role, you can add a change request to this alert using the **New** button. This is not implemented in SRM alone.
 
-**Note:** For more detailed information on change requests, see .
+**Note:** For more detailed information on change requests, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/change-management/c_ITILChangeManagement.md).
 
 |Field|Description|
 |-----|-----------|

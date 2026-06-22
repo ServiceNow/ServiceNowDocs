@@ -32,7 +32,7 @@ Register the CrowdStrike OAuth application to access the CrowdStrike API and to 
 
 ### Before you begin
 
-The CrowdStrike Integration Hub spoke must be active. For more information, see CrowdStrike spoke.
+The CrowdStrike Integration Hub spoke must be active. For more information, see [CrowdStrike spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/crowdstrike-spoke.md).
 
 CrowdStrike Role required: Falcon administrator
 
@@ -91,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86438e437">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d86527e437">
 
 Interface
 
-</th><th align="left" id="d86438e440">
+</th><th align="left" id="d86527e440">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86438e446">
+</th></tr></thead><tbody><tr><td id="d86527e446">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d86438e488">
+</td></tr><tr><td id="d86527e488">
 
 **Software Asset Workspace**
 

@@ -7,7 +7,7 @@ release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

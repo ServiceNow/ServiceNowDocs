@@ -20,7 +20,7 @@ The Jumpstart Your Now Assist for ITSM Accelerator provides a demonstration of t
 
 Jumpstart Your Now Assist for ITSM provides  Impact customers with a comprehensive overview and an applied demonstration of Now Assist for ITSM. Leveraging Generative AI capabilities, this Accelerator showcases how to automatically generate resolution notes and provide incident and chat conversation summaries. By reducing manual tasks, Now Assist enables faster incident resolution.  This offering highlights the possibilities and capabilities of Now Assist for ITSM,  providing key resources and leading practices for  getting started.
 
-For additional information on the feature, see .
+For additional information on the feature, see [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

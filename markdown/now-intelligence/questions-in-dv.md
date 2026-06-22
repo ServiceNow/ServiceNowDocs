@@ -32,7 +32,7 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see Record Producer.
+You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 **Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
@@ -56,7 +56,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d164390e204">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d164511e204">
 
 **Use the question as a filter**
 
@@ -64,7 +64,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d164390e222">
+</td></tr><tr><td id="d164511e222">
 
 **Add the question as a column in a Simple List**
 
@@ -72,7 +72,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Default display**, select **+ Add** next to Columns. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d164390e240">
+</td></tr><tr><td id="d164511e240">
 
 **Add the question as a __group by__**
 
@@ -80,7 +80,7 @@ Under **Default display**, select **+ Add** next to Columns. Then select **Quest
 
 Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d164390e261">
+</td></tr><tr><td id="d164511e261">
 
 **Add the question as an alternative group by**
 
@@ -88,7 +88,7 @@ Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Questions**.
 
-</td></tr><tr><td id="d164390e279">
+</td></tr><tr><td id="d164511e279">
 
 **Add the question as a column or row in a pivot table**
 

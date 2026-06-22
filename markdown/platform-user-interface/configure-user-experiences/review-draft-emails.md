@@ -7,7 +7,7 @@ release: xanadu
 product: Configure User Experiences
 classification: configure-user-experiences
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Compose emails from the full email composer, Communicating via email in Workspace, Responding to issues in an open record in Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

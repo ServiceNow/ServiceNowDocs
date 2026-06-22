@@ -58,15 +58,15 @@ When a case moves to the Manual investigation task, a dispute agent reviews case
 
 12. Close the task from the playbook.
 
-<table id="choicetable_dpp_ngx_f5b"><thead><tr><th align="left" id="d31981e213">
+<table id="choicetable_dpp_ngx_f5b"><thead><tr><th align="left" id="d46298e213">
 
 Dispute activity
 
-</th><th align="left" id="d31981e216">
+</th><th align="left" id="d46298e216">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31981e222">
+</th></tr></thead><tbody><tr><td id="d46298e222">
 
 **To close the Manual investigation task**
 

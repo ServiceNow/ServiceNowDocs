@@ -22,7 +22,7 @@ Role required: sn\_imt\_ppe.ppe\_admin
 
 ## About this task
 
-When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom. For more information about transfer orders, see Transfer orders.
+When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom. For more information about transfer orders, see [Transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/asset-management/transfer-orders-asset.md).
 
 ## Procedure
 

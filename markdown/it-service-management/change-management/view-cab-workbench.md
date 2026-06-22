@@ -32,7 +32,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 2.  You can perform the following actions from the CAB calendar.
 
-<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d223546e89">
+<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d223666e89">
 
 **View the calendar**
 
@@ -40,7 +40,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 Click the options in the top right of the CAB calendar to display the calendar in daily, weekly, or monthly view.
 
-</td></tr><tr><td id="d223546e98">
+</td></tr><tr><td id="d223666e98">
 
 **View CAB meeting details at a glance**
 
@@ -48,7 +48,7 @@ Click the options in the top right of the CAB calendar to display the calendar i
 
 Click a specific CAB meeting to view details such as the CAB manager, meeting start time, and meeting end time.
 
-</td></tr><tr><td id="d223546e107">
+</td></tr><tr><td id="d223666e107">
 
 **Attend a specific CAB meeting**
 

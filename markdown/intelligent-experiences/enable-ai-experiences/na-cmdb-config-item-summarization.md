@@ -21,7 +21,7 @@ You can use Now Assist to create a summary of a configuration item and all of th
 
 \[Omitted image "na-ci-summarization.png"\] Alt text: A CI record with a summary provided by Now Assist.
 
-For more information, see  and .
+For more information, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) and [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md).
 
 ## Availability
 
@@ -29,7 +29,7 @@ This skill is available in the workflows and products listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

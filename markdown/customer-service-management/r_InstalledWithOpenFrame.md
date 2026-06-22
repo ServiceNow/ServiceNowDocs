@@ -190,5 +190,5 @@ show\_phone\_customer\_service
 **Related topics**  
 
 
-[bundle-cadev.c_UIMacros]
+[UI Macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_UIMacros.md)
 

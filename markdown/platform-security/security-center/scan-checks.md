@@ -22,10 +22,10 @@ Checks are divided into four classes to identify issues and implement security r
 
 |Check class|Description|
 |-----------|-----------|
-|Table checks|Use this when you know the specific tables and checks you want to test.|
-|Column checks|Use this to implement the rule you created to iterate all records matching the target column field type.|
-|Script checks|Use this to verify meta data, configurations, and execute complex checks by writing your own checks.|
-|Linter checks|Use this to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated which can be used to analyze issues with the code.|
+|[Table checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-create-table-health-check.md)|Use this when you know the specific tables and checks you want to test.|
+|[Column checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-create-column-health-check.md)|Use this to implement the rule you created to iterate all records matching the target column field type.|
+|[Script checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-create-script-health-check.md)|Use this to verify meta data, configurations, and execute complex checks by writing your own checks.|
+|[Linter checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hc-linter-check.md)|Use this to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated which can be used to analyze issues with the code.|
 
 **Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-scanning.md)
 

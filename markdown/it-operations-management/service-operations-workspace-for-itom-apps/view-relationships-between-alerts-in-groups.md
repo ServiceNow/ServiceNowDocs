@@ -45,15 +45,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 7.  Perform the following optional tasks.
 
-<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d426556e166">
+<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d424989e166">
 
 Task
 
-</th><th align="left" id="d426556e169">
+</th><th align="left" id="d424989e169">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d426556e175">
+</th></tr></thead><tbody><tr><td id="d424989e175">
 
 **Focus on an area of interest**
 
@@ -61,7 +61,7 @@ Action
 
 Select one or more nodes and rearrange them in Link View by dragging them to a new location.**Note:** After refreshing the alert group, the nodes appear in their original position again.
 
-</td></tr><tr><td id="d426556e186">
+</td></tr><tr><td id="d424989e186">
 
 **Refresh the alert group**
 
@@ -71,7 +71,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 **Note:** The **Refresh** button is enabled when new data for the alert group is available. Link View doesn't refresh automatically.
 
-</td></tr><tr><td id="d426556e208">
+</td></tr><tr><td id="d424989e208">
 
 **View the meaning of icons and colors**
 
@@ -79,7 +79,7 @@ Select **Refresh**. When you've refreshed the alert group, rearranged nodes appe
 
 Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Tags in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 
-</td></tr><tr><td id="d426556e226">
+</td></tr><tr><td id="d424989e226">
 
 **Reduce noise**
 
@@ -87,7 +87,7 @@ Select the Link View legend.The legend also indicates the number of unique nodes
 
 In the Link View legend, toggle between hiding and showing a tag type.
 
-</td></tr><tr><td id="d426556e236">
+</td></tr><tr><td id="d424989e236">
 
 **View information about an alert**
 

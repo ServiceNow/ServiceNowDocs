@@ -18,8 +18,8 @@ In this example, we create a script to retrieve specific types of incident recor
 
 For Remote Table API information, refer to:
 
--   v\_table\(\)
--   v\_query\(\)
+-   [v\_table\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/v_tableAPI.md)
+-   [v\_query\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/v_queryAPI.md)
 
 ```
 /**

@@ -53,7 +53,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
 ### Procedure
 
-1.  Add a system property .
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) .
 
     Create this property.
 

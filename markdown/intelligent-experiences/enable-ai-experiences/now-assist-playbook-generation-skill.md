@@ -23,9 +23,9 @@ Access the playbook generation skill when creating a new playbook in Workflow St
 
 \[Omitted image "new-playbook-now-assist.png"\] Alt text: You have the option to build a playbook with Now Assist in Workflow Studio, or to build one from scratch.
 
-For more information, see .
+For more information, see [Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/playbook-assist-landing.md).
 
-**Note:** Playbook authors must be assigned the **now.assist.creator** role to use playbook generation. See  for more information.
+**Note:** Playbook authors must be assigned the **now.assist.creator** role to use playbook generation. See [Playbook Assist roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/playbook-assist-roles.md) for more information.
 
 ## Availability
 
@@ -33,7 +33,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 
 **Parent Topic:**[Now Assist skills in the Creator workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-creator-skills-top.md)
 

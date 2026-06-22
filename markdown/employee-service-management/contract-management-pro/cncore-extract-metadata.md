@@ -28,15 +28,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d169262e73">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d169058e73">
 
 Method
 
-</th><th align="left" id="d169262e76">
+</th><th align="left" id="d169058e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169262e82">
+</th></tr></thead><tbody><tr><td id="d169058e82">
 
 **Contract Workspace**
 
@@ -49,7 +49,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d169262e130">
+</td></tr><tr><td id="d169058e130">
 
 **Workspace used by your application**
 

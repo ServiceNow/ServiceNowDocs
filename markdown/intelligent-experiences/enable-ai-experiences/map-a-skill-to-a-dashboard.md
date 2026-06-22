@@ -25,7 +25,7 @@ Be sure to map a dashboard with a skill in the same domain.
 
 **Note:** You can only map a skill to a dashboard. Mapping a feature \(that consists of multiple skills\) is currently not supported.
 
-If you are mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See  for more information.
+If you are mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/share-db-in-ac.md) for more information.
 
 ## Procedure
 

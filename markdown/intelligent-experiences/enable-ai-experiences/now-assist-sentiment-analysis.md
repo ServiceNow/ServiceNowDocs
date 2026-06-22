@@ -8,7 +8,7 @@ product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
 last_updated: "2025-04-11"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Analysis skills, Now Assist skills, Exploring Now Assist, Now Assist, Enable AI experiences]
 ---
 
@@ -32,8 +32,8 @@ While you're in a list view, if any underlying records have been updated and a n
 
 You can generate sentiment analysis for the following products.
 
--   
--   
+-   [Analyze sentiments in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)
+-   [Analyze sentiments in Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/sentiment-analysis-now-assist-itsm.md)
 
 ## Availability
 
@@ -53,7 +53,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 </td></tr></tbody>
 </table>

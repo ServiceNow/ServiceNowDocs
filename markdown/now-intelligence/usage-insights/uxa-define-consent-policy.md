@@ -42,15 +42,15 @@ For a detailed explanation about the tracking policies, see [Types of tracking c
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d54732e112">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d54747e112">
 
 Action
 
-</th><th align="left" id="d54732e115">
+</th><th align="left" id="d54747e115">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d54732e121">
+</th></tr></thead><tbody><tr><td id="d54747e121">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d54732e148">
+</td></tr><tr><td id="d54747e148">
 
 **Return to the default settings.
 

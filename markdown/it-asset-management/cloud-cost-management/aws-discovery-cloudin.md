@@ -20,21 +20,21 @@ Select the service accounts to discover, the credentials for accessing the accou
 
 ## Initial set up from the home page
 
-**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector for AWS to discover resources. For more information about this method, see .
+**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector for AWS to discover resources. For more information about this method, see [Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md).
 
 During initial installation, on the home page, when you select the **Set up Discovery Schedule** button in the Configure and Run Discovery section, the Discover Schedules form opens. For detailed instructions, see:
 
 -   Amazon AWS Cloud Discovery
--   Azure Cloud Discovery
+-   [Azure Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 
--   Google Cloud Platform Discovery
+-   [Google Cloud Platform Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 
 ## About Cloud Discovery
 
-The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. See Cloud Discovery.
+The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. See [Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/cloud-discovery-wizard.md).
 
 **Related topics**  
 
 
-[bundle-itom.c_GetStartedWithDiscovery]
+[Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/c_GetStartedWithDiscovery.md)
 

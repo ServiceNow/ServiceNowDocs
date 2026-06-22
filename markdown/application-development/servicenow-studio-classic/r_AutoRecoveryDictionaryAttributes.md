@@ -44,5 +44,5 @@ Disables automatic recovery of draft records for this table.
 **Related topics**  
 
 
-[bundle-platadm.c_DictionaryAttributes]
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 

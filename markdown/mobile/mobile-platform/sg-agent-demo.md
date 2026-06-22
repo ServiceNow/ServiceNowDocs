@@ -81,7 +81,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Once tasks are prioritized, your agents select their first work order and accept it. Thus acceptance provides visibility to the dispatcher and updating the agent’s location. With a swipe, they can track the parts needed to fix a problem or scan a barcode to consume an asset from inventory. As part of completing certain tasks, your agents can document conformance to a safety checklist, document equipment readings, or fill out an inspection questionnaire. These actions are done using forms specific to the type of work or equipment or even customer. Then agents can close their tasks, capturing a customer signature and adding any important work notes.
 
-    For more information on Field Service Management using mobile applications, see Mobile experience for Field Service Management.
+    For more information on Field Service Management using mobile applications, see [Mobile experience for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/mobile-experience-fsm.md).
 
 
 ## Project Manager

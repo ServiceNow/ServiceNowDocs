@@ -21,7 +21,7 @@ This API requires the Configuration Data Management \(CDM\) plugin to be activat
 -   CDM Editor Role
 -   CDM Admin Role
 
-For additional information on shared libraries and shared components, see Sharing components among applications — Component libraries.
+For additional information on shared libraries and shared components, see [Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-component-libraries.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -593,7 +593,7 @@ output.publish\_option
 
 </td><td>
 
-Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+Value of the publish option passed in the associated upload call. For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
  Data type: String
 
@@ -1428,7 +1428,7 @@ Valid values:
 -   publish\_new\_and\_unpublish\_old: Publish the new snapshot created after the commit and unpublish the existing snapshot.
 -   publish\_none: Do not publish any snapshots.
 
-For additional information on publishing snapshots, see Publish or unpublish a snapshot.
+For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
 
 Data type: String
 
@@ -1693,7 +1693,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state. Located in the CDM Changeset \[sn\_cdm\_changeset\] table.Data type: String
+String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state. Located in the CDM Changeset \[sn\_cdm\_changeset\] table.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/applications-api.md) results.
 

@@ -35,11 +35,11 @@ If you're using ServiceNow NLU topic discovery, then Virtual Agent Designer inte
 
 When you open Virtual Agent Designer, the home page lists the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, and actions.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see .
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
 
 On the home page, you can access and edit any of these assets in Virtual Agent Designer, and create topics, topic blocks, setup topics, small talk topics, and custom controls.
 
-**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see 
+**Note:** Conversational subflows and actions are available in Virtual Agent Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Virtual Agent Designer if the Now Assist Panel is available. For more information on the Virtual Agent Designer Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md)
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: Search icon. and filter icon \[Omitted image "filter-icon.png"\] Alt text: Filter icon. to quickly organize and find your topics. For more information, see [Virtual Agent Designer home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/vad-topics-page.md).
 

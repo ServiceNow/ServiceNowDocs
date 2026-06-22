@@ -133,15 +133,15 @@ Script editor for specifying the condition in a script, if you selected Advanced
 
     **Note:** the Live Agent and Virtual Agent Feedback topics are not listed in the Virtual Agent topic picker \(All Topics\) menu by default. You must associate a setup topic type to a setup topic as part of the default or custom chat experience.
 
-<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d33935e338">
+<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d55118e338">
 
 I want to...
 
-</th><th align="left" id="d33935e341">
+</th><th align="left" id="d55118e341">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33935e347">
+</th></tr></thead><tbody><tr><td id="d55118e347">
 
 **Activate a setup topic, such as the Anything Else or Virtual Agent Feedback topic**
 
@@ -158,7 +158,7 @@ For example, **Anything Else topic**.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d33935e390">
+</td></tr><tr><td id="d55118e390">
 
 **Remove a setup topic from a chat experience**
 
@@ -169,7 +169,7 @@ For example, **Anything Else topic**.
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d33935e420">
+</td></tr><tr><td id="d55118e420">
 
 **Add a new setup topic**
 
@@ -221,7 +221,7 @@ For example, **Anything Else topic**.
 
     3.  Select **Update**.
 
-    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see Create an EVAM definition.
+    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
 
 **Parent Topic:**[Setting up chat experiences for Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-conversation-settings.md)

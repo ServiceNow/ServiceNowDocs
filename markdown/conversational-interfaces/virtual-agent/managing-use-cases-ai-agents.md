@@ -21,7 +21,7 @@ View AI agents created in AI Agent Studio through Virtual Agent Designer.
 
 **Role required**: virtual\_agent\_admin
 
-When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Virtual Agent Designer. You can only view them in Virtual Agent Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see .
+When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Virtual Agent Designer. You can only view them in Virtual Agent Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md).
 
 ## AI agents in Virtual Agent Designer
 
@@ -101,7 +101,7 @@ Delete option for AI agent is inactive in Virtual Agent Designer. The AI agent c
     \[Omitted image "va-card-ai-agent.png"\] Alt text: Virtual Agent card in an AI agent.
 
 
-For detailed information about creating AI agents, see .
+For detailed information about creating AI agents, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -37,7 +37,7 @@ Depending on the setting of the **glide.live\_profile.details** property, the fo
 |Functional impact|If property is not enabled, unauthorized users can access the Live profile details of all other users.|
 |Security risk|\(Moderate\) API requests should always honor table ACLs. Restriction must be applied to prevent unauthorized users accessing details of a Live Profile.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

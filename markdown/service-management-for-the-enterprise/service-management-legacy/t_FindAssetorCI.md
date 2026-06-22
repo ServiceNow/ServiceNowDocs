@@ -50,15 +50,15 @@ Role required: none
     -   Other Campuses
 6.  Perform one of the following options.
 
-<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d26375e183">
+<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d25980e183">
 
 Result
 
-</th><th align="left" id="d26375e186">
+</th><th align="left" id="d25980e186">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d26375e192">
+</th></tr></thead><tbody><tr><td id="d25980e192">
 
 **To see the asset or CI details**
 
@@ -66,7 +66,7 @@ Action
 
 Click the link for the asset or CI. The details for that asset or CI open in a separate form.
 
-</td></tr><tr><td id="d26375e204">
+</td></tr><tr><td id="d25980e204">
 
 **To see the location of the asset or CI on the floor plan**
 

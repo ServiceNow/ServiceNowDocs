@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 When complete, you can do the following tasks:
 

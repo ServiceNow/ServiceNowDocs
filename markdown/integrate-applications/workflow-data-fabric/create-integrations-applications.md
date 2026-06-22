@@ -101,15 +101,15 @@ ServiceNow® Orchestration extends the workflow engine to manage processes and t
 
 ## Related ServiceNow applications and features
 
--   **Instance Data Replication**
+-   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)**
 
     ServiceNow® Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances. IDR enables you to maintain consistent data across different instances. For example, you can synchronize data between different organizations in your company or even between different companies with separate instances.
 
--   **Inbound email actions**
+-   **[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_InboundEmailActions.md)**
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   ****
+-   **[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/actions.md)**
 
     Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 

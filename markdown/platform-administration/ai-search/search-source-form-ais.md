@@ -40,7 +40,7 @@ Conditions
 
 </td><td>
 
-Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see Filters.
+Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_Filters.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)

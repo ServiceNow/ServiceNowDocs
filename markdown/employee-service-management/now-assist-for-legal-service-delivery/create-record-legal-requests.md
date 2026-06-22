@@ -8,7 +8,7 @@ product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
 topic_type: task
 last_updated: "2025-04-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, Configure AI Agents]
 breadcrumb: [Configuring the Triage legal requests agentic workflow, Now Assist for Legal Service Delivery \(LSD\), Legal Service Delivery, Employee Service Management]
 ---
@@ -19,13 +19,13 @@ Configure the semantic index settings to define how AI Search indexes the conten
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: admin
 
 ## About this task
 
-These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see .
+These semantic index settings specify how AI Search indexes the content from the indexed source for use with the semantic vector search. For more information on the indexing of sources for AI Search, see [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md).
 
 ## Procedure
 

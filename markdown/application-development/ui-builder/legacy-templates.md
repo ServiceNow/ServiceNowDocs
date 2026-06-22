@@ -94,7 +94,7 @@ Role required: admin
 
 15. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see .
+    For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
 
 16. Select **Create** to create your blank page.
 

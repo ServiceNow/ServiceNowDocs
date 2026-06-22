@@ -20,7 +20,7 @@ A discovery schedule determines what horizontal discovery searches for, when it 
 
 Ensure that your discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
 
-Make sure to test your credentials before you run a schedule. Bad credentials are a leading cause of failed discoveries.
+Make sure to [test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/t_CreateCredential.md) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
 
 Roles required: discovery\_admin or admin
 

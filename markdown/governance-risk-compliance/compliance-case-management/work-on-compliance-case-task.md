@@ -38,15 +38,15 @@ If a case task is the Assessment type, the case task owner must take an assessme
 
 6.  Depending on your case task type, select one of the following options.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d104931e108">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d104903e108">
 
 Choice
 
-</th><th align="left" id="d104931e111">
+</th><th align="left" id="d104903e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104931e117">
+</th></tr></thead><tbody><tr><td id="d104903e117">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d104931e150">
+</td></tr><tr><td id="d104903e150">
 
 **If the task is of type Investigation or Others**
 

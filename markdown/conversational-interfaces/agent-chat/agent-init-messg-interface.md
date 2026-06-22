@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The Agent-Initiated Messaging Interface application supports agent-initiated conversations for any type of messaging channels such as SMS.
 
-**Note:** The messaging channels are available based on the application associated with the service channel you install. For more information, see Service channels.
+**Note:** The messaging channels are available based on the application associated with the service channel you install. For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 
-By default, the application is configured for the Conversational SMS service channel in the CSM Configurable Workspace. For more information, see Conversational SMS service channel and Initiate messaging conversations from the CSM Configurable Workspace.
+By default, the application is configured for the Conversational SMS service channel in the CSM Configurable Workspace. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md) and [Initiate messaging conversations from the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 

@@ -26,7 +26,7 @@ Use the Conversational Interfaces Console to set up the basic chat features shar
 |Configure my bot to run in third-party messaging apps|[Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).|
 |Create pre-chat surveys|[Define pre-chat survey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-pre-chat-surveys.md)|
 |Create and use context variables to store chat-related information|[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-context-variables.md)|
-|Display or announce callback options to users through other ServiceNow apps||
+|Display or announce callback options to users through other ServiceNow apps|[Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md)|
 |Configure topic context intents|[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-context-topic-intent.md)|
 |System Actions|
 |Modify system chat messages|[Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-change-system-messages.md)|

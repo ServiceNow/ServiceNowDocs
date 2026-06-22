@@ -18,7 +18,7 @@ Add a program for use within the Healthcare and Life Sciences Service Management
 
 ## Before you begin
 
--   To associate an eligibility criteria checklist with the program, create a checklist. For more information, see Create a checklist.
+-   To associate an eligibility criteria checklist with the program, create a checklist. For more information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/t_CreateAChecklist.md).
 
     **Note:** By default, the application provides a few checklist templates that you can use as a reference when creating a checklist for a Healthcare and Life Sciences program.
 

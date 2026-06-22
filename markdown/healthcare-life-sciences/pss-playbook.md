@@ -14,7 +14,7 @@ breadcrumb: [Managing enrollment requests in Workspace, Patient Support Services
 
 Use the playbook available with the Patient Support Services application to manage enrollment cases and complete requests for patient support services.
 
-The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Patient Support Services, the **Playbook** tab appears for an enrollment case. For more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Patient Support Services, the **Playbook** tab appears for an enrollment case. For more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 As a care coordinator with the sn\_patientservice.agent role, you can use the Patient Support Services playbook to complete all enrollment request activities for a patient. You can access the **Playbook** tab on your Workspace when an enrollment case is assigned to you. The Patient Support Services workflow populates the case data for all launched activities on the **Playbook** tab. You can select a stage in the playbook to complete the activities associated with the stage.
 

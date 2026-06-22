@@ -74,7 +74,7 @@ The MID Server cluster to which the log data is pulled.The data input runs on a 
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see Configure a MID Server cluster.This field is required.
+For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).This field is required.
 
 </td></tr><tr><td>
 

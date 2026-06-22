@@ -32,7 +32,7 @@ Role required: none
 
         \[Omitted image "Additional\_actions\_menu.jpg"\] Alt text: The Additional actions menu highlighted
 
-    -   Configure the form to add the Delegates related list. For more information, see .
+    -   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
 3.  Select an active user as your Delegate.
 
 4.  Select date values from the **Starts** and **Ends** fields to set the period of time during which a delegate can work on your behalf.

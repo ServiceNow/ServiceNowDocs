@@ -22,7 +22,7 @@ Agents and requesters can do the following:
 -   A live agent can accept Apple Messages for Business chat conversations as work items from their Agent Workspace Inbox to converse with a requester.
 -   A live agent can continue to interact with a customer conversation in Apple Messages for Business for as long as the customer would like.
 
-For more information, see .
+For more information, see [Integrating Apple Messages for Business with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/integrate-amb-with-csm.md).
 
 ## Accepting Apple Messages for Business chat conversations
 
@@ -35,5 +35,5 @@ As a live agent interacting with a requester over the Apple Messages for Busines
 -   Share photos or videos.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and Service channels.
+**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 

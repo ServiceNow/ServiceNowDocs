@@ -44,5 +44,5 @@ Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standar
 **Related topics**  
 
 
-[bundle-cadev.t_UpdateAnApplicationRecord]
+[Update a custom application record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/t_UpdateAnApplicationRecord.md)
 

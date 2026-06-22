@@ -25,7 +25,7 @@ Once generated, a fulfiller can review the Now Assist recommendations and make a
 
 You can generate a contract analysis in the following product.
 
-
+[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 
 ## Availability
 
@@ -45,8 +45,8 @@ Employee
 
 </td><td>
 
- is available in the following products:-   
--   
+[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md) is available in the following products:-   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
 </td></tr></tbody>
 </table>

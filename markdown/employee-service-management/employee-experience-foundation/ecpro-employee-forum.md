@@ -25,7 +25,7 @@ Employee Forums integrate with campaigns and content publishing so that:
 -   Content managers can create and schedule content to a forum or topic from Content Publishing.
 -   Campaign managers can build campaigns that include forum content. Community or forum content can include blog posts, events, videos, or links to posts or other content.
 
-Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see Communities.
+Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/communities/servicenow-communities.md).
 
 ## Add or modify forum content
 
@@ -39,7 +39,7 @@ Role required: sn\_cd.content\_manager
 
 Creating forum content also requires the following to post to a community or forum:
 
--   A forum to post community content. For information on creating forums, see Configure community forums.
+-   A forum to post community content. For information on creating forums, see [Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/communities/configure-forums-topics.md).
 -   The `Content Publishing: Post to Forums` scheduled job runs every hour by default to process posts. For more information on scheduled jobs, see [Components installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/installed-with-content-delivery.md).
 
 **Note:** The Communities \(com.sn\_communities\) plugin must be activated in order to use this feature.
@@ -76,7 +76,7 @@ Classification of the community post. Fields used to define the post change base
 -   Community Event
 -   Community Video
 -   Forums Post List \(lists posts from a specific forum\)
- **Note:** For more information on community content types, see Community content types.
+ **Note:** For more information on community content types, see [Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/communities/c_communities-content-types.md).
 
 </td></tr><tr><td>
 

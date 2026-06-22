@@ -26,11 +26,11 @@ Role required: security\_admin
 
 1.  Create an encryption module for the article template field to be encrypted.
 
-    See Create a cryptographic module for details.
+    See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/create-cryptographic-module.md) for details.
 
 2.  Associate the article template field with the encryption module.
 
-    See Encrypting fields and attachments for details.
+    See [Encrypting fields and attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/field-encryption-key-management.md) for details.
 
     1.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encryption Field Configurations** and click **New**.
 
@@ -109,5 +109,5 @@ Depending on their role permissions defined for the encrypted field, users can v
 **Related topics**  
 
 
-[bundle-psec.column-level-encryption-landing]
+[Encryption support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md)
 

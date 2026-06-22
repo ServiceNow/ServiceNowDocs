@@ -58,7 +58,7 @@ A permit type is a specific category of permit that a permit requestor selects w
     5.  On the form, fill in the fields. For more information on the field description, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
     6.  Select **Submit**.
         -   Repeat the steps to create additional variable sets for the same record producer. These variable sets includes permit type specific questions that appear on the permit-to-work request form when the permit type is selected.
-        -   For more information on variable sets and the layout, see .
+        -   For more information on variable sets and the layout, see [Variable set layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_DefineVariableSetLayout.md).
 7.  Add customized questions to the permit type.
 
     1.  Open a variable set and on the form fill in the fields. For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).

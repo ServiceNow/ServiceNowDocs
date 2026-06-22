@@ -22,15 +22,15 @@ Role required: admin.
 
 \[Omitted image "progress-bar-phase-4.png"\] Alt text: Upgrade progress bar
 
-The Upgrade Monitor helps you upgrade an individual instance. You can monitor the progress of an upgrade and resolve conflicts between the upgrade and customizations.
+The [Upgrade Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-monitor-screen.md) helps you upgrade an individual instance. You can monitor the progress of an upgrade and resolve conflicts between the upgrade and customizations.
 
 ## Procedure
 
 1.  Using the Upgrade Monitor, monitor the upgrade to your instance and validate that the upgrade to your development instance is complete.
 
-2.  After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.
+2.  After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) in the Upgrade Monitor.
 
-    As you are processing the skipped list, you may merge and revert records, resolve conflicts for an individual record, and make additional customizations. These changes go into the latest version, which goes into your current update set.
+    As you are processing the skipped list, you may merge and revert records, [resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrademon-resolve_conflicts.md), and make additional customizations. These changes go into the latest version, which goes into your current update set.
 
 3.  Identify your update sets.
 
@@ -39,7 +39,7 @@ The Upgrade Monitor helps you upgrade an individual instance. You can monitor th
     -   Were created while reviewing the skipped updates list.
     -   Were created while changing customizations to work with the latest release.
     -   Must go live immediately after your next upgrade.
-    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to System update sets for details.
+    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/system-update-sets.md) for details.
 
 4.  Before and after upgrading, conduct smoke tests on your development instance. Use your comprehensive test plan to perform functional testing.
 

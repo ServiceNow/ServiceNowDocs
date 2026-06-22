@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative or sn\_ins\_claim\_pers
 
 3.  Create a case from the personal auto claim cases list.
 
-<table><thead><tr><th align="left" id="d68150e75">
+<table><thead><tr><th align="left" id="d78082e75">
 
 Option
 
-</th><th align="left" id="d68150e78">
+</th><th align="left" id="d78082e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68150e84">
+</th></tr></thead><tbody><tr><td id="d78082e84">
 
 **Personal auto claim case from the personal auto claim case list**
 

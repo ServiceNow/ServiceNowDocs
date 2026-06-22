@@ -26,7 +26,7 @@ The Triage and analyze alerts agentic workflow uses AI agents to support alert t
 -   Summarize alert and alert group data to create a human-readable description and add technical analysis.
 -   Investigate relevant past incidents to analyze the significance of the alert and present options for resolution.
 
-Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see .
+Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md).
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -34,7 +34,7 @@ Use the information on this page to learn about the agents related to the Triage
 
 Acknowledge, assign, and investigate current and past alerts to determine significance and possible resolutions.
 
-To access the agentic workflow, use the Now Assist panel. For more information about using the agentic workflow in the Now Assist panel, see .
+To access the agentic workflow, use the Now Assist panel. For more information about using the agentic workflow in the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 ## AI agents used in the Triage and analyze alerts agentic workflow
 

@@ -18,7 +18,7 @@ Collect skill data based on the skills agents have used for task completion. Use
 
 ## Before you begin
 
--   Set up skills. For more information, see Skills Management.
+-   Set up skills. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md).
 
 -   Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see Predictive Intelligence.
 

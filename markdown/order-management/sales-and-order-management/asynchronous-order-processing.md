@@ -44,7 +44,7 @@ When the order details are successfully validated, a scheduled job runs to pick 
 
 The asynchronous order processing follows these steps:
 
-1.  You must activate the Product Order Open API. The new parameter mode enables the API to process the orders synchronously or asynchronously. For more information about the API, see Product Order Open API.
+1.  You must activate the Product Order Open API. The new parameter mode enables the API to process the orders synchronously or asynchronously. For more information about the API, see [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 2.  After you receive a high volume of orders or a large number of the order payloads through the Product Order Open API in the async mode, the order details are first validated. The order details include the product offering, order line items, order specifications, order line items characteristics, and the specification relationship of order line items.
 3.  After the validation of the order details is complete, an entry for each order with a unique record ID is created in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table. The following diagram shows how the inbound queue state model works.
 

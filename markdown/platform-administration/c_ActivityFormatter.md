@@ -29,7 +29,7 @@ In Core UI, the activity formatter shows updates in real time so you can see the
 **Related topics**  
 
 
-[bundle-platux.c_UserPresence]
+[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_UserPresence.md)
 
 ## Create an activity formatter
 

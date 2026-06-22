@@ -53,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d109676e185">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d108749e185">
 
 Choice
 
-</th><th align="left" id="d109676e188">
+</th><th align="left" id="d108749e188">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d109676e194">
+</th></tr></thead><tbody><tr><td id="d108749e194">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d109676e222">
+</td></tr><tr><td id="d108749e222">
 
 **Use Column actions**
 

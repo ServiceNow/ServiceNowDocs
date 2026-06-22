@@ -16,7 +16,7 @@ breadcrumb: [Financial Services Complaint Management reference, Financial Servic
 
 Several types of components are installed with installation of the Financial Services Complaint Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 ## Plugins installed
 
@@ -42,7 +42,7 @@ Enables the extension of tables from the Customer Service Management application
 |Store application|Description|
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see .|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/customer-service-case-playbooks.md).|
 
 ## Roles installed
 

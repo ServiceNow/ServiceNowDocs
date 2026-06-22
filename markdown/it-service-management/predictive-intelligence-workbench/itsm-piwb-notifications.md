@@ -63,5 +63,5 @@ Sends an email to a specified user group when a use case model training has fail
 </td></tr></tbody>
 </table>Create an ITSM Predictive Intelligence Workbench user group and add users or roles to ensure Predictive Intelligence process architects are notified during the use case model implementation process. Refer to [Create an ITSM Predictive Intelligence Workbench user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-user-groups.md).
 
-For more details about email notifications for Predictive Intelligence Workbench, refer to Preview email notification.
+For more details about email notifications for Predictive Intelligence Workbench, refer to [Preview email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_PreviewingNotifications.md).
 

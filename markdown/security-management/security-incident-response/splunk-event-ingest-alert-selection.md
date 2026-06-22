@@ -50,15 +50,15 @@ View the available alerts in your ServiceNow AI Platform instance so you know wh
 
 4.  Choose one option to continue.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d273873e211">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d273912e211">
 
 Option
 
-</th><th align="left" id="d273873e214">
+</th><th align="left" id="d273912e214">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273873e220">
+</th></tr></thead><tbody><tr><td id="d273912e220">
 
 **Continue, or alternatively, click Mapping in the progress bar**
 
@@ -66,7 +66,7 @@ Description
 
 The Mapping form is displayed. **Mapping** is selected on the progress bar. The next step is to map alert fields to a SIR security incident.
 
-</td></tr><tr><td id="d273873e237">
+</td></tr><tr><td id="d273912e237">
 
 **Update**
 
@@ -74,7 +74,7 @@ The Mapping form is displayed. **Mapping** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d273873e246">
+</td></tr><tr><td id="d273912e246">
 
 **Previous**
 
@@ -82,7 +82,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The **Name** step is displayed.
 
-</td></tr><tr><td id="d273873e258">
+</td></tr><tr><td id="d273912e258">
 
 **Delete**
 

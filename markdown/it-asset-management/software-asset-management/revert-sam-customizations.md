@@ -29,7 +29,7 @@ To ensure feature functionality, you must revert customizations after:
 -   A new installation of the Software Asset Management Professional \(com.snc.samp\) plugin
 -   Upgrading from the Software Asset Management Foundation \(com.snc.sams\) plugin
 
-You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation.
+You can also [revert customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/revert-customization.md) using the **System Diagnostics** &gt; **Upgrade History** navigation.
 
 ## Procedure
 

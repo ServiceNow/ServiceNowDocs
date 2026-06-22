@@ -29,7 +29,7 @@ Role required:
 
 1.  Use the name and password that you created during the registration process to log in to the Consumer Service Portal.
 
-    See  for details.
+    See [Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/use-consumer-service-portal.md) for details.
 
 2.  Click **My Lists** to view the account onboarding cases and case tasks.
 

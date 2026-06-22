@@ -18,29 +18,29 @@ Change the default Social Benefit Requests service channel attributes in Advance
 
 ## Before you begin
 
--   Activate the Advanced Work Assignment plugin \(com.glide.awa\).
--   Activate the Agent Chat plugin \(com.glide.interaction.awa\).
+-   [Activate the Advanced Work Assignment plugin \(com.glide.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
+-   [Activate the Agent Chat plugin \(com.glide.interaction.awa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
 -   [Install the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/government-industry/public-sector-digital-services/install-psds-social-benefits-playbook.md).
 
 Role required: admin, awa\_admin
 
 ## About this task
 
-You can modify the context and attributes for service channels in AWA. For the Social Benefit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling social benefit requests. You can also add advanced conditions to filter the routing conditions in the Social Benefit Request service channel, or change queue settings, such as assignment rules.
+You can modify the context and attributes for [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md) in AWA. For the Social Benefit Requests service channel, use the Public Sector Requests assignment group to specify the agents handling social benefit requests. You can also add advanced conditions to filter the routing conditions in the Social Benefit Request service channel, or change queue settings, such as assignment rules.
 
 ## Procedure
 
 1.  Configure the Social Benefit Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d29138e95">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d29093e95">
 
 Options
 
-</th><th align="left" id="d29138e98">
+</th><th align="left" id="d29093e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d29138e104">
+</th></tr></thead><tbody><tr><td id="d29093e104">
 
 **Enable the Social Benefit Request service channel**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d29138e161">
+</td></tr><tr><td id="d29093e161">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -73,7 +73,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d29138e243">
+</td></tr><tr><td id="d29093e243">
 
 **Configure the Social Benefit Requests queue**
 
@@ -85,9 +85,9 @@ Use the examples to determine the government agents, managers, and their associa
 3.  Change other settings as needed, for example the assignment rule that determines Assignment Eligibility.
 
 4.  Select **Update**.
-For more information on queue settings, see Create a work item queue.
+For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
 
-</td></tr><tr><td id="d29138e295">
+</td></tr><tr><td id="d29093e295">
 
 **Change Inbox card layouts for Social Benefit request items in CSM Configurable Workspace**
 
@@ -97,7 +97,7 @@ For more information on queue settings, see Create a work item queue.
 2.  Select the **Inbox Layouts** related link.
 3.  Select the layout and edit the fields to be updated.
 4.  Select **Update**.
-For more information on changing inbox card layouts, see Create or modify an inbox layout.
+For more information on changing inbox card layouts, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
 
 </td></tr></tbody>
 </table>

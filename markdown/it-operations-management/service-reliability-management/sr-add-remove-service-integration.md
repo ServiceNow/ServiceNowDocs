@@ -32,15 +32,15 @@ Role required: srm\_responder, srm\_manager, and srm\_admin
 
 5.  Add or remove multiple services.
 
-<table id="choicetable_vly_s5z_bbc"><thead><tr><th align="left" id="d60974e100">
+<table id="choicetable_vly_s5z_bbc"><thead><tr><th align="left" id="d59349e100">
 
 Option
 
-</th><th align="left" id="d60974e103">
+</th><th align="left" id="d59349e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60974e109">
+</th></tr></thead><tbody><tr><td id="d59349e109">
 
 **Add services**
 
@@ -51,7 +51,7 @@ Steps
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d60974e136">
+</td></tr><tr><td id="d59349e136">
 
 **Remove services**
 

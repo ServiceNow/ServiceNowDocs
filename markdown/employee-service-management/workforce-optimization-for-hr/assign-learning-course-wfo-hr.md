@@ -43,15 +43,15 @@ You can analyze the course items that were most taken by your team members. You 
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d312163e150">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d311984e150">
 
 To
 
-</th><th align="left" id="d312163e153">
+</th><th align="left" id="d311984e153">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d312163e159">
+</th></tr></thead><tbody><tr><td id="d311984e159">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -59,7 +59,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d312163e171">
+</td></tr><tr><td id="d311984e171">
 
 **Assign the course to specific groups or team members**
 

@@ -26,7 +26,7 @@ Role required: import\_admin
 
 2.  Review the **Type** and **State** of each parent import set job.
 
-<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d373156e76">
+<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d367387e76">
 
 **Type**
 
@@ -37,7 +37,7 @@ Type of concurrent import set job:-   **Regular** if you are running the schedul
 -   **Resuming** if you are resuming a scheduled import that had an error
 
 
-</td></tr><tr><td id="d373156e103">
+</td></tr><tr><td id="d367387e103">
 
 **State**
 

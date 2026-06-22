@@ -23,7 +23,7 @@ The test summarization skill is available in CSM/FSM Configurable Workspace and 
 
 \[Omitted image "test-summary.png"\] Alt text: Test summary results in the Workspace window.
 
-For more information, see .
+For more information, see [Summarize test for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-test.md).
 
 ## Availability
 
@@ -43,7 +43,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)

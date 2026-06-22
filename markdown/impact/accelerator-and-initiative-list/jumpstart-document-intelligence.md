@@ -20,7 +20,7 @@ The Jumpstart Your Document Intelligence \(DocIntel\) Accelerator provides a dem
 
 Jumpstart Your Document Intelligence provides Impact customers with an overview of Document Intelligence and an applied demonstration on how  to accurately and efficiently extract information from documents to the ServiceNow AI Platform, enabling you to quickly process highly variable documents  that change over time. This Accelerator demonstrates the possibilities and capabilities of DocIntel, how to configure the solution, and provides key resources and leading practices on getting started.
 
-For more information on Document Intelligence, see .
+For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

@@ -40,7 +40,7 @@ Each decision should have at least two branches, with each branch representing a
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -120,7 +120,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see .
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see .
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>10. Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.
@@ -140,7 +140,7 @@ For more information, see .
 
     2.  Select the **Add condition** button and specify what conditions should be met for the branch to take effect.
 
-        For more information, see .
+        For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 

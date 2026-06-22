@@ -25,7 +25,7 @@ The data visualization generation skill lets your users create relevant charts a
 
 Because it is part of Now Assist for Creator, data visualization generation requires the now.assist.creator and now\_assist\_panel\_user roles. You also need access to the data that you want to see. If you want to add the visualization to a dashboard, you need editing rights to that dashboard. If the user asks for a data visualization while a dashboard is open, and they have editing rights to that dashboard, they have the option to add the visualization to that dashboard.
 
-For more information, see  and .
+For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-data-visualizations.md) and [Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-assist-landing-page.md).
 
 ## Availability
 
@@ -33,7 +33,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 
 **Parent Topic:**[Now Assist skills in the Creator workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-creator-skills-top.md)
 

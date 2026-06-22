@@ -112,7 +112,7 @@ Enable logging for CMDB 360. CMDB 360 logs are stored in the Log \[syslog\] tabl
 
  -   Type: string
 -   Values: info, warn, error, debug, or debugVerbose
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Limits the scope of data in the [Discovery sources tile in the CMDB 360 dashboar
 -   Values:
     -   True: Include data only from CMDB classes.
     -   False: Include data from CMDB and non-CMDB tables.
--   Location: Add to System Properties \[sys\_properties\]
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Threshold number of multisource records that when exceeded for a class, CMDB 360
 
  -   Type: numeric
 -   Default value: 10 million
--   Location: Add to System Properties \[sys\_properties\]
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 -   Learn more: [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 
 </td></tr></tbody>

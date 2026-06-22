@@ -57,7 +57,7 @@ For more information, see [Components installed with Engagement Messenger](https
 
 -   If you want to enable Virtual Agent chat support in the Engagement Messenger, activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 
-    For more information, seeActivate Virtual Agent.
+    For more information, see[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 -   Get started with Engagement Messenger. For more information on how to get started, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/setting-up-engagement-messenger.md).
 

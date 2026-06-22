@@ -128,7 +128,7 @@ Enable ATF properties on instances of type Testing.
 
 </td><td>
 
-Enable system properties that allow the ATF suite to run during the deployment process. If you do not enable these properties, a warning displays during the deployment process, but you can continue with the deployment.**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see System clone.
+Enable system properties that allow the ATF suite to run during the deployment process. If you do not enable these properties, a warning displays during the deployment process, but you can continue with the deployment.**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SystemClone.md).
 
 For more information, see [Enable Automated Test Framework \(ATF\) properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/enable-atf-properties.md).
 
@@ -146,7 +146,7 @@ Configure Instance Scan suite
 
 </td><td>
 
-For more information, see .
+For more information, see [Configuring Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-intro-scans.md).
 
 </td></tr><tr><td rowspan="2">
 

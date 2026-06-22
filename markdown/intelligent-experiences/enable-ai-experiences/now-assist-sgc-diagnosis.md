@@ -21,7 +21,7 @@ The Service Graph Connector diagnosis skill enables you to identify and resolve 
 
 \[Omitted image "now-assist-sgc-diagnose.png"\] Alt text: Select the Now Assist icon in the CMDB Workspace to diagnose a Service Graph Connector in the Now Assist panel.
 
-For more information, see .
+For more information, see [Use Now Assist to diagnose a Service Graph Connector issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.md).
 
 ## Availability
 
@@ -41,7 +41,7 @@ Technology
 
 </td><td>
 
-
+[Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
 </td></tr></tbody>
 </table>

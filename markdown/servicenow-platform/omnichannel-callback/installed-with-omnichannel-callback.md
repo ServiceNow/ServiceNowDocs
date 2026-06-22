@@ -87,7 +87,7 @@ Lists the callback tasks of type Scheduled and Recurring.
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/omnichannel-callback/omnichannel-callback-reference.md)
 

@@ -18,7 +18,7 @@ Create a relationship between a digital interface and a CMDB API. Use this relat
 
 ## Before you begin
 
-Activate the CMDB CI Class Models \[app-cmdb-content\] store app \(version 1.49.0 or later\). For instructions, see .
+Activate the CMDB CI Class Models \[app-cmdb-content\] store app \(version 1.49.0 or later\). For instructions, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models.md).
 
 Role required: sn\_apm.apm\_analyst
 

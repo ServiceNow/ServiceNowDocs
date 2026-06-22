@@ -58,7 +58,7 @@ The front-line case page template provides a simplified case view that enables a
 -   Searching for knowledge articles
 
 </td></tr></tbody>
-</table>For more information, see Create a page from a template in the UI Builder documentation.
+</table>For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/reuse-page-definitions.md) in the UI Builder documentation.
 
 ## Record presence feature
 

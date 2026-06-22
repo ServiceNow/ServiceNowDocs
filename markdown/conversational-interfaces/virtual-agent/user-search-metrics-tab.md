@@ -31,7 +31,7 @@ Use the **User Search Metrics** tab in the Conversational Analytics dashboard to
 -   Which were the most common queries from users?
 -   Which search results did the users select most often?
 
-**Note:** You can also use Remote Tables to view user-search data in Dashboards. For more information, see .
+**Note:** You can also use Remote Tables to view user-search data in Dashboards. For more information, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 To access the **User Search Metrics** tab, you must have the chat analytics admin role or the chat analytics viewer role. The following example shows the data included in the **User Search Metrics** tab.
 
@@ -39,7 +39,7 @@ To access the **User Search Metrics** tab, you must have the chat analytics admi
 
 ## AI Search
 
-Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see AI Search . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-ai-search.md).
+Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-ai-search.md).
 
 ## Contextual Search
 

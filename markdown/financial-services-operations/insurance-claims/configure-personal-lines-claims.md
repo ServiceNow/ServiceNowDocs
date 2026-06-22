@@ -30,15 +30,15 @@ Role required: sn\_ins\_claim\_pers.admin and admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d40021e105">
+<table id="choicetable_jt1_44w_fvb"><thead><tr><th align="left" id="d33278e105">
 
 Task
 
-</th><th align="left" id="d40021e108">
+</th><th align="left" id="d33278e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40021e114">
+</th></tr></thead><tbody><tr><td id="d33278e114">
 
 **Configure service definitions**
 
@@ -46,7 +46,7 @@ Description
 
 Configure service definitions to enable unique flows and views for service cases and tasks. For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-service-definitions.md).You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d40021e136">
+</td></tr><tr><td id="d33278e136">
 
 **Edit or create flows**
 
@@ -54,7 +54,7 @@ Configure service definitions to enable unique flows and views for service cases
 
 Edit or create flows using Workflow Studio. For more information, see [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md).
 
-</td></tr><tr><td id="d40021e158">
+</td></tr><tr><td id="d33278e158">
 
 **Configure playbook**
 
@@ -62,7 +62,7 @@ Edit or create flows using Workflow Studio. For more information, see [Edit or c
 
 Create a playbook by using Playbooks. For more information, see [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-playbooks-fso-apps.md).
 
-</td></tr><tr><td id="d40021e180">
+</td></tr><tr><td id="d33278e180">
 
 **Configure CSM Configurable Workspace**
 
@@ -70,7 +70,7 @@ Create a playbook by using Playbooks. For more information, see [Edit or create 
 
 Configure CSM Configurable Workspace to enable agents to interact with customers and create and work on cases.For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
 
-</td></tr><tr><td id="d40021e214">
+</td></tr><tr><td id="d33278e214">
 
 **Configure the Claim Workspace, Fraud score and Claim summary pages**
 
@@ -78,7 +78,7 @@ Configure CSM Configurable Workspace to enable agents to interact with customers
 
 Configure Claim workspace, Fraud score, and Claim summary pages on claim cases and claim adjuster tasks. For more information, see [Enable Claim workspace, Fraud score, and Claim summary pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/enable-fraud-score-and-claim-summary-pages.md).**Note:** The Claim workspace is accessible from an adjuster task. The Fraud score and Claim summary pages are accessible from both a claim case and an adjuster task.
 
-</td></tr><tr><td id="d40021e232">
+</td></tr><tr><td id="d33278e232">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -86,7 +86,7 @@ Configure Claim workspace, Fraud score, and Claim summary pages on claim cases a
 
 Configure the installed SLAs to configure SLA timings for claim service cases and tasks.For more information, see [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md)
 
-</td></tr><tr><td id="d40021e253">
+</td></tr><tr><td id="d33278e253">
 
 **Configure user groups**
 
@@ -94,7 +94,7 @@ Configure the installed SLAs to configure SLA timings for claim service cases an
 
 Configure user groups for assignment of cases and tasks. You can also assign roles to groups and users.For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-groups-fso.md).
 
-</td></tr><tr><td id="d40021e275">
+</td></tr><tr><td id="d33278e275">
 
 **Configure assignment rules**
 
@@ -102,7 +102,7 @@ Configure user groups for assignment of cases and tasks. You can also assign rol
 
 Configure assignment rules to identify cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d40021e291">
+</td></tr><tr><td id="d33278e291">
 
 **Configure Document Processor**
 
@@ -110,7 +110,7 @@ Configure assignment rules to identify cases that meet certain conditions and th
 
 Configure document processor for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.For more information, see[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configuring-fso-document-processor.md).
 
-</td></tr><tr><td id="d40021e318">
+</td></tr><tr><td id="d33278e318">
 
 **Configure archive rules**
 

@@ -38,8 +38,8 @@ Configure the user criteria for the Service Portal.
 
 </td><td>
 
-Complete these steps:1.  Activate the user criteria for Service Portal plugin.
-2.  Set the user criteria for Service Portal system property.
+Complete these steps:1.  [Activate the user criteria for Service Portal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/activate-user-criteria.md).
+2.  [Set the user criteria for Service Portal system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/activate-user-crit.md).
 
 
 </td></tr><tr><td>

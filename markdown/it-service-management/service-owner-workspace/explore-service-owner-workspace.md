@@ -31,7 +31,7 @@ Users can create new metric definitions or use the metric definitions provided i
 
 ## Service Owner Workspace browser requirements
 
-ServiceNow workspaces do not support mobile devices, and, starting with the Orlando release, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers listed in Browser support. If you're using New York or an earlier release and you're using Internet Explorer 11 or Microsoft Edge with any workspace, such as ServiceNow® CSM Agent Workspace or ServiceNow® Vendor Manager Workspace, you must migrate to a newer browser before you upgrade to at least the Orlando release. See the [Internet Explorer 11 Performance \[KB0683275\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275) article in the Now Support Knowledge Base for more information.
+ServiceNow workspaces do not support mobile devices, and, starting with the Orlando release, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/browser-support.md). If you're using New York or an earlier release and you're using Internet Explorer 11 or Microsoft Edge with any workspace, such as ServiceNow® CSM Agent Workspace or ServiceNow® Vendor Manager Workspace, you must migrate to a newer browser before you upgrade to at least the Orlando release. See the [Internet Explorer 11 Performance \[KB0683275\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275) article in the Now Support Knowledge Base for more information.
 
 ## Service Owner Workspace overview
 

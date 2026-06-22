@@ -54,7 +54,7 @@ The customer update record specifies:
 **Related topics**  
 
 
-[bundle-platcap.compare-two-article-versions]
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/compare-two-article-versions.md)
 
-[bundle-platadm.upgrademon-resolve_conflicts]
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrademon-resolve_conflicts.md)
 

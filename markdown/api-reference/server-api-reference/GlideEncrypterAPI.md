@@ -19,10 +19,10 @@ The GlideEncrypter API provides methods to encrypt and decrypt strings using the
 **Note:** The GlideEncrypter API uses the three-key Triple DES encryption standard which [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) has recommended against using to encrypt data after 2023. Please take a moment to review the information below.
 
 -   Starting with the Xanadu family release, the GlideEncrypter API is not recommended for use, as this API is deprecated according to NIST guidelines. With the Zurich release, the GlideEncrypter API will be upgraded to automatically use Key Management Framework.
--   New instance installations and re-installations using the GlideEncrypter API in the ServiceNow AI Platform will not be permitted in the Zurich release planned for September 2025. Use the  to identify where GlideEncrypter is used on your instance. Find this tool on your instance by navigating to **Instance Scan** &gt; **Suites** &gt; **GlideEncrypter**.
+-   New instance installations and re-installations using the GlideEncrypter API in the ServiceNow AI Platform will not be permitted in the Zurich release planned for September 2025. Use the [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md) to identify where GlideEncrypter is used on your instance. Find this tool on your instance by navigating to **Instance Scan** &gt; **Suites** &gt; **GlideEncrypter**.
 -   Review the following Knowledge Base article for migration guidance to the applicable replacement solution based on your current use case: [Alternatives to deprecated GlideEncrypter APIs](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986).
 
-If the GlideEncrypter API is no longer used on your instance, you may deprecate 3DES. For details, see .
+If the GlideEncrypter API is no longer used on your instance, you may deprecate 3DES. For details, see [Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/check-3des.md).
 
 You can use this API in server scripts in the global scope. The GlideEncrypter class has two constructors:
 

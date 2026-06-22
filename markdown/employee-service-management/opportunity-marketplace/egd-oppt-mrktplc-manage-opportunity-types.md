@@ -74,7 +74,7 @@ Select this option so that you can embed multiple roles within an opportunity.
 
 </td><td>
 
-Select from the list of available user criteria. **User Criteria Records** are created and maintained from **All** &gt; **Change** &gt; **Administration** &gt; **User Criteria**, see .
+Select from the list of available user criteria. **User Criteria Records** are created and maintained from **All** &gt; **Change** &gt; **Administration** &gt; **User Criteria**, see [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/change-management/create-user-criteria.md).
 
 </td></tr><tr><td>
 

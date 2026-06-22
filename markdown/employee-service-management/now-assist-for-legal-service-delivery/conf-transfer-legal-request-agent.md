@@ -20,9 +20,9 @@ You can configure the Triage legal requests agentic workflow in the Now Assist f
 You must complete the following tasks for the Triage legal requests agentic workflow:
 
 1.  Install the Now Assist for Legal Service Delivery \(LSD\) plugin \(sn\_lg\_gen\_ai\).
-2.  Ensure Now Assist panel is turned on. For more information, see .
-3.  Ensure **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see 
-4.  Configure AI Search. For more information, see .
+2.  Ensure Now Assist panel is turned on. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+3.  Ensure **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/manage-llm-va.md)
+4.  Configure AI Search. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/configuring-ais.md).
 5.  Activate the business rule Trigger Transfer Legal Request agentic workflow. For more information, see [Activate the business rule for the Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/lsd-agentic-config-BR.md).
 6.  Include the legal practice application tables for AI Search indexing. For more information, see [Add the legal request child tables for indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.md).
 7.  Configure the semantic index settings to define how AI Search indexes the content. For more information, see [Configure the semantic index settings for legal request tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/create-record-legal-requests.md).

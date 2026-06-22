@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary
 release: xanadu
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 82
+reading_time_minutes: 84
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
 
@@ -40,7 +40,7 @@ Xanadu:
 -   Increase search precision for Japanese phrases that include nakaguro \(中黒, middle dot\) characters.
 -   Scroll through multiple Genius Result answer cards in a carousel to select the most actionable answer for your question.
 
-See  for more information.
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md) for more information.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ AIOps LEAP
 -   Use published LEAP in SOW to resolve a new incident quickly.
 -   Use a value dashboard for performance analysis and enhancement.
 
-See  for more information.
+See [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.md) for more information.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Access Management
 -   Enhance ACL security with a new default denial behavior.
 -   Identify and fix empty or misconfigured ACLs with new ACL creation rules.
 
-See  for more information.
+See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md) for more information.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Adoption Services
 -   Experience the new UI and features available in the Guided Setup builder powered by Playbooks.
 -   Use the new Guided Setup player process, which is powered by Playbooks and provides a more streamlined experience and enhanced UI.
 
-See  for more information.
+See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/adoption-services/adoption-services.md) for more information.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Advanced AI Search Management Tools
 -   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
 -   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
 
-See  for more information.
+See [Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/adv-ais-mgmt-tools-content-pack.md) for more information.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Advanced Work Assignment
 -   Migrate the Advanced Work Assignment dashboards to Next Experience.
 -   Defined the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools\) with a simple external routing ATF-based test implementation.
 
-See  for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ Agent Client Collector
 -   Store Instance credentials in the Microsoft Azure Vault when Informer uses Azure Kubernetes Engine \(AKS\).
 -   Enjoy multi-architecture support for docker image.
 
-See  for more information.
+See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/agent-client-collector/acc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Agent Workspace for HR Case Management
 -   Support claims in Employee Relations cases by uploading attachments in personal notes.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -192,7 +192,7 @@ Agent experience for CSM
 -   Use icons to quickly access email tools such as applying a template or adding an attachment.
 -   Open the Compose Email modeless dialog with the last saved email draft.
 
-See CSM Configurable Workspace for more information.
+See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-workspaces-configure.md) for more information.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Application Manager
 -   Use the improved search bar with added recommendations to locate your results.
 -   The search bar displays a message if your result isn't available in the tab you have selected.
 
-See  for more information.
+See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/application-manager/application-manager.md) for more information.
 
 </td></tr><tr><td>
 
@@ -239,7 +239,7 @@ Application Vulnerability Response
 -   Prioritize, remediate, and manage application vulnerable items \(AVI\)s. Each application vulnerability represents a vulnerability entry in the CWE or third-party libraries.
 -   Identify the components used in your organization's applications and determine your potential exposure to risks associated with using open-source software from Software Bill of Materials \(SBOM\) files that you upload into your instance.
 
-See  for more information.
+See [Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/application-vulnerability-response/avr-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -249,7 +249,7 @@ Assessments and Surveys
 
 -   View the user responses only for active questions.
 
-See  for more information.
+See [Exploring Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/assessments-and-surveys.md) for more information.
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Authentication
 
 -   Use the FIDO2 authenticator, passkeys, biometric authenticators, and hardware security keys as multi-factor authentication \(MFA\) factors without requiring an authenticator app setup.
 
-See Authentication for more information.
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_Authentication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Benchmarks
 
 Experience the all-new KPI in the self-solved deflections category of ITSM Benchmarks to help resolve the digital issues encountered by users on a daily basis.
 
-See  for more information.
+See [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/benchmarks/r_Benchmarks.md) for more information.
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ Case and Knowledge Management
 -   Use the new HR guided setup that supports domain separation at the global and at the parent or child levels.
 -   HR Document Templates is being deprecated and is no longer available for use. You can use the ServiceNow Document Templates application instead of HR Document Templates.
 
-See  for more information.
+See [Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -329,7 +329,7 @@ Clone Admin Console
 -   View the Clone preserver guidance added to the Create a clone form to understand how to use Clone preservers.
 -   Clone related queries now go through ACLs. Custom clone flows should be tested.
 
-See  for more information.
+See [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/Clone-UI.md) for more information.
 
 </td></tr><tr><td>
 
@@ -340,7 +340,7 @@ Cloud Cost Management 8.0.0
 -   Easily diagnose and rectify issues in Cloud Cost Management implementations.
 -   View the spend details of your AI resources through a Machine Learning service category.
 
-See  for more information.
+See [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Collaborative Work Management
 -   Create automations on the Assigned to column or other custom columns of type **People**.
 -   Save time and avoid manual copying of information with the ability to duplicate CWM Boards and Docs.
 
-See  for more information.
+See [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/collaborative-work-management/cwm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -393,7 +393,7 @@ Configuration Compliance
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a set of test results in Vulnerability Manager Workspace.
 -   View the percentage of CI compliance and test results compliance on a Test Group in Vulnerability Manager Workspace.
 
-See  for more information.
+See [Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/configuration-compliance/vr-config-compliance-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -410,7 +410,7 @@ Configuration Management Database \(CMDB\)
 -   The CMDB Health Dashboard is now implemented with the Next Experience user interface in the CMDB Workspace.
 -   The ServiceNow® Now Assist for CMDB application brings generative AI to CMDB. Now Assist for CMDB is a new application in the Xanadu release. The ServiceNow® Now Assist for Service Graph Connectors \(SGC\) application brings in generative AI capabilities to resolve issues within Service Graph Connector. Now Assist for SGC is a new application in the Xanadu release..
 
-See  for more information.
+See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md) for more information.
 
 </td></tr><tr><td>
 
@@ -420,7 +420,7 @@ Container Vulnerability Response
 
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a specific set of container vulnerable items in Vulnerability Manager Workspace.
 
-See  for more information.
+See [Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/container-vulnerability-response/cvr-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -433,7 +433,7 @@ Continuous Authorization and Monitoring
 -   Use the lite roles introduced in CAM for lighter business operations.
 -   Group similar controls into a family-related and club-related to help identify and understand the controls.
 
-See  for more information.
+See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -446,7 +446,7 @@ Core ServiceNow AI Platform
 -   Capture multiple attributes and their values in a single column instead of adding new columns to a table.
 -   Experience the new Automatic Jobs Scheduling feature with rollback and configuration retrieval abilities for events processing.
 
-See  for more information.
+See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/intro-now-platform-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -487,7 +487,7 @@ Customer Success Management
 -   Define and measure business outcomes with documented success plans to promote value.
 -   Create customer engagements and monitor their health and evaluate progress.
 
-See  for more information.
+See [Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -501,7 +501,7 @@ Data Management
 -   Delete older records at scale with improved performance using the table cleaner.
 -   View a summary of storage consumption on your instance.
 
-See  for more information.
+See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_DataManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -513,7 +513,7 @@ Data Privacy
 -   Discover and anonymize sensitive data as it's entered with the real-time anonymization policy.
 -   Anonymize and discover journal fields with expanded support and an increased data pattern regular expression limit of up to 1000 characters.
 
-See  for more information.
+See [Platform Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/privacy-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -549,7 +549,7 @@ DevOps Change Velocity
 -   Leverage DevOps data for change automation by configuring Change Management features from the Service Operations Workspace Admin Center.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md) for more information.
 
 </td></tr><tr><td>
 
@@ -562,7 +562,7 @@ Digital End-User Experience
 -   Proactively engage your users and resolve issues they might face.
 -   Resolve the issues that your users face with actions available in list of predefined issue resolutions called Action library.
 
-See  for more information.
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -580,7 +580,7 @@ Digital Portfolio Management
     -   Updated the team logic in the DPM Contacts tab in the Needs attention panel.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/digital-portfolio-management/dpm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -592,7 +592,7 @@ Dispute Content Pack for US Regulations
 -   Complies with US Regulations such as Regulation E \(Reg E\) and Regulation Z \(Reg Z\).
 -   Incorporate Service Level Agreement \(SLA\) definitions to help issuers monitor deadlines and take actions.
 
-See  for more information.
+See [Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -603,7 +603,7 @@ Dispute Rules Content Pack for Mastercard
 -   Run chargeback eligibility rules based on Mastercard rules.
 -   Determine the chargeback eligibility for Mastercard transactions by using the provided decision tables. The eligibility is based on the reason code, intake responses, and transaction data from the dispute.
 
-See  for more information.
+See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -614,7 +614,7 @@ Dispute Rules Content Pack for Visa
 -   Optimize the chargeback process by identifying eligibility immediately, prior to submitting the dispute to the card payment network.
 -   Avoid penalties by identifying ineligible transactions that are based on the reason code and transaction data.
 
-See  for more information.
+See [Dispute Rules Content Pack for Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-visa-landing-page-1.md) for more information.
 
 </td></tr><tr><td>
 
@@ -639,7 +639,7 @@ Document Intelligence
 -   Process documents that are written in Simplified Chinese or Japanese.
 -   Monitor your Document Intelligence implementation with improved dashboard charts.
 
-See  for more information.
+See [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -651,7 +651,7 @@ Document Services
 -   Increase collaboration with management of Google Docs files on Google Drive.
 -   Control sensitive information with data redaction within a document.
 
-See  for more information.
+See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/document-services-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -661,7 +661,7 @@ Document Templates
 
 Record the date when a participant signs a PDF document using the Signature date capability in the PDF document template.
 
-See  for more information.
+See [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -673,7 +673,7 @@ Dynamic Translation
 -   The IBM Watson Translator Service Spoke has been withdrawn and is no longer available.
 -   The Microsoft Azure Translator service increased the maximum length of a translation request from 10,000 characters to 50,000 characters.
 
-See  for more information.
+See [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -701,7 +701,7 @@ Employee Center
 -   Enable employees to engage with news articles through reactions, comments, or sharing the articles.
 -   Access content management tools from Content Publishing, Content Analytics, and Content Governance plugins in the Content Operations dashboard.
 
-See  for more information.
+See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -712,7 +712,7 @@ Employee Relations
 -   For single-subject Employee Relations cases, the **Subject of Allegation** field in is automatically filled in with the subject's name.
 -   Report cases directly related to discrimination using Core UI case creation, HR Service Delivery Agent Workspace for HR Case Management, or the Anonymous Report Center portal.
 
-See  for more information.
+See [Employee Relations cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/hr-case-employee-relations.md) for more information.
 
 </td></tr><tr><td>
 
@@ -724,7 +724,7 @@ Encryption Key Management
 -   Administer Column Level Encryption with new Column Level Encryption APIs, roles, and administration features. Column Level Encryption logging has been enhanced for improved readability.
 -   Download all encrypted attachments as a zip file by using the new **Download All** button.
 
-See  for more information.
+See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/encryption.md) for more information.
 
 </td></tr><tr><td>
 
@@ -756,7 +756,7 @@ Enterprise Asset Management
 -   Return assets that are in your personal stockroom easily by creating Drop off tasks.
 -   Locate and pick the assets in your stockroom efficiently and with little effort by using the ServiceNow Mobile Agent application.
 
-See  for more information.
+See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -778,7 +778,7 @@ Event Management
 -   Generate an alert group description in Express List using Now Assist.
 -   Launch an alert analysis from the Now Assist panel.
 
-See  for more information.
+See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/event-management/c_EM.md) for more information.
 
 </td></tr><tr><td>
 
@@ -792,7 +792,7 @@ External Content Connectors
 -   Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
 -   Improve recall for external content searches with support for semantic vector indexing of crawled content.
 
-See  for more information.
+See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -804,7 +804,7 @@ Field Service Management
 -   Create and view sales opportunities during field service visits using the Now Mobile Agent application.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/fsm-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -814,7 +814,7 @@ Field Service Management for Telecommunication
 
 Create and manage the appointments for the telecommunication field services.
 
-See  for more information.
+See [Field Service Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -826,7 +826,7 @@ Financial Services Card Operations
 -   Enhance navigation with intuitive transitions between different role-based landing pages.
 -   Permit scoped admins to modify landing pages with extensive capabilities, confirming that content aligns with the specific needs and preferences of their user base.
 
-See  for more information.
+See [Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -837,7 +837,7 @@ Financial Services Operations Integration with Visa
 -   Handle various dispute lifecycle events including transaction searches, dispute case creation, questionnaire submissions, fraud reporting, and more.
 -   Utilize data model elements to capture and store information used in subflows for seamless integration.
 
-See  for more information.
+See [Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/financial-services/financial-services-operations-integration-with-visa-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -867,7 +867,7 @@ Xanadu Patch 1
 
 -   Updated prompts for capabilities, semantic filtering, and recursive summarization that improve latency and processing for Generative AI Controller capabilities and Now Assist skills.
 
-See Generative AI Controller for more information.
+See [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md) for more information.
 
 </td></tr><tr><td>
 
@@ -877,7 +877,7 @@ Goal Framework
 
 Use the enhanced Goal Framework tables for managing your goals and targets.
 
-See Goal Framework for more information.
+See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/goal-framework/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -887,7 +887,7 @@ Goal Framework for SPM
 
 Use the enhanced target breakdown feature to update actuals and track the progress of your targets in daily, weekly, monthly, quarterly, or yearly intervals.
 
-See Goal Framework for SPM for more information.
+See [Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/goal-framework/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -898,7 +898,7 @@ HR Service Delivery for Healthcare
 -   Manage the data of a healthcare professional securely with the Healthcare Professional data model.
 -   Set up and auto-create necessary tasks automatically to onboard a healthcare professional smoothly into an organization with the default Healthcare Employee Onboarding workflow.
 
-See  for more information.
+See [HR Service Delivery for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery-for-healthcare/healthcare-hr.md) for more information.
 
 </td></tr><tr><td>
 
@@ -911,7 +911,7 @@ Hardware Asset Management 11.0.0
 -   Get defective hardware assets in a stockroom repaired quickly using the Repair flow.
 -   Locate and pick the assets in your stockroom efficiently by using the ServiceNow Mobile Agent application.
 
-See  for more information.
+See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -922,7 +922,7 @@ Health Log Analytics
 -   Enjoy a significantly faster log streaming rate with the Lighting gRPC client for MID Server communication with the ServiceNow instance.
 -   Stream system logs from Glide to Health Log Analytics.
 
-See Health Log Analytics for more information.
+See [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/health-log-analytics/hla-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -933,7 +933,7 @@ Healthcare and Life Sciences Service Management Core
 -   Promote accurate and comprehensive patient data management by leveraging multiple patient identifiers within the enhanced Healthcare and Life Sciences Service Management data model.
 -   Utilize the performance updates within the healthcare workspace to optimize loading times.
 
-See  for more information.
+See [Exploring Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-explore-core.md) for more information.
 
 </td></tr><tr><td>
 
@@ -945,7 +945,7 @@ Hermes Messaging Service
 -   Effectively process spikes and bursts in message volume from external systems to minimize performance impacts on your instance.
 -   Manage the health and performance of message delivery using Hermes diagnostic tools.
 
-See  for more information.
+See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -981,7 +981,7 @@ ITOM Cloud Accelerate
 -   Use the multiple repositories structure with the Terraform app and Infrastructure as Code \(IaC\) Discovery.
 -   Access and manage your cloud resources and publish your cloud offerings to a catalog by using the added features in the ServiceNow Cloud Services Catalog user interface.
 
-See  for more information.
+See [ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/itom-governance-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -992,7 +992,7 @@ ITOM Optimization
 -   Use the Cloud Services Catalog with ITOM Cloud Accelerate for the enhanced capabilities of Cloud Provisioning and Governance \(CPG\). These capabilities include the Out Of Box catalog items and the simplified and automated provisioning of cloud resources.
 -   Move your exchangeable ITOM Optimization licenses as you transition from Cloud Provisioning and Governance to ITOM Cloud Accelerate.
 
-See  for more information.
+See [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/itom-optimization-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1006,7 +1006,7 @@ ITOM Visibility
 -   Avoid dependence on your Kubernetes admin by upgrading Cloud Native Operations Informer pods and modifying Informer execution parameters directly from the instance.
 -   Enjoy multi-architecture support for docker image in Cloud Native Operations for Visibility.
 
-See  for more information.
+See [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/r_ITOMApplications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1019,7 +1019,7 @@ Starting in version 9.0, you can do the following:
 -   Experience the new data visualizations for the analytics on the My team and Major incidents applets.
 -   Enable dark theme for active calls on the Collaborate section of the My work applet.
 
-See  for more information.
+See [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1029,7 +1029,7 @@ ITSM Success Dashboard
 
 Experience the new KPIs introduced in the self-solved deflections category of ITSM Success Dashboard to help resolve the digital issues encountered by users on a daily basis.
 
-See  for more information.
+See [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1041,7 +1041,7 @@ Identity
 -   Use the enhanced System for Cross-domain Identity Management \(SCIM\) API endpoints for CRUD operations.
 -   Access Analyzer extends support of Query operation \(Query Match &amp; Query range\) for Evaluate access, Compare user access, and Simulate access features.
 
-See Identity for more information.
+See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/identity/identity-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1053,7 +1053,7 @@ Impact
 -   Jumpstart your understanding and assessment of ServiceNow platform capabilities with new Accelerators that provide a demonstration of the possibilities and capabilities with instance features and maximize value exactly where you need it.
 -   View monthly and quarterly trends and curated recommendations for auto-generated outcomes with the updated Objectives and outcomes, formerly Value Blueprint.
 
-See  for more information.
+See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1063,7 +1063,7 @@ Incident Management
 
 Control when an incident record link in the email notifications redirects to the incident record in Service Operations Workspace \(SOW\).
 
-See  for more information.
+See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/incident-management/c_IncidentManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1076,7 +1076,7 @@ Individual Life Claims
 -   Use a customized playbook and workspace for various claim-related roles.
 -   Manage the entire claims life cycle, from the first-notice-of-loss \(FNOL\) to the case closure.
 
-See  for more information.
+See [Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/insurance-claims/individual-life-claims-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1089,7 +1089,7 @@ Industrial Process Manager
 -   Add Operational Technology \(OT\) devices to an equipment model entity by using the IP address.
 -   Change the **Entity name** and **Parent** fields of an equipment model entity to keep your equipment model entity information up to date after you create it.
 
-See  for more information.
+See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1102,7 +1102,7 @@ Insurance claims
 -   Manage complex claims with multi-adjuster support
 -   Customize persona-based claims workspaces to support specific roles and responsibilities in your team
 
-See  for more information.
+See [Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/insurance-claims/insurance-claims-flow.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1140,7 +1140,7 @@ Journey designer
 -   Change the manager during journey configuration.
 -   Enhanced employee experience through the parental leave guide shipped as part of Parental Leave demo data.
 
-See  for more information.
+See [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/journey-designer/jny-dsgnr-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1154,7 +1154,7 @@ Knowledge Management
 -   Address concerns from related cases in a single article by using Now Assist in Knowledge Management to generate a knowledge base article from a selection of similar cases.
 -   Select content in a knowledge article and shorten or elaborate it using the generative AI capabilities of Now Assist.
 
-See  for more information.
+See [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/knowledge-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1169,7 +1169,7 @@ Lead Management
 -   Create and assign tasks, send emails, or schedule appointments with leads.
 -   Qualify and convert leads to potential customer records and opportunities.
 
-See  for more information.
+See [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/lead-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1181,7 +1181,7 @@ Leader Hub
 -   Gain visibility into the skills and talent composition of each team that exists within your organization, at any level of granularity, through an organizational chart that illustrates the reporting relationships across the different teams in your organization.
 -   Give organizational supporters to whom the leader has delegated responsibilities access to Leader Hub from a view that enables them to see their designated leader's organization and provide support accordingly.
 
-See  for more information.
+See [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/td-lh-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1191,7 +1191,7 @@ Localization Framework
 
 The Localization Insights dashboard is available in the Next Experience UI.
 
-See for more information.
+See [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/localization-framework/localization-framework-landing.md)for more information.
 
 </td></tr><tr><td>
 
@@ -1202,7 +1202,7 @@ MID Server
 -   Run other applications without storing any credentials on the instance with the Azure Key vault.
 -   MID Server supports log file compression.
 
-See  for more information.
+See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1218,7 +1218,7 @@ Manufacturing Commercial Operations
     -   Assesses entitlements for compatibility before synchronizing them to customers, suppliers, channels, and partners.
     -   Supports automated synchronization of configuration data between manufacturers and customer instances. Enables customers, suppliers, channels, and partners to run specific processes before synchronizing tasks with their manufacturers.
 
-See  for more information.
+See [Exploring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/manufacturing/manufacturing-explore.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1230,7 +1230,7 @@ Microsoft Azure DevOps Integration for Agile Development
 -   Avoid duplicating record update entries with the help of bidirectional synchronization of records.
 -   Plan, track, and update your tasks from a single application.
 
-See  for more information.
+See [Microsoft Azure DevOps Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/microsoft-azure-devops-integrations-comm/agile-azure-integration-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1243,7 +1243,7 @@ Mobile Platform
 -   Provide intelligent and conversational self-service with ServiceNow® Now Assist in ServiceNow® Virtual Agent for Mobile Platform.
 -   Dynamically auto-fill inputs based on user selections on input form screens.
 
-See  for more information.
+See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/mobile-config-navigation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1256,7 +1256,7 @@ Next Experience
 -   A new "User experience" user preference group has been added for the Turn off Next Experience, Enable analytics, and Current start page preferences.
 -   A new client interaction table displays UI load times for identifying and investigating performance anomalies.
 
-See  for more information.
+See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1294,7 +1294,7 @@ Notifications
 -   Optimize SMTP sender job to enhance outbound email delivery.
 -   Modify email retry logic for a better delivery experience according to RFC 5321.
 
-See  for more information.
+See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/notifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1304,7 +1304,7 @@ Notify
 
 Provides the flexibility to delete or retain Twilio messaging records when Twilio is disconnected from a ServiceNow instance.
 
-See  for more information.
+See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/notify-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1334,7 +1334,7 @@ Now Assist
 -   Enable developers to create their own custom skills by using the Now Assist Skill Kit.
 -   Generate a Knowledge Base article from a selection of similar cases or incidents to help address related concerns in a single article with Now Assist in Knowledge Management.
 
-See  for more information.
+See [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md) for more information.
 
 For more Platform Now Assist feature release notes, see the following topics:
 
@@ -1364,7 +1364,7 @@ Xanadu EA
 -   View the usage and performance of your AI agents with the AI agent analytics dashboard.
 -   Enable multiple conversations for AI agents on the Now Assist panel.
 
-See  for more information.
+See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) for more information.
 
 For the Platform Now Assist release notes, see [Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/now-assist-rn.md).
 
@@ -1446,7 +1446,7 @@ Xanadu Patch 10
 
 [Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-See  for more information.
+See [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1458,7 +1458,7 @@ Xanadu Patch 10 - Configure Access Control Lists \(ACLs\) for AI Agents and agen
 
 Xanadu Patch 9 - Automate and streamline your hardware asset request process by using an agentic workflow.
 
-See  for more information.
+See [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1482,7 +1482,7 @@ Xanadu Patch 9
 -   Generate an alert group description in Express List using Now Assist.
 -   Launch an alert analysis from the Now Assist panel.
 
-See  for more information.
+See [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1512,7 +1512,7 @@ Now Assist for IT Service Management \(ITSM\)
 -   Enable agents to reply to common questions asked in chats by using the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. in chat reply recommendations.
 -   Enable agents to get a better understanding of the chat and incident context by using the Sidebar discussion summarization when they’re proposing resolutions to the requesters.
 
-See  for more information.
+See [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1523,7 +1523,7 @@ Now Assist for Security Operations
 Xanadu Patch 9
 
 -   Help your analysts to gain insight into security incident record metrics with an agentic workflow. Chat with AI agents in natural language from the Now Assist panel.
--   With the initial release of Now Assist for Vulnerability Response, help your vulnerability managers and analysts to assess your exposure to vulnerabilities and analyze metrics for remediation targets. Chat with AI agents in natural language from the Now Assist panel.
+-   With the initial release of [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md), help your vulnerability managers and analysts to assess your exposure to vulnerabilities and analyze metrics for remediation targets. Chat with AI agents in natural language from the Now Assist panel.
 -   Help your analysts to resolve security incidents by chatting with AI agents in the Now Assist panel where the AI agent provides a resolution plan.
 
 Xanadu \(prior to Patch 9\)
@@ -1535,7 +1535,7 @@ Xanadu \(prior to Patch 9\)
 -   Generate a post-incident analysis.
 -   Access summaries and closure notes from the Now Assist panel, security incident records, or from the Security Incident Response Workspace.
 
-See  for more information.
+See [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1550,7 +1550,7 @@ Now Assist for Source-to-Pay Operations
 -   Now Assist for Supplier Lifecycle Operations \(SLO\) supports summarization for the details of supply-related records to keep the supplier managers and fulfillers informed about their progress and action items.
 -   Now Assist for APO supports record summarization for invoice and inquiry cases.
 
-See  for more information.
+See [Now Assist for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/finance-and-supply-chain/now-assist-source-to-pay-operations.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1566,7 +1566,7 @@ Yokohama Patch 1: Use Now Assist for SPM AI agents to help optimize workflows, i
 -   Enable the email project summary skill to receive project updates via email.
 -   Generate a summary of the complete content in Now Assist in Docs using the Gen AI docs skill and save time on manual content analysis.
 
-See  for more information.
+See [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1586,7 +1586,7 @@ Xanadu Patch 7: Proactively identify service problems, diagnose, test, and resol
 -   Restrict the availability of the case summarization and resolution notes generation skills by user role.
 -   Create a template-driven service problem case summarization based on the case state: new, in progress, or resolved.
 
-See  for more information.
+See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1596,7 +1596,7 @@ Now Assist in AI Search
 
 -   Improve incident deflection for portal users by configuring record producers to display actionable and relevant Genius Results suggestions during submission of cases, incidents, problems, and similar tasks.
 
-See  for more information.
+See [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/now-assist-ais.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1645,7 +1645,7 @@ On-Call Scheduling
 -   Reduce the time required to add, remove, or move members from a shift more efficiently.
 -   Confirm member continuity with the new schedule engine.
 
-See  for more information.
+See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1672,7 +1672,7 @@ Operational Sustainability Management
 -   Enable ESG administrators to define either a simple approval flow or an advanced approval flow for all the metrics and metric definitions.
 -   Address off-cycle requests to collect data for existing metric definitions and metrics by creating ad hoc metric data tasks on manual metrics.
 
-See  for more information.
+See [Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/environmental-social-governance/operational-sustainability-management/esg-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1683,7 +1683,7 @@ Operational Technology Change Management
 -   In an OT change request record in the Industrial Workspace, use new related lists to create an OT incident record related to the OT change request, or link an existing OT incident record to the OT change request.
 -   Organize your OT change requests with the updated OT change record on the Industrial Workspace .
 
-See  for more information.
+See [Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1694,7 +1694,7 @@ Operational Technology Incident Management
 -   Relate an OT incident to an OT change request by creating the incident from the change record in the Industrial Workspace.
 -   Organize your OT incidents with the updated OT incident record on the Industrial Workspace.
 
-See  for more information.
+See [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1710,7 +1710,7 @@ Operational Technology Manager
 -   Use the Configuration Management Database \(CMDB\) OT class model updates and UI enhancements.
 -   Use the updates and UI enhancements for the Pre-import OT Worksheet Entry Review \(POWER\) tool to help import and classify your OT device data.
 
-See  for more information.
+See [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1722,7 +1722,7 @@ Operational Technology Request Management
 -   Encourage transparency, expedite request processes, and minimize delays with automatic notifications and approvals.
 -   Maintain the products and services menu that you can use to create and update catalog requests.
 
-See  for more information.
+See [Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1740,7 +1740,7 @@ Operational Technology Vulnerability Response
 -   Mitigate controls using the Libraries module in the Industrial Workspace.
 -   Use the enhanced OTVR \(PA\) dashboard.
 
-See  for more information.
+See [Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1751,7 +1751,7 @@ Opportunity Management
 -   Collaborate with your internal and external stakeholders by using the sidebar and Microsoft Teams integration on an opportunity.
 -   Create quotes for the selected line items in an opportunity record by using the new UI action.
 
-See  for more information.
+See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/opportunity-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1766,7 +1766,7 @@ Order Management
 -   Order agents create orders tailored to each customer location from the product catalog.
 -   Agents can use the Order Operations Case Management application to create cases for customer orders, unifying order tracking and resolution solutions.
 
-See Order management for more information.
+See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/reviewing-approving-fulfilling-orders.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1776,7 +1776,7 @@ Password Reset
 
 Control the duration of the validity of the Password Reset URL provided in a notification email.
 
-See  for more information.
+See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1789,7 +1789,7 @@ Performance Analytics
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
-See  for more information.
+See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/pa-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1799,7 +1799,7 @@ Performance AnalyticsITSM dashboards
 
 Experience the enhanced Performance Analytics ITSM dashboards in the Xanadu release.
 
-See  for more information.
+See [Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/itsm-dashboards-content-pack.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1810,7 +1810,7 @@ Platform Analytics experience
 -   Modernize and simplify the consumption of analytics by activating the Platform Analytics experience.
 -   Surface meaningful insights from your analytics data to empower the direct decision making of viewers.
 
-See  for more information.
+See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/par-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1854,7 +1854,7 @@ Portfolio Planning
 -   View the cost plans, expense lines, budget, and financial baselines of sub-projects at the parent project level. View the financial performance of a project using the rolled-up planned and actuals costs in the widgets of parent projects.
 -   Select a primary attribute to populate resource criteria automatically from the resource assignments of the prioritized planning items, and view the team's capacity in the Capacity Planning screen.
 
-See  for more information.
+See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1866,7 +1866,7 @@ Predictive Intelligence
 -   The dashboard for Solution Statistics has been deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu.
 -   New advanced options for classification solutions are available from Xanadu Patch 9.
 
-See Predictive Intelligence for more information.
+See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1892,7 +1892,7 @@ Proactive Engagement
 -   Configure the DEX metric rule and Proactive Engagement resolution with Engagement settings.
 -   Use the Proactive Engagement workbench experience for lifecycle management of resolutions.
 
-See  for more information.
+See [Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/proactive-engagement/proactive-engagement-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1903,7 +1903,7 @@ Proactive Service Experience Workflows
 -   Enable customer service agents to efficiently identify and resolve customer service problems using the Customer Service Problem Management application.
 -   Enable the operations team to manage and monitor operational data through a centralized analytical dashboard.
 
-See Proactive Service Experience Workflows for more information.
+See [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1916,7 +1916,7 @@ Problem Management
 -   Configure email notifications to redirect to Service Operations Workspace instead of the classic UI16 experience
 -   Re-assess a problem task from Work In Progress
 
-See  for more information.
+See [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/problem-management/c_ProblemManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1930,7 +1930,7 @@ Process Mining
 -   Additional use case analysis included in a project automatically
 -   **Show records** action available on Process Mining graph dashboard \(Star diagram\)
 
-See  for more information.
+See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/process-mining.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1945,7 +1945,7 @@ Product Catalog Management and Pricing Management
 -   Fulfill complex orders for bundled product offers that reference product specifications or product specification hierarchies.
 -   Streamline the quote and order process for your agents by setting the default product configurations displayed in the product configurator.
 
-See  and  for more information.
+See [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/product-catalog-managment.md) and [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/pricing-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1955,7 +1955,7 @@ Project Portfolio Management
 
 View the New Analytics Time sheet, Analytics User manager, and Analytics Project manager dashboards for time sheet and time card users in Next Experience.
 
-See  for more information.
+See [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1968,7 +1968,7 @@ Project Workspace
 -   Compare financial baselines to view simple financials and budget.
 -   View and track the actuals of each resource assignment with the actuals toggle.
 
-See  for more information.
+See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/project-workspace/project-workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1981,7 +1981,7 @@ Public Sector Digital Services
 -   Redact sensitive content or data from PDF documents in the Information Request Playbook.
 -   Auto-generate case summaries and case resolution notes for cases in the Social Benefits Playbook by using the Now Assist for Public Sector Digital Services \(PSDS\) application.
 
-See Public Sector Digital Services for more information.
+See [Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/bun-public-sector-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1994,7 +1994,7 @@ Quote Management
 -   Create sales agreements that contain configurable and bundled products and services.
 -   Add location-based product eligibility, which enables products to be filtered in the catalog based on location.
 
-See Quote Management for more information.
+See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/quote-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2034,7 +2034,7 @@ Release Management
 
 The Digital Product Release application is the preferred application to track and manage the release processes of digital products.
 
-See  for more information.
+See [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/digital-product-release/dpr-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2048,7 +2048,7 @@ Resource Management Workspace
 -   Identify allocation and status changes to the resource assignment using the new iconography.
 -   Group resources from a resource board based on Primary Group, Primary Role, Primary Skill, Owner, or Parent Item.
 
-See  for more information.
+See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2062,7 +2062,7 @@ Retail Operations
 -   Optimize efficiency by enabling retail organization teams to request help directly from headquarters when needed through cases, live chat, phone calls, and more.
 -   Increase customer satisfaction by reporting customer issues in-store.
 
-See  for more information.
+See [Exploring Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-explore.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2072,7 +2072,7 @@ Sales Agreement Management
 
 Create sales agreements from quotes to capture the agreed scope and prices for future sales transactions between a buyer and a seller.
 
-See  for more information.
+See [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/sales-agreement-mgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2086,7 +2086,7 @@ Security Center
 -   ﻿﻿Schedule security scans with the updated Auditor Suite to monitor access control configurations in the Security Scanner tool.
 -   Use the improved Security Center version 2.0 hardening tool to minimize data exposure within your instance.
 
-See , , and , , and  for more information.
+See [Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/security-best-practices-manager.md), [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/critical-updates.md), and [Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md), [Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/security-policies.md), and [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/data-classification-security-metrics.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2113,7 +2113,7 @@ Security Posture Control
 -   Gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured with Mitigation Controls Monitoring.
 -   Automate remediation workflows for security gaps by publishing findings from Security Posture Control policies in the ServiceNow® Configuration Compliance application.
 
-See  for more information.
+See [Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/spc-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2125,7 +2125,7 @@ Service Catalog
 -   Let users experience the support of Zero Trust Access \(ZTA\) security model for Service Catalog.
 -   Experience the faster loading of popular catalog items in the Popular Items widgets.
 
-See  for more information.
+See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/service-catalog.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2138,7 +2138,7 @@ Service Exchange
 -   Enable consumers to run specific processes such as approvals before synchronizing tasks with their providers.
 -   Support automated synchronization of configuration data between provider and consumer instances.
 
-See  for more information.
+See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2153,7 +2153,7 @@ Service Graph Connector Integration for Claroty CTD
 -   Clean the serial record entries from the Source \[sys\_object\_source\] table using a fix script.
 -   Ensure that your Operational Technology \(OT\) devices are categorized under the Industrial product model category with the enhanced Service Graph Connector Integration for Claroty CTD application.
 
-See  for more information.
+See [Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2163,7 +2163,7 @@ Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 
 Ensure that your Operational Technology \(OT\) devices are categorized under the Industrial product model category with the enhanced Service Graph Connector for Microsoft Defender for IoT \(Azure\) application.
 
-See  for more information.
+See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2205,7 +2205,7 @@ Service Operations Workspace for ITSM
     -   Explore and filter the Standard Change Catalog.
     -   Propose mass configuration item updates in Change Management.
 
-See Service Operations Workspace for ITSM for more information.
+See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-operations-workspace/sow-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2215,7 +2215,7 @@ Service Portal
 
 Deactivate a portal and optionally redirect users to an alternate portal.
 
-See  for more information.
+See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2230,7 +2230,7 @@ Service Portfolio Management
     -   Added a read-only time zone field on service availability records.
 -   Added a **Teams** related link tab to the service offering records so you can assign more than one team to support a service offering \(one-to-many relationship\).
 
-See  for more information.
+See [Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2297,7 +2297,7 @@ Skills Intelligence
 -   Select a Role level directly from your Career profile in the Career hub in Employee Portal and add skills to your profile.
 -   Migrate to a more dynamic and interactive playbook experience within the Skills Workspace.
 
-See  for more information.
+See [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/skills-intelligence.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2305,10 +2305,10 @@ Skills Management
 
 </td><td>
 
--   Analyze the skills dashboard by using the intuitive .
+-   Analyze the skills dashboard by using the intuitive [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 -   Use multi-lingual capabilities in Skills Management so that you can translate the skill names and their descriptions in your preferred language.
 
-See  for more information.
+See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2334,7 +2334,7 @@ Software Asset Management
 -   Track and optimize IBM licenses across public clouds by using the IBM License Compliance for the Software Asset Management application.
 -   Track and manage the indirect usage of SAP applications, avoiding any unexpected licensing costs by using the SAP Digital Access licensing model.
 
-See  for more information.
+See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2354,7 +2354,7 @@ Sourcing and Procurement Operations
 -   Automate the end-to-end procurement process workflows, from sourcing through requisitioning, to order fulfillment, receipt, and payment.
 -   Enable procurement specialists to source, negotiate, procure goods and services for an organization, and work on procurement tasks.
 
-See  for more information.
+See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2370,7 +2370,7 @@ Strategic Planning
 -   View the cost plans, expense lines, budget, and financial baselines of sub-projects at the parent project level. View the financial performance of a project using the rolled-up planned and actuals costs in the widgets of parent projects.
 -   Select a primary attribute to populate resource criteria automatically from the resource assignments of the prioritized planning items, and view the team's capacity in the Capacity Planning screen.
 
-See  for more information.
+See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2394,7 +2394,7 @@ Subscription Management
 -   Maximize subscription usage and make informed decisions about future purchases by monitoring your subscriptions.
 -   Avoid unexpected costs by tracking subscription usage and allocations over time.
 
-See  for more information.
+See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2408,7 +2408,7 @@ Supplier Lifecycle Operations
 -   View supplier details such as supplier products, contracts, purchase orders, and invoices directly from the Source-to-Pay Workspace and the Supplier Collaboration Portal.
 -   Support for many-to-many \(M2M\) mapping between supplier contact and suppliers: A single supplier contact can be the contact for multiple suppliers, if the suppliers share a parent-subsidiary relationship. M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards.
 
-See  for more information.
+See [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2422,7 +2422,7 @@ Xanadu Patch 9
 
 The Employee Growth and Development Core application has been renamed to Talent Development Core.
 
-See  for more information.
+See [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/egd-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2442,7 +2442,7 @@ Task Intelligence for ITSM
     -   Set up and configure a new similarity model **Similar open Problems for Incidents** to predict similar problems based on the fields configured.
     -   Choose the set of records used for training the similar incident model by selecting the conditions on the training tables and training fields for training the similarity models.
 
-See  for more information.
+See [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2456,7 +2456,7 @@ Telecommunications Network Inventory
 -   Export equipment models and templates along with related hardware to an Excel data source, and import them to another ServiceNow instance.
 -   TMF conformance for TMF 639 Resource Inventory API.
 
-See  for more information.
+See [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2469,7 +2469,7 @@ Theme Builder
 -   As of Theme Builder version 4.1, receive notifications about updates directly from the Theme Builder application.
 -   As of Theme Builder version 4.1, organize your themes by priority, purpose, or other criteria, by using the drag-and-drop feature in the List view. With this feature, you can publish and order the themes that are displayed in the Next Experience Theme user preference.
 
-See  for more information.
+See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2497,7 +2497,7 @@ Threat Intelligence Security Center
 -   Conduct research on threats to support the reactive and proactive needs of security teams.​
 -   Create and track threat investigations using Case Management.​
 
-See  for more information.
+See [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2511,7 +2511,7 @@ UI Builder
 -   Design pages that look good and function well across a variety of form factors such as laptops, tablets, and mobile devices using responsive authoring.
 -   Fetch information from multiple data sources and more easily bind the data to components of your choice with a new multi-table data resource right from UI Builder.
 
-See  for more information.
+See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2535,7 +2535,7 @@ Upgrade Center
 -   View all your past upgrades in the Upgrade History module.
 -   Accelerate your upgrades using the Upgrade Plan feature.
 
-See  for more information.
+See [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-center/uc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2546,7 +2546,7 @@ Vendor Management Workspace
 -   Use new vendor key performance indicators \(KPIs\) to monitor vendor performance.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/vendor-management-workspace/vendor-management-workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2613,7 +2613,7 @@ Vulnerability Response
 -   View risk rating-related changes in the Work notes section.
 -   Access information on how an item's risk score is adjusted according to modifications in the vulnerability calculators.
 
-See  for more information about Vulnerability Response. See the [Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) Knowledge Base article for more information about released Security Operations applications and their version compatibility.
+See [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/vulnerability-response/vuln-landing-page.md) for more information about Vulnerability Response. See the [Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) Knowledge Base article for more information about released Security Operations applications and their version compatibility.
 
 </td></tr><tr><td>
 
@@ -2623,7 +2623,7 @@ Vulnerability Response Integration with Claroty CTD
 
 Identify and import vulnerabilities by using additional filter properties.
 
-See  for more information.
+See [Vulnerability Response Integration with Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-vulnerability-response/vulnerability-response-integration-with-claroty-ctd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2635,7 +2635,7 @@ Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\)
 -   Run imports of vulnerabilities automatically on your own schedule.
 -   Using assignment rules for VITs can be automatically routed for remediation to local site-based teams to take risk-based action.
 
-See  for more information.
+See [Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/operational-technology/operational-technology-vulnerability-response/vulnerability-response-integration-with-microsoft-defender-for-iot-azure.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2671,7 +2671,7 @@ Workforce Optimization for ITSM
 -   Synchronize team calendars and events with Microsoft Outlook.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2683,7 +2683,7 @@ Workspace
 -   Categorize and filter records in the Activity Stream.
 -   Help users access relevant reference search results by applying pre-filtered and removable query parameters to reference lists.
 
-See Workspace UI for more information.
+See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 

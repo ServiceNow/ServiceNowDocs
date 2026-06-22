@@ -28,15 +28,15 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 3.  Select the **Discover** tab.
 
-<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d262994e90">
+<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d263118e90">
 
 To enroll in a course or a path by browsing
 
-</th><th align="left" id="d262994e93">
+</th><th align="left" id="d263118e93">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d262994e99">
+</th></tr></thead><tbody><tr><td id="d263118e99">
 
 **The full catalog**
 
@@ -51,7 +51,7 @@ Enter a name or a description in the search field.**Note:** You can also narrow 
 -   State—completed, in-progress, or unassigned or not enrolled
 
 
-</td></tr><tr><td id="d262994e128">
+</td></tr><tr><td id="d263118e128">
 
 **Recommended learning**
 

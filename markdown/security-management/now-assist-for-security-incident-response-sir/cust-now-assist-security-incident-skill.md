@@ -125,7 +125,7 @@ Now Assist panel
 
 </td><td>
 
-Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 

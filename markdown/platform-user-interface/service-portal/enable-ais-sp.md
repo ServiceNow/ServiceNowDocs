@@ -55,7 +55,7 @@ If you leave AI Search disabled, the portal uses the legacy search experience.
 
 AI Search is enabled throughout the portal. Employees or customers can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see Defining search sources.
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/search-sources-ais.md).
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 

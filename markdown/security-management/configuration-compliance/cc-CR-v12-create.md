@@ -73,15 +73,15 @@ Starting with version 19.0 of Vulnerability Response, you can create change requ
 
     1.  From the list of the **Applies to** field, choose one to continue.
 
-<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d192263e247">
+<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d192302e247">
 
 Option
 
-</th><th align="left" id="d192263e250">
+</th><th align="left" id="d192302e250">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192263e256">
+</th></tr></thead><tbody><tr><td id="d192302e256">
 
 **All active test results in this group**
 
@@ -89,7 +89,7 @@ Description
 
 If selected, all active test results from this remediation task with a state other than **Closed** are added automatically to the change request after you click **Create Change**.
 
-</td></tr><tr><td id="d192263e271">
+</td></tr><tr><td id="d192302e271">
 
 **All active test results in this group matching a set of conditions**
 
@@ -109,15 +109,15 @@ State is **Open** and Risk Score is greater than **50**.
 
 6.  From the list for the **Change type** field, choose one to continue.
 
-<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d192263e344">
+<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d192302e344">
 
 Option
 
-</th><th align="left" id="d192263e347">
+</th><th align="left" id="d192302e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192263e353">
+</th></tr></thead><tbody><tr><td id="d192302e353">
 
 **Emergency**
 
@@ -125,7 +125,7 @@ Description
 
 A change to resolve a major incident.
 
-</td></tr><tr><td id="d192263e362">
+</td></tr><tr><td id="d192302e362">
 
 **Normal**
 
@@ -133,7 +133,7 @@ A change to resolve a major incident.
 
 A change type that is used to implement any change to a service that is not a standard or emergency change.
 
-</td></tr><tr><td id="d192263e371">
+</td></tr><tr><td id="d192302e371">
 
 **Standard**
 
@@ -141,7 +141,7 @@ A change type that is used to implement any change to a service that is not a st
 
 A pre-authorized, low-risk change request that is frequently implemented. Approved standard change requests can be predefined in a catalog of templates to make accessing and requesting a standard change more efficient. If selected, two fields are displayed. Select one from each list to fill in these fields:-   **Change category**: Select a category for the change from your existing catalog, for example, `Hardware`, `Server Standard Changes`, `Software`.
 -   **Change template**: Select one available template for change requests with pre-defined supporting tasks from your catalog.
- For more information on ITSM change request categories, templates, and change types, see Change types.
+ For more information on ITSM change request categories, templates, and change types, see [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/change-management/change-types.md).
 
 </td></tr></tbody>
 </table>    The feature automatically reads the types of change requests that you set up in your catalog in ITSM Change Management. For example, if you change the name for your Standard change requests in ITSM from `Standard` to `Pre-approved`, your new name is automatically displayed in the Change type list on the Create change request form.

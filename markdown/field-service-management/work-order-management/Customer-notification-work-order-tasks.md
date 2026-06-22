@@ -18,7 +18,7 @@ Set up notification messages and emails to update customers about the status of 
 
 Customers can receive notifications about the work order tasks created for them. Customers can unsubscribe to stop receiving any notifications.
 
-Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see .
+Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see [Notify Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/Notify-TwilioDirectDriver.md).
 
 Customers are notified when one of the following activities is performed to the work order task:
 

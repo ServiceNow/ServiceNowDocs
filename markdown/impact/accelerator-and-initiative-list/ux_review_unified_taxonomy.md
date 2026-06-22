@@ -26,7 +26,7 @@ The Accelerator is divided into three main phases, Diagnose, Run, and Review.
 -   Run: Conducts activities to assist in creating the desired taxonomy
 -   Review: Discusses results and next steps
 
-    The Accelerator differs slightly if your organization has an existing taxonomy you want to use or if starting without an existing baseline. See  for additional information on taxonomy.
+    The Accelerator differs slightly if your organization has an existing taxonomy you want to use or if starting without an existing baseline. See [Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/browse-taxo-widget.md) for additional information on taxonomy.
 
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.

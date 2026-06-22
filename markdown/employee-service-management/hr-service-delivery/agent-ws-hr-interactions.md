@@ -24,7 +24,7 @@ Interaction records are automatically created when you are using agent chat.
 
 **Note:** Agent Assist is available for interactions.
 
-For more information on interactions, see Interaction records in Agent Workspace.
+For more information on interactions, see [Interaction records in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/interaction-message-agent-workspace.md).
 
 ## Create interactions in HR Service Delivery Agent Workspace
 

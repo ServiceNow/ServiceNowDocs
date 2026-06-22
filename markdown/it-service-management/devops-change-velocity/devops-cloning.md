@@ -20,11 +20,11 @@ Clone the DevOps Change Velocity application from one instance to another.
 
 For detailed information for cloning a ServiceNow instance, refer to the following topics.
 
--   
-    -   
-    -   
-    -   
-    -   
+-   [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SystemClone.md)
+    -   [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_StartAClone.md)
+    -   [Clone Target Registration and Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateACloneTarget.md)
+    -   [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ExcludeATableFromCloning.md)
+    -   [Data preservation on cloning target instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/data-preservation.md)
 -   [New Backup-based Clone Engine \[KB0540342\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0540342)
 
 ## Base system table exclusion and preservers on global tables used in DevOps

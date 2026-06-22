@@ -59,7 +59,7 @@ csp\_category
 
 Category defined in the Consumer Service portal in the CSM application \(requires the com.glide.service-portal.consumer-portal plugin\).
 
- For more information, see Using the Consumer Service Portal.
+ For more information, see [Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/use-consumer-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ mandatory\_skills
 
 </td><td>
 
-Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see Configure agent assignment rules.
+Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +171,7 @@ optional\_skills
 
 </td><td>
 
-Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see Configure agent assignment rules.
+Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ post\_chat\_survey\_name
 
 Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/create-chat-surveys.md).
 
- For information about creating surveys in Connect Chat, see Configure a survey in Connect Chat support.
+ For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/take-survey-connect-chat.md).
 
 </td></tr><tr><td>
 
@@ -221,9 +221,9 @@ pre\_chat\_survey\_name
 
 </td><td>
 
-Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see .
+Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-queues.md).
 
- For information about creating surveys in Connect Chat, see Configure a survey in Connect Chat support.
+ For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/take-survey-connect-chat.md).
 
 </td></tr><tr><td>
 

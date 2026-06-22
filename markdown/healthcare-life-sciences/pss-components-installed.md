@@ -14,7 +14,7 @@ breadcrumb: [Patient Support Services reference, Patient Support Services, Healt
 
 Several types of components are installed with installation of the Patient Support Services application, including tables, user roles, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

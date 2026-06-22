@@ -35,5 +35,5 @@ The Health Log Analytics Overview dashboard uses Performance Analytics to provid
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

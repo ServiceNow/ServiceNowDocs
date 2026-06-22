@@ -20,7 +20,7 @@ The UX \(User Experience\) Portal Experience Review Accelerator provides a compr
 
 UX: Portal Experience Review can enhance Employee Center adoption by evaluating the portal against ServiceNow leading practices, identifying UX issues, and providing actionable recommendations to improve design, enhance user satisfaction, and increase portal efficiency.
 
-See  on Employee Center.
+See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) on Employee Center.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

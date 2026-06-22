@@ -65,5 +65,5 @@ The self-configured bot that you created will not be available in the Microsoft 
 
 ## What to do next
 
-You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these instructions for using a self-configured bot with ServiceNow for Microsoft Teams.
+You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these [instructions for using a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/download-manifest-file-mt.md) with ServiceNow for Microsoft Teams.
 

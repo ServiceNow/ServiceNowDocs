@@ -24,7 +24,7 @@ The effectiveness of AI Search RAG relies on its embedding model, which is used 
 
 ## Activating AI Search RAG
 
-AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install Generative AI Controller or any Now Assist application.
+AI Search RAG functionality is provided by the AI Search RAG plugin \(sn\_ais\_rag\). This plugin is automatically activated for your instance when you install [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) or any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 -   **[Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/setting-up-3p-embedding-models.md)**  
 You can connect and configure an external or custom embedding model in the AI Search Retrieval Augmented Generation \(RAG\) application to generate embeddings.

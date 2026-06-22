@@ -30,15 +30,15 @@ Role required: notify\_view, ia\_admin or admin
 
 4.  For the relevant incident communications task, under **Actions**, perform one of the following actions.
 
-<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d543648e83">
+<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d543103e83">
 
 Option
 
-</th><th align="left" id="d543648e86">
+</th><th align="left" id="d543103e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d543648e92">
+</th></tr></thead><tbody><tr><td id="d543103e92">
 
 **Join Conference Call**
 
@@ -46,7 +46,7 @@ Description
 
 If you are not already logged into the conference call, you can join the conference.
 
-</td></tr><tr><td id="d543648e103">
+</td></tr><tr><td id="d543103e103">
 
 **End Conference Call**
 

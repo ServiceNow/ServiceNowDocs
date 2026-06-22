@@ -25,7 +25,7 @@ Configure the Legal Counsel Center Classic to enable legal department members to
 -   If you are upgrading Legal Counsel Center Classic to the latest Xanadu release versions, make sure you have first upgraded it to the Washington DC release version of 6.3.8 or 6.4.1.
 -   If you are using Legal Counsel Center Classic and want to upgrade to the Xanadu family release, ensure you upgrade to the Washington DC release first.
 
-Legal Counsel Center Classic is built using the ServiceNow® Agent Workspace, so make sure you're familiar with the Workspace basics.
+Legal Counsel Center Classic is built using the ServiceNow® Agent Workspace, so make sure you're familiar with the [Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) basics.
 
 Role required: admin
 

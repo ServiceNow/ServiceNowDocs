@@ -21,7 +21,7 @@ View custom skills through Virtual Agent Designer.
 
 **Role required**: virtual\_agent\_admin
 
-When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Virtual Agent Designer. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see .
+When you select a custom skill, it opens the skill in Now Assist Skill Kit. Custom skills currently can't be created in Virtual Agent Designer. You can only view them in Virtual Agent Designer. The skills can be created, tested, and deleted only in Now Assist Skill Kit. For more details on creating skills, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 \[Omitted image "vad-custom-skills.png"\] Alt text: Custom skills pill in Virtual Agent Designer.
 
@@ -52,8 +52,8 @@ Custom skills become available in Virtual Agent Designer based on the deployment
     -   Select **Platform skills** in the **Feature** list.
     -   Select the **Now Assist panel** card to enable the skill through the Now Assist Panel.
 
--   For more information about the Now Assist Panel, see .
--   For more information about Now Assist Skill Kit, see .
+-   For more information about the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+-   For more information about Now Assist Skill Kit, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

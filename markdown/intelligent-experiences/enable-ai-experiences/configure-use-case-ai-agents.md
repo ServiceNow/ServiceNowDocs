@@ -131,7 +131,7 @@ Assign one or more specific roles from the drop-down.**Note:** Selecting the rol
 </table>    4.  Define the type of sys\_user the agentic workflow will run as.
 
         -   For more information about understanding the user identities that will execute the agentic workflow, see [User identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
-        -   For more information about understanding the rules for Access Control Lists \(ACLs\) in ServiceNow AI Platform®, see .
+        -   For more information about understanding the rules for Access Control Lists \(ACLs\) in ServiceNow AI Platform®, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md).
 <table id="table_vjm_kpr_hgc"><thead><tr><th>
 
 Field
@@ -164,7 +164,7 @@ The AI user is a sys\_user with predefined roles.
 
 **Warning:** Allowing public users to invoke AI users will give them elevated permissions to what data is accessible to them. Agentic workflows very rarely need to run as AI users.
 
- If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See Create a user. Select **AI user** as the identity type.
+ If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
 </td></tr><tr><td>
 

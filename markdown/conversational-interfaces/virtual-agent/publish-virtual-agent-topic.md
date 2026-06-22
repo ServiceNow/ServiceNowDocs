@@ -18,7 +18,7 @@ Deploy an inactive topic or an updated topic to save it and make it available to
 
 ## Before you begin
 
-If you're using Natural Language Understanding \(NLU\) topic discovery, you can publish the model at the same time as the topic if the model meets publication criteria. Make sure that your model has passed through all phases of development and is ready to publish. If you haven’t refined, tested, and optimized your model, you may not be able to publish it in Virtual Agent Designer. For more information, see Model management.
+If you're using Natural Language Understanding \(NLU\) topic discovery, you can publish the model at the same time as the topic if the model meets publication criteria. Make sure that your model has passed through all phases of development and is ready to publish. If you haven’t refined, tested, and optimized your model, you may not be able to publish it in Virtual Agent Designer. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -40,7 +40,7 @@ You can also publish topic blocks and custom controls to make them available for
 
     If you're using NLU topic discovery, the Choose what to publish dialog box appears. Select the available items to publish with the topic, such as the NLU model and language mappings, and then select **Publish**.
 
-    **Note:** If the **Publish** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from the NLU Workbench. For more information, see Model management.
+    **Note:** If the **Publish** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from the NLU Workbench. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
 
     The topic header bar displays a `Saving in progress...` message. The toast message `Successfully saved your topic` appears in the lower-right corner afterward for four seconds, and can be closed by selecting the **X** in the message.
 
@@ -48,7 +48,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 4.  Verify that your topics work as expected by opening them in a test conversation window in one of the following ways.
 
-<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d38477e181">
+<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d59660e181">
 
 **Topic properties tab**
 
@@ -58,7 +58,7 @@ You can also publish topic blocks and custom controls to make them available for
 -   For LLM topics, select **Test** or open the drop-down menu and select **Preview in Now Assist panel**.
 
 
-</td></tr><tr><td id="d38477e211">
+</td></tr><tr><td id="d59660e211">
 
 **LLM home page**
 
@@ -66,7 +66,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 Under the **Select assistant** drop-down menu, choose the assistant associated with your topic, then select **Test assistant**.
 
-</td></tr><tr><td id="d38477e226">
+</td></tr><tr><td id="d59660e226">
 
 **NLU/keyword home page**
 

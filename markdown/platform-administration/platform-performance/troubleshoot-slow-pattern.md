@@ -46,7 +46,7 @@ Role required: sn\_app\_insights.admin or admin
 
 6.  To access additional helpful information for troubleshooting, add the Referenced Scripts and Related Slow Patterns related lists.
 
-<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d102211e159">
+<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d102288e159">
 
 **Slow scripts**
 
@@ -56,7 +56,7 @@ Role required: sn\_app\_insights.admin or admin
 2.  Change the form view by selecting **View** &gt; **Slow Script Insights**.
 
 
-</td></tr><tr><td id="d102211e189">
+</td></tr><tr><td id="d102288e189">
 
 **Slow queries**
 

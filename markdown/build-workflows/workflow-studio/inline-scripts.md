@@ -30,7 +30,7 @@ Workflow Studio displays a Script button when you configure these components.
 
 Inline scripts must return values in the same data type as the input expects. For example, an inline script for a Record input must return a GlideRecord object and an inline script for a Date input must return a date-time value. Always test actions and flows containing inline scripts, and verify that there are no runtime errors in the flow execution details.
 
-Script writers should be familiar with ServiceNow AI Platform table structures and field types. In addition, they should know how to work with record and system data using the ServiceNow API.
+Script writers should be familiar with ServiceNow AI Platform table structures and [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_FieldTypes.md). In addition, they should know how to work with record and system data using the ServiceNow API.
 
 ## Benefits
 

@@ -47,5 +47,5 @@ Service owners can view the last time a survey was sent for an offering in the *
 
 Portfolio managers and service owners can review responses and view vendor CSAT weight in Service Owner Workspace.
 
-For more detailed information about working with surveys, trigger conditions, and survey questions, see .
+For more detailed information about working with surveys, trigger conditions, and survey questions, see [Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md).
 

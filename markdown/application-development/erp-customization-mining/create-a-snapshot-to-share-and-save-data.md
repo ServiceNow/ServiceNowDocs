@@ -46,7 +46,7 @@ Role required: admin
 
         \[Omitted image "erpcm-snapshot-export-running.png"\] Alt text: All tasks list with a running task.
 
-        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see .
+        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
     2.  When the export is finished, go to the **Snapshots** tab on the **Configuration** page and select the completed export.
 

@@ -34,7 +34,7 @@ To continue using the classic Software Asset Management Foundation plugin applic
 
 If you later decide to use the Software Asset Workspace, you need to activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
 
-For detailed information on configuring and using the classic Software Asset Management Foundation plugin application, refer to [Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and Using Software Asset Management classic.
+For detailed information on configuring and using the classic Software Asset Management Foundation plugin application, refer to [Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
 
 -   **[Software Asset Management Foundation plugin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/r_SAMRolesSAMF.md)**  
 Software Asset Management Foundation plugin adds the following roles.

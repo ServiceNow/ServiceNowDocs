@@ -29,5 +29,5 @@ The **SLA Notification and Escalation Workflow** creates the events that send ou
 **Related topics**  
 
 
-[bundle-crworkflow.workflow-editor]
+[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/legacy-workflow/workflow-editor.md)
 

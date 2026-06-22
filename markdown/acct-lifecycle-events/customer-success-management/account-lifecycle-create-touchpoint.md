@@ -243,6 +243,6 @@ Type of meeting which can be:-   Ad-hoc
 </td></tr></tbody>
 </table>4.  Click **Save** to create a new touchpoint.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see .
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
 
 

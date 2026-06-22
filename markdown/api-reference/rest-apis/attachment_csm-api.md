@@ -999,7 +999,7 @@ encryption\_context
 
 </td><td>
 
-Sys\_id of an encryption context record. Specify this parameter to allow only users with the specified encryption context to access the attachment. For additional information on encryption context records, see .Data type: String
+Sys\_id of an encryption context record. Specify this parameter to allow only users with the specified encryption context to access the attachment. For additional information on encryption context records, see [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).Data type: String
 
 Default: Attached file is not encrypted with any encryption context.
 

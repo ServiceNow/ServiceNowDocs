@@ -62,8 +62,8 @@ To learn about the supported versions of Oracle, refer to [Detailed information 
 
     Verify that you have the following credentials for your operating system, and then create credentials for them on the ServiceNow AI Platform:
 
-    -   UNIX credentials using SSH. For more information, see .
-    -   Windows credentials using PowerShell/WMI. For more information, see .
+    -   UNIX credentials using SSH. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    -   Windows credentials using PowerShell/WMI. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
 
         **Note:** PowerShell and WMI credentials are required only for Database collection.
 
@@ -307,7 +307,7 @@ SYS.DBA\_MINING\_MODELS
 </td></tr></tbody>
 </table>-   **Create applicative credentials for Oracle Instance**
 
-    Create applicative credentials on the ServiceNow AI Platform. For more information, see .
+    Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/applicative-creds.md).
 
 -   **For virtual machines: Verify virtual machine credentials**
 

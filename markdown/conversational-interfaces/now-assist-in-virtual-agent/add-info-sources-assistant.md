@@ -30,7 +30,7 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "NAinVA-info-sources-052025.png"\] Alt text: View of the information sources.
 
-    In the Search configuration section, each assistant has its own search configuration. If you have configured AI Search on any existing portal or mobile app, you can copy the existing configuration to your assistant's search configuration or add an external search source. External sources such as Microsoft SharePoint or Confluence can be added for a seamless experience. For a complete list of external search sources, see .
+    In the Search configuration section, each assistant has its own search configuration. If you have configured AI Search on any existing portal or mobile app, you can copy the existing configuration to your assistant's search configuration or add an external search source. External sources such as Microsoft SharePoint or Confluence can be added for a seamless experience. For a complete list of external search sources, see [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/exploring-ext-cont-connectors.md).
 
     When a Now Assist in Virtual Agent assistant is created, a search profile for that assistant gets created. All search sources associated with the profile are listed. If the Virtual Agent Q&amp;A and the Virtual Agent Multi-Turn Catalog Ordering skills are turned on for the assistant, the default search profile contains the default knowledge articles and catalog items. Select the ellipsis to edit the conditions of each skill.
 
@@ -66,11 +66,11 @@ Role required: virtual\_agent\_admin or admin
 
     If you have not yet configured AI Search for your portal and want to add search sources to your assistant, or edit advanced settings such as dictionaries, improvement rules, and stop words, select the **Search sources** &gt; assistant name link. The AI Search Admin Console page appears for your assistant's search profile where you can build your search configuration from scratch.
 
-    For example, in the AI Search Admin Search Console **Search Sources** tab, you could link catalog items, change requests, and so on, or add a new search profile to your Virtual Agent search profile. You must first complete the build of your search profile in the AI Search Admin Console, and then publish your profile for it to be saved. For more information, see .
+    For example, in the AI Search Admin Search Console **Search Sources** tab, you could link catalog items, change requests, and so on, or add a new search profile to your Virtual Agent search profile. You must first complete the build of your search profile in the AI Search Admin Console, and then publish your profile for it to be saved. For more information, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md).
 
     \[Omitted image "NAinVA-publish-profile.png"\] Alt text: Review and publish profile in AI Search Admin console
 
-    When navigating back to your Now Assist in Virtual Agent admin configuration, refresh your page to reflect the search profile that you created or updated in the AI Search Admin Console. Refreshing your page confirms that any changes that were made, and published, within the AI Search Admin console are reflected in your Now Assist in Virtual Agent admin configuration. For more information about the AI Search Admin Console, see .
+    When navigating back to your Now Assist in Virtual Agent admin configuration, refresh your page to reflect the search profile that you created or updated in the AI Search Admin Console. Refreshing your page confirms that any changes that were made, and published, within the AI Search Admin console are reflected in your Now Assist in Virtual Agent admin configuration. For more information about the AI Search Admin Console, see [Using the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/using-ais-admin-console.md).
 
     **Note:** If you rename an assistant, the assistant's search profile name is automatically renamed to match the latest assistant's name.
 
@@ -94,13 +94,13 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "NAinVA-info-sources-custom-skills.png"\] Alt text: Create custom skills.
 
-    In **Now Assist Skill Kit** &gt; **Deployment Settings**, custom skills are to be assigned to the assistant. For more information, see .
+    In **Now Assist Skill Kit** &gt; **Deployment Settings**, custom skills are to be assigned to the assistant. For more information, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
     If an AI agents skill was turned on, an AI agents section appears. Create and manage AI agents in Now Assist AI Agents Studio.
 
     \[Omitted image "NAinVA-info-sources-agent2-052025.png"\] Alt text: Create and manage AI agent use cases.
 
-    In **AI Agents Studio** &gt; **Select Display**, workflows are to be assigned to the assistant. For more information, see [Managing AI agents in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md) and .
+    In **AI Agents Studio** &gt; **Select Display**, workflows are to be assigned to the assistant. For more information, see [Managing AI agents in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md) and [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
 
     Add other search sources that won't be used for the LLM Virtual Agent generated responses but will be used for the portal and mobile search results.
 
@@ -112,13 +112,13 @@ Role required: virtual\_agent\_admin or admin
 
     **Note:** To enable Knowledge Graph for Now Assist in Virtual Agent, set the **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties to `true`.
 
-    For more information, see .
+    For more information, see [Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/knowledge-graph/example-use-case-for-knowledge-graph.md).
 
     **Note:** Knowledge Graph transforms search into an intelligent, predictive, and efficient experience, reducing friction, increasing accuracy, and improving productivity. By default, search personalization is available with AI Search in the Now Assist in Virtual Agent assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open a ServiceNow support ticket.
 
     \[Omitted image "NAinVA-knowledge-graphNOV.png"\] Alt text: Drop-down list of Knowledge Graph schemas.
 
-    The **External Content Connectors** card appears if the Now Assist Q&amp;A skill is active for the assistant. The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. For a complete list of External Content Connectors, see . The Now Assist Q&amp;A skill must be turned on for the assistant to access knowledge articles and external content. Select **Go to External Content Connectors** to create and connect external sources. After creating a connector, create a search source and link it to a search profile. For information about creating search sources and linking them to search profiles, see .
+    The **External Content Connectors** card appears if the Now Assist Q&amp;A skill is active for the assistant. The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. For a complete list of External Content Connectors, see . The Now Assist Q&amp;A skill must be turned on for the assistant to access knowledge articles and external content. Select **Go to External Content Connectors** to create and connect external sources. After creating a connector, create a search source and link it to a search profile. For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/search-sources-ais.md).
 
     \[Omitted image "NAinVA-external-connectors2-052025.png"\] Alt text: Add an External Content Connector to create and connect external sources
 

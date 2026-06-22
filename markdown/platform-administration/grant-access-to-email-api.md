@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For additional details, see Email API .
+For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/email-api.md) .
 
 ## Procedure
 

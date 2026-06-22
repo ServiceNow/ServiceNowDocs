@@ -20,7 +20,7 @@ Connect the New Relic analysis AI agent to your New Relic instance to use it in 
 
 Before configuring the New Relic analysis AI agent, you must do the following:
 
--   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate New Relic with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/new-relic-events-integration.md).
 -   Copy your New Relic API key.
 
@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d421637e142">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d420070e142">
 
 Field
 
-</th><th align="left" id="d421637e145">
+</th><th align="left" id="d420070e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d421637e151">
+</th></tr></thead><tbody><tr><td id="d420070e151">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your New Relic connection. This name helps you identify it later. For example, New Relic Prod.
 
-</td></tr><tr><td id="d421637e166">
+</td></tr><tr><td id="d420070e166">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your New Relic connection. This name helps you identify it later. For ex
 
 URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The connection URL might vary by region or account.
 
-</td></tr><tr><td id="d421637e181">
+</td></tr><tr><td id="d420070e181">
 
 **API Key**
 
@@ -71,7 +71,7 @@ URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The 
 
 New Relic API key.
 
-</td></tr><tr><td id="d421637e192">
+</td></tr><tr><td id="d420070e192">
 
 **Header Name**
 

@@ -16,5 +16,5 @@ breadcrumb: [Configuring the Patient Portal for Vaccine Administration Managemen
 
 You can set up the process for enabling users to submit their personal information for vaccines on the Patient Portal by using a record producer.
 
-As a user with the sn\_vaccine\_sm.admin role, you can configure what user information is collected by updating the Enter your personal info record producer. You can use the default record producer to add more fields or create your own record producer. For details on how to configure a record producer, see Record Producer.
+As a user with the sn\_vaccine\_sm.admin role, you can configure what user information is collected by updating the Enter your personal info record producer. You can use the default record producer to add more fields or create your own record producer. For details on how to configure a record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 

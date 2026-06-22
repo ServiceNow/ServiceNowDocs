@@ -38,15 +38,15 @@ Currently, mobile instances can only accommodate one published theme at a time.
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d33167e104">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d32635e104">
 
 Option
 
-</th><th align="left" id="d33167e107">
+</th><th align="left" id="d32635e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33167e113">
+</th></tr></thead><tbody><tr><td id="d32635e113">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -57,7 +57,7 @@ Description
 
 **Note:** A confirmation dialog box appears.\[Omitted image "tb-test-theme-dialog-box.png"\] Alt text: Publish the theme dialog box.
 
-</td></tr><tr><td id="d33167e147">
+</td></tr><tr><td id="d32635e147">
 
 **Publish using the List view drag-and-drop feature \(available starting in Xanadu version 4.1\)**
 
@@ -75,7 +75,7 @@ Description
 
     **Note:** After you have published your theme to your instance, the theme is available for selection in the user's Theme preferences. For more information, see [Select a theme in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/select-a-theme-in-next-experience.md).
 
-    If you want to publish a theme to specific mobile applications, you can use . Any themes that are created using Theme Builder are available for applying in .
+    If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/mab-concept.md). Any themes that are created using Theme Builder are available for applying in [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/mab-concept.md).
 
 6.  Select one theme as the default if you have published multiple themes to your web instance.
 
@@ -95,7 +95,7 @@ Description
 
     **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can’t be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
 
-    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using .
+    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/mab-concept.md).
 
 
 -   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/set-the-default-theme.md)**  

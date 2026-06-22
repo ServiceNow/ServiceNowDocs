@@ -32,7 +32,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d55543e95">
+<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d55530e95">
 
 **On**
 
@@ -40,7 +40,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 Displays the current date. Click the arrow to display the calendar and select a different date.
 
-</td></tr><tr><td id="d55543e104">
+</td></tr><tr><td id="d55530e104">
 
 **Show Assigned Tasks**
 
@@ -48,7 +48,7 @@ Displays the current date. Click the arrow to display the calendar and select a 
 
 All assigned tasks are displayed by default. Disable the switch to hide assigned tasks.
 
-</td></tr><tr><td id="d55543e113">
+</td></tr><tr><td id="d55530e113">
 
 **Show My Location**
 
@@ -56,7 +56,7 @@ All assigned tasks are displayed by default. Disable the switch to hide assigned
 
 Displays your current position on the map with the agent location icon. Disable the switch to remove this icon from the map.If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d55543e125">
+</td></tr><tr><td id="d55530e125">
 
 **Show Routing Numbers**
 
@@ -64,7 +64,7 @@ Displays your current position on the map with the agent location icon. Disable 
 
 Displays the routing numbers on tasks dispatched for the date selected in the calendar. Disable the switch to hide the routing numbers.
 
-</td></tr><tr><td id="d55543e134">
+</td></tr><tr><td id="d55530e134">
 
 **Show Unassigned Tasks**
 

@@ -19,7 +19,7 @@ Request a security incident summary or closure notes from the Now Assist panel.
 
 ## Before you begin
 
-See  for how to activate the Now Assist panel.
+See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
 
 Roles required: si\_analyst, si\_manager or sn\_si.basic
 
@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager or sn\_si.basic
 
 4.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon\) in the top banner.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d107494e127">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d107529e128">
 
 Option
 
-</th><th align="left" id="d107494e130">
+</th><th align="left" id="d107529e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107494e136">
+</th></tr></thead><tbody><tr><td id="d107529e137">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d107494e173">
+</td></tr><tr><td id="d107529e174">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d107494e207">
+</td></tr><tr><td id="d107529e208">
 
 **Generate correlation insights**
 

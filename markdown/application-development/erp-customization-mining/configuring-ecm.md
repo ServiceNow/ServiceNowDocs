@@ -43,7 +43,7 @@ You should install ERP Data Hub and add credentials there before you install and
 
 The number of ERP connections you can have per ServiceNow instance depends on your license. If you have the ERP-CM license, you get one connection per instance.
 
-For details on Connections and Credentials, see .
+For details on Connections and Credentials, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 ## Plugins for ERP Customization Mining
 

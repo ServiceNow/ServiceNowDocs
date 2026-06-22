@@ -22,7 +22,7 @@ Stream Connect Message Replication uses a MID Server to run the data replication
 
 ## Enabling a MID Server to replicate data
 
-Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see .
+Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 
 The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
@@ -36,7 +36,7 @@ Stream Connect Message Replication uses a Connection &amp; Credential alias to c
 
 1.  [Create Kafka SSL credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
 2.  [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-kafka-connection.md) to connect to your Kafka environment.
-3.  , to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
+3.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/connection-alias.md), to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
 
 These steps are for configuring a Connection &amp; Credential alias for connecting to Kafka. You don't need to set up connections or credentials for connecting to Hermes, because the MID Server automatically handles the creation of the required keystore, truststore, and certificates.
 

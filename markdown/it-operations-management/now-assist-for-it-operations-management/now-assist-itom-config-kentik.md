@@ -20,7 +20,7 @@ Connect the Kentik analysis AI agent to your Kentik instance to use it in the An
 
 Before configuring the Kentik analysis AI agent, you must do the following:
 
--   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Kentik alerts with Event Management](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2113973).
 -   Copy your Kentik connection URL, API token, and the email address associated with the API token.
 

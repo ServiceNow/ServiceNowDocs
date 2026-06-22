@@ -18,7 +18,7 @@ The LeadtoCashCore script include provides methods to orchestrate a lead-to-cash
 
 The Lead to Cash Core \(com.snd.l2c.core\) plugin must be activated for LeadtoCashCore script includes to be available in an instance. This script include belongs to the sn\_l2c\_core namespace and requires the admin role.
 
-In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See  for more information.
+In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See [Sales and Order Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/lead-to-cash-workflows.md) for more information.
 
 To complete a workflow using the LeadtoCash script include, you pass return parameters from one method to the next. Typically, you call these methods in the following order:
 

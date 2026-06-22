@@ -83,7 +83,7 @@ Class
 
 </td><td>
 
-The name of the assigned class for the OT device.**Note:** For a listing and explanation of CI classes, see Operation Technology \(OT\) extension classes.
+The name of the assigned class for the OT device.**Note:** For a listing and explanation of CI classes, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-operation-technology.md).
 
 </td></tr><tr><td>
 

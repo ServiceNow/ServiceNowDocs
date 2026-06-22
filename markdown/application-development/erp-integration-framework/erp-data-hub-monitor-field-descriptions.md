@@ -114,7 +114,7 @@ Encoded query
 
 Encoded query being used for the specific transaction.
 
- For more information, see .
+ For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 

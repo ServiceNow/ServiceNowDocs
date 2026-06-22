@@ -306,7 +306,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -974,7 +974,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see .
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
 
 </td></tr><tr><td>
 
@@ -1320,7 +1320,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see .
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
 
 </td></tr><tr><td>
 
@@ -1647,7 +1647,7 @@ Default: false
 **Note:**
 
 -   If this parameter is set to true, pay attention to input values, especially date values, as these are interpreted as being supplied via the user time zone preference and are transformed into UTC format.
--   To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on display values and actual values, see [Table API FAQs \(KB0534905\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB0534905). For more information on field encryption see Encryption support.
+-   To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on display values and actual values, see [Table API FAQs \(KB0534905\)](https://support.servicenow.com/kb_view.do?sysparm_article=KB0534905). For more information on field encryption see [Encryption support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
 
 </td></tr><tr><td>
 

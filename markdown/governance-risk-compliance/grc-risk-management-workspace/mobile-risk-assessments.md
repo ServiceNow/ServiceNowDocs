@@ -58,15 +58,15 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
     \[Omitted image "mobile\_risk\_assment\_rcd.jpg"\] Alt text: Assessment record details.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d48885e221">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d48839e221">
 
 Option
 
-</th><th align="left" id="d48885e224">
+</th><th align="left" id="d48839e224">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48885e230">
+</th></tr></thead><tbody><tr><td id="d48839e230">
 
 **Reassign**
 
@@ -74,7 +74,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the assessment.
 
-</td></tr><tr><td id="d48885e245">
+</td></tr><tr><td id="d48839e245">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -14,5 +14,5 @@ breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing]
 
 Reference topics provide additional information about the Service Bridge for Manufacturing Commercial Operations data model and configurations.
 
-For more reference information about Service Bridge, see .
+For more reference information about Service Bridge, see [Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-reference.md).
 

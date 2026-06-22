@@ -44,15 +44,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d522485e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d522320e127">
 
 Action
 
-</th><th align="left" id="d522485e130">
+</th><th align="left" id="d522320e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d522485e136">
+</th></tr></thead><tbody><tr><td id="d522320e136">
 
 **Enter your own message.**
 
@@ -60,7 +60,7 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d522485e145">
+</td></tr><tr><td id="d522320e145">
 
 **Use Response templates to insert predefined content into the email body**
 
@@ -72,7 +72,7 @@ Enter your message in the text box.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d522485e178">
+</td></tr><tr><td id="d522320e178">
 
 **Use Email templates to use predefined template**
 
@@ -82,20 +82,20 @@ Enter your message in the text box.
 -   Select an appropriate response template based on the subject of your email.
 -   Select **Apply Template** to use the template.
 
-**Note:** Only response templates configured for the email channel are available to use. For more information, see Response templates.
+**Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
 
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d522485e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d522320e225">
 
 Action
 
-</th><th align="left" id="d522485e228">
+</th><th align="left" id="d522320e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d522485e234">
+</th></tr></thead><tbody><tr><td id="d522320e234">
 
 **Send the email immediately**
 
@@ -103,7 +103,7 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d522485e246">
+</td></tr><tr><td id="d522320e246">
 
 **Send the email later**
 
@@ -115,7 +115,7 @@ To send the email immediately, select **Send email**.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d522485e278">
+</td></tr><tr><td id="d522320e278">
 
 **Discard the email**
 
@@ -124,7 +124,7 @@ To send the email immediately, select **Send email**.
 To discard the email, select **Discard draft**.
 
 </td></tr></tbody>
-</table>    For more information, see Communicating via email.
+</table>    For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/using-email.md).
 
 
 ## Result
@@ -133,7 +133,7 @@ After the email is sent, it is added to the activity stream on the request form.
 
 To see a list of available default email notifications, go to **All** &gt; **System Notifications** &gt; **Notifications** and search for the **Contracts Support** category.
 
-For more information, see Create an email notification.
+For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md).
 
 **Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

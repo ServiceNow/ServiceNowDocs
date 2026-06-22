@@ -23,7 +23,7 @@ Generated recommended actions are displayed in cards. Up to four references for 
 
 \[Omitted image "sec-ops-recommended-actions-skill.png"\] Alt text: Recommended actions for the selected security incident appear as tiles in the sidebar of Security Incident Response Workspace.
 
-For more information, see .
+For more information, see [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md).
 
 ## Availability
 
@@ -43,7 +43,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td></tr></tbody>
 </table>

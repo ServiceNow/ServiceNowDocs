@@ -34,9 +34,9 @@ There are several functional impacts from setting this property:
 |Security risk rating|7.5|
 |Functional Impact|This remediation enforces timely expiration of user account. No functionality impact, however User experience is altered.|
 |Security risk|\(High\) User sessions being active for indefinite amount of time is a security risk and should expire on a time-based configuration.|
-|References|Manage user sessions|
+|References|[Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/c_ManageUserSessions.md)|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

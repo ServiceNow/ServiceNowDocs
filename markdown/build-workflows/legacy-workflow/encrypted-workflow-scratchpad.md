@@ -135,5 +135,5 @@ After plugin activation, resume all paused workflows. Refer to [Pause and resume
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

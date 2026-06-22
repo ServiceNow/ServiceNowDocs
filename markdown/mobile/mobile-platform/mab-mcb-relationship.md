@@ -34,15 +34,15 @@ When using Mobile App Builder, you can access the Mobile Card Builder to edit ca
 
 2.  Access the Mobile Card Builder within the Mobile App Builder in one of the following ways.
 
-<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d67268e112">
+<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d67305e112">
 
 Location
 
-</th><th align="left" id="d67268e115">
+</th><th align="left" id="d67305e115">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67268e121">
+</th></tr></thead><tbody><tr><td id="d67305e121">
 
 **From the Mobile App Builder home page**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Open Mobile Card Builder** from the home page.
 
-</td></tr><tr><td id="d67268e136">
+</td></tr><tr><td id="d67305e136">
 
 **From the Mobile App Builder Cards and icons menu section**
 
@@ -67,7 +67,7 @@ The card or icon option that you selected is displayed.
 4.  Customize your card or icon by selecting the **Open in Mobile Card Builder** button.
 
 
-</td></tr><tr><td id="d67268e183">
+</td></tr><tr><td id="d67305e183">
 
 **From the Mobile App Builder configuration pane**
 

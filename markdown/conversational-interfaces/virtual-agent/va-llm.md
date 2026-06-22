@@ -51,7 +51,7 @@ Topic switching is faster and easier with LLMs compared to NLU topics. The LLM p
 
 For example, if you start a conversation by asking for a mobile phone, you don't have to cancel the order first or restart the conversation. Instead, you can ask Virtual Agent to order a laptop instead. Virtual Agent immediately switches from the mobile phone topic to the laptop topic. Topic switching can be done during a query, but not within a catalog ordering flow.
 
-Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-small-talk.md) and 
+Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-small-talk.md) and [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md)
 
 ## Additional resources
 

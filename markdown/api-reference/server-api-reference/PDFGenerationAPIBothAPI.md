@@ -1942,7 +1942,7 @@ Applies redaction to a PDF document based on the given rectangle coordinates, se
 
 **Note:**
 
--   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see .
+-   Redaction results might include an unexpected white redacted text block that overwrites text not intended to be redacted. If this event occurs, you can manually select the content for redaction using the **highlightedSections** property or the PDF Generation Utilities plugin. For more information, see [Redact data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/redact-sensitive-data.md).
 -   This method doesn’t support redaction in PDFs containing JBIG2 images.
 
 <table id="table_drx_h3k_34b" class="parameters"><thead><tr><th>

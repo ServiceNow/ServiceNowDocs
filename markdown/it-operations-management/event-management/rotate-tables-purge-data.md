@@ -38,5 +38,5 @@ The Scheduled Jobs feature runs a script to automatically close alerts in the Al
 **Related topics**  
 
 
-[bundle-platadm.c_TableRotation]
+[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_TableRotation.md)
 

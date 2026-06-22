@@ -41,7 +41,7 @@ A default width size cannot be set or does not apply to the following variables:
 
 2.  For each variable type, select a default width.
 
-<table><tbody><tr><td id="d362469e136">
+<table><tbody><tr><td id="d360723e136">
 
 **25%**
 
@@ -49,7 +49,7 @@ A default width size cannot be set or does not apply to the following variables:
 
 Configures the variable to span 25% of the available screen size.
 
-</td></tr><tr><td id="d362469e145">
+</td></tr><tr><td id="d360723e145">
 
 **50%**
 
@@ -57,7 +57,7 @@ Configures the variable to span 25% of the available screen size.
 
 Configures the variable to span 50% of the available screen size. By default, some variables require a minimum of 50% width.
 
-</td></tr><tr><td id="d362469e154">
+</td></tr><tr><td id="d360723e154">
 
 **75%**
 
@@ -65,7 +65,7 @@ Configures the variable to span 50% of the available screen size. By default, so
 
 Configures the variable to span 75% of the available screen size.
 
-</td></tr><tr><td id="d362469e163">
+</td></tr><tr><td id="d360723e163">
 
 **100%**
 

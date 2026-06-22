@@ -88,7 +88,7 @@ Functional Impact
 
 </td><td>
 
-This remediation would change the user experience by automatically logging them out of the instance when their session expires. The session expiration would solely depend on the value set in the system property as detailed in .
+This remediation would change the user experience by automatically logging them out of the instance when their session expires. The session expiration would solely depend on the value set in the system property as detailed in [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ References
 [Remove the Remember me check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see 
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 **Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

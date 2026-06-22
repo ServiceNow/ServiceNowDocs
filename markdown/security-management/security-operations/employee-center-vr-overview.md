@@ -31,5 +31,5 @@ For Exception Rules:
 -   Creation
 -   Extension
 
-These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: Employee Center
+These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 

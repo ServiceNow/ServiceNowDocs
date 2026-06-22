@@ -32,7 +32,7 @@ This procedure is specific to login pages and does not apply if you are using Si
 
 3.  Show welcome text by set the property **glide.ui.polaris.login.show\_welcome** to **true**.
 
-    If this property doesn't exist, add it as a true/false property. For more information, see Add a system property.
+    If this property doesn't exist, add it as a true/false property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 4.  Edit the welcome page text.
 
@@ -40,7 +40,7 @@ This procedure is specific to login pages and does not apply if you are using Si
 
     2.  Add a property that contains the login content you want to display.
 
-        For the syntax of the isLoggedIn\(\) condition, see GlideSession - Global.
+        For the syntax of the isLoggedIn\(\) condition, see [GlideSession - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideSessionAPI.md).
 
 
 **Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/next-experience-theming.md)

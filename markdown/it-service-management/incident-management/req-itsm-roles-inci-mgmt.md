@@ -158,5 +158,5 @@ Several user roles are installed with activation of the ITSM Roles — Incident 
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Xanadu plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

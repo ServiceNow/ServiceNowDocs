@@ -23,7 +23,7 @@ You can install the Field Service Management Virtual Conferencing Integration ap
     -   **Required ServiceNow plugins**
         -   **Notify \(com.snc.notify\)**
 
-            Provides support for SMS and voice channels on the platform. For more information about activating Notify, see Activate Notify.
+            Provides support for SMS and voice channels on the platform. For more information about activating Notify, see [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/t_ActivateNotify.md).
 
 -   Field Service Virtual Conferencing Integration requires the following ServiceNow Store applications. Ensure that these applications are installed before you install Field Service Management Virtual Conferencing Integration.
     -   **Required ServiceNow Store applications to integrate Zoom**

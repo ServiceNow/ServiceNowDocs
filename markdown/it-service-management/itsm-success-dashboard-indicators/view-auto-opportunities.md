@@ -32,7 +32,7 @@ Role required: sn\_sd.success\_dashboard\_details\_read
 
 5.  Select **View in Automation Discovery**.
 
-    For more information on Automation Discovery, refer .
+    For more information on Automation Discovery, refer [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/automation-discovery.md).
 
 
 **Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)

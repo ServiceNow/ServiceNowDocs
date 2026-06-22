@@ -19,7 +19,7 @@ Now Assist for Creator includes a number of skills that can make developing on t
 
 \[Omitted image "na-creator-skill-cards.png"\] Alt text: The Now Assist for Creator skill tiles are shown in the Now Assist Admin Creator workflow.
 
-For more information, see .
+For more information, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 -   **[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-app-generation-skill.md)**  
 App generation enables developers to kick start application building through conversation.

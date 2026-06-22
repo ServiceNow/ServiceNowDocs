@@ -89,7 +89,7 @@ The maximum number of alternate locations that are searched for a vaccination if
     -   Long-term health problem with heart disease, lung disease, asthma, kidney disease, metabolic disease, \(for example, diabetes\), anemia, or other blood disorder \(Yes/No\)
     **Note:** This data is required to book appointments for users. If users book the appointments in the self-service portal, the users provide this information at the time of booking. When a user with the admin role mass-books appointments for users, the data must be imported instead.
 
-    For more information about importing data, see Import sets.
+    For more information about importing data, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
 3.  Navigate to **Vaccine Administration Management** &gt; **Administration** &gt; **Mass Booking Configurations** and click **New**.
 

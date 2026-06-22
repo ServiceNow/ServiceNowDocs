@@ -28,7 +28,7 @@ The ServiceNow® User Experience Analytics application enables you to analyze us
 
 </td></tr><tr><td>
 
-Configure user experience analytics via Service Portal\[Omitted image "bus-sdlc.svg"\] Alt text:Activate User Experience Analytics on a Service Portal and select which users to track analytics for.
+[Configure user experience analytics via Service Portal\[Omitted image "bus-sdlc.svg"\] Alt text:Activate User Experience Analytics on a Service Portal and select which users to track analytics for.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/sp-analytics.md)
 
 </td><td>
 

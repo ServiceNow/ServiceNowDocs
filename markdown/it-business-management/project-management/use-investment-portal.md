@@ -28,15 +28,15 @@ Role required: it\_project\_manager or it\_project\_user
 
 3.  Use the following banner icons.
 
-<table id="choicetable_o5m_qtt_jdb"><thead><tr><th align="left" id="d103022e87">
+<table id="choicetable_o5m_qtt_jdb"><thead><tr><th align="left" id="d102095e87">
 
 Icon
 
-</th><th align="left" id="d103022e90">
+</th><th align="left" id="d102095e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103022e96">
+</th></tr></thead><tbody><tr><td id="d102095e96">
 
 **Home \[Omitted image "HomeIcon.png"\] Alt text: Icon to return to the My Investment Views page**
 
@@ -44,7 +44,7 @@ Description
 
 Return to the My Investment Views page.
 
-</td></tr><tr><td id="d103022e111">
+</td></tr><tr><td id="d102095e111">
 
 **\[Omitted image "investment-portal-dropdown.png"\] Alt text: Investment Portal list**
 
@@ -52,7 +52,7 @@ Return to the My Investment Views page.
 
 Select another board to view its details on Investment Portal.
 
-</td></tr><tr><td id="d103022e126">
+</td></tr><tr><td id="d102095e126">
 
 **Save \[Omitted image "save\_icon.png"\] Alt text: Icon to save the board preferences.**
 
@@ -60,7 +60,7 @@ Select another board to view its details on Investment Portal.
 
 Save your board preferences.
 
-</td></tr><tr><td id="d103022e141">
+</td></tr><tr><td id="d102095e141">
 
 **Bookmark \[Omitted image "bookmark.png"\] Alt text: Icon to bookmark a board**
 
@@ -68,7 +68,7 @@ Save your board preferences.
 
 Add the board to the **Bookmarked** tab on the My Investment Views page.
 
-</td></tr><tr><td id="d103022e160">
+</td></tr><tr><td id="d102095e160">
 
 **Edit \[Omitted image "edit\_investment.png"\] Alt text: Icon to edit the filter criteria of the board**
 
@@ -76,7 +76,7 @@ Add the board to the **Bookmarked** tab on the My Investment Views page.
 
 Edit filter criteria of the board to further refine your list. This option is available to you only if you are the owner of the board.
 
-</td></tr><tr><td id="d103022e175">
+</td></tr><tr><td id="d102095e175">
 
 **Copy \[Omitted image "copy\_investment.png"\] Alt text: Icon to copy the filter criteria of the board**
 
@@ -84,7 +84,7 @@ Edit filter criteria of the board to further refine your list. This option is av
 
 Copy the filter criteria of the board to create another investment board.
 
-</td></tr><tr><td id="d103022e190">
+</td></tr><tr><td id="d102095e190">
 
 **Delete \[Omitted image "delete\_investment.png"\] Alt text: Icon to delete a board**
 
@@ -92,7 +92,7 @@ Copy the filter criteria of the board to create another investment board.
 
 Delete the board if it is no longer needed. This option is available to you only if you are the owner of the board.
 
-</td></tr><tr><td id="d103022e205">
+</td></tr><tr><td id="d102095e205">
 
 **Users/Groups \[Omitted image "share\_users.png"\] Alt text: Icon used to share board with other users and groups**
 
@@ -108,7 +108,7 @@ To share the board with other groups:
 2.  Click **Add groups**.
  **Note:** When you share your board with a group, the only people who can view it are users with the roles it\_project\_user or it\_project\_manager.
 
-</td></tr><tr><td id="d103022e256">
+</td></tr><tr><td id="d102095e256">
 
 **Widget Configuration \[Omitted image "configuration\_investment.png"\] Alt text: Icon used to configure widgets on the investment board**
 
@@ -121,15 +121,15 @@ Configure widgets on the investment board. You can:-   Show or hide widgets on t
 </td></tr></tbody>
 </table>4.  Perform the following actions in the **Overview**, **Timeline**, and **Financials** tabs.
 
-<table id="choicetable_ich_t5v_fdb"><thead><tr><th align="left" id="d103022e304">
+<table id="choicetable_ich_t5v_fdb"><thead><tr><th align="left" id="d102095e304">
 
 Option
 
-</th><th align="left" id="d103022e307">
+</th><th align="left" id="d102095e307">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103022e313">
+</th></tr></thead><tbody><tr><td id="d102095e313">
 
 **To segregate data based on a group-level column**
 
@@ -137,7 +137,7 @@ Description
 
 Drag the column heading to this location\[Omitted image "drag\_area.png"\] Alt text: Icon to segregate data based on a group-level column. This option is available in both the **Overview** and **Financials** tabs.
 
-</td></tr><tr><td id="d103022e334">
+</td></tr><tr><td id="d102095e334">
 
 **To view details of a project**
 
@@ -145,7 +145,7 @@ Drag the column heading to this location\[Omitted image "drag\_area.png"\] Alt t
 
 Right-click the name of the project and click **View Project**. This option is available in the **Overview** tab only.
 
-</td></tr><tr><td id="d103022e349">
+</td></tr><tr><td id="d102095e349">
 
 **To view details of a demand**
 
@@ -153,7 +153,7 @@ Right-click the name of the project and click **View Project**. This option is a
 
 Right-click the name of the demand and click **View Demand**. This option is available in the **Timeline** tab only.
 
-</td></tr><tr><td id="d103022e364">
+</td></tr><tr><td id="d102095e364">
 
 **To view details of a cost plan**
 
@@ -161,7 +161,7 @@ Right-click the name of the demand and click **View Demand**. This option is ava
 
 Right-click the name of the cost plan and click **View Cost Plan**. This option is available in the **Financials** tab only.
 
-</td></tr><tr><td id="d103022e380">
+</td></tr><tr><td id="d102095e380">
 
 **To view Planning tab on the Project Workbench**
 
@@ -169,7 +169,7 @@ Right-click the name of the cost plan and click **View Cost Plan**. This option 
 
 Right-click the name of the project and click **View Planning Console**. This option is available in the **Timeline** tab only.
 
-</td></tr><tr><td id="d103022e395">
+</td></tr><tr><td id="d102095e395">
 
 **To sort records**
 
@@ -177,7 +177,7 @@ Right-click the name of the project and click **View Planning Console**. This op
 
 Click the name of the column header. This option is available in both the **Overview** and **Financials** tabs.
 
-</td></tr><tr><td id="d103022e410">
+</td></tr><tr><td id="d102095e410">
 
 **To pin or apply filter on a column**
 
@@ -185,7 +185,7 @@ Click the name of the column header. This option is available in both the **Over
 
 Use the **Menu** icon over the column. This option is available in both the **Overview** and **Financials** tabs.
 
-</td></tr><tr><td id="d103022e428">
+</td></tr><tr><td id="d102095e428">
 
 **To view details of the grid in a yearly, quarterly, and monthly format**
 
@@ -193,7 +193,7 @@ Use the **Menu** icon over the column. This option is available in both the **Ov
 
 Click the**Year/Quarter/Month** option, which is available in both the **Timeline** and **Financials** tabs.
 
-</td></tr><tr><td id="d103022e446">
+</td></tr><tr><td id="d102095e446">
 
 **To add a column in any tab**
 
@@ -211,7 +211,7 @@ Click the **Configuration** \[Omitted image "configuration\_investment.png"\] Al
     5.  In **Cost Plan**, specify the value to be rendered. This option appears only in the **Financial** tab.
 
 
-</td></tr><tr><td id="d103022e528">
+</td></tr><tr><td id="d102095e528">
 
 **To hide a column from any tab**
 
@@ -221,7 +221,7 @@ Click the **Configuration** \[Omitted image "configuration\_investment.png"\] Al
 2.  Deselect the check box of the column to be hidden.
  **Note:** You can view a CSM column in an Investment Portal board, but you cannot add such columns in the board.
 
-</td></tr><tr><td id="d103022e559">
+</td></tr><tr><td id="d102095e559">
 
 **To reset to the default grid layout**
 
@@ -231,7 +231,7 @@ Click the **Configuration** \[Omitted image "configuration\_investment.png"\] Al
 2.  Click **Reset to defaults**.
 
 
-</td></tr><tr><td id="d103022e589">
+</td></tr><tr><td id="d102095e589">
 
 **To generate an excel report of the investment board**
 

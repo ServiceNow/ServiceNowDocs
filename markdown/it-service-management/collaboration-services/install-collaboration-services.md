@@ -27,11 +27,11 @@ You can install the Collaboration services application \(sn\_tcm\_collab\_hook\)
 
         -   **ServiceNow for Microsoft Teams**
 
-            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see ServiceNow for Microsoft Teams.
+            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
 
         -   **ServiceNow for Zoom**
 
-            If you want to integrate ServiceNow instance with Zoom, for complete information, see ServiceNow for Zoom.
+            If you want to integrate ServiceNow instance with Zoom, for complete information, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/sn_zoomIntegration.md).
 
 
 Role required: admin

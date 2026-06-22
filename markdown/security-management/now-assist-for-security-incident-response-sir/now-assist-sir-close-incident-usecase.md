@@ -21,7 +21,7 @@ The Close security incident use case enables security analysts to close a securi
 
 Using the Close security incident use case, cancel the associated response tasks, generate resolution notes, close notes, close code and post incident analysis \(PIA\) during a security incident closure and provide feedback and adjust content in natural language​ from the Now Assist panel.
 
-If you want to modify this use case, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the use case instead.
+If you want to modify this use case, you can [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and activate the duplicated version of the use case instead.
 
 ## Agent used in Close security incident use case
 

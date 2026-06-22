@@ -34,15 +34,15 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d90032e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d88427e101">
 
 Option
 
-</th><th align="left" id="d90032e104">
+</th><th align="left" id="d88427e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90032e110">
+</th></tr></thead><tbody><tr><td id="d88427e110">
 
 **In the alert list view**
 
@@ -54,7 +54,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d90032e141">
+</td></tr><tr><td id="d88427e141">
 
 **In the alert form**
 

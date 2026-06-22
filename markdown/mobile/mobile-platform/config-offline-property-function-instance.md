@@ -32,15 +32,15 @@ Role required: admin
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d60103e86">
+<table><thead><tr><th align="left" id="d60140e86">
 
 Method
 
-</th><th align="left" id="d60103e89">
+</th><th align="left" id="d60140e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d60103e95">
+</th></tr></thead><tbody><tr><td id="d60140e95">
 
 **From an existing screen**
 
@@ -52,7 +52,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d60103e128">
+</td></tr><tr><td id="d60140e128">
 
 **From the function instance table**
 

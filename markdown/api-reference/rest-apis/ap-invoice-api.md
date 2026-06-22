@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see .
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md).
 
 Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
@@ -322,8 +322,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   
--   
+-   [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md)
+-   [Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)
 
 </td></tr><tr><td>
 
@@ -885,7 +885,7 @@ invoices.erp\_number
 
 </td><td>
 
-Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see .Target field: u\_erp\_number
+Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see [Purchase order integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/purchase-order-integration-2.md).Target field: u\_erp\_number
 
 Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
@@ -1030,8 +1030,8 @@ Maximum length: 40
 
 See also:
 
--   
--   
+-   [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md)
+-   [Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)
 
 </td></tr><tr><td>
 
@@ -1659,7 +1659,7 @@ invoices.target\_erp
 
 </td><td>
 
-ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See .Data type: String
+ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md).Data type: String
 
 </td></tr></tbody>
 </table>### Headers

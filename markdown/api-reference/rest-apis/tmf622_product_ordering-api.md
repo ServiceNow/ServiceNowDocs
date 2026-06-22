@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 149
+reading_time_minutes: 150
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -609,7 +609,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -617,7 +617,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1936,7 +1936,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1944,7 +1944,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3229,7 +3229,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -3237,7 +3237,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4318,7 +4318,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -4326,7 +4326,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -5436,7 +5436,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/previous\_characteristic\_option\_value
 
@@ -5448,7 +5448,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/characteristic\_option\_value
 
@@ -6094,7 +6094,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3055e1600">
+</td><td id="d3021e1602">
 
 Array of objects containing external ids to map to the product inventories created for the order. Data type: Array
 
@@ -6285,7 +6285,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -6293,7 +6293,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -7468,7 +7468,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/previous\_characteristic\_option\_value
 
@@ -7480,7 +7480,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/characteristic\_option\_value
 
@@ -8251,7 +8251,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -8259,7 +8259,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -9541,7 +9541,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/previous\_characteristic\_option\_value
 
@@ -9553,7 +9553,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/characteristic\_option\_value
 
@@ -10387,7 +10387,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -10395,7 +10395,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -12033,7 +12033,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/previous\_characteristic\_option\_value
 
@@ -12045,7 +12045,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/characteristic\_option\_value
 
@@ -12787,7 +12787,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -12795,7 +12795,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 

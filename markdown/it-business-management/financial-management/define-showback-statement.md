@@ -7,7 +7,7 @@ release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

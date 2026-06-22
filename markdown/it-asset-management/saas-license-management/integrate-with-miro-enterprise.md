@@ -256,15 +256,15 @@ If you’re using Software Asset Workspace, the option to create the Miro Enterp
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114016e1051">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114105e1051">
 
 Interface
 
-</th><th align="left" id="d114016e1054">
+</th><th align="left" id="d114105e1054">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114016e1060">
+</th></tr></thead><tbody><tr><td id="d114105e1060">
 
 **Core UI**
 
@@ -275,7 +275,7 @@ Action
 3.  Select **Miro Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d114016e1102">
+</td></tr><tr><td id="d114105e1102">
 
 **Software Asset Workspace**
 

@@ -70,7 +70,7 @@ Each Normal value record specifies how to identify variations of a normal value 
 
 ## Normalized queries
 
-An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, Filters and breadcrumbs using the original \(raw\) value for the normalized field in the query condition.
+An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_UsingFiltersAndBreadcrumbs.md) using the original \(raw\) value for the normalized field in the query condition.
 
 \[Omitted image "NormalizationFilter1.png"\] Alt text:
 
@@ -100,5 +100,5 @@ Coalescence enables an administrator to redirect references to multiple records 
 **Related topics**  
 
 
-[bundle-cadev.c_GlideRecord]
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/p_GlideServerAPIs.md)
 

@@ -53,7 +53,7 @@ Provides APIs and workflow activities for applications to handle various notific
 
 -   **Notify**
 
-    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see Notify.
+    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 
 The following items are installed with Field Service Management Customer Experience:

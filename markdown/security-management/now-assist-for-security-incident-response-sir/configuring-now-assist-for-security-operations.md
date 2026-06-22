@@ -20,9 +20,9 @@ The Now Assist for Security Incident Response application is supported in the Se
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can choose to opt out of a ServiceNow instance from data sharing from the Now Assist Admin console if you don't want to participate. See . Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can choose to opt out of a ServiceNow instance from data sharing from the Now Assist Admin console if you don't want to participate. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md). Repeat the opt-out process for all instances that use the Now Assist functionality.
 
-Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything that you must install the applications and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything that you must install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-na-landing.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -65,7 +65,7 @@ Post-incident analysis generation
 Analyze security operations metrics for your remediation teams and get suggestions for improvement from an AI agent.
 
 </td></tr></tbody>
-</table>1.  .
+</table>1.  [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
     **Note:** The Now Assist for Security Operations application in the ServiceNow® Store and in your ServiceNow AI Platform instance has changed to the Now Assist for Security Incident Response application starting with version 2.0.1.
 

@@ -33,15 +33,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d107486e107">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d107521e107">
 
 Option
 
-</th><th align="left" id="d107486e110">
+</th><th align="left" id="d107521e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107486e116">
+</th></tr></thead><tbody><tr><td id="d107521e116">
 
 **Close the security incident in legacy Core UI16**
 
@@ -62,7 +62,7 @@ The stepper modal is displayed.
 
 The resolution summary is displayed in the Resolution Information section on the security incident record.
 
-</td></tr><tr><td id="d107486e189">
+</td></tr><tr><td id="d107521e189">
 
 **Close the security incident from the Security Incident Response Workspace**
 

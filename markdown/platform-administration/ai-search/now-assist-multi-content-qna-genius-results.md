@@ -69,7 +69,7 @@ Records from tables configured as Knowledge Graph schema nodes
 
 </td><td>
 
-ServiceNow AI Platform records from tables configured as Knowledge Graph schema nodes.**Note:** Content from Knowledge Graph schema nodes is only available in synthesized responses if you've installed the Knowledge Graph ServiceNow® Store application. To learn about installing this application and configuring nodes in Knowledge Graph schemas, see .
+ServiceNow AI Platform records from tables configured as Knowledge Graph schema nodes.**Note:** Content from Knowledge Graph schema nodes is only available in synthesized responses if you've installed the Knowledge Graph ServiceNow® Store application. To learn about installing this application and configuring nodes in Knowledge Graph schemas, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -81,7 +81,7 @@ Enhanced chat results
 
 </td><td>
 
-Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Now Assist Multi-Content Response Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see . For more details on Now Assist in Virtual Agent, see .
+Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Now Assist Multi-Content Response Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -98,7 +98,7 @@ Documents and attachments retrieved from external source systems such as Atlassi
 </td></tr></tbody>
 </table>## Activating Now Assist Multi-Content Response Genius Results
 
-Users with the virtual\_agent\_admin or admin role can activate Now Assist Multi-Content Response Genius Results for the Now Assist in Virtual Agent application's enhanced chat experiences by creating an assistant and assigning the Now Assist Multi-Content Response Genius Results skill to that assistant. To learn about these procedures, see  and .
+Users with the virtual\_agent\_admin or admin role can activate Now Assist Multi-Content Response Genius Results for the Now Assist in Virtual Agent application's enhanced chat experiences by creating an assistant and assigning the Now Assist Multi-Content Response Genius Results skill to that assistant. To learn about these procedures, see [Create an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md) and [Assign Now Assist skills to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/assign-na-skills-assistant.md).
 
 Users with the ais\_admin role can add Now Assist Multi-Content Response Genius Results to search profiles and then link those search profiles to AI Search portals in the AI Search Admin console. For details on configuring search application settings in the AI Search Admin console, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md).
 
@@ -108,7 +108,7 @@ Users with the ais\_admin role can add Now Assist Multi-Content Response Genius 
 
 By default, Now Assist Multi-Content Response Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
 
-With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see .
+With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 As a Now Assist skill, Now Assist Multi-Content Response Genius Results supports these LLMs:
 

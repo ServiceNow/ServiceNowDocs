@@ -18,8 +18,8 @@ Generate a summary of Sidebar discussions between agents, requesters, and subjec
 
 ## Before you begin
 
--   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see .
--   The Sidebar Chat Summarization skill must be enabled. For more information, see .
+-   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
+-   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 
 Role required: itil
 
@@ -35,7 +35,7 @@ You can do these actions by using the Sidebar discussion summarization skill:
 
 You can use Sidebar discussion summarization for any task table that you have enabled Sidebar on.
 
-Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see .
+Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more information, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/sidebar/sidebar-teams-overview.md).
 
 ## Procedure
 
@@ -51,15 +51,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d378467e241">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d378621e244">
 
 Option
 
-</th><th align="left" id="d378467e244">
+</th><th align="left" id="d378621e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d378467e250">
+</th></tr></thead><tbody><tr><td id="d378621e253">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -70,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d378467e277">
+</td></tr><tr><td id="d378621e280">
 
 **Provide feedback for the summary**
 

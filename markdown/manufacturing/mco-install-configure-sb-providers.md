@@ -34,7 +34,7 @@ Install the Service Exchange for Providers application.
 
 </td><td>
 
-See .
+See [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/install-service-bridge-v2-provider.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Migrate from Service Exchange legacy version if required.
 
 </td><td>
 
-See .**Note:** This feature is supported only for Service Exchange 1.x.x versions.
+See [Migrate from Service Exchange \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-migrate.md).**Note:** This feature is supported only for Service Exchange 1.x.x versions.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Set up a new provider record.
 
 </td><td>
 
-See .
+See [Set up a Service Exchange provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-new-provider.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See .
+See [User roles for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-personas.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Create catalog personas.
 
 </td><td>
 
-See .
+See [Create catalog personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-catalog-persona.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Create remote choice definitions.
 
 </td><td>
 
-See 
+See [Create remote choice definitions in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-remote-choice-fld-defs.md)
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Create remote catalog items.
 
 </td><td>
 
-See .
+See [Create remote catalogs in Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-remote-catalog.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Create remote task definitions.
 
 </td><td>
 
-See .
+See [Create remote task definitions in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Create transforms.
 
 </td><td>
 
-See .
+See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-create-transform.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Update Authorized Users settings.
 
 </td><td>
 
-See .
+See [Update settings for Authorized Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-v2-configure-settings.md).
 
 </td></tr></tbody>
 </table>

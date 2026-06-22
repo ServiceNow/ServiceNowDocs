@@ -22,7 +22,7 @@ Consumers added as an additional consumer to the sold product with the Authorize
 
 Internal users added as related parties to the case with the Authorized Representative responsibility can receive all email notifications that are received by the primary contact or consumer of the case.
 
-For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see Create an email notification.
+For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md).
 
 ## Role assignments for authorized representatives
 

@@ -35,7 +35,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
             -   By default, the **Overview** tab is displayed for the tier-1 agents.
             -   When you choose to hide the **Overview** tab for the tier-1 agents, the **Details** tab opens by default.
-            -   This option is available only if the **glide.ux.user\_criteria\_enabled** property is **true**. For more information, see .
+            -   This option is available only if the **glide.ux.user\_criteria\_enabled** property is **true**. For more information, see [Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/enable-user-criteria-property.md).
         -   Summary: Configure the fields layout, UI elements and the visible data content on the Summary section of the **Overview** tab.
         -   Impact: Configure the fields layout, UI elements and the visible data content on the Impact section of the **Overview** tab.
         -   Cause: Configure the fields layout, UI elements and the visible data content on the Cause section of the **Overview** tab.
@@ -44,6 +44,6 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
         -   Record: Provides further details on the incident record. Configure the fields layout, UI elements, and the visible data content of the **Details** tab using form builder.
         -   New record: This layout appears when an agent creates an incident record. Configure the fields layout, UI elements, and the visible data content of the **Details** tab using form builder.
-        For more information about configuring the field layout, UI elements and the visible data content using form builder, see .
+        For more information about configuring the field layout, UI elements and the visible data content using form builder, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/learn-by-example-edit-form-component.md).
 
 

@@ -24,13 +24,13 @@ Role required: admin
 
 ## About this task
 
-You use the Now Assist Admin console to install and configure Now Assist for SGC. The console enables you to install plugins and to configure the generative AI skills. For more information, see .
+You use the Now Assist Admin console to install and configure Now Assist for SGC. The console enables you to install plugins and to configure the generative AI skills. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 ## Procedure
 
-1.  Install the Now Assist for Service Graph Connectors \(sn\_nowassist\_sgc\) plugin as described in .
+1.  Install the Now Assist for Service Graph Connectors \(sn\_nowassist\_sgc\) plugin as described in [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
-2.  Turn on the Now Assist panel .
+2.  Turn on the Now Assist panel [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 
 ## What to do next

@@ -151,15 +151,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft A
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d59609e559">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d59698e559">
 
 Interface
 
-</th><th align="left" id="d59609e562">
+</th><th align="left" id="d59698e562">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d59609e568">
+</th></tr></thead><tbody><tr><td id="d59698e568">
 
 **Core UI**
 
@@ -170,7 +170,7 @@ Action
 3.  Select **Microsoft Azure AD Integration Profile**.
 
 
-</td></tr><tr><td id="d59609e610">
+</td></tr><tr><td id="d59698e610">
 
 **Software Asset Workspace**
 

@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -188,7 +188,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d4998e337">
+</td><td id="d4964e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -347,7 +347,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d4998e405">
+</td><td id="d4964e405">
 
 Channel sys\_id. Data type: String
 
@@ -383,7 +383,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d4998e467">
+</td><td id="d4964e467">
 
 Presence state sys\_id. Data type: String
 
@@ -495,7 +495,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -544,9 +544,9 @@ Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](https://raw.gi
 
 See also:
 
--   Service channel capacity and utilization
--   Create or configure a service channel
--   Configure an agent's maximum universal capacity
+-   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channel-capacity.md)
+-   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-service-channel.md)
+-   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-universal-capacity.md)
 
 ### URL format
 
@@ -661,7 +661,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 
@@ -942,7 +942,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 
@@ -1100,7 +1100,7 @@ Flag that indicates whether to check for inactivity of this presence state.Valid
 
  Default: false
 
- For information on how to modify this setting, see Configure agent presence states.
+ For information on how to modify this setting, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-configure-agent-presence.md).
 
 </td></tr><tr><td>
 
@@ -1389,7 +1389,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/installed-with-awa.md).
 
 </td></tr><tr><td>
 
@@ -1546,7 +1546,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d4998e405">
+</td><td id="d4964e405">
 
 Channel sys\_id. Data type: String
 
@@ -1582,7 +1582,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d4998e467">
+</td><td id="d4964e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1694,7 +1694,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/transfer-chat-queue.md).Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1748,9 +1748,9 @@ Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](https://raw.gi
 
 See also:
 
--   Service channel capacity and utilization
--   Create or configure a service channel
--   Configure an agent's maximum universal capacity
+-   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channel-capacity.md)
+-   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-service-channel.md)
+-   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-universal-capacity.md)
 
 ### URL format
 

@@ -182,7 +182,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -1815,7 +1815,7 @@ attributes
 
 </td><td id="entry-attributes-cmdb">
 
-Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see .
+Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
 
 Data type: Object
 
@@ -3041,7 +3041,7 @@ attributes
 
 </td><td id="entry-attributes-cmdb">
 
-Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see .
+Data attributes to replace in the CI record. The available attributes depend on the specified CMDB class. You can locate the available attributes in the associated CMDB table which typically begins with "cmdb\_ci", such as cmdb\_ci\_linux\_server or cmdb\_ci\_mfp\_printer.For information about attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
 
 Data type: Object
 

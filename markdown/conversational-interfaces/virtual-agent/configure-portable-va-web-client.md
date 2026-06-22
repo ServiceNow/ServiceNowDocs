@@ -18,7 +18,7 @@ Configure the Portable Virtual Agent chat widget to run Virtual Agent on third-p
 
 ## Before you begin
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see .
+**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the sn\_va\_web\_client\_app\_embed page for public access. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/t_MakeAPagePublic.md).
 
 Role required: admin
 
@@ -65,7 +65,7 @@ Source value of the HTTP header directive: `Content-Security-Policy:frame-ancest
 
 
 </td></tr></tbody>
-</table>    For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and Virtual agent embedded client content security policy \(instance security hardening\) in .
+</table>    For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and [Virtual agent embedded client content security policy \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/instance-security-hardening-settings/sc-publicly-exposed-virtual-agent-embedded-web-client.md) in [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
 4.  Return to the System Properties \[sys\_properties\] table to search for the **com.glide.cs.embed.xframe\_options** property by name.
 

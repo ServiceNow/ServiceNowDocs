@@ -64,5 +64,5 @@ Directly reference a service offering as the target of a problem, change, or inc
 
 View and define the service model **Model ID** reference field on the Service and Offering forms to integrate with the CSDM.
 
-When the Service Portfolio Management Premium plugin \(com.snc.spm\) is activated with CSDM is applied, the navigational pane includes the modules **Manage Technical Services** and **Sell and Consume**. Service offerings with associated catalog items are available to view and manage via **Technology Request Catalog** and **Business Request Catalog** within these modules. For complete information about CSDM and how it relates to Service Portfolio Management Premium, refer to .
+When the Service Portfolio Management Premium plugin \(com.snc.spm\) is activated with CSDM is applied, the navigational pane includes the modules **Manage Technical Services** and **Sell and Consume**. Service offerings with associated catalog items are available to view and manage via **Technology Request Catalog** and **Business Request Catalog** within these modules. For complete information about CSDM and how it relates to Service Portfolio Management Premium, refer to [Applying the CSDM guidelines to your product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/use-cases.md).
 

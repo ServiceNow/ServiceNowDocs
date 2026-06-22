@@ -32,7 +32,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d78168e87">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d77636e87">
 
 **Name**
 
@@ -40,7 +40,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d78168e96">
+</td></tr><tr><td id="d77636e96">
 
 **Applies to table**
 
@@ -48,7 +48,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d78168e105">
+</td></tr><tr><td id="d77636e105">
 
 **Queries from table**
 
@@ -56,7 +56,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d78168e114">
+</td></tr><tr><td id="d77636e114">
 
 **Queries with**
 

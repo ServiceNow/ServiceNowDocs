@@ -28,7 +28,7 @@ Role required: email\_client\_admin
 
 2.  Select **glide.ui.enable\_response\_templates** from the list or add **glide.ui.enable\_response\_templates** as a system property.
 
-    For instructions on adding a system property, see Add a system property.
+    For instructions on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Disable response templates by setting the Value field to **false**.
 

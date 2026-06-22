@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Telecommunications, Media, and Technology]
 ---
 
@@ -24,7 +24,7 @@ Case management is an essential component of ServiceNow® Customer Service Manag
 
 You can manage customer requests and issues by creating cases, routing cases to agents and groups, and working toward resolution. With case management, you can provide your agents with the tools they need to evaluate cases, communicate with customers, answer questions, and resolve issues. Case management refers to the business processes and activities designed to evaluate and address customer issues and requests while managing the overall customer experience through effective communication. Case management enables you to engage with customers, categorize and route cases, assign work to agents, and manage cases through resolution and reporting. Case management starts with case creation as customers reach out through a number of communication channels including email, phone, and chat.
 
-See  for more information on configuring Customer Service Management for your business cases.
+See [Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/case-management.md) for more information on configuring Customer Service Management for your business cases.
 
 ### Technology Product Support case type
 
@@ -32,7 +32,7 @@ The Technology Product Support Case application enables technology service provi
 
 The Technology Product Support Case application includes a specialized case type, a record page and playbook experience, and a portal experience that agents and customers can use to report issues and communicate with each other.
 
-See for detailed information regarding this case type available to technology service providers.
+See [Technology Product Support Case application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/tech-product-support-case-app.md)for detailed information regarding this case type available to technology service providers.
 
 ## Customer account management and onboarding for TMT
 
@@ -53,7 +53,7 @@ Account Lifecycle Events features include the following:
 -   **Expansion:** Assist sales and account teams in identifying renewal and expansion opportunities.
 
 
-See  for more information on configuring Account Lifecycle Events for your business cases.
+See [Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing-page.md) for more information on configuring Account Lifecycle Events for your business cases.
 
 ## Multiple instance integration with Service Exchange for TMT
 
@@ -61,7 +61,7 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances which servi
 
 Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance.
 
-See  for more information on configuring Service Exchange for your business cases.
+See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information on configuring Service Exchange for your business cases.
 
 ## Logical and physical network configuration and monitoring for TMT
 
@@ -73,7 +73,7 @@ This workflow enables organizations to maintain an accurate inventory of all net
 
 By integrating with other ServiceNow modules, the Telecommunications Network Inventory workflow ensures that network management activities are aligned with broader IT and business operations. This holistic approach helps in optimizing network performance, reducing downtime, and enhancing the overall quality of service.
 
-See  for more information on configuring Telecommunications Network Inventory for your business cases.
+See [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md) for more information on configuring Telecommunications Network Inventory for your business cases.
 
 ## Sales and order fulfillment for TMT
 
@@ -85,7 +85,7 @@ The platform’s automation capabilities ensure that all sales activities are tr
 
 ServiceNow also provides robust reporting and analytics tools, enabling sales teams to track performance and identify trends. This data-driven approach helps in optimizing sales strategies and improving overall customer satisfaction.
 
-See  for more information on configuring Sales Customer Relationship Management for your business cases.
+See [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-overview.md) for more information on configuring Sales Customer Relationship Management for your business cases.
 
 ## Proactive service experience workflows management for TMT
 
@@ -105,5 +105,5 @@ Proactive service management is key to enhancing customer experiences and preven
 -   Create incident records from certain API clients based on TM Forum TMF621 Rest API standards.
 -   Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.
 
-See  for more information on using Proactive Service Experience Workflows for your business cases.
+See [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md) for more information on using Proactive Service Experience Workflows for your business cases.
 
