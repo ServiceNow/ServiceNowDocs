@@ -20,7 +20,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see Workplace Reservation Management.
+For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -1092,7 +1092,7 @@ Details about the state of the reservation for the location.Data type: Object
 
 result.reservation.location.state.display\_value
 
-</td><td id="d3524e4998">
+</td><td id="d3468e4999">
 
 Display value for the current state of the reservation, such as confirmed.Data type: String
 
@@ -1100,7 +1100,7 @@ Display value for the current state of the reservation, such as confirmed.Data t
 
 result.reservation.location.state.value
 
-</td><td id="d3524e5009">
+</td><td id="d3468e5010">
 
 Internal value for the current state of the reservation, such as 2.Data type: String
 
@@ -2065,7 +2065,7 @@ result.reservation.reservable\_module.​reservable\_quantity\_field
 
 </td><td id="reservation_reservable_module_reservable_quantity_field-reserv-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -3773,7 +3773,7 @@ reservation.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -3802,7 +3802,7 @@ reservation.reservable\_module
 
 </td><td>
 
-Required only for April 2026 store and earlier releases. Not required with May 2026 store and later releases. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation.
+Required only for April 2026 store and earlier releases. Not required with May 2026 store and later releases. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) defines the workplace items needed for a reservation.
 
 Data type: String
 
@@ -3816,7 +3816,7 @@ reservation.shift
 
 Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see Enable shift-based reservation.
+For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Data type: String
 
@@ -4004,7 +4004,7 @@ Format: UTC - yyyy-mm-ddThh:mm:ssZ, such as 2021-02-05T18:00:00Z
 
 result.successfulReservations.sys\_id
 
-</td><td id="d3524e6756">
+</td><td id="d3468e6757">
 
 Sys\_id of the reservation that was created.Data type: String
 

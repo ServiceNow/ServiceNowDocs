@@ -34,7 +34,7 @@ Customer service agents can create a record using a playbook instead of a record
 
  For example, an agent can create a case and gather the necessary information about the customer and the issue as the first activity in the playbook.
 
- For more information about configuring this feature, see Playbook record generator.
+ For more information about configuring this feature, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Playbooks can display the following information in the contextual side panel:
 -   [Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 -   [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
 -   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md)
--   Administering Activity stream for Configurable Workspace
+-   [Administering Activity stream for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/administer-activity-stream-configurable-workspace.md)
 
 </td></tr><tr><td>
 

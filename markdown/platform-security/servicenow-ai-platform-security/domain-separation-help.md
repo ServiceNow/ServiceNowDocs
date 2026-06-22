@@ -61,7 +61,7 @@ Classes
 
 </td><td>
 
-Safe Workplace suite and domain separation
+[Safe Workplace suite and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/domain-separation-safe-workplace.md)
 
  ServiceNow Safe Workplace applications help you reopen your workplaces and support the health and safety of your employees after emergencies and pandemics such as COVID-19. The suite has many applications to help your organization mobilize, recover, and rebuild.
 
@@ -73,7 +73,7 @@ Safe Workplace suite and domain separation
 
 [Setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparationSetup.md)
 
- -   Upgrades
+ -   [Upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ActivateDomainSeparation.md)
 -   [Create a domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_CreateADomain.md)
 -   [Configuration that can be delegated to internal or external customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/ds-before-you-begin.md)

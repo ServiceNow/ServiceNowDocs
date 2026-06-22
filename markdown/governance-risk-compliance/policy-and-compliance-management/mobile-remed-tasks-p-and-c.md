@@ -48,15 +48,15 @@ Edit or assign an unassigned remediation task directly from the list of records.
 
 5.  In the menu that is displayed, choose one to continue.
 
-<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d115288e175">
+<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d115311e175">
 
 Option
 
-</th><th align="left" id="d115288e178">
+</th><th align="left" id="d115311e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115288e184">
+</th></tr></thead><tbody><tr><td id="d115311e184">
 
 **Edit**
 
@@ -66,7 +66,7 @@ In the Extend by days field on the Edit Remediation Task screen that is displaye
 
 Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d115288e208">
+</td></tr><tr><td id="d115311e208">
 
 **Assign**
 
@@ -81,15 +81,15 @@ On the Issue Assignment screen that is displayed, tap the **Assignment Group** a
 
     \[Omitted image "mobile-remed-task-record.jpg"\] Alt text: Remediation task record.
 
-<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d115288e251">
+<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d115311e251">
 
 Option
 
-</th><th align="left" id="d115288e254">
+</th><th align="left" id="d115311e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115288e260">
+</th></tr></thead><tbody><tr><td id="d115311e260">
 
 **Details tab**
 
@@ -104,7 +104,7 @@ Tap the Issue field to expand it. On the Issue screen, a list of records is disp
 -   Navigate back to the record on the Remediation Task screen and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d115288e289">
+</td></tr><tr><td id="d115311e289">
 
 **Activity Stream tab**
 
@@ -114,7 +114,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d115288e319">
+</td></tr><tr><td id="d115311e319">
 
 **Screen icons at the bottom of the screen.**
 

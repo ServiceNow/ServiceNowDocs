@@ -7,7 +7,7 @@ release: australia
 product: Security Operations
 classification: security-operations
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---

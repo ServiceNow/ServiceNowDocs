@@ -34,7 +34,7 @@ The card view only applies to the full Connect Chat page and the end-user view o
 
 4.  In the Create New View dialog, enter `Connect` in the View name field. \[Omitted image "create-new-view.png"\] Alt text: Create new view dialog.
 
-    For more information on creating a form view, see Create and delete views .
+    For more information on creating a form view, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md) .
 
     You cannot remove the Author or the Updated fields from the card regardless of whether they are on the view or not. The card always shows the Short Description field in the top even if it is in a different order in the list.
 

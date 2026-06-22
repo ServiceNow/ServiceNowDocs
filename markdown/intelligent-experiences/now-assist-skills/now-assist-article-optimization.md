@@ -18,5 +18,5 @@ The article optimization skill in ServiceNow AI Platform provides recommendation
 
 Article optimization is a Platform skill that is enabled by the admin from the Knowledge feature card. The skill allows agents and authors to review and use article optimization recommendations to improve the quality and health of their knowledge articles.
 
-For more information, see .
+For more information, see [Review and optimize articles using Article Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/kc-review-and-optimize-articles.md).
 

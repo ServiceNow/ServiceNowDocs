@@ -41,7 +41,7 @@ As part of the Sourcing and Procurement Operations product, the following Virtua
 -   See my procurement cases: View Procurement Case
 -   Get help from procurement: Browse PSM Content
 
-To view just the reusable topic functions, navigate to the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see Reusable topic blocks.
+To view just the reusable topic functions, navigate to the Topics page in Virtual Agent Designer and select the **Topic Blocks** tab. For detailed information, see [Reusable topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 **Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

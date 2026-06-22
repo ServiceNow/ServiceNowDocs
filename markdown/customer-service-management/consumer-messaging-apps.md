@@ -28,8 +28,8 @@ For details, see:
 
 -   [Integrating WhatsApp with Customer Service Management through Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-whatsapp-csm.md)
 -   [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md)
--   
--   
+-   [Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp.md)
+-   [Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
 
 ## Facebook Messenger
 
@@ -38,7 +38,7 @@ Facebook Messenger enables customers to reach support directly through your orga
 For details, see:
 
 -   [Integrating Facebook Messenger with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-fbm-csm.md)
--   
+-   [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm.md)
 
 ## LINE
 
@@ -47,7 +47,7 @@ LINE supports customer conversations through your organization’s LINE account 
 For details, see:
 
 -   [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/messg-integrate-line-csm.md)
--   
+-   [Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line.md)
 
 ## Apple Messages for Business
 
@@ -56,5 +56,5 @@ Apple Messages for Business lets customers initiate support conversations from t
 For details, see:
 
 -   [Integrating Apple Messages for Business with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integrate-amb-with-csm.md)
--   
+-   [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integration-apple-mssg.md)
 

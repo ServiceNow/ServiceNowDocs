@@ -38,7 +38,7 @@ Users benefit from the information that the app generates when asking questions 
 -   `Which table is used for storing flexible key-value pairs for CIs, often from cloud sources, within the CMDB?`
 -   `What is the relationship between a hardware CI and a network adapter?`
 
-For more information, see Working in the Now Assist panel.
+For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 ## Prerequisites
 

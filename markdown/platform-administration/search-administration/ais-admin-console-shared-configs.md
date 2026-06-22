@@ -69,7 +69,7 @@ All Shared Configurations tables use the same controls to manage their entries.
 |-----|-----------|
 |Refresh list \[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.|Button to refresh list of table entries.|
 |List Actions \[Omitted image "list-actions-icon.png"\] Alt text: List actions icon.|Button to open list actions. Select **Edit columns** to add or remove columns from the table. Select **Reset widths** if you have adjusted any column widths.|
-|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see .|
+|Show/Hide Filter panel \[Omitted image "filter-panel-icon.png"\] Alt text: Filter panel icon.|Button to open filter conditions panel. Select the clear input icon \(\[Omitted image "icon-clear-input.png"\] Alt text: Clear input icon.\) next to any defined conditions to remove them. Select **Restore defaults** to reset default filters, or **Advanced view** to define filter conditions. For more information, see [Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/filter-conditions.md).|
 |New|Button to create a record.|
 |Delete|Button to delete records. Select one or more entries before selecting **Delete**|
 

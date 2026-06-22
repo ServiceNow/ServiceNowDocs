@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -25,15 +25,15 @@ Verify the following:
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the Now Assist Skill Kit plugin \(sn\_skill\_builder\).
 -   You have installed the Now Assist for ITOM plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
--   You have activated the Now Assist panel. For more information, see .
+-   You have activated the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 -   You have activated the following assistants:
 
     -   Now Assist - Platform assistant
     -   Now Assist in Virtual Agent
-    For more information, see .
+    For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
--   You have activated Now LLM Service as a provider. For more information, see .
--   You have set up AI Search. For more information, see .
+-   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
+-   You have set up AI Search. For more information, see [AI Search readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/sn-ai-impl-ai-search.md).
 -   You have installed the following Setup Hub applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   Setup Hub \(sn\_ia\)
     -   Setup Hub Common \(sn\_ia\_common\)

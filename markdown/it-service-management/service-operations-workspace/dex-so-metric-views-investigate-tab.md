@@ -20,7 +20,7 @@ The following UI experiences dashboard are supported on the Investigate tab:
 
 -   Default view: The CI metrics are display in default dashboard view on the tab.
 -   Digital End-User Experience \(DEX\) view: The CI metrics are displayed in DEX dashboard view on the tab.
--   Service Observability \(SO\) view: The CI metrics are displayed in SO dashboard view on the tab. For more information, see .
+-   Service Observability \(SO\) view: The CI metrics are displayed in SO dashboard view on the tab. For more information, see [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-overall-service-health.md).
 
 You can navigate to the Investigate **CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table to configure user criteria, CI conditions, and rule order. You may also choose to match CI extensions, including subclasses. These configurations determine which UI experience view appears on the investigate tab when a specific CI class is selected.
 
@@ -46,7 +46,7 @@ For more information on DEX, see [Digital End-User Experience](https://raw.githu
 The Investigate tab displays SO UI experience dashboard, if the selected CI matches the following conditions:
 
 -   CI is cmdb\_ci\_service class.
--   CI is configured with SO data mapping. For more information, see .
+-   CI is configured with SO data mapping. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 -   Matches SO related rule from the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table.
 
 The selected CI is retrieved from the following tables:
@@ -59,7 +59,7 @@ The investigate tab displays SO dashboard containing vendor generated metrics fr
 
 **Note:** The dashboard that appears on the Investigate tab is the same as the **Overview** dashboard in Service Observability. If the service has no data mapping, an empty state is displayed.
 
-For more information on SO, see .
+For more information on SO, see [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/service-observability.md).
 
 **Parent Topic:**[Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/features-of-investigation-tab.md)
 

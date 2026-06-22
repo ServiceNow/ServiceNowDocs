@@ -21,7 +21,7 @@ Available utility methods:
 -   Resolve variables specified in the Dynamic page variables \[sp\_page\_title\_variable\] table associated with a specified Service Portal page located in the Page \[sp\_page\] table.
 -   Other methods
 
-For additional information, see Service Portal pages.
+For additional information, see [Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
@@ -118,7 +118,7 @@ You can add the item name to the URL so it is easier to understand the purpose o
 
 `https://instance_name.servicenow.com/sp/en/apple-iphone-13?id=sc_cat_item&sys_id=ec80c13297968d1021983d1e6253af32&sysparm_catgory=1e80c15697969f1032083d1e6253be15`
 
-Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see .
+Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 <table id="table_dht_dpg_hvb" class="parameters"><thead><tr><th>
 

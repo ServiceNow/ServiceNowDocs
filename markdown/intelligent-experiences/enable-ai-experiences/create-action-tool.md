@@ -23,7 +23,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 Perform these steps before creating a tool:
 
-1.  Create an action in Flow Designer using supported input and output data types. See  to learn more.
+1.  Create an action in Flow Designer using supported input and output data types. See [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action.md) to learn more.
 2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create AI ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/create-ai-acl.md) to learn more.
 3.  Confirm the compatibility status in the staging table. See [Check compatibility of Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/check-compatibility-of-subflow.md) to learn more.
 4.  Register the component as a tool within the MCP Server.

@@ -34,7 +34,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     -   To create a new configuration, click **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d50981e119">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d51232e119">
 
 **Using a metadata descriptor URL**
 
@@ -42,7 +42,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 Click the URL check box and enter the URL of the IdP that you are using.
 
-</td></tr><tr><td id="d50981e128">
+</td></tr><tr><td id="d51232e128">
 
 **Using metadata descriptor XML file**
 
@@ -50,7 +50,7 @@ Click the URL check box and enter the URL of the IdP that you are using.
 
 Click the XML check box and paste in the XML data generated from the IdP you are using.
 
-</td></tr><tr><td id="d50981e137">
+</td></tr><tr><td id="d51232e137">
 
 **Entering metadata manually**
 

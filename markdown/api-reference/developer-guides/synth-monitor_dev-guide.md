@@ -18,7 +18,7 @@ Use Synthetic Monitoring APIs create multiple synthetic monitors in a single ope
 
 This developer guide provides information on how to use the [SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md) to bulk create monitors from Postman or Terminal.
 
-For more information about monitors, see .
+For more information about monitors, see [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md).
 
 ## Import and create synthetic monitors in bulk using API
 

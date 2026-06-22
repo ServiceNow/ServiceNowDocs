@@ -40,7 +40,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the action\_designer and connection\_admin, or admin roles can select an associated Connection alias record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the action\_designer and connection\_admin, or admin roles can select an associated Connection alias record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Enable Retry Policy
 
 </td><td>
 
-Option to enable the retry policy. For more information, see Retry policy.
+Option to enable the retry policy. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
 
 </td></tr><tr><td>
 

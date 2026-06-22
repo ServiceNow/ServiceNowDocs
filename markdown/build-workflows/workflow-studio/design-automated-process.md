@@ -144,7 +144,7 @@ The manual business process for this example consists of the following stages:
 
     6.  Dot-walk to **1.1 Create incident from interaction** &gt; **Incident records**.
 
-    7.  Use the condition builder to add the following condition to your activity:
+    7.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1.1 Create incident from interactions** &gt; **Incident record** &gt; **Assigned to\]**.
 
@@ -190,7 +190,7 @@ The manual business process for this example consists of the following stages:
 
     7.  Dot-walk to **Activities** &gt; **1.1 Create incident from interaction** &gt; **Incident record**.
 
-    8.  Use the condition builder to add the following condition to your activity:
+    8.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 

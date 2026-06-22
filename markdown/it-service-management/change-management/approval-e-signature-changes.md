@@ -31,13 +31,13 @@ You can use e-signatures with any approval mechanism available in Change Managem
 
 By default, Approval with e-Signature supports the Change Request and Standard Change Proposal tables.
 
-For more information, see .
+For more information, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/approval-with-e-signature.md).
 
 ## Requirements
 
 Before you can use e-signatures with change approvals, verify the following requirements:
 
--   The e-signature platform plugin is activated on your instance. For activation instructions, see .
+-   The e-signature platform plugin is activated on your instance. For activation instructions, see [Activate Approval with e-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/activate-approval-esignature.md).
 -   Change approvals are configured for the relevant change models or change types using Flow Designer flows, legacy workflows, or change approval policies.
 -   Approvers have the appropriate roles to approve change requests.
 

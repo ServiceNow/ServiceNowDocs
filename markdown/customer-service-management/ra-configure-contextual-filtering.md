@@ -36,7 +36,7 @@ When preprocessing is implemented, AI Search considers the defined filter condit
 
 2.  In the selected search source, select the **Has Dynamic Filters** check box and select **Save**.
 
-    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see Search Source form.
+    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
 
 3.  Create the AisDynamicFilter implementation for search sources.
 

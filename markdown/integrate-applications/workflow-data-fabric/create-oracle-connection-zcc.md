@@ -97,15 +97,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d655975e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d650686e236">
 
 Option
 
-</th><th align="left" id="d655975e239">
+</th><th align="left" id="d650686e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d655975e245">
+</th></tr></thead><tbody><tr><td id="d650686e245">
 
 **Username / Password**
 
@@ -117,7 +117,7 @@ Option to use basic authentication.
 2.  Enter the database password associated with the username.
 
 
-</td></tr><tr><td id="d655975e266">
+</td></tr><tr><td id="d650686e266">
 
 **OAuth**
 
@@ -134,15 +134,15 @@ Option to use OAuth authentication.
 </td></tr></tbody>
 </table>5.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d655975e305">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d650686e305">
 
 Option
 
-</th><th align="left" id="d655975e308">
+</th><th align="left" id="d650686e308">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d655975e314">
+</th></tr></thead><tbody><tr><td id="d650686e314">
 
 **Default**
 
@@ -150,7 +150,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d655975e325">
+</td></tr><tr><td id="d650686e325">
 
 **mTLS**
 
@@ -161,15 +161,15 @@ Select this option if your data source requires two-way SSL and uses its own cer
 </td></tr></tbody>
 </table>6.  If you selected mTLS, select a keystore type and configure the required certificates.
 
-<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d655975e344">
+<table id="choicetable_zzc_z2h_b3c"><thead><tr><th align="left" id="d650686e344">
 
 Option
 
-</th><th align="left" id="d655975e347">
+</th><th align="left" id="d650686e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d655975e353">
+</th></tr></thead><tbody><tr><td id="d650686e353">
 
 **Keystore - PEM \(secure\)**
 
@@ -204,7 +204,7 @@ and ending with:
 2.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d655975e393">
+</td></tr><tr><td id="d650686e393">
 
 **Keystore - JKS \(secure\)**
 

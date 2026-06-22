@@ -38,19 +38,19 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
 
 3.  Return to the **Details** tab and review the request.
 
-    **Note:** The **Administration** section includes a **Development instance** field. Make sure that the development instance the developer intends to use has been selected. Also, if the user isn’t defined on that instance, a message displays and you must manually add the user to that instance. For more information, see .
+    **Note:** The **Administration** section includes a **Development instance** field. Make sure that the development instance the developer intends to use has been selected. Also, if the user isn’t defined on that instance, a message displays and you must manually add the user to that instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
 4.  Use the **Permission type** list in the Administration section to select one of the following options for provisioning groups to this application.
 
-<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d61978e219">
+<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d61917e220">
 
 Permission type
 
-</th><th align="left" id="d61978e222">
+</th><th align="left" id="d61917e223">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61978e228">
+</th></tr></thead><tbody><tr><td id="d61917e229">
 
 **Select group\(s\)**
 
@@ -62,7 +62,7 @@ Option to give one or more of the following groups permission to develop this ap
 -   Creator Studio Users
 For more information about how to control which groups show up in this list, see [Manage user groups for Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-app-intake-user-groups.md).
 
-</td></tr><tr><td id="d61978e277">
+</td></tr><tr><td id="d61917e278">
 
 **I will manually provision user**
 
@@ -70,7 +70,7 @@ For more information about how to control which groups show up in this list, see
 
 Option to add groups to the application manually.
 
-</td></tr><tr><td id="d61978e286">
+</td></tr><tr><td id="d61917e287">
 
 **Do not give requestor permissions**
 

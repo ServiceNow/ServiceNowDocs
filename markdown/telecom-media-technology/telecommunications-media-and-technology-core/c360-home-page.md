@@ -45,10 +45,10 @@ You can perform the following tasks on this page by selecting an option from the
 
 -   Service Problem Case: See [Create a service problem case from the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-service-problem-case.md).
 -   Case: See [Create a service problem case in the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-a-product-case-from-the-customer-service-portal.md).
--   Customer Order: See .
--   Work Order: See .
--   Complaint Case: See .
--   Invoice Case: See .
+-   Customer Order: See [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-mgt-configuring.md).
+-   Work Order: See [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md).
+-   Complaint Case: See [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md).
+-   Invoice Case: See [Create an invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/invoice-ops-create-invoice-case.md).
 
 **Note:** The options that appear in the **Create** drop down list are based on the tables configured in the Tab tables field in the all tasks card settings. See [All tasks card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/c360-tasks-card.md) for details.
 

@@ -25,7 +25,7 @@ Domain separation is supported for Omnichannel Callback. Domain separation enabl
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 Domain separation enables you to partition your organization's data and administrative control into separate domains. This lets you isolate data and control access to it, which is particularly important in environments where multiple tenants share a common platform.
 
@@ -52,5 +52,5 @@ When domain separation is used, a callback request from guest users is routed to
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

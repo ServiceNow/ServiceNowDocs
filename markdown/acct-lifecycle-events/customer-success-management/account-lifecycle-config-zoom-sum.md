@@ -22,7 +22,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## Procedure
 
-1.  To configure the Zoom spoke, follow the steps listed in Set up the Zoom spoke.
+1.  To configure the Zoom spoke, follow the steps listed in [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
 
     A token is generated for Zoom connectivity.
 
@@ -113,7 +113,7 @@ Name of the webhook registry.
 </td></tr></tbody>
 </table>    \[Omitted image "account-lifecycle-zoom-webhook.jpg"\] Alt text: Zoom webhook registry
 
-    For more details on configuring the webhook, see .
+    For more details on configuring the webhook, see [Set up a bi-directional webhook for Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-zoom-spoke.md).
 
 
 ## Result

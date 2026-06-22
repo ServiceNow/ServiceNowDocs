@@ -28,7 +28,7 @@ All changes go through the same server-side business rules, validation scripts, 
 
 1.  Connect through your MCP client.
 
-    For information on how to connect to an MCP server from an MCP client, refer 
+    For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/connect-mcp-server-client.md)
 
 2.  Type a natural language prompt for the operation you want to perform.
 

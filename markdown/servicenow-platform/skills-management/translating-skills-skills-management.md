@@ -20,7 +20,7 @@ Translate skills and descriptions when you add new skills in Skills Management.
 
 Role required: skill\_admin
 
-Activate the relevant translation plugins. For more information, see .
+Activate the relevant translation plugins. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
 
 ## About this task
 
@@ -44,6 +44,6 @@ Translate skill names and the description using the following fields that suppor
 
     The text in the **Display Skill Name** and **Description** fields are translated.
 
-    For more information on translating custom content, see .
+    For more information on translating custom content, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md).
 
 

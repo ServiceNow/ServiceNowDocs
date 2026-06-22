@@ -21,25 +21,25 @@ This video explains how you can summarize your demand records using Now Assist f
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: it\_demand\_user, it\_demand\_manager
 
-If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see .
+If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## Procedure
 
 1.  Access a demand record in one of the following ways.
 
-<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d87997e118">
+<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d86975e120">
 
 Option
 
-</th><th align="left" id="d87997e121">
+</th><th align="left" id="d86975e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87997e127">
+</th></tr></thead><tbody><tr><td id="d86975e129">
 
 **Demand in Next Experience for Demand Management**
 
@@ -50,7 +50,7 @@ Steps
 3.  Navigate to the **Details** tab.
 
 
-</td></tr><tr><td id="d87997e168">
+</td></tr><tr><td id="d86975e170">
 
 **Demand in classic Demand Management**
 

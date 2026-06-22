@@ -27,7 +27,7 @@ The extension of the Localization Framework capabilities to HR Service Delivery 
 
 -   Publish the translation.
 
-For more information about translating the Document Templates, see Use Localization Framework for Document Templates.
+For more information about translating the Document Templates, see [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/doc-lzt-fm.md).
 
 **Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/exploring-localization-framework.md)
 

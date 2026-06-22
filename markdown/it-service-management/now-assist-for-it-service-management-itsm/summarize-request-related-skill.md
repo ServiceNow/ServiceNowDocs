@@ -49,15 +49,15 @@ These Request Management summarization skills provide you with concise summaries
 
 3.  When you're finished summarizing a record, you can add the summary to your work notes, copy it, or provide feedback.
 
-<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d380869e195">
+<table id="choicetable_h4z_krw_53c"><thead><tr><th align="left" id="d377577e195">
 
 Option
 
-</th><th align="left" id="d380869e198">
+</th><th align="left" id="d377577e198">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d380869e204">
+</th></tr></thead><tbody><tr><td id="d377577e204">
 
 **Add summary to work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d380869e231">
+</td></tr><tr><td id="d377577e231">
 
 **Expand or collapse**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary. Select the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d380869e254">
+</td></tr><tr><td id="d377577e254">
 
 **Provide feedback**
 
@@ -84,7 +84,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d380869e277">
+</td></tr><tr><td id="d377577e277">
 
 **Copy summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d380869e293">
+</td></tr><tr><td id="d377577e293">
 
 **View more information about the summary**
 

@@ -104,7 +104,7 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
     \[Omitted image "view-record-level-sdb.png"\] Alt text: Record-level information on view details breakdown.
 
 
-This level of drill down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See KPI details for more information.
+This level of drill down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See [KPI details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) for more information.
 
 ## View cost saving details in the ITSM Success Dashboard indicators
 

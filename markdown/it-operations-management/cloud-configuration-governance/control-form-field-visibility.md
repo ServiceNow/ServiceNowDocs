@@ -44,15 +44,15 @@ Role required: admin
 
 6.  In the Cloud Variable form, complete any of the following actions.
 
-<table id="choicetable_fwb_rfm_bfb"><thead><tr><th align="left" id="d386632e114">
+<table id="choicetable_fwb_rfm_bfb"><thead><tr><th align="left" id="d384589e114">
 
 To
 
-</th><th align="left" id="d386632e117">
+</th><th align="left" id="d384589e117">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d386632e123">
+</th></tr></thead><tbody><tr><td id="d384589e123">
 
 **Make the field mandatory**
 
@@ -60,7 +60,7 @@ Action
 
 Select the **Mandatory** check box. Clear the check box to make the field optional.
 
-</td></tr><tr><td id="d386632e135">
+</td></tr><tr><td id="d384589e135">
 
 **Make the field read-only**
 
@@ -68,7 +68,7 @@ Select the **Mandatory** check box. Clear the check box to make the field option
 
 Click the **Availability** tab, and then select the **Read Only** check box. Clear the check box to make the field editable.Use this option to automatically populate a value in the field that the user cannot change.
 
-</td></tr><tr><td id="d386632e153">
+</td></tr><tr><td id="d384589e153">
 
 **Show or hide the field**
 
@@ -76,7 +76,7 @@ Click the **Availability** tab, and then select the **Read Only** check box. Cle
 
 Click the **Availability** tab, and then select or clear the **Visible** check box.
 
-</td></tr><tr><td id="d386632e168">
+</td></tr><tr><td id="d384589e168">
 
 **Move the field to another tab**
 
@@ -84,7 +84,7 @@ Click the **Availability** tab, and then select or clear the **Visible** check b
 
 Select a different **Variable set**. **General Info** and **Provision** are provided in the base system, and you can configure additional form UI groups. To add a new tab for organizing fields in the catalog item, see [Create a variable set for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ui-group.md).
 
-</td></tr><tr><td id="d386632e195">
+</td></tr><tr><td id="d384589e195">
 
 **Set a default value**
 
@@ -92,7 +92,7 @@ Select a different **Variable set**. **General Info** and **Provision** are prov
 
 Click the **Default Value** tab and enter the value in **Default value**. If the field is not read-only, users can change the value on the cloud catalog form.Reference fields must use the Sys ID of the record that represents the default value.
 
-</td></tr><tr><td id="d386632e213">
+</td></tr><tr><td id="d384589e213">
 
 **Add help for the user**
 

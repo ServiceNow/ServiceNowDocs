@@ -18,7 +18,7 @@ The Search CMDB agentic workflow enables you to search for CIs by specifying any
 
 ## Before you begin
 
-Confirm that Query Generation skills are activated. For instructions, see .
+Confirm that Query Generation skills are activated. For instructions, see [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/configuring-query-generation.md).
 
 **Note:** Because activation configures a large amount of data, wait one day after activation to use the Search CMDB agentic workflow.
 
@@ -43,22 +43,22 @@ The Search CMDB agentic workflow can perform the following types of search:
 3.  Enter the information that describes the searched-for CIs.
 
     -   Provide as much as you know about the CIs. Ideally provide the class type followed by other search values and conditions. For example, name, IP address, serial number, MAC address, or asset tag.
-    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see .
+    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/query-generation-logs.md).
 4.  Refine the query if Now Assist does not return the CI that you're interested in.
 
     For example, you might have specified an IP address that is duplicated in multiple tables. In such cases, provide details that narrow the search.
 
 5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76655e231">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d75029e233">
 
 Option
 
-</th><th align="left" id="d76655e234">
+</th><th align="left" id="d75029e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d76655e240">
+</th></tr></thead><tbody><tr><td id="d75029e242">
 
 **Provide feedback for the summary**
 
@@ -66,7 +66,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d76655e255">
+</td></tr><tr><td id="d75029e257">
 
 **Copy the summary**
 
@@ -74,7 +74,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d76655e266">
+</td></tr><tr><td id="d75029e268">
 
 **Refresh the summary**
 
@@ -88,7 +88,7 @@ If you think that data might have changed after you viewed the response, select 
 
 If fewer than five search results are returned, they are summarized. If more results are returned, they appear in a linked list \(limited to 100 records\).
 
-To learn more about using the Now Assist panel, see Working in the Now Assist panel.
+To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 **Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

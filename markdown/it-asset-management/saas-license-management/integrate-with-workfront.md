@@ -69,7 +69,7 @@ To create a Workfront integration profile, request the Software Asset Management
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Workfront Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Workfront Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -79,15 +79,15 @@ If you’re using Software Asset Workspace, the option to create the Workfront i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d59521e376">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d47069e377">
 
 Interface
 
-</th><th align="left" id="d59521e379">
+</th><th align="left" id="d47069e380">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d59521e385">
+</th></tr></thead><tbody><tr><td id="d47069e386">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Workfront Integration Profile**.
 
 
-</td></tr><tr><td id="d59521e427">
+</td></tr><tr><td id="d47069e428">
 
 **Software Asset Workspace**
 

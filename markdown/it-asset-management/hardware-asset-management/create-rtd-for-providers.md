@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Service Exchange configuration, Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -18,7 +18,7 @@ As an asset provider, create remote task definitions that trigger the assignment
 
 ## Before you begin
 
-As a provider, you must have created a provider record. For more details, see .
+As a provider, you must have created a provider record. For more details, see [Set up a Service Exchange provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-new-provider.md).
 
 Role required: admin
 
@@ -34,7 +34,7 @@ You receive the details of a Zero Touch Refresh Fulfillment Request from your cu
 
 3.  On the form, fill in the fields.
 
-    For the description of field values, see Remote task definition form.
+    For the description of field values, see [Remote task definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
 4.  Set the **Provider table** and **Customer table** field values to the Zero Touch Refresh Fulfillment Request \[sn\_itam\_ztr\_fulfillment\_req\] table.
 

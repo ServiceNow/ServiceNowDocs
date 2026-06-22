@@ -41,7 +41,7 @@ The following business unit support is available on the Employee Slate portal: H
 For more information on configuring Employee Slate in CBS, see
 
 -   [Employee Slate configuration for CBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-config-cbs.md)
--   
+-   [Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
 
 .
 

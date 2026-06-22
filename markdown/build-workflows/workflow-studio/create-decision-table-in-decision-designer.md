@@ -18,7 +18,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -175,7 +175,7 @@ Default operator
 
 </td><td>
 
-How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see .
+How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr></tbody>
 </table>10. Select **Done**.
@@ -264,7 +264,7 @@ Option to filter the list of reference records in the result column when the res
 
     \[Omitted image "populate-decision-table.png"\] Alt text: Decision table with empty cells
 
-    For more information about operators, see .
+    For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text:\) to the left of the row number, and then select **Open in Decision rule view**.
 

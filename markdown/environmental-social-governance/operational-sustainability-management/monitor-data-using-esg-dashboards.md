@@ -35,7 +35,7 @@ To learn more about creating and using Operational Sustainability Management das
 -   [Share an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/share-an-esg-dashboard.md)
 -   [Delete an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/delete-an-esg-dashboard.md)
 
-For more information on dashboards, see .
+For more information on dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 
 -   **[Create an Operational Sustainability Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-an-esg-dashboard.md)**  
 You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.

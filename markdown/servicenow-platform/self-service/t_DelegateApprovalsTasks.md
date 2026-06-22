@@ -26,7 +26,7 @@ Ensure that the Delegates related list displays on the form. If the Delegates re
 
     \[Omitted image "Additional\_actions\_menu.jpg"\] Alt text: The Additional actions menu highlighted
 
--   Configure the form to add the Delegates related list. For more information, see .
+-   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 ## Procedure
 

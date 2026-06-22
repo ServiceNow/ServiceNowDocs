@@ -82,13 +82,13 @@ Note the following rules when exporting and importing custom ERP models:
 
     6.  Select **Preview Update Set** and check for any errors, such as a collision.
 
-        For detailed information about previewing and resolving issues, see  .
+        For detailed information about previewing and resolving issues, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md) .
 
     7.  When you're finished previewing and have resolved any errors, select **Close**.
 
     8.  Select **Commit update set** to create a local copy.
 
-        For detailed information about the update set commit process, see  .
+        For detailed information about the update set commit process, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md) .
 
     9.  When the local copy is created, select **Close**.
 

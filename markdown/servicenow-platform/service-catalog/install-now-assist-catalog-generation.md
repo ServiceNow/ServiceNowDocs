@@ -48,7 +48,7 @@ Now Assist in Catalog Builder is a capability within the Now Assist for Creator 
 
         **Note:** If the skill isn’t active, select **View details**. Then on the Service Catalog page, turn on the Catalog item generation skill.
 
-        For more information about Now Assist Admin, see .
+        For more information about Now Assist Admin, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 
 ## What to do next

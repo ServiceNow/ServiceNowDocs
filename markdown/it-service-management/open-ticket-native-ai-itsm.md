@@ -40,15 +40,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d174790e121">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d173387e121">
 
 Choice
 
-</th><th align="left" id="d174790e124">
+</th><th align="left" id="d173387e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174790e130">
+</th></tr></thead><tbody><tr><td id="d173387e130">
 
 **If the related content is relevant**
 
@@ -56,7 +56,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d174790e142">
+</td></tr><tr><td id="d173387e142">
 
 **If the related content is not relevant**
 

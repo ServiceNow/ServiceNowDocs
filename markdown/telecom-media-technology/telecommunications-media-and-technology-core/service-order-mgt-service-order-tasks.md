@@ -31,7 +31,7 @@ When you create a manual fallout record, or an automated one is generated, the f
 
 If you create a manual fallout record or an automated one is generated for the order tasks, you can easily review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
-To learn more about order fallout, see .
+To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/fallout-management-overview.md).
 
 ## Procedure
 
@@ -43,13 +43,13 @@ To learn more about order fallout, see .
         -   To view all open order tasks, select **All**.
         -   To view only the tasks that are assigned to you, select **My Tasks**.
     2.  Select the order task that you want to work on.
-    **Note:** You can also directly access the task records for an order from the Orchestration Plan UI. To learn more, see .
+    **Note:** You can also directly access the task records for an order from the Orchestration Plan UI. To learn more, see [Review an order orchestration plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/review-order-fulfillment-orchestration-plan.md).
 
 3.  For each order task, set the status and update the work notes, as required.
 
 4.  On the form, review the order task details and update as needed.
 
-    For information about the field descriptions, see .
+    For information about the field descriptions, see [Order Tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/field-descriptions-order-task-form.md).
 
 5.  When you finish reviewing and updating the order task, or encounter issues preventing its closure, do one of the actions in the following table.
 
@@ -57,7 +57,7 @@ To learn more about order fallout, see .
     |------|-----------|
     |**Save the updated order task**|Select **Save**.|
     |**Delete the order task**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Delete**.|
-    |**Create a fallout record**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see .|
+    |**Create a fallout record**|Select the options icon \[Omitted image "more-options.png"\] Alt text: next to the **Save** button, and then select **Create Fallout**. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/create-manual-order-fallout-record.md).|
 
 
 ## Result

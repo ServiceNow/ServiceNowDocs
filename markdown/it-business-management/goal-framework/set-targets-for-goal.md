@@ -31,15 +31,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d96831e85">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d95809e85">
 
 Option
 
-</th><th align="left" id="d96831e88">
+</th><th align="left" id="d95809e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d96831e94">
+</th></tr></thead><tbody><tr><td id="d95809e94">
 
 **From the Targets related list**
 
@@ -50,7 +50,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d96831e127">
+</td></tr><tr><td id="d95809e127">
 
 **From the Targets module**
 

@@ -34,15 +34,15 @@ As a user with the sn\_si.admin role, you configure these polling intervals on a
 
 2.  Choose one to schedule how and when correlation events are pulled from the &lt;ArcSight&gt; console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d175940e93">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d175979e93">
 
 Option
 
-</th><th align="left" id="d175940e96">
+</th><th align="left" id="d175979e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175940e102">
+</th></tr></thead><tbody><tr><td id="d175979e102">
 
 **-   Ongoing Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -52,7 +52,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the ArcSight ESM server for new correlation events every five minutes. Security incidents are created if correlation events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d175940e129">
+</td></tr><tr><td id="d175979e129">
 
 **-   Ongoing Event Ingestion field cleared
 -   One-Time Retrieval field selected

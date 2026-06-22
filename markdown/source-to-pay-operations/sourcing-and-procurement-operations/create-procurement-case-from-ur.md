@@ -41,11 +41,11 @@ The Universal Request for Source-to-Pay Operations plugin \(sn\_fsc\_ur\_common\
 
 7.  Select **Transfer** to move the Universal Request to a different department.
 
-    For more information, see 
+    For more information, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.md)
 
 8.  Select **Create Associated Ticket** to request assistance from another department while keeping the current procurement case as the primary ticket.
 
-    For more information, see .
+    For more information, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md).
 
     **Note:** If an associated ticket is assigned to a team whose cases are not visible to the employee, the Universal Request does not display ticket updates.
 

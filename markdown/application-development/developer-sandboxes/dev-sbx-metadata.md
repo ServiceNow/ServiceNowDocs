@@ -57,11 +57,11 @@ To view the current table configurations, view `sys_dsb_table_config`. Table con
 
 Records created in a sandbox on a Shared table are immediately available on the base instance and any other sandbox that shares that table. For isolated tables \(Full Copy, Zero Copy, or Partial Copy\), record changes remain isolated to that sandbox. Making a schema change also isolates the table, and any records added after that point are isolated.
 
-To generate synthetic test data, use Now Assist Data Kit. For more information, see .
+To generate synthetic test data, use Now Assist Data Kit. For more information, see [Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 ## Developer Sandboxes and business rules
 
 Business rules are metadata inherited from the base instance. You can see business rules on a sandbox by navigating to **All** &gt; **Administration** &gt; **Business rules**.
 
-Business rules are copied, but isolated. For more information on Business rules, see .
+Business rules are copied, but isolated. For more information on Business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 

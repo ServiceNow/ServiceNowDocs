@@ -36,13 +36,13 @@ Create a country code and add conditions to it so that you can manage, review, o
 
 4.  On the **Details** tab, on the form, fill in the fields.
 
-    To learn more about the fields, see configure a territory phone display rule.
+    To learn more about the fields, see [configure a territory phone display rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ConfigATerritoryPhoneDisplRule.md).
 
 5.  Add the attachments, such as the graphics or documents, by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 6.  Select **Save**
 
-    Related tabs appear next to the **Details** tab. To learn more, see configure a territory phone display rule.
+    Related tabs appear next to the **Details** tab. To learn more, see [configure a territory phone display rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ConfigATerritoryPhoneDisplRule.md).
 
 7.  If you want to delete a country code, navigate to that country code, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\), select **Delete**, and select **OK** when you see the confirmation window.
 

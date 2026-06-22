@@ -18,7 +18,7 @@ This AI skill can help you identify finding types, understand the guardrails tha
 
 ## Before you begin
 
-The Now Assist panel must be activated. For more information, see .
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst admin
 

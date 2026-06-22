@@ -41,8 +41,8 @@ Role required: ui\_builder\_admin
 
 If you want to customize the theme, there are two options:
 
--   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see .
--   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see .
+-   **Theme Builder** enables you to create, edit, manage, and apply Next Experience themes using a friendly visual interface. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configuring-next-experience-with-theme-builder.md).
+-   If you are an admin user comfortable working in style records and JSON code, you can create a custom theme to override the default Polaris style. This option gives you the most control over typefaces, colors, and images \(including the banner and logo\) in a theme. For more information, see [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/config-next-experience-themes-prefs.md).
 
 **Parent Topic:**[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)
 

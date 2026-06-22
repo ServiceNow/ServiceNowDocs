@@ -69,5 +69,5 @@ Role required: sn\_sow\_svcobs.admin
 
 ## What to do next
 
-For detailed instructions about editing dashboards, see .
+For detailed instructions about editing dashboards, see [Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-elements-in-ac.md).
 

@@ -18,7 +18,7 @@ Use the GRC case summarization skill to generate an AI summary of a compliance c
 
 ## Before you begin
 
-**Important:** This skill is turned on by default if you have Now Assist for IRM installed. The skill is automatically available to appropriate role users for the application. For more information, see .
+**Important:** This skill is turned on by default if you have Now Assist for IRM installed. The skill is automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required:
 
@@ -53,15 +53,15 @@ If the **Summarize** option isn’t visible, the skill has to be activated by an
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d268841e191">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d268898e192">
 
 Option
 
-</th><th align="left" id="d268841e194">
+</th><th align="left" id="d268898e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268841e200">
+</th></tr></thead><tbody><tr><td id="d268898e201">
 
 **Edit or save the summary**
 
@@ -73,7 +73,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d268841e238">
+</td></tr><tr><td id="d268898e239">
 
 **View information about the summary**
 
@@ -83,7 +83,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d268841e263">
+</td></tr><tr><td id="d268898e264">
 
 **Expand or collapse the summary card**
 
@@ -93,7 +93,7 @@ Select **View less** to collapse the summary partially, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "164fe1c5eda92aad2befbb60e8509a01e885bcfc.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "6a261d6b6d99f1a5f95b7b28731bb51ed5601259.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d268841e305">
+</td></tr><tr><td id="d268898e306">
 
 **Provide feedback**
 
@@ -103,7 +103,7 @@ Select the helpful icon \(\[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93
 
 **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d268841e336">
+</td></tr><tr><td id="d268898e337">
 
 **Copy the summary**
 
@@ -111,7 +111,7 @@ Select the helpful icon \(\[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93
 
 Select the copy icon \(\[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d268841e354">
+</td></tr><tr><td id="d268898e355">
 
 **Regenerate the summary**
 

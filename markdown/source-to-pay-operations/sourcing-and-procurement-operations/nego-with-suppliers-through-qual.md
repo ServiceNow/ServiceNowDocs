@@ -28,15 +28,15 @@ Ensure that you’ve selected the appropriate sourcing approach. For details, se
 
 2.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d153723e75">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d153753e75">
 
 Decision
 
-</th><th align="left" id="d153723e78">
+</th><th align="left" id="d153753e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d153723e84">
+</th></tr></thead><tbody><tr><td id="d153753e84">
 
 **Create a type of work**
 
@@ -44,7 +44,7 @@ Action
 
 On the Create a type of work pop-up window, select the required case or task, and add it to the sourcing event.
 
-</td></tr><tr><td id="d153723e93">
+</td></tr><tr><td id="d153753e93">
 
 **Complete qualification**
 

@@ -34,15 +34,15 @@ Role required: sn\_cwm.cwm\_user
 
 4.  In the Export dialog, select the Board view that you want to export and the file type.
 
-<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d54311e128">
+<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d53289e128">
 
 Option
 
-</th><th align="left" id="d54311e131">
+</th><th align="left" id="d53289e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54311e137">
+</th></tr></thead><tbody><tr><td id="d53289e137">
 
 **Current board view**
 
@@ -52,7 +52,7 @@ Description
 -   From the File type drop-down list, select **CSV** or **Excel**.
 
 
-</td></tr><tr><td id="d54311e163">
+</td></tr><tr><td id="d53289e163">
 
 **Complete board view**
 

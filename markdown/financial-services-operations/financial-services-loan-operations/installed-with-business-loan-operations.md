@@ -16,7 +16,7 @@ breadcrumb: [Reference, Loan Operations, Banking applications, Financial Service
 
 Several types of components are installed with the installation of the Financial Services Business Loan Operations application, including tables and user roles. The application also installs related plugins and store applications if they aren’t already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -46,7 +46,7 @@ Enables the extension of tables from the Customer Service Management application
 |Financial Services Operations Core|Stores the customer data that is needed to make loan service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
 |Financial Services Credit Operations|Enables the management of Credit service cases and tasks that are used in loan operations workflows. For more information, see [Components installed with Financial Services Credit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-credit-operations/installed-with-credit-assessment.md).|
 |Document Processor|Enables the management of document services tasks that are used in loan operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).|
 
 ## Roles installed
 

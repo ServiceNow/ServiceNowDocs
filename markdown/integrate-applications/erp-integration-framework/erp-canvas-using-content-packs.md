@@ -33,7 +33,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     -   Create the foundation of an app in Creator Studio
     -   
-    -   
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
     1.  Navigate to **All** &gt; **System update sets** &gt; **Local update sets**.

@@ -48,7 +48,7 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55431e153">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55479e153">
 
 **Applicable Tables**
 
@@ -69,7 +69,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet in order to be scanned.
 
 
-</td></tr><tr><td id="d55431e218">
+</td></tr><tr><td id="d55479e218">
 
 **Findings For This Definition**
 
@@ -77,7 +77,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d55431e227">
+</td></tr><tr><td id="d55479e227">
 
 **Resolved Finding Histories**
 
@@ -85,7 +85,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d55431e236">
+</td></tr><tr><td id="d55479e236">
 
 **Scan Engine Suites**
 

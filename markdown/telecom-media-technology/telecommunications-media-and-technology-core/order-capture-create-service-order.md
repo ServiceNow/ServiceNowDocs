@@ -46,15 +46,15 @@ When you directly enter a service order, it creates a service order record in th
 
 3.  Depending on whether you're creating an order for an existing customer account, or first creating a customer account before you create the order, you can select one of the following actions.
 
-<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d31286e147">
+<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d31365e147">
 
  
 
-</th><th align="left" id="d31286e149">
+</th><th align="left" id="d31365e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31286e155">
+</th></tr></thead><tbody><tr><td id="d31365e155">
 
 **Create an order for an existing customer account**
 
@@ -65,13 +65,13 @@ Description
 3.  To create order, select **New**.
 
 
-</td></tr><tr><td id="d31286e199">
+</td></tr><tr><td id="d31365e199">
 
 **Create a customer account before creating the order**
 
 </td><td>
 
-**Note:** Most of the customer accounts in Order Management for Telecommunications, Media, and Technology are existing accounts that have been imported into the ServiceNow AI Platform from external order management systems via APIs. To learn how to create new customer accounts, see Configure accounts and contacts in Customer Service Management \(CSM\).
+**Note:** Most of the customer accounts in Order Management for Telecommunications, Media, and Technology are existing accounts that have been imported into the ServiceNow AI Platform from external order management systems via APIs. To learn how to create new customer accounts, see [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-accounts-contacts.md) in Customer Service Management \(CSM\).
 
 </td></tr></tbody>
 </table>4.  When the Choose an order type dialog appears, select **Order a new service** and select **Create**.

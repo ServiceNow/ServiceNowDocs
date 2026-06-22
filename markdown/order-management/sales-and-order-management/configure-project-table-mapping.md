@@ -57,15 +57,15 @@ The source and target tables in each table map are pre-populated.
 
     **Note:** If Order Management demo data is installed, the **Source Field** and **Target Field** values in the Basic Field Mapping related list display the mapping for demo data. You can use the mapping or change it as needed.
 
-<table id="choicetable_i3m_4wt_xxb"><thead><tr><th align="left" id="d105909e284">
+<table id="choicetable_i3m_4wt_xxb"><thead><tr><th align="left" id="d105990e284">
 
 Option
 
-</th><th align="left" id="d105909e287">
+</th><th align="left" id="d105990e287">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105909e293">
+</th></tr></thead><tbody><tr><td id="d105990e293">
 
 **Define a new field mapping**
 
@@ -82,7 +82,7 @@ For example, select an item such as **work\_notes** from the Order Line Item \[s
 
 In this example, the order line **Short Description** is used as the **Project Name** in SPM.
 
-</td></tr><tr><td id="d105909e354">
+</td></tr><tr><td id="d105990e354">
 
 **Change an existing field mapping**
 

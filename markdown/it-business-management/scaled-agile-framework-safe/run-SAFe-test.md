@@ -40,15 +40,15 @@ Role required: safe\_scrum\_user or safe\_admin
 
 8.  In the Test Execution pop-up, mark a step as passed, failed, or blocked using the following icons.
 
-<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d76342e125">
+<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d75320e125">
 
 Icon
 
-</th><th align="left" id="d76342e128">
+</th><th align="left" id="d75320e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76342e134">
+</th></tr></thead><tbody><tr><td id="d75320e134">
 
 **\[Omitted image "passed.png"\] Alt text: Icon to indicate a step as passed**
 
@@ -56,7 +56,7 @@ Description
 
 Passed.
 
-</td></tr><tr><td id="d76342e149">
+</td></tr><tr><td id="d75320e149">
 
 **\[Omitted image "failed.png"\] Alt text: Icon to indicate a step as failed**
 
@@ -64,7 +64,7 @@ Passed.
 
 Failed. In this state, options to add comments and attachments are available. Option to delete attachments is also available.
 
-</td></tr><tr><td id="d76342e164">
+</td></tr><tr><td id="d75320e164">
 
 **\[Omitted image "blocked.png"\] Alt text: Icon to indicate a step as blocked**
 

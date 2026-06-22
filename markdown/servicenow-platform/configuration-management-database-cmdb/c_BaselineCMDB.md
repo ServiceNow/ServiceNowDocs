@@ -86,12 +86,12 @@ Changes are displayed only for the cmdb\_ci table and child tables. You can chan
 To improve performance and prevent memory issues when showing large amounts of baseline differences data on CI forms, complete the following steps:
 
 1.  Set the system property **com.cmdb.baseline.entry.attachment** to true.
-2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see .
+2.  Manually run once the **CMDB Baseline convert XML to attachment** fix script. For information about running a fix script, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/t_RunFixScripts.md).
 
 **Related topics**  
 
 
-[bundle-psec.c_HistoryTimeline]
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_HistoryTimeline.md)
 
 ## Properties for baseline CMDB
 
@@ -131,7 +131,7 @@ Lets you manually run the **CMDB Baseline convert XML to attachment** fix script
 
  -   Type: true \| false
 -   Default value: false
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   Learn more: [Baseline CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_BaselineCMDB.md)
 
 </td></tr></tbody>

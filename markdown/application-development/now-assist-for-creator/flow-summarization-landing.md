@@ -30,7 +30,7 @@ Summarize a flow with Now Assist
 
 </td></tr><tr><td>
 
-Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow summary
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-flow.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Code reference, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---

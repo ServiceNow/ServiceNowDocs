@@ -17,7 +17,7 @@ breadcrumb: [Now Assist in Virtual Agent, Exploring Now Assist, Now Assist for M
 
 Learn how the Now Assist AI agents can be integrated into Virtual Agent on your mobile app to help your organization improve live agent productivity by using AI agents to perform tasks.
 
-AI agents simulate human-like intelligence to handle various tasks ranging from automated responses to complex problem solving. For additional information including configuration, see .
+AI agents simulate human-like intelligence to handle various tasks ranging from automated responses to complex problem solving. For additional information including configuration, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md).
 
 \[Omitted image "na-va-ai-agents.png"\] Alt text: now assist generating a resolution plan for a record
 

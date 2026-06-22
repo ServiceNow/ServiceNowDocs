@@ -84,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[bundle-psec.now-assist-guardian]
+[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/now-assist-guardian.md)
 

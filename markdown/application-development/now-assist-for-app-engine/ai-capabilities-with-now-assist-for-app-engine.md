@@ -35,7 +35,7 @@ There are several important components of a skill.
 -   The prompt is the instruction to the underlying large language model \(LLM\) that tells the skill what to do with the input. Prompts define the task, tone, and structure of the output.
 -   The output is the generated response from the LLM based on the prompt and input. Outputs can be plain text, structured data, or even formatted responses depending on how the skill is configured.
 
-Skills also contain activation methods, which define how the skill can be accessed on the ServiceNow AI Platform. Skills can be called conversationally in the Now Assist panel, through UI actions such as buttons, and through conversations with Virtual Agent. To learn more about activating skills, see .
+Skills also contain activation methods, which define how the skill can be accessed on the ServiceNow AI Platform. Skills can be called conversationally in the Now Assist panel, through UI actions such as buttons, and through conversations with Virtual Agent. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
 **Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
 
@@ -73,7 +73,7 @@ Must be duplicated and reconfigured significantly for use within custom apps
 
 </td><td>
 
-
+[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 
 </td></tr><tr><td>
 
@@ -89,8 +89,8 @@ Can be designed to work within custom apps during the creation process, when you
 
 </td><td>
 
--   
--   
+-   [General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)
+-   [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
 </td></tr></tbody>
 </table>## Now Assist for App Engine custom app record summarization skill
@@ -109,7 +109,7 @@ There are several important components of an AI agent.
 -   The trigger defines how the AI agent is activated.
 -   The availability determines how your AI agent is displayed, either in the Now Assist panel or Virtual Agent.
 
-For more information about AI agents, see .
+For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md).
 
 ## Agentic workflows
 
@@ -117,7 +117,7 @@ An agentic workflow contains a set of large language model \(LLM\) instructions 
 
 An agentic workflow is controlled by an AI Agent Orchestrator that coordinates the flow of work between AI agents. Additionally, an AI Agent Communicator helps to facilitate communication between the AI Agent Orchestrator and AI agents in the workflow.
 
-For more information about agentic workflows, see .
+For more information about agentic workflows, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/gg-creating-aia.md).
 
 ## Now Assist AI agents, Platform agentic workflows, and custom AI agents and agentic workflows
 
@@ -153,8 +153,8 @@ Must be duplicated and modified significantly for use in custom applications
 
 </td><td>
 
--   
--   
+-   [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/exploring-ai-agents.md)
+-   [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-use-cases.md)
 
 </td></tr><tr><td>
 
@@ -170,9 +170,9 @@ Can be designed to work within custom apps during the creation process, when you
 
 </td><td>
 
--   
--   
--   
+-   [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/gg-creating-aia.md)
+-   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md)
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md)
 
 </td></tr></tbody>
 </table>

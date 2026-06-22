@@ -7,7 +7,7 @@ release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 ## Procedure
 
-1.  Activate or upgrade to SAML 2.0 with the Activate Multi-Provider SSO plugin.
+1.  Activate or upgrade to SAML 2.0 with the [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateMultipleProviderSSO.md).
 
 2.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/activate-approval-esignature.md).
 
@@ -36,7 +36,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 4.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d331846e110">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d330180e110">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -44,7 +44,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d331846e119">
+</td></tr><tr><td id="d330180e119">
 
 **Assertion Consumer Index for eSignature authentication**
 
@@ -52,7 +52,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 If your Service Provider has more than one URL set for the AssertionConsumerURL, you can set the index to use for eSignature, starting with index 1 or more.
 
-</td></tr><tr><td id="d331846e131">
+</td></tr><tr><td id="d330180e131">
 
 **AuthnRequest URL for eSignature Authentication**
 
@@ -60,7 +60,7 @@ If your Service Provider has more than one URL set for the AssertionConsumerURL,
 
 You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSignature authentication. If the URL is the same as the Assertion Consumer URL, you can leave this setting empty.
 
-</td></tr><tr><td id="d331846e140">
+</td></tr><tr><td id="d330180e140">
 
 **Authentication pop-up Dialog Width**
 
@@ -68,7 +68,7 @@ You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSign
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 500.
 
-</td></tr><tr><td id="d331846e149">
+</td></tr><tr><td id="d330180e149">
 
 **Authentication pop-up Dialog Height**
 

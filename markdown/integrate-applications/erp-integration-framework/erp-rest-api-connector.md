@@ -23,18 +23,18 @@ REST APIs can be used to access business data from ERP \(Enterprise Resource Pla
 
 ## Configure REST service connections
 
-REST connections use the HTTP connection template. For more information, see .
+REST connections use the HTTP connection template. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 ## Authenticate securely
 
 The connector supports the following authentication options:
 
--   Basic Auth: A username and password \(Base64-encoded\). For more information, see Basic authentication credential.
--   JWT \(JSON Web Token\): A bearer token authentication. For more information, see .
--   API Key: A key passed as a header or query parameter. For more information, see  .
--   OAuth 2.0: A token authentication with automatic token refresh. For more information, see .
+-   Basic Auth: A username and password \(Base64-encoded\). For more information, see [Basic authentication credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+-   JWT \(JSON Web Token\): A bearer token authentication. For more information, see [JWT Bearer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/jwt-bearer.md).
+-   API Key: A key passed as a header or query parameter. For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md) .
+-   OAuth 2.0: A token authentication with automatic token refresh. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ManageTokens.md).
 
-ServiceNow Vault stores credentials securely. For more information, see .
+ServiceNow Vault stores credentials securely. For more information, see [Exploring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/exploring-servicenow-vault.md).
 
 The system validates that the configured credential type matches one of the authentication schemes defined in the API specification before allowing execution.
 
@@ -51,7 +51,7 @@ After you import a REST service, use the Model Manager to define entities and ma
 
 ## MID Server Support
 
-If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a midServerName property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see .
+If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a midServerName property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 ## REST API connector tables
 

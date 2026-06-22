@@ -21,7 +21,7 @@ Use consumer account context values to define where Virtual Agent messages are d
 
 Define values for portal consumer contexts. For more information, see [Set NLU portal consumer context values for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_set-portal-consumer-context-values-multiple-active-conversations.md).
 
-Configure context values that align Virtual Agent and your portals. See  for more information.
+Configure context values that align Virtual Agent and your portals. See [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md) for more information.
 
 Role required: virtual\_agent\_admin or admin.
 

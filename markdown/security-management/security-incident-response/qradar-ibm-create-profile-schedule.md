@@ -36,15 +36,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated o
 
 2.  Choose one to schedule how and when offenses are pulled from the IBM QRadar console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d244992e87">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d245031e87">
 
 Option
 
-</th><th align="left" id="d244992e90">
+</th><th align="left" id="d245031e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244992e96">
+</th></tr></thead><tbody><tr><td id="d245031e96">
 
 **__Ongoing offense ingestion field selected__**
 
@@ -52,7 +52,7 @@ Description
 
 On-going OffenseBased on the default setting, the ServiceNow AI Platform instance pulls from the IBM QRadar server for new and updated offenses every five minutes. Security incidents are created if offenses are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d244992e117">
+</td></tr><tr><td id="d245031e117">
 
 **-   Ongoing offense ingestion selected
 -   Set initial offense ingestion time
@@ -72,7 +72,7 @@ Initial ingestion timeIf you want to schedule the initial ingestion at a specifi
 
  The initial ingestion will take place at 4:05 am. The subsequent ingestions will be based on the polling interval. In this case, since the Polling increment is 24 hours, the next ingestion will take place on the next day at 4:05 am.
 
-</td></tr><tr><td id="d244992e170">
+</td></tr><tr><td id="d245031e170">
 
 **One Time Retrieval field selected**
 

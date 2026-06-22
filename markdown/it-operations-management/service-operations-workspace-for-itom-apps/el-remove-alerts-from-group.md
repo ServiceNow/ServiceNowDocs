@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can remove alerts from a group regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d194991e94">
+<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d192918e94">
 
 Location
 
-</th><th align="left" id="d194991e97">
+</th><th align="left" id="d192918e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194991e103">
+</th></tr></thead><tbody><tr><td id="d192918e103">
 
 **The Express List pane**
 
@@ -52,7 +52,7 @@ Action
 
 **Note:** When you are trying to remove the only secondary alert from an alert group, thereby ungrouping the group, a message displays that enables you to undo the action.
 
-</td></tr><tr><td id="d194991e141">
+</td></tr><tr><td id="d192918e141">
 
 **The Express List preview panel for a group of alerts**
 

@@ -7,7 +7,7 @@ release: australia
 product: Impact
 classification: impact
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Impact operating model, Exploring Impact, Impact]
 ---

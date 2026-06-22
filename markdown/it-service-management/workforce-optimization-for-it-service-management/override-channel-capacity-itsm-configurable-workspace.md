@@ -22,7 +22,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
 
 ## About this task
 
-By default, the override capacity is valid for 12 hours. Administrator can change the duration using the **sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** system property. For information on adding a system property, see Add a system property. The capacity resets to the previous value after the specified time. The scheduled job **Reset Temporary Capacity Override** is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value.
+By default, the override capacity is valid for 12 hours. Administrator can change the duration using the **sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** system property. For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md). The capacity resets to the previous value after the specified time. The scheduled job **Reset Temporary Capacity Override** is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value.
 
 **Note:** You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
 
@@ -32,15 +32,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d218550e87">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d216981e87">
 
 To set the override capacity
 
-</th><th align="left" id="d218550e90">
+</th><th align="left" id="d216981e90">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d218550e96">
+</th></tr></thead><tbody><tr><td id="d216981e96">
 
 **From Channels**
 
@@ -51,7 +51,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d218550e120">
+</td></tr><tr><td id="d216981e120">
 
 **From Teams**
 

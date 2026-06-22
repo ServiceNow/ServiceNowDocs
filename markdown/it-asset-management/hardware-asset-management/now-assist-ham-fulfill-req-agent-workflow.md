@@ -19,7 +19,7 @@ Use the Help manage hardware asset requests agentic workflow, driven by AI agent
 
 Agentic AI for Hardware Asset Management 
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 ## Help manage hardware asset requests agentic workflow overview
 
@@ -178,7 +178,7 @@ Link a vendor catalog item to the product model
 
 Refer to the information provided here on the AI agents related to the Help manage hardware asset requests agentic workflow.
 
-To modify the Help manage hardware asset request agentic workflow duplicate it, and adjust the settings according to your requirements.
+To modify the Help manage hardware asset request agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 

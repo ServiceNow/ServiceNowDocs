@@ -44,7 +44,7 @@ You can read and respond to large emails easily in a full screen which opens up 
 **Related topics**  
 
 
-[bundle-platadm.c_ActivityFormatter]
+[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ActivityFormatter.md)
 
-[bundle-platadm.c_EmailProperties]
+[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailProperties.md)
 

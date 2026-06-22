@@ -36,7 +36,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d253117e110">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d251059e110">
 
 **Option**
 
@@ -44,7 +44,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Description
 
-</td></tr><tr><td id="d253117e119">
+</td></tr><tr><td id="d251059e119">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d253117e131">
+</td></tr><tr><td id="d251059e131">
 
 **In the __Details__ tab of incident form**
 

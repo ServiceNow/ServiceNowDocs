@@ -20,8 +20,8 @@ Follow these steps to enable the Mobile AI Voice Agent feature for your mobile a
 
 Role required: admin
 
--   Make sure that Now Assist is enabled in the instance. For more information, see .
--   Ensure you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist Voice assistant created in Assistant Designer. For more information, see .
+-   Make sure that Now Assist is enabled in the instance. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+-   Ensure you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist Voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Role required: admin
 
 13. Navigate to Assistant Designer to assign your voice function instance to a Now Assist voice assistant.
 
-    For steps on how to configure your function with a voice assistant, see .
+    For steps on how to configure your function with a voice assistant, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
 
 **Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/configuring-now-assist-mobile.md)

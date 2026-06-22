@@ -44,7 +44,7 @@ Build the foundation
 
 </td><td>
 
-
+[Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ Enhance the experience
 
 </td><td>
 
-
+[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Service Level Management \(SLM\) helps to gather service requirements and monito
 
 </td><td>
 
-
+[Roles installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md)
 
 </td><td>
 
@@ -87,7 +87,7 @@ Enhance the experience
 
 </td><td>
 
-CSDM and the CMDB Data Foundations Dashboards
+[CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)
 
 </td><td>
 
@@ -107,7 +107,7 @@ Enhance the experience
 
 </td><td>
 
-
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
 
 </td><td>
 
@@ -129,7 +129,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 
 </td><td>
 
@@ -137,7 +137,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-Roles installed with Service Mapping
+[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -150,7 +150,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
 
 </td><td>
 
@@ -172,7 +172,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
 
 </td><td>
 
@@ -184,7 +184,7 @@ Uses bases system roles. See [Base system roles](https://raw.githubusercontent.c
 
 </td><td>
 
--   Incident Management limitations and support
+-   [Incident Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Automate change and incident management Playbook](https://www.servicenow.com/success/playbook/change-and-incident-management.html)
 -   [Incident Management Overview \(video\)](https://youtu.be/ryxjWBOq3sQ)
 
@@ -194,7 +194,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 
 </td><td>
 
@@ -202,11 +202,11 @@ Knowledge Management \(KM\) enables the sharing of information in knowledge base
 
 </td><td>
 
-Roles installed with Knowledge Management
+[Roles installed with Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/Installed-with-km-core.md#section_wly_yyh_wdb)
 
 </td><td>
 
--   Knowledge Management limitations and support
+-   [Knowledge Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/exploring-knowledge-management.md)
 -   [Knowledge Management Quick Start Guide \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management-articles/servicenow-knowledge-management-quick-start-guide/ta-p/2533067)
 
 </td></tr><tr><td>
@@ -215,7 +215,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagement.md)
 
 </td><td>
 
@@ -235,7 +235,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
 
 </td><td>
 
@@ -243,7 +243,7 @@ Service Catalog provides self-service opportunities for customers to request cat
 
 </td><td>
 
-Roles installed with Service Catalog
+[Roles installed with Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogManagementTermsandRoles.md#table_tqt_b5t_hp)
 
 </td><td>
 
@@ -255,7 +255,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
 
 </td><td>
 
@@ -263,7 +263,7 @@ Service Operations Workspace is a configurable workspace that provides a unified
 
 </td><td>
 
-Roles installed with Service Operations Workspace for ITSM
+[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-with-sow.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -275,7 +275,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md)
 
 </td><td>
 
@@ -283,7 +283,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-Roles installed with Certificate Inventory and Management
+[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
 
 </td><td>
 
@@ -295,7 +295,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-reporting.md)
 
 </td><td>
 
@@ -303,7 +303,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-Roles installed with Firewall Audits and Reporting
+[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
 
 </td><td>
 
@@ -315,7 +315,7 @@ Add advanced features
 
 </td><td>
 
-
+[Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-landing.md)
 
 </td><td>
 
@@ -323,7 +323,7 @@ Digital Portfolio Management \(DPM\) manages and maintains all your services, ap
 
 </td><td>
 
-Roles installed with Digital Portfolio Management
+[Roles installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-roles.md)
 
 </td><td>
 
@@ -336,7 +336,7 @@ Add advanced features
 
 </td><td>
 
-
+[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md)
 
 </td><td>
 
@@ -344,7 +344,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-Roles installed with Health Log Analytics
+[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-components.md#section_okx_gk3_2nb)
 
 </td><td>
 

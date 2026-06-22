@@ -30,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d48335e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d47313e86">
 
 Option
 
-</th><th align="left" id="d48335e89">
+</th><th align="left" id="d47313e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d48335e95">
+</th></tr></thead><tbody><tr><td id="d47313e95">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d48335e122">
+</td></tr><tr><td id="d47313e122">
 
 **From a related list**
 

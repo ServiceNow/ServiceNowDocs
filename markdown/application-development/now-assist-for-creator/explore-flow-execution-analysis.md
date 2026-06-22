@@ -30,7 +30,7 @@ Enable flow execution analysis to gain these benefits.
 
 ## Supported LLMs
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 ## Flow analysis
 
@@ -52,7 +52,7 @@ You can regenerate a flow execution analysis from the Analysis sidebar.
 
 ## Flow reporting requirements
 
-Flow execution analysis requires flow execution details to analyze. When flow reporting is on, you can analyze any flow using information from its flow execution details. When flow reporting is off, you can only analyze flows that are in an error state using information from the flow context record. For more information about setting flow reporting, see .
+Flow execution analysis requires flow execution details to analyze. When flow reporting is on, you can analyze any flow using information from its flow execution details. When flow reporting is off, you can only analyze flows that are in an error state using information from the flow context record. For more information about setting flow reporting, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md).
 
 ## AI limitations
 

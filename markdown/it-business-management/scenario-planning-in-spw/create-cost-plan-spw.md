@@ -28,15 +28,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Select the **Financials** tab.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d203149e77">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d202187e77">
 
 Choice
 
-</th><th align="left" id="d203149e80">
+</th><th align="left" id="d202187e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203149e86">
+</th></tr></thead><tbody><tr><td id="d202187e86">
 
 **To create a cost plan**
 
@@ -53,7 +53,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d203149e136">
+</td></tr><tr><td id="d202187e136">
 
 **To edit a cost plan**
 
@@ -64,7 +64,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use Tab key to navigate to next fiscal period and continue editing.
 
-</td></tr><tr><td id="d203149e161">
+</td></tr><tr><td id="d202187e161">
 
 **To delete a cost plan**
 

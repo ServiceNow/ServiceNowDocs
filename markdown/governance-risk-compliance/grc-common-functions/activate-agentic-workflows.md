@@ -67,7 +67,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
     6.  Select **Start test** to initiate the testing of the agentic workflow.
 
-7.  Turn on the Now Assist panel.
+7.  [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 
 ## Result

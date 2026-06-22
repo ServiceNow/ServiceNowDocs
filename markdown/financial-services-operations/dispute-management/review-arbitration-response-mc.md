@@ -63,15 +63,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d38742e289">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d38506e289">
 
 Selection
 
-</th><th align="left" id="d38742e292">
+</th><th align="left" id="d38506e292">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d38742e298">
+</th></tr></thead><tbody><tr><td id="d38506e298">
 
 **Unresolved**
 
@@ -81,7 +81,7 @@ Select this option if you are not happy with the arbitration response from Maste
 
 For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d38742e323">
+</td></tr><tr><td id="d38506e323">
 
 **Resolved**
 

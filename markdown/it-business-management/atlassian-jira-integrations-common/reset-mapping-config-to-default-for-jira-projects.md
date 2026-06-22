@@ -35,15 +35,15 @@ If you've cleared the **Mapping Config** field or deleted the existing table map
 
 3.  Reset the mappings of multiple Jira projects using one of the following ways.
 
-<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d77213e102">
+<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d76191e102">
 
 Choice
 
-</th><th align="left" id="d77213e105">
+</th><th align="left" id="d76191e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d77213e111">
+</th></tr></thead><tbody><tr><td id="d76191e111">
 
 **Reset mappings for a single project**
 
@@ -53,7 +53,7 @@ Action
 2.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77213e132">
+</td></tr><tr><td id="d76191e132">
 
 **Reset mappings of multiple projects that belong to different project styles**
 
@@ -64,7 +64,7 @@ Action
 3.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77213e159">
+</td></tr><tr><td id="d76191e159">
 
 **Reset mappings of multiple projects that belong to the same project style**
 
@@ -78,7 +78,7 @@ From the Project Style Mappings related list, open a project template.For exampl
 4.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d77213e198">
+</td></tr><tr><td id="d76191e198">
 
 **Reset mappings of all projects that belong to the same project style**
 

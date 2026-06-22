@@ -26,7 +26,7 @@ Decomposition runs on the specification that is associated with the captured ser
 -   Decomposition establishes the hierarchical relationship between the source and targets while generating the service and resource orders.
 -   Decomposition doesn't happen if the specification relationship is of a Composed of type.
 
-    **Note:** To learn more about specification relationship types, see .
+    **Note:** To learn more about specification relationship types, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-mgt-specification-rels.md).
 
 
 ## Decomposition that is based on defined decomposition rules
@@ -54,5 +54,5 @@ Each of these resource-facing service specifications has relationships with the 
 
 Optional decomposition rules are defined for a specification relationship between a source specification and a target specification. The rules use the characteristic and characteristic value \(optional\) of a source specification, for mapping to a target specification. These rules enable targeted order decomposition of a source specification that is based on the characteristic and characteristic value available in the source specification.
 
-**Note:** To learn more about specification relationships and decomposition rules, see .
+**Note:** To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-mgt-specification-rels.md).
 

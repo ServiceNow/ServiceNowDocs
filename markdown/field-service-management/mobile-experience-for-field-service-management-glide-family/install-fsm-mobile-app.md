@@ -36,5 +36,5 @@ Role required: wm\_agent or wm\_dispatcher
 **Related topics**  
 
 
-[bundle-mobile.mobile-experience]
+[Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-experience.md)
 

@@ -33,15 +33,15 @@ Enable sn\_ap\_apm.reader role to access invoice filters for tolerance rules.
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_zfx_wfs_xyb"><thead><tr><th align="left" id="d117549e122">
+<table id="choicetable_zfx_wfs_xyb"><thead><tr><th align="left" id="d117579e122">
 
 Field
 
-</th><th align="left" id="d117549e125">
+</th><th align="left" id="d117579e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117549e131">
+</th></tr></thead><tbody><tr><td id="d117579e131">
 
 **Name**
 
@@ -49,7 +49,7 @@ Description
 
 Name of the tolerance rule.
 
-</td></tr><tr><td id="d117549e140">
+</td></tr><tr><td id="d117579e140">
 
 **Active**
 
@@ -57,7 +57,7 @@ Name of the tolerance rule.
 
 Option to make the tolerance rule available for invoice processing.
 
-</td></tr><tr><td id="d117549e155">
+</td></tr><tr><td id="d117579e155">
 
 **Type**
 
@@ -65,7 +65,7 @@ Option to make the tolerance rule available for invoice processing.
 
 The tolerance type to associate with the tolerance rule.
 
-</td></tr><tr><td id="d117549e179">
+</td></tr><tr><td id="d117579e179">
 
 **Order**
 
@@ -73,7 +73,7 @@ The tolerance type to associate with the tolerance rule.
 
 Defines the priority in which you would like to process the tolerance rule. The lowest order is applied on the invoice. Example: If there are two rules applicable with the orders set as 10 and 20. Rule with order 10 is applied on the invoice.
 
-</td></tr><tr><td id="d117549e189">
+</td></tr><tr><td id="d117579e189">
 
 **Tolerance value**
 
@@ -81,7 +81,7 @@ Defines the priority in which you would like to process the tolerance rule. The 
 
 Set the permissible variance limit of type numeric and positive numbers only. Example: 200
 
-</td></tr><tr><td id="d117549e201">
+</td></tr><tr><td id="d117579e201">
 
 **Tolerance percentage**
 
@@ -89,7 +89,7 @@ Set the permissible variance limit of type numeric and positive numbers only. Ex
 
 The permissible variance percentage.
 
-</td></tr><tr><td id="d117549e214">
+</td></tr><tr><td id="d117579e214">
 
 **Condition type**
 
@@ -99,7 +99,7 @@ Determine whether the value and percentage both need to be met or whether one of
 -   **OR**-Iif either the **Tolerance value** or **Tolerance percentage** values should be met.
 
 
-</td></tr><tr><td id="d117549e290">
+</td></tr><tr><td id="d117579e290">
 
 **Invoice filters**
 

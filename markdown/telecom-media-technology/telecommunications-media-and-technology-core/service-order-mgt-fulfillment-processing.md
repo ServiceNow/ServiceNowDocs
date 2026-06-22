@@ -8,7 +8,7 @@ product: Telecommunications, Media and Technology Core
 classification: telecommunications-media-and-technology-core
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -51,7 +51,7 @@ Use the Orchestration Plan UI to review the domain orders and order tasks that a
 
 </td><td>
 
-A service order manager reviews the orchestration state and hierarchical structure for a selected service order, its associated order line items, domain orders, and order tasks. By using the Orchestration Plan UI, the service order manager can see how much progress has occurred in the fulfillment process. To learn more, see .
+A service order manager reviews the orchestration state and hierarchical structure for a selected service order, its associated order line items, domain orders, and order tasks. By using the Orchestration Plan UI, the service order manager can see how much progress has occurred in the fulfillment process. To learn more, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/reviewing-orchestration-plans-order-fulfillment.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Review and update the fulfillment tasks that are associated with a service order
 An order fulfillment or service order agent does the tasks that are required for post-approval customer order fulfillment, including marking the order tasks as complete. The order fulfillment or service manager then creates the order fallout records for the order tasks that can't be completed.To learn more, see:
 
 -   [Review and update the service order fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/service-order-mgt-service-order-tasks.md)
--   
+-   [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/fallout-management-overview.md)
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Follow up on the tasks that couldn't be completed by examining the order fallout
 
 </td><td>
 
-An order fulfillment or service manager reviews the tasks that couldn't be completed in the order fallout records, and reassigns the order tasks to fulfillment agents for investigation and resolution. To learn more, see, .
+An order fulfillment or service manager reviews the tasks that couldn't be completed in the order fallout records, and reassigns the order tasks to fulfillment agents for investigation and resolution. To learn more, see, [Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/select-order-fallout-records-review.md).
 
 </td></tr></tbody>
 </table>

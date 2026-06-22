@@ -39,15 +39,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d162758e135">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d161780e135">
 
 Roadmap type
 
-</th><th align="left" id="d162758e138">
+</th><th align="left" id="d161780e138">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d162758e144">
+</th></tr></thead><tbody><tr><td id="d161780e144">
 
 **Portfolio plan roadmap**
 
@@ -57,7 +57,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d162758e165">
+</td></tr><tr><td id="d161780e165">
 
 **Free-form roadmap**
 

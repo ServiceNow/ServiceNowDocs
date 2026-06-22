@@ -25,7 +25,7 @@ The following workspaces are included in Insurance claims:
 
 For more information about these workspaces, see [Insurance claims landing pages and workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.md).
 
-You can modify these workspaces in UI Builder. You can also customize the subpages in these workspaces by creating a variant. For more information about this customization, see .
+You can modify these workspaces in UI Builder. You can also customize the subpages in these workspaces by creating a variant. For more information about this customization, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 ## Setting up workspaces by persona
 
@@ -53,7 +53,7 @@ FNOL Representative
 
 </td><td>
 
-This common landing page is defined in the FSO Core and can be used as-is with little modification.To make additional UI changes, use UI Builder. For more information, see .
+This common landing page is defined in the FSO Core and can be used as-is with little modification.To make additional UI changes, use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ FNOL Representative
 
 </td><td>
 
-This module or list is defined by the base system for Insurance claims. To make additional UI changes, use UI Builder. For more information, see .
+This module or list is defined by the base system for Insurance claims. To make additional UI changes, use UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Processor, Adjuster, Manager
 
 The Claim 360 UI Builder page is set up in theFSO Core and is available in claims applications. It can be cloned and modified to create a specific claim summary page for a particular line of business.To enable a claim summary on a case, enable the CSM default record page and define the correct order.
 
-For more information, see .
+For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 </td></tr></tbody>
 </table>## Dashboards included in Insurance claims
@@ -148,5 +148,5 @@ For more information on the included dashboards and their layouts, see [Insuranc
 
 **Note:** The FNOL landing page is built into Financial Services Operations Core. Any changes to this page may impact other applications.
 
-For more information on landing pages as dashboards, see .
+For more information on landing pages as dashboards, see [Dashboard landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-dashboard.md).
 

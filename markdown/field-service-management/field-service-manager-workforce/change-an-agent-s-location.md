@@ -30,15 +30,15 @@ You can move the map marker icons from the current location to the new location 
 
 2.  Edit location for marker overlay data items.
 
-<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d51984e101">
+<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d51934e101">
 
 To
 
-</th><th align="left" id="d51984e104">
+</th><th align="left" id="d51934e104">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d51984e110">
+</th></tr></thead><tbody><tr><td id="d51934e110">
 
 **Edit location of a single icon map marker**
 
@@ -55,7 +55,7 @@ You can move the map marker icon from the current location to the new location o
 -   Drag and drop the map marker to the desired location or enter the address manually in the **New Location** field.
 
 
-</td></tr><tr><td id="d51984e165">
+</td></tr><tr><td id="d51934e165">
 
 **Edit location of all items in a co-located marker data item**
 

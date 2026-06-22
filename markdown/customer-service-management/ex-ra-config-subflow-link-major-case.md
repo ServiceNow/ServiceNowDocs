@@ -16,7 +16,7 @@ breadcrumb: [Example: Link the similar major case to the current case, Example c
 
 Configure a subflow that you can use in a guidance to automatically link the proposed major case to the current case on a click of an action button.
 
-Configure and publish a subflow with the following inputs and action. For more information, see .
+Configure and publish a subflow with the following inputs and action. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
 
 <table id="table_wxq_2dr_pzb"><thead><tr><th>
 

@@ -19,7 +19,7 @@ When retrieving data from an AWS API Gateway service, you can control the number
 
 ## Before you begin
 
-Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see Application picker.
+Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: admin
 

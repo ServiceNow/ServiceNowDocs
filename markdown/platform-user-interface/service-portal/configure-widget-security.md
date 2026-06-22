@@ -38,15 +38,15 @@ When you configure widget security, configure the page security accordingly so t
 
 3.  On the form, configure the widget security.
 
-<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d37581e103">
+<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d36877e103">
 
 Option
 
-</th><th align="left" id="d37581e106">
+</th><th align="left" id="d36877e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d37581e112">
+</th></tr></thead><tbody><tr><td id="d36877e112">
 
 **Restrict the widget to authenticated users**
 
@@ -54,7 +54,7 @@ Procedure
 
 Clear the **Public** check box and leave the **Roles** field blank.
 
-</td></tr><tr><td id="d37581e127">
+</td></tr><tr><td id="d36877e127">
 
 **Restrict the widget to certain roles**
 
@@ -66,7 +66,7 @@ Clear the **Public** check box and leave the **Roles** field blank.
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d37581e172">
+</td></tr><tr><td id="d36877e172">
 
 **Restrict which tables public widgets can access for guest users**
 
@@ -94,7 +94,7 @@ if(!new global.SPWidgetAccessControl().hasPublicAccess(options.table, $sp, optio
 	}
     ```
 
-The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see .
+The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see [SPWidgetAccessControl - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPWidgetAccessControlGlobalAPI.md).
 
 4.  Select **Save**.
 

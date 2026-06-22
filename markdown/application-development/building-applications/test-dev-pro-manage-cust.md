@@ -30,7 +30,7 @@ Customize your ServiceNow apps.
 
 </td><td>
 
-Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.
+[Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 
 </td></tr></tbody>
 </table>

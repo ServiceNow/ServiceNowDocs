@@ -8,7 +8,7 @@ product: AI Platform Capabilities
 classification: ai-platform-capabilities
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -76,7 +76,7 @@ Condition
 
 </td><td>
 
-Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API .
+Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
  **Note:** The conditions available depend on the table you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 
@@ -131,7 +131,7 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 
 4.  Click **Submit** or **Update**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see .
+    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
     The Channels related list appears.
 

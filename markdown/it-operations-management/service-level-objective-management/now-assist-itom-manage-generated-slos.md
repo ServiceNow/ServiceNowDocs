@@ -19,9 +19,9 @@ Activate or deactivate the service level objective \(SLO\) creator agent and con
 
 ## Before you begin
 
-You must have Now Assist for ITOMand Service Reliability Management \(SRM\) installed on your instance. For more information, see and [Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-install-sr-store-app.md).
+You must have Now Assist for ITOMand Service Reliability Management \(SRM\) installed on your instance. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md)and [Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-install-sr-store-app.md).
 
-Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 For an overview of how and when the SLO creator agent generates SLOs, see [SLO creator agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 
@@ -35,15 +35,15 @@ Role required: srm\_admin
 
 3.  Configure the SLO creator agent settings.
 
-<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d302172e165">
+<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d300121e166">
 
 Setting
 
-</th><th align="left" id="d302172e168">
+</th><th align="left" id="d300121e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d302172e174">
+</th></tr></thead><tbody><tr><td id="d300121e175">
 
 **Allow the agent to automatically generate SLOs from service alerts and outages.**
 
@@ -51,7 +51,7 @@ Description
 
 Turns on or off the SLO creator agent.When the agent is active, it generates SLOs based on alerts, incidents, and outages for eligible services and configuration items \(CIs\).
 
-</td></tr><tr><td id="d302172e185">
+</td></tr><tr><td id="d300121e186">
 
 **Include a policy to email the assigned team if the error budget is less than or equal to 25%.**
 
@@ -59,7 +59,7 @@ Turns on or off the SLO creator agent.When the agent is active, it generates SLO
 
 Sends an email notification to the team assigned to the service or CI when the SLO error budget reaches 25% or lower.
 
-</td></tr><tr><td id="d302172e194">
+</td></tr><tr><td id="d300121e195">
 
 **Email team managers when an SLO is generated, or the team if no manager is assigned.**
 

@@ -17,7 +17,7 @@ breadcrumb: [Data required for invoice processing, Reference, Accounts Payable O
 
 Field descriptions for the Cost Center \[cmn\_cost\_center\] table used to create and manage cost center records that link financial systems to IT services.
 
-For more information on cost centers and how it is referenced within financial systems, see .
+For more information on cost centers and how it is referenced within financial systems, see [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md).
 
 ## cmn\_cost center table
 

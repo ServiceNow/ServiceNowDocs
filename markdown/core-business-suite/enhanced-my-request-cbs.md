@@ -88,9 +88,9 @@ Default configurations for Finance include standard notifications and intake for
 
 ## Related information
 
--   
--   
--   
+-   [Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-requests-update-intro.md)
+-   [Opt in to the enhanced Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/opt-in-emre.md)
+-   [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
 -   [Employee support areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-task-landing-emp.md)
 
 **Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)

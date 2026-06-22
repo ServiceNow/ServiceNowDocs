@@ -38,15 +38,15 @@ Role required: none
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d101499e122">
+<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d96187e122">
 
 Option
 
-</th><th align="left" id="d101499e125">
+</th><th align="left" id="d96187e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d101499e131">
+</th></tr></thead><tbody><tr><td id="d96187e131">
 
 **To execute the component where the breakpoint is set**
 
@@ -54,7 +54,7 @@ Action
 
 Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a step-by-step execution of the workflow, continue clicking the **Move next** button.
 
-</td></tr><tr><td id="d101499e155">
+</td></tr><tr><td id="d96187e155">
 
 **To continue the execution of the remaining components**
 
@@ -62,7 +62,7 @@ Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a
 
 Click **Run** under the **Design** tab.
 
-</td></tr><tr><td id="d101499e170">
+</td></tr><tr><td id="d96187e170">
 
 **To find all the breakpoints in the automation**
 
@@ -70,7 +70,7 @@ Click **Run** under the **Design** tab.
 
 Click the down arrow button next to the **Clear Breakpoints** button under the **Design** tab and select **Find all**.A list of breakpoints appears in the Find All References section.
 
-</td></tr><tr><td id="d101499e191">
+</td></tr><tr><td id="d96187e191">
 
 **To remove a breakpoint**
 
@@ -78,7 +78,7 @@ Click the down arrow button next to the **Clear Breakpoints** button under the *
 
 Right-click a desired component and select **Breakpoint**.
 
-</td></tr><tr><td id="d101499e204">
+</td></tr><tr><td id="d96187e204">
 
 **To remove all the breakpoints**
 

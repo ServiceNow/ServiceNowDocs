@@ -46,7 +46,7 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 6.  Review the list of changes to ensure that the correct changes are included.
 
-<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d135544e150">
+<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d135499e150">
 
 **To remove changes that you do not want to push**
 
@@ -54,7 +54,7 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list
 
-</td></tr><tr><td id="d135544e165">
+</td></tr><tr><td id="d135499e165">
 
 **To add changes**
 

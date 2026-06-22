@@ -27,19 +27,19 @@ Workforce Optimization for Field Service requires the following ServiceNow Store
 -   **Required ServiceNow Store applications to use in Field Service Manager Workspace**
     -   **Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\)**
 
-        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
     -   **Team Management for Field Service \(com.snc.sn\_fsm\_team\_mgmt \)**
 
-        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
     -   **Coaching \(com.sn\_coaching\)**
 
-        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
     -   **Coaching with Learning \(com.sn\_coach\_learning\)**
 
-        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
 
 Role required: admin
@@ -66,7 +66,7 @@ For more information, see [Workforce Optimization for Field Service components](
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 ## Result

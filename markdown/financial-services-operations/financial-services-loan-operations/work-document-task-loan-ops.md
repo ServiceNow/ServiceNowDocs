@@ -47,15 +47,15 @@ The Document Processor service determines which documents \(inbound and outbound
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d58543e171">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d58328e171">
 
 Task
 
-</th><th align="left" id="d58543e174">
+</th><th align="left" id="d58328e174">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58543e180">
+</th></tr></thead><tbody><tr><td id="d58328e180">
 
 **Verify an inbound or outbound document**
 
@@ -65,7 +65,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d58543e201">
+</td></tr><tr><td id="d58328e201">
 
 **Defer an inbound document**
 
@@ -75,7 +75,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d58543e225">
+</td></tr><tr><td id="d58328e225">
 
 **Request exception for an inbound document**
 

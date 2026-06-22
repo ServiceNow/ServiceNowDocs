@@ -32,15 +32,15 @@ Composite Geography combines smaller geographies into a bigger, more impactful o
     -   Navigate to **All** &gt; **Field Service** &gt; **Territory Planning** &gt; **Territory Planning Console**.
 2.  Do either of the following.
 
-<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d75806e102">
+<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d75756e102">
 
 To create composite geography
 
-</th><th align="left" id="d75806e105">
+</th><th align="left" id="d75756e105">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d75806e111">
+</th></tr></thead><tbody><tr><td id="d75756e111">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Do this
 
 In the Territory Geographies page, select **New**.
 
-</td></tr><tr><td id="d75806e123">
+</td></tr><tr><td id="d75756e123">
 
 **From Territory Planning console**
 

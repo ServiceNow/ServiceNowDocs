@@ -56,7 +56,7 @@ Now Assist is built on the ServiceNow AI Platform security model. AI agents are 
 
 </td><td>
 
-AI Control Tower\[Omitted image "ind-telecom-tower.svg"\] Alt text:The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
+[AI Control Tower\[Omitted image "ind-telecom-tower.svg"\] Alt text:The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)
 
 </td></tr></tbody>
 </table>-   **[Permissions-based access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-permissions-based-access-control.md)**  

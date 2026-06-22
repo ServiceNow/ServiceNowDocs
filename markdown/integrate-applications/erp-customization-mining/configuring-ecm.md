@@ -8,7 +8,7 @@ product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
@@ -45,7 +45,7 @@ You should install Zero Copy Connector for ERP and add credentials there before 
 
 The number of ERP connections you can have per ServiceNow instance depends on your license.
 
-For details on Connections and Credentials, see .
+For details on Connections and Credentials, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 ## Plugins for ERP Semantic Mining
 

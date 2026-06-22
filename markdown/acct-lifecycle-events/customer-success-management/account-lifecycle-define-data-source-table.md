@@ -7,7 +7,7 @@ release: australia
 product: Customer Success Management
 classification: customer-success-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---

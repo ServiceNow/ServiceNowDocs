@@ -44,15 +44,15 @@ Now Assist for SAM generates the publisher summaries by using reconciliation res
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d212027e157">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d272894e157">
 
 Action
 
-</th><th align="left" id="d212027e160">
+</th><th align="left" id="d272894e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d212027e166">
+</th></tr></thead><tbody><tr><td id="d272894e166">
 
 **Copy to clipboard icon**
 
@@ -60,7 +60,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d212027e175">
+</td></tr><tr><td id="d272894e175">
 
 **Refresh icon**
 
@@ -68,7 +68,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d212027e184">
+</td></tr><tr><td id="d272894e184">
 
 **Feedback**
 

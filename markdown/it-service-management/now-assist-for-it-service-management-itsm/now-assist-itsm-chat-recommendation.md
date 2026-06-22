@@ -30,7 +30,7 @@ You can do these actions by using Now Assist icon:
 
 **Note:** The Chat reply recommendation skill is on the Chat skill card in the Technology group.
 
-The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see .
+The Chat reply recommendation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -48,15 +48,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d270773e170">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d268498e171">
 
 Chat message window
 
-</th><th align="left" id="d270773e173">
+</th><th align="left" id="d268498e174">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d270773e181">
+</th></tr></thead><tbody><tr><td id="d268498e182">
 
 **Typed response**
 
@@ -68,7 +68,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d270773e201">
+</td></tr><tr><td id="d268498e202">
 
 **Left blank**
 

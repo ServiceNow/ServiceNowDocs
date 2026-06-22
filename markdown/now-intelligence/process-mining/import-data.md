@@ -62,7 +62,7 @@ Role required: sn\_process\_mining\_admin
 
 8.  Schedule your imports.
 
-    For detailed information, see .
+    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
 
 
 **Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)

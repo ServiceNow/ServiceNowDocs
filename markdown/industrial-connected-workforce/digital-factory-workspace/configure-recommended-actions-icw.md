@@ -26,15 +26,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author or sn\_icw.application\
 
 2.  Configure Recommended Actions for the Industrial Connected Workforce for either tasks, standard tasks, or rules for recommended actions.
 
-<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d24829e118">
+<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d24672e118">
 
 What to configure
 
-</th><th align="left" id="d24829e121">
+</th><th align="left" id="d24672e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d24829e127">
+</th></tr></thead><tbody><tr><td id="d24672e127">
 
 **Task \(deviation and root cause analysis\)**
 
@@ -42,7 +42,7 @@ Description
 
 From the list of contexts, select Industrial tasks context and make changes as needed.
 
-</td></tr><tr><td id="d24829e136">
+</td></tr><tr><td id="d24672e136">
 
 **Standard task**
 
@@ -50,15 +50,15 @@ From the list of contexts, select Industrial tasks context and make changes as n
 
 From the list of contexts, select the Industrial standard task context and make changes as needed.
 
-</td></tr><tr><td id="d24829e145">
+</td></tr><tr><td id="d24672e145">
 
 **Rule for recommended actions**
 
 </td><td>
 
-Create a context and within it rules and recommendations, as explained in:-   
--   
--   
+Create a context and within it rules and recommendations, as explained in:-   [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md)
+-   [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules-create.md)
+-   [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md)
 
 
 </td></tr></tbody>

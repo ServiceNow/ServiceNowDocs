@@ -36,7 +36,7 @@ Add logic and automation to your application. If you created an application usin
 
 4.  Take the appropriate actions to edit the flow.
 
-<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d127284e187">
+<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d127239e187">
 
 **Change the flow name, description, or roles**
 
@@ -44,7 +44,7 @@ Add logic and automation to your application. If you created an application usin
 
 In the main header, select **Properties**, enter the values you want into the appropriate fields, and then select **Update**.
 
-</td></tr><tr><td id="d127284e202">
+</td></tr><tr><td id="d127239e202">
 
 **To edit the trigger**
 
@@ -52,7 +52,7 @@ In the main header, select **Properties**, enter the values you want into the ap
 
 In your flow, select the trigger description, fill in the fields as desired, and then select **Done**.**Note:** Modifying triggers can result in the deletion of referenced action configurations.
 
-</td></tr><tr><td id="d127284e217">
+</td></tr><tr><td id="d127239e217">
 
 **To edit an existing action**
 
@@ -60,7 +60,7 @@ In your flow, select the trigger description, fill in the fields as desired, and
 
 In your flow, select the action description, fill in the fields as desired, and then select **Done**.
 
-</td></tr><tr><td id="d127284e229">
+</td></tr><tr><td id="d127239e229">
 
 **To add a new action**
 
@@ -69,14 +69,14 @@ In your flow, select the action description, fill in the fields as desired, and 
 In your flow, select the plus icon in the ACTION section, then proceed as you would for adding an action to a new flow.
 
 </td></tr></tbody>
-</table>    For more information on editing flows, see Edit a flow.
+</table>    For more information on editing flows, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-edit.md).
 
 5.  To save your changes, select **Save**.
 
 
 ## What to do next
 
-Test a flow to make certain it works the way you expect. For more information on testing flows, see Test a flow.
+Test a flow to make certain it works the way you expect. For more information on testing flows, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 **Parent Topic:**[Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-scratch-flow.md)
 

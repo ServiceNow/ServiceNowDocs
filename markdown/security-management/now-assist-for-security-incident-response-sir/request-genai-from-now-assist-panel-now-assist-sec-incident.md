@@ -19,7 +19,7 @@ Request a security incident summary or closure notes from the Now Assist panel.
 
 ## Before you begin
 
-See  for how to activate the Now Assist panel.
+See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
 
 Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
 4.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d111514e142">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d111549e143">
 
 Option
 
-</th><th align="left" id="d111514e145">
+</th><th align="left" id="d111549e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111514e151">
+</th></tr></thead><tbody><tr><td id="d111549e152">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d111514e188">
+</td></tr><tr><td id="d111549e189">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d111514e222">
+</td></tr><tr><td id="d111549e223">
 
 **Generate correlation insights**
 

@@ -46,7 +46,7 @@ Transformations have the following limitations:
 
 1.  Choose a producer or consumer instance and navigate to the replication set.
 
-<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d272094e107">
+<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d270296e107">
 
 **Consumer Instance**
 
@@ -54,7 +54,7 @@ Transformations have the following limitations:
 
 Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** and click a consumer replication set.
 
-</td></tr><tr><td id="d272094e125">
+</td></tr><tr><td id="d270296e125">
 
 **Producer instance**
 
@@ -65,7 +65,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 </td></tr></tbody>
 </table>2.  Choose an inbound or outbound entry.
 
-<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d272094e152">
+<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d270296e152">
 
 **Consumer Instance**
 
@@ -73,7 +73,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 
 On the **Inbound Entries** tab, click an inbound entry.
 
-</td></tr><tr><td id="d272094e164">
+</td></tr><tr><td id="d270296e164">
 
 **Producer instance**
 

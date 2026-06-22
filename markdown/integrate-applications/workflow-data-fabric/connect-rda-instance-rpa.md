@@ -26,15 +26,15 @@ Role required: none
 
 1.  To connect to an RPA Hub instance, do any of the following actions in the Connection Manager dialog box.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d226223e104">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d220918e104">
 
 Option
 
-</th><th align="left" id="d226223e107">
+</th><th align="left" id="d220918e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d226223e113">
+</th></tr></thead><tbody><tr><td id="d220918e113">
 
 **If there is a single instance**
 
@@ -44,7 +44,7 @@ Action
 2.  Select **Connect**.
 
 
-</td></tr><tr><td id="d226223e140">
+</td></tr><tr><td id="d220918e140">
 
 **If there are multiple instances and none of them are marked as default**
 
@@ -59,7 +59,7 @@ Action
 7.  Select **Log in**.
 
 
-</td></tr><tr><td id="d226223e195">
+</td></tr><tr><td id="d220918e195">
 
 **If an instance is marked as default**
 

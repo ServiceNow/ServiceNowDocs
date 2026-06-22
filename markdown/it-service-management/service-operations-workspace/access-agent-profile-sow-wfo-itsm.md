@@ -24,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 Access your profile to analyze information such as:
 
--   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see Performance Analytics targets.
+-   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see [Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
 -   Pending training that has been assigned to you and when they're due.
 -   Service channels that you are assigned to and their current utilization.
 -   Skills and skill levels that you currently use and skill gaps that you may want to address.
@@ -38,15 +38,15 @@ Access your profile to analyze information such as:
 
 2.  Click the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d174680e126">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d173277e126">
 
 To
 
-</th><th align="left" id="d174680e129">
+</th><th align="left" id="d173277e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d174680e135">
+</th></tr></thead><tbody><tr><td id="d173277e135">
 
 **Access your profile from an incident record**
 
@@ -56,7 +56,7 @@ Do this
 2.  In the Assigned column, select your name.
 The profile page appears. In that page, you can access all the information that is related to your profile.
 
-</td></tr><tr><td id="d174680e159">
+</td></tr><tr><td id="d173277e159">
 
 **Create your profile for centralized access**
 
@@ -73,7 +73,7 @@ The profile page appears. In that page, you can access all the information that 
 
 For information on creating a list, see Create My Lists in Workspace.
 
-</td></tr><tr><td id="d174680e233">
+</td></tr><tr><td id="d173277e233">
 
 **Analyze Performance Analytics targets**
 

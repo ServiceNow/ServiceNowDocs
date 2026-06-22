@@ -104,15 +104,15 @@ Role required: sn\_oper\_res.admin
 
     All the relationship options are explained in this step.
 
-<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d40333e335">
+<table id="choicetable_vzr_ppt_1gc"><thead><tr><th align="left" id="d40338e335">
 
 Step
 
-</th><th align="left" id="d40333e338">
+</th><th align="left" id="d40338e338">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40333e344">
+</th></tr></thead><tbody><tr><td id="d40338e344">
 
 **One-to-one**
 
@@ -124,7 +124,7 @@ This is valid for One-to-one and One-to-many types.
 
 \[Omitted image "node-rel-target.png"\] Alt text: Target.
 
-</td></tr><tr><td id="d40333e373">
+</td></tr><tr><td id="d40338e373">
 
 **One-to-many**
 
@@ -134,7 +134,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 \[Omitted image "one-to-many.png"\] Alt text: One-to-many.For One-to-many, the relationship shows the list of tables that has source table as a reference field.
 
-</td></tr><tr><td id="d40333e402">
+</td></tr><tr><td id="d40338e402">
 
 **Many-to-many**
 
@@ -142,7 +142,7 @@ If the Relationship table is an m2m table, select **Sys ID** in the **Target ref
 
 For Many-to-many, the **Relationship** field shows the list of m2m tables in which the source table is referred. Notice that for Many-to-many, you have to select the field from the drop-down that you want as output. For example, \[cmdb\_rel\_ci\] table has **Parent** \(cmdb\_ci\) and **Child** \(cmdb\_ci\) fields. If you want to find the child service, you can select **Child**.\[Omitted image "many-to-many.png"\] Alt text: Many-to-many.
 
-</td></tr><tr><td id="d40333e431">
+</td></tr><tr><td id="d40338e431">
 
 **Scripted**
 

@@ -37,15 +37,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 4.  Specify any number of attributes for the question.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d218498e139">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d218547e139">
 
 Attribute
 
-</th><th align="left" id="d218498e142">
+</th><th align="left" id="d218547e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d218498e148">
+</th></tr></thead><tbody><tr><td id="d218547e148">
 
 **\[Selection list\]**
 
@@ -63,7 +63,7 @@ Select the type of text box that should appear for the response:
 -   **Multi-select**: The assessor can select multiple choices.
 
 
-</td></tr><tr><td id="d218498e192">
+</td></tr><tr><td id="d218547e192">
 
 **Required**
 
@@ -71,7 +71,7 @@ Select the type of text box that should appear for the response:
 
 If the assessor must answer the question to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d218498e209">
+</td></tr><tr><td id="d218547e209">
 
 **Conditionally visible**
 
@@ -87,7 +87,7 @@ A setting on any question type that lets template builders control when a questi
 
  **Note:** When a question is hidden from the assessor because its visibility conditions aren't met, the question is not displayed in the assessment view. If a section contains questions that are hidden by conditional visibility, the section displays a subtle indicator showing how many questions have been skipped \(for example, `3 applicable questions have been skipped`\). If every question in a section is hidden by conditional visibility, the section is grayed out in the navigation pane and shows an empty-state message that indicates no questions are applicable.
 
-</td></tr><tr><td id="d218498e244">
+</td></tr><tr><td id="d218547e244">
 
 **Justification**
 
@@ -99,7 +99,7 @@ A setting that lets template builders request additional text comments \(justifi
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d218498e271">
+</td></tr><tr><td id="d218547e271">
 
 **Attachments**
 
@@ -113,7 +113,7 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d218498e307">
+</td></tr><tr><td id="d218547e307">
 
 **Set character limit**
 
@@ -125,7 +125,7 @@ Option for the text question type.
 
  Default: 1000.
 
-</td></tr><tr><td id="d218498e325">
+</td></tr><tr><td id="d218547e325">
 
 **Specify preferred answers**
 
@@ -140,7 +140,7 @@ A setting on choice-type questions that lets template builders define which answ
 
 6.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d218498e374">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d218547e374">
 
 **Question description**
 
@@ -152,7 +152,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d218498e399">
+</td></tr><tr><td id="d218547e399">
 
 **Guidance**
 

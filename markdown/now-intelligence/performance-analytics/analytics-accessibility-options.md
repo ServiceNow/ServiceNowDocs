@@ -23,7 +23,7 @@ You can enable and disable these Accessibility options to make your experience i
 -   Replace colors and patterns in charts and graphs
 -   Enable data table for charts and graphs
 
-Open your **Preferences** to access the Accessibility options. For more information, see .
+Open your **Preferences** to access the Accessibility options. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-accessibility-preferences.md).
 
 \[Omitted image "open-preferences.png"\] Alt text: Menu for opening preferences for an instance.
 

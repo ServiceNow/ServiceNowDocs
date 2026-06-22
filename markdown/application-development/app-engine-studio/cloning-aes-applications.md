@@ -21,7 +21,7 @@ Learn how to protect the data, tables, and templates you've created in App Engin
 The following are requirements for cloning instances with AES:
 
 1.  Verify that all of your AES plugins are installed across all instances.
-2.  If you're cloning a production instance, verify that you've set up a data preserver on the target instances to preserve the Automated Test Framework \(ATF\) and Instance Scan properties. For more information about data preservers, see  and .
+2.  If you're cloning a production instance, verify that you've set up a data preserver on the target instances to preserve the Automated Test Framework \(ATF\) and Instance Scan properties. For more information about data preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-new-clone-preserver.md) and [Create a data preserver \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateADataPreserver.md).
 
     **Important:** By default, the ATF system property is disabled to prevent you from accidentally running these tests on a production system. Running ATF on a production instance is neither recommended nor supported due to the potential for data corruption or outages.
 
@@ -76,14 +76,14 @@ Admins must protect custom templates from being overwritten during the cloning p
 
 When you create a template in AES, a scoped app is automatically generated on the Custom Applications \[sys\_app.list\] table in your instance. Though they have different contents, template applications and standard custom applications are treated similarly on the ServiceNow AI Platform. So, preserving app templates during a system clone works the same way as preserving an application.
 
-To protect app templates on your non-production instances, follow the process in  or .
+To protect app templates on your non-production instances, follow the process in [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-new-clone-preserver.md) or [Create a data preserver \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateADataPreserver.md).
 
 ## More information on cloning and data preservation
 
 See the following topics for more information on cloning and data preservation:
 
--   For more information on using the System Clone tool, see .
--   For more information on data preservation, see .
+-   For more information on using the System Clone tool, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/system-clone-landing.md).
+-   For more information on data preservation, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-new-clone-preserver.md).
 -   For more details on cloning instances with AES, see the App Engine Studio System Administrator Guide on [ServiceNow University](https://learning.servicenow.com/).
 
 <table id="table_m51_zrm_jtb-3"><thead><tr><th>

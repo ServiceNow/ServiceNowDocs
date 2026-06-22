@@ -18,7 +18,7 @@ With the Now Assist for Vault application, you can automate many tasks in Vault 
 
 ## Ask Now Assist in ServiceNow Vault console
 
-The Ask Now Assist context menu in ServiceNow Vault console lists common security tasks. Selecting a task opens a conversational interface that lets you accomplish the task through prompts. For more information about the Now Assist conversational interface, see .
+The Ask Now Assist context menu in ServiceNow Vault console lists common security tasks. Selecting a task opens a conversational interface that lets you accomplish the task through prompts. For more information about the Now Assist conversational interface, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 \[Omitted image "ask-now-assist.png"\] Alt text: Ask Now Assist panel with three skills shown.
 

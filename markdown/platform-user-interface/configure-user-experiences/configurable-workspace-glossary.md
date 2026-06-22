@@ -7,7 +7,7 @@ release: australia
 product: Configure User Experiences
 classification: configure-user-experiences
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 4
 keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]

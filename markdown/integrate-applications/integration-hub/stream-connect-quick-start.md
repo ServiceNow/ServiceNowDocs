@@ -32,7 +32,7 @@ To link your ServiceNow instance to a Kafka environment, Stream Connect uses the
 
 \[Omitted image "stream-connect-architecture.png"\] Alt text: Diagram showing Stream Connect producers and consumers and how they connect to a Kafka environment, described as the "customer site", through the Hermes Messaging Service.
 
-For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md) and the .
+For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md) and the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
 
 ## Getting started
 
@@ -63,14 +63,14 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See .
+-   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see .
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
 
 ### Procedure
 
@@ -78,15 +78,15 @@ For details on assigning KMF roles, see .
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d472175e374">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d466875e377">
 
 Option
 
-</th><th align="left" id="d472175e377">
+</th><th align="left" id="d466875e380">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d472175e383">
+</th></tr></thead><tbody><tr><td id="d466875e386">
 
 **Apply ACLs to namespaces**
 
@@ -99,7 +99,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d472175e425">
+</td></tr><tr><td id="d466875e428">
 
 **Apply ACLs to defined topics**
 
@@ -529,7 +529,7 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 -   Role required: integration\_hub\_admin
 -   The first part of this section shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see .
 -   The second part of this section shows you how to use the ProducerV2 API to publish messages. For more information, see ProducerV2 API.
--   To receive all the messages, you need to run two consumers for different datacenters. See  for details.
+-   To receive all the messages, you need to run two consumers for different datacenters. See [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.md) for details.
 
 ### Procedure
 

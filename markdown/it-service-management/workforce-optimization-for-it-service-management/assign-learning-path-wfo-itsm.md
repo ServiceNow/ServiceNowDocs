@@ -40,15 +40,15 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 6.  In the **Assign learning path** screen, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d324177e152">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d320970e152">
 
 To
 
-</th><th align="left" id="d324177e155">
+</th><th align="left" id="d320970e155">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d324177e161">
+</th></tr></thead><tbody><tr><td id="d320970e161">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d324177e173">
+</td></tr><tr><td id="d320970e173">
 
 **Assign the path to specific groups or team members**
 
@@ -64,7 +64,7 @@ Select **To my groups**.
 
 1.  Select **To specific groups or team members**.
 
-**Note:** If the course item is a quiz, the team members must have the  installed.
+**Note:** If the course item is a quiz, the team members must have the [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-landing-page.md) installed.
 
 2.  In the **Group assignment** field, select one or more groups to which the agents you want to assign this path to belong.
 3.  In the **Team member assignment** field, select one or more team members to which you want to assign the path.

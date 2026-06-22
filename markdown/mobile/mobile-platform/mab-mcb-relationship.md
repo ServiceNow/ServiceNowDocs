@@ -20,7 +20,7 @@ Access Mobile Card Builder without leaving Mobile App Builder. By selecting Open
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -34,15 +34,15 @@ When using Mobile App Builder, you can access the Mobile Card Builder to edit ca
 
 2.  Access the Mobile Card Builder within the Mobile App Builder in one of the following ways.
 
-<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d72919e118">
+<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d72941e119">
 
 Location
 
-</th><th align="left" id="d72919e121">
+</th><th align="left" id="d72941e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72919e127">
+</th></tr></thead><tbody><tr><td id="d72941e128">
 
 **From the Mobile App Builder home page**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Open Mobile Card Builder** from the home page.
 
-</td></tr><tr><td id="d72919e142">
+</td></tr><tr><td id="d72941e143">
 
 **From the Mobile App Builder Cards and icons menu section**
 
@@ -67,7 +67,7 @@ The card or icon option that you selected is displayed.
 4.  Customize your card or icon by selecting the **Open in Mobile Card Builder** button.
 
 
-</td></tr><tr><td id="d72919e189">
+</td></tr><tr><td id="d72941e190">
 
 **From the Mobile App Builder configuration pane**
 

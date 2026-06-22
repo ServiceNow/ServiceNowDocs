@@ -82,7 +82,7 @@ Role required: sn\_data\_kit.admin
     -   I'm assuring to use data responsibly for AI Evaluation
     -   Scan for personally identifiable or information sensitive data before creating datasets. You can turn this off if you prefer.
 
-        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using vault service. After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
+        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using [vault service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/privacy-landing-page.md). After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
 
 10. Select **Add data**.
 

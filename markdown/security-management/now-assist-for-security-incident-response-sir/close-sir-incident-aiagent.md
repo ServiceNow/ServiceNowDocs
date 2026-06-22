@@ -23,7 +23,7 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see .
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 4.  Close the security incident by using one of the following options.
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d40017e116">
+<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d40052e117">
 
 Option
 
-</th><th align="left" id="d40017e119">
+</th><th align="left" id="d40052e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40017e125">
+</th></tr></thead><tbody><tr><td id="d40052e126">
 
 **Close a security incident**
 
@@ -71,7 +71,7 @@ The AI agent closes the security incident.
 
 **Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
 
-</td></tr><tr><td id="d40017e219">
+</td></tr><tr><td id="d40052e220">
 
 **Close a security incident as false positive**
 

@@ -81,7 +81,7 @@ Role required: admin
 
     2.  Review the ACC logs to confirm that the agent is running and communicating with the ServiceNow instance.
 
-        For information about accessing ACC logs, see .
+        For information about accessing ACC logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-view-log.md).
 
     3.  Open the Desktop Assistant \(sn\_dex\_desktop\_assistant\_notification\) table.
 

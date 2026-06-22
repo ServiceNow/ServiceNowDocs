@@ -25,7 +25,7 @@ Connect contains the following features:
 
 Core UI is required to use Connect.
 
-**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See Next Experience.
+**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See [Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 **Note:** Connect does not replace legacy chat but offers some of the same functionality. Do not use these features concurrently
 
@@ -33,7 +33,7 @@ Core UI is required to use Connect.
 
 **Explore**
 
- -   Upgrade to New York
+ -   [Upgrade to New York](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Connect interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_connect-interface.md)
 -   [Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
 -   [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md)

@@ -30,15 +30,15 @@ A user can create only one time sheet per week.
 
 1.  Create the time sheet with one of these options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d161670e78">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d161765e78">
 
 Option
 
-</th><th align="left" id="d161670e81">
+</th><th align="left" id="d161765e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d161670e87">
+</th></tr></thead><tbody><tr><td id="d161765e87">
 
 **From the time sheet menu**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **Time Sheets** &gt; **My Time Sheets** &gt; **Current \(This Week\)**.The time sheet form for the current week opens.
 
-</td></tr><tr><td id="d161670e111">
+</td></tr><tr><td id="d161765e111">
 
 **From the time sheet list**
 

@@ -59,7 +59,7 @@ There are two ways that you can create a checklist template:
 
 12. Configure the fields for your new checklist template.
 
-<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d56858e200">
+<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d56154e200">
 
 **Group**
 
@@ -67,7 +67,7 @@ There are two ways that you can create a checklist template:
 
 You can use this field to limit the group of users that are allowed to use this checklist template.
 
-</td></tr><tr><td id="d56858e209">
+</td></tr><tr><td id="d56154e209">
 
 **Template**
 
@@ -99,7 +99,7 @@ The name of a checklist item.
 
 The order in which a checklist item appears in the checklist.
 
-</td></tr><tr><td id="d56858e277">
+</td></tr><tr><td id="d56154e277">
 
 **Name**
 
@@ -107,7 +107,7 @@ The order in which a checklist item appears in the checklist.
 
 The name of the checklist template.
 
-</td></tr><tr><td id="d56858e286">
+</td></tr><tr><td id="d56154e286">
 
 **User**
 

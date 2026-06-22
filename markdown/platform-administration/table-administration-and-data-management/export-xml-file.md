@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Export a record or a list of records to XML.
 
-<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d272697e56">
+<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d272797e56">
 
 Option
 
-</th><th align="left" id="d272697e59">
+</th><th align="left" id="d272797e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272697e65">
+</th></tr></thead><tbody><tr><td id="d272797e65">
 
 **Export a record to XML**
 
@@ -45,7 +45,7 @@ Description
 3.  Select **Export** &gt; **XML This Record\)**.
 
 
-</td></tr><tr><td id="d272697e101">
+</td></tr><tr><td id="d272797e101">
 
 **Export a list of records to XML**
 

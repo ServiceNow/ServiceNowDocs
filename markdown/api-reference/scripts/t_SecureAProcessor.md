@@ -77,5 +77,5 @@ Script type processors can require a CSRF token check before the processor runs.
 **Related topics**  
 
 
-[bundle-platadm.t_AssignARoleToAUser]
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 

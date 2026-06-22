@@ -133,7 +133,7 @@ Granular admin role that contains the following Creator Studio granular admin ro
 -   sn\_creatorstudio.app\_configurator
 -   sn\_creatorstudio.reports\_viewer
 
-For more information on working with granular roles, see .
+For more information on working with granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/granular-admin-roles.md).
 
 </td></tr><tr><td>
 

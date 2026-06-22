@@ -35,15 +35,15 @@ Build Agent supports the following tool creation:
     -   \*SubFlow
     -   WebSearch
 -   Agents:
-    -   Catalog item: For more information, see .
-    -   Conversational topic: For more information, see .
-    -   Flow action: For more information, see .
-    -   Now Assist Skill: For more information, see .
-    -   Record operations: For more information, see .
-    -   Script: For more information, see .
-    -   \*\*Search retrieval: For more information, see .
-    -   Subflow: For more information, see .
-    -   WebSearch: For more information, see .
+    -   Catalog item: For more information, see [Add a catalog item to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-catalog-ai-agent.md).
+    -   Conversational topic: For more information, see [Add a conversational topic to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-va-topic-ai-agent.md).
+    -   Flow action: For more information, see [Add a flow action to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-flow-action-ai-agent.md).
+    -   Now Assist Skill: For more information, see [Add a Now Assist skill to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-skill-ai-agent.md).
+    -   Record operations: For more information, see [Add a record operation to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-database-op-ai-agent.md).
+    -   Script: For more information, see [Add a script to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-script-ai-agent.md).
+    -   \*\*Search retrieval: For more information, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-retriever-ai-agent.md).
+    -   Subflow: For more information, see [Add a subflow to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-sub-flow-ai-agent.md).
+    -   WebSearch: For more information, see [Add a web search to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-web-search-ai-agent.md).
 
 **Note:**
 

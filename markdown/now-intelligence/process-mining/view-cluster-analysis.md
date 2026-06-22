@@ -71,7 +71,7 @@ You can use a treemap visualization to help you better understand different aspe
 
 \[Omitted image "clustering-treemap-new.png"\] Alt text: Clustering treemap
 
-For additional information on using a treemap, see Create and train a clustering solution.
+For additional information on using a treemap, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 **Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
 

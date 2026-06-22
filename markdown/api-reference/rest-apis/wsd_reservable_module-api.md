@@ -20,7 +20,7 @@ A reservable module groups similar types of workplace items. Employees can view 
 
 To access this API, the caller must have the sn\_wsd\_core.workplace\_user role and the Workplace Reservation Management \(sn\_wsd\_rsv\) plugin must be activated. This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see .
+For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -98,7 +98,7 @@ Only available if the Space Management \(sn\_wsd\_spc\_mgmt\_neighborhood\) plug
 
 Sys\_id of the neighborhood record to use in the encoded query.
 
-For additional information on neighborhood space reservations, see .
+For additional information on neighborhood space reservations, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
 
  The endpoint checks if the neighborhood is valid and then retrieves the data required for the browse-by-neighborhood path.
 
@@ -1036,7 +1036,7 @@ result.reservable\_quantity\_field
 
 </td><td id="reservable_quantity_field-reserv_mod-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.md).Data type: String
 
 </td></tr><tr id="reservable_table-reserv_mod-row"><td>
 

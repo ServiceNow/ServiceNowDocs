@@ -39,7 +39,7 @@ Add required skills to each standard. This step creates a clear set of qualifica
 
 ## Activate Skills Management plugin
 
-This capability depends on having the Skills Management plugin \[com.snc.skills\_management\] enabled. To learn more about it, see .
+This capability depends on having the Skills Management plugin \[com.snc.skills\_management\] enabled. To learn more about it, see [Exploring Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/exploring-skills-management.md).
 
 **Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
 

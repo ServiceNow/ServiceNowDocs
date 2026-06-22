@@ -18,9 +18,9 @@ Use the Monitor engagement health agentic workflow to monitor the health score o
 
 ## Monitor engagement health agentic workflow overview
 
-Customer success managers can monitor the health score of up to 10 active engagements and summarize the health trend for the past 6 weeks. Each metric used to calculate the health score is monitored, and if a declining pattern is detected, a risk signal or a risk occurrence \(for an existing risk signal\) is generated. A summary indicating the number of risk signals created and the health score range is generated. The Monitor engagement health agentic workflow is triggered weekly based on a predefined schedule and the results are displayed in the .
+Customer success managers can monitor the health score of up to 10 active engagements and summarize the health trend for the past 6 weeks. Each metric used to calculate the health score is monitored, and if a declining pattern is detected, a risk signal or a risk occurrence \(for an existing risk signal\) is generated. A summary indicating the number of risk signals created and the health score range is generated. The Monitor engagement health agentic workflow is triggered weekly based on a predefined schedule and the results are displayed in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
-You can view the risk signals and occurrences that have been created by navigating to the Risk signals page. For risks created using the agentic workflow, the following field values are displayed:
+You can view the risk signals and occurrences that have been created by navigating to the [Risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-create-risk-signal.md) page. For risks created using the agentic workflow, the following field values are displayed:
 
 -   Category: Health declined
 -   Creation method: AI generated
@@ -28,7 +28,7 @@ You can view the risk signals and occurrences that have been created by navigati
 **Note:**
 
 -   To run the agentic workflow as a scheduled job, you must activate the Monitor engagement health flow. See  for details.
--   The agentic workflow monitors only the engagements for which **AI Health Monitor** flag has been enabled. Each customer success manager can enable a maximum of 10 engagements. For instructions on enabling this flag, see .
+-   The agentic workflow monitors only the engagements for which **AI Health Monitor** flag has been enabled. Each customer success manager can enable a maximum of 10 engagements. For instructions on enabling this flag, see [Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-create-engage.md).
 -   By default, the health score of each individual metric is monitored. If you want to monitor only the overall health score across all engagements, update the **sn\_cust\_succ\_ai\_agent\_enable\_health\_monitor\_metrics** system property by following these steps:
     -   Navigate to **All** and enter **sys\_properties.LIST** in the search field.
     -   Select the **sn\_cust\_succ\_ai\_agent\_enable\_health\_monitor\_metrics** property.
@@ -49,7 +49,7 @@ You can view the risk signals and occurrences that have been created by navigati
         -   Max: 60
         -   Color: Red
         -   Category: Poor
-    For more details on configuring the color banding table, see .
+    For more details on configuring the color banding table, see [Set up the color banding table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-color-banding.md).
 
 
 ## AI agents used in the Monitor engagement health agentic workflow

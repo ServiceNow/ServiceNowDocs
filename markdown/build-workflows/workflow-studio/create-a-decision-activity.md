@@ -112,7 +112,7 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
 
     2.  Select the **Add Condition** button.
 
-        The condition builder displays.
+        The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) displays.
 
         **Note:** Branches can only be added in the side panel.
 

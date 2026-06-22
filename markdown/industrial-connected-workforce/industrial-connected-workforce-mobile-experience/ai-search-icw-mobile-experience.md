@@ -27,7 +27,7 @@ The search returns the following result types.
     **Note:** The task type 'root cause analysis' isn’t supported in AI Search on mobile.
 
 
-To learn more about the AI Search capability, see ..
+To learn more about the AI Search capability, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md).
 
 **Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
 

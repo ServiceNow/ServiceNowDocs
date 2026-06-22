@@ -28,7 +28,7 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d448543e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d446882e86">
 
 **Key Management Framework**
 
@@ -42,7 +42,7 @@ Checks for valid certificates in the sys\_certificate table.
 
 Checks the status and setup of the PKI used between instances for secure communication.
 
-</td></tr><tr><td id="d448543e115">
+</td></tr><tr><td id="d446882e115">
 
 **IDR Scheduled Jobs**
 
@@ -56,7 +56,7 @@ Checks the Scheduled Job \[sysauto\] table for duplicate entries or missing jobs
 
 Checks the Schedule Item \[sys\_trigger\] table for duplicate entries or missing jobs.
 
-</td></tr><tr><td id="d448543e146">
+</td></tr><tr><td id="d446882e146">
 
 **Hermes**
 

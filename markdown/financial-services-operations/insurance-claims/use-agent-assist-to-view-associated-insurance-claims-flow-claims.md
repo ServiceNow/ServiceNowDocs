@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
 
-<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51793e103">
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51562e103">
 
 Option
 
-</th><th align="left" id="d51793e106">
+</th><th align="left" id="d51562e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51793e112">
+</th></tr></thead><tbody><tr><td id="d51562e112">
 
 **From the case playbook**
 
@@ -50,7 +50,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d51793e136">
+</td></tr><tr><td id="d51562e136">
 
 **From the Insurance claim adjuster tasks list**
 
@@ -63,6 +63,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see .
+    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/agent-assist-configurable-workspace.md).
 
 

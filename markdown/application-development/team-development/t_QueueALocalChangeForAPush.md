@@ -36,7 +36,7 @@ Role required: none
 
     This step is a recommended best practice.
 
-<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d62863e118">
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d62802e118">
 
 **To remove changes from the queue**
 
@@ -44,7 +44,7 @@ Role required: none
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
 
-</td></tr><tr><td id="d62863e136">
+</td></tr><tr><td id="d62802e136">
 
 **To remove changes from the queue and choose to ignore them instead**
 

@@ -18,7 +18,7 @@ Generate content with Now Assist for CWM directly in your Docs using custom prom
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -36,15 +36,15 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
 3.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d98750e128">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d97728e129">
 
 Choice
 
-</th><th align="left" id="d98750e131">
+</th><th align="left" id="d97728e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d98750e137">
+</th></tr></thead><tbody><tr><td id="d97728e138">
 
 **Work with content of the whole page**
 
@@ -60,7 +60,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d98750e185">
+</td></tr><tr><td id="d97728e186">
 
 **Refine, elaborate, or improve the existing content within the page**
 
@@ -76,7 +76,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d98750e233">
+</td></tr><tr><td id="d97728e234">
 
 **Take assistance on a blank page**
 
@@ -93,7 +93,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
 
-</td></tr><tr><td id="d98750e280">
+</td></tr><tr><td id="d97728e281">
 
 **Answer questions in the context of this Doc**
 

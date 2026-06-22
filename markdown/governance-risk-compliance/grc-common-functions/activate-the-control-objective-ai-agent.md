@@ -52,7 +52,7 @@ Install the Now Assist for Integrated Risk Management \(IRM\) plugin \(sn\_irm\_
 
 ## What to do next
 
-Use the **Testing** playground to  using example utterances.
+Use the **Testing** playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/test-ai-agent.md) using example utterances.
 
-If not done already, set up the Now Assist panel. For more information see, .
+If not done already, set up the Now Assist panel. For more information see, [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 

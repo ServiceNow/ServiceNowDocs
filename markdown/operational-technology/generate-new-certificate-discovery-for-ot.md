@@ -38,15 +38,15 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
     **Note:** You're not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29513e113">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29514e113">
 
 Option
 
-</th><th align="left" id="d29513e116">
+</th><th align="left" id="d29514e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29513e122">
+</th></tr></thead><tbody><tr><td id="d29514e122">
 
 **Generate a new bundle**
 
@@ -56,7 +56,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d29513e149">
+</td></tr><tr><td id="d29514e149">
 
 **Upload an existing bundle**
 
@@ -68,7 +68,7 @@ Description
 4.  Select the **Upload Bundle** button.
 
 
-</td></tr><tr><td id="d29513e188">
+</td></tr><tr><td id="d29514e188">
 
 **Download Console Certificate Bundle \(.zip\)**
 

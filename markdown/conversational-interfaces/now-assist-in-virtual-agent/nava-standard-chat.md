@@ -68,13 +68,13 @@ While the LLM processes the utterance, an animated avatar appears alongside late
 </td></tr></tbody>
 </table>## Chatting with the Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see  and .
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md) and [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md).
 
 If multiple results are found, they are presented to users, and users can view inline citations and/or the Sources section at the bottom of the synthesized response. Users can view Knowledge Base articles, Virtual Agent topics, subflows or actions, external content, people citations, and complete catalog request items. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled. Users can follow up on a synthesized response and receive an answer that considers the previous context. For example, if you previously were chatting about the company's travel policy and then enter `International`, the system recognizes that you’re wanting additional information on the company's international travel policy.
 
 **Note:** For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
-Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in .
+Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, Knowledge Base articles, attachments, external content, and people sources. The following citations may appear inline and/or within the expandable Sources section depending on what search results are returned:
 
@@ -102,7 +102,7 @@ If you need more help, Now Assist in Virtual Agent directs you to either a live 
 
 If you entered a single message with multiple questions or requests, a **Ready to move on to your next task?** card appears. For example, a response like `Order a loaner laptop and also what is spam?` When you select the **Continue to next task** button on the **Ready to move on to your next task?** card, Virtual Agent searches for a response to your second question or request. In this example, Virtual Agent would search for an answer to your `what is spam?` question.
 
-For information about configuring a Now Assist skill, see .
+For information about configuring a Now Assist skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 
 ## Agentic conversations
 
@@ -130,7 +130,7 @@ The **\[Asset's name\]** option appears, and if selected, the asset flow begins 
 
 The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\). These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see .
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/access-knowledge-graph-designer.md).
 
 ## External content connections citations
 
@@ -145,7 +145,7 @@ If external search sources are added to your information sources when [Configuri
 -   ServiceNow® documentation
 -   Slack
 
-For more information about external content connections, see .
+For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
 
 \[Omitted image "NAinVA-external-search-source-citation.png"\] Alt text: Response from external content with link to its source.
 
@@ -157,7 +157,7 @@ Information about people in your organization can be found if you have activated
 
 Selecting the person's inline numbered citation presents a popover. The information in the popover can include the following information:
 
-**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see .
+**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
 
 -   Manager
 -   Location

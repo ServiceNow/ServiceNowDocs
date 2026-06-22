@@ -85,7 +85,7 @@ Role required: admin
 
     **Note:**
 
-    For information on how the archival rules are created, see .
+    For information on how the archival rules are created, see [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
 4.  Select an archival rule.
 

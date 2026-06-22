@@ -24,11 +24,11 @@ Choose one of the following tiles to learn more about the different applications
 
 <table id="table_odc_qmb_kgc" class="nav-card"><tbody><tr><td>
 
-Supplier Lifecycle Operations\[Omitted image "bus-meetings.svg"\] Alt text:Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.
+[Supplier Lifecycle Operations\[Omitted image "bus-meetings.svg"\] Alt text:Learn more about Supplier Lifecycle Operations to create collaboration with suppliers, mitigate risks, and monitor compliance and performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)
 
 </td><td>
 
-Accounts Payable Operations\[Omitted image "bus-compliance.svg"\] Alt text:Learn more about Accounts Payable Operations to manage invoices, invoice exceptions, approvals, and supplier inquiries.
+[Accounts Payable Operations\[Omitted image "bus-compliance.svg"\] Alt text:Learn more about Accounts Payable Operations to manage invoices, invoice exceptions, approvals, and supplier inquiries.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 
 </td></tr></tbody>
 </table>Find a breakdown of the supported features in CBS within the mentioned applications.
@@ -49,5 +49,5 @@ For more information, see [Raise an invoice request](https://raw.githubuserconte
 
 ## Workflows and applications
 
-
+[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/finance-supply-chain-landing.md)
 

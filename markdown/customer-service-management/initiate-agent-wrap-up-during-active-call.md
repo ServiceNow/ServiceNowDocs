@@ -29,7 +29,7 @@ Agents handling complex or sensitive calls can use this feature to record contex
 
 Agent-initiated wrap-up is available when the ICC for voice is integrated and the CCaaS administrator has configured and enabled the feature in the ServiceNow instance.
 
-For more information, see  and .
+For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md) and [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
 
 ## Benefits
 

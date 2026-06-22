@@ -54,5 +54,5 @@ if(curNum) {
 **Related topics**  
 
 
-[bundle-crapiref.c_BusinessRules]
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
 

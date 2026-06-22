@@ -51,7 +51,7 @@ To manually schedule assessment and validation tasks from the model risk record,
     |Table|Table that the workflow setting applies to. This field is automatically set to **Model Risk**.|
     |Priority|Priority level for this workflow setting. If multiple workflow settings match the same conditions, the system uses the one with the highest priority.|
     |Active|Option to activate the workflow setting. When active, the defined scheduling rules and frequencies are applied to the filtered models.|
-    |Filter condition|Conditions that determine which model records the workflow applies to. Select **Set conditions** to choose filter criteria. For more information, refer to .|
+    |Filter condition|Conditions that determine which model records the workflow applies to. Select **Set conditions** to choose filter criteria. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).|
 
 5.  Select **Save**.
 

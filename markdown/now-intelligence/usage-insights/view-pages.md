@@ -16,7 +16,7 @@ breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 
 The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
 
-The analogous module for mobile applications is Screens. For more information, see .
+The analogous module for mobile applications is Screens. For more information, see [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-analytics.md).
 
 \[Omitted image "uxa-web-page-details2.png"\] Alt text: UXA Web Page details page with data visualizations for sessions, views, and durations and bar visualizations of preceding and succeeding pages
 

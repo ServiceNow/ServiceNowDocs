@@ -23,7 +23,7 @@ Implement the following steps to complete the configuration:
 3.  Article templates: Predefined forms provide a consistent content structure by enabling authors to create articles using standard fields such as Problem and Solution. Select **Review** to start reviewing the article templates.
 4.  Add knowledge base articles: Create and manage knowledge articles to continuously enhance the self-service knowledge base. Select **Import articles** to start importing the knowledge base articles.
 
-See  for more information.
+See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/knowledge-center.md) for more information.
 
 **Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/ia-config-platform-il.md)
 

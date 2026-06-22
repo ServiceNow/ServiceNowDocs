@@ -54,7 +54,7 @@ Forecast Method
 
 Method used to generate forecasting data.-   Auto
 
-By default, the instance chooses the best method for you automatically, based on the fit of the method. For more information, see .
+By default, the instance chooses the best method for you automatically, based on the fit of the method. For more information, see [Automatic selection of forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 -   Linear
 
@@ -80,7 +80,7 @@ Creates a combination of decision trees where the predictions produced by these 
 
 The autoregressive \(AR\) model forecasts future values of an indicator by using a linear combination of a trend, seasonal dummies, and past values. Like the Random Forest \(RF\) model, the AR model checks for the best number of lags. However, the AR model relates current to past values linearly, whereas the RF model is non-linear.
 
-For more information, see .
+For more information, see [Forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 

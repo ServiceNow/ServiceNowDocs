@@ -102,8 +102,8 @@ References
 
 </td><td>
 
--   
--   
+-   [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/system-clone-landing.md)
+-   [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateACloneTarget.md)
 
 </td></tr><tr><td>
 

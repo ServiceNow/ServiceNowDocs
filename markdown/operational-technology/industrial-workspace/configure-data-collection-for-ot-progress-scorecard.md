@@ -47,7 +47,7 @@ If you don't run the \[PA OTPSC\] Monthly Data Collection job, then no data is a
 
 The OT Progress Scorecard is now showing the correct site data for your users.
 
-**Note:** The OT Progress Scorecard uses Performance Analytics. Performance Analytics only saves the scores for 5 months. If want to preserve your scores and compare site data for more than 5 months, see .
+**Note:** The OT Progress Scorecard uses Performance Analytics. Performance Analytics only saves the scores for 5 months. If want to preserve your scores and compare site data for more than 5 months, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 **Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

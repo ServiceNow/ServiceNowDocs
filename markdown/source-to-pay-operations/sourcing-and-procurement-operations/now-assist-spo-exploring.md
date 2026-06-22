@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Explore Now Assist for Sourcing and Procurement Operations]
 breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance an
 
 Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 ## Overview of Now Assist for Sourcing and Procurement Operations \(SPO\)
 
@@ -78,13 +78,13 @@ For guidance on using these capabilities in Now Assist for SPO, see [Use Now Ass
 
 Now Assist for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
-For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see .
+For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
-To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see .
+To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
 
-During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see .
+During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
-Domain separation is supported for Now Assist in Virtual Agent. For more information, see .
+Domain separation is supported for Now Assist in Virtual Agent. For more information, see [Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.md).
 
 -   **[Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.

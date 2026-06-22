@@ -18,9 +18,9 @@ Access alert information in Express List that is consolidated autonomously by AI
 
 ## Before you begin
 
-For this feature, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see .
+For this feature, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
-Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
@@ -52,15 +52,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d127333e212">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d125249e213">
 
 Review AI insights
 
-</th><th align="left" id="d127333e215">
+</th><th align="left" id="d125249e216">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d127333e221">
+</th></tr></thead><tbody><tr><td id="d125249e222">
 
 **Check for the AI Insights badge for alert status**
 
@@ -70,7 +70,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d127333e244">
+</td></tr><tr><td id="d125249e245">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -78,7 +78,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d127333e260">
+</td></tr><tr><td id="d125249e261">
 
 **Filter using AI Insights filter attribute**
 
@@ -86,7 +86,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d127333e279">
+</td></tr><tr><td id="d125249e280">
 
 **Review AI insights in the preview panel**
 
@@ -97,7 +97,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d127333e322">
+</td></tr><tr><td id="d125249e323">
 
 **Review AI Insights in the alert record overview**
 

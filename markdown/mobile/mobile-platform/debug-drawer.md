@@ -51,15 +51,15 @@ Debug drawer displayed with screen data
 
 3.  Choose from the following option to either enable or disable the debug drawer option.
 
-<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d110553e122">
+<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d110580e122">
 
 Option
 
-</th><th align="left" id="d110553e125">
+</th><th align="left" id="d110580e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d110553e131">
+</th></tr></thead><tbody><tr><td id="d110580e131">
 
 **Enable debug drawer**
 
@@ -72,7 +72,7 @@ The **Debug Drawer** option displays in the settings page.
 2.  Enable **Debug Drawer**, to display the debug drawer on each screen.
 
 
-</td></tr><tr><td id="d110553e160">
+</td></tr><tr><td id="d110580e160">
 
 **Disable debug drawer**
 

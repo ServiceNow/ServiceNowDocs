@@ -63,7 +63,7 @@ OT Editor \[cmdb\_ot\_editor\]
 
 </td><td>
 
-Create, read, update, and delete access for Operation Technology \(OT\) extension classes.**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and can't edit IT CIs.
+Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and can't edit IT CIs.
 
 </td></tr></tbody>
 </table>There are also restrictions on OT users who can edit or delete IT configuration items \(CIs\). Users assigned the **cmdb\_ot\_editor** role or the **cmdb\_ot\_admin** role can’t edit or delete IT CIs in the following related lists:

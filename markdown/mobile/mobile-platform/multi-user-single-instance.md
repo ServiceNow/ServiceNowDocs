@@ -32,7 +32,7 @@ To enable multiple users to securely log into a single account on a ServiceNow a
 
 The instructions for each of these configurations are listed in the topic [Configure multiple users to use a shared device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/multi-user-create.md).
 
-**Note:** When using SSO login with a shared device, you must set the SingleLogoutRequest service URL. For more information, see .
+**Note:** When using SSO login with a shared device, you must set the SingleLogoutRequest service URL. For more information, see [Set the SingleLogoutRequest service URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetTheSingleLogoutRequestSvcURL.md).
 
 The following optional properties can also be used with this feature:
 

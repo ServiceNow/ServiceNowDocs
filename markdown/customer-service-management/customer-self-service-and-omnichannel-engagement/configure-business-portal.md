@@ -68,5 +68,5 @@ For details, see [Activate the Consumer and Customer Service Portals](https://ra
 **Related topics**  
 
 
-[bundle-platux.c_ServicePortal]
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 

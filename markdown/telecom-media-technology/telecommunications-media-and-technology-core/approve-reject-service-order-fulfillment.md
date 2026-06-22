@@ -38,7 +38,7 @@ The Post Upgrade Script performs required order management table reparenting and
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see Migrate to Configurable Workspace.
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-to-configurable-workspace.md).
 
     If you have an assigned Service Order Manager or Service Order Agent role, the Service Order Management workspace appears. If the Service Order Management workspace doesn't appear, do the following actions:
 
@@ -47,7 +47,7 @@ The Post Upgrade Script performs required order management table reparenting and
 
         -   To view all service orders, click **All**.
         -   To view only open, unfulfilled service orders, click **Open**.
-        **Note:** To learn more about creating or updating service order details, see .
+        **Note:** To learn more about creating or updating service order details, see [Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/creating-orders-som.md).
 
     3.  Select the service order that you want to review, verify, and approve:
         -   To refresh the form, click the refresh icon \[Omitted image "form-refresh.png"\] Alt text:.
@@ -58,15 +58,15 @@ The Post Upgrade Script performs required order management table reparenting and
 
 4.  To approve or reject fulfillment of a service order in a New state, perform one of the following actions.
 
-<table id="choicetable_hrn_21f_5rb"><thead><tr><th align="left" id="d38664e206">
+<table id="choicetable_hrn_21f_5rb"><thead><tr><th align="left" id="d38764e207">
 
 Action
 
-</th><th align="left" id="d38664e209">
+</th><th align="left" id="d38764e210">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38664e215">
+</th></tr></thead><tbody><tr><td id="d38764e216">
 
 **Approve a customer or service order for fulfillment**
 
@@ -80,7 +80,7 @@ When you approve an order for fulfillment, the following actions take place:
 -   The **Revision Operation** field is set to None.
 **Note:** You must have an sn\_ind\_tmt\_orm.order\_fulfillment\_manager role.
 
-</td></tr><tr><td id="d38664e258">
+</td></tr><tr><td id="d38764e259">
 
 **Reject a customer or service order for fulfillment**
 

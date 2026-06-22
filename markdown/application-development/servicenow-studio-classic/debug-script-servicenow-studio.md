@@ -30,7 +30,7 @@ Role required: admin or delegated\_developer
 
 3.  Use the Script Debugger to debug scripts.
 
-    Some tabs and features are role-dependent. For more information, see .
+    Some tabs and features are role-dependent. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
 
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)

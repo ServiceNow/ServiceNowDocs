@@ -36,15 +36,15 @@ For details on read only options, see [Configuring read-only security options](h
 
     The option that you select determines how strict the system treats the security of read-only values once they've been entered. Each option displays the field as read-only in the UI.
 
-<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d106427e109">
+<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d106522e109">
 
 Option
 
-</th><th align="left" id="d106427e112">
+</th><th align="left" id="d106522e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106427e118">
+</th></tr></thead><tbody><tr><td id="d106522e118">
 
 **__Display Read Only__**
 
@@ -52,7 +52,7 @@ Description
 
 Allows changes to the read-only field through client scripts and server-side operations such as **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d106427e140">
+</td></tr><tr><td id="d106522e140">
 
 **__Client Script Modifiable__**
 
@@ -60,7 +60,7 @@ Allows changes to the read-only field through client scripts and server-side ope
 
 Allows changes to the read-only field through client scripts but not through background scripts or server-side APIs like **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d106427e162">
+</td></tr><tr><td id="d106522e162">
 
 **__Strict Read Only__**
 

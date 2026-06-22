@@ -26,12 +26,12 @@ Virtual NetScaler load balancers are not fully supported. Discovery supports loc
 
 ## Credentials
 
--   Configure SNMP credentials. The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
+-   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md). The SNMP community string requires read-only access to the Citrix NetScaler MIB \(`1.3.6.1.4.1.5951`\).
 
-    **Note:** You also have the option of using SSH credentials. The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+    **Note:** You also have the option of using [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md). The SSH user requires permission to run NetScaler `show` commands only. However, if the payload size of the data that's returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) When using the NS.CONF pattern, provide a user with read-only access to the **NS.conf** configuration file if you don't want to provide SNMP or SSH credentials.
--   Use basic authentication credentials for discovery via REST. Configure the credential as a credential alias. The NITRO API user requires read-only access to the following resources:
+-   Use [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) credentials for discovery via REST. Configure the credential as a [credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md). The NITRO API user requires read-only access to the following resources:
     -   `lbvserver`
     -   `csvserver`
     -   `service`

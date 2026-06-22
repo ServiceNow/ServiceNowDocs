@@ -18,11 +18,11 @@ Use the Now Assist Admin console to configure and activate the generative AI ski
 
 ## Configuration overview
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy and reduce hallucinations for your activated Now Assist skills.
 
-Use the Now Assist Admin console to configure Now Assist for Threat Intelligence Security Center. This console contains everything to install the applications and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Threat Intelligence Security Center. This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-na-landing.md).
 
 To configure Now Assist for Threat Intelligence Security Center, complete the following tasks:
 

@@ -34,5 +34,5 @@ Some features in ServiceNow Studio become available only after you create a scop
 
 To get started, select **Create** and create your scoped app. On the App details page, select **Create** to create metadata files and associate them to your app.
 
-After you create your application, return to the ServiceNow Studio home page and refresh the browser. The Search bar and **Create** &gt; **App/File** options are now available for scoped application development. For more information about roles, see .
+After you create your application, return to the ServiceNow Studio home page and refresh the browser. The Search bar and **Create** &gt; **App/File** options are now available for scoped application development. For more information about roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 

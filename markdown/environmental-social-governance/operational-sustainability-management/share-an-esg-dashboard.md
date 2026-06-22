@@ -7,7 +7,7 @@ release: australia
 product: Operational Sustainability Management
 classification: operational-sustainability-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -48,7 +48,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22784e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22607e123">
 
 **Add as viewer**
 
@@ -56,7 +56,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d22784e132">
+</td></tr><tr><td id="d22607e132">
 
 **Add as editor**
 

@@ -18,11 +18,11 @@ Configure Now Assist for Accounts Payable Operations so that AP fulfillers can u
 
 ## APO configuration overview
 
--   
+-   [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md)
 
     Use the Now Assist Admin console to configure APO. This console contains everything that you need to install the plugin \[sn\_ap\_gen\_ai\] and configure the generative AI skills.
 
--   See the  topic.
+-   See the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-na-landing.md) topic.
 
     Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
 

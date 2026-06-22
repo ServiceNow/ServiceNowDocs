@@ -63,5 +63,5 @@ The **SIR Dashboards** icon displayed on the left side of the workspace home pag
     \[Omitted image "dashboard-drop-down.png"\] Alt text: Selecting the Security Incident Explorer Dashboard.
 
 
-You can edit the dashboards, add new elements to the dashboards, and create your own dashboards. For more information on how to use dashboards, see Working with responsive dashboards
+You can edit the dashboards, add new elements to the dashboards, and create your own dashboards. For more information on how to use dashboards, see [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ResponsiveDashboards.md)
 

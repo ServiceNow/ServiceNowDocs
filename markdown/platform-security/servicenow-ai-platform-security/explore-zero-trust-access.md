@@ -57,5 +57,5 @@ Zero Trust Access - Session Access mobile can be enabled by enabling the **glide
 
 To use Zero Trust Access - Session Access mobile with the IDP attributes you can configure the **glide.authenticate.session\_access.mobile.refresh\_token\_interval** field. This enables the administrators to effectively control the session access based on refresh token.
 
-For more information, see .
+For more information, see [Configure Zero Trust Access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/configure-zero-trust-access-mobile.md).
 

@@ -26,7 +26,7 @@ The AI Assets Inventory API requires the sn\_ai\_governance.integration.rest rol
 
 This API belongs to the sn\_ai\_governance namespace.
 
-See  for more information about managing AI assets inventory in the AI Control Tower.
+See [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-inventory.md) for more information about managing AI assets inventory in the [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 

@@ -8,7 +8,7 @@ product: Financial Services
 classification: financial-services
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -36,7 +36,7 @@ The following image shows an example workflow of a CSR working on a customer int
 
 \[Omitted image "agentic-contact-center-banking-workflow.png"\] Alt text: Flowchart showing the agentic contact center workflow for banking customer service interactions.
 
-1.  A customer calls the bank's contact center. An integrated CCaaS routes the call to the human CSR agent. For more information, see .
+1.  A customer calls the bank's contact center. An integrated CCaaS routes the call to the human CSR agent. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md).
 2.  When the CSR accepts the call, the **Interaction** page opens. The customer's details are displayed, and the CSR immediately receives an AI-generated summary of the call based on what has been collected up to that point via the IVR or Voice AI agent. This gives the CSR immediate context before the conversation with the customer begins.
 3.  A live transcript of the call is captured and updated continuously throughout the interaction, and serves as the primary input for the AI agent's real-time assistance.
 
@@ -46,7 +46,7 @@ The following image shows an example workflow of a CSR working on a customer int
 
 5.  CSRs can also ask their own questions at any time by typing into the Now Assist panel. For example, they may look up recent account transactions, check product eligibility criteria, or retrieve policy information.
 6.  At any point during or outside of an active call, a CSR can open the **Customer 360** page by selecting the customer's name from the Interaction page or searching for the customer. The Customer 360 page opens in a separate tab and provides a comprehensive view of the customer's profile and financial relationship with the bank. For more information about the Customer 360 page, see [Customer 360 page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/customer-360-agentic-contact-center-for-banking.md).
-7.  When the call concludes, a wrap-up summary dialog displays with configured wrap-up codes. The agent can select a code and submit the wrap-up using an AI-generated call summary. For more information, see .
+7.  When the call concludes, a wrap-up summary dialog displays with configured wrap-up codes. The agent can select a code and submit the wrap-up using an AI-generated call summary. For more information, see [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md).
 
 ## Agentic Contact Center for Banking benefits
 

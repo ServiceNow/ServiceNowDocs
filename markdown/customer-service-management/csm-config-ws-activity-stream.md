@@ -28,8 +28,8 @@ The Activity Stream component is configured and customized by admins in UI Build
 
 ## Additional information
 
-For more information about working with the activity stream, see the following topics in the Configurable Workspace UI documentation:
+For more information about working with the activity stream, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) documentation:
 
--   Administering Activity stream for Configurable Workspace
--   Using the Activity stream in Configurable Workspace
+-   [Administering Activity stream for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/administer-activity-stream-configurable-workspace.md)
+-   [Using the Activity stream in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/using-activity-stream-configurable-workspace.md)
 

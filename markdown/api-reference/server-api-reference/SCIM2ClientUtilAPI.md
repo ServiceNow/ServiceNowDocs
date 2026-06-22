@@ -18,7 +18,7 @@ The SCIM2ClientUtil API provides utility methods to obtain the unique identifier
 
 This API runs in the `sn_auth` namespace and requires the SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin to be installed to access the API.
 
-For additional information on SCIM, see System for Cross-domain Identity Management \(SCIM\).
+For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
@@ -28,7 +28,7 @@ Returns the unique identifier of a specified resource from a specified external 
 
 This API is useful when mapping ServiceNow fields to SCIM fields where the resource identifier in the external provider system is needed. Before calling this method, a unique field must be defined for the resource in the system attribute map, located in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping \] table.
 
-For additional information on provider resource mapping, see .
+For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
 
 <table id="table_j21_ks5_ctb" class="parameters"><thead><tr><th>
 
@@ -140,7 +140,7 @@ Returns the unique identifier of a specified resource from a specified external 
 
 This API is useful when mapping ServiceNow fields to SCIM fields where the resource identifier in the external provider system is needed. Before calling this method, a unique field must be defined for the resource in the system attribute map, located in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping\] table.
 
-For additional information on provider resource mapping, see .
+For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
 
 <table id="table_rks_rd5_ctb" class="parameters"><thead><tr><th>
 

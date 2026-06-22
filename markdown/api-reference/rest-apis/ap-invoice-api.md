@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see .
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md).
 
 Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
@@ -25,7 +25,7 @@ Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/Serv
 -   Map the custom field to a payload entry in a specific format, such as JSON, cXML, or XML.
 -   Setting credentials for authentication when using cXML as the payload.
 
-You can apply a filter condition for invoice lines containing multiple ERPs. For information, see .
+You can apply a filter condition for invoice lines containing multiple ERPs. For information, see [Integration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.md).
 
 **Note:** The maximum default payload size is 100 records. This value is configurable in the **sn\_spend\_intg.ap.invoice.create.api.record\_limit** system property.
 
@@ -383,8 +383,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   
--   
+-   [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md)
+-   [Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)
 
 </td></tr><tr><td>
 
@@ -1031,7 +1031,7 @@ invoices.erp\_number
 
 </td><td>
 
-Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see .Target field: u\_erp\_number
+Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see [Purchase order integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/purchase-order-integration-2.md).Target field: u\_erp\_number
 
 Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
@@ -1059,7 +1059,7 @@ invoices. invoice\_copy\_attachment
 
 </td><td>
 
-List of attachments defined at the invoice level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -1180,7 +1180,7 @@ invoices.invoice\_lines. attachments
 
 </td><td>
 
-List of attachments defined at the invoice line level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice line level. See [Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -1287,8 +1287,8 @@ Maximum length: 40
 
 See also:
 
--   
--   
+-   [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md)
+-   [Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)
 
 </td></tr><tr><td>
 
@@ -1916,7 +1916,7 @@ invoices.target\_erp
 
 </td><td>
 
-ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See .Data type: String
+ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -1924,7 +1924,7 @@ invoices. supporting\_attachments
 
 </td><td>
 
-List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 Data type: Array of Objects
 
@@ -3268,7 +3268,7 @@ Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
 </td><td>
 
-List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 </td></tr><tr><td>
 
@@ -3316,7 +3316,7 @@ This value is always `base64`.
 
 </td><td>
 
-List of attachments defined at the invoice level. See .Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
 
 </td></tr><tr><td>
 
@@ -3442,8 +3442,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   
--   
+-   [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source.md)
+-   [Ledger account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ledger-account.md)
 
 </td></tr><tr><td>
 

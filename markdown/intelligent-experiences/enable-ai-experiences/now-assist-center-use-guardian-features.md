@@ -40,7 +40,7 @@ Now Assist Guardian provides safety and governance controls for AI-generated con
 
 In Now Assist Center, the integration of Now Assist Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
 
-For more information on Now Assist Guardian, see .
+For more information on Now Assist Guardian, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/now-assist-guardian.md).
 
 ## Procedure
 
@@ -54,15 +54,15 @@ For more information on Now Assist Guardian, see .
 
     Now Assist Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d32073e225">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d32156e226">
 
 Guardrail
 
-</th><th align="left" id="d32073e228">
+</th><th align="left" id="d32156e229">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32073e234">
+</th></tr></thead><tbody><tr><td id="d32156e235">
 
 **Prompt injection detection**
 
@@ -72,9 +72,9 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  Select **Prompt injection** to open the Prompt injection tab.
 
- For more information on how to configure this guardrail, see .
+ For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d32073e258">
+</td></tr><tr><td id="d32156e260">
 
 **Offensiveness detection**
 
@@ -84,9 +84,9 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  Select **Offensiveness** to open the Offensiveness tab.
 
- For more information on how to configure this guardrail, see .
+ For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d32073e285">
+</td></tr><tr><td id="d32156e288">
 
 **Sensitive topic filters**
 
@@ -96,7 +96,7 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
  Select **Sensitive Filters** to open the Filters tab.
 
- For more information on how to configure this guardrail, see .
+ For more information on how to configure this guardrail, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/configure-sensitive-topic-filters.md).
 
 </td></tr></tbody>
 </table>

@@ -28,7 +28,7 @@ Key aspects of the geotype data type are:
 
 **Note:** GlideGeoPoint API values are always listed in longitude, latitude order.
 
-The examples on this page assume that a custom table is pre-populated with fields containing the geopoint field type. For more information about this data type, see  and .
+The examples on this page assume that a custom table is pre-populated with fields containing the geopoint field type. For more information about this data type, see [Geo point field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/geo-point-field-type.md) and [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 

@@ -73,7 +73,7 @@ Change template to use to create the change request for this task.The system use
 </td></tr></tbody>
 </table>4.  Specify how to populate the **Owner** field for CIs in service accounts.
 
-<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d68245e202">
+<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d52917e202">
 
 **Assign insights\_owners only to CIs with no owner**
 
@@ -83,7 +83,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
  **Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d68245e223">
+</td></tr><tr><td id="d52917e223">
 
 **Assign insights\_owners to all CIs**
 
@@ -91,7 +91,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
 For the **Owner** property of every CI in the specified service accounts, assign the new insights\_owner.**Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d68245e241">
+</td></tr><tr><td id="d52917e241">
 
 **Do not update any CIs**
 

@@ -34,7 +34,7 @@ When a scheduled concurrent import runs, each concurrent import creates a concur
 
 3.  Reprocess or continue import sets, check the status of import sets or concurrent import set jobs, view transform history, or display a list of executions records by clicking one of the following related links.
 
-<table id="choicetable_m23_bsg_wfb"><tbody><tr><td id="d256890e85">
+<table id="choicetable_m23_bsg_wfb"><tbody><tr><td id="d251585e85">
 
 **Reprocess**
 
@@ -42,7 +42,7 @@ When a scheduled concurrent import runs, each concurrent import creates a concur
 
 Start another scheduled import to reprocess the records.
 
-</td></tr><tr><td id="d256890e94">
+</td></tr><tr><td id="d251585e94">
 
 **Continue**
 
@@ -50,7 +50,7 @@ Start another scheduled import to reprocess the records.
 
 Restart a scheduled import that is not complete.
 
-</td></tr><tr><td id="d256890e103">
+</td></tr><tr><td id="d251585e103">
 
 **Import Sets**
 
@@ -64,7 +64,7 @@ State of import sets.**State**
 -   **Error** if the import set processing failed.
  Select an import set to see processing details for Import Set Runs and Import Set Rows for the import set.
 
-</td></tr><tr><td id="d256890e142">
+</td></tr><tr><td id="d251585e142">
 
 **Concurrent Import Set Jobs**
 
@@ -81,7 +81,7 @@ Type and state of concurrent import set jobs:-   **Type**
     -   **Error** if the import set processing failed.
  Select an import set job to see processing details for Import Set Runs and Import Set Rows for the import set job.
 
-</td></tr><tr><td id="d256890e212">
+</td></tr><tr><td id="d251585e212">
 
 **Transform Histories**
 
@@ -89,7 +89,7 @@ Type and state of concurrent import set jobs:-   **Type**
 
 Check statistics in the transform histories for the scheduled import.Select a start time to see Import Set Row Errors \(including error codes and messages\) and the Import Log for the scheduled import.
 
-</td></tr><tr><td id="d256890e225">
+</td></tr><tr><td id="d251585e225">
 
 **Executions**
 

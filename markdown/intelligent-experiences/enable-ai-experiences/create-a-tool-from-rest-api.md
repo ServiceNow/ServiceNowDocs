@@ -20,7 +20,7 @@ Create a tool from REST APIs to expose it to Model Context Protocol \(MCP\) clie
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
-See  to learn more about creating REST APIs.
+See [Create a scripted REST API resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md) to learn more about creating REST APIs.
 
 ## Procedure
 

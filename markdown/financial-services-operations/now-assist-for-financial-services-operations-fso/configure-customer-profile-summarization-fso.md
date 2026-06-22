@@ -21,7 +21,7 @@ Configure the Customer Profile Summarization skill in Now Assist for FSO to enab
 Verify the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) is installed.
 
 -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
--   For information about the installation process, see .
+-   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 Role required: admin
 
@@ -56,7 +56,7 @@ The skill is activated.
 
 ## What to do next
 
-You can choose which service provider to use for this skill in the Now Assist Admin console.
+You can choose which service provider to use for this skill [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 **Parent Topic:**[Configure Financial Services Operations Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-fso-now-assist-skills.md)
 

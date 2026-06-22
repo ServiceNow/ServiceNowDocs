@@ -7,7 +7,7 @@ release: australia
 product: Security Operations
 classification: security-operations
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -70,7 +70,7 @@ Valid until
 
 </td><td>
 
-Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid cannot exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see Create a policy.
+Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid cannot exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Details that are related to the reason why this request is being made. This mand
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see Policy and Compliance optional setup.
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md).
 
 
 **Parent Topic:**[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/sem-configure-exp-mngmt-vr.md)

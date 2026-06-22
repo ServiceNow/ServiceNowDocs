@@ -113,15 +113,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Snowflake.
 
-<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d149969e254">
+<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d144657e254">
 
 Option
 
-</th><th align="left" id="d149969e257">
+</th><th align="left" id="d144657e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d149969e263">
+</th></tr></thead><tbody><tr><td id="d144657e263">
 
 **JWT**
 
@@ -148,7 +148,7 @@ and ends with:
 4.  Enter the role that determines your permissions within Snowflake.
 
 
-</td></tr><tr><td id="d149969e306">
+</td></tr><tr><td id="d144657e306">
 
 **OAuth**
 

@@ -40,15 +40,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d125032e103">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d125067e103">
 
 Option
 
-</th><th align="left" id="d125032e106">
+</th><th align="left" id="d125067e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125032e112">
+</th></tr></thead><tbody><tr><td id="d125067e112">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -58,7 +58,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d125032e139">
+</td></tr><tr><td id="d125067e139">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected

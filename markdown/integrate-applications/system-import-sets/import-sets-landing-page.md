@@ -21,7 +21,7 @@ Import sets enable administrators to import data from various data sources, and 
 
 **Explore**
 
- -   Upgrade to Washington DC
+ -   [Upgrade to Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
 
 </td><td>
@@ -64,7 +64,7 @@ Import sets enable administrators to import data from various data sources, and 
 
  -   [Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 -   [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
--   Apply CI Identification and Reconciliation to Import Sets
+-   [Apply CI Identification and Reconciliation to Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.md)
 -   [Importing from a Kafka environment with Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 
 </td></tr><tr><td>

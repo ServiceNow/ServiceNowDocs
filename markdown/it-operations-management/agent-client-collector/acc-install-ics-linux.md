@@ -25,7 +25,7 @@ Install MID-less Agent Client Collector on a Linux machine to enable sending dat
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see .
+For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

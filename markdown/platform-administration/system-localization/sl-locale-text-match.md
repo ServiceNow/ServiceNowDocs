@@ -61,7 +61,7 @@ There are several methods for controlling locale text matching in specific situa
 2.  URL parameter: sysparm\_locale\_txt\_match
     -   Where:
         -   Add `sysparm_locale_txt_match=true` or `sysparm_locale_txt_match=false` as an extra parameter in a URL.
-        -   Table API. For information see .
+        -   Table API. For information see [Explore the REST API for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/explore-rest-api-for-table.md).
     -   Use case: When the parameter is added, activate or deactivate locale text match \(case and accent sensitivity\) for queries that display data in platform lists.
 3.  Global property: com.glide.db.ui\_i18n\_locale\_text\_match
     -   Where: Create a property in sys\_properties, if it doesn't exist already.

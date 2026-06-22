@@ -36,7 +36,7 @@ The Data Foundations advisor dashboard must be configured before you can access 
 
 5.  Select the **Attribute coverage** link next to a suggested integration to view which CI attributes it supports for your principal classes.
 
-    **Note:** If an upgraded version of the integration is suggested, select **View available versions** to open the Application Manager, where users with the admin role can install or upgrade the integration to improve attribute coverage. For more information, see .
+    **Note:** If an upgraded version of the integration is suggested, select **View available versions** to open the Application Manager, where users with the admin role can install or upgrade the integration to improve attribute coverage. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
 
 
 ## Result

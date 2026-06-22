@@ -42,15 +42,15 @@ When converting quotes to orders, the covered product relationships are transfer
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d62449e147">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d62493e147">
 
 Covered product type
 
-</th><th align="left" id="d62449e150">
+</th><th align="left" id="d62493e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62449e156">
+</th></tr></thead><tbody><tr><td id="d62493e156">
 
 **Covered quote line item**
 
@@ -58,7 +58,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d62449e165">
+</td></tr><tr><td id="d62493e165">
 
 **Covered sold product**
 
@@ -66,7 +66,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d62449e177">
+</td></tr><tr><td id="d62493e177">
 
 **Covered install base item**
 

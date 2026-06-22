@@ -50,15 +50,15 @@ Role required: none
     -   Other Campuses
 6.  Perform one of the following options.
 
-<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d33238e205">
+<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d32826e205">
 
 Result
 
-</th><th align="left" id="d33238e208">
+</th><th align="left" id="d32826e208">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d33238e214">
+</th></tr></thead><tbody><tr><td id="d32826e214">
 
 **To see the space or user details**
 
@@ -68,7 +68,7 @@ Click the link for the space or user. The details for that user or space open in
 
  **Note:** If the location is a space, users and facilities staff can create facilities requests from the room information. See [Create a facility request from the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/service-management-legacy/t_CreateFacReqWorkbench.md).
 
-</td></tr><tr><td id="d33238e237">
+</td></tr><tr><td id="d32826e237">
 
 **To see the location of the space or user on the floor plan**
 

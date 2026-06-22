@@ -39,15 +39,15 @@ To learn more about the nature and benefits of hybrid search, see [Hybrid search
 
 3.  If you don't see the \[\[\[ **Hybrid search** \]\]\] option shown on the Search Application Configuration form, select a situation and follow the corresponding steps.
 
-<table id="choicetable_ex3_b2j_njc"><thead><tr><th align="left" id="d63940e163">
+<table id="choicetable_ex3_b2j_njc"><thead><tr><th align="left" id="d63973e163">
 
 Situation
 
-</th><th align="left" id="d63940e166">
+</th><th align="left" id="d63973e166">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d63940e172">
+</th></tr></thead><tbody><tr><td id="d63973e172">
 
 **Beginning with Australia patch 3**
 
@@ -62,7 +62,7 @@ The Search Application Attribute Configuration New record page appears.
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d63940e216">
+</td></tr><tr><td id="d63973e216">
 
 **Versions before Australia patch 3**
 

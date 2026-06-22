@@ -24,15 +24,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d117782e57">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d116527e57">
 
 To
 
-</th><th align="left" id="d117782e60">
+</th><th align="left" id="d116527e60">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d117782e66">
+</th></tr></thead><tbody><tr><td id="d116527e66">
 
 **Add from a service channel**
 
@@ -44,7 +44,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d117782e104">
+</td></tr><tr><td id="d116527e104">
 
 **Add from a queue**
 
@@ -63,7 +63,7 @@ Do This
 
 4.  Add Workforce Optimization for ITSM KPIs \(reports\) that are filtered based on **My Managed Groups**.
 
-    To create reports that explicitly apply to your managed teams, refer to Create a report.
+    To create reports that explicitly apply to your managed teams, refer to [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
 
 5.  Click **Submit**.
 

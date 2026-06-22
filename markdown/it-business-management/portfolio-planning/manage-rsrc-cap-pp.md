@@ -33,15 +33,15 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 3.  Use one the following options to view and regenerate the capacity details.
 
-<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d161715e122">
+<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d160737e122">
 
 Choice
 
-</th><th align="left" id="d161715e125">
+</th><th align="left" id="d160737e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d161715e131">
+</th></tr></thead><tbody><tr><td id="d160737e131">
 
 **Generate capacity details**
 
@@ -59,7 +59,7 @@ The resource capacity details for the selected combination of primary attributes
 
 **Note:** Capacity generation is an asynchronous process. You can generate capacity for multiple combination of dates and attributes.
 
-</td></tr><tr><td id="d161715e187">
+</td></tr><tr><td id="d160737e187">
 
 **Regenerate capacity details**
 
@@ -69,7 +69,7 @@ The resource capacity details for the selected combination of primary attributes
 2.  In the Regenerate capacity window, filter the date range, if needed, and select **Regenerate**.
 
 
-</td></tr><tr><td id="d161715e217">
+</td></tr><tr><td id="d160737e217">
 
 **Scheduled job**
 

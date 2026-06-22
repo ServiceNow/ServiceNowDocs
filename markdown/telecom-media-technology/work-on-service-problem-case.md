@@ -48,7 +48,7 @@ The service problem case progresses through several stages from start to closure
 
 6.  Diagnose the service problem case to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see .
+    The decision table can be configured to control the visibility of the Run Diagnostics contextual panel tab. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -135,7 +135,7 @@ The service problem case progresses through several stages from start to closure
 
     The Case playbook: The horizontal stages page incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
-    For more information about the related items components, see .
+    For more information about the related items components, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
 
 10. Close the service problem case.
 

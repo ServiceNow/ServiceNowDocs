@@ -18,7 +18,7 @@ Email notifications are sent automatically when specific events occur across AI 
 
 Email notifications are sent automatically when specific events occur across AI governance workflows. These notifications help ensure timely awareness, review, and action across governance, risk, and compliance activities.
 
-These notifications are part of the base system. Availability and behavior may vary depending on configuration and inherited Risk Management workflows. To customize notification content or recipients, see .
+These notifications are part of the base system. Availability and behavior may vary depending on configuration and inherited Risk Management workflows. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 ## AI Asset Approval Request
 

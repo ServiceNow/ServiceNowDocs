@@ -30,15 +30,15 @@ Use the **Configuration Item** field when a single CI is the cause of the incide
 
 1.  On the Incident form, associate the CIs.
 
-<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d263005e71">
+<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d260724e71">
 
 From where
 
-</th><th align="left" id="d263005e74">
+</th><th align="left" id="d260724e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d263005e80">
+</th></tr></thead><tbody><tr><td id="d260724e80">
 
 **Configuration item field**
 
@@ -46,7 +46,7 @@ Action
 
 Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look up icon\) beside the field and select the CI.
 
-</td></tr><tr><td id="d263005e95">
+</td></tr><tr><td id="d260724e95">
 
 **Affected CIs related list**
 
@@ -73,5 +73,5 @@ Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look
 **Related topics**  
 
 
-[bundle-platcap.c_NextGenBSMMaps]
+[Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_NextGenBSMMaps.md)
 

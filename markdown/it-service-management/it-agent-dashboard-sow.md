@@ -22,7 +22,7 @@ Select the Dashboard icon \[Omitted image "dashboard-icon-sow.png"\] Alt text: D
 
 Procure the ITSM Pro package subscription to get additional performance analytics features.
 
-For more information on performance analytics subscription, see .
+For more information on performance analytics subscription, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 You can monitor data by any of the following time aggregations.
 

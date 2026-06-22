@@ -48,7 +48,7 @@ Role required: admin or delegated\_developer
 
     For example, expand the **Notification** section to view all code search results in notification scripts, or the **Access control** section to view all instances of code related to roles and security.
 
-    For a list of types of scripts, see .
+    For a list of types of scripts, see [Available script types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_17Scripts.md).
 
 8.  Expand the name of an individual script to view the matching code and its corresponding line number.
 

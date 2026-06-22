@@ -34,7 +34,7 @@ Role required: none
 
 4.  Do one of the following actions.
 
-<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d97297e94">
+<table id="choicetable_sqn_4bl_wt"><tbody><tr><td id="d95681e94">
 
 **Transfer the conversation to an agent**
 
@@ -53,7 +53,7 @@ You can cancel the transfer any time before it is accepted.
     -   Leave: Exit the conversation, which is also known as a cold transfer.
 
 
-</td></tr><tr><td id="d97297e138">
+</td></tr><tr><td id="d95681e138">
 
 **Transfer the conversation to a queue**
 

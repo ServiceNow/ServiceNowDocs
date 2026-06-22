@@ -37,7 +37,7 @@ The customer service portal includes a link to the knowledge base that you can u
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d268723e109">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d268875e109">
 
 **Click a product to display more specific information**
 
@@ -45,7 +45,7 @@ The customer service portal includes a link to the knowledge base that you can u
 
 Displays a list of categories on the left and articles on the right. Click a category to drill down even further.
 
-</td></tr><tr><td id="d268723e118">
+</td></tr><tr><td id="d268875e118">
 
 **Click a link from one of the lists**
 
@@ -53,7 +53,7 @@ Displays a list of categories on the left and articles on the right. Click a cat
 
 Displays the article.
 
-</td></tr><tr><td id="d268723e127">
+</td></tr><tr><td id="d268875e127">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

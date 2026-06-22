@@ -34,15 +34,15 @@ Analysts can add, edit, or remove events associated with the intelligence record
 
 3.  Fill in the fields as appropriate.
 
-<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d123227e103">
+<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d123262e103">
 
 Field
 
-</th><th align="left" id="d123227e106">
+</th><th align="left" id="d123262e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123227e112">
+</th></tr></thead><tbody><tr><td id="d123262e112">
 
 **Event Name**
 
@@ -50,7 +50,7 @@ Description
 
 A unique name that identifies the specific activity or event occurrence recorded on the timeline.This serves as a primary label for each event, to help you quickly understand the node created, status updated, or any additional details.
 
-</td></tr><tr><td id="d123227e123">
+</td></tr><tr><td id="d123262e123">
 
 **Description**
 
@@ -58,7 +58,7 @@ A unique name that identifies the specific activity or event occurrence recorded
 
 Description of the event type to provide context of the event.
 
-</td></tr><tr><td id="d123227e132">
+</td></tr><tr><td id="d123262e132">
 
 **Status**
 
@@ -66,7 +66,7 @@ Description of the event type to provide context of the event.
 
 Indicates the current status of an event on the timeline.
 
-</td></tr><tr><td id="d123227e141">
+</td></tr><tr><td id="d123262e141">
 
 **Icon**
 
@@ -74,7 +74,7 @@ Indicates the current status of an event on the timeline.
 
 An icon that appears on the timeline to visually represent events of this type.
 
-</td></tr><tr><td id="d123227e151">
+</td></tr><tr><td id="d123262e151">
 
 **Color**
 

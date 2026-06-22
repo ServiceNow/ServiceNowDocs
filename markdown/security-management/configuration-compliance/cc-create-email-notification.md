@@ -32,7 +32,7 @@ You can create email templates for different types of email notifications. For m
 
 3.  Fill in the fields on the form, as appropriate.
 
-    For more information on the form fields, see .
+    For more information on the form fields, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 4.  Select **Preview Notification** to view the message.
 

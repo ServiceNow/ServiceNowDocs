@@ -106,7 +106,7 @@ Returns a value from the Message \[sys\_ui\_message\] table where:
 -   The first 255 characters of the message parameter match the key field.
 -   The session language matches the language field.
 
- If no match is found, any fallback languages are checked for a match \(see \). If a match is still not found, the message value \(2nd parameter\) is returned.
+ If no match is found, any fallback languages are checked for a match \(see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md)\). If a match is still not found, the message value \(2nd parameter\) is returned.
 
  Named Parameters are replaced with the specified values in the map passed in the args parameter.
 
@@ -275,7 +275,7 @@ Returns a value from the Message \[sys\_ui\_message\] table where:
 -   The first 255 characters of the message parameter match the key field.
 -   The session language matches the language field.
 
- If no match is found, any fallback languages are checked for a match \(see \). If a match is still not found, the message value \(2nd parameter\) is returned.
+ If no match is found, any fallback languages are checked for a match \(see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md)\). If a match is still not found, the message value \(2nd parameter\) is returned.
 
  Named Parameters are replaced with the specified values in the map passed in the args parameter.
 

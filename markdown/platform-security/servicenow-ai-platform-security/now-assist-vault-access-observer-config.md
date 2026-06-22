@@ -23,7 +23,7 @@ Access Observer helps you monitor the people and processes that access data on y
 
 When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
-To modify the agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 ## Configure Access Observer
 
@@ -45,7 +45,7 @@ To access and configure the agentic workflow:
 |----|-----------|
 |Access Observer configuration manager agent|Uses various tools to view, create, deactivate, and delete Access Observer settings for a particular field.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 
 **Parent Topic:**[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/use-now-assist-vault-agentic-ai.md)
 

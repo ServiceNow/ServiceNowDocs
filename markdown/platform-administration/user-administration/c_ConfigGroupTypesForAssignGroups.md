@@ -22,7 +22,7 @@ The following items are provided in the base system.
 
 -   The types **catalog**, **itil**, and **survey**.
 -   The reference qualifier on \[task.assignment\_group\] filters on **\[Type\] \[equals\] \[itil\]**.
--   A reference qualifier named **GetGroupFilter** is available to filter for group types using Create a dynamic filter option.
+-   A reference qualifier named **GetGroupFilter** is available to filter for group types using [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_DynamicFilterOptions.md).
 
 **Note:** Dictionary overrides enable administrators to filter a group type on an extended table using a simple [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) override.
 
@@ -38,7 +38,7 @@ Role required: admin
 
 ### About this task
 
-You may need to configure the form to display the **Type** field. For more information see: 
+You may need to configure the form to display the **Type** field. For more information see: [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md)
 
 ### Procedure
 

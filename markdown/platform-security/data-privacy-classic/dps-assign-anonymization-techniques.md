@@ -7,7 +7,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Create anonymization policies, Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -24,15 +24,15 @@ Role required: data\_privacy\_admin and admin
 
 1.  Assign anonymization techniques for data tables or columns, user specific data, or real time data.\[Omitted image "bulk-assign-technique.png"\] Alt text: The bulk assign techniques form.
 
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d258523e41">
+<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d258785e41">
 
 Option
 
-</th><th align="left" id="d258523e44">
+</th><th align="left" id="d258785e44">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d258523e50">
+</th></tr></thead><tbody><tr><td id="d258785e50">
 
 **Select __Bulk Assign Techniques__**
 
@@ -40,7 +40,7 @@ Description
 
 Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
 
-</td></tr><tr><td id="d258523e72">
+</td></tr><tr><td id="d258785e72">
 
 **Select an __anonymization technique__ for each data column record**
 

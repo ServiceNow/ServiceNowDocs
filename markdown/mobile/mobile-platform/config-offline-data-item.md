@@ -48,7 +48,7 @@ Use the Mobile Ofﬂine properties area to specify the type and amount of inform
 
 5.  In the Offline Properties area, define offline mode query conditions for the data item to conform to.
 
-    Create conditions using the Condition builder.
+    Create conditions using the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     **Note:** **Declarative** and **Scripts** are supported conditional types.
 

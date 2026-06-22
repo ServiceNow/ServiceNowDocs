@@ -7,7 +7,7 @@ release: australia
 product: Mobile Platform
 classification: mobile-platform
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Access instances on mobile web browser, Using the mobile apps, Mobile Platform]
 ---

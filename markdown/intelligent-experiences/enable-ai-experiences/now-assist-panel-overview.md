@@ -19,7 +19,7 @@ With the Now Assist panel, you can get assistance from generative AI experiences
 
 You must fulfill the following conditions to use the Now Assist panel:
 
--   Next Experience must be enabled. For more information, see .
+-   Next Experience must be enabled. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   You must have the now\_assist\_panel\_user role.
 -   Your role must be applied to at least one active Now Assist skill to use skills in the Now Assist panel.
 
@@ -27,11 +27,11 @@ There are three versions of Now Assist panel chats: standard, enhanced, and prem
 
 -   [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-standard.md) - provides conversational support assistance within a standard, static chat window. To activate the Now Assist panel standard chat, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced.md) - provides conversational support assistance within a dynamic window that gives a more intuitive and personalized experience. You must activate the Now Assist panel enhanced chat and configure your Now Assist instance to use the enhanced chat. See [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced-activate.md) for more information.
--   [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-premium.md) - provides conversational support assistance within a fully agentic chat experience that enables the assistant to reason across multiple sources and execute complex workflows without leaving the conversation. You must activate the Now Assist panel premium chat and configure your Now Assist instance to use the premium chat. See  for more information.
+-   [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-premium.md) - provides conversational support assistance within a fully agentic chat experience that enables the assistant to reason across multiple sources and execute complex workflows without leaving the conversation. You must activate the Now Assist panel premium chat and configure your Now Assist instance to use the premium chat. See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-nap-assistant.md) for more information.
 
-If you want to use assistants, you must activate them. See  for information on activating assistants.
+If you want to use assistants, you must activate them. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for information on activating assistants.
 
-**Note:** Voice input is automatically activated when you activate the Now Assist panel. As of the Zurich Patch 4 release, voice input is configured in the Configure Next Experience accessibility preferences.
+**Note:** Voice input is automatically activated when you activate the Now Assist panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-accessibility-preferences.md).
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-standard.md)**  
 With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.

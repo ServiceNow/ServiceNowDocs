@@ -7,7 +7,7 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
 ---

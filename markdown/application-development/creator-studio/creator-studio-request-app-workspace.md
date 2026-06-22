@@ -30,7 +30,7 @@ Each app has its own section in the workspace, with lists to filter for submitte
 
 ## Using lists to find tickets in various states
 
-Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out .
+Each app's section contains lists, such as **Open** requests and any lists the admin or app creator configured. Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/p_ListAdministration.md).
 
 \[Omitted image "crs-form-sub-workspace.png"\] Alt text: All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.
 
@@ -40,7 +40,7 @@ The Lists view contains two tabs: **Default Lists** and **My Lists**.
 
 The Dashboard overview view contains a dashboard for every app \(that you have access to\) that was made in Creator Studio.
 
-You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see 
+You can select an app's dashboard to see analysis of all active tasks, as well as the number of records in various states configured by your admin. For more information on working with analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
 
 ## Working on open requests in the workspace
 

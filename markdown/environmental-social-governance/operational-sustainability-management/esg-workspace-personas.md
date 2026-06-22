@@ -96,8 +96,8 @@ ESG Risk Manager**Note:** This role is installed if you activate the sn\_esg\_ri
 
 </td><td>
 
--   
--   
+-   [Create a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRiskState.md)
+-   [Generate a risk from a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_GenRiskFromRiskFrameProfile.md)
 -   [Create a risk assessment scope and initiate an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-a-risk-asmt-scope-and-initiate-asmt.md)
 
 </td></tr></tbody>

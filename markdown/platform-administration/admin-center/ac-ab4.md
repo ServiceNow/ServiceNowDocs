@@ -44,7 +44,7 @@ Build a foundation
 
 </td><td>
 
-
+[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use the Event Management application as a single management console to identify 
 
 </td><td>
 
-Roles installed with Event Management
+[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-Roles installed with Health Log Analytics
+[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-components.md#section_okx_gk3_2nb)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Add advanced features
 
 </td><td>
 
-
+[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ Define an incident as a major incident to demand a response beyond the routine i
 
 </td><td>
 
-Roles installed with Major Incident Management
+[Roles installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/installed-with-mim.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Optimize the functionality
 
 </td><td>
 
-
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-Roles installed with Service Mapping
+[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Build a foundation
 
 </td><td>
 
-
+[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
 
 </td><td>
 
@@ -134,11 +134,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-Roles installed with Service Operations Workspace for ITSM
+[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/components-installed-with-sow-itom.md)
 
 </td><td>
 
--   Service Operations Workspace limitations and support
+-   [Service Operations Workspace limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Configure your instance to send an email notification when a user mentions a contact within the activity stream. You can either use the default notification record or create a new notification record. For information about creating a new notification record, see Create an email notification.
+Configure your instance to send an email notification when a user mentions a contact within the activity stream. You can either use the default notification record or create a new notification record. For information about creating a new notification record, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 ## Procedure
 

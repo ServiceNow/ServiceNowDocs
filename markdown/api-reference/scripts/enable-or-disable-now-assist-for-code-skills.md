@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 You can enable or disable Now Assist for Code skills.
 

@@ -26,7 +26,7 @@ You can create records from the Add tab in CSM Configurable workspace. Select th
 
 \[Omitted image "record-creation-from-add-tab-workspace.png"\] Alt text: Select the plus sign on the Add tab in the session tabs to see the records that can be created.
 
-Users with the system administrator role can configure the types of records that appear in this list. The default is an interaction record. For more information about configuring the records that can be created from the Add tab, see .
+Users with the system administrator role can configure the types of records that appear in this list. The default is an interaction record. For more information about configuring the records that can be created from the Add tab, see [Configure record creation from the new tab menu in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-new-tab-records.md).
 
 ## Procedure
 

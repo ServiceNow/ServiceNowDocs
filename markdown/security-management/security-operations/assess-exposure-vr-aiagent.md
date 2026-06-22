@@ -18,7 +18,7 @@ Chat with an AI agent to help you assess the potential exposure of your configur
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
@@ -26,7 +26,7 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst
 
 1.  Select the Now Assist icon \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
 
-    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon. in the header on the page, you must activate the Now Assist panel. For more information, see .
+    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon. in the header on the page, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
     The Assess vulnerability exposure agentic workflow is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to start with to become familiar with the vulnerability data that is available and what you can do with it. The following steps show you how to request current vulnerability data, create a watch topic based on the returned results, and determine the overall impact a vulnerability might have on your environment.
 

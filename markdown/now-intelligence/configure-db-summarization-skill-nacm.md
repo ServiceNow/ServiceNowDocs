@@ -20,7 +20,7 @@ Role required: now\_assist\_admin
 
 ## About this task
 
-To want to enable additional skills, follow these steps and then go to . The skills you configure here are the ones that you can select when you add the reusable Now Assist context menu dashboard element.
+To want to enable additional skills, follow these steps and then go to [Create Now Assist context Menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/create-now-assist-configuration-with-guided-setup.md). The skills you configure here are the ones that you can select when you add the reusable Now Assist context menu dashboard element.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ To want to enable additional skills, follow these steps and then go to . The ski
 
 ## What to do next
 
-See  for the rest of the process.
+See [Create Now Assist context Menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/create-now-assist-configuration-with-guided-setup.md) for the rest of the process.
 
 **Parent Topic:**[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)
 

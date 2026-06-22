@@ -37,7 +37,7 @@ When multimodal captioning is activated, attachments retrieved from supported so
 
     A provider is the VLM you want to use for captioning.
 
-    **Note:** If your preferred provider is not listed, use the AI Control Tower \(AICT\) to configure approved third-party LLMs. For more information, see . NowLLM does not support this feature.
+    **Note:** If your preferred provider is not listed, use the AI Control Tower \(AICT\) to configure approved third-party LLMs. For more information, see [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md). NowLLM does not support this feature.
 
     The corresponding **Model** options appear.
 

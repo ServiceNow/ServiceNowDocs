@@ -174,7 +174,7 @@ Select the value field
 
 </td><td>
 
-Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\] Alt text:\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see .
+Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\] Alt text:\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and close** when you finish modifying the question.
@@ -282,7 +282,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
             \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-        Add as many conditions as you need. For more information, see .
+        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
     4.  Select **Create**.
 

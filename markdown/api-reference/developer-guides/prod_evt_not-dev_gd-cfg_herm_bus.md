@@ -8,7 +8,7 @@ product: Developer Guides
 classification: developer-guides
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---
 
@@ -20,7 +20,7 @@ If you are using the Hermes Messaging Service in your instance, you must configu
 
 Role required: admin
 
-The Hermes Messaging Service must be activated. For details, see .
+The Hermes Messaging Service must be activated. For details, see [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 
 The following code snippet shows the HermesEventPublisher methods that must be called to configure the elements needed to send a message to a topic using the Hermes Messaging Service. The [ProducerV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md) API is then called to send the message.
 
@@ -55,7 +55,7 @@ publishMessageThroughProducerV2API: function(message) {
 
 1.  Set up a secure connection to the Hermes Messaging Service.
 
-    For details, see .
+    For details, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
 
 2.  Override the default functionality in the [HermesEventPublisherOOB - fetchTopicsForMessage\(Object message\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md) method with your custom topic picker logic when publishing a message to the Hermes Messaging Service.
 

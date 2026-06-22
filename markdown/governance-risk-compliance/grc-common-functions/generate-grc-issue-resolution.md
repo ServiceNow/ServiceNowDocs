@@ -19,7 +19,7 @@ Optimize a GRC issue resolution plan by using the Optimize GRC issue resolution 
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see .
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
@@ -27,7 +27,7 @@ Role required: sn\_grc\_genai.issue\_user or sn\_irm\_gen\_ai.user
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-To modify the Optimize GRC issue resolution workflow duplicate it, and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
+To modify the Optimize GRC issue resolution workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel.
 
 ## Procedure
 

@@ -24,11 +24,11 @@ Role required: sn\_bm\_client.benchmark\_admin
 
 ## About this task
 
-**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and Strategic Portfolio Management applications to access the respective Benchmarks KPIs. For information on these KPIs, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
+**Note:** You must install the [Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md) and [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-portfolio-management/it-business-management-bu-level.md) applications to access the respective Benchmarks KPIs. For information on these KPIs, see Benchmark KPIs.
 
 Once you have manually opted into Benchmarks, enable and configure benchmark KPIs. From the Benchmarks dashboard, you can view the Benchmarks KPI data, performance trends, and indicator scorecards.
 
-**Note:** Service Portal must be installed to view the Benchmarks dashboard.
+**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
 
 Six months of global data is available after opting in. If available, the corresponding data for your instance is also included.
 
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d446748e145">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d441428e139">
 
 Using
 
-</th><th align="left" id="d446748e148">
+</th><th align="left" id="d441428e142">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d446748e154">
+</th></tr></thead><tbody><tr><td id="d441428e148">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d446748e190">
+</td></tr><tr><td id="d441428e184">
 
 **Application navigator**
 
@@ -76,5 +76,5 @@ Go to **Benchmarks** &gt; **Setup**.
 
 ## What to do next
 
-[Enable and configure your KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
+Enable and configure your KPIs.
 

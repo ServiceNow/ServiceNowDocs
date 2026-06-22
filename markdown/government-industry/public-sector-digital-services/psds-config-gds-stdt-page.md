@@ -55,11 +55,11 @@ This widget displays the following tabs for a submitted request, allowing consti
 -   Activity
 -   Attachments
 
-You can configure the tabs for standard ticket page. For more information, see .
+You can configure the tabs for standard ticket page. For more information, see [Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md).
 
 ## Customization
 
-You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see .
+You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 **Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 5
 breadcrumb: [Explore, Digital End-User Experience, IT Service Management]
 ---
@@ -37,7 +37,7 @@ DEX uses a set of new multitenant, cloud-native services called ServiceNow share
 -   The instance also pushes data, such as DEX policies, to the agent via this bi-directional channel.
 -   The ServiceNow shared services use the ServiceNow Hermes Messaging Service and Stream Connect to isolate your organization's data.
 
-    For more information, see Hermes and Stream Connect.
+    For more information, see [Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-quick-start.md).
 
 -   Raw metrics collected from endpoints are processed further using the shared services and eventually pushed to your ServiceNow instance.
 -   Some of the configuration device metrics and agent heartbeats are directly pushed to the ServiceNow instance. The operation is performed over a secured HTTPS channel via a REST endpoint.
@@ -48,11 +48,11 @@ Various security measures help verify that scripts run securely.
 
 -   Allowlist: File shipped along with the agent verifying that no command other than the ones in the allowlists can be executed.
 
-    For more information on the list, see Generate an Agent Client Collector allow list.
+    For more information on the list, see [Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-generate-allow-list.md).
 
 -   Plugins certificate signing: The scripts are packaged in plugins which are deployed to the endpoint. To verify data integrity, the plugins can be signed by a certificate so that there are no malicious plugins deployed.
 
-    For more information on certificate signing, see Secure a custom plugin with a certificate.
+    For more information on certificate signing, see [Secure a custom plugin with a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-self-sign-certificate.md).
 
 -   Role-based access: All actions are available to only specific roles and user criteria within ServiceNow. For example, advanced actions can be assigned to the DEX engineer role and basic actions to the Service Desk.
 

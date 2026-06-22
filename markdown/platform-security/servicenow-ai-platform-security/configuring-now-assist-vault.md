@@ -42,7 +42,7 @@ Role required: admin
 
     \[Omitted image "now-assist-admin-vault-skills.png"\] Alt text: Now Assist Admin console showing three skills from Now Assist for Vault.
 
-6.  Verify that Now Assist for Vault agentic workflows are activated by following the steps in .
+6.  Verify that Now Assist for Vault agentic workflows are activated by following the steps in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md).
 
     By default, the workflows are active when you install Now Assist for Vault. This step is in case a user deactivated them after installation.
 

@@ -21,7 +21,7 @@ The playbook life cycle provides the context as to where an Accounts Payable spe
 
 The playbook workflow is shown below.\[Omitted image "playboook.png"\] Alt text: The playbook displaying the various activity cards and options to process an invoice.
 
-The stages and activities in a playbook life cycle are configured using Process Automation Designer \(PAD\). Refer to the table below for the Playbook activity.
+The stages and activities in a playbook life cycle are configured using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) \(PAD\). Refer to the table below for the Playbook activity.
 
 |Indicator|Field|Description|
 |---------|-----|-----------|

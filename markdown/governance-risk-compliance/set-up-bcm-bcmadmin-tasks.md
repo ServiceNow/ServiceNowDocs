@@ -38,7 +38,7 @@ The dedicated queue ensures that Update dependencies events have their own proce
 
 If you previously configured a custom queue for BCM dependency processing on your instance, remove it — BCM now provides this configuration natively.
 
-For more information about custom queues and the event registry, see  and .
+For more information about custom queues and the event registry, see [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md) and [Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_EventRegistry.md).
 
 This change applies to the Australia release and later.
 

@@ -57,7 +57,7 @@ To edit the trigger for a playbook, you must be given permission to work on the 
     -   If you want to trigger the playbook based on the response from a form, select **Questions** as the trigger **Field**. Then select the question you want in the **Question** field, the condition **Operator** and the answer's **Value**.
     \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-    Add as many conditions as you need. For more information, see .
+    Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
 9.  Save your changes by selecting the **Done** button.
 

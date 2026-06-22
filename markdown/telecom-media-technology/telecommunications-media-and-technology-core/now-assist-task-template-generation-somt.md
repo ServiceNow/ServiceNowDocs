@@ -39,9 +39,9 @@ Guidelines for image:
     \[Omitted image "task-plan-3.png"\] Alt text: images with intersection or overlapping lines aren't supported by agent.
 
 
-To modify the Image to task plan template AI agent,  and adjust the settings according to your requirements.
+To modify the Image to task plan template AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) and adjust the settings according to your requirements.
 
-To add tools and information, see  for details.
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-tool-aia.md) for details.
 
 Role required: sn\_task\_plan.admin and sn\_prd\_pm.product\_catalog\_admin
 
@@ -61,5 +61,5 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see .
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 

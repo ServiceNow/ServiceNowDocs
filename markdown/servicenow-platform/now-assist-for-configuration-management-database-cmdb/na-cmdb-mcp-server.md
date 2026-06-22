@@ -40,7 +40,7 @@ Supported tools:
 
 2.  On the Servers page of the Configuration console, select the **Now Assist CMDB MCP Server** card and then select **Activate**.
 
-3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in .
+3.  To control access to the server, set up OAuth credentials using the Inbound Integrations feature as described in [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/inbound-integrations.md).
 
     See client documentation for configuration and use instructions.
 

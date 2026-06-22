@@ -40,15 +40,15 @@ Role required: sn\_shift\_planning.admin
 
 3.  Monitor the schedule adherence of your agents.
 
-<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d92917e128">
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d92326e128">
 
 To
 
-</th><th align="left" id="d92917e131">
+</th><th align="left" id="d92326e131">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d92917e137">
+</th></tr></thead><tbody><tr><td id="d92326e137">
 
 **View schedule adherence at organization or team level**
 
@@ -56,7 +56,7 @@ Do this
 
 Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
 
-</td></tr><tr><td id="d92917e152">
+</td></tr><tr><td id="d92326e152">
 
 **Analyze planned vs actual scheduling for your team members**
 

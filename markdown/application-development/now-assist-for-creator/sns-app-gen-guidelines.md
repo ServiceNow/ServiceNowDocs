@@ -70,7 +70,7 @@ App generation works best when you include specific details about your requireme
     Throughout the conversation, Now Assist adjusts its understanding of your application requirements based on your input.
 
 
-For more information about having productive conversations with Now Assist, see .
+For more information about having productive conversations with Now Assist, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md).
 
 **Parent Topic:**[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-exploring-now-assist-gen.md)
 

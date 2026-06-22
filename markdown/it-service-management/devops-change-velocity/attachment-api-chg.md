@@ -8,7 +8,7 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Chang
 
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-For more information about the API, see .
+For more information about the API, see [Attachment - POST /now/attachment/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md).
 
 The attachment API URL is:
 
@@ -30,8 +30,8 @@ The attachment API URL is:
 
 **Prerequisites**
 
--   Create an active user with the option **Web service access only** selected. For information on how to create a user, see .
--   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see .
+-   Create an active user with the option **Web service access only** selected. For information on how to create a user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+-   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
     \[Omitted image "attachment-api-01.png"\] Alt text: Create user.
 

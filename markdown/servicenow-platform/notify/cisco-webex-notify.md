@@ -25,7 +25,7 @@ Notify Cisco Webex Connector enables you to manage and initiate a Webex meeting 
 
 Install and activate the Notify plugin \(com.snc.notify\) before you install the application.
 
-Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Workflow Studio application. For more information, see Request IntegrationHub.
+Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Workflow Studio application. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 
 **Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/exploring-notify.md)
 

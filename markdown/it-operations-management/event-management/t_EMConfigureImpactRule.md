@@ -30,7 +30,7 @@ You can view and adjust the impact rules of CIs from the application service map
 
 1.  Open the application service map from either the Event Management dashboard or the Application service list.
 
-<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d488662e131">
+<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d486636e131">
 
 **From the Event Management dashboard**
 
@@ -40,7 +40,7 @@ You can view and adjust the impact rules of CIs from the application service map
 2.  Double-click the tile of the application services.
 
 
-</td></tr><tr><td id="d488662e161">
+</td></tr><tr><td id="d486636e161">
 
 **From the Application Service list**
 

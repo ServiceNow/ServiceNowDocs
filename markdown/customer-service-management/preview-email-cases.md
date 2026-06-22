@@ -24,9 +24,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   Customizing your workspace with declarative actions
--   
--   Declarative actions glossary
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
+-   [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-a-new-form-action.md)
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
 
 ## Procedure
 

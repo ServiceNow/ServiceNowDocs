@@ -32,7 +32,7 @@ After a work order is created, it appears in the **Work Orders** related list on
 
 3.  Fill in the fields on the Work Order form.
 
-    For more information, see Create a work order.
+    For more information, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md).
 
 4.  Click **Update**.
 
@@ -40,5 +40,5 @@ After a work order is created, it appears in the **Work Orders** related list on
 **Related topics**  
 
 
-[bundle-fsm.c_ManageWorkOrders]
+[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

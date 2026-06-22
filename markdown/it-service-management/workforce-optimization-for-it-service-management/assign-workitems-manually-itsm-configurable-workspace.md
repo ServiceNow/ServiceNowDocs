@@ -38,15 +38,15 @@ The active work items remain in the queue pending manual allocation for one of t
 
 3.  Do any of the following to manually allocate the work items.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d151745e102">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d150336e102">
 
 Navigate To
 
-</th><th align="left" id="d151745e105">
+</th><th align="left" id="d150336e105">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d151745e111">
+</th></tr></thead><tbody><tr><td id="d150336e111">
 
 **Active Work Items tab**
 
@@ -54,7 +54,7 @@ Do this
 
 Select the work item and click **Allocate**.
 
-</td></tr><tr><td id="d151745e123">
+</td></tr><tr><td id="d150336e123">
 
 **Service Channel page**
 
@@ -66,7 +66,7 @@ Select the work item and click **Allocate**.
 4.  Click **Allocate**.
 
 
-</td></tr><tr><td id="d151745e153">
+</td></tr><tr><td id="d150336e153">
 
 **All Queues tab**
 

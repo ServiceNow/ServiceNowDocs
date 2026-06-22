@@ -26,7 +26,7 @@ Locations are used by various applications to locate users, facilities, or confi
 
 Each level of this hierarchy contains a separate location record, with the next higher level specified as a parent.
 
-The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see .
+The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 \[Omitted image "LocationFullName.png"\] Alt text: The Full name field on the Location form
 

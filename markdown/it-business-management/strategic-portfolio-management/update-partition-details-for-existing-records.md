@@ -7,7 +7,7 @@ release: australia
 product: Strategic Portfolio Management
 classification: strategic-portfolio-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

@@ -20,7 +20,7 @@ Learn the basics of setting up a Remote Process Sync integration in order to lin
 
 ## Before getting started with your Remote Process Sync integration
 
-Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as  and the [Remote Instance spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
+Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md) and the [Remote Instance spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
 
 **Note:** Remote Process Sync replaces the eBonding spoke for integrating instances.
 
@@ -49,8 +49,8 @@ A process sync definition contains all of the configurations for your Remote Pro
 |-----|-----------|
 |Name|Enter a name that accurately describes which part of your business process your instance handles. For example, if users on your instance work to fulfill Service Catalog requests for your customers, enter a name such as Service Catalog Request Fulfillment.|
 |Description|Optionally, describe which part of your business process that this process sync definition handles.|
-|Application|Automatically set to your current application scope.|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.|
+|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).|
+|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).|
 
 Click **Submit**, and then you can see your newly created Process Sync Definition record in the list. Next, select the Process Sync Definition record that you just created. You can see that your Process Sync Definition record has the following related lists:
 
@@ -73,8 +73,8 @@ A Capture Definition record has the following fields:
 |Process Event|In the Capture Definition form, use the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to choose the Process Event record that you want to associate with this capture definition. If no process event exists yet, enter a name for your process event, and the system automatically creates a Process Event record and associates the record with your capture definition. For more information, see [Process Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).|
 |State|Choose **Active** to activate this capture definition so that the parent process sync definition triggers when the conditions you set in this form's Trigger section are met.|
 |Order|Enter a value for the order in which you want your capture definition to trigger relative to other capture definitions. Lower order values are honored before higher order values.|
-|Application|Automatically set to your current application scope.|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.|
+|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).|
+|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).|
 
 In the Trigger section, choose an authorized source table whose records you want to trigger your process sync definition. You can also add field conditions that, when met, cause your process sync definition to trigger. When the conditions are met for the trigger specified in your capture definition, any outbound flows associated with your process sync definition start running. For more information, see [Outbound flows and inbound flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 
@@ -141,7 +141,7 @@ Application
 
 </td><td>
 
-Automatically set to your current application scope.
+Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ Domain
 
 </td><td>
 
-If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.
+If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).
 
 </td></tr></tbody>
 </table>## Remote systems
@@ -194,7 +194,7 @@ Application
 
 </td><td>
 
-Automatically set to your current application scope.
+Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Domain
 
 </td><td>
 
-If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.
+If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -229,7 +229,7 @@ Connection Alias
 
 </td><td>
 
-Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see Create a Connection and Credential alias.
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 </td></tr><tr><td>
 
@@ -283,8 +283,8 @@ An Outbound Flow record has the following fields:
 |Process Event|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Process Event record that you want to associate with this outbound flow. The process event that you select should logically relate to the automated actions that the outbound flow will run when your process sync definition triggers. For example, if your outbound flow maps fields from a Service Catalog Item Request record submitted by users in your local instance to related fields in the remote instance, then choose a process event related to users making Service Catalog item requests.|
 |Outbound Subflow|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Workflow Studio subflow that you want to run whenever your process sync definition triggers. Your instance provides you with a Remote Process Sync Outbound Flow Template - Basic subflow that you can use as a template in any Outbound Flow record. However, you can customize the Remote Process Sync Outbound Flow Template - Basic subflow so that it meets the needs of your business process. You can customize this subflow using the Remote Process Sync outbound actions. For more information, see [Build your first Remote Process Sync integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.md).|
 |Remote System|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Remote System record that you want to connect to when your outbound flow runs automated actions that require authenticating with the remote instance. The Remote System record you choose should be the remote instance that handles the inbound part of your Remote Process Sync integration.|
-|Application|Automatically set to your current application scope.|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.|
+|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).|
+|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).|
 
 An inbound flow specifies which Workflow Studio subflow your instance uses to:
 
@@ -299,8 +299,8 @@ An Inbound Flow record has the following fields:
 |Process Event|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Process Event record that you want to associate with this inbound flow. The process event that you select should logically relate to the automated actions that the inbound flow will run when your local instance is ready to handle the payload sent by the remote instance. For example, if your inbound flow maps fields from a Service Catalog Item Request record that users in the remote instance submitted to related fields in your local instance, then choose a process event related to users making Service Catalog item requests.|
 |Inbound Subflow|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Workflow Studio subflow that you want to run whenever your instance handles data sent by a remote instance. Your instance provides you with a Remote Process Sync Inbound Flow Template - Basic subflow that you can use as a template in any Inbound Flow record. However, you can customize the Remote Process Sync Inbound Flow Template - Basic subflow so that it meets the needs of your business process. You can customize this subflow using the Remote Process Sync inbound actions. For more information, see [Build your first Remote Process Sync integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.md).|
 |Remote System|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose the Remote System record that you want to connect to when your inbound flow runs automated actions that require authenticating with the remote instance. The Remote System record you choose should be the remote instance that handles the outbound part of your Remote Process Sync integration.|
-|Application|Automatically set to your current application scope.|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see Domain separation for service providers.|
+|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).|
+|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).|
 
 **Note:** Each outbound flow and inbound flow must always be associated with one process event and one remote system only.
 

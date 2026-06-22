@@ -48,15 +48,15 @@ The following procedure is specific to notifications for Localization Workspace 
 
 4.  On the **When to send** tab, fill in the fields.
 
-<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d84465e191">
+<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d84560e191">
 
 Field
 
-</th><th align="left" id="d84465e194">
+</th><th align="left" id="d84560e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84465e200">
+</th></tr></thead><tbody><tr><td id="d84560e200">
 
 **Send when**
 
@@ -64,7 +64,7 @@ Description
 
 Select `Record inserted or updated`.
 
-</td></tr><tr><td id="d84465e212">
+</td></tr><tr><td id="d84560e212">
 
 **Updated**
 
@@ -72,7 +72,7 @@ Select `Record inserted or updated`.
 
 Select this check box.
 
-</td></tr><tr><td id="d84465e221">
+</td></tr><tr><td id="d84560e221">
 
 **Inserted**
 
@@ -80,7 +80,7 @@ Select this check box.
 
 Clear this check box.
 
-</td></tr><tr><td id="d84465e230">
+</td></tr><tr><td id="d84560e230">
 
 **Conditions**
 
@@ -95,15 +95,15 @@ In the example, two conditions are set:1.  `State is In Progress`
 
 5.  On the **Who will receive** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d84465e268">
+<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d84560e268">
 
 Field
 
-</th><th align="left" id="d84465e271">
+</th><th align="left" id="d84560e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84465e277">
+</th></tr></thead><tbody><tr><td id="d84560e277">
 
 **Users**
 
@@ -111,7 +111,7 @@ Description
 
 Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual user from the User \[sys\_user\] table.
 
-</td></tr><tr><td id="d84465e288">
+</td></tr><tr><td id="d84560e288">
 
 **Users/Groups in Fields**
 
@@ -119,7 +119,7 @@ Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual use
 
 Select the lock icon to add recipients from fields in the Localization Project \[sn\_lf\_project\] table.
 
-</td></tr><tr><td id="d84465e297">
+</td></tr><tr><td id="d84560e297">
 
 **Groups**
 
@@ -127,7 +127,7 @@ Select the lock icon to add recipients from fields in the Localization Project \
 
 Select the lock icon to add a group of users, such as Localization Requestor, from the Group \[sys\_user\_group\] table.
 
-</td></tr><tr><td id="d84465e306">
+</td></tr><tr><td id="d84560e306">
 
 **Subscribable**
 
@@ -138,15 +138,15 @@ Option to enable all users to subscribe to the notification.**Note:** Recipients
 </td></tr></tbody>
 </table>6.  On the **What it will contain** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d84465e330">
+<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d84560e330">
 
 Field
 
-</th><th align="left" id="d84465e333">
+</th><th align="left" id="d84560e333">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84465e339">
+</th></tr></thead><tbody><tr><td id="d84560e339">
 
 **Email template**
 
@@ -154,7 +154,7 @@ Description
 
 You can search for an existing template.
 
-</td></tr><tr><td id="d84465e348">
+</td></tr><tr><td id="d84560e348">
 
 **Subject**
 
@@ -162,7 +162,7 @@ You can search for an existing template.
 
 You can use variables from the Localization Project \[sn\_lf\_project\] table, available under **Select variables**.
 
-</td></tr><tr><td id="d84465e360">
+</td></tr><tr><td id="d84560e360">
 
 **Message HTML**
 

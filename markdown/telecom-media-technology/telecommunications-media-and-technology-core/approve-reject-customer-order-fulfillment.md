@@ -38,7 +38,7 @@ The Post Upgrade Script performs required order management table reparenting and
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see Migrate to Configurable Workspace.
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-to-configurable-workspace.md).
 
     If you have an assigned order fulfillment manager or order fulfillment agent role, the Customer Order Management workspace appears. If the Customer Order Management workspace doesn't appear, do the following actions:
 
@@ -53,19 +53,19 @@ The Post Upgrade Script performs required order management table reparenting and
 
 3.  On the Customer Order form, review the order number, account, and contact information for the selected customer order.
 
-    For information about the field descriptions, see the Customer Orders form fields section in .
+    For information about the field descriptions, see the Customer Orders form fields section in [Customer and Service order details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/field-descriptions-customer-orders.md).
 
 4.  To approve or reject fulfillment of a customer order in a New state, perform one of the following actions.
 
-<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23904e211">
+<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23973e212">
 
 Action
 
-</th><th align="left" id="d23904e214">
+</th><th align="left" id="d23973e215">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23904e220">
+</th></tr></thead><tbody><tr><td id="d23973e221">
 
 **Approve a customer or service order for fulfillment**
 
@@ -79,7 +79,7 @@ When you approve an order for fulfillment, the following actions take place:
 -   The **Revision Operation** field is set to None.
 **Note:** You must have an sn\_ind\_tmt\_orm.order\_fulfillment\_manager role.
 
-</td></tr><tr><td id="d23904e263">
+</td></tr><tr><td id="d23973e264">
 
 **Reject a customer or service order for fulfillment**
 

@@ -24,7 +24,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 1.  Create a request by going to the portal landing page or the portal menu header and then performing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d52113e75">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d51882e75">
 
 **__Request Something__**
 
@@ -32,7 +32,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d52113e88">
+</td></tr><tr><td id="d51882e88">
 
 **__Requests__**
 

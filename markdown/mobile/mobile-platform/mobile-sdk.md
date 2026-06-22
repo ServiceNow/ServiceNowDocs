@@ -27,7 +27,7 @@ The Mobile SDK gives you the ability to do the following:
 -   Support push notifications triggered by the ServiceNow AI Platform.
 -   Embed a real-time, AI-powered voice agent directly in your mobile application. NowVoice provides a full-screen voice interface that connects users to a ServiceNow voice agent, with live transcripts, mute controls, and post-call transcript sharing.
 
-For more details regarding the Mobile SDK, see the .
+For more details regarding the Mobile SDK, see the [Mobile SDK API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md).
 
 ## NowVoice
 

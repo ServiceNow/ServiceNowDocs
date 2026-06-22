@@ -69,5 +69,5 @@ sn\_sec\_tisc.stix\_json\_from\_json\_streaming\_api\_action\_timeout
 Timeout\(in seconds\) that will be used when triggering flow designer action for generating STIX JSON attachment using JSON streaming API.The default export limit is 900.
 
 </td></tr></tbody>
-</table>**Note:** For better understanding of export limit on the other format types, see Export limits.
+</table>**Note:** For better understanding of export limit on the other format types, see [Export limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportLimits.md).
 

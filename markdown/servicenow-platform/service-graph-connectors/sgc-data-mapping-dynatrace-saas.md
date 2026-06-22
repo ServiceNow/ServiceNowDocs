@@ -95,7 +95,7 @@ SGO-Dynatrace SaaS Processes \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_proces
 
 </td><td>
 
-The target table is populated using Application Dependency Mapping \(ADM\). ADM classifies the processes based on the attributes in the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, see Discovery classifiers.
+The target table is populated using Application Dependency Mapping \(ADM\). ADM classifies the processes based on the attributes in the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-classifiers.md).
 
 </td></tr><tr><td>
 

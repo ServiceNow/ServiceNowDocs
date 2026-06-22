@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -23,7 +23,7 @@ Verify the following:
 -   The active application scope is Service Graph Connector \(SGC\) for VeloCloud.
 -   The SGC for Arista VeloCloud has been installed.
 -   The initial Arista VeloCloud instance has been set up. For more information, see [Set up the Service Graph Connector for Arista VeloCloud schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-the-service-graph-connector-for-arista-velocloud-schedule.md).
--   The associated MID Server has been set up and validated. For more information, see .
+-   The associated MID Server has been set up and validated. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
 Role required: TSOM Visibility admin
 
@@ -49,7 +49,7 @@ You can configure additional VeloCloud instances or reuse the same VeloCloud ins
     2.  Select **Configure**.
     3.  In the **API Key** field, enter the API key created in the Orchestrator.
 
-        **Note:** Other authentication fields might be required depending on the authentication methods used in your Arista VeloCloud instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see .
+        **Note:** Other authentication fields might be required depending on the authentication methods used in your Arista VeloCloud instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
 
     4.  In the **User name** field, specify your Arista VeloCloud instance user name.
     5.  Retain the default values in the rest of the fields.

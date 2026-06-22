@@ -39,15 +39,15 @@ Kanban preferences are saved in the portfolio plan level. So, these settings are
 
 4.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\) to update the view, based on your preferences.
 
-<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d140595e176">
+<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d139604e176">
 
 Choice
 
-</th><th align="left" id="d140595e179">
+</th><th align="left" id="d139604e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140595e185">
+</th></tr></thead><tbody><tr><td id="d139604e185">
 
 **Update Vertical lane and Horizontal lane values**
 
@@ -55,7 +55,7 @@ Action
 
 Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.\[Omitted image "lanes.gif"\] Alt text: Update the Vertical and Horizontal lane values.**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for the Kanban tab.
 
-</td></tr><tr><td id="d140595e207">
+</td></tr><tr><td id="d139604e207">
 
 **Edit the items to show on card**
 

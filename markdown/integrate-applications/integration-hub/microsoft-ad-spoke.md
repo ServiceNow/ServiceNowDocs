@@ -90,7 +90,7 @@ The Microsoft AD spoke provides actions to automate Microsoft Active Directory t
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use the PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see MID Server.
+To use these actions, your instance must have a MID Server set up and configured to use the PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 **Note:** MID and Microsoft Active Directory must be installed on different servers.
 

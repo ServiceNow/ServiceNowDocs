@@ -89,7 +89,7 @@ You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) usin
 
 </td></tr><tr><td>
 
-\(Optional\)  plugin \(com.snc.work\_management\)
+\(Optional\) [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md) plugin \(com.snc.work\_management\)
 
 </td><td>
 

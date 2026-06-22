@@ -30,15 +30,15 @@ The domain resource orders manage the resources required for fulfillment of the 
 
 2.  Select an associated resource order to review or create a resource order.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d37316e72">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d37408e72">
 
 Task
 
-</th><th align="left" id="d37316e75">
+</th><th align="left" id="d37408e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37316e81">
+</th></tr></thead><tbody><tr><td id="d37408e81">
 
 **Review an existing resource order**
 
@@ -50,7 +50,7 @@ Action
 -   To filter existing resource orders, click the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d37316e124">
+</td></tr><tr><td id="d37408e124">
 
 **Create a resource order**
 

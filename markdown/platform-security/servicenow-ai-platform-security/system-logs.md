@@ -22,10 +22,10 @@ Access the following logs from the System Logs module:
 |---|-----------|
 |[Transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_TransactionLogs.md)|All application activity for an instance.|
 |[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_EmailLogs.md) and [Push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/push-log.md)|All email notifications and Push messages sent from all instances within the system.|
-|Event Logs|All system events that occur within the system.|
+|[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/event-logs-2.md)|All system events that occur within the system.|
 |[Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_ImportLogs.md)|Data import activity within the platform.|
 |Table Changes|Changes made to all tables in the system.|
-|Outbound web services logging|All outbound web services requests such as REST and SOAP requests.|
+|[Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md)|All outbound web services requests such as REST and SOAP requests.|
 |[System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_SystemLogs.md)|Warnings and errors for instance processes, records, and non-critical events, such as memory usage on the server machine.|
 
 Use the [Log File Browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_LogUtilities.md) to search and download logs. You can also search archived logs in the [log history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/r_LogHistory.md).

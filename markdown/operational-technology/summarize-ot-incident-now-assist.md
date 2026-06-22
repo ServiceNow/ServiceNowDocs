@@ -48,15 +48,15 @@ An OT incident summary provides you with a concise summary of an incident. The s
 
 6.  When you're finished summarizing an OT incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49089e171">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49091e171">
 
 Option
 
-</th><th align="left" id="d49089e174">
+</th><th align="left" id="d49091e174">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d49089e180">
+</th></tr></thead><tbody><tr><td id="d49091e180">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -67,7 +67,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d49089e207">
+</td></tr><tr><td id="d49091e207">
 
 **Expand or collapse the summary**
 
@@ -75,7 +75,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d49089e228">
+</td></tr><tr><td id="d49091e228">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d49089e251">
+</td></tr><tr><td id="d49091e251">
 
 **Copy the incident summary**
 
@@ -91,7 +91,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d49089e267">
+</td></tr><tr><td id="d49091e267">
 
 **View the information about the incident summary**
 

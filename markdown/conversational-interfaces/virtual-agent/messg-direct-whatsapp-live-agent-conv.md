@@ -22,7 +22,7 @@ Your administrator must have completed the following tasks:
 
 -   [Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-install.md).
 -   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-activate.md).
--   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see Application picker.
+-   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
 -   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin

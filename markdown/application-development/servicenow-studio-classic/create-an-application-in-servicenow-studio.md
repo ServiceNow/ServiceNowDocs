@@ -42,15 +42,15 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
     **Note:** To browse completed apps for reference, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you can access a library of apps and app files.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d156964e193">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d156920e193">
 
 How to create
 
-</th><th align="left" id="d156964e196">
+</th><th align="left" id="d156920e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d156964e202">
+</th></tr></thead><tbody><tr><td id="d156920e202">
 
 **On your own**
 
@@ -58,7 +58,7 @@ Description
 
 Create the application independently, adding content and files of your choosing.Select **On your own** &gt; **Continue** and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d156964e222">
+</td></tr><tr><td id="d156920e222">
 
 **With Now Assist, which opens Build Agent**
 
@@ -68,7 +68,7 @@ Begin a conversation with Build Agent to create your application.Select **With N
 
 For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d156964e273">
+</td></tr><tr><td id="d156920e273">
 
 **With Creator Studio**
 
@@ -97,7 +97,7 @@ For more information, see [Building apps with Creator Studio](https://raw.github
 
 6.  Define user access to the app by adding roles.
 
-    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see .
+    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
     1.  Select **Add a role**.
 

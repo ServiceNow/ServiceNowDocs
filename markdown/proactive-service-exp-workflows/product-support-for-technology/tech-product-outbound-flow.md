@@ -33,22 +33,22 @@ The integration process for with the external service test management systems is
 
 1.  As the administrator, you activate the Test Specification Open API to capture the test runs from the service problem case.
 
-    To learn more, see .
+    To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-test-management-api.md).
 
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.
 
-        For more information on setting up test definitions, see .
+        For more information on setting up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/settingup-test-specifications.md).
 
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 
-        For more information on configuring external system endpoints by creating an integration request, see .
+        For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-integrations.md).
 
         **Note:**
 
         -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy to the external system that is configured in the application spoke selector.
         -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run to the external system that is configured in the application spoke selector.
-        To learn more about spokes, see .
+        To learn more about spokes, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spoke-builder.md).
 
 3.  If the fulfillment request is successful, a response is received from the external system and is captured in the Test Run table \(sn\_st\_mgmt\_test\).
 

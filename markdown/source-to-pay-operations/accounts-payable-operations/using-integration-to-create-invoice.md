@@ -17,7 +17,7 @@ breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 
 Invoice integration in Accounts Payable Operations enables bidirectional data exchange with third-party ERP systems and external applications for invoice ingestion, posting, and synchronization.
 
-The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see .
+The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md).
 
 The integration framework enables the following use cases:
 

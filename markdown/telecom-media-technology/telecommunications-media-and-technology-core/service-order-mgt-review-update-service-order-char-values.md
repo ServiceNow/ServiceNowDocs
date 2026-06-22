@@ -34,7 +34,7 @@ Service specifications have a set of related characteristics and characteristic 
 
 3.  On the form, review the service order characteristics values and update as needed.
 
-    For information about the field descriptions, see .
+    For information about the field descriptions, see [Order Characteristics form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/fields-order-characteristics-form.md).
 
 4.  When you finish reviewing and updating the service order characteristics, perform one of the following actions.
 

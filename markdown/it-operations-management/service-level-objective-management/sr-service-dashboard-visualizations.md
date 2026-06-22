@@ -94,9 +94,9 @@ The SLO table includes the following columns by default. To customize the column
 
 ## Dashboard filters and actions
 
-The Service reliability dashboard is built with Platform Analytics and includes standard dashboard features. For details on customizing, duplicating, or sharing dashboards, see the  documentation.
+The Service reliability dashboard is built with Platform Analytics and includes standard dashboard features. For details on customizing, duplicating, or sharing dashboards, see the [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md) documentation.
 
-**Note:** Changes to the Service reliability dashboard affect all SRM users on your instance. To create a personalized version, either build a new dashboard or duplicate the existing dashboard and edit it. Learn more in  and .
+**Note:** Changes to the Service reliability dashboard affect all SRM users on your instance. To create a personalized version, either build a new dashboard or duplicate the existing dashboard and edit it. Learn more in [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md) and [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
 
 **Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

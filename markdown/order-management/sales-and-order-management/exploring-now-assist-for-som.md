@@ -71,7 +71,7 @@ The opportunity summary appears on the Overview page and includes the following 
 
 CRM conversational query is an AI agent embedded in the Now Assist panel. You can ask questions and issue commands in plain language and the agent performs the action without you opening a form.
 
-The agent is accessible via MCP clients \(such as Claude\) through the Sales CRM MCP server, which is published in Sales common. For information on how to connect to an MCP server from an MCP client, refer .
+The agent is accessible via MCP clients \(such as Claude\) through the Sales CRM MCP server, which is published in Sales common. For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/connect-mcp-server-client.md).
 
 The agent supports the following operations on opportunity records and related entities, including contacts, tasks, touchpoints, meetings, line items, and competitors:
 

@@ -44,7 +44,7 @@ Role required: admin
     -   **KCS Article**: For known issues and workarounds.
 3.  On the Knowledge form, fill in the fields.
 
-    For more information on the Knowledge form fields, see .
+    For more information on the Knowledge form fields, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md).
 
 4.  Select **Submit** to save the draft.
 

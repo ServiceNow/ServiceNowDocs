@@ -7,7 +7,7 @@ release: australia
 product: AI Platform Administration
 classification: ai-platform-administration
 topic_type: reference
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

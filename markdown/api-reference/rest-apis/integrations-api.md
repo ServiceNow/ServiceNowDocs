@@ -31,7 +31,7 @@ This API runs in the `sn_install_base` namespace.
 
 **Note:** This API only returns non-empty fields in the endpoint responses. Also, none of the system level fields \(those prefaced with "sys\_"\) are returned except the sys\_id field.
 
-For additional information on install base items, see .
+For additional information on install base items, see [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -297,7 +297,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see .
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md).
 
 Data type: String
 
@@ -7282,7 +7282,7 @@ relatedparties.responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see 
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -7360,7 +7360,7 @@ relatedparties.type.display\_value
 
 </td><td id="type_display_value-rp-integration-entry">
 
-Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see .Possible types:
+Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).Possible types:
 
 -   Authorized Account
 -   Authorized Consumer
@@ -9007,7 +9007,7 @@ service\_context
 
 </td><td id="service_context-request-integration-entry">
 
-Sys\_id of the service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see .**Note:** This field is only valid if the Proactive Customer Service Operations with Event Management plugin is installed.
+Sys\_id of the service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-health-pcso.md).**Note:** This field is only valid if the Proactive Customer Service Operations with Event Management plugin is installed.
 
 Data type: String
 
@@ -9482,7 +9482,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see 
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -9828,7 +9828,7 @@ item.responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see 
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -9873,7 +9873,7 @@ item.type.display\_value
 
 </td><td>
 
-Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see .Possible types:
+Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).Possible types:
 
 -   Authorized Account
 -   Authorized Consumer
@@ -11149,7 +11149,7 @@ service\_context
 
 </td><td id="service_context-request-integration-entry">
 
-Sys\_id of the service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see .**Note:** This field is only valid if the Proactive Customer Service Operations with Event Management plugin is installed.
+Sys\_id of the service that is associated to the underlying CI for calculating the impact severity from Event Management. For more information, see [Service health status for install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-health-pcso.md).**Note:** This field is only valid if the Proactive Customer Service Operations with Event Management plugin is installed.
 
 Data type: String
 
@@ -12247,7 +12247,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see 
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -12570,7 +12570,7 @@ responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see 
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -12639,7 +12639,7 @@ type.display\_value
 
 </td><td>
 
-Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see .Possible types:
+Text name of the type of contact associated with the related parties record. Use this value to display the type of contact in the UI. For additional information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).Possible types:
 
 -   Authorized Account
 -   Authorized Consumer

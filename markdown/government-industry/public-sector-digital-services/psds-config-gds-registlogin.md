@@ -28,7 +28,7 @@ When a user selects Log-in on this landing page, they are directed to the defaul
 
 \[Omitted image "psds\_uk\_gds\_login.png"\] Alt text: GDS Portal login page.
 
-This login page can be customized using widgets, and you can define different login scenarios that will redirect user to certain pages on authentication. For more information on customizing login scenarios in a portal, see .
+This login page can be customized using widgets, and you can define different login scenarios that will redirect user to certain pages on authentication. For more information on customizing login scenarios in a portal, see [Define login scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_LoginScenarios.md).
 
 ## Registration Pages
 
@@ -45,7 +45,7 @@ The default Constituent registration page \(uk\_gds\_constituent\_register\) con
 
 These pages and forms adhere to GOV.UK form patterns using single-column layout, inline validation via `ukgds-error-message`, error summary via `ukgds-error-summary`, reCAPTCHA, and a terms &amp; conditions checkbox.
 
-For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see .
+For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 **Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md)
 

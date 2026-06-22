@@ -16,13 +16,13 @@ breadcrumb: [Advanced AI Search Management Tools, Search administration, Configu
 
 The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
-To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the Usage Insights dashboard, see Overview of the dashboard.
+To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the Usage Insights dashboard, see [Overview of the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
 
 **Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adv-ais-enable-sp-analytics-data.md) to enable it.
 
 In the **Queries** section of the dashboard, you can view the query lists on their own page by selecting **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
-You can improve the visual experience by using the dark theme. For more information, see .
+You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 ## Required ServiceNow AI Platform roles
 

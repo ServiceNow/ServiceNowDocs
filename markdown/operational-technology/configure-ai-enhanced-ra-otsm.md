@@ -19,11 +19,11 @@ Configure AI Enhanced Recommended Actions for Operational Technology Service Man
 
 ## Configuration overview
 
-1.  
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-ext-cont-connector-mspo.md)
 
     Create a Microsoft SharePoint Online external content connector to use as the external source.
 
-2.  
+2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md)
 
     Configure the crawl settings to specify the sites you want your Microsoft SharePoint Online external content connector to crawl.
 

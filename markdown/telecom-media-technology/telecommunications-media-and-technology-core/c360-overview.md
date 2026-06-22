@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications, Media and Technology Core
 classification: telecommunications-media-and-technology-core
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---

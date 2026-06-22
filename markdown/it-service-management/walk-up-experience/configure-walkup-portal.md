@@ -31,7 +31,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 1.  To configure the Walk-up service portal using the **Service Portal** application, navigate to **All** &gt; **Service Portal** &gt; **Service Portal Configuration**.
 
-2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to Service Portal for detailed information.
+2.  To customize the base-system walk-up portal with your unique branding, title, logo, theme colors, layout, properties, widgets, and more, or to create a new walk-up portal, refer to [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for detailed information.
 
 3.  Alternatively, to configure the Walk-up service portal using the Service Portal Walk-up form, navigate to **All** &gt; **Walk-up Experience** &gt; **Administration** &gt; **Portal Configurations**.
 
@@ -41,7 +41,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 6.  In the form designer header drop-down list, select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d185436e171">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d184039e171">
 
 **Walk-up context \[wu\_context\]**
 
@@ -49,7 +49,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 Online check-in channel for requesters to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up requester and the description of the associated interaction.
 
-</td></tr><tr><td id="d185436e180">
+</td></tr><tr><td id="d184039e180">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -57,7 +57,7 @@ Online check-in channel for requesters to join a walk-up queue before physically
 
 Physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d185436e189">
+</td></tr><tr><td id="d184039e189">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -65,7 +65,7 @@ Physical walk-up location interaction queue to manage and administer the service
 
 Reasons why a requester needs walk-up support.
 
-</td></tr><tr><td id="d185436e198">
+</td></tr><tr><td id="d184039e198">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 
@@ -74,7 +74,7 @@ Reasons why a requester needs walk-up support.
 Order in which reasons for a visit should be prioritized at a walk-up location.
 
 </td></tr></tbody>
-</table>    You can modify the form content to meet your portal requirements. For more details, refer to Form configuration .
+</table>    You can modify the form content to meet your portal requirements. For more details, refer to [Form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/basic-form-administration.md) .
 
 
 **Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)

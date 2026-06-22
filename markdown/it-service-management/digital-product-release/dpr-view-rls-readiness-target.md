@@ -38,15 +38,15 @@ Role required: sn\_dpr\_model.release\_admin
 
 5.  Select a release readiness target from the calendar, list view, or agenda view pane, to open.
 
-<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d110955e101">
+<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d110221e101">
 
 Option
 
-</th><th align="left" id="d110955e104">
+</th><th align="left" id="d110221e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110955e110">
+</th></tr></thead><tbody><tr><td id="d110221e110">
 
 **From the calendar view**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the calendar, select the release target item on a date.
 
 
-</td></tr><tr><td id="d110955e134">
+</td></tr><tr><td id="d110221e134">
 
 **From the List view**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a release target from the list.
 
 
-</td></tr><tr><td id="d110955e158">
+</td></tr><tr><td id="d110221e158">
 
 **From the Agenda View pane**
 

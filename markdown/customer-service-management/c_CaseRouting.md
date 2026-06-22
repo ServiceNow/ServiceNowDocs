@@ -50,5 +50,5 @@ Alternately, you can create a script to further customize the assignment rule.
 **Related topics**  
 
 
-[bundle-platadm.c_AssignmentRulesModule]
+[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_AssignmentRulesModule.md)
 

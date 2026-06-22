@@ -24,7 +24,7 @@ Role required: admin
 
 By default, the GOV.UK Developer Toolkit provides you with a library of reusable portal widgets that follow UK GDS guidelines. Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets.
 
-**Note:** Cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see Developing custom widgets.
+**Note:** Cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 ## Procedure
 

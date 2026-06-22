@@ -29,5 +29,5 @@ When composing a comment or work note:
 |Compose a comment|Shift+Alt+c|Shift+Option+c|
 |Compose a work note|Shift+Alt+w|Shift+Option+w|
 
-For more information, see Next Experience keyboard shortcuts.
+For more information, see [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-keyboard-shortcuts.md).
 

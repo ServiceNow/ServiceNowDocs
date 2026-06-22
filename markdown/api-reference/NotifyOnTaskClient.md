@@ -30,7 +30,7 @@ Using the NotifyOnTaskClient API you can:
     -   start a conference call
     -   end a conference call
 
-The Notify \(com.snc.notify\) plugin requires a separate subscription. For additional information on activating the Notify plugin, see Activate Notify.
+The Notify \(com.snc.notify\) plugin requires a separate subscription. For additional information on activating the Notify plugin, see [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md).
 
 **Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 

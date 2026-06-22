@@ -40,7 +40,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 4.  Confirm how to run the script.
 
-<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d238818e98">
+<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d238804e98">
 
 **__Proceed in Background__**
 
@@ -48,7 +48,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 Use this option for long-running scripts, or if you do not know the expected execution time.
 
-</td></tr><tr><td id="d238818e108">
+</td></tr><tr><td id="d238804e108">
 
 **__Proceed__**
 

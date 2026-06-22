@@ -51,15 +51,15 @@ For an overview of Link View in Express List, see [Viewing links between alerts 
 
 6.  Customize the Link View display.
 
-<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d557314e178">
+<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d555296e178">
 
 Task
 
-</th><th align="left" id="d557314e181">
+</th><th align="left" id="d555296e181">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d557314e187">
+</th></tr></thead><tbody><tr><td id="d555296e187">
 
 **Focus on an area of interest**
 
@@ -67,7 +67,7 @@ Action
 
 Select one or more nodes and rearrange them in Link View by dragging them to a new location.
 
-</td></tr><tr><td id="d557314e196">
+</td></tr><tr><td id="d555296e196">
 
 **Refresh the alert group**
 
@@ -77,7 +77,7 @@ Select **Refresh**. After refreshing the alert group, rearranged nodes appear in
 
 **Note:** The **Refresh** button is enabled when new data for the alert group is available. Link View doesn't refresh automatically.
 
-</td></tr><tr><td id="d557314e218">
+</td></tr><tr><td id="d555296e218">
 
 **View the meaning of icons and colors**
 
@@ -85,7 +85,7 @@ Select **Refresh**. After refreshing the alert group, rearranged nodes appear in
 
 Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 
-</td></tr><tr><td id="d557314e236">
+</td></tr><tr><td id="d555296e236">
 
 **Reduce noise**
 
@@ -93,7 +93,7 @@ Select the Link View legend.The legend also indicates the number of unique nodes
 
 In the Link View legend, toggle between hiding and showing a tag type.
 
-</td></tr><tr><td id="d557314e246">
+</td></tr><tr><td id="d555296e246">
 
 **View information about an alert**
 

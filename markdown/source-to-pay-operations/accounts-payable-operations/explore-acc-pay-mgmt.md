@@ -17,7 +17,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 Discover the features, benefits, and applications included in Accounts Payable Operations, such as invoice processing, duplicate detection, exception handling, and inquiry case management.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 ## Key features
 

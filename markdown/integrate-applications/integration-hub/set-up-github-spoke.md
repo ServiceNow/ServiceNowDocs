@@ -108,7 +108,7 @@ Use Mid Server
 
 -   Enter `1` if your ServiceNow instance requires a MID Server to connect with GitHub.
 -   Enter `0` if your ServiceNow instance does not require a MID Server to connect with GitHub.
- **Important:** To enable this option, you must already have a MID Server set up on your instance. See  for detailed instructions.
+ **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Use Mid Server
 
 -   Enter `1` if your ServiceNow instance requires a MID Server to connect with the GitHub Enterprise server.
 -   Enter `0` if your ServiceNow instance does not require a MID Server to connect with the GitHub Enterprise server.
- **Important:** To enable this option, you must already have a MID Server set up on your instance. See  for detailed instructions.
+ **Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for detailed instructions.
 
 </td></tr><tr><td>
 

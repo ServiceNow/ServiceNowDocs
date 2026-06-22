@@ -25,7 +25,7 @@ During offboarding, governance review may include assessing how retiring an AI a
 
 Assessments performed during offboarding are intended to confirm that governance obligations associated with the AI asset are fully addressed before retirement, rather than to introduce new ongoing monitoring or post‑retirement obligations.
 
-AIRC is used to perform and document governance reviews associated with offboarding, while AICT can be used to manage technical life-cycle workflows for AI assets based on governance outcomes. Offboarding is initiated when an AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or steward \[sn\_ai\_governance\_ai\_steward\] submits an offboarding request in AICT, which then drives governance review activities in AIRC. For more information, see 
+AIRC is used to perform and document governance reviews associated with offboarding, while AICT can be used to manage technical life-cycle workflows for AI assets based on governance outcomes. Offboarding is initiated when an AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] or steward \[sn\_ai\_governance\_ai\_steward\] submits an offboarding request in AICT, which then drives governance review activities in AIRC. For more information, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.md)
 
 When an AI model or dataset is used by one or more governed AI systems, offboarding review may include evaluating downstream dependencies to help ensure that impacted systems are updated, remediated, or retired as needed before the asset is fully offboarded.
 
@@ -41,7 +41,7 @@ You can view AI assets and their governance status on the Operations tab in the 
 
 \[Omitted image "offboard-list.png"\] Alt text: The list page showing AI assets in an offboarding-related state in the AI Risk and Compliance workspace.
 
-For more information about the AI governance life cycle and how offboarding fits into the broader AI asset life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md) and .
+For more information about the AI governance life cycle and how offboarding fits into the broader AI asset life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md) and [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).
 
 In AIRC, practitioners can perform activities such as reviewing regulatory risk classifications, completing or updating impact assessments, and conducting conformity or policy-alignment reviews as part of the AI life cycle.
 

@@ -18,7 +18,7 @@ Revoke software using Microsoft System Center Configuration Manager \(SCCM\) tha
 
 ## Before you begin
 
-To revoke software using SCCM, you must create an Define an SCCM configuration for the application, in which the appropriate software Discovery model is defined. See Software discovery models Discovery models and software installations.
+To revoke software using SCCM, you must create an [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for the application, in which the appropriate software Discovery model is defined. See Software discovery models Discovery models and software installations.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 

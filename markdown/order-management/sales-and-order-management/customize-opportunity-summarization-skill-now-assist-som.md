@@ -19,7 +19,7 @@ Configure the opportunity summarization skill to generate AI-powered opportunity
 
 ## Before you begin
 
-Use the Now Assist Admin console to configure the opportunity summarization skill. For additional information, see .
+Use the Now Assist Admin console to configure the opportunity summarization skill. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 Role required: admin
 
@@ -98,7 +98,7 @@ Description of the base input field value.
 
 6.  Customize the prompt output.
 
-    Review and test the default prompt. To customize prompts, select **Edit prompt in Now Assist Skill Kit**. For more information, see Now Assist Skill Kit.
+    Review and test the default prompt. To customize prompts, select **Edit prompt in Now Assist Skill Kit**. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
     1.  Select a record in the Test output section and test the prompt response by selecting **Run Test**.
 

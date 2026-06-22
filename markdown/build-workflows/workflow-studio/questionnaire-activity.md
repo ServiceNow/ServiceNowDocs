@@ -37,7 +37,7 @@ During a playbook run, you can use data definitions to potentially:
 
 These properties are common to all to activities in Playbooks.
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md).
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -174,7 +174,7 @@ These outputs can provide data to other activities in your playbook. You can acc
 
 |Output|Type|Description|
 |------|----|-----------|
-|Record|Reference.Flow Data|Reference to record containing collected data. Use the pill-picker to dot-walk to **Outputs** &gt; **Record** &gt; **Vars** to see all collected data. To learn more about the pill-picker, see .|
+|Record|Reference.Flow Data|Reference to record containing collected data. Use the pill-picker to dot-walk to **Outputs** &gt; **Record** &gt; **Vars** to see all collected data. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md).|
 
 -   **[Create a questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-questionnaire.md)**  
 Create and insert a new questionnaire for agents to respond to.

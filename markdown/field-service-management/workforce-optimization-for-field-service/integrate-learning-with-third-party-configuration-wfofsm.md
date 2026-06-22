@@ -26,7 +26,7 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   Enterprise Service Management Integrations Framework
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
@@ -128,31 +128,31 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d97428e319">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d97391e319">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d97428e322">
+</th><th align="left" id="d97391e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d97428e328">
+</th></tr></thead><tbody><tr><td id="d97391e328">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d97428e341">
+</td></tr><tr><td id="d97391e341">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d97428e357">
+</td></tr><tr><td id="d97391e357">
 
 **Udemy application**
 
@@ -167,7 +167,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
     2.  For each of the following properties, set the value to **1638400**:
         -   com.glide.transform.json.max-partial-length
         -   com.snc.process\_flow.reporting.serialized.val\_size\_limit
-    For more information on these system properties, see Coaching With Learning System Properties.
+    For more information on these system properties, see [Coaching With Learning System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 3.  Activate schedule flows to integrate third-party learning content.
 
@@ -180,7 +180,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
     4.  Select each of the third-party learning sources and set the **Active** field to **true**.
     Schedule flows automatically run on a scheduled basis to synchronize third-party learning content into your ServiceNow instance.
 
-    For more information, see configure the third-party integration sources
+    For more information, see [configure the third-party integration sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integration-source-coaching-with-learning-coaching-wfo-cs.md)
 
 4.  After you configure the third-party integration sources, you can refresh the entire third-party content or synchronize new and updated services into your ServiceNow instance.
 
@@ -238,7 +238,7 @@ Pluralsight
 </table>
 ## What to do next
 
-Add external courses to Coaching With Learning
+[Add external courses to Coaching With Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/coaching-configurable-wfo-cs.md)
 
 ## External Content Integration Sources
 

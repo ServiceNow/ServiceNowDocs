@@ -30,7 +30,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 
 1.  Navigate to the CAB meeting whose agenda you want to modify using one of the following steps.
 
-<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d283335e91">
+<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d281060e91">
 
 **Open from the CAB meeting list**
 
@@ -40,7 +40,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d283335e121">
+</td></tr><tr><td id="d281060e121">
 
 **Open from the CAB definition list**
 
@@ -132,5 +132,5 @@ Check box to mark each pre-approved change request as **Complete** in the CAB me
 **Related topics**  
 
 
-[bundle-platux.c_UsingORConditions]
+[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UsingORConditions.md)
 

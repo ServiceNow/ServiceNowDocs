@@ -18,7 +18,7 @@ Configurable Portal widgets provide you with the ability to configure the behavi
 
 Service Portal uses widgets for configuration. When you configure a page or a widget for a portal in the Service Portal Configuration page, you use Service Portal widgets to do so.
 
-**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see .
+**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
 
 The following is a list of base-system widgets that are included with the toolkit that enable you to configure various pages within the GDS Service Portal, and their instance options.
 
@@ -153,7 +153,7 @@ Displays topics as cards on your portal page enabling your users to access knowl
 </td></tr></tbody>
 </table>You can use these widgets as is, or you can duplicate and edit them to suit your needs. For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-widgets-edit.md).
 
-For more information on using configurable widgets in portals, see .
+For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
 
 There are ? main categories of widgets available for use with the GDS Service Portal.
 

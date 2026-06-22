@@ -7,7 +7,7 @@ release: australia
 product: Customer Service Management
 classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -38,6 +38,6 @@ The hierarchical list view needs to be manually enabled via the UI builder for c
 
 5.  Use the controls to manage the product inventories.
 
-    To learn more about the controls, see .
+    To learn more about the controls, see [Use hierarchical list view for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/quote-management-view-hierarchical-line-items.md).
 
 

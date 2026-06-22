@@ -108,15 +108,15 @@ This example uses OpenSSL to generate keys and certificates. You may substitute 
 
 4.  Execute an `HTTP POST request` to the import from a web service REST endpoint.
 
-<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d65653e407">
+<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d65904e407">
 
 Option
 
-</th><th align="left" id="d65653e410">
+</th><th align="left" id="d65904e410">
 
 Value/Format
 
-</th></tr></thead><tbody><tr><td id="d65653e416">
+</th></tr></thead><tbody><tr><td id="d65904e416">
 
 **URL of the endpoint**
 
@@ -124,7 +124,7 @@ Value/Format
 
 `https://<instance>/api/sn_kmf/key/import?cryptoSpecSysID=<sys_id_of_crypto_spec>`.
 
-</td></tr><tr><td id="d65653e428">
+</td></tr><tr><td id="d65904e428">
 
 **CryptoSpecSysID parameter**
 
@@ -134,7 +134,7 @@ The sys\_id of the newly created crypto specification.
 
 **Tip:** Right-click the header of the crypto specification to copy the sys\_id.
 
-</td></tr><tr><td id="d65653e448">
+</td></tr><tr><td id="d65904e448">
 
 **Header-Content-Type**
 
@@ -142,7 +142,7 @@ The sys\_id of the newly created crypto specification.
 
 Application/octet-stream.
 
-</td></tr><tr><td id="d65653e457">
+</td></tr><tr><td id="d65904e457">
 
 **Body**
 
@@ -150,7 +150,7 @@ Application/octet-stream.
 
 Must contain a file attachment-binary and the public key to import \(wrapped\_symmetric\_key.txt\).
 
-</td></tr><tr><td id="d65653e467">
+</td></tr><tr><td id="d65904e467">
 
 **Import from web service REST endpoint**
 

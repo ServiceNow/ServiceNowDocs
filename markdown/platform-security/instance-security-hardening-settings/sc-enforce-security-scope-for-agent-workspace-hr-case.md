@@ -109,7 +109,7 @@ References
 </td><td>
 
 -   [https://owasp.org/www-project-proactive-controls/\#div-numbering](https://owasp.org/www-project-proactive-controls/#div-numbering)
--   
+-   [Add a component to Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/workspace-component.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)

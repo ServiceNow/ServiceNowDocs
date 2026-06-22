@@ -21,7 +21,7 @@ Configure the Insurance interaction context summary skill in Now Assist for FSO 
 Verify the Now Assist for Financial Services Operations \(FSO\) plugin \(`sn_fso_now_assist`\) and the Agentic Contact Center for Insurance plugin \(`com.sn_ins_csr`\) are installed.
 
 -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
--   For information about the installation process, see .
+-   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** This skill is dependent on the Insurance Customer Profile Summarization skill. Configure that skill before continuing. For more information, see [Configure insurance customer profile summarization in Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-insurance-customer-profile-summarization.md).
 
@@ -66,7 +66,7 @@ The skill is activated. The **Relevant details for this call** card is displayed
 
 Configure AI indexing for the sources that this skill uses to retrieve insurance data and generate summaries. For more information, see &lt;xref to configure AI indexing&gt;.
 
-You can choose which service provider to use for this skill in the Now Assist Admin console.
+You can choose which service provider to use for this skill [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 
 **Parent Topic:**[Configure Financial Services Operations Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-fso-now-assist-skills.md)
 

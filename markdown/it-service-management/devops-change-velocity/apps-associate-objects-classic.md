@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
 
 3.  From the application record page, select the related list for the object type that you want to associate.
 
-<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d272266e77">
+<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d269991e77">
 
 Object type
 
-</th><th align="left" id="d272266e80">
+</th><th align="left" id="d269991e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d272266e86">
+</th></tr></thead><tbody><tr><td id="d269991e86">
 
 **Plans**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d272266e122">
+</td></tr><tr><td id="d269991e122">
 
 **Repositories**
 
@@ -60,7 +60,7 @@ Steps
 4.  Select **Save**.
  **Note:** When the property **Enable automatic association of repos to apps on pipeline execution** is enabled, repositories are automatically assigned to applications when a pipeline associated with an app identifies commits of a repository that is not yet associated.
 
-</td></tr><tr><td id="d272266e165">
+</td></tr><tr><td id="d269991e165">
 
 **Pipelines**
 

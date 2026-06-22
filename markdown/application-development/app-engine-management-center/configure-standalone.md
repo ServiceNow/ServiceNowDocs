@@ -30,7 +30,7 @@ Related tasks:
 
 The standalone configuration option enables you to set up AEMC without having to configure an active deployment pipeline. Configure your development environment first, then production, and optionally your testing environment. You can add a pipeline later when you're ready to automate deployments.
 
-For general information about guided setup, see Using guided setup.
+For general information about guided setup, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,13 +22,13 @@ The ServiceNow® AI Control Tower workspace enables you to track and monitor all
 
 Populate the **Type** field for strategic priorities, the **Category** field for goals, and the **Investment type** field for planning items with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/create-strategic-priority.md), [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md), and [Add a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md).
 
-When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details. For more information, see .
+When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details. For more information, see [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-strategy-ai-control-tower.md).
 
 ## Strategic Planning with Digital Product Release workspace
 
 Using the Digital Product lens, product managers can plan, prioritize, and roadmap the work for digital products by aligning with the business strategy.
 
-As part of planning when you associate planning items with the product enhancement in the Strategic Planning Workspace, those associated planning items appear in the **Planning items** tab of the Release scope page in ServiceNow Digital Product Release workspace. This tab helps product managers track the status of the planning items associated with the product enhancements in the Digital Product Release workspace itself to ease the release management for their products. For more information, see Scope of a release.
+As part of planning when you associate planning items with the product enhancement in the Strategic Planning Workspace, those associated planning items appear in the **Planning items** tab of the Release scope page in ServiceNow Digital Product Release workspace. This tab helps product managers track the status of the planning items associated with the product enhancements in the Digital Product Release workspace itself to ease the release management for their products. For more information, see [Scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
 ## Strategic Planning with Collaborative Work Management
 
@@ -40,7 +40,7 @@ For more information on integration of CWM with Strategic Planning, see [Connect
 
 ## Strategic Planning with Enterprise Architecture Workspace
 
-Using the Business Capability lens, enterprise architects can plan, prioritize, and roadmap the work based on business capabilities or business applications. For information on ServiceNow Enterprise Architecture Workspace, see Enterprise Architecture Workspace.
+Using the Business Capability lens, enterprise architects can plan, prioritize, and roadmap the work based on business capabilities or business applications. For information on ServiceNow Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/ea-workspace.md).
 
 ## Strategic Planning with Digital Portfolio Management
 
@@ -49,7 +49,7 @@ Integrate ServiceNow Digital Portfolio Management \(DPM\) with Strategic Plannin
 -   Optimize portfolio performance by monitoring services and their performance levels in a comprehensive roadmap.
 -   Make informed budgetary decisions and deliver shared outcomes by prioritizing backlogs and managing roadmaps of business applications.
 
-For more information, see Exploring Digital Portfolio Management.
+For more information, see [Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md).
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

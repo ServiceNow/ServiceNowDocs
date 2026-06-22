@@ -33,7 +33,7 @@ SMS
 </td><td>
 
 -   [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md)
--   Twilio spoke
+-   [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/twilio-spoke.md)
 -   [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
 
  **Note:** The Conversational SMS Integration with Twilio application installs the Conversational SMS service channel and Twilio spoke applications, if not already installed.

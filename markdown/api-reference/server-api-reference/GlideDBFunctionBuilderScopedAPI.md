@@ -46,7 +46,7 @@ while(gr_incident.next()) {
 }
 ```
 
-For additional information on Function fields, see .
+For additional information on Function fields, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 

@@ -52,7 +52,7 @@ Persona:
     Responds to help requests and performs coaching or barge in actions with appropriate permissions.
 
 
-See 
+See [Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/help-request-api.md)
 
 Review the following scenarios to understand how the feature works.
 

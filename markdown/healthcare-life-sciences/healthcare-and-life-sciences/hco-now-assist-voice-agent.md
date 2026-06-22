@@ -37,9 +37,9 @@ The following Care Team Operations plugins are supported:
 -   Care Team Operations for Healthcare IT.
 
 
-To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see .
+To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/integrating-voice-service-with-ccaas-providers.md).
 
-For more information on setting up Voice AI Agents, see .
+For more information on setting up Voice AI Agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/deploy-ai-agents-for-voice.md).
 
 ## Procedure
 

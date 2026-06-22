@@ -60,47 +60,47 @@ The Workflow Data Fabric enables connections between instances and external serv
 
 ## AI and automation capabilities
 
-The ServiceNow AI Platform delivers AI experiences and intelligent AI Agents that go beyond recommendations to take action—running workflows across enterprise systems, all governed by your business rules and policies. Now Assist, generative AI, and flexible large language model \(LLM\) integration bring AI capabilities across every department.
+The ServiceNow AI Platform delivers [AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-products.md) and intelligent [AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) that go beyond recommendations to take action—running workflows across enterprise systems, all governed by your business rules and policies. Now Assist, generative AI, and flexible large language model \(LLM\) integration bring AI capabilities across every department.
 
-The platform supports prompt customization and prebuilt AI experiences, with full visibility through . Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
+The platform supports prompt customization and prebuilt AI experiences, with full visibility through [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
 
 ## Platform agentic workflows
 
-Prebuilt platform agentic workflows consisting of AI Agents help organizations accelerate AI-powered automation while maintaining governance, orchestration, and business rules. These out-of-the-box workflows address common enterprise tasks, enabling teams to reduce manual effort, shorten time to value, and scale adoption within a governed framework. Organizations can copy, extend, and customize these workflows to fit their unique processes and business needs.
+Prebuilt [platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/sn-aia-use-cases-list.md) consisting of [AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) help organizations accelerate AI-powered automation while maintaining governance, orchestration, and business rules. These out-of-the-box workflows address common enterprise tasks, enabling teams to reduce manual effort, shorten time to value, and scale adoption within a governed framework. Organizations can copy, extend, and customize these workflows to fit their unique processes and business needs.
 
 ## Security and compliance
 
 The ServiceNow AI Platform protects enterprise data with end-to-end encryption, role-based access controls, and data residency options that meet global regulatory requirements. Check your entitlements to determine whether you have access to specific security and compliance features.
 
-For more information, see .
+For more information, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-landing.md).
 
 ## Identity and access management
 
 Secure every entry point with SSO, SAML, OAuth, and multi-factor authentication, combined with granular role-based access controls. The platform integrates with your existing identity providers so the right people have the right access across every instance and application.
 
-For more information, see  and .
+For more information, see [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/identity-landing.md) and [Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/access-management-landing.md).
 
 ## Workflow automation and Playbooks
 
-The ServiceNow AI Platform executes work through a combination of structured workflows and agentic workflows. Playbooks provide stage-gated processes, decision logic, SLA enforcement, and audit trails that ensure AI agents act within the boundaries your organization defines. Agentic workflows break down complex, unpredictable tasks into manageable steps assigned to specialized AI agents. Together, Playbooks and agentic workflows support deterministic process execution and adaptive, context-driven agent action across every department.
+The ServiceNow AI Platform executes work through a combination of structured workflows and agentic workflows. [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md) provide stage-gated processes, decision logic, SLA enforcement, and audit trails that ensure AI agents act within the boundaries your organization defines. Agentic workflows break down complex, unpredictable tasks into manageable steps assigned to specialized AI agents. Together, Playbooks and agentic workflows support deterministic process execution and adaptive, context-driven agent action across every department.
 
 ## Developer and low-code/no-code tooling
 
-Build and extend applications faster with Build Agent, App Engine Studio, Workflow Studio, Integration Hub, and Playbooks, and more. The platform supports server-side JavaScript development, integration configuration, drag-and-drop workflow creation, user interface design, and AI-assisted application building. Create custom workflows, automate processes, and ship production-ready applications without sacrificing governance or control.
+Build and extend applications faster with [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md), [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md), [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md), [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md), and [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md), and more. The platform supports server-side JavaScript development, integration configuration, drag-and-drop workflow creation, user interface design, and AI-assisted application building. Create custom workflows, automate processes, and ship production-ready applications without sacrificing governance or control.
 
-For more information, see .
+For more information, see [App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md).
 
 ## Knowledge Management
 
-The Knowledge Management capability on the ServiceNow AI Platform provides AI agents with continuous access to verified, current, and structured content across every department. The Knowledge Center closes gaps identified from live incident and case patterns, detects duplicates before they affect agent decisions, and continuously optimizes content for accuracy and accessibility. With knowledge, data, and agentic workflows running on a single unified model, the knowledge layer that governs agent actions scales as AI agents scale across the enterprise.
+The [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md) capability on the ServiceNow AI Platform provides AI agents with continuous access to verified, current, and structured content across every department. The [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/knowledge-center.md) closes gaps identified from live incident and case patterns, detects duplicates before they affect agent decisions, and continuously optimizes content for accuracy and accessibility. With knowledge, data, and agentic workflows running on a single unified model, the knowledge layer that governs agent actions scales as AI agents scale across the enterprise.
 
 ## Platform Analytics and Process Mining
 
 Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Overview. Administrators can use Usage Insights to get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 
-Process Mining helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, and filter and compare processes. Process Mining identifies where new agentic opportunities exist, measures the impact of agents already deployed, and connects improvement opportunities directly to action on the same platform.
+[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md) helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, and filter and compare processes. Process Mining identifies where new agentic opportunities exist, measures the impact of agents already deployed, and connects improvement opportunities directly to action on the same platform.
 
-For more information, see  and .
+For more information, see [Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/c_performanceAnalyticsAndReporting.md) and [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
 
 ## Mobile
 
@@ -108,7 +108,7 @@ Your employees can find answers and get things done across IT, HR, facilities, a
 
 Take advantage of ready-to-use workflows for common use cases with direct connection to data. Simplify development with low-code mobile developer tools that create and customize apps for both iOS and Android. Brand your application completely—add your own logo, color theme, splash screen, and more.
 
-For more information, see .
+For more information, see [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-config-navigation.md).
 
 **Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/get-started-now-platform.md)
 

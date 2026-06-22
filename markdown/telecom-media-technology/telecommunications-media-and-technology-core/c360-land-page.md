@@ -33,7 +33,7 @@ The Telecommunications Customer 360 application provides a unified interface tha
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about the key features, see .
+-   Learn more about the key features, see [Telecommunications Customer 360 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecom-customer-360-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Customer 360 features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)

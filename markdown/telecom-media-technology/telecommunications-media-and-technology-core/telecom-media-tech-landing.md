@@ -48,9 +48,9 @@ Telecommunications Service Management \(TSM\) breaks down siloed legacy systems 
 </td><td>
 
 -   [Now Assist for Telecommunications, Media, and Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   Customer Success Management
--   Service Exchange
--   Product Support for Technology
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
 -   [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-landing-page.md)
 -   [Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/stm-landing-page.md)
 -   [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/c360-land-page.md)
@@ -82,9 +82,9 @@ Technology Provider Service Management \(TPSM\) automates work for technology pr
 </td><td>
 
 -   [Now Assist for Telecommunications, Media, and Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   Customer Success Management
--   Service Exchange
--   Product Support for Technology
+-   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md)
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Sales CRM for Technology Providers unifies sales, order management, and post-sal
 
 </td><td>
 
-Sales CRM for Technology Providers
+[Sales CRM for Technology Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-mgt-overview.md)
 
 </td></tr></tbody>
 </table>## Developer reference
@@ -116,8 +116,8 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
--   Learn about Customer Service Management at 
+-   Learn more about what's new and changed, see the [Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md).
+-   Learn about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications, Media, and Technology \(TMT\) features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore general guidelines at the [Customer Success Center](https://www.servicenow.com/success.html).

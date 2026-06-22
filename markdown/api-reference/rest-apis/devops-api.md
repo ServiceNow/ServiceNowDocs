@@ -27,13 +27,13 @@ This REST API enables integrators to:
 -   Register artifact versions and packages along with their associated pipeline execution and commits.
 -   Create and manage onboarding application and tool events.
 
-This API requires the  \(sn\_devops\_chgvlcty\) application, which is available on the ServiceNow Store.
+This API requires the [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md) \(sn\_devops\_chgvlcty\) application, which is available on the ServiceNow Store.
 
 Starting with v2, this API supports token-based authentication. Tokens can be acquired by clicking the **Copy token** button on the tool record, located in the Tool \[sn\_devops\_tool\] table. The token can then be used in an authorization header in the format `Authorization: sn_devops.DevOpsToken <tool_sys_id>:<tool_token>`.
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -1452,7 +1452,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr></tbody>
 </table>|Header|Description|
@@ -1658,7 +1658,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr></tbody>
 </table>|Header|Description|
@@ -2982,7 +2982,7 @@ This endpoint creates new artifacts and artifact versions, and associates them t
     -   If a task execution is not found, the request is persisted in the staging table. The staged request contains the build details.
 -   If the **artifact.version** is not passed in, then depending on the tool configuration, the artifact version is either retrieved by calling the /devops/tool/artifact endpoint if your artifact tool supports webhooks or through a custom subflow that retrieves the artifact version from the artifact tool.
 
-For additional information on artifacts, see Using DevOps change acceleration for releases.
+For additional information on artifacts, see [Using DevOps change acceleration for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 ### URL format
 
@@ -3203,7 +3203,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -4246,7 +4246,7 @@ All of these actions are tool specific and are executed based on the integration
 
 The return results for this endpoint only indicate whether the request was posted, it does not indicate whether the associated tools were created. The actual tool creation is processed asynchronously. To obtain the status of the tool creation and all other actions, you must call the [/devops/onboarding/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint and pass in the **onboardingRequestID** parameter that is returned by this endpoint.
 
-Before you are able to access this endpoint, your admin must have configured the DevOps connection and credential alias \(CreateDevOpsTool\) to setup tools in the instance. For details, see Install DevOps Change Velocity. In addition, the calling entity must have the devops.integration.user role.
+Before you are able to access this endpoint, your admin must have configured the DevOps connection and credential alias \(CreateDevOpsTool\) to setup tools in the instance. For details, see [Install DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/activate-dev-ops.md). In addition, the calling entity must have the devops.integration.user role.
 
 ### URL format
 
@@ -4533,7 +4533,7 @@ curl -X POST "https://servicenow-instance/api/sn_devops/v1/devops/onboarding/too
 
 Registers a callback with a ServiceNow instance for an orchestration task under change control, which can be called once a decision has been made on the change request.
 
-Before you call this endpoint, you must have an orchestration task created in your ServiceNow instance. You can create this task either through Discovery or by calling the [DevOps - POST /devops/orchestration/stepMapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint. You must also ensure that the orchestration task is associated to a previously defined pipeline step and that change control is enabled \(by selecting the **Change control** option on the App Stage form.\) For details, see Accelerating DevOps change.
+Before you call this endpoint, you must have an orchestration task created in your ServiceNow instance. You can create this task either through Discovery or by calling the [DevOps - POST /devops/orchestration/stepMapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint. You must also ensure that the orchestration task is associated to a previously defined pipeline step and that change control is enabled \(by selecting the **Change control** option on the App Stage form.\) For details, see [Accelerating DevOps change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 ### URL format
 
@@ -4805,7 +4805,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -5160,7 +5160,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -5277,7 +5277,7 @@ The endpoint uses these artifact-specific build details to look up task executio
 
 **Note:** This endpoint does not support updates. It always creates a new package even if one with same name already exists.
 
-For additional information on artifact packages, see Using DevOps change acceleration for releases.
+For additional information on artifact packages, see [Using DevOps change acceleration for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-release-change.md).
 
 ### URL format
 
@@ -5556,7 +5556,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -5999,13 +5999,13 @@ Response - request created a staged package:
 
 Posts the passed in payload to the Inbound Event \[sn\_devops\_inbound\] table for processing by a custom DevOps subflow.
 
-Call this endpoint from the associated webhook in your tool, specified by the passed in **capability** parameter. A custom subflow, to process the passed in payload, must already be defined in your ServiceNow instance. Based on a predefined schedule, the DevOps Master Flow picks up the webhook event information from the Inbound Event table and passes it to the custom subflow, which then process the payload. For more information on creating a custom subflow, see Creating DevOps subflows.
+Call this endpoint from the associated webhook in your tool, specified by the passed in **capability** parameter. A custom subflow, to process the passed in payload, must already be defined in your ServiceNow instance. Based on a predefined schedule, the DevOps Master Flow picks up the webhook event information from the Inbound Event table and passes it to the custom subflow, which then process the payload. For more information on creating a custom subflow, see [Creating DevOps subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md).
 
-For additional information on test tool integration, see DevOps test tool integration.
+For additional information on test tool integration, see [DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md).
 
 Before calling this endpoint for a custom DevOps tool, you must implement the handleTool\(\) and getNativeIdForOrchestrationTask\(\) methods from sn\_devops.DevOpsOrchestrationToolIntegrationHandler. For more information, see [DevOpsOrchestrationToolIntegrationHandler - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DevOpsOrchToolIntHandlerScopedAPI.md)[DevOpsOrchestrationToolIntegrationHandler - Scoped](https://developer.servicenow.com/go_to_api.do?ID=DevOpsOrchToolIntHandlerScopedAPI&v=washingtondc).
 
-**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see .
+**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
 
 ### URL format
 
@@ -6121,7 +6121,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -6505,13 +6505,13 @@ Posts the passed in payload from GitHub, Jira, or Bitbucket to the Events \[sn\_
 
 Before calling this endpoint, you must create an integration with the tool you're using.
 
--   GitHub integration with DevOps
--   Jira integration with DevOps
--   Bitbucket integration with DevOps
+-   [GitHub integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+-   [Jira integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
+-   [Bitbucket integration with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 
 To process events from any other tool besides GitHub, Jira, or Bitbucket, use the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md) endpoint instead.
 
-**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see .
+**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
 
 ### URL format
 
@@ -6588,7 +6588,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -7449,7 +7449,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr id="content_type-row-RESTAPI"><td>
 
@@ -7683,7 +7683,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 

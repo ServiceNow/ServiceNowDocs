@@ -20,9 +20,9 @@ Integrate your FRISS account with your ServiceNow® instance so that you determi
 
 Set up your integration:
 
-1.  Request an Integration Hub subscription. To learn how, see Request Integration Hub.
+1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 2.  Activate Financial Services Operations Integration with FRISS from ServiceNow Store, which automatically activates the FRISS spoke.
-3.  Set up the FRISS spoke. To learn how, see .
+3.  Set up the FRISS spoke. To learn how, see [Set up the FRISS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-the-friss-spoke.md).
 
 **Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-integration-with-friss-overview.md)
 

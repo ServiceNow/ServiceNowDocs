@@ -41,15 +41,15 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
 5.  When you finish reviewing and updating the entire service order, perform one of the following actions.
 
-<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d31816e193">
+<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d31900e193">
 
 Action
 
-</th><th align="left" id="d31816e196">
+</th><th align="left" id="d31900e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31816e202">
+</th></tr></thead><tbody><tr><td id="d31900e202">
 
 **Save the updated service order**
 
@@ -57,7 +57,7 @@ Description
 
 Select **Save**.
 
-</td></tr><tr><td id="d31816e214">
+</td></tr><tr><td id="d31900e214">
 
 **Approve the service order**
 

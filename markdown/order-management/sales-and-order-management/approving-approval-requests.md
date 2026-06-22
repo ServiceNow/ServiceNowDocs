@@ -49,7 +49,7 @@ You can approve or reject requests from different channels, depending on how the
 
 You may also receive email reminders if your approval rule admin has set up email reminders for your approval configuration.
 
-**Note:** For more information on setting up your preferred notification channels, see .
+**Note:** For more information on setting up your preferred notification channels, see [Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/preferences-landing.md).
 
 ## Rejection workflow
 
@@ -71,7 +71,7 @@ If you've been added as an ad hoc approver, you can accept or reject the approva
 
 ## Delegating approvals
 
-If you need to be away from work for a specific time period and can't review your approval requests, you can delegate your approval responsibilities to another coworker if the granular delegation feature in HR Service Delivery has been implemented. For more information on delegation, see .
+If you need to be away from work for a specific time period and can't review your approval requests, you can delegate your approval responsibilities to another coworker if the granular delegation feature in HR Service Delivery has been implemented. For more information on delegation, see [Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation.md).
 
 **Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/using-advanced-approval-management.md)
 

@@ -46,7 +46,7 @@ Applies to
 
 </td><td>
 
-The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list con.\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see .
+The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list con.\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-user-criteria-record.md).
 
  **Note:** If you don't specify a user, this rule is applied to all users.
 

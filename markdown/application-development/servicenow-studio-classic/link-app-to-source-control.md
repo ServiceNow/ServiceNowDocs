@@ -84,7 +84,7 @@ MID Server Name
 
 The name of the existing MID Server to link through. Use a separate MID Server to prevent conflicts with Discovery activities.Verify that the MID Server user can create files in the \[sys\_attachment\] table and that the table accepts files of the "bundle" type.
 
-Connecting through a MID Server enables access to repositories behind a firewall. For more information, see .
+Connecting through a MID Server enables access to repositories behind a firewall. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Credential
 
 </td><td>
 
-The credential to use with the selected protocol. For more information about creating credentials, see .**Note:** For SSH protocol, enter a valid credential of the SSH private key type. For HTTPS protocol, enter a valid credential of the Basic Auth credentials type.
+The credential to use with the selected protocol. For more information about creating credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).**Note:** For SSH protocol, enter a valid credential of the SSH private key type. For HTTPS protocol, enter a valid credential of the Basic Auth credentials type.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ An optional description of the repository or application.
 **Related topics**  
 
 
-[bundle-platcap.mid-server-landing]
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 
-[bundle-psec.credentials-getting-started]
+[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
 

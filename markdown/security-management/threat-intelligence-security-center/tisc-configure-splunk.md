@@ -181,7 +181,7 @@ Sample JSON filter:
 ```
 
 </td></tr></tbody>
-</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
+</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tisc-api.md#title_tisc-POST-observables) application.
 
 9.  Select **Add** to save the inputs.
 

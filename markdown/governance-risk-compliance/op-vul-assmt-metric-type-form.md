@@ -30,6 +30,6 @@ For a description of the fields, see the following table:
 |Condition|Filter conditions for the assessment template.|
 |Description|Purpose of the assessment template and the reason for its creation.|
 |Related lists|
-|Metric categories|All metric categories for this assessment. For more information on the Metric category form, see .|
-|Assessable records|All assessable records associated to the metric category. For more information on the Assessable records, see .|
+|Metric categories|All metric categories for this assessment. For more information on the Metric category form, see [Metric Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/metric-category-form.md).|
+|Assessable records|All assessable records associated to the metric category. For more information on the Assessable records, see [Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_assessable-records.md).|
 

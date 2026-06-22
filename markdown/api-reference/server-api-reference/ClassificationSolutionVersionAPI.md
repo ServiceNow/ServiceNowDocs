@@ -59,7 +59,7 @@ Object
 
 </td><td>
 
-Selects a metric to retrieve within a span of dates. For more information, see Configuring target metrics.```
+Selects a metric to retrieve within a span of dates. For more information, see [Configuring target metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-target-metrics-trained-classification-solution.md).```
 {
   "fromDate": "String",
   "metricName": "String",
@@ -195,7 +195,7 @@ Object
 
 </td><td>
 
-Returns prediction settings for each class. Data includes precision, coverage, recall, and distribution values of all classes included in the trained model from the ML Solutions \[ml\_solution\] table. For details, see Predictive model components.```
+Returns prediction settings for each class. Data includes precision, coverage, recall, and distribution values of all classes included in the trained model from the ML Solutions \[ml\_solution\] table. For details, see [Predictive model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).```
 {
   "<class name>": {Object}
 }
@@ -207,7 +207,7 @@ Returns prediction settings for each class. Data includes precision, coverage, r
 
 </td><td>
 
-Training statistics data from the Class Confidence \[ml\_class\] table. For more information, see Configuring target metrics.Data type: Object
+Training statistics data from the Class Confidence \[ml\_class\] table. For more information, see [Configuring target metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-target-metrics-trained-classification-solution.md).Data type: Object
 
 ```
 {
@@ -426,7 +426,7 @@ Machine-learning field type. Data type: String
 
 </td><td>
 
-Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
+Encoded query string in the standard platform format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String.
 
 </td></tr><tr><td>
 
@@ -434,7 +434,7 @@ Encoded query string in the standard platform format. See Encoded query strings.
 
 </td><td>
 
-Domain name associated with this dataset. See .Type: String
+Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).Type: String
 
 </td></tr><tr><td>
 
@@ -525,7 +525,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Data type: Array
 
 </td></tr><tr><td>
 
@@ -767,7 +767,7 @@ Object
 
 </td><td>
 
-JavaScript object with statistics for each class included in training and values for each class that was excluded from training. For details, see Predictive model components.```
+JavaScript object with statistics for each class included in training and values for each class that was excluded from training. For details, see [Predictive model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).```
 {
   "includedClasses": {Object},
   "excludedClasses": {Object}
@@ -805,7 +805,7 @@ Value of the outcome probability distribution for this class.Data type: String
 
 </td><td>
 
-List of objects providing training statistics data. For more information, see Configuring target metrics.Data type: Array of Objects
+List of objects providing training statistics data. For more information, see [Configuring target metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-target-metrics-trained-classification-solution.md).Data type: Array of Objects
 
 ```
 [
@@ -1258,7 +1258,7 @@ Object
 
 </td><td>
 
-Metric configuration values. For information about these features, see Configuring target metrics.```
+Metric configuration values. For information about these features, see [Configuring target metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-target-metrics-trained-classification-solution.md).```
 {  	 
    "metricName" : "String",
    "metricValue" : "String",

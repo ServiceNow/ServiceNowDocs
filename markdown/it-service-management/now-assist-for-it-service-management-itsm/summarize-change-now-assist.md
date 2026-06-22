@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Change summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see .
+The Change summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 A change request summary provides you with a concise summary of a change request. The summary is based on the change request state and is generated from the information that you enter in the following fields:
 
@@ -67,15 +67,15 @@ You can summarize a change request in Core UI and Service Operations Workspace f
 
 3.  When you're finished summarizing a change request, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d332525e227">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d329318e228">
 
 Option
 
-</th><th align="left" id="d332525e230">
+</th><th align="left" id="d329318e231">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d332525e236">
+</th></tr></thead><tbody><tr><td id="d329318e237">
 
 **Save the summary information by adding it to the change request work notes**
 
@@ -86,7 +86,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d332525e263">
+</td></tr><tr><td id="d329318e264">
 
 **Expand or collapse the summary**
 
@@ -94,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d332525e284">
+</td></tr><tr><td id="d329318e285">
 
 **Provide feedback for the summary**
 
@@ -102,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d332525e307">
+</td></tr><tr><td id="d329318e308">
 
 **Copy the change request summary**
 
@@ -110,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d332525e323">
+</td></tr><tr><td id="d329318e324">
 
 **View the information about the change request summary**
 

@@ -132,7 +132,7 @@ Perform these steps to import the custom reports into your SAP SuccessFactors Le
 
 The custom reports generate CSV files that include current user data, library data, assignment data, and training item data from your selected SAP SuccessFactors Learning environment.
 
-**Note:** The SAP SuccessFactors external content connector can't accept CSV data files that exceed the maximum attachment size specified by the value of the **com.glide.attachment.max\_size** system property. By default, this property limits the size of attachments to 1 Gb or less. For details on configuring this system property, see .
+**Note:** The SAP SuccessFactors external content connector can't accept CSV data files that exceed the maximum attachment size specified by the value of the **com.glide.attachment.max\_size** system property. By default, this property limits the size of attachments to 1 Gb or less. For details on configuring this system property, see [Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md).
 
 ## What to do next
 

@@ -34,11 +34,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/install-service-bridge-v2-provider.md)
 
 </td><td>
 
-Install the Service Exchange for Providers application from the ServiceNow Store. For more information on configuring this application, see .
+Install the Service Exchange for Providers application from the ServiceNow Store. For more information on configuring this application, see [Configure Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-provider.md).
 
 </td><td>
 
@@ -46,11 +46,11 @@ Admin
 
 </td></tr><tr><td>
 
-
+[Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/install-service-bridge-v2-customer.md)
 
 </td><td>
 
-Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see .
+Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see [Configure Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-install.md).
 
 </td><td>
 

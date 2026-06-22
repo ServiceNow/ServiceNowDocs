@@ -23,7 +23,7 @@ Use this script include in a global server-side script to create a link to a lis
 
 For example, create a link from an email, push notification, or Virtual Agent conversation that opens a record or list of records in the app. The form or list only includes data that the user has access rights to view.
 
-For an example of this API used in a push notification, see Configure push notification message content. For additional information on deep links, see .
+For an example of this API used in a push notification, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/config-push-notification-message-content.md). For additional information on deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/deep-link-mobile.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 

@@ -30,15 +30,15 @@ To see the contracts, contract line items, and entitlements associated with a so
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d113015e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d113104e65">
 
 Add to
 
-</th><th align="left" id="d113015e68">
+</th><th align="left" id="d113104e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d113015e74">
+</th></tr></thead><tbody><tr><td id="d113104e74">
 
 **Sold Product**
 
@@ -48,7 +48,7 @@ Procedure
 2.  Select the sold product.
 
 
-</td></tr><tr><td id="d113015e107">
+</td></tr><tr><td id="d113104e107">
 
 **Install Base Item**
 

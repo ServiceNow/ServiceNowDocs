@@ -51,7 +51,7 @@ By default, retrieve insights created within the number of days in the past that
 -   Type: Integer
 -   Default value: 14
 -   Location: To change the value, create this property in the System Properties table.
--   More information: 
+-   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Enables the generation of key contributor insight cards.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: 
+-   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Enables the Proactive Analytics feature.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: 
+-   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 </td></tr><tr><td>
 

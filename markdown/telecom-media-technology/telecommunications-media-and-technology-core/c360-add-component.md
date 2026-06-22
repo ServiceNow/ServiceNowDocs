@@ -39,7 +39,7 @@ Add the Telecom Customer 360 component as a dedicated tab on a record page in th
 
 4.  Open any existing record page, or create a record page, add a tab to the page, and then add the **Telecom Customer 360** component.
 
-    For detailed instructions on how to add a component, refer to the  documentation.
+    For detailed instructions on how to add a component, refer to the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) documentation.
 
 5.  Add the Setup Customer360 Context data resource to enable the Telecom Customer 360 component to display the correct consumer or account view.
 

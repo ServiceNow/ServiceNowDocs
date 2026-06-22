@@ -66,7 +66,7 @@ ServiceNow provides several additional resources on installing and administering
 
 </td><td>
 
-\[Omitted image "bus-try-a-demo.svg"\] Alt text: 
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)
 
 </td></tr><tr><td>
 

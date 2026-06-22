@@ -95,7 +95,7 @@ Granular admin role that enables the following actions:-   Manage all ServiceNow
 -   Manage roles and permissions specific to ServiceNow Studio.
 -   Configure the experience switcher roles across Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
-For more information about granular admin roles, see .
+For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/granular-admin-roles.md).
 
 </td></tr><tr><td>
 

@@ -33,7 +33,7 @@ Examples of an external credential vault are CyberArk, Azure key Vault, and so o
 
 If the **External Credential** check box isn’t enabled, the API returns the data stored in the **Password2** field of the ServiceNow instance and then the robot uses the sensitive data for the automation execution.
 
-If the **External Credential** check box is enabled, the credentials are fetched from a configured external credential vault. In this scenario, the API internally triggers a subflow. This subflow makes a REST API call to the external credential vault. You can route this REST API call via MID Server. Or, you can directly establish a connection with the external credential vault. This implementation is dependent on your organizational requirements. The MID Server resides in the customers' environment. For more information about MID Server, see .
+If the **External Credential** check box is enabled, the credentials are fetched from a configured external credential vault. In this scenario, the API internally triggers a subflow. This subflow makes a REST API call to the external credential vault. You can route this REST API call via MID Server. Or, you can directly establish a connection with the external credential vault. This implementation is dependent on your organizational requirements. The MID Server resides in the customers' environment. For more information about MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 After the REST API call fetches the credential from the vault, the credentials are sent to the robot.
 

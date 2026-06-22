@@ -24,7 +24,7 @@ Role required: asset
 
 -   **Unique identifiers for assets**
 
-    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see  and . These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
+    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
 
     -   When you are creating an asset that belongs to a model category without a CI class.
     -   When you are creating an asset that belongs to a model category linked to a CI class without any identification rules defined.
@@ -33,15 +33,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d73295e97">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d65075e99">
 
 Interface
 
-</th><th align="left" id="d73295e100">
+</th><th align="left" id="d65075e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d73295e106">
+</th></tr></thead><tbody><tr><td id="d65075e108">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d73295e145">
+</td></tr><tr><td id="d65075e147">
 
 **Hardware Asset Workspace**
 

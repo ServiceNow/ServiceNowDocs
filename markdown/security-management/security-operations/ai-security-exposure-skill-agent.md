@@ -24,7 +24,7 @@ Roles required are sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analys
 
 The AI Guardrails Helper is a combination of an AI skill and an AI agent. Together, they can help you identify existing mitigations in the form of guardrails for AI validation findings and automatically defer the findings with guardrails already mapped or create exception rules to auto-defer future findings.
 
-The Now Assist panel must be activated. For more information, see .
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 See [Use the AI guardrails helper skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/ai-security-exposure-use-aiskill.md) and [Use the AI guardrails helper agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/ai-security-exposure-use-agent.md) for steps to use the skill and the agentic workflow.
 

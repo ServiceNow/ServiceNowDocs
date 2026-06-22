@@ -34,7 +34,7 @@ Role required: admin or change\_manager
 
 4.  In the **Execution** field, select an option to determine the approach to implement your decision.
 
-<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d113998e102">
+<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d113264e102">
 
 **First decision that matches**
 
@@ -42,7 +42,7 @@ Role required: admin or change\_manager
 
 Uses the first matching decision in ascending order of the value defined in the **Order** column of the **Decisions** list. The associated approval definition is applied.
 
-</td></tr><tr><td id="d113998e120">
+</td></tr><tr><td id="d113264e120">
 
 **Run all decisions that match**
 

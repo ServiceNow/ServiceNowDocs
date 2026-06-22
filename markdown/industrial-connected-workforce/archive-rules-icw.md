@@ -34,7 +34,7 @@ The ICW includes the following predefined rules:
 
 These archiving rules support data hygiene and system usability by making sure that outdated records don’t interfere with active workflows.
 
-For more information on archive rules, see .
+For more information on archive rules, see [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
 **Parent Topic:**[Configuring ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configuring-icw-core.md)
 

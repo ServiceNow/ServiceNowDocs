@@ -18,7 +18,7 @@ Field Service Management requires Google Maps configuration for users to view ma
 
 ## Before you begin
 
-Set up Google Maps API
+[Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/set-up-google-maps-api.md)
 
 Role required: wm\_admin
 

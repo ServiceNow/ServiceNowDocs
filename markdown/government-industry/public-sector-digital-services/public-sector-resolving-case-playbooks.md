@@ -84,15 +84,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether or not you have duplicate cases.
 
-<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d33590e369">
+<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d27603e369">
 
 Options
 
-</th><th align="left" id="d33590e372">
+</th><th align="left" id="d27603e372">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d33590e378">
+</th></tr></thead><tbody><tr><td id="d27603e378">
 
 **If there are no duplicate cases**
 
@@ -100,7 +100,7 @@ Steps
 
 Select **Request inspection**, then check the box to confirm that there are no similar service requests.
 
-</td></tr><tr><td id="d33590e390">
+</td></tr><tr><td id="d27603e390">
 
 **If there are duplicate cases**
 
@@ -122,15 +122,15 @@ In the Decision stage, the Resolution code is `Void/Cancelled, Duplicate Issue` 
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d33590e485">
+<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d27603e485">
 
 Option
 
-</th><th align="left" id="d33590e488">
+</th><th align="left" id="d27603e488">
 
  
 
-</th></tr></thead><tbody><tr><td id="d33590e493">
+</th></tr></thead><tbody><tr><td id="d27603e493">
 
 **If a field service agent must be dispatched**
 
@@ -144,7 +144,7 @@ Option
 3.  Once the work order has been fulfilled, select **Move to process** to move to the next activity.
 
 
-</td></tr><tr><td id="d33590e522">
+</td></tr><tr><td id="d27603e522">
 
 **If no field service agent must be dispatched**
 
@@ -174,15 +174,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether a resource approval is required to proceed.
 
-<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d33590e630">
+<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d27603e630">
 
 Options
 
-</th><th align="left" id="d33590e633">
+</th><th align="left" id="d27603e633">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d33590e639">
+</th></tr></thead><tbody><tr><td id="d27603e639">
 
 **If a resource approval is required**
 
@@ -192,7 +192,7 @@ Steps
 2.  After all approvals have been received, select **Start work** to move to the **Perform work** activity.
 
 
-</td></tr><tr><td id="d33590e669">
+</td></tr><tr><td id="d27603e669">
 
 **If a resource approval is not required**
 
@@ -205,15 +205,15 @@ If no approvals are needed, select **Start work** to bypass the **Approve resour
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d33590e702">
+<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d27603e702">
 
 Options
 
-</th><th align="left" id="d33590e705">
+</th><th align="left" id="d27603e705">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d33590e711">
+</th></tr></thead><tbody><tr><td id="d27603e711">
 
 **If a field service agent must be dispatched to the request location**
 
@@ -223,7 +223,7 @@ Steps
 2.  Fill in the required information and select **Submit**.
 
 
-</td></tr><tr><td id="d33590e735">
+</td></tr><tr><td id="d27603e735">
 
 **If no field service agent must be dispatched**
 

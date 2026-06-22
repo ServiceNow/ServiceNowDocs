@@ -29,7 +29,7 @@ This Accelerator provides you with an assessment and guidance on your readiness 
 
 Your Impact Squad provides guidance based on your selected Generative AI products \(we recommend up to three per accelerator\).
 
-See  for additional information on ServiceNow AI-based tools.
+See [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-products.md) for additional information on ServiceNow AI-based tools.
 
 ## Package Availability
 

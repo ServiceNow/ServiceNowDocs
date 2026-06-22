@@ -21,11 +21,11 @@ Define custom fields and a unique form layout to support configuration independe
 
 -   Identify the dynamic category that defines custom project records fields associated with project type.
 
-    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see .
+    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 
 -   Identify the form view that defines form layout for project records associated with project type.
 
-    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see .
+    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-dynamic-category.md).
 
 
 Role required: pps\_admin

@@ -35,11 +35,11 @@ You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Vi
 
 2.  Open the VROLCardDataSecurity or MastercomCardDataSecurity record.
 
-    If you require another third-party connection, create a new Connection &amp; Credential alias. For more information, see .
+    If you require another third-party connection, create a new Connection &amp; Credential alias. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 3.  In the Related Links section, select **Connections** &gt; **New**.
 
-4.  Follow the steps in  to create a new credential record for this connection.
+4.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md) to create a new credential record for this connection.
 
 5.  Enter the following field value.
 

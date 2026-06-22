@@ -17,9 +17,9 @@ breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 
 The Cybersecurity Executive Dashboard gives the Chief Information Security officer a comprehensive overview of the security posture score of an organization. However, the compliance and risk users can use the risk and compliance page to get an all-inclusive picture of all the GRC metrics.
 
-To access the Risk and compliance dashboard and the access control limitations, see .
+To access the Risk and compliance dashboard and the access control limitations, see [Risk and compliance dashboard for GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/grc-cybersecurity-risk-compl-dashboard.md).
 
-To know more about the features of the Cybersecurity Executive dashboard, see .
+To know more about the features of the Cybersecurity Executive dashboard, see [Cybersecurity Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/vr-unified-CISO-dashboard.md).
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

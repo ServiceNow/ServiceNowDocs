@@ -58,7 +58,7 @@ Open Fallouts
 </td><td>
 
 Number of open fallout records. 1.  Select this tile to see the Open Fallouts list.
-2.  Select the fallout record that you want to review. To learn more, see .
+2.  Select the fallout record that you want to review. To learn more, see [Update a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/review-update-selected-order-fallout-records.md).
 
 </td></tr><tr><td>
 

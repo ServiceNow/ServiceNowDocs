@@ -36,7 +36,7 @@ Role required: sn\_risk.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d176217e97">
+<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d176253e97">
 
 **To add an upstream risk dependency**
 
@@ -44,7 +44,7 @@ Role required: sn\_risk.manager
 
 Drag an eligible upstream risk from the list of eligible risks on the right and drop it on the top half of the risk in the center of the page.
 
-</td></tr><tr><td id="d176217e106">
+</td></tr><tr><td id="d176253e106">
 
 **To add a downstream risk dependency**
 

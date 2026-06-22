@@ -44,7 +44,7 @@ Role required: sn\_fin\_ops.specialist
 
 7.  Enter the email body, if necessary.
 
-    By default, the email body contains the link to the finance case. You can also use the email templates. For more information on email templates, see Email templates.
+    By default, the email body contains the link to the finance case. You can also use the email templates. For more information on email templates, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md).
 
 8.  Select **Send mail**.\[Omitted image "fin-ops-email.png"\] Alt text: Send emails
 

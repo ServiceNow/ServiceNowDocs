@@ -73,21 +73,21 @@ The Software Asset Management - SaaS License Management Integrations plugin \(sn
 
 Role required: sam\_integrator
 
-**Important:** You must select the **Asana Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Asana Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d136588e396">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d151701e397">
 
 Interface
 
-</th><th align="left" id="d136588e399">
+</th><th align="left" id="d151701e400">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d136588e405">
+</th></tr></thead><tbody><tr><td id="d151701e406">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Asana Integration Profile**.
 
 
-</td></tr><tr><td id="d136588e447">
+</td></tr><tr><td id="d151701e448">
 
 **Software Asset Workspace**
 

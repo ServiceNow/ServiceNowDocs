@@ -32,7 +32,7 @@ The Create configuration item agentic workflow is particularly useful for adding
 
 **Note:** The workflow helps avoid creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
-To learn more about using the Now Assist panel, see Working in the Now Assist panel.
+To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -44,15 +44,15 @@ To learn more about using the Now Assist panel, see Working in the Now Assist pa
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d484650e202">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d483207e202">
 
 Option
 
-</th><th align="left" id="d484650e205">
+</th><th align="left" id="d483207e205">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d484650e211">
+</th></tr></thead><tbody><tr><td id="d483207e211">
 
 **Provide feedback for the summary**
 
@@ -60,7 +60,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d484650e226">
+</td></tr><tr><td id="d483207e226">
 
 **Copy the summary**
 
@@ -68,7 +68,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d484650e237">
+</td></tr><tr><td id="d483207e237">
 
 **Refresh the summary**
 

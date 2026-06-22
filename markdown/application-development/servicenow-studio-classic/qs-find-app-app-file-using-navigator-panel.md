@@ -38,15 +38,15 @@ For more information about the file types available in the Navigator panel, see 
     -   To find an app file, select the File Categories icon \[Omitted image "sn-studio-file-nav-icon.png"\] Alt text: file categories icon.
 4.  Refine the list of apps or app files using the following options.
 
-<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d75282e179">
+<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d75221e179">
 
 Choice
 
-</th><th align="left" id="d75282e182">
+</th><th align="left" id="d75221e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75282e188">
+</th></tr></thead><tbody><tr><td id="d75221e188">
 
 **Filter icon \[Omitted image "filter-fill-24.svg"\] Alt text: filter icon**
 
@@ -56,7 +56,7 @@ Description
 
 Select a filter to display applications within a specific scope.Available filters: **All**, **Custom**, **Store**, **Creator Studio**, and **Fluent**. The default filter is **Custom**.
 
-</td></tr><tr><td id="d75282e225">
+</td></tr><tr><td id="d75221e225">
 
 **Sort icon \[Omitted image "sort-ascending-outline-24.svg"\] Alt text: sort icon**
 
@@ -64,7 +64,7 @@ Select a filter to display applications within a specific scope.Available filter
 
 Sort the list of apps or app files in alphabetical or reverse alphabetical order.
 
-</td></tr><tr><td id="d75282e239">
+</td></tr><tr><td id="d75221e239">
 
 **Filter list box\[Omitted image "sn-studio-filter-box-track.png"\] Alt text: Enter the name of the app or app file in the Filter list box to refine the list items.
 
@@ -74,7 +74,7 @@ Sort the list of apps or app files in alphabetical or reverse alphabetical order
 
 Enter an app or app file name in the Filter list box to display only matching results.
 
-</td></tr><tr><td id="d75282e254">
+</td></tr><tr><td id="d75221e254">
 
 **Expand the metadata section\[Omitted image "sn-studio-metadata-section-flow.png"\] Alt text: Expand the metadata section, then select the file type that corresponds to the app file you are looking for
 

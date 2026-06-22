@@ -7,7 +7,7 @@ release: australia
 product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---
@@ -28,7 +28,7 @@ For example, let's say that Now Assist Guardian detects an offensive message in 
 
 \[Omitted image "aia-offnsv-msg-dtctn-exction-trmntn.png"\] Alt text: Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.
 
-For more information about the different guardrails, see Now Assist Guardian.
+For more information about the different guardrails, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/now-assist-guardian.md).
 
 ## Procedure
 
@@ -67,7 +67,7 @@ For more information about the different guardrails, see Now Assist Guardian.
 
         \[Omitted image "aia-prompt-injection-new.png"\] Alt text: Prompt Injection page in AI Agent Studio.
 
-        **Note:** For more information about configuring the Prompt Injection, see .
+        **Note:** For more information about configuring the Prompt Injection, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/configure-prompt-injection-attack-protection.md).
 
         When you configure the Prompt Injection for an agentic workflow by using the required instructions, the system is designed to detect harmful content and block the conversation.
 

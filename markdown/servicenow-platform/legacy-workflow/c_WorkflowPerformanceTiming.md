@@ -38,7 +38,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Add a system propertywith the following specifications.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)with the following specifications.
 
     |Field|Value|
     |-----|-----|

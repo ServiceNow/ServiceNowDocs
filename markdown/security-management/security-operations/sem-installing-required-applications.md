@@ -16,7 +16,7 @@ breadcrumb: [Implement, Unified Security Exposure Management, Security Operation
 
 The required applications for the Security Exposure Management Workspace are available from the ServiceNow Store.
 
-1.  See  for more information about applications, integrations, and products in the ServiceNow® Store.
+1.  See [Exploring the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/exploring-servicenow-store.md) for more information about applications, integrations, and products in the ServiceNow® Store.
 2.  See [Migration upgrade prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/sem-install-prerequisites.md) and [Migration upgrade reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/sem-migration-prereq-reference-data.md) for more information about setup requirements for the USEM migration.
 3.  See [Download and activate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/sem-install-required-applications.md) for a list of the required applications and installation steps for the Security Exposure Management Workspace.
 4.  See [Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/sem-components-installed.md) for roles and tables that are installed with the applications.

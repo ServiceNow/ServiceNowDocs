@@ -70,5 +70,5 @@ Enables/disables the execution of subflows defined on the AWA queues when work i
 -   Default value: false
 
 </td></tr></tbody>
-</table>For information on adding a system property, see Add a system property.
+</table>For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

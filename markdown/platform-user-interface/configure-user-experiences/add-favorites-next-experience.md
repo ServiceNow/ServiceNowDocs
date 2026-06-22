@@ -25,7 +25,7 @@ Role required: none
 
 1.  Add a favorite in one of the ways listed in the following table.
 
-<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d74217e75">
+<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d73517e75">
 
 **From any page**
 
@@ -35,7 +35,7 @@ From any page, select the star icon in the contextual app pill.
 
  \[Omitted image "pol-nav-pill-favorite.png"\] Alt text: Favorite star in the contextual app pill
 
-</td></tr><tr><td id="d74217e94">
+</td></tr><tr><td id="d73517e94">
 
 **From the All menu**
 
@@ -45,7 +45,7 @@ From any page, select the star icon in the contextual app pill.
 -   To add all the modules under an application: In the application navigator, select the star icon next to the application name.
 
 
-</td></tr><tr><td id="d74217e117">
+</td></tr><tr><td id="d73517e117">
 
 **From a list or record in the classic environment**
 
@@ -56,7 +56,7 @@ From any page, select the star icon in the contextual app pill.
 3.  Select **Create Favorite**.
  You can add a different favorite for each view of a list or record.
 
-</td></tr><tr><td id="d74217e149">
+</td></tr><tr><td id="d73517e149">
 
 **From a knowledge base article**
 

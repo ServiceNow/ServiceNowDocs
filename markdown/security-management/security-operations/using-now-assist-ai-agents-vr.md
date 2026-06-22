@@ -17,7 +17,7 @@ breadcrumb: [Now Assist in Unified Security Exposure Management, Explore, Unifie
 
 Use AI agents to complete your tasks autonomously.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 <table id="table_lpw_nx2_r2c"><thead><tr><th>
 
@@ -125,11 +125,11 @@ Legacy and Unified Security Exposure Management \(USEM\)
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-To modify an agentic workflow, you must first duplicate the agentic workflow, and then proceed with the following steps:
+To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow. The Now Assist for Vulnerability Response AI agents included with the application are activated by default.
 -   If required, you can add a trigger to invoke the agentic workflow automatically.
 -   See [Configure an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/now-assist-vr-acticvate-agentic-workflow.md) for more information.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 

@@ -98,15 +98,15 @@ Acknowledged
 
 8.  Choose the order update that you want to perform.
 
-<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d127037e262">
+<table id="choicetable_cyq_1s4_k3c"><thead><tr><th align="left" id="d127148e262">
 
 Action
 
-</th><th align="left" id="d127037e265">
+</th><th align="left" id="d127148e265">
 
 What to do in Now Assist
 
-</th></tr></thead><tbody><tr><td id="d127037e271">
+</th></tr></thead><tbody><tr><td id="d127148e271">
 
 **Bulk update quantity**
 
@@ -116,7 +116,7 @@ What to do in Now Assist
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d127037e289">
+</td></tr><tr><td id="d127148e289">
 
 **Bulk update shipping address**
 
@@ -126,7 +126,7 @@ What to do in Now Assist
 2.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d127037e307">
+</td></tr><tr><td id="d127148e307">
 
 **Apply bulk discount**
 
@@ -137,7 +137,7 @@ What to do in Now Assist
 3.  Confirm the bulk update.
 
 
-</td></tr><tr><td id="d127037e328">
+</td></tr><tr><td id="d127148e328">
 
 **Delete order line**
 
@@ -145,7 +145,7 @@ What to do in Now Assist
 
 Specify the top-level order line you want to remove when prompted, then confirm the deletion.
 
-</td></tr><tr><td id="d127037e338">
+</td></tr><tr><td id="d127148e338">
 
 **Create Order case**
 

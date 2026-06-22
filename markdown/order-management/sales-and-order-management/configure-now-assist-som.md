@@ -18,7 +18,7 @@ If you have the admin role, you can configure the Now Assist for Sales Force Aut
 
 ## Before you begin
 
-Use the Now Assist Admin console to configure Now Assist for Sales Force Automation \(SFA\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Sales Force Automation \(SFA\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 Role required: admin
 
@@ -28,6 +28,6 @@ Role required: admin
 
 2.  Install the Now Assist for Sales Force Automation \(SFA\) plugin \(sn\_som\_gen\_ai\).
 
-    For information about the installation process, see .
+    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 

@@ -81,7 +81,7 @@ To add a playbook, you must be given permission to work on the app.
 
             \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-        Add as many conditions as you need. For more information, see .
+        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
     4.  Select **Create**.
 

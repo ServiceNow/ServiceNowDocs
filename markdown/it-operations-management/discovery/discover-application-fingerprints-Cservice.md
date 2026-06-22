@@ -34,15 +34,15 @@ Review application suggestions based on application fingerprints or ITOM Content
 
 2.  Select an application suggestion to add to discovery based on either application fingerprints or ITOM Content Service.
 
-<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d434380e185">
+<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d432343e185">
 
 Suggestion source
 
-</th><th align="left" id="d434380e188">
+</th><th align="left" id="d432343e188">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d434380e194">
+</th></tr></thead><tbody><tr><td id="d432343e194">
 
 **Application fingerprints**
 
@@ -59,7 +59,7 @@ For information about the form fields, see [Application fingerprint suggestion f
     -   If you want to add it, select **Add to discovery**.
 
 
-</td></tr><tr><td id="d434380e247">
+</td></tr><tr><td id="d432343e247">
 
 **ITOM Content Service**
 

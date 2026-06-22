@@ -32,7 +32,7 @@ For Exception Rules:
 -   Extension
 -   Deletion \(Marked for deletion\)
 
-These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: Employee Center
+These approvals are available under the **My Tasks** section for easier access and management. For more information related to employee center visit: [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 
 -   **[Managing Approvals via the Employee Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/manage-approvals-ec.md)**  
 The updated Employee Service Center experience consolidates vulnerability approvals under one interface.This allows customers to efficiently manage security exceptions without navigating multiple systems or UIs.

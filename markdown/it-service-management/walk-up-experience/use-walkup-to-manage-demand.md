@@ -117,7 +117,7 @@ Platform: **Scheduled Appointments**
 All upcoming appointments scheduled for your walk-up location.
 
 </td></tr></tbody>
-</table>For more information, see [Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md) and Advanced Work Assignment.
+</table>For more information, see [Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md) and [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
 
 -   **[View Walk-up Experience inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-walkup-inbox.md)**  
 View a personal inbox of automatically assigned Walk-up Experience interactions using the Agent Workspace feature interface.

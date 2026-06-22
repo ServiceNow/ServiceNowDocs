@@ -63,7 +63,7 @@ Record Context
 
 Enter the Sys ID or URL of the ServiceNow form record. This helps you to fetch field values using GetProcessFieldParameters component and update field values using SetProcessFieldParameters component of the selected Sys ID.
 
-For more about getting the Sys ID or URL, see .
+For more about getting the Sys ID or URL, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 </td></tr></tbody>
 </table>    **Note:** For more information about Embedded Task feature, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/embedded-task-auto-rpa.md).

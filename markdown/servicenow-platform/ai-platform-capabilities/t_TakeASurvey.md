@@ -42,7 +42,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 4.  Complete one of the following steps.
 
-<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d109904e127">
+<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d108288e127">
 
 **Save your responses without submitting them**
 
@@ -50,7 +50,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 Click **Save**. You can close the questionnaire and access it later from your queue.**Note:** The system doesn't save the survey when there are invalid responses, such as a letter in a date field. You must enter valid responses or remove invalid responses before you can save the survey.
 
-</td></tr><tr><td id="d109904e142">
+</td></tr><tr><td id="d108288e142">
 
 **Submit the survey after answering all questions**
 

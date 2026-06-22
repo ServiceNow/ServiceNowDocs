@@ -60,11 +60,11 @@ Condition
 
 Condition under which the mobile UI rule is used. The rule executes if the condition evaluates as true. Mobile UI rules with no condition always evaluate as true.
 
-To use a field in a condition, the field must be displayed on the mobile card, or it must be added to the **Card fields** tab on the card \[sys\_sg\_view\_config\] record for that card. If the field is a reference field, you can also access information in the related record using dot-walking. See .
+To use a field in a condition, the field must be displayed on the mobile card, or it must be added to the **Card fields** tab on the card \[sys\_sg\_view\_config\] record for that card. If the field is a reference field, you can also access information in the related record using dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md).
 
 Conditions can also use variables defined in the mobile scratchpad. These variables are created and evaluated using the script in the **Mobile Scratchpad Script** field in the card \[sys\_sg\_view\_config\] record.
 
-\[Omitted image "mobile-scratch-example-2.png"\] Alt text: Javascript in the Mobile Scratchpad script field\[Omitted image "mobile-scratch-example-1.png"\] Alt text: Mobile UI Rule condition using a scripted condition**Note:** For details on the operators available for your condition, see Operators available for filters and queries.
+\[Omitted image "mobile-scratch-example-2.png"\] Alt text: Javascript in the Mobile Scratchpad script field\[Omitted image "mobile-scratch-example-1.png"\] Alt text: Mobile UI Rule condition using a scripted condition**Note:** For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 

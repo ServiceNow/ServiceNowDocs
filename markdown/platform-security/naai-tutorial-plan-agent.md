@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Create and secure an AI agent in Now Assist, Agentic AI security and governance]
 ---
 
@@ -32,7 +32,7 @@ For each candidate use case, answer the following questions before proceeding:
 
 ServiceNow provides a library of AI agents preconfigured for common use cases. Consider using base system agents when one fits your use case. These preconfigured agents can be faster to deploy, have been tested, and still support custom configuration. Build a custom agent only when no base system agent addresses your use case.
 
-OOTB agents are available in read-only mode. To modify an OOTB agent, you must first duplicate it. See  for guidelines on creating and adapting agents effectively.
+OOTB agents are available in read-only mode. To modify an OOTB agent, you must first duplicate it. See [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/gg-creating-aia.md) for guidelines on creating and adapting agents effectively.
 
 ## Choose an activation model
 

@@ -119,15 +119,15 @@ AWS region where your S3 bucket is located.
 </td></tr></tbody>
 </table>4.  Configure the metastore that you want to use with Apache Hudi.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d153413e256">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d148101e256">
 
 Option
 
-</th><th align="left" id="d153413e259">
+</th><th align="left" id="d148101e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153413e265">
+</th></tr></thead><tbody><tr><td id="d148101e265">
 
 **Hive Thrift**
 
@@ -143,7 +143,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d153413e300">
+</td></tr><tr><td id="d148101e300">
 
 **AWS Glue**
 

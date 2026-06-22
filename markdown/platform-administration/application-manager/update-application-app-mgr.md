@@ -39,11 +39,11 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 4.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
 
-    For additional information about Now Assist Suites, see .
+    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-suites-app-mgr.md).
 
 5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 6.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
@@ -51,15 +51,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 7.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d80617e221">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d80654e223">
 
 Installation option
 
-</th><th align="left" id="d80617e224">
+</th><th align="left" id="d80654e226">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d80617e230">
+</th></tr></thead><tbody><tr><td id="d80654e232">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d80617e254">
+</td></tr><tr><td id="d80654e256">
 
 **Install later**
 

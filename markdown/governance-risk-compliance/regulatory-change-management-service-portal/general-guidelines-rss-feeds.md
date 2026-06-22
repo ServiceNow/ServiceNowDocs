@@ -40,7 +40,7 @@ RSS issues often arise from invalid XML syntax, incorrect URLs, server or authen
 
 -   **Response size exceeds limit**
 
-    This happens when the response from REST step is more than what is allowed. You can try increasing the limit by updating the value of property “glide.pf.rest.response\_payload\_max\_size". Refer to https://www.servicenow.com/docs/bundle/xanadu-build-workflows/page/administer/flow-designer/reference/rest-request-action-designer.html for more information.
+    This happens when the response from REST step is more than what is allowed. You can try increasing the limit by updating the value of property “glide.pf.rest.response\_payload\_max\_size". Refer to [https://www.servicenow.com/docs/bundle/xanadu-build-workflows/page/administer/flow-designer/reference/rest-request-action-designer.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md) for more information.
 
 -   **Response status is 404**
 

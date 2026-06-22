@@ -36,5 +36,5 @@ The application provides several global reports, both lists and charts, that sho
 **Related topics**  
 
 
-[bundle-par.reporting-landing-page]
+[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md)
 

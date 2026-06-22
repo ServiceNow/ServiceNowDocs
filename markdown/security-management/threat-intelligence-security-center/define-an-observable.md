@@ -34,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
 4.  On the form, fill in the fields.
 
-    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see Configure Next Experience Workspace preferences.
+    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-workspace-preferences.md).
 
 <table id="table_hmw_qzm_2yb"><thead><tr><th>
 

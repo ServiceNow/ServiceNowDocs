@@ -26,7 +26,7 @@ To access this API the following plugins must be activated on the associated ins
 
 In addition, to successfully call this API you must have the sn\_pss\_core.pss\_integrator role. This API runs in the `sn_pss_core` namespace.
 
-Before using this API, you should have associated data in the following tables. For additional information, see .
+Before using this API, you should have associated data in the following tables. For additional information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md).
 
 -   Account \[customer\_account\]
 -   Consumer \[csm\_consumer\]
@@ -6859,7 +6859,7 @@ The Service Contract API stores data in various tables. The following is the lis
 -   Service Contract \[sn\_pss\_core\_service\_contract\]
 -   Service Contract Line \[sn\_pss\_core\_service\_contract\_line\]
 
-The request body of this endpoint references fields in the following tables. This information needs to be added to your instance before utilizing this API. For additional information, see .
+The request body of this endpoint references fields in the following tables. This information needs to be added to your instance before utilizing this API. For additional information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md).
 
 -   Account \[customer\_account\]
 -   Characteristic Option \[sn\_prd\_pm\_characteristic\_option\]
@@ -6963,7 +6963,7 @@ install\_base\_items\_covered
 
 </td><td>
 
-List of install base items covered under the service contract.For more information on Install Base Items .
+List of install base items covered under the service contract.For more information on Install Base Items [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md).
 
 Data type: Array of Objects
 

@@ -4763,7 +4763,7 @@ parent\_id
 
 </td><td>
 
-If available, sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
+If available, sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-mapping-for-request.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -5568,7 +5568,7 @@ parent\_id
 
 </td><td>
 
-If available, the sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
+If available, the sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-mapping-for-request.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -6187,7 +6187,7 @@ parent\_id
 
 </td><td>
 
-If available, the sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
+If available, the sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-mapping-for-request.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -6397,7 +6397,7 @@ parent\_id
 
 </td><td>
 
-If available, sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
+If available, sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-mapping-for-request.md).Data type: String
 
 </td></tr><tr><td>
 

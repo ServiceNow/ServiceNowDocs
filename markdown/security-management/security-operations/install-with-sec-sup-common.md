@@ -20,7 +20,7 @@ Several types of components are installed with Security Support Common. They pro
 
 See [View components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/installed-with-secops-common-NEW.md) more information about locating and viewing installed components.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## View filtered lists for components installed with an application
 

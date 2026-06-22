@@ -7,7 +7,7 @@ release: australia
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: reference
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---

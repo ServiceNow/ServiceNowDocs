@@ -85,7 +85,7 @@ This application enables you to update the existing configurations and to modify
 
 </td></tr><tr><td>
 
-Create  for products and services
+Create [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/lead-to-cash.md) for products and services
 
 </td><td>
 

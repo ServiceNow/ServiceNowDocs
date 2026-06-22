@@ -24,5 +24,5 @@ To build and customize your Workspace pages and components, you must have the ui
 
 In your application instance, you can navigate to **All &gt; Now Experience Framework &gt; UI Builder** and select an experience that you want to work in from the UI Builder home page.
 
-For more information on how to use a UI Builder, see .
+For more information on how to use a UI Builder, see [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-quick-start.md).
 

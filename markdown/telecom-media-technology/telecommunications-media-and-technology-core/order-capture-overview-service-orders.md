@@ -16,7 +16,7 @@ breadcrumb: [Use, Sales Customer Relationship Management for Telecommunications,
 
 With Order Capture, your service agents can directly enter multi-site service orders with one or more services on behalf of your customers. They can also manually create service change requests and disconnect orders in the ServiceNow AI Platform. Order Capture is supported in the San Diego release and later releases.
 
-**Note:** To learn more about creating customer \(product\) orders in Order Capture, see .
+**Note:** To learn more about creating customer \(product\) orders in Order Capture, see [Methods of creating orders in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-capture-methods-som.md).
 
 ## When to use Order Capture for a direct service order entry
 

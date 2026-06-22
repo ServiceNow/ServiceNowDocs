@@ -18,5 +18,5 @@ Access Instance Scan directly from your integrated development environment \(IDE
 
 \[Omitted image "hs-ide.png"\] Alt text:
 
-See  for more information.
+See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
 

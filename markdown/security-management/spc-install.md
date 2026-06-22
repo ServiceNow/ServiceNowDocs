@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Explore, Security Posture Control, Security Operations]
 ---
 
@@ -68,9 +68,9 @@ Role required: admin for download, installation, and activation of all applicati
 
     For more information about downloading and installing applications from the ServiceNow Store:
 
-    -   To Opt in to ServiceNow products, follow the steps in .
-    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in .
-    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in .
+    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/optin-optout-prod.md).
+    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
+    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/entite-app.md).
 4.  After you have installed and activated the applications, assign users to the following Security Posture Control groups:
 
     These groups inherit all the roles necessary to read and edit SPC records.
@@ -104,6 +104,6 @@ Role required: admin for download, installation, and activation of all applicati
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 
-    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See  for more information.
+    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) for more information.
 
 

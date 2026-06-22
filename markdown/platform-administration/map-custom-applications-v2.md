@@ -34,15 +34,15 @@ As your developers create and deploy new custom applications and tables on your 
 
     When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom applications, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom applications to product subscriptions, see [Map a missing custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/map-missing-custom-app-sub-mgt.md).
 
-<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d47000e165">
+<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d47033e165">
 
 Option
 
-</th><th align="left" id="d47000e168">
+</th><th align="left" id="d47033e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47000e174">
+</th></tr></thead><tbody><tr><td id="d47033e174">
 
 **Map to a recommended product**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d47000e201">
+</td></tr><tr><td id="d47033e201">
 
 **Map to a product of your choice**
 

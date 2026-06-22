@@ -19,7 +19,7 @@ Set your action button to open a custom modal by defining the payload parameters
 ## Before you begin
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-a-new-form-action.md)
--   Open your record page in UIB or create a page variant in UIB
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 -   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/design-a-page-variant-in-uib.md)
 -   [Configure your page variant as a modal in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-a-page-variant-as-a-modal-in-uib.md)
 -   [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-a-ux-add-on-event-mapping.md)

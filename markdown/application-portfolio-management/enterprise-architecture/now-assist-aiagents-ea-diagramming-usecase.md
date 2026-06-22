@@ -16,7 +16,7 @@ breadcrumb: [Using AI agent agentic workflow in Now Assist for Enterprise Archit
 
 Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 ## Generate enterprise architecture diagram overview
 
@@ -24,7 +24,7 @@ Use the Generate enterprise architecture diagram agentic workflow to create ente
 
 After generating the diagram, the AI agent suggests summarizing the created business application hierarchy diagram, listing all entities in the diagram and describing the relationship between them.
 
-You can activate the agentic workflow template by setting the display settings to include the Now Assist panel. If you want to change instructions for this agentic workflow, you must duplicate the agentic workflow, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead. For information on how to duplicate a agentic workflow, see duplicate the agentic workflow.
+You can activate the agentic workflow template by setting the display settings to include the Now Assist panel. If you want to change instructions for this agentic workflow, you must duplicate the agentic workflow, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead. For information on how to duplicate a agentic workflow, see [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md).
 
 **Important:**
 
@@ -80,7 +80,7 @@ To add access to more roles, perform the following:
 
     The new role is added to the **Define who can access this agentic workflow** section of the Define key requirements page.
 
-    **Note:** To know more about security in Now Assist AI agents with Access Control Lists \(ACLs\), see .
+    **Note:** To know more about security in Now Assist AI agents with Access Control Lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 
 Also, on the Select a UI display page, do the following:
@@ -105,7 +105,7 @@ To view information on how to create AI agents and agentic workflows and how to 
 -   Install Now Assist AI Agents
 -   
 -   
--   
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md)
 -   
 -   
 

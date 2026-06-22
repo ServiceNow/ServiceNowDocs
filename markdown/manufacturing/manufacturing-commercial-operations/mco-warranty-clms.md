@@ -8,7 +8,7 @@ product: Manufacturing Commercial Operations
 classification: manufacturing-commercial-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
@@ -34,7 +34,7 @@ Use the following to configure, use, and manage recall campaigns in MCO.
 Review the entities and relationships within the [Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/repair-claims.md), including tables added or modified by the repair claim plugin.
 
 1.  Configure repair claims: Complete the following tasks to set up the repair claims in your environment.
-    1.  Install Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]: .
+    1.  Install Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]: [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-apps-app-manager.md).
     2.  Set up product models and parts: [Configuring product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/mco-product-models.md).
     3.  Set up assets and install base items: [Configuring assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/mco-assets.md) and [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/mco-create-install-base-item.md).
     4.  Set up dealer hierarchy: [Create a channel partner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/mco-create-channel-partner.md) and [Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations/mco-create-internal-business-location.md).

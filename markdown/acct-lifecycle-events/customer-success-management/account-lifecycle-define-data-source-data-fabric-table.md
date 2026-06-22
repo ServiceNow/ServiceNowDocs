@@ -7,7 +7,7 @@ release: australia
 product: Customer Success Management
 classification: customer-success-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Data context engine, Customer success, Configure, Customer Success Management]
 ---
@@ -18,13 +18,13 @@ Enable data collection and analysis from external tables by integrating the Data
 
 ## Before you begin
 
--   Workflow Data Fabric plugin must be installed and configured. See  for details.
--   The Workflow Data Fabric table must have been created. See  for details.
+-   Workflow Data Fabric plugin must be installed and configured. See [Activate Zero Copy Connector Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/activate-zcc-hub.md) for details.
+-   The Workflow Data Fabric table must have been created. See [Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/create-data-fabric-table-zcc.md) for details.
 -   Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## About this task
 
-Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See  for details.
+Access external data through the Workflow Data Fabric tables and analyzed it using the Data Context Engine. This data is available in real-time using a zero-copy model and synced only when queried. See [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/managing-connections-zcc.md) for details.
 
 ## Procedure
 

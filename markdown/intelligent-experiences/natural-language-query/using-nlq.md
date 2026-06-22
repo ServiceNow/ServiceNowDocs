@@ -50,7 +50,7 @@ Keep the following information in mind when using NLQ.
 
 -   Your requests can contain periods and apostrophes, but not wildcard characters such as asterisks or regex.
 -   To group by a field or column, that column must be visible in the list view. Use the personalize list icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Personalize list icon.\) to hide or display columns.
--   For information about querying CMDB tables, see Querying the CMDB.
+-   For information about querying CMDB tables, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md).
 
 ## Tips for improving your queries
 

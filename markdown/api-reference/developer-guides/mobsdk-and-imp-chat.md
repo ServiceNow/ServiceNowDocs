@@ -61,11 +61,11 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see .
+Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 ## Passing context variables to Live Agent and Virtual Agent chat
 
-You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService-start\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md) function. For additional information on chat context variables, see .
+You can pass chat context variables when starting a chat session by passing the **contextData** parameter in the [NowChatService-start\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md) function. For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 ```
 class MainActivity : AppCompatActivity() {

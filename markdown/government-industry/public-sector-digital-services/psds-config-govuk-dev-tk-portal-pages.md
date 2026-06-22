@@ -71,7 +71,7 @@ By default, the GOV.UK Developer Toolkit supplies you with already-configured pa
 
     Each widget added to a page becomes its own instance. Widget instances get their logic from the base widget template, as well as other set scripts and properties that can be configured specific to that instance. Select the pencil icon \(\[Omitted image "psds\_spd\_pencil\_edit\_icon.png"\]\) to edit an instance of a widget on this page. You may have multiple instances of the same widget on a page, each with different instance options configured. Editing the instance options of a widget does not affect the properties of the base widget template.
 
-    For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page. For more information about configuring widget instance options, see .
+    For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page. For more information about configuring widget instance options, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
 
     For more information on the library of widgets and other page components that are included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Developer Toolkit GDS Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-widget-lib.md).
 

@@ -36,15 +36,15 @@ Ensure to install the following plugins
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d45176e103">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d45126e103">
 
 Option
 
-</th><th align="left" id="d45176e106">
+</th><th align="left" id="d45126e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45176e112">
+</th></tr></thead><tbody><tr><td id="d45126e112">
 
 **Create a new work order**
 
@@ -58,7 +58,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d45176e159">
+</td></tr><tr><td id="d45126e159">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 

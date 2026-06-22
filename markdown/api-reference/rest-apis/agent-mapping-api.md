@@ -18,7 +18,7 @@ The Agent Mapping API provides an endpoint to map external agent IDs from Contac
 
 This API requires the External Agent Management Util Pack \(sn\_external\_agent\) plugin. To call this API, you must have the interaction\_agent role.
 
-For more information about integrating with CCaaS systems, see .
+For more information about integrating with CCaaS systems, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 

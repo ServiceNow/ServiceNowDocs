@@ -26,7 +26,7 @@ To exit out of web search mode and return to internal search results, do one of 
 -   Select the **End** web search icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\)
 -   Select **End** in the web search banner \(enhanced chat only\)
 
-For more information on configuring web search, see .
+For more information on configuring web search, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
 **Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/using-now-assist-mobile.md)
 

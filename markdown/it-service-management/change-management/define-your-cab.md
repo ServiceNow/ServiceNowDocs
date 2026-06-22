@@ -341,5 +341,5 @@ You can modify CAB meeting details and send meeting requests to attendees. You c
 **Related topics**  
 
 
-[bundle-platux.c_UsingORConditions]
+[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UsingORConditions.md)
 

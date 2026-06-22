@@ -28,7 +28,7 @@ The Knowledge homepage contains the following widgets:
 
 -   Knowledge Banner Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
-    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see .
+    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 -   Knowledge Featured Articles widget, which displays profile photo, name, contact details, and other user profile information.
 -   Knowledge Most Viewed Articles widget, which displays the most viewed knowledge base articles.
@@ -36,7 +36,7 @@ The Knowledge homepage contains the following widgets:
 -   Knowledge Base Categories widget, which displays profile photo, name, contact details, and other user profile information.
 -   Footer Widget, which displays support links, other resources, and legal disclaimers.
 
-    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see .
+    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 
 ## Knowledge Search
@@ -47,7 +47,7 @@ The Knowledge search page contains the following widgets:
 
 -   Knowledge Banner Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
-    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see .
+    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 -   Knowledge Base Breadcrumbs widget, which displays information based on where an article is located in a knowledge base. You can broaden your search of the knowledge base to include all of the articles in a particular category by selecting the titles in the breadcrumbs. This widget also includes a search box so that you can search for an article by name.
 
@@ -58,7 +58,7 @@ The Knowledge search page contains the following widgets:
 -   Knowledge Result widget, which displays profile photo, name, contact details, and other user profile information.
 -   Footer Widget, which displays support links, other resources, and legal disclaimers.
 
-    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see .
+    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 
 ## Knowledge Article View
@@ -71,7 +71,7 @@ The Knowledge homepage contains the following widgets:
 
 -   Knowledge Banner Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
-    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see .
+    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 -   Knowledge Base Breadcrumbs widget, which displays information based on where an article is located in a knowledge base. You can broaden your search of the knowledge base to include all of the articles in a particular category by selecting the titles in the breadcrumbs. This widget also includes a search box so that you can search for an article by name.
 
@@ -85,7 +85,7 @@ The Knowledge homepage contains the following widgets:
 -   Knowledge Related Articles widget, which displays profile photo, name, contact details, and other user profile information.
 -   Footer Widget, which displays support links, other resources, and legal disclaimers.
 
-    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see .
+    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 
 **Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md)

@@ -7,7 +7,7 @@ release: australia
 product: Strategic Portfolio Management
 classification: strategic-portfolio-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -19,7 +19,7 @@ Create a partition to control record visibility for users within a specific func
 ## Before you begin
 
 -   Identify the reference field, such as Department or Business Unit, to use as the partition criteria for each supported table. The reference field can be different for each table within the same partition.
--   Create a dedicated role for this partition to control record visibility for its users. For details, see .
+-   Create a dedicated role for this partition to control record visibility for its users. For details, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md).
 
 Role required: sn\_spm\_ewd.ewd\_admin
 

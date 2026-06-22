@@ -185,7 +185,7 @@ Determines if the current field has been modified. This functionality is availab
 |----|-----------|
 |Boolean|True if the fields have been changed, false if the field has not.|
 
-The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see .
+The following example from a business rule shows how to create an event in the EventQueue if the value of the **assigned\_to** field changes. For a comprehensive example, see [Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/r_ChangeEventsSampleScripts.md).
 
 ```
 if (!current.assigned_to.nil() && current.assigned_to.changes()) {
@@ -335,7 +335,7 @@ false
 
 Returns the choice list for a specified field.
 
-The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see Choice list field type.
+The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ChoiceLists.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -427,7 +427,7 @@ The display value that is returned is dependent on the field type.
 -   Encrypted text: The database value is encrypted, while the displayed value is unencrypted based on the user's encryption context.
 -   Reference fields: The database value is sys\_id, but the display value is a display field of the referenced record.
 
-For more information on display values, see Display values.
+For more information on display values, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -509,7 +509,7 @@ Gets the display value of the field in the language passed as a parameter.
 
 The result is only applicable to translatable field types such as **Choice**, **Translated Field**, and **Translated Text**. For other field types, the result defaults to [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see .
+You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 See also [Scoped GlideElement - getLabelLang\(String language\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
 
@@ -747,7 +747,7 @@ var nicePrice = now_GR.price.toString();
 
 Gets the label value of the field in the language passed as a parameter.
 
-You must have the corresponding language plugin to retrieve a translated value. For information, see .
+You must have the corresponding language plugin to retrieve a translated value. For information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 See also:
 
@@ -899,7 +899,7 @@ Returns the name of the table that contains the field.
 
 |Type|Description|
 |----|-----------|
-|String|Name of the table that contains the field that is called on. The returned value might be different from the table class that the record is in. For more information, see .|
+|String|Name of the table that contains the field that is called on. The returned value might be different from the table class that the record is in. For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).|
 
 ```
 if (current.approver.getTableName() == "sysapproval_approver") {
@@ -928,7 +928,7 @@ if (current.approver.getTableName() == "sysapproval_approver") {
 
 Returns the value of a specified field from a GlideRecord object.
 
-This method returns the internal value of the associated database field. To return the display value of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
+This method returns the internal value of the associated database field. To return the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1154,9 +1154,9 @@ Sets the value of a field.
 
     See also:
 
-    -   
+    -   [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md)
     -   [Alternatives to GlideEncrypter usage in knowledge base article KB1320986](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986)
-    -   
+    -   [Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 
 |Name|Type|Description|
 |----|----|-----------|

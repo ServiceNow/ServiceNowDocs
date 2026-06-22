@@ -34,15 +34,15 @@ You must have the Agentic AI plugin installed.
 
 3.  Provide details on the Set objectives tab.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d62621e100">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d62656e100">
 
 Field
 
-</th><th align="left" id="d62621e103">
+</th><th align="left" id="d62656e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62621e109">
+</th></tr></thead><tbody><tr><td id="d62656e109">
 
 **Select type**
 
@@ -50,7 +50,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d62621e121">
+</td></tr><tr><td id="d62656e121">
 
 **Name**
 
@@ -58,7 +58,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d62621e130">
+</td></tr><tr><td id="d62656e130">
 
 **Short description**
 
@@ -66,7 +66,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d62621e139">
+</td></tr><tr><td id="d62656e139">
 
 **Source Type**
 
@@ -74,7 +74,7 @@ Provide a short description for the project you’re creating.
 
 Select `Agentic AI data` from the list.
 
-</td></tr><tr><td id="d62621e152">
+</td></tr><tr><td id="d62656e152">
 
 **Table**
 
@@ -82,7 +82,7 @@ Select `Agentic AI data` from the list.
 
 This is auto-populated \(Execution Plan\).
 
-</td></tr><tr><td id="d62621e161">
+</td></tr><tr><td id="d62656e161">
 
 **Mark as restricted**
 
@@ -92,7 +92,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d62621e174">
+</td></tr><tr><td id="d62656e174">
 
 **Auto retire**
 
@@ -108,7 +108,7 @@ This field is available only if you choose the type as **Project**.
 
  The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d62621e214">
+</td></tr><tr><td id="d62656e214">
 
 **Add a KPI dashboard**
 
@@ -116,7 +116,7 @@ This field is available only if you choose the type as **Project**.
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d62621e229">
+</td></tr><tr><td id="d62656e229">
 
 **Quick start**
 

@@ -20,15 +20,15 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 
 ## On-Call Scheduling for managers
 
--   
--   
--   
+-   [Manage gaps and conflicts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/manage-gaps-and-conflict.md)
+-   [Manage time-off requests with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/time-off-request.md)
+-   [Manage upcoming shifts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/manage-upcoming-shifts.md)
 
 ## On-Call Scheduling for responders
 
--   
--   
--   
+-   [Request time off with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/request-time-off.md)
+-   [View on-call group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/view-who-is-on-call.md)
+-   [View upcoming shifts with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/view-upcoming-shifts.md)
 
 **Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/use-itom-mobile.md)
 

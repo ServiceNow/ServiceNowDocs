@@ -29,7 +29,7 @@ App developers can view the commit history of apps linked to a source control re
 
 2.  Select the commit sort order type.
 
-<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d121222e89">
+<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d121170e89">
 
 **Date**
 
@@ -37,7 +37,7 @@ App developers can view the commit history of apps linked to a source control re
 
 Sort by commit date.
 
-</td></tr><tr><td id="d121222e98">
+</td></tr><tr><td id="d121170e98">
 
 **Committer**
 
@@ -48,7 +48,7 @@ Sort by user name.
 </td></tr></tbody>
 </table>3.  Select the sort order direction.
 
-<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d121222e116">
+<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d121170e116">
 
 **Descending**
 
@@ -56,7 +56,7 @@ Sort by user name.
 
 Sort dates from the most recent to oldest date. Sort user names reverse-alphabetically from Z to A.
 
-</td></tr><tr><td id="d121222e125">
+</td></tr><tr><td id="d121170e125">
 
 **Ascending**
 

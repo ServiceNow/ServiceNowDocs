@@ -38,7 +38,7 @@ Proactive Service Experience Workflows deliver end-to-end support, while underst
 |Use five unique Workflow Studio flows that can be modified to suit your business needs.|[Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)|
 |Escalate incidents for faster action based on a preconfigured decision table.|[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)|
 |Create incident records from certain API clients based on TM Forum TMF621 Rest API standards.|[Create an incident in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/create-an-incident-proactive.md)|
-|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.||
+|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.|[Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/spm-components.md)|
 
 For information about the architectural components of the Proactive Service Experience Workflows application, see [Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md).
 

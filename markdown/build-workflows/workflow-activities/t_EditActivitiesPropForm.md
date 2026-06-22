@@ -32,6 +32,6 @@ Role required: admin
 
     The activity variables appear as separate items that you can rearrange on the form.
 
-    For more details on using the form design interface, see Using the form designer.
+    For more details on using the form design interface, see [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_FormDesign.md).
 
 

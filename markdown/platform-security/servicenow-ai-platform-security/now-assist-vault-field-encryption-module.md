@@ -23,7 +23,7 @@ Add field encryption protection and improve your security posture with the field
 
 When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
-To modify the agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 ## Use the field encryption with Vault module
 
@@ -47,7 +47,7 @@ To access and configure the agentic workflow:
 |----|-----------|
 |Vault crypto module manager agent|Uses various tools to encrypt fields and ensures that only those users with particular roles have access to those fields.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 
 **Parent Topic:**[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/use-now-assist-vault-agentic-ai.md)
 

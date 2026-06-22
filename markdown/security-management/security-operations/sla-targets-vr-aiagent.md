@@ -18,9 +18,9 @@ Chat with an AI agent to help you gain insights into your monthly remediation co
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
-The Now Assist panel must be activated. For more information, see .
+The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst admin
 
@@ -28,7 +28,7 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst a
 
 1.  Select the Now Assist icon \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon.\).
 
-    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon. in the header on the page, you must activate the Now Assist panel. For more information, see .
+    The Now Assist panel is displayed. If you don't see the Now Assist icon \[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist icon. in the header on the page, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
     The Analyze vulnerability remediation status agentic workflow is on-demand. You can enter any query in natural language, but you might consider using the prompts described in the following table and steps to familiarize yourself with the available data and what you can do with it.
 

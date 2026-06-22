@@ -24,7 +24,7 @@ By default, the Services page contains the following widgets that can be customi
 
 -   Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
-    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see .
+    **Note:** This widget cannot be cloned for modification. Instead, configure the header menu by associating the header menu with a portal. For more information on configuring a header menu, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 -   Breadcrumbs widget, which displays information based on where a page is located in a portal, allowing users to navigate around.
 
@@ -33,7 +33,7 @@ By default, the Services page contains the following widgets that can be customi
 -   Catalog Search widget and Typeahead Search widget, which displays a search box that navigates to the search results page with information specific to the service catalog.
 -   UK GDS SC Categories widget, which displays the service catalog categories through the catalog selector dropdown and category tree in the sidebar.
 
-    **Note:** This widget renders the categories available in this widget from the Categories table in Service Catalog \[sc\_category\]. For more information on associating your portal with catalogs, see  and [Configure GOV.UK Design System Service Portal Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-catalog.md).
+    **Note:** This widget renders the categories available in this widget from the Categories table in Service Catalog \[sc\_category\]. For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md) and [Configure GOV.UK Design System Service Portal Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-catalog.md).
 
 -   UK GDS SC Category Page widget, which lists the service catalog items available within a certain category.
 
@@ -41,12 +41,12 @@ By default, the Services page contains the following widgets that can be customi
 
 -   Footer Widget, which displays support links, other resources, and legal disclaimers.
 
-    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see .
+    **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 
 .
 
-For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see .
+For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 **Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-config-govuk-dev-tk-portal-pages.md)
 

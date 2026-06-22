@@ -7,7 +7,7 @@ release: australia
 product: Manufacturing Commercial Operations
 classification: manufacturing-commercial-operations
 topic_type: reference
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---

@@ -58,15 +58,15 @@ As an agent, you can search parts from your personal stock room, peer stockrooms
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d36080e190">
+<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d36029e190">
 
 To
 
-</th><th align="left" id="d36080e193">
+</th><th align="left" id="d36029e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d36080e199">
+</th></tr></thead><tbody><tr><td id="d36029e199">
 
 **Search for parts**
 
@@ -76,7 +76,7 @@ Do this
 2.  Tap the Search icon \(\[Omitted image "search\_icon.png"\] Alt text:\)
 
 
-</td></tr><tr><td id="d36080e223">
+</td></tr><tr><td id="d36029e223">
 
 **Check part availability with your preference**
 
@@ -94,7 +94,7 @@ Do this
 7.  Tap **Next**.
  Swipe each part record displayed below the map to the left or the right to see the location of the selected part.
 
-</td></tr><tr><td id="d36080e280">
+</td></tr><tr><td id="d36029e280">
 
 **Reconcile assets between a physical location and the system**
 

@@ -32,7 +32,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md), configure the JavaScript probe activity Execution Command.
 
-<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d244983e115">
+<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d239678e115">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 Use the variables you created to configure the command that Orchestration executes on the MID server.
 
-</td></tr><tr><td id="d244983e131">
+</td></tr><tr><td id="d239678e131">
 
 **Script type**
 
@@ -50,7 +50,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 -   MID Server script include
 
 
-</td></tr><tr><td id="d244983e149">
+</td></tr><tr><td id="d239678e149">
 
 **Script**
 
@@ -58,7 +58,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 
 Custom JavaScript to run with this probe. **Note:** This field is available when the **Script type** selected is **Custom JavaScript**.
 
-</td></tr><tr><td id="d244983e167">
+</td></tr><tr><td id="d239678e167">
 
 **MID Server script include**
 
@@ -66,7 +66,7 @@ Custom JavaScript to run with this probe. **Note:** This field is available when
 
 Script for the MID Server to run with this probe. **Note:** This field is available when the **Script type** selected is **MID Server script include**.
 
-</td></tr><tr><td id="d244983e185">
+</td></tr><tr><td id="d239678e185">
 
 **Select MID Server by host**
 
@@ -74,7 +74,7 @@ Script for the MID Server to run with this probe. **Note:** This field is availa
 
 MID Server on which the probe runs.
 
-</td></tr><tr><td id="d244983e195">
+</td></tr><tr><td id="d239678e195">
 
 **Required MID Server capabilities**
 
@@ -82,7 +82,7 @@ MID Server on which the probe runs.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d244983e204">
+</td></tr><tr><td id="d239678e204">
 
 **Parameters**
 
@@ -238,7 +238,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see MID Server capabilities. If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```

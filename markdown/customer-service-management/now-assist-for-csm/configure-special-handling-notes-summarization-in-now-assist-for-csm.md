@@ -82,5 +82,5 @@ After activating the skill, complete the following tasks:
 -   Test the summarization output on a sample record that contains multiple or lengthy special handling notes.
 -   Notify CSM agents that the feature is available and direct them to the **Case Insights** section to review summaries.
 -   Monitor Now Assist usage analytics to track adoption of the skill.
--   To customize the skill, go to Now Assist Skill Kit and open the skill and create custom prompts. For more info, see 
+-   To customize the skill, go to Now Assist Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

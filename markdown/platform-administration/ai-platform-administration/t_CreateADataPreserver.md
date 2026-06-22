@@ -45,7 +45,7 @@ For information on how data preservers interact with exclusions see [Clarifying 
 
 5.  Select the **Theme** check box if the data being preserved is a UI property.
 
-6.  Define the data to be preserved using the Condition Builder.
+6.  Define the data to be preserved using the [Condition Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     Use conditions to define records to preserve during a clone. For example, to preserve specific system properties, add conditions for each property name to preserve.
 

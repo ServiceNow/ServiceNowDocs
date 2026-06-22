@@ -339,7 +339,7 @@ any table
 
 </td><td>
 
-Displays the value of the specified field as a Lists for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
+Displays the value of the specified field as a [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md) for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ any table
 
 </td><td>
 
-Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see Tables excluded from rollback after running an automated test.
+Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see [Tables excluded from rollback after running an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-excluded-from-rollback.md).
 
 </td></tr><tr><td>
 
@@ -1155,7 +1155,7 @@ any table
 
 </td><td>
 
-If present or true, marks this table as not participating in domain separation. To learn more, see Domain separation for service providers.
+If present or true, marks this table as not participating in domain separation. To learn more, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -1970,7 +1970,7 @@ any table
 
 </td><td>
 
-Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see .
+Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md).
 
 </td></tr><tr><td>
 
@@ -2050,7 +2050,7 @@ any table
 
 </td><td>
 
-Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an Importing from another ServiceNow instance.
+Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md).
 
 </td></tr><tr><td>
 

@@ -34,7 +34,7 @@ Role required: admin
 
     \[Omitted image "ia-install.png"\] Alt text: Screenshot showing the dynamically rendered apps and plugins tiles
 
-    **Note:** If you use an earlier version of Admin Center, see  for installation information about Now Assist. In the latest version of Admin Center, the Now Assist card appears in the Manage your products section.
+    **Note:** If you use an earlier version of Admin Center, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md) for installation information about Now Assist. In the latest version of Admin Center, the Now Assist card appears in the Manage your products section.
 
     **Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
 

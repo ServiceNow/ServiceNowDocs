@@ -30,15 +30,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d281795e79">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d280857e79">
 
 Roadmap type
 
-</th><th align="left" id="d281795e82">
+</th><th align="left" id="d280857e82">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d281795e88">
+</th></tr></thead><tbody><tr><td id="d280857e88">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d281795e109">
+</td></tr><tr><td id="d280857e109">
 
 **Free-form roadmap**
 

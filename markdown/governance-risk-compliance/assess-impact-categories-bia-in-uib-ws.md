@@ -55,15 +55,15 @@ Beginning with the Xanadu release, these new columns are added to the BIA depend
 
 8.  To add an item to a dependency group, select one of the options.
 
-<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d58979e259">
+<table id="choicetable_fjs_hqz_dyb"><thead><tr><th align="left" id="d58984e259">
 
 Step
 
-</th><th align="left" id="d58979e262">
+</th><th align="left" id="d58984e262">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58979e268">
+</th></tr></thead><tbody><tr><td id="d58984e268">
 
 **__Add__**
 
@@ -82,7 +82,7 @@ Add an item from all the records. The relationship source is BCM. All items from
 
  **Note:** The **Add** and **Add first level CMDB dependencies** actions are available only while the business impact analysis is in an editable state, such as **Draft** or **Returned**. After the business impact analysis is submitted and moves to the **Pending approval** state, these actions are no longer available, so you cannot add dependency items to the assessment in that state.
 
-</td></tr><tr><td id="d58979e349">
+</td></tr><tr><td id="d58984e349">
 
 **__Add first level CMDB dependencies__**
 
@@ -94,7 +94,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
  A sample assessment is shown in the example.\[Omitted image "first-level-of-dependencies.png"\] Alt text: Add first level CMDB dependencies.
 
-</td></tr><tr><td id="d58979e394">
+</td></tr><tr><td id="d58984e394">
 
 **__Update dependencies__**
 
@@ -102,7 +102,7 @@ Add dependencies for which the relationships are identified in CMDB.
 
 Import all CMDB relationships manually in the respective categories that are defined in the instance.
 
-</td></tr><tr><td id="d58979e407">
+</td></tr><tr><td id="d58984e407">
 
 **Edit __Required Recovery Timeframe__ \(RTO\) for one dependency**
 
@@ -110,7 +110,7 @@ Import all CMDB relationships manually in the respective categories that are def
 
 If you have one dependency in the **Pending** state, you can update its RTO by updating the inline value in the **Required Recovery Timeframe** field as shown in the example.\[Omitted image "req-recovery-timeframe-inline.png"\] Alt text: Updating RTO for one dependency at a time.
 
-</td></tr><tr><td id="d58979e434">
+</td></tr><tr><td id="d58984e434">
 
 **Edit __Required Recovery Timeframe__ for multiple dependencies**
 
@@ -138,7 +138,7 @@ If the administrator has set the **Required Recovery Timeframe** field in the de
 
  Data from the Required Recovery Timeframe and Required Data Backup columns is now pulled into the BCP record.
 
-</td></tr><tr><td id="d58979e528">
+</td></tr><tr><td id="d58984e528">
 
 **Select __Complete__**
 

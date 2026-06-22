@@ -40,7 +40,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     \[Omitted image "imp-initiative.png"\] Alt text: Prefilled improvement initiative page
 
-    For more information the fields, see: Create an improvement initiative.
+    For more information the fields, see: [Create an improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-cim-request.md).
 
 4.  If you want to attach a supporting document, select **Browse** and select the file.
 

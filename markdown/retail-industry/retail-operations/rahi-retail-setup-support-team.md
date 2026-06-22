@@ -22,11 +22,11 @@ Role required: user\_admin
 
 You can assign a role to a group to grant access to applications and modules to group members.
 
-Before assigning the sn\_retail.support\_agent role to a group of users, you must Create a user group and then Add a user to a group.
+Before assigning the sn\_retail.support\_agent role to a group of users, you must [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md) and then [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 When you assign roles to groups rather than to individual users, members of the group inherit the role.
 
-When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see Control user access to application services.
+When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/control-user-access-to-business-services.md).
 
 ## Procedure
 

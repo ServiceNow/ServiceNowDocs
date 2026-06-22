@@ -30,7 +30,7 @@ The end-to-end flow for making an MCP server available is:
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see .
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/model-context-protocol-connector.md).
 
 See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
 

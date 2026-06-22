@@ -32,7 +32,7 @@ Agentic workflows in FSO are inactive by default. To activate a workflow:
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
-To modify an agentic workflow, you must first duplicate the agentic workflow, and then proceed with the following steps:
+To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate the agent within the agentic workflow.
@@ -40,13 +40,13 @@ To modify an agentic workflow, you must first duplicate the agentic workflow, an
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-For more information on activating agentic workflows, triggers, and agents, see  and .
+For more information on activating agentic workflows, triggers, and agents, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/modify-ai-agent.md).
 
 For more information on agentic workflows in FSO, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 ## Choosing a language model service provider
 
-You can choose which service provider to use for AI agents and agentic workflows in the Now Assist Admin console.
+You can choose which service provider to use for AI agents and agentic workflows [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
 **Parent Topic:**[Configuring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-now-assist-skills-for-fso.md)
 

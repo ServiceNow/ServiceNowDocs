@@ -35,15 +35,15 @@ The Report an AI case record producer within the AI Case Management application 
 
 1.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d81683e104">
+<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d81688e104">
 
 Option
 
-</th><th align="left" id="d81683e107">
+</th><th align="left" id="d81688e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d81683e113">
+</th></tr></thead><tbody><tr><td id="d81688e113">
 
 **Direct portal access**
 
@@ -53,7 +53,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d81683e137">
+</td></tr><tr><td id="d81688e137">
 
 **Employee center access**
 

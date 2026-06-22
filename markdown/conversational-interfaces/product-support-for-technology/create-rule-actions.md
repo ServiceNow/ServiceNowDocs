@@ -75,7 +75,7 @@ Select a default rule in the Proactive Triggers rules list to see how the defaul
 
     You can create additional rules and actions as needed. For information about using multiple rules and actions, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).
 
-    You can localize the language for end users by making entries to the Translated Text table. For more information about making entries to the Translated Text table, see .
+    You can localize the language for end users by making entries to the Translated Text table. For more information about making entries to the Translated Text table, see [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_UseTranslatedText.md).
 
 
 ## Result

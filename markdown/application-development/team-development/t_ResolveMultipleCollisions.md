@@ -32,7 +32,7 @@ Role required: none.
 
 4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d283562e93">
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d283554e93">
 
 **To load the version pulled from the parent as the current version for all selected collisions**
 
@@ -40,7 +40,7 @@ Role required: none.
 
 Select **Use Pulled Version**
 
-</td></tr><tr><td id="d283562e105">
+</td></tr><tr><td id="d283554e105">
 
 **To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
 

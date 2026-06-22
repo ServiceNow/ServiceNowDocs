@@ -137,7 +137,7 @@ Manage columns
 
 Option to select and arrange the columns that appear. In the Manage columns dialog box, move columns from **Available columns** to **Selected columns**, drag to rearrange the columns, and select **Apply**.
 
-You can select a field on a related table by dot-walking to it. For more information, see .
+You can select a field on a related table by dot-walking to it. For more information, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md).
 
 </td></tr><tr><td>
 
@@ -147,12 +147,12 @@ Apply conditions
 
 Option to add a filter condition to the list. In the dialog box that appears, you can do the following:-   To apply a predefined filter, select **Use existing filter** and search for the filter.
 -   To view existing conditions, expand the **Filter overview** section.
--   To create a filter condition, use the condition builder. For more information on building conditions, see .
+-   To create a filter condition, use the condition builder. For more information on building conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 -   To change the sort order of the filtered results, expand the **Sort by** section and make changes.
 -   To save the filter condition that you created for reuse, select **Save filter**.
  When you're done creating the filter condition, select **Apply filter**.
 
- For more information on working with filters for lists, see .
+ For more information on working with filters for lists, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_Filters.md).
 
 </td></tr></tbody>
 </table>    3.  Select **Apply filter**.
@@ -161,7 +161,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d117291e587">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d117238e590">
 
 **Edit a list category**
 
@@ -172,7 +172,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d117291e614">
+</td></tr><tr><td id="d117238e617">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -183,7 +183,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Refresh the canvas preview by selecting the refresh icon \(\[Omitted image "workspace-list-refresh-icon-purple.png"\] Alt text: Refresh icon on preview canvas\) in the canvas header.
 
 
-</td></tr><tr><td id="d117291e653">
+</td></tr><tr><td id="d117238e656">
 
 **Delete a list category**
 
@@ -194,7 +194,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d117291e680">
+</td></tr><tr><td id="d117238e683">
 
 **Delete a filtered list**
 

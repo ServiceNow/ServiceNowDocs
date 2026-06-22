@@ -16,7 +16,7 @@ breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce 
 
 Use a related list to link the Customer Account table with Salesforce Account Id, and the Salesforce Opportunity remote table with the same Account Id.
 
-In this example, create a relationship called Opportunities. Choose the Account table in the **Applies to table** field and the remote opportunity table in the **Queries from table** field. For more information, see Create defined related lists.
+In this example, create a relationship called Opportunities. Choose the Account table in the **Applies to table** field and the remote opportunity table in the **Queries from table** field. For more information, see [Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreateDefinedRelatedLists.md).
 
 \[Omitted image "opportunities-relationship-table.jpg"\] Alt text: Related list to create Opportunities relationship between the Account table and the Salesforce Opportunity table.
 

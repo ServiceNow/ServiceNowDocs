@@ -43,7 +43,7 @@ Connection
 Type of connection to use. -   **Define Connection Inline**: Define connection information within the action step.
 -   **Use Connection Alias**: Define connection information using the Connection Alias table. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action.
 
- To learn more about connections and credentials, see Introduction to credentials, connections, and aliases.
+ To learn more about connections and credentials, see [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
 
  **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
 
@@ -61,7 +61,7 @@ Credential Alias
 
 </td><td>
 
-Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
+Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
 
  **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
 
@@ -110,7 +110,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list, and **Use MID** is checked.
@@ -306,7 +306,7 @@ Enable Retry Policy
 
 </td><td>
 
-Option to enable the retry policy. For more information, see Retry policy.
+Option to enable the retry policy. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
 
 </td></tr><tr><td>
 
@@ -364,7 +364,7 @@ By default, the system limits the size of REST responses that are not saved as a
 
 ## Parsing a REST response
 
-REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a  to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
+REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
 
 The general strategy to get extracted data from the response is to do the following.
 

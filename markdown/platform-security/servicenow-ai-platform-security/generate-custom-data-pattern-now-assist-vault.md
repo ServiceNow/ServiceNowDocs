@@ -19,7 +19,7 @@ Use the generate custom data pattern skill to create a custom regular expression
 ## Before you begin
 
 -   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/configuring-servicenow-vault.md).
--   Ensure that the generate custom data pattern skill is active. For more information, see .
+-   Ensure that the generate custom data pattern skill is active. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 
 Role required: sn\_vault\_console.vault\_console\_admin
 

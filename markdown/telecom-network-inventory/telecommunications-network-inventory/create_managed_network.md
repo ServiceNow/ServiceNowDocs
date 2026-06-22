@@ -18,7 +18,7 @@ Create a managed network to manage all your networks and IP addresses using the 
 
 ## Before you begin
 
--   Install network discovery plugins. To learn more, see Network discovery.
+-   Install network discovery plugins. To learn more, see [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md).
 -   Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\_ni\_core.inventory\_template\_manager, sn\_ni\_core.telco\_inventory\_catalog\_manager.
 
 ## About this task

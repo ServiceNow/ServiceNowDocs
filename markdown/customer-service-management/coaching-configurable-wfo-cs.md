@@ -168,7 +168,7 @@ Watch this short video to get an overview on coaching, assessments, and training
 
 ### About this task
 
-If the  includes a survey, you can opt to take the survey and the assessment. When you use a survey to , the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the [Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-configuring-coaching.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [Coaching your trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-your-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -184,15 +184,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d58436e644">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d58501e646">
 
 To
 
-</th><th align="left" id="d58436e647">
+</th><th align="left" id="d58501e649">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d58436e653">
+</th></tr></thead><tbody><tr><td id="d58501e655">
 
 **Perform adhoc assessments**
 
@@ -204,7 +204,7 @@ Do this
 4.  select the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d58436e689">
+</td></tr><tr><td id="d58501e691">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -336,21 +336,21 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 3.  Click the **Skills** tab.
 
-    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see Skills Management.
+    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
 
     You can also filter the skill matrix based on users, groups, skill type, skill level, or skill category. Reset the filter if you want to view the skills for all users.
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d58436e1024">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d58501e1026">
 
 To
 
-</th><th align="left" id="d58436e1027">
+</th><th align="left" id="d58501e1029">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d58436e1033">
+</th></tr></thead><tbody><tr><td id="d58501e1035">
 
 **Add a skill**
 
@@ -361,7 +361,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d58436e1063">
+</td></tr><tr><td id="d58501e1065">
 
 **Update a skill level**
 

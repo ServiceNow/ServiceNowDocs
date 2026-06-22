@@ -18,7 +18,7 @@ Jumpstart Your Process Mining Accelerator provides a demonstration of the possib
 
 ## Accelerator Overview
 
-Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see .
+Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
 
 ## Package Availability
 

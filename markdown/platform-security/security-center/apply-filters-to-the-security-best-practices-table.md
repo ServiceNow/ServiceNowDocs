@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: vertical dots\).
 
-<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d167630e74">
+<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d167885e74">
 
 Fields
 
-</th><th align="left" id="d167630e77">
+</th><th align="left" id="d167885e77">
 
 Filter
 
-</th></tr></thead><tbody><tr><td id="d167630e83">
+</th></tr></thead><tbody><tr><td id="d167885e83">
 
 **Name**
 
@@ -42,7 +42,7 @@ Filter
 
 Combine a conditional operator with a string of text to return security best practices that match the name you entered.
 
-</td></tr><tr><td id="d167630e92">
+</td></tr><tr><td id="d167885e92">
 
 **Maturity level**
 
@@ -56,7 +56,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Add advanced features
 
 
-</td></tr><tr><td id="d167630e119">
+</td></tr><tr><td id="d167885e119">
 
 **Status**
 
@@ -70,7 +70,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Completed
 
 
-</td></tr><tr><td id="d167630e146">
+</td></tr><tr><td id="d167885e146">
 
 **Priority**
 
@@ -84,7 +84,7 @@ Apply a filter to return security best practices that match the following priori
 -   Not applicable
 
 
-</td></tr><tr><td id="d167630e174">
+</td></tr><tr><td id="d167885e174">
 
 **Goals**
 
@@ -100,7 +100,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Secure emails
  **Note**: Advanced filters are applied for goals by default. To modify them, select **Make changes** &gt; **Advanced view** &gt; **Select field goals** and then build the rest of the conditions and select **Update**.
 
-</td></tr><tr><td id="d167630e228">
+</td></tr><tr><td id="d167885e228">
 
 **First introduced**
 
@@ -108,7 +108,7 @@ Apply a filter to return security best practices that match one or more of the f
 
 Combine a conditional operator with a string of text to return best practices that were first introduced with the version you entered.
 
-</td></tr><tr><td id="d167630e237">
+</td></tr><tr><td id="d167885e237">
 
 **Changed**
 
@@ -116,7 +116,7 @@ Combine a conditional operator with a string of text to return best practices th
 
 Combine a conditional operator with a string of text to return security best practices that changed in the version you entered.
 
-</td></tr><tr><td id="d167630e246">
+</td></tr><tr><td id="d167885e246">
 
 **Removed**
 

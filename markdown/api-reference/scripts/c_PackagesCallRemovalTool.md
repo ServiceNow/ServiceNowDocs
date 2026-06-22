@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 14
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
@@ -26,7 +26,7 @@ Packages calls to ServiceNow Java classes will be prevented in a future release.
 
 The tool might generate errors as it tries to generate preferred, scriptable alternatives for Packages calls to ServiceNow Java classes.
 
-**Note:** Create an update set before migrating the changes that result from running the Packages Call Removal Tool. For information, see Get started with update sets.
+**Note:** Create an update set before migrating the changes that result from running the Packages Call Removal Tool. For information, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
 
 **Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 
@@ -50,7 +50,7 @@ Role required: admin.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 ## Find a Packages call

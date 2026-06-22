@@ -42,7 +42,7 @@ If you get the error "The test timed out because the max execution time \(600 se
 
 6.  When the tests have finished running, select **Go to Result** to view the test results.
 
-    For more information, see .
+    For more information, see [Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-run-test.md).
 
 
 **Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/testing-support-playbooks.md)

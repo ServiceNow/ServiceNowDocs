@@ -20,7 +20,7 @@ When you select the record link from the email notifications on the mobile, the 
 
 To enable this feature, set the **Enable universal links** \(**glide.sg.universal\_links.enabled**\) system property to `true`.
 
-The feature is based on the universal linking of mobile. For more information, see .
+The feature is based on the universal linking of mobile. For more information, see [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/universal-links-mobile.md).
 
 The email notification redirection is applicable to the following type of records:
 

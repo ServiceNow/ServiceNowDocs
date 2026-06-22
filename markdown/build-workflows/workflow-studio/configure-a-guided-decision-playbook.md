@@ -41,7 +41,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
         |Type|Select **Guided Decision**.|
         |Playbook name|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
         |Description|Enter a short descriptive detail about your playbook.|
-        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
+        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).|
         |Execution type|Select **Standalone** if you want to make the Guided Decision Playbook nestable. You can't nest a record-driven playbook inside another playbook.|
         |Allow this playbook to be nestable in another playbook|Select this option to embed this playbook in another playbook.|
 
@@ -81,7 +81,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
         -   To start with an empty page, select **Create from scratch instead**.
     Unlike the Focused and Stacked layouts, the Guided Layout does not have a matching page template.
 
-    For information on creating a page, see Create a page from scratch and create a page from a Standard record template.
+    For information on creating a page, see [Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) and [create a page from a Standard record template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md).
 
     **Note:** All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. You configure these in step 7 when you set up the test URL parameters for the page.
 
@@ -107,21 +107,21 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     6.  Select **Done** to close the dialog and apply the configuration.
 
-    For more information, see .
+    For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
 
 7.  Configure the Playbook Custom Layout Controller to tell the bundle which playbook to render at runtime.
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d67095e533">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d65894e534">
 
 Type
 
-</th><th align="left" id="d67095e536">
+</th><th align="left" id="d65894e537">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67095e542">
+</th></tr></thead><tbody><tr><td id="d65894e543">
 
 **Standalone**
 
@@ -132,7 +132,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d67095e569">
+</td></tr><tr><td id="d65894e570">
 
 **Record-driven**
 
@@ -146,7 +146,7 @@ Action
 The sysId=-1 binding is required for record-driven playbooks. Without it, the controller resets the record to negative 1 on every action and the playbook will never start.
 
 </td></tr></tbody>
-</table>    For more information, see .
+</table>    For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
 
     \[Omitted image "playbook-exp-binding.png"\] Alt text: Screenshot showing where to bind data to parent table.
 

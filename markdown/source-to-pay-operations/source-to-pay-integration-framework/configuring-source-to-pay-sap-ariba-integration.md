@@ -19,7 +19,7 @@ Integrate the ServiceNow instance and SAP Ariba using the SSH, Basic Auth, OAuth
 ## Application set up
 
 -   Activate the Source-to-Pay integration with the SAP Ariba application from the ServiceNow Store. This automatically activates the SAP Ariba Spoke.
--   Set up SAP Ariba Spoke.
+-   Set up [SAP Ariba Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-ariba-spoke.md).
 -   Activate the Source-to-Pay integration framework from the ServiceNow Store. Source-to-Pay integration with SAP Ariba uses the Source-to-Pay integration framework to pull tasks from SAP Ariba into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.md).
 
 

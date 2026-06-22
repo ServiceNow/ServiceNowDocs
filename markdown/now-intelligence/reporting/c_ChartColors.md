@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Table used for the report.**Note:** The list shows only tables and database views that are in the same scope as the chart colors record.
+Table used for the report.**Note:** The list shows only tables and database views that are [in the same scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md) as the chart colors record.
 
 </td></tr><tr id="row_h2z_tfw_1z"><td>
 
@@ -104,7 +104,7 @@ The value of the element for which the specified color applies. The value is cas
 
  \[Omitted image "chart-color-choice-type-ex-pt1.png"\] Alt text: Chart color choice type example - part 1
 
- To understand the various ways to get a record's sys\_id, see The unique record identifier \(sys\_id\).
+ To understand the various ways to get a record's sys\_id, see [The unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 </td></tr><tr id="row_xqw_5fw_1z"><td>
 

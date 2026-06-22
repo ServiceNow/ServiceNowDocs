@@ -24,7 +24,7 @@ Using your Apple developer environment, create a push certificate and convert it
 
 Role required: push\_admin or admin
 
-**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at Mobile push notifications
+**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-mobile-push-notifications.md)
 
 ## About this task
 

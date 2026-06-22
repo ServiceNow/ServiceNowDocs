@@ -20,7 +20,7 @@ Before you begin the upgrade process, read the [Australia release notes](https:/
 
 \[Omitted image "upgrade-cycle-at-large.png"\] Alt text: Prepare, upgrade and test the test instance, upgrade and test production instance
 
-System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see List of Australia plugins.
+System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see [List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/list-of-plugins.md).
 
 Careful preparation and knowledge of the available software, tools, and resources can contribute to a successful upgrade. In addition to the materials provided by ServiceNow, it is important to understand how your ServiceNow instance is currently operating and the performance level of key business functionality. Set the expectation with IT and business users that time must be dedicated to preparing for, implementing, and testing ServiceNow upgrades.
 

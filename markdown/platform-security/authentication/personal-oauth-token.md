@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ Role required: oauth\_admin
 
 ## About this task
 
-Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the currently logged-in user. You can also use `ScopedPersonalAuthAPI` to get the personal OAuth token. For more information, see PersonalAuthAPI - Scoped.
+Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the currently logged-in user. You can also use `ScopedPersonalAuthAPI` to get the personal OAuth token. For more information, see [PersonalAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PersonalAuthAPIScoped.md).
 
 ## Procedure
 
@@ -48,6 +48,6 @@ Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the
 
     The `setPersonal(true)` method confirms that the token returned belongs to the currently logged-in user.
 
-    **Note:** For more information on the methods for requesting and revoking OAuth refresh and access tokens, see: Glide OAuth Client API Documentation.
+    **Note:** For more information on the methods for requesting and revoking OAuth refresh and access tokens, see: [Glide OAuth Client API Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClient.md).
 
 

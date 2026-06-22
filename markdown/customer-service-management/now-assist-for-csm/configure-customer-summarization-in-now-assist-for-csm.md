@@ -85,5 +85,5 @@ The Customer summarization skill is turned on. Agents can use the skill in the *
 -   Confirm that the skill status shows as **Active** on the skill card.
 -   Test the summarization output on a sample record.
 -   Notify Now Assist for CSM agents that the feature is available.
--   To customize the skill, go to Now Assist Skill Kit and open the skill and create custom prompts. For more info, see 
+-   To customize the skill, go to Now Assist Skill Kit and open the skill and create custom prompts. For more info, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

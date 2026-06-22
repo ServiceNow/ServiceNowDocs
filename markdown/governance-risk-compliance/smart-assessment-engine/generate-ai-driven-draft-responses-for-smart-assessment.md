@@ -58,7 +58,7 @@ When you’re assigned to a task to respond to an assessment, you submit your re
 
     -   To use a document that is not in the list, upload it as an attachment to the assessment and it will appear as an available option.
     -   You can select up to 5 documents per assessment. Each document must be in PDF, DOCX, JPEG, or PNG format and can be up to 20 MB and 200 pages.
-    -   For supported document types and file size limits, see .
+    -   For supported document types and file size limits, see [Limitations in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-limitations.md).
     -   The sources you select are final. Once you generate draft responses, you can't change the selected sources or run the AI feature again for this assessment. Review your selections carefully before continuing.
 5.  Once the responses are ready, you can select the **View AI summary** button to view the consolidated AI response details.
 

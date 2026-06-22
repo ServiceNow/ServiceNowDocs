@@ -42,7 +42,7 @@ All tabs except for the Recent tab are sorted in ascending order by:
 
 ## Using Advanced Analytics tiles
 
-Tiles on Advanced Analytics show thumbnails of the widgets on the dashboard, the dashboard group, your level of access on the dashboard, the name of the dashboard, and the owner of the dashboard. Dashboard access levels are Owner, Editor, and Viewer. For more information, see Share a responsive dashboard. \[Omitted image "awa-advanced-analytics-tiles.png"\] Alt text: Dashboard tile example with callouts for dashboard widget types, dashboard group, level of access, and dashboard name.
+Tiles on Advanced Analytics show thumbnails of the widgets on the dashboard, the dashboard group, your level of access on the dashboard, the name of the dashboard, and the owner of the dashboard. Dashboard access levels are Owner, Editor, and Viewer. For more information, see [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md). \[Omitted image "awa-advanced-analytics-tiles.png"\] Alt text: Dashboard tile example with callouts for dashboard widget types, dashboard group, level of access, and dashboard name.
 
 **Note:** If you can't view a dashboard widget, you will see a message that prompts you to contact the administrator. You may not be able to view a dashboard widget because of wrong configuration settings, access restrictions, or because there is no data to display.
 
@@ -50,5 +50,5 @@ Tiles on Advanced Analytics show thumbnails of the widgets on the dashboard, the
 
 The advanced analytics screen defaults to showing only the dashboards related to AWA. You can see other dashboards by changing the Groups list to show only those dashboards in another single group. \[Omitted image "awa-dashboard-advanced-analytics.png"\] Alt text: Dashboard Advanced Analytics screen with AWA dashboards
 
-Click **New** to Create or configure a responsive dashboard.
+Click **New** to [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateADashboard.md).
 

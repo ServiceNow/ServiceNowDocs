@@ -8,7 +8,7 @@ product: Building Applications
 classification: building-applications
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Getting Started guide for developers, Building applications]
 ---
 
@@ -47,7 +47,7 @@ ServiceNow Studio is the best option to get started creating apps fast. However,
 
 -   Custom tables generate lists and forms—lists display multiple records in a spreadsheet-like view while forms show detailed information for a single record. The typical development pattern is: create your custom table, customize the form layout for data entry, configure the list view for browsing records, then add UI policies, scripts, and actions to control behavior.
 
-    For more information about developing using classic lists and forms, see .
+    For more information about developing using classic lists and forms, see [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/now-platform-forms-fields-lists.md).
 
 
 -   **[Tables and data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/tables-and-data-models.md)**  

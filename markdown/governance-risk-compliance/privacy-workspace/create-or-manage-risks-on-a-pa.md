@@ -39,15 +39,15 @@ You can add or manage risks to a processing activity in the following ways:
 
 4.  To add a risk to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d42799e107">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d42804e107">
 
 Option
 
-</th><th align="left" id="d42799e110">
+</th><th align="left" id="d42804e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42799e116">
+</th></tr></thead><tbody><tr><td id="d42804e116">
 
 **To create a risk**
 
@@ -55,7 +55,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md).
 
-</td></tr><tr><td id="d42799e138">
+</td></tr><tr><td id="d42804e138">
 
 **To add a risk by using the existing risk statement**
 
@@ -66,7 +66,7 @@ Click **New** and fill in the form.For details see, [Create a risk](https://raw.
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d42799e165">
+</td></tr><tr><td id="d42804e165">
 
 **To select a risk from the list of recommended risks**
 

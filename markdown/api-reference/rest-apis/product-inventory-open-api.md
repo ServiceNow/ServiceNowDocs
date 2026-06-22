@@ -404,7 +404,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
@@ -1087,7 +1087,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
@@ -1805,7 +1805,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
@@ -2444,7 +2444,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
@@ -3483,7 +3483,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
@@ -4476,7 +4476,7 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 

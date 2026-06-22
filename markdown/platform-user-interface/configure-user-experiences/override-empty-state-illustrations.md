@@ -21,7 +21,7 @@ Modify or override the default empty state illustrations with your own custom im
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see .
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/granular-admin-roles.md).
 
 Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
 

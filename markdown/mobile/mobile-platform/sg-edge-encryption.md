@@ -22,7 +22,7 @@ The diagram shows an example of how Edge Encryption operates within the mobile p
 
 \[Omitted image "mobile-edge-encrypt.png"\] Alt text: How a value in a field protected by Edge Encryption displays in a mobile device and in a database.
 
-For more information, see Edge Encryption.
+For more information, see [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption.md).
 
 **Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-mobile-security.md)
 

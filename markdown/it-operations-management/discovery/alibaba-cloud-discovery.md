@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Alibaba, cloud, Discovery, Service Mapping, Patterns, CMDB]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -101,7 +101,7 @@ admin
 
 </td><td>
 
-
+[Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
 
 </td></tr><tr><td>
 
@@ -117,8 +117,8 @@ Install a MID Server.
 
 </td><td>
 
--   
--   
+-   [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md)
+-   [Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
 -   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md)
 
 </td></tr><tr><td>
@@ -135,7 +135,7 @@ Validate that the MID Server is installed correctly.
 
 </td><td>
 
-
+[Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Assigning users with discovery\_admin roles and giving them permission for disco
 
 </td><td>
 
-
+[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
 
 </td></tr><tr><td>
 

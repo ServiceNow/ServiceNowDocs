@@ -34,11 +34,11 @@ The following plug-ins and store apps are required for use of Now Assist for Pub
 
 Now LLM Service is currently the only provider for this Now Assist application's skills.
 
-To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see , as well as the Now Assist Journey Checklist.
+To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md), as well as the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-For information about CSM Configurable Workspace, see . For information about Now Assist AI agents, see Install Now Assist AI Agents.
+For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
 
-To access AI agents in the Now Assist panel, you need to turn on the Now Assist panel .
+To access AI agents in the Now Assist panel, you need to [turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) .
 
 To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the procedure below.
 
@@ -68,7 +68,7 @@ To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the proc
 
 8.  In the dialog box, select **Refresh**.
 
-    For more detailed information about the installation process, see .
+    For more detailed information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Result
@@ -77,5 +77,5 @@ Your Now Assist Admin console is successfully configured with the necessary plug
 
 ## What to do next
 
-or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/now-assist-psds-configure-skill.md)
+[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md)or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/now-assist-psds-configure-skill.md)
 

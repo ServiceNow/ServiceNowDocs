@@ -46,7 +46,7 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |Action preferences|Configure action preferences.|
     |Action Reporting Settings|Configure action execution detail settings.|
     |Code snippet|Generate a code snippet to call an action. For more information, see [Code snippet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-design-code-snippet.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
     |Copy action|Copy an action to give it a new name and move it to another application scope. For more information, see [Copy an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-action.md).|
     |Error Evaluation|Enable actions to catch step failures and continue running. Identify when specific error conditions occur and return your own action status code, status message, and error state. For more information, see [Error Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).|
     |Executions|View the runtime information about an action from the design environment such as the current state, actions, or steps run, and values produced. For more information, see [Executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).|
@@ -64,7 +64,7 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |-------|-----------|
     |Activate|Activate a flow to make it available to other users. For more information, see [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).|
     |Code snippet|Generate a code snippet to call a flow. For more information, see [Code snippet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-design-code-snippet.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
     |Copy flow|Copy a flow to give it a new name and move it to another application scope. For more information, see [Copy a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-flow.md).|
     |Deactivate|Deactivate a flow to make it unavailable to other users.|
     |Diagramming View|Create and view flows as diagrams. You can see the paths a flow can follow and the connections between elements. For more information, see [Diagramming View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-diagramming-view.md).|
@@ -86,7 +86,7 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |Feature|Description|
     |-------|-----------|
     |Code snippet|Generate a code snippet to call a subflow. For more information, see [Code snippet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-design-code-snippet.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
     |Copy subflow|Copy a subflow to give it a new name and move it to another application scope. For more information, see [Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-subflow.md).|
     |Diagramming View|Create and view subflows as diagrams. You can see the paths a flow can follow and the connections between elements. For more information, see [Diagramming View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-diagramming-view.md).|
     |Edit Subflow|Make a subflow editable. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-edit.md).|

@@ -34,7 +34,7 @@ Use AI search with recommended actions to create contexts and search for relevan
 
 4.  The search results from the configured search sources are displayed in the form of cards. These cards are previews of search records. You can select the card to view the record details or directly take actions through the cards. The most relevant answers are displayed as top results in the form of genius result cards.
 
-For more details on how to enable AI search and create search contexts, see .
+For more details on how to enable AI search and create search contexts, see [Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md).
 
 **Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-use-cust-success.md)
 

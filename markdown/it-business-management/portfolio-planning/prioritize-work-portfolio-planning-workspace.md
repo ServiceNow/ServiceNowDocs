@@ -36,15 +36,15 @@ Review and prioritize the items in the Prioritization or Hierarchy tab views dur
 
 3.  From the Prioritization or Hierarchy tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d60195e126">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d59173e126">
 
 Tab
 
-</th><th align="left" id="d60195e129">
+</th><th align="left" id="d59173e129">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60195e135">
+</th></tr></thead><tbody><tr><td id="d59173e135">
 
 **Prioritization**
 
@@ -54,7 +54,7 @@ Update the **Planning state** field of the item.
 
  \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d60195e157">
+</td></tr><tr><td id="d59173e157">
 
 **Hierarchy**
 

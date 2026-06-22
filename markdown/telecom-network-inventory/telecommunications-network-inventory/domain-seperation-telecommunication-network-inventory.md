@@ -22,7 +22,7 @@ Domain separation in Telecommunications Network Inventory provides a structured 
 -   The application supports domain separation at run time. The domain separation includes separation from the user interface, cache keys, reporting, roll-ups, and aggregations.
 -   The owner of the instance must set up the application to function across multiple tenants.
 
-For more information on support levels, see 
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md)
 
 **Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

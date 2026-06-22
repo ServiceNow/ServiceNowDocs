@@ -195,7 +195,7 @@ Run Frequency of Collections
 
 Scheduling interval applied to the TAXII collection records. Run frequency for a TAXII collection can be modified in the TAXII collection form view if required.**Note:** This setting is applied as default to all fetched TAXII collections. There is an option to override the setting in TAXII Collections if required. TAXII
 
- For more information, see Scheduled Jobs and how to Automatically run a script of your choosing.
+ For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 

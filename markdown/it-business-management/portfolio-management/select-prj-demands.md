@@ -32,15 +32,15 @@ You can perform a what-if analysis by including or excluding demands or projects
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d142759e84">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d141768e84">
 
 Location
 
-</th><th align="left" id="d142759e87">
+</th><th align="left" id="d141768e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d142759e93">
+</th></tr></thead><tbody><tr><td id="d141768e93">
 
 **From application navigator**
 
@@ -50,7 +50,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d142759e129">
+</td></tr><tr><td id="d141768e129">
 
 **From the portfolio list**
 

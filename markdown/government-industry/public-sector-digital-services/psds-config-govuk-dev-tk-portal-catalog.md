@@ -24,7 +24,7 @@ By default, three catalog items are included in the Service Catalog Widget view 
 -   Create contact
 -   Damaged garbage bin
 
-You can customize what is shown in the Service Catalog widget by adding or removing items in the Service Catalog for the Portal. For more information on creating catalog items to appear in the catalog, see .
+You can customize what is shown in the Service Catalog widget by adding or removing items in the Service Catalog for the Portal. For more information on creating catalog items to appear in the catalog, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md).
 
 The Catalog Content widget is part of the Service Catalog, and includes a tiled list of all the service items available in the catalog. The items that appear on the page are grouped by category alphabetically. Catalog items and categories are defined in the Service Catalog application in the platform.
 

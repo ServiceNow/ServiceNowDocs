@@ -90,7 +90,7 @@ Filter
 
 </td><td>
 
-The filter condition that determines which records the data filter applies to. To learn more, see condition builder.
+The filter condition that determines which records the data filter applies to. To learn more, see [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 

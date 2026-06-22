@@ -7,7 +7,7 @@ release: australia
 product: Customer Service Management
 classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 keywords: [contextual email matching, Now Assist Skill Kit, CSM, Customer Service Management, email interaction, case matching, generative AI]
 breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]

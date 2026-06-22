@@ -20,7 +20,7 @@ The Jumpstart Your Migration of Platform Analytics Accelerator provides a demons
 
 Jumpstart Your Migration of Platform Analytics provides Impact customers with an overview of the changes required to migrate your Platform Analytics content. The Accelerator includes walking through the migration process with a clone of the customer's instance and highlighting some typical questions, issues, and next steps. Advice and direction are provided to prepare for the change.
 
-See  for additional information on Platform Analytics applications.
+See [Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/c_performanceAnalyticsAndReporting.md) for additional information on Platform Analytics applications.
 
 ## Package Availability
 

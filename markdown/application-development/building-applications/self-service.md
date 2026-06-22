@@ -20,7 +20,7 @@ Your application may need a way for end users to be able to access your data mod
 
 If the application has Requestor or Self-Service users, use Service Portal to provide a friendly web experience.
 
-To give self-service users the ability to easily create application records from the Service Portal, create a record producer. A record producer can provide a better end-user experience than a regular form. Talk to your ServiceNow Administrator about the appropriate catalog and categorization to make the record producer accessible through the Service Portal.
+To give self-service users the ability to easily create application records from the Service Portal, create a [record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatingRecordProducersFromTables.md). A record producer can provide a better end-user experience than a regular form. Talk to your ServiceNow Administrator about the appropriate catalog and categorization to make the record producer accessible through the Service Portal.
 
 Alternatively, create a Service Portal for your app if the following is true:
 

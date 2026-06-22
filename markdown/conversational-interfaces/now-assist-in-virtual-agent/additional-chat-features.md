@@ -48,7 +48,7 @@ By default, all chat features, except web search mode, are turned on.
 
     -   If you want to use AWS Anthropic as the web search provider, switch the instance-level LLM to Claude.
     -   If the instance LLM is selected as Now LLM Service, Azure OpenAI, or Google Gemini, Gemini will still be the web search provider.
-    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see .
+    -   If you want to use Perplexity AI or Azure OpenAI as the web search provider, you’ll need to perform a custom manual configuration. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
     To change the LLM provider for Now Assist in Virtual Agent, select the AI agents skill group in Now Assist Admin console. Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Manage AI models** &gt; **Manage model providers** &gt; **Edit model provider** &gt; **Customize**.
 
 2.  **Allow response streaming** for LLM messages to stream as they are generated instead of appearing all at once.
@@ -70,7 +70,7 @@ By default, all chat features, except web search mode, are turned on.
 5.  **Allow voice input** so that users can speak to their assistant instead of typing.
 
     -   For Now Assist in Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
-    -   For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat and uses Azure Speech Service for standard chat and enhanced chat or Cartesia for premium chat. For more information about voice input, see , , or .
+    -   For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat and uses Azure Speech Service for standard chat and enhanced chat or Cartesia for premium chat. For more information about voice input, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-standard.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-premium.md).
 
 ## What to do next
 

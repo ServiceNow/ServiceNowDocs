@@ -28,23 +28,23 @@ Use the Notification activity in a workflow or the Send an email action in Flow 
 
 ServiceNow notifications support static and dynamic content using email templates, email scripts, and notification variables.
 
- add dynamic information to the body of a notification, such as field values from the base record. The variables also support dot-walking, which allows field values from any related records to be included in the content without scripting.
+[Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/notification-variables.md) add dynamic information to the body of a notification, such as field values from the base record. The variables also support dot-walking, which allows field values from any related records to be included in the content without scripting.
 
 For example, use the URI\_REF variable to point to the record that originated the email.
 
-Use  or dot-walk from the base record to include dynamic content that is not available in the record. Use the mail script API to set notification details, such as the recipient and sender addresses, etc.
+Use [Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ScriptingForEmailNotifications.md) or dot-walk from the base record to include dynamic content that is not available in the record. Use the mail script API to set notification details, such as the recipient and sender addresses, etc.
 
 **Note:** Scripts entered in the notification body using &lt;mail\_script&gt; tags may not always work correctly. Always create email scripts at System Notifications &gt; Email &gt; Notification Email Script and include them in the notification body with $\{mail\_script:script\_name\}.
 
-Create  for content used in multiple notifications. Adding the content to an email template enables administrators to create reusable content for the subject line and message body of email notifications.
+Create [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md) for content used in multiple notifications. Adding the content to an email template enables administrators to create reusable content for the subject line and message body of email notifications.
 
 ## Configure recipients
 
 ServiceNow emails can be sent to users, groups, or individual email addresses. When sending to groups, check the **Include members** field on the group record for the notification to be sent to all members of the group in addition to the group email.
 
- - Select the **Subscribable** option on the notification to allow recipients to pick and choose the emails they want to receive.
+[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_SubscriptionBasedNotifications.md) - Select the **Subscribable** option on the notification to allow recipients to pick and choose the emails they want to receive.
 
-For a subscription-based notification, the  option can be set to true for the recipients to receive the notification regardless of their individual preferences. Optionally, configure  in the outgoing email to allow users to remove themselves from the notification.
+For a subscription-based notification, the [Make a notification mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_MakingANotificationMandatory.md) option can be set to true for the recipients to receive the notification regardless of their individual preferences. Optionally, configure [Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/email-unsubscribe.md) in the outgoing email to allow users to remove themselves from the notification.
 
 ServiceNow uses email watermarks to correctly process user responses to notifications. Email notifications automatically include watermarks unless the **Omit watermark** option is selected in the notification. Omit watermarks only when no email response is expected from the recipients.
 

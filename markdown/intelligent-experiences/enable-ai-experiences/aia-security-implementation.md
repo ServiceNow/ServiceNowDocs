@@ -45,7 +45,7 @@ There are two possible user configurations to select from:
 
 -   **AI user**: A dedicated user identity that the AI agent or an agentic workflow runs as during execution, which has assigned roles that remain consistent regardless of who or how the execution is invoked. For example, an AI agent or an agentic workflow may need to be run with elevated privileges that the dynamic user might not have. If configured as a dynamic user, the execution would fail. However, if the AI agent or agentic workflow is configured to run as an AI user that has the elevated roles assigned to it, the execution will succeed even when invoked by a user with lower privileges.
 
-If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See Create a user and select **AI user** as the identity type.
+If you don't have a suitable AI user but want to use the **AI user** identity, you must create a record on the User \[sys\_user\] table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) and select **AI user** as the identity type.
 
 **Note:**
 

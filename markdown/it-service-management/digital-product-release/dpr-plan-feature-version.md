@@ -52,15 +52,15 @@ When a release is created from a version from one of these planning tools, the p
 
 6.  On the Kanban board, complete your release planning.
 
-<table id="choicetable_y4q_fgr_lyb"><thead><tr><th align="left" id="d100953e195">
+<table id="choicetable_y4q_fgr_lyb"><thead><tr><th align="left" id="d100364e195">
 
 Action
 
-</th><th align="left" id="d100953e198">
+</th><th align="left" id="d100364e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100953e204">
+</th></tr></thead><tbody><tr><td id="d100364e204">
 
 **Move an enhancement into a release**
 
@@ -68,7 +68,7 @@ Steps
 
 Select an enhancement card and drag to move it from backlog to a release or between releases.
 
-</td></tr><tr><td id="d100953e213">
+</td></tr><tr><td id="d100364e213">
 
 **Add an enhancement**
 
@@ -79,7 +79,7 @@ Select an enhancement card and drag to move it from backlog to a release or betw
 
 For more information, see [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-product-enhancement.md).
 
-</td></tr><tr><td id="d100953e249">
+</td></tr><tr><td id="d100364e249">
 
 **Add an enhancement from work item**
 
@@ -93,7 +93,7 @@ For more information, see [Add an enhancement to a product or service](https://r
 
 For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
 
-</td></tr><tr><td id="d100953e294">
+</td></tr><tr><td id="d100364e294">
 
 **Prioritize enhancements in a release**
 
@@ -101,7 +101,7 @@ For more information, see [Add a product enhancement from a work item](https://r
 
 Rearrange enhancement cards within a release in order of priority. The enhancement card positioned at the top of the release lane is given the highest ranking.
 
-</td></tr><tr><td id="d100953e313">
+</td></tr><tr><td id="d100364e313">
 
 **Create a release**
 
@@ -115,7 +115,7 @@ For more information, see [Create a release with a wizard](https://raw.githubuse
 
 For more information, see [Create a release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release.md).
 
-</td></tr><tr><td id="d100953e367">
+</td></tr><tr><td id="d100364e367">
 
 **Edit a draft release**
 

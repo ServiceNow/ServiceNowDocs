@@ -8,7 +8,7 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-05-29"
-reading_time_minutes: 31
+reading_time_minutes: 33
 breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
 
@@ -52,7 +52,7 @@ Agentic Workflow
 
 Agentic workflows are a business problem that you want to solve. In AI Agent Studio, you must define an agentic workflow and connect it with an AI agent to get a resolution plan.
 
- For more information, see .
+ For more information, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
 
 </td><td>
 
@@ -70,7 +70,7 @@ AI Agent
 
 AI Agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
- For more information, see .
+ For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
 </td><td>
 
@@ -88,7 +88,7 @@ Skill
 
 Skills are user-defined AI capabilities tailored to meet specific business needs. Custom skills are created using Now Assist Skill Kit, which allows for a user to define input data, prompts, LLM providers and deployment areas for custom skills.
 
- For more information, see .
+ For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 </td><td>
 
@@ -127,7 +127,7 @@ Action
 
 Actions automate a repeatable task or operation within a flow as a sequence of related steps. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 
- For more information, see .
+ For more information, see [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md).
 
 </td><td>
 
@@ -145,7 +145,7 @@ Activity definition
 
 Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs. Each activity definition contains some basic configuration details, as well as an automation plan and activity experience.
 
- For more information, see .
+ For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 </td><td>
 
@@ -163,7 +163,7 @@ Connection and Credential Aliases
 
 Connection and credential aliases define an alias that labels a credential or connection record, enabling an app to connect to another system or component.
 
- For more information, see .
+ For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 
 </td><td>
 
@@ -181,7 +181,7 @@ Data stream
 
 Data streams are reusable actions that process a stream of response data within a flow. For example, you can create a data stream action to import a large quantity of employee data from a third-party HR site.
 
- For more information, see .
+ For more information, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 </td><td>
 
@@ -199,7 +199,7 @@ Decision table
 
 Decision tables decouple decision logic from your code by creating and maintaining decision rules. Decision tables provide a single point where you can create, view, and modify decisions.
 
- For more information, see .
+ For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 </td><td>
 
@@ -217,7 +217,7 @@ Email Template
 
 Email templates enable administrators to create reusable content for the subject line and message body of email notifications. Admins can add rich text and other items, such as images, to email templates.
 
- For more information, see .
+ For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md).
 
 </td><td>
 
@@ -233,7 +233,7 @@ External trigger
 
 </td><td>
 
-External triggers are reusable triggers that respond to external events through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.For more information, see .
+External triggers are reusable triggers that respond to external events through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.For more information, see [Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md).
 
 </td><td>
 
@@ -251,7 +251,7 @@ Flow
 
 Flows are automated processes that consist of a trigger and a sequence of reusable actions and flow logic. The trigger specifies when to run the flow. The actions perform a sequence of operations on your data. For example, the Visual Task Boards \(VTB\) Sample Flow creates and assigns a VTB card whenever a priority 1 incident is created.
 
- For more information, see .
+ For more information, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 </td><td>
 
@@ -269,7 +269,7 @@ Notification
 
 Notifications alert users when a record changes. For example, you could get a push notification when a request is rejected.
 
- For more information, see .
+ For more information, see [System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/system-notifications-landing.md).
 
 </td><td>
 
@@ -287,7 +287,7 @@ Playbook
 
 Playbooks are sets of automated activities that occur based on a trigger. For example, you can create a playbook for your app to send an email when a request is approved.
 
- For more information, see .
+ For more information, see [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md).
 
 </td><td>
 
@@ -305,7 +305,7 @@ Subflow
 
 Subflows are processes that consist of a sequence of reusable actions and flow logic, data inputs, and outputs. In contrast to flows, subflows do not have a trigger but instead run when called from a playbook, flow, another subflow, or a script.
 
- For more information, see .
+ For more information, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md).
 
 </td><td>
 
@@ -321,7 +321,7 @@ Trigger
 
 </td><td>
 
-Triggers contain the start conditions for your automation. You can create separate triggers for each flow or create a reusable saved trigger that you can use in multiple flows.For more information, see .
+Triggers contain the start conditions for your automation. You can create separate triggers for each flow or create a reusable saved trigger that you can use in multiple flows.For more information, see [Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md).
 
 </td><td>
 
@@ -360,7 +360,7 @@ Assignment Data Lookup
 
 Assignment data lookups assign a record automatically using Data Lookup and Record Matching. For example, you can automatically set a value in the assigned\_to and assignment\_group fields for a record when a set of conditions occurs, such as assigning approvals to a group of managers for users below a certain level.
 
- For more information, see .
+ For more information, see [Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
 
 </td><td>
 
@@ -378,7 +378,7 @@ Client Extension Instance
 
 Use a client extension integration to a registered instance of a client extension point that links a UI script with a client extension point. The UI script is included on pages that invoke the client extension point.
 
- For more information, see .
+ For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td><td>
 
@@ -396,7 +396,7 @@ Client Extension Point
 
 Client extension points extend the functionality of an application without altering the original application code. Extension points help prevent custom code interactions from breaking after an upgrade when custom code is directly embedded into application code.
 
- For more information, see .
+ For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td><td>
 
@@ -414,7 +414,7 @@ Client Script
 
 Client scripts run JavaScript on the client \(web browser\) when client-based events occur. For example, a client script could run when a form loads, after form submission, or when a field changes value.
 
- For more information, see .
+ For more information, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
 
 </td><td>
 
@@ -432,7 +432,7 @@ Data Lookup Definitions
 
 Data lookup definitions are no-code solutions that retrieve attributes from a record on the same table. For example, you can create a data lookup definition to populate an email field automatically when you enter your name.
 
- For more information, see .
+ For more information, see [Create a catalog lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatACatDataLookupDefRec.md).
 
 </td><td>
 
@@ -450,7 +450,7 @@ Priority Data Lookup
 
 Priority data lookups define the impact and urgency of an incident to calculate how it should be prioritized.
 
- For more information, see .
+ For more information, see [Define priority lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/def-prio-lookup-rules.md).
 
 </td><td>
 
@@ -468,7 +468,7 @@ UI Extension Instance
 
 Use a UI extension instance to create a registered instance of a UI extension point that links a UI macro with a UI extension point. The macro can be called whenever the UI extension point is invoked.
 
- For more information, see .
+ For more information, see [Creating and adding a UI extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-ui-ext-pts-base-code.md).
 
 </td><td>
 
@@ -486,7 +486,7 @@ UI Extension Point
 
 UI extension points add custom content to a UI page without modifying the page directly. Create the UI extension points first, then add them to the UI macros in the base application code.
 
- For more information, see .
+ For more information, see [Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md).
 
 </td><td>
 
@@ -504,7 +504,7 @@ UI Policy
 
 UI policies dynamically change the behavior of information on a form and control custom process flows for tasks. For example, use UI policies to make the number field on a form read only, make the short description field required, and hide other fields.
 
- For more information, see .
+ For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md).
 
 </td><td>
 
@@ -522,7 +522,7 @@ UI Script
 
 UI scripts package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript.
 
- For more information, see .
+ For more information, see [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIScripts.md).
 
 </td><td>
 
@@ -561,7 +561,7 @@ Audio
 
 Use audio files to upload sounds and recordings that your app can use on the ServiceNow AI Platform.
 
- For more information, see .
+ For more information, see [Manage audio files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_UploadAnAudioFile.md).
 
 </td><td>
 
@@ -579,7 +579,7 @@ Detailed content
 
 Use a detailed content block to display the content of an existing document, such as an incident, knowledge article, or service management request.
 
- For more information, see .
+ For more information, see [Configure a detailed content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DetailedContentBlock.md).
 
 </td><td>
 
@@ -597,7 +597,7 @@ Dynamic content
 
 Dynamic content uses scripting or pulls information from the ServiceNow AI Platform into an app. For example, use dynamic content to create a job posting, where the postings are stored in knowledge articles and displayed in the app with a dynamic block.
 
- For more information, see .
+ For more information, see [Configure dynamic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateADynamicBlock.md).
 
 </td><td>
 
@@ -615,7 +615,7 @@ iFrames
 
 Use iFrames to embed a URL on a page within a frame. You can embed external pages or render ServiceNow content.
 
- For more information, see .
+ For more information, see [Configure iFrames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_IFrame.md).
 
 </td><td>
 
@@ -633,7 +633,7 @@ Images
 
 Upload and store images on the ServiceNow AI Platform to be used in apps and forms. Reference images from HTML fields by appending the name of the image to the URL of the instance.
 
- For more information, see .
+ For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_StoringImagesInTheDatabase.md).
 
 </td><td>
 
@@ -651,7 +651,7 @@ Static content
 
 Use static blocks for text that does not change. For example, use a static block for a site footer with only the company or organization name.
 
- For more information, see .
+ For more information, see [Configure a static HTML block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_StaticHTMLBlock.md).
 
 </td><td>
 
@@ -726,7 +726,7 @@ Many to Many Definition
 
 Many to many tasks define relationships between different tasks. You can implement one-to-one, one-to-many, and many-to-many relationships. For example, users and roles are a many-to-many relationship because a user can have multiple roles, and multiple users can have any given role.
 
- For more information, see .
+ For more information, see [Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md).
 
 </td><td>
 
@@ -744,7 +744,7 @@ Relationship
 
 Relationships define how tables interact with each other. You can create relationships between tables by extending tables, referencing records in another table, creating many-to-many relationships, and joining tables in a database view.
 
- For more information, see .
+ For more information, see [Table relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-relationships.md).
 
 </td><td>
 
@@ -762,7 +762,7 @@ Table
 
 Tables are the foundation of how the ServiceNow AI Platform stores data. When you view a table as a list, each row is a record, and each column is a field from the record. For example, the Incident table has a record for every customer interaction, or incident.
 
- For more information, see  and [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
+ For more information, see [ServiceNow AI Platform tables and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/tables-fields-and-forms.md) and [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
  Preferred table admins can configure preferred tables for Table Builder. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
 
@@ -821,7 +821,7 @@ Data Import
 
 Data imports show all records being processed for an import job and the import jobs awaiting approvals.
 
- For more information, see  and .
+ For more information, see [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md) and [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
 
 </td><td>
 
@@ -839,7 +839,7 @@ Data Source
 
 Data sources specify how and where to get the data you want to import.
 
- For more information, see  and .
+ For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md) and [Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-data-source.md).
 
 </td><td>
 
@@ -857,7 +857,7 @@ Scheduled Data Import
 
 Scheduled data imports specify to import data from data sources using import sets. Transform maps are applied to the imported data before writing the data to the target table.
 
- For more information, see .
+ For more information, see [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
 
 </td><td>
 
@@ -875,7 +875,7 @@ Scheduled Data Import
 
 Scheduled data imports specify to import data from data sources. Transform maps are applied to the imported data before writing the data to the target table.
 
- For more information, see .
+ For more information, see [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
 
 </td><td>
 
@@ -893,7 +893,7 @@ Scripted REST API
 
 Scripted REST APIs build custom web service APIs for your application. You can define service endpoints, query parameters, and headers for a scripted REST API, and scripts to manage the request and response.
 
- For more information, see .
+ For more information, see [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 </td><td>
 
@@ -911,7 +911,7 @@ Scripted Web Service
 
 Scripted web services enable developers to create their own APIs on the ServiceNow AI Platform. Third-party applications use scripted web services to access records in ServiceNow tables.
 
- For more information, see .
+ For more information, see [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md).
 
 </td><td>
 
@@ -929,7 +929,7 @@ Table Transform Map
 
 Transform maps contain a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\]. After creating a transform map, you can reuse it to map data from another import set to the same table.
 
- For more information, see .
+ For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
 </td><td>
 
@@ -968,7 +968,7 @@ Export Definition
 
 Export definitions determine the data to include in an export set.
 
- For more information, see .
+ For more information, see [Create an export definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/t_CreateAnExportDefinition.md).
 
 </td><td>
 
@@ -986,7 +986,7 @@ Export Set
 
 Export sets define the data to export and the export target to use. For example, push data from an instance to an external file.
 
- For more information, see .
+ For more information, see [Create an export set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/t_CreateAnExportSet.md).
 
 </td><td>
 
@@ -1004,7 +1004,7 @@ Export Target
 
 Export targets specify the target file on a MID Server to which the export set data is written.
 
- For more information, see .
+ For more information, see [Create an export target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/t_CreateAnExportTarget.md).
 
 </td><td>
 
@@ -1022,7 +1022,7 @@ REST Message
 
 REST messages store details on how to interact with an external web service through REST. Use REST messages to send requests to a REST web service endpoint by creating a REST message record.
 
- For more information, see .
+ For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 
 </td><td>
 
@@ -1040,7 +1040,7 @@ Scheduled Data Export
 
 Scheduled data exports specify a schedule for running export sets. A single export can be scheduled, or regular intervals can be scheduled with support for delta records only.
 
- For more information, see .
+ For more information, see [Schedule an export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/t_ScheduleAnExport.md).
 
 </td><td>
 
@@ -1058,7 +1058,7 @@ SOAP Message
 
 SOAP messages store details on how to interact with an external web service through SOAP. SOAP messages define the remote endpoint, web services description language \(WSDL\), and authentication settings.
 
- For more information, see .
+ For more information, see [SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md).
 
 </td><td>
 
@@ -1097,7 +1097,7 @@ MID Server Application
 
 The ServiceNow MID Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network.
 
- For more information, see .
+ For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 </td><td>
 
@@ -1115,7 +1115,7 @@ MID Server Capability Value Test
 
 MID Server capabilities define the specific functions of a MID Server within an IP address range. The capability value can be empty, a single value, or a \* \(wildcard\). Use value tests to create capabilities that find devices using values without requiring exact string matching.
 
- For more information, see .
+ For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
 
 </td><td>
 
@@ -1133,7 +1133,7 @@ MID Server IP Range
 
 MID Server IP ranges specify an IP range or the specific IP address of a target.
 
- For more information, see .
+ For more information, see [Configure an IP address range for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureMIDIPRange.md).
 
 </td><td>
 
@@ -1151,7 +1151,7 @@ MID Server Property
 
 MID Server properties define the behavior of one or more MID Servers.
 
- For more information, see .
+ For more information, see [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
 
 </td><td>
 
@@ -1169,7 +1169,7 @@ MID Server Script File
 
 MID Server script files synchronize to a connected MID Server.
 
- For more information, see .
+ For more information, see [Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-script-attach.md).
 
 </td><td>
 
@@ -1187,7 +1187,7 @@ MID Server Script Include
 
 MID Server script includes make REST calls to cloud providers.
 
- For more information, see .
+ For more information, see [CAPI classes in MID Server script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/mid-server-script-includes.md).
 
 </td><td>
 
@@ -1226,7 +1226,7 @@ Analytics preview
 
 Analytics previews display previews of data visualization charts and single score reports in your launcher screen's analytics section. Analytics previews verify that your data is tailored for mobile use and communicates the appropriate information for users.
 
- For more information, see .
+ For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-mobile-dashboard-preview.md).
 
 </td><td>
 
@@ -1244,7 +1244,7 @@ Calendar screen
 
 Calendar screens display a calendar interface and records associated with the selected date. Use a calendar screen to display dates relevant to application records. For example, display when tasks are due or when important events take place.
 
- For more information, see .
+ For more information, see [Calendar screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/calendar-screen.md).
 
 </td><td>
 
@@ -1262,7 +1262,7 @@ Card
 
 Cards are predetermined layouts that can show visuals, text, and data in mobile applications. You can define card elements and specify how elements are arranged within a card.
 
- For more information, see .
+ For more information, see [Cards and icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-cards-and-icons.md).
 
 </td><td>
 
@@ -1280,7 +1280,7 @@ Card template
 
 Card templates are preconfigured layouts or frameworks that determine how information is displayed in mobile application cards. Use the existing Mobile Card Builder card templates or create your own templates.
 
- For more information, see .
+ For more information, see [Create a card template with Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mcb-create-template.md).
 
 </td><td>
 
@@ -1298,7 +1298,7 @@ Chart screen
 
 Chart screens display data visualizations created in the Analytics Overview in the analytics section of your launcher screen. Adding data visualizations helps identify trends and turning points through indicator scores and visual representation.
 
- For more information, see .
+ For more information, see [Chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/chart-screen.md).
 
 </td><td>
 
@@ -1316,7 +1316,7 @@ Custom Map Screen
 
 Custom map screens create maps that display content for specific records.
 
- For more information, see .
+ For more information, see [Configure a map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-configure-map-screen.md).
 
 </td><td>
 
@@ -1334,7 +1334,7 @@ Function
 
 Functions determine what actions users can perform in your mobile application. For example, create a navigation function that enables users to open a record from a list, or move from an employee user profile screen to a manager user profile screen.
 
- For more information, see .
+ For more information, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-studio-mobile-button-types.md).
 
 </td><td>
 
@@ -1352,7 +1352,7 @@ Input form screen
 
 Input form screens provide interfaces for users to enter information in mobile applications. For example, use input form screens to create or edit records, complete surveys, or any other situation where users must enter information.
 
- For more information, see .
+ For more information, see [Input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/parameter-input-screen.md).
 
 </td><td>
 
@@ -1370,7 +1370,7 @@ Launcher screen
 
 Launcher screens serve as landing pages or home pages. Using a launcher screen, you can access screens in various formats, search, perform quick actions, and find user information.
 
- For more information, see .
+ For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/sg-mobile-applet-launcher.md).
 
 </td><td>
 
@@ -1388,7 +1388,7 @@ List screen
 
 List screens display a list of records. Records in list screens appear in a card format, showing a limited selection of the information for the record.
 
- For more information, see .
+ For more information, see [List screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/list-screen.md).
 
 </td><td>
 
@@ -1406,7 +1406,7 @@ Map screen
 
 Map screens display a map with locations associated with the records in a data item. For example, map screens can show users where their assets are located, or which job locations they must travel to.
 
- For more information, see .
+ For more information, see [Map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/map-screen.md).
 
 </td><td>
 
@@ -1424,7 +1424,7 @@ Mobile app config
 
 Mobile app configs create customized mobile experiences for the Now Mobile app and Mobile Agent app.
 
- For more information, see .
+ For more information, see [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/config-mobile-platform-landing.md).
 
 </td><td>
 
@@ -1442,7 +1442,7 @@ Mobile web screen
 
 Mobile web screens open an external URL or a relative URL within your instance.
 
- For more information, see .
+ For more information, see [Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/url-screen.md).
 
 </td><td>
 
@@ -1460,7 +1460,7 @@ Record screen
 
 Record screens display content for a specific single record. Configure functions on record screens to enable users to make edits and perform actions.
 
- For more information, see .
+ For more information, see [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/form-screen.md).
 
 </td><td>
 
@@ -1499,7 +1499,7 @@ NLU Model
 
 Natural Language Understanding \(NLU\) models are the collection of utterance examples and their associated intents and entities that an application uses as a reference to infer intents and entities in a new utterance.
 
- For more information, see .
+ For more information, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 </td><td>
 
@@ -1538,7 +1538,7 @@ Message
 
 Messages are the text values used in informational messages, confirmation messages, error messages, and other types of system messages in your application.
 
- For more information, see .
+ For more information, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 </td><td>
 
@@ -1556,7 +1556,7 @@ System Property
 
 System properties store important values for an application, such as settings or configurations, that scripts may need to reference. Storing values as system properties allows updates in one place without changing each script that references the values.
 
- For more information, see [What are application properties?](https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/new_to_servicenow/app_store_learnv2_automatingapps_xanadu_what_are_application_properties) and .
+ For more information, see [What are application properties?](https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/new_to_servicenow/app_store_learnv2_automatingapps_xanadu_what_are_application_properties) and [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
 
 </td><td>
 
@@ -1613,7 +1613,7 @@ Chart Colors
 
 Chart colors assign a consistent color to a grouping or stacking value in reports and dashboards. The color stays the same across reports regardless of the order of the values.
 
- For more information, see .
+ For more information, see [Chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ChartColors.md).
 
 </td><td>
 
@@ -1631,7 +1631,7 @@ Color Definition
 
 Color definitions maintain consistency in the platform's look and feel by applying defined colors to various UI components, such as buttons, backgrounds, text, and other elements.
 
- For more information, see .
+ For more information, see [Define system colors for analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_DefiningSystemColors.md).
 
 </td><td>
 
@@ -1649,7 +1649,7 @@ Dashboard
 
 Dashboards display performance analytics, reporting, and other widgets on a single screen. Use dashboards to create a story with data that you can share with other users.
 
- For more information, see .
+ For more information, see [Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md).
 
 </td><td>
 
@@ -1667,7 +1667,7 @@ Metric Definition
 
 Metric definitions measure and evaluate the effectiveness of an application process. For example, a metric could measure the effectiveness of the incident resolution process by calculating how long it takes to resolve an incident. Define metrics and create reports and dashboards using your metrics definitions.
 
- For more information, see  and .
+ For more information, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MetricDefinitionSupport.md) and [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-metric.md).
 
 </td><td>
 
@@ -1685,7 +1685,7 @@ Range
 
 Ranges are defined data intervals used in bar and pie charts to segment data into logical groups. For example, create a range to see how many tasks were completed well within the service level agreement \(SLA\) and how many tasks elapsed during the SLA.
 
- For more information, see .
+ For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 </td><td>
 
@@ -1703,7 +1703,7 @@ Report
 
 Reports display data visually to provide insights, track performance, and support data-driven decisions. For example, create and distribute reports that show the current state of instance data, such as the number of open incidents of each priority.
 
- For more information, see .
+ For more information, see [Exploring reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/exploring-reporting.md).
 
 </td><td>
 
@@ -1721,7 +1721,7 @@ Scheduled Email of Report
 
 Scheduled emails of reports generate and distribute scheduled reports via email.
 
- For more information, see .
+ For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ScheduleAReport.md).
 
 </td><td>
 
@@ -1760,7 +1760,7 @@ Blackout Schedule
 
 Blackout schedules are times during which certain activities, such as changes or updates, are restricted to avoid disruptions. Set up blackout schedules to confirm that critical business operations remain unaffected during high-impact or sensitive times, such as holidays, end-of-quarter financial processing, or other key business events.
 
- For more information, see .
+ For more information, see [Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md).
 
 </td><td>
 
@@ -1778,7 +1778,7 @@ Maintenance Schedule
 
 Maintenance schedules are times during which planned maintenance activities, such as changes and updates, should take place. Maintenance schedules usually occur during low-impact times to minimize disruptions to business operations.
 
- For more information, see .
+ For more information, see [Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md).
 
 </td><td>
 
@@ -1796,7 +1796,7 @@ Relative Duration
 
 Relative durations are a duration type available in ServiceNow Studio that you can select when defining service level agreements \(SLAs\). Relative durations calculate how much time is available to work on an SLA by defining the amount of time to wait. For example, define a relative duration as three business days by 4pm.
 
- For more information, see  and .
+ For more information, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineARelativeDuration.md) and [Use a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_UseARelativeDuration.md).
 
 </td><td>
 
@@ -1814,7 +1814,7 @@ Risk Conditions
 
 Risk conditions are sets of rules or criteria that evaluate the potential risks associated with scheduling activities, such as changes, updates, or maintenance tasks. Define risk conditions and run risk calculations using The Best Practice - Change Risk Calculator.
 
- For more information, see  and .
+ For more information, see [Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md) and [Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md).
 
 </td><td>
 
@@ -1832,7 +1832,7 @@ Schedule
 
 Schedules are rules that include or exclude time for various actions or tasks.
 
- For more information, see  and .
+ For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md) and [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
 
 </td><td>
 
@@ -1871,7 +1871,7 @@ Access Control
 
 Access controls, or access control lists \(ACLs\), restrict access to data by requiring users to pass a set of requirements before they can interact with application content.
 
- For more information, see .
+ For more information, see [Explore Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/exploring-access-control-list.md).
 
 </td><td>
 
@@ -1889,7 +1889,7 @@ Public Pages
 
 Public pages allow users to see the application content without logging in.
 
- For more information, see .
+ For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_MakeAPagePublic.md).
 
 </td><td>
 
@@ -1907,7 +1907,7 @@ Role
 
 Roles determine what application access is granted to which users.
 
- For more information, see  and [Determine What Roles to Create](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_determining_what_roles_to_create).
+ For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md) and [Determine What Roles to Create](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_determining_what_roles_to_create).
 
 </td><td>
 
@@ -1946,7 +1946,7 @@ Business Rule
 
 Business rules are a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried. Establish server-side conditions to determine when a business rule script should run and what record operations the business rule applies to.
 
- For more information, see .
+ For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
 
 </td><td>
 
@@ -1964,7 +1964,7 @@ Data Policy
 
 Data policies enforce data consistency by setting mandatory and read-only states for fields. Data policies are similar to UI policies, but UI policies only apply to data entered on a form through the standard browser. Data policies apply rules to all data entered into the system, including data brought in through import sets or web services and data entered through the mobile UI.
 
- For more information, see .
+ For more information, see [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DataPolicy.md).
 
 </td><td>
 
@@ -1982,7 +1982,7 @@ Event Registration
 
 Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response. By registering an event, you can define properties about the event and associate the event with the business rule that fires the event.
 
- For more information, see .
+ For more information, see [Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/t_RegisterAnEvent.md).
 
 </td><td>
 
@@ -2000,7 +2000,7 @@ Extension Instance
 
 Extension instances are registered instances of a scripted extension point that links a script include with a scripted extension point. Use an extension instance to define custom logic or methods without affecting original code. An extension instance encapsulates specific logic and functions, making it easier to manage, update, and debug code.
 
- For more information, see .
+ For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td><td>
 
@@ -2018,7 +2018,7 @@ Extension Point
 
 Extension points designate where custom script logic can be incorporated into your code to integrate customizations and new features without altering existing application code. Data or objects returned by an extension point must conform to requirements specified by the application creator.
 
- For more information, see .
+ For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td><td>
 
@@ -2072,7 +2072,7 @@ Script Action
 
 Script actions are server-side JavaScript that executes when a particular event is generated.
 
- For more information, see .
+ For more information, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ScriptActions.md).
 
 </td><td>
 
@@ -2090,7 +2090,7 @@ Script Include
 
 Script includes are reusable, server-side JavaScript that define a function or class and execute only when explicitly called.
 
- For more information, see  and [Script Includes](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_scripting_washingtondc_scripting_in_servicenow/app_store_learnv2_scripting_washingtondc_server_side_scripting/app_store_learnv2_scripting_washingtondc_script_includes).
+ For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) and [Script Includes](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_scripting_washingtondc_scripting_in_servicenow/app_store_learnv2_scripting_washingtondc_server_side_scripting/app_store_learnv2_scripting_washingtondc_script_includes).
 
 </td><td>
 
@@ -2108,7 +2108,7 @@ UI Action
 
 UI actions define the behavior of buttons, links, or context menu items in your application, specifying how they interact with the server-side database.
 
- For more information, see  and .
+ For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md) and [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
 </td><td>
 
@@ -2253,7 +2253,7 @@ Application Menu
 
 Application menus are groupings of modules as they appear in the application navigator \(UI16\) or **All** menu \(Next Experience\). You can refer to an Application menu as simply an application.
 
- For more information, see .
+ For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_EnDisableAppMenuOrMod.md).
 
 </td><td>
 
@@ -2271,7 +2271,7 @@ Assessment Metric
 
 In the Assessments application, metrics are traits or values used to evaluate assessable records.
 
- For more information, see .
+ For more information, see [Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_AssessmentMetrics.md).
 
 </td><td>
 
@@ -2289,7 +2289,7 @@ Catalog
 
 Catalogs are sections of the Service Catalog where users can order items and services. A catalog is like a portal where users can request catalog items such as service and product offerings. For example, a hardware catalog may have items to request a new keyboard or a new mouse device.
 
- For more information, see .
+ For more information, see [Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/exploring-service-catalog.md).
 
 </td><td>
 
@@ -2307,7 +2307,7 @@ Catalog Item
 
 Catalog items are forms that describe a good or service available to order in the service catalog. For example, when requesting time off using a catalog item, you may enter your name and requested dates off on the form.
 
- For more information, see .
+ For more information, see [Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md).
 
 </td><td>
 
@@ -2325,7 +2325,7 @@ Context Menu
 
 Context menus for forms provide controls for a list or form based on the table and user access rights.
 
- For more information, see .
+ For more information, see [Form context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_FormContextMenu.md).
 
 </td><td>
 
@@ -2343,7 +2343,7 @@ Embedded Help
 
 Embedded Help provides targeted help content to a user in a UI page, based on their role. Some embedded help content comes with the base instance. Your organization can add or replace embedded help content.
 
- For more information, see .
+ For more information, see [Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help.md).
 
 </td><td>
 
@@ -2361,7 +2361,7 @@ Embedded Help Qualifier
 
 Embedded Help qualifiers are identifiers that help a ServiceNow instance identify the correct Embedded Help topic when there could be more than one topic for a UI page.
 
- For more information, see .
+ For more information, see [Use qualifiers in Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-qualifiers.md).
 
 </td><td>
 
@@ -2379,7 +2379,7 @@ Guided Tour
 
 Guided Tours contain a series of interactive steps that help users complete online tasks within their browser window to train and onboard users working in a ServiceNow app.
 
- For more information, see .
+ For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md).
 
 </td><td>
 
@@ -2397,7 +2397,7 @@ List
 
 Lists display a set of records from a table, and can be filtered to refine the contents. For example, filter the Task list to show only Unassigned tasks. Each row in a list is a record, and each column is a field from the record.
 
- For more information, see  and .
+ For more information, see [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md) and [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/p_ListAdministration.md).
 
 </td><td>
 
@@ -2415,7 +2415,7 @@ List Control
 
 List controls specify which features are available on a list, such as the **New** and **Edit** buttons.
 
- For more information, see .
+ For more information, see [Configure list controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureListControls.md).
 
 </td><td>
 
@@ -2433,7 +2433,7 @@ Map Page
 
 Map pages display ServiceNow data graphically on a Google map page based on location data that you provide.
 
- For more information, see .
+ For more information, see [Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_MapPages.md).
 
 </td><td>
 
@@ -2487,7 +2487,7 @@ Record Producer
 
 Record producers are catalog items that create task-based records, such as incident records, from the service catalog.
 
- For more information, see .
+ For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 </td><td>
 
@@ -2505,7 +2505,7 @@ Related List
 
 Related lists appear on forms and show records in tables that have relationships to the current record.
 
- For more information, see .
+ For more information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md).
 
 </td><td>
 
@@ -2523,7 +2523,7 @@ Schedule Page
 
 Schedule pages are records that contain a collection of scripts that enable custom generation of a calendar or timeline display.
 
- For more information, see .
+ For more information, see [Schedule Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SchedulePages.md).
 
 </td><td>
 
@@ -2541,7 +2541,7 @@ Service Portal
 
 Service Portal builds a mobile-friendly self-service portal experience for employees or customers.
 
- For more information, see .
+ For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
 
 </td><td>
 
@@ -2559,7 +2559,7 @@ Style
 
 Styles define properties such as font size, border, and alignment for text that appears in your app.
 
- For more information, see  and .
+ For more information, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-next-experience-style.md) and [Style - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md).
 
 </td><td>
 
@@ -2577,7 +2577,7 @@ Template
 
 Templates create reusable content for administrators. For example, an email template could have a reusable subject line and message body for email notifications. Form templates simplify the process of submitting new records by populating fields automatically.
 
- For more information, see , , and .
+ For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md), [Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_Templates.md), and [Page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_PageTemplates.md).
 
 </td><td>
 
@@ -2595,7 +2595,7 @@ Theme
 
 Themes tailor the visual experience for users by updating the look and feel to match your brand.
 
- For more information, see .
+ For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 </td><td>
 
@@ -2613,7 +2613,7 @@ Timeline Page
 
 Timeline pages track any activity bounded by two dates, such as change request start and end dates, or incident open and close dates.
 
- For more information, see .
+ For more information, see [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md).
 
 </td><td>
 
@@ -2631,7 +2631,7 @@ View Rule
 
 View rules force a specified view when users access a page or application.
 
- For more information, see .
+ For more information, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreateAViewRule.md).
 
 </td><td>
 
@@ -2649,7 +2649,7 @@ Workspace
 
 Workspaces provide agents and managers with tools to answer customer questions and resolve customer problems. Workspaces are primarily used for request and fulfillment processes, such as a service desk to manage tickets.
 
- For more information, see  and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
+ For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
 
 </td><td>
 

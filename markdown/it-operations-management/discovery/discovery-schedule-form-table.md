@@ -70,7 +70,7 @@ Credential Alias
 
 </td><td>
 
-Your credential alias. If you must set one up, .
+Your credential alias. If you must set one up, [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)

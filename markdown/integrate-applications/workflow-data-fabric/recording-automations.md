@@ -7,7 +7,7 @@ release: australia
 product: Workflow Data Fabric
 classification: workflow-data-fabric
 topic_type: concept
-last_updated: "2026-06-21"
+last_updated: "2026-06-22"
 reading_time_minutes: 4
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---

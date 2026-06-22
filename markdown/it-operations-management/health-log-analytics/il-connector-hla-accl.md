@@ -20,7 +20,7 @@ Set up an ACC Log Analytics \(ACC-L\) integration for streaming log messages to 
 ## Before you begin
 
 -   Verify you're using the latest release version of the Health Log Analytics plugin to enable ACC Log Analytics integration setupfrom the Integrations Launchpad.
--   Verify that a MID Server is installed and configured. For more information, see .
+-   Verify that a MID Server is installed and configured. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 -   The MID Server must support the Agent Client Collector Listener. The ACC Listener can be enabled during ACC Log Analytics integration setup from the Integrations Launchpad.
 -   The Agent Client Collector Log Analytics application has a dependency on the following ServiceNow applications, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   Health Log Analytics, Version 22.0.12 - December 2021 and later releases.

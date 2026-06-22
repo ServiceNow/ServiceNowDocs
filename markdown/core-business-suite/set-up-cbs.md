@@ -34,7 +34,7 @@ Role required: admin
 
     **Note:** To install the latest versions, don’t modify the items listed in the Review Installation Details dialog box.
 
-    Required dependent plugins are installed automatically, and required roles are added. For information about the components installed with a plugin, see Find components installed with an application.
+    Required dependent plugins are installed automatically, and required roles are added. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 5.  Select **Apply default configurations**.
 

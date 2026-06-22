@@ -23,7 +23,7 @@ Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt te
 
 </td><td>
 
-Configure user experiences \[Omitted image "bus-management-console.svg"\] Alt text: Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.
+[Configure user experiences \[Omitted image "bus-management-console.svg"\] Alt text: Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_NavigationAndTheUserInterface.md)
 
 </td><td>
 
@@ -31,7 +31,7 @@ Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.sv
 
 </td></tr><tr><td>
 
-Secure your instance \[Omitted image "bus-block.svg"\] Alt text:Platform security provides capabilities to secure the instance.
+[Secure your instance \[Omitted image "bus-block.svg"\] Alt text:Platform security provides capabilities to secure the instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-landing.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt te
 
 </td></tr><tr><td>
 
-Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
+[Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md)
 
 </td><td>
 

@@ -38,7 +38,7 @@ The Virtual Agent API is a REST API. This API is built on the conversational cus
 
 The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
-For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see Virtual Agent Bot Integration API.
+For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
 
 \[Omitted image "icon-video-link.png"\] Alt text: Video link to Virtual Agent Academy. [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
 

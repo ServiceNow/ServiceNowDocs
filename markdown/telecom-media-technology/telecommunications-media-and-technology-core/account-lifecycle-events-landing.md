@@ -24,24 +24,24 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
 
-Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the key features and benefits of Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-explore.md)
 
 </td><td>
 
-Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing-page.md)
 
 </td></tr><tr><td>
 
-Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-customer-success-landing-page.md)
 
 </td><td>
 
-Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Success Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)

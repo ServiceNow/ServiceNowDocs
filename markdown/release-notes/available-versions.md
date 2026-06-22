@@ -7,7 +7,7 @@ release: australia
 product: Release Notes
 classification: release-notes
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-23"
 reading_time_minutes: 2
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
@@ -54,6 +54,22 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Australia Patch 3 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104013)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/20
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
  [Australia Patch 3 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3035030)
@@ -65,6 +81,22 @@ Patch
 </td><td>
 
 2026/06/16
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 2a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3108234)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/06/03
 
 </td><td>
 

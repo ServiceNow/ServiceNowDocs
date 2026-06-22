@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access Adoption blueprint in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d38828e50">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d38861e50">
 
 Option
 
-</th><th align="left" id="d38828e53">
+</th><th align="left" id="d38861e53">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d38828e59">
+</th></tr></thead><tbody><tr><td id="d38861e59">
 
 **Using left navigation**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select one of the Adoption Blueprints that can be implemented to work towards your organizational business goal.
 
 
-</td></tr><tr><td id="d38828e89">
+</td></tr><tr><td id="d38861e89">
 
 **Using Admin tab option**
 

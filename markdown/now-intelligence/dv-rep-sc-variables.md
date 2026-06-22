@@ -47,7 +47,7 @@ Use a variable as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d41120e159">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d41152e159">
 
 **Use the variable as a filter**
 
@@ -55,7 +55,7 @@ Use a variable as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d41120e177">
+</td></tr><tr><td id="d41152e177">
 
 **Add the variable as a __group by__**
 
@@ -63,7 +63,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d41120e198">
+</td></tr><tr><td id="d41152e198">
 
 **Add the variable as an alternative group by**
 
@@ -71,7 +71,7 @@ Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can choose one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-group-runtime.md).
 
-</td></tr><tr><td id="d41120e223">
+</td></tr><tr><td id="d41152e223">
 
 **Add the variable as a column or row in a pivot table**
 

@@ -147,7 +147,7 @@ Most recent performance score for this node. The performance score is calculated
 
     Depending on the type of node, whether it is a leaf node or a non-leaf node, related lists display the following associated data.
 
-<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d82757e312">
+<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d82162e312">
 
 **Taxonomy Nodes**
 
@@ -155,7 +155,7 @@ Most recent performance score for this node. The performance score is calculated
 
 List of all associated child nodes. You can edit an existing child node by selecting a Taxonomy Node name. Create a new child node by selecting **New** and completing the **Taxonomy Node** form.
 
-</td></tr><tr><td id="d82757e327">
+</td></tr><tr><td id="d82162e327">
 
 **Services**
 

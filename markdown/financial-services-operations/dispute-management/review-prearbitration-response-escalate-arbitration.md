@@ -68,15 +68,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
     -   When integrated with Mastercard's Mastercom APIs, the system automatically compresses multiple attachments into a single zip file. It also validates attached files against Mastercard requirements for file type and size, and alerts you when any attachment doesn’t meet Mastercard requirements. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/mastercard-image-and-document-requirements.md).
 12. Select one of the following options from the **Response outcome** drop-down.
 
-<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d38505e333">
+<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d38269e333">
 
 Option
 
-</th><th align="left" id="d38505e336">
+</th><th align="left" id="d38269e336">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38505e342">
+</th></tr></thead><tbody><tr><td id="d38269e342">
 
 **Unresolved**
 
@@ -96,7 +96,7 @@ The next task [Review arbitration response](https://raw.githubusercontent.com/Se
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d38505e423">
+</td></tr><tr><td id="d38269e423">
 
 **Resolved**
 

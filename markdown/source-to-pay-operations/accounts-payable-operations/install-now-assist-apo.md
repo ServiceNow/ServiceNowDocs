@@ -55,15 +55,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d138706e285">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d138736e285">
 
 Option
 
-</th><th align="left" id="d138706e288">
+</th><th align="left" id="d138736e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d138706e294">
+</th></tr></thead><tbody><tr><td id="d138736e294">
 
 **Skill is always available**
 
@@ -71,7 +71,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d138706e303">
+</td></tr><tr><td id="d138736e303">
 
 **Customize skill availability**
 
@@ -84,15 +84,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d138706e339">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d138736e339">
 
 Option
 
-</th><th align="left" id="d138706e342">
+</th><th align="left" id="d138736e342">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d138706e348">
+</th></tr></thead><tbody><tr><td id="d138736e348">
 
 **In-product desktop**
 
@@ -100,13 +100,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d138706e359">
+</td></tr><tr><td id="d138736e359">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.
@@ -123,7 +123,7 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
     2.  Select **Make a copy** to create a copy of the use case.
 
-        For more information on the fields, test outputs, and integrations in the use case, see .
+        For more information on the fields, test outputs, and integrations in the use case, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
 
         **Note:** When you create a copy of the generative AI use case in Now Assist console, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
 

@@ -24,7 +24,7 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
 1.  Navigate to **All** &gt; **Benchmarks** &gt; **Dashboard**.
 
-2.  Select one of the **KPI categories** from the [KPI list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
+2.  Select one of the **KPI categories** from the KPI list.
 
 3.  To view the corresponding group of KPIs, click a tab.
 
@@ -45,5 +45,5 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
 ## What to do next
 
-Click a KPI to view [Benchmarks KPI performance trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_NewbenchKPItrendrecommend.md).
+Click a KPI to view .
 

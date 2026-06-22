@@ -19,16 +19,16 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
 
 -   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization Now Assist skill.
 
 Role required: sn\_apw\_advanced.eap\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see .
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d88067e171">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d87045e174">
 
 Type
 
-</th><th align="left" id="d88067e174">
+</th><th align="left" id="d87045e177">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d88067e180">
+</th></tr></thead><tbody><tr><td id="d87045e183">
 
 **Team Doc**
 
@@ -54,7 +54,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d88067e198">
+</td></tr><tr><td id="d87045e201">
 
 **Planning item Doc**
 

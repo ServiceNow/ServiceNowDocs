@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Generating resolution notes skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see .
+The Generating resolution notes skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 You can do these actions by using Now Assist icon:
 
@@ -115,15 +115,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d184645e395">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d183248e396">
 
 Interface
 
-</th><th align="left" id="d184645e398">
+</th><th align="left" id="d183248e399">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d184645e404">
+</th></tr></thead><tbody><tr><td id="d183248e405">
 
 **Core UI**
 
@@ -133,7 +133,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d184645e429">
+</td></tr><tr><td id="d183248e430">
 
 **Service Operations Workspace for ITSM**
 

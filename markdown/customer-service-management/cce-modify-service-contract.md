@@ -35,7 +35,7 @@ Role required:
 
 5.  On the Configurator UI, modify the existing configurations for the customer contract line.
 
-    To learn more about the Configurator UI, see .
+    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som-exploring.md).
 
     **Note:** The Configurator UI is displayed only if the customer contract has a single customer contract line. For multiple customer contract lines, a quote or an order will be created with contract lines in Draft or Active state.
 

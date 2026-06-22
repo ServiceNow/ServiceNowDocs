@@ -20,7 +20,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See  for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md) for more information.
 
 ## About this task
 
@@ -111,7 +111,7 @@ Add tags to track analytics for the voice assistant. For example, HR.Adding or r
         -   Danish
         -   Russian
         -   Turkish
-        See  for more information.
+        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.md) for more information.
 
     2.  Add a personalized welcome message to greet the callers calling into the voice assistant.
 
@@ -159,7 +159,7 @@ Add tags to track analytics for the voice assistant. For example, HR.Adding or r
 
     \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Caller verification step with Identification methods, Authentication methods with First and Second factor options, and Advanced options section.
 
-    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see .
+    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md).
 
     1.  Select the method used to identify the caller when the call begins.
 
@@ -187,17 +187,17 @@ Add tags to track analytics for the voice assistant. For example, HR.Adding or r
         -   Email one-time password \(OTP\)
         Select from the following **Second factor** authentication methods.
 
-        Numeric authentication factors such as SMS verification code, Authenticator app time-based One Time Password \(TOTP\), and Soft PIN support voice input. Callers can respond verbally instead of using the keypad. Voice input for each factor can be configured at platform level and scoped per voice service. See  for more information.
+        Numeric authentication factors such as SMS verification code, Authenticator app time-based One Time Password \(TOTP\), and Soft PIN support voice input. Callers can respond verbally instead of using the keypad. Voice input for each factor can be configured at platform level and scoped per voice service. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md) for more information.
 
         **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires questions to be configured at platform level with the **Channel** field set to **Voice** and the **Type** field set to **Identification**, **Authentication**, or both. Questions configured this way automatically appear in Assistant Designer for selection. Explicit service mapping is not required.
 
         Base system questions are available out of the box for the voice channel at both the identification and authentication levels and are ready to use without additional configuration.
 
-        For secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See  for more information.
+        For secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md) for more information.
 
         KBA now also supports external authentication. The caller's system ID and their spoken response are passed to a verification script, which checks the answer against an external system and returns a true or false result. Optionally, context from earlier responses in the same session can be passed to the script. Configure external authentication scripts at platform level.
 
-        Email OTP authentication requires platform-level configuration before it can be selected here. Configure the email field and source table in the Email OTP configuration screen. By default, the email address is sourced from the sys\_user table. The source table must reference the sys\_user table, and the selected column must be an email field. Email OTP configuration can be scoped to a specific voice service. See  for more information.
+        Email OTP authentication requires platform-level configuration before it can be selected here. Configure the email field and source table in the Email OTP configuration screen. By default, the email address is sourced from the sys\_user table. The source table must reference the sys\_user table, and the selected column must be an email field. Email OTP configuration can be scoped to a specific voice service. See [Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/email-otp-authentication.md) for more information.
 
     4.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
 

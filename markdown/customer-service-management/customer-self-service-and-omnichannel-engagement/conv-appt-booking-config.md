@@ -39,11 +39,11 @@ This procedure provides general steps to set up the Conversational Appointment B
     -   Walk-up Appointment Scheduling - LLM
     -   Reschedule a Walk-up Appointment
     -   Cancel a Walk-up Appointment
-    For more information, see Publish a Virtual Agent topic.
+    For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
     These topics are read-only by default. To add custom controls.
 
-    duplicate the topics.
+    [duplicate the topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
     **Note:** Translation for custom controls is currently unavailable. You can manually add the translation in the ServiceNow® Walk-up Experience appointment booking application. See [Walk-up Experience appointment booking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking-config.md) for more information.
 
@@ -53,6 +53,6 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 6.  Test the topics.
 
-    See Test Virtual Agent topics for more information.
+    See [Test Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md) for more information.
 
 

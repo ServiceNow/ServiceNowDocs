@@ -40,5 +40,5 @@ ServiceNow AI Lens supports the following file types:
 
 ServiceNow AI Lens can extract information from images and directly enter the data into forms. To have ServiceNow AI Lens assist you, tap the Lens icon \[Omitted image "na-lens-icon.png"\] Alt text:. After attaching the image you want to extract information from, you can add additional instructions for how ServiceNow AI Lens should extract the data.
 
-For more information about the feature, see . For information on configuring on your device, see .
+For more information about the feature, see [Exploring ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-explore.md). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 

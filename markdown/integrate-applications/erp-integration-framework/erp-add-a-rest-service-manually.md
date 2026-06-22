@@ -23,10 +23,10 @@ Role required: sn\_erp\_integration.erp\_admin
 Complete the following before adding a service manually:
 
 -   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/install-erp-integration.md).
--   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see .
+-   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 -   Create an HTTP connection for the service. Add the connection alias that you created and the connection URL. On the **Attributes** tab, select **Patch** or **Put** in **http\_method\_for\_update** and specify the **odata\_ping\_url**.
 
-    For more information, see .
+    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 -   Create a system that uses the HTTP connection. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md). On the system record, confirm that the heartbeats are successful and the retrieval status is complete. If any have failed, select **Restart data retrieval**.
 -   If you plan to connect using a URL, copy the metadata URL from the ERP system to which you're linking. Use the relative URL containing only the path following the domain, for example, v2/northwind/northwind.svc/$metadata.

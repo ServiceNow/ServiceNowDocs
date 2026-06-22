@@ -38,7 +38,7 @@ Before you start creating your API connector, you might prefer to set up any cre
 
 The following applications and plugins are required.
 
-For more information about applications in the ServiceNow® Store, see  and downloading and activating applications [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
+For more information about applications in the ServiceNow® Store, see [Exploring the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/exploring-servicenow-store.md) and downloading and activating applications [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 **Note:** If you're downloading applications to non-production or development instances, it's not necessary to get entitlements.
 

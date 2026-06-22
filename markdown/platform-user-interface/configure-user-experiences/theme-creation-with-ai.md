@@ -20,7 +20,7 @@ Use AI to generate themes from images directly in Theme Builder or from the Now 
 
 The requirements for AI theme creation depend on where you start the workflow.
 
-To start using AI theme creation from within Theme Builder, you must install Now Assist for Creator. See . After you have installed Now Assist for Creator, see [Create a theme with AI in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/tb-create-a-theme-ai.md).
+To start using AI theme creation from within Theme Builder, you must install Now Assist for Creator. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md). After you have installed Now Assist for Creator, see [Create a theme with AI in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/tb-create-a-theme-ai.md).
 
 To start using Theme Builder AI theme creation workflow from the Now Assist panel, you must install Now Assist for Creator and turn on the Theme Creation Workflow in AI Agent Studio. For more information, see [Turn on theme creation workflow for use in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/turn-on-theme-creation-workflow.md). After you have enabled the Theme Creation Workflow, see [Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-theme-now-assist.md).
 

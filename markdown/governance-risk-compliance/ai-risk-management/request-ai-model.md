@@ -29,15 +29,15 @@ An AI model is a core component of an AI system that performs learning, predicti
 
 1.  Request an AI model using one of the following options.
 
-<table><thead><tr><th align="left" id="d100215e80">
+<table><thead><tr><th align="left" id="d100220e80">
 
 Option
 
-</th><th align="left" id="d100215e83">
+</th><th align="left" id="d100220e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d100215e89">
+</th></tr></thead><tbody><tr><td id="d100220e89">
 
 **Employee Center**
 
@@ -48,7 +48,7 @@ Description
 3.  Select the **Request an AI model** card.
  **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d100215e140">
+</td></tr><tr><td id="d100220e140">
 
 **AI Control Tower**
 
@@ -62,7 +62,7 @@ Description
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information, on adding an AI model using the AI Control Tower, see .
+    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information, on adding an AI model using the AI Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -81,7 +81,7 @@ AI Product Owner or Requester \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_user
 
 AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments, and coordinate cross‑functional reviews. Continue to oversee the AI model through its life cycle, including inventory tracking, governance activities, linkage to related datasets and AI systems, and collaboration across stakeholders.
 
-For more information, see .
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-governance.md).
 
 Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the AI model for regulatory, policy, and risk considerations. Assign risk and impact assessments, recommend controls and attestations, and monitor compliance throughout the AI model life cycle and its associated AI system life cycle.
 

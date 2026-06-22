@@ -32,7 +32,7 @@ This procedure is specific to login pages and does not apply if you are using Si
 
 3.  Show welcome text by set the property **glide.ui.polaris.login.show\_welcome** to **true**.
 
-    If this property doesn't exist, add it as a true/false property. For more information, see Add a system property.
+    If this property doesn't exist, add it as a true/false property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 4.  Edit the welcome page text.
 

@@ -81,7 +81,7 @@ Custom message that describes the insight.For example, `Time to Cleanup Automati
 
  To configure the variable, such as \{0\}, see [Write a script for an automation message variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-message-variable-auto-center.md).
 
- **Note:** To enable localization of this message string, create the sys\_ui\_message update record. For more information, see Custom translations.
+ **Note:** To enable localization of this message string, create the sys\_ui\_message update record. For more information, see [Custom translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md).
 
 </td></tr><tr><td>
 

@@ -36,13 +36,13 @@ MCP is an open protocol that defines how AI agents communicate with external sys
 
 In Connect Hub, an MCP connector represents a configured connection between ServiceNow and an external system that exposes a server compatible with MCP. Once an MCP connector is set up, AI agents can use it to access the tools and capabilities that the external system provides, enabling coordinated, context-aware workflows across models and systems.
 
-For details on configuring MCP connections in Build Agent, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/ba-connct-mcp-server.md). For more information on MCP connections, see .
+For details on configuring MCP connections in Build Agent, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/ba-connct-mcp-server.md). For more information on MCP connections, see [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/additional-configs-mcr.md).
 
 ## Connect to supported MCP servers
 
 Build Agent can use any MCP connection that's available in an instance's registry, though you must manually authenticate the connection the first time you want to use it with Build Agent.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see .
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/model-context-protocol-connector.md).
 
 An example prompt could be something like the following: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 
@@ -61,7 +61,7 @@ The end-to-end flow for making an MCP server available is:
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
-For details on adding a new MCP connection in Workflow Data Fabric, see .
+For details on adding a new MCP connection in Workflow Data Fabric, see [Model Context Protocol connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/model-context-protocol-connector.md).
 
 ## Application development with Figma MCP server
 

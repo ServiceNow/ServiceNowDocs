@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Add the **glide.ui.activity.journal.stacked** system property.
 
-    For more information on adding a system property, see Add a system property.
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **true**.
 

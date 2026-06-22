@@ -40,7 +40,7 @@ A user session times out after a specific period of inactivity.
 
 User access to the self-service experiences is tracked as follows: per session, per day, and per experience. If the same user logs in from multiple browsers or devices, each login is counted as a separate session. Each first call of a page in an experience starts a session and, the usage metrics are calculated for the 24 hours window.
 
-The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see Manage user sessions.
+The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
 
 -   **Site session calculation examples**
 
@@ -83,7 +83,7 @@ The aggregate session count is based on the following calculations:\[Omitted ima
 
 User access to the Web Embeddables component is tracked as follows: per session, per day, and per module. If the same user logs in from multiple browsers or devices, each login is counted as a separate session. Each first call of a Web Embeddables component starts a session, and the usage metrics are calculated for the 24 hours window.
 
-The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see Manage user sessions.
+The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
 
 -   **Site session calculation examples**
 

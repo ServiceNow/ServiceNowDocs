@@ -53,15 +53,15 @@ For more information, see [Document Intelligence workspace with Now Assist](http
 
     For information on using the draw tool, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
-<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d71023e206">
+<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d71108e206">
 
 Option
 
-</th><th align="left" id="d71023e209">
+</th><th align="left" id="d71108e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d71023e215">
+</th></tr></thead><tbody><tr><td id="d71108e215">
 
 **Edit the field value or answer**
 
@@ -75,7 +75,7 @@ To make a change:
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d71023e256">
+</td></tr><tr><td id="d71108e256">
 
 **Mark the field value or answer as missing in the document**
 
@@ -89,7 +89,7 @@ If you can’t find an appropriate match, mark it as missing in the document.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d71023e300">
+</td></tr><tr><td id="d71108e300">
 
 **Mark the field value or answer as reviewed**
 

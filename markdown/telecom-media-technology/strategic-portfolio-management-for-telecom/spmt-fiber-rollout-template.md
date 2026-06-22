@@ -26,5 +26,5 @@ The Fiber rollout project template contains the following basic tasks:
 -   Service readiness
 -   Plan for future demand and network build
 
-You can create a project from this template or modify this template according to your requirement. For more details on using project templates, see Project templates.
+You can create a project from this template or modify this template according to your requirement. For more details on using project templates, see [Project templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md).
 

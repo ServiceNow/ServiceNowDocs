@@ -93,7 +93,7 @@ To create a monday.com integration profile, request the Software Asset Managemen
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **monday.com Spoke** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **monday.com Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -103,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the monday.com 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d136709e522">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d152183e523">
 
 Interface
 
-</th><th align="left" id="d136709e525">
+</th><th align="left" id="d152183e526">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d136709e531">
+</th></tr></thead><tbody><tr><td id="d152183e532">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **monday.com Integration Profile**.
 
 
-</td></tr><tr><td id="d136709e573">
+</td></tr><tr><td id="d152183e574">
 
 **Software Asset Workspace**
 

@@ -28,7 +28,7 @@ The **Usage Insights** dashboard displays all applications by default. To view t
 
 -   **Users**
 
-    Lists all agents who have triggered tracked events, displayed as hashed IDs. See .
+    Lists all agents who have triggered tracked events, displayed as hashed IDs. See [Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ued-ec.md).
 
 -   **Sessions**
 
