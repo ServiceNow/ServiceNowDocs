@@ -26,7 +26,7 @@ Next Experience theming makes it easier than ever to present your unique company
 
  You can also use your Next Experience theme to inherit theme colors from your instance's existing web theme.
 
- For more information on Next Experience themes, see Exploring themes in Next Experience.
+ For more information on Next Experience themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 </td><td>
 
@@ -58,15 +58,15 @@ Whether your instance enables Next Experience theming depends on your existing c
 
 -   **New customers**
 
-    For new customers in the Utah and later releases, Next Experience is active by default, with the **Polaris** theme applied. This setting can be changed using a system property. For details see Considerations for activating Next Experience
+    For new customers in the Utah and later releases, Next Experience is active by default, with the **Polaris** theme applied. This setting can be changed using a system property. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md)
 
 -   **Existing customers with no theme customizations**
 
-    Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see Considerations for activating Next Experience.
+    Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 -   **Existing customers with custom themes**
 
-    Existing customers upgrading to Utah and later releases have Next Experience disable by default after the upgrade. Your custom themes from the last release remain unchanged. You can manually enable Next Experience themes when you're ready to implement the new features. For details see Considerations for activating Next Experience.
+    Existing customers upgrading to Utah and later releases have Next Experience disable by default after the upgrade. Your custom themes from the last release remain unchanged. You can manually enable Next Experience themes when you're ready to implement the new features. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 -   **Existing customers using the Mobile Publishing application**
 

@@ -16,7 +16,7 @@ breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Servic
 
 Administer the Case and Knowledge Management application to improve HR efficiency and make it easier for employees to get the services they need.
 
-**Note:** To use guided setup to help configure HR Service Delivery on your instance, navigate to **HR Administration** &gt; **Guided Setup**. For further information on how to use the guided setup interface, see Using guided setup.
+**Note:** To use guided setup to help configure HR Service Delivery on your instance, navigate to **HR Administration** &gt; **Guided Setup**. For further information on how to use the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 -   **[Guided setup for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/guided-set-up-hr.md)**  
 Run the guided setup to complete the relevant tasks for getting started with the HR Scoped application.

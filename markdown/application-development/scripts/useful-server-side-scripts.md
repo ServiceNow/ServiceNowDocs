@@ -112,7 +112,7 @@ Typically, setting a due date requires that you calculate work time rather than 
 10am-5pm on Monday (6 hours) + 8am-12pm on Tuesday (4 hours)
 ```
 
-For information on schedules, which you can use as inputs to DurationCalculator methods, see Creating and using schedules.
+For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/time-configuration/c_UseSchedules.md).
 
 This script demonstrates how to use DurationCalculator to compute a due date.
 
@@ -194,7 +194,7 @@ To calculate a relative duration, the calendar and time zone must be considered 
 
 **Note:** Next business day is often defined by a starting day and time. For example, "next business day at 4pm if before 2pm" indicates that if the current time is after 2pm on a business day, then "Next business day" really means 2 business days since today does not count.
 
-For more information on relative durations, see .
+For more information on relative durations, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/time-configuration/t_DefineARelativeDuration.md).
 
 #### Calculating a simple duration
 
@@ -464,7 +464,7 @@ In a business rule or other server script, the gs.getUser\(\) method returns a u
 
 ### About this task
 
-For a list and description of the available scoped methods for the user object, see GlideUser.
+For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GUserAPI.md).
 
 ### Procedure
 
@@ -499,9 +499,9 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For the API reference, see GSLog\(\).
+For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GSLogBoth.md).
 
-For more information, see Debugging scripts
+For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debug-overview.md)
 
 ## Modify a GlideDateTime field value
 

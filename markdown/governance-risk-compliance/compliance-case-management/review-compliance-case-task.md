@@ -28,15 +28,15 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 3.  Review the Action task and then select one of the following options.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d225135e77">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d225174e77">
 
 Choice
 
-</th><th align="left" id="d225135e80">
+</th><th align="left" id="d225174e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d225135e86">
+</th></tr></thead><tbody><tr><td id="d225174e86">
 
 **To request revision of the details provided by the Action task owner**
 
@@ -47,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d225135e113">
+</td></tr><tr><td id="d225174e113">
 
 **To close the task as complete**
 
@@ -58,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d225135e140">
+</td></tr><tr><td id="d225174e140">
 
 **To close the task as incomplete**
 
@@ -69,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d225135e167">
+</td></tr><tr><td id="d225174e167">
 
 **To cancel the Action task**
 

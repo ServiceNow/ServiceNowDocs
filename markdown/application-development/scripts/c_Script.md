@@ -37,7 +37,7 @@ Perform database operations. For example, use a server-side script to update a r
     The global scope is a special application scope that identifies applications developed prior to application scoping, or applications intended to be accessible to all other global applications. Use global APIs when scripting in the global scope.
 
 
-To learn more about server-side scripting, see . To learn more about application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
+To learn more about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ServerScripting.md). To learn more about application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
 
 ## Client-side scripts
 
@@ -47,7 +47,7 @@ Make changes to the appearance of forms, display different fields based on value
 -   onChange client scripts run when something specific gets changed AND also when the form or page loads
 -   onSubmit client scripts run when the form is submitted
 
-Client Scripts can also be called by other scripts or modules, including UI policies. To learn more about client-side scripting, see .
+Client Scripts can also be called by other scripts or modules, including UI policies. To learn more about client-side scripting, see [Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-side-scripting-overview.md).
 
 -   **[Available script types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/r_17Scripts.md)**  
 Scripts can be used in many places. The most important detail is whether the script runs on the client or the server.

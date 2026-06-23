@@ -7,7 +7,7 @@ release: yokohama
 product: AI Platform Administration
 classification: ai-platform-administration
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Editing functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

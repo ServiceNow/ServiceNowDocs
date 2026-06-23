@@ -16,7 +16,7 @@ breadcrumb: [Forms in the classic environment, Working in the classic environmen
 
 A field represents an individual item of data on a record.
 
-Users can view and modify field data on a form. For more detailed information, see Field administration.
+Users can view and modify field data on a form. For more detailed information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_IntroductionToFields.md).
 
 **Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/c_UsingForms.md)
 
@@ -56,5 +56,5 @@ Required field contains a value that was saved or must be saved. Default color i
 **Related topics**  
 
 
-[bundle-platadm.t_DefineFieldStyles]
+[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_DefineFieldStyles.md)
 

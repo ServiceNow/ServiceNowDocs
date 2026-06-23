@@ -16,7 +16,7 @@ breadcrumb: [Workflow Data Fabric Hub reference, Workflow Data Fabric Hub, Data 
 
 Workflow Data Fabric Hub is installed with these roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Workflow Data Fabric Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/wdf-reference.md)
 

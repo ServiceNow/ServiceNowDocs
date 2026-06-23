@@ -67,7 +67,7 @@ If the Internet Explorer request includes the referrer URL header:
 **Related topics**  
 
 
-[bundle-crapiref.c_SpecifyContentType]
+[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-api-explorer/c_SpecifyContentType.md)
 
 [Content-Security-Policy: frame-ancestor 'self' URL1 URL2](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors)
 

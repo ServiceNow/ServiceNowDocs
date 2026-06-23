@@ -61,5 +61,5 @@ Several types of components are installed with activation of Strategic Spend Tra
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

@@ -38,5 +38,5 @@ Turn on the subflows and actions skill to run subflows and actions from Now Assi
 
 ## What to do next
 
-Grant one or more user roles to personnel who will work with conversational subflows and actions. For a list of available user roles, see .
+Grant one or more user roles to personnel who will work with conversational subflows and actions. For a list of available user roles, see [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
 

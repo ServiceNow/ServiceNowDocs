@@ -25,7 +25,7 @@ Domain separation is supported for Manufacturing Commercial Operations. Domain s
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Domain separated tables
 

@@ -69,15 +69,15 @@ Columns that are picked from the selected Workplace Central list and displayed o
 </td></tr></tbody>
 </table>5.  In the Add filters section, use the following options to filter and sort the records in your custom list.
 
-<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d399179e195">
+<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d398987e195">
 
 Option
 
-</th><th align="left" id="d399179e198">
+</th><th align="left" id="d398987e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d399179e204">
+</th></tr></thead><tbody><tr><td id="d398987e204">
 
 **Use existing filter**
 
@@ -85,7 +85,7 @@ Description
 
 Use an existing filter that is available with the selected Workplace Central list.
 
-</td></tr><tr><td id="d399179e216">
+</td></tr><tr><td id="d398987e216">
 
 **Save filter**
 
@@ -93,7 +93,7 @@ Use an existing filter that is available with the selected Workplace Central lis
 
 Save the current filter criteria.You can use saved filters for other custom lists. You can also grant permissions to other users to use the filter for their custom lists.
 
-</td></tr><tr><td id="d399179e227">
+</td></tr><tr><td id="d398987e227">
 
 **Refresh \(Update count\)**
 
@@ -101,7 +101,7 @@ Save the current filter criteria.You can use saved filters for other custom list
 
 Update the number of records based on the current filter criteria.
 
-</td></tr><tr><td id="d399179e236">
+</td></tr><tr><td id="d398987e236">
 
 **Editor**
 
@@ -109,7 +109,7 @@ Update the number of records based on the current filter criteria.
 
 Create condition sets for the filter criteria.
 
-</td></tr><tr><td id="d399179e246">
+</td></tr><tr><td id="d398987e246">
 
 **Sort by**
 

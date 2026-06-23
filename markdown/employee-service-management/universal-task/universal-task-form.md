@@ -104,7 +104,7 @@ Checklist
 
 </td><td>
 
-In the **Checklist** section, add the checklist items. For detailed information, see Create a checklist
+In the **Checklist** section, add the checklist items. For detailed information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/t_CreateAChecklist.md)
 
 </td></tr><tr><td>
 

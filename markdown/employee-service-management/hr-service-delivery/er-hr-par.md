@@ -27,5 +27,5 @@ The following roles and tasks are associated with this Solution:
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/platform-analytics/content-packs-in-form-analytics.md)
 

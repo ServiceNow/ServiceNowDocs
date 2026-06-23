@@ -22,7 +22,7 @@ The syntax editor has these features.
 -   JavaScript support
 -   Linting using the ESLint utility
 
-    **Note:** Modify or view default linting configurations by accessing the **glide.ui.syntax\_editor.linter.eslint\_config** property in the System Property \[sys\_properties\] table. See Available system properties for more information.
+    **Note:** Modify or view default linting configurations by accessing the **glide.ui.syntax\_editor.linter.eslint\_config** property in the System Property \[sys\_properties\] table. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) for more information.
 
 -   Context menu for script includes, API, and tables
 -   Script macros for common code shortcuts

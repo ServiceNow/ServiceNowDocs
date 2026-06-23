@@ -38,7 +38,7 @@ The system provides the default connection and credential alias for the Azure Op
 
     2.  On the form, fill in the fields.
 
-        For a description of the field values, see .
+        For a description of the field values, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
     3.  Select **Submit**.
 
@@ -58,7 +58,7 @@ The system provides the default connection and credential alias for the Azure Op
         -   To create a credential record for the Google Gemini API alias, select **OAuth 2.0 Credentials**.
     4.  On the form, fill in the fields.
 
-        For a description of the field values, see  for the Azure OpenAI alias or  for the Google Gemini API alias.
+        For a description of the field values, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/API-key-credential-form.md) for the Azure OpenAI alias or [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md) for the Google Gemini API alias.
 
     5.  Select **Submit**.
 

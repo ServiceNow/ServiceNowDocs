@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [I've built my app in Creator Studio, now what?, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -35,7 +35,7 @@ Apps created in Creator Studio send the following notifications by default.
 
 \*Remember, request records must be manually closed.
 
-For more information on notifications from the ServiceNow AI Platform, see .
+For more information on notifications from the ServiceNow AI Platform, see [Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/approvals/c_ReceiveNotifications.md).
 
 ## Notifications Creator Studio sends about building apps
 

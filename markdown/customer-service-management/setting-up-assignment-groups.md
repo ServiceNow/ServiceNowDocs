@@ -20,7 +20,7 @@ Lets look at the following example to understand the one-to-many relationship.
 
 When you’re assigned to a group within your organization, you get access to specific roles and features associated with that group. The Admin sets up these groups and assigns roles via Access Control Lists \(ACLs\) that control what you can do. You can belong to multiple groups based on your function, and each group can have subgroups with additional roles. For example, if you join Group A, which has subgroups A-1 and A-2, you get the roles from Group A and its subgroups. If you join the Service Desk group as well, you get additional permissions from that group.
 
-For details on creating groups, see .
+For details on creating groups, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/ua-creating-groups.md).
 
 The following table outlines some typical configuration tasks required for setting up assignment groups at your business organization.
 

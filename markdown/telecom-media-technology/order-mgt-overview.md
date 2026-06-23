@@ -16,19 +16,19 @@ Learn how you can use the ServiceNow® Sales Customer Relationship Management \(
 
 <table id="table_qq4_trz_3tb" class="nav-card"><tbody><tr><td>
 
-Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how you can use the Sales CRM applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-exploring.md)
 
 </td><td>
 
-Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your Sales CRM implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-configuring.md)
 
 </td><td>
 
-Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the Sales CRM applications as an agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-using.md)
 
 </td></tr><tr><td>
 
-Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend capabilities in Sales CRM by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/order-mgt-integrating.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about component
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/sales-order-management-rn-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

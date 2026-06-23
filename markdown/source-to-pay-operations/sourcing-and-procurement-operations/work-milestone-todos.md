@@ -38,15 +38,15 @@ You can provide confirmation on whether the supplier has met a milestone for a s
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d107337e107">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d107354e107">
 
 Action
 
-</th><th align="left" id="d107337e110">
+</th><th align="left" id="d107354e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107337e116">
+</th></tr></thead><tbody><tr><td id="d107354e116">
 
 **Additional comments**
 
@@ -54,7 +54,7 @@ Description
 
 Provide your response, if any, and select **Complete**.
 
-</td></tr><tr><td id="d107337e128">
+</td></tr><tr><td id="d107354e128">
 
 **Defer completion**
 
@@ -64,7 +64,7 @@ Push the milestone to a later date.On the **Defer completion** window, provide y
 
 **Note:** Milestones can be received in percentage and amount, but can only be deferred if not complete until they’re processed for the full milestone. This is because milestones are parts of the whole, and partials aren’t supported.
 
-</td></tr><tr><td id="d107337e147">
+</td></tr><tr><td id="d107354e147">
 
 **Cancel milestone**
 

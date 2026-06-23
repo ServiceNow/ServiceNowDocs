@@ -30,7 +30,7 @@ You can optionally require a user to check an acknowledgment box before the sign
 
 Generating the document combines the document template with your signature and creates an attachment to the case. If you use Employee Document Management, you can move the attachment to your document repository for storage.
 
-**Note:** For more information, see Configure an e-signature template.
+**Note:** For more information, see [Configure an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md).
 
 ## Sign and generate a document in HR Service Delivery Agent Workspace
 

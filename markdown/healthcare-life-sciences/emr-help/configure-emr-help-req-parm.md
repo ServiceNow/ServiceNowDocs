@@ -83,7 +83,7 @@ EMR system to which the parameter is mapped.
 -   **Epic**: Epic EMR system.
 -   **Cerner**: Cerner EMR system.
 -   **Any system**: Any type of EMR system, including an Epic EMR system or a Cerner EMR system.
-**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. For more information, see .
+**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. For more information, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md).
 
 </td></tr><tr><td>
 

@@ -105,7 +105,7 @@ Allows keyboard-only users to access truncated text. Truncated text is text that
 
 </td><td>
 
-Activates voice-to-text in the Now Assist panel. With this feature, use your voice to access Now Assist skills in the  in any supported language.**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see .
+Activates voice-to-text in the Now Assist panel. With this feature, use your voice to access Now Assist skills in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) in any supported language.**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/enable-voice-input-for-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>    **Note:** If users have configured operating system-specific settings, such as forced colors or contrast in Windows, those settings are not overridden by Next Experience user preferences or themes. If those OS-specific settings are inactive, color and theme behaviors will revert to those behaviors defined in the Next Experience UI.

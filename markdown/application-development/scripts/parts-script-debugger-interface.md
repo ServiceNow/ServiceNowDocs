@@ -52,7 +52,7 @@ The Script Debugger interface displays information about breakpoints set, the ca
 |Message Type|Option to filter logs based on the dynamically log levels. For example, **Info**.|
 |Clear log|Clears all logs.|
 |Download log|Download the logs in HTML file format.|
-|Settings|Session debug options. For information about the debug options, see Session debug.|
+|Settings|Session debug options. For information about the debug options, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md).|
 
 **Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/script-debugger.md)
 

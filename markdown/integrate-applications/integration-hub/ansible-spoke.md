@@ -38,7 +38,7 @@ This spoke was built for Ansible Tower v2, but may be compatible with later vers
 -   If you are using custom OAuth application:
     -   Ansible Tower administrator credentials to create a custom application
     -   Application information such as Client ID and Client Secret
--   If you are using basic authentication, credentials of the user with System Administrator role to log in to Ansible Tower. To configure the basic authentication, see 
+-   If you are using basic authentication, credentials of the user with System Administrator role to log in to Ansible Tower. To configure the basic authentication, see [Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)
 
 ## Spoke actions
 

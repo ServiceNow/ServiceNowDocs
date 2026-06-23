@@ -32,15 +32,15 @@ For Admin, when both the skills are active the Order Capture Skill will take pre
 
 3.  When you're finished summarizing an order, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d33118e99">
+<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d33168e99">
 
 Option
 
-</th><th align="left" id="d33118e102">
+</th><th align="left" id="d33168e102">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33118e108">
+</th></tr></thead><tbody><tr><td id="d33168e108">
 
 **Save the summary information by adding it to the work notes**
 
@@ -51,7 +51,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d33118e135">
+</td></tr><tr><td id="d33168e135">
 
 **Expand or collapse the summary**
 
@@ -59,7 +59,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\]\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\]\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d33118e148">
+</td></tr><tr><td id="d33168e148">
 
 **Provide feedback for the summary**
 
@@ -67,7 +67,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\]\) or the colla
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\]\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\]\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d33118e163">
+</td></tr><tr><td id="d33168e163">
 
 **Copy the order summary**
 
@@ -75,7 +75,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\]\) to use the order summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d33118e175">
+</td></tr><tr><td id="d33168e175">
 
 **View the information about the order summary**
 

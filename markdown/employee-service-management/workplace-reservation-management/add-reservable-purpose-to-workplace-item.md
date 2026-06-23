@@ -26,15 +26,15 @@ Role required: sn\_wsd\_rsv.manager
 
 2.  Based on the type of workplace item that you want to add a reservable purpose to, do one of the following.
 
-<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d309048e69">
+<table id="choicetable_j22_wth_5nb"><thead><tr><th align="left" id="d308854e69">
 
 Workplace item
 
-</th><th align="left" id="d309048e72">
+</th><th align="left" id="d308854e72">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d309048e78">
+</th></tr></thead><tbody><tr><td id="d308854e78">
 
 **Workplace space**
 
@@ -44,7 +44,7 @@ Navigation
 2.  Select the space that you are adding the purpose to.
 
 
-</td></tr><tr><td id="d309048e99">
+</td></tr><tr><td id="d308854e99">
 
 **Workplace room**
 

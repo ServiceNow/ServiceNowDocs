@@ -36,15 +36,15 @@ Button emphasis configuration is performed in web-based UI. For more information
 
 4.  Select a button emphasis for the chosen function location type.
 
-<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d99891e113">
+<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d99906e113">
 
 Function location
 
-</th><th align="left" id="d99891e116">
+</th><th align="left" id="d99906e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d99891e122">
+</th></tr></thead><tbody><tr><td id="d99906e122">
 
 **Swipe action**
 
@@ -59,7 +59,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d99891e172">
+</td></tr><tr><td id="d99906e172">
 
 **Top menu action or Quick action function**
 
@@ -74,7 +74,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d99891e221">
+</td></tr><tr><td id="d99906e221">
 
 **Footer function or Media section**
 

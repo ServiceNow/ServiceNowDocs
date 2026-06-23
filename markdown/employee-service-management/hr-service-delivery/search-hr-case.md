@@ -36,15 +36,15 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d67866e96">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d67662e96">
 
 Status of the person related to the case
 
-</th><th align="left" id="d67866e99">
+</th><th align="left" id="d67662e99">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67866e105">
+</th></tr></thead><tbody><tr><td id="d67662e105">
 
 **Anonymous employee or external individual**
 
@@ -56,7 +56,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d67866e138">
+</td></tr><tr><td id="d67662e138">
 
 **An employee**
 
@@ -120,7 +120,7 @@ Work notes
 
 Information specific to the case that can help other HR agents. Text in the **Work Notes** field is not visible to the user named in the **Subject person** field.The sn\_hr\_core.restrict\_guest\_email system property allows a user to send an email from a personal email account referencing an HR case. If this property is set to false \(the default\), the text from the email appears in the Work notes field.
 
- **Note:** You can translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
+ **Note:** You can translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 </td></tr></tbody>
 </table>4.  Select the person responsible for the service request in the **Opened for** field.

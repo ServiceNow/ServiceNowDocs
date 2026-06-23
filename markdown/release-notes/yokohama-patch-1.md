@@ -38,12 +38,12 @@ Yokohama Patch 1 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 1
 
--   ****
+-   **[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/test-llm-topics.md)**
 
     Under the skills search results,a **Matching** badge appears next to the skill discovered, whilevariables and values may also be listed \(such as the variable **@laptop\_make** and the value **macbook**\), depending on the topic
 
 
--   ****
+-   **[Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md)**
 
     Various updates, including:
 

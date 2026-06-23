@@ -34,7 +34,7 @@ As a contract configurator, use condition builders to define criteria for a tabl
 
 5.  In the **Condition** field, define a condition for the table mapping.
 
-    For more information, see .
+    For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
 6.  Select **Update**.
 

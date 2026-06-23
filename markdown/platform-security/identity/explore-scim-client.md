@@ -27,7 +27,7 @@ The SCIM client enables you to perform the following actions:
 -   Integrate any SCIM Provider on ServiceNow®.
 -   De-provision identities and access.
 
-The SCIM client provides scriptable APIs that the integration developer can use to build workflows or automations to do specified jobs. To know more about the scriptable API, see SCIM2Client API.
+The SCIM client provides scriptable APIs that the integration developer can use to build workflows or automations to do specified jobs. To know more about the scriptable API, see [SCIM2Client API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/SCIM2ClientAPI.md).
 
 \[Omitted image "scim-client-app-working.png"\] Alt text: SCIM Client
 

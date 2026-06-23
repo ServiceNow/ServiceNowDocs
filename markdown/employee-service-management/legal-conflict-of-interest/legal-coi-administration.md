@@ -20,7 +20,7 @@ As an administrator, you can review the installed components and modify them or 
 
 -   Approver group for managing conflict of interest requests
 -   Flows for Legal Conflict of Interest
--   Notifications to inform different stakeholders at different stages of a conflict of interest request
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md) to inform different stakeholders at different stages of a conflict of interest request
 
 -   **[Install Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/install-legal-conflict-of-interest.md)**  
 You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.

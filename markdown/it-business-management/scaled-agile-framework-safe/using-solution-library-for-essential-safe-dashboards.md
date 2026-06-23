@@ -26,7 +26,7 @@ For example, if you are upgrading from version 1.0.1 or earlier of the applicati
 -   SAFe Epic Dashboard
 -   SAFe Team Dashboard
 
-For more information, see Use Solution Library to install a dashboard.
+For more information, see [Use Solution Library to install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/platform-analytics/install-content.md).
 
 **Note:** For users on the Yokohama release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
 

@@ -38,15 +38,15 @@ For more information about the types of files you can find in the Navigator pane
     -   To find an app file, select the File Categories icon \(\[Omitted image "sn-studio-file-nav-icon.png"\] Alt text: file categories icon\).
 4.  Choose from the following options to refine the list of apps or app files that appear.
 
-<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d86513e164">
+<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d86707e164">
 
 Choice
 
-</th><th align="left" id="d86513e167">
+</th><th align="left" id="d86707e167">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d86513e173">
+</th></tr></thead><tbody><tr><td id="d86707e173">
 
 **Filter icon \(\[Omitted image "filter-fill-24.svg"\] Alt text: filter icon\)**
 
@@ -56,7 +56,7 @@ Description
 
 Select a filter to display applications only within the selected scope.You can choose from **All**, **Custom**, **Store**, **Creator Studio**, and **Fluent** filters. By default, the filter is set to **Custom**.
 
-</td></tr><tr><td id="d86513e211">
+</td></tr><tr><td id="d86707e211">
 
 **Sort icon \(\[Omitted image "sort-ascending-outline-24.svg"\] Alt text: sort icon\)**
 
@@ -64,7 +64,7 @@ Select a filter to display applications only within the selected scope.You can c
 
 Sort the list of apps or app files in alphabetical or reverse alphabetical order.
 
-</td></tr><tr><td id="d86513e226">
+</td></tr><tr><td id="d86707e226">
 
 **Filter list box\[Omitted image "sn-studio-filter-box-track.png"\] Alt text: Enter the name of the app or app file in the Filter list box to refine the list items.
 
@@ -74,7 +74,7 @@ Sort the list of apps or app files in alphabetical or reverse alphabetical order
 
 Enter the name of the app or app file in the Filter list box to display only apps or files that contain your entered text.
 
-</td></tr><tr><td id="d86513e241">
+</td></tr><tr><td id="d86707e241">
 
 **Expand the metadata section\[Omitted image "sn-studio-metadata-section-flow.png"\] Alt text: Expand the metadata section, then select the file type that corresponds to the app file you're looking for
 

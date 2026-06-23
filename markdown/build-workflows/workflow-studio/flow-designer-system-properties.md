@@ -333,7 +333,7 @@ com.glide.cs.fdih.interactive.timeout
 Specify the length of time, in seconds, before the Workflow Studio Integration Hub action workflow times out.-   Type: integer
 -   Default value: 120
 -   Location: System Properties \[sys\_properties\] table
--   More information: Specify the action workflow timeout.
+-   More information: [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md).
 
 </td></tr><tr><td>
 
@@ -421,7 +421,7 @@ com.glide.hub.flow\_api.default\_execution\_time
 Specify the default duration in milliseconds your Flow API calls can run. Use this property to give Flow API calls in spokes more time to run. The maximum value of this property is limited by REST transaction quotas, which by default the system stops after 60 seconds.-   Type: integer
 -   Default value: 30000 \(30 seconds\)
 -   Location: System Properties \[sys\_properties\] table
--   More information: 
+-   More information: [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/platform-performance/c_TransactionQuotas.md)
 
 </td></tr><tr><td>
 

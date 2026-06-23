@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Select the operational mode of an assistant. For more information about agentic AI, see .
+Select the operational mode of an assistant. For more information about agentic AI, see [Exploring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/exploring-ai-agents.md).
 
 ## Procedure
 

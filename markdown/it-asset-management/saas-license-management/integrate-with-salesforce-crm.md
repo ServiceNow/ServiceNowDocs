@@ -344,7 +344,7 @@ To create a Salesforce CRM integration profile, request the Software Asset Manag
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Software Asset Management integration with Salesforce CRM** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Salesforce CRM** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 #### About this task
 
@@ -356,15 +356,15 @@ If you’re using Software Asset Workspace, use SaaS Playbook for integrating yo
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129137e1122">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129183e1123">
 
 Interface
 
-</th><th align="left" id="d129137e1125">
+</th><th align="left" id="d129183e1126">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129137e1131">
+</th></tr></thead><tbody><tr><td id="d129183e1132">
 
 **Core UI**
 
@@ -375,7 +375,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d129137e1174">
+</td></tr><tr><td id="d129183e1175">
 
 **Software Asset Workspace**
 
@@ -581,7 +581,7 @@ To create a Salesforce CRM integration profile, request the Software Asset Manag
 
 ServiceNow Role required: sam\_integrator or admin
 
-**Important:** You must select the **Software Asset Management integration with Salesforce CRM** check box for this integration while installing optional features on the  page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Salesforce CRM** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 #### About this task
 
@@ -591,15 +591,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129137e2000">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d129183e2002">
 
 Interface
 
-</th><th align="left" id="d129137e2003">
+</th><th align="left" id="d129183e2005">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129137e2009">
+</th></tr></thead><tbody><tr><td id="d129183e2011">
 
 **Core UI**
 
@@ -610,7 +610,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d129137e2052">
+</td></tr><tr><td id="d129183e2054">
 
 **Software Asset Workspace**
 

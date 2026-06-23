@@ -31,7 +31,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   Telecom Service Operation Core \(sn\_tsom\_core\)
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see .
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 
 ## TSOM Visibility Installation Disclaimer
 
@@ -51,7 +51,7 @@ Role required: admin
 
 1.  Install the Horizontal Discovery application.
 
-    See , as it is foundational for running Telecommunications Discovery Patterns.
+    See [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/discovery-setup.md), as it is foundational for running Telecommunications Discovery Patterns.
 
 2.  Obtain and install Telecommunications Discovery Patterns:
 
@@ -65,7 +65,7 @@ Role required: admin
         2.  Select **Pattern Sync to Mid**.
         **Note:** This action synchronizes both TSOM and ITOM patterns.
 
-        For more information on how to configure a MID Server, see .
+        For more information on how to configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
 4.  Configure TSOM System Properties:
 

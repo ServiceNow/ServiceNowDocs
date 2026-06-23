@@ -45,15 +45,15 @@ Deactivating a policy enables you to place the policy into a maintenance-like mo
 
 3.  Activate or deactivate the selected policy.
 
-<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d300744e159">
+<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d299797e159">
 
 Task
 
-</th><th align="left" id="d300744e162">
+</th><th align="left" id="d299797e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d300744e168">
+</th></tr></thead><tbody><tr><td id="d299797e168">
 
 **Activate a policy**
 
@@ -73,7 +73,7 @@ Validation of the activated policy and its associated mapping inputs is performe
 
 **Note:** This only works with content-based policies.
 
-</td></tr><tr><td id="d300744e212">
+</td></tr><tr><td id="d299797e212">
 
 **Deactivate a policy**
 

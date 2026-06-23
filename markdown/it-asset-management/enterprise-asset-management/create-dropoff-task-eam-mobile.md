@@ -46,15 +46,15 @@ Role required: sn\_eam.asset\_technician
 
     You can only add enterprise assets that are in your personal stockroom and that aren't reserved and aren't part of any workflows.
 
-<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d182736e157">
+<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d182784e157">
 
 UI option
 
-</th><th align="left" id="d182736e160">
+</th><th align="left" id="d182784e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d182736e166">
+</th></tr></thead><tbody><tr><td id="d182784e166">
 
 **Add assets button**
 
@@ -67,7 +67,7 @@ Action
 3.  Tap **Submit**.
 
 
-</td></tr><tr><td id="d182736e207">
+</td></tr><tr><td id="d182784e207">
 
 **Assets tab**
 

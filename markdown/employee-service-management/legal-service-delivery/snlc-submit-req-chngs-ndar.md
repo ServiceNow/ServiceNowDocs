@@ -30,15 +30,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d101949e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d101746e71">
 
 Method
 
-</th><th align="left" id="d101949e74">
+</th><th align="left" id="d101746e74">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d101949e80">
+</th></tr></thead><tbody><tr><td id="d101746e80">
 
 **__Employee Center__**
 
@@ -49,7 +49,7 @@ Actions
 3.  Open your non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d101949e113">
+</td></tr><tr><td id="d101746e113">
 
 **__Legal Service Portal__**
 
@@ -66,15 +66,15 @@ Actions
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d101949e176">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d101746e176">
 
 Location
 
-</th><th align="left" id="d101949e179">
+</th><th align="left" id="d101746e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d101949e185">
+</th></tr></thead><tbody><tr><td id="d101746e185">
 
 **From internal storage**
 
@@ -85,7 +85,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d101949e212">
+</td></tr><tr><td id="d101746e212">
 
 **From external storage**
 
@@ -96,15 +96,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d101949e235">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d101746e235">
 
 Review result
 
-</th><th align="left" id="d101949e238">
+</th><th align="left" id="d101746e238">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d101949e244">
+</th></tr></thead><tbody><tr><td id="d101746e244">
 
 **No change is required**
 
@@ -112,7 +112,7 @@ Action
 
 Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d101949e262">
+</td></tr><tr><td id="d101746e262">
 
 **Changes are required**
 

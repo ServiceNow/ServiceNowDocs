@@ -20,11 +20,11 @@ Watch this short video for an introduction to the Service Exchange application.A
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-Service Exchange for Providers\[Omitted image "ind-service-provider.svg"\] Alt text:Learn about the new Service Exchange application for providers
+[Service Exchange for Providers\[Omitted image "ind-service-provider.svg"\] Alt text:Learn about the new Service Exchange application for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-providers-landing-page.md)
 
 </td><td>
 
-Service Exchange for Consumers\[Omitted image "bus-application-developer.svg"\] Alt text:Learn about the new Service Exchange application for consumers
+[Service Exchange for Consumers\[Omitted image "bus-application-developer.svg"\] Alt text:Learn about the new Service Exchange application for consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-consumers-landing-page.md)
 
 </td><td>
 

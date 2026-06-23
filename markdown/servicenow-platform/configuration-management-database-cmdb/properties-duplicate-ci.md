@@ -95,7 +95,7 @@ Enables restricted mode remediation in the Duplicate CI Remediator. This option 
 
  -   Type: true \| false
 -   Default value: false
--   Location: Add to System Properties \[sys\_properties\]
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 -   Learn more: [Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)
 
  Set to **true** to enable restricted mode remediation.

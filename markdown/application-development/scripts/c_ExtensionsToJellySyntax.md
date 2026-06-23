@@ -244,7 +244,7 @@ For example, if your form contained the `application_sys_id` field, the g:ui\_fo
  </g:ui_form>
 ```
 
-For more information, see .
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:ui\_input\_field /&gt;
 
@@ -256,7 +256,7 @@ Here is an example from a UI page:
 <g:ui_input_field label="sys_id" name="sysid" value="9d385017c611228701d22104cc95c371" size="50"/>
 ```
 
-For more information, see .
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:ui\_checkbox/&gt;
 
@@ -277,7 +277,7 @@ Here is an example from a table on a UI page:
 </table>
 ```
 
-For more information, see .
+For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md).
 
 ## &lt;g:dialog\_buttons\_ok\_cancel/&gt;
 

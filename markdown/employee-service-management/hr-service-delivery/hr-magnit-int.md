@@ -26,7 +26,7 @@ The ServiceNow® HR Service Delivery Integration with Magnit application provide
 
 First, activate the HR Service Delivery Integration with Magnit application from ServiceNow Store. Activating the application automatically activates the Magnit spoke, Enterprise Service Management Integrations Framework and Human Resources Scoped App: Lifecycle Events for Enterprise.
 
-Next, Set up Magnit spoke.
+Next, [Set up Magnit spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/magnit-spoke.md).
 
 ## Request apps on the Store
 

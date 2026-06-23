@@ -22,7 +22,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 ## About this task
 
-Reports and Spotlight list can be filtered by improvement priority, state, business process, business service, benefits, and CIM coordinator.
+Reports and [Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/spotlight/spotlight.md) list can be filtered by improvement priority, state, business process, business service, benefits, and CIM coordinator.
 
 \[Omitted image "continual-improvement-dashboard.png"\] Alt text: CIM dashboard
 
@@ -35,7 +35,7 @@ Overview:
 |Open Backlog|Number of open improvements.|
 |Unassigned|Number of improvements without a CIM Coordinator assigned.|
 
--   Prioritized List Using Spotlight.
+-   Prioritized List Using [Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/spotlight/spotlight.md).
 
     To use Spotlight to help prioritize the improvement backlog, navigate to **Continual Improvement** &gt; **Administration** &gt; **Spotlight Config**.
 

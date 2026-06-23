@@ -7,7 +7,7 @@ release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d39243e89">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d39305e89">
 
 Option
 
-</th><th align="left" id="d39243e92">
+</th><th align="left" id="d39305e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39243e98">
+</th></tr></thead><tbody><tr><td id="d39305e98">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d39243e107">
+</td></tr><tr><td id="d39305e107">
 
 **Choose new location**
 

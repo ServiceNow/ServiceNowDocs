@@ -64,7 +64,7 @@ For more information, see [Components installed with Legal Stock Preclearance](h
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
-To access Legal Service Delivery Guided Setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
+To access Legal Service Delivery Guided Setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 **Parent Topic:**[Setting up Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

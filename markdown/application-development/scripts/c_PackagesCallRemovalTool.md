@@ -7,7 +7,7 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 15
 breadcrumb: [Scripting, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -50,7 +50,7 @@ Role required: admin.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 ## Find a Packages call

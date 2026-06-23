@@ -310,7 +310,7 @@ Value
 
     \[Omitted image "array-objects-execution-details-page.png"\] Alt text: Execution details page for the test results of your custom action.
 
-    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see .
+    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see [Scoped JSON - stringify\(Object jsonObject\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/JSONScopedAPI.md).
 
     For this example, the contacts object contains an array of contact objects with first name, last name, and email information for three users in the Development department.
 

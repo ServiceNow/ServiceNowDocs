@@ -47,7 +47,7 @@ Role required: admin
 
         \[Omitted image "now-assist-app-summarize-admin.png"\] Alt text: The app skills card shows that app summary generation is active
 
-    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see Now Assist Admin console.
+    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 
 ## What to do next

@@ -28,7 +28,7 @@ You can send meeting invitations from a CAB meeting only.
 
 1.  Navigate to the CAB meeting for which you want to send out invitations using one of the following steps.
 
-<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d283666e60">
+<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d281377e60">
 
 **Open from the CAB meeting list**
 
@@ -38,7 +38,7 @@ You can send meeting invitations from a CAB meeting only.
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d283666e90">
+</td></tr><tr><td id="d281377e90">
 
 **Open from the CAB definition list**
 

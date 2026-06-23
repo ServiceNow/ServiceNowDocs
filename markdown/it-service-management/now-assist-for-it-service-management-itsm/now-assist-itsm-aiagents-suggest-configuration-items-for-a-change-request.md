@@ -21,7 +21,7 @@ Use the Suggest configuration items for a change request agentic workflow to mak
 
 The Suggest configuration items for a change request agentic workflow lets users quickly find and link relevant configuration items \(CIs\) to a change request from the Now Assist panel. The workflow analyzes change request content and suggests appropriate CIs.
 
-To modify the Suggest configuration items for a change request agentic workflow, duplicate it, and adjust the settings according to your requirements.
+To modify the Suggest configuration items for a change request agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Note:** The workflow can be accessed by the itil role.
 

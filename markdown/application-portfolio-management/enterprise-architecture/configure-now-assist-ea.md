@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -45,7 +45,7 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 1.  Install the Now Assist for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/enterprise-architecture/supporting-info-now-assist-ea.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Now Assist Admin****Features** to access the **Features** tab of the Now Assist Admin console.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Features** tab on the screen.
@@ -56,15 +56,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d29821e296">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d29691e300">
 
 Skill
 
-</th><th align="left" id="d29821e299">
+</th><th align="left" id="d29691e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d29821e305">
+</th></tr></thead><tbody><tr><td id="d29691e309">
 
 **ADR Doc Summarization and Actions**
 
@@ -75,7 +75,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d29821e336">
+</td></tr><tr><td id="d29691e340">
 
 **Business Application Insights**
 
@@ -87,7 +87,7 @@ Action
 If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -104,11 +104,11 @@ The Business application insights skill is activated.
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon \[Omitted image "edit-icon.png"\] Alt text: if you want to add access to more roles.
 
-        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
         **Note:** For the ADR Doc Summarization and Actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected, by default.
 
-        To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see .
+        To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
     2.  **Select display**: Review where the skill appears.
 

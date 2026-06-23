@@ -21,7 +21,7 @@ Import sets enable administrators to import data from various data sources, and 
 
 **Explore**
 
- -   Upgrade to Washington DC
+ -   [Upgrade to Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/upgrade.md)
 -   [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
 
 </td><td>
@@ -45,7 +45,7 @@ Import sets enable administrators to import data from various data sources, and 
  -   [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/t_RunImport.md)
 -   [Importing Data into ServiceNow](https://developer.servicenow.com/dev.do#!/learn/courses/tokyo/app_store_learnv2_importingdata_tokyo_importing_data_into_servicenow)
 -   [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
--   Use the Import Set API
+-   [Use the Import Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/c_ImportSetAPI.md)
 -   [Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/easy-import/c_EasyImport.md)
 -   [Monitor scheduled data import executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/monitor-sched-import-executions.md)
 
@@ -64,7 +64,7 @@ Import sets enable administrators to import data from various data sources, and 
 
  -   [Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 -   [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
--   Apply CI Identification and Reconciliation to Import Sets
+-   [Apply CI Identification and Reconciliation to Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.md)
 -   [Importing from a Kafka environment with Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 
 </td></tr><tr><td>

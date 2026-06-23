@@ -28,7 +28,7 @@ The following tasks summarize the steps required to install and configure the Mu
 
 ## Before you begin
 
-ADCv2 mTLS is required alongside the Multi-instance Framework mTLS \(com.glide.mif.mtls\) plugin for data sync to function correctly. See  for additional information on multi-instance management.
+ADCv2 mTLS is required alongside the Multi-instance Framework mTLS \(com.glide.mif.mtls\) plugin for data sync to function correctly. See [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/grant-access-v2.md) for additional information on multi-instance management.
 
 **Important:** Identify the primary production instance and all secondary instances where Impact Proactive Code Check will be used. The primary instance displays a consolidated view of non-production instance scan results.
 
@@ -108,6 +108,6 @@ Role required: admin
 
 18. Verify that you see a record for each non-production instance that you added to your trust profile.
 
-    See  for additional information.
+    See [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/grant-access-other-instances.md) for additional information.
 
 

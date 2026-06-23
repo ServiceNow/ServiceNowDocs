@@ -41,11 +41,11 @@ Role required: admin
         \[Omitted image "va-api-basic-auth-config.png"\] Alt text: In the Basic auth profile field, the BotAdmin profile is selected. The profile information shows the name, username, and password.
 
     -   **OAuth:** In the **OAuth profile** field, select or create an OAuth profile. After saving your changes, click **Get OAuth Token** in the related links list.
-    For details about configuring basic authentication, see Configure a REST message with basic auth. For information about configuring OAuth 2.0, see Configure a REST message with OAuth.
+    For details about configuring basic authentication, see [Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md). For information about configuring OAuth 2.0, see [Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md).
 
 5.  Review the JSON response returned from the endpoint call.
 
-    For a description of the Virtual Agent API response parameters and an example of a successful response, see Virtual Agent Bot Integration API.
+    For a description of the Virtual Agent API response parameters and an example of a successful response, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/bot-api.md).
 
 
 **Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-api.md)

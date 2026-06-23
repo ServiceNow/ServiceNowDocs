@@ -73,7 +73,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -163,7 +163,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- requires a license for Virtual Agent and at least one Now Assist product.
+[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/install-servicenow-sdk.md).
 
 </td></tr><tr><td>
 
@@ -289,7 +289,7 @@ Synthetic monitoring
 
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see .
+-   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/agent-client-collector/proxy-agent.md).
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 

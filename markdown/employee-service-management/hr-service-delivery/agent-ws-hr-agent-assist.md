@@ -41,6 +41,6 @@ For information on setting up Contextual Sidebar, see Set up Agent Assist.
     -   You can have one filter condition per HR case table.
     -   You can customize conditions with basic conditionals.
     -   You can disable filter configurations to prevent showing documents from the table.
-    For more information, see Filter configuration for contextual search.
+    For more information, see [Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/contextual-search/filter-configuration-for-cxs.md).
 
 

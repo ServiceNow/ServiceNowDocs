@@ -26,15 +26,15 @@ Role required: none
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d288381e60">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d288187e60">
 
 Options
 
-</th><th align="left" id="d288381e63">
+</th><th align="left" id="d288187e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d288381e69">
+</th></tr></thead><tbody><tr><td id="d288187e69">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d288381e78">
+</td></tr><tr><td id="d288187e78">
 
 **From Legal Counsel Center**
 
@@ -56,7 +56,7 @@ Click the link in the email to open the record that needs approval.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d288381e139">
+</td></tr><tr><td id="d288187e139">
 
 **From Self-Service**
 
@@ -66,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d288381e169">
+</td></tr><tr><td id="d288187e169">
 
 **From Employee Center**
 

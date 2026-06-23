@@ -63,15 +63,15 @@ Third party contracts already have a default contract configuration in the base 
 
     The fields on the form change depending on the selection.
 
-<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d76031e214">
+<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d75827e214">
 
 Mapping type
 
-</th><th align="left" id="d76031e217">
+</th><th align="left" id="d75827e217">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d76031e223">
+</th></tr></thead><tbody><tr><td id="d75827e223">
 
 **Field mapping - Map fields from the request table to the fields in the contract repository table.**
 
@@ -85,7 +85,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d76031e271">
+</td></tr><tr><td id="d75827e271">
 
 **Template mapping- Map the template mappings of a contract template to the fields in the contract repository.**
 
@@ -98,7 +98,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d76031e311">
+</td></tr><tr><td id="d75827e311">
 
 **Template mapping- Map variables of record producer to the fields in the contract repository table.**
 

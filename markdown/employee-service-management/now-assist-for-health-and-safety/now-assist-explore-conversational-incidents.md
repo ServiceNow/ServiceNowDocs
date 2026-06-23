@@ -16,7 +16,7 @@ breadcrumb: [Explore, Now Assist for Health and Safety, Health and Safety, Emplo
 
 Use the Now Assist panel conversational interface to report Health and Safety incidents that enables you to engage with live agents, virtual agents, or both.
 
-A basic Health and Safety incident can be reported using the conversational language through the Now Assist panel. Using appropriate keywords such as health, safety, incident, or injury generates functional responses. These keywords can be configured by an admin on the Health and Safety workspace by navigating to **All**&gt;**Service Catalog**&gt;**Catalog definitions**&gt;**Record producers** and then editing the **Meta** field on the **Report Health and Safety Incident-Basic** record. For more information on record producers, see .
+A basic Health and Safety incident can be reported using the conversational language through the Now Assist panel. Using appropriate keywords such as health, safety, incident, or injury generates functional responses. These keywords can be configured by an admin on the Health and Safety workspace by navigating to **All**&gt;**Service Catalog**&gt;**Catalog definitions**&gt;**Record producers** and then editing the **Meta** field on the **Report Health and Safety Incident-Basic** record. For more information on record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 Employees can use the Now Assist panel icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: now assist panel in the **Employee Center** home page to open a chat panel to report a Health and Safety incident easily.
 

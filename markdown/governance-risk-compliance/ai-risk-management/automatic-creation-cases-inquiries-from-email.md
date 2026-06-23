@@ -33,7 +33,7 @@ This feature offers the following advantages:
 
 You must follow the following steps to enable the email reporting feature:
 
-1.  Admin must enable the Inbound Email Configuration from the Email Properties page. For more information, refer to .\[Omitted image "inbound-email-properties-airc.png"\] Alt text: Inbound email configurations to enable.
+1.  Admin must enable the Inbound Email Configuration from the Email Properties page. For more information, refer to [Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_InboundMailConfiguration.md).\[Omitted image "inbound-email-properties-airc.png"\] Alt text: Inbound email configurations to enable.
 2.  AI Case Admin \[sn\_ai\_case\_mgmt.ai\_case\_admin\] must update the group email field on the Case type record. Navigate to **AI Case Management** &gt; **Case type**.
 
     \[Omitted image "ai-case-group-email.png"\] Alt text: AI Case record type.

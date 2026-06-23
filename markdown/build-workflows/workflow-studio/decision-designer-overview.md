@@ -24,7 +24,7 @@ For an in-depth review and demo of decision table features and benefits, see [De
 
 -   As of the Washington DC release, Decision Builder is now part of Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor processes, flows, subflows, playbooks, actions, and decision tables in one place.
 -   The core Decision Builder feature is still available with the ServiceNow AI Platform® by default, but the latest updates are available for download through the Workflow Studio application in the ServiceNow® Store.
--   For more information about this update, see the Washington DC Decision Builder release notes.
+-   For more information about this update, see the [Washington DC Decision Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/decision-builder-rn.md).
 
 ## Get started
 

@@ -19,7 +19,7 @@ By using Coaching in Workforce Optimization for Customer Service, you can assess
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching/create-coaching-opportunity.md) using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 
@@ -168,7 +168,7 @@ Watch this short video to get an overview on coaching, assessments, and training
 
 ### About this task
 
-If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching/create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching/assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -184,15 +184,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d94465e635">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d94606e635">
 
 To
 
-</th><th align="left" id="d94465e638">
+</th><th align="left" id="d94606e638">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d94465e644">
+</th></tr></thead><tbody><tr><td id="d94606e644">
 
 **Perform adhoc assessments**
 
@@ -204,7 +204,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d94465e680">
+</td></tr><tr><td id="d94606e680">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -336,21 +336,21 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 3.  Click the **Skills** tab.
 
-    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see Skills Management.
+    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management/skills-management.md).
 
     You can also filter the skill matrix based on users, groups, skill type, skill level, or skill category. Reset the filter if you want to view the skills for all users.
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d94465e1009">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d94606e1009">
 
 To
 
-</th><th align="left" id="d94465e1012">
+</th><th align="left" id="d94606e1012">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d94465e1018">
+</th></tr></thead><tbody><tr><td id="d94606e1018">
 
 **Add a skill**
 
@@ -361,7 +361,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d94465e1048">
+</td></tr><tr><td id="d94606e1048">
 
 **Update a skill level**
 

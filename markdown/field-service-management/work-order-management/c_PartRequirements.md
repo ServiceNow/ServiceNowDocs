@@ -16,7 +16,7 @@ breadcrumb: [Manage inventory in Field Service Management, Manage work order tas
 
 After all work order tasks are qualified and the parent work order state automatically changes to **Qualified**, you can request more information from the qualifier, if necessary, and source any parts required for the tasks.
 
-If a work order was created from a [work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task. Part requirements can be used with any Service Management application.
+If a work order was created from a [work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task. Part requirements can be used with any [Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/service-management-legacy/c_ServiceManagement.md).
 
 To create part requirements and source parts, enable the **Part requirements are needed by agents** configuration option on the Field Service Configuration screen.
 

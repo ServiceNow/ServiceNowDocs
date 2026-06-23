@@ -67,15 +67,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d287873e243">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d286018e243">
 
 Action
 
-</th><th align="left" id="d287873e246">
+</th><th align="left" id="d286018e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287873e252">
+</th></tr></thead><tbody><tr><td id="d286018e252">
 
 **Create an incident**
 
@@ -85,7 +85,7 @@ Creates an incident for the alerts that match the specified filter.For details o
 
 To include additional fields in the incident, select **+ Add**.
 
-</td></tr><tr><td id="d287873e275">
+</td></tr><tr><td id="d286018e275">
 
 **Use outbound webhooks to send data to other systems**
 
@@ -97,7 +97,7 @@ Sends notifications to other systems using outbound webhooks. For example, this 
 
  To create an additional property, select **+ Add property**. The property can be any custom key-value pair that you want to include in the webhook payload, such as "Content-Type: application/json" or "Authorization: Bearer &lt;token&gt;".
 
-</td></tr><tr><td id="d287873e303">
+</td></tr><tr><td id="d286018e303">
 
 **Run other response actions**
 

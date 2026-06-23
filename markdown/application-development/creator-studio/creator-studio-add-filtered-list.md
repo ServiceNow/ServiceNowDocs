@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -52,7 +52,7 @@ To add a list to a workspace configuration, you must be given permission to work
 
 7.  Select **Apply conditions** in the Filtered list details panel and use the condition builder to specify what types of records the list should contain, selecting **Apply** when you're done.
 
-    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see .
+    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
     For example, the following conditions specify open and closed requests:
 

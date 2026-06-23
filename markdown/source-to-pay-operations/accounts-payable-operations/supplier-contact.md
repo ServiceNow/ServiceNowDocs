@@ -16,7 +16,7 @@ breadcrumb: [Data required for invoice processing, Accounts Payable Operations r
 
 You can add the supplier contacts allowing them to access the  Supplier Collaboration Portal  and start working on the most important tasks. You can view information about the supplier contacts and also indicates which user is the primary contact.
 
-For more information on cost centers and how it is referenced within financial systems, see .
+For more information on cost centers and how it is referenced within financial systems, see [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/cost-management/r_CostManagement.md).
 
 ## vm\_vdr\_contact table
 

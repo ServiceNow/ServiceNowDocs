@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Administering an app's underlying table, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -38,7 +38,7 @@ A general guideline is to use a table that extends the Request Task table.
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-For more information on the Task table, see .
+For more information on the Task table, see [Working with the Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_TaskTable.md).
 
 ## Repercussions of changing an app's table
 

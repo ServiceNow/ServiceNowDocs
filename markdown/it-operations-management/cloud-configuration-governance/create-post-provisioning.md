@@ -66,7 +66,7 @@ Flow: Select a workflow. All workflows created in the instance are listed.
 
 -   Flow: Select a subflow. All active subflows in the instance are listed.
 
-**Note:** For more information, see Subflows.
+**Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr><tr><td>
 

@@ -55,7 +55,7 @@ The Analytics Center always displays current, refreshed content.
 
 ## Result
 
-For more information on working with the Analytics Center, see .
+For more information on working with the Analytics Center, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-dashboards.md).
 
 **Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
 

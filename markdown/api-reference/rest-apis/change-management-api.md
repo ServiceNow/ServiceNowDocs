@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 201
+reading_time_minutes: 202
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -43,7 +43,7 @@ The Change Management API supports ITIL types and change models using Workflow S
 
 You can configure additional change models within your ServiceNow instance and then create change requests based on those change models using endpoints in this API. Use the [Change Management - GET /sn\_chg\_rest/change/model/\{sys\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/change-management-api.md) and [Change Management - GET /sn\_chg\_rest/change/model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/change-management-api.md) endpoints to obtain the available change models in an instance. Then use the [Change Management - POST /sn\_chg\_rest/change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/change-management-api.md) to create a change request based on a specified change model.
 
-For information on configuring change models, see Configure Change Management.
+For information on configuring change models, see [Configure Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/configure-change-management.md).
 
 The following roles are required to access the Change Management endpoints:
 
@@ -51,7 +51,7 @@ The following roles are required to access the Change Management endpoints:
 -   GET: change\_manager, itil, sn\_change\_read, or admin
 -   PATCH/POST: change\_manager, itil, or admin
 
-In addition, administrators can set change properties to configure Change Management behavior. For a list of these properties and a description of their available functionality, see Change Management properties.
+In addition, administrators can set change properties to configure Change Management behavior. For a list of these properties and a description of their available functionality, see [Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/r_ChangeManagementProperties.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
@@ -1907,7 +1907,7 @@ Worker response body parameter results vary depending on time slot availability.
 -   If the provided time slot is available for the change request within the schedule time slot, the worker API lists the available time slots in the **payload.spans** property. The **payload.spans** property isn't listed in the results otherwise.
 -   If there are no time slots available for change request duration provided within the defined scheduling time slot, the **messages.infoMessages** states the following: `D`
 
-    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see Configure conflict analysis properties.
+    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see [Configure conflict analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 
 The following GET /sn\_chg\_rest/change/worker/\{sys\_id\} example shows output provided using the ID provided in the worker.link detail. The results list open time spans available for the task duration.
@@ -2067,7 +2067,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -2082,7 +2082,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -2113,7 +2113,7 @@ textSearch
 
 </td><td>
 
-String to use to search all normal change request record fields. This search uses ServiceNow full text search platform functionality. For more information on ServiceNow search capabilities, see Search administration.Default: `IR_AND_OR_QUERY`
+String to use to search all normal change request record fields. This search uses ServiceNow full text search platform functionality. For more information on ServiceNow search capabilities, see [Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-administration/search-administration.md).Default: `IR_AND_OR_QUERY`
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -4494,7 +4494,7 @@ Worker response body parameter results vary depending on time slot availability.
 -   If the provided time slot is available for the change request within the schedule time slot, the worker API lists the available time slots in the **payload.spans** property. The **payload.spans** property isn't listed in the results otherwise.
 -   If there are no time slots available for change request duration provided within the defined scheduling time slot, the **messages.infoMessages** states the following: `D`
 
-    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see Configure conflict analysis properties.
+    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see [Configure conflict analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 
 The following GET /sn\_chg\_rest/change/worker/\{sys\_id\} example shows output provided using the ID provided in the worker.link detail. The results list open time spans available for the task duration.
@@ -4679,7 +4679,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -4694,7 +4694,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -6732,7 +6732,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -6747,7 +6747,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -7232,7 +7232,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -7247,7 +7247,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -7723,7 +7723,7 @@ curl "https://instance.servicenow.com/api/sn_chg_rest/v1/change/emergency/b0dbda
 
 Retrieves one or more change models based on the specified criteria.
 
-Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see Change Models.
+Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see [Change Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/change-models.md).
 
 ### URL format
 
@@ -7796,7 +7796,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -7811,7 +7811,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -7842,7 +7842,7 @@ textSearch
 
 </td><td>
 
-String to use to search all change model record fields. This search uses ServiceNow full text search platform functionality. For more information on ServiceNow search capabilities, see Search administration.Data type: String
+String to use to search all change model record fields. This search uses ServiceNow full text search platform functionality. For more information on ServiceNow search capabilities, see [Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-administration/search-administration.md).Data type: String
 
 Default: `IR_AND_OR_QUERY`
 
@@ -8203,7 +8203,7 @@ For brevity, this response only shows a single change model object.
 
 Retrieves the change model identified by the specified sys\_id.
 
-You can then use this change model to create the desired change request. For additional information on change models, see Change Models.
+You can then use this change model to create the desired change request. For additional information on change models, see [Change Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/change-models.md).
 
 ### URL format
 
@@ -8675,7 +8675,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -8690,7 +8690,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -9210,7 +9210,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -9225,7 +9225,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -9733,7 +9733,7 @@ sysparm\_query
 
 </td><td>
 
-Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
 
 -   &lt;col\_name&gt;: Name of the table column to filter against.
 -   &lt;operator&gt;: Supports the following values:
@@ -9748,7 +9748,7 @@ Encoded query used to filter the result set. You can use a UI filter to obtain a
 &lt;value&gt;: Value to match against.
 
 
-For more operators, see .
+For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
 
 All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
 
@@ -10577,7 +10577,7 @@ Name-value pairs representing the field\(s\) to update in the associated change 
 
 encrypted\_fields
 
-</td><td id="d3372e945">
+</td><td id="d3346e945">
 
 List of comma-separated fields to encrypt. These fields are encrypted before they are stored in the associated record. When specified, the endpoint calls the GlideRecord setDisplayValue\(\) method, instead of calling the setValue\(\) method.Because of this, you can also use this parameter to pass display values for non-encrypted fields, such as reference or choice fields, instead of passing sys\_ids or values.
 
@@ -11783,7 +11783,7 @@ One of the following scheduling response values for **messages.infoMessages** ar
 -   `Change has been updated` – Change requested has been updated for time slot.
 -   `No slots found for <number> days from now` – No time slots available for change request duration provided within the number of days defined in the schedule window.
 
-    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see Configure conflict analysis properties.
+    **Note:** The change request scheduling time slot default value is 90 days. To change this value, modify the **change.conflict.next\_available.schedule\_window** property. For more information, see [Configure conflict analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 
 The following GET /sn\_chg\_rest/change/worker/\{sys\_id\} example shows output provided using the ID provided in the worker.link detail. The results indicate that processing is complete and the change request has been updated with the first available time slot.
@@ -13146,7 +13146,7 @@ chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided in the following format: `chg_model=Normal`.
 
-For more information, see Change models.
+For more information, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/change-models.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13170,7 +13170,7 @@ type
 
 Name of the change request type listed in the Choices \[sys\_choice\] table. If the **chg\_model** is also populated, this field is only used as a change categorization. Provided in the following format: `type=Normal`.
 
-For more information, see Add a new change request type.
+For more information, see [Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/t_AddNewChangeType.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13201,7 +13201,7 @@ Object.chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided as a name-value pair in the following format: `{"chg_model" : "Cloud Infrastructure"}`
 
-For more information, see Change models.
+For more information, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/change-models.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13225,7 +13225,7 @@ Object.type
 
 Name of the change request type listed in the Choices \[sys\_choice\] table. If the **chg\_model** is also populated, this field is only used as a change categorization. Provided as a name-value pair in the following format: `{"type" : "emergency"}`
 
-For more information, see Add a new change request type.
+For more information, see [Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/t_AddNewChangeType.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13910,7 +13910,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the change management request for which to start the conflict checking process. For additional information on the conflict checking process, see Conflict detection.Data type: String
+Sys\_id of the change management request for which to start the conflict checking process. For additional information on the conflict checking process, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-management/c_ConflictDetection.md).Data type: String
 
 Table: Change Request \[change\_request\]
 

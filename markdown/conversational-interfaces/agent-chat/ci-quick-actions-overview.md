@@ -19,7 +19,7 @@ Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more 
 
 ## Activate quick actions
 
-To enable your agents to use quick actions, you must activate the and related plugins for Advanced Work Assignment, which is required for chat in Workspace.
+To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
 
 ## Default quick actions
 
@@ -83,7 +83,7 @@ r
 
 </td><td>
 
-Uses Response templates to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
+Uses [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md) to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
 
 </td><td>
 

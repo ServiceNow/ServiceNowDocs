@@ -69,7 +69,7 @@ Field Type
 
 </td><td>
 
-Type of field. For more information on the different field types, see Field types.
+Type of field. For more information on the different field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
  By default, there are only 18 field types to choose from. You can add a property to include more field types in Guided Application Creator. For more information, see [Add field types in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-add-field-types.md).
 
@@ -108,7 +108,7 @@ Table label
 
 </td><td>
 
-Unique label for the table \(such as **Laptops** or **Thin clients**\). The label appears on list and form views for the table. See Field Labels in Data dictionary tables.
+Unique label for the table \(such as **Laptops** or **Thin clients**\). The label appears on list and form views for the table. See Field Labels in [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Make extensible
 
 Option to enable other tables to extend this table.
 
- For more information on table extension, see Table extension and classes.
+ For more information on table extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 </td></tr><tr><td>
 

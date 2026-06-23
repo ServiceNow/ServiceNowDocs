@@ -15,5 +15,5 @@ ServiceNow Impact releases may include enhancements, as well as additional featu
 
 As of the May 2025 update to Yokohama, Impact release notes are included as part of the ServiceNow® release notes. The ServiceNow releases include new products and applications, as well as additional features and fixes for existing products. Read the release notes to learn about the release, prepare for your upgrade, and upgrade your instance.
 
-**Important:** For Yokohama Impact release information, see .
+**Important:** For Yokohama Impact release information, see [Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/impact-rn.md).
 

@@ -26,7 +26,7 @@ Role required: admin
 
 You designate someone to use Guided Application Creator by assigning them the sn\_g\_app\_creator.app\_creator role. You can allow this user to create applications in the global scope by also assigning the sn\_g\_app\_creator.global role.
 
-Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role to create applications in the global scope, add the **sn\_g\_app\_creator.allow\_global** system property and set it to **true**. For more information on adding a property, see Add a system property.
+Alternatively, to allow all users with the sn\_g\_app\_creator.app\_creator role to create applications in the global scope, add the **sn\_g\_app\_creator.allow\_global** system property and set it to **true**. For more information on adding a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Note:** Users with the admin role can create applications in the global scope, regardless of whether or not they have the sn\_g\_app\_creator.global role.
 

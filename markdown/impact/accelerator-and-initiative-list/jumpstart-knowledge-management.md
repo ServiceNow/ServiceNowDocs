@@ -20,7 +20,7 @@ The Jumpstart Your Knowledge Management Accelerator provides a demonstration of 
 
 Jumpstart Your Knowledge Management provides Impact customers with an  overview of Knowledge Management's key capabilities and features. This offering explores core functionalities and leading practices, guiding customers through effective implementation and adoption strategies. You will learn how to streamline knowledge creation and sharing while enhancing search outcomes for your organization. Additionally, we demonstrate how well crafted knowledge content amplifies results when used with AI-powered features. This Accelerator also includes key resources and leading practice guides to set you on the path to knowledge excellence.
 
-For more information on Resource Management, see .
+For more information on Resource Management, see [Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/resource-management/c_ResourceManagement.md).
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

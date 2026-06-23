@@ -37,7 +37,7 @@ Enables using code generation in supported script editors.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: You can also enable code generation from Now Assist Admin. For more information, see .
+-   Learn more: You can also enable code generation from Now Assist Admin. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: 
+-   Learn more: [Generate scripts from text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Enables tracking which lines of code are AI-generated. This code is indicated by
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: 
+-   Learn more: [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/tracking-ai-generated-code.md)
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ All requests for the Now Assist for Code model are redirected to Azure OpenAI fo
  -   Type: String
 -   Default value: na4c\_nowllm
 -   Location: System Property \[sys\_properties\] table
--   Learn more: 
+-   Learn more: [Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/enable-code-explain-and-summarize.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/now-assist-code-reference.md)

@@ -35,15 +35,15 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  In the Create new quote window, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d46215e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d46282e105">
 
 To
 
-</th><th align="left" id="d46215e108">
+</th><th align="left" id="d46282e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46215e114">
+</th></tr></thead><tbody><tr><td id="d46282e114">
 
 **Create quote for an account**
 
@@ -54,7 +54,7 @@ Select the **Account** and enter the following:-   Contact: Name of the primary 
 -   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d46215e137">
+</td></tr><tr><td id="d46282e137">
 
 **Create quote for a consumer**
 

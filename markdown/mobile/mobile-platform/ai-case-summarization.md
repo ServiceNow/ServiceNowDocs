@@ -30,8 +30,8 @@ Use a variety of Now Assist skills with your mobile input form screens.
 
     Summaries will generate using record fields such as short description, state, priority, resolution notes, existing work notes, and comments.
 
-    Record summarization is only available with select BU plugins and is currently available with .
+    Record summarization is only available with select BU plugins and is currently available with [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md).
 
-    This example shows a work order where Now Assist generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see .
+    This example shows a work order where Now Assist generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 
 

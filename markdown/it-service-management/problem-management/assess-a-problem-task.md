@@ -34,15 +34,15 @@ Assessing a problem task involves analyzing the scale and extent of the task, as
 
 2.  After assessing the task, perform the action based on your option.
 
-<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d120845e86">
+<table id="choicetable_yjt_n3k_wfb"><thead><tr><th align="left" id="d119576e86">
 
 Option
 
-</th><th align="left" id="d120845e89">
+</th><th align="left" id="d119576e89">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d120845e95">
+</th></tr></thead><tbody><tr><td id="d119576e95">
 
 **When you’re ready to work on the task**
 
@@ -50,7 +50,7 @@ Action to be taken
 
 Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: start stateThe problem task enters the **Work in Progress** state.
 
-</td></tr><tr><td id="d120845e118">
+</td></tr><tr><td id="d119576e118">
 
 **When you’re working on the task**
 
@@ -58,7 +58,7 @@ Select **Start Work**. \[Omitted image "pm-task-start-work.png"\] Alt text: star
 
 Select **Re-asses**.\[Omitted image "pm-task-reassess.png"\] Alt text: re-assess stateThe state of the problem task changes from **Work in Progress** back to **Assess**.
 
-</td></tr><tr><td id="d120845e143">
+</td></tr><tr><td id="d119576e143">
 
 **When you don’t want to work on the task, for example, the problem task is a duplicate or no longer needed**
 

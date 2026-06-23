@@ -101,7 +101,7 @@ Rest API Task Parameters
 
 </td></tr><tr><td colspan="2">
 
-Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see Remote help request API.
+Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see [Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/remote_help_request-api.md).
 
 </td></tr><tr><td>
 

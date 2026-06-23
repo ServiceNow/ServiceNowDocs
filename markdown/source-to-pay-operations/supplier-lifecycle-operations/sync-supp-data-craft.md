@@ -38,15 +38,15 @@ Because the supplier data may have changed from the time that you last imported 
 
 3.  Do one of the following.
 
-<table id="choicetable_gzt_5l3_5tb"><thead><tr><th align="left" id="d54678e118">
+<table id="choicetable_gzt_5l3_5tb"><thead><tr><th align="left" id="d54693e118">
 
 To
 
-</th><th align="left" id="d54678e121">
+</th><th align="left" id="d54693e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d54678e127">
+</th></tr></thead><tbody><tr><td id="d54693e127">
 
 **Synchronize with external thid-party application for the first time**
 
@@ -59,7 +59,7 @@ Do the following:
 
 The latest supplier data is imported and any changes that you made to the existing supplier data and the supplier locations are overwritten.
 
-</td></tr><tr><td id="d54678e155">
+</td></tr><tr><td id="d54693e155">
 
 **Synchronize with external third-party application subsequently after initial synchronization**
 

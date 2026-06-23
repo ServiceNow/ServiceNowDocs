@@ -26,15 +26,15 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  Provide the following details.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d80893e66">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d80918e66">
 
 Field
 
-</th><th align="left" id="d80893e69">
+</th><th align="left" id="d80918e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d80893e75">
+</th></tr></thead><tbody><tr><td id="d80918e75">
 
 **Select type**
 
@@ -42,7 +42,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d80893e84">
+</td></tr><tr><td id="d80918e84">
 
 **Template type**
 
@@ -56,7 +56,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d80893e123">
+</td></tr><tr><td id="d80918e123">
 
 **Name**
 
@@ -64,7 +64,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d80893e132">
+</td></tr><tr><td id="d80918e132">
 
 **Short description**
 
@@ -72,7 +72,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d80893e142">
+</td></tr><tr><td id="d80918e142">
 
 **Source Type**
 
@@ -84,7 +84,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Archived data: Select an archived table.
 
 
-</td></tr><tr><td id="d80893e165">
+</td></tr><tr><td id="d80918e165">
 
 **Table**
 
@@ -92,7 +92,7 @@ The source for the project or template you’re creating.-   Table: Any database
 
 Select a table that you want to base your project on. This list varies depending on the type of source that you’ve selected.
 
-</td></tr><tr><td id="d80893e177">
+</td></tr><tr><td id="d80918e177">
 
 **Do you want to add a KPI dashboard?**
 
@@ -100,7 +100,7 @@ Select a table that you want to base your project on. This list varies depending
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d80893e192">
+</td></tr><tr><td id="d80918e192">
 
 **Do you want to Auto retire?**
 

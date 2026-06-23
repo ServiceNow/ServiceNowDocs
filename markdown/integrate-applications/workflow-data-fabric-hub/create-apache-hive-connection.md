@@ -48,15 +48,15 @@ Role required: df\_connection\_admin
 
 4.  Configure the metastore that you want to use with Apache Hive.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d492540e235">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d488474e235">
 
 Option
 
-</th><th align="left" id="d492540e238">
+</th><th align="left" id="d488474e238">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d492540e244">
+</th></tr></thead><tbody><tr><td id="d488474e244">
 
 **Hive Thrift**
 
@@ -70,7 +70,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d492540e279">
+</td></tr><tr><td id="d488474e279">
 
 **AWS Glue**
 

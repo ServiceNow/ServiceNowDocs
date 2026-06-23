@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summa
 release: yokohama
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -38,7 +38,7 @@ AI Search
 
 </td><td>
 
-When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see  or .
+When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/index-single-source-ais.md) or [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/index-multiple-sources-ais.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ App Engine Studio
 
 Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
-For more information, see .
+For more information, see [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/app-readiness-report.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Automated Test Framework
 
 Copy and customize quick start tests provided by the ServiceNow AI Platform® to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
 
-The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see .
+The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see [Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework-atf/available-quick-start-tests.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ DevOps Change Velocity
 
 </td><td>
 
-If you are a new customer or are using a zBoot instance and you want to create type-based workflow change requests in DevOps Change Velocity, you must add the**com.snc.change\_management.change\_model.type\_compatibility** property and set it to True. For more information, see .
+If you are a new customer or are using a zBoot instance and you want to create type-based workflow change requests in DevOps Change Velocity, you must add the**com.snc.change\_management.change\_model.type\_compatibility** property and set it to True. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 If you are an upgrading customer, you must run the **ReConfigure Bitbucket Server Repositories for PullRequest** job to re-configure your existing Bitbucket Server or Bitbucket Data Center repositories so that pull request records can be imported. You can navigate to **All &gt; System Definition &gt; Scheduled Jobs** to search for this job and run it.
 
@@ -196,7 +196,7 @@ Impact
 
 </td><td>
 
-The Impact Store Application configuration requires a sequence of tasks. See  for details.
+The Impact Store Application configuration requires a sequence of tasks. See [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-impact-platform.md) for details.
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Instance Data Replication
 
 </td><td>
 
-Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see .
+Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication-idr/upgrading-legacy-replication-sets-v2.md).
 
 Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
@@ -214,21 +214,21 @@ MID Server
 
 </td><td>
 
-For the latest MID Server system requirements, see MID Server system requirements. The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
+For the latest MID Server system requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md). The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
 
 If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
 -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
 -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
 
-All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages MID Server upgrades.
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md).
 
-Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See MID Server fails to start for more information.
+Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/mid-startup-fails.md) for more information.
 
 For more information about MID Server upgrades, see the following topics:
 
--   MID Server pre-upgrade check: Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   Upgrade the MID Server manually: Describes how to upgrade your MID Servers manually.
+-   [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+-   [Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md): Describes how to upgrade your MID Servers manually.
 
 </td></tr><tr><td>
 
@@ -284,7 +284,7 @@ Now Assist for Security Incident Response
 
 </td><td>
 
-For more information about required applications for Now Assist for Security Incident Response, see .
+For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.md).
 
 **Note:**
 
@@ -307,7 +307,7 @@ Now Assist for Vulnerability Response
 
 </td><td>
 
-For more information about required applications for Now Assist for Vulnerability Response, see .
+For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-vr/supporting-information-now-assist-vr.md).
 
 **Note:**
 
@@ -330,7 +330,7 @@ If you’re upgrading to Now Assist in Contract Management starting with Yokoham
 3.  In the script, add the use case ids that you want to migrate to the Now Assist Admin console.
 4.  Select **Run Fix Script**.
 
-For more information, see .
+For more information, see [Post-upgrade steps for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.md).
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Portfolio Planning
 
 </td><td>
 
-After upgrading to Portfolio Planning v8.8.0, the custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see  and .
+After upgrading to Portfolio Planning v8.8.0, the custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md) and [Create a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md).
 
 </td></tr><tr><td>
 
@@ -389,13 +389,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see Download the RPA applications from RPA Hub.
+For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/download-installer-rpa.md).
 
 The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Yokohama.
 
 Based on the number of records in the application file table, you may experience a delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Yokohama.
 
-Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see .
+Before upgrading RPA Hub to Yokohama, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 After you upgrade to Yokohama, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -407,7 +407,7 @@ Security Posture Control
 
 </td><td>
 
-For a complete list of the applications that are required to implement Security Posture Control, see Install Security Posture Control.
+For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/spc-install.md).
 
 </td></tr><tr><td>
 
@@ -436,7 +436,7 @@ Ensure that the following applications have compatible upgraded versions:
 -   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
 -   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
 
-For more information on compatible versions, see .
+For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-operations-workspace/sow-itsm-itom-version.md).
 
 </td></tr><tr><td>
 
@@ -444,7 +444,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see .
+ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/updating-apps-app-manager.md).
 
 </td></tr><tr><td>
 
@@ -452,7 +452,7 @@ ServiceNow SDK
 
 </td><td>
 
-Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see .
+Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see [Upgrade the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/upgrade-servicenow-sdk.md).
 
 ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
 
@@ -487,7 +487,7 @@ Strategic Planning
 
 After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
 
--   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see  and .
+-   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md) and [Create a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md).
 -   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
 
 </td></tr><tr><td>
@@ -496,7 +496,7 @@ Subscription Management
 
 </td><td>
 
-Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see .
+Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/update-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -560,7 +560,7 @@ Workforce Optimization for ITSM
 
 </td><td>
 
--   **Enhanced security to access Workforce Optimization for ITSM**
+-   **[Enhanced security to access Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/workforce-optimization-for-it-service-management/components-installed-workforce-optimization-itsm.md)**
 
 When you upgrade to the Yokohama release, you have the option to turn on enhanced security for the Workforce Optimization for ITSM application. To get the enhanced security, you must contact Now Support to install the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\). After you install the plugin, you need the roles listed here to access the respective features.
 

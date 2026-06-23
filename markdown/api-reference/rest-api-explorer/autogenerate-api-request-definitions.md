@@ -26,15 +26,15 @@ Role required: web\_service\_admin
 
 1.  Create a scripted REST API request sampling configuration in one of the following ways.
 
-<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d256525e66">
+<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d256556e66">
 
 Option
 
-</th><th align="left" id="d256525e69">
+</th><th align="left" id="d256556e69">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d256525e75">
+</th></tr></thead><tbody><tr><td id="d256556e75">
 
 **Navigate through a scripted REST API record**
 
@@ -46,7 +46,7 @@ Procedure
 4.  In the **Request Sampling Configuration** tab, select **New**.
 
 
-</td></tr><tr><td id="d256525e123">
+</td></tr><tr><td id="d256556e123">
 
 **Navigate directly to a new scripted REST API request sampling configuration**
 

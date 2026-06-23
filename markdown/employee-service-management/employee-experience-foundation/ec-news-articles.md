@@ -113,7 +113,7 @@ For more information, see [Content templates](https://raw.githubusercontent.com/
 
 ## Customizing the News experience
 
-The News Center and Article Detail pages support other Content Publishing widgets. For example, you can configure the News Center page to display upcoming events. For information on configuring the portal pages, see .
+The News Center and Article Detail pages support other Content Publishing widgets. For example, you can configure the News Center page to display upcoming events. For information on configuring the portal pages, see [Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_Pages.md).
 
 To set a limit for the number of articles displayed in the News widget or to select different pages for the News Center or Article display, see the News section of [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 

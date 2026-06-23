@@ -46,15 +46,15 @@ You can do these actions by using the Now Assist icon:
 
     \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d32536e158">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d32438e158">
 
 Chat message window
 
-</th><th align="left" id="d32536e161">
+</th><th align="left" id="d32438e161">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d32536e169">
+</th></tr></thead><tbody><tr><td id="d32438e169">
 
 **Typed response**
 
@@ -71,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d32536e203">
+</td></tr><tr><td id="d32438e203">
 
 **Left blank**
 

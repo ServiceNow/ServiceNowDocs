@@ -20,7 +20,7 @@ Configure pull connectors to personalize domain separation of events so you can 
 
 Make sure that you have the following setup:
 
--   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see .
+-   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 -   You enabled the **evt\_mgmt.connector\_enable\_custom\_domain\_separation** system property .
 -   You installed the following plug-ins on your ServiceNow instance:
 
@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d163517e322">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d161651e323">
 
 Parameter
 
-</th><th align="left" id="d163517e325">
+</th><th align="left" id="d161651e326">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d163517e331">
+</th></tr></thead><tbody><tr><td id="d161651e332">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d163517e341">
+</td></tr><tr><td id="d161651e342">
 
 **__payloadDomainInfoFieldName__**
 

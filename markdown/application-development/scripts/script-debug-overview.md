@@ -18,21 +18,21 @@ Debug scripts using session logs and ServiceNow AI Platform debugging tools such
 
 ## Debugging server-side scripts
 
-Use the Script Debugger and session logs to debug server-side code. For more information, see .
+Use the Script Debugger and session logs to debug server-side code. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md).
 
-You can also use session debug to display error messages related to a server-side script that runs as a result of a client-side change. For more information, see .
+You can also use session debug to display error messages related to a server-side script that runs as a result of a client-side change. For more information, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md).
 
-GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values. For more information, see GSLog API.
+GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values. For more information, see [GSLog API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GSLogBoth.md).
 
 ## Debugging client-side scripts
 
-Use session debug to display debugging messages in the user interface. For more information, see . Use the session log to view logging information for script includes and custom UIs, such as Agent Workspace.
+Use session debug to display debugging messages in the user interface. For more information, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md). Use the session log to view logging information for script includes and custom UIs, such as Agent Workspace.
 
 You can also debug client-side scripts using browser-based developers tools.
 
 ## Debugging applications and scopes
 
-Use the application debugging options to understand how a script's application scope might affect your application, table, or record. You may need to update cross-scope privileges to troubleshoot scope access issues. See .
+Use the application debugging options to understand how a script's application scope might affect your application, table, or record. You may need to update cross-scope privileges to troubleshoot scope access issues. See [Debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_DebuggingApplications.md).
 
 -   **[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/script-debugger.md)**  
 The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript. Users with the log\_debugger role can use the Session Log to view and download required logs.

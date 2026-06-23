@@ -18,7 +18,7 @@ Deferred loading helps delay the loading of a resource or widget to improve the 
 
 ## Before you begin
 
-Ensure you understand the deferred load behavior. For more information, see  and .
+Ensure you understand the deferred load behavior. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) and .
 
 Role required: admin.
 

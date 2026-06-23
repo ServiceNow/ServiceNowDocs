@@ -103,7 +103,7 @@ You can configure these secondary values by navigating to **UX Header Configurat
 
 \[Omitted image "alert-header.png"\] Alt text: Header.\[Omitted image "alert-sec-value.png"\] Alt text: Secondary value.
 
-For information on the form headers, see .
+For information on the form headers, see [Set up a form header in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/config-ws-form-header.md).
 
 Zoom and focus: Selecting on an alert zooms the map to a smaller area centered on the alert's location.
 

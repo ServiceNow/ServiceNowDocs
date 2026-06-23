@@ -44,7 +44,7 @@ Table that the extracted data is cached and stored in.The transform table is a t
 
 The specified Glide table connects the source ERP extraction table and the target table for the extracted data.
 
-If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see .
+If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 </td></tr><tr><td>
 

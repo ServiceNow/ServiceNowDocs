@@ -32,7 +32,7 @@ The following items are installed with Order Management:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see Find components installed with an application.
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Procedure
 

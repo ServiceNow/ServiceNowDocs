@@ -29,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 -   ITOM Discovery License plugin \(**com.snc.itom.discovery.license**\). You must activate this plugin.
 -   ITOM Licensing plugin \(**com.snc.itom.license**\).
 
-    For more information, see .
+    For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 
 -   For development environment only - IntegrationHub ETL \(**sn\_int\_studio**\).
 -   Nokia Altiplano Platform \(access to its REST northbound API\).
@@ -66,7 +66,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
     2.  If a MID Server has been configured, set all to **Mark as Complete**.
 
-        For more information on how to install and configure MID Server, see .
+        For more information on how to install and configure MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/configure-mid-server.md).
 
 4.  Configure Connectivity:
 
@@ -92,7 +92,7 @@ Change the application scope to â€˜Service Graph Connector for Nokia Altiplanoâ€
 
             **Note:**
 
-            Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use  \(as part of the Guided setup\).
+            Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) \(as part of the Guided setup\).
 
         4.  Leave the rest of the fields as default, select **Submit** and then **Mark as Complete**.
 

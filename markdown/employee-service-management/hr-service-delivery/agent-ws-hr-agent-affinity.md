@@ -37,5 +37,5 @@ HR Admin \[sn\_hr\_core.admin\]
 -   Contains the HR AWA Admin \[sn\_hr\_awa.admin\] role.
 -   Contains the Advanßced Work Assignment Administrator \[awa\_admin\] role.
 
-For more information, see Agent Affinity.
+For more information, see [Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md).
 

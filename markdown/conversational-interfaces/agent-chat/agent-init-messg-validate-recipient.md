@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
 
 ## Procedure
 
@@ -37,7 +37,7 @@ By using extension points, you can easily integrate customizations without havin
     -   Create and register a custom script include.
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 
-        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the Conversational SMS service channel application.
+        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md) application.
 
 4.  Associate user profiles for an agent-initiated messages by adding the global.ChannelSendToValidation extension point to the script include.
 

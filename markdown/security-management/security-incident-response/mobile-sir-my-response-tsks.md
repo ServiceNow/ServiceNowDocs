@@ -60,15 +60,15 @@ From the list of records, reassign an open response task that is assigned to you
 
     \[Omitted image "mobile-sir-my-tasks.jpg"\] Alt text: My Response Task record.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d195496e229">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d195531e229">
 
 Option
 
-</th><th align="left" id="d195496e232">
+</th><th align="left" id="d195531e232">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195496e238">
+</th></tr></thead><tbody><tr><td id="d195531e238">
 
 **Details tab**
 
@@ -78,7 +78,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Assign to Another**.
  After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send in Android.\) or **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d195496e283">
+</td></tr><tr><td id="d195531e283">
 
 **Activity Stream tab**
 
@@ -90,7 +90,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu.\) to edit or reassign the task.
 
 
-</td></tr><tr><td id="d195496e316">
+</td></tr><tr><td id="d195531e316">
 
 **Tap a screen icon at the bottom of the screen.**
 

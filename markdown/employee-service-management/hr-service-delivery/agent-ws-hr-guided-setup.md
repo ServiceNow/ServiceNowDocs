@@ -33,5 +33,5 @@ The landing page provides information on the different categories, roles, and Up
 
 The HR Agent Workspace Guided Setup page provides a list of different categories. Select the **Get Started** button under each category to start configuring HR Service Delivery Agent Workspace.
 
-For more information on **Guided Setup**, see Using guided setup.
+For more information on **Guided Setup**, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
 

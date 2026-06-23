@@ -57,7 +57,7 @@ HR manager \[sn\_hr\_core.manager\]
 
 Grants access to all HR cases, profiles, and secure information.With this role, you can manage HR Service Delivery Agent Workspace lists and categories.
 
- This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see Elevated privilege roles.
+ This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/c_ElevatedPrivilege.md).
 
  The Workspace user \[workspace\_user\] role allows you to access HR Service Delivery Agent Workspace and create and access interactions.
 

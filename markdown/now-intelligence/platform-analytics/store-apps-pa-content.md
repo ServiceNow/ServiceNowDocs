@@ -28,7 +28,7 @@ CSDM and CMDB Data Foundations dashboards
 
 ## Customer Service applications
 
--   
+-   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
 -   Workforce Optimization for Customer Service Management
 
 ## DevOps applications
@@ -53,14 +53,14 @@ Firewall Audits and Reporting
 
 ## IT Service Management applications
 
--   Coaching
+-   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching/coaching-landing.md)
 -   Continual Improvement Management
 -   On-Call Scheduling
 -   Service Portfolio Management Premium \(Service Owner Workspace\)
 
 ## AI Experience applications
 
-NLU Workbench
+[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/nlu-service/nlu-landing.md)
 
 **Parent Topic:**[Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics/content-packs-in-form-analytics.md)
 

@@ -18,7 +18,7 @@ Work on the medical device issue case for the corrective maintenance of medical 
 
 **Important:** Starting with the Xanadu release, Healthcare Computerized Maintenance Management System is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-To use maintenance and servicing workflows in Clinical Device Management, please see Field Service Management. To use inventory and management workflows in Clinical Device Management, please see .
+To use maintenance and servicing workflows in Clinical Device Management, please see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md). To use inventory and management workflows in Clinical Device Management, please see [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md).
 
 Role required: sn\_hcls\_cmms.clinical\_engineer
 

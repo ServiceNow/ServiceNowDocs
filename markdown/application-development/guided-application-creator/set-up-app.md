@@ -62,7 +62,7 @@ In ServiceNow Studio, configure:
 -   UI policy
 -   Reports
 
-You can also learn how to automate your processes and create business logic for your application in Flows in Workflow Studio.
+You can also learn how to automate your processes and create business logic for your application in [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 -   **[Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-app-record.md)**  
 Create an application record in Guided Application Creator to identify a custom application.

@@ -26,7 +26,7 @@ Write scripts quickly with AI-generated code by telling Now Assist what you want
 
 ### Before you begin
 
-Learn how to write prompts to generate better code suggestions. For more information, see .
+Learn how to write prompts to generate better code suggestions. For more information, see [General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/general-guidelines-code-generation.md).
 
 Role required: now.assist.creator
 

@@ -133,7 +133,7 @@ Flow or workflow that you want to associate with this item. It defines how this 
 
  For information about defining service fulfillment steps, see [Define a service fulfillment step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-sf-step.md).
 
- For information about Workflow Studio flows, see Flows.
+ For information about Workflow Studio flows, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flows.md).
 
 </td></tr><tr><td>
 

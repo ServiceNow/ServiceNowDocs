@@ -18,7 +18,7 @@ JavaScript mode is a design and runtime setting for custom applications and scri
 
 The JavaScript mode controls which JavaScript features you have access to in an application or script. The default mode for new scoped applications is ECMAScript 2021 \(ES12\) and for new global applications, it’s ES5 Standards. You can also turn on ECMAScript 2021 \(ES12\) mode for individual scripts in applications that use ES5 Standards or Compatibility mode.
 
-For more information about features supported by the ECMAScript 2021 \(ES12\) and ES5 Standards modes, see .
+For more information about features supported by the ECMAScript 2021 \(ES12\) and ES5 Standards modes, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 
 ## ECMAScript 2021 \(ES12\) mode
 

@@ -20,7 +20,7 @@ Use the Mobile App Builder to assign your Next Experience themes.
 
 Role required: admin
 
-To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see Exploring themes in Next Experience.
+To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 **Note:** If you are a new customer starting with the Yokohama release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Polaris** theme automatically.
 
@@ -40,7 +40,7 @@ To use Next Experience theming, you must have Next Experience enabled on your in
 
     With Next Experience enabled, your instance uses the **Polaris** by default. If you want to continue to use this theme, you do not need to update this field. You will only need to change this field if you have a custom theme you want to apply to the app, or if you had previously opted out of Next Experience.
 
-    For information on creating your own themes, see Exploring themes in Next Experience.
+    For information on creating your own themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
 
 6.  Click the **Save** button in the upper right corner of the screen to save your changes.
 

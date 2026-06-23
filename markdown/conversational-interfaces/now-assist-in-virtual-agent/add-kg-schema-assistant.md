@@ -28,7 +28,7 @@ Knowledge Graph transforms search into an intelligent, predictive, and efficient
 
 **Note:** Knowledge Graph is not applicable to the Now Assist panel - Developer assistant.
 
-For more information about Knowledge Graph, see .
+For more information about Knowledge Graph, see [Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/knowledge-graph/example-use-case-for-knowledge-graph.md).
 
 **Note:** By default, search personalization is available with AI Search in the assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open support ticket.
 

@@ -70,6 +70,6 @@ Translate texts to multiple languages using the configured translation service p
 
 When an error occurs, error codes populate with the reason for the error. Refer to the following information for the standard error codes that appear while you work on the Dynamic Translation spoke actions corresponding to the Dynamic Translation APIs.
 
--   Dynamic Translation - Scoped
--   Dynamic Translation - Client
+-   [Dynamic Translation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/DynamicTranslation.md)
+-   [Dynamic Translation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/DynamicTranslationClientAPI.md)
 

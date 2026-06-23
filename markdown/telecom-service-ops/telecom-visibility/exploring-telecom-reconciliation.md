@@ -34,7 +34,7 @@ IRE offers a centralized framework for identifying and reconciling data from mul
 -   IRE creates CIs if no match is found.
 -   IRE updates are attributed based on the Reconciliation Rules.
 
-For more information, see .
+For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
 ## CMDB Compliance and Telecom Discrepancy Identification &amp; Reconciliation
 
@@ -45,7 +45,7 @@ CMDB Compliance is a toolset that enables administrators to certify CMDB data fo
 
 The logic for Telecom Discrepancy Identification &amp; Reconciliation, as well as the example remediation subflows, are included in the Yokohama release and will be installed automatically with the TSOM Visibility plugin.
 
-For more information on the general CMDB Compliance toolset, see .
+For more information on the general CMDB Compliance toolset, see [CMDB Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/c_Compliance.md).
 
 ## Discrepancy Identification Scenarios \(using Certification Audits\)
 
@@ -58,7 +58,7 @@ Discrepancy identification in TSOM Visibility relies on using CMDB Compliance \(
 
 **Note:** The current release focuses on the identification and reconciliation of discrepancies at the physical resource layer. In the upcoming release, this functionality is extended to include support for the logical resource layer and attributes as well.
 
-For more information on the general Certifications Audits feature, see .
+For more information on the general Certifications Audits feature, see [Certification audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/c_CertificationAudits.md).
 
 ## Follow-On Task types created for failed Audit Result Records
 
@@ -80,7 +80,7 @@ For more information on the general Follow-on Tasks feature, see Building Subflo
 
 Once an audit identifies a discrepancy, it’s logged as a Follow-on Task. The system enables users to define a subflow for specific discrepancy scenarios, enabling them to distinguish between various types of discrepancies and create custom flows to remediate them.
 
-For more information on how to build a subflow, see .
+For more information on how to build a subflow, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/subflows.md).
 
 ## Usage Example
 
@@ -123,7 +123,7 @@ When the Service Operation CMDB Compliance Audit runs, it identifies this discre
 7.  **All** &gt; **System Definition** &gt; **UI Actions**.
 8.  Open the **Remediate** UI action to observe.\[Omitted image "telecom-ui-actions.png"\] Alt text: UI actions.
 
-    For more information on UI actions, see .
+    For more information on UI actions, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_UIActions.md).
 
 
 For this example, the Remediate UI action \(triggered by the **Remediate**\) calls the Execute TSOM CI Decommission subflow to address and resolve the discrepancy specified in the Follow-On Task TASK0020215. Additionally, we must decommission an old Card40, which will be executed automatically by calling the subflow ‘TSOM Decommission Card’.

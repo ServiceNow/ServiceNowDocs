@@ -42,7 +42,7 @@ Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about component
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the .
+-   Learn more about what's new and changed, see the [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/sales-order-management-rn-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

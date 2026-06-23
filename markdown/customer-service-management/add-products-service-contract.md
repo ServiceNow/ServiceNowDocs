@@ -34,15 +34,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d144763e82">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d144926e82">
 
 Interface
 
-</th><th align="left" id="d144763e85">
+</th><th align="left" id="d144926e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d144763e91">
+</th></tr></thead><tbody><tr><td id="d144926e91">
 
 **ServiceNow AI Platform interface**
 
@@ -50,7 +50,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d144763e114">
+</td></tr><tr><td id="d144926e114">
 
 **CSM Configurable Workspace**
 
@@ -63,15 +63,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to service contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d144763e164">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d144926e164">
 
 Add to
 
-</th><th align="left" id="d144763e167">
+</th><th align="left" id="d144926e167">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d144763e173">
+</th></tr></thead><tbody><tr><td id="d144926e173">
 
 **Service Contracts**
 
@@ -85,7 +85,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d144763e214">
+</td></tr><tr><td id="d144926e214">
 
 **Service Contract Lines**
 
@@ -100,7 +100,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it's not added to the related entitlements.
 
-</td></tr><tr><td id="d144763e267">
+</td></tr><tr><td id="d144926e267">
 
 **Entitlements**
 

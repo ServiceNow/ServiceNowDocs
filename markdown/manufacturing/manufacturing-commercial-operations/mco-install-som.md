@@ -16,7 +16,7 @@ breadcrumb: [Set up additional requirements \(optional\), Set up your environmen
 
 Set up the Order Management applications for Manufacturing Commercial Operations to optimize the lead-to-cash cycle and allow your agents can work on various stages of the manufacturing life cycle, such as order capture and fulfillment, contracts, and entitlements.
 
-To configure Order Management application, see .
+To configure Order Management application, see [Install and configure Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/order-mgt-configuring.md).
 
 ## Installing and configuring Order Management applications
 
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -40,7 +40,7 @@ Create product offerings and the associated product catalogs that can be used by
 
 </td></tr><tr><td>
 
-
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -48,7 +48,7 @@ Create product offerings and the associated product catalogs that can be used by
 
 </td></tr><tr><td>
 
-Configuring product pricing with Pricing Management application
+[Configuring product pricing with Pricing Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/som-managing-product-pricing.md)
 
 </td><td>
 

@@ -42,15 +42,15 @@ ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as 
 
 5.  Specify a private registry as the default registry or a scoped registryfrom which you can install packages.
 
-<table id="choicetable_mnm_z32_42c"><thead><tr><th align="left" id="d135836e146">
+<table id="choicetable_mnm_z32_42c"><thead><tr><th align="left" id="d136648e146">
 
 Option
 
-</th><th align="left" id="d135836e149">
+</th><th align="left" id="d136648e149">
 
 Example
 
-</th></tr></thead><tbody><tr><td id="d135836e155">
+</th></tr></thead><tbody><tr><td id="d136648e155">
 
 **Default registry**
 
@@ -60,7 +60,7 @@ Example
 "package-manager.defaultRegistry": "<private-registry-url>",
 ```
 
-</td></tr><tr><td id="d135836e167">
+</td></tr><tr><td id="d136648e167">
 
 **Scoped registry**
 
@@ -82,7 +82,7 @@ Example
 
 6.  Provide your credentials for accessing the private registry.
 
-<table id="choicetable_qmx_xht_ydc"><tbody><tr><td id="d135836e195">
+<table id="choicetable_qmx_xht_ydc"><tbody><tr><td id="d136648e195">
 
 **Basic authentication**
 
@@ -99,7 +99,7 @@ Provide a user name and password to access the default registry that you specifi
 ]
 ```
 
-</td></tr><tr><td id="d135836e206">
+</td></tr><tr><td id="d136648e206">
 
 **Legacy authentication**
 
@@ -115,7 +115,7 @@ Provide a legacy token to access the default registry that you specified. Legacy
 ] 
 ```
 
-</td></tr><tr><td id="d135836e217">
+</td></tr><tr><td id="d136648e217">
 
 **Token authentication**
 

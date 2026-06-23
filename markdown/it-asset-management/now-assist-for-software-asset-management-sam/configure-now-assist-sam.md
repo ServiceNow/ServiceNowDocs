@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SAM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for SAM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
-Domain separation is supported in Now Assist for Software Asset Management \(SAM\). For details, see .
+Domain separation is supported in Now Assist for Software Asset Management \(SAM\). For details, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
 Starting with the Zurich Patch 4 release, generative AI skills for Now Assist for SAM are automatically activated on your instance by default and require no configuration. However, if you deactivate a skill, you need to manually reactivate that skill by following the specified procedure.
 

@@ -46,7 +46,7 @@ For each client that you want to access servers on an instance, create an OAuth 
 
 4.  On the form, fill in the required fields.
 
-    For more information about this form, see .
+    For more information about this form, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
 <table id="table_acq_zq2_hhc"><thead><tr><th>
 

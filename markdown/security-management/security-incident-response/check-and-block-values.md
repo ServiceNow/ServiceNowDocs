@@ -106,7 +106,7 @@ After the workflow has identified a value that is not on the firewall, the recor
 
 Input variables determine the initial behavior of the activity.
 
-**Note:** You must manually enter the input variables for this activity and then publish the workflow. If the workflow is not published, the input variables will not be saved for non-admin users.
+**Note:** You must manually enter the input variables for this activity and then [publish the workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/legacy-workflow/work-on-workflows.md). If the workflow is not published, the input variables will not be saved for non-admin users.
 
 |Variable|Description|
 |--------|-----------|

@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [IPAM integration, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Create an IP pool to associate a cloud subnet with an IPAM provider instance.
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_admin
--   Create Infoblox credentials and [register an Infoblox server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-infoblox.md).
+-   Create [Infoblox credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/infoblox-creds.md) and [register an Infoblox server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-infoblox.md).
 -   Run Discovery on the cloud account to find subnets or [manually create cloud subnets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-subnet.md).
 
 **Note:** This functionality is not supported with our template-based cloud catalogs.

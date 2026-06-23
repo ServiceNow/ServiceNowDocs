@@ -18,7 +18,7 @@ Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) direct
 
 ## Before you begin
 
-You must first create the alias for Zero Copy Connector for ERP. For more information, see .
+You must first create the alias for Zero Copy Connector for ERP. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 Role required: admin
 
@@ -47,7 +47,7 @@ Alternatively, you can run Guided Setup. For more information, see [Run Guided S
 
     You must specify a connection and login credential to be used simultaneously. That is, the connection you configure uses the defined login credentials for the connection.
 
-    For a description of the field values, see [Zero Copy Connector for ERP connection and credentials field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see  for field and MID Server details.
+    For a description of the field values, see [Zero Copy Connector for ERP connection and credentials field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/create-https-connection.md) for field and MID Server details.
 
 5.  Set up the Zero Copy Connector for ERP connection.
 

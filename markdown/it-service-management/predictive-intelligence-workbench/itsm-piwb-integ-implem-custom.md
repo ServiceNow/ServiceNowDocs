@@ -28,5 +28,5 @@ The scripted extension point is PIWBPredictionProcessor​ and PIWBPredictionPro
 
 ## Customizing default implementation
 
-If you want to customize the default implementation, you can modify the PIWBPredictionProcessor\_incident​ script. The business rule **PIWB Prediction – Incident** on the Incident table calls the PIWBPredictionProcessor\_incident​ script for predictions. For details about scripted extension points, refer to Using extension points to extend application functionality.
+If you want to customize the default implementation, you can modify the PIWBPredictionProcessor\_incident​ script. The business rule **PIWB Prediction – Incident** on the Incident table calls the PIWBPredictionProcessor\_incident​ script for predictions. For details about scripted extension points, refer to [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
 

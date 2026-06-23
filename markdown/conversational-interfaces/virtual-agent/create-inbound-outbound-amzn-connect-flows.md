@@ -99,5 +99,5 @@ Role required: admin
 
 ## What to do next
 
-Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see Configure a contact flow for an automated caller interaction.
+Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/establish-automated-bot-interactions.md).
 

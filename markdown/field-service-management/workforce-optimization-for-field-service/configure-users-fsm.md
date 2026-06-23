@@ -28,7 +28,7 @@ The steps for configuring users are:
 
     Appoint additional managers for your user groups when Workforce Optimization for Field Service is active, ensuring the continuity of work in the absence of a manager.
 
-3.  Create a user
+3.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
     Create users using the ServiceNow AI Platform user administration feature or during guided setup.
 

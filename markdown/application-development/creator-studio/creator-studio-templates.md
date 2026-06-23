@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -40,7 +40,7 @@ Every app in Creator Studio automatically creates a table where all opened recor
 
 **Note:** If an app's underlying table is changed to one that doesn't extend the Request Task table, automations won't work.
 
-[Extending](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see .
+[Extending](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see [Working with the Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_TaskTable.md).
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 

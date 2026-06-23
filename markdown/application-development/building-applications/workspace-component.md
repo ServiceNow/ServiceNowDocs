@@ -24,17 +24,17 @@ Once deployed to your instance, you can add components to Workspace in these way
 
 -   **Add a component to a Workspace modal**
 
-    Use a UI action to launch a custom component in a modal so an agent doesn't have to navigate to a different screen to accomplish a task. For more information, see Render a component in a modal.
+    Use a UI action to launch a custom component in a modal so an agent doesn't have to navigate to a different screen to accomplish a task. For more information, see [Render a component in a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md).
 
 -   **Add a component to a Workspace landing page using UI Builder**
 
-    Use the UI Builder to create custom landing pages for your agents. UI Builder is a drag-and-drop tool that lets you visually arrange workspace components. For more information, see .
+    Use the UI Builder to create custom landing pages for your agents. UI Builder is a drag-and-drop tool that lets you visually arrange workspace components. For more information, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md).
 
     Configure properties in the `now-ui.json` file to use deployed components in the UI Builder. For instructions, see the [ServiceNow Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/ui-builder).
 
 -   **Add a component to a Workspace record view**
 
-    You can add custom or standard components to the component area in the Workspace record view. For more information, see .
+    You can add custom or standard components to the component area in the Workspace record view. For more information, see [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/form-configurable-workspace.md).
 
 
 **Parent Topic:**[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/custom-components.md)

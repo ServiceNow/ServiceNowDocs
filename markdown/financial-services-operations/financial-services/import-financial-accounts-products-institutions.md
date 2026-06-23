@@ -18,7 +18,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see Application picker.
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_bom.admin
 
@@ -34,9 +34,9 @@ Role required: sn\_bom.admin
 
     The imported data is now available in the new Import Set table.
 
-    For more information, see Import sets key concepts.
+    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
-5.  Create a transform map to define the field mapping between columns of the import set and columns of the target table.
+5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
     For information on target tables, see [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-core-banking-tables.md).
 

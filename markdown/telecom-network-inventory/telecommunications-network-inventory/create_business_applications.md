@@ -34,7 +34,7 @@ When you create a network function record, it creates a corresponding configurat
 
 4.  On the form, fill in the fields.
 
-    To see a description of the fields, see .
+    To see a description of the fields, see [Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
 5.  Select **Submit**.
 

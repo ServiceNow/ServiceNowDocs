@@ -31,11 +31,11 @@ Moving to modern applications such as Advanced Work Assignment and Agent Chat of
 -   [Automatic assignment of chats and work items to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-assignment.md) based on criteria that you define, such as agent availability, capacity, skills, [Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md), and variable [work item sizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-modify-work-item-size.md).
 -   Automatic [queue overflow handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-specify-assignment-eligibility.md)
 -   [Chat timeout reassignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/reassign-rejected-timed-out-work-items.md)
--   Native Chat surveys
--   Supervisor features, such as Agent Whisper, that enable managers to join ongoing public customer chats with agents or send private messages to agents.
+-   Native [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-chat/ci-conversational-chat-surveys.md)
+-   Supervisor features, such as [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-chat/ci-agent-whisper.md), that enable managers to join ongoing public customer chats with agents or send private messages to agents.
 -   Agent features, such as workspace [inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/agent-experience.md) for viewing, accepting, or rejecting incoming chats.
 
-If you are currently using Connect Support APIs, see AWA Routing API for information on AWA APIs.
+If you are currently using Connect Support APIs, see [AWA Routing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/queue-api.md) for information on AWA APIs.
 
 ## Procedure
 
@@ -49,9 +49,9 @@ If you are currently using Connect Support APIs, see AWA Routing API for informa
 
 4.  In the AWA Home page, [configure the Chat service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-create-service-channel.md), [create the associated chat queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-create-queue.md), and establish [agent work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-assignment.md).
 
-5.  In Agent Chat settings, access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
+5.  In [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md), access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
 
-6.  Activate the chat client on your end user Service Portal.
+6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ac-configure-bot-portal.md).
 
 
 Troubleshooting suggestions include these common problems and solutions:

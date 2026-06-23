@@ -26,7 +26,7 @@ The work order tasks of the contractor company are automatically assigned to the
 
 **Note:** The users will not be able to edit or assign the work order tasks of this contractor company if a manger is not assigned to the company.
 
-You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
+You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 

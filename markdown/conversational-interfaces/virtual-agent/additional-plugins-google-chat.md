@@ -16,7 +16,7 @@ breadcrumb: [Exploring Conversational Integration with Google Chat, Conversation
 
 Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin and the Conversational Integration with Google Chat \[sn\_va\_google-chat\] plugin.
 
-You must have either the virtual\_agent\_admin or admin role and the external\_app\_install\_admin role to activate these additional plugins. For details, see Activate a plugin.
+You must have either the virtual\_agent\_admin or admin role and the external\_app\_install\_admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
 
 **Note:** Ensure that you have performed the following steps before verifying the activation of additional plugins required for Google Chat.
 

@@ -68,15 +68,15 @@ Supported versions:
 
 1.  On the SCOM server, download the following files to a local computer.
 
-<table id="choicetable_rnt_dzq_dt"><thead><tr><th align="left" id="d95774e301">
+<table id="choicetable_rnt_dzq_dt"><thead><tr><th align="left" id="d93888e301">
 
 Version
 
-</th><th align="left" id="d95774e304">
+</th><th align="left" id="d93888e304">
 
 SCOM path and library names
 
-</th></tr></thead><tbody><tr><td id="d95774e310">
+</th></tr></thead><tbody><tr><td id="d93888e310">
 
 **SCOM 2012R2 or SCOM 2012**
 
@@ -87,7 +87,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
 
 
-</td></tr><tr><td id="d95774e337">
+</td></tr><tr><td id="d93888e337">
 
 **SCOM 2007**
 
@@ -97,7 +97,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.OperationsManager.dll`
  **Note:** Do not append 2007 to the `Microsoft.EnterpriseManagement.OperationsManager.Common.dll` file.
 
-</td></tr><tr><td id="d95774e366">
+</td></tr><tr><td id="d93888e366">
 
 **SCOM 2016**
 
@@ -108,7 +108,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
  **Note:** The MID Server must be installed with .NET 4.6 or higher.
 
-</td></tr><tr><td id="d95774e400">
+</td></tr><tr><td id="d93888e400">
 
 **SCOM 2019**
 
@@ -119,7 +119,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
  **Note:** The MID Server must be installed with .NET 4.6 or higher.
 
-</td></tr><tr><td id="d95774e435">
+</td></tr><tr><td id="d93888e435">
 
 **SCOM 2022**
 

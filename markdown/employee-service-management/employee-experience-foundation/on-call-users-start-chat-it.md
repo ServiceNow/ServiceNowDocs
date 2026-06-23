@@ -20,7 +20,7 @@ Users who are associated with On-Call Scheduling will be displayed on the Select
 
 **sn\_tcm\_collab\_hook.on\_call\_tables\_for\_start\_chat\_action** system property is created to support this functionality. You can extend this functionality to change, and request tables.
 
-For more information on On-Call Scheduling, see On-Call Scheduling On-Call Scheduling.
+For more information on On-Call Scheduling, see [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md) [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
 
 -   **[Extend On-Call Scheduling users to initiate Microsoft Teams Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/extend-on-call-users-start-chat-it.md)**  
 View the list of On-Call Scheduling users in Start Microsoft Teams chat for a change, request, or a request item.

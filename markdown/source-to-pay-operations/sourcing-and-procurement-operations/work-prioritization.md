@@ -28,7 +28,7 @@ Your administrators can define the logic for defaulting priority in the above de
 
 The priority logic is retriggered and priority is automatically reevaluated if any subsequent updates are made to the respective records​.
 
-For information on how to work with decision tables, see .
+For information on how to work with decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-tables/decision-table.md).
 
 **Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

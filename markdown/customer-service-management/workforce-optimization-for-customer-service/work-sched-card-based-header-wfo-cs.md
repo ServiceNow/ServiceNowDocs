@@ -59,7 +59,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## What to do next
 
-Configure a display type component for a Work scheduler card
+[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 

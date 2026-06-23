@@ -19,7 +19,7 @@ Install the Now Assist for Creator application to add the Playbook Assist genera
 ## Before you begin
 
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
+-   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   Role required: admin
 
 ## Procedure

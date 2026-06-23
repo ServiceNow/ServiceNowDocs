@@ -32,7 +32,7 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
     -   https://tagging.&lt;REGION&gt;.amazonaws.com/ for tags discovery
 -   Ensure to place the MID Server inside the Amazon cloud.
 -   For Cloud Discovery, download the Discovery and Service Mapping pattern from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 

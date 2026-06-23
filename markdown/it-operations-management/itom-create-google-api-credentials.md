@@ -30,15 +30,15 @@ Role required: discovery\_admin
 
 1.  Configure the GCP credentials either by importing a JSON file or by filing in the record manually.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d94438e93">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d92552e93">
 
 Option
 
-</th><th align="left" id="d94438e96">
+</th><th align="left" id="d92552e96">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d94438e102">
+</th></tr></thead><tbody><tr><td id="d92552e102">
 
 **Import the JSON file**
 
@@ -52,7 +52,7 @@ Actions
 6.  Select **Upload Credential Data**.
 
 
-</td></tr><tr><td id="d94438e165">
+</td></tr><tr><td id="d92552e165">
 
 **Configure the credentials manually**
 

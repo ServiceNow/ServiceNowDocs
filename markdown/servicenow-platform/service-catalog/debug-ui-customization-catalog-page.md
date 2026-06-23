@@ -75,7 +75,7 @@ Red
 
 </td><td>
 
-Created by ServiceNow and then customized by the customer, and hence skipped the latest ServiceNow upgrade. The customer should resolve a skipped update and set a resolution status after an upgrade.
+Created by ServiceNow and then customized by the customer, and hence skipped the latest ServiceNow upgrade. The customer should [resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/upgrade-center/uc-resolve-skipped-update.md) after an upgrade.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Orange
 
 </td><td>
 
-Created by ServiceNow, and then customized by the customer after the latest ServiceNow upgrade. The customer can revert a customization to implement the latest ServiceNow upgrade.
+Created by ServiceNow, and then customized by the customer after the latest ServiceNow upgrade. The customer can [revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/upgrade-center/uc-revert-customization.md) to implement the latest ServiceNow upgrade.
 
 </td></tr><tr><td>
 
@@ -121,5 +121,5 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
 **Related topics**  
 
 
-[bundle-crapiref.c_UIMacros]
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md)
 

@@ -34,15 +34,15 @@ The default integration user credential will be applicable for all the tools. Ho
 
 1.  Set the integration user password in one of the following ways.
 
-<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d42245e88">
+<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d42154e88">
 
 Option
 
-</th><th align="left" id="d42245e91">
+</th><th align="left" id="d42154e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42245e97">
+</th></tr></thead><tbody><tr><td id="d42154e97">
 
 **Using workspace**
 
@@ -64,13 +64,13 @@ Steps
 
 \[Omitted image "setupsystemaccount-3.png"\] Alt text: Selecting Set password for DevOps integration user account through workspace.
 
-</td></tr><tr><td id="d42245e177">
+</td></tr><tr><td id="d42154e177">
 
 **Using Classic UI**
 
 </td><td>
 
-Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see Set password for a user.
+Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see [Set password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/reset-your-password.md).
 
 </td></tr></tbody>
 </table>

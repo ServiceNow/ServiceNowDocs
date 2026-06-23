@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 5
 breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -103,7 +103,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see .
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md).
 
 **Note:**
 
@@ -313,7 +313,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see .
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 </td><td>
 

@@ -28,15 +28,15 @@ If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and 
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d221532e92">
+<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d219666e92">
 
 Method
 
-</th><th align="left" id="d221532e95">
+</th><th align="left" id="d219666e95">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d221532e101">
+</th></tr></thead><tbody><tr><td id="d219666e101">
 
 **During Helm chart archive installation**
 
@@ -61,7 +61,7 @@ Docker tagservicenowdocker/informer_ds:X.X.X COMPANY_REPO:X.X.X
 
 `--set image.dsRepository=COMPANY_REPO –set image.dsTag=X.X.X`
 
-</td></tr><tr><td id="d221532e144">
+</td></tr><tr><td id="d219666e144">
 
 **Modifying the `k8s_informer.yaml` file**
 

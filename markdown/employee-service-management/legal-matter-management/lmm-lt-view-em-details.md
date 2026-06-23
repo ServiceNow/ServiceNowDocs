@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d145573e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d145370e51">
 
 Method
 
-</th><th align="left" id="d145573e54">
+</th><th align="left" id="d145370e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145573e60">
+</th></tr></thead><tbody><tr><td id="d145370e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **View All** option on the Matters widget.
 
 
-</td></tr><tr><td id="d145573e95">
+</td></tr><tr><td id="d145370e95">
 
 **Using Legal Counsel Center lists**
 
@@ -53,7 +53,7 @@ Action
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 
 
-</td></tr><tr><td id="d145573e145">
+</td></tr><tr><td id="d145370e145">
 
 **Using platform view**
 

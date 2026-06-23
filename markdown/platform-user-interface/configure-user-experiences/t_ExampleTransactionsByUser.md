@@ -32,7 +32,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d56307e87">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d55673e87">
 
 **Name**
 
@@ -40,7 +40,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d56307e96">
+</td></tr><tr><td id="d55673e96">
 
 **Applies to table**
 
@@ -48,7 +48,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d56307e105">
+</td></tr><tr><td id="d55673e105">
 
 **Queries from table**
 
@@ -56,7 +56,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d56307e114">
+</td></tr><tr><td id="d55673e114">
 
 **Queries with**
 
@@ -99,5 +99,5 @@ Notes and limitations:
 **Related topics**  
 
 
-[bundle-platadm.t_AddARelatedList]
+[Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
 

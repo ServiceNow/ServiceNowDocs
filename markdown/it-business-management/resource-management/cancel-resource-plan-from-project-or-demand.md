@@ -35,7 +35,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d84771e98">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d83956e98">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d84771e137">
+</td></tr><tr><td id="d83956e137">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d84771e176">
+</td></tr><tr><td id="d83956e176">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d84771e215">
+</td></tr><tr><td id="d83956e215">
 
 **Open a Closed or Deferred demand record**
 

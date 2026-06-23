@@ -73,15 +73,15 @@ Role required: sn\_wsd\_kiosk.operator
 
 2.  On the Kiosk setup page, select any of the following options.
 
-<table id="choicetable_qxc_hnq_pbc"><thead><tr><th align="left" id="d110007e265">
+<table id="choicetable_qxc_hnq_pbc"><thead><tr><th align="left" id="d109804e265">
 
 Option
 
-</th><th align="left" id="d110007e268">
+</th><th align="left" id="d109804e268">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110007e274">
+</th></tr></thead><tbody><tr><td id="d109804e274">
 
 **Remove Kiosk**
 
@@ -89,7 +89,7 @@ Description
 
 Remove the assigned kiosk from the device.
 
-</td></tr><tr><td id="d110007e283">
+</td></tr><tr><td id="d109804e283">
 
 **Change Kiosk**
 
@@ -107,7 +107,7 @@ Assign a different kiosk to the device by following these steps:1.  Select **Cha
 
 Security features of Google Chrome on iOS don't allow permanent camera access to websites, therefore, camera-related functions of the kiosk are disabled.
 
-</td></tr><tr><td id="d110007e324">
+</td></tr><tr><td id="d109804e324">
 
 **Update Kiosk**
 

@@ -22,7 +22,7 @@ Activate the Agile story generation skill for Enterprise Agile Planning. See [Co
 
 Role required: sn\_apw\_advanced.eap\_user or sn\_apw\_advanced.eap\_read\_only, with now\_assist\_panel\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see .
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## About this task
 

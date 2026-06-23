@@ -16,7 +16,7 @@ breadcrumb: [Debugging scripts, Scripting, Building pro-code applications, Devel
 
 Enable session debugging to display debugging messages in the user interface.
 
-You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see Display debugging logs.
+You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md).
 
 The system provides the following session debugging options.
 

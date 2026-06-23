@@ -48,15 +48,15 @@ Reassign an open security incident to another analyst in your group from the lis
 
 5.  Edit the Assignment group or the Assigned to fields from the menu that is displayed.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d444375e180">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d444415e180">
 
 Option
 
-</th><th align="left" id="d444375e183">
+</th><th align="left" id="d444415e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d444375e189">
+</th></tr></thead><tbody><tr><td id="d444415e189">
 
 **Reassign**
 
@@ -77,15 +77,15 @@ To reassign the assignment group:1.  Tap **Assignment group**.
 
     \[Omitted image "mobile-sir-my-si-record.jpg"\] Alt text: My incidents open record with tabs highlighted.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d444375e265">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d444415e265">
 
 Option
 
-</th><th align="left" id="d444375e268">
+</th><th align="left" id="d444415e268">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d444375e274">
+</th></tr></thead><tbody><tr><td id="d444415e274">
 
 **Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu.\) on the upper right of the screen.**
 
@@ -95,7 +95,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To reassign the incident, tap **Reassign**. Follow the instructions described in the previous table.
  After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send in Android.\) or **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d444375e316">
+</td></tr><tr><td id="d444415e316">
 
 **Activity Stream tab**
 
@@ -103,7 +103,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus.\) to add a work note or attach a file.
 
-</td></tr><tr><td id="d444375e334">
+</td></tr><tr><td id="d444415e334">
 
 **Related List tab**
 
@@ -113,7 +113,7 @@ With the Related List tab selected, view the items on any Related Lists that are
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d444375e349">
+</td></tr><tr><td id="d444415e349">
 
 **Screen icons at the bottom of the screen.**
 

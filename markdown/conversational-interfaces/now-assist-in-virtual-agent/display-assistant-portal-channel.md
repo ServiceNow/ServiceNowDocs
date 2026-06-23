@@ -46,7 +46,7 @@ You must configure at least one display experience for an assistant before activ
 
         If your portal has AI Search activated, enhanced chat includes the option to turn on the full-page chat experience. Select **Allow the search bar to open into a full-page chat experience**. For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.md).
 
-        **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see .
+        **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 
         For information about the enhanced chat experience option, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
@@ -58,7 +58,7 @@ You must configure at least one display experience for an assistant before activ
 
     3.  Select the **Allow public access for this assistant** check box to enable the assistant on public pages for all selected portals.
 
-        Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see , , and .
+        Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/configure-widget-security.md).
 
         For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**.
 
@@ -103,7 +103,7 @@ You must configure at least one display experience for an assistant before activ
 
         \[Omitted image "NAinVA-prominent-action-override-122025.png"\] Alt text: Prominent action button override.
 
-        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see  and .
+        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see [Using the prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/using-prominent-action-button.md) and [Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/configuring-prominent-action-button.md).
 
     5.  The **Custom apps section** is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 

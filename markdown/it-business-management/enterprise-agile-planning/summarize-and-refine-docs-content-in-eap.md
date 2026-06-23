@@ -23,7 +23,7 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 Role required: sn\_apw\_advanced.eap\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see .
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
 ## Procedure
 
@@ -31,15 +31,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d79421e150">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d78606e151">
 
 Type
 
-</th><th align="left" id="d79421e153">
+</th><th align="left" id="d78606e154">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d79421e159">
+</th></tr></thead><tbody><tr><td id="d78606e160">
 
 **Team Doc**
 
@@ -49,7 +49,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d79421e177">
+</td></tr><tr><td id="d78606e178">
 
 **Planning item Doc**
 

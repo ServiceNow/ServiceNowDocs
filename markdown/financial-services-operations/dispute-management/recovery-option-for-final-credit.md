@@ -50,7 +50,7 @@ A chargeback is initiated by a bank. The chargeback is pursued when a card provi
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fc"><tbody><tr><td id="d28159e172">
+<table id="choicetable_gwh_bjs_3fc"><tbody><tr><td id="d28026e172">
 
 **Yes**
 
@@ -58,7 +58,7 @@ A chargeback is initiated by a bank. The chargeback is pursued when a card provi
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d28159e184">
+</td></tr><tr><td id="d28026e184">
 
 **No**
 

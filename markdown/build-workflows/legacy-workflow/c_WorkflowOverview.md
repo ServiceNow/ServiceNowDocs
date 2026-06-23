@@ -55,7 +55,7 @@ Workflow provides a drag-and-drop interface for automating multi-step processes 
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   Workflow API reference
+-   [Workflow API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_WorkflowScopedAPI.md)
 -   [Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md)
 
 </td><td>

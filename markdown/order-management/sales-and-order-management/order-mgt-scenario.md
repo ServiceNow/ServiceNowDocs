@@ -22,7 +22,7 @@ The following scenarios represent typical situations in which you capture orders
 
 Your current order capture systems can be integrated with ServiceNow instances by using TMF622-based APIs. With this integration, your order capture system can submit requests for products or services, which can then be fulfilled in your ServiceNow instance.
 
-**Note:** To learn more about the ServiceNow - supplied API that is based on the TMF622 Product Ordering API REST Specification, see Standardized Product Order OpenAPI.
+**Note:** To learn more about the ServiceNow - supplied API that is based on the TMF622 Product Ordering API REST Specification, see [Standardized Product Order OpenAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 
 This diagram shows how the TMF622-based API operates within the telecommunications order capture and upload process.
 
@@ -32,7 +32,7 @@ This diagram shows how the TMF622-based API operates within the telecommunicatio
 
 Your ServiceNow instances can be integrated with the instances of your customers by using Service Exchange. With this integration, you can create and publish product offerings to your customer's instances. Enterprise customers can then submit requests for products or services, which you can then fulfill.
 
-**Note:** For detailed benefits on using the current Service Exchange applications, see .
+**Note:** For detailed benefits on using the current Service Exchange applications, see [Learn about Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-benefits.md).
 
 This diagram shows how Service Exchange operates within the telecommunications order capture and upload process.
 

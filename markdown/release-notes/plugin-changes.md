@@ -52,7 +52,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.md) documentation.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Enables support for encryption of fields and attachments.
 
 </td><td>
 
-Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see .
+Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see [Activate Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/activate-platform-encryption.md).
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Use the HR Service Delivery Agent Workspace to interact with employees, respond 
 
 </td><td>
 
-Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see  and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
+Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Deprecated in Xanadu
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -228,7 +228,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/security-center/sec-center-v2.md).
 
 </td></tr><tr><td>
 
@@ -244,7 +244,7 @@ Displays the dispatch map for viewing agents, tasks, and agent routes.
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ Offers ESG frameworks such as authority documents and citations and provides the
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr><tr><td>
 
@@ -325,7 +325,7 @@ The SASB Accelerator is designed for use with the ESG Management and Reporting a
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr><tr><td>
 
@@ -341,7 +341,7 @@ Allows providers to publish catalogs for customers and receive and fulfill custo
 
 </td><td>
 
--   Install the Service Bridge for Providers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-providers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Follow the guidance in KB1499823 to: Migrate your configurations Have your consumers install the new Service Bridge for Consumers application from the ServiceNow store. Test the new application with your consumers. Once it has been validated, remove the entitlements for the Service Bridge \(Legacy\) content and entitle the content for Service Bridge for Providers.
 
 </td></tr><tr><td>
@@ -358,7 +358,7 @@ Allows customers to submit service requests to their provider and monitor these 
 
 </td><td>
 
--   Install the Service Bridge for Consumers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-consumers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Reach out to your Service Bridge Provider to coordinate the migration to the new Service Bridge application. They’ll need to coordinate the migration with you along with any testing. Once ready, they’ll send you a registration link to connect the new application.
 
 </td></tr><tr><td>
@@ -460,7 +460,7 @@ Load demo data for CTI Softphone.
 
 </td><td>
 
-Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the  documentation.
+Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/integrate-ccc-amazonconnect.md) documentation.
 
 </td></tr><tr><td>
 
@@ -556,7 +556,7 @@ Password reset add-on to enable the use of ServiceNow Orchestration. Includes su
 
 </td><td>
 
-Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.
+Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/password-reset/t_ConPassResetActiveDir.md) documentation.
 
 </td></tr><tr><td>
 
@@ -700,7 +700,7 @@ Provides an enhanced user interface for monitoring and resolving threats to an o
 
 </td><td>
 
-Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the  documentation.
+Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) documentation.
 
 </td></tr><tr><td>
 
@@ -929,7 +929,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/c_CMSAndSP.md).
 
 </td><td align="center">
 

@@ -62,7 +62,7 @@ AWA automatically routes HR cases, chats, or interactions based on:
 
 AWA pushes cases to qualified HR agents using work item queues, routing conditions, and assignment criteria that you define. HR agents see their assignments in their inbox. You can set the capacity for an agent, which is the number of work items on a particular service channel that an agent may actively work on. You can set assignment rules to determine how AWA routes work items to a group of agents. If an agent rejects a work item, the item is rerouted to another agent.
 
-For more information, see Advanced Work Assignment.
+For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md).
 
 **Note:** To use AWA, you must ensure your:
 
@@ -73,7 +73,7 @@ Agent Inbox:
 
 Using AWA you can automatically assign an HR case and have it appear in an agent's inbox.
 
-For more information, see Agent Inbox controls. The inbox layouts determine what appears on work item cards in an agent's inbox. For more information, see Inbox layout.
+For more information, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/agent-experience.md). The inbox layouts determine what appears on work item cards in an agent's inbox. For more information, see [Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-inbox-layout.md).
 
 ## Skill Determination Rules
 
@@ -87,7 +87,7 @@ Skill determination rules for Interactions \[Human Resources\]. Defines what ski
 
 ## Service channels
 
-Service channels help assign specific types of chats or HR cases to the correct agents. For more information, see Service channels.
+Service channels help assign specific types of chats or HR cases to the correct agents. For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 
 There are two service channels provided with the base system:
 
@@ -125,7 +125,7 @@ There are three \(3\) business rules. Activate only one:
 
 ## AWA Assignment Rules
 
-The base system provides two \(2\) AWA assignment rules. For more information, see Configure agent assignment rules.
+The base system provides two \(2\) AWA assignment rules. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md).
 
 -   Capacity based assignment for HR work items assignment rule
 
@@ -152,9 +152,9 @@ When Virtual Agent is not active, the chat window shows the Employee Service Cen
 
 **Note:** You can distinguish the queues by the ESC pre-chat categories and Virtual Agent topics.
 
-For more information, see Virtual Agent.
+For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
-If you are migrating from Connect Support, use AWA to create the chat queues for routing chat work items to agents and the Chat Setup form to configure Agent Chat. For more information, see Migrate from Connect Support to Advanced Work Assignment and Agent Chat.
+If you are migrating from Connect Support, use AWA to create the chat queues for routing chat work items to agents and the Chat Setup form to configure Agent Chat. For more information, see [Migrate from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/migrate-from-connect-support.md).
 
 For more information on Workspace Agent Chat, see Workspace Agent Chat.
 

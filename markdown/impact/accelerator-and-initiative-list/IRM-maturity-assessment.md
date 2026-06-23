@@ -22,7 +22,7 @@ Integrated Risk Management Maturity Assessment provides Impact customers with pr
 
 ServiceNow IRM is an integrated risk solution that enables you to manage risk across the enterprise. Automation and continuous monitoring ensure a real-time view of compliance and risk, for informed decision making and increased performance.
 
-See  for additional information about IRM.
+See [Integrating Risk Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-risk-management-workspace/integrating-ara-with-other-apps.md) for additional information about IRM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

@@ -40,7 +40,7 @@ You can query the system of record to create an ERP model for your ERP processes
 
     For example, you can select and hold \(or right-click\) on a column, such as **Storage location**, and select **Show Matching** records.
 
-    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see Condition builder.
+    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     \[Omitted image "erpi-sap-data-in-glide-record.png"\] Alt text: View and query data from the system of record inside a ServiceNow AI Platform table
 

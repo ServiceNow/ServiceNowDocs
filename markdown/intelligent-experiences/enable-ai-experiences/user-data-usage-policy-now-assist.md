@@ -31,11 +31,11 @@ When appropriate, ServiceNow might leverage third-party endpoint services \(for 
 
 Further, to confirm quality of service, ServiceNow might use Azure-hosted GPUs for Now LLM Service capacity bursting in case of high customer demand. Data processed by third-party endpoints isn’t subject to use or access by third-party providers and are operated within the ServiceNow network boundary.
 
-To learn more about Data Sharing Programs, see : Data Sharing Programs.
+To learn more about Data Sharing Programs, see [Generate product compliance summaries by using Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-for-software-asset-management-sam/summarize-product-compliance-now-assist-sam.md): Data Sharing Programs.
 
 ## Mask sensitive data
 
-Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see .
+Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see [Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
 
 After you enable the plugin, it’s designed to mask sensitive data before it’s sent to the LLM, but could result in less accurate results because the specific data isn’t included within the prompt.
 

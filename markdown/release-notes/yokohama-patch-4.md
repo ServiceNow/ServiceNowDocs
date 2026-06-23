@@ -43,13 +43,13 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
     This patch includes the May Maintenance update script in the form of a script include \(QueryRangeACLAuditor\). This script is not triggered automatically and must be run after a patch upgrade. More details on running the QueryRangeACLAuditor and its functionality can be found in [KB2046494](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494).
 
 
--   ****
+-   **[Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/create-multiple-child-configs.md)**
 
     The product configurator displays the product configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations have information icons. Select the Information icon to view a message indicating that the offering can have multiple configurations.
 
     Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
--   ****
+-   **[Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/multiple-child-offering-configurations.md)**
 
     When agents add configurable products to new opportunities, quotes, and orders, they can create multiple configurations for a child offering. They navigate to a summary page for a selected child offering. From this page, they can do the following:
 
@@ -70,7 +70,7 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
 
     The system also uses the cardinality rules to determine when certain configuration options \(**Split** and **Delete**\) should be enabled or turned off, based on the context. For example, if the minimum child offering quantity is 1 and a child offering has a quantity of 1, the system disables the **Delete** option in the More options menu.
 
--   ****
+-   **[Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-and-order-management/create-multiple-child-configs.md)**
 
     Change the quantity of a child offering that can have multiple configurations.
 
@@ -78,7 +78,7 @@ Yokohama Patch 4 includes fixes for security-related problems that affected cert
 
     Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
--   **Identity Type**
+-   **[Identity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_CreateAUser.md)**
 
     Use the Identity Type define the correct identity type while creating a user. You can select **Human**, **Machine**, or **AI Agent** based on the user identity.
 

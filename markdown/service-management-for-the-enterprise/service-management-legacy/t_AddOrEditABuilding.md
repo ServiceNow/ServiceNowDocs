@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d30662e102">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d30239e102">
 
 Option
 
-</th><th align="left" id="d30662e105">
+</th><th align="left" id="d30239e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d30662e111">
+</th></tr></thead><tbody><tr><td id="d30239e111">
 
 **To add a building**
 
@@ -43,7 +43,7 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d30662e129">
+</td></tr><tr><td id="d30239e129">
 
 **To edit the details of the building**
 
@@ -187,15 +187,15 @@ Enter a number to define the maximum level of utilization for the building.
     -   Expense Lines: List of expense lines for the building. Click **New** to create an expense line or on an existing expense line to edit.
 6.  Continue with one of the following options.
 
-<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d30662e400">
+<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d30239e400">
 
 Option
 
-</th><th align="left" id="d30662e403">
+</th><th align="left" id="d30239e403">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d30662e409">
+</th></tr></thead><tbody><tr><td id="d30239e409">
 
 **To add the building**
 
@@ -204,7 +204,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d30662e427">
+</td></tr><tr><td id="d30239e427">
 
 **To update the building details**
 

@@ -16,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API r
 
 The NowChatService class provides the function necessary to create a NowChatService that interacts with NowChat. NowChat provides the ability to embed Live Agent and Virtual Agent within your application.
 
-For additional information on Live Agent and Virtual Agent, see .
+For additional information on Live Agent and Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 **Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

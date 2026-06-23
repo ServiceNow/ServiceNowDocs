@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -58,7 +58,7 @@ A different way that you can make a form change is to have questions automatical
 
         For example, you could select **Is** as the operator for the **Do you want a T-shirt?** field.
 
-        For more information, see .
+        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
     4.  Enter or select the value for the user's response to the trigger question.
 

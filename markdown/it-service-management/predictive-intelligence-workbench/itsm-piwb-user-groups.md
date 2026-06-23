@@ -38,7 +38,7 @@ Users can receive notifications for the following Predictive Intelligence Workbe
 
 ## Procedure
 
-1.  To create an ITSM Predictive Intelligence Workbench user group and add users, refer to Create a user group.
+1.  To create an ITSM Predictive Intelligence Workbench user group and add users, refer to [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
     For more information about the email notifications provided with this application, refer to [ITSM Predictive Intelligence Workbench notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-notifications.md).
 

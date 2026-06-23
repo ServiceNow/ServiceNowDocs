@@ -27,6 +27,6 @@ You would confirm that the `encounter` system variable appears on the incident r
 
 3.  You add a new column corresponding to the `encounter` system variable by clicking **New** in the Columns related list and filling in the column details associated with the `encounter` system variable on the Dictionary entry form and clicking **Submit**.
 
-    For more information, see .
+    For more information, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
 

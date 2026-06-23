@@ -20,7 +20,7 @@ This accelerator provides guidance on your current HR Service Delivery \(HRSD\) 
 
 The HRSD Maturity Assessment Accelerator provides a base-level understanding of maturity tied to business outcomes being driven. The Accelerator aims to assess gaps with your HRSD product implementation based on your company’s use cases with targeted recommendations on what to tackle next to unlock further value in the platform.
 
-All HRSD apps and features are within scope including Case &amp; Knowledge, Employee Center and Portal, Lifecycle Events/Onboarding/Journeys, Employee Document Management, HCM Integrations, and specific store features, such as Manager Hub. See  for additional information on HRSD apps.
+All HRSD apps and features are within scope including Case &amp; Knowledge, Employee Center and Portal, Lifecycle Events/Onboarding/Journeys, Employee Document Management, HCM Integrations, and specific store features, such as Manager Hub. See [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery/hr-service-delivery.md) for additional information on HRSD apps.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

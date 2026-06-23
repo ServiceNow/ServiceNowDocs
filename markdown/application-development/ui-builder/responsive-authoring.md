@@ -45,9 +45,9 @@ All existing pages that were created with templates or from scratch use reflow a
 
 \[Omitted image "responsive-author-create-page.png"\] Alt text: New step showing responsive authoring and reflow options when creating a page from scratch.
 
-For more information about reflow, see .
+For more information about reflow, see [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/auto-reflow.md).
 
-For a list of UI Builder components that support reflow, see the **Support for reflow** section of the Next Experience Components release notes.
+For a list of UI Builder components that support reflow, see the **Support for reflow** section of the [Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/component-rn.md).
 
 ## Application and cascading of changes
 

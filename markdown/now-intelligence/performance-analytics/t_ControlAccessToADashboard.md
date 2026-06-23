@@ -53,7 +53,7 @@ In general, when you share a dashboard, you aren’t granting permission to the 
 
 **Note:** Performance Analytics List widgets don’t show the indicators that you don’t have permission to read. While the dashboard permission applies to the whole Performance Analytics list widget, individual indicators in the widget follow the permissions for those indicators. For more information about indicator permissions, see [Control access to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ControlAccessToAnIndicator.md).
 
-When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See Evaluate the admin override at the access level.
+When domain separation is enabled and the system property **glide.security.admin.override.accessterm** is not selected, admins must be in the same domain as the dashboard to share it. See [Evaluate the admin override at the access level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control/t_EvalAdmOverrideAccLevel.md).
 
 ## Procedure
 

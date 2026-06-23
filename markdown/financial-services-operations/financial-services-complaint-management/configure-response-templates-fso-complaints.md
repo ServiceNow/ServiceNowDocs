@@ -18,7 +18,7 @@ Create or modify a response template to define a reusable message that can be co
 
 ## Before you begin
 
-Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see Application picker.
+Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_bom\_compl.admin and sn\_templated\_snip.template\_snippet\_admin
 

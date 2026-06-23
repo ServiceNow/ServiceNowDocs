@@ -7,7 +7,7 @@ release: yokohama
 product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

@@ -25,7 +25,7 @@ With this you can configure the following components in the workspace configurat
 -   Control the display of activity stream bar in the Overview pages
 -   Configure the journal fields
 
-**Note:** To create a custom section, add new change overview cards. For information on modifying the layout and formatting of the sections, see .
+**Note:** To create a custom section, add new change overview cards. For information on modifying the layout and formatting of the sections, see [UI Builder tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/uib-tutorial.md).
 
 **Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-change-management.md)
 

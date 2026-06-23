@@ -32,7 +32,7 @@ If asynchronous record addition isn't required for all multi-record associator m
 
 2.  Add the **glide.ui.mra.async** system property.
 
-    For more information on adding system property, see Add a system property.
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     1.  Select **New**.
 

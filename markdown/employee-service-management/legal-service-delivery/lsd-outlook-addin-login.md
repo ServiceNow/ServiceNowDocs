@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 1.  Sign in to Microsoft Outlook Add-In for Legal Service Delivery using any of the two methods.
 
-<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d103263e81">
+<table id="choicetable_kwh_4wy_wbc"><thead><tr><th align="left" id="d103060e81">
 
 Method
 
-</th><th align="left" id="d103263e84">
+</th><th align="left" id="d103060e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103263e90">
+</th></tr></thead><tbody><tr><td id="d103060e90">
 
 **Microsoft Outlook client**
 
@@ -45,7 +45,7 @@ Steps
 3.  On the Microsoft Outlook ribbon, select ServiceNow for Legal icon \(\[Omitted image "lsd-outlook-addin-icon.png"\] Alt text: ServiceNow for Legal icon\).
 
 
-</td></tr><tr><td id="d103263e130">
+</td></tr><tr><td id="d103060e130">
 
 **Outlook Web App**
 

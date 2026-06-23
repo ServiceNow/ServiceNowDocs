@@ -16,7 +16,7 @@ breadcrumb: [JavaScript modes, JavaScript engine on the platform, Server-side sc
 
 Switching the JavaScript mode for an application or script might change the behavior of existing scripts. Review some examples of behavior changes before switching JavaScript modes or to troubleshoot any issues that you experience after switching.
 
-For more information about each JavaScript mode, see  and .
+For more information about each JavaScript mode, see [JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_JS_modes.md) and [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 
 This table highlights how JavaScript behavior has evolved from the lenient and error-prone pre-ES5 environment, to the stricter and more predictable ES5, and lastly the more feature-rich environment of ES12 \(ECMAScript 2021\).
 

@@ -103,5 +103,5 @@ Use your instance records to build Incident Management -specific solutions.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

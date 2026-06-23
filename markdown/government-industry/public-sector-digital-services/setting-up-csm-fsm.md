@@ -22,7 +22,7 @@ Certain features in the CSM Configurable Workspace require configuration for use
 -   Public Sector landing page
 -   Customer Central
 
-Certain features, such as auto-reflow, which restructures Configurable Workspace pages vertically when you zoom in, are available on the page-level automatically. However, administrators can disable auto-reflow for selected experiences, pages, or for the entire Configurable Workspace. For information on how to disable this feature, see .
+Certain features, such as auto-reflow, which restructures Configurable Workspace pages vertically when you zoom in, are available on the page-level automatically. However, administrators can disable auto-reflow for selected experiences, pages, or for the entire Configurable Workspace. For information on how to disable this feature, see [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/auto-reflow.md).
 
 **Note:** You can use guided setup to configure these configurable workspace features. For details, see [Configure Public Sector Digital Services Core using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services/psds-use-gs.md).
 

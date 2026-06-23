@@ -7,7 +7,7 @@ release: yokohama
 product: Building Applications
 classification: building-applications
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 8
 breadcrumb: [Configure, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---
@@ -62,15 +62,15 @@ The Figma MCP \(Model Context Protocol\) server uses OAuth for authentication an
 
 4.  Enter the following information in the form.
 
-<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d69769e228">
+<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d69957e228">
 
 Field
 
-</th><th align="left" id="d69769e231">
+</th><th align="left" id="d69957e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d69769e237">
+</th></tr></thead><tbody><tr><td id="d69957e237">
 
 **Name**
 
@@ -78,7 +78,7 @@ Description
 
 Name for your application; for example, ServiceNow Integration.
 
-</td></tr><tr><td id="d69769e246">
+</td></tr><tr><td id="d69957e246">
 
 **Choose an owner for your app**
 

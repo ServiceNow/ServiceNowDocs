@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama
 release: yokohama
 topic_type: reference
 last_updated: "2025-04-04"
-reading_time_minutes: 42
+reading_time_minutes: 43
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -38,11 +38,11 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 2
 
--   ****
+-   **[Create a decision tree for troubleshooting a failed transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-decision-tree-credit-card-transaction-failure.md)**
 
     Question font sizeEnter the desired font size for the questions in the guided decision tree. Example: `14`
 
--   ****
+-   **[Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-guidances.md)**
 
     Hide completed guidance
 
@@ -52,7 +52,7 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
     **Note:** This field is visible only when the Guided Decision Experience plugin is installed. You may need to configure the form to add this field.
 
--   ****
+-   **[Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-decision-trees-gdb.md)**
 
     Question font size
 
@@ -62,15 +62,15 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
     You may need to configure the form to add this field.
 
--   ****
+-   **[Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-guidances-create.md)**
 
     Select **Hide completed guidance** to hide the guidance recommended for a case resolution.
 
--   ****
+-   **[Exploring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication-idr/exploring-instance-data-replication.md)**
 
     You can only create one scheduled replication set in IDR, with only one outbound entry in that set.
 
--   ****
+-   **[Set up scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication-idr/set-up-scheduled-replication-idr.md)**
 
     You can only create one scheduled replication set, with only one outbound entry in that set.
 

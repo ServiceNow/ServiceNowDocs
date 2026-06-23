@@ -30,15 +30,15 @@ Role required: AIOps LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d238851e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d236988e105">
 
 UI option
 
-</th><th align="left" id="d238851e108">
+</th><th align="left" id="d236988e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238851e114">
+</th></tr></thead><tbody><tr><td id="d236988e114">
 
 **Actions**
 
@@ -46,7 +46,7 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\] Alt text: Actions button, and select **Create Playbook**.
 
-</td></tr><tr><td id="d238851e132">
+</td></tr><tr><td id="d236988e132">
 
 **Explore**
 

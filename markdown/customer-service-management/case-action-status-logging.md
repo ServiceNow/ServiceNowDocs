@@ -35,8 +35,8 @@ The metrics include:
 
 To access the **Case Actor Duration** metric definition, navigate to **All** &gt; **Metrics** &gt; **Definitions** and select the definition from the list. For more information about metric definitions, see the following topics:
 
--   Metrics
--   Define a metric
+-   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_MetricDefinitionSupport.md)
+-   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/create-metric.md)
 
 **Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-action-status.md)
 

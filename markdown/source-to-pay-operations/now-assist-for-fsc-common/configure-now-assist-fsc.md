@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for Common Finance and Supply Chain features. This console contains everything that you need to install the plugins and configure the agentic AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Common Finance and Supply Chain features. This console contains everything that you need to install the plugins and configure the agentic AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the Now Assist for Common Finance and Supply Chain features and skills that you can access from the Now Assist Admin console.
 
@@ -38,7 +38,7 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 1.  Install the Now Assist for FSC Common \(sn\_fsc\_genai\) plugin.
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance &amp; Supply Chain** workflow group and select **Common Finance and Supply Chain features**.
@@ -61,15 +61,15 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d34744e335">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d34764e337">
 
 Option
 
-</th><th align="left" id="d34744e338">
+</th><th align="left" id="d34764e340">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34744e344">
+</th></tr></thead><tbody><tr><td id="d34764e346">
 
 **Skill is always available**
 
@@ -77,7 +77,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d34744e353">
+</td></tr><tr><td id="d34764e355">
 
 **Customize skill availability**
 
@@ -90,15 +90,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d34744e389">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d34764e391">
 
 Option
 
-</th><th align="left" id="d34744e392">
+</th><th align="left" id="d34764e394">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34744e398">
+</th></tr></thead><tbody><tr><td id="d34764e400">
 
 **In-product desktop**
 
@@ -106,13 +106,13 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d34744e419">
+</td></tr><tr><td id="d34764e421">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.

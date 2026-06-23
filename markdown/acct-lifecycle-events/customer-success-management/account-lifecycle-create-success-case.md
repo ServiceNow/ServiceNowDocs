@@ -215,7 +215,7 @@ Any additional information that needs to be provided to the customer.
 </td></tr></tbody>
 </table>4.  Click **Save** to create a new success case.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see .
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
 
 
 ## What to do next

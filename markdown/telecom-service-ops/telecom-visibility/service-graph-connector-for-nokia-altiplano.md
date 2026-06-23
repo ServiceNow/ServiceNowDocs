@@ -31,7 +31,7 @@ Data Source defined as the following:
 -   Custom load by script
 -   Data in single column
 
-For a general overview of Service Graph Connector technology, see .
+For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Supported versions
 
@@ -51,7 +51,7 @@ The guided setup for the Service Graphs Connector for Nokia Altiplano provides a
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring SolarWinds integrations in the CMDB Integrations Dashboard, see .
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring SolarWinds integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 **Parent Topic:**[Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md)
 
@@ -191,7 +191,7 @@ LT card PON access ports as well as NT card network ports are represented by the
 </td></tr></tbody>
 </table>You can use the **IntegrationHub ETL** application to view and manage data maps.
 
-For more information, see .
+For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 ### Supported xNFs
 

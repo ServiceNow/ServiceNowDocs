@@ -20,7 +20,7 @@ Use Mobile Card Builder to show field labels and values from your tables in mobi
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -34,7 +34,7 @@ In this example, the top three text elements display the values of the **State**
 
 1.  Open your mobile card in Card Builder using one of the following methods.
 
-<table id="choicetable_pm3_x3t_xnb"><tbody><tr><td id="d34322e90">
+<table id="choicetable_pm3_x3t_xnb"><tbody><tr><td id="d34332e91">
 
 **Open Mobile Card Builder from Mobile App Builder**
 
@@ -42,7 +42,7 @@ In this example, the top three text elements display the values of the **State**
 
 In Mobile App Builder, open the screen where you want to modify your card, and select open in Mobile App Builder
 
-</td></tr><tr><td id="d34322e112">
+</td></tr><tr><td id="d34332e113">
 
 **Open Card builder from the web-based UI**
 
@@ -59,7 +59,7 @@ Navigate to **System Mobile** &gt; **Mobile Card Builder**, then select the card
 
 3.  Under **Field type**, select either an option.
 
-<table id="choicetable_wfv_4hz_xnb"><tbody><tr><td id="d34322e182">
+<table id="choicetable_wfv_4hz_xnb"><tbody><tr><td id="d34332e183">
 
 **Field Value**
 
@@ -67,7 +67,7 @@ Navigate to **System Mobile** &gt; **Mobile Card Builder**, then select the card
 
 The text element displays the value of a field on your table. For example, if you select **Number**, the field displays the record number.
 
-</td></tr><tr><td id="d34322e194">
+</td></tr><tr><td id="d34332e195">
 
 **Field Label**
 

@@ -26,5 +26,5 @@ What appears on your **At a Glance** panel depends on what you configure on an H
 
 If you change the subject person, the profile information of that person will also be immediately updated in the **At a Glance** panel, enabling you to verify the right person even before saving the change.
 
-For more information, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md). For more information on adding fields to an HR profile, see Configuring the form layout.
+For more information, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md). For more information on adding fields to an HR profile, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
 

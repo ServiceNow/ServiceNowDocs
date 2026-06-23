@@ -168,7 +168,7 @@ PA Admin\[pa\_admin\]
 
 </td><td>
 
-See Performance Analytics roles.
+See [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/r_PARoles.md).
 
 </td><td>
 
@@ -192,7 +192,7 @@ Role that is used by the MID Server to send the billing data to the instance and
 **Related topics**  
 
 
-[bundle-platadm.t_AssignRoleToGroup]
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
-[bundle-platadm.t_AssignARoleToAUser]
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 

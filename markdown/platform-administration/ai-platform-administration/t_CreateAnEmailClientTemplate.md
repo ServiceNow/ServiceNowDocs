@@ -230,7 +230,7 @@ Enter a comma-separated list of either field names that contain user email addre
 **Related topics**  
 
 
-[bundle-crapiref.c_ScriptIncludes]
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md)
 
 ## Apply an email client template
 

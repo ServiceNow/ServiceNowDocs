@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Work with the Task table, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d67152e98">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d67154e98">
 
 Field
 
-</th><th align="left" id="d67152e101">
+</th><th align="left" id="d67154e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67152e107">
+</th></tr></thead><tbody><tr><td id="d67154e107">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d67152e116">
+</td></tr><tr><td id="d67154e116">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d67152e125">
+</td></tr><tr><td id="d67154e125">
 
 **Active**
 

@@ -18,7 +18,7 @@ You must activate the agentic workflows for Now Assist for Security Incident Res
 
 ## Before you begin
 
-The Now Assist panel must be activated. See  for more information.
+The Now Assist panel must be activated. See [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) for more information.
 
 Role required: aia-admin
 
@@ -28,7 +28,7 @@ Role required: aia-admin
 
 2.  Select the card for the agentic workflow that you want to configure and activate.
 
-    If you want to modify an agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicate.
+    If you want to modify an agentic workflow, you can [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) it, adjust the settings to suit your specific needs, and activate the duplicate.
 
     The Guided setup is displayed. The Describe and connect page is read-only.
 

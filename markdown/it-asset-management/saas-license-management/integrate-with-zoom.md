@@ -134,15 +134,15 @@ If you’re using Software Asset Workspace, the option to create the Zoom integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d96412e444">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d96458e444">
 
 Interface
 
-</th><th align="left" id="d96412e447">
+</th><th align="left" id="d96458e447">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d96412e453">
+</th></tr></thead><tbody><tr><td id="d96458e453">
 
 **Core UI**
 
@@ -153,7 +153,7 @@ Action
 3.  Select **Zoom Integration Profile**.
 
 
-</td></tr><tr><td id="d96412e495">
+</td></tr><tr><td id="d96458e495">
 
 **Software Asset Workspace**
 

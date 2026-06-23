@@ -18,7 +18,7 @@ Set up ServiceNow Spotlight to start using and getting the benefits of this feat
 
 ## Before you begin
 
-Install ServiceNow® Spotlight. For more information, see the ServiceNow Spotlight documentation.
+Install ServiceNow® Spotlight. For more information, see the [ServiceNow Spotlight documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/spotlight/setting-up-spotlight.md).
 
 Role required: admin, pa\_spotlight
 

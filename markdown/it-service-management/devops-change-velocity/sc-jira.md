@@ -80,7 +80,7 @@ Jira Cloud
 Pre-requisites:
 
     -   
-    -   
+    -   [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/setup-jira-serv-mgmt.md)
     -   
     -   Create credential record for Jira Cloud
 In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.

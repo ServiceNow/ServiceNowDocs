@@ -16,7 +16,7 @@ breadcrumb: [Configuring Collaboration services for Zoom, ServiceNow for Zoom, Z
 
 Integrate your Zoom account with your  ServiceNow® instance. Create a custom OAuth application in Zoom and authenticate requests from  ServiceNow.
 
-For complete information about setting up a Zoom spoke, see Zoom spoke.
+For complete information about setting up a Zoom spoke, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/zoom-spoke.md).
 
 **Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 

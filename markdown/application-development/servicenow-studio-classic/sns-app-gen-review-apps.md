@@ -131,7 +131,7 @@ Role required: a now.assist.creator role and the now\_assist\_panel\_user role
 
         For example, select **Questions**, hover over a specific question, and select the Edit icon. Confirm that the question type and options are correct. Make any changes as needed.
 
-        For more information about record producers, see .
+        For more information about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
     3.  Close the record producer tab.
 
@@ -171,7 +171,7 @@ Role required: a now.assist.creator role and the now\_assist\_panel\_user role
 
         For example, add or change triggers, actions, or subflows.
 
-        For more information about using Workflow Studio, see .
+        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
     3.  Close the Workflow Studio.
 

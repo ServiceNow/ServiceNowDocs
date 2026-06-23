@@ -46,6 +46,6 @@ The Now Assist panel suggests a list of actions for a safety incident and create
 
 To run the AI agents autonomously, duplicate the agentic workflow if needed and then do the following steps:
 
--   Activate the agentic workflow. For more information, see .
+-   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md).
 -   Activate the trigger to invoke the agentic workflow automatically.
 

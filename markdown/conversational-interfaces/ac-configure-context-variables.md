@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 You can use context variables in scripts or with the condition builder. For example, you can reference context variables in the **Live agent** area in the topic **Properties** tab when creating a topic. When a condition is applied to a topic, it must return as true to display to the user.
 
-For details about using context variables in topic scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-scripts.md). For information about learning to use context variables, see . For descriptions of Live Agent context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/live-agent-chat-context-vars.md).
+For details about using context variables in topic scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-scripts.md). For information about learning to use context variables, see [Tutorial: Route interactions by context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/advanced-work-assignment/context-routing-tutorial.md). For descriptions of Live Agent context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/live-agent-chat-context-vars.md).
 
 ## Procedure
 

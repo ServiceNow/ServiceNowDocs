@@ -16,7 +16,7 @@ Use AI agents in Order Management to complete sales and order-related tasks auto
 
 ## Standalone agents in Order Management
 
-The Manage order operations agent is available in the Now Assist for Order Management application. You can enable Voice AI agent and provide conversation experience to the customers via phone. For more information, see .
+The Manage order operations agent is available in the Now Assist for Order Management application. You can enable Voice AI agent and provide conversation experience to the customers via phone. For more information, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/deploy-ai-agents-for-voice.md).
 
 -   **[Request order changes using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/request-order-changes-now-assist.md)**  
 Request expedited delivery for your order in natural language using the Now Assist Virtual Assistant on Business Portal.

@@ -20,7 +20,7 @@ You canset up a gating approval via an approval rule.
 
 Role required: admin
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio . Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Table
 
 Task table to which this rule applies. For most service catalog approvals, select **Request**.
 
-**Note:** The list shows only tables and database views that are Application scope as the approval rule.
+**Note:** The list shows only tables and database views that are [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationScope.md) as the approval rule.
 
 </td></tr><tr><td>
 

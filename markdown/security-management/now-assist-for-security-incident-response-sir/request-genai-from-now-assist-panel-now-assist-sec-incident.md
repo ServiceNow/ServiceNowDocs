@@ -19,7 +19,7 @@ Request a security incident summary or closure notes from the Now Assist panel.
 
 ## Before you begin
 
-See  for how to activate the Now Assist panel.
+See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) for how to activate the Now Assist panel.
 
 Roles required: si\_analyst, si\_manager or sn\_si.basic
 
@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager or sn\_si.basic
 
 4.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon\) in the top banner.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d110363e137">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d110394e138">
 
 Option
 
-</th><th align="left" id="d110363e140">
+</th><th align="left" id="d110394e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110363e146">
+</th></tr></thead><tbody><tr><td id="d110394e147">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d110363e183">
+</td></tr><tr><td id="d110394e184">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d110363e217">
+</td></tr><tr><td id="d110394e218">
 
 **Generate correlation insights**
 

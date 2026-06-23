@@ -26,21 +26,21 @@ A business process has a well-defined start and finish. Examples of business pro
 
 In a parent-child relationship, business processes can be identified by using the parent attribute as a reference to a parent business process.
 
-The business process is a manually-maintained CI that can identify declared and determined criticality as well as impact to confidentiality, integrity, and availability. Business processes can be reviewed monthly, quarterly, semi-annually, or annually. In addition, the next review date can be recorded. For further information, see Business process management and Create a business process.
+The business process is a manually-maintained CI that can identify declared and determined criticality as well as impact to confidentiality, integrity, and availability. Business processes can be reviewed monthly, quarterly, semi-annually, or annually. In addition, the next review date can be recorded. For further information, see [Business process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-risk-management-workspace/business-process-overview.md) and [Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-business-process.md).
 
 ## Contracts
 
 A contract is a binding agreement between two parties. In the ServiceNow AI Platform, contracts contain detailed information such as the contract number, start and end dates, active status, terms and conditions statements, documents, renewal information, and financial terms.
 
--   A contract is not a CI. Contracts use contract model types from the Product Models module. Contracts are stored in the \[ast\_contract\] table.
--   Use the Contract Management application to manage and track contracts. See Contract Management application.
--   In the Service Level Management application, contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract. For more information, see .
+-   A contract is not a CI. Contracts use contract model types from the [Product Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CreateAProductModel.md) module. Contracts are stored in the \[ast\_contract\] table.
+-   Use the Contract Management application to manage and track contracts. See [Contract Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/contract-management/c_ContractManagement.md).
+-   In the Service Level Management application, contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract. For more information, see [Define a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-management/define-a-service-contract.md).
 -   Service contracts used by Vendor Management Workspace can support hardware CIs as part of an SLA.
--   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See Define a service contract in Customer Service Management.
+-   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See [Define a service contract in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-csm-service-contracts.md).
 
 ## Products and product models
 
-A product model is a specific version or configuration of a product used to manage and track applications on the ServiceNow AI Platform. Product models identify the product owner, team, product status, compatibility with other products, reference to product catalog, and reference objects in the various stages of a product's life cycle. For more information, see Product catalog.
+A product model is a specific version or configuration of a product used to manage and track applications on the ServiceNow AI Platform. Product models identify the product owner, team, product status, compatibility with other products, reference to product catalog, and reference objects in the various stages of a product's life cycle. For more information, see [Product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/product-catalog/c_ProductCatalog.md).
 
 Additionally, you can identify the products reaching end-of-life as defined by third party providers or internal product owners. You can also bundle other products as components to represent the set of products that your organization develops, sells, or uses.
 

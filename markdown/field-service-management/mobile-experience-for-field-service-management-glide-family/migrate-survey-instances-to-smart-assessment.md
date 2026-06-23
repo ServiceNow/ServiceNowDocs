@@ -18,7 +18,7 @@ Migrate a survey-based questionnaire to Smart Assessment, which migrates all the
 
 ## About this task
 
-Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see .
+Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 **Note:**
 

@@ -20,7 +20,7 @@ Configure the Knowledge content management skill to enable admins and managers t
 
 Role required: knowledge\_admin and knowledge\_manager
 
-Now Assist Identify duplicate articles skill supports third-party AI model providers. For configuring these settings, see . In the Edit model provider settings, select **Knowledge duplicate topic** as the skill.
+Now Assist Identify duplicate articles skill supports third-party AI model providers. For configuring these settings, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md). In the Edit model provider settings, select **Knowledge duplicate topic** as the skill.
 
 ## About this task
 

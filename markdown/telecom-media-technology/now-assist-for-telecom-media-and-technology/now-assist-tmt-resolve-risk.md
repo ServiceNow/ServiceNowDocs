@@ -24,22 +24,22 @@ Use the Recommend risk signal solutions agentic workflow to:
 -   Provide real-time risk analysis and generate detailed reports.
 -   Identify common solutions and provide proactive recommendations.
 
-Customer success managers can collaborate with customer success squad members to monitor risks, perform real-time risk analysis, generate detailed reports with proactive recommendations. This helps prevent escalations, improve customer retention, and enhance service quality. The Recommend risk signal solutions agentic workflow can be used to assess and offer solutions for both individual and multiple risks. It is triggered daily based on a predefined schedule and the results are displayed in the .
+Customer success managers can collaborate with customer success squad members to monitor risks, perform real-time risk analysis, generate detailed reports with proactive recommendations. This helps prevent escalations, improve customer retention, and enhance service quality. The Recommend risk signal solutions agentic workflow can be used to assess and offer solutions for both individual and multiple risks. It is triggered daily based on a predefined schedule and the results are displayed in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
-For information on how risks are generated, see .
+For information on how risks are generated, see [Setup the engagement risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-risk-defn.md).
 
 ## Role masking
 
 Required role: sn\_acct\_lc.customer\_success\_agent
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## Configure the Recommend risk signal solutions agentic workflow
 
 Before you use the agentic workflow, do the following:
 
--   Activate the Recommend risk signal solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See  for details.
--   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See .
+-   Activate the Recommend risk signal solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flow-activate.md) for details.
+-   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/using-decision-builder.md).
 -   Ensure that the solution subflows contain the following mandatory inputs:
     -   Risk system ID: Type is string and default name is risk\_system\_id.
     -   Solution table: Type is table.

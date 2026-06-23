@@ -38,7 +38,7 @@ You must ensure that the following requirements are met:
     -   Incident Configuration Item
     -   Incident Assignment
     -   Similar Resolved Incidents
--   Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see Predictive Intelligence.
+-   Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 -   **[Configure Recommendation Framework for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-rf-properties.md)**  
 Enable recommendations at field level or from the contextual sidebar for an incident in Service Operations Workspace.

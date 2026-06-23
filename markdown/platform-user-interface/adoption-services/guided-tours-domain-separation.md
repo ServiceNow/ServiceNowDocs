@@ -22,7 +22,7 @@ You can assign a domain to a guided tour during its creation or edit the domain 
 
 ### Before you begin
 
-Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must request domain separation.
+Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must [request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/t_ActivateDomainSeparation.md).
 
 **Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/t_ActivateUI16.md).
 

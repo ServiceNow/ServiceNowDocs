@@ -32,7 +32,7 @@ To use the Software Asset Management Core UI, activate the Software Asset Manage
 
 If you later decide to use the Software Asset Workspace, activate the Software Asset Workspace \(sn\_sam\_workspace\) plugin.
 
-For information on configuring and using the classic application, see [Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and Using Software Asset Management classic.
+For information on configuring and using the classic application, see [Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
 
 -   **[Software Asset Management Foundation plugin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/r_SAMRolesSAMF.md)**  
 Software Asset Management Foundation plugin adds the following roles.

@@ -7,7 +7,7 @@ release: yokohama
 product: Impact
 classification: impact
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
 ---

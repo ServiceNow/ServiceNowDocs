@@ -30,7 +30,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 4.  Select **Add an Action, Flow Logic, or Subflow**.
 
-    For more information about the available possibilities, see .
+    For more information about the available possibilities, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/flow-designer.md).
 
 5.  Use the handle next to the action number to reorder the action.
 
@@ -60,7 +60,7 @@ There are three possible outputs:
     Output code 3. Indicates that the deletion process has started, but that intermediate steps such as an approval are not complete.
 
 
-For more information, see Action error evaluation.
+For more information, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 **Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/delete-db-in-ac.md)
 

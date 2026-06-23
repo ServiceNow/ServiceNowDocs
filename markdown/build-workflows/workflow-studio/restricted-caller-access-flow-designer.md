@@ -53,7 +53,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
 ### Procedure
 
-1.  Add a system property .
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) .
 
     Create this property.
 

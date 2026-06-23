@@ -69,7 +69,7 @@ Role required: sn\_sow\_svcobs.admin
 
 ## What to do next
 
-For detailed instructions about editing dashboards, see .
+For detailed instructions about editing dashboards, see [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-elements-in-ac.md).
 
 **Parent Topic:**[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 

@@ -34,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following to move the part to the stockroom where it needs to be returned.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d72099e101">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d72090e101">
 
 To
 
-</th><th align="left" id="d72099e104">
+</th><th align="left" id="d72090e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d72099e110">
+</th></tr></thead><tbody><tr><td id="d72090e110">
 
 **Drop off**
 
@@ -52,7 +52,7 @@ Do this
 2.  Swipe the part to the left and click **Add to drop-off list**.
 
 
-</td></tr><tr><td id="d72099e131">
+</td></tr><tr><td id="d72090e131">
 
 **View part details and then drop off**
 

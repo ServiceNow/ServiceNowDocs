@@ -34,7 +34,7 @@ Role required: admin
 
 3.  Use the application picker to set the application scope to **Employee Center**.
 
-    See  for more information about using the application scope picker.
+    See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md) for more information about using the application scope picker.
 
     The **Application** field is set to **Employee Center**.
 

@@ -8,7 +8,7 @@ product: AI Platform Administration
 classification: ai-platform-administration
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -43,39 +43,39 @@ Define a hierarchy of categories, groups, and attributes and enable users to sel
 
 Dynamic schema also provides global APIs that enable you to access and manage dynamic attributes in your tables using JavaScripts. The following lists the APIs and methods that support dynamic attributes.
 
--   
--   
+-   [DynamicSchemaAPI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/DynamicSchemaAPI.md)
+-   [GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
     Only the following GlideAggregate methods support the usage of dynamic attributes:
 
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
--   
--   
--   
+    -   [GlideAggregate - addAggregate\(String agg, String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+    -   [GlideAggregate - addHaving\(String aggName, String fieldName, String operator, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+    -   [GlideAggregate - getValue\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+    -   [GlideAggregate - groupBy\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+    -   [GlideAggregate - orderBy\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+    -   [GlideAggregate - orderByAggregate\(String agg, String fieldName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+-   [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
     Only the following GlideRecord methods support dynamic attributes:
 
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
+    -   [GlideRecord - addQuery\(String name, Object operator, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDisplayValue\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttribute\(String fullPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttribute\(String dynamicAttributeField, String groupAttrPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttributeDisplayValue\(String fullPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttributeValue\(String fullPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - getValue\(String fieldName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - orderBy\(String fieldName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - orderByDesc\(String fieldName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDisplayValue\(String name, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDynamicAttributeDisplayValue\(String fullPath, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDynamicAttributeValue\(String fullPath, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setDynamicAttributeValues\(String dynamicAttributeField, GlideDynamicAttributeStore values\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+    -   [GlideRecord - setValue\(String name, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 

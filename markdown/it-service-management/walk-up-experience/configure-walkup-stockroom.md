@@ -41,7 +41,7 @@ Stockrooms are separate, standalone entities in the Asset Management application
     |Type|Type of stockroom. Chose **Walk-up** to create a walk-up stockroom.|
     |Manager|Person in charge of the stockroom. Receives restocking notifications and requests for the stockroom stock rules.|
 
-    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to .
+    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to [Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-management/c_Stockrooms.md).
 
 
 **Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/walkup-experience-configuration.md)

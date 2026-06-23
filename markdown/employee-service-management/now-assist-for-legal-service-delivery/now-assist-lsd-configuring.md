@@ -36,7 +36,7 @@ Ensure you have installed Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Versi
 
 The legal request summarization and legal matter summarization skills are available in the base system with the required configurations. To create a customized skill, you must create a copy of the skill that is in the base system before you modify the configuration. The parent skill is automatically deactivated when you activate your new customized skill. For more information, see [Customize a summarization skill in Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-customize-skill.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -60,7 +60,7 @@ Legal Request and Matter
 </td></tr></tbody>
 </table>The data access permissions for the Now Assist for Legal Service Delivery \(LSD\) skills are available in the base system. To grant data access to additional roles, you must configure the data access permissions manually for those roles.
 
-For more information, see role masking.
+For more information, see [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md).
 
 -   **[Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.md)**  
 Get a quick overview of the skill inputs for Now Assist for Legal Service Delivery \(LSD\) so that you can configure how and when a skill is used.

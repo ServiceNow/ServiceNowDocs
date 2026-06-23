@@ -16,7 +16,7 @@ breadcrumb: [Sourcing and Procurement Operations integration with Employee Cente
 
 ServiceNow® Virtual Agent for Sourcing and Procurement Operations enables shoppers to quickly find and purchase products that they're looking for from a vendor on ShoppingHub, by interacting with a virtual agent from Employee Center. It also allows shoppers to view purchases, procurement tasks, procurement cases, and even work on their to-dos. They can also get help from the procurement team using Virtual Agent.
 
-For more information on Virtual Agent in general, its components, benefits, and basic user interface, see Virtual Agent.
+For more information on Virtual Agent in general, its components, benefits, and basic user interface, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
 
 -   **[Sourcing and Procurement Operations Virtual Agent conversations and topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-virtual-agent-topics-and-topic-blocks.md)**  
 A topic conversation defines the dialog between the Virtual Agent \(chat support bot\) and the user, which enables you to gather information for a specific business need.

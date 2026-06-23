@@ -30,7 +30,7 @@ function validate (value){
 }
 ```
 
-For a comprehensive use case, see .
+For a comprehensive use case, see [Restricting record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ExScptDftBfrQryBsnRu.md).
 
 **Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/usefulScripts.md)
 

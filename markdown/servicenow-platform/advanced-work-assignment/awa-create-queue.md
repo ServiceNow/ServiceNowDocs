@@ -61,7 +61,7 @@ Number
 
 </td><td>
 
-Base number for the table. For more information, see Record numbering.
+Base number for the table. For more information, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_ManagingRecordNumbering.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Work item routing condition
 
 </td><td>
 
-Condition that applies to routing work items to this queue.Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by dot-walking to related context fields.
+Condition that applies to routing work items to this queue.Use the condition builder to select routing conditions. The fields available for selection are based on the selected service channel. For the chat service channel, you can specify chat context variables in the condition builder by [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md) to related context fields.
 
 For example, if you defined chat context variables that store pre-chat routing information, you can dot-walk to those chat context variables in the condition builder. You can use the variables in routing conditions to specify where chats are routed.
 
@@ -181,7 +181,7 @@ Max Wait Time
 
 </td><td>
 
-Maximum amount of time that all available agents have to accept or reject a chat request. After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in Agent Chat settings.**Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
+Maximum amount of time that all available agents have to accept or reject a chat request. After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).**Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** for a new queue or **Update** to change the queue.

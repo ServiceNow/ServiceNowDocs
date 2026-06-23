@@ -22,7 +22,7 @@ On iOS devices, the iOS operating system also allows applications to save an ima
 
 **Note:** This setting or configuration is per instance basis so the user must connect to the instance with the property configured.
 
-To obfuscate all fields from the snapshot in the ServiceNow Classic app, see Configure the blur app option to improve security.
+To obfuscate all fields from the snapshot in the ServiceNow Classic app, see [Configure the blur app option to improve security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/t_BlurApp.md).
 
 ## Example
 
@@ -109,7 +109,7 @@ Security risk
 \(Medium\) A compromised \(jailbroken\) device would enable an attacker to have full access to the file system, with access those files/snapshots with sensitive information embedded in them.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -16,7 +16,7 @@ breadcrumb: [Configuring Care Team Operations for Healthcare IT, Care Team Opera
 
 Configure the service catalog to include new catalog items for use with Care Team Operations for Healthcare IT using the Catalog Builder.
 
-For information on using the Catalog Builder to add record producers to the service catalog, see .
+For information on using the Catalog Builder to add record producers to the service catalog, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/catalog-builder.md).
 
 For a list of components installed with Care Team Operations for Biomed, see [Components installed with Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-components.md).
 

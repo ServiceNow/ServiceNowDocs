@@ -33,5 +33,5 @@ The System for Cross-domain Identity Management \(SCIM\) API provides endpoints 
 
 To access this API, you must activate the SCIM v2 - ServiceNow® Cross-domain Identity Management \(com.snc.integration.scim2\) plugin.
 
-To know more about the SCIM API, see System for Cross-domain Identity Management \(SCIM\) API.
+To know more about the SCIM API, see [System for Cross-domain Identity Management \(SCIM\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/scim-api.md).
 

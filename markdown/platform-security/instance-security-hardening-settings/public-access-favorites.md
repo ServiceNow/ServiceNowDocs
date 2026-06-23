@@ -31,7 +31,7 @@ Public Access to Favorites will be compliant if **glide.ui.magellan.favorites.al
 |Security Dependencies|Set **glide.ui.magellan.favorites.allow\_public** to **false**.|
 |Functional impact|\(Medium\) Enabling this property acts as a layer of protection from unauthorized users.|
 |Security risk|\(Medium\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
-|References||
+|References|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)|
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

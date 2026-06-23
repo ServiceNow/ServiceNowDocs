@@ -28,7 +28,7 @@ Extract data using OData and an HTTP connection. To give users OData access, see
 
 ## Allowing download of XML files
 
-The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension has not been added to this property. For more information, see .
+The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension has not been added to this property. For more information, see [Restrict attachment file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 ## New properties
 

@@ -62,15 +62,15 @@ Role required: data\_privacy\_admin and admin
 
 7.  Assign anonymization techniques for the selected data class.\[Omitted image "bulk-assign-technique.png"\] Alt text: The bulk assign techniques form.
 
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d61280e268">
+<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d61492e268">
 
 Option
 
-</th><th align="left" id="d61280e271">
+</th><th align="left" id="d61492e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61280e277">
+</th></tr></thead><tbody><tr><td id="d61492e277">
 
 **Select __Bulk Assign Techniques__**
 
@@ -78,7 +78,7 @@ Description
 
 Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for a list of data types.
 
-</td></tr><tr><td id="d61280e299">
+</td></tr><tr><td id="d61492e299">
 
 **Select an __anonymization technique__ for each data column record**
 

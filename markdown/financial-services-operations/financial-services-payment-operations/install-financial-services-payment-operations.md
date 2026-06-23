@@ -65,5 +65,5 @@ For more information, see [Components installed with Financial Services Payment 
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
 

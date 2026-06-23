@@ -28,15 +28,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d220034e83">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d220069e83">
 
 Field
 
-</th><th align="left" id="d220034e86">
+</th><th align="left" id="d220069e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220034e92">
+</th></tr></thead><tbody><tr><td id="d220069e92">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Enter a descriptive name for this attack pattern.
 
-</td></tr><tr><td id="d220034e101">
+</td></tr><tr><td id="d220069e101">
 
 **Spec Version**
 
@@ -52,7 +52,7 @@ Enter a descriptive name for this attack pattern.
 
 The version of the STIX specification used to represent this object.The value of this property must be 2.1 for STIX Objects defined according to this specification.
 
-</td></tr><tr><td id="d220034e113">
+</td></tr><tr><td id="d220069e113">
 
 **Source**
 
@@ -60,7 +60,7 @@ The version of the STIX specification used to represent this object.The value of
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d220034e122">
+</td></tr><tr><td id="d220069e122">
 
 **Description**
 
@@ -68,7 +68,7 @@ Specifies the threat source from which this record is created.
 
 Enter a description of the attack pattern.
 
-</td></tr><tr><td id="d220034e132">
+</td></tr><tr><td id="d220069e132">
 
 **Aliases**
 
@@ -76,7 +76,7 @@ Enter a description of the attack pattern.
 
 Alternative names to identify this attack pattern.
 
-</td></tr><tr><td id="d220034e141">
+</td></tr><tr><td id="d220069e141">
 
 **Source ID**
 
@@ -84,7 +84,7 @@ Alternative names to identify this attack pattern.
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d220034e150">
+</td></tr><tr><td id="d220069e150">
 
 **Created Time in Source**
 
@@ -92,7 +92,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d220034e159">
+</td></tr><tr><td id="d220069e159">
 
 **Modified Time in Source**
 

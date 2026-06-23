@@ -24,5 +24,5 @@ Here are alternative methods for defining application services:
 -   Use a Dynamic CI group, based on a query.
 -   Use a tag-based approach \(commonly used for Cloud integrations\).
 
-For more information about creating application services, see Create an application service.
+For more information about creating application services, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 

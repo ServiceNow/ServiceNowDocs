@@ -32,7 +32,7 @@ The Create configuration item agentic workflow is particularly useful for adding
 
 **Note:** The workflow prevents creation of a CI whose class does not have an identification rule. For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
-To learn more about using the Now Assist panel, see Working in the Now Assist panel.
+To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ To learn more about using the Now Assist panel, see Working in the Now Assist pa
     -   While working in the CMDB Workspace, select **Create CI** in the Quick Links section.
     -   While working in the CMDB Workspace, select the Now Assist icon \[Omitted image "ai-sparkle-cmdb.png"\] and then enter `create a ci`.
 
-        For more information, see Working in the Now Assist panel.
+        For more information, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 2.  Enter the class of CI to create and then continue by answering the Now Assist questions.
 

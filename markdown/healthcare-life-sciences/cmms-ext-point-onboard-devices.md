@@ -35,7 +35,7 @@ The `sn_hcls_cmms.CreateDevicesForOnboardCase` script is preconfigured to set th
 3.  Create work orders for the initial inspection of medical devices.
 4.  Set the state of the devices to **Installed** when the medical device in-service case is set to **Closed complete**.
 
-Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
+Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 
@@ -47,7 +47,7 @@ An implementation is available in the base system for scripted extension points.
 
 3.  On the Extension Point form, select a script include to use the `CreateDevicesForOnboardCase` extension point by creating and registering a custom script include.
 
-    You can refer to the CreateDevicesForOnboardCase script include provided with the application to create a custom script include to set the medical device in-service cases. For more information, see .
+    You can refer to the CreateDevicesForOnboardCase script include provided with the application to create a custom script include to set the medical device in-service cases. For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
 4.  Customize the submission workflow logic of your medical device in-service request form by adding the `createDevices`,`checkForDuplicateDevices`, `checkForDuplicateDevicesForNewModel`, `associateToExistingModel`, `createModel`, `createInspectionWorkOrders`, `installDevices`, and `cancelDevices` methods to your script include that implements the `CreateDevicesForOnboardCase` extension point.
 

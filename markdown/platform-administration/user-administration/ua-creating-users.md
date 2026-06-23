@@ -16,7 +16,7 @@ breadcrumb: [Creating users, companies, and departments, User administration, Co
 
 Users are typically added through Lightweight Directory Access Protocol \(LDAP\) directory integrations. Admins can also manually add users to the instance, enable self-registration for new users, and impersonate users to ensure that they have the proper access privileges.
 
-For more information on LDAP integrations, see .
+For more information on LDAP integrations, see [LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/ldap-integration/c_LDAPIntegration.md).
 
 -   **[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/t_CreateAUser.md)**  
 You can add a user to your instance to enable them to log in and use designated application features.

@@ -21,16 +21,16 @@ Set up message and topic replications to replicate data between your Apache Kafk
 -   Role required: message\_replication\_admin
 -   This feature requires a subscription. For more information, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
-    -   .
-    -   Check the  to verify that all three items in the Instance PKI section are operational.
--   Configure and start a MID Server. For more information, see . The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
+    -   [Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.md).
+    -   Check the [Key Management Framework Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/platform-encryption/kmf_diagnostics.md) to verify that all three items in the Instance PKI section are operational.
+-   Configure and start a MID Server. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md). The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
     -   Producer: 4000–4050
     -   Consumer1: 4100–4150
     -   Consumer2: 4200–4250
     **Note:** Proxy settings on the MID Server don't apply to Hermes connectivity. The MID Server proxy configuration applies only to HTTP-based communication. Hermes uses Kafka-native TCP connections, so traffic to the Hermes cluster bypasses proxy settings regardless of how the MID Server is configured.
 
--   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka.  with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka SSL Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
+-   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connections-and-credentials/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka SSL Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 -   Stream Connect Message Replication requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
 ## About this task
@@ -168,9 +168,9 @@ Each Kafka Topic Replication record also has a related list named Message Replic
 
 ## What to do next
 
-If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-script-consumer.md), [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-etl-consumer.md), or [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-transform-map-consumer.md) consumer to process the messages or set up a Kafka Message trigger to start a flow.
+If you're replicating messages from your local Kafka into ServiceNow, you can configure a [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-script-consumer.md), [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-etl-consumer.md), or [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-transform-map-consumer.md) consumer to process the messages or set up a [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/create-flow-kafka.md) to start a flow.
 
-If you're replicating messages from ServiceNow to your local Kafka, you can use a  in Workflow Studio or use the ProducerV2 API to publish messages to the Hermes topic and your local Kafka.
+If you're replicating messages from ServiceNow to your local Kafka, you can use a [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/kafka-producer-action-designer.md) in Workflow Studio or use the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md) to publish messages to the Hermes topic and your local Kafka.
 
 **Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

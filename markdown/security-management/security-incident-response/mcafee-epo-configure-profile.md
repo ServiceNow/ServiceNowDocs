@@ -30,15 +30,15 @@ Define the conditions that automatically trigger the McAfee ePO capabilities tha
 
 2.  On the form, fill the fields
 
-<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d179970e75">
+<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d180005e75">
 
 Option
 
-</th><th align="left" id="d179970e78">
+</th><th align="left" id="d180005e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179970e84">
+</th></tr></thead><tbody><tr><td id="d180005e84">
 
 **Enable alternate CI trigger field**
 
@@ -50,7 +50,7 @@ Select this check box if you believe the CI field will not be populated upon inc
 
 For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
-</td></tr><tr><td id="d179970e116">
+</td></tr><tr><td id="d180005e116">
 
 **Display Tags**
 
@@ -58,7 +58,7 @@ For more information on the alternate CI trigger field, see [Defining triggering
 
 Security tags are displayed on security incidents. Default is cleared.When this check box is cleared, and the tagging option is disabled, no security tag names are displayed on the configuration form, and tags are not displayed on related security incidents. For this example, the security tags option is disabled.
 
-</td></tr><tr><td id="d179970e128">
+</td></tr><tr><td id="d180005e128">
 
 **Auto trigger based on incident**
 
@@ -72,7 +72,7 @@ A common example of a filter for a profile that runs enrichment queries is `Cate
 
 These filter settings remain saved until you change them, and they are available for editing during the preview and test incident step of the configuration.
 
-</td></tr><tr><td id="d179970e150">
+</td></tr><tr><td id="d180005e150">
 
 **Require approval**
 

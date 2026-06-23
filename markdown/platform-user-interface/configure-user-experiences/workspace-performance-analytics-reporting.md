@@ -23,7 +23,7 @@ Within the Platform Analytics Workspace, you’re able to:
 -   Create dashboards and data visualizations from your workspace runtime.
 -   Drill down into your KPIs, applying filters to slice your data and applying aggregations and statistical tools.
 
-For more information, see Performance Analytics and Reporting for Workspace
+For more information, see [Performance Analytics and Reporting for Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/par-workspace.md)
 
 \[Omitted image "performance-analytics.png"\] Alt text: Workspace performance analytics.
 

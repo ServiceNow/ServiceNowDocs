@@ -32,15 +32,15 @@ Role required: admin
 
 4.  From the Related Links section, click Create **New Connection &amp; Credential**.
 
-<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d197762e92">
+<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d197797e92">
 
  
 
-</th><th align="left" id="d197762e94">
+</th><th align="left" id="d197797e94">
 
  
 
-</th></tr></thead><tbody><tr><td id="d197762e99">
+</th></tr></thead><tbody><tr><td id="d197797e99">
 
 **Name**
 
@@ -48,7 +48,7 @@ Role required: admin
 
 Any unique Name.
 
-</td></tr><tr><td id="d197762e108">
+</td></tr><tr><td id="d197797e108">
 
 **Connection URL**
 
@@ -56,7 +56,7 @@ Any unique Name.
 
 Connection URL. For example, https://graph.microsoft.com
 
-</td></tr><tr><td id="d197762e117">
+</td></tr><tr><td id="d197797e117">
 
 **API Version**
 
@@ -64,7 +64,7 @@ Connection URL. For example, https://graph.microsoft.com
 
 Version of the API. For example, v1.0
 
-</td></tr><tr><td id="d197762e126">
+</td></tr><tr><td id="d197797e126">
 
 **Authorization URL**
 
@@ -72,7 +72,7 @@ Version of the API. For example, v1.0
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
-</td></tr><tr><td id="d197762e136">
+</td></tr><tr><td id="d197797e136">
 
 **Token URL**
 
@@ -80,7 +80,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
-</td></tr><tr><td id="d197762e145">
+</td></tr><tr><td id="d197797e145">
 
 **Token Revocation URL**
 
@@ -88,7 +88,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
-</td></tr><tr><td id="d197762e154">
+</td></tr><tr><td id="d197797e154">
 
 **OAuth Client ID**
 
@@ -96,7 +96,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
 Client ID.
 
-</td></tr><tr><td id="d197762e163">
+</td></tr><tr><td id="d197797e163">
 
 **OAuth Client Secret**
 

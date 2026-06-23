@@ -41,7 +41,7 @@ Ensure that you've configured the external trigger endpoints for the third-party
 -   GitHub Spoke
 -   Docusign eSignature Spoke
 
-For more information about configuring the third-party spoke, see .
+For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md).
 
 **Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. For example, see the following link that shows different payload shapes for Jira events: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
 

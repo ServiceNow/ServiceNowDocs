@@ -22,7 +22,7 @@ You can use the Help nurture new leads agentic workflow to do the following:
 -   Book an appointment or demo to get the lead closer to qualification
 -   Identify opt-outs and disinterest for lead disqualification
 
-To modify the Help nurture new leads agentic workflow duplicate it, and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

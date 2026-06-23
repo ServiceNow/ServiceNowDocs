@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d45690e81">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d45681e81">
 
 Action
 
-</th><th align="left" id="d45690e84">
+</th><th align="left" id="d45681e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45690e90">
+</th></tr></thead><tbody><tr><td id="d45681e90">
 
 **Submit time card**
 
@@ -46,7 +46,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d45690e105">
+</td></tr><tr><td id="d45681e105">
 
 **View a time card**
 
@@ -54,7 +54,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d45690e117">
+</td></tr><tr><td id="d45681e117">
 
 **View time card notes**
 
@@ -62,7 +62,7 @@ Tap **View time card** to view time card details such as task, hours, resource p
 
 Tap **Time card notes** to view the notes related to the time card.
 
-</td></tr><tr><td id="d45690e129">
+</td></tr><tr><td id="d45681e129">
 
 **Add time card notes**
 
@@ -70,7 +70,7 @@ Tap **Time card notes** to view the notes related to the time card.
 
 Tap **Add new note** to add a new note.
 
-</td></tr><tr><td id="d45690e142">
+</td></tr><tr><td id="d45681e142">
 
 **Delete a time card**
 

@@ -20,7 +20,7 @@ Access the Mobile App Builder to start the process of creating workflows for you
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -32,15 +32,15 @@ For more information about the delegated developer role, see .
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38137e99">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38147e100">
 
 Action
 
-</th><th align="left" id="d38137e102">
+</th><th align="left" id="d38147e103">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d38137e108">
+</th></tr></thead><tbody><tr><td id="d38147e109">
 
 **Access documentation**
 
@@ -48,7 +48,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d38137e123">
+</td></tr><tr><td id="d38147e124">
 
 **Access Mobile Card Builder**
 
@@ -56,7 +56,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d38137e141">
+</td></tr><tr><td id="d38147e142">
 
 **Select an application scope**
 

@@ -97,7 +97,7 @@ True/False
 
 Used to classify whether the information received by this parameter is sensitive or not.
 
- **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled. To learn more bout column level encryption, see:  .
+ **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled. To learn more bout column level encryption, see: [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/servicenow-ai-platform-security/encryption-landing.md) .
 
 </td></tr><tr><td>
 

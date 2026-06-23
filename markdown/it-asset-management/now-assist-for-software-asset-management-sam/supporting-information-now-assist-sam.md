@@ -24,7 +24,7 @@ Now Assist for SAM is supported starting with the Yokohama release.
 
 The Now Assist for SAM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 <table id="table_e4m_4tf_pdc"><thead><tr><th>
 

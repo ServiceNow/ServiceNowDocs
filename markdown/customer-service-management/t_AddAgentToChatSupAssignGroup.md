@@ -36,5 +36,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[bundle-platcap.c_ConnectSupport]
+[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/connect/c_ConnectSupport.md)
 

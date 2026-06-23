@@ -48,15 +48,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 10. Select one of the following options.
 
-<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d52409e186">
+<table id="choicetable_sh5_nr3_f5b"><thead><tr><th align="left" id="d52276e186">
 
 Selection
 
-</th><th align="left" id="d52409e189">
+</th><th align="left" id="d52276e189">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d52409e197">
+</th></tr></thead><tbody><tr><td id="d52276e197">
 
 **Unresolved**
 
@@ -77,7 +77,7 @@ Result
     2.  Select **Yes** or **No** and click **Continue**.
 
 
-</td></tr><tr><td id="d52409e318">
+</td></tr><tr><td id="d52276e318">
 
 **Resolved**
 
