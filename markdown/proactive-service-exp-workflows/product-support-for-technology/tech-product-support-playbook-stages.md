@@ -277,5 +277,5 @@ The Technology Product Case Troubleshoot recommended actions rule:
     -   **Start discussion**: starts a Sidebar discussion.
     -   **Dismiss**: dismisses the recommendation card.
 
-For more information, see .
+For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-nba.md).
 

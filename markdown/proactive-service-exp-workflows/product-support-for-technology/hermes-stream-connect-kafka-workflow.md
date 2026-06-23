@@ -19,7 +19,7 @@ Produce an outbound notification from the ServiceNow instance using the Hermes c
 In this use case, the notifications are produced to the Hermes cluster from your ServiceNow instance. After replication from Hermes to Kafka is completed, customers can consume or pull the messages from their own Kafka.
 
 -   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
--   To learn more about Apache Kafka Stream Connect, see .
+-   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
 In the Zurich release, the following events are supported for trouble ticket notification.
 

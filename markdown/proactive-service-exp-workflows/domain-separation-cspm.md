@@ -32,7 +32,7 @@ Customer Service Problem Management \(CSPM\) supports domain separation at an ac
 
 ## How domain separation works in Customer Service Problem Management
 
--   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see Domain separation and Customer Service Management.
+-   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/domain-separation-customer-service.md).
 -   Customer details and service problem cases are domain separated using the account name.
 -   If an administrator assigns fulfillment agents and managers to work on the service problem cases for a specific domain, these agents and managers can work on these types of transactions across accounts.
 

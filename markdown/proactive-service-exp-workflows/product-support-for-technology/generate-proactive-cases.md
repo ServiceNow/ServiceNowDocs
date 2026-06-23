@@ -42,7 +42,7 @@ Role required: admin
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see .
+    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definitions.md).
 
 9.  Select the **Recommended Services**.
 
