@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/classic-android-v4-3.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-17"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Mobile Classic mobile app version history, Mobile app version history for iOS and Android]
 ---
