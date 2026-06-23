@@ -16,7 +16,7 @@ breadcrumb: [Group Life Servicing reference, Setting up Group Life Servicing, Gr
 
 Several types of components are installed with activation of the Group Life Servicing plugin, including tables and user roles. The applications also install related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 ## Plugins installed
 
@@ -54,8 +54,8 @@ Enables insurance carriers to route service requests to underwriters based on th
 |Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see .|
 |Group Life Underwriting|Enables management of group policy underwriting services tasks that are used in insurance policy service cases. For more information, see [Components installed with Group Life Underwriting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/components-installed-group-life-underwriting.md).|
 |Document Processor|Enables management of document services tasks that are used in insurance policy service workflows. For more information, see [Integrate with Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
-|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see CSM Contributor User Configure Contributor Users.|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/config-contributor-user.md) [Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/config-contributor-user.md).|
 
 ## Roles installed
 

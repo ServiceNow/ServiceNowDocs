@@ -7,7 +7,7 @@ release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---

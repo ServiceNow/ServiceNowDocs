@@ -26,15 +26,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the approval record from the email notification, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d79863e54">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d79647e54">
 
 Options
 
-</th><th align="left" id="d79863e57">
+</th><th align="left" id="d79647e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79863e63">
+</th></tr></thead><tbody><tr><td id="d79647e63">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d79863e72">
+</td></tr><tr><td id="d79647e72">
 
 **From Self-Service**
 
@@ -52,7 +52,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d79863e102">
+</td></tr><tr><td id="d79647e102">
 
 **From Employee Center**
 

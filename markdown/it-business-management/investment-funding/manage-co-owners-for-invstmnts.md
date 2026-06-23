@@ -27,15 +27,15 @@ Role required:
 
 1.  Open a top-level investment or My fund.
 
-<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d43876e62">
+<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d42949e62">
 
 Option
 
-</th><th align="left" id="d43876e65">
+</th><th align="left" id="d42949e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43876e71">
+</th></tr></thead><tbody><tr><td id="d42949e71">
 
 **To open a top-level investment**
 
@@ -45,7 +45,7 @@ Steps
 2.  Click an investment tile.
 
 
-</td></tr><tr><td id="d43876e101">
+</td></tr><tr><td id="d42949e101">
 
 **To open a My fund**
 

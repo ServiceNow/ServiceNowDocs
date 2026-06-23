@@ -186,7 +186,7 @@ Summarizes attachments of type PNG or JPEG in the Incident summarization skill r
 
 7.  Trigger frequency
 
-    Refreshes the sentiments for all updated incidents. You can set the trigger frequency for the refresh using the **Sentiment Analysis Scheduled Job \(Incident\)** scheduled job. See  for more information on Now Assist Sentiment Analysis.
+    Refreshes the sentiments for all updated incidents. You can set the trigger frequency for the refresh using the **Sentiment Analysis Scheduled Job \(Incident\)** scheduled job. See [Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-sentiment-analysis.md) for more information on Now Assist Sentiment Analysis.
 
 8.  Cluster incidents
 
@@ -309,7 +309,7 @@ Closed
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see .
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

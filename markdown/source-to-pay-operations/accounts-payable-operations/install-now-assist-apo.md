@@ -61,15 +61,15 @@ Case summarization
 
 9.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d103010e222">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d103034e222">
 
 Option
 
-</th><th align="left" id="d103010e225">
+</th><th align="left" id="d103034e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103010e231">
+</th></tr></thead><tbody><tr><td id="d103034e231">
 
 **Skill is always available**
 
@@ -77,7 +77,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d103010e240">
+</td></tr><tr><td id="d103034e240">
 
 **Customize skill availability**
 

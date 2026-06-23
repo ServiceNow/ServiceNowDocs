@@ -14,7 +14,7 @@ breadcrumb: [Managing procedure requests in Workspace, Pre-Visit Management, Hea
 
 Use the playbook available with the Pre-Visit Management application to manage procedure request cases and schedule a high value procedure for patients.
 
-The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Pre-Visit Management, the **Playbook** tab appears for a procedure request case. For more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Pre-Visit Management, the **Playbook** tab appears for a procedure request case. For more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 As a patient service representative with the sn\_previsit.patient\_service\_agent role assigned to you, you can use the playbook to complete all pre-visit activities for a patient. You can access the **Playbook** tab on your Workspace when a procedure request case is assigned to you. The Pre-Visit Management workflow populates the case data for all launched activities on the **Playbook** tab. You can select a stage in the playbook to complete the activities associated with the stage.
 

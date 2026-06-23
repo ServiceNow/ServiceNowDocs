@@ -7,7 +7,7 @@ release: xanadu
 product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Sales and Order Management workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

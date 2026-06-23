@@ -90,7 +90,7 @@ Currency groupings on invoice and invoice lines are determined based on the user
 
 **Note:** During conversion, for numbers such as 100,251 and 100.251, the system checks for other decimal separators mentioned in the invoice, and converts it to the appropriate decimal format. If the invoice contains fields with single decimal separator, then conversion does not apply for the invoice, and the value is set to empty as shown in the table below.
 
-For more information on currency conversion, see .
+For more information on currency conversion, see [Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/currency-administration/currency.md).
 
 |Decimal format mentioned in the incoming invoice|Converted decimal format|
 |------------------------------------------------|------------------------|

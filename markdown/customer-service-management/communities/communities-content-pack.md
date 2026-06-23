@@ -20,7 +20,7 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 To enable the solution for Communities, an admin navigates to **System Definitions** &gt; **Plugins** and activates the Performance Analytics - Content Pack - Communities plugin.
 
@@ -34,7 +34,7 @@ The Communities dashboard displays up-to-date status on community usage, members
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

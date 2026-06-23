@@ -36,15 +36,15 @@ The following table lists the capabilities that you are required to add to a pro
 
 3.  On the form, fill the fields.
 
-<table id="choicetable_kn1_ffj_fyb"><thead><tr><th align="left" id="d38311e109">
+<table id="choicetable_kn1_ffj_fyb"><thead><tr><th align="left" id="d38316e109">
 
 Field
 
-</th><th align="left" id="d38311e112">
+</th><th align="left" id="d38316e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38311e118">
+</th></tr></thead><tbody><tr><td id="d38316e118">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name for the McAfee ePO capability profile. This name helps you identify the profile type and describe it. An example for a profile that runs queries is, Host and Threat Details. This name is also the name for the security tag for this profile by default.
 
-</td></tr><tr><td id="d38311e130">
+</td></tr><tr><td id="d38316e130">
 
 **Description**
 
@@ -60,7 +60,7 @@ Name for the McAfee ePO capability profile. This name helps you identify the pro
 
 Additional information about the profile that further describes the activities of the profile. An example description for a profile that runs queries is, Threat enrichment for system details and a list of threat events. An example description for a profile that runs actions is, Isolate host machine.
 
-</td></tr><tr><td id="d38311e139">
+</td></tr><tr><td id="d38316e139">
 
 **Source**
 
@@ -68,7 +68,7 @@ Additional information about the profile that further describes the activities o
 
 Name of the McAfee ePO server. Only configured servers are available from the choice list.
 
-</td></tr><tr><td id="d38311e151">
+</td></tr><tr><td id="d38316e151">
 
 **McAfee ePO Capability**
 
@@ -83,7 +83,7 @@ Select the capabilities you want for this profile from the **Available** column 
 
 You can't add Get Host Details, Initiate Malware Scan and List Threat Events in the same profile, and you can't add Remove Isolation and Isolate Host on the same profile.
 
-</td></tr><tr><td id="d38311e191">
+</td></tr><tr><td id="d38316e191">
 
 **Order**
 
@@ -93,7 +93,7 @@ Workflow priority. Default is 100. The value of this field indicates the order t
 
 To set the order of operation, enter a value. For example, 100, 200, 300, 400.
 
-</td></tr><tr><td id="d38311e203">
+</td></tr><tr><td id="d38316e203">
 
 **Active**
 

@@ -37,7 +37,7 @@ Role required: admin
 
 ## What to do next
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See .
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/atf-perf-prof.md).
 
 **Parent Topic:**[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.md)
 

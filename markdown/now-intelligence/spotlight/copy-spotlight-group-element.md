@@ -34,15 +34,15 @@ When you first create a Spotlight group, you can associate it with at most one e
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d31350e84">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d31365e84">
 
 Value
 
-</th><th align="left" id="d31350e87">
+</th><th align="left" id="d31365e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31350e93">
+</th></tr></thead><tbody><tr><td id="d31365e93">
 
 **Do not change the name**
 
@@ -50,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d31350e102">
+</td></tr><tr><td id="d31365e102">
 
 **Change the name**
 
@@ -58,7 +58,7 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d31350e111">
+</td></tr><tr><td id="d31365e111">
 
 **Add element name to new name as prefix**
 
@@ -66,7 +66,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d31350e130">
+</td></tr><tr><td id="d31365e130">
 
 **Add element name to new name as suffix**
 

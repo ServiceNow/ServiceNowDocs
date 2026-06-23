@@ -80,7 +80,7 @@ Apply to all views/Apply to view \[Advanced settings\]
 
 </td><td>
 
-Option for specifying whether the UI policy applies to all form views or specific views. For more information on form views, see View management.
+Option for specifying whether the UI policy applies to all form views or specific views. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
 
 </td></tr><tr><td>
 
@@ -248,7 +248,7 @@ Type of object the access controls, including the following:-   Client-callable 
 -   UI page
 -   UX route
 
- For more information on object types, see ACL matching requirements for objects.
+ For more information on object types, see [ACL matching requirements for objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md).
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ Operation
 
 </td><td>
 
-Type of action the system can take on the specified object, such as delete or execute. Some objects, such as records, support multiple operations, while other objects, such as a REST\_Endpoint, only support one operation. For more information on action types, see ACL rule types.
+Type of action the system can take on the specified object, such as delete or execute. Some objects, such as records, support multiple operations, while other objects, such as a REST\_Endpoint, only support one operation. For more information on action types, see [ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/acl-rule-types.md).
 
 </td></tr><tr><td>
 
@@ -295,7 +295,7 @@ Admin overrides
 
 </td><td>
 
-Option to force the rule's evaluation for admin overrides at the access level. For more information on admin overrides, see Evaluate the admin override at the access level.
+Option to force the rule's evaluation for admin overrides at the access level. For more information on admin overrides, see [Evaluate the admin override at the access level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/t_EvalAdmOverrideAccLevel.md).
 
 </td></tr><tr><td>
 

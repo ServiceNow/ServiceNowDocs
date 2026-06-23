@@ -16,7 +16,7 @@ Enable Analytics Generation skills in the Now Assist for Creator application to 
 
 ## Before you begin
 
-Install the Now Assist for Creator application. For more information, see .
+Install the Now Assist for Creator application. For more information, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 
 Role required: admin
 

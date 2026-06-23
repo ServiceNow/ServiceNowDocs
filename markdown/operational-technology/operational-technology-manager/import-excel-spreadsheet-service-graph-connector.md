@@ -48,7 +48,7 @@ To access the Industrial Guided Setup, navigate to **Industrial Workspace Admin*
 
     **Note:** The remaining steps for creating an ETL transform map are automatically completed. However, you can select a specific step to review it before performing the actual import. For example, select **Prepare and Preview Data** to view the nested data structure and raw source data.
 
-    **Note:** For more details, see Create an ETL Transform Map.
+    **Note:** For more details, see [Create an ETL Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/integration-hub-etl/create-etl-transform-map.md).
 
 6.  To perform the actual Excel spreadsheet import, select **Test and Rollback Integration Results**.
 

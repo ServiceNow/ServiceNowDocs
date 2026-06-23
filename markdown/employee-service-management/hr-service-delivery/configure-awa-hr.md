@@ -20,7 +20,7 @@ Use Agent Chat Settings to configure Agent Chat for HR Service Delivery Agent Wo
 
 Role required: sn\_hr\_core.admin
 
-**Note:** Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on configuring chat, see Set up Agent Chat.
+**Note:** Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on configuring chat, see [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 ## Procedure
 

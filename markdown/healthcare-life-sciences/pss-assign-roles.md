@@ -16,7 +16,7 @@ Assign roles to control access to features, capabilities, and data in the Patien
 
 ## Before you begin
 
-Set the application scope to Patient Support Services using the application picker. For more information, see Application picker.
+Set the application scope to Patient Support Services using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_patientservice.admin or admin
 
@@ -164,6 +164,6 @@ sn\_patientservice.case\_creator
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see Assign a role to a user.
-    -   To assign a role to a group, see Assign a role to a group.
+    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 

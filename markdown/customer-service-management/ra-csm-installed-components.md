@@ -376,7 +376,7 @@ sn\_nb\_action\_detail
 
 </td><td>
 
-This scheduled job helps prevent the Recommendation table from growing exponentially by using Table cleaner.
+This scheduled job helps prevent the Recommendation table from growing exponentially by using [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-cleaner.md).
 
  The table cleaner job runs every hour to delete older, expired, or unwanted records from tables.
 

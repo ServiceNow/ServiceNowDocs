@@ -35,15 +35,15 @@ Update the details of a planning item using the List and Hierarchy views in the 
 
 4.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d76302e125">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d75375e125">
 
 Choice
 
-</th><th align="left" id="d76302e128">
+</th><th align="left" id="d75375e128">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d76302e134">
+</th></tr></thead><tbody><tr><td id="d75375e134">
 
 **Update planning item details**
 
@@ -57,7 +57,7 @@ Edit using one of the following ways:
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d76302e171">
+</td></tr><tr><td id="d75375e171">
 
 **Attach files to planning item**
 
@@ -65,7 +65,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d76302e186">
+</td></tr><tr><td id="d75375e186">
 
 **Delete planning item**
 

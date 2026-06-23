@@ -30,7 +30,7 @@ With the catalog\_admin role, you can add, change, and remove service offerings 
 
 Click the **Link** button in the related list to make a change. You can remove the association if needed with the related list **Delete** button.
 
-**Note:** If a service offering is already associated to a catalog item, the **Link** button does not appear in the related list. For details about viewing and editing Catalog Items, refer to Create or edit a catalog item.
+**Note:** If a service offering is already associated to a catalog item, the **Link** button does not appear in the related list. For details about viewing and editing Catalog Items, refer to [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md).
 
 ## Catalog items in Service Owner Workspace
 

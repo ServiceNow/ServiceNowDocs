@@ -18,7 +18,7 @@ Initiate a Sidebar chat to work towards the resolution of an incident.
 
 ## Before you begin
 
-To know more about configuring Sidebar, refer .
+To know more about configuring Sidebar, refer [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/sidebar/sidebar-landing.md).
 
 Role required: itil
 

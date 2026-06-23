@@ -27,7 +27,7 @@ In CSM Configurable Workspace and Core UI, you can generate the resolution infor
 
 **Note:** The Propose Solution UI action is available to the customer service agents who have assigned cases in the Open state.
 
-You can also generate resolution information on demand from the Now Assist panel. For more information, see .
+You can also generate resolution information on demand from the Now Assist panel. For more information, see [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-rn-summarization.md).
 
 **Note:** The resolution notes generation skill requires a minimum of 50 words in the case record to generate the resolution notes. If the resolution notes cannot be generated, the system displays a message below the **Resolution notes** field.
 

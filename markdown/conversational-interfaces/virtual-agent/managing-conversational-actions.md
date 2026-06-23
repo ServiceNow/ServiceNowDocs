@@ -21,7 +21,7 @@ View and manage conversational actions through Virtual Agent Designer.
 
 When you have the admin or virtual\_agent\_admin role, you can work with conversational actions in Virtual Agent Designer.
 
-Conversational actions currently can't be created in Virtual Agent Designer. You can only view and edit them in Virtual Agent Designer. Conversational actions can be created, tested, and deleted only in Workflow Studio. For more details on creating actions, see .
+Conversational actions currently can't be created in Virtual Agent Designer. You can only view and edit them in Virtual Agent Designer. Conversational actions can be created, tested, and deleted only in Workflow Studio. For more details on creating actions, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/create-action.md).
 
 When you open an action, a tab is displayed in the navigation header bar. This tab opens the action in Workflow Studio within the Virtual Agent Designer environment. The following columns appear by default:
 
@@ -48,8 +48,8 @@ Use the row actions icon \[Omitted image "kebab-menu.png"\] Alt text: KB link to
 
 Conversational subflows and actions only appear to users during a Virtual Agent conversation if the Subflows and actions skill is turned on in Now Assist Admin. Conversational subflows and actions appear in Now Assist Panel as long as the Subflows and action skill is active.
 
--   For more information on the Now Assist Panel, see .
--   For more information on conversational actions, see .
+-   For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+-   For more information on conversational actions, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/conversational-actions.md).
 -   For more information on integrating actions that are not conversational into Virtual Agent Designer topics, see [Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-flow-designer-integration.md).
 
 **Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)

@@ -30,7 +30,7 @@ Register the Rally OAuth application to access the Rally API 2.0 and to receive 
 
 ### Before you begin
 
-The Rally Integration Hub spoke must be active. For more information, see Rally spoke.
+The Rally Integration Hub spoke must be active. For more information, see [Rally spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/rally-spoke.md).
 
 Rally Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-rally.md) table.
 
@@ -107,15 +107,15 @@ If you are using Software Asset Workspace, the option to create the Rally integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114039e631">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114128e631">
 
 Interface
 
-</th><th align="left" id="d114039e634">
+</th><th align="left" id="d114128e634">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114039e640">
+</th></tr></thead><tbody><tr><td id="d114128e640">
 
 **Core UI**
 
@@ -126,7 +126,7 @@ Action
 3.  Select **Rally Integration Profile**.
 
 
-</td></tr><tr><td id="d114039e682">
+</td></tr><tr><td id="d114128e682">
 
 **Software Asset Workspace**
 

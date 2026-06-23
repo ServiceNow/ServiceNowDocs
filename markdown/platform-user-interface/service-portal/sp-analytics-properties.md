@@ -34,7 +34,7 @@ Use system properties to configure User Experience Analytics for Service Portal.
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 [bundle-platadm.c_UniqueRecordIdentifier]
 

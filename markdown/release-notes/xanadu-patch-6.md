@@ -38,7 +38,7 @@ Xanadu Patch 6 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 6
 
--   ****
+-   **[Hyperautomation and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)**
 
     The External Content Connectors ServiceNow® Store application enables AI Search applications to search content and metadata from supported external data repositories, such as Atlassian Confluence Cloud and Microsoft SharePoint Online
 

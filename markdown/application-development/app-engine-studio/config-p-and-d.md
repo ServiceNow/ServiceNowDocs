@@ -24,7 +24,7 @@ Role required: admin
 
 The Pipelines and Deployments guided setup provides a sequence of tasks that help you configure Pipelines and Deployments on the ServiceNow AI Platform. For more information on each task, see [Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/p-and-d-config-tasks.md).
 
-For general information about guided setup, see Using guided setup.
+For general information about guided setup, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ For general information about guided setup, see Using guided setup.
     2.  [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/config-controller-instance.md).
     3.  [Enable Automated Test Framework \(ATF\) properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/enable-atf-properties.md).
     4.  [Configure Automated Test Framework \(ATF\) suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/automated-test-framework.md).
-    5.  Configure Instance Scan suite.
+    5.  [Configure Instance Scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md).
     When you have completed all of the tasks in this category, the Guided Setup screen reappears.
 
 5.  Select the last **Get Started** button to begin performing tasks for all of the other non-production \(that is, test, development, staging, and so forth\) instances in your pipeline.

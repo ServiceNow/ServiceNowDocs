@@ -33,7 +33,7 @@ The following items are installed with ServiceNow Add-in for Microsoft 365:
 -   Scheduled jobs
 -   Tables
 
-For more information, see  and .
+For more information, see [Install the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/install-sn-addin-for-ms365.md) and [Components installed with ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/installed-with-sn-addin-ms365.md).
 
 ## Procedure
 
@@ -63,5 +63,5 @@ For more information, see  and .
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of Xanadu plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

@@ -266,7 +266,7 @@ Optional. Timeout in milliseconds. This value overrides the 30 second default ti
 
 Runs a Data Stream action synchronously from a server-side script and returns a ScriptableDataStream object.
 
-For more information about Data Stream actions, see Data Stream actions and pagination.
+For more information about Data Stream actions, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 **Note:** This API is replaced by [ScriptableFlowRunner - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md), which deprecates the existing methods used to build objects and execute Workflow Studio flows and actions. Use the getRunner\(\) method in the FlowAPI class to return a ScriptableFlowRunner object and use the associated methods. Use the ScriptableFlowRunner methods if you need to support domain separation.
 
@@ -1365,7 +1365,7 @@ Output:
 
 Checks if a flow within a give scope contains any Ask for Approval actions.
 
-The hasApprovals\(\) method determines if a flow within a given scope contains any Ask for Approval actions. This method also checks if any Ask for Approval actions within the flow are nested under If flow logic blocks. For more information, see Ask for Approval actions.
+The hasApprovals\(\) method determines if a flow within a given scope contains any Ask for Approval actions. This method also checks if any Ask for Approval actions within the flow are nested under If flow logic blocks. For more information, see [Ask for Approval actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md).
 
 |Name|Type|Description|
 |----|----|-----------|

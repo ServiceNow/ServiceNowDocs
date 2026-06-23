@@ -40,7 +40,7 @@ Although the base system provides you with the default **Equal** method to roll 
 
 4.  Click **Submit**.
 
-    For more information on the calculated spend per offering and to configure the estimated spend offering cost source, see Financial Management for Service Owner Workspace.
+    For more information on the calculated spend per offering and to configure the estimated spend offering cost source, see [Financial Management for Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-owner-workspace/financial-management-SPM2.md).
 
 
 **Parent Topic:**[Financial Management for licensed SPM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-spm.md)

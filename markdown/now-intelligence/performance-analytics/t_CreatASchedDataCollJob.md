@@ -114,7 +114,7 @@ Select the schedule for collecting the data. Choices are: -   Daily
 -   Periodically
 -   Once
 -   On demand
- If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See Define business calendar entries\):
+ If you are using business calendars, you also have these options, for the start and end of the business calendar period \(See [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/define-business-calendar-entries.md)\):
 
 -   Business calendar: Entry start
 -   Business calendar: Entry end
@@ -181,7 +181,7 @@ Conditions
 
 </td><td>
 
-Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/r_ScriptSandboxing.md).
 
 After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs do not collect scores.
 

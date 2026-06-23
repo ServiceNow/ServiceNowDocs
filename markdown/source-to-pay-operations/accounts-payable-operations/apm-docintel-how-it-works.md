@@ -73,7 +73,7 @@ You must collaborate with the administrator to resolve this issue.
 
 Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process the invoice in multi-lingual languages supported by DocIntel, you must train the DocIntel model on your own.
 
-For more information on Document Intelligence, see .
+For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
 
 -   **[Required fields for creating an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.md)**  
 The Accounts Payable Operations integration with Document Intelligence application checks whether the required fields are populated on the invoice and invoice lines for creating the invoice.

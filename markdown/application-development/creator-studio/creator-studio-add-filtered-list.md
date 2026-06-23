@@ -38,7 +38,7 @@ To add a list to a workspace, you must be given permission to work on the app.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -66,7 +66,7 @@ To add a list to a workspace, you must be given permission to work on the app.
 
 8.  Select **Apply conditions** in the Filtered list details panel and use the condition builder to specify what types of records the list should contain, selecting **Apply** when you're done.
 
-    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see .
+    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
     For example, the following conditions specify open and closed requests:
 

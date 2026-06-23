@@ -85,7 +85,7 @@ Verifies that the number of records in the sn\_agent\_ci\_extended\_info table m
 </td></tr></tbody>
 </table>For details on importing the `global.ACCInstanceScanUtil` script include, see the [Script Include ACCInstanceScanUtil \[KB1630132\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1630132) article in the Now Support Knowledge Base.
 
-For details on instance scans, see .
+For details on instance scans, see [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md).
 
-For details on executing the Agent Client Collector health instance scan suite, see .
+For details on executing the Agent Client Collector health instance scan suite, see [Execute a suite scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hc-execute-suite-scan.md).
 

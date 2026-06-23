@@ -71,7 +71,7 @@ Audience
 
 The audience determines who can see the page variant. The Front-line case page has the following audience: **CSM - Front-line Agent**This audience includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
-For more information, see Learn about audiences.
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -117,7 +117,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see Group and find records using tags in workspace.
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 

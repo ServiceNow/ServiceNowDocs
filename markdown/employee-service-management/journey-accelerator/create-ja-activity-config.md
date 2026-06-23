@@ -18,7 +18,7 @@ Complete the configuration process for the Journey Accelerator activity that you
 
 ## Before you begin
 
-Ensure that the application scope is set to Employee Center. Use the application picker to change the application scope if it isn’t currently set to Employee Center. See Application picker for more information about using the application scope picker.
+Ensure that the application scope is set to Employee Center. Use the application picker to change the application scope if it isn’t currently set to Employee Center. See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md) for more information about using the application scope picker.
 
 Role required: admin
 

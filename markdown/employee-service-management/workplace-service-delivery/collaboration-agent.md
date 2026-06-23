@@ -8,7 +8,7 @@ product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
 last_updated: "2026-01-09"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Using the Workplace collaboration Agent for space suggestions, Using Now Assist in Virtual Agent, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -24,7 +24,7 @@ Make sure that you have installed and configured the following applications:
 
 -   Now Assist in Virtual Agent.
 
-    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see .
+    Confirm that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin. Select Employee Center from the Portals tab and select the enhanced chat. For more information, see [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 -   Workplace Reservation Management
 -   Workplace Concierge

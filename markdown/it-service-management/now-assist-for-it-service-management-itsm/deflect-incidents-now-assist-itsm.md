@@ -33,15 +33,15 @@ Role required: none
 
 4.  Resolve the issue or track it with an incident.
 
-<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d77002e110">
+<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d77059e110">
 
 To
 
-</th><th align="left" id="d77002e113">
+</th><th align="left" id="d77059e113">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d77002e119">
+</th></tr></thead><tbody><tr><td id="d77059e119">
 
 **Track the issue with an incident**
 
@@ -61,7 +61,7 @@ You can also select the Add attachments icon and add files related to the issue.
 
 The incident is created and automatically assigned to you. If you aren’t ready to create the incident, select **Save as Draft** to submit it later.
 
-</td></tr><tr><td id="d77002e166">
+</td></tr><tr><td id="d77059e166">
 
 **Resolve the issue**
 

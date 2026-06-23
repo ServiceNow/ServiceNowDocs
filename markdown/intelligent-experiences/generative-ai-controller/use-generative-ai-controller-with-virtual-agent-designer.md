@@ -26,7 +26,7 @@ Role required: admin
 
 This example uses the Generate Content capability of the Generative AI Controller to draft knowledge article content from a Virtual Agent conversation.
 
-For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
+For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Procedure
 

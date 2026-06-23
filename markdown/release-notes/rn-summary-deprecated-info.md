@@ -46,7 +46,7 @@ Agent experience for CSM
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. CSM Configurable Workspace provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-workspaces-configure.md) provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -54,8 +54,8 @@ Analytics, Intelligence, and Reporting
 
 </td><td>
 
--   Core UI Reporting functionality is deprecated in favor of  for new instances and instances that have migrated to the Platform Analytics experience.
--   Core UI Dashboards functionality is deprecated in favor of  for new instances and instances that have migrated to the Platform Analytics experience.
+-   Core UI Reporting functionality is deprecated in favor of [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-data-visualizations.md) for new instances and instances that have migrated to the Platform Analytics experience.
+-   Core UI Dashboards functionality is deprecated in favor of [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-dashboards.md) for new instances and instances that have migrated to the Platform Analytics experience.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Case management for CSM
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. CSM Configurable Workspace provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-workspaces-configure.md) provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -102,8 +102,8 @@ Cloud Cost Management 8.0.0
 
 Starting with the Xanadu release, note the following deprecations:
 
--   The Core UI interface for the Cloud Cost Management application is no longer deployed, enhanced, or supported. For continued access and functionality, transition to the Cloud Cost Management Workspace. For more information, see .
--   The Cloud Spend Dashboard is no longer deployed, enhanced, or supported. The Asset Executive Workspace provides this functionality. For more information, see .
+-   The Core UI interface for the Cloud Cost Management application is no longer deployed, enhanced, or supported. For continued access and functionality, transition to the Cloud Cost Management Workspace. For more information, see [Cloud Cost Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/cloud-cost-management/ci-workspace.md).
+-   The Cloud Spend Dashboard is no longer deployed, enhanced, or supported. The Asset Executive Workspace provides this functionality. For more information, see [Visibility into Cloud Cost Management KPIs using the Asset Management Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/cloud-cost-management/itam-exec-dashboard-cloudinsights.md).
 -   The Cloud Insights Billing application, which supports the Cloud Provisioning and Governance product with limited functionality, is being prepared for future deprecation. It will not be available on ServiceNow Store for download and installation but will continue to be supported.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
@@ -114,7 +114,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
--   Starting with the Xanadu release, the Data Certification plugin \(com.snc.certification\_v2\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. The CMDB Workspace store app provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0867184]) article in the Now Support knowledge base.
+-   Starting with the Xanadu release, the Data Certification plugin \(com.snc.certification\_v2\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. The [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0867184]) article in the Now Support knowledge base.
 -   ServiceNow hosted Service Graph Connector for ExtraHop is now deprecated and no longer supported or available for new activation. Service Graph Connector for ExtraHop provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
@@ -123,8 +123,8 @@ Core ServiceNow AI Platform
 
 </td><td>
 
--   The System Performance Dashboard is deprecated as of the Xanadu release.  offers a powerful solution for enhancing system performance. Contact your account manager to discover more.
--   Starting with the Xanadu release, Application Insights is being prepared for future deprecation. It will be hidden and no longer available in the ServiceNow Store but will continue to be supported. Instead,  offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   The System Performance Dashboard is deprecated as of the Xanadu release. [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-overview.md) offers a powerful solution for enhancing system performance. Contact your account manager to discover more.
+-   Starting with the Xanadu release, Application Insights is being prepared for future deprecation. It will be hidden and no longer available in the ServiceNow Store but will continue to be supported. Instead, [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-overview.md) offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Healthcare Computerized Maintenance Management System
 
 </td><td>
 
-Starting with the Xanadu release, Healthcare Computerized Maintenance Management System is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For information on maintenance and servicing, please see Field Service Management. For information on inventory and management, please see .
+Starting with the Xanadu release, Healthcare Computerized Maintenance Management System is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For information on maintenance and servicing, please see [Field Service Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/fsm-application-landing-page.md) For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md).
 
 </td></tr><tr><td>
 
@@ -241,7 +241,7 @@ Deprecation of Cloud API \(CAPI\)- based Cloud Discovery on new instances:
 -   For an existing instance, manually migrate to Patterns-based Discovery.
 -   The **Discover Schedules** tab in the Cloud Admin Portal is going to redirect to Cloud Discovery Workspace.
 
-**Note:** See  to learn more about the migration from CAPI to Patterns-based Discovery.
+**Note:** See [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/migrate-from-capi-to-pattern.md) to learn more about the migration from CAPI to Patterns-based Discovery.
 
 For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -251,7 +251,7 @@ ITOM Visibility
 
 </td><td>
 
-Starting with the Xanadu release, the Discovery Dashboard is no longer part of the Discovery plugin. Use  instead.
+Starting with the Xanadu release, the Discovery Dashboard is no longer part of the Discovery plugin. Use [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/discovery-admin-workspace.md) instead.
 
 </td></tr><tr><td>
 
@@ -331,7 +331,7 @@ Predictive Intelligence
 
 </td><td>
 
-The dashboard for Solution Statistics has been deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Xanadu release, the Solutions Statistics dashboard is not available. For more information, see .
+The dashboard for Solution Statistics has been deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Xanadu release, the Solutions Statistics dashboard is not available. For more information, see [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
 
 </td></tr><tr><td>
 
@@ -399,7 +399,7 @@ The following SAFe-related plugins are planned for deprecation and can no longer
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
-As an alternative, you can use the Enterprise Agile Planning \(EAP\) capability within the Strategic Planning application, which provides SAFe features with flexible team and work hierarchy configurations. With an interactive workspace experience, EAP helps you to streamline communication and collaboration between your teams. For more information, see Enterprise Agile Planning.
+As an alternative, you can use the Enterprise Agile Planning \(EAP\) capability within the Strategic Planning application, which provides SAFe features with flexible team and work hierarchy configurations. With an interactive workspace experience, EAP helps you to streamline communication and collaboration between your teams. For more information, see [Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/enterprise-agile-planning/eap-landing.md).
 
 </td></tr><tr><td>
 
@@ -451,7 +451,7 @@ Supplier Lifecycle Operations
 
 </td><td>
 
--   ****
+-   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-manager-workspace.md)**
 
 Starting with the Washington DC release, Supplier Manager Workspace is being prepared for future deprecation. It will be hidden and no longer be activated on new instances but will continue to be supported. Source-to-Pay Workspace provides the latest experience for this functionality.
 

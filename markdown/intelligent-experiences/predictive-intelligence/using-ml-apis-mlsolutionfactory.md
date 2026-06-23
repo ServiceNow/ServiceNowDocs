@@ -24,7 +24,7 @@ Here's the high-level process for creating a custom usage scenario.
 
 1.  Developers customize a MLSolutionUtil scripted extension point implementation using the MLSolutionFactory scriptable object.
     -   Listed as global.MLSolutionUtil in the Extension Point \[sys\_extension\_point\] table
-    -   See Register a custom script include
+    -   See [Register a custom script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/impl-client-ext-pts-base-code.md)
 2.  The MLSolutionUtil scripted extension point implementation uses MLSolutionFactory to get the scriptable object, and invokes prediction methods on that object.
 3.  The Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) method invokes the MLSolutionUtil extension point implementation, depending on the scope of the request.
 4.  Applications call the Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) end point from a script include form.
@@ -33,6 +33,6 @@ Here's the high-level process for creating a custom usage scenario.
 
 For more information, see
 
--   Predictive Intelligence REST API
--   MLSolutionFactory - Global
+-   [Predictive Intelligence REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/agent-intelligence-api.md)
+-   [MLSolutionFactory - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md)
 

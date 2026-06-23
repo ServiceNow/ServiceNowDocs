@@ -20,7 +20,7 @@ Create a data stream action to get a list of user subscriptions from the SaaS ap
 
 If you're using an existing ServiceNow® Integration Hub spoke, find out if it has a data stream action to get a list of users that you can use instead of creating one.
 
-For more information about data stream actions, see Data Stream actions.
+For more information about data stream actions, see [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 Role required: flow\_designer or admin
 

@@ -7,7 +7,7 @@ release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
@@ -61,7 +61,7 @@ Flow: Select a workflow. All workflows created in the instance are listed.
 
 -   Flow: Select a subflow. All active s in the instance are listed.
 
-**Note:** For more information, see Subflows.
+**Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/subflows.md).
 
 </td></tr><tr><td>
 

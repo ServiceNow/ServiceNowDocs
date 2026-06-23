@@ -16,7 +16,7 @@ breadcrumb: [Analytics and reporting for Customer Service Management, Customer S
 
 Customer Service Platform Analytics Solutions contain preconfigured dashboards with actionable data visualizations to improve your business processes.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -27,7 +27,7 @@ Two Platform Analytics Solutions are available for Customer Service:
 -   Customer Service \(com.snc.pa.customer\_service\)
 -   Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)
 
-**Note:** Customer Service Performance Analytics solutions are an optional feature available for the Customer Service Management application. To use them, your license must also include Performance Analytics. Once licensed, enable the Performance Analytics Premium for Customer Service and the Customer Service Performance Analytics solutions on the instances where you wish to leverage the enhanced functionality. For more information about licensing Performance Analytics, see Activating your Performance Analytics subscription.
+**Note:** Customer Service Performance Analytics solutions are an optional feature available for the Customer Service Management application. To use them, your license must also include Performance Analytics. Once licensed, enable the Performance Analytics Premium for Customer Service and the Customer Service Performance Analytics solutions on the instances where you wish to leverage the enhanced functionality. For more information about licensing Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 ## Customer Service solution
 
@@ -76,7 +76,7 @@ To enable Performance Analytics for Customer Service Management, a user with the
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
-[bundle-par.spotlight]
+[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/spotlight/spotlight.md)
 

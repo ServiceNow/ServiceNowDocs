@@ -38,7 +38,7 @@ Role required: virtual\_agent\_admin or admin
     2.  Reset conversation restarts the conversation to the beginning to ask another question.
     3.  A record producer directs the user to a catalog record producer to create an incident or a case.
 
-        **Note:** For this fallback option to work for guest users, create a public record producer. For more information, see . If the public record producer is set to active, it automatically appears in the Now Assist in Virtual Agent Fallback options &gt; Record producer drop-down menu.
+        **Note:** For this fallback option to work for guest users, create a public record producer. For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md). If the public record producer is set to active, it automatically appears in the Now Assist in Virtual Agent Fallback options &gt; Record producer drop-down menu.
 
     \[Omitted image "NAinVA-chat-exp2-052025.png"\] Alt text: Response streaming and document uploads screen.
 

@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can close alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d86258e98">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d84639e98">
 
 Location
 
-</th><th align="left" id="d86258e101">
+</th><th align="left" id="d84639e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86258e107">
+</th></tr></thead><tbody><tr><td id="d84639e107">
 
 **The Express List pane**
 
@@ -57,7 +57,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Close alert**.
 
 
-</td></tr><tr><td id="d86258e160">
+</td></tr><tr><td id="d84639e160">
 
 **The Express List preview panel for group alerts**
 

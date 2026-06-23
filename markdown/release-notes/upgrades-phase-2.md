@@ -26,7 +26,7 @@ Role required: admin.
 
 1.  On your production instance, create a system clone and select your development instance as the **Target instance**.
 
-    The clone provides you with an exact copy of production. Performing an upgrade on your clone allows you to simulate an upgrade on your production configuration in a non-production environment. Refer to System clone for details.
+    The clone provides you with an exact copy of production. Performing an upgrade on your clone allows you to simulate an upgrade on your production configuration in a non-production environment. Refer to [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SystemClone.md) for details.
 
     **Important:**
 
@@ -36,6 +36,6 @@ Role required: admin.
 
     During an upgrade, your performance may be impacted because your nodes initiate the distribution upgrade. All nodes are restarted during an upgrade, but your multi-node instances are available during an upgrade because ServiceNow instances operate on a multi-node system. This multi-node system staggers node distribution upgrades, ensuring that there is at least one active pair of nodes for multi-node instances during an upgrade.
 
-    To help you set accurate expectations for performance during upgrades, be aware of the differences between the nodes on your non-production and production instances. Instances with one node experience a short period of downtime during the upgrade, but multi-node instances do not have UI downtime. For details on your nodes and their status, see the Upgrade Progress screen.
+    To help you set accurate expectations for performance during upgrades, be aware of the differences between the nodes on your non-production and production instances. Instances with one node experience a short period of downtime during the upgrade, but multi-node instances do not have UI downtime. For details on your nodes and their status, see the [Upgrade Progress screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrademon-upgrade-progress-scrn.md).
 
 

@@ -75,7 +75,7 @@ Red
 
 </td><td>
 
-Created by ServiceNow and then customized by the customer, and hence skipped the latest ServiceNow upgrade. The customer should resolve a skipped update after an upgrade.
+Created by ServiceNow and then customized by the customer, and hence skipped the latest ServiceNow upgrade. The customer should [resolve a skipped update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ResolveASkippedUpdate.md) after an upgrade.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Orange
 
 </td><td>
 
-Created by ServiceNow, and then customized by the customer after the latest ServiceNow upgrade. The customer can revert a customization to implement the latest ServiceNow upgrade.
+Created by ServiceNow, and then customized by the customer after the latest ServiceNow upgrade. The customer can [revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/revert-customization.md) to implement the latest ServiceNow upgrade.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
 **Related topics**  
 
 
-[bundle-cadev.c_UIMacros]
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_UIMacros.md)
 
-[bundle-platadm.c_UpgradeHistory]
+[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UpgradeHistory.md)
 

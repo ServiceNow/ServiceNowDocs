@@ -29,15 +29,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d111761e135">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d110834e135">
 
 Type
 
-</th><th align="left" id="d111761e138">
+</th><th align="left" id="d110834e138">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d111761e144">
+</th></tr></thead><tbody><tr><td id="d110834e144">
 
 **Team Doc**
 
@@ -47,7 +47,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d111761e162">
+</td></tr><tr><td id="d110834e162">
 
 **Planning item Doc**
 

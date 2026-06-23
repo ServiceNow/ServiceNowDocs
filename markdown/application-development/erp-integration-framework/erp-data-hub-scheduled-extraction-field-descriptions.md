@@ -84,7 +84,7 @@ Maximum no of retries on error
 
 </td><td>
 
-If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see .
+If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Encoded query
 
 Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:\[Omitted image "erpc-schedule-extraction-encoded-query.png"\] Alt text: Sample encoded query.
 
-For more information, see .
+For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)

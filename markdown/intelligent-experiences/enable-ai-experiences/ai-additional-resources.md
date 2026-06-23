@@ -39,7 +39,7 @@ Release Notes
 
 </td><td>
 
-Now Assist AI Agents Release Notes.
+[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-ai-agents-rn.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Release notes
 
 </td><td>
 
-
+[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/document-intelligence-rn.md)
 
 </td></tr><tr><td>
 
@@ -275,25 +275,25 @@ Release notes
 
 </td><td>
 
+[Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-rn.md)
 
+ [Now Assist for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-creator-rn.md)
 
- 
+ [Now Assist for Customer Service Management \(CSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-csm-rn.md)
 
- 
+ [Now Assist for Field Service Management \(FSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-fsm-rn.md)
 
- 
+ [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-financial-services-operations-rn.md)
 
- 
+ [Now Assist for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-itsm-rn.md)
 
- 
+ [Now Assist for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/secops-now-assist-security-operations-rn.md)
 
- 
+ [Now Assist for Telecommunications, Media and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-for-tmt-rn.md)
 
- 
+ [Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/now-assist-va-rn.md)
 
- 
-
- 
+ [Generative AI Controller release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/generative-ai-controller-rn.md)
 
 </td></tr><tr><td>
 
@@ -409,7 +409,7 @@ Release notes
 
 </td><td>
 
-
+[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

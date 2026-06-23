@@ -36,9 +36,9 @@ As a live agent interacting with a requester over the SMS service channel, you c
 -   Share any URLs as links.
 -   Share any images as attachments.
 
-**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see Conversational SMS service channel.
+**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
 
 ## Initiating SMS conversations
 
-As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see Initiate messaging conversations from the CSM Configurable Workspace and Initiate SMS conversations from CSM Agent Workspace.
+As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see [Initiate messaging conversations from the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/agent-init-messg-csm-cws.md) and [Initiate SMS conversations from CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/agent-init-sms-csm-ws.md).
 

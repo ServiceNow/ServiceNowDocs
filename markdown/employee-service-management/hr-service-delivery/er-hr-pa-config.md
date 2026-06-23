@@ -26,7 +26,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see Performance Analytics diagnostics.
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 
@@ -56,7 +56,7 @@ Role required: pa\_admin
 
 7.  If you changed the time field stamps in any indicator sources, then change any related Performance Analytics scripts.
 
-    For more information, see Update Performance Analytics scripts.
+    For more information, see [Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/update-pa-scripts.md).
 
 8.  Open the Breakdown Sources tab.
 
@@ -64,16 +64,16 @@ Role required: pa\_admin
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in Review the breakdown sources.
+    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/review-breakdown-sources.md).
 
 10. Navigate to **All** &gt; **Performance Analytics** &gt; **Jobs**.
 
 11. Set up and run the historical job for this Analytics and Reporting Solution, **ERCases.HistoricalDataCollection**.
 
-    Follow the procedure in Run historical data collection for a Platform Analytics Solution.
+    Follow the procedure in [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/historical-data-nowintel-solution.md).
 
 12. Edit and activate the scheduled data collection job for this Analytics and Reporting Solution, **ERCases.DailyCollection**.
 
-    Follow the procedure in Schedule data collection for a Platform Analytics Solution.
+    Follow the procedure in [Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/schedule-job-nowintel-solution.md).
 
 

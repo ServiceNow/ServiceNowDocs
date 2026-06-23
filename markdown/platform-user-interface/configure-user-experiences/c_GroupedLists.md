@@ -46,7 +46,7 @@ Role required: none
 
 2.  Use any of the following actions to expand the groups.
 
-<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d107296e185">
+<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d106764e185">
 
 **To expand or collapse a group**
 
@@ -54,7 +54,7 @@ Role required: none
 
 Click the arrow \(\[Omitted image "Arrow.png"\] Alt text: Arrow icon\) next to the group name.
 
-</td></tr><tr><td id="d107296e200">
+</td></tr><tr><td id="d106764e200">
 
 **To expand or collapse all groups**
 
@@ -62,7 +62,7 @@ Click the arrow \(\[Omitted image "Arrow.png"\] Alt text: Arrow icon\) next to t
 
 Click the arrow at the top of the list.
 
-</td></tr><tr><td id="d107296e209">
+</td></tr><tr><td id="d106764e209">
 
 **To open the full list for a group**
 
@@ -70,7 +70,7 @@ Click the arrow at the top of the list.
 
 Click the group name.
 
-</td></tr><tr><td id="d107296e218">
+</td></tr><tr><td id="d106764e218">
 
 **To see all records for a given group**
 

@@ -83,7 +83,7 @@ Configuration Compliance v15.0, v15.1, v15.2, v15.3, 15.4
 
 </td><td>
 
-Configuration Compliance release notesFor compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
+[Configuration Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/secops-cc-rn.md)For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
 </td></tr></tbody>
 </table>-   **[Configuration Compliance imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-policies.md)**  

@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Legacy - Natural Language Understanding of Virtual Agent responses, Legacy - Using the Conversational Analytics Dashboard, Legacy - Conversational Analytics Dashboard, Analyzing Virtual Agent performance, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -30,7 +30,7 @@ Role required: Chat Analytics Admin
 
 ## About this task
 
-Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see .
+Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
     \[Omitted image "dashboard-list-of-models-2.png"\] Alt text: NLU Workbench dashboard list of NLU models.
 
-3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in Create an NLU model.
+3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md).
 
 4.  Click a model to display the intents the model predicts.
 

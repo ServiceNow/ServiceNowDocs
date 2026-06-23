@@ -7,7 +7,7 @@ release: xanadu
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Now Assist in Virtual Agent conversations with Microsoft Teams, Conversational Integration with Microsoft Teams, Integrating Virtual Agent with enterprise messaging apps, Virtual Agent integration with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Enable the large language model \(LLM\)-based conversational experience with Now
 
 ## Before you begin
 
-Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see .
+Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/enable-ais-next-exp-app.md).
 
 Role required: admin
 

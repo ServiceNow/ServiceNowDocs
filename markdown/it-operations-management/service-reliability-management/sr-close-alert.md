@@ -32,7 +32,7 @@ Role required: Responder, Manager, or Administrator
 
 3.  You can close an alert in one of two ways.
 
-<table id="choicetable_yqn_5fs_bpb"><tbody><tr><td id="d252934e94">
+<table id="choicetable_yqn_5fs_bpb"><tbody><tr><td id="d251346e94">
 
 **From the Alerts list view**
 
@@ -50,7 +50,7 @@ Select **Update**.
 
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d252934e132">
+</td></tr><tr><td id="d251346e132">
 
 **From the Alert header**
 

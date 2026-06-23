@@ -70,7 +70,7 @@ Display Sidebar discussions dialog. If a number in a blue square appears, the nu
 
 Search within the Sidebar discussions. When you select the Search icon, the **Search** field appears and you can enter the text you want to locate. The search results display below the search field and are grouped by user message then file name. Select **Cancel** to clear the search field and return to the Sidebar discussion. You can have all search results display or you can filter by discussions, messages, and attachments. You can sort search results by most relevant or by date.
 
- To use the Search KB quick action, enable AI Search. For more information, see AI Search and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
+ To use the Search KB quick action, enable AI Search. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md) and [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751).
 
 </td></tr><tr><td>
 

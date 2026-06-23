@@ -34,15 +34,15 @@ Role required: admin
 
 6.  Customize the fields by performing one of the following actions.
 
-<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d432416e124">
+<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d432239e124">
 
 Option
 
-</th><th align="left" id="d432416e127">
+</th><th align="left" id="d432239e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d432416e133">
+</th></tr></thead><tbody><tr><td id="d432239e133">
 
 **Add an existing field to a form**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d432416e160">
+</td></tr><tr><td id="d432239e160">
 
 **Add a new field to a form**
 
@@ -74,7 +74,7 @@ A confirmation dialog displays. You can click **Done** to close it or click **Ad
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d432416e225">
+</td></tr><tr><td id="d432239e225">
 
 **Delete a field in the form**
 

@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow University Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Creating integrations with applications]
 ---
 
@@ -20,12 +20,12 @@ Connect ServiceNow University with Coaching with Learning to pull courses from S
 
 Role required: admin
 
--   Integrate Coaching with Learning with ServiceNow University. For more information, see .
+-   Integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
 -   Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your spoke credentials.
 
     **Note:** You must have an ITSM Enterprise license subscription to get your spoke credentials.
 
--   For more information on OAuth Credentials, see .
+-   For more information on OAuth Credentials, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
 
 ## Procedure
 

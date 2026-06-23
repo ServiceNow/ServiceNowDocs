@@ -25,7 +25,7 @@ Build custom spokes for the required third-party application by using its API do
 
 \[Omitted image "now-assist-spk-gen-preview.png"\] Alt text: Copy the required snippet from the third-party API documentation and paste it in Now Assist Context to generate preview of a spoke action.
 
-For more information, see .
+For more information, see [Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/now-assist-in-spk-gen.md).
 
 ## Availability
 
@@ -33,7 +33,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 
 **Parent Topic:**[Now Assist skills in the Creator workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-creator-skills-top.md)
 

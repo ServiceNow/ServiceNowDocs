@@ -142,7 +142,7 @@ Create and manage contracts and entitlements as part of post-sales support.
 
 </td><td>
 
-Post Sales Support
+[Post Sales Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/exploring-post-sales-support.md)
 
 </td><td>
 
@@ -190,7 +190,7 @@ Create the workflows for your organization and configure the metadata for your v
 
 </td><td>
 
-Sales and Order Management workflows \(lead-to-cash core\)
+[Sales and Order Management workflows \(lead-to-cash core\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/lead-to-cash-workflows.md)
 
 </td><td>
 
@@ -202,7 +202,7 @@ Support change management and commercial workflows \(move, add, change, and disc
 
 </td><td>
 
-
+[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/customer-life-cycle-management-workflows.md)
 
 </td><td>
 

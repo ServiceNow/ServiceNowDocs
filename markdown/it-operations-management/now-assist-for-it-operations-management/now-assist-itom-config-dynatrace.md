@@ -20,7 +20,7 @@ Connect the Dynatrace analysis AI agent to your Dynatrace instance to use it in 
 
 Before configuring the Dynatrace analysis AI agent, you must do the following:
 
--   Install Now Assist for IT Operations Management \(ITOM\).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Dynatrace platform events with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/dynatrace-events-integration.md).
 -   Copy your Dynatrace connection URL and Dynatrace access token or personal access token.
 
@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d251050e158">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d249462e158">
 
 Field
 
-</th><th align="left" id="d251050e161">
+</th><th align="left" id="d249462e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d251050e167">
+</th></tr></thead><tbody><tr><td id="d249462e167">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your Dynatrace connection. This name helps you identify it later. For example, `Dynatrace analysis AI agent connection`.
 
-</td></tr><tr><td id="d251050e184">
+</td></tr><tr><td id="d249462e184">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your Dynatrace connection. This name helps you identify it later. For ex
 
 URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<your-resource-name>.live.dynatrace.com`.
 
-</td></tr><tr><td id="d251050e202">
+</td></tr><tr><td id="d249462e202">
 
 **Access token or personal access token \(must prefix with 'Api-Token '\)**
 
@@ -71,7 +71,7 @@ URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<you
 
 Dynatrace access token or personal access token. The token must begin with `Api-Token`, for example, `Api-Token dt0s01.STABCDEF12345.G3HIJKLMNOP`.
 
-</td></tr><tr><td id="d251050e219">
+</td></tr><tr><td id="d249462e219">
 
 **Header Name**
 

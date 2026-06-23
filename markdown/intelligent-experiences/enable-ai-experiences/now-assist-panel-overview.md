@@ -19,7 +19,7 @@ With the Now Assist panel, you can get assistance from generative AI experiences
 
 Before using the Now Assist panel:
 
--   Next Experience must be enabled on your instance. For more information, see .
+-   Next Experience must be enabled on your instance. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 -   You must have the Now Assist panel user \(now\_assist\_panel\_user\) role.
 -   Your role must be applied to at least one active Now Assist skill to use skills on the Now Assist panel.
 -   You must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).

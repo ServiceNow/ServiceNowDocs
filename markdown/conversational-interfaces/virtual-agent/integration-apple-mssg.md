@@ -78,7 +78,7 @@ Time pickers
 
 Provides time slots for users to choose for appointments, deliveries, and services.
 
- To use time pickers, you must have  installed.
+ To use time pickers, you must have [Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/conv_appt_booking.md) installed.
 
 </td></tr><tr><td>
 

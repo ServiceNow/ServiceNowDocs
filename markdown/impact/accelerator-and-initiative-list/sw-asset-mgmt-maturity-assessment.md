@@ -22,7 +22,7 @@ The Software Asset Management application systematically tracks, evaluates, and 
 
 Software Asset Management Maturity Assessment provides Impact customers with prescriptive guidance, leading practices content, and a maturity analysis of their ServiceNow instance SAM. The assessment aims to help you streamline the undertaking of organizing the complex tasks of multiple programs, processes, operations, and projects. Additionally, it helps to create a big-picture view of the projects as a single entity to help prioritize and sequence them for optimal business returns.
 
-See  for additional information about SAM.
+See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) for additional information about SAM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

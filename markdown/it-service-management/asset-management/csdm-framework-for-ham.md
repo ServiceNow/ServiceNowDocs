@@ -16,9 +16,9 @@ breadcrumb: [Asset Management, IT Service Management]
 
 Common Service Data Model \(CSDM\) is a standard and consistent set of terms and definitions to adopt across all ServiceNow products on the ServiceNow AI Platform.
 
-Using CSDM standard and consistent set of terms and definitions helps to effectively track assets through their life cycle transitions. To know more about CSDM, see .
+Using CSDM standard and consistent set of terms and definitions helps to effectively track assets through their life cycle transitions. To know more about CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
-To set up CSDM environment for HAM, see Set up the CSDM environment.
+To set up CSDM environment for HAM, see [Set up the CSDM environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable.md).
 
 **Note:** It is optional to adopt CSDM. You can either adopt CSDM or continue using the existing model.
 

@@ -113,5 +113,5 @@ Use your instance records to build Incident Management -specific solutions.
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Xanadu\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 

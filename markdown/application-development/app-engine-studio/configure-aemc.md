@@ -73,7 +73,7 @@ Essentially, the AEMC guided setup contains the guided setup steps for both the 
     2.  [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/config-controller-instance.md).
     3.  [Enable Automated Test Framework \(ATF\) properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/enable-atf-properties.md).
     4.  [Configure Automated Test Framework \(ATF\) suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/automated-test-framework.md).
-    5.  Configure Instance Scan suite.
+    5.  [Configure Instance Scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md).
     On your other, non-production instances:
 
     1.  [Configure environment credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/create-pipeline-credentials.md).

@@ -64,15 +64,15 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
     \[Omitted image "mobile-risk-indc-task-record.jpg"\] Alt text: Indicator task record details.
 
-<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d265346e236">
+<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d265352e236">
 
 Option
 
-</th><th align="left" id="d265346e239">
+</th><th align="left" id="d265352e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d265346e245">
+</th></tr></thead><tbody><tr><td id="d265352e245">
 
 **Details tab**
 
@@ -80,7 +80,7 @@ Description
 
 With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\). Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d265346e260">
+</td></tr><tr><td id="d265352e260">
 
 **Activity Stream tab**
 
@@ -90,7 +90,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d265346e299">
+</td></tr><tr><td id="d265352e299">
 
 **Tap a screen icon at the bottom of the screen.**
 

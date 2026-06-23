@@ -30,7 +30,7 @@ Guided Flow for Case Creation
 1.  Enter Your Details:
     -   Navigate to **Request Something** &gt; **Support** &gt; **Create case for a product \(Now Assist\)**.
 
-        **Note:** Ensure that AI search in portals is activated. For more info, see Enable and configure AI Search in Service Portal
+        **Note:** Ensure that AI search in portals is activated. For more info, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
 
     -   A single Subject field appears. Start typing your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 
@@ -45,7 +45,7 @@ Guided Flow for Case Creation
 
         **Note:**
 
-        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see .
+        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
     -   If no relevant results are found, select the **Continue with case creation** button. This will enable the **Submit** button and display additional fields required to submit the case form.
     -   Click **Submit** to create a record case.

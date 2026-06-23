@@ -62,5 +62,5 @@ Additional use case: You can enable a similar relationship for the Request table
 **Related topics**  
 
 
-[bundle-cadev.c_GlideSystem]
+[GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/p_GlideServerAPIs.md)
 

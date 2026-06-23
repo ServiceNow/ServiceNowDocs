@@ -57,15 +57,15 @@ Role required: sn\_imt\_diagnosis.diagnostics\_admin or admin
 
 1.  Access the potentially exposed user information through an attachment having the Cisco Wi-Fi access log data or by generating a report through the Cisco DNA Spaces portal.
 
-<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d342161e181">
+<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d341982e181">
 
 Options
 
-</th><th align="left" id="d342161e184">
+</th><th align="left" id="d341982e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d342161e190">
+</th></tr></thead><tbody><tr><td id="d341982e190">
 
 **Attach a Wi-Fi access log file**
 
@@ -77,7 +77,7 @@ Steps
 4.  Click **Update**.
  The state of the diagnostic request task updates to Close.
 
-</td></tr><tr><td id="d342161e232">
+</td></tr><tr><td id="d341982e232">
 
 **Generate a report and post data through the Cisco portal**
 

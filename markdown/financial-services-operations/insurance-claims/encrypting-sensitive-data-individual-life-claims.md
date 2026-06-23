@@ -38,7 +38,7 @@ The following table lists some fields that can contain sensitive data.
 
 ## Encrypting the sensitive data
 
-Fields in Individual Life Claims can be encrypted by using Column Level Encryption. For more information, see .
+Fields in Individual Life Claims can be encrypted by using Column Level Encryption. For more information, see [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
 
 **Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

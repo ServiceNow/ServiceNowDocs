@@ -25,7 +25,7 @@ In the following example, the Now Assist generated a summary of the project in P
 
 \[Omitted image "now-assist-project-email-summary.png"\] Alt text: Email project summary skill in Project Workspace.
 
-For more information, see .
+For more information, see [Schedule the project summary emails with Email project summary skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md).
 
 ## Availability
 
@@ -33,7 +33,7 @@ This skill is available in the workflow and product as shown in the following ta
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

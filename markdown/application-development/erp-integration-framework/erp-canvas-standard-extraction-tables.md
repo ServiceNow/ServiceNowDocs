@@ -41,7 +41,7 @@ The following extraction tables are available through ERP Data Hub.
 |SAP Vendor Invoice|Sales|
 |SAP Transport|Transport|
 
-For more details on working with remote tables, see .
+For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/remote-tables.md).
 
 **Parent Topic:**[ERP Data Hub standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

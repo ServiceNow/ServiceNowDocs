@@ -141,15 +141,15 @@ Select one from the list or tap the search icon and type an entry in the search 
 </td></tr></tbody>
 </table>    For Android devices, with the Search Incidents screen displayed and all your criteria entered, choose one to continue.
 
-<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d140653e316">
+<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d140688e316">
 
 Option
 
-</th><th align="left" id="d140653e319">
+</th><th align="left" id="d140688e319">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140653e325">
+</th></tr></thead><tbody><tr><td id="d140688e325">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -160,7 +160,7 @@ To clear all entered criteria, with the Search Incidents screen displayed, tap t
 -   Tap the check mark icon to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d140653e355">
+</td></tr><tr><td id="d140688e355">
 
 **Submit a search**
 
@@ -171,15 +171,15 @@ With the Search Incidents screen displayed with your entered search criteria, ta
 </td></tr></tbody>
 </table>4.  For iOS devices, with the Search Incidents screen displayed, choose one to continue.
 
-<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d140653e385">
+<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d140688e385">
 
 Option
 
-</th><th align="left" id="d140653e388">
+</th><th align="left" id="d140688e388">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140653e394">
+</th></tr></thead><tbody><tr><td id="d140688e394">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -190,7 +190,7 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 -   Tap **Done** to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d140653e424">
+</td></tr><tr><td id="d140688e424">
 
 **Submit a search**
 

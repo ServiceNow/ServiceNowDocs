@@ -78,11 +78,11 @@ After the skills have been turned on, they’re accessible across the ServiceNow
 
 Use the Now Assist applications and skills that you've activated:
 
--   
--   
--   
--   
--   
+-   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+-   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+-   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+-   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)
 
 -   **[Configure chat summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/configure-chat-summarization-in-the-now-assist-admin-console.md)**  
 Define the triggers, inputs, and display location for chat summarization by using the guided setup in the Now Assist Admin console.

@@ -19,7 +19,7 @@ Generate an email as a recommendation based on the context of the incident using
 
 ## Before you begin
 
-An admin must activate the email response skill. For more information, see .
+An admin must activate the email response skill. For more information, see [Email response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-email-recommendation.md).
 
 Role required: itil
 
@@ -38,15 +38,15 @@ As an agent, you can do these actions using the Now Assist icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d226411e118">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d226531e119">
 
 Method
 
-</th><th align="left" id="d226411e121">
+</th><th align="left" id="d226531e122">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d226411e127">
+</th></tr></thead><tbody><tr><td id="d226531e128">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -65,7 +65,7 @@ Now Assist creates an email response as a recommendation.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d226411e189">
+</td></tr><tr><td id="d226531e190">
 
 **Compose an email from Activity stream**
 
@@ -83,15 +83,15 @@ Get an email response as a recommendation for the agent to ask more questions or
 
     \[Omitted image "itsm-email-recommendation-coreui.png"\] Alt text: Email response CoreUI screen with Now Assist option
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d226411e283">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d226531e284">
 
 Email message window
 
-</th><th align="left" id="d226411e286">
+</th><th align="left" id="d226531e287">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d226411e295">
+</th></tr></thead><tbody><tr><td id="d226531e296">
 
 **Typed response**
 
@@ -101,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d226411e312">
+</td></tr><tr><td id="d226531e313">
 
 **Left blank**
 

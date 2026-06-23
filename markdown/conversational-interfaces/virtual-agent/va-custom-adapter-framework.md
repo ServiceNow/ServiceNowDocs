@@ -42,7 +42,7 @@ With a conversational custom chat integration, you can manage and control how yo
 
 \[Omitted image "custom-adapter-framework.png"\] Alt text: Custom adapter framework.
 
-The transformation is carried out through a set of Workflow Studio scripts. If you want more information on how to use Workflow Studio, see Workflow Studio.
+The transformation is carried out through a set of Workflow Studio scripts. If you want more information on how to use Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
 ## Basic integration using conversational custom chat integration framework
 

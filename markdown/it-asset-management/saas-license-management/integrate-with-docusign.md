@@ -166,15 +166,15 @@ If you’re using Software Asset Workspace, the option to create the Docusign in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113949e864">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114038e864">
 
 Interface
 
-</th><th align="left" id="d113949e867">
+</th><th align="left" id="d114038e867">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d113949e873">
+</th></tr></thead><tbody><tr><td id="d114038e873">
 
 **Core UI**
 
@@ -185,7 +185,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d113949e915">
+</td></tr><tr><td id="d114038e915">
 
 **Software Asset Workspace**
 

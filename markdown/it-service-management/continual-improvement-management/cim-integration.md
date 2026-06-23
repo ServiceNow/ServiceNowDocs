@@ -27,24 +27,24 @@ An improvement initiative can be created from these applications.
 -   [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/r_Benchmarks.md)
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/coaching-landing.md)
 -   Configuration Management Database \(CMDB\)
--   Customer Service Management
--   Demand Management
--   Governance, Risk, and Compliance \(GRC\)
+-   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/c_CustomerServiceManagement.md)
+-   [Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/demand-management/c_DemandManagement.md)
+-   [Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
 -   [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentManagement.md)
 -   [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/c_ProblemManagement.md)
--   Survey Management
+-   [Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md)
 
 As part of an improvement initiative, these records can be created.
 
 -   Demand record
--   Project \(optional\)
+-   [Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/project-management/c_ProjectApplicationOverview.md) \(optional\)
 
 As part of a CIM task, these records can be created:
 
 -   [change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/c_ITILChangeManagement.md) record
 -   [Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/create-coaching-opportunity.md)
--   
--   Create a story
+-   [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
+-   [Create a story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/agile-development/create-a-story.md)
 
 ## Integration property
 
@@ -326,7 +326,7 @@ No change.
 </td></tr></tbody>
 </table>-   **Create PA Indicator** related link
 
-    Create a Performance Analytics automated indicator.
+    [Create a Performance Analytics automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/t_CrtIndctrIndctrWzrd.md).
 
 -   **Show Benchmarks** related link
 
@@ -417,11 +417,11 @@ Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to d
 **Related topics**  
 
 
-[bundle-crapiref.extension-points]
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/extension-points.md)
 
-[bundle-crapiref.scripted-extension-points]
+[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/scripted-extension-points.md)
 
-[bundle-crapiref.ui-extension-points]
+[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/ui-extension-points.md)
 
-[bundle-crapiref.client-extension-points]
+[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/client-extension-points.md)
 

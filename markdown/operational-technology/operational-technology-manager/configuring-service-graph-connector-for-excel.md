@@ -20,7 +20,7 @@ Use the Service Graph Connector for Microsoft Excel guided setup and complete ta
 
 Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Guided Setup**, open the following guided setups, and complete the tasks.
 
-For more information on using guided setup, see Guided Setup.
+For more information on using guided setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 <table id="table_dfl_3jt_5xb"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Review class mappings
 
 </td><td>
 
-Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.**Note:** To review the class mappings available, you need to install the Industrial Core plugin that contains the class mapping template tables for the OT Service Graph Connectors. For more information about the Industrial Core plugin, see .
+Review and update the class mappings available for the Service Graph Connector for Microsoft Excel.**Note:** To review the class mappings available, you need to install the Industrial Core plugin that contains the class mapping template tables for the OT Service Graph Connectors. For more information about the Industrial Core plugin, see [List of plugins \(Xanadu\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md).
 
 </td></tr><tr><td>
 

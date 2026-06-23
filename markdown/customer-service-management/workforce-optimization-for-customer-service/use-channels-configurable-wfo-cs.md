@@ -137,15 +137,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d180955e719">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d180938e719">
 
 Navigate To
 
-</th><th align="left" id="d180955e722">
+</th><th align="left" id="d180938e722">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d180955e728">
+</th></tr></thead><tbody><tr><td id="d180938e728">
 
 **Queued Work tab**
 
@@ -153,7 +153,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d180955e737">
+</td></tr><tr><td id="d180938e737">
 
 **Service Channel page**
 
@@ -164,7 +164,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d180955e761">
+</td></tr><tr><td id="d180938e761">
 
 **All Queues**
 
@@ -333,15 +333,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d180955e1245">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d180938e1245">
 
 To set the override capacity
 
-</th><th align="left" id="d180955e1248">
+</th><th align="left" id="d180938e1248">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d180955e1254">
+</th></tr></thead><tbody><tr><td id="d180938e1254">
 
 **From Channels**
 
@@ -352,7 +352,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d180955e1284">
+</td></tr><tr><td id="d180938e1284">
 
 **From Teams**
 

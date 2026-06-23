@@ -34,15 +34,15 @@ This task must be completed before the contract renewal request is eligible for 
 
 4.  Determine whether to close this task.
 
-<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d67709e80">
+<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d67766e80">
 
 Result of review
 
-</th><th align="left" id="d67709e83">
+</th><th align="left" id="d67766e83">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67709e89">
+</th></tr></thead><tbody><tr><td id="d67766e89">
 
 **The details are accurate**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Yes**.
 
-</td></tr><tr><td id="d67709e104">
+</td></tr><tr><td id="d67766e104">
 
 **The details are not accurate**
 

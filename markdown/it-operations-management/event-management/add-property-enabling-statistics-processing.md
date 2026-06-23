@@ -44,5 +44,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 

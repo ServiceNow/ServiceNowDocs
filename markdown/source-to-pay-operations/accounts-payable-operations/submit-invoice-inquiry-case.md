@@ -26,15 +26,15 @@ Role required: Supplier
 
 2.  On the **Submit an invoice inquiry** form, enter the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d53379e77">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d53403e77">
 
 Question
 
-</th><th align="left" id="d53379e80">
+</th><th align="left" id="d53403e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53379e86">
+</th></tr></thead><tbody><tr><td id="d53403e86">
 
 **What invoice would you like to inquire about?**
 
@@ -42,7 +42,7 @@ Description
 
 Invoice number- Choose the invoice number on which you need to inquire from the drop-down list.
 
-</td></tr><tr><td id="d53379e95">
+</td></tr><tr><td id="d53403e95">
 
 **What kind of invoice inquiry would you like to make?**
 
@@ -55,7 +55,7 @@ Inquiry type- Choose the type of inquiry that you would like to ask an Account P
 -   Invoice entry assistance
 For more information on invoice inquiry, see[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
-</td></tr><tr><td id="d53379e129">
+</td></tr><tr><td id="d53403e129">
 
 **Please describe your inquiry below in detail:**
 

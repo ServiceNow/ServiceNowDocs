@@ -34,7 +34,7 @@ The data for the software products are populated from the Computer \(CMDB\_CI\_C
 
 For instructions to install Technology Portfolio Management, see [Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-portfolio-management/enterprise-architecture/eaw-install-tpm.md).
 
-**Important:** Technology Portfolio Management \(TPM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the  documentation.
+**Important:** Technology Portfolio Management \(TPM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMMigrationSAMF.md) documentation.
 
 ## TPM indicators in EA Workspace
 

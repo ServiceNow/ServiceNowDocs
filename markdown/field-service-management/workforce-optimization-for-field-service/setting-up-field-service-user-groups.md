@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d90066e417">
+<table><tbody><tr><td id="d90056e417">
 
 **Roles**
 
@@ -288,7 +288,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
 
-</td></tr><tr><td id="d90066e445">
+</td></tr><tr><td id="d90056e445">
 
 **Group Members**
 
@@ -298,7 +298,7 @@ Assign one or more agents from the list of available agents to the user group.
 
  For more information on assigning group members, see .
 
-</td></tr><tr><td id="d90066e463">
+</td></tr><tr><td id="d90056e463">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d90066e472">
+</td></tr><tr><td id="d90056e472">
 
 **Skills**
 
@@ -316,7 +316,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d90066e494">
+</td></tr><tr><td id="d90056e494">
 
 **Locations Covered**
 
@@ -326,7 +326,7 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/Locations-in-fsm.md).
 
-</td></tr><tr><td id="d90066e520">
+</td></tr><tr><td id="d90056e520">
 
 **Covered by Dispatch Groups**
 
@@ -334,7 +334,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d90066e532">
+</td></tr><tr><td id="d90056e532">
 
 **Product Models**
 
@@ -366,7 +366,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d90066e649">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d90056e649">
 
 **Roles**
 
@@ -376,7 +376,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
 
-</td></tr><tr><td id="d90066e677">
+</td></tr><tr><td id="d90056e677">
 
 **Group Members**
 
@@ -386,7 +386,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
  For more information on assigning group members, see .
 
-</td></tr><tr><td id="d90066e695">
+</td></tr><tr><td id="d90056e695">
 
 **Groups**
 
@@ -394,7 +394,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d90066e704">
+</td></tr><tr><td id="d90056e704">
 
 **Locations Covered**
 
@@ -430,7 +430,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d90066e848">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d90056e848">
 
 **Roles**
 
@@ -440,7 +440,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and  .
 
-</td></tr><tr><td id="d90066e876">
+</td></tr><tr><td id="d90056e876">
 
 **Group Members**
 
@@ -450,7 +450,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
  For more information on assigning group members, see Add a user to a group.
 
-</td></tr><tr><td id="d90066e895">
+</td></tr><tr><td id="d90056e895">
 
 **Groups**
 
@@ -458,7 +458,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d90066e904">
+</td></tr><tr><td id="d90056e904">
 
 **Locations Covered**
 
@@ -468,7 +468,7 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d90066e923">
+</td></tr><tr><td id="d90056e923">
 
 **Assignment Groups Covered\|**
 
@@ -484,7 +484,7 @@ Assign one or more agent groups to the dispatch user group.
 
 You can set up other types of user groups.
 
-In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see .
+In addition to setting up Field Service specific user groups, you can set up user groups for managers and initiators. For example, you can set up an initiator user group to create a new work order or you can create a work order from other record types, such as problem, incident, change, or project task. For more information on setting up other types of user groups, see [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-management-for-the-enterprise/service-management-legacy/t_CreateAGroup.md).
 
 |User|Locations|User Group|User Group Roles|Manager-Initiator Group Relationship|
 |----|---------|----------|----------------|------------------------------------|

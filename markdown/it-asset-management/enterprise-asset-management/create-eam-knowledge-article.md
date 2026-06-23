@@ -28,17 +28,17 @@ Role required: sn\_eam.enterprise\_admin
 
 3.  On the form, fill in the fields.
 
-    For detailed information on the fields, refer to the  application
+    For detailed information on the fields, refer to the [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/knowledge-management.md) application
 
-<table id="choicetable_y22_jbc_mzb"><thead><tr><th align="left" id="d83924e85">
+<table id="choicetable_y22_jbc_mzb"><thead><tr><th align="left" id="d84013e86">
 
 Field
 
-</th><th align="left" id="d83924e88">
+</th><th align="left" id="d84013e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d83924e94">
+</th></tr></thead><tbody><tr><td id="d84013e95">
 
 **Number**
 
@@ -46,7 +46,7 @@ Description
 
 Number of the article. This field is automatically populated.
 
-</td></tr><tr><td id="d83924e103">
+</td></tr><tr><td id="d84013e104">
 
 **Knowledge base**
 
@@ -54,7 +54,7 @@ Number of the article. This field is automatically populated.
 
 The knowledge base selected for the article. Enterprise Asset Knowledge Base is selected by default. You can select a different knowledge base if you want to.**Note:** An article can only be associated with one knowledge base. You can change the knowledge base, but only if the selected article template is available in the knowledge base.
 
-</td></tr><tr><td id="d83924e114">
+</td></tr><tr><td id="d84013e115">
 
 **Category**
 
@@ -62,7 +62,7 @@ The knowledge base selected for the article. Enterprise Asset Knowledge Base is 
 
 The category for this article. Select a Knowledge base before you can select a category. Articles without a category appear on the knowledge homepage in the \(empty\) category.
 
-</td></tr><tr><td id="d83924e123">
+</td></tr><tr><td id="d84013e124">
 
 **Valid to**
 
@@ -78,7 +78,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
 **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the Valid to date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format.
 
-</td></tr><tr><td id="d83924e165">
+</td></tr><tr><td id="d84013e166">
 
 **Article type**
 
@@ -86,7 +86,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
 The type of article, either HTML or wiki.
 
-</td></tr><tr><td id="d83924e174">
+</td></tr><tr><td id="d84013e175">
 
 **Workflow**
 
@@ -94,7 +94,7 @@ The type of article, either HTML or wiki.
 
 The publication state of the article, such as Draft, In Review, or Published. When inserting a new article from an existing article, the state of the new article is reset to Draft.
 
-</td></tr><tr><td id="d83924e183">
+</td></tr><tr><td id="d84013e184">
 
 **Source task**
 
@@ -102,7 +102,7 @@ The publication state of the article, such as Draft, In Review, or Published. Wh
 
 The task this knowledge article was created in response to, if any. This field is set automatically when you create the knowledge article from a task record.
 
-</td></tr><tr><td id="d83924e192">
+</td></tr><tr><td id="d84013e193">
 
 **Attachment link**
 
@@ -110,7 +110,7 @@ The task this knowledge article was created in response to, if any. This field i
 
 Option for downloading an attached file automatically when a user accesses the article, instead of opening the article view. Add one or more attachments to the article to use this option.**Note:** You may attach multiple files, but most web browsers permit users to download only the first one. To ensure download of all the files, bundle them into an archive, such as with WinZip, and attach the archive. The Attachment link option applies to articles accessed from search links only. Articles accessed as links within other knowledge articles won’t replicate this behavior.
 
-</td></tr><tr><td id="d83924e203">
+</td></tr><tr><td id="d84013e204">
 
 **Display attachments**
 
@@ -118,7 +118,7 @@ Option for downloading an attached file automatically when a user accesses the a
 
 Option for displaying attachments to users viewing this knowledge article. Attachments appear below the article text. Add one or more attachments to the article to use this option.
 
-</td></tr><tr><td id="d83924e212">
+</td></tr><tr><td id="d84013e213">
 
 **Short Description**
 
@@ -126,7 +126,7 @@ Option for displaying attachments to users viewing this knowledge article. Attac
 
 The title of the article. This title appears when browsing and searching for a knowledge article, and at the top of the article. You can enter up to 100 characters in this field.
 
-</td></tr><tr><td id="d83924e222">
+</td></tr><tr><td id="d84013e223">
 
 **Article body**
 

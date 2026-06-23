@@ -48,7 +48,7 @@ Any customizations to the SCCM 2016 plugin will not automatically migrate. The c
 
 3.  Deactivate the scheduled imports from the older SCCM plugin.
 
-    For more information on how to deactivate scheduled imports, see Upgrade the SCCM integration version.
+    For more information on how to deactivate scheduled imports, see [Upgrade the SCCM integration version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_UpgradeSCCMIntegrationVersion.md).
 
 4.  Delete duplicate OS software records in the older SCCM plugin.
 

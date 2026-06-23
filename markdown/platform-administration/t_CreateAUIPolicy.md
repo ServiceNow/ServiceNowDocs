@@ -118,7 +118,7 @@ View \[Advanced view\]
 
 </td><td>
 
-Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see View management.
+Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ Changes the form view to the default or advanced view. The fields change based o
 **Related topics**  
 
 
-[bundle-cadev.client-scripts]
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/client-scripts.md)
 
 ## Example: creating a UI policy
 
@@ -339,5 +339,5 @@ alert('You changed the "Incident state" to Resolved. Please enter your comments 
 }
 ```
 
-Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see Service catalog UI policy
+Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
 

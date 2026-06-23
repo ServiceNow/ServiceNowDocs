@@ -23,7 +23,7 @@ For more information on crawl types, see [Microsoft SharePoint crawl types](http
 -   The time of crawling may vary, based on the content size.
 -   The documents are available for search after a successful crawl.
 
-**Note:** For the latest information on the content types and constraints, see  documentation.
+**Note:** For the latest information on the content types and constraints, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md) documentation.
 
 ## Scheduled job frequency
 

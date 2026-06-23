@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 8.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d158706e152">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d158502e152">
 
 Option
 
-</th><th align="left" id="d158706e155">
+</th><th align="left" id="d158502e155">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d158706e161">
+</th></tr></thead><tbody><tr><td id="d158502e161">
 
 **If the Attachments tab is visible**
 
@@ -65,7 +65,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d158706e200">
+</td></tr><tr><td id="d158502e200">
 
 **If the Documents tab is visible**
 

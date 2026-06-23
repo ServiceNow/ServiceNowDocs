@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DatasetDefinition API provides methods to identify a set of records including a table name, columns, and row selection criteria to use as input for ML training algorithms. Datasets don't contain the actual data.
 
-This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see Predictive Intelligence.
+This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace. For information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Use the dataset to estimate mutual information [PredictabilityEstimate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/PredictabilityEstimateAPI.md) or train data specified by an [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/EncoderAPI.md). You can also use the dataset to train data specified by one of the following solution types:
 
@@ -25,7 +25,7 @@ Use the dataset to estimate mutual information [PredictabilityEstimate](https://
 -   [RegressionSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/RegressionSolutionAPI.md)
 -   [SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/SimilaritySolutionAPI.md)
 
-For usage guidelines, refer to Using ML APIs.
+For usage guidelines, refer to [Using ML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
@@ -153,7 +153,7 @@ String
 
 </td><td>
 
-Optional. Encoded query string in standard Glide format. See Encoded query strings. You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
+Optional. Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md). You can construct the query to be absolute or relative. For example, your query can return rows for the previous 3 months \(relative\), or for the May through July period \(absolute\). Whether using an absolute or relative pattern, the data a definition identifies can change if the rows in the underlying table change.
 
 </td></tr></tbody>
 </table>The following example shows how to create a dataset definition.

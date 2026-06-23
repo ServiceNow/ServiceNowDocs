@@ -26,5 +26,5 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see Exploring indicators with KPI Details
+To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/kpi-details-components.md)
 

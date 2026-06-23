@@ -26,11 +26,11 @@ Use this script include in a global server-side script to create a link to a lis
 
 The Mobile Onboarding application is being deprecated!
 
-With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the Now Mobile app for HR Service Delivery.
+With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the [Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md).
 
 For example, create a link from an email, push notification, or Virtual Agent conversation that opens a record or list of records in the app. The form or list only includes data that the user has access rights to view.
 
-For an example of this API used in a push notification, see Configure push notification message content. For additional information on deep links, see .
+For an example of this API used in a push notification, see [Configure push notification message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/config-push-notification-message-content.md). For additional information on deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/deep-link-mobile.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
@@ -71,7 +71,7 @@ Name of the app to create a link to. Options include:
 
 The Mobile Onboarding application is being deprecated!
 
-With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the Now Mobile app for HR Service Delivery.
+With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the [Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md).
 
 ```
 var glide = new global.MobileDeepLinkGenerator('onboarding');

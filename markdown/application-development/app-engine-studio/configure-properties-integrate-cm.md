@@ -28,7 +28,7 @@ Role required: admin
 
 ### About this task
 
-There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see . Use the steps below to select which change model you would like to use during app deployments.
+There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/change-management/change-models.md). Use the steps below to select which change model you would like to use during app deployments.
 
 This task can be completed within the Guided Setup system. This task opens within Guided Setup when you select **Configure**. If you prefer, you can follow the instructions below to access the same configuration task outside of the Guided Setup.
 
@@ -63,7 +63,7 @@ Role required: admin
 
 ### About this task
 
-There are several templates that you can choose from to use as the default template for creating change requests. For more information, see . Use the following steps to select which change template you would like to use during app deployments.
+There are several templates that you can choose from to use as the default template for creating change requests. For more information, see [Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/change-management/create-a-change-request-template.md). Use the following steps to select which change template you would like to use during app deployments.
 
 This task can be completed within the Guided Setup system. This task opens within Guided Setup when you select **Configure**. If you prefer, you can follow the instructions below to access the same configuration task outside of the Guided Setup.
 

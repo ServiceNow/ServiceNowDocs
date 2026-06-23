@@ -22,7 +22,7 @@ Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is bein
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 Two plugins are available to obtain feature ITSM Predictive Intelligence Workbench functionality.
 

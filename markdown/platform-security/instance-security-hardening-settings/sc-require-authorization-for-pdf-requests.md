@@ -93,7 +93,7 @@ Functional Impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of PDF data on the instance.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see Web service import sets.
+ To learn more, see [Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Security risk
 \(High\) Without appropriate authorization configured on the incoming PDF requests, an unauthorized user can get access to sensitive content/data on the target instance.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

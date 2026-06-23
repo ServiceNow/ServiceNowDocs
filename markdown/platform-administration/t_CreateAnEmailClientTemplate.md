@@ -228,7 +228,7 @@ Enter a comma-separated list of either field names that contain user email addre
 **Related topics**  
 
 
-[bundle-cadev.c_ScriptIncludes]
+[Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md)
 
 ## Apply an email client template
 

@@ -33,15 +33,15 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 4.  Close the security incident by using one of the following options.
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d39338e112">
+<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d39373e112">
 
 Option
 
-</th><th align="left" id="d39338e115">
+</th><th align="left" id="d39373e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39338e121">
+</th></tr></thead><tbody><tr><td id="d39373e121">
 
 **Close a security incident**
 
@@ -67,7 +67,7 @@ The AI agent closes the security incident.
 
 **Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
 
-</td></tr><tr><td id="d39338e224">
+</td></tr><tr><td id="d39373e224">
 
 **Close a security incident as false positive**
 

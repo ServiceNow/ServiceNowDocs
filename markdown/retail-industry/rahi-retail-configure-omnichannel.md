@@ -18,5 +18,5 @@ Customers can use chat on the Business Location Service Portal, chat via consume
 
 Omnichannel support for Retail Core is configured just as it is for Customer Service Management.
 
-For information on configuring omnichannel communications channels, see .
+For information on configuring omnichannel communications channels, see [Enable communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/enable-comm-channels.md).
 

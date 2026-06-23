@@ -35,7 +35,7 @@ Features include:
 -   Ability to view six months of historical KPI data.
 -   Ability to display time values in hours or days \(using the **sn\_bm\_client.dashboard\_display\_unit** system property\).
 
-**Note:** Service Portal must be installed to view the Benchmarks dashboard.
+**Note:** [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ServicePortal.md) must be installed to view the Benchmarks dashboard.
 
 \[Omitted image "BenchmarksDashboard.png"\] Alt text: Benchmarks Dashboard
 
@@ -652,7 +652,7 @@ Access the dashboards under **Self-Service** &gt; **Dashboards**. To view detail
 
 **Note:** The [Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-dashboards-content-pack.md) [The ITSM Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-dashboards-content-pack.md) are required to view these dashboards. The Performance Analytics - Content Pack - ITSM Dashboards \(com.snc.pa.itsm\_dashboards\) plugin must be activated.
 
-For more information, see Platform Analytics Solutions.
+For more information, see [Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md).
 
 <table id="table_e5m_lt4_qbb"><thead><tr><th>
 

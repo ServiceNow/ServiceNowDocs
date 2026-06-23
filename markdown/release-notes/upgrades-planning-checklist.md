@@ -623,7 +623,7 @@ Using the Upgrade Monitor, monitor the upgrade to your instance and validate tha
 
 </td><td>
 
-After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.
+After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) in the Upgrade Monitor.
 
 </td><td>
 
@@ -1089,7 +1089,7 @@ If applicable, request a version entitlement.
 
 </td><td>
 
-Monitor the upgrade to your instance and validate that the upgrade to your production instance is complete.
+[Monitor the upgrade to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitor-upgrade-apply-upgrade.md) and validate that the upgrade to your production instance is complete.
 
 </td><td>
 

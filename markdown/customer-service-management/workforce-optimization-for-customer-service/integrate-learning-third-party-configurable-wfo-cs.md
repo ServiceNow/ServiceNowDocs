@@ -30,7 +30,7 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   Enterprise Service Management Integrations Framework
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
@@ -132,31 +132,31 @@ Configuration set to push a record if the last push fails.**Note:** This field a
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d85808e309">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d85763e309">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d85808e312">
+</th><th align="left" id="d85763e312">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d85808e318">
+</th></tr></thead><tbody><tr><td id="d85763e318">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d85808e331">
+</td></tr><tr><td id="d85763e331">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d85808e344">
+</td></tr><tr><td id="d85763e344">
 
 **Udemy application**
 

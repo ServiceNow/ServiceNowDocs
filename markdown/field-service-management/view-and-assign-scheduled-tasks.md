@@ -35,15 +35,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d42054e98">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d42041e98">
 
 role
 
-</th><th align="left" id="d42054e101">
+</th><th align="left" id="d42041e101">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d42054e107">
+</th></tr></thead><tbody><tr><td id="d42041e107">
 
 **wm\_dispatcher**
 
@@ -53,7 +53,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d42054e137">
+</td></tr><tr><td id="d42041e137">
 
 **wm\_admin**
 
@@ -63,7 +63,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d42054e167">
+</td></tr><tr><td id="d42041e167">
 
 **wm\_agent**
 

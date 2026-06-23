@@ -22,7 +22,7 @@ Only users who understand SSO, URL redirects, and the ServiceNow platform should
 
 To use single sign-on with Service Portal, you must enable the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 
-If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see Multiple-Provider single sign-on \(SSO\).
+If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 **Note:** Service Portal has a known issue related to using Multi-Provider SSO and Okta. For more information about this issue and a workaround, see the [Service Portal: After enabling Multi SSO, end users are able to access navpage.do through OKTA if they are already logged in \[KB0687717\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0687717) article in the Now Support Knowledge Base.
 
@@ -47,7 +47,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Add a system property with the following settings:
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) with the following settings:
 
     -   Name: glide.entry.page.script
     -   Type: string
@@ -164,7 +164,7 @@ Contains the call to the server script include method that determines where to l
 
 3.  Customize the after-login behavior in the **SPEntryPage** script include.
 
-    For more information about modifying script includes, see Script includes.
+    For more information about modifying script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
 
     For example, if you want users with certain roles to be redirected to Service Portal, you could modify `user.hasRoles()` in the following code.
 

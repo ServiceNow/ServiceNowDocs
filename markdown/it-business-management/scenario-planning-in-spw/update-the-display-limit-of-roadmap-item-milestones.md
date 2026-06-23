@@ -48,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d48794e153">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d47867e153">
 
 Field
 
-</th><th align="left" id="d48794e156">
+</th><th align="left" id="d47867e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48794e162">
+</th></tr></thead><tbody><tr><td id="d47867e162">
 
 **Name**
 
@@ -68,7 +68,7 @@ Description
 -   **sn\_align\_ws.goal\_hierarchy.max\_records** for goals in hierarchy.
 
 
-</td></tr><tr><td id="d48794e193">
+</td></tr><tr><td id="d47867e193">
 
 **Type**
 
@@ -76,7 +76,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d48794e202">
+</td></tr><tr><td id="d47867e202">
 
 **Value**
 
@@ -85,7 +85,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in Add a system property.
+</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 4.  Select **Submit**.
 

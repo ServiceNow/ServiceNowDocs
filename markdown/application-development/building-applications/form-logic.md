@@ -18,7 +18,7 @@ Controlling what users see when they visit a form can increase productivity and 
 
 The following question will help direct you to the right decision for when to control user access to information: Is this a suggestion or enforcement? A suggestion makes the form easier to complete whereas enforcement forces the user to do something in order to complete the form.
 
-UI Policies are useful for conditional suggestionslike showing and hiding fields or adding field messages based on another field’s value, while Data Policies and Business Rules are better suited for doing conditional enforcementlike making a field mandatory.
+[UI Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateAUIPolicy.md) are useful for conditional suggestionslike showing and hiding fields or adding field messages based on another field’s value, while [Data Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_DataPolicy.md) and Business Rules are better suited for doing conditional enforcementlike making a field mandatory.
 
 The best user experience is to utilize both suggestion and enforcement together.
 

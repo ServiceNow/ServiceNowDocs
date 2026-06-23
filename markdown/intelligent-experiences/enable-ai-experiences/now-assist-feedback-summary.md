@@ -27,7 +27,7 @@ In the following example, Now Assist generated a multi feedback summarization in
 
 \[Omitted image "now-assist-feedback-summary.png"\] Alt text: Now Assist generated feedback summary in the Now Assist for Strategic Portfolio Management \(SPM\).
 
-Now Assist can generate a summary from the feedback only if the feedback has at least 60 words in the fields that are used for the input data. The 60-word minimum optimizes the experience by ensuring that there’s enough information to make a summary. For more information, see .
+Now Assist can generate a summary from the feedback only if the feedback has at least 60 words in the fields that are used for the input data. The 60-word minimum optimizes the experience by ensuring that there’s enough information to make a summary. For more information, see [Summarize the feedback by using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.md).
 
 ## Availability
 
@@ -35,7 +35,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
+|Technology|[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

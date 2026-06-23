@@ -24,7 +24,7 @@ Use the Manage contract repository agentic workflow to improve productivity by a
 
     If you have customized the Manage contract repository agentic workflow, update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see .
+-   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 The Manage contract repository agentic workflow can help notify business owners or contract administrators about expiring contracts by automatically creating milestone reminders for the notice period of contract renewals or the notice period for termination of contract renewals. The agentic workflow uses AI agents to retrieve contract details such as the renewal notice period, termination notice period for renewals, or auto-renewal clause information, and determine the average lead time for similar contracts to create the milestone reminders.
 
@@ -53,7 +53,7 @@ Contract fulfillers and assignment group managers with the now\_assist\_panel\_u
 
 Role required: sn\_aia.admin
 
-If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see .
+If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md).
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Set reminders for contract milestones**.

@@ -32,15 +32,15 @@ Role required: Responder, Manager, or Administrator
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d351680e94">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d350109e94">
 
 Option
 
-</th><th align="left" id="d351680e97">
+</th><th align="left" id="d350109e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d351680e103">
+</th></tr></thead><tbody><tr><td id="d350109e103">
 
 **In the incident list view**
 
@@ -48,7 +48,7 @@ Description
 
 Double-click the **Service** field for the incident and replace the team member using search.Select **OK**.
 
-</td></tr><tr><td id="d351680e120">
+</td></tr><tr><td id="d350109e120">
 
 **In the incident form**
 

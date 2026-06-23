@@ -23,7 +23,7 @@ This feature is supported in the Health Log Analytics application, Version 25.0.
 
 **Note:** Using HLA configuration migration with ServiceNow AI Platform versions prior to the Tokyo release requires you to import an update set. For more information, see the [HLA Configuration Migration Enablement \[KB1274850\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1274850) article in the Now Support Knowledge Base.
 
-For general information about update sets in the ServiceNow AI Platform, see System update sets.
+For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/system-update-sets.md).
 
 -   **[Export a data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-migrate.md)**  
 Export the configuration of a Health Log Analytics data input with or without the related source types to an update set. You can then import the update set to the target environment.

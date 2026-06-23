@@ -24,13 +24,13 @@ Domain separation provides a structured and efficient way to manage complex, mul
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 Customer Service Problem Management \(CSPM\) supports domain separation at an account level. All customer data and service problem cases have account \(customer\) level separation.
 
 ## How domain separation works in Customer Service Problem Management
 
--   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see Domain separation and Customer Service Management.
+-   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/domain-separation-customer-service.md).
 -   Customer details and service problem cases are domain separated using the account name.
 -   If an administrator assigns fulfillment agents and managers to work on the service problem cases for a specific domain, these agents and managers can work on these types of transactions across accounts.
 

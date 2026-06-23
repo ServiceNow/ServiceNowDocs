@@ -42,11 +42,11 @@ The following examples show Now Assist generated resolution notes in different p
 
 You can generate resolution notes for the following products.
 
--   
--   
--   
--   
--   
+-   [Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)
+-   [Generate the resolution notes for a case by using the Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md)
+-   [Generate the resolution notes for an incident by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/resolve-incident-now-assist.md)
+-   [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Generate the resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.md)
 
 ## Availability
 
@@ -66,9 +66,9 @@ Technology
 
 </td><td>
 
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
-
- 
+ [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td></tr><tr><td>
 
@@ -76,9 +76,9 @@ Customer
 
 </td><td>
 
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
-
- 
+ [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td></tr></tbody>
 </table>

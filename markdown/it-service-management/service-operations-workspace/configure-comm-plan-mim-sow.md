@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -44,7 +44,7 @@ Role required: admin
 
 4.  Select **New** to create a communication plan definition.
 
-    For more information on creating a communication plan, see .
+    For more information on creating a communication plan, see [Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md).
 
     After a communication plan definition is created, the following related lists appear in the communication plan definition record:
 
@@ -52,16 +52,16 @@ Role required: admin
     -   Communication Contact Definitions
 5.  Select the Communication Task Definitions related list and then select **New** to create a communication task.
 
-    For more information on creating a communication task, see .
+    For more information on creating a communication task, see [Define a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/task-communications-management/create-comm-task-definition.md).
 
 6.  On the Communication task record, select the required communication channel related link and define the communication channel.
 
-    For more information on creating a communication channel, see .
+    For more information on creating a communication channel, see [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/task-communications-management/create-comm-channel-definition.md).
 
 7.  On the Communication plan definition record, select the Communication contact definition related list.
 
 8.  Select **New** to create a communication contact definition.
 
-    For more information on creating a communication contact definition, see .
+    For more information on creating a communication contact definition, see [Define a communication contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/task-communications-management/create-comm-contact-definition.md).
 
 

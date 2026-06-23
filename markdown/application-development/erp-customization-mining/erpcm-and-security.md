@@ -19,7 +19,7 @@ In addition to role-based security and access control, ERP Customization Mining 
 Personally identifiable data is secured with ERP Data Hub and ERP-CM in several ways.
 
 -   You can customize ERP models and remote tables to exclude personal data in a specified field, such as email address.
--   All remote tables are secured using access control rules \(ACLs\). If you have a remote table that contains sensitive data, use ACLs to restrict that table from ServiceNow users. For more information, see .
+-   All remote tables are secured using access control rules \(ACLs\). If you have a remote table that contains sensitive data, use ACLs to restrict that table from ServiceNow users. For more information, see [ServiceNow® access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md).
 
 **Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

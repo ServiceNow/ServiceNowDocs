@@ -16,7 +16,7 @@ breadcrumb: [CMDB Health reference, CMDB Health, CMDB schema model, Exploring CM
 
 Several types of components are installed with CMDB Health \(included in the com.snc.cmdb plugin\), such as tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 ## Properties installed
 
@@ -37,7 +37,7 @@ glide.cmdb.services\_hierarchy\_limit
 Maximum number of service CIs that can appear in the CMDB service dashboard. This limit applies to any child class of the Application Services \[cmdb\_ci\_service\_auto\] class.-   Type: integer
 -   Default: 10,000
 -   Range: 0-100,000
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 -   Learn more: [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)
 
 </td></tr></tbody>

@@ -18,7 +18,7 @@ The Altiris integration a one direction import of the Altiris data into ServiceN
 
 ## Data Import
 
-Relevant data is imported from the Altiris database to the CMDB. The Altiris database is not written to, it is considered an authoritative source. The import is achieved using a JDBC connection via the MID Server.
+Relevant data is imported from the Altiris database to the CMDB. The Altiris database is not written to, it is considered an authoritative source. The import is achieved using a JDBC connection via the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md).
 
 \[Omitted image "AltirisIntegrationApplication.png"\] Alt text:
 

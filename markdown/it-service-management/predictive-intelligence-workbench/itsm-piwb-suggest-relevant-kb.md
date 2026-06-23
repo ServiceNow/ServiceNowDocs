@@ -44,13 +44,13 @@ When the use case template shows the label **Pretrained**, you can go directly t
 
     Creating a model involves the following: creating a word corpus, defining a similarity prediction rule, defining the initial training frequency, and defining the refresh frequency.
 
-    1.  Create a word corpus.
+    1.  [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md).
 
         When creating a word corpus on the Word Corpus Content form, select an incidents-related table, such as Incident \[incidents\] in the **Table** field and define the time frame that best describes the current usage of words in the **Filter** field. For example, if your IT system experienced a major infrastructure change six months back, use data from the last six months only. In the **Field List** field, define only the fields that best capture the words: **Description**, **Short description**, and **Resolution notes**. Defining these alone is typically enough, since the prediction rule is expected to find incidents based on the short description.
 
         Creating the word corpus prepares you for the next step, creating the similarity prediction rule.
 
-    2.  Create and train a similarity solution.
+    2.  [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
     3.  For this initial model creation, provide the similarity solution definition label `Similar Knowledge Articles` in the **Label** field.
 
@@ -70,23 +70,23 @@ When the use case template shows the label **Pretrained**, you can go directly t
 
         Alternatively, you can click **Submit** to save your similarity solution record and return to train it later.
 
-4.  Evaluation and tune your model.
+4.  [Evaluation and tune your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 
     If you have a similarity score above 60, but the two incidents do not look similar, you may want to create another model, word corpus, or both by changing inputs and filters. Keep in mind that modifying the solution definition will help you create a new solution, but it will invalidate the previous solution.
 
     If you want to revert back to the previous solution definition, you will have to reset the parameters and retrain the solution. Therefore, first try creating a new similarity model before creating a new word corpus.
 
-    If you want to adjust the score for your similarity solution, refer to Update your similarity score threshold.
+    If you want to adjust the score for your similarity solution, refer to [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 
-5.  Once you have a satisfactory model, test the similarity solution prediction.
+5.  Once you have a satisfactory model, [test the similarity solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/test-similarity-solution-prediction.md).
 
     You can manually provide inputs and select the top similar results outcome values.
 
-6.  Once you have tested the behavior, configure the user experience layout to show attributed results and actions performed on the results.
+6.  Once you have tested the behavior, [configure the user experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md) layout to show attributed results and actions performed on the results.
 
     You can configure these results and actions via Workspace UI for Agent assist or via the ServiceNow AI Platform for Contextual Search. Configure actions and search context though **Tables** configuration and user experience and card layout through **Contextual Search** &gt; **Search Result Display Configuration**.
 
-7.  Integrate trained models by exporting them to production.
+7.  [Integrate trained models by exporting them to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/implement-iterative-solution-updates.md).
 
     **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-integ-implem-custom.md).
 

@@ -7,7 +7,7 @@ release: xanadu
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
 ---
@@ -18,7 +18,7 @@ The NLU Workbench application provides support for creating NLU models in differ
 
 The platform supports NLU for 17 languages. Ten of these languages available to your models have both intent and entity support; the remaining 7 languages have intent-only support. \(Japanese entity support includes character annotation.\)
 
-**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see .
+**Note:** Install the language plugins for languages you want to use in NLU. Installing and activating language plugins ensures that the languages are available in your instance. For more information see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 <table id="table_wdv_ymx_z4b"><thead><tr><th>
 

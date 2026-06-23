@@ -123,7 +123,7 @@ Add filters to further define what cases appear in your **My Lists**. **Note:** 
 
 ## Result
 
-A new list is created for you. Change the order of your lists using the **Reorder** button. For more information, see . You can also use this keyboard shortcut **Ctrl + Shift + Left/Right Arrow** to reorder tabs on lists.
+A new list is created for you. Change the order of your lists using the **Reorder** button. For more information, see [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md). You can also use this keyboard shortcut **Ctrl + Shift + Left/Right Arrow** to reorder tabs on lists.
 
 **Note:** Some users \(especially non-admins\) may not have access/visibility to the lists in the workspaces. For information on troubleshooting, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1325208](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1325208).
 

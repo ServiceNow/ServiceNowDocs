@@ -54,5 +54,5 @@ To identify customized objects, the system adds a corresponding record in the Cu
 **Related topics**  
 
 
-[bundle-cadev.update-set-administration]
+[Update set administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/update-set-administration.md)
 

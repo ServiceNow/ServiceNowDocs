@@ -18,7 +18,7 @@ Several types of components are installed with activation of Supplier Lifecycle 
 
 The user roles and tables, even though installed along with Supplier Lifecycle Operations, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

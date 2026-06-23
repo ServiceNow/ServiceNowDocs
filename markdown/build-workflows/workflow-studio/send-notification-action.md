@@ -51,7 +51,7 @@ Use these general guidelines when using the Send Notification action.
 
 -   **Select the Send Notification action to send an email notification**
 
-    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see .
+    Select this action when you want to send an email notification to predefined recipients containing predefined content. For information about creating an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md).
 
 -   **Use a Integration Hub spoke action for other types of notifications**
 

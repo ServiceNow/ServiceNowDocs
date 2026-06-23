@@ -34,15 +34,15 @@ Role required: sn\_shop.procurement\_specialist
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d28028e97">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d28052e97">
 
 Action
 
-</th><th align="left" id="d28028e100">
+</th><th align="left" id="d28052e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28028e106">
+</th></tr></thead><tbody><tr><td id="d28052e106">
 
 **Request clarification**
 
@@ -50,7 +50,7 @@ Description
 
 Opens a confirmation dialog box, where you can enter your questions regarding the selected purchase requestion lines or sourcing request. An email notification is sent to the requester that some clarification is sought for the purchase, and a provide clarification to-do is created for their action.**Note:** This correspondence is tracked through the activity stream of the approval plan here in Employee Center. The same is also tracked through the activity stream of the corresponding purchase requisition or sourcing request in Shopping Hub.
 
-</td></tr><tr><td id="d28028e123">
+</td></tr><tr><td id="d28052e123">
 
 **Reject**
 
@@ -58,7 +58,7 @@ Opens a confirmation dialog box, where you can enter your questions regarding th
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28028e132">
+</td></tr><tr><td id="d28052e132">
 
 **Reject all**
 
@@ -66,7 +66,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting o
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting all the purchase requestion lines or sourcing request. An email notification is sent to the requester with this information.**Note:** You’re redirected here if you select **Reject** on the approval email notification.
 
-</td></tr><tr><td id="d28028e146">
+</td></tr><tr><td id="d28052e146">
 
 **Approve**
 
@@ -74,7 +74,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting a
 
 Opens a confirmation dialog box, where you can approve only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28028e156">
+</td></tr><tr><td id="d28052e156">
 
 **Approve all**
 

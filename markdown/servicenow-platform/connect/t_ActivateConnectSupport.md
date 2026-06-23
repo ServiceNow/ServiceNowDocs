@@ -38,7 +38,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 
 ## Properties installed with Connect Support
@@ -128,7 +128,7 @@ Controls whether Connect Support reflects system messages in records created fro
 
 Additional plugins are available for Connect Support. These plugins integrate Connect Support with other features and provide capabilities to track performance metrics.
 
-You must have the admin role to activate these additional plugins. For details, see Activate a plugin .
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ActivateAPlugin.md) .
 
 <table id="table_gzd_yj1_4v"><thead><tr><th>
 

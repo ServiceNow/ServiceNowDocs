@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -120,7 +120,7 @@ Role required: admin
 
     4.  If the record isn’t found with the table, remove the table filter and search for targetPayload contains route=mra or interceptor.
 
-        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see .
+        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-a-ux-add-on-event-mapping.md).
 
     **Note:**
 

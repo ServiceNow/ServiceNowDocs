@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** window, choose any one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d29509e104">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d29421e104">
 
  
 
-</th><th align="left" id="d29509e106">
+</th><th align="left" id="d29421e106">
 
  
 
-</th></tr></thead><tbody><tr><td id="d29509e111">
+</th></tr></thead><tbody><tr><td id="d29421e111">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Role required: sales\_agent
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d29509e120">
+</td></tr><tr><td id="d29421e120">
 
 **Choose new location**
 

@@ -38,15 +38,15 @@ Before pre-dating a project task, note the following conditions:
 
 3.  On the Project form, update the planned start date for a project task using either of the following options.
 
-<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d115435e93">
+<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d114508e93">
 
 Option
 
-</th><th align="left" id="d115435e96">
+</th><th align="left" id="d114508e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115435e102">
+</th></tr></thead><tbody><tr><td id="d114508e102">
 
 **From the Project Task form**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the Project Task form, click the **Dates** tab and update the **Planned start date** for the task.
 
 
-</td></tr><tr><td id="d115435e126">
+</td></tr><tr><td id="d114508e126">
 
 **From the Planning Console**
 

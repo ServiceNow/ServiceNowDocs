@@ -38,7 +38,7 @@ Xanadu Patch 11 includes fixes for security-related problems that affected certa
 
 ## Changes in Xanadu Patch 11
 
--   ****
+-   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/sensitive-data-filters.md)**
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 

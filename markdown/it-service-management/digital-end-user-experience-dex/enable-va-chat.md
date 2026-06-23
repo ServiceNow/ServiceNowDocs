@@ -30,7 +30,7 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select **Use Virtual Agent \(must be configured\)**.
 
-    For information on how to configure Virtual Agent, see .
+    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md).
 
 3.  Select **Update**.
 
@@ -47,5 +47,5 @@ The chat window opens.
 
 \[Omitted image "dex-da-va-chat-window.png"\] Alt text: Virtual agent chat window
 
-**Note:** To configure the chat branding, see .
+**Note:** To configure the chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/ac-configure-chat-branding.md).
 

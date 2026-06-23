@@ -100,5 +100,5 @@ Prevent users from saving invalid HTML in a journal field.
 
 [bundle-psec.r_GeneralSecuritySettings]
 
-[bundle-psec.c_HTMLSanitizer]
+[HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md)
 

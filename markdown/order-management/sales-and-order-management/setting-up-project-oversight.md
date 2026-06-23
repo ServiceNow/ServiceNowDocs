@@ -22,7 +22,7 @@ For example, in the Project Oversight Management for Order Line Item form, you u
 
 \[Omitted image "proj-mgmt-oversight-order-line.png"\] Alt text: Project oversight conditions including Specification, Account, Location, and Offering that an order line must match and the project template used to create the project for the order line.
 
-For more information on adding or changing conditions in decision tables, see .
+For more information on adding or changing conditions in decision tables, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
 
 **Note:** If Order Management demo data is installed, the decision table for each project oversight form displays the condition columns and the decision rows added for demo data. You can add, change, or delete the condition columns and decision rows as needed.
 

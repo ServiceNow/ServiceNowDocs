@@ -127,7 +127,7 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs are not upd
 
     -   **Delete**: Delete all duplicate CIs \(only the main CI remains\).
 
-        **Note:** Review  for information about reverting the deletion of CIs and related records.
+        **Note:** Review [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md) for information about reverting the deletion of CIs and related records.
 
 11. On the **Review and Confirm** tab:
 

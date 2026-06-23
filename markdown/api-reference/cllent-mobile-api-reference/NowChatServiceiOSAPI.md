@@ -277,7 +277,7 @@ contextData
 
 </td><td>
 
-Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see .
+Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 </td></tr></tbody>
 </table><table id="table_nyg_12k_npb" class="returns"><thead><tr><th>
@@ -358,7 +358,7 @@ contextData
 
 </td><td>
 
-Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see .
+Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 </td></tr><tr><td>
 

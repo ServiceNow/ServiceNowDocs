@@ -18,7 +18,7 @@ The PlaybookExperience API provides methods for handling playbook executions.
 
 This API requires the Playbook Experience Core plugin \(com.glide.playbook\_experience.config\) and is provided within the `sn_playbook` namespace.
 
-This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see Process Automation Designer.
+This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/process-automation-designer.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 

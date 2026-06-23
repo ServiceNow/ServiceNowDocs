@@ -46,7 +46,7 @@ Agent experience for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Case management for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Data management for CSM
 
 </td><td>
 
-Starting with the Xanadu release, ServiceNow® Data Management doesn't support mobile devices and Internet Explorer. For more information, see Browser support.
+Starting with the Xanadu release, ServiceNow® Data Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Digital End-User Experience
 
 </td><td>
 
-For the web/SaaS application, enable the DEX browser extension for monitoring web/SaaS applications to collect various operational or performance-based metrics on your system. For more information, see .
+For the web/SaaS application, enable the DEX browser extension for monitoring web/SaaS applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 

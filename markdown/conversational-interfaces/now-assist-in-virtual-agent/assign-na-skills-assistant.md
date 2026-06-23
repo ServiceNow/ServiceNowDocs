@@ -34,7 +34,7 @@ Role required: virtual\_agent\_admin or admin
 
     By default, all global skill types, except subflows and actions, are turned on in the Now Assist Admin console. If a global skill type is turned off, an alert appears in the Alert column at the assistant level. The alert indicates that a global skill type must be activated in the Now Assist Admin console.
 
-    To turn a global skill type on or off, see . To deactivate a skill across the entire instance, select **Manage skills**. One or more skills must be active.
+    To turn a global skill type on or off, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md). To deactivate a skill across the entire instance, select **Manage skills**. One or more skills must be active.
 
     The default Now Assist in Virtual Agent assistant is assigned Now Assist Q&amp;A, Now Assist Multi-Turn Catalog Ordering, Now Assist Topics, and AI agent skills. When a new assistant is created, all corresponding global skill types that are enabled are assigned to the assistant. By assigning a skill type to an assistant, the corresponding search sources get linked to the assistant's search profile. For example, if you want knowledge articles or external content to be enabled for an assistant, the Now Assist Q&amp;A skill must be assigned to the assistant.
 

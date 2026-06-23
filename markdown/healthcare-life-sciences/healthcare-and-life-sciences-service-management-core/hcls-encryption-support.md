@@ -26,9 +26,9 @@ Column Level Encryption Enterprise provides an enhanced encryption capability co
 
 When as an administrator, you install the Healthcare and Life Sciences Service Management Core application, the crypto modules and encryption configurations to encrypt sensitive fields along with the KMF are also installed automatically. For managing and auditing cryptographic operations on your ServiceNow instance, as an administrator, you can choose to optionally activate the Column Level Encryption Enterprise plugin \(com.glide.now.platform.encryption\).
 
-For more information about obtaining Column Level Encryption Enterprise, see Activate Column Level Encryption Enterprise. For more information about selecting the parent crypto module, see Create a cryptographic module.
+For more information about obtaining Column Level Encryption Enterprise, see [Activate Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/activate-platform-encryption.md). For more information about selecting the parent crypto module, see [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
 
-For more information on Column Level Encryption Standard and Column Level Encryption Enterprise, see .
+For more information on Column Level Encryption Standard and Column Level Encryption Enterprise, see [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
 
 <table id="table_btm_wgb_mvb"><thead><tr><th>
 

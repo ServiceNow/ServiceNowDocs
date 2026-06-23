@@ -26,13 +26,13 @@ Role required: admin
 
 ## Procedure
 
-1.  To Opt in to ServiceNow products, follow the steps in .
+1.  To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/optin-optout-prod.md).
 
-2.  To install an application that you have purchased from the ServiceNow Store, follow the steps in .
+2.  To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
-3.  Alternatively, if you want to manage your entitlement for the Configuration Compliance application on other ServiceNow AI Platform instances, follow the steps in .
+3.  Alternatively, if you want to manage your entitlement for the Configuration Compliance application on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/entite-app.md).
 
-4.  If you have already installed the Configuration Compliance application and you are updating it, see .
+4.  If you have already installed the Configuration Compliance application and you are updating it, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallUpdates.md).
 
 5.  Install supported applications.
 

@@ -34,7 +34,7 @@ This setting opens the possibility of an unauthorized user uploading an image to
 |Functional impact|No functionality impact as authorized users are still able to upload images to their user profile.|
 |Security risk|\(Low\) When you set this property to **false**, an authenticated user could upload an image to another user's account without authorization.|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

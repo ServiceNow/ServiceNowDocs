@@ -33,7 +33,7 @@ Application services support a business or technical service and are mapped to t
 
 3.  On the Create an Application Service form, in the Basic Details section, fill in the fields.
 
-    To get a description of the field values, see .
+    To get a description of the field values, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 4.  In the set relationships section, select the **Business application** tab.
 

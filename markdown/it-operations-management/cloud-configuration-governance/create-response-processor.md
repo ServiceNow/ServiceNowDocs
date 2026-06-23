@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_designer.
 
 ## About this task
 
-Before you execute a response processor for a workflow, you need to create a workflow, attach the workflow to a resource block operation step, and then generate the catalog. To return the response from the workflow to the Cloud Provisioning and Governance application, the workflow designer needs to add the **Cloud Return Response** activity to the workflow. A variable needs to be mentioned inside the **Cloud Return Response** activity for the response. See Worflow.
+Before you execute a response processor for a workflow, you need to create a workflow, attach the workflow to a resource block operation step, and then generate the catalog. To return the response from the workflow to the Cloud Provisioning and Governance application, the workflow designer needs to add the **Cloud Return Response** activity to the workflow. A variable needs to be mentioned inside the **Cloud Return Response** activity for the response. See [Worflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md).
 
 ## Procedure
 

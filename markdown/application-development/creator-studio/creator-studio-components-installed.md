@@ -16,7 +16,7 @@ breadcrumb: [Installing Creator Studio from the ServiceNow Store, Configuring Cr
 
 When you activate the Creator Studio plugin, various components like tables and user roles are automatically installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 ## What plugins are required to activate Creator Studio?
 

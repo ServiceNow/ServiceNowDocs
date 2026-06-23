@@ -46,12 +46,12 @@ In email notifications, you can decide where the links to an incident record are
 
 To ensure consistency, the email notification template for incident is updated to send the notification from SOW in the same format as sent from classic UI16 interface. Also, the template theme is updated to match the Next Experience theme.
 
-To receive these notifications, the end user must enable notifications. For more information, see Subscription-based notifications.
+To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 **Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-configuration.md)
 
 **Related topics**  
 
 
-[bundle-platadm.t_CreateANotification]
+[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md)
 

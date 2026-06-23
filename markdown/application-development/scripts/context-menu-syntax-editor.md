@@ -95,7 +95,7 @@ Show Data
 Records in the table that are based on the role of the current user.
 
 </td></tr></tbody>
-</table>Enable or disable the context menu in the script editor using the **glide.ui.syntax\_editor.context\_menu** property in the System Property \[sys\_properties\] table. See Available system properties for more information.
+</table>Enable or disable the context menu in the script editor using the **glide.ui.syntax\_editor.context\_menu** property in the System Property \[sys\_properties\] table. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) for more information.
 
 **Note:** Context menu options can be accessed only if the browser supports SharedWorker. For example, Google Chrome and Mozilla Firefox.
 

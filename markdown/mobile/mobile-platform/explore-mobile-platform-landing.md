@@ -8,7 +8,7 @@ product: Mobile Platform
 classification: mobile-platform
 topic_type: reference
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Mobile Platform]
 ---
 
@@ -35,7 +35,7 @@ Select one of the tiles to learn about these ServiceNow mobile apps and how you 
 
 Now Mobile is used by general employees or the requester persona. This app enables employees to work with requests, find information or people across the organization, and interacts with Virtual Agent.
 
-Now Mobile includes workflows for , , , , , , , and . Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
+Now Mobile includes workflows for , , [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/it-asset-management.md), , , , , and . Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
 
 \[Omitted image "homepage-alp.png"\] Alt text: Now mobile applet launcher
 
@@ -43,7 +43,7 @@ Now Mobile includes workflows for , , , , , , , and . Navigate to these document
 
 Mobile Agent is used by agents or the fulfiller persona. This app delivers out-of-the-box mobile experiences for the most common service desk agent workflows, which makes it easy for agents to triage, act on, and resolve requests on the go. [Mobile Agent app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/mobile/mobile-platform/sg-agent-demo.md) offers a curated demonstration of the Mobile Agent app, with a full range of personas and the controls for each role.
 
-Mobile Agent includes workflows for , , , , , , , , , and . Navigate to these documentation sets for information about using Mobile Agent for these workflows. The Mobile Platform documentation provides information about configuring Mobile Agent to use your ServiceNow instance.
+Mobile Agent includes workflows for , [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/fsm-application-landing-page.md), , [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/it-asset-management.md), , , [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/security-operations/security-operations-landing-page.md), [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md), , and [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/procurement/c_Procurement.md). Navigate to these documentation sets for information about using Mobile Agent for these workflows. The Mobile Platform documentation provides information about configuring Mobile Agent to use your ServiceNow instance.
 
 \[Omitted image "SwipeFunction.png"\] Alt text: List using a swipe function in the Mobile Agent app.
 

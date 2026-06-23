@@ -7,7 +7,7 @@ release: xanadu
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -37,15 +37,15 @@ Role required: discovery\_admin
     -   **Specific MID Cluster**: A MID Server cluster that you choose from the **MID Cluster** drop-down list.
 6.  Either create a new account or select an existing one.
 
-<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d82480e127">
+<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d80861e127">
 
 Existing or new account
 
-</th><th align="left" id="d82480e130">
+</th><th align="left" id="d80861e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d82480e136">
+</th></tr></thead><tbody><tr><td id="d80861e136">
 
 **Add account**
 
@@ -63,7 +63,7 @@ For more information, see [Create Alibaba Cloud API Credentials](https://raw.git
 5.  Enter the URL of a datacenter in the**Datacenter URL** field.
 
 
-</td></tr><tr><td id="d82480e207">
+</td></tr><tr><td id="d80861e207">
 
 **Select Account**
 

@@ -81,7 +81,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -165,12 +165,12 @@ Opportunity Marketplace
 
 Required plugins and products
 
--   Talent Development SKU
--   Manager Hub
--   Proactive Prompts
--   Skills Intelligence
--   Employee Profiles
--   Talent Development Core
+-   [Talent Development SKU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/egd-employee-growth-developemnt-suite.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md)
+-   [Skills Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/skills-intelligence.md)
+-   [Employee Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+-   [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/egd-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -294,12 +294,12 @@ Talent Development Core
 
 Talent Development includes a suite of products the work and interact to create a better user experience.
 
--   Talent Development SKU
--   Manager Hub
--   Proactive Prompts
--   Skills Intelligence
--   Employee Profiles
--   Talent Development Core
+-   [Talent Development SKU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/egd-employee-growth-developemnt-suite.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md)
+-   [Skills Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/skills-intelligence.md)
+-   [Employee Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
+-   [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/talent-development-core/egd-landing-page.md)
 
 </td></tr><tr><td>
 

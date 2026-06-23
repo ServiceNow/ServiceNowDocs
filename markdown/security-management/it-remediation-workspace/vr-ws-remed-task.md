@@ -51,15 +51,15 @@ See the vulnerable CIs assigned to you and your groups that have vulnerabilities
 
 5.  Refer to the following table for the UI actions you can perform from the remediation task record.
 
-<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d39702e159">
+<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d39737e159">
 
 Task
 
-</th><th align="left" id="d39702e162">
+</th><th align="left" id="d39737e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39702e168">
+</th></tr></thead><tbody><tr><td id="d39737e168">
 
 **Click a related items link**
 
@@ -73,7 +73,7 @@ Description
 -   State Change Approvals - View the false positive and exception requests associated with this record. If there are no requests, this related list item is not displayed.
  Opened records remain displayed as tabs until you close them.
 
-</td></tr><tr><td id="d39702e202">
+</td></tr><tr><td id="d39737e202">
 
 **Click a link to open a record**
 
@@ -81,7 +81,7 @@ Description
 
 From list displayed on opened records from the related items links, view more details about the records, the associated vulnerabilities, affected CIs \(assets\), detection data, impacted services, and associated records.
 
-</td></tr><tr><td id="d39702e219">
+</td></tr><tr><td id="d39737e219">
 
 **Click a UI action**
 
@@ -96,7 +96,7 @@ From list displayed on opened records from the related items links, view more de
 -   Save - Save any changes and update the record.
 
 
-</td></tr><tr><td id="d39702e253">
+</td></tr><tr><td id="d39737e253">
 
 **Add a work note or attach a file**
 
@@ -104,7 +104,7 @@ From list displayed on opened records from the related items links, view more de
 
 In the far right of the screen, click the **Activity** icon \(lightening icon\) and enter a work note. Click the icon to toggle the panel.You can also upload a file.
 
-</td></tr><tr><td id="d39702e269">
+</td></tr><tr><td id="d39737e269">
 
 **Set filters for a column on a list**
 
@@ -112,7 +112,7 @@ In the far right of the screen, click the **Activity** icon \(lightening icon\) 
 
 Select a column and expand the vertical three dots menu to view options that further filter the data in the column. For example, with the Overview-related item selected, you might prefer to sort the Risk rating column so that only critical items display.
 
-</td></tr><tr><td id="d39702e281">
+</td></tr><tr><td id="d39737e281">
 
 **Filter a column by a selected row**
 

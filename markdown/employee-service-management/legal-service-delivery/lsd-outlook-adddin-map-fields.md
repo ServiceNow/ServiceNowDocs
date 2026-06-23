@@ -36,15 +36,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 3.  In the **Script** field, specify the mappings.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d191007e111">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d190817e111">
 
 Variables from email
 
-</th><th align="left" id="d191007e114">
+</th><th align="left" id="d190817e114">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d191007e120">
+</th></tr></thead><tbody><tr><td id="d190817e120">
 
 **subject**
 
@@ -56,7 +56,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d191007e140">
+</td></tr><tr><td id="d190817e140">
 
 **fromEmail**
 
@@ -69,15 +69,15 @@ requested_for: "fromEmail"
 ```
 
 </td></tr></tbody>
-</table><table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d191007e163">
+</table><table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d190817e163">
 
 Variables from email
 
-</th><th align="left" id="d191007e166">
+</th><th align="left" id="d190817e166">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d191007e172">
+</th></tr></thead><tbody><tr><td id="d190817e172">
 
 **subject**
 
@@ -89,7 +89,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d191007e192">
+</td></tr><tr><td id="d190817e192">
 
 **fromEmail**
 
@@ -101,7 +101,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d191007e214">
+</td></tr><tr><td id="d190817e214">
 
 **body**
 

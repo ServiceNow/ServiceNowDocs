@@ -56,8 +56,8 @@ Can view or edit the records in the staging table.
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See Assign a role to a user.|
-    |**Assign a role to a group**|See Assign a role to a group.|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
 
 
 **Parent Topic:**[Configuring Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)

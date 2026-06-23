@@ -26,5 +26,5 @@ When you repair an application with a customization, the customization is also r
 
 It’s assumed the complete set of customizations for an application is within the application customization. When repairing, installing, or upgrading the underlying application or plugin that has an associated app customization, changes made outside of that application customization are overwritten.
 
-For more information about customizations, see .
+For more information about customizations, see [Customization vs. configuration with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/creator-studio/creator-studio-custom-vs-config.md).
 

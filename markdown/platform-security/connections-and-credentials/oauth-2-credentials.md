@@ -7,7 +7,7 @@ release: xanadu
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 3
 breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
 ---
@@ -79,7 +79,7 @@ Ensure that you are aware of these considerations if you have selected the **Con
     -   The value of the **Validated** field is **Yes**.
     -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see .\[Omitted image "MidServerDashbardGaugeOAuth2.0.png"\] Alt text: MID Server status.
 
-To learn more about these statuses, see .
+To learn more about these statuses, see [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
 
 </td></tr><tr><td>

@@ -51,5 +51,5 @@ Use the **evt\_mgmt.enable\_event\_processing\_stats** property to configure the
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 

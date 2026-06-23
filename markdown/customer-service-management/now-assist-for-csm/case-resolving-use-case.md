@@ -23,7 +23,7 @@ Using the Triage cases agentic workflow, handle end-to-end validation, creation,
 
 Refer to the information provided here on agents, tools, and triggers that are related to the Triage cases agentic workflow in AI agents for Customer Service Management.
 
-To modify the Triage cases agentic workflow duplicate it, and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -38,7 +38,7 @@ To access the agentic workflow:
 
 ## Access control lists \(ACLs\)
 
-Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, see .
+Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md).
 
 When updating the agent role for the Triage Cases Agentic Workflow, it’s important to also update the corresponding Access Control Lists \(ACLs\) to ensure proper permissions. To manually update ACLs for custom roles:
 

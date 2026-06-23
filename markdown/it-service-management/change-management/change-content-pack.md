@@ -18,7 +18,7 @@ Platform Analytics Solutions and in-form analytics contain preconfigured dashboa
 
 ## Platform Analytics Solutions
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -26,7 +26,7 @@ To enable the solutions for Change Management, an admin can navigate to **Perfor
 
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run data collection jobs before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see Configure Platform Analytics Solutions
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see [Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/configure-nowintel-solutions.md)
 
 -   **[Legacy: Change Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/change-premium-dashboard.md)**  
 This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Change process in one place.
@@ -48,7 +48,7 @@ Use the Change Management troubleshooting properties and change the value of the
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
-[bundle-par.c_PremiumPerformanceAnalytics]
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
 

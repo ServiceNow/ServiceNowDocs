@@ -28,7 +28,7 @@ Use the Conversational Interfaces Console to activate and configure Virtual Agen
 |Configure my bot to run in third-party messaging apps|[Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).|
 |Create pre-chat surveys|[Define pre-chat survey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-pre-chat-surveys.md)|
 |Create and use context variables to store chat-related information|[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-context-variables.md)|
-|Display or announce callback options to users through other ServiceNow apps||
+|Display or announce callback options to users through other ServiceNow apps|[Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md)|
 |Configure topic context intents|[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-configure-context-topic-intent.md)|
 |System Actions|
 |Modify system chat messages|[Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-change-system-messages.md)|
@@ -68,7 +68,7 @@ Use Natural Language Understanding \(NLU\) for topic discovery
 
 [Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 
- Creating models \(using NLU Workbench\)
+ [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/nlu-service/creating-models.md) \(using NLU Workbench\)
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Detect and dynamically translate Virtual Agent topics into a different language
 </td></tr></tbody>
 </table>## Virtual Agent security
 
-Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see .
+Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/platsec-landing.md).
 
 -   **[Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.md)**  
  You can activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. This plugin automatically activates other necessary plugins if they are not already active.

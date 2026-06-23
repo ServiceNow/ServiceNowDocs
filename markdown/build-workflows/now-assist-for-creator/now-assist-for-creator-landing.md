@@ -28,7 +28,7 @@ App generation\[Omitted image "bus-application-development.svg"\] Alt text:Gener
 
 </td><td>
 
-Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.
+[Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help wr
 
 </td><td>
 
-Data visualization generation\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Generate Platform Analytics artifacts from conversational interactions.
+[Data visualization generation\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Generate Platform Analytics artifacts from conversational interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-assist-landing-page.md)
 
 </td><td>
 
@@ -90,7 +90,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the Now Assist documentation.
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 

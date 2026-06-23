@@ -36,15 +36,15 @@ Responders and managers can disable any integration they’ve created or was cre
 
 3.  Select the **Integrations** tab.
 
-<table id="choicetable_p5q_5wj_1zb"><thead><tr><th align="left" id="d60971e97">
+<table id="choicetable_p5q_5wj_1zb"><thead><tr><th align="left" id="d59346e97">
 
 Option
 
-</th><th align="left" id="d60971e100">
+</th><th align="left" id="d59346e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60971e106">
+</th></tr></thead><tbody><tr><td id="d59346e106">
 
 **From the Integrations tab**
 
@@ -54,7 +54,7 @@ Steps
 2.  Select **Deactivate**.
 
 
-</td></tr><tr><td id="d60971e133">
+</td></tr><tr><td id="d59346e133">
 
 **In the Integration record**
 

@@ -30,7 +30,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### About this task
 
-JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see Script includes.
+JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
 
 ### Procedure
 

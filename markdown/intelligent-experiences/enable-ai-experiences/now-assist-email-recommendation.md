@@ -29,7 +29,7 @@ The following actions are available from the Now Assist context menu:
 **Note:**
 
 -   Reply recommendations are generated based on KB articles, similar chats, and the context of the conversation.
--   The email recommendation skill is on the Case skill card in the Customer group. For more info, see .
+-   The email recommendation skill is on the Case skill card in the Customer group. For more info, see [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 -   Currently, Generative AI is only supported for the English language.
 
 ## Generating an email response by Now Assist
@@ -38,7 +38,7 @@ You can generate an email response in Workspace:
 
 \[Omitted image "now-assist-email-reply-rec-csm.png"\] Alt text: In the Compose email screen, use Write with Now Assist to generate an email reply recommendation.
 
-To learn more, see 
+To learn more, see [Generate an email response by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.md)
 
 ## Email template recommendations by Now Assist
 
@@ -64,7 +64,7 @@ Customer
 
 </td><td>
 
-
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 </td></tr></tbody>
 </table>

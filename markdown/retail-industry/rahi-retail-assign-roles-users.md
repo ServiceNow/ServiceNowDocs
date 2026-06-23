@@ -30,7 +30,7 @@ User roles can be configured during the initial set up process for retail organi
 
 For the list of roles included with Retail Core, see the Base roles installed with Retail Operations table in [Components installed with Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-components-installed.md).
 
-For instructions on assigning roles to individual users, see .
+For instructions on assigning roles to individual users, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 ## Procedure
 

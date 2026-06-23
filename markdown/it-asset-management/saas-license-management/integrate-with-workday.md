@@ -65,7 +65,7 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in .
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
 ### About this task
 
@@ -75,15 +75,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114121e364">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114210e365">
 
 Interface
 
-</th><th align="left" id="d114121e367">
+</th><th align="left" id="d114210e368">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114121e373">
+</th></tr></thead><tbody><tr><td id="d114210e374">
 
 **Core UI**
 
@@ -94,7 +94,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d114121e415">
+</td></tr><tr><td id="d114210e416">
 
 **Software Asset Workspace**
 
@@ -217,15 +217,15 @@ This field is automatically set to **Workday Download Subscriptions**.
 
     **Note:** Only an admin role can create or update the SOAP user name and password.
 
-<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d114121e824">
+<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d114210e825">
 
 Interface
 
-</th><th align="left" id="d114121e827">
+</th><th align="left" id="d114210e828">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114121e833">
+</th></tr></thead><tbody><tr><td id="d114210e834">
 
 **Core UI**
 
@@ -236,7 +236,7 @@ Action
 3.  Select **WorkdayHR**.
 
 
-</td></tr><tr><td id="d114121e872">
+</td></tr><tr><td id="d114210e873">
 
 **Software Asset Workspace**
 

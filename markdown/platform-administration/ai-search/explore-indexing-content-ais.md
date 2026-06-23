@@ -26,7 +26,7 @@ The base system includes preconfigured indexed sources for Knowledge Base articl
 
 To learn more about configuring and using indexed sources for ServiceNow AI Platform table records, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md).
 
-By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and remote tables. For more details, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/external-content-ais.md).
+By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and [remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/remote-tables.md). For more details, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/external-content-ais.md).
 
 **Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/explore-ais.md)
 

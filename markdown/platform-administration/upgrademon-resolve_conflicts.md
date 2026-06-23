@@ -53,15 +53,15 @@ The Resolve Conflicts form you compare to the base system version with the custo
 **Related topics**  
 
 
-[bundle-cadev.t_CompareToCurrentVersion]
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/team-development/t_CompareToCurrentVersion.md)
 
-[bundle-cadev.t_ComparePushedVerLocalVer]
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/team-development/t_ComparePushedVerLocalVer.md)
 
-[bundle-platcap.compare-two-article-versions]
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/compare-two-article-versions.md)
 
-[bundle-cadev.t_ResolveACollision]
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/team-development/t_ResolveACollision.md)
 
-[bundle-cadev.t_RevertAChange]
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/team-development/t_RevertAChange.md)
 
-[bundle-cadev.view-customer-update-records]
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/view-customer-update-records.md)
 

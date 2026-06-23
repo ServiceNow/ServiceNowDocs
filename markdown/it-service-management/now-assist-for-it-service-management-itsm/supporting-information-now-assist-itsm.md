@@ -25,7 +25,7 @@ Get a quick overview of the important information that is related to the Now Ass
 
 The Now Assist for ITSM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
 
 <table id="table_rnv_mfg_qyb"><thead><tr><th>
 

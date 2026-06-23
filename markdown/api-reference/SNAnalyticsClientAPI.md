@@ -24,7 +24,7 @@ To access this API, the Service Portal Analytics \(com.glide.service-portal.anal
 <client_script><![CDATA[function($rootScope, $scope, $window, $timeout, spUtil, $sce, spModal, $uibModal, $location, cabrillo, snAnalytics)
 ```
 
-For additional information, see User Experience Analytics for Service Portal.
+For additional information, see [User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/sp-analytics.md).
 
 **Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/api-client.md)
 
@@ -405,7 +405,7 @@ snAnalytics.setUserProperty('Company', "ABC Company")
 
 Saves the name and description of a page in the analytics data store.
 
-This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see Use User Experience Analytics.
+This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see [Use User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/use-user-exp-analytics.md).
 
 **Note:** In general, portal pages are automatically tagged with this tracking capability. Use this method for custom scenarios, such as a single page custom widget in a wizard scenario.
 

@@ -38,7 +38,7 @@ Role required: admin
 
     5.  On the Dictionary entry form, fill in the fields.
 
-        For more information, see .
+        For more information, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
     6.  Select **Submit**.
 

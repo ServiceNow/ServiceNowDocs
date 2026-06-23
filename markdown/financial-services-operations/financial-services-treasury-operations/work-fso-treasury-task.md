@@ -44,15 +44,15 @@ If assignment rules are configured, the task is automatically assigned to a trea
 
 3.  Open the task from the case playbook or the treasury task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d44836e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d36431e124">
 
 Option
 
-</th><th align="left" id="d44836e127">
+</th><th align="left" id="d36431e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44836e133">
+</th></tr></thead><tbody><tr><td id="d36431e133">
 
 **From the case playbook**
 
@@ -65,7 +65,7 @@ Steps
 
 **Note:** The Due diligence activity is available only for an RDC treasury case.
 
-</td></tr><tr><td id="d44836e174">
+</td></tr><tr><td id="d36431e174">
 
 **From the Treasury task list**
 

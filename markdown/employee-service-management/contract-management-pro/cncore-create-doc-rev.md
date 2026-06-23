@@ -30,15 +30,15 @@ You can create document revisions only when the State is Work in progress.
 
 1.  Open a contract request from the workspace you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d219712e62">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d219522e62">
 
 Method
 
-</th><th align="left" id="d219712e65">
+</th><th align="left" id="d219522e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219712e71">
+</th></tr></thead><tbody><tr><td id="d219522e71">
 
 **Contract Workspace**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d219712e118">
+</td></tr><tr><td id="d219522e118">
 
 **Workspace used by your application**
 

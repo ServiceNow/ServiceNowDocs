@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SPO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for SPO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -63,7 +63,7 @@ Conversational intake
 1.  Install the Now Assist for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **SPO**.
@@ -90,7 +90,7 @@ On the Conversation intake skill card, verify that your AI conversational intake
 
 **Note:** The Platform AI conversational experience skills are active by default.
 
- For more information, see .
+ For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -118,15 +118,15 @@ Summarization for fulfillers
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d79707e424">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d79731e427">
 
 Option
 
-</th><th align="left" id="d79707e427">
+</th><th align="left" id="d79731e430">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79707e433">
+</th></tr></thead><tbody><tr><td id="d79731e436">
 
 **Skill is always available**
 
@@ -134,7 +134,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d79707e442">
+</td></tr><tr><td id="d79731e445">
 
 **Customize skill availability**
 
@@ -147,15 +147,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d79707e478">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d79731e481">
 
 Option
 
-</th><th align="left" id="d79707e481">
+</th><th align="left" id="d79731e484">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79707e487">
+</th></tr></thead><tbody><tr><td id="d79731e490">
 
 **In-product**
 
@@ -163,13 +163,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d79707e498">
+</td></tr><tr><td id="d79731e501">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.

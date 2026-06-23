@@ -22,7 +22,7 @@ Advanced Work Assignment for Legal Service Delivery routes legal request to qual
 
 For more information, see Agent Workspace Advanced Work Assignment \(AWA\).
 
-If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see 
+If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md)
 
 **Note:** If you're using skill management, ensure you have the right subscription.
 
@@ -41,7 +41,7 @@ If you want to use skills as one of the criteria for routing legal requests, ens
 |-------|-------|-----|
 |Automatic assignment of legal request based on availability, capacity and skills.|Advanced Work Assignment|Legal fulfiller|
 
-For more information on the benefits of Advanced Work Assignment, see 
+For more information on the benefits of Advanced Work Assignment, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md)
 
 ## What to explore next
 

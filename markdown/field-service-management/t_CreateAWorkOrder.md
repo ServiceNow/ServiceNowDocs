@@ -35,15 +35,15 @@ To create work orders for common tasks such as the onboarding of new employees, 
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d42243e82">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d42230e82">
 
 Option
 
-</th><th align="left" id="d42243e85">
+</th><th align="left" id="d42230e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42243e91">
+</th></tr></thead><tbody><tr><td id="d42230e91">
 
 **Create a new work order**
 
@@ -57,7 +57,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d42243e138">
+</td></tr><tr><td id="d42230e138">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 

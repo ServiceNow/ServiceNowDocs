@@ -24,7 +24,7 @@ Role required: admin
 
 In this example, you can build a flow to summarize the comments in the work notes of an incident and use that summary in the resolution notes.
 
-For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
+For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Procedure
 

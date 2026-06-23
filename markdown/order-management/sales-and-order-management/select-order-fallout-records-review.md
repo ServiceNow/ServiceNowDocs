@@ -32,7 +32,7 @@ You select fallout records to review in CSM Configurable Workspace. You can also
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see Migrate to Configurable Workspace
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/migrate-to-configurable-workspace.md)
 
     If you have an assigned Fallout Manager or Fallout Agent role, the Fallout Management workspace appears. If the Fallout Management workspace does not appear, do the following actions:
 

@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, then select **New** to create subflows to detect the language of the input text and translate the input text, as well as actions, using the following guidance.
 
-    For information, see Workflow Studio.
+    For information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/workflow-studio.md).
 
     1.  Map error codes from your machine translation provider to the error codes and standardized error messages supported by ServiceNow.
 
@@ -90,7 +90,7 @@ Information about the code and confidence of the languages detected by the trans
 { 'code' : 'fr',  'confidence' : '0.93'  }
 ```
 
- For more information refer to the getDetectedLanguages section of DynamicTranslation - Scoped.
+ For more information refer to the getDetectedLanguages section of [DynamicTranslation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/DynamicTranslation.md).
 
 </td><td>
 
@@ -205,7 +205,7 @@ Translated texts in the specified target languages. Each element of the array is
 
 ```
 
- For more information refer to the getTranslations section of DynamicTranslation - Scoped.
+ For more information refer to the getTranslations section of [DynamicTranslation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/DynamicTranslation.md).
 
 </td><td>
 

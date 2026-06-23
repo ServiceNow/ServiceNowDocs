@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideRecordUtil script include is a utility class for working with GlideRecords.
 
-This script include is available in server-side scripts. For use cases, see Using discovery script includes.
+This script include is available in server-side scripts. For use cases, see [Using discovery script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 

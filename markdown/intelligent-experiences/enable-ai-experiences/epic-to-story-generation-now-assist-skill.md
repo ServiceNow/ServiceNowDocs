@@ -33,7 +33,7 @@ The Now Assist for Strategic Portfolio Management \(SPM\) application includes t
 
 Thus, using Now Assist to help generate stories for epics and features, product managers can reduce time spent in creating high-quality stories, while improving the productivity of the overall scrum team.
 
-For information on how to use this skill, see .
+For information on how to use this skill, see [Generate stories from work items in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-stories-from-epics-now-assist-eap.md).
 
 ## Availability
 
@@ -53,8 +53,8 @@ Technology
 
 </td><td>
 
--   
--   
+-   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/enterprise-agile-planning/eap-landing.md)
 
 </td></tr></tbody>
 </table>The Agile story generation skill is supported starting with the Xanadu Patch 9 release and with Strategic Planning v4.5.0. If you are on earlier versions of the Xanadu release, you can activate the Story generation skill, which generates stories from Epics only.

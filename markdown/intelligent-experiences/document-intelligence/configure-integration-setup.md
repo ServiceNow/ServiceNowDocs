@@ -19,7 +19,7 @@ Configure an integration to trigger document task processing or value extraction
 ## Before you begin
 
 -   You must first add a target table to your use case before creating an integration.
--   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see .
+-   The target table must be readable and writable. Ensure the **Can read** and **Can update** check boxes are selected in the **Application Access** tab of the target table record. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 -   Role required: sn\_docintel.admin or sn\_docintel.manager
 
 ## About this task
@@ -166,7 +166,7 @@ If you selected to create a flow, finish the activation in Workflow Studio.
 
 \[Omitted image "integratip-setupT4.png"\] Alt text: Document Intelligence integration in Workflow Studio.
 
-For more information, see Building flows in Flow Designer.
+For more information, see [Building flows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flows.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

@@ -26,7 +26,7 @@ When you designate a table as a remote table, keep the following points in mind:
 
 -   You can create a remote table using this form, or by using the standard Create Tables form that you access from **System Definition** &gt; **Tables**.
 
-    **Note:** To learn more about creating tables in an instance, see Create a table.
+    **Note:** To learn more about creating tables in an instance, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 
 -   Before you create a remote table, you must have a good understanding of external data sources.
 
@@ -88,7 +88,7 @@ Option to designate this table as a remote table. A remote table is a table to w
 
 6.  In the Application Access section, define the scope protection for the remote table like you do when you define additional table options for a normal table.
 
-    For more information, see Application access settings.
+    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationAccessSettings.md).
 
 7.  Click **Submit**.
 

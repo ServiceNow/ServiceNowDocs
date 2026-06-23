@@ -46,7 +46,7 @@ As you build your decision tree, for example after adding a decision node or a p
 
     5.  Select the type of answer for your question.
 
-        For a description of the answer types, see .
+        For a description of the answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/type-of-answer.md).
 
     6.  Add more questions.
 
@@ -54,41 +54,41 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d30684e172">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d30596e173">
 
 Option
 
-</th><th align="left" id="d30684e175">
+</th><th align="left" id="d30596e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30684e181">
+</th></tr></thead><tbody><tr><td id="d30596e182">
 
-****
+**[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-path-in-gdb.md)**
 
 </td><td>
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d30684e191">
+</td></tr><tr><td id="d30596e193">
 
-****
+**[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
 </td><td>
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d30684e201">
+</td></tr><tr><td id="d30596e204">
 
-****
+**[Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-guidance-in-gdb.md)**
 
 </td><td>
 
 Configure a guidance node so agents can view the product recommendation after completing the questionnaire.
 
-</td></tr><tr><td id="d30684e211">
+</td></tr><tr><td id="d30596e215">
 
-****
+**[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/activate-guided-decision-tree.md)**
 
 </td><td>
 

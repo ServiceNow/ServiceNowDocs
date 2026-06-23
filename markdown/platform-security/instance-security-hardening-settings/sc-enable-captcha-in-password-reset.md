@@ -35,7 +35,7 @@ CAPTCHAs help prevent automation attacks by prompting the user for a challenge-r
 |Security risk|\(Moderate\) Unideal value may result in security vulnerability.|
 |Security risk rating|5.5|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

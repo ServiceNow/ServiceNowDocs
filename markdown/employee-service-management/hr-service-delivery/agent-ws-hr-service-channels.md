@@ -18,7 +18,7 @@ Service channels help you automatically route HR cases.
 
 Service channels assign specific type and scope of work to agents. The base system provides pre-configured channels.
 
-For more information, see Service channels.
+For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 
 ## Work item sizing and capacity
 
@@ -26,5 +26,5 @@ Service channels also use work item sizing and capacity to determine the number 
 
 The base system provides a default capacity, but can be overridden.
 
-For more information, see Service channel capacity and utilization.
+For more information, see [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channel-capacity.md).
 

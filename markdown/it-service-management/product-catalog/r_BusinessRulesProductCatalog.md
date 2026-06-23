@@ -28,5 +28,5 @@ Product Catalog plugin adds the following business rules.
 **Related topics**  
 
 
-[bundle-cadev.c_BusinessRules]
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/business-rules-classic/c_BusinessRules.md)
 

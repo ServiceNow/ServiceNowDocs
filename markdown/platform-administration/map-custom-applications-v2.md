@@ -34,15 +34,15 @@ As your developers create and deploy new custom applications and tables on your 
 
     Subscription Management recommends product subscriptions with available custom table entitlements in the **Recommended Product** column.
 
-<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d40657e135">
+<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d40676e135">
 
 Option
 
-</th><th align="left" id="d40657e138">
+</th><th align="left" id="d40676e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40657e144">
+</th></tr></thead><tbody><tr><td id="d40676e144">
 
 **Map to a recommended product**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d40657e171">
+</td></tr><tr><td id="d40676e171">
 
 **Map to a product of your choice**
 

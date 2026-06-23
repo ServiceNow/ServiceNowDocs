@@ -18,9 +18,9 @@ Add a custom field to the staging table and map the custom field from the stagin
 
 ## Before you begin
 
-To configure the form layout, see Configure the form layout.
+To configure the form layout, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
 
-To create a custom field on the staging table, see Add and customize a field in a table.
+To create a custom field on the staging table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreatingNewFields.md).
 
 Roles required:
 

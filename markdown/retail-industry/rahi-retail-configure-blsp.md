@@ -18,5 +18,5 @@ Retail Core enables users to leverage the Business Location Service Portal \(BLS
 
 \[Omitted image "blsp\_2.png"\] Alt text: UI showing Business Location Service Portal for retail.
 
-For more information on the Business Location Service Portal, see .
+For more information on the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/using-blsp-portal.md).
 

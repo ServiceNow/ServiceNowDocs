@@ -16,7 +16,7 @@ breadcrumb: [Configuring User Experience Analytics, User Experience Analytics, P
 
 An admin can configure Service Portal and web applications built on the ServiceNow mobile platform to track user analytics.
 
-For information about setting up User Experience Analytics data for the Service Portal, see User Experience Analytics for Service Portal.
+For information about setting up User Experience Analytics data for the Service Portal, see [User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/sp-analytics.md).
 
 ## User Experience Analytics plugin
 
@@ -32,7 +32,7 @@ The User Experience Analytics plugin \(com.glide.appsee\) is activated by defaul
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(San Diego\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
 
-[bundle-platux.sp-analytics]
+[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/sp-analytics.md)
 

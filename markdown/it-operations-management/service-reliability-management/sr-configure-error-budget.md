@@ -28,7 +28,7 @@ Role required: admin
 
     **Note:** Performing either of these actions requires advanced ServiceNow expertise.
 
-    For more detailed information on editing workflows or creating custom workflows, see .
+    For more detailed information on editing workflows or creating custom workflows, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/flow-designer.md).
 
 3.  Select **Configure incidents** to edit the subflow for error budget actions.
 

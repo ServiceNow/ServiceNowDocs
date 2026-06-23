@@ -235,7 +235,7 @@ N
 
     **Note:** The availability of each option depends on the status of the attestation that is opened in the designer.
 
-<table id="choicetable_gdn_d5c_rw"><tbody><tr><td id="d78664e517">
+<table id="choicetable_gdn_d5c_rw"><tbody><tr><td id="d78618e517">
 
 **New Attestation**
 
@@ -243,7 +243,7 @@ N
 
 Opens a fresh canvas for a new attestation.
 
-</td></tr><tr><td id="d78664e526">
+</td></tr><tr><td id="d78618e526">
 
 **Load Attestation**
 

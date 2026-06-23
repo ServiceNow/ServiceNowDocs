@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/extension-points.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ By using extension points, you can easily integrate customizations without havin
 
     -   Create and register a custom script include.
 
-        For more information, see .
+        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
 
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 

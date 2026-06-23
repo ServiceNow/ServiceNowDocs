@@ -26,7 +26,7 @@ Define credentials for cXML payloads in the Source system credential \[sn\_spend
 
 See also:
 
--   
+-   [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
 -   [AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/ap-invoice-api.md)
 
 ## Add custom fields for invoice import
@@ -36,7 +36,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 ### Before you begin
 
 -   Role required: admin
--   Application scope: 
+-   Application scope: [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/sap-integration-overview-2.md)
 
 ### Procedure
 
@@ -51,7 +51,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 4.  Select a type associated with the field value \(for example, `Integer`\) from the **Type** menu.
 
-    **Note:** For a list of valid types, see .
+    **Note:** For a list of valid types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_FieldTypes.md).
 
 5.  Enter a meaningful name in the **Column label** field.
 
@@ -61,7 +61,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 7.  Add a column of the same name and type to the Invoice \[sn\_shop\_invoice\] table.
 
-    **Note:** For more information on columns and fields, see .
+    **Note:** For more information on columns and fields, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_IntroductionToFields.md).
 
 8.  [Map the fields between the source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md).
 
@@ -73,7 +73,7 @@ Use the following procedure to map custom fields between source and target table
 ### Before you begin
 
 -   Role required: admin
--   Application scope: 
+-   Application scope: [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/sap-integration-overview-2.md)
 
 Create table columns for mapping the new field from the source table to the target table. Use the steps in [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md).
 
@@ -101,7 +101,7 @@ Use the following procedure to map custom fields to a payload entry in JSON or c
 ### Before you begin
 
 -   Role required: admin
--   Application scope: 
+-   Application scope: [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/source-to-pay-integration-framework/sap-integration-overview-2.md)
 -   [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
 -   [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
 

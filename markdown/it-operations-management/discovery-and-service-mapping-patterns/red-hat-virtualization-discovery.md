@@ -17,7 +17,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. Note that the RHV patterns, tables, and related items have been renamed to oVirt. For a full list of name changes, see the Zurich release ITOM Visibility release notes.
+Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. Note that the RHV patterns, tables, and related items have been renamed to oVirt. For a full list of name changes, see the Zurich release [ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/itom-visibility-rn.md).
 
 Discovery uses the following patterns for OLVM and RHV discovery:
 
@@ -67,7 +67,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /ovirt-engine/api/networks
 -   **Add CMDB CI Class Models**
 
-    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see Red Hat Virtualization \(RHV\) extension classes.
+    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-redhat-rhv.md).
 
 -   **Create a cloud service account**
 

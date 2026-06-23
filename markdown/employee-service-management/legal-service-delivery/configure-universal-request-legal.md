@@ -37,15 +37,15 @@ Legal Request Management version 6.1 installs the service set, service set assig
 
 2.  Review and configure the following settings as per your business needs.
 
-<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d117387e105">
+<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d117171e105">
 
 Setting
 
-</th><th align="left" id="d117387e108">
+</th><th align="left" id="d117171e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117387e114">
+</th></tr></thead><tbody><tr><td id="d117171e114">
 
 **Service set**
 
@@ -55,7 +55,7 @@ A service set represents a department in your organization. The service set conf
 
  For more information, see [Create a service set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-create-service-set.md).
 
-</td></tr><tr><td id="d117387e144">
+</td></tr><tr><td id="d117171e144">
 
 **Service for Universal Request**
 
@@ -63,7 +63,7 @@ A service set represents a department in your organization. The service set conf
 
 Register your service name for your service specific table and associate it with a service set \(department\) to use the Universal Request capabilities for a specific service in your organization.For more information, see [Create your service for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-register-service.md)
 
-</td></tr><tr><td id="d117387e169">
+</td></tr><tr><td id="d117171e169">
 
 **Mapping configuration**
 
@@ -73,7 +73,7 @@ The mapping configuration enables you to configure a target table from the servi
 
  You can update the `LegalUniversalRequest` script include to map additional legal request and universal request fields in addition to the default mapped fields.
 
-</td></tr><tr><td id="d117387e194">
+</td></tr><tr><td id="d117171e194">
 
 **Service set assignment group**
 
@@ -83,7 +83,7 @@ A service set must be assigned an assignment group for automatically routing uni
 
  For more information, see [Assign assignment group to your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/assign-group-to-service.md).
 
-</td></tr><tr><td id="d117387e219">
+</td></tr><tr><td id="d117171e219">
 
 **State mapping**
 
@@ -93,7 +93,7 @@ The state mapping enables you to map the states of the legal request and the uni
 
  For more information, see [Universal Request state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping.md).
 
-</td></tr><tr><td id="d117387e241">
+</td></tr><tr><td id="d117171e241">
 
 **Transfer Configuration**
 

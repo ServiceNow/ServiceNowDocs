@@ -102,7 +102,7 @@ Any process matching the filter will not be added to the cmdb\_running\_process 
 
  -   name is svchost.exe
 -   parameters does not contain iissvcs
- For information on setting filter conditions see: 
+ For information on setting filter conditions see: [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md)
 
 </td></tr><tr><td>
 

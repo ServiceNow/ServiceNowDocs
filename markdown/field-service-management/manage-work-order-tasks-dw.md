@@ -61,15 +61,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27493e291">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27476e291">
 
 To
 
-</th><th align="left" id="d27493e294">
+</th><th align="left" id="d27476e294">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d27493e300">
+</th></tr></thead><tbody><tr><td id="d27476e300">
 
 **Assign a task manually from the task panel**
 
@@ -80,7 +80,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d27493e324">
+</td></tr><tr><td id="d27476e324">
 
 **Assign a task manually from the contextual side panel**
 
@@ -93,7 +93,7 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d27493e372">
+</td></tr><tr><td id="d27476e372">
 
 **Assign a task manually from the dispatch map**
 
@@ -105,7 +105,7 @@ Do this
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d27493e405">
+</td></tr><tr><td id="d27476e405">
 
 **Auto-assign a task from the task panel**
 
@@ -116,7 +116,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27493e439">
+</td></tr><tr><td id="d27476e439">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -128,7 +128,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27493e481">
+</td></tr><tr><td id="d27476e481">
 
 **Auto-assign from the task record**
 
@@ -139,7 +139,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27493e508">
+</td></tr><tr><td id="d27476e508">
 
 **Auto-assign a task from a list**
 
@@ -151,7 +151,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27493e547">
+</td></tr><tr><td id="d27476e547">
 
 **Auto-assign a task from the dispatch map**
 

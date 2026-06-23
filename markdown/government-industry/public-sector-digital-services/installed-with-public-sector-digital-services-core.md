@@ -24,7 +24,7 @@ The following plugins are activated when you enable the Public Sector Digital Se
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
 -   Customer Service Install Base Management \(com.snc.install\_base\)
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -1663,7 +1663,7 @@ sn\_gsm.report\_viewer
  
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/business-stakeholder-for-csm.md).
 
 ### Persona-based Roles in Public Sector Digital Services
 

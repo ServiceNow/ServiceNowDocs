@@ -169,7 +169,7 @@ String
 
 </td><td>
 
-Optional. Name of the domain for your solution object. Refer to Domain separation and Predictive Intelligence.
+Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ String
 
 </td><td>
 
-Optional. Name of an application scope for your solution object.
+Optional. Name of an [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationScope.md) for your solution object.
 
 </td></tr></tbody>
 </table>|Type|Description|

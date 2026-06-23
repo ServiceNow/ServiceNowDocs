@@ -16,7 +16,7 @@ breadcrumb: [Workplace Connectors references, Workplace Connectors, Workplace Se
 
 Execute the DataSummarization schedule job to retrieve the daily aggregate summary data. When the schedule job runs, it collects the data from target table and MetricBase and stores the daily aggregate data into the respective summary table.
 
-The MetricBase application stores time series data, which is data that is sampled at regular intervals. The administrator specifies a metric to store and how often to collect it by creating a time-series definition in MetricBase. The time-series data is sent from instance to the MetricBase server using the MetricBase API**.**For more information about MetricBase, see .
+The MetricBase application stores time series data, which is data that is sampled at regular intervals. The administrator specifies a metric to store and how often to collect it by creating a time-series definition in MetricBase. The time-series data is sent from instance to the MetricBase server using the MetricBase API**.**For more information about MetricBase, see [Defining and collecting MetricBase data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/metricbase/collecting-metricbase-data.md).
 
 Workplace Connectors supports retrieving the time series data from the MetricBase and populates the data into the following summary tables:
 

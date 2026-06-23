@@ -22,7 +22,7 @@ The ServiceNow® Attended Robot is a software agent that you install on a Window
 
 Guided Setup provides a sequence of tasks that help you configure Attended Robot. With Guided Setup, keep track of what you have completed, so you can stop and start again where you left off. To open Guided Setup for RPA Hub, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see Using guided setup.
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Configuration overview
 

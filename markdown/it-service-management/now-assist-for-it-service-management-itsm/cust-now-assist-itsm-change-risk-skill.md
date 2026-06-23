@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -155,7 +155,7 @@ Relationship between the input table and the table field.
 
         If you turn the **Use similar changes as a data source** toggle button off, past similar changes won’t be included.
 
-        **Note:** You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see .
+        **Note:** You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md).
 
         \[Omitted image "itsm-now-assist-change-similar-changes.png"\] Alt text: Similar changes for change risk explanation
 
@@ -208,7 +208,7 @@ Relationship between the input table and the table field.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see .
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

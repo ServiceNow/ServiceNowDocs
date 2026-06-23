@@ -24,7 +24,7 @@ FE enables you to encrypt selected database fields and stored files through the 
 
 After the context is created, you can associate it to a user role. Users assigned to this role, either directly of through a group, are able to access the encrypted data.
 
-Because FE bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see .
+Because FE bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 ## Column Level Encryption benefits
 

@@ -8,7 +8,7 @@ product: ServiceNow AI Platform Security
 classification: servicenow-ai-platform-security
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Log Export Service \(LES\), Platform Security]
 ---
 
@@ -70,7 +70,7 @@ Role required: admin
 
 2.  Generate certificates for a secure connection to Hermes Messaging Service and pull log events from it.
 
-    Setup secure connection to Hermes Messaging Service. See  for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
+    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
 
     **Note:** admin or Hermes\_admin roles are required for this step.
 
@@ -101,8 +101,8 @@ Role required: admin
 
     Complete the following tasks to install the MID Server.
 
-    -   Install dedicated MID Server: The MID Server that Log Export Service uses should be dedicated for only this purpose and should not be expected to run other processes. This is important to ensure timely delivery of exported log messages to your REST endpoint. You can install the new MID Server either by using the  or by installing it manually. For the manual installation, follow the  documentation first and then the  documentation after that.
-    -   Validate MID Server: You must manually validate the MID Server after it is installed to enable it to execute automation tasks. To validate the MID Server you are dedicating for LES, see 
+    -   Install dedicated MID Server: The MID Server that Log Export Service uses should be dedicated for only this purpose and should not be expected to run other processes. This is important to ensure timely delivery of exported log messages to your REST endpoint. You can install the new MID Server either by using the [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/use-mid-server-guidedsetup.md) or by installing it manually. For the manual installation, follow the [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md) documentation first and then the [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-installation.md) documentation after that.
+    -   Validate MID Server: You must manually validate the MID Server after it is installed to enable it to execute automation tasks. To validate the MID Server you are dedicating for LES, see [Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
 5.  Configure Log REST Push Destination: Setup the MID Server to be able to push logs to your log analytics system \(such as Splunk\).
 
     Complete the following tasks to configure log REST push destination.

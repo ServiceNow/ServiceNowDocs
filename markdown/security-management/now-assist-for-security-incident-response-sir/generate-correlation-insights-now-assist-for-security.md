@@ -20,7 +20,7 @@ Generate correlation insights from the Now Assist panel to help you connect past
 
 The correlation insights generation skill must be activated before you can see the **Generate correlation insights** option in the Now Assist panel.
 
-If you do not see the Now Assist panel, you must activate it. For more information, see .
+If you do not see the Now Assist panel, you must activate it. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 For more information about correlation insights searches, see [Exploring correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md).
 

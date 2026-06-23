@@ -7,7 +7,7 @@ release: xanadu
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---

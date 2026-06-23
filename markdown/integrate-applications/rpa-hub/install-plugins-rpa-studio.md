@@ -161,15 +161,15 @@ A connector that enables automating web applications inside Google Chrome or Mic
 
 7.  Perform the following steps for more plugin options.
 
-<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d93029e535">
+<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d87250e535">
 
 Action
 
-</th><th align="left" id="d93029e538">
+</th><th align="left" id="d87250e538">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d93029e544">
+</th></tr></thead><tbody><tr><td id="d87250e544">
 
 **Update a plugin version**
 
@@ -183,7 +183,7 @@ Steps
 6.  Save, close and reopen the project to load the updated plugins to the current project.
 
 
-</td></tr><tr><td id="d93029e587">
+</td></tr><tr><td id="d87250e587">
 
 **Remove a plugin**
 

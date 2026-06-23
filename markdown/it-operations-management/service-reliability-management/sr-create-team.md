@@ -36,15 +36,15 @@ The ServiceNow system administrator can set up teams in your workspace using a d
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d78640e122">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d77018e122">
 
 Option
 
-</th><th align="left" id="d78640e125">
+</th><th align="left" id="d77018e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78640e131">
+</th></tr></thead><tbody><tr><td id="d77018e131">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d78640e170">
+</td></tr><tr><td id="d77018e170">
 
 **Register an existing team**
 

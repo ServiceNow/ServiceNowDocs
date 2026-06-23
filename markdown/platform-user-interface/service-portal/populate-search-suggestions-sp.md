@@ -20,7 +20,7 @@ If you are upgrading from a previous release, run a script to populate search su
 
 Role required: admin
 
-In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see Enable search suggestions.
+In new instances, the search suggestions are enabled by default. In upgraded instances, you must enable the search suggestions. For more information, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/search-administration/enable-search-suggestions.md).
 
 ## About this task
 

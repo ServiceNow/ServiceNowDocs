@@ -20,7 +20,7 @@ This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](https://raw.
 
 This API requires the Configuration Management for Scoped Apps plugin \(com.snc.cmdb.scoped\) and is provided within the `sn_cmdb` namespace.
 
-For more information about CMDB Query Builder, see .
+For more information about CMDB Query Builder, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
@@ -120,7 +120,7 @@ Message containing details about the success or failure of the report creation.P
 -   `Invalid queryId. Please provide a valid saved query ID`
 -   `Query must have a schedule with at least one run to create a report.`
 
-See also .
+See also [Schedule a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md).
 
 Data type: String
 
@@ -312,7 +312,7 @@ Returns the execution details for a Configuration Management Database \(CMDB\) Q
 
 Optionally, you can execute the query in order to return current execution details.
 
-If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see Batch size for Query Builder saved queries.
+If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see [Batch size for Query Builder saved queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
 
 <table id="id_ezv_4vz_pbc" class="parameters"><thead><tr><th>
 

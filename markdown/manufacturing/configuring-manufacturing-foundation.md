@@ -35,7 +35,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Install and configure Customer Service Management
+Install and configure [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/t_ActivateCustomerService.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Install the Customer Service Management application from the ServiceNow Store st
 
 </td></tr><tr><td>
 
-
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-lead-management.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Install the Lead Management application from the ServiceNow Store. This applicat
 
 </td></tr><tr><td>
 
-
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-opportunity-mgmt.md)
 
 </td><td>
 
@@ -59,7 +59,7 @@ Install the Opportunity Management application from the ServiceNow Store store. 
 
 </td></tr><tr><td>
 
-
+[Install and configure Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-quote-management.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Install the Quote Management application from the ServiceNow Store store. It ena
 
 </td></tr><tr><td>
 
-Install and configure Order Management
+Install and configure [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/order-mgt-exploring.md)
 
 </td><td>
 
@@ -75,7 +75,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td></tr><tr><td>
 
-Install and configure Sales Agreement Management
+[Install and configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-sales-agreement-mgmt.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ Install the Sales Agreement Management application from the ServiceNow Store sto
 
 </td></tr><tr><td>
 
-Install and configure Service Model Foundation
+Install and configure [Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-industry-data-model.md)
 
 </td><td>
 
@@ -91,7 +91,7 @@ Install the Service Model Foundation application from the ServiceNow Store store
 
 </td></tr><tr><td>
 
-Install and configure Install Base Management
+Install and configure [Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-install-base.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ Install and configure Service Exchange for Providers
 
 </td><td>
 
-See .
+See [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/install-service-bridge-v2-provider.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Install and configure Service Exchange for Consumers
 
 </td><td>
 
-See .
+See [Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/install-service-bridge-v2-customer.md).
 
 </td></tr></tbody>
 </table>-   Work with an implementation specialist to streamline your manufacturing setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).

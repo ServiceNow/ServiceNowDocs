@@ -53,7 +53,7 @@ The base system landing pages can only be modified if you make a copy first.
 
 In order to modify a landing page supplied by the base system, you must first make a copy.
 
-To make a copy of your landing page, use the UI Builder. For more information, see UI Builder.
+To make a copy of your landing page, use the UI Builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 ## Classic HR Service Delivery Agent Workspace Create a new case form
 
@@ -230,7 +230,7 @@ SLA timer configuration
 
 </td><td>
 
-The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see SLA timer configurations.
+The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see [SLA timer configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
 
  Field appears when you select **SLA Timer** in the **Type** field.
 
@@ -270,7 +270,7 @@ Applies this configuration when specific conditions are met.For example, conditi
 -   Subject person.VIP is true
  The fields available to you to create a condition are from the HR case \[sn\_hr\_case\] table.
 
- **Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+ **Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

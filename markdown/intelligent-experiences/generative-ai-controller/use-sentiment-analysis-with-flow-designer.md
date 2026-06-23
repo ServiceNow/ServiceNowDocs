@@ -24,7 +24,7 @@ Role required: admin
 
 The Sentiment Analysis capability helps determine whether the user-generated text has a positive or negative sentiment. If a user is expressing negative statements such as "Level 1 support couldn't help me," you could upgrade the assignment group automatically for the case to help the user have a better experience.
 
-For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
+For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Procedure
 

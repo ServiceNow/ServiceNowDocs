@@ -7,7 +7,7 @@ release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 5
 breadcrumb: [Setting up Software Asset Management, Software Asset Management, IT Asset Management]
 ---
@@ -85,7 +85,7 @@ If these lists and forms have been customized before the migration, they may hav
 -   Discovery Models
 -   Software Installations
 
-You can review plugin activation changes in the Upgrade History module to determine what changes have automatically been skipped so you can resolve a skipped update, if needed.
+You can review plugin activation changes in the [Upgrade History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UpgradeHistory.md) module to determine what changes have automatically been skipped so you can [resolve a skipped update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ResolveASkippedUpdate.md), if needed.
 
 Certain fields added by the migration also must be configured to take advantage of the new features offered.
 
@@ -128,5 +128,5 @@ Certain fields added by the migration also must be configured to take advantage 
 **Related topics**  
 
 
-[bundle-itsm.c_SoftwareAssetManagement]
+[plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 

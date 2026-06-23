@@ -26,7 +26,7 @@ As admins or topic authors \(users with the virtual\_agent\_admin role\), you ca
 Before you or your topic authors \(users with the virtual\_agent\_admin role\) create or modify Virtual Agent conversations, meet the following prerequisites for working with pre-built topics and topic blocks in Virtual Agent Designer:
 
 -   Activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) to access platform topics and topic blocks and run Virtual Agent Designer.
--   Activate the Customer Service Virtual Agent plugin \(com.sn\_csm.virtualagent\) to access pre-built Customer Service Management conversations and topic blocks.
+-   [Activate the Customer Service Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access pre-built Customer Service Management conversations and topic blocks.
 -   Become familiar with Virtual Agent Designer to create and update conversation topics.
 -   [Install Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/government-industry/public-sector-digital-services/install-public-sector-digital-services-core.md) application to access public sector topic blocks that can be used in public sector conversations.
 -   [Install Service Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/government-industry/public-sector-digital-services/install-psds-service-request-playbook.md) to access the pre-built topic, **Create a Service Request**.
@@ -44,7 +44,7 @@ These blocks are subflows that run conversational elements or common tasks in a 
 2.  In Virtual Agent Designer, search for the corresponding topic block.
     -   For Service Request Playbook requests,search for and select **Create a Service Request**.
     -   For License and Permit Playbook requests, search for and select **Start a License/Permit Application**.
-3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see .
+3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 For more information on working with topics in Virtual Agent Designer, see Getting Started with Virtual Agent Designer.
 

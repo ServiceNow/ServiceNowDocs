@@ -19,7 +19,7 @@ Configure a REST API data input for streaming log data to your ServiceNow instan
 
 ## Before you begin
 
--   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
+-   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
     \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
@@ -27,7 +27,7 @@ Configure a REST API data input for streaming log data to your ServiceNow instan
 
     On the MID Web Server Context form, in the **Execute on** field, select Specific MID Server and not the cluster option. In the **MID Server** field, select the specific MID Server to which the log data is pulled.
 
--   If the IP address of the MID Server is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property.
+-   If the IP address of the MID Server is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
 
 Role required: evt\_mgmt\_admin
 

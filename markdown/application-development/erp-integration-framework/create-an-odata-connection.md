@@ -34,11 +34,11 @@ Your administrator must enable the **sn\_erp\_integration.enableModelModificatio
 
 2.  Create a connection and credential alias, specifying HTTP as the **Connection type**.
 
-    For more information, see Create a Connection &amp; Credential alias.
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 3.  Create an HTTP connection and associate it with the new alias.
 
-    **Note:** For more information, see . If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
+    **Note:** For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/create-https-connection.md). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
 
 4.  Create a system with the HTTP connection.
 

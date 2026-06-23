@@ -18,7 +18,7 @@ Duplicate a dashboard tab created in the inline editor so that you can add relat
 
 Role required: At least one role, as well as edit rights to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 ## Procedure
 

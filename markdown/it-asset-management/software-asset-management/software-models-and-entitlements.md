@@ -26,7 +26,7 @@ For details on manually creating software models, see [Create software models in
 
 ## Software Product Lifecycle report
 
-You can also track a software lifecycle phase for use with the .
+You can also track a software lifecycle phase for use with the [Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-portfolio-management/enterprise-architecture/technology-portfolio-management.md).
 
 The Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table holds the information of the software product, its lifecycle type \(internal or external\), full version, lifecycle phases, start date of the phase, and the risk.
 

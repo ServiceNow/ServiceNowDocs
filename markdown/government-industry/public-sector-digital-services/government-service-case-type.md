@@ -33,7 +33,7 @@ You can use both case types and service definitions to define the data and proce
 You can configure a case type by creating a table for the new case type that extends the government service base case table. Then, you can set up a series of processes and components for that case type.
 
 -   To get an overview of this process, see Government Service Case Types Guided Setup.
--   For more details on how to configure case types using Guided Setup, see .
+-   For more details on how to configure case types using Guided Setup, see [Configuring customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-csm-case-types.md).
 
 An agent can then use this custom case type to create a case to resolve a constituent or business request. .
 

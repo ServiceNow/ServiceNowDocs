@@ -36,7 +36,7 @@ Plugins are available from the ServiceNow® Store. For more information, see [Pl
 You can set up Playbooks for Portals using the following high level steps.
 
 1.  Activate guided onboarding in the playbook content items. For more information, see [Activate guided onboarding in Playbook content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
-2.  Define your process using Workflow Studio. See  for more information.
+2.  Define your process using Workflow Studio. See [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/create-process-definition.md) for more information.
 3.  Activate the draft state in the onboarding case type state. For more information, see [Activate the draft state in the onboarding case type state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
 4.  Activate the record generator. For more information, see [Activate the Record Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md).
 5.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/explicit-roles-in-csm.md) for more information.

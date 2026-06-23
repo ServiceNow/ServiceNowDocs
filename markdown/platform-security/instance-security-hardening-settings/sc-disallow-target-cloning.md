@@ -102,8 +102,8 @@ References
 
 </td><td>
 
--   
--   
+-   [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SystemClone.md)
+-   [Clone Target Registration and Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateACloneTarget.md)
 
 </td></tr><tr><td>
 

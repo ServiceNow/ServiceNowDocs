@@ -16,7 +16,7 @@ breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Ope
 
 An application service is a set of interconnected applications and hosts which are configured to offer a service to the organization.
 
-For general information on application services, see Application services.
+For general information on application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 -   **[Manually create an application service in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/create-an-application-service.md)**  
 You can manually create an application services. Event Management can use application services to monitor service performance and identify health issues.

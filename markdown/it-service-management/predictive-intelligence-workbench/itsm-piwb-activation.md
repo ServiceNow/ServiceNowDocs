@@ -28,7 +28,7 @@ Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is bein
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-The ITSM Predictive Intelligence Workbench -related plugins require activation of the Predictive Intelligence application. Predictive Intelligence is available with activation of the Predictive Intelligence \(com.glide.platform\_ml\) plugin and the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin, which require an ITSM Pro package subscription. For more details, refer to .
+The ITSM Predictive Intelligence Workbench -related plugins require activation of the Predictive Intelligence application. Predictive Intelligence is available with activation of the Predictive Intelligence \(com.glide.platform\_ml\) plugin and the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin, which require an ITSM Pro package subscription. For more details, refer to [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
 ## Procedure
 
@@ -42,6 +42,6 @@ The ITSM Predictive Intelligence Workbench -related plugins require activation o
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 

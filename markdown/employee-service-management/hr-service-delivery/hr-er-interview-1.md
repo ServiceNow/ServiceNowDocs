@@ -86,7 +86,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/find-components.md).
 
 
 ### Create an interview question template
@@ -105,15 +105,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d149592e462">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d149388e462">
 
 Field
 
-</th><th align="left" id="d149592e465">
+</th><th align="left" id="d149388e465">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d149592e471">
+</th></tr></thead><tbody><tr><td id="d149388e471">
 
 **Active**
 
@@ -121,7 +121,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d149592e483">
+</td></tr><tr><td id="d149388e483">
 
 **Name**
 
@@ -129,15 +129,15 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d149592e492">
+</td></tr><tr><td id="d149388e492">
 
 **Application**
 
 </td><td>
 
-The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see Application scope.
+The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d149592e508">
+</td></tr><tr><td id="d149388e508">
 
 **Table**
 
@@ -145,7 +145,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d149592e521">
+</td></tr><tr><td id="d149388e521">
 
 **Question template body**
 
@@ -274,7 +274,7 @@ Scheduling an interview: There are two \(2\) methods you can use to schedule an 
 
 -   Use Microsoft Outlook Calendar to schedule an interview.
 
-    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see Set up Microsoft Exchange Online spoke.
+    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/setup-ms-exch-ol.md).
     -   The **sn\_hr\_er.exchange\_online\_max\_candidate** system property determines the maximum number of meeting time slots to return when trying to schedule an interview using Microsoft Exchange. The default value is 500 slots.
     **Note:** You can use the manual method of scheduling in HR Service Delivery Agent Workspace. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md) or [Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 

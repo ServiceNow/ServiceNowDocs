@@ -30,7 +30,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 4.  Choose the time frame for sessions you want to include and select **Next**.
 
-<table id="choicetable_rqr_3zv_xjb"><tbody><tr><td id="d72345e96">
+<table id="choicetable_rqr_3zv_xjb"><tbody><tr><td id="d72360e96">
 
 **Now**
 
@@ -38,7 +38,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 The report begins collecting data from the second the report is saved.
 
-</td></tr><tr><td id="d72345e108">
+</td></tr><tr><td id="d72360e108">
 
 **1 Week Ago**
 
@@ -46,7 +46,7 @@ The report begins collecting data from the second the report is saved.
 
 Reports on data seven days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d72345e120">
+</td></tr><tr><td id="d72360e120">
 
 **1 Month Ago**
 
@@ -54,7 +54,7 @@ Reports on data seven days prior to the current date. Includes data generated at
 
 Reports on data 30 days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d72345e132">
+</td></tr><tr><td id="d72360e132">
 
 **3 Months Ago**
 
@@ -62,7 +62,7 @@ Reports on data 30 days prior to the current date. Includes data generated at 12
 
 Reports on data 90 days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d72345e144">
+</td></tr><tr><td id="d72360e144">
 
 **Original Date**
 
@@ -73,7 +73,7 @@ This option is available when editing an existing report. Reports on data from t
 </td></tr></tbody>
 </table>5.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d72345e168">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d72360e168">
 
 **Event Trigger**
 
@@ -81,7 +81,7 @@ This option is available when editing an existing report. Reports on data from t
 
 Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, click **Match by properties**, select a property from the drop down, and enter a value for the property.
 
-</td></tr><tr><td id="d72345e190">
+</td></tr><tr><td id="d72360e190">
 
 **Screen Action**
 
@@ -89,7 +89,7 @@ Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow
 
 Select a screen and applicable action type.
 
-</td></tr><tr><td id="d72345e199">
+</td></tr><tr><td id="d72360e199">
 
 **Page View**
 
@@ -97,7 +97,7 @@ Select a screen and applicable action type.
 
 Select a page.
 
-</td></tr><tr><td id="d72345e208">
+</td></tr><tr><td id="d72360e208">
 
 **Screen View**
 
@@ -105,7 +105,7 @@ Select a page.
 
 Select a screen. \(Mobile only.\)
 
-</td></tr><tr><td id="d72345e217">
+</td></tr><tr><td id="d72360e217">
 
 **Session Start \(1st\)**
 
@@ -113,7 +113,7 @@ Select a screen. \(Mobile only.\)
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d72345e227">
+</td></tr><tr><td id="d72360e227">
 
 **Session Start \(any\)**
 

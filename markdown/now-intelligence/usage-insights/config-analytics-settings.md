@@ -20,7 +20,7 @@ You can enable or disable User Experience Analytics for specific applications vi
 
 Role required: analytics\_admin, mobile\_analytics\_admin, web\_analytics\_admin, or portal\_analytics\_admin
 
-**Note:** To turn on user analytics tracking for Service Portal, see . Create User Experience Analytics settings for Service Portal.
+**Note:** To turn on user analytics tracking for Service Portal, see . [Create User Experience Analytics settings for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/create-sp-analytics-settings.md).
 
 ## Procedure
 

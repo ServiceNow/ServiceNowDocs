@@ -37,5 +37,5 @@ The Legal Operations dashboard provides comprehensive reports to the legal depar
 **Related topics**  
 
 
-[bundle-par.content-packs-in-form-analytics]
+[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

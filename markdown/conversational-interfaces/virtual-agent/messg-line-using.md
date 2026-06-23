@@ -44,5 +44,5 @@ As a live agent interacting with a requester over the LINE service channel, you 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md) and .
+**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 

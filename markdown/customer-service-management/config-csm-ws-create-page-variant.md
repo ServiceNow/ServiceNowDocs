@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Workspace experience
+[Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Create a page from scratch
+[Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/create-page.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-Create a page from a template
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/reuse-page-definitions.md)
 
 </td><td>
 
@@ -108,7 +108,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-Create a page variant
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/create-variant.md)
 
 </td><td>
 
@@ -120,7 +120,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
+</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/work-pages.md).
 
 ## Determining which page to use
 

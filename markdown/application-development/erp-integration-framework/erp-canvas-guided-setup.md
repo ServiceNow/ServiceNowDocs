@@ -24,7 +24,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-For more information on using Guided Setup, see .
+For more information on using Guided Setup, see [Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/adoption-services/guided-setup.md).
 
 ## Procedure
 

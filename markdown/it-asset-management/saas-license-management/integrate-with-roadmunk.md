@@ -139,15 +139,15 @@ If you are using Software Asset Workspace, the option to create the Roadmunk int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d42223e563">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d42312e563">
 
 Interface
 
-</th><th align="left" id="d42223e566">
+</th><th align="left" id="d42312e566">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d42223e572">
+</th></tr></thead><tbody><tr><td id="d42312e572">
 
 **Core UI**
 
@@ -158,7 +158,7 @@ Action
 3.  Select **Roadmunk Integration Profile**.
 
 
-</td></tr><tr><td id="d42223e614">
+</td></tr><tr><td id="d42312e614">
 
 **Software Asset Workspace**
 

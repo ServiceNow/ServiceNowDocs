@@ -16,7 +16,7 @@ With the 360-degree view of a patient in Workspace, you can access the patient d
 
 The **Patient information** tab in Workspace provides several details about a patient enabling 360-degree view of the patient. The tab is displayed on the Workspace for enrollment cases.
 
-**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see UI Builder.
+**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md).
 
 \[Omitted image "pss-patient-info.png"\] Alt text: Workspace view of the patient information tab displaying patient information. For the descriptions of each attribute, please refer to the Patient information displayed for an enrollment case section.
 

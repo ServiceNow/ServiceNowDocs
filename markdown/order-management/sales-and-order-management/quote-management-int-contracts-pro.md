@@ -25,7 +25,7 @@ The following roles are required to initiate, view, and manage contract executio
 
 A contract generation process consists of the following steps:
 
--   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see .
+-   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see [Set up Contracts Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/contract-management-pro/cncore-setup-cmpro.md).
 -   A sales agent then initiates the contract creation process through the Initiate contract UI action by filling the required details, such as Type of paper, Contract type, Signature type, and Start and End dates.
 
     -   **Inititate Contract** UI action is visible only when a quote is in Completed state.

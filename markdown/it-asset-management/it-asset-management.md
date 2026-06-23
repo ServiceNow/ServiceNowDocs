@@ -235,9 +235,9 @@ The [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/Service
 -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
 -   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
--   Contract Management
--   Procurement
--   Product Catalog
+-   [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/contract-management/c_ContractManagement.md)
+-   [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/procurement/c_Procurement.md)
+-   [Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/product-catalog/c_ProductCatalog.md)
 -   [IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/content-request-itam.md)
 -   [Licensing for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/subscription-itam-licensing.md)
 

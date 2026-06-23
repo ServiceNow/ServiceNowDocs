@@ -37,15 +37,15 @@ When you start a quote, a pop-up prompts you for quote information. You can choo
 
     -   To create a quote for an account, select the **Account**.
     -   To create a quote for a consumer, select the **Consumer** name.
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d40536e122">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d40457e122">
 
 To
 
-</th><th align="left" id="d40536e125">
+</th><th align="left" id="d40457e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40536e131">
+</th></tr></thead><tbody><tr><td id="d40457e131">
 
 **Create quote for an account**
 
@@ -56,7 +56,7 @@ Enter the following:-   Contact: Name of the primary customer contact.
 -   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d40536e151">
+</td></tr><tr><td id="d40457e151">
 
 **Create quote for a consumer**
 

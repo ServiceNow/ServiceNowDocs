@@ -36,15 +36,15 @@ Role required: it\_project\_manager
 
 7.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d68939e117">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d68012e117">
 
 Field
 
-</th><th align="left" id="d68939e120">
+</th><th align="left" id="d68012e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68939e126">
+</th></tr></thead><tbody><tr><td id="d68012e126">
 
 **Task**
 
@@ -52,7 +52,7 @@ Description
 
 Task to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d68939e135">
+</td></tr><tr><td id="d68012e135">
 
 **Portfolio**
 
@@ -60,7 +60,7 @@ Task to which the benefit plan breakdown belongs.
 
 Portfolio to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d68939e144">
+</td></tr><tr><td id="d68012e144">
 
 **Entered currency**
 
@@ -68,7 +68,7 @@ Portfolio to which the benefit plan breakdown belongs.
 
 Currency specified in the benefit plan.
 
-</td></tr><tr><td id="d68939e153">
+</td></tr><tr><td id="d68012e153">
 
 **Exchange rate**
 
@@ -76,7 +76,7 @@ Currency specified in the benefit plan.
 
 Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d68939e166">
+</td></tr><tr><td id="d68012e166">
 
 **Actual benefit**
 
@@ -84,7 +84,7 @@ Rate in effect for the period corresponding to the benefit plan breakdown. When 
 
 Actual benefit that is incurred from the project or demand.
 
-</td></tr><tr><td id="d68939e175">
+</td></tr><tr><td id="d68012e175">
 
 **Benefit plan**
 
@@ -92,15 +92,15 @@ Actual benefit that is incurred from the project or demand.
 
 Benefit plan to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d68939e184">
+</td></tr><tr><td id="d68012e184">
 
 **Fiscal period**
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see fiscal calendars.
+Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
 
-</td></tr><tr><td id="d68939e197">
+</td></tr><tr><td id="d68012e197">
 
 **Entered benefit**
 
@@ -108,7 +108,7 @@ Fiscals generated at the period level. For information on periods, see fiscal ca
 
 Benefit in entered currency.
 
-</td></tr><tr><td id="d68939e206">
+</td></tr><tr><td id="d68012e206">
 
 **Functional benefit**
 
@@ -116,7 +116,7 @@ Benefit in entered currency.
 
 Functional benefit obtained by multiplying the exchange rate with the entered benefit.
 
-</td></tr><tr><td id="d68939e215">
+</td></tr><tr><td id="d68012e215">
 
 **Exchange rate date**
 

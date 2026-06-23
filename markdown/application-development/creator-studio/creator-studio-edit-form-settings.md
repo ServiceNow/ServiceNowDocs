@@ -38,7 +38,7 @@ To edit the settings for a form, you must be given permission to work on the app
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -84,7 +84,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
     8.  Select the topic\(s\) that represent the Employee Center areas where you want the form to appear.
 
-        For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
+        For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
     9.  Select the topics where you want the form to appear, as many as you need.
 

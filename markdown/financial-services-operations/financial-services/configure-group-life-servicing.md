@@ -30,15 +30,15 @@ Role required: sn\_ins\_group\_life.admin or admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table><thead><tr><th align="left" id="d38025e102">
+<table><thead><tr><th align="left" id="d32337e102">
 
 Task
 
-</th><th align="left" id="d38025e105">
+</th><th align="left" id="d32337e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38025e114">
+</th></tr></thead><tbody><tr><td id="d32337e114">
 
 **Configure service definitions**
 
@@ -48,7 +48,7 @@ Description
 -   Group Life and Disability Underwriting
 
 
-</td></tr><tr><td id="d38025e146">
+</td></tr><tr><td id="d32337e146">
 
 **Configure record producers**
 
@@ -56,7 +56,7 @@ Description
 
 [Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d38025e166">
+</td></tr><tr><td id="d32337e166">
 
 **Create flows**
 
@@ -64,7 +64,7 @@ Description
 
 [Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d38025e188">
+</td></tr><tr><td id="d32337e188">
 
 **Configure playbooks**
 
@@ -72,7 +72,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d38025e210">
+</td></tr><tr><td id="d32337e210">
 
 **Configure CSM Configurable Workspace**
 
@@ -80,7 +80,7 @@ Description
 
 [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d38025e237">
+</td></tr><tr><td id="d32337e237">
 
 **Modify interceptors and workspace record type selectors**
 
@@ -88,7 +88,7 @@ Description
 
 [Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d38025e256">
+</td></tr><tr><td id="d32337e256">
 
 **Configure user groups**
 
@@ -96,7 +96,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d38025e275">
+</td></tr><tr><td id="d32337e275">
 
 **Configure assignment rules**
 
@@ -104,7 +104,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d38025e292">
+</td></tr><tr><td id="d32337e292">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -112,7 +112,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d38025e311">
+</td></tr><tr><td id="d32337e311">
 
 **Configure Document Processor**
 

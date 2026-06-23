@@ -38,7 +38,7 @@ Your admin can create catalog templates to guide the process of building forms. 
 
 Every app in Creator Studio automatically creates a task table where all opened records go when people use the app. The tables that Creator Studio apps generate extend the Request Task table that comes with Creator Studio, which extends the Task table.
 
-[Extending](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see .
+[Extending](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see [Working with the Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/c_TaskTable.md).
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 

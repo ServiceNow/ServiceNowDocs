@@ -16,7 +16,7 @@ breadcrumb: [Create a CSS include to override theming for AI Search in Service P
 
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 
-The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see Using AI Search.
+The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see [Using AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/use-ais.md).
 
 You can edit these variables in the **CSS variables** field of a Theme \[sp\_theme\] record. You can also configure these variables with a CSS Include associated with a portal's theme. For more information, see the following topics:
 

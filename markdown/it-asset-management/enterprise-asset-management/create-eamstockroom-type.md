@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
 ## About this task
 
-Stockroom types are categories of stockrooms. For detailed information on stockroom types, see Stockroom Types
+Stockroom types are categories of stockrooms. For detailed information on stockroom types, see [Stockroom Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/asset-management/c_Stockrooms.md)
 
 ## Procedure
 

@@ -20,7 +20,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Multi-lingual Virtual Agent Accelerator - US Public Sector provides Impact customers with a demonstration of the possibilities and capabilities of Dynamic Translation. A demonstration of how Dynamic Translation works using Virtual Agent conversations, within AI Search, and hand-offs to Live Agent are included. Leading practices to get started are also incorporated.
 
-For more information on on Dynamic Translation, see .
+For more information on on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
 

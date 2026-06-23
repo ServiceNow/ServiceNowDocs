@@ -53,15 +53,15 @@ You can use the supplier case summarization skill in either Core UI or Source-to
     -   **Next steps**: Lists the actions that the supplier managers must take next.
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d33030e206">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d33054e206">
 
 Option
 
-</th><th align="left" id="d33030e209">
+</th><th align="left" id="d33054e209">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33030e215">
+</th></tr></thead><tbody><tr><td id="d33054e215">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d33030e242">
+</td></tr><tr><td id="d33054e242">
 
 **Expand or collapse the summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d33030e263">
+</td></tr><tr><td id="d33054e263">
 
 **Provide feedback for the summary**
 
@@ -88,7 +88,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d33030e286">
+</td></tr><tr><td id="d33054e286">
 
 **Copy the record summary**
 
@@ -96,7 +96,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d33030e302">
+</td></tr><tr><td id="d33054e302">
 
 **View the information about the record summary**
 

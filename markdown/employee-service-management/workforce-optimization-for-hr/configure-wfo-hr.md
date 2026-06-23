@@ -74,7 +74,7 @@ Domain separation is supported for Workforce Optimization for HR. Domain separat
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ### Workforce Optimization for Customer Service overview
 
@@ -87,7 +87,7 @@ Domain separation is supported.
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 
 ## Setting up Scheduling for Workforce Optimization for HR
 
@@ -350,7 +350,7 @@ Role required: sn\_hr\_wfo.admin
 
 #### About this task
 
-You can associate a user with a primary assignment group by selecting the group in the user
+You can associate a user with a primary assignment group by selecting the group in the [user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
 #### Procedure
 
@@ -377,7 +377,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 **Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: sn\_hr\_wfo.admin
 
@@ -431,7 +431,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifierExample:
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UniqueRecordIdentifier.md)Example:
 
 -   Name: % of P1 incidents resolved on first call.
 -   Sys ID: 0423e59387401010ca99e12397cb0bbb
@@ -457,9 +457,9 @@ Collect skill data based on skills agents have used for case resolution. Use sup
 
 #### Before you begin
 
-Set up skills. For more information, see Skills Management.
+Set up skills. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md).
 
-Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see Predictive Intelligence.
+Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 Activate the Skill Recommendation application plugin \(com.snc.sre\) to use predictive intelligence for recommending skills.
 
@@ -471,7 +471,7 @@ Role required: sn\_hr\_wfo.admin
 
 2.  Run the solution definition models such as **Recommend similar skills for cases** or **Recommend skills from similar cases** to train the supervised and unsupervised solutions.
 
-    For more information on training a solution, refer to Create and train a similarity solution.
+    For more information on training a solution, refer to [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 3.  Run the **Start skill prediction** scheduled job everyday to start predicting skills for cases or agents.
 
@@ -517,7 +517,7 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 **Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
 
 Role required: sn\_hr\_wfo.admin
 
@@ -566,7 +566,7 @@ Define the data you want to collect for cases, interactions, or any table to for
 
 #### Before you begin
 
-You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see Requesting the MetricBase product.
+You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/metricbase/request-metricbase.md).
 
 Role required: sn\_hr\_wfo.admin
 
@@ -592,7 +592,7 @@ Role required: sn\_hr\_wfo.admin
         |Conditions|Conditions that you can set so that you can capture the data that you need.|
 
     4.  Click **Submit**.
-    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see Create a table index.
+    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
 
 #### Add parameters to be defined in the formula
 

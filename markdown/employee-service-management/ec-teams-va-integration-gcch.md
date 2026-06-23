@@ -30,11 +30,11 @@ The overall process to integrate Employee Center with your Microsoft Teams tenan
 
 1.  Activate the IT Service Management integration with Microsoft Teams plugin \(sn\_now\_teams\_it\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
 
-    **Note:** For more information on activating plugins, see .
+    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ActivateAPlugin.md).
 
 2.  [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/authenticate-users-your-hub-ms-teams.md).
-3.  .
-4.  .
+3.  [Create a bot in Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md).
+4.  [Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md).
 5.  [Update your Microsoft Teams tenant URL for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/gcch-response-header.md).
 6.  [Modify and download the manifest file for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/modify-download-manifest-file.md).
 7.  [Upload manifest file in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/upload-manifest-ms-teams.md).

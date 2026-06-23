@@ -54,5 +54,5 @@ To view further details:
 **Related topics**  
 
 
-[bundle-par.pa-overview]
+[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/pa-overview.md)
 

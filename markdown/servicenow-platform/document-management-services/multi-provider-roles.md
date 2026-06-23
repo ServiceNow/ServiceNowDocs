@@ -16,7 +16,7 @@ breadcrumb: [Installed with Multi Provider Document Services Framework, Multi Pr
 
 Multi Provider Document Services Framework Framework is installed with these roles.
 
-To learn more about managing subscriptions, see  and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Installed with Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/document-management-services/installed-with-multi-provider-framework.md)
 

@@ -71,15 +71,15 @@ Information is dot-walked from the HR Profile \[sn\_hr\_core\_profile\] or User 
 
 2.  Change the scope to the application you are using.
 
-<table id="choicetable_o2w_fss_bbb"><thead><tr><th align="left" id="d245555e255">
+<table id="choicetable_o2w_fss_bbb"><thead><tr><th align="left" id="d245365e255">
 
 Field
 
-</th><th align="left" id="d245555e258">
+</th><th align="left" id="d245365e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d245555e264">
+</th></tr></thead><tbody><tr><td id="d245365e264">
 
 **Profile table**
 
@@ -92,7 +92,7 @@ The table you want to pull details from.-   HR profile \[sn\_hr\_core\_profile\]
 -   User \[sys\_user\]
  **Note:** Any tables that extend the HR profile or User tables also appear.
 
-</td></tr><tr><td id="d245555e290">
+</td></tr><tr><td id="d245365e290">
 
 **Show detail**
 
@@ -100,7 +100,7 @@ The table you want to pull details from.-   HR profile \[sn\_hr\_core\_profile\]
 
 Check to show the detail information on the org chart card.
 
-</td></tr><tr><td id="d245555e299">
+</td></tr><tr><td id="d245365e299">
 
 **Detail**
 

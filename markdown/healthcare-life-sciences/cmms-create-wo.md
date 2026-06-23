@@ -47,7 +47,7 @@ A work order task is automatically created. The short description, description, 
 
 ## What to do next
 
-A user with the sn\_hcls\_cmms.clinical\_engineering\_technician role can then complete the work order task. For more information, see Managing work orders and work order tasks.
+A user with the sn\_hcls\_cmms.clinical\_engineering\_technician role can then complete the work order task. For more information, see [Managing work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/managing-work-orders.md).
 
 After the work order task is completed, you can close the case. For more information, see [Close a medical device issue case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/cmms-close-cd-issue-case.md).
 

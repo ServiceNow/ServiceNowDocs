@@ -8,7 +8,7 @@ product: Customer Success Management
 classification: customer-success-management
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Account Lifecycle Events reference, Account Lifecycle Events]
 ---
 
@@ -26,7 +26,7 @@ Domain separation is supported for Account Lifecycle Events. Domain separation e
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Overview of Account Lifecycle Events
 
@@ -40,7 +40,7 @@ With the Account Lifecycle Events application, you can create onboarding cases a
 
 ## Setting up domain separation in Account Lifecycle Events
 
-Domain separation for Account Lifecycle Events requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see .
+Domain separation for Account Lifecycle Events requires the domain separation plugin and enabling the csm\_auto\_account\_domain\_generation domain separation property. For more information on setting up domain separation, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/domain-separation-customer-service.md).
 
 ## Domain separated tables
 
@@ -62,5 +62,5 @@ Domain separation for Account Lifecycle Events requires the domain separation pl
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

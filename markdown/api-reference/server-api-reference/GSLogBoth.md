@@ -20,7 +20,7 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For more information, see Debugging scripts.
+For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/script-debug-overview.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 

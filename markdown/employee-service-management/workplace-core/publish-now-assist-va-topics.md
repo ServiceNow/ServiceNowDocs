@@ -19,9 +19,9 @@ Publish Virtual Agent topics to enable your employees to submit a reservation re
 
 ## About this task
 
-A Virtual Agent topic is created to meet a specific objective or goal, such as fulfilling a user's request. To enable a feature in the Virtual Agent, you must publish the topic. For more information about Virtual Agent topics, see .
+A Virtual Agent topic is created to meet a specific objective or goal, such as fulfilling a user's request. To enable a feature in the Virtual Agent, you must publish the topic. For more information about Virtual Agent topics, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
-Topic blocks are reusable components to run common tasks and conversational elements in Virtual Agent conversations. For more information about topic blocks, see .
+Topic blocks are reusable components to run common tasks and conversational elements in Virtual Agent conversations. For more information about topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Before you begin
 
@@ -56,7 +56,7 @@ Role required: admin
 
 3.  Publish the **Reserve Space** topic.
 
-    For more information about publishing a topic, see .
+    For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
     The Reserve Space topic is published and can be used from Virtual Agent.
 
@@ -66,7 +66,7 @@ Role required: admin
 -   [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/config-reservable-module.md).
     -   [Configure virtual meeting providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/configure-virtual-meeting-providers.md).
     -   [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
--   Select the portals and channels that Virtual Agent is displayed on. For more information, see .
+-   Select the portals and channels that Virtual Agent is displayed on. For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
     **Note:** Enabling Now Assist in Virtual Agent for Workplace Service Portal replaces the existing NLU experience.
 

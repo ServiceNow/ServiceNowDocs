@@ -24,7 +24,7 @@ The Now Assist in Virtual Agent Analytics dashboard provides indicators that you
 -   Resolution status of user queries based on the feedback provided by the user
 -   The deflection rate in a given period
 
-The dashboard is built on the Platform Analytics experience. See  for more information.
+The dashboard is built on the Platform Analytics experience. See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/par-workspace.md) for more information.
 
 To access the dashboard, navigate to **All** &gt; **Conversational Interfaces** &gt; **Analytics** &gt; **Now Assist in Virtual Agent**. You must have Virtual Agent Admin \[virtual\_Agent\_admin\] or Admin \[admin\] roles to access the dashboard.
 

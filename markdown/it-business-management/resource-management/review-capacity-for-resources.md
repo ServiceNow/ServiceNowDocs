@@ -59,7 +59,7 @@ Role required: resource\_manager
 
 7.  In the **Resource Forecast** section, use the following options to take an action on a resource plan.
 
-<table id="choicetable_swx_rmw_kx"><tbody><tr><td id="d66691e221">
+<table id="choicetable_swx_rmw_kx"><tbody><tr><td id="d65764e221">
 
 **__Confirm__**
 
@@ -67,7 +67,7 @@ Role required: resource\_manager
 
 Confirms the resources to the selected plan.The selected resource plan moves to the Confirmed state. [Soft allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/r_AllocatingResources.md) are created when the resource plan moves to the Confirmed state.
 
-</td></tr><tr><td id="d66691e243">
+</td></tr><tr><td id="d65764e243">
 
 **__Confirm and Allocate__**
 
@@ -75,7 +75,7 @@ Confirms the resources to the selected plan.The selected resource plan moves to 
 
 Allocates the resources to the selected plan directly without first confirming them.The selected resource plan moves to the Allocated state. [Hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/r_AllocatingResources.md) are created when the resource plan moves to the Allocated state.
 
-</td></tr><tr><td id="d66691e265">
+</td></tr><tr><td id="d65764e265">
 
 **__Reject__**
 

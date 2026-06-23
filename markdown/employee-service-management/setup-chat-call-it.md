@@ -24,8 +24,8 @@ Here is the flow-diagram of the chat to call functionality:
 
 To enable the Chat to Call functionality you must install the Workspace Agent chat, Notify, and the Notify connector for Microsoft Teams plugins in your instance. You must also install ServiceNow for Teams installed with Virtual Agent or Virtual Agent Lite. For more information, refer the following topics:
 
--   Set up Agent Chat
--   Activate Notify
+-   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
+-   [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/t_ActivateNotify.md)
 -   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/notify-connector-ms-teams.md)
 
 For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-call-from-chat.md).

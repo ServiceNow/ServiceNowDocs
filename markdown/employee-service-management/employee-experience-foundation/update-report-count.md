@@ -26,7 +26,7 @@ Role required: admin
 
 2.  On the scheduled jobs page, select the **Populate Manager Reportee Count Using Eligible Users** job.
 
-    **Important:** If the Domain Separation plugin is activated on your instance, select the **Populate Manager Reportee Count Using Eligible Users \[Domain Separated\]** job.
+    **Important:** If the [Domain Separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-sep-plugin.md) is activated on your instance, select the **Populate Manager Reportee Count Using Eligible Users \[Domain Separated\]** job.
 
 3.  On the scheduled script execution page, select **Execute Now**.
 

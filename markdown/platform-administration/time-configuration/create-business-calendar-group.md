@@ -62,5 +62,5 @@ Each business calendar record also shows which groups it belongs to.
 **Related topics**  
 
 
-[bundle-par.t_CreateAnAutomatedIndicator]
+["Indicators with business calendars" in Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 

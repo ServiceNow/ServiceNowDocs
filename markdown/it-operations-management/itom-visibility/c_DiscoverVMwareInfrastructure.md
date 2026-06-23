@@ -19,7 +19,7 @@ A Discovery schedule can discover VMware vCenter and ESX hosts as well as indivi
 These options are available for getting VMware vCenter data:
 
 -   Discovery runs the [VMware - vCenter Datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) probe when it identifies a VMware vCenter process running on a Windows machine or detects activity with the vmapp port probe.
--    can run any of the vCenter probes from a workflow
+-   [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/orchestration/r-orchestration.md) can run any of the vCenter probes from a workflow
 
 To discover VMware data without a vCenter, use standalone ESXi discovery.
 

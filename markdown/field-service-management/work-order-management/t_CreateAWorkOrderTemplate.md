@@ -79,7 +79,7 @@ Checklist template
 
 </td><td>
 
-Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see Checklists.
+Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see [Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_Checklists.md).
 
 </td></tr><tr><td>
 

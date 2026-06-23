@@ -27,7 +27,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see .
+Use the Now Assist Admin console to configure Now Assist in Contract Management. The console contains everything that you need to configure the Now Assist skills. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the feature and skills available for Contract Management Pro in the Now Assist Admin console.
 
@@ -53,7 +53,7 @@ Contract Management Pro
 
 1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
 
-    -   For information about the plugin installation process, see .
+    -   For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-support-info-na.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 

@@ -37,7 +37,7 @@ Enforce multi-factor authentication based on the roles assigned to the user. If 
 |Security risk|\(Moderate\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
 |References|[Configure role-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/mfa-role-criteria.md)|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

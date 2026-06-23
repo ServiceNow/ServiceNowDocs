@@ -16,9 +16,9 @@ breadcrumb: [Configuring translation for Content Publishing after upgrade, Refer
 
 When creating content from the Content Library, you have the option to select a different language to view in your session similar to changing your language at login.
 
-For more information on using a specific language, see User specific language.
+For more information on using a specific language, see [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
 
-**Note:** You must have additional languages installed before using. For more information, see Activate a language.
+**Note:** You must have additional languages installed before using. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Activate the sn\_cd.enable\_language\_switching system property to use this feature. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md) and [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 

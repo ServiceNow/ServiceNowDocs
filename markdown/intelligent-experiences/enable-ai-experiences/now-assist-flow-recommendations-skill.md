@@ -29,7 +29,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)|
 
 **Parent Topic:**[Now Assist skills in the Creator workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-creator-skills-top.md)
 

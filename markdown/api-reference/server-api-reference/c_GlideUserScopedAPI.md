@@ -219,7 +219,7 @@ String
 
 </td><td>
 
-Checks if the user has this role.**Note:** For the current user, this method checks for the role in their elevated privilege roles only if they elevated to that role in the current session. For non current users, this method checks for the role in all of their elevated privilege roles.
+Checks if the user has this role.**Note:** For the current user, this method checks for the role in their [elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/c_ElevatedPrivilege.md) only if they elevated to that role in the current session. For non current users, this method checks for the role in all of their elevated privilege roles.
 
 </td></tr></tbody>
 </table><table id="table_p2s_mlp_ldc" class="returns"><thead><tr><th>

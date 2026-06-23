@@ -34,15 +34,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d73994e117">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d73981e117">
 
 Option
 
-</th><th align="left" id="d73994e120">
+</th><th align="left" id="d73981e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73994e126">
+</th></tr></thead><tbody><tr><td id="d73981e126">
 
 **Add a new record for this user**
 
@@ -55,7 +55,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d73994e167">
+</td></tr><tr><td id="d73981e167">
 
 **Updated an existing record**
 

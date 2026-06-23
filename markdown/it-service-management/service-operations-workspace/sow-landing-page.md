@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 \[Omitted image "final\_sow-overview.png"\] Alt text: SOW overview
 
-For information about how you can automate and optimize your services and operations using Service Operations Workspace, see .
+For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/better-together/solutions/service-operations.md).
 
 ## Get started
 
@@ -45,7 +45,7 @@ For information about how you can automate and optimize your services and operat
 [Use \[Omitted image "icon-workspace.png"\] Alt text: Use Learn how agents can use Service Operations Workspace for ITSM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/use-sow.md)
 
 </td></tr></tbody>
-</table>For information about Service Operations Workspace for ITOM, see Service Operations Workspace for ITOM.
+</table>For information about Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md).
 
 ## Troubleshoot and get help
 

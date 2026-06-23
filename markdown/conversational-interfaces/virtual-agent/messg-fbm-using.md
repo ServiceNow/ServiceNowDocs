@@ -32,5 +32,5 @@ As a live agent interacting with a requester over the Facebook Messenger service
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** You accept a work item from the Facebook Messenger chat conversation in your Agent Workspace Inbox when an administrator has configured the Facebook Messenger service channel for transfer of chat conversations. For more information, see [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md) and Service channels.
+**Note:** You accept a work item from the Facebook Messenger chat conversation in your Agent Workspace Inbox when an administrator has configured the Facebook Messenger service channel for transfer of chat conversations. For more information, see [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 

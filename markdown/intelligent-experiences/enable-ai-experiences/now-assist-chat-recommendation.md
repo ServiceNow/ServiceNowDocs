@@ -27,9 +27,9 @@ The chat reply recommendation skill displays a pop-up window that an agent can u
 
 You can generate a chat reply recommendation in the following products.
 
--   
--   
--   
+-   [Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md)
+-   [Generate a chat reply recommendation by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.md)
+-   [Generate a chat reply recommendation by using Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.md)
 
 ## Availability
 
@@ -37,7 +37,7 @@ This skill is available in the workflows and products listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Technology||
-|Customer||
-|Employee||
+|Technology|[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)|
+|Customer|[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)|
+|Employee|[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)|
 

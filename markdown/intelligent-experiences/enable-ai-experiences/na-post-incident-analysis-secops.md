@@ -24,7 +24,7 @@ Security managers and analysts can generate post-incident analysis data from wit
 
 \[Omitted image "NA-PIA-modal.png"\] Alt text: Post incident analysis for a security incident from the Security Incident Response Workspace
 
-For more information, see .
+For more information, see [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md).
 
 ## Availability
 
@@ -44,7 +44,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td></tr></tbody>
 </table>

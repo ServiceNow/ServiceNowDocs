@@ -22,7 +22,7 @@ Initiate an alert analysis from the Now Assist panel. The alert analysis display
 -   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 -   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
-For comprehensive information about the Now Assist panel, see .
+For comprehensive information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 Role required: evt\_mgmt\_operator
 
@@ -36,15 +36,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the Now Assist panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d88546e193">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d86941e194">
 
 Launch an alert analysis
 
-</th><th align="left" id="d88546e196">
+</th><th align="left" id="d86941e197">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d88546e202">
+</th></tr></thead><tbody><tr><td id="d86941e203">
 
 **From the list**
 
@@ -60,7 +60,7 @@ The Now Assist panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d88546e243">
+</td></tr><tr><td id="d86941e244">
 
 **From an alert form**
 

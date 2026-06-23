@@ -25,7 +25,7 @@ In the following example, Now Assist generated a work order task summarization t
 
 \[Omitted image "now-assist-work-order-task-summary-mob.png"\] Alt text: Summarized closure notes explain what was done and how long it took, as well as the status. It shows the steps taken to resolve the issue as a bulleted list.
 
-For more information, see  and .
+For more information, see [Generate work order task closure summaries in the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/generate-close-now-assist-fsm.md) and [Generate a work order task summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/generate-wot-summ-fsm.md).
 
 ## Availability
 
@@ -33,7 +33,7 @@ This skill is available in the workflow and product listed below.
 
 |Workflow|Product|
 |--------|-------|
-|Customer||
+|Customer|[Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)|
 
 **Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)
 

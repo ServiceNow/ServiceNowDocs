@@ -154,15 +154,15 @@ Select **Preview**.
 </td></tr></tbody>
 </table>5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d490057e384">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d488500e384">
 
 Task
 
-</th><th align="left" id="d490057e387">
+</th><th align="left" id="d488500e387">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d490057e393">
+</th></tr></thead><tbody><tr><td id="d488500e393">
 
 **Assign a user to the selected Express List view**
 
@@ -173,7 +173,7 @@ Procedure
 3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d490057e438">
+</td></tr><tr><td id="d488500e438">
 
 **Assign a user group to the selected Express List view**
 
@@ -193,15 +193,15 @@ Procedure
     -   The **Express List View Field Attributes** tab shows the filter attributes for the open alerts in Express List.
 7.  Add table fields and field attributes to the Express List view.
 
-<table id="choicetable_s15_jxj_k1c"><thead><tr><th align="left" id="d490057e535">
+<table id="choicetable_s15_jxj_k1c"><thead><tr><th align="left" id="d488500e535">
 
 Task
 
-</th><th align="left" id="d490057e538">
+</th><th align="left" id="d488500e538">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d490057e544">
+</th></tr></thead><tbody><tr><td id="d488500e544">
 
 **Add a column to the Express List table**
 
@@ -217,7 +217,7 @@ Procedure
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d490057e598">
+</td></tr><tr><td id="d488500e598">
 
 **Add an attribute to the Filter pane in Express List**
 
@@ -235,15 +235,15 @@ Procedure
 </td></tr></tbody>
 </table>8.  Exclude fields or field attributes from the Express List view by deactivating them.
 
-<table id="choicetable_ng2_jkc_k1c"><thead><tr><th align="left" id="d490057e660">
+<table id="choicetable_ng2_jkc_k1c"><thead><tr><th align="left" id="d488500e660">
 
 Task
 
-</th><th align="left" id="d490057e663">
+</th><th align="left" id="d488500e663">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d490057e669">
+</th></tr></thead><tbody><tr><td id="d488500e669">
 
 **Deactivate a field**
 
@@ -254,7 +254,7 @@ Procedure
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d490057e707">
+</td></tr><tr><td id="d488500e707">
 
 **Deactivate a field attribute**
 

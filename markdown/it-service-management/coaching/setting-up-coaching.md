@@ -33,9 +33,9 @@ You can obtain feedback for both the coach and the trainee by creating surveys t
 -   Survey taken by trainee to provide feedback on the coach
 -   Survey taken by coach to provide feedback on the trainee
 
-Access the Survey designer for Coaching by navigating to **Survey** &gt; **Survey Designer**.
+Access the [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md) for Coaching by navigating to **Survey** &gt; **Survey Designer**.
 
-Access the Coaching Survey definitions by navigating to **Coaching** &gt; **Coaching Surveys**.
+Access the Coaching [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDefinitions.md) by navigating to **Coaching** &gt; **Coaching Surveys**.
 
 ## Coaching Properties
 

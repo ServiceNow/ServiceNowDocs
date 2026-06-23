@@ -28,7 +28,7 @@ You can customize one of the following default callback topics: Callback-Phone f
 
 1.  Duplicate the Callback-Phone topic from the Virtual Agent Designer.
 
-    For more information on how to duplicate a topic, see Duplicate a Virtual Agent topic.
+    For more information on how to duplicate a topic, see [Duplicate a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md).
 
 2.  In the Advanced properties section of the **Properties** tab, select the voice channel that you want to associate with the custom callback topic.
 

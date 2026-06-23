@@ -22,7 +22,7 @@ You can start working on Universal Request in the Agent Workspaces from one of t
 -   List queue
 -   Global search
 
-For additional information on working within Agent Workspace, see Using workspace.
+For additional information on working within Agent Workspace, see [Using workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/using-workspace.md).
 
 **Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 

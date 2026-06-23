@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You create script definitions for remote tables like you do for other scripts. To learn more about entering, modifying, and debugging scripts, see JavaScript syntax editor.
+You create script definitions for remote tables like you do for other scripts. To learn more about entering, modifying, and debugging scripts, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_SyntaxEditor.md).
 
 ## Procedure
 
@@ -91,7 +91,7 @@ Option to access the Caching section to designate how the memory caching should 
 
     \[Omitted image "remote\_tables\_script\_editor.png"\] Alt text: Remote table script editor template
 
-    **Note:** To learn more about entering, modifying, and debugging scripts, see JavaScript syntax editor.
+    **Note:** To learn more about entering, modifying, and debugging scripts, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_SyntaxEditor.md).
 
 5.  In the Caching section, designate how this data is cached and how long the data is cached in the memory of the ServiceNow AI Platform:
 
@@ -139,7 +139,7 @@ In this example, we create a script to retrieve specific types of incident recor
 **Related topics**  
 
 
-[bundle-crapiref.v_queryAPI]
+[v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/v_queryAPI.md)
 
-[bundle-crapiref.v_tableAPI]
+[v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/v_tableAPI.md)
 

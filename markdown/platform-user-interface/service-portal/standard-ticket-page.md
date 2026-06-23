@@ -66,7 +66,7 @@ By default, the **Activity** and **Attachments** tabs are available.
 
 For each request type of a cross-scope application, the following configurations are required:
 
--   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see .
+-   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationAccessSettings.md).
     -   Widget: Standard Ticket Header
     -   Widget: Standard Ticket Attachments
     -   Widget: Standard Ticket Tab

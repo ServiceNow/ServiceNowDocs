@@ -20,7 +20,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see Workplace Reservation Management.
+For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -98,7 +98,7 @@ include\_standard\_​services
 
 </td><td id="include_standard_services-reserv-entry">
 
-Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see Standard services. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
+Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see [Standard services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/standard-service.md). This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
 
 Valid values:
 
@@ -438,7 +438,7 @@ result.reservation.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -1897,7 +1897,7 @@ result.reservation.reservable\_module.​reservable\_quantity\_field
 
 </td><td id="reservation_reservable_module_reservable_quantity_field-reserv-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.md).Data type: String
 
 </td></tr><tr id="reservation_reservable_module_reservable_table-reserv-row"><td>
 
@@ -4488,7 +4488,7 @@ result.reservation.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -5947,7 +5947,7 @@ result.reservation.reservable\_module.​reservable\_quantity\_field
 
 </td><td id="reservation_reservable_module_reservable_quantity_field-reserv-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/add-neighbourhood-spaces-to-an-area.md).Data type: String
 
 </td></tr><tr id="reservation_reservable_module_reservable_table-reserv-row"><td>
 
@@ -7719,7 +7719,7 @@ is\_private
 
 </td><td id="is_private-update_reserv-entry">
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -7756,7 +7756,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see Enable shift-based reservation.
+For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Data type: String
 
@@ -7995,7 +7995,7 @@ is\_private
 
 </td><td id="is_private-update_reserv-entry">
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 Valid values:
 
@@ -8030,7 +8030,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr id="shift-update_reserv-row"><td>
 
@@ -8040,7 +8040,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see Enable shift-based reservation.
+For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Data type: String
 
@@ -8237,7 +8237,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) defines the workplace items needed for a reservation. Located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -8247,7 +8247,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. Located in the Shift \[sn\_wsd\_core\_shift\] table. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see Enable shift-based reservation.
+For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md).
 
 Data type: String
 

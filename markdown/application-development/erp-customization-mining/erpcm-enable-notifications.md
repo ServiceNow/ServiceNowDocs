@@ -8,7 +8,7 @@ product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
 last_updated: "2024-08-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring ERP Customization Mining, ERP Customization Mining \(ERP-CM\), Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -18,13 +18,13 @@ Enable notifications to find out when ERP Customization Mining \(ERP-CM\) succee
 
 ## Before you begin
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see .
+Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
 Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
 ## About this task
 
-For general information on preferences, see .
+For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/advanced-notification-prefrences.md).
 
 ## Procedure
 

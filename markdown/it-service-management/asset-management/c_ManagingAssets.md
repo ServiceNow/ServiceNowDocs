@@ -98,7 +98,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 -   When the system property is set to **false**, synchronization of the CSDM Lifecycle fields is through the legacy State and Substate fields.
 -   When the system property is set to **true**, the CSDM Life Cycle Stage and Status fields are directly synchronized.
 
-**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see .
+**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see [Enabling CSDM life-cycle sync between legacy fields and related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 \[Omitted image "asset-ci-ibi-sync.png"\] Alt text: Synchronization of status fields
 
@@ -193,15 +193,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d73874e736">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d73931e737">
 
 Interface
 
-</th><th align="left" id="d73874e739">
+</th><th align="left" id="d73931e740">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d73874e745">
+</th></tr></thead><tbody><tr><td id="d73931e746">
 
 **Core UI**
 
@@ -212,7 +212,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d73874e784">
+</td></tr><tr><td id="d73931e785">
 
 **Hardware Asset Workspace**
 
@@ -226,7 +226,7 @@ Action
 </td></tr></tbody>
 </table>2.  On the Asset record fields form, fill in the fields.
 
-    For a description of the field values, see .
+    For a description of the field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md).
 
 3.  Submit or save the asset form.
 

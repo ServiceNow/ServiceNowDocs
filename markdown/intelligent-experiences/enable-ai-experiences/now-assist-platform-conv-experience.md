@@ -19,9 +19,9 @@ Conversational experience generative AI skills can improve the user self-service
 
 The following skills require Now Assist in AI Search and Now Assist in Virtual Agent. Both are available in some Now Assist products.
 
-You can set up Now Assist in Virtual Agent from the  or from the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md). For more information, see .
+You can set up Now Assist in Virtual Agent from the [Conversational Interfaces Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/ci-console.md) or from the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md). For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
-For more information, see  and .
+For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) and [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/now-assist-ais.md).
 
 -   **[Now Assist Multi-Turn Catalog Ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-multiturn-catalog-platform.md)**  
 This skill gives users conversational access to available options in the Service Catalog.

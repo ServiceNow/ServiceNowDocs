@@ -44,5 +44,5 @@ As a live agent interacting with a requester over the WhatsApp service channel, 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md) and Service channels.
+**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 

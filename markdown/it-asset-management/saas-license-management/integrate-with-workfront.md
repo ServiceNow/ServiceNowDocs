@@ -141,15 +141,15 @@ If you’re using Software Asset Workspace, the option to create the Workfront i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113887e566">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113976e566">
 
 Interface
 
-</th><th align="left" id="d113887e569">
+</th><th align="left" id="d113976e569">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d113887e575">
+</th></tr></thead><tbody><tr><td id="d113976e575">
 
 **Core UI**
 
@@ -160,7 +160,7 @@ Action
 3.  Select **Workfront Integration Profile**.
 
 
-</td></tr><tr><td id="d113887e617">
+</td></tr><tr><td id="d113976e617">
 
 **Software Asset Workspace**
 

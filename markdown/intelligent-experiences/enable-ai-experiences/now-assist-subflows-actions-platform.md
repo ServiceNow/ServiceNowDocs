@@ -23,8 +23,8 @@ Like other Now Assist topics, the LLM requires a robust plain language topic des
 
 For more information, see the following topics:
 
--   
--   
+-   [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/conversational-actions.md)
+-   [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/conversational-subflows.md)
 
 **Parent Topic:**[Now Assist conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-platform-conv-experience.md)
 

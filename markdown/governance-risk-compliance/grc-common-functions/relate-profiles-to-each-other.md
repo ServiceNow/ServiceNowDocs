@@ -35,7 +35,7 @@ Role required:
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d258687e131">
+<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d258693e131">
 
 **To specify that the current entity is downstream of another entity**
 
@@ -43,7 +43,7 @@ Role required:
 
 Click the **Add** button in the **Upstream entities** related list.
 
-</td></tr><tr><td id="d258687e146">
+</td></tr><tr><td id="d258693e146">
 
 **To specify that the current entity is upstream of another entity**
 

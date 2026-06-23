@@ -42,15 +42,15 @@ Order agents can add covered products to an order line during the order capture 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d37740e136">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d37661e136">
 
 Covered product type
 
-</th><th align="left" id="d37740e139">
+</th><th align="left" id="d37661e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37740e145">
+</th></tr></thead><tbody><tr><td id="d37661e145">
 
 **Covered sold product**
 
@@ -58,7 +58,7 @@ Description
 
 Add a sold product to an entitlement/contract type of order line to establish a coverage relationship between them.
 
-</td></tr><tr><td id="d37740e157">
+</td></tr><tr><td id="d37661e157">
 
 **Covered order line item**
 
@@ -66,7 +66,7 @@ Add a sold product to an entitlement/contract type of order line to establish a 
 
 Add a covered order line item to the order line.
 
-</td></tr><tr><td id="d37740e166">
+</td></tr><tr><td id="d37661e166">
 
 **Covered install base item**
 

@@ -26,7 +26,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on working with Cloud Services, see .
+For details on working with Cloud Services, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

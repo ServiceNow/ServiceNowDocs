@@ -36,5 +36,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platadm.r_AvailableSystemProperties]
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 

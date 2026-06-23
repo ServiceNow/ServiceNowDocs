@@ -16,7 +16,7 @@ breadcrumb: [System logs, Logs, Platform Security]
 
 Changes made in the system are recorded on the Customer Updates `[sys_update_xml]` table chronologically. There are a few exceptions, as noted below.
 
-To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see System update sets.
+To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/system-update-sets.md).
 
 The following information is stored about each update:
 
@@ -46,7 +46,7 @@ The following information is stored about each update:
 -   Jobs running in the background such as natural language processing
 -   Cases where sys\_update\_xml is manually modified or removed
 
-To learn more, see Commit changes.
+To learn more, see [Commit changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/t_CommitChanges.md).
 
 ​ ​ ​
 

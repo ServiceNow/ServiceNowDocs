@@ -21,10 +21,10 @@ Configure the Advanced Work Assignment application to transfer a LINE chat conve
 
 Your administrator must have completed the following tasks:
 
--   Activate Advanced Work Assignment.
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
 -   [Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-line-install.md).
--   Set the application scope to Conversational Integration with LINE using the application picker. For more information, see Application picker.
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see .
+-   Set the application scope to Conversational Integration with LINE using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see Service channels.
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for LINE chat conversations to agents by configuring the queue for the Line service channel.
 
@@ -58,7 +58,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see Configure agent assignment rules and Work item queues.
+    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the Line service channel.
 
@@ -74,6 +74,6 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see Configure agent presence states.
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-configure-agent-presence.md).
 
 

@@ -277,15 +277,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d31235e540">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d31147e540">
 
 Action
 
-</th><th align="left" id="d31235e543">
+</th><th align="left" id="d31147e543">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31235e549">
+</th></tr></thead><tbody><tr><td id="d31147e549">
 
 **Publish**
 
@@ -295,7 +295,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d31235e567">
+</td></tr><tr><td id="d31147e567">
 
 **Update**
 
@@ -303,7 +303,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d31235e576">
+</td></tr><tr><td id="d31147e576">
 
 **Copy**
 

@@ -48,7 +48,7 @@ Alerts
 
 </td><td>
 
-Event Management must be activated for the CI summarization skill. For more information, see .
+Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/event-management/c_EM.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Security vulnerabilities
 
 </td><td>
 
-Security Operations must be activated for the CI summarization skill. For more information, see .
+Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/security-operations/security-operations-landing-page.md).
 
 </td></tr><tr><td>
 

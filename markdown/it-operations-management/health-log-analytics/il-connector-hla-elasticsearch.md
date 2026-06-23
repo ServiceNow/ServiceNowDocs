@@ -25,13 +25,13 @@ Configure an integration for seamless log data streaming from Elasticsearch indi
 -   Ensure that a service instance is available.
 -   Ensure that the Health Log Analytics AI Engine is up and running.
 
--   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
+-   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
     \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property.
+-   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
 
 Role required: evt\_mgmt\_admin
 

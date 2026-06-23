@@ -7,7 +7,7 @@ release: xanadu
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Working with the Task table, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d58569e98">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d58588e98">
 
 Field
 
-</th><th align="left" id="d58569e101">
+</th><th align="left" id="d58588e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58569e107">
+</th></tr></thead><tbody><tr><td id="d58588e107">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d58569e116">
+</td></tr><tr><td id="d58588e116">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d58569e125">
+</td></tr><tr><td id="d58588e125">
 
 **Active**
 

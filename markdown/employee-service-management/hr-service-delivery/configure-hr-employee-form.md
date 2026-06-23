@@ -53,7 +53,7 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see Survey designer elements.
+    For further details on the different question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesignerElements.md).
 
     The following GIF shows an example of a user building a reference question and a boolean question in the survey designer.
 
@@ -103,7 +103,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:

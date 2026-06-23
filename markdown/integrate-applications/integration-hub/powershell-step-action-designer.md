@@ -43,7 +43,7 @@ Connection
 Type of connection to use. -   **Define Connection Inline**: Define connection information within the action step.
 -   **Use Connection Alias**: Define connection information using the Connection Alias table. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action.
 
- To learn more about connections and credentials, see Introduction to credentials, connections, and aliases.
+ To learn more about connections and credentials, see [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +51,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Credential Alias
 
 </td><td>
 
-Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
+Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list.
@@ -221,7 +221,7 @@ To access input variables from the **Command** field, you must call them using s
 
     By default, prefix variable names with a $ character. For example, if an input variable is named **message**, use $message to access the variable in script.
 
-    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see MID Server parameters.
+    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **Reserved variables**
 

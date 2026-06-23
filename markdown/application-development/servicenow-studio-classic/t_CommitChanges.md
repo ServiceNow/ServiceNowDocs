@@ -62,7 +62,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
     -   The system identifies all local changes.
     -   The system commits all local changes to the remote repository.
-    **Note:** For list of known files that don’t have customer update records and are untracked, see .
+    **Note:** For list of known files that don’t have customer update records and are untracked, see [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/r_CustomerUpdatesTable.md).
 
 
 **Parent Topic:**[Legacy - Source Control integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/c_SourceControlIntegration.md)

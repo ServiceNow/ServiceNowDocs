@@ -19,7 +19,7 @@ Turn on multi-language support for user-entered text with Dynamic Translation in
 
 ## Before you begin
 
-You must have installed and activated the Dynamic Translation application and installed at least one language pack. For more information, see Activate Dynamic Translation and Activate a language.
+You must have installed and activated the Dynamic Translation application and installed at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 If you don't see a language and region section of your Now Assist Admin console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
 
@@ -31,7 +31,7 @@ There are two translation services available to translate user-generated content
 
 After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the Now Assist panel.
 
-Because the language detection relies on the user's session language, all languages available as language packs are supported for Now Assist applications. If you want to add additional language support, see Activate a language for a list of the available languages and instructions for installation.
+Because the language detection relies on the user's session language, all languages available as language packs are supported for Now Assist applications. If you want to add additional language support, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/t_ActivateALanguage.md) for a list of the available languages and instructions for installation.
 
 ## Procedure
 

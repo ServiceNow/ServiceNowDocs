@@ -46,15 +46,15 @@ You can process only transfer orders that contain parts sourced from a warehouse
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d99609e129">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d99599e129">
 
 To
 
-</th><th align="left" id="d99609e132">
+</th><th align="left" id="d99599e132">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d99609e138">
+</th></tr></thead><tbody><tr><td id="d99599e138">
 
 **Prepare for shipment**
 
@@ -96,7 +96,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d99609e220">
+</td></tr><tr><td id="d99599e220">
 
 **Drop off**
 

@@ -7,7 +7,7 @@ release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configuring Digital End-User Experience, Digital End-User Experience, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d56197e74">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d56235e74">
 
 Browser
 
-</th><th align="left" id="d56197e77">
+</th><th align="left" id="d56235e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d56197e83">
+</th></tr></thead><tbody><tr><td id="d56235e83">
 
 **Google Chrome**
 
@@ -47,7 +47,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d56197e117">
+</td></tr><tr><td id="d56235e117">
 
 **Microsoft Edge**
 

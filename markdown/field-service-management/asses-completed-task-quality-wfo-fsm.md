@@ -26,7 +26,7 @@ You can create an assessment from an interaction or any task type.
 
 When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
-If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score. For more information, see Assess a trainee.
+If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score. For more information, see [Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/coaching/assess-trainee.md).
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -42,15 +42,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d38837e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d38824e109">
 
 To
 
-</th><th align="left" id="d38837e112">
+</th><th align="left" id="d38824e112">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d38837e118">
+</th></tr></thead><tbody><tr><td id="d38824e118">
 
 **Perform adhoc assessments**
 
@@ -65,7 +65,7 @@ The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d38837e158">
+</td></tr><tr><td id="d38824e158">
 
 **Use assessments triggered by coaching opportunities**
 

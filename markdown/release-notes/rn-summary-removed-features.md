@@ -83,7 +83,7 @@ Document Intelligence
 
 </td><td>
 
-Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see .
+Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see [Document Intelligence monitoring dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-monitoring-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ Theme Builder
 
 </td><td>
 
--   Removed the **Apply** button used to apply your theme to web and mobile instances. To publish your theme, use the **Publish** option from the theme card overflow menu. For more information about publishing themes, see Publish your themes with Theme Builder.
+-   Removed the **Apply** button used to apply your theme to web and mobile instances. To publish your theme, use the **Publish** option from the theme card overflow menu. For more information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/tb-apply-theme.md).
 
 </td></tr><tr><td>
 

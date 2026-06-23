@@ -62,7 +62,7 @@ In [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 -   UI policy
 -   Reports
 
-You can also learn how to automate your processes and create business logic for your application in Flows in Workflow Studio.
+You can also learn how to automate your processes and create business logic for your application in [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md).
 
 -   **[Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-app-record.md)**  
 Create an application record in Guided Application Creator to identify a custom application.

@@ -22,7 +22,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
 ## Overview
 
-You can find details on these properties in the  topic. With these properties, you can opt in and out of deletes and choice updates depending on whether you are using your own or a third-party application.
+You can find details on these properties in the [Skipped records that occur during application installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/generation-skip-records-app-installs.md) topic. With these properties, you can opt in and out of deletes and choice updates depending on whether you are using your own or a third-party application.
 
 When you install from source control, however, these records do not skip, except when a global application file is claimed by a different global application. Other than **com.glide.apps.include\_my\_deletes** and **com.glide.apps.include\_global\_deletes** that disable the processing of the author\_elective\_update folder altogether, those properties are not effective for source installed apps.
 

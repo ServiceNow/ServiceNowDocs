@@ -28,9 +28,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Set the user credentials and grant permissions:
 
--   Configure Applicative credentials.
--   For Windows, configure Windows credentials
--   For Unix, configure SSH credentials
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/applicative-creds.md).
+-   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
+-   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 -   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE

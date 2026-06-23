@@ -102,7 +102,7 @@ Use Cloud Native Operations to perform continuous discovery and monitoring of th
 
 </td><td>
 
-Install the Agent Client Collector for Visibility \(ACC-V\) application from the ServiceNow Store and review the  documentation.
+Install the Agent Client Collector for Visibility \(ACC-V\) application from the ServiceNow Store and review the [Agent Client Collector for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/agent-client-collector/acc-visibility-landing-page.md) documentation.
 
 </td></tr><tr><td>
 
@@ -230,7 +230,7 @@ Displays the dispatch map for viewing agents, tasks, and agent routes.
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Deprecated in Xanadu
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see .
+Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/configuring-dispatcher-workspace.md).
 
 </td></tr><tr><td>
 
@@ -262,7 +262,7 @@ Offers ESG frameworks such as authority documents and citations and provides the
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr><tr><td>
 
@@ -310,7 +310,7 @@ Use the HR Service Delivery Agent Workspace to interact with employees, respond 
 
 </td><td>
 
-Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see  and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
+Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 
 </td></tr><tr><td>
 
@@ -406,7 +406,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/sec-center-landing.md).
 
 </td></tr><tr><td>
 
@@ -583,7 +583,7 @@ Allows customers to submit service requests to their provider and monitor these 
 
 </td><td>
 
--   Install the Service Bridge for Consumers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-consumers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Reach out to your Service Bridge Provider to coordinate the migration to the new Service Bridge application. They’ll need to coordinate the migration with you along with any testing. Once ready, they’ll send you a registration link to connect the new application.
 
 </td></tr><tr><td>
@@ -600,7 +600,7 @@ Allows providers to publish catalogs for customers and receive and fulfill custo
 
 </td><td>
 
--   Install the Service Bridge for Providers application from the ServiceNow Store and review the documentation.
+-   Install the [Service Bridge for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/service-exchange/service-bridge-providers-landing-page.md) application from the ServiceNow Store and review the documentation.
 -   Follow the guidance in KB1499823 to: Migrate your configurations Have your consumers install the new Service Bridge for Consumers application from the ServiceNow store. Test the new application with your consumers. Once it has been validated, remove the entitlements for the Service Bridge \(Legacy\) content and entitle the content for Service Bridge for Providers.
 
 </td></tr><tr><td>
@@ -681,7 +681,7 @@ The SASB Accelerator is designed for use with the ESG Management and Reporting a
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/environmental-social-governance/operational-sustainability-management/esg-content-accelerator.md).
 
 </td></tr><tr><td>
 
@@ -782,9 +782,9 @@ Manage medical device-related in-service process, alternative equipment maintena
 
 </td><td>
 
-Enterprise Asset Management for Healthcare requires the CDMv2 SKU. Contact your Account Executive for assistance. -   Install the Enterprise Asset Management for Healthcare application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6bd1ba63c37631106ed63d061840dd22/1.0.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Denterprise%2520asset%2520management%2520for%2520healthcare&sl=sh) and review the configuration guidance in the  documentation.
--   Review the  documentation for creating and managing work orders for your Enterprise Assets.
--    must be installed as a pre-requisite as it is a dependency for EAM for Healthcare.
+Enterprise Asset Management for Healthcare requires the CDMv2 SKU. Contact your Account Executive for assistance. -   Install the Enterprise Asset Management for Healthcare application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/6bd1ba63c37631106ed63d061840dd22/1.0.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Denterprise%2520asset%2520management%2520for%2520healthcare&sl=sh) and review the configuration guidance in the [Install Enterprise Asset Management for healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.md) documentation.
+-   Review the [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md) documentation for creating and managing work orders for your Enterprise Assets.
+-   [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/fsm-application-landing-page.md) must be installed as a pre-requisite as it is a dependency for EAM for Healthcare.
 
 </td></tr><tr><td>
 
@@ -864,7 +864,7 @@ Vendor Success Indicators to utilize Odds Ratio and other ML capabilities for Ve
 
 </td><td>
 
-Install the Vendor Manager Workspace from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/5c66d489fc528b4699eee8535382a8f5/3.3.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dvendor%2520management&sl=sh) and use the KPI Groups feature. Review the  documentation.
+Install the Vendor Manager Workspace from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/5c66d489fc528b4699eee8535382a8f5/3.3.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dvendor%2520management&sl=sh) and use the KPI Groups feature. Review the [Create KPI groups to track metrics for your vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/vendor-management-workspace/create-kpi-groups-vendors-configurable-workspace.md) documentation.
 
 </td></tr><tr><td>
 
@@ -928,7 +928,7 @@ Enables graphical representation of activities over time to provide a high-level
 
 </td><td>
 
-Install the [Portfolio Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9aa0eddcc70c2010d302670f6ec260c4/8.2.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(standard customers\) or [Strategic Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a38ac49ccbf511104abddcbcf7076dec/4.1.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(Pro customers\) application from the ServiceNow Store. Review the  or  documentation for guidance on the roadmap functionality available within these workspaces. Migrate to the Portfolio Planning Workspace \(SPM Standard\) application that provides latest experience for this functionality.
+Install the [Portfolio Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9aa0eddcc70c2010d302670f6ec260c4/8.2.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(standard customers\) or [Strategic Planning](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a38ac49ccbf511104abddcbcf7076dec/4.1.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dportfolio%2520planning&sl=sh) \(Pro customers\) application from the ServiceNow Store. Review the [Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md) or [Roadmaps in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/scenario-planning-in-spw/roadmap-planning-overview.md) documentation for guidance on the roadmap functionality available within these workspaces. Migrate to the Portfolio Planning Workspace \(SPM Standard\) application that provides latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -960,7 +960,7 @@ Data Certification manages scheduled and on-demand validations of the configurat
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See .
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 </td></tr><tr><td>
 
@@ -976,8 +976,8 @@ Planned for deprecation in the Y release
 
 </td><td>
 
-Transition to one of the following alternative applications: -   Use the instance scan tool installed on your instance by default. Review the Product Documentation.
--   Evaluate the HealthScan product available with the ServiceNow Impact packages. Work with your Account Team to procure an Impact package required to use this product.
+Transition to one of the following alternative applications: -   Use the instance scan tool installed on your instance by default. Review the [Product Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md).
+-   Evaluate the [HealthScan product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan.md) available with the [ServiceNow Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-packages.md). Work with your Account Team to procure an Impact package required to use this product.
 
 </td></tr><tr><td>
 
@@ -1009,7 +1009,7 @@ Application Insights provides a centralized location where you can visualize and
 
 </td><td>
 
-Evaluate the  product available with the . Work with your Account Team to procure an Impact package required to use this product.
+Evaluate the [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-overview.md) product available with the [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-packages.md). Work with your Account Team to procure an Impact package required to use this product.
 
 </td></tr><tr><td>
 
@@ -1076,7 +1076,7 @@ Enables a customer to seed domain-specific content to provide implementation gui
 
 </td><td>
 
-Install the Task Intelligence for ITSM application from the ServiceNow Store and use the Task Intelligence Admin Console. For more information, see the  documentation.
+Install the Task Intelligence for ITSM application from the ServiceNow Store and use the Task Intelligence Admin Console. For more information, see the [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md) documentation.
 
 </td></tr><tr><td>
 
@@ -1092,7 +1092,7 @@ Legal Counsel Center Classic enables legal department members to categorize, pri
 
 </td><td>
 
-Install the Legal Counsel Center application from the ServiceNow Store and review the  documentation.
+Install the Legal Counsel Center application from the ServiceNow Store and review the [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md) documentation.
 
 </td></tr><tr><td>
 
@@ -1124,7 +1124,7 @@ This spoke is available in the Store, and it works with ServiceNow's Dynamic Tra
 
 </td><td>
 
-[IBM announced](https://cloud.ibm.com/docs/language-translator?topic=language-translator-about) end of life of the Watson Language Translator with end of support on June 10, 2024 and permanent removal on December 10, 2024. Review the  documentation to explore the available Dynamic Translation services with Google and Microsoft.
+[IBM announced](https://cloud.ibm.com/docs/language-translator?topic=language-translator-about) end of life of the Watson Language Translator with end of support on June 10, 2024 and permanent removal on December 10, 2024. Review the [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) documentation to explore the available Dynamic Translation services with Google and Microsoft.
 
 </td></tr><tr><td>
 
@@ -1172,7 +1172,7 @@ The Knowledge Management v3 homepage will no longer be deployed or activated beg
 
 </td><td>
 
-Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in , and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
+Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in [Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md), and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
 
 </td></tr><tr><td>
 
@@ -1693,7 +1693,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_CMSAndSP.md).
 
 </td><td align="center">
 

@@ -34,15 +34,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record to analyze transcripts and sentiments.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d31927e95">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d31870e95">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d31927e98">
+</th><th align="left" id="d31870e98">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d31927e104">
+</th></tr></thead><tbody><tr><td id="d31870e104">
 
 **From Channels**
 
@@ -55,7 +55,7 @@ Do this
 3.  Select an interaction record.
 
 
-</td></tr><tr><td id="d31927e137">
+</td></tr><tr><td id="d31870e137">
 
 **From Teams**
 
@@ -68,7 +68,7 @@ Do this
 5.  Select an interaction record.
 
 
-</td></tr><tr><td id="d31927e170">
+</td></tr><tr><td id="d31870e170">
 
 **From Coaching**
 
@@ -81,7 +81,7 @@ Do this
 3.  Select an assessment.
 
 
-</td></tr><tr><td id="d31927e203">
+</td></tr><tr><td id="d31870e203">
 
 **From Lists**
 

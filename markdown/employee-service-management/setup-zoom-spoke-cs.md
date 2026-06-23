@@ -16,7 +16,7 @@ breadcrumb: [Configure, ServiceNow for Zoom, Employee Service Management]
 
 Integrate your Zoom account with your  ServiceNow® instance. Create a custom OAuth application in Zoom and authenticate requests from  ServiceNow.
 
-For complete information about setting up a Zoom spoke, see Zoom spoke.
+For complete information about setting up a Zoom spoke, see [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/zoom-spoke.md).
 
 **Parent Topic:**[Configuring Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-sn-zoom.md)
 

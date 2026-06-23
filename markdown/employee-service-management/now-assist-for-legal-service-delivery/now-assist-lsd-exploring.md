@@ -38,7 +38,7 @@ For information on activating the Legal Request summarization skill or the Legal
 
 Q&amp;A Genius Results use the Now LLM Service to generate search results from knowledge article results in Employee Center, Legal Counsel Center, and global search.
 
-The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see .
+The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/genius-results-ais.md).
 
 It is enabled when both AI Search and Now Assist for Legal Service Delivery \(LSD\) are activated.
 

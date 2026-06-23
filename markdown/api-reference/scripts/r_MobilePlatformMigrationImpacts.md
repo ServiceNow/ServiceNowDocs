@@ -98,7 +98,7 @@ Do not make synchronous Ajax calls
 
 </td><td>
 
-The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see AJAX. For information on the available GlideAjax methods, refer to the [GlideAjax API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideAjaxAPI.md).
+The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/p_AJAX.md). For information on the available GlideAjax methods, refer to the [GlideAjax API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideAjaxAPI.md).
 
 </td></tr><tr><td>
 

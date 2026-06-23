@@ -38,7 +38,7 @@ Any role for dashboards that you own or ones that you have been given permission
 
     3.  Mark the dashboard as **Certified** to inform the user that the dashboard is for use across your organization.
 
-        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see .
+        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/certify-db-ac.md).
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces in which the dashboard can be viewed.
 

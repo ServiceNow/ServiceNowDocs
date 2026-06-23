@@ -112,7 +112,7 @@ Navigate to **Performance Analytics** &gt; **Dashboards** and select the desired
 **Related topics**  
 
 
-[bundle-itbm.c_ITFinance]
+[Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_ITFinance.md)
 
-[bundle-itbm.c_TheITFinanceWorkbench]
+[Financial Management Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_TheITFinanceWorkbench.md)
 

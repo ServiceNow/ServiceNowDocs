@@ -40,7 +40,7 @@ You can also summarize the chat interaction when the chat ends or when an incide
 
 4.  Summarize the chat while interacting with the requester by using the `/summarize` quick action in the **Active Chat** section.
 
-    For more information, see .
+    For more information, see [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-chat-summary.md).
 
 5.  End the chat by selecting **End Chat**.
 

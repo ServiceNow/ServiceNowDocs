@@ -28,7 +28,7 @@ After creating a guidance, you can configure a preview experience \(card view\) 
 
 ## Recommended Actions component configuration
 
-Recommended Actions is a component that you can add to a record page in UI Builder. This component displays a list of recommended actions to an agent, based on the context of the current record.
+Recommended Actions is a component that you can add to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md). This component displays a list of recommended actions to an agent, based on the context of the current record.
 
 You can use the Recommended Actions component properties to configure additional guidance settings. For more information about configuring the Recommended Actions component, including the properties and events, in the [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/components) documentation.
 

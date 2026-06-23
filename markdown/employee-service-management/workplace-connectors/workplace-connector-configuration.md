@@ -46,7 +46,7 @@ Role required: sn\_wsd\_wc.admin
 
     \[Omitted image "connector-configuration-new.png"\] Alt text: Extension point definition.
 
-    For more information, see .
+    For more information, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 7.  Select **Submit** to save the connector configuration.
 

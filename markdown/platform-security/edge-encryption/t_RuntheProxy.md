@@ -32,7 +32,7 @@ Before starting the encryption proxy, verify the following:
 
 1.  Run the proxy server.
 
-<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d64082e93">
+<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d64338e93">
 
 **On a Linux machine**
 
@@ -42,7 +42,7 @@ Before starting the encryption proxy, verify the following:
 2.  Execute `./startup.sh`
 
 
-</td></tr><tr><td id="d64082e117">
+</td></tr><tr><td id="d64338e117">
 
 **On a Windows machine**
 

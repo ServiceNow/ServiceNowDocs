@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -68,7 +68,7 @@ Search
 
 Now LLM Service is currently the only provider for this Now Assist application's skills.
 
-To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Check out the Now Assist Journey Checklist
+To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Check out the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)
 
 The following plug-ins and store apps are required for use of Now Assist for Public Sector Digital Services \(PSDS\) and its features, such as AI Search and summarization skills:
 
@@ -111,5 +111,5 @@ Your Now Assist Admin console is successfully configured with the necessary plug
 
 ## What to do next
 
- or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/government-industry/public-sector-digital-services/now-assist-psds-configure-skill.md)
+[Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/government-industry/public-sector-digital-services/now-assist-psds-configure-skill.md)
 

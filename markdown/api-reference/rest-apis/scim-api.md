@@ -1988,7 +1988,7 @@ HTTP status code for the error response.Data type: String
 
 displayName
 
-</td><td id="d3039e890">
+</td><td id="d3005e890">
 
 Human-readable name of the group, such as HR Team.Data type: String
 
@@ -1996,7 +1996,7 @@ Human-readable name of the group, such as HR Team.Data type: String
 
 externalId
 
-</td><td id="d3039e902">
+</td><td id="d3005e902">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -2103,7 +2103,7 @@ SCIM Groups' resource type.Data type: String
 
 schemas
 
-</td><td id="d3039e1029">
+</td><td id="d3005e1029">
 
 List of URIs of the SCIM Group schemas used to process the request.
 
@@ -2466,7 +2466,7 @@ Description
 
 company
 
-</td><td id="d3039e834">
+</td><td id="d3005e834">
 
 Details about the group's company or organization.Data type: Object
 
@@ -2482,7 +2482,7 @@ Details about the group's company or organization.Data type: Object
 
 company.display
 
-</td><td id="d3039e848">
+</td><td id="d3005e848">
 
 Name of the company.Data type: String
 
@@ -2490,7 +2490,7 @@ Name of the company.Data type: String
 
 company.$ref
 
-</td><td id="d3039e859">
+</td><td id="d3005e859">
 
 Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such as: `http://instance-servicenow.com/api/now/scim/Companies/81fd65ecac1d55eb42a426568fc87a63`.
 
@@ -2500,7 +2500,7 @@ Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such a
 
 company.value
 
-</td><td id="d3039e879">
+</td><td id="d3005e879">
 
 Sys\_id of the associated company.Data type: String
 
@@ -2516,7 +2516,7 @@ Human-readable name of the group, such as HR Team.Data type: String
 
 externalId
 
-</td><td id="d3039e902">
+</td><td id="d3005e902">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -2981,7 +2981,7 @@ Description
 
 company
 
-</td><td id="d3039e834">
+</td><td id="d3005e834">
 
 Details about the group's company or organization.Data type: Object
 
@@ -2997,7 +2997,7 @@ Details about the group's company or organization.Data type: Object
 
 company.display
 
-</td><td id="d3039e848">
+</td><td id="d3005e848">
 
 Name of the company.Data type: String
 
@@ -3005,7 +3005,7 @@ Name of the company.Data type: String
 
 company.$ref
 
-</td><td id="d3039e859">
+</td><td id="d3005e859">
 
 Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such as: `http://instance-servicenow.com/api/now/scim/Companies/81fd65ecac1d55eb42a426568fc87a63`.
 
@@ -3015,7 +3015,7 @@ Reference URI of the company.Format: `<host>/Companies/<company sys_id>`, such a
 
 company.value
 
-</td><td id="d3039e879">
+</td><td id="d3005e879">
 
 Sys\_id of the associated company.Data type: String
 
@@ -3023,7 +3023,7 @@ Sys\_id of the associated company.Data type: String
 
 displayName
 
-</td><td id="d3039e890">
+</td><td id="d3005e890">
 
 Human-readable name of the group, such as HR Team.Data type: String
 
@@ -3080,7 +3080,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3039e902">
+</td><td id="d3005e902">
 
 Unique identifier assigned to the group by the entity provisioning it.Data type: String
 
@@ -6995,7 +6995,7 @@ Description
 
 active
 
-</td><td id="d3039e1089">
+</td><td id="d3005e1089">
 
 Flag that indicates whether the associated user is active within the ServiceNow instance.Possible values:
 
@@ -7008,7 +7008,7 @@ Flag that indicates whether the associated user is active within the ServiceNow 
 
 addresses
 
-</td><td id="d3039e1114">
+</td><td id="d3005e1114">
 
 Details of the user's current mailing address.Data type: Object
 
@@ -7027,7 +7027,7 @@ Details of the user's current mailing address.Data type: Object
 
 addresses.country
 
-</td><td id="d3039e1128">
+</td><td id="d3005e1128">
 
 Country name.Data type: String
 
@@ -7035,7 +7035,7 @@ Country name.Data type: String
 
 addresses.locality
 
-</td><td id="d3039e1139">
+</td><td id="d3005e1139">
 
 City or locality name.Data type: String
 
@@ -7043,7 +7043,7 @@ City or locality name.Data type: String
 
 addresses.postalCode
 
-</td><td id="d3039e1150">
+</td><td id="d3005e1150">
 
 Zip or postal code.Data type: String
 
@@ -7051,7 +7051,7 @@ Zip or postal code.Data type: String
 
 addresses.region
 
-</td><td id="d3039e1162">
+</td><td id="d3005e1162">
 
 State or region.Data type: String
 
@@ -7059,7 +7059,7 @@ State or region.Data type: String
 
 addresses.streetAddress
 
-</td><td id="d3039e1173">
+</td><td id="d3005e1173">
 
 Full street address. This can include the house number, street name, PO Box, and multi-line extended street address information.Data type: String
 
@@ -7067,7 +7067,7 @@ Full street address. This can include the house number, street name, PO Box, and
 
 addresses.type
 
-</td><td id="d3039e1184">
+</td><td id="d3005e1184">
 
 Type of address. Currently only supports `home`.Data type: String
 
@@ -7075,7 +7075,7 @@ Type of address. Currently only supports `home`.Data type: String
 
 displayName
 
-</td><td id="d3039e1198">
+</td><td id="d3005e1198">
 
 User display name. This value is auto-generated by concatenating the **name** fields. Data type: String
 
@@ -7083,7 +7083,7 @@ User display name. This value is auto-generated by concatenating the **name** fi
 
 emails
 
-</td><td id="d3039e1212">
+</td><td id="d3005e1212">
 
 List of email accounts associated with the user.Data type: Array of Objects
 
@@ -7100,7 +7100,7 @@ List of email accounts associated with the user.Data type: Array of Objects
 
 emails.type
 
-</td><td id="d3039e1226">
+</td><td id="d3005e1226">
 
 User email type. Currently only supports type of "work".Data type: String
 
@@ -7108,7 +7108,7 @@ User email type. Currently only supports type of "work".Data type: String
 
 emails.value
 
-</td><td id="d3039e1238">
+</td><td id="d3005e1238">
 
 User's email address. This is a unique key for the associated user.Data type: String
 
@@ -7165,7 +7165,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3039e1249">
+</td><td id="d3005e1249">
 
 Unique identifier assigned to the user by the entity provisioning it.Data type: String
 
@@ -7281,7 +7281,7 @@ SCIM Users' resource type.Data type: String
 
 name
 
-</td><td id="d3039e1389">
+</td><td id="d3005e1389">
 
 User's name information.Data type: Object
 
@@ -7298,7 +7298,7 @@ User's name information.Data type: Object
 
 name.familyName
 
-</td><td id="d3039e1403">
+</td><td id="d3005e1403">
 
 User's family or last name.Data type: String
 
@@ -7306,7 +7306,7 @@ User's family or last name.Data type: String
 
 name.givenName
 
-</td><td id="d3039e1414">
+</td><td id="d3005e1414">
 
 User's given or first name.Data type: String
 
@@ -7314,7 +7314,7 @@ User's given or first name.Data type: String
 
 name.honorificPrefix
 
-</td><td id="d3039e1425">
+</td><td id="d3005e1425">
 
 User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
@@ -7322,7 +7322,7 @@ User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
 name.middle
 
-</td><td id="d3039e1436">
+</td><td id="d3005e1436">
 
 User's middle name.Data type: String
 
@@ -7330,7 +7330,7 @@ User's middle name.Data type: String
 
 phoneNumbers
 
-</td><td id="d3039e1448">
+</td><td id="d3005e1448">
 
 List of phone numbers associated with the user.Data type: Array of Objects
 
@@ -7347,7 +7347,7 @@ List of phone numbers associated with the user.Data type: Array of Objects
 
 phoneNumbers.type
 
-</td><td id="d3039e1462">
+</td><td id="d3005e1462">
 
 Type of phone number.Possible values:
 
@@ -7361,7 +7361,7 @@ Type of phone number.Possible values:
 
 phoneNumbers.value
 
-</td><td id="d3039e1488">
+</td><td id="d3005e1488">
 
 User's phone number.Data type: String
 
@@ -7369,7 +7369,7 @@ User's phone number.Data type: String
 
 preferredLanguage
 
-</td><td id="d3039e1499">
+</td><td id="d3005e1499">
 
 User's preferred spoken and written language.Data type: String
 
@@ -7385,7 +7385,7 @@ List of URIs of the SCIM User schemas used to process the request.Data type: Arr
 
 timezone
 
-</td><td id="d3039e1521">
+</td><td id="d3005e1521">
 
 User's time zone.Data type: String
 
@@ -7393,7 +7393,7 @@ User's time zone.Data type: String
 
 title
 
-</td><td id="d3039e1533">
+</td><td id="d3005e1533">
 
 User's title, such as CEO or President.Data type: String
 
@@ -7409,7 +7409,7 @@ Unique user name for the associated user. Data type: String
 
 userType
 
-</td><td id="d3039e1557">
+</td><td id="d3005e1557">
 
 User type. This value is used to identify the organization to user relationship.This can be any value, but typical values might include:
 
@@ -8041,7 +8041,7 @@ Description
 
 active
 
-</td><td id="d3039e1089">
+</td><td id="d3005e1089">
 
 Flag that indicates whether the associated user is active within the ServiceNow instance.Possible values:
 
@@ -8054,7 +8054,7 @@ Flag that indicates whether the associated user is active within the ServiceNow 
 
 addresses
 
-</td><td id="d3039e1114">
+</td><td id="d3005e1114">
 
 Details of the user's current mailing address.Data type: Object
 
@@ -8073,7 +8073,7 @@ Details of the user's current mailing address.Data type: Object
 
 addresses.country
 
-</td><td id="d3039e1128">
+</td><td id="d3005e1128">
 
 Country name.Data type: String
 
@@ -8081,7 +8081,7 @@ Country name.Data type: String
 
 addresses.locality
 
-</td><td id="d3039e1139">
+</td><td id="d3005e1139">
 
 City or locality name.Data type: String
 
@@ -8089,7 +8089,7 @@ City or locality name.Data type: String
 
 addresses.postalCode
 
-</td><td id="d3039e1150">
+</td><td id="d3005e1150">
 
 Zip or postal code.Data type: String
 
@@ -8097,7 +8097,7 @@ Zip or postal code.Data type: String
 
 addresses.region
 
-</td><td id="d3039e1162">
+</td><td id="d3005e1162">
 
 State or region.Data type: String
 
@@ -8105,7 +8105,7 @@ State or region.Data type: String
 
 addresses.streetAddress
 
-</td><td id="d3039e1173">
+</td><td id="d3005e1173">
 
 Full street address. This can include the house number, street name, PO Box, and multi-line extended street address information.Data type: String
 
@@ -8113,7 +8113,7 @@ Full street address. This can include the house number, street name, PO Box, and
 
 addresses.type
 
-</td><td id="d3039e1184">
+</td><td id="d3005e1184">
 
 Type of address. Currently only supports `home`.Data type: String
 
@@ -8121,7 +8121,7 @@ Type of address. Currently only supports `home`.Data type: String
 
 displayName
 
-</td><td id="d3039e1198">
+</td><td id="d3005e1198">
 
 User display name. This value is auto-generated by concatenating the **name** fields. Data type: String
 
@@ -8129,7 +8129,7 @@ User display name. This value is auto-generated by concatenating the **name** fi
 
 emails
 
-</td><td id="d3039e1212">
+</td><td id="d3005e1212">
 
 List of email accounts associated with the user.Data type: Array of Objects
 
@@ -8146,7 +8146,7 @@ List of email accounts associated with the user.Data type: Array of Objects
 
 emails.type
 
-</td><td id="d3039e1226">
+</td><td id="d3005e1226">
 
 User email type. Currently only supports type of "work".Data type: String
 
@@ -8154,7 +8154,7 @@ User email type. Currently only supports type of "work".Data type: String
 
 emails.value
 
-</td><td id="d3039e1238">
+</td><td id="d3005e1238">
 
 User's email address. This is a unique key for the associated user.Data type: String
 
@@ -8211,7 +8211,7 @@ HTTP status code for the error response.Data type: String
 
 externalId
 
-</td><td id="d3039e1249">
+</td><td id="d3005e1249">
 
 Unique identifier assigned to the user by the entity provisioning it.Data type: String
 
@@ -8327,7 +8327,7 @@ SCIM Users' resource type.Data type: String
 
 name
 
-</td><td id="d3039e1389">
+</td><td id="d3005e1389">
 
 User's name information.Data type: Object
 
@@ -8344,7 +8344,7 @@ User's name information.Data type: Object
 
 name.familyName
 
-</td><td id="d3039e1403">
+</td><td id="d3005e1403">
 
 User's family or last name.Data type: String
 
@@ -8352,7 +8352,7 @@ User's family or last name.Data type: String
 
 name.givenName
 
-</td><td id="d3039e1414">
+</td><td id="d3005e1414">
 
 User's given or first name.Data type: String
 
@@ -8360,7 +8360,7 @@ User's given or first name.Data type: String
 
 name.honorificPrefix
 
-</td><td id="d3039e1425">
+</td><td id="d3005e1425">
 
 User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
@@ -8368,7 +8368,7 @@ User's honorific name or title, such as Dr., Bishop, or Baron.Data type: String
 
 name.middle
 
-</td><td id="d3039e1436">
+</td><td id="d3005e1436">
 
 User's middle name.Data type: String
 
@@ -8376,7 +8376,7 @@ User's middle name.Data type: String
 
 phoneNumbers
 
-</td><td id="d3039e1448">
+</td><td id="d3005e1448">
 
 List of phone numbers associated with the user.Data type: Array of Objects
 
@@ -8393,7 +8393,7 @@ List of phone numbers associated with the user.Data type: Array of Objects
 
 phoneNumbers.type
 
-</td><td id="d3039e1462">
+</td><td id="d3005e1462">
 
 Type of phone number.Possible values:
 
@@ -8407,7 +8407,7 @@ Type of phone number.Possible values:
 
 phoneNumbers.value
 
-</td><td id="d3039e1488">
+</td><td id="d3005e1488">
 
 User's phone number.Data type: String
 
@@ -8415,7 +8415,7 @@ User's phone number.Data type: String
 
 preferredLanguage
 
-</td><td id="d3039e1499">
+</td><td id="d3005e1499">
 
 User's preferred spoken and written language.Data type: String
 
@@ -8431,7 +8431,7 @@ List of URIs of the SCIM User schemas used to process the request.Data type: Arr
 
 timezone
 
-</td><td id="d3039e1521">
+</td><td id="d3005e1521">
 
 User's time zone.Data type: String
 
@@ -8439,7 +8439,7 @@ User's time zone.Data type: String
 
 title
 
-</td><td id="d3039e1533">
+</td><td id="d3005e1533">
 
 User's title, such as CEO or President.Data type: String
 
@@ -8455,7 +8455,7 @@ Unique user name for the associated user. Data type: String
 
 userType
 
-</td><td id="d3039e1557">
+</td><td id="d3005e1557">
 
 User type. This value is used to identify the organization to user relationship.This can be any value, but typical values might include:
 
@@ -8603,7 +8603,7 @@ Reference URI for the department.Data type: String
 
 employeeNumber
 
-</td><td id="d3039e1767">
+</td><td id="d3005e1767">
 
 Numeric or alphanumeric employee number.Data type: String
 
@@ -8611,7 +8611,7 @@ Numeric or alphanumeric employee number.Data type: String
 
 gender
 
-</td><td id="d3039e1778">
+</td><td id="d3005e1778">
 
 Gender of the user, such as male or female.Data type: String
 

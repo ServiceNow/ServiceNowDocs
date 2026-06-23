@@ -140,7 +140,7 @@ Subscription model
 
 </td><td>
 
-Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See .
+Not applicable for ServiceNow customers who build custom applications for their own use. Used only by partners who sell and monitor the usage of resellable applications on the ServiceNow Store.Specifies how the Subscription Management application tracks usage. See [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/types-subscription-v2.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -164,7 +164,7 @@ User role
 
 </td><td>
 
-Select the user role required to access the application menu. For more information about user roles, see Create a role Create a role.
+Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateARole.md) [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateARole.md).
 
 </td></tr><tr><td>
 

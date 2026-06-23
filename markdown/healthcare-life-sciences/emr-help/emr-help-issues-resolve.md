@@ -16,7 +16,7 @@ breadcrumb: [Resolving EMR Help requests, EMR Help, Healthcare and Life Sciences
 
 Work on task records that are automatically created when clinicians submit ServiceNow IT service requests from an EMR system.
 
-Ensure that an administrator has added the EMR Incident Data related list to the Incident form. For more information, see Configuring the form layout.
+Ensure that an administrator has added the EMR Incident Data related list to the Incident form. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
 
 Incidents are the task type configured by default with the EMR Help application.
 

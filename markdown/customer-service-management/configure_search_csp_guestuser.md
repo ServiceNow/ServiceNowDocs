@@ -20,11 +20,11 @@ An administrator activates the AI search widgets so that guest users logging in 
 
 Role required: admin
 
-You must configure AI Search for the Customer and Consumer Service Portals. For more information, see Enable and configure AI Search in Service Portal.
+You must configure AI Search for the Customer and Consumer Service Portals. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 ## About this task
 
-You must enable the Typeahead Search for the unauthenticated users to use the AI search feature. For more information on the widgets, see Typeahead Search widget.
+You must enable the Typeahead Search for the unauthenticated users to use the AI search feature. For more information on the widgets, see [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/typeahead-search-widget.md).
 
 ## Procedure
 

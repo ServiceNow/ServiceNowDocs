@@ -107,5 +107,5 @@ Saves the list in one of the supported formats: Excel, CSV, JSON, PDF.
 **Related topics**  
 
 
-[bundle-platux.work-with-lists]
+[Work with lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/work-with-lists.md)
 

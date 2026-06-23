@@ -16,7 +16,7 @@ Assign roles to control access to features, capabilities, and data in the Redox 
 
 ## Before you begin
 
--   Set the application scope to Redox Inbound Integration using the application picker. For more information, see Application picker.
+-   Set the application scope to Redox Inbound Integration using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
 -   [Create a user for Redox Inbound Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/hcls-redox-create-user.md).
 
 Role required: sn\_hcls.admin or admin
@@ -46,6 +46,6 @@ Administers who can access the Redox Inbound Integration application.
 
 -   Assign the sn\_hcls.admin role to the user for the Redox Inbound Integration application.
 
-    For more information, see Assign a role to a user.
+    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 

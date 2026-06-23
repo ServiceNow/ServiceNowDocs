@@ -64,7 +64,7 @@ After you mine the project, the Project Definition for Process Minings \(sn\_tea
 
     All the assignment groups associated with the KPI group for which you’ve created the project are updated in the filter condition of the table configuration.
 
-    For more information on mining data, see Generate a model.
+    For more information on mining data, see [Generate a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/generate-process-map.md).
 
     After any previous versions of Team Performance are upgraded to the latest version \(Team Performance App Version: 7.0.1\), all the previous projects will be removed for KPI groups that had multiple projects for assignment groups and new projects will be created for each of them.
 

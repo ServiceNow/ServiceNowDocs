@@ -28,7 +28,7 @@ Configure mobile web screens to leverage the ServiceNow platform playbook featur
 
 Configuring seismic pages with Mobile App Bridge involves the following tools and tasks:
 
--   Create a Now Experience Framework page in  by leveraging the Mobile App Bridge.
+-   Create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md) by leveraging the Mobile App Bridge.
 -   Create a mobile web screen using Mobile App Builder \(MAB\).
 -   Add the Now Experience Framework page to mobile devices by specifying the page URL in the **URL** field of the MAB mobile web screen configuration form.
 

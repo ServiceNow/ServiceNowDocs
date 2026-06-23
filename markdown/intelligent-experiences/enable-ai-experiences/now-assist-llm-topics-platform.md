@@ -25,9 +25,9 @@ Unlike NLU topics, LLMs don't require models, intents, or keywords to be linked 
 
 For more information, see the following topics:
 
--   
--   
--   
+-   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
+-   [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/va-llm.md)
+-   [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md)
 
 **Parent Topic:**[Now Assist conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-platform-conv-experience.md)
 

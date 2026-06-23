@@ -38,15 +38,15 @@ Agents can change the location of products at the order line level by using the 
 
 5.  In the **Copy line items** window, choose any one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d37743e119">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d37664e119">
 
  
 
-</th><th align="left" id="d37743e121">
+</th><th align="left" id="d37664e121">
 
  
 
-</th></tr></thead><tbody><tr><td id="d37743e126">
+</th></tr></thead><tbody><tr><td id="d37664e126">
 
 **Keep original location**
 
@@ -54,7 +54,7 @@ Agents can change the location of products at the order line level by using the 
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d37743e135">
+</td></tr><tr><td id="d37664e135">
 
 **Choose new location**
 

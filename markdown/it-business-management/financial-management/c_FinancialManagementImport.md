@@ -21,7 +21,7 @@ You can import financial data into the General Ledger Staged Data \[itfm\_gl\_da
 -   Import sets
 -   Easy import
 
-See Import sets.
+See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
 **Important:** Be sure that your fiscal calendar can be used with your financial data.
 

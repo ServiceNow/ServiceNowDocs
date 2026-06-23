@@ -48,15 +48,15 @@ Role required: sn\_shop.procurement\_specialist
 
 9.  Do one of these actions.
 
-<table id="choicetable_bhm_f5c_htb"><thead><tr><th align="left" id="d77578e153">
+<table id="choicetable_bhm_f5c_htb"><thead><tr><th align="left" id="d77602e153">
 
 Action
 
-</th><th align="left" id="d77578e156">
+</th><th align="left" id="d77602e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77578e162">
+</th></tr></thead><tbody><tr><td id="d77602e162">
 
 **Save**
 
@@ -64,7 +64,7 @@ Description
 
 Saves the details of the negotiation event for further action.
 
-</td></tr><tr><td id="d77578e171">
+</td></tr><tr><td id="d77602e171">
 
 **Cancel**
 
@@ -72,7 +72,7 @@ Saves the details of the negotiation event for further action.
 
 Cancels the negotiation event and moves all its negotiations and associated sourcing requests and purchase lines to the Closed Cancelled state. This negotiation event is no longer considered for the awarding process.
 
-</td></tr><tr><td id="d77578e180">
+</td></tr><tr><td id="d77602e180">
 
 **Award single supplier**
 
@@ -80,7 +80,7 @@ Cancels the negotiation event and moves all its negotiations and associated sour
 
 Opens the **Select a supplier to award** dialog box, where you can select one of the suppliers from the list and select **OK** to award the supplier. The awarded negotiation moves to the Closed Decided state while all the others move to Closed Rejected. The purchase lines for the awarded negotiation are automatically converted to purchase requisitions.
 
-</td></tr><tr><td id="d77578e195">
+</td></tr><tr><td id="d77602e195">
 
 **Award multiple suppliers**
 
@@ -90,7 +90,7 @@ Opens the **Award suppliers** tab, where you can select one or more suppliers fr
 
  For information on more options that are available to you on this tab, see [Award multiple suppliers from a negotiation event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.md).
 
-</td></tr><tr><td id="d77578e224">
+</td></tr><tr><td id="d77602e224">
 
 **Reject bids**
 

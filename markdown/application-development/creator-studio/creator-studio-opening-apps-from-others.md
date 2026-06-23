@@ -26,7 +26,7 @@ For more information, see the following products:
 
 -   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 -   [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-overview.md)
--   
+-   [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder.md)
 
 ## Opening apps built in other products in Creator Studio
 

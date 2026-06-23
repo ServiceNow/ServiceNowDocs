@@ -95,7 +95,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
+Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Signing type
 
 </td><td>
 
-Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/adobe-sign-doc.md), Digital Signature - Smart Cards.
+Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/digital-signature.md).
 
 **Note:** Signing Types are available only when respective integration plugins are installed.
 

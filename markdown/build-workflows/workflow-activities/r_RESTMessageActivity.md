@@ -16,9 +16,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **REST Message** activity enables an administrator to override the REST endpoint or supply the variables configured in the REST Message module.
 
-This activity is deprecated in the Xanadu release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the Orchestration REST Activity templates instead.
+This activity is deprecated in the Xanadu release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/r-orchestration.md) REST Activity templates instead.
 
-Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must re-activate the activity.
+Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/t_ReactivateDeprecatedActivity.md).
 
 The **REST Message** activity executes a dead link REST function \(POST, PUT, GET, or DELETE\) on an endpoint using values defined in the function record.
 

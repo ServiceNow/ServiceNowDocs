@@ -18,7 +18,7 @@ IT Service Management \(ITSM\) includes the following base system components use
 
 ## Contexts in Recommended Actions for ITSM
 
- A context enables agents to see recommendations for a specific type of record when certain rules are met. These recommendations can help agents by suggesting actions to take based on the record context.  For more information, see .
+ A context enables agents to see recommendations for a specific type of record when certain rules are met. These recommendations can help agents by suggesting actions to take based on the record context.  For more information, see [Contexts in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-contexts.md).
 
 The ITSM base system ships the following contexts:
 
@@ -33,11 +33,11 @@ The ITSM base system ships the following contexts:
 
 For more information about the field description of this context, see [Contexts in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/contexts-in-recommended-actions-for-itsm.md).
 
-**Note:** To create a context, see .
+**Note:** To create a context, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-contexts-create.md).
 
 ## Rules in Recommended Actions for ITSM
 
-A rule is a set of conditions that applies to a context. A rule shows recommendations to agents with certain roles for records that meet certain conditions. For more information, see .
+A rule is a set of conditions that applies to a context. A rule shows recommendations to agents with certain roles for records that meet certain conditions. For more information, see [Rules in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-rules.md).
 
 The ITSM base system includes the following rules:
 
@@ -50,15 +50,15 @@ The ITSM base system includes the following rules:
 
 For more information about the field descriptions of these rules, see [Rules in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/rules-in-recommended-actions-for-itsm.md).
 
-**Note:** To create a rule, see .
+**Note:** To create a rule, see [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-rules-create.md).
 
 ## Recommendations in Recommended Actions for ITSM
 
-A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs. For more information, see .
+A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-recommendations.md).
 
-For more information about recommendation types, see .
+For more information about recommendation types, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-recommendations.md).
 
-**Note:** To create a recommendation, see .
+**Note:** To create a recommendation, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-recommendations-create.md).
 
 The ITSM base system includes Guidance-based recommendations and Field-level recommendation types.
 
@@ -98,7 +98,7 @@ The ITSM base system includes the following field-level recommendations:
 
 For more information about the field-level recommendations field descriptions, see [Field level recommendations in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/field-level-recommendations-in-recommended-actions-for-itsm.md).
 
-**Note:** To create a guidance and field recommendations, see .
+**Note:** To create a guidance and field recommendations, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
 ## Resource generators in Recommended Actions for ITSM
 
@@ -123,9 +123,9 @@ The ITSM base system includes the following resource generators:
 
 For more information about the field descriptions of resource generators, see [Resource generators in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/resource-generators-in-recommended-actions-for-itsm.md).
 
-For more information about the types of resource generator, see .
+For more information about the types of resource generator, see [Resource generators in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-resource-generators.md).
 
-**Note:** To create a resource generator, see .
+**Note:** To create a resource generator, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-resource-generators-create.md).
 
 ## Guidances
 
@@ -154,7 +154,7 @@ The ITSM base system includes the following guidance:
 
 For more information about the field descriptions of the guidance, see [Guidances in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/guidances-in-recommended-actions-for-itsm.md).
 
-**Note:** To create guidance, see .
+**Note:** To create guidance, see [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/ra-csm-guidances-create.md).
 
 ## Search result mappings
 

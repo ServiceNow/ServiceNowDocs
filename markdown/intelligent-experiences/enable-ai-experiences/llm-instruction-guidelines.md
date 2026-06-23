@@ -232,9 +232,9 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   
--   
--   
+-   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/overview-ais.md)
+-   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/now-assist-ais.md)
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
 -   [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)
 -   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/na-ai-agents.md)
 
@@ -242,13 +242,13 @@ For more information about configuring sources for skill or AI agent use, see th
 
 |Skill|Reference|
 |-----|---------|
-|App generation||
-|Analytics generation||
-|Catalog item generation||
-|Code generation||
-|Flow generation||
-|LLM topic skill for Virtual Agent||
+|App generation|[General guidelines for using app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)|
+|Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/example-questions-generating-dv.md)|
+|Catalog item generation|[How to describe a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)|
+|Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/general-guidelines-code-generation.md)|
+|Flow generation|[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-generation.md)|
+|LLM topic skill for Virtual Agent|[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md)|
 |Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
-|RPA bot generation|General guidelines for RPA bot generation|
-|UI generation||
+|RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)|
+|UI generation|[General guidelines experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/general-guidelines-ui-generation.md)|
 

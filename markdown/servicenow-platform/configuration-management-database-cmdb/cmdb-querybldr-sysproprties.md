@@ -81,7 +81,7 @@ Batch size allocated globally when saved queries run.
 
  -   Type: integer
 -   Default value: 100
--   Location: Add to System Properties \[sys\_properties\] table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) table.
 
 </td></tr></tbody>
 </table>

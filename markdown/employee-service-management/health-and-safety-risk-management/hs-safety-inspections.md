@@ -20,7 +20,7 @@ Safety inspections and audits within the Health and Safety Workspace enhance the
 
 The safety inspections and audits are built on the ServiceNow® Assessments and Surveys and provide the following capabilities:
 
--   Build and manage safety inspections and audits. Use surveys available with the application or build new ones with the Survey designer. For more information, see .
+-   Build and manage safety inspections and audits. Use surveys available with the application or build new ones with the Survey designer. For more information, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).
 -   Schedule inspections and audits at regular intervals with the Inspection Scheduler and Audit Scheduler.
 -   Conduct inspection and audit surveys through Employee Center or on Now Mobile app.
 -   Complete inspection and audit surveys offline through the Mobile Agent app. Surveys completed offline are synchronized once an internet connection is established. For more information, see [Complete a safety inspection or audit survey in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.md).

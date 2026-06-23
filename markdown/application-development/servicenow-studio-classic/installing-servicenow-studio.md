@@ -16,7 +16,7 @@ breadcrumb: [Configuring ServiceNow Studio, Building applications with ServiceNo
 
 ServiceNow Studio is available for you to use on the ServiceNow AI Platform. You can also access premium features with an App Engine Enterprise license.
 
-ServiceNow Studio is free to install and configure from the ServiceNow Store. If your company has an App Engine Enterprise license, you can install additional plug-ins to use in ServiceNow Studio. For instructions on installing ServiceNow Studio and other products from the ServiceNow Store, see .
+ServiceNow Studio is free to install and configure from the ServiceNow Store. If your company has an App Engine Enterprise license, you can install additional plug-ins to use in ServiceNow Studio. For instructions on installing ServiceNow Studio and other products from the ServiceNow Store, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
 After ServiceNow Studio is installed on an instance, no other configurations must happen.
 

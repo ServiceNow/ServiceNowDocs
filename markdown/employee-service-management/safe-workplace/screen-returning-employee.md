@@ -26,21 +26,21 @@ Conduct a health screen before people enter a location, such as employees return
 
 The following procedure includes the steps your organization might use in setting up health screening. Some of the steps might not be applicable to your location.
 
-**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
+**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-integration-safe-workplace.md).
 
 ## Procedure
 
 1.  Open the QR code scanning or requirement status page based on the type of device that you're using.
 
-<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d71956e92">
+<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d71740e92">
 
 Platform
 
-</th><th align="left" id="d71956e95">
+</th><th align="left" id="d71740e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d71956e101">
+</th></tr></thead><tbody><tr><td id="d71740e101">
 
 **Smartphone or tablet**
 
@@ -48,7 +48,7 @@ Action
 
 From the Now Mobile **Health** screen under the **Health Screening** section, tap **Scan for Entry**.Scan the code that the person presents on their mobile device or on paper. If there is no QR code, enter the user ID in the **User ID** field, for example, `john.smith`.
 
-</td></tr><tr><td id="d71956e131">
+</td></tr><tr><td id="d71740e131">
 
 **Computer**
 
@@ -67,15 +67,15 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 
 3.  Perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d71956e202">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d71740e202">
 
 Platform
 
-</th><th align="left" id="d71956e205">
+</th><th align="left" id="d71740e205">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d71956e211">
+</th></tr></thead><tbody><tr><td id="d71740e211">
 
 **Smartphone or tablet**
 
@@ -83,7 +83,7 @@ Action
 
 Tap **Health Screen** on the Scan for entry page.
 
-</td></tr><tr><td id="d71956e223">
+</td></tr><tr><td id="d71740e223">
 
 **Computer**
 

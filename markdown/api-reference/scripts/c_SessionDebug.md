@@ -25,7 +25,7 @@ The system provides the following session debugging options.
 |Enable All|Displays all available debugging messages.|
 |Disable All|Stops displaying all debugging messages.|
 |Debug Business Rule|Displays debugging messages for business rules. If there are business rules from multiple applications affecting a table or record, the system displays which application the business rule comes from.|
-|Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session. See Debug Upgrade .|
+|Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session. See [Debug Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/debug-upgrade.md) .|
 |Debug Business Rule \(Details\)|Displays debugging messages for business rules and any changes made by business rules. If there are business rules from multiple applications affecting a table or record, the system displays which application the business rule comes from.|
 |Debug Log|Displays all log entries.|
 |Debug NLQ|Displays debugging messages for Natural Language Query \(NLQ\) queries.|

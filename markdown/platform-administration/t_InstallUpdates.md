@@ -38,7 +38,7 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-cadev.t_AddADeveloper]
+[Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 
-[bundle-cadev.delegated_deployment_user_roles]
+[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
 

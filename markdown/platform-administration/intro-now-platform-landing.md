@@ -140,7 +140,7 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 -   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-localization/system-localization-landing.md)
 -   [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/state-management/state-model.md)
 -   [Integrate with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
--   Events
+-   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/events.md)
 -   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_MetricDefinitionSupport.md)
 -   [Platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/platform-performance-landing.md)
 -   [Upgrading the Now Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-now-platform.md)

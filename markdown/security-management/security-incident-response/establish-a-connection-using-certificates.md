@@ -32,15 +32,15 @@ Role required: admin
 
 4.  From the Related Links section, click Create **New Connection &amp; Credential**.
 
-<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d191065e96">
+<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d191104e96">
 
  
 
-</th><th align="left" id="d191065e98">
+</th><th align="left" id="d191104e98">
 
  
 
-</th></tr></thead><tbody><tr><td id="d191065e103">
+</th></tr></thead><tbody><tr><td id="d191104e103">
 
 **Name**
 
@@ -48,7 +48,7 @@ Role required: admin
 
 Any unique Name.
 
-</td></tr><tr><td id="d191065e112">
+</td></tr><tr><td id="d191104e112">
 
 **Connection URL**
 
@@ -56,7 +56,7 @@ Any unique Name.
 
 Connection URL. For example, https://graph.microsoft.com
 
-</td></tr><tr><td id="d191065e121">
+</td></tr><tr><td id="d191104e121">
 
 **API Version**
 
@@ -64,7 +64,7 @@ Connection URL. For example, https://graph.microsoft.com
 
 Version of the API. For example, v1.0
 
-</td></tr><tr><td id="d191065e130">
+</td></tr><tr><td id="d191104e130">
 
 **Authorization URL**
 
@@ -72,7 +72,7 @@ Version of the API. For example, v1.0
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
-</td></tr><tr><td id="d191065e140">
+</td></tr><tr><td id="d191104e140">
 
 **Token URL**
 
@@ -80,7 +80,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
-</td></tr><tr><td id="d191065e149">
+</td></tr><tr><td id="d191104e149">
 
 **Token Revocation URL**
 
@@ -88,7 +88,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
-</td></tr><tr><td id="d191065e158">
+</td></tr><tr><td id="d191104e158">
 
 **OAuth Client ID**
 
@@ -96,7 +96,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
 Client ID.
 
-</td></tr><tr><td id="d191065e167">
+</td></tr><tr><td id="d191104e167">
 
 **OAuth Client Secret**
 

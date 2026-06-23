@@ -71,7 +71,7 @@ Email flows use conditional logic to incorporate multiple business processes in 
 **Related topics**  
 
 
-[bundle-crworkflow.flows]
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flows.md)
 
-[bundle-crworkflow.actions]
+[Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/actions.md)
 

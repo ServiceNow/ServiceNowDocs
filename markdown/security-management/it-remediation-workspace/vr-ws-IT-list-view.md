@@ -42,15 +42,15 @@ Role required:
 
 5.  Create the list either based on an existing list or your own setup.
 
-<table id="choicetable_exp_nhg_jdc"><thead><tr><th align="left" id="d39644e155">
+<table id="choicetable_exp_nhg_jdc"><thead><tr><th align="left" id="d39679e155">
 
 Creation type
 
-</th><th align="left" id="d39644e158">
+</th><th align="left" id="d39679e158">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d39644e164">
+</th></tr></thead><tbody><tr><td id="d39679e164">
 
 **List based on an existing list**
 
@@ -61,7 +61,7 @@ Actions
 3.  Provide the name for the list in the**List Name** field.
 
 
-</td></tr><tr><td id="d39644e194">
+</td></tr><tr><td id="d39679e194">
 
 **Newly created list**
 
@@ -91,15 +91,15 @@ Actions
 
 7.  Refer to the following table for what you can do from the list view.
 
-<table id="choicetable_vkx_cs4_1qb"><thead><tr><th align="left" id="d39644e289">
+<table id="choicetable_vkx_cs4_1qb"><thead><tr><th align="left" id="d39679e289">
 
 Task
 
-</th><th align="left" id="d39644e292">
+</th><th align="left" id="d39679e292">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39644e298">
+</th></tr></thead><tbody><tr><td id="d39679e298">
 
 **Click My Lists**
 
@@ -111,7 +111,7 @@ Create new lists and view the lists you have created. In the modal that displays
 
  To delete a list, with the list displayed, on the far right of the page click the gear icon.
 
-</td></tr><tr><td id="d39644e316">
+</td></tr><tr><td id="d39679e316">
 
 **Assign remediation task records to yourself**
 
@@ -119,7 +119,7 @@ Create new lists and view the lists you have created. In the modal that displays
 
 On the Lists tab with **Assigned to my group** selected, click a remediation task record \(VUL\) to open it. On the record that displays, click **Assign to me**. This option is only available if a remediation task is not already assigned to you.
 
-</td></tr><tr><td id="d39644e331">
+</td></tr><tr><td id="d39679e331">
 
 **Open a remediation task \(VUL\)**
 
@@ -133,7 +133,7 @@ With a remediation task record displayed, click a related list item to open and 
 -   State Change Approvals - View the false positive and exception requests associated with this record. If there are no requests, this related list item is not displayed.
  Opened records remain displayed as tabs until you close them. See [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/vr-ws-remed-task.md) for what you can do from the remediation task record.
 
-</td></tr><tr><td id="d39644e375">
+</td></tr><tr><td id="d39679e375">
 
 **Open a vulnerable item \(VIT\) record**
 
@@ -146,7 +146,7 @@ With a vulnerable item record displayed, click a related list item to open and v
 -   Remediation Tasks - The remediation tasks this VI is associated with.
  Opened VIT records remain displayed as tabs until you close them. See [Use remediation task records in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/vr-ws-remed-task.md) for what you can do from the remediation task record.
 
-</td></tr><tr><td id="d39644e416">
+</td></tr><tr><td id="d39679e416">
 
 **Set filters for a column on a list**
 
@@ -154,7 +154,7 @@ With a vulnerable item record displayed, click a related list item to open and v
 
 Select a column and expand the vertical dots menu to view options that further filter the data in the column. For example, from a list of vulnerable items selected, you might prefer to sort the Risk rating column so that only critical items are displayed.
 
-</td></tr><tr><td id="d39644e428">
+</td></tr><tr><td id="d39679e428">
 
 **Filter out items or match items from a row in a column**
 
@@ -164,7 +164,7 @@ Select a cell in a column and refine the data displayed by choosing one:-   Show
 -   Filter Out - Filter out the items from the column that match the selected cell in the column.
 
 
-</td></tr><tr><td id="d39644e446">
+</td></tr><tr><td id="d39679e446">
 
 **On the List view, to the left of the Number column with a list displayed, roll over a row and click the small information icon \(i\) for a record.**
 

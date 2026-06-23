@@ -16,7 +16,7 @@ breadcrumb: [Building integrations in Integration Hub, Integration Hub, Creating
 
 Create subflows in Integration Hub to automate and customize the password reset process for users managed by third-party applications such as Okta or Microsoft Azure AD.
 
-Create subflows in Integration Hub to automate password reset processes. Use the Password Reset to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See Customize password reset processes and integrate third-party credential services for more information.
+Create subflows in Integration Hub to automate password reset processes. Use the [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See [Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/password-reset/setup-pwd-reset-ihub.md) for more information.
 
 ## Password reset Integration Hubusage overview
 

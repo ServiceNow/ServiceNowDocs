@@ -28,27 +28,27 @@ Role required: none
 
 2.  Use search or navigation to find the listing for any one of the following Now Assist feature applications:
 
-    -   
-    -   
-    -   
-    -   
-    -       -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
+    -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
+    -   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
+    -   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+    -   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+    -       -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+    -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+    -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
+    -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
+    -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+    -   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+    -   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+    -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+    -   [Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
+    -   [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+    -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+    -   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+    -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
+    -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+    -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/workplace-service-delivery/now-assist-wsd-landing.md)
+    -   [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+    -   [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/conv-spokes-na.md)
 3.  Open the application listing.
 
     The listing shows the **Product Details** view for the selected application.

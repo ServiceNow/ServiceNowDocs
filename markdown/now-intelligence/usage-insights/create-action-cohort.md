@@ -32,15 +32,15 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select the timeframe for sessions you want to include.
 
-<table id="choicetable_rqr_3zv_xjb"><thead><tr><th align="left" id="d66167e90">
+<table id="choicetable_rqr_3zv_xjb"><thead><tr><th align="left" id="d66182e90">
 
 Option
 
-</th><th align="left" id="d66167e93">
+</th><th align="left" id="d66182e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66167e99">
+</th></tr></thead><tbody><tr><td id="d66182e99">
 
 **Now**
 
@@ -48,7 +48,7 @@ Description
 
 The report begins collecting data from the second the report saves.
 
-</td></tr><tr><td id="d66167e111">
+</td></tr><tr><td id="d66182e111">
 
 **1 Week Ago**
 
@@ -56,7 +56,7 @@ The report begins collecting data from the second the report saves.
 
 Reports on data seven days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d66167e123">
+</td></tr><tr><td id="d66182e123">
 
 **1 Month Ago**
 
@@ -64,7 +64,7 @@ Reports on data seven days prior to the current date. Includes data generated at
 
 Reports on data 30 days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d66167e135">
+</td></tr><tr><td id="d66182e135">
 
 **3 Months Ago**
 
@@ -72,7 +72,7 @@ Reports on data 30 days prior to the current date. Includes data generated at 12
 
 Reports on data 90 days prior to the current date. Includes data generated at 12AM GMT of the date.
 
-</td></tr><tr><td id="d66167e148">
+</td></tr><tr><td id="d66182e148">
 
 **Original Date**
 

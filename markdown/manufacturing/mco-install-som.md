@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-instal
 release: xanadu
 topic_type: concept
 last_updated: "2024-12-02"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring Manufacturing Commercial Operations, Manufacturing]
 ---
 
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-lead-management.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Install the Lead Management application from the ServiceNow Store. This applicat
 
 </td></tr><tr><td>
 
-
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-opportunity-mgmt.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Install the Opportunity Management application from the ServiceNow Store store. 
 
 </td></tr><tr><td>
 
-
+[Install and configure Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-quote-management.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td></tr><tr><td>
 
-
+[Configure Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-sales-agreement-mgmt.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ Install the Sales Agreement Management application from the ServiceNow Store sto
 
 </td></tr><tr><td>
 
-
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ Create product offerings and the associated product catalogs that can be used by
 
 </td></tr><tr><td>
 
-Configuring product pricing with Pricing Management application
+[Configuring product pricing with Pricing Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-managing-product-pricing.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Use the Pricing Management application to create the price lists and price list 
 
 </td></tr><tr><td>
 
-
+[Setting up the product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/confguring-product-configurator.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Control the product options displayed in the interface by using the Open State M
 
 </td></tr><tr><td>
 
-
+[Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/configure-SOM-roles.md)
 
 </td><td>
 

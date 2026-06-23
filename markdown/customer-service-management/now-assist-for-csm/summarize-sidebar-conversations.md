@@ -28,7 +28,7 @@ You can do these actions by using Sidebar discussion summarization:
 -   Share the Sidebar discussion to the work notes.
 -   Provide feedback for the summary.
 
-**Note:** The Sidebar discussion summarization skill is on the chat skill card in the Customer group. For more information, see Sidebar discussion summarization.
+**Note:** The Sidebar discussion summarization skill is on the chat skill card in the Customer group. For more information, see [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-sidebar-discussion-summarization.md).
 
 ## Procedure
 
@@ -50,15 +50,15 @@ You can do these actions by using Sidebar discussion summarization:
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d32889e210">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d32832e210">
 
 Option
 
-</th><th align="left" id="d32889e213">
+</th><th align="left" id="d32832e213">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d32889e219">
+</th></tr></thead><tbody><tr><td id="d32832e219">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -69,7 +69,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d32889e246">
+</td></tr><tr><td id="d32832e246">
 
 **Provide feedback for the summary**
 

@@ -45,8 +45,8 @@ Technology
 
 </td><td>
 
--   
--   
+-   [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md)
+-   [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/collaborative-work-management/cwm-landing.md)
 
 </td></tr></tbody>
 </table>The Task generation skill is supported starting with the Xanadu Patch 9 release and Collaborative Work Management v6.0.0.

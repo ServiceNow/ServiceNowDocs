@@ -16,7 +16,7 @@ breadcrumb: [Setup continuous improvement features, Configure, Employee Center, 
 
 Monitor and measure the impact of the content you provide through the Employee Center and in campaigns using Content Analytics.
 
-Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the Platform Analytics framework and uses Performance Analytics to enhance the dashboards capabilities.
+Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the [Platform Analytics framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/par-workspace.md) and uses [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/pa-overview.md) to enhance the dashboards capabilities.
 
 **Note:** Google Analytics is no longer supported as Google has stopped offering the integration.
 

@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Script Debugger API provides endpoints to debug lines of server-side JavaScript code, such as business rules and script includes.
 
-For more information about the Script Debugger, see Script Debugger and Session Log.
+For more information about the Script Debugger, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/script-debugger.md).
 
 This API is available by default.
 

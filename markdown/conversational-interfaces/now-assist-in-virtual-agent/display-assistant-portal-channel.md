@@ -44,7 +44,7 @@ Role required: virtual\_agent\_admin or admin
 
         If your portal has AI Search activated, enhanced chat includes the option to turn on the enhanced chat experience. Select **Allow the search bar to open into a full-page chat experience**. For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.md).
 
-        **Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see .
+        **Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 
         For information about the enhanced chat experience option, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
@@ -60,7 +60,7 @@ Role required: virtual\_agent\_admin or admin
 
     3.  Select the **Allow public access for this assistant** check box to enable Virtual Agent on public pages for all selected portals.
 
-        Selecting the check box only makes the assistant response publicly available to guest users. In addition to selecting the check box, make sure that the UI page and standard chat are also public. For more information, see , , and .
+        Selecting the check box only makes the assistant response publicly available to guest users. In addition to selecting the check box, make sure that the UI page and standard chat are also public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-widget-security.md).
 
         For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**.
 

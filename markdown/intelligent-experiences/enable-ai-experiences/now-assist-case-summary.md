@@ -8,7 +8,7 @@ product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
 last_updated: "2024-08-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Virtual Agent, Now LLM, large language model, HRSD, CSM, ITSM, HR service delivery, Customer service management, IT service management, FSO, Financial services operations, Next Experience, Core UI, Security Operations]
 breadcrumb: [Content and record summary skills, Now Assist skills, Exploring Now Assist, Now Assist, Enable AI experiences]
 ---
@@ -52,14 +52,14 @@ Core UI
 
 You can generate a case or incident summarization for the following products:
 
--   
--   
--   
--   
--   
--   
--   
--   
+-   [Summarize a case by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md)
+-   [Summarize a case by using Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-case-using-now-assist-fso.md)
+-   [Summarize a safety incident by using Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)
+-   [Summarize a case by using Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md)
+-   [Summarize an incident by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/summarize-incident-now-assist.md)
+-   [Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)
+-   [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   [Summarize a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-case.md)
 
 ## Availability
 
@@ -79,9 +79,9 @@ Technology
 
 </td><td>
 
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
-
- 
+ [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td></tr><tr><td>
 
@@ -89,13 +89,13 @@ Customer
 
 </td><td>
 
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
+ [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 
- 
+ [Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
 
- 
-
- 
+ [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
 </td></tr><tr><td>
 
@@ -103,11 +103,11 @@ Employee
 
 </td><td>
 
+[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 
+ [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
- 
-
- 
+ [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 
 </td></tr><tr><td>
 
@@ -115,11 +115,11 @@ Finance &amp; Supply Chain
 
 </td><td>
 
+[Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 
+ [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 
- 
-
- 
+ [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Now Assist content and record summary skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/now-assist-incident-skills.md)

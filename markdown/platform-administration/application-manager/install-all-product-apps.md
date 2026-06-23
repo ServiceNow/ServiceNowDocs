@@ -61,15 +61,15 @@ Some applications and plugins can't be uninstalled after they've been installed.
 
 8.  Install the product now or schedule installation for a later time.
 
-<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d212701e232">
+<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d212778e232">
 
 Installation option
 
-</th><th align="left" id="d212701e235">
+</th><th align="left" id="d212778e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d212701e241">
+</th></tr></thead><tbody><tr><td id="d212778e241">
 
 **Install now**
 
@@ -79,7 +79,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d212701e265">
+</td></tr><tr><td id="d212778e265">
 
 **Install later**
 

@@ -8,7 +8,7 @@ product: Creator Studio
 classification: creator-studio
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
@@ -95,7 +95,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 3.  Next, choose one or more topics to specify where the form will appear.
 
-    Find out more about topics in , and more about taxonomy, which is a categorization method, in .
+    Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
     **Note:** You can skip this step for now and revisit it later when you have a better idea of where it fits.
 
@@ -140,7 +140,7 @@ Your system administrator must add you to the Creator Studio Users group.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md) for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
@@ -286,7 +286,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
             \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-        Add as many conditions as you need. For more information, see .
+        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
 
 5.  Select **Save** before moving on to add an activity.
 

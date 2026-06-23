@@ -21,7 +21,7 @@ Use this API to manage service problem management information between external s
 
 This REST API is designed to manage and execute service tests within a telecommunications environment. It allows users to define, trigger, and monitor service tests, ensuring that services meet quality and performance standards. The API provides capabilities for test management, including creating and updating test definitions, executing tests, retrieving test results, and managing test schedules.
 
-The Service Test Management Open API requires the Customer Service Problem Management \(com.sn\_sprb\_mgmt\) plugin and the sn\_sprb\_mgmt.test\_integrator role. This API belongs to the sn\_sprb\_mgmt namespace. For more information about Service Problem Management. See  for more information about this application.
+The Service Test Management Open API requires the Customer Service Problem Management \(com.sn\_sprb\_mgmt\) plugin and the sn\_sprb\_mgmt.test\_integrator role. This API belongs to the sn\_sprb\_mgmt namespace. For more information about Service Problem Management. See [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/cspm-landing-page.md) for more information about this application.
 
 The Service Test Management Open API creates or updates data in the following tables:
 
@@ -2150,7 +2150,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -2276,7 +2276,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see .Data type: Array of objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-rules.md).Data type: Array of objects
 
 ```
 {
@@ -2370,7 +2370,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see .Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-consequences-spm.md).Data type: Array of objects
 
 ```
 "consequence": [
@@ -3188,7 +3188,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -3314,7 +3314,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see .Data type: Array of objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-rules.md).Data type: Array of objects
 
 ```
 {
@@ -3408,7 +3408,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see .Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-consequences-spm.md).Data type: Array of objects
 
 ```
 "consequence": [
@@ -5401,7 +5401,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -5527,7 +5527,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see .Data type: Array of objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-rules.md).Data type: Array of objects
 
 ```
 {
@@ -5621,7 +5621,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see .Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-consequences-spm.md).Data type: Array of objects
 
 ```
 "consequence": [
@@ -6088,7 +6088,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -8432,7 +8432,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -8558,7 +8558,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see .Data type: Array of objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, see [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-rules.md).Data type: Array of objects
 
 ```
 {
@@ -8652,7 +8652,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see .Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. For more information, see [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-threshold-consequences-spm.md).Data type: Array of objects
 
 ```
 "consequence": [
@@ -9133,7 +9133,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see .Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/proactive-service-exp-workflows/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [

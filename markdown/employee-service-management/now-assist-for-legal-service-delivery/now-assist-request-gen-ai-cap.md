@@ -18,7 +18,7 @@ Request the contextual generative AI capabilities, such as a request summary by 
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see .
+Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Role required: sn\_lg\_gen\_ai.request\_fulfiller
 
@@ -26,7 +26,7 @@ Role required: sn\_lg\_gen\_ai.request\_fulfiller
 
 You can use the Now Assist panel to request a summary.
 
-For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 

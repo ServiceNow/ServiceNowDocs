@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Edit the form as appropriate and follow the catalog instructions to publish.
 
-    For detailed information to edit a catalog item, see  and follow the procedures there.
+    For detailed information to edit a catalog item, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md) and follow the procedures there.
 
     **Note:** Make sure to **Submit**. Until you submit the item, it is in the **Draft** state and is not available in the catalog.
 

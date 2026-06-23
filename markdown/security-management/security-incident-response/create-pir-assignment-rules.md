@@ -72,7 +72,7 @@ Condition
 
 </td><td>
 
-Use the condition builder to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
 
 </td></tr><tr><td>
 

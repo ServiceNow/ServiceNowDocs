@@ -7,7 +7,7 @@ release: xanadu
 product: Field Service Management
 classification: field-service-management
 topic_type: task
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---

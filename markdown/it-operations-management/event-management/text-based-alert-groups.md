@@ -23,7 +23,7 @@ For text-based logic to execute, you must have the Predictive Intelligence plugi
 -   Cluster quality threshold: **sa\_analytics.alert\_grouping\_tb\_cluster\_quality\_threshold**, default is 70.
 -   Alert rank threshold: **sa\_analytics.alert\_grouping\_tb\_alert\_rank\_threshold**, default is 0.3 \(smaller values are better\).
 
-**Note:** To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see .
+**Note:** To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 The EM Alert Clustering Solution definition is located in the ml\_capability\_definition\_clustering table. To access it, navigate to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
 

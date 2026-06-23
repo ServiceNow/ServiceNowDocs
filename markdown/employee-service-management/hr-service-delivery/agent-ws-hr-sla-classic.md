@@ -32,5 +32,5 @@ View SLAs for HR Playbook from the case card.
 
 \[Omitted image "playbook-hr-sla.png"\] Alt text: HR Playbook - SLA
 
-**Note:** For more information on SLAs, see Service Level Management.
+**Note:** For more information on SLAs, see [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md).
 

@@ -46,15 +46,15 @@ To create a new dispute service case, see [Create a card dispute service case](h
 
 6.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d38240e171">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d38218e171">
 
 Activity
 
-</th><th align="left" id="d38240e174">
+</th><th align="left" id="d38218e174">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38240e180">
+</th></tr></thead><tbody><tr><td id="d38218e180">
 
 **Select transaction**
 
@@ -66,7 +66,7 @@ Provide information on the cardholder and the dispute, such as:-   The account o
 -   The transaction being disputed
 
 
-</td></tr><tr><td id="d38240e203">
+</td></tr><tr><td id="d38218e203">
 
 **Add more transactions**
 
@@ -76,7 +76,7 @@ If the dispute category is Fraud, this activity appears. You may select addition
 
 As transactions are added, they are updated in the **State of transactions** panel.
 
-</td></tr><tr><td id="d38240e219">
+</td></tr><tr><td id="d38218e219">
 
 **Fill dispute questionnaire**
 
@@ -84,7 +84,7 @@ As transactions are added, they are updated in the **State of transactions** pan
 
 Complete the dispute questionnaire by answering the questions.**Note:** This step appears if you have the Dispute Rules Content Pack for Visa or Dispute Rules Content Pack for Mastercard installed, and the disputed transaction took place on the respective card network.
 
-</td></tr><tr><td id="d38240e236">
+</td></tr><tr><td id="d38218e236">
 
 **Document upload**
 
@@ -92,7 +92,7 @@ Complete the dispute questionnaire by answering the questions.**Note:** This ste
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d38240e246">
+</td></tr><tr><td id="d38218e246">
 
 **Submit dispute**
 

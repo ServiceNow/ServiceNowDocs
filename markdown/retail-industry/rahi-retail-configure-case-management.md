@@ -18,5 +18,5 @@ Retail Core leverages existing Customer Service Management case management funct
 
 \[Omitted image "case.png"\] Alt text: A retail case for Retail Operations Core.
 
-For information on how you can further configure case management, see .
+For information on how you can further configure case management, see [Configure case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-csm-case-management.md).
 

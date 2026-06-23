@@ -58,5 +58,5 @@ Changes the **Purchase Order Line** field on the Receiving Slip Line form to man
 **Related topics**  
 
 
-[bundle-cadev.client-scripts]
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/client-scripts.md)
 

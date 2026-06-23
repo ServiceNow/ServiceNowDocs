@@ -20,7 +20,7 @@ To use this API to create dynamic attributes you must have the dynamic\_schema\_
 
 This API extends the [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideElementAPI.md) API.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
@@ -171,7 +171,7 @@ if(gr_Inc.next()) {
 
 Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_tnp_rld_bbc" class="parameters"><thead><tr><th>
 
@@ -243,7 +243,7 @@ Output:
 
 Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_aj2_vmd_bbc" class="parameters"><thead><tr><th>
 
@@ -325,7 +325,7 @@ gr_Inc.insert();
 
 Sets the values specified in the passed GlideElementDynamicAttrbuteStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to **Dynamic Attribute Store**.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 |Name|Type|Description|
 |----|----|-----------|

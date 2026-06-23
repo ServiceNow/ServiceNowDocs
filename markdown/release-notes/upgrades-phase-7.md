@@ -70,7 +70,7 @@ Role required: admin.
 
     4.  If you have any questions about your entitlement, comment on your entitlement request after you have submitted it.
 
-3.  Monitor the upgrade to your instance and validate that the upgrade to your production instance is complete.
+3.  [Monitor the upgrade to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitor-upgrade-apply-upgrade.md) and validate that the upgrade to your production instance is complete.
 
     There are several methods of verifying that your upgrade is complete:
 

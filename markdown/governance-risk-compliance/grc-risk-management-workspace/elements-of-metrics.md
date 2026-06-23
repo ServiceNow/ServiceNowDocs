@@ -40,5 +40,5 @@ Metric definition data gets automatically created when the metric definition get
 
 Metric data tasks only apply to manual metric definitions. These tasks are generated whenever manual metrics are executed and the data owners provide responses for these tasks manually. You can provide responses to multiple metric data tasks using the metric data table. For more information, see [Metric data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/metric-data-table.md).
 
-A metrics manager has the authority to determine whether a metric data task needs approval. If approval is necessary, you can choose between two methods: Simple Approval or Advanced Approval by using the **Metric approval** property. For more information about this property, see .
+A metrics manager has the authority to determine whether a metric data task needs approval. If approval is necessary, you can choose between two methods: Simple Approval or Advanced Approval by using the **Metric approval** property. For more information about this property, see [Components installed with ESG Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/environmental-social-governance/operational-sustainability-management/components-installed-with-esg.md).
 

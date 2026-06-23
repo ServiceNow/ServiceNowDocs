@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for SLO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the feature and skill that you can access from the Now Assist Admin console.
 
@@ -38,7 +38,7 @@ The following table lists the feature and skill that you can access from the Now
 1.  Install the Now Assist for Supplier Lifecycle Operations \(SLO\) plugin \(com.snc.sn\_supplier\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Supplier Lifecycle Operations**.
@@ -76,15 +76,15 @@ Supplier case summarization
 
 9.  Define the availability of the skill by selecting **Define Availability**, and then selecting one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d26433e352">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d26457e354">
 
 Option
 
-</th><th align="left" id="d26433e355">
+</th><th align="left" id="d26457e357">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26433e361">
+</th></tr></thead><tbody><tr><td id="d26457e363">
 
 **Skill is always available**
 
@@ -92,7 +92,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d26433e370">
+</td></tr><tr><td id="d26457e372">
 
 **Customize skill availability**
 

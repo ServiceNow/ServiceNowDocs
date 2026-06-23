@@ -16,7 +16,7 @@ breadcrumb: [Request Management in a Service Management application, Service Man
 
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
-Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -24,7 +24,7 @@ Platform Analytics Solutions are available for both Requests and Requested Items
 
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run data collection jobs before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see Configure Platform Analytics Solutions
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see Configure Platform Analytics Solutions
 
 -   **[Legacy: Request Management - Requested Item dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/service-management-for-the-enterprise/service-management-legacy/requested-item-mgmt-dashboard.md)**  
 Track the progress of purchase orders, transfer orders, and software assignments.

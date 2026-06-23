@@ -18,11 +18,11 @@ The GlideAggregate API enables creating database aggregation queries.
 
 The GlideAggregate class is an extension of the GlideRecord class and provides database aggregation \(AVG, COUNT, GROUP\_CONCAT, GROUP\_CONCAT\_DISTINCT, MAX, MIN, STDDEV, SUM\) queries. This functionality can be helpful when creating customized reports or in calculations for calculated fields.
 
-When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference currency value \(aggregation value\) might change, the result may not be what the user expects.
+When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference [currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/currency-administration/currency.md) value \(aggregation value\) might change, the result may not be what the user expects.
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
@@ -81,7 +81,7 @@ Optional for field name. Name of the field, or path to an attribute within a dyn
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 Default: Null
 
@@ -465,7 +465,7 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -698,7 +698,7 @@ Name of the field, or path to an attribute within a dynamic schema, to get the a
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_vdy_sdk_ws" class="returns"><thead><tr><th>
@@ -1447,7 +1447,7 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1518,9 +1518,9 @@ Field name, path to an attribute within a dynamic attribute store, or glidefunct
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
-glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see glidefunction operations.
+glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/platform-support-functions.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1612,7 +1612,7 @@ Name of the field or path to an attribute within a dynamic attribute store to ag
 -   `group_name`: Name of the group that the attribute is associated with. Located in the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
 -   `attr_name`: Name of the dynamic attribute. Located in the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
-For more information on dynamic attributes, see .
+For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

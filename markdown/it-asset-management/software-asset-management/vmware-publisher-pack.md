@@ -22,7 +22,7 @@ VMware is a virtualization and cloud computing software. VMware virtualization o
 
 Most VMware product features are accessed using a license key, which can make managing your license compliance difficult. The Software Asset Management publisher pack for VMware allows you to track your license compliance position to optimize your software spend and reduce audit risk.
 
-A discovery process is required for VMware data to be collected. For more information, see Data collected by ITOM Visibility.
+A discovery process is required for VMware data to be collected. For more information, see [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md).
 
 [Track the software rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md) that you've purchased for your VMware with the Software Entitlement form. You can also store the licensing key information for your software using the License Key related list on the form. For more information on the different license agreement types that are supported for VMware, see [License agreement types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/agreement-types.md).
 

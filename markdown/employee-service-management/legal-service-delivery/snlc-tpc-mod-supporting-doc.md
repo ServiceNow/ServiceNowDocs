@@ -36,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d319172e129">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d318993e129">
 
 Action
 
-</th><th align="left" id="d319172e132">
+</th><th align="left" id="d318993e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d319172e138">
+</th></tr></thead><tbody><tr><td id="d318993e138">
 
 **Add supporting documents**
 
@@ -61,7 +61,7 @@ The available storage types are:
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d319172e198">
+</td></tr><tr><td id="d318993e198">
 
 **Reclassify supporting documents**
 
@@ -69,7 +69,7 @@ The available storage types are:
 
 [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d319172e212">
+</td></tr><tr><td id="d318993e212">
 
 **Remove the supporting document**
 

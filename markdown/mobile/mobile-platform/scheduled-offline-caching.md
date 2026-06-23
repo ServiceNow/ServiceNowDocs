@@ -18,7 +18,7 @@ Configure offline caching so your field technicians can receive scheduled update
 
 ## Activate the Agent Schedule plugin
 
-To enable and configure scheduled offline caching, the Agent Schedule plugin \[com.snc.agent\_schedule\] must be activated. For details on plugin activation, see Activate a plugin.
+To enable and configure scheduled offline caching, the Agent Schedule plugin \[com.snc.agent\_schedule\] must be activated. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Create work schedules for offline caching
 

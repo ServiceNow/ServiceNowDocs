@@ -30,7 +30,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see .
+AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/international-language-support-ais.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Document Intelligence
 
 </td><td>
 
--   **Chinese and Japanese language support**
+-   **[Chinese and Japanese language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md)**
 
 Process documents in additional languages with added support for Simplified Chinese and Japanese.
 
@@ -73,7 +73,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multi-language support. You can enable dynamic translation from the Now Assist Admin console.
+Generative AI Controller uses [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/dynamic-translation-na-ms-azure-oem.md) for multi-language support. You can enable dynamic translation from the Now Assist Admin console.
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
+Now Assist in AI Search supports [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md) and [Dynamic Translation for Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/dynamic-translation-na-actions-gr.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- is supported in Now Assist Virtual Agent conversations. For details, see  and .
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) is supported in Now Assist Virtual Agent conversations. For details, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/enable-dynamic-translation-for-now-assist-applications.md) and .
 
 </td></tr><tr><td>
 

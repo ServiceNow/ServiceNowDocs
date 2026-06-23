@@ -30,8 +30,8 @@ If you want to configure site users, you can create and assign user criteria for
 |----|-----------|
 |Operational Technology Discovery Administrator \[ot\_discovery\_admin\]|Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create an Operational Technology discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/run-discovery-for-operational-technology.md).|
 |Operational Technology Manager Viewer \[cmdb\_ot\_viewer\]|Read-only access to Operational Technology \(OT\) device records.|
-|Operational Technology Manager Editor \[cmdb\_ot\_editor\]|Create, read, update, and delete access for Operation Technology \(OT\) extension classes.|
-|Operational Technology Manager Admin \[cmdb\_ot\_admin\]|Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see Operation Technology \(OT\) extension classes.|
+|Operational Technology Manager Editor \[cmdb\_ot\_editor\]|Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-operation-technology.md).|
+|Operational Technology Manager Admin \[cmdb\_ot\_admin\]|Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-operation-technology.md).|
 
 ## Procedure
 
@@ -39,8 +39,8 @@ If you want to configure site users, you can create and assign user criteria for
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See Assign a role to a user.|
-    |**Assign a role to a group**|See Assign a role to a group.|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
 
 
 **Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)

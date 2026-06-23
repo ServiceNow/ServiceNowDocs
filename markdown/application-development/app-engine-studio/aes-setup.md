@@ -45,7 +45,7 @@ AES implementation usually follows these steps.
     AEMC allows admins to manage app development from intake through production on your production instance.
 
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see  and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/cloning-aes-applications.md).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [System clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_SystemClone.md) and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/cloning-aes-applications.md).
 
 -   **[AES and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-domain-sep.md)**  
 Domain separation is unsupported for App Engine Studio \(AES\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.

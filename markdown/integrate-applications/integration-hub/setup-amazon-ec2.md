@@ -44,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these values.
 
-<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d318241e192">
+<table id="choicetable_v11_rdx_glb"><thead><tr><th align="left" id="d312472e192">
 
 Field
 
-</th><th align="left" id="d318241e195">
+</th><th align="left" id="d312472e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d318241e201">
+</th></tr></thead><tbody><tr><td id="d312472e201">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d318241e213">
+</td></tr><tr><td id="d312472e213">
 
 **Active**
 
@@ -68,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d318241e222">
+</td></tr><tr><td id="d312472e222">
 
 **Access Key ID**
 
@@ -76,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to EC2.
 
-</td></tr><tr><td id="d318241e231">
+</td></tr><tr><td id="d312472e231">
 
 **Secret Access Key**
 
@@ -84,7 +84,7 @@ Access Key ID of the user with full access to EC2.
 
 Secret Access Key of the user with full access to EC2.
 
-</td></tr><tr><td id="d318241e241">
+</td></tr><tr><td id="d312472e241">
 
 **Credential alias**
 
@@ -92,7 +92,7 @@ Secret Access Key of the user with full access to EC2.
 
 Associated credential record.
 
-</td></tr><tr><td id="d318241e250">
+</td></tr><tr><td id="d312472e250">
 
 **Authentication Algorithm**
 

@@ -7,7 +7,7 @@ release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-06-20"
+last_updated: "2026-06-22"
 reading_time_minutes: 2
 breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---

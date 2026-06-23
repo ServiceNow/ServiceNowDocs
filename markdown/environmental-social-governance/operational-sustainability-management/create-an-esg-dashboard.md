@@ -34,7 +34,7 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see UI Builder and .
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md) and .
 
 5.  Select **Create new dashboard**.
 

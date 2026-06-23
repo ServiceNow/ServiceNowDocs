@@ -50,13 +50,13 @@ Automatically fulfills hardware asset requests by either using the available loc
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-By default, all agentic workflows and AI agent records are read only. To customize them, you must first duplicate the agentic workflow, and then activate the duplicated workflow.
+By default, all agentic workflows and AI agent records are read only. To customize them, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and then activate the duplicated workflow.
 
-After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see .
+After you duplicate the agentic workflow, you can test it in the AI Agent Studio to analyze its performance as it executes the instructions that you have defined. For details on testing your agentic workflow, see [Test an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 -   **[Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)**  

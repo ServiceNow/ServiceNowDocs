@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see .
+Use the Now Assist Admin console to configure Now Assist for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -42,7 +42,7 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 1.  Install the Now Assist for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-portfolio-management/enterprise-architecture/supporting-info-now-assist-ea.md).
-    -   For information about the installation process, see .
+    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
@@ -53,15 +53,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31902e253">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31786e255">
 
 Skill
 
-</th><th align="left" id="d31902e256">
+</th><th align="left" id="d31786e258">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31902e262">
+</th></tr></thead><tbody><tr><td id="d31786e264">
 
 **ADR Doc Summarization and Actions**
 
@@ -76,11 +76,11 @@ Action
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon \[Omitted image "edit-icon.png"\] Alt text: if you want to add access to more roles.
 
-        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see .
+        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
         **Note:** For the ADR Doc Summarization and Actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected, by default.
 
-        To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see .
+        To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
 
     2.  **Select display**: Review where the skill appears.
 

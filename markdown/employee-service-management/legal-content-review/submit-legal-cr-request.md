@@ -28,15 +28,15 @@ If you have the Legal Virtual Agent Conversations application installed on your 
 
 1.  Access the Legal Content Review intake form.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d77744e90">
+<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d77528e90">
 
 Option
 
-</th><th align="left" id="d77744e93">
+</th><th align="left" id="d77528e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77744e99">
+</th></tr></thead><tbody><tr><td id="d77528e99">
 
 **Using __Legal Service Portal__**
 
@@ -49,7 +49,7 @@ Description
 5.  Select **Legal Content Review** from the complete list of compliance requests.
 
 
-</td></tr><tr><td id="d77744e157">
+</td></tr><tr><td id="d77528e157">
 
 **Using __Employee Center__**
 

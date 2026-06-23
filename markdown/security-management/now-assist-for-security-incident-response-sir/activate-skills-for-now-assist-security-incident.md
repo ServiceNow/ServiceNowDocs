@@ -75,15 +75,15 @@ Role required: admin
 
 10. Choose one of the following options to define availability.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d73319e285">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d73354e285">
 
 Option
 
-</th><th align="left" id="d73319e288">
+</th><th align="left" id="d73354e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73319e294">
+</th></tr></thead><tbody><tr><td id="d73354e294">
 
 **Skill is always available**
 
@@ -91,7 +91,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d73319e303">
+</td></tr><tr><td id="d73354e303">
 
 **Customize skill availability**
 
@@ -106,15 +106,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
     Select the expand icons \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\) in the sections under Select Display to determine where you'd like the skill to display and who can view it. Skills might have some or all of the following options after you expand a section.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d73319e353">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d73354e353">
 
 Option
 
-</th><th align="left" id="d73319e356">
+</th><th align="left" id="d73354e356">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73319e362">
+</th></tr></thead><tbody><tr><td id="d73354e362">
 
 **In-product desktop**
 
@@ -122,17 +122,17 @@ Description
 
 Select the **Display** toggle so that Now Assist skills with this option are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d73319e377">
+</td></tr><tr><td id="d73354e377">
 
 **Now Assist panel**
 
 </td><td>
 
-Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
+Select the **Display** toggle to display the skill in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 The security incident recommended actions and post-incident analysis skills are not available from the Now Assist panel.
 
-</td></tr><tr><td id="d73319e407">
+</td></tr><tr><td id="d73354e408">
 
 **Conversational experiences**
 

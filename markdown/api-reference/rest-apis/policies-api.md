@@ -23,7 +23,7 @@ You must have one of the following roles to access the endpoints in this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on policy mappings, see Map policies to a deployable.
+For additional information on policy mappings, see [Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
@@ -193,7 +193,7 @@ None - results defined by the HTTP status code
 
 Returns the resolved inputs for a specified policy mapping of a deployable.
 
-For additional information on policy mappings, see Map policies to a deployable and Validating and correcting configuration data.
+For additional information on policy mappings, see [Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md) and [Validating and correcting configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-validating-cfg-data.md).
 
 The caller of this endpoint must have the CDM Viewer role.
 
@@ -758,7 +758,7 @@ Updates the additionalDeployablesInput input variable of a Configuration Data Ma
 
 The additionalDeployablesInput input variable contains the additional deployables you can assign to an existing policy mapping. They are similar to mapping inputs, but they have a specific array structure.
 
-For additional information on policy mappings, see Map policies to a deployable.
+For additional information on policy mappings, see [Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md).
 
 The caller of this endpoint must have the CDM Admin role.
 
@@ -906,7 +906,7 @@ io\_definition
 
 </td><td>
 
-Details about the associated PaCE IO definition record.For additional information on PaCE, see .
+Details about the associated PaCE IO definition record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
 
 Data type: Object
 
@@ -960,7 +960,7 @@ policy\_mapping
 
 </td><td>
 
-Details about the PaCE policy-mapping record.For additional information on PaCE, see .
+Details about the PaCE policy-mapping record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
 
 Data type: Object
 
@@ -1071,7 +1071,7 @@ Return result:
 
 Updates a specified input variable for a Configuration Data Management \(CDM\) policy mapping.
 
-For additional information on policy mappings, see Map policies to a deployable.
+For additional information on policy mappings, see [Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md).
 
 The caller of this endpoint must have the CDM Admin role.
 
@@ -1202,7 +1202,7 @@ io\_definition
 
 </td><td>
 
-Details about the associated PaCE IO definition record.For additional information on PaCE, see .
+Details about the associated PaCE IO definition record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
 
 Data type: Object
 
@@ -1256,7 +1256,7 @@ policy\_mapping
 
 </td><td>
 
-Details about the PaCE policy-mapping record.For additional information on PaCE, see .
+Details about the PaCE policy-mapping record.For additional information on PaCE, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
 
 Data type: Object
 

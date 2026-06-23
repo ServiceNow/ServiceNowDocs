@@ -62,7 +62,7 @@ Referring to choice list values
 
 </td><td>
 
-To create a query string that refers to a choice list option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
+To create a query string that refers to a [choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_ChoiceLists.md) option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
 install_status=1
 ```
 

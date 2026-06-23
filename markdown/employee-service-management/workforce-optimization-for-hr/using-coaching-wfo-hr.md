@@ -19,7 +19,7 @@ Use Coaching in Workforce Optimization for HR to assess your team's abilities to
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available to coach your agents. You can also create a [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/coaching/create-coaching-opportunity.md) using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 

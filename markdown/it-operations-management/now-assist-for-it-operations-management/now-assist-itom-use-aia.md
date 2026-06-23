@@ -18,14 +18,14 @@ Learn how to use the Analyze alert impact agentic workflow in the Now Assist pan
 
 ## Before you begin
 
-Before using the Analyze alert impact agentic workflow, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see .
+Before using the Analyze alert impact agentic workflow, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 You must also do the following:
 
 -   Turn on the Analyze alert impact agentic workflow in the Now Assist panel. See [Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.md) for more information.
 -   Configure and activate AI agents for the observability tools that you have integrated with Event Management, such as Dynatrace, Kentik, or New Relic. For more information, see [Configuring AI agents for Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/itom-ai-agent-configuration.md).
 
-**Note:** The following procedure shows how to use the Now Assist panel for the Analyze alert impact agentic workflow. For general guidance on using the Now Assist panel, see .
+**Note:** The following procedure shows how to use the Now Assist panel for the Analyze alert impact agentic workflow. For general guidance on using the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 Role required: evt\_mgmt\_operator
 
@@ -41,15 +41,15 @@ Role required: evt\_mgmt\_operator
 
 5.  Ask Now Assist a question about the alert.
 
-<table id="choicetable_hl1_xpf_3gc"><thead><tr><th align="left" id="d119206e185">
+<table id="choicetable_hl1_xpf_3gc"><thead><tr><th align="left" id="d117605e187">
 
 Option
 
-</th><th align="left" id="d119206e188">
+</th><th align="left" id="d117605e190">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119206e194">
+</th></tr></thead><tbody><tr><td id="d117605e196">
 
 **Ask about impact**
 
@@ -57,7 +57,7 @@ Description
 
 Get a summary of affected services and users. Include the word `impact` in your question. For example, `What is the impact of this alert?` or `What is the impact level of this alert?`.If the alert source is an observability tool, such as Kentik, Now Assist also includes relevant information from that tool in the response.
 
-</td></tr><tr><td id="d119206e220">
+</td></tr><tr><td id="d117605e222">
 
 **Ask a tool-specific question**
 

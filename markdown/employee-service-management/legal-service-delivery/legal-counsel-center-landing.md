@@ -16,7 +16,7 @@ breadcrumb: [Legal Service Delivery, Employee Service Management]
 
 The Legal Counsel Center is the next experience Workspace that enables the legal department members to work with actionable widgets to quickly categorize, prioritize, and efficiently resolve legal issues.
 
-It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see UI Builder
+It is a redesigned and restructured version of the Legal Counsel Center Classic Workspace experience built on a configurable UI Builder version. For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 **Important:**
 

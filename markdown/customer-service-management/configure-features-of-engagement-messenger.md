@@ -49,7 +49,7 @@ Use the Features section of the guided configuration to customize the messenger 
     -   Walk-up: See [Walk-up feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/walk-up-feature-configuration.md).
     -   Chat with an agent: See [Chat feature configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/agent-chat-feature-configuration-fields.md).
 
-        **Note:** The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see Create a smart link preference.
+        **Note:** The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/create-smart-link-preference.md).
 
     -   Configurable Cards: See [Configurable Cards feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configurable-card.md).
     -   Callback: See [Callback feature configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/em-callback.md).
@@ -71,7 +71,7 @@ Use the Features section of the guided configuration to customize the messenger 
 
     \[Omitted image "em-config-feature.gif"\] Alt text: View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.
 
-    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## What to do next

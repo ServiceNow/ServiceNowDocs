@@ -21,7 +21,7 @@ Generate a KB article from similar incidents
 
 ## KB generation overview
 
-Now Assist can create drafts of knowledge articles on how to resolve a case, an incident, or a work order task for agents to review and edit before publishing. Articles can be created in CSM Configurable Workspace, Service Operations Workspace for ITSM, Agent Workspace for HR Case Management, CSM/FSM Configurable Workspace, classic environment, or in the Now Assist panel. As a prerequisite to creating knowledge articles, it is recommended to activate the appropriate plugins for the respective workspaces. For example, to create a knowledge article from an incident, activate the  plugin \(com.snc.incident.knowledge\).
+Now Assist can create drafts of knowledge articles on how to resolve a case, an incident, or a work order task for agents to review and edit before publishing. Articles can be created in CSM Configurable Workspace, Service Operations Workspace for ITSM, Agent Workspace for HR Case Management, CSM/FSM Configurable Workspace, classic environment, or in the Now Assist panel. As a prerequisite to creating knowledge articles, it is recommended to activate the appropriate plugins for the respective workspaces. For example, to create a knowledge article from an incident, activate the [Activate KCS Integration for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/incident-management/activate-kcs-integration-for-im.md) plugin \(com.snc.incident.knowledge\).
 
 The following fields are used as inputs:
 
@@ -48,13 +48,13 @@ In this example, an agent has used the Now Assist panel to start a draft from a 
 
 You can generate knowledge articles in the following products.
 
--   
--   
--   
--   
--   
--   
--   
+-   [Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md)
+-   [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.md)
+-   [Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.md)
+-   [Generate a knowledge article from multiple cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr-multi-case.md)
+-   [Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-generate-kb-article.md)
+-   [Generate a knowledge article from the classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.md)
+-   [Generate a knowledge article from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-NApanel.md)
 
 ## Availability
 
@@ -74,7 +74,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 
 </td></tr><tr><td>
 
@@ -82,9 +82,9 @@ Customer
 
 </td><td>
 
+[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
-
- 
+ [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Employee
 
 </td><td>
 
-
+[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 
 </td></tr></tbody>
 </table>

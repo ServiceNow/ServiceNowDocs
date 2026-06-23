@@ -26,13 +26,13 @@ Domain separation is supported in mobile. Domain separation enables you to separ
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see Application support for domain separation.
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
 
 ## Overview
 
 The mobile platform supports domain separation for all native clients. The mobile UI design clearly indicates the domain that a record is associated with.
 
-Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see Domain separation setup and administration.
+Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparationSetup.md).
 
 ## How domain separation works in mobile
 
@@ -45,5 +45,5 @@ After the feature has been set up through the platform web-based interface, a tw
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
 

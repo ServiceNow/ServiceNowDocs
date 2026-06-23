@@ -43,7 +43,7 @@ Before setting this property:
 |Security risk|\(Critical\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
 |Workaround|If the customization requires entity expansion, set this property to true and follow the steps documented in .|
 
-To learn more about adding or creating a system property, see .
+To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 For more information about OWASp resources, see [OWASp](https://owasp.org/www-project-top-ten/2017/A4_2017-XML_External_Entities_(XXE)).
 

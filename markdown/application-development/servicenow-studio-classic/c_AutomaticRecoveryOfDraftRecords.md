@@ -62,5 +62,5 @@ Administrators can configure how the Studio handles the recovery of draft record
 **Related topics**  
 
 
-[bundle-platux.c_UserPreferences]
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_UserPreferences.md)
 

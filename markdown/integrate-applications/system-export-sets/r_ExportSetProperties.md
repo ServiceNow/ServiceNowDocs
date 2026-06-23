@@ -38,7 +38,7 @@ For Excel files, option to format currency values to match the localization of t
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ For Excel files, option to format duration fields in days, hours, minutes, and s
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
  -   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
 When true, if a parent scheduled export set encounters an error, scheduled child export sets don't run.-   Type: true \| false
 -   Default: false
--   Location: 
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr></tbody>
 </table>

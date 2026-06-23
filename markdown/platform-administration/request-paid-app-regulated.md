@@ -30,15 +30,15 @@ Role required: none
 
 4.  Request to purchase the app from its listing details on the ServiceNow Store according to whether the app is provided by ServiceNow or a partner.
 
-<table id="choicetable_i4g_g5b_cgc"><thead><tr><th align="left" id="d184132e109">
+<table id="choicetable_i4g_g5b_cgc"><thead><tr><th align="left" id="d184209e109">
 
 App provider
 
-</th><th align="left" id="d184132e112">
+</th><th align="left" id="d184209e112">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d184132e118">
+</th></tr></thead><tbody><tr><td id="d184209e118">
 
 **ServiceNow**
 
@@ -53,7 +53,7 @@ For additional assistance with purchase requests, you can contact your sales rep
 2.  Select **Request License**.
 
 
-</td></tr><tr><td id="d184132e158">
+</td></tr><tr><td id="d184209e158">
 
 **Partner**
 

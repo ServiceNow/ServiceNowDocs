@@ -35,7 +35,7 @@ This Accelerator provides you with an assessment and guidance on your readiness 
 
 Your Impact Squad provides guidance based on your responses to an AI Readiness Self-assessment that highlights key readiness criteria related to your selected ServiceNow AI capabilities.
 
-See  for additional information on ServiceNow AI-based tools.
+See [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/ai-products.md) for additional information on ServiceNow AI-based tools.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary
 release: xanadu
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 45
+reading_time_minutes: 47
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
 
@@ -165,7 +165,7 @@ Advanced Work Assignment
 
 </td><td>
 
-Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see .
+Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-activate.md).
 
 To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -287,7 +287,7 @@ Case management for CSM
 
 </td><td>
 
-Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see .
+Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/t_ActivateCustomerService.md).
 
 Additional Customer Service Management features are available with the activation of other plugins. For details, see .
 
@@ -389,11 +389,11 @@ Data management for CSM
 
 </td><td>
 
-Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see .
+Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/t_ActivateCustomerService.md).
 
 Additional Customer Service Management features are available with the activation of other plugins. For details, see .
 
-Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see .
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/order-management/sales-and-order-management/som-exploring.md).
 
 </td></tr><tr><td>
 
@@ -449,7 +449,7 @@ Document Intelligence
 
 </td><td>
 
-Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see Install Document Intelligence.
+Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -459,9 +459,9 @@ Document Services
 
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
-Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For details, see .
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For details, see [Activate Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.md).
 
- Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+[Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/multi-provider-documents-framework.md) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -477,7 +477,7 @@ Dynamic Translation
 
 </td><td>
 
-Dynamic Translation is a ServiceNow AI Platform feature that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\). For details, see .
+Dynamic Translation is a ServiceNow AI Platform feature that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\). For details, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md).
 
 </td></tr><tr><td>
 
@@ -501,7 +501,7 @@ Employee Relations
 
 </td><td>
 
-Employee Relations is a ServiceNow AI Platform feature that is available with activation of the Employee Relations plugin \(com.sn\_hr\_employee\_relations\). For details, see .
+Employee Relations is a ServiceNow AI Platform feature that is available with activation of the Employee Relations plugin \(com.sn\_hr\_employee\_relations\). For details, see [Activate Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/hr-service-delivery/activate-hr-employee-relations.md).
 
 </td></tr><tr><td>
 
@@ -511,7 +511,7 @@ Encryption Key Management
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Column Level Encryption Enterprise, Cloud Encryption, and Database Encryption.
 
-Column Level Encryption Enterprise is the unlimited license of Column Level Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see Encryption and Key Management subscription bundle.
+Column Level Encryption Enterprise is the unlimited license of Column Level Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/platform-encryption/encryption-sku.md).
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ Event Management
 
 </td><td>
 
-Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see .
+Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/event-management/t_EMActivatePlugin.md).
 
 </td></tr><tr><td>
 
@@ -558,9 +558,9 @@ Field Service Management
 
 </td><td>
 
-Field Service Management is a ServiceNow AI Platform feature that is available with activation of the Field Service Management plugin \(field\_service\_management\). For details, see .
+Field Service Management is a ServiceNow AI Platform feature that is available with activation of the Field Service Management plugin \(field\_service\_management\). For details, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
-Additional Field Service Management features are available with the activation of other plugins. For details, see .
+Additional Field Service Management features are available with the activation of other plugins. For details, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/field-service-additional-plugins.md).
 
 Enable field service technicians to initiate and monitor sales opportunities directly through the Now Mobile Agent application by activating Technician driven sales with the Field Service \(com.snc.fsm\_technician\_sales\) plugin.
 
@@ -602,7 +602,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of any ServiceNow® Now Assist application. For details, see Installing Generative AI Controller.
+Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of any ServiceNow® Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md).
 
 </td></tr><tr><td>
 
@@ -658,7 +658,7 @@ Hermes Messaging Service
 
 </td><td>
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see .
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 
 </td></tr><tr><td>
 
@@ -666,7 +666,7 @@ ITOM AIOps
 
 </td><td>
 
-ITOM Health is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). To work with Health Log Analytics, you must purchase ITOM Predictive AIOps, a more comprehensive ITOM Health package. For details, see .
+ITOM Health is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). To work with Health Log Analytics, you must purchase ITOM Predictive AIOps, a more comprehensive ITOM Health package. For details, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/event-management/c_EMConfiguration.md).
 
 Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
@@ -678,7 +678,7 @@ ITOM Cloud Accelerate
 
 The ITOM Cloud Accelerate features are available as an application with the activation of the Cloud Accelerate plugin, which requires a Cloud Governance subscription. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement.
 
-The  application is available with the [ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=cloud-governance&version=xanadu) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
+The [Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/cloud-services-catalog/csc-home.md) application is available with the [ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=cloud-governance&version=xanadu) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
 
 You must have Employee Center as a prerequisite to launch and use the [Cloud Service Catalog](https://www.servicenow.com/docs/access?context=csc-home&version=xanadu) application.
 
@@ -688,7 +688,7 @@ ITOM Visibility
 
 </td><td>
 
-ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see Request Discovery and Request Service Mapping. For full ITOM Visibility functionality, install the latest ITOM Visibility out-of-band applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version history release notes.
+ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) and [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md). For full ITOM Visibility functionality, install the latest ITOM Visibility out-of-band applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version history release notes.
 
 </td></tr><tr><td>
 
@@ -802,7 +802,7 @@ Localization Framework
 
 </td><td>
 
-Localization Framework is a ServiceNow AI Platform feature that is available with activation of the Localization Framework installer \(com.glide.localization\_framework.installer\). For details, see .
+Localization Framework is a ServiceNow AI Platform feature that is available with activation of the Localization Framework installer \(com.glide.localization\_framework.installer\). For details, see [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/localization-framework/activate-lf-plugin.md).
 
 </td></tr><tr><td>
 
@@ -818,7 +818,7 @@ Manufacturing Commercial Operations
 
 </td><td>
 
-Install Manufacturing applications by requesting them from the ServiceNow Store. For details on installing the applications, see . Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Manufacturing applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/manufacturing/configuring-manufacturing-foundation.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -868,7 +868,7 @@ Notify
 
 </td><td>
 
-Notify is a ServiceNow AI Platform feature that is available with activation of the Notify \(com.snc.notify\) plugin. For details, see .
+Notify is a ServiceNow AI Platform feature that is available with activation of the Notify \(com.snc.notify\) plugin. For details, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/notify-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -878,25 +878,25 @@ Now Assist
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
+-   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
+-   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   
 -   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
+-   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+-   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+-   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
+-   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+-   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+-   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
+-   [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+-   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
+-   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+-   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
-For more information, see .
+For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -904,7 +904,7 @@ Now Assist AI agents
 
 </td><td>
 
-Now Assist in AI agents is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist, see .
+Now Assist in AI agents is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
 
 </td></tr><tr><td>
 
@@ -920,7 +920,7 @@ Now Assist for Customer Service Management \(CSM\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see .
+Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 Starting with Vancouver Patch 4, Now Assist for CSM is supported.
 
@@ -932,7 +932,7 @@ Now Assist for Enterprise Architecture \(EA\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. The  application requires an Enterprise Architecture Pro plus license. For more information, see .
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. The  application requires an Enterprise Architecture Pro plus license. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -940,7 +940,7 @@ Now Assist for Field Service Management \(FSM\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see .
+Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -978,7 +978,7 @@ Now Assist for IT Service Management \(ITSM\)
 
 Install Now Assist for ITSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see .
+-   **Important:** To enable the display of the Generate post incident reviews use case, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 -   **Important:** To enable the display of the Notify users with Twilio use case, you must activate the Twilio Spoke plugin \(sn\_twilio\_spoke\). For more information, see .
 
@@ -1005,7 +1005,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 </td><td>
 
-Now Assist features are available with activation of the  plugin. For more information, see .
+Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1013,7 +1013,7 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see Install Now Assist plugins.
+Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
 
 </td></tr><tr><td>
 
@@ -1034,25 +1034,25 @@ Now Assist in Virtual Agent
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
+-   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
+-   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   
 -   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
--   
+-   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+-   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+-   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
+-   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+-   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+-   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
+-   [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+-   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
+-   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+-   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 
-For more information, see .
+For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -1060,7 +1060,7 @@ On-Call Scheduling
 
 </td><td>
 
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see . Activating this plugin activates the following third-party libraries:
+On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/on-call-scheduling/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
 
 -   FullCalendar library
 -   DHTMLX scheduler
@@ -1159,7 +1159,7 @@ Performance Analytics
 
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this application.
 
-The full features of Performance Analytics are available with a subscription. Activate the Performance Analytics plugin that matches your subscription. For details, see .
+The full features of Performance Analytics are available with a subscription. Activate the Performance Analytics plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 </td></tr><tr><td>
 
@@ -1203,7 +1203,7 @@ Predictive Intelligence
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow AI Platform feature that is available with activation of the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin and its dependent Predictive Intelligence \(com.glide.platform\_ml\) plugin. For details, see .
+Predictive Intelligence is a ServiceNow AI Platform feature that is available with activation of the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin and its dependent Predictive Intelligence \(com.glide.platform\_ml\) plugin. For details, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -1241,7 +1241,7 @@ Problem Management
 
 </td><td>
 
- is a ServiceNow AI Platform feature that is active by default.
+[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/problem-management/c_ProblemManagement.md) is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr><tr><td>
 
@@ -1281,7 +1281,7 @@ Public Sector Digital Services
 
 </td><td>
 
-Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see . Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/configuring-public-sector-digital-services.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -1319,7 +1319,7 @@ Release Management
 
 </td><td>
 
-Release Management is available with activation of the Release Management plugin \(com.snc.release\_management\_v2\). For details, see Activate Release Management.
+Release Management is available with activation of the Release Management plugin \(com.snc.release\_management\_v2\). For details, see [Activate Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/release-management/t_ActivateReleaseManagement.md).
 
 </td></tr><tr><td>
 
@@ -1417,7 +1417,7 @@ Service Portfolio Management
 
 </td><td>
 
-The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see .
+The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
 
 </td></tr><tr><td>
 
@@ -1473,7 +1473,7 @@ Skills Management
 
 </td><td>
 
-Skills Management is available with the activation of the Skills Management \(com.snc.skills\_management\) plugin. For details, see Activating Skills Management.
+Skills Management is available with the activation of the Skills Management \(com.snc.skills\_management\) plugin. For details, see [Activating Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md).
 
 </td></tr><tr><td>
 
@@ -1489,11 +1489,11 @@ Software Asset Management
 
 </td><td>
 
-Software Asset Management is available with activation of the Activate all Software Asset Management Professional plugins, including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the new plugin is activated, you can't access the classic user interface. For details about the plugins and how to request them, see .
+Software Asset Management is available with activation of the Activate all Software Asset Management Professional plugins, including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the new plugin is activated, you can't access the classic user interface. For details about the plugins and how to request them, see [Components installed with Software Asset Management Professional](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/sam-installed-components.md).
 
 In the ServiceNow AI Platform® Xanadu release, there's limited support for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform® release, you can move to the new workspace for an intuitive and personalized experience.
 
-For releases prior to Utah, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Workspace plugin is activated, you can't revert to the classic user interface. For details about the plugins and how to request them, see Request the Software Asset Management plugins.
+For releases prior to Utah, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Workspace plugin is activated, you can't revert to the classic user interface. For details about the plugins and how to request them, see [Request the Software Asset Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 To activate Next Experience, make sure that the **glide.ui.polaris.experience** system property in your instance is set to true.
 
@@ -1559,7 +1559,7 @@ Telecommunications Network Inventory
 
 </td><td>
 
-The Telecommunications Network Inventory application is a ServiceNow AI Platform feature that is available with activation of the Network Inventory Advanced plugin \(sn\_ni\_adv\). For details, see .
+The Telecommunications Network Inventory application is a ServiceNow AI Platform feature that is available with activation of the Network Inventory Advanced plugin \(sn\_ni\_adv\). For details, see [Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/telecom-network-inventory/telecommunications-network-inventory/installing-telecommunications-network-inventory.md).
 
 </td></tr><tr><td>
 
@@ -1589,7 +1589,7 @@ Threat Intelligence Security Center
 
 Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   ****
+-   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/security-management/security-operations/sec-ops-common-functionality.md)**
 
 When any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated, the Security Support Common plugin is activated.
 
@@ -1624,7 +1624,7 @@ Vendor Management Workspace
 
 </td><td>
 
-Install Vendor Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). For more information, see .
+Install Vendor Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). For more information, see [Activate Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/vendor-management-workspace/activate-vendor-management-configurable-workspace.md).
 
 </td></tr><tr><td>
 
@@ -1684,7 +1684,7 @@ Workforce Optimization for ITSM
 
 </td><td>
 
-Activate the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see  Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Activate the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 

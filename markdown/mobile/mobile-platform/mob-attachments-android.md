@@ -135,7 +135,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see .
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive Authentication Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -234,7 +234,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see .
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive Authentication Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 

@@ -39,9 +39,9 @@ If you're an existing customer who has made any of the following modifications t
 
 You can use the following tools and APIs with your implementation partner to help adjust your customizations to work well with the new Next Experience theme:
 
--   Scriptable PolarisUI API
+-   [Scriptable PolarisUI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
 -   [Next Experience client scripting globals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/next-exp-client-script-globals.md)
--   Jelly tags
+-   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/r_JellyTags.md)
 
 ## Existing customer opting out of the Next Experience UI prior to an upgrade
 

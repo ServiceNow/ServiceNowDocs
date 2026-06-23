@@ -35,15 +35,15 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d219651e134">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d219461e134">
 
 Method
 
-</th><th align="left" id="d219651e137">
+</th><th align="left" id="d219461e137">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219651e143">
+</th></tr></thead><tbody><tr><td id="d219461e143">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d219651e191">
+</td></tr><tr><td id="d219461e191">
 
 **Workspace used by your application**
 
@@ -154,15 +154,15 @@ Lists all the standard clauses that are active for the contract type that the do
             -   Show more/less: Option to expand or collapse the text.
     2.  Accept or ignore the Now Assist suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d219651e510">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d219461e510">
 
 Action
 
-</th><th align="left" id="d219651e513">
+</th><th align="left" id="d219461e513">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219651e519">
+</th></tr></thead><tbody><tr><td id="d219461e519">
 
 **Replace the non-standard clause**
 
@@ -172,7 +172,7 @@ Steps
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d219651e540">
+</td></tr><tr><td id="d219461e540">
 
 **Ignore suggestion**
 

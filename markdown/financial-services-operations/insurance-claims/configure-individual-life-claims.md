@@ -34,15 +34,15 @@ Individual Life Claims includes a death benefit claim workflow that demonstrates
 
 2.  Review the installed components and modify them, or add new ones as applicable.
 
-<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d57556e124">
+<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d42293e124">
 
 Task
 
-</th><th align="left" id="d57556e127">
+</th><th align="left" id="d42293e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d57556e133">
+</th></tr></thead><tbody><tr><td id="d42293e133">
 
 **Configure roles and user groups**
 
@@ -59,7 +59,7 @@ Determine the roles of the individuals that you need to work on the claim cases 
 -   Admin: Included in Individual Life Claims and inherits the service definition admin core role. This role performs the configurations that are required for the application. This role is shared across all your lines of business. You may not need to make any changes to this role.
  Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-groups-fso.md).
 
-</td></tr><tr><td id="d57556e212">
+</td></tr><tr><td id="d42293e212">
 
 **Set up script includes**
 
@@ -73,9 +73,9 @@ Use script includes to store JavaScript that runs on the server. By using script
 -   Any other script includes based on your requirements.
 Modify the ClaimConstants script include to reuse the object names across functions.
 
-For more information, see .
+For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
 
-</td></tr><tr><td id="d57556e244">
+</td></tr><tr><td id="d42293e245">
 
 **Configure tables and ACLs**
 
@@ -87,7 +87,7 @@ Configure the tables by reviewing the existing tables that were provided in Insu
 
 For more information, see [Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
 
-</td></tr><tr><td id="d57556e276">
+</td></tr><tr><td id="d42293e277">
 
 **Configure form views**
 
@@ -95,7 +95,7 @@ For more information, see [Data Model](https://raw.githubusercontent.com/Service
 
 Set up any required views for any new tables according to your business requirements.You can use the included case views and task views in this application for reference.
 
-</td></tr><tr><td id="d57556e288">
+</td></tr><tr><td id="d42293e289">
 
 **Configure service definitions**
 
@@ -107,7 +107,7 @@ You can also define the services for task tables to create different flows for y
 
 For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-service-definitions.md).
 
-</td></tr><tr><td id="d57556e312">
+</td></tr><tr><td id="d42293e313">
 
 **Set up UI actions**
 
@@ -119,7 +119,7 @@ Override or hide the actions according to your business requirements.
 
 For more information, see  and [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-core-banking-tables.md).
 
-</td></tr><tr><td id="d57556e346">
+</td></tr><tr><td id="d42293e347">
 
 **Configure workspaces**
 
@@ -129,9 +129,9 @@ Configure the workspaces for your defined personas to interact with the customer
 
 For more information, see [Enable the claim workspace for Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.md).**Note:** The claim workspace is accessible from an adjuster task.
 
-For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) and .
+For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md).
 
-</td></tr><tr><td id="d57556e394">
+</td></tr><tr><td id="d42293e396">
 
 **Configure decision tables**
 
@@ -141,9 +141,9 @@ Set up the decision tables that are specific to your business requirements.Refer
 
  If the input parameters, rules, and other elements vary, new tables may be needed for each line of business.
 
-For more information, see .
+For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/decision-tables/decision-table.md).
 
-</td></tr><tr><td id="d57556e413">
+</td></tr><tr><td id="d42293e416">
 
 **Configure the approval engine**
 
@@ -153,7 +153,7 @@ Update the approval engine properties as required at **Insurance claim operation
 
 For more information, see .
 
-</td></tr><tr><td id="d57556e438">
+</td></tr><tr><td id="d42293e441">
 
 **Configure assignment rules**
 
@@ -161,7 +161,7 @@ For more information, see .
 
 Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d57556e455">
+</td></tr><tr><td id="d42293e458">
 
 **Edit or create flows**
 

@@ -22,7 +22,7 @@ Reflow, is a configurable workspace feature that enables pages and content to be
 
 If you want Reflow to work for your Playbook Experience components, see [Apply Reflow to playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/reflow-for-playbook-components.md).
 
-For more information about Reflow, see .
+For more information about Reflow, see [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/auto-reflow.md).
 
 **Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-experience-admins.md)
 

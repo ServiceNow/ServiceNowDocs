@@ -38,7 +38,7 @@ Xanadu Patch 10 includes fixes for security-related problems that affected certa
 
 ## Changes in Xanadu Patch 10
 
--   **Identity Type**
+-   **[Identity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAUser.md)**
 
     Use the Identity Type to define the correct identity type while creating a user. You can select **Human**, **Machine**, or **AI Agent** based on the user identity.
 

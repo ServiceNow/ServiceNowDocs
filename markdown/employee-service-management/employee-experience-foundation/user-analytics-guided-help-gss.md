@@ -62,17 +62,17 @@ Events list can help you understand usage patterns, features popularity, and ide
 -   PLAYBOOK\_COMPLETED: A guided process \(playbook\) that the user completed.
 -   Guided Self-service Action clicked: The action button that the user clicked.
 
-For more information, see .
+For more information, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/view-events.md).
 
 ## Funnel analysis
 
 A funnel analysis shows the percentage of users who completed a desired Guided Self-Service action along a critical path. Funnel reports show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific Guided Self-Service flow.
 
-For more information, see .
+For more information, see [Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md).
 
 ## Retention
 
 View data such as how many new users you have and how many returned. User retention data also shows you the frequency of user sessions and the average time in between sessions given a certain time period.
 
-For more information, see .
+For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/view-retention-analytics.md).
 

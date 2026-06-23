@@ -32,15 +32,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d431704e100">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d431748e100">
 
 Field
 
-</th><th align="left" id="d431704e103">
+</th><th align="left" id="d431748e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d431704e109">
+</th></tr></thead><tbody><tr><td id="d431748e109">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Enter a name for the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d431704e118">
+</td></tr><tr><td id="d431748e118">
 
 **Description**
 
@@ -56,7 +56,7 @@ Enter a name for the MITRE ATT&amp;CK Technique Extraction rule.
 
 Enter a description for the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d431704e127">
+</td></tr><tr><td id="d431748e127">
 
 **Integration Type**
 
@@ -75,7 +75,7 @@ Indicates the MITRE ATT&amp;CK Technique Extraction rule for the Data Sources or
     -   For the threat intelligence data sources, the extraction rules are only supported for STIX, MISP, and Custom Feed types.
 
 
-</td></tr><tr><td id="d431704e174">
+</td></tr><tr><td id="d431748e174">
 
 **Threat Feed Type**
 
@@ -86,7 +86,7 @@ Following are the options available for Threat Feed Type:-   **STIX\(TAXII/HTTPS
 -   **Custom feed**: Option to filter the threat feeds of the custom feed type and select the associated feeds by searching using the lookup icon.
 
 
-</td></tr><tr><td id="d431704e201">
+</td></tr><tr><td id="d431748e201">
 
 **Feeds**
 
@@ -94,7 +94,7 @@ Following are the options available for Threat Feed Type:-   **STIX\(TAXII/HTTPS
 
 Select one or more threat feed integrations for the selected feed type.**Note:** If this field is left blank then all the threat feed integrations for the selected feed type will be automatically considered for the extraction.
 
-</td></tr><tr><td id="d431704e212">
+</td></tr><tr><td id="d431748e212">
 
 **Method to extract MITRE ATT&amp;CK tactics and techniques**
 
@@ -104,7 +104,7 @@ Option to select the extract MITRE ATT&amp;CK tactics and techniques method. The
 2.  Use Script
 
 
-</td></tr><tr><td id="d431704e229">
+</td></tr><tr><td id="d431748e229">
 
 **Extraction Method - Use Regex**
 
@@ -112,7 +112,7 @@ Option to select the extract MITRE ATT&amp;CK tactics and techniques method. The
 
 This method uses a regular expression that allows the threat analysts to define a pattern with a sequence of characters to perform extraction method.
 
-</td></tr><tr><td id="d431704e238">
+</td></tr><tr><td id="d431748e238">
 
 **Tactic Regex**
 
@@ -120,7 +120,7 @@ This method uses a regular expression that allows the threat analysts to define 
 
 Option to provide regular expression for the extraction of MITRE ATT&amp;CK tactic ID\(s\).
 
-</td></tr><tr><td id="d431704e247">
+</td></tr><tr><td id="d431748e247">
 
 **Technique Regex**
 
@@ -128,7 +128,7 @@ Option to provide regular expression for the extraction of MITRE ATT&amp;CK tact
 
 Option to provide regular expression for the extraction of MITRE ATT&amp;CK technique ID\(s\).
 
-</td></tr><tr><td id="d431704e256">
+</td></tr><tr><td id="d431748e256">
 
 **Extraction Method - Use script**
 

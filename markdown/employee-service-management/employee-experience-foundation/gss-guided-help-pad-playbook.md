@@ -18,7 +18,7 @@ Create a visual playbook flow of activities so that employees can find informati
 
 ## Before you begin
 
-Understand the basics of playbooks and workflow studio  and .
+Understand the basics of playbooks and workflow studio [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/building-a-process.md) and [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
 
@@ -53,7 +53,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     **Note:** Ensure you configure the Restart rule as always for all or each activity in the flow. Do not use the restart operation with just one activity.
 
-    Based on the security access and user permissions, the catalog item and KB appear. For more information, see .
+    Based on the security access and user permissions, the catalog item and KB appear. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
     **Note:** The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 

@@ -8,7 +8,7 @@ product: Creator Studio
 classification: creator-studio
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [request form, catalog item]
 breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -153,7 +153,7 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in Service Catalog, as well as Service Portal and Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 ## Making forms available for an app
 
