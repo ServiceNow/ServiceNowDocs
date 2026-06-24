@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-purchaseordermanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
