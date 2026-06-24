@@ -4,8 +4,6 @@ description: Renew an entitlement on the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-renew-an-entitlement.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ Renew an entitlement on the CSM Configurable Workspace.
 
 ## Before you begin
 
-You cannot renew an entitlement when it is in Canceled state or it does not have an end date. For more info, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/reviewing-orchestration-plans-order-fulfillment.md).
+You cannot renew an entitlement when it is in Canceled state or it does not have an end date. For more info, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md).
 
 The order processing for product inventory based entitlements are executed according to the fulfillment flow defined by the customer for these offerings being renewed.
 

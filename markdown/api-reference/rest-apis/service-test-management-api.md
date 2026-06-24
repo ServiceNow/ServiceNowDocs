@@ -2190,7 +2190,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -2318,7 +2318,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md).Data type: Array of Objects
 
 ```
 {
@@ -2412,7 +2412,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md) for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -3240,7 +3240,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -3368,7 +3368,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md).Data type: Array of Objects
 
 ```
 {
@@ -3462,7 +3462,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md) for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -5489,7 +5489,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -5617,7 +5617,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md).Data type: Array of Objects
 
 ```
 {
@@ -5711,7 +5711,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md) for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -6186,7 +6186,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md) for more infomation.Data type: Array of Objects
+Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md) for more infomation.Data type: Array of Objects
 
 ```
 "testMeasureDefinition": [
@@ -8570,7 +8570,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md).Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -8698,7 +8698,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md).Data type: Array of Objects
 
 ```
 {
@@ -8792,7 +8792,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-threshold-rules.md) for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -9281,7 +9281,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md) for more infomation.Data type: Array of Objects
+Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/define-test-measure-spm.md) for more infomation.Data type: Array of Objects
 
 ```
 "testMeasureDefinition": [

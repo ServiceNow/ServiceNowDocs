@@ -4,8 +4,6 @@ description: Specify one or more shifts in a schedule plan for which you would p
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sign-up-preferred-shifts-wfo-csm.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Developers scan update sets for leading practice violations in non-
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/proactive-code-check.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

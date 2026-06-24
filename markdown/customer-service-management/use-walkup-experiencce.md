@@ -4,8 +4,6 @@ description: Customers can use the Walk-up Experience feature to check in at a w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-walkup-experiencce.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

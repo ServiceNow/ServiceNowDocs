@@ -37,7 +37,7 @@ The integration process for CSPM with the external service test management syste
     1.  The test manager creates the test run in the test run table.
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 
-        For more information on configuring external system endpoints by creating an integration request, see .
+        For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-integrations.md).
 
         **Note:**
 

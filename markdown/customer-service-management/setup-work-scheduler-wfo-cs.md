@@ -4,8 +4,6 @@ description: Create a work configuration for a work item. Add filters that displ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-work-scheduler-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -111,7 +109,7 @@ The route where the card layout is defined for this work item type. The route di
 -   Assignment group field
 -   Start date field
 -   End date field
-If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
+If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 </td></tr><tr><td>
 

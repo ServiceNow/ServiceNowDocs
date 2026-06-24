@@ -4,8 +4,6 @@ description: After creating a service definition, you can associate a playbook w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-associate-playbook.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -38,7 +36,7 @@ When the agent selects **Create Case** on the [case type selector screen](https:
 
 3.  Select a playbook record generator in the **Playbook record generator** field.
 
-    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md)
+    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-record-generator-overview.md)
 
 4.  Select **Update**.
 

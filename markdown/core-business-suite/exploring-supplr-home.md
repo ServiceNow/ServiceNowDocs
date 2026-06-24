@@ -4,8 +4,6 @@ description: Explore the home page for the supplier requester persona along with
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/exploring-supplr-home.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

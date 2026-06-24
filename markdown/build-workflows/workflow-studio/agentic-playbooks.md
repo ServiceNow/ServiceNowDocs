@@ -51,7 +51,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md)
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see 
 
 </td></tr><tr><td>
 

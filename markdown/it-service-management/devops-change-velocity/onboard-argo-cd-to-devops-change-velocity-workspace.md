@@ -83,7 +83,7 @@ Steps
 
     3.  Select the MID Server option and enter its details if your Argo CD instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
 
     \[Omitted image "argocd-6.png"\] Alt text: Enter Argo CD instance details playbook activity
 

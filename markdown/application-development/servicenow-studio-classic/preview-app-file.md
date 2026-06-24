@@ -24,7 +24,7 @@ Role required: admin or delegated\_developer
 
 Use preview to verify how an app file looks and behaves before it reaches end users. Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view.
 
-Begin or continue a conversation with Build Agent to edit previewed files through a conversational interaction. For more information, see [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/use-build-agent.md).
+Begin or continue a conversation with Build Agent to edit previewed files through a conversational interaction. For more information, see [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md).
 
 ## Procedure
 

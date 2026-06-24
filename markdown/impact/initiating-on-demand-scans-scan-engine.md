@@ -4,8 +4,6 @@ description: Scan applications to identify definition findings before publishing
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiating-on-demand-scans-scan-engine.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

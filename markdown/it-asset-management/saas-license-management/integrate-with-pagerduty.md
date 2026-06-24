@@ -78,7 +78,7 @@ Create a PagerDuty application to integrate with your ServiceNow instance.
 
 ### Before you begin
 
--   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/pagerduty-spoke.md).
+-   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pagerduty-spoke.md).
 -   PagerDuty Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md) table.
 
 ### Procedure
@@ -152,7 +152,7 @@ To create a PagerDuty integration profile, request the Software Asset Management
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 

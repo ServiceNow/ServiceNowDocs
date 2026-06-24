@@ -4,8 +4,6 @@ description: Install Core Business Suite Foundation to configure employee and su
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/set-up-cbs.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

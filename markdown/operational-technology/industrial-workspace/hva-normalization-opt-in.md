@@ -34,5 +34,5 @@ Role required: sn\_eam.enterprise\_admin or admin
 **Related topics**  
 
 
-[Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md)
+[Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/optin-cs-eam.md)
 

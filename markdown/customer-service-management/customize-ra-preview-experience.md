@@ -4,8 +4,6 @@ description: Customize a preview of a Recommended Actions card that displays in 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-ra-preview-experience.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -109,11 +107,11 @@ You begin by creating a UI page variant of a guidance preview experience. When y
 
 4.  Select **Edit preview in UI Builder**.
 
-    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
+    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
 
 5.  Bind the preview experience properties to your preview UI.
 
-    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
+    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/data-resources.md).
 
 6.  Add and bind scripts to components in your preview UI to dispatch events by using an event handler to execute or skip a recommendation with a corresponding payload.
 
@@ -231,6 +229,6 @@ api.emit(LOG_SEARCH_RESULT_EVENT, {actionData: {actionName: actionId}})
 ```
 
 </td></tr></tbody>
-</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md).
+</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-client-scripts.md).
 
 

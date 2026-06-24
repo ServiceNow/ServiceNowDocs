@@ -248,7 +248,7 @@ Type of object the access controls, including the following:-   Client-callable 
 -   UI page
 -   UX route
 
- For more information on object types, see [ACL matching requirements for objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+ For more information on object types, see [ACL matching requirements for objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 </td></tr><tr><td>
 
@@ -256,7 +256,7 @@ Operation
 
 </td><td>
 
-Type of action the system can take on the specified object, such as delete or execute. Some objects, such as records, support multiple operations, while other objects, such as a REST\_Endpoint, only support one operation. For more information on action types, see [ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-rule-types.md).
+Type of action the system can take on the specified object, such as delete or execute. Some objects, such as records, support multiple operations, while other objects, such as a REST\_Endpoint, only support one operation. For more information on action types, see [ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-rule-types.md).
 
 </td></tr><tr><td>
 
@@ -295,7 +295,7 @@ Admin overrides
 
 </td><td>
 
-Option to force the rule's evaluation for admin overrides at the access level. For more information on admin overrides, see [Evaluate the admin override at the access level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_EvalAdmOverrideAccLevel.md).
+Option to force the rule's evaluation for admin overrides at the access level. For more information on admin overrides, see [Evaluate the admin override at the access level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EvalAdmOverrideAccLevel.md).
 
 </td></tr><tr><td>
 
@@ -409,7 +409,7 @@ Indicates whether the client script applies to extended tables.
 
 The Business Rules section enables you to create business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.
 
-For a complete list of values for business rules, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+For a complete list of values for business rules, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
 
 The following table shows field descriptions for the Business Rules rules section.
 

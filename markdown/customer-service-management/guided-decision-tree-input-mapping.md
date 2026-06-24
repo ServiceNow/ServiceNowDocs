@@ -4,8 +4,6 @@ description: Linking of inputs enables decision tree authors to reuse input valu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guided-decision-tree-input-mapping.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

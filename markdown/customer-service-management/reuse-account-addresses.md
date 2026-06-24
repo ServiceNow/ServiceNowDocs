@@ -4,8 +4,6 @@ description: You can reuse the same addresses between multiple account records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/reuse-account-addresses.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

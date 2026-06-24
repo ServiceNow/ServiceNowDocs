@@ -4,8 +4,6 @@ description: Check specific ServiceNow data center availability, service degrada
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/cloud-availability.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

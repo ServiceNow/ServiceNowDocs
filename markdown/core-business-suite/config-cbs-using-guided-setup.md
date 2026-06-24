@@ -4,8 +4,6 @@ description: Configure Core Business Suite business units using guided setup in 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-cbs-using-guided-setup.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 1

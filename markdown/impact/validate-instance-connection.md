@@ -4,8 +4,6 @@ description: Validate the connection between registered instances to confirm tha
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/validate-instance-connection.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Following is the information that is synced: who’s on your Impact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/working-with-squad-mapping.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Activate the customer data models for the B2B2C plugin \(com.sn\_cs
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-data-models-b2b2c.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

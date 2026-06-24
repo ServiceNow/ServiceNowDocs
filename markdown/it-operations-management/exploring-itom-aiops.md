@@ -4,8 +4,6 @@ description: Overview of ITOM AIOps applications and capabilities that enable pr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/exploring-itom-aiops.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-04-17"
 reading_time_minutes: 6

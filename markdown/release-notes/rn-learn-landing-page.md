@@ -4,8 +4,6 @@ description: The Australia release includes new features and improvements built 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-learn-landing-page.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1

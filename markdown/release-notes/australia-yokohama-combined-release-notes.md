@@ -4,8 +4,6 @@ description: To help you upgrade from Yokohama to Australia, we have combined th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-yokohama-combined-release-notes.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2020-06-26"
 reading_time_minutes: 9

@@ -4,8 +4,6 @@ description: The Task SLA cards component displays the status of one or more Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-sla-card-component.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

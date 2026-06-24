@@ -99,7 +99,7 @@ Step 6
 [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/testing-and-debugging-applications.md).
+</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/testing-and-debugging-applications.md).
 
 Follow along with the tutorial to test the employee travel request application.
 
@@ -128,7 +128,7 @@ Test your application before deploying it.
     -   If your flow is already open, verify that your changes are saved.
 3.  Select **Activate**, then select **Activate** again to make your flow available to run.
 
-    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md).
 
     \[Omitted image "app-tutorial-activate-flow.png"\] Alt text: Select Activate within the Activate dialog to make your flow available to run.
 
@@ -190,7 +190,7 @@ Test your application before deploying it.
 
 17. Review the flow execution details to verify that your flow runs as intended.
 
-    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 
 18. Perform additional tests to verify that the flow completes all desired branches of actions and flow logic.
 

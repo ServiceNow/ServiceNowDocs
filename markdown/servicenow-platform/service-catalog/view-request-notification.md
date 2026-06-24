@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the email notification layout and template that is shipped with the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin to deliver notifications that are consistent and built with industries best practices layout. Applying the layout to email notifications elevates the look and feel, and also helps to deliver branded notifications. For more information, see [Use email notification layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-notification-template.md).
+Use the email notification layout and template that is shipped with the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin to deliver notifications that are consistent and built with industries best practices layout. Applying the layout to email notifications elevates the look and feel, and also helps to deliver branded notifications. For more information, see [Use email notification layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-notification-template.md).
 
 ## Procedure
 

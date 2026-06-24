@@ -4,8 +4,6 @@ description: You can set up additional features for use in CSM workspaces. These
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-feature-set-up.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

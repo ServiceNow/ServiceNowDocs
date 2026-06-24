@@ -4,8 +4,6 @@ description: If you have the admin role, you can configure the Operational Techn
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/activate-ot-cmdb-search.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -44,13 +42,13 @@ The following table lists the features and skills that you can access from the N
 
 5.  On the Analytics Query Generator tile, select **Turn on**.
 
-    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 6.  In the Turn on skill confirmation window, select **Turn on** to activate the skill.
 
 7.  Enable the Search CMDB agentic workflow in the Now Assist panel.
 
-    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
     1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 

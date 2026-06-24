@@ -60,5 +60,5 @@ Understand the workflow for the import and export of issues between Agile Develo
 -   **[Troubleshooting issues of Jira integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-troubleshooting.md)**  
 Resolve common issues that you might face while working with the integration of Jira and Agile Development 2.0.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)
 

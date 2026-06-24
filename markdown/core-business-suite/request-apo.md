@@ -4,8 +4,6 @@ description: Raise an invoice request for any payment-related issues as a suppli
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-apo.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Configure the Exception reason integration to automatically synchro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/syncing-exception-reasons.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1

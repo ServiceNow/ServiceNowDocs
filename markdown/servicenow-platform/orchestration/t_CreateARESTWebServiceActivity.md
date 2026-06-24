@@ -28,11 +28,11 @@ To create and use a REST web service workflow activity:
 -   Assign the web\_service\_admin role to any user who must create or edit a custom REST activity.
 -   Determine an application, or [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md), for this activity.
 -   Determine the [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md) to use for the activity. Use this value to override the endpoint configured in the REST message.
--   Optionally, create [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Use this value to override the credentials configured in the SOAP message.
+-   Optionally, create [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Use this value to override the credentials configured in the SOAP message.
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
@@ -128,7 +128,7 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
 
 
 </td></tr><tr><td id="d75496e331">
@@ -137,7 +137,7 @@ Determines what type of authentication is required for the endpoint. The options
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkIntegrationConfiguration.md) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td id="d75496e353">
 
@@ -161,7 +161,7 @@ Profile for the OAuth provider for this REST message. See [Specify an OAuth prof
 
 ## What to do next
 
-Finish creating your Rest web service activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
+Finish creating your Rest web service activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
 
 **Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 
@@ -554,7 +554,7 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with Basic Authentication credentials**: Uses [Enable basic authentication for outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_BasicAuthentication.md) credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateRESTMessage.md) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md) configured appropriately.
 
 
 </td></tr><tr><td>
@@ -563,7 +563,7 @@ Credentials
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td>
 

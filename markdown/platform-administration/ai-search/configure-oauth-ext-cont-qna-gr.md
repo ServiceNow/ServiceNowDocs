@@ -23,8 +23,8 @@ The Now Assist in AI Search ServiceNow® Store application must be installed on 
 
 You must have already completed the following tasks:
 
--   [Request installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md) of the ServiceNow IntegrationHub Enterprise Pack Installer \[com.glide.hub.integrations.enterprise\] plugin
--   [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md)
+-   [Request installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md) of the ServiceNow IntegrationHub Enterprise Pack Installer \[com.glide.hub.integrations.enterprise\] plugin
+-   [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-oauth-application-in-microsoft-azure.md)
 
 You will need read access to the following Microsoft Azure Portal configuration settings for your Microsoft SharePoint Online instance:
 
@@ -164,7 +164,7 @@ Enter `offline_access https://<root-site>.sharepoint.com/.default`, replacing `<
 
     4.  If the **Integration Type** field isn't visible on the OAuth 2.0 Credentials form, configure the form layout to make the field visible.
 
-        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
     5.  On the OAuth 2.0 Credentials form, fill in the fields:
 

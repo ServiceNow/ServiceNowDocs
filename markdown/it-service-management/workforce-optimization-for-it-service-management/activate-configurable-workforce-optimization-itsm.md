@@ -46,7 +46,7 @@ MetricBase \(com.snc.clotho\)
 
 </td><td>
 
-Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see [Request the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md).
+Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see [Request the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md).
 
  When you activate both of these plugins, the Agent Forecast plugin \(com.sn\_agent\_forecast\) is activated.
 

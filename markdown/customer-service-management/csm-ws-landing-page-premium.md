@@ -4,8 +4,6 @@ description: The CSM Landing Page - Premium provides users with lists of assigne
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ws-landing-page-premium.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -16,7 +14,7 @@ breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurabl
 
 The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md) to meet their unique business needs.
 
 The CSM Landing Page - Premium includes components that display case information, plus visualizations that further break down the component data. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention. It also includes additional indicators and visualizations in the **Performance** and **Organization's Performance** sections. Each of the visualizations is connected to a data source.
 

@@ -4,8 +4,6 @@ description: The Impact store app stores data within your ServiceNow instance an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-store-app-storage-estimation.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

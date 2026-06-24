@@ -4,8 +4,6 @@ description: Developers can identify issues and prevent defects before they are 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/install-proactive-code-check.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

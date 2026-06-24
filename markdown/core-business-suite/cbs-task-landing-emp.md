@@ -4,8 +4,6 @@ description: The employee support services in the Core Business Suite help you s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-task-landing-emp.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -24,19 +22,19 @@ Choose one of the following tiles to learn more about the different applications
 
 <table id="table_ktr_z4w_hgc" class="nav-card"><tbody><tr><td>
 
-[HR Service Delivery\[Omitted image "bus-explore.svg"\] Alt text:Learn more about HR Service Delivery to ensure delivery of timely employee assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery.md)
+[HR Service Delivery\[Omitted image "bus-explore.svg"\] Alt text:Learn more about HR Service Delivery to ensure delivery of timely employee assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery.md)
 
 </td><td>
 
-[Workplace Service Delivery\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn more about Workplace Service Delivery to manage workplace-related tasks and requests in one place.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/workplace-service-delivery-suite-landing-page.md)
+[Workplace Service Delivery\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn more about Workplace Service Delivery to manage workplace-related tasks and requests in one place.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-suite-landing-page.md)
 
 </td><td>
 
-[Legal Service Delivery\[Omitted image "bus-learn.svg"\] Alt text:Learn more about Legal Service Delivery that enables employees and legal support to manage legal requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-management-overview.md)
+[Legal Service Delivery\[Omitted image "bus-learn.svg"\] Alt text:Learn more about Legal Service Delivery that enables employees and legal support to manage legal requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-management-overview.md)
 
 </td></tr><tr><td>
 
-[Health and Safety\[Omitted image "bus-handshake.svg"\] Alt text:Learn more about creating safe and healthy working conditions for your employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/health-safety-overview.md)
+[Health and Safety\[Omitted image "bus-handshake.svg"\] Alt text:Learn more about creating safe and healthy working conditions for your employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-safety-overview.md)
 
 </td><td>
 
@@ -44,7 +42,7 @@ Choose one of the following tiles to learn more about the different applications
 
 </td><td>
 
-[Sourcing and Procurement Operations\[Omitted image "bus-person.svg"\] Alt text:Learn more about the sourcing and procurement operations to enable your employees to shop for goods and services at work with AI-assisted tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
+[Sourcing and Procurement Operations\[Omitted image "bus-person.svg"\] Alt text:Learn more about the sourcing and procurement operations to enable your employees to shop for goods and services at work with AI-assisted tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-overview.md)
 
 </td></tr></tbody>
 </table>Find a breakdown of the supported features in CBS within the mentioned applications.
@@ -73,7 +71,7 @@ Raise requests for issues that aren’t covered by current automated workflows.
 
 For more information on the Core Business Suite request form for workplace requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
 
-For more information on the Workplace Service Delivery inquiry form, if you're an existing user, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md).
+For more information on the Workplace Service Delivery inquiry form, if you're an existing user, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/submit-gen-workplace-serv-req.md).
 
 ## Legal requests
 
@@ -83,7 +81,7 @@ Submit a request to the legal department in your organization for general legal 
 
 For more information on the Core Business Suite request form for legal requests, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
 
-For more information on the Legal Services request form, if you're an existing user, see [Submit a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submit-legal-request.md).
+For more information on the Legal Services request form, if you're an existing user, see [Submit a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/submit-legal-request.md).
 
 ## Health and Safety requests
 
@@ -93,13 +91,13 @@ Ask a Health and Safety question to the safety department, and request informati
 
 For more information on the Core Business Suite request form for Health and Safety, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
 
-For more information on the Health and Safety request form, if you're an existing user, see [Ask a Health and Safety question from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-ask-health-safety-question.md).
+For more information on the Health and Safety request form, if you're an existing user, see [Ask a Health and Safety question from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hs-ask-health-safety-question.md).
 
 ## Finance-related requests
 
 \[Omitted image "finance-req-form-dec.png"\] Alt text: Image displays finance inquiry form.
 
-Ask a general finance-related question, as an employee, targeted to the finance department in your organization. For more information, see [Submit a finance request from Employee Center catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/submit-fin-req.md).
+Ask a general finance-related question, as an employee, targeted to the finance department in your organization. For more information, see [Submit a finance request from Employee Center catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-fin-req.md).
 
 ## Procurement requests
 
@@ -109,7 +107,7 @@ Raise an inquiry for any pre-existing purchase, as a buyer, or any other query r
 
 For more information on the Core Business Suite request form, see [Raise requests on the employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/request-emp-rest.md).
 
-For more information on the procurement inquiry form, if you're an existing user, see [Raise a general inquiry for procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/raise-general-inquiry-for-procurement.md).
+For more information on the procurement inquiry form, if you're an existing user, see [Raise a general inquiry for procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-general-inquiry-for-procurement.md).
 
 ## Workflows and applications
 

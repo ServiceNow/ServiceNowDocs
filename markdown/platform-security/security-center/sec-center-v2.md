@@ -24,7 +24,7 @@ Security Center is a free application that administrators can download from the 
 
 Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for activation.
 
-Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/instance-security-center-to-security-center-migration.md).
+Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center-to-security-center-migration.md).
 
 ## Get started
 
@@ -100,5 +100,5 @@ Enable security banner announcements to stay informed about urgent and critical 
 -   **[Granular roles for Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/granular-sc-roles.md)**  
 Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
 
-**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-sublanding.md)
 

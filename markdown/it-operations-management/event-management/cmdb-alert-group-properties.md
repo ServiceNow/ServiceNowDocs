@@ -97,7 +97,7 @@ Use CMDB relationship based on host-containment Metadata rules
 
 Containment rules specify which configuration item classes can be contained within another item through a specific relationship when creating a service template.
 
- Keep this property enabled when forming CMDB alert groups to use any host-containment rules defined in the Metadata Editor. For more details, see [CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
+ Keep this property enabled when forming CMDB alert groups to use any host-containment rules defined in the Metadata Editor. For more details, see [CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceRulesMetadata.md).
 
  This property is enabled by default.
 

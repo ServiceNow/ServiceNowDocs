@@ -50,7 +50,7 @@ The call summarization skill enables you to do the following actions:
 
 4.  If enabled, transfer a call to another agent after accepting an incoming call and do the following actions:
 
-    You need to have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installing-awa.md).
+    You need to have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/installing-awa.md).
 
     1.  From the keypad, select **Quick connects** while you’re still connected to the customer.
 

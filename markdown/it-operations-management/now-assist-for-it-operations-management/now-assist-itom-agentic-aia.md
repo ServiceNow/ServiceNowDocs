@@ -41,7 +41,7 @@ To access the agentic workflow in AI Agent Studio:
 
 The Analyze alert impact page lets you manage the agentic workflow, including defining key requirements, defining security controls, and adding triggers.
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## AI agents used in the analyze alert impact agentic workflow
 

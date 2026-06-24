@@ -4,10 +4,8 @@ description: Scan Engine performance definitions measure the efficiency of a Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-performance.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 17
 breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---

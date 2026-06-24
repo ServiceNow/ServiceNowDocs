@@ -4,8 +4,6 @@ description: Define your email-related business processes using Inbound Email Fl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/define-process-incoming-emails.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -71,7 +69,7 @@ Email flows use conditional logic to incorporate multiple business processes int
 **Related topics**  
 
 
-[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
 
-[Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md)
+[Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md)
 

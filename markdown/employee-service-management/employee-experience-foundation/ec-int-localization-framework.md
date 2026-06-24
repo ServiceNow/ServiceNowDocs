@@ -1,0 +1,58 @@
+---
+title: Configure Localization Framework for Content Publishing
+description: Configure the translation workflow to enable Content managers to request translation via the Localization Framework. The basic workflow relies on manual translation; you can integrate with a third-party service to receive automatic translation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-int-localization-framework.html
+release: australia
+product: Employee Experience Foundation
+classification: employee-experience-foundation
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+---
+
+# Configure Localization Framework for Content Publishing
+
+Configure the translation workflow to enable Content managers to request translation via the Localization Framework. The basic workflow relies on manual translation; you can integrate with a third-party service to receive automatic translation.
+
+## Before you begin
+
+Role required: Admin
+
+-   [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-lf-plugin.md)
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md)
+-   \(Optional\) Configure a translation mode, such as machine translations, send to a translation management system, send via email, or export/import: [Translation modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/translation-modes.md).
+-   Create a user group to perform translation:
+    -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md)
+    -   Assign the `localization_fulfiller` role to the group: [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+    -   Add users to perform translation: [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md)
+-   Activate the `sn_cd.enable_localization_framework_integration` system property: [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Localization Framework** &gt; **Settings**.
+
+2.  Click **New**.
+
+3.  Enter a name for the setting.
+
+4.  Select **All** from the **Artifact** list.
+
+5.  Select the languages into which you want the content translated.
+
+6.  Select the **Workflow Preferences** tab.
+
+7.  Select **Translation -&gt; Publish** from the Workflow list.
+
+8.  From the **Localization fulfiller group** menu, insert the group you created.
+
+9.  Click **Submit**.
+
+
+## Result
+
+The Content Library displays the **Translate content** button, enabling Content managers to request translation in the languages you have enabled.
+
+To learn more about translation in the Content Library, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md)
+

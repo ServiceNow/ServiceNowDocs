@@ -4,8 +4,6 @@ description: Access your list of install base items from the Consumer Service Po
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-items-from-consumer-service-portal.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

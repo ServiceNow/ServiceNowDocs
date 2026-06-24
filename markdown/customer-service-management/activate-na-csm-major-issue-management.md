@@ -4,8 +4,6 @@ description: Activate the AI skill, test it against your data, then activate the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-na-csm-major-issue-management.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-06-02"
 reading_time_minutes: 2

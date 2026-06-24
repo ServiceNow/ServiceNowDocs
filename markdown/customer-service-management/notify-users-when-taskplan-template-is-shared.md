@@ -4,8 +4,6 @@ description: Notifications ensure that all relevant users, groups, service organ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/notify-users-when-taskplan-template-is-shared.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

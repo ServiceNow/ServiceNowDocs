@@ -24,7 +24,7 @@ You can also use Knowledge Management capabilities within a website built on Ado
 
 ## Using guided setup to implement Knowledge Management
 
-Guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open guided setup for Knowledge Management, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**. For more information, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+Guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open guided setup for Knowledge Management, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**. For more information, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
 -   **[Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)**  
 Activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) to enable advanced features for Knowledge Management.

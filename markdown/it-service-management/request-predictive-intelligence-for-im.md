@@ -4,8 +4,6 @@ description: To activate Predictive Intelligence for Incident, request the Predi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-predictive-intelligence-for-im.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

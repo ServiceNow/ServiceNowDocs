@@ -4,8 +4,6 @@ description: Several types of components are installed with activation of the pl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/components-installed-with-icw.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

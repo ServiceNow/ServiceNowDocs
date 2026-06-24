@@ -44,7 +44,7 @@ Existing applications that weren't created with the ServiceNow IDE or ServiceNow
 
     Applications that haven't been converted are listed as `Is Fluent app: False`.
 
-    The application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+    The application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 6.  To convert existing metadata into ServiceNow Fluent code, complete the following steps.
 

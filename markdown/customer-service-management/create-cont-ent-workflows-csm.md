@@ -4,8 +4,6 @@ description: After a product offer is selected by the customer and the product i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-cont-ent-workflows-csm.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -89,8 +87,8 @@ Opportunity and quote together**Note:** You cannot create opportunities and quot
 </td></tr></tbody>
 </table>**Note:** To create an opportunity or opportunity and quote together during renewal, the admin needs to set up the following records:
 
--   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/opportunity-management-sales-cycle-types.md).
--   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/opportunity-management-opportunity-stages.md).
+-   Sales Cycle Type: In the Code field, enter **RENEW** and set the Active option to **True**. For more info, see [Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-sales-cycle-types.md).
+-   Opportunity Stage: In the Name field, enter **Develop** and set the Active option to **True**. For more info, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md).
 
 If the user selects an opportunity and a quote as target entities, a renewal opportunity and a quote is created. The opportunity and the quote are associated to each other.
 

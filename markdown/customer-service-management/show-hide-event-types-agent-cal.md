@@ -4,8 +4,6 @@ description: Users with the agent schedule user role can personalize their calen
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/show-hide-event-types-agent-cal.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Learn how to navigate the redesigned release notes and find the inf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-getting-started-landing-page.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

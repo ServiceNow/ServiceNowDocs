@@ -4,8 +4,6 @@ description: The Employee Center for Operational Technology \(OT\) is a central 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-ot-employee-portal.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,13 +24,13 @@ The Employee Center for OT provides you with self-service options to deflect iss
 
 The Employee Center for OT is available in the existing Employee Center.
 
-**Note:** For more information about the Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+**Note:** For more information about the Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
 
 You can access it by navigating to **All** &gt; **Self-Service** &gt; **Employee Center** and selecting the **Industrial services** tab. The following image shows the Industrial services page accessible from the Employee Center.\[Omitted image "industrial-services.png"\] Alt text: Employee Center for OT accessible in the Employee Center under the Industrial services tab
 
 You can access the Employee Center for OT on both the desktop and the Now Mobile app experience. Providing both the desktop and mobile app experience helps different OT personas access the Employee Center for OT no matter their location.
 
-**Note:** For more information about the Now Mobile app experience, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
+**Note:** For more information about the Now Mobile app experience, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md).
 
 ## Employee Center for OT features
 

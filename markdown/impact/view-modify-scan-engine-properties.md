@@ -4,8 +4,6 @@ description: You can modify an existing definition to further customize and refi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/view-modify-scan-engine-properties.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -48,7 +46,7 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55479e153">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55455e153">
 
 **Applicable Tables**
 
@@ -69,7 +67,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet in order to be scanned.
 
 
-</td></tr><tr><td id="d55479e218">
+</td></tr><tr><td id="d55455e218">
 
 **Findings For This Definition**
 
@@ -77,7 +75,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d55479e227">
+</td></tr><tr><td id="d55455e227">
 
 **Resolved Finding Histories**
 
@@ -85,7 +83,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d55479e236">
+</td></tr><tr><td id="d55455e236">
 
 **Scan Engine Suites**
 

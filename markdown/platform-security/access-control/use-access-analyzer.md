@@ -20,7 +20,7 @@ Analyze identities and their access on the ServiceNow AI Platform instance.
 
 Role required: access\_analyzer\_admin
 
-Note that access\_analyzer\_admin is a granular role. For more information about granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-granular-roles.md).
+Note that access\_analyzer\_admin is a granular role. For more information about granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
 A user needs additional roles \(such as admin\) to be able to modify ACL records, user records, or other sources.
 

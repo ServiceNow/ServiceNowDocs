@@ -4,8 +4,6 @@ description: The ServiceNow Australia release includes new products and applicat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/family-release-notes.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: concept
 last_updated: "2026-06-16"
 reading_time_minutes: 4

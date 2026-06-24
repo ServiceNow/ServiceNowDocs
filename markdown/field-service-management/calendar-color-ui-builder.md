@@ -4,8 +4,6 @@ description: Change or add colors to the calendar grid to update your Dispatcher
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/calendar-color-ui-builder.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -31,7 +31,7 @@ To use the advanced planning feature, you must activate the following store appl
 
 You can choose to create audit plans for the engagement.
 
-**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md).
+**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md).
 
 Role required: sn\_audit.manager
 
@@ -453,5 +453,5 @@ An engagement project is created in the background for the engagement. The Resou
 
 ## What to do next
 
-[Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) and [Create a cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md).
+[Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateResourcePlanProjectTask.md) and [Create a cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProjectCostPlan.md).
 

@@ -4,8 +4,6 @@ description: Enable the case type single select property so that customer servic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-case-type-single-select-prop.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Manage your team's schedule by creating a schedule plan that covers
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-schedule-plan-configurable-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

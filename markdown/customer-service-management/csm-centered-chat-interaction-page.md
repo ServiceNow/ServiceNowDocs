@@ -4,8 +4,6 @@ description: The CSM centered chat interaction record page provides a chat compo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-centered-chat-interaction-page.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 12
@@ -129,7 +127,7 @@ The audience determines who can see the page variant. The CSM centered chat inte
 
 By default, agents who belong to the **CSM - Front-line Agent** audience will see the CSM centered chat interaction record page in the CSM Configurable Workspace. This is the default for both new \(zboot\) and upgrade customers.
 
-For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

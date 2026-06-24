@@ -4,8 +4,6 @@ description: With access to problem, change, and request records, external custo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-itsm-integration-view-request.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -40,13 +38,13 @@ Customers can also view Known Error articles for a problem related to a case. Th
 
 1.  Provide access to problem, change, and request records by configuring ACLs for the snc\_external role.
 
-    This access isn’t provided out of box. You must add these ACLs to the snc\_external user role based on case access. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+    This access isn’t provided out of box. You must add these ACLs to the snc\_external user role based on case access. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
     **Note:** Existing ACLs on the problem, change, and request records might impact the visibility for external users.
 
 2.  Configure the Case Related Records widget.
 
-    By default, this widget is displayed for users with the snc\_internal and snc\_external roles. For more information, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
+    By default, this widget is displayed for users with the snc\_internal and snc\_external roles. For more information, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
 
 3.  Define the views for the problem, change, and request records and select the fields that are visible to external customers.
 

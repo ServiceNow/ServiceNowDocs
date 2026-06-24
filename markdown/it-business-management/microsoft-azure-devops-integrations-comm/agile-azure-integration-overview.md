@@ -41,5 +41,5 @@ Understand the workflow for the import and export of work items between Agile De
 -   **[Troubleshooting issues for Azure DevOps integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.md)**  
 Resolve common issues that you might face while working with the integration of Azure DevOps and Agile Development 2.0.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)
 

@@ -62,7 +62,7 @@ To create a workflow stage field:
 
 11. To see workflow stages as icons, add the field to the list layout of the workflow table.
 
-    For detailed steps, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
+    For detailed steps, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md).
 
 
 ## What to do next

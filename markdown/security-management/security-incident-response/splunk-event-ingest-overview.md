@@ -44,7 +44,7 @@ The following Security Operations applications must be installed and activated f
 3.  Security Support Orchestration
 4.  Security Incident Response
 
-For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/activate-entitled-store-app.md).
+For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 ## ServiceNow Addons
 
@@ -58,7 +58,7 @@ This integration supports version 6.0 or later of Splunk Enterprise. The integra
 
 ## MID Server
 
-This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service if the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. For more information about MID Servers, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service if the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. For more information about MID Servers, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Integration architecture and systems connection
 

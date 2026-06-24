@@ -49,7 +49,7 @@ Use the UI Builder library of components to build your pages. Configure them any
 [Advanced\[Omitted image "bus-innovation.svg"\] Alt text:Learn how to add data and make your pages dynamic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)
 
 </td></tr></tbody>
-</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
+</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
 
 ## Troubleshoot and get help with UI Builder
 
@@ -69,5 +69,5 @@ UI Builder can be used by application developers with a variety of skill levels.
 -   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)**  
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
 
-**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/builder-library-table.md)
+**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md)
 

@@ -164,8 +164,8 @@ Sets the redirect URI for this transaction, which determines the next page the u
 For use cases:
 
 -   [Create a UI routing action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-client-side-scripts.md)
--   [Create knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ui-action-hrcase-article.md)
--   [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_UIActions.md)
+-   [Create knowledge articles from HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ui-action-hrcase-article.md)
+-   [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -242,7 +242,7 @@ Sets the return URI for this transaction after a UI action is complete. You can 
 |----|-----------|
 |void| |
 
-The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/r_UIActions.md).
+The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md).
 
 ```
 var change = new GlideRecord("change_request");

@@ -66,7 +66,7 @@ Create the application independently, adding content and files of your choosing.
 
 Begin a conversation with Build Agent to create your application.Select **With Now Assist** &gt; **Start a chat**. The Build Agent chat panel opens. Select **Create an application** or describe what you want to build.
 
-For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/create-a-new-application-using-build-agent.md).
+For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md).
 
 </td></tr><tr><td id="d156920e273">
 
@@ -91,13 +91,13 @@ For more information, see [Building apps with Creator Studio](https://raw.github
 
         -   **Scoped**: The app does not interact with other data on the instance by default. The app can access and change its own tables and business logic, but other apps cannot unless you grant them explicit permission.
         -   **Global**: All tables and business logic on the instance can interact with the app.
-        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
+        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
     4.  Select **Continue**.
 
 6.  Define user access to the app by adding roles.
 
-    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
     1.  Select **Add a role**.
 

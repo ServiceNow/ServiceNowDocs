@@ -4,8 +4,6 @@ description: Configure the toolbar layout order for the active call component so
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/implement-overflow-menu-icc.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-20"
 reading_time_minutes: 2

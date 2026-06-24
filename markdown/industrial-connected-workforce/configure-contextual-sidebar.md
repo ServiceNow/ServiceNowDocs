@@ -4,8 +4,6 @@ description: Configure whether the sidebar is open or closed by default for user
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/configure-contextual-sidebar.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

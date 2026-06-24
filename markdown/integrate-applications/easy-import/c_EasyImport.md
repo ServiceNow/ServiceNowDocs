@@ -74,5 +74,5 @@ Each import template must pass two sets of validation.
 -   **[Easy import properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/easy-import-properties.md)**  
 Several properties control the behavior of easy import.
 
-**Parent Topic:**[Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/imports-overview-page.md)
+**Parent Topic:**[Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/imports-overview-page.md)
 

@@ -4,8 +4,6 @@ description: Configure the Customer Service mobile application and customize it 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-customer-service-mobile.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -30,7 +28,7 @@ The Customer Service Mobile plugin \(com.sn\_csm\_mobile\) enables the Customer 
 
 2.  In the **Select Application** pop-up window, click **Customer Service Mobile**.
 
-    The Customer Service mobile application opens in the Studio, which is a guided app creator. For more information about using the Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+    The Customer Service mobile application opens in the Studio, which is a guided app creator. For more information about using the Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-landing.md).
 
 3.  Customize the application to display the desired applets and data and configure agent actions and notifications.
 

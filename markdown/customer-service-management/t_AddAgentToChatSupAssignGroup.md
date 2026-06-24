@@ -4,8 +4,6 @@ description: Agents must be added to the chat support assignment group before th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AddAgentToChatSupAssignGroup.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -36,5 +34,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md)
+[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConnectSupport.md)
 

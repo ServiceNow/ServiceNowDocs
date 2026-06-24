@@ -37,7 +37,7 @@ Role required: pa\_data\_collector or higher
 
 5.  Select either a Daily data frequency or All Activity.
 
-    The Daily frequency supports only the standard calendar and the Daily indicator frequency. All Activity includes the standard calendar and all business calendars for which a Business Calendar Group is defined. It supports all indicator frequencies defined in those business calendars including intraday frequencies such as Work Shift. All Activity also supports showing data from incomplete periods in data visualizations and KPI Details. For more information, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
+    The Daily frequency supports only the standard calendar and the Daily indicator frequency. All Activity includes the standard calendar and all business calendars for which a Business Calendar Group is defined. It supports all indicator frequencies defined in those business calendars including intraday frequencies such as Work Shift. All Activity also supports showing data from incomplete periods in data visualizations and KPI Details. For more information, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
 
 6.  Select which **Fields** of the fact table to include in the Data snapshots source.
 

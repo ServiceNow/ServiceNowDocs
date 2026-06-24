@@ -297,7 +297,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md).
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md).
 
 Data type: String
 
@@ -7282,7 +7282,7 @@ relatedparties.responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -9482,7 +9482,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -9828,7 +9828,7 @@ item.responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -12247,7 +12247,7 @@ responsibility
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md)
 
 Data type: String
 
@@ -12570,7 +12570,7 @@ responsibility.sys\_id
 
 Sys\_id of the associated responsibility record. This record defines the access level for the install base information.This parameter is only valid if the **related\_party** field is also specified. If specified, it only returns the install base items that match both the **related\_party** and **responsibility** parameters.
 
-For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services/psds-add-related-parties-to-record.md)
+For additional information, see [Configure related parties for Items Received](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-add-related-parties-to-record.md)
 
 Data type: String
 

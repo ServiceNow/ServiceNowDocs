@@ -45,7 +45,7 @@ Role required: sn\_kpi\_composer.user, sn\_kpi\_composer.admin, admin
 
 All tasks in a KPI Composer project are assigned to the same assignment group. After you generate tasks, the group handles them through its normal workflow.
 
-By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 
 To change the assignment group, follow this procedure:
 

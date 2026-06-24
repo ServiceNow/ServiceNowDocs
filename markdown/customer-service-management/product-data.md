@@ -4,8 +4,6 @@ description: Configure product data for Customer Service Management including pr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/product-data.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -85,7 +83,7 @@ This application enables you to update the existing configurations and to modify
 
 </td></tr><tr><td>
 
-Create [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/lead-to-cash.md) for products and services
+Create [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md) for products and services
 
 </td><td>
 

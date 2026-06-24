@@ -4,8 +4,6 @@ description: The Share KB in chat interactions guidance recommends relevant know
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-share-kb-chat.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Real-time scanning properties allow control over which users have a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-real-time-scanning-properties.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

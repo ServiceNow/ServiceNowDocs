@@ -78,7 +78,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Service Catalog UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
+[Service Catalog UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogUIPolicy.md)
 
 </td><td>
 
@@ -109,7 +109,7 @@ client
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ScriptActions.md)
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_ScriptActions.md)
 
 </td><td>
 
@@ -141,7 +141,7 @@ server
 
 </td></tr><tr><td>
 
-[Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
+[Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
 
 </td><td>
 
@@ -304,7 +304,7 @@ client
 
 </td></tr><tr><td>
 
-[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md)
+[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md)
 
 </td><td>
 

@@ -4,8 +4,6 @@ description: The de-escalation requester can de-escalate cases or accounts when 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/de-escalate-csm-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

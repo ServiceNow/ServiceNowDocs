@@ -128,7 +128,7 @@ When saving a new UI page, you are prompted to assign a role for access control.
 
 **Note:** An entry with the same name as the UI page is created in the Access Control table.
 
-For details on creating an ACL rule, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+For details on creating an ACL rule, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
 ## High risk UI pages
 
@@ -195,7 +195,7 @@ Role required: security\_admin and admin
 
 1.  Elevate to the **security\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **All** &gt; **System UI** &gt; **UI Pages**.
 
@@ -226,7 +226,7 @@ Role required: security\_admin and admin
 
 12. Complete the form and assign a role to the UI page.
 
-    For additional information on access control, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+    For additional information on access control, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
 13. Select **Submit** for a new access control or **Update** for edits.
 

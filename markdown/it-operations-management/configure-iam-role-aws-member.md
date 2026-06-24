@@ -4,8 +4,6 @@ description: Configure access for AWS member accounts by using a trust chain fro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-iam-role-aws-member.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Adjust forecasts manually to fine-tune them for greater accuracy. C
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-manual-adjustment-forecast-configurable-wfo.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

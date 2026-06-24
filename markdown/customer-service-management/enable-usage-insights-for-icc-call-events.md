@@ -4,8 +4,6 @@ description: Configure Usage Insights to enable tracking of call events that are
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-usage-insights-for-icc-call-events.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-04"
 reading_time_minutes: 2

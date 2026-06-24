@@ -4,8 +4,6 @@ description: Raise an HR request for general requests, payroll, or benefits on C
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-emp-cbs.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -34,8 +32,8 @@ Role required: sn\_cbs.requestor
 
         For more information on the field descriptions of each request form, see the following:
 
-        -   [HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-management.md).
-        -   [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/payslips-awd.md).
+        -   [HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-catalog-management.md).
+        -   [Report an issue with your payslip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/payslips-awd.md).
 
 **Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
 

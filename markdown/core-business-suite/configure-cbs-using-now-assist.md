@@ -4,8 +4,6 @@ description: Configure Core Business Suite using a conversational interface prov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/configure-cbs-using-now-assist.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 1

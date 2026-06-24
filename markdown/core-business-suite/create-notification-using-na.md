@@ -4,8 +4,6 @@ description: Create notifications for Core Business Suite business units through
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/create-notification-using-na.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 1

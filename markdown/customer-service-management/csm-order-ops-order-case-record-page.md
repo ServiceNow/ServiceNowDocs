@@ -4,8 +4,6 @@ description: The Order case record page displays information about order cases a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-record-page.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -208,7 +206,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

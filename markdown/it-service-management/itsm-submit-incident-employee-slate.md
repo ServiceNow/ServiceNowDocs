@@ -4,10 +4,8 @@ description: Save time in submitting and resolving incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-submit-incident-employee-slate.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Employee experience in Employee Slate, Employee experience, Simplified IT Service Management, IT Service Management]
 ---

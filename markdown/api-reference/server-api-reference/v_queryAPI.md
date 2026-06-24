@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The v\_query API provides methods to obtain information about a scriptable object that represents a query running against a remote table.
 
-This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
+This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
 
 Remote table rows are created using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 
@@ -65,7 +65,7 @@ See also [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 |----|-----------|
 |String|The encoded query as a string.|
 
-The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md).
+The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-table-script-def-example2.md).
 
 ```
 gs.info(v_query.getEncodedQuery());
@@ -83,7 +83,7 @@ Gets the value of a field in an equality query condition.
 
 See also:
 
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
+-   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-table-script-def-example2.md)
 -   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
@@ -118,7 +118,7 @@ Returns the sys\_id value in a get query.
 |----|-----------|
 |String|Sys\_id value in the get query, for example, if `sys_id=123`, this method returns `123`.|
 
-The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md).
+The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-table-script-def-example2.md).
 
 ```
 v_query.getSysId();
@@ -167,7 +167,7 @@ Determines if the query is a get query, that is, a query that retrieves a record
 
 See also:
 
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
+-   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-table-script-def-example2.md)
 -   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
@@ -257,7 +257,7 @@ Sets the last error message in the GlideRecord.
 See also:
 
 -   [Scoped GlideRecord - getLastErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
+-   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-table-script-def-example2.md)
 -   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|

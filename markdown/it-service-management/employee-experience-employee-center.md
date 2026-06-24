@@ -4,10 +4,8 @@ description: Simplify meeting employee needs by leveraging the automated self-se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-employee-center.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---

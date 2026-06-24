@@ -45,7 +45,7 @@ Tokenizer service
 
 </td></tr><tr><td>
 
-[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-integrate-other-applications.md)
+[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md)
 
 </td><td>
 

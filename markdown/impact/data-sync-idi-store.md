@@ -4,8 +4,6 @@ description: Following is a comprehensive overview of the dependent apps that ar
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/data-sync-idi-store.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3

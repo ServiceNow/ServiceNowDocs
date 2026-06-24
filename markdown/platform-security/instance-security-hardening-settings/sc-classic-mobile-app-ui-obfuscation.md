@@ -22,7 +22,7 @@ On iOS devices, the iOS operating system also allows applications to save an ima
 
 **Note:** This setting or configuration is per instance basis so the user must connect to the instance with the property configured.
 
-To obfuscate all fields from the snapshot in the ServiceNow Classic app, see [Configure the blur app option to improve security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/t_BlurApp.md).
+To obfuscate all fields from the snapshot in the ServiceNow Classic app, see [Configure the blur app option to improve security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/t_BlurApp.md).
 
 ## Example
 

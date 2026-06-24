@@ -4,8 +4,6 @@ description: As a Major Case Manager, you can review and approve or reject a pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/na-for-csm-major-issue-management.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-06-02"
 reading_time_minutes: 2

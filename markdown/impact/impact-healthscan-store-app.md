@@ -4,8 +4,6 @@ description: Impact Platform Health uses the Impact Scan Engine to enable proact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-healthscan-store-app.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4

@@ -93,5 +93,5 @@ Option to designate this table as a remote table. A remote table is a table to w
 **Related topics**  
 
 
-[Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md)
+[Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md)
 

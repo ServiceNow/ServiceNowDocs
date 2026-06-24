@@ -4,8 +4,6 @@ description: View and update your consumer profile, including personal informati
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-edit-consumer-portal-profile.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -40,5 +38,5 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md)
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/softpin-authentication.md)
 

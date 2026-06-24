@@ -4,8 +4,6 @@ description: Set up a basic integration between Instance Observer \(IO\) and thi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-receive-notification-third-party.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 4
@@ -94,7 +92,7 @@ Enter URL
 
 </td><td>
 
-Webhook URL as configured on your third-party \(external\) application.For more information, see 
+Webhook URL as configured on your third-party \(external\) application.For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_CreateAScriptedRESTService.md)
 
 </td></tr></tbody>
 </table>    \[Omitted image "io-webhook-third-party-integ.png"\] Alt text: Create a webhook integration for a third-party application.

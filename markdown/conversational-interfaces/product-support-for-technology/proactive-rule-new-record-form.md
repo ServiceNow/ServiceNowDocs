@@ -44,7 +44,7 @@ Rules are triggered when the Virtual Agent is available.
 
 -   Live Agent only
 
-Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
+Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-va-in-sp.md).
 
 
 </td></tr><tr><td>

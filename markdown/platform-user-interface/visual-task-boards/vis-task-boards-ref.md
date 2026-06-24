@@ -23,5 +23,5 @@ The system supports Visual Task Boards on most modern browsers.
 -   **[Installed with Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_InstalledWithVisualTaskBoards.md)**  
 Several types of components are installed with Visual Task Boards.
 
-**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-uis-and-portals.md)
+**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-uis-and-portals.md)
 

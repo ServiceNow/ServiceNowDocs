@@ -4,8 +4,6 @@ description: Establish internal and external locations so that users and consume
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-business-location.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

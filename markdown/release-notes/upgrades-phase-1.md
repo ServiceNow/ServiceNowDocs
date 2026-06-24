@@ -4,8 +4,6 @@ description: Before you begin the upgrade process, it is essential to read the r
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-1.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

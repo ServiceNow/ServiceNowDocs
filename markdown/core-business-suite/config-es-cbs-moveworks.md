@@ -4,8 +4,6 @@ description: Configure Employee Slate for Moveworks to provide a conversational 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-es-cbs-moveworks.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-06-05"
 reading_time_minutes: 1

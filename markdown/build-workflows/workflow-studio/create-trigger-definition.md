@@ -57,7 +57,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 9.  To trigger your playbook for tables that extend your selected table, select the **Run On Extended** check box.
 
-    For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
+    For more information, see .
 
 10. Click **Update** to finish creating your trigger definition.
 

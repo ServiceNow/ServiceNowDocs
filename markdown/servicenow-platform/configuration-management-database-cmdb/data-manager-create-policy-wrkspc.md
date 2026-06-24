@@ -28,9 +28,9 @@ Create a CMDB Data Manager policy in CMDB Workspaceor Service Graph Workspace to
         -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
     2.  Select **Subflows** in the navigation bar on the left.
     3.  Review the subflows on the Data Manager subflows page, and drill down to a subflow to open it in Workflow Studio.
-    4.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+    4.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
 -   To require a review and an approval for a policy task: Ensure that the **Managed By Group** attribute is populated in target CIs and that the assigned users have the privilege to approve the policy tasks.
--   When [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md) is activated, check if there's an asset record associated with that CI before retiring the CI. Check the associated asset record, if there's one, and verify that its asset state \(install\_status\) is **Retired**.
+-   When [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AssetManagement.md) is activated, check if there's an asset record associated with that CI before retiring the CI. Check the associated asset record, if there's one, and verify that its asset state \(install\_status\) is **Retired**.
 
 Role required: sn\_cmdb\_admin
 

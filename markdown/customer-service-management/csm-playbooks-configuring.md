@@ -4,8 +4,6 @@ description: Configure different playbook settings, such as selecting the activi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbooks-configuring.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -35,7 +33,7 @@ Create or customize a playbook record page
 A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md)
 -   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md)
 
-For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +127,7 @@ Configure optional playbook activities so that agents and fulfillers can insert 
 </td></tr></tbody>
 </table>## Playbook experiences
 
-Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
+Playbook experiences are used to customize the look and feel of a playbook. Settings in a playbook experience control how [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) renders a playbook in the CSM workspaces. System administrators can configure settings in the playbook experience record that determine the playbook stage and activity visibility.
 
 Within UI Builder, system administrators can configure playbook component settings such as:
 

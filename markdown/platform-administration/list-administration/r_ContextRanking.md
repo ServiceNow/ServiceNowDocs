@@ -27,5 +27,5 @@ After you create a ranking definition for a table, related lists based on that t
 -   **[Scrum ranking definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_ScrumRankingDefinitions.md)**  
 Ranking definitions for user stories are part of the SDLC \(scrum process\) application.
 
-**Parent Topic:**[ServiceNow AI Platform forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/now-platform-forms-fields-lists.md)
+**Parent Topic:**[ServiceNow AI Platform forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-platform-forms-fields-lists.md)
 

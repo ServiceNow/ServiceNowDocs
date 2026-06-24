@@ -4,8 +4,6 @@ description: You can activate the Dispatcher Workspace plugin \(sn\_fsm\_disp\_w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/activate-dispatcher\_workspace.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: The ServiceNow Discovery for Operational Technology \(OT\) Native c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-discovery-native-components.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

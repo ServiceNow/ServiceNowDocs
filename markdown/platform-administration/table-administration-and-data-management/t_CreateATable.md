@@ -94,9 +94,9 @@ Option to designate this table as a remote table. A remote table is a table to w
 
  **Note:** To learn more about scriptable tables, see:
 
--   [Retrieving and caching external data using remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
--   [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table.md)
--   [Create a script definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-script.md)
+-   [Retrieving and caching external data using remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md)
+-   [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-remote-table.md)
+-   [Create a script definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-remote-table-script.md)
 
 
 </td></tr><tr><td>
@@ -142,7 +142,7 @@ Type
 
 </td><td>
 
-\[Mandatory\] Define the field type for the column. See [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_IntroductionToFields.md) and [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md). To preserve existing data, only change fields between the same basic type \(for example, **Choice** and **String**\). A warning appears if a change to a custom field results in data loss. You cannot change a base system field, that results in data loss.
+\[Mandatory\] Define the field type for the column. See [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md) and [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md). To preserve existing data, only change fields between the same basic type \(for example, **Choice** and **String**\). A warning appears if a change to a custom field results in data loss. You cannot change a base system field, that results in data loss.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Reference
 
 </td><td>
 
-Make the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ReferenceField.md) by entering the referenced table name.
+Make the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md) by entering the referenced table name.
 
  **Note:** Dynamic reference creation is enabled for this field. So, if you enter a table name that does not match an existing table, a new table is created when you save changes to the current table record. If the current table has a module in the application navigator, then a module for the newly created table is automatically created in the same application menu.
 
@@ -183,7 +183,7 @@ Display
 
 </td><td>
 
-Indicate whether this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) \(appears on records that reference this table\).
+Indicate whether this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) \(appears on records that reference this table\).
 
  **Note:** This option does not control whether this field is displayed on lists or forms.
 

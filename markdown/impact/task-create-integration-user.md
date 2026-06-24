@@ -4,8 +4,6 @@ description: Create a dedicated integration user account and assign the required
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/task-create-integration-user.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-21"
 reading_time_minutes: 1

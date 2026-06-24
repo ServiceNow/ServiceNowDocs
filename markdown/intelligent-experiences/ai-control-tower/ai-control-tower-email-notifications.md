@@ -43,5 +43,5 @@ The following notification is sent when an AI asset is retired or cancelled.
 
 ## Related information
 
-See [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md) for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
+See [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc_email_notifications.md) for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
 

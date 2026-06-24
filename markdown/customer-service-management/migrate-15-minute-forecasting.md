@@ -4,8 +4,6 @@ description: Migrate to 15-minute demand forecasting that enables managers to vi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migrate-15-minute-forecasting.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

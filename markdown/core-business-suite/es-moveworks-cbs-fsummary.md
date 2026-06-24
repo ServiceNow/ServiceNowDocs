@@ -4,8 +4,6 @@ description: Navigation sections available on the Employee Slate for Moveworks C
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/es-moveworks-cbs-fsummary.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: reference
 last_updated: "2026-06-05"
 reading_time_minutes: 1

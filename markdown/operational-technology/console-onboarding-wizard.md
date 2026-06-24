@@ -4,8 +4,6 @@ description: The Discovery Console for OT provides an interactive configuration 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/console-onboarding-wizard.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1

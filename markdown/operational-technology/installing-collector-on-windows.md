@@ -4,8 +4,6 @@ description: Install the OT Discovery Collector on a Windows system. The OT Disc
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/installing-collector-on-windows.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 2

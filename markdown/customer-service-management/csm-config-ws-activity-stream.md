@@ -4,8 +4,6 @@ description: The activity stream helps agents stay informed by displaying a runn
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-activity-stream.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-19"
 reading_time_minutes: 1

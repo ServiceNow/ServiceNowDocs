@@ -4,8 +4,6 @@ description: Manage customer requests and issues by creating cases, routing case
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-management.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: CSM Configurable Workspace is a user interface that provides custom
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspaces-configure.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

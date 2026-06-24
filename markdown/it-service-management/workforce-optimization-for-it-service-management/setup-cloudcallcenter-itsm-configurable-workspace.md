@@ -53,7 +53,7 @@ A routing profile links queues to agents. Every agent must have a routing profil
 
 1.  Create placeholder queues for an Amazon Connect \(phone\) service channel if you need additional queues.
 
-    For more information on creating a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+    For more information on creating a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
 
     **Note:** Do not add work item routing conditions when you create placeholder queues.
 

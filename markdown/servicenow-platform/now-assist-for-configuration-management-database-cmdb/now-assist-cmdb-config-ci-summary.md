@@ -48,7 +48,7 @@ Alerts
 
 </td><td>
 
-Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
+Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Security vulnerabilities
 
 </td><td>
 
-Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/security-operations-landing-page.md).
+Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations-landing-page.md).
 
 </td></tr><tr><td>
 

@@ -4,8 +4,6 @@ description: After importing customer account information, update the com.snc.cs
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-csm-account-code-property.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

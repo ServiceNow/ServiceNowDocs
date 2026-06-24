@@ -68,8 +68,8 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 The Import Test Run Data Sets form opens.
 
  1.  Define the import behavior.
-    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see [Add a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/t_AddARecordInTheTemplate.md).
-    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see [Update a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/t_UpdateARecordInTheTemplate.md).
+    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see [Add a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_AddARecordInTheTemplate.md).
+    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see [Update a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_UpdateARecordInTheTemplate.md).
 2.  In the Upload Test Run Data File section, select **Yes** to download an Excel template with the required fields, then upload a completed file. Alternately, select **No** to upload a completed file.
  Each row in the file becomes an entry in the Test Run Data Sets table.
 

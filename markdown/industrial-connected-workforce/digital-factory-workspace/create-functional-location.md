@@ -48,5 +48,5 @@ The functional location is displayed in the list of functional locations for the
 **Related topics**  
 
 
-[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-workspace.md)
 

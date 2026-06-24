@@ -4,8 +4,6 @@ description: Resolve user issues by requesting for support using chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/get-support-using-chat.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

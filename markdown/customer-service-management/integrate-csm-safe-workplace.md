@@ -4,8 +4,6 @@ description: Enable the integration with Safe Workplace applications to help con
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrate-csm-safe-workplace.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md).
+1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-emp-health-screening.md).
 
 2.  Give external users access to the Health Verification form.
 

@@ -4,8 +4,6 @@ description: Add dependencies between template items in a task plan template to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-dependencies-between-template-item.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-11"
 reading_time_minutes: 2

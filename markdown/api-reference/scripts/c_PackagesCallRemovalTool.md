@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 14
 breadcrumb: [Scripting, API implementation, API implementation and reference]
 ---
@@ -26,7 +26,7 @@ Packages calls to ServiceNow Java classes will be prevented in a future release.
 
 The tool might generate errors as it tries to generate preferred, scriptable alternatives for Packages calls to ServiceNow Java classes.
 
-**Note:** Create an update set before migrating the changes that result from running the Packages Call Removal Tool. For information, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
+**Note:** Create an update set before migrating the changes that result from running the Packages Call Removal Tool. For information, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
 
 **Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 

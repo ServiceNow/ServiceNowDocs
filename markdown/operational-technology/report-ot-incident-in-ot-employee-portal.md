@@ -4,8 +4,6 @@ description: If you're not an Operational Technology \(OT\) incident user and ne
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/report-ot-incident-in-ot-employee-portal.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: With the business-to-business-to-consumer \(B2B2C\) model, organiza
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-b2b2c.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

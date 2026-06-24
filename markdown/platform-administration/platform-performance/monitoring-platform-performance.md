@@ -31,5 +31,5 @@ The instance tracks the performance of individual threads, which administrators 
 -   **[Monitoring instance usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/usage-analytics-module-subscription.md)**  
 You can track application usage on your instance through the Application Usage Overview and the ServiceNow Store Usage overview dashboards.
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
 

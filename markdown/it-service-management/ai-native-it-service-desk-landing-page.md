@@ -4,8 +4,6 @@ description: Simplified IT Service Management provides an AI-native solution for
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/ai-native-it-service-desk-landing-page.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2026-04-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Configure a guidance node in Decision Tree Builder so agents can vi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-guidance-in-gdb.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

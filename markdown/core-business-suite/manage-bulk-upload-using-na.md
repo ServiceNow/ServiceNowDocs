@@ -4,8 +4,6 @@ description: Upload records in bulk for Core Business Suite business units throu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/manage-bulk-upload-using-na.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 2

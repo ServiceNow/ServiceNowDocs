@@ -4,8 +4,6 @@ description: This example provides a use case of a medical equipment maintenance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/example-train-similarity-solution.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -163,7 +161,7 @@ Update Frequency
 Frequency of how often to include new records in the model to retrieve the similarity results.
 
 </td></tr></tbody>
-</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
+</table>    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
 
 4.  In the Training Request Schedule related list, update the schedule for training the Similar Part Requirements solution definition.
 
@@ -181,11 +179,11 @@ Frequency of how often to include new records in the model to retrieve the simil
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/update-similarity-threshold.md).
 
 
 ### Result

@@ -4,8 +4,6 @@ description: Associate an outage with a major case to keep customers informed ab
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-outage-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

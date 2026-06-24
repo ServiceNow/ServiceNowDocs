@@ -29,7 +29,7 @@ Service Portal displays search results data within a widget on the search page. 
 
 ## Search analytics and suggestions
 
-Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions/search-suggestions-overview.md).
+Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-suggestions-overview.md).
 
 -   **Generate suggestions from custom widgets**
 

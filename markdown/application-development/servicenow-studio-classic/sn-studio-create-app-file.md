@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 ## About this task
 
-Application files are metadata records for application logic such as business rules, workflows, and script includes. For more information about app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationFiles.md) and [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+Application files are metadata records for application logic such as business rules, workflows, and script includes. For more information about app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationFiles.md) and [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
 Delegated developers can create app files for apps they have access to. To have an app created, contact your admin.
 

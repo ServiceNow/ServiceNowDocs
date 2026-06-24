@@ -4,8 +4,6 @@ description: Configure groups and roles for Core Business Suite business units t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-groups.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-22"
 reading_time_minutes: 1

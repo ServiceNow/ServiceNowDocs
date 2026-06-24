@@ -92,7 +92,7 @@ In a base system, a CI's **Operational Status** field and the **Status**/**Hardw
 
 Whenever CI’s **Status**/**Hardware Status** changes, it is synchronized to the CI’s corresponding **Asset State** field, and vice versa — keeping the CI’s **Operational Status** and the CI’s corresponding **Asset State** synchronized.
 
-For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see [Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md). And for more information about retiring assets, see [Retire assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md).
+For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see [Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md). And for more information about retiring assets, see [Retire assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md).
 
 -   **[Get started with CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/get-started-cilifecyclemgmt.md)**  
 Follow these high level steps to get started and to track activities of the CI Lifecycle Management module of the CMDB application.

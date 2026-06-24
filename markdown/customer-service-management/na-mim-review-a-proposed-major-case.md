@@ -4,8 +4,6 @@ description: When the AI workflow proposes a new major case, review the suggesti
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/na-mim-review-a-proposed-major-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-06-03"
 reading_time_minutes: 1

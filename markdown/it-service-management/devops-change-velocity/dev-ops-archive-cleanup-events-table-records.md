@@ -18,7 +18,7 @@ Use table cleaners on the inbound events table to purge event data records beyon
 
 ## Data management
 
-The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), and [table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md). A scheduled job is auto-enabled two weeks after you upgrade.
+The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), and [table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/table-cleanup.md). A scheduled job is auto-enabled two weeks after you upgrade.
 
 ## Table rotation on processed inbound events table
 

@@ -138,5 +138,5 @@ Source-to-Pay Workspace provides a unified environment where procurement special
 -   **[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)**  
 Reference information for articles, lists, and forms used in Source-to-Pay Workspace, including links to related product documentation.
 
-**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/source-to-pay-operations-overview.md)
+**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-operations-overview.md)
 

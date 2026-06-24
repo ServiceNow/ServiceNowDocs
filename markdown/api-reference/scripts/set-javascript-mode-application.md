@@ -47,5 +47,5 @@ For applications that use ES5 Standards or Compatibility mode, you can also turn
 **Related topics**  
 
 
-[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/modify-an-apps-settings-in-servicenow-studio.md)
+[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/modify-an-apps-settings-in-servicenow-studio.md)
 

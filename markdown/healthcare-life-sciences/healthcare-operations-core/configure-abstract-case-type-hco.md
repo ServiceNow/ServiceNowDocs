@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Fill in the other fields as needed.
 
-    For information on these fields, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md) in the ServiceNow platform documentation.
+    For information on these fields, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md) in the ServiceNow platform documentation.
 
 5.  Click **Submit**.
 

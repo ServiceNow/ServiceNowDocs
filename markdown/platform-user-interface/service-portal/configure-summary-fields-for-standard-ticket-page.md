@@ -43,5 +43,5 @@ Role required: admin and sp\_admin
 **Related topics**  
 
 
-[Generative AI summarization on the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.md)
+[Generative AI summarization on the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/genai-summary-standard-ticket-page.md)
 

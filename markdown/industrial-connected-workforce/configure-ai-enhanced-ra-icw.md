@@ -4,8 +4,6 @@ description: Configure AI Enhanced recommended actions for ICW to contextualize 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/configure-ai-enhanced-ra-icw.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,11 +17,11 @@ Configure AI Enhanced recommended actions for ICW to contextualize external sour
 
 ## Configuration overview
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-ext-cont-connector-mspo.md)
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-ext-cont-connector-mspo.md)
 
     Create a Microsoft SharePoint Online external content connector to use as the external source.
 
-2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md)
+2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md)
 
     Configure the crawl settings to specify the sites you want your Microsoft SharePoint Online external content connector to crawl.
 

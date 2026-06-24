@@ -4,8 +4,6 @@ description: The Estimated Time to Resolve a Case regression definition is avail
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr\_configure.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,7 +22,7 @@ Role required: admin, ml\_admin
 
 The Estimated Time to Resolve a Case definition is available by default. You can train this available definition to complete a solution and make predictions. You can change some of the default settings such as the fields, a filter, and the training frequency. For more information on creating and training a solution, see the following.
 
-[Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-regression-solution.md)
+[Create and train a regression solution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-regression-solution.md)
 
 ## Procedure
 

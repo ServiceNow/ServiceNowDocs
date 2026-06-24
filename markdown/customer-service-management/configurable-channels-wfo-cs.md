@@ -4,8 +4,6 @@ description: Use Channel Management to keep a track of the real-time performance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-channels-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Details of the default configurations for Workplace Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/workplace-default-configurations.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-29"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: The Core Business Suite \(CBS\) Analytics dashboard provides a unif
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-analytics-overview.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 3

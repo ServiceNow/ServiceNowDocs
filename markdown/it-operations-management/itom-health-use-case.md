@@ -4,8 +4,6 @@ description: ITOM AIOps leverages and maintains CSDM tables, while various Servi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Create a decision table with name Assignment group for a router iss
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-decision-tree-for-assgment-grp-recommendation.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +23,7 @@ This decision table requires two inputs:
 
 For the result, create the Assignment group column with Result type selected as Reference and Result table selected as Group \[sys\_user\_group\].
 
-Configure the decision table conditions, results, and values as displayed in the following table. For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+Configure the decision table conditions, results, and values as displayed in the following table. For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
 |Condition columns|Result column|
 |Product|Problem|Assignment group|

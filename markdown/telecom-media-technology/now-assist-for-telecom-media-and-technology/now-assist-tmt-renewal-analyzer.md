@@ -49,7 +49,7 @@ Before you use the agentic workflow, you must do the following:
 -   Engagement: Source table must be set to Sold Products and the context table must be set to Engagement.
 -   Contract: Source table must be set to Sold Products and the context table must be set to Contract.
 
-For more details on configuring the data sources, see [Configure the Data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-dce.md).
+For more details on configuring the data sources, see [Configure the Data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-dce.md).
 
 ## Support renewals and expansion agentic workflow
 

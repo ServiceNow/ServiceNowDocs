@@ -4,8 +4,6 @@ description: Order cases and order case line items move through several differen
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-states.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4

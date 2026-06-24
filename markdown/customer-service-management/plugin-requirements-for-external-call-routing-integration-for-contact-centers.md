@@ -4,8 +4,6 @@ description: For the Interaction Controls Component \(ICC\) call features to wor
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -44,7 +42,7 @@ The following plugins are required to deploy the call control integration with t
     -   [OpenFrame](https://store.servicenow.com/sn_appstore_store.do#!/store/application/3d7925f9eb5002003e97afcef106fee6/26.10.2?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3Dopenframe&sl=sh) \(sn\_openframe\)
 -   Advanced Work Assignment
 
-    The [External Routing Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.md) plugin is required for callback integration with contact centers.
+    The [External Routing Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-awa-external-routing.md) plugin is required for callback integration with contact centers.
 
 -   Customer Service Management \(CSM\)
 -   Agent Workspace, as well as any workspace that works with Agent Chat, Email Interaction, or Messages.

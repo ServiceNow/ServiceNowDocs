@@ -4,10 +4,8 @@ description: Extend billing account access to additional customers or stakeholde
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-related-parties-to-a-billing-account.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

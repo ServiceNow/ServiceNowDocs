@@ -55,12 +55,12 @@ Shift manager \[rota\_manager\]
 
 The Shift manager role is for the manager of a group. The purpose of the role is to distinguish a member that has been delegated the role of managing shifts of a group. The role cannot be used to manage all groups on the instance.
 
- The role can be delegated to the members of a group. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) .
+ The role can be delegated to the members of a group. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DelegateRoles.md) .
 
  A user with the Shift manager role that meets any of the following requirements can manage shifts for their group:
 
  -   The user is the manager of the group.
--   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/delegate-shift-mgr-role-oncall.md). For information on role delegation, see [Delegate roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) .
+-   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/delegate-shift-mgr-role-oncall.md). For information on role delegation, see [Delegate roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DelegateRoles.md) .
 
 **Note:** When a user is delegated a role on behalf of a group, the user can manage the shifts only for that group.
 
@@ -96,11 +96,11 @@ DEPRECATED: roster\_admin
 **Related topics**  
 
 
-[System roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/base-system-roles.md)
+[System roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/base-system-roles.md)
 
-[Base system Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
+[Base system Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaseSystemRoles.md)
 
-[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
 

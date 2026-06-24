@@ -4,8 +4,6 @@ description: Enter a support case to engage Developer Support assistance, if you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/create-developer-support-case.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

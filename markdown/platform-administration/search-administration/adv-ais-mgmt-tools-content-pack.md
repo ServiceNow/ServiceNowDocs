@@ -28,5 +28,5 @@ The following roles are associated with this solution:
 **Related topics**  
 
 
-[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.md)
+[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/content-packs-in-form-analytics-published.md)
 

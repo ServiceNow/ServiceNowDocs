@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 11
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -82,7 +82,7 @@ MID Server
 
 </td><td>
 
-Select the MID Server to use for this schedule. This field is available if MID Server selection method is set to Specific MID Server, or if you discover IP addresses, networks, or web services.To verify that the MID Server you selected is up and validated, look at the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+Select the MID Server to use for this schedule. This field is available if MID Server selection method is set to Specific MID Server, or if you discover IP addresses, networks, or web services.To verify that the MID Server you selected is up and validated, look at the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerDashboard.md).
 
 </td></tr><tr><td>
 

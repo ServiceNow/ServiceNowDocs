@@ -25,7 +25,7 @@ If you have the application-specific admin role or the system-level admin role, 
 |User|Description|
 |----|-----------|
 |Admin|Admin user can delegate developers.|
-|Application Administrator|If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.|
+|Application Administrator|If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.|
 
 ## What to explore next
 

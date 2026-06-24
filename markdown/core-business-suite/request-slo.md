@@ -4,8 +4,6 @@ description: Raise a general request for any common query or issue as a supplier
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-slo.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Customers can request a callback from an agent when the wait time t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/request-callback-from-agent.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Several answer types are available for agents to provide answers to
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/type-of-answer.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

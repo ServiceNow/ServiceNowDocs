@@ -38,11 +38,11 @@ The Activity Designer contains common steps which are applicable to all the acti
 
     \[Omitted image "ActivityDesignerStepIndicator.png"\] Alt text: Activity designer stage indicator
 
-3.  Add the [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/General-Flds-Templates.md).
+3.  Add the [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/General-Flds-Templates.md).
 
     This information is standard for each custom activity, include a name, description, and other related information.
 
-4.  Create the template [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) for the template.
+4.  Create the template [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/CreateInputVariables.md) for the template.
 
     Create the variables to pass into the activity in the Inputs form of the activity designer.
 
@@ -91,7 +91,7 @@ You can create a parsing rule and map them to the output fields by dragging and 
 Post-processing scripts allow you to code your own output data validation, output parsing code, and related tasks. Post-processing executes after the execution command results have been returned and before the parsing rules and conditions are run. Click **Go to Post-Processing \(Advanced\)** to create a post-processing script. **Note:** If you create a script, this step reflects as a stage in the indicator.
 
 </td></tr></tbody>
-</table>10. Click **Continue** to open the [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/conditions.md) form to create exit condition rules for your activity and then click **Save**.
+</table>10. Click **Continue** to open the [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md) form to create exit condition rules for your activity and then click **Save**.
 
 
 -   **[General properties for activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/General-Flds-Templates.md)**  

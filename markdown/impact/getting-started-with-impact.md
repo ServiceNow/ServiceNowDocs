@@ -4,10 +4,8 @@ description: A set of activities that help new Impact customers get started with
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/getting-started-with-impact.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Impact Foundations, Impact operating model, Exploring Impact, Impact]
 ---

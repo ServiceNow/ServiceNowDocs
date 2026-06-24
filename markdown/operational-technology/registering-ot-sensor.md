@@ -4,8 +4,6 @@ description: When you have installed the Discovery Console for OT and the Discov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/registering-ot-sensor.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 2

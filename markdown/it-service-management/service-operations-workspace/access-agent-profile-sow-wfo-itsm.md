@@ -24,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 Access your profile to analyze information such as:
 
--   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see [Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+-   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see [Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-targets.md).
 -   Pending training that has been assigned to you and when they're due.
 -   Service channels that you are assigned to and their current utilization.
 -   Skills and skill levels that you currently use and skill gaps that you may want to address.

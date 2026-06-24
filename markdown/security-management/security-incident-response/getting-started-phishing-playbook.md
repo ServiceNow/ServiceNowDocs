@@ -26,7 +26,7 @@ The flows provided with the base system are in an inactive state. Activate these
 
 ## Procedure
 
-1.  [Download and install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md) the Security Operations Spoke application.
+1.  [Download and install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md) the Security Operations Spoke application.
 
     This Spoke application provides security operations actions that you can use while defining Security Incident Response flows.
 

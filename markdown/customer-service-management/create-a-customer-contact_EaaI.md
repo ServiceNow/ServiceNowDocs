@@ -4,8 +4,6 @@ description: Use the Contact card on the email interaction page to create a cust
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-customer-contact\_EaaI.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

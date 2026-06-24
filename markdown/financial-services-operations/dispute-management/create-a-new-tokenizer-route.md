@@ -23,7 +23,7 @@ Role required: admin
 
 Define the authentication type when setting up a Service Account in the tokenizer service. API keys are long-lived, whereas JWT bearer tokens are time-limited. The tokenizer service generates an API key after you create a Service Account. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
 
-In ServiceNow, install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/spokes.md).
+In ServiceNow, install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md).
 
 ## About this task
 
@@ -35,11 +35,11 @@ You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Vi
 
 2.  Open the VROLCardDataSecurity or MastercomCardDataSecurity record.
 
-    If you require another third-party connection, create a new Connection &amp; Credential alias. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    If you require another third-party connection, create a new Connection &amp; Credential alias. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
 
 3.  In the Related Links section, select **Connections** &gt; **New**.
 
-4.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md) to create a new credential record for this connection.
+4.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md) to create a new credential record for this connection.
 
 5.  Enter the following field value.
 

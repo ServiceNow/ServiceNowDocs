@@ -4,8 +4,6 @@ description: After upgrading to a newer release, Recommended Actions \(RA\) may 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-enable-ra-variant-record-page.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

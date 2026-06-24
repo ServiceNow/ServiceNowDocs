@@ -4,8 +4,6 @@ description: Customize an email compact header within the UI Builder to view inf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-email-compact-header-email-interaction.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 **Note:** By default, **Show Email Compact Header** is enabled for Email Interaction for CSM.
 

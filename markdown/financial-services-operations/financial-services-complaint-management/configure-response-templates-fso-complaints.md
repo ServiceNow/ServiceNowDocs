@@ -42,7 +42,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md).
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

@@ -58,7 +58,7 @@ The skill is activated.
 
 ## What to do next
 
-Configure AI indexing for the sources that this AI skill uses to retrieve data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-ai-indexing-fso-contact-center.md).
+Configure AI indexing for the sources that this AI skill uses to retrieve data and generate summaries. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
 
 You can choose which service provider to use for this skill [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
 

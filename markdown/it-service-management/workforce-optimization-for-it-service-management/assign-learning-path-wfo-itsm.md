@@ -64,7 +64,7 @@ Select **To my groups**.
 
 1.  Select **To specific groups or team members**.
 
-**Note:** If the course item is a quiz, the team members must have the [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-landing-page.md) installed.
+**Note:** If the course item is a quiz, the team members must have the [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/egd-landing-page.md) installed.
 
 2.  In the **Group assignment** field, select one or more groups to which the agents you want to assign this path to belong.
 3.  In the **Team member assignment** field, select one or more team members to which you want to assign the path.

@@ -4,8 +4,6 @@ description: Use your instance records to build Incident Management -specific so
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/pi-for-incident.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -27,7 +25,7 @@ These solution definitions are available as templates on instances where both Pr
 |Similar Open Problems|Similarity|Recommends similar open problems that the current incident can be linked to. By default, the similarity is inactive.|
 |Similar Open Change Requests|Similarity|Recommends similar open change requests that the current incident can be linked to as a request for change. By default, the similarity is inactive.|
 
-For more information on similarity solution, refer [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
+For more information on similarity solution, refer [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
 
 **Parent Topic:**[Request Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-predictive-intelligence-for-im.md)
 

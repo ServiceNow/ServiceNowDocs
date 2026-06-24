@@ -4,8 +4,6 @@ description: When you activate the ITSM Change Management Admin Experience plugi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-model-defaults-for-simplified-change-management.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 1

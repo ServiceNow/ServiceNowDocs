@@ -4,8 +4,6 @@ description: The Assets page shows a list of all available assets for the Discov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/assets-page-console.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-30"
 reading_time_minutes: 5

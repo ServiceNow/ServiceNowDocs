@@ -4,8 +4,6 @@ description: Use Voice to deflect cases away from your human agents using bots. 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-servicenow-voice-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -21,7 +19,7 @@ With the Voice application, you can:
 -   Enable your workforce to work using the voice channel and get call recordings, call transcripts, and reports of sentiment analysis when agents interact with callers. You can visualize all of this information within the Channel Management application in Workforce Optimization for Customer Service.
 -   Analyze the call transcripts and sentiments of users after an interaction is complete so that you can create assessments, provide feedback, and training for agents.
 -   Synchronize agent presence within the queue.
--   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install [Amazon Connect Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/amazon-connect-spoke.md).
+-   View the Amazon Connect channel on Channel Management. You can view the performance metrics and [reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) of the agents using the voice channel. To access the reports, your application administrator must install [Amazon Connect Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-connect-spoke.md).
 
     **Note:** The following reports on the Amazon Connect channel are chargeable:
 
@@ -33,14 +31,14 @@ With the Voice application, you can:
 
 **Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/cloud-call-center-overview.md) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
 
-You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) to report data from the Amazon Connect queues.
+You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) to report data from the Amazon Connect queues.
 
 ## Benefits of using Voice with Workforce Optimization for Customer Service
 
 As a manager, you can:
 
 -   Monitor your agent's calls as they resolve customer issues.
--   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md) within the Channel Management application in Workforce Optimization for Customer Service.
+-   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md) within the Channel Management application in Workforce Optimization for Customer Service.
 -   Assess your agents by reviewing recordings of agent interaction and call transcripts.
 -   Analyze sentiments from the call transcripts and use that to coach and train your agents.
 

@@ -4,8 +4,6 @@ description: Unique map pins and icons in the dispatch map that mark the locatio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_DispatcherView.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

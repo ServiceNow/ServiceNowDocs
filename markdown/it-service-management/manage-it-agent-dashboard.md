@@ -4,8 +4,6 @@ description: Add or edit the cards that are to be viewed on the IT Agent Dashboa
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-it-agent-dashboard.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

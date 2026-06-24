@@ -64,7 +64,7 @@ Model
 
 </td><td>
 
-Select one or more [Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md) to identify the CIs that require preventive maintenance. When you select a model, the associated table appears in the **Table** field. For example, if you select a specific model of PC, the **Table** field displays Computer \[cmdb\_ci\_computer\]. This field appears if you selected the **Model based** type.
+Select one or more [Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ManagingProductCatalogItems.md) to identify the CIs that require preventive maintenance. When you select a model, the associated table appears in the **Table** field. For example, if you select a specific model of PC, the **Table** field displays Computer \[cmdb\_ci\_computer\]. This field appears if you selected the **Model based** type.
 
  If you select more than one model in the same category, the table does not change. But if you select a CI from a different category, the **Table** field displays the lowest level table that contains all the selected CIs. For example, if you select two PCs and one laser printer, the **Table** field changes to Hardware \[cmdb\_ci\_hardware\], because that table includes computers and printers. If you then add a computer rack, the **Table** field changes to Configuration Item \[cmdb\_ci\], which contains all CIs.
 

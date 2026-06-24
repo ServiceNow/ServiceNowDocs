@@ -22,7 +22,7 @@ Role required: workspace\_admin or ui\_builder\_admin
 
 ## About this task
 
-All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
 
 **Note:** After you copy and customize a page variant, any automatic updates applied to the original read-only page variant will not be applied to the page variant that you have customized.
 

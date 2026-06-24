@@ -4,8 +4,6 @@ description: This section explains the options for air-gapped and non-air-gapped
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/air-gapped-networks-installation.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Add one or more contract lines to a customer contract on the CSM Co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-add-contract-lines.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -45,7 +43,7 @@ Role required:
 
 6.  In the Catalog tab, add products to the new quote or order that is created.
 
-    For more info, see [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/quote-management-catalog-tab.md).
+    For more info, see [Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-catalog-tab.md).
 
 7.  Select **Submit for approval**.
 

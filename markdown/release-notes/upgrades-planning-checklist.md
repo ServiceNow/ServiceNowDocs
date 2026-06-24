@@ -4,8 +4,6 @@ description: Plan and track the activities related to your ServiceNow instance u
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-planning-checklist.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -625,7 +623,7 @@ Using the Upgrade Monitor, monitor the upgrade to your instance and validate tha
 
 </td><td>
 
-After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) in the Upgrade Monitor.
+After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-process-skipped-records.md) in the Upgrade Monitor.
 
 </td><td>
 

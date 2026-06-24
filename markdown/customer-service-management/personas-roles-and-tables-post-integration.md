@@ -4,8 +4,6 @@ description: After successful integration of Order Management with Service Model
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/personas-roles-and-tables-post-integration.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

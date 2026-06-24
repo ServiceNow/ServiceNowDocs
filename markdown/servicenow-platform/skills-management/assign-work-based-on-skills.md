@@ -24,7 +24,7 @@ Role required: skill\_admin
 
 Use the [UserSkillAnalyzer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillAnalyzerAPI.md) to analyze the skills and skill levels of users and the [UserSkillRanking API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillRankingAPI.md) to rank and assign them to tasks. For example, when you use the Field Service Management application to assign agents to tasks, you can analyze and rank them based on their skills and skill levels using these APIs and use dynamic scheduling to assign them to tasks.
 
-**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-dynamic-scheduling-config.md).
 
 ## Procedure
 

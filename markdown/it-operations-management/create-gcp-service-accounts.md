@@ -4,8 +4,6 @@ description: Create Google Cloud Platform \(GCP\) service accounts on the Servic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-gcp-service-accounts.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

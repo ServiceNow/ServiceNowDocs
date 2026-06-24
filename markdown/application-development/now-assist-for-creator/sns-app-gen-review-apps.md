@@ -17,7 +17,7 @@ breadcrumb: [Generate apps, App generation, Use generative AI, Now Assist for Cr
 
 After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 This video shows you how to review apps created using app generation in ServiceNow Studio.
 
@@ -131,7 +131,7 @@ Role required: now\_assist\_panel\_user
 
         For example, select **Questions**, hover over a specific question, and select the Edit icon. Confirm that the question type and options are correct. Make any changes as needed.
 
-        For more information about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
+        For more information about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
     3.  Close the record producer tab.
 
@@ -171,7 +171,7 @@ Role required: now\_assist\_panel\_user
 
         For example, add or change triggers, actions, or subflows.
 
-        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
+        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
     3.  Close the Workflow Studio tab.
 

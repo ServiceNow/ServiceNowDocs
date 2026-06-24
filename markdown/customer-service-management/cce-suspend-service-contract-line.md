@@ -4,8 +4,6 @@ description: Suspend a customer contract line and its child customer contract li
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-suspend-service-contract-line.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

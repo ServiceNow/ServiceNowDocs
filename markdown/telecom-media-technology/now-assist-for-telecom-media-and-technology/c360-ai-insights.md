@@ -18,7 +18,7 @@ Generate customer health insights and recent customer issue insights for a custo
 
 **Note:** This skill is available only if Telecommunications Customer 360 is installed and requires the `sn_telecom_c360.admin` role.
 
-The Generate Telecom Customer 360 Insights skill is enabled by default and automatically generates AI-powered insights for a customer or consumer account when you navigate to the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/c360-home-page.md). This skill triggers the following two sub-skills in parallel:
+The Generate Telecom Customer 360 Insights skill is enabled by default and automatically generates AI-powered insights for a customer or consumer account when you navigate to the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md). This skill triggers the following two sub-skills in parallel:
 
 -   Telecom C360 customer health insights: This skill analyzes customer sentiment from recently closed cases and service problems to assess relationship health. It provides sentiment classification, trend analysis, and lists analyzed cases, with an extensible data provider that allows customers to incorporate custom sentiment data sources.
 -   Telecom C360 top customer issue insights: This skill analyzes recent open cases, service problem cases, and customer interactions to provide insights on top customer issues. It helps agents quickly understand a customer's current issues and prioritize resolution efforts. Works at both consumer and account levels.
@@ -30,7 +30,7 @@ The skill uses the following data sources to generate insights:
 -   Interactions
 -   Sentiment data
 
-The insights are automatically displayed when a customer or consumer account is opened. See [Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/c360-insights-card.md) for details.
+The insights are automatically displayed when a customer or consumer account is opened. See [Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-insights-card.md) for details.
 
 ## Customize data sources
 

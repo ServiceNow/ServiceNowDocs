@@ -24,7 +24,7 @@ The **glide.rest.table\_api.admin\_only\_sys\_fields** property controls write a
 -   sys\_updated\_by
 -   sys\_updated\_on
 
-When this property is set to **true**, only an admin can write to these fields that are system-generated values. When the property is set to **false** or it doesn't exist in the System Properties \[sys\_properties\] table, users who have create or write access to a table can write to these system values using the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+When this property is set to **true**, only an admin can write to these fields that are system-generated values. When the property is set to **false** or it doesn't exist in the System Properties \[sys\_properties\] table, users who have create or write access to a table can write to these system values using the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md).
 
 Set the property **glide.rest.table\_api.admin\_only\_sys\_fields** to **true** to prevent non-admin users from updating system fields on records.
 

@@ -51,7 +51,7 @@ The following topics describe how to implement, configure, and verify access con
 
     Run a manual access test to confirm that only the intended users can discover and invoke a given agentic workflow.
 
--   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md)**
+-   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nask-access-control.md)**
 
     Configure access control for custom skills built with the Now Assist Skill Kit to manage who can invoke skill-based functionality.
 

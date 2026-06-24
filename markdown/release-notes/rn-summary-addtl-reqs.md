@@ -4,8 +4,6 @@ description: Cumulative release notes summary on additional requirements for Aus
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
 reading_time_minutes: 6

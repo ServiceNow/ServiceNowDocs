@@ -4,8 +4,6 @@ description: To enable users with only the snc\_external role to access the list
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ProvideExternalUsersAccessToTables.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -22,9 +20,9 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
-2.  [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) with the following settings:
+2.  [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md) with the following settings:
 
     -   **Type**: ui\_page
     -   **Operation**: read

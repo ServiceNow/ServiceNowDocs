@@ -187,13 +187,13 @@ If you select this option, the **Advanced MID Server Configuration** tab display
 
                 -   To filter this list based on MID Server capabilities, select the Unlock Capabilities icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon.\) in the **Capabilities** field. After you unlock the field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) to search for and select the desired capabilities.
                 -   To filter this list based on MID Server applications, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Application** field to search for and select the desired applications.
-See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
+See [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md) for more information on MID Server capabilities and applications.
 
             -   **Specific MID Server**: Enables you to select a specific MID Server for the connection.
 
 If you select this option, the **Advanced MID Server Configuration** tab displays the **MID Server** field. Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **MID Server** field to search for and select the MID Server that you want to use for the connection.
 
-**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
+**Important:** To select a specific MID Server for the connection, you must deselect the **Included in application ALL** check box for any applications that are configured to use the specified MID Server. For more information on this check box, refer to the Select applications to include in the definition of ALL for a MID Server section of [Configure a default MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
 
             -   **Specific MID Cluster**: Enables you to select a specific MID Server cluster for the connection.
 

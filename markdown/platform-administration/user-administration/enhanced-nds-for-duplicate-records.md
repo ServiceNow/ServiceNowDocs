@@ -63,7 +63,7 @@ Role required: nds\_admin
 
 5.  Add the **glide.cmdb.canonical.use\_base\_core\_company\_only** system property and set its value to **True**.
 
-    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 6.  Normalize data in the CMDB table.
 

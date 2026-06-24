@@ -4,8 +4,6 @@ description: The process flow formatter provides a graphical summary of the stag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CaseProcessFlowFormatter.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

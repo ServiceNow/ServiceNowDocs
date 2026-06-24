@@ -91,7 +91,7 @@ To improve performance and prevent memory issues when showing large amounts of b
 **Related topics**  
 
 
-[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_HistoryTimeline.md)
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistoryTimeline.md)
 
 ## Properties for baseline CMDB
 

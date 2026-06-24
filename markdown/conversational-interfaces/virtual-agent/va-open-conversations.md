@@ -100,7 +100,7 @@ To change the time that this hourly scheduled job runs or to make other adjustme
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and open the Time Out Abandoned VA Conversations record.
 2.  In the Scheduled Script Execution form, change the **Time** at which the scheduled job runs. Or, depending on how you want to adjust the timing, change other fields in the form as needed.
 
-    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
+    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 3.  Click **Update**.
 

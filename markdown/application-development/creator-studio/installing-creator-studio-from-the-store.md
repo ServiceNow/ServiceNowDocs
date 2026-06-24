@@ -21,13 +21,13 @@ Your company must have an App Engine Enterprise license to install and configure
 
 For instructions on installing Creator Studio and other products from the ServiceNow Store, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
 
-**Note:** If you want forms to appear in the Virtual Agent chatbot, you must install the necessary plugins. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+**Note:** If you want forms to appear in the Virtual Agent chatbot, you must install the necessary plugins. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
 
 After Creator Studio is installed on an instance, admins have to configure it. The easiest way to do that is using Guided Setup, find out how in [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 ## Give Creator Studio a try
 
-Ready to give Creator Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/personal_developer_instance_guide.md).
+Ready to give Creator Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md).
 
 <table id="table_f4p_d1v_2dc" class="nav-card"><tbody><tr><td>
 

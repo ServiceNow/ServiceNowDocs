@@ -4,8 +4,6 @@ description: Manage customer service cases from a mobile device with the Custome
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-mobile-interface.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -79,5 +77,5 @@ Use the ServiceNow Agent mobile app to access the Customer Service mobile applic
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-experience.md)
+[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
 

@@ -25,12 +25,12 @@ Certain app workflows might be well suited for AI agents and agentic workflows. 
 
 The following list outlines the process for implementing a skill within a custom application:
 
-1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md) or configure a Now Assist Platform skill for your app's use case.
-2.  [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md) to choose what skill inputs to use and the type of tool.
-3.  [Test the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md) to verify that you’re seeing the expected prompt results before the skill is activated.
-4.  [Evaluate the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md) to assess the effectiveness of your skill prompts.
-5.  [Finalize and publish the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md) to enable a Now Assist admin to activate it.
-6.  [Activate the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md), enabling you to trigger the skill within the UI.
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md) or configure a Now Assist Platform skill for your app's use case.
+2.  [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-prompt-template.md) to choose what skill inputs to use and the type of tool.
+3.  [Test the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-prompt-template.md) to verify that you’re seeing the expected prompt results before the skill is activated.
+4.  [Evaluate the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/evaluate-prompt.md) to assess the effectiveness of your skill prompts.
+5.  [Finalize and publish the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/publish-skill.md) to enable a Now Assist admin to activate it.
+6.  [Activate the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md), enabling you to trigger the skill within the UI.
 7.  Use the skill in your custom application.
 
 **Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.

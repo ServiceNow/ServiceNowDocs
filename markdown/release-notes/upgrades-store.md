@@ -4,8 +4,6 @@ description: The ServiceNow Store includes official applications that are develo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-store.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

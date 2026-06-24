@@ -4,8 +4,6 @@ description: In SGC Central, you can configure the Service Graph Connector for S
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/configure-class-settings.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1

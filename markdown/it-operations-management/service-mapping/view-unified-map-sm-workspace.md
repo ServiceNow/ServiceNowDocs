@@ -28,7 +28,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) to learn more about the Unified Map feature.
+Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-workspace-unified-map.md) to learn more about the Unified Map feature.
 
 **Note:** The Unified Map feature offers limited Service Mapping functionality.
 
@@ -58,9 +58,9 @@ Review [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 **Related topics**  
 
 
-[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-attributes.md)
+[View the attributes of a CI or a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-attributes.md)
 
-[View service instances for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-app-service.md)
+[View service instances for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-app-service.md)
 
-[View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-show-ci-changes.md)
+[View historical changes for a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map-show-ci-changes.md)
 

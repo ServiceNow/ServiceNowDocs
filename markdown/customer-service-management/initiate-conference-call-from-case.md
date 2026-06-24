@@ -4,8 +4,6 @@ description: As part of resolving a customer service case, you can initiate a co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-conference-call-from-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -42,7 +40,7 @@ Notify must be set up before you can use Notify on task. Ensure there are Notify
 **Related topics**  
 
 
-[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/start-a-conference-call.md)
+[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/start-a-conference-call.md)
 
-[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_StartAConferenceCallFromATask.md)
+[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_StartAConferenceCallFromATask.md)
 

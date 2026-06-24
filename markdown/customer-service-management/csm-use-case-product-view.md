@@ -4,8 +4,6 @@ description: CSM enables you to provide service and support for your external cu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-case-product-view.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -33,7 +31,7 @@ Understand the tables within the CSDM framework that are needed to support the f
 
 The following sections include details of the activities needed for the use case.
 
-See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/use-cases.md) for more information on Common Service Data Model use cases.
+See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-cases.md) for more information on Common Service Data Model use cases.
 
 ## CSM data model
 

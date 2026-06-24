@@ -4,8 +4,6 @@ description: Use visual indicators on chat session tabs, such as colors and icon
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-chat-session-tabs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -215,7 +213,7 @@ When a chat is automatically transferred to another agent or to a queue:-   The 
 </td></tr></tbody>
 </table>If a chat is transferred to a queue, SLA threshold timers and tab colors are applicable to the next agent who picks up the case.
 
-When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
+When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
 
 ## Configuring the chat session tabs feature
 

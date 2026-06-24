@@ -36,5 +36,5 @@ The Context Ranking feature enables all scrum users to manually sort a related l
 **Related topics**  
 
 
-[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development.md)
+[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development.md)
 

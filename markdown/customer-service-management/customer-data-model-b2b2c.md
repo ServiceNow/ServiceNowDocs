@@ -4,8 +4,6 @@ description: The customer data model for B2B2C supports complex business models 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-data-model-b2b2c.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

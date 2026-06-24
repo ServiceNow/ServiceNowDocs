@@ -440,7 +440,7 @@ nobody
 
 </td><td>
 
-The nobody role means that no user has access - not even admin or maint. Use the nobody role carefully. The nobody role takes precedence over the admin override option on ACLs, so even admins can’t have access. See [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+The nobody role means that no user has access - not even admin or maint. Use the nobody role carefully. The nobody role takes precedence over the admin override option on ACLs, so even admins can’t have access. See [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
  Don’t assign it to specific users. You can use this role in ACLs that control access to resources, such as UI pages, processors, script includes, and records.
 
@@ -460,7 +460,7 @@ personalize\_choices
 
 </td><td>
 
-Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
+Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
 
 </td></tr><tr><td>
 
@@ -476,7 +476,7 @@ personalize\_dictionary
 
 </td><td>
 
-Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ChangeFieldLabelOrHint.md).
+Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ChangeFieldLabelOrHint.md).
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ personalize\_form
 
 </td><td>
 
-Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ personalize\_responses
 
 </td><td>
 
-Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_JournalFields.md) designated as suggestion fields.
+Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_JournalFields.md) designated as suggestion fields.
 
 </td></tr><tr><td>
 
@@ -519,7 +519,7 @@ personalize\_styles
 
 </td><td>
 
-Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_DefineFieldStyles.md).
+Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md).
 
 </td></tr><tr><td>
 
@@ -856,7 +856,7 @@ Applications you install on your instance may include additional roles. Follow t
 
 |Product|Application|
 |-------|-----------|
-|Platform Capabilities|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md)|
+|Platform Capabilities|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/installed-with-awa.md)|
 
 **Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
 

@@ -4,8 +4,6 @@ description: Avoid duplicate case creation by associating an existing case with 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-existing-case-with-email-interaction.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

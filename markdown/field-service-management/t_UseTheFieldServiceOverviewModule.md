@@ -4,8 +4,6 @@ description: The Field Service Management overview module provides a dispatch ma
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/t\_UseTheFieldServiceOverviewModule.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

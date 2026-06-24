@@ -147,7 +147,7 @@ any table
 
 </td><td>
 
-If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_DisablingAttachmentsOnATable.md).
+If true, attachments on the table are indexed for search purposes. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ any table
 
 </td><td>
 
-Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see [Tables excluded from rollback after running an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-excluded-from-rollback.md).
+Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see [Tables excluded from rollback after running an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-excluded-from-rollback.md).
 
 </td></tr><tr><td>
 
@@ -879,7 +879,7 @@ any field
 
 </td><td>
 
-If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ActivityFormatter.md) for more details.
+If present or true, creates a toggle option on the activity formatter header for incidents, tasks, and problems. The toggle provides a choice between the **Live Feed** for that record \(also known as a document feed\) or the activity formatter fields already in use. To learn more, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) for more details.
 
 </td></tr><tr><td>
 
@@ -1155,7 +1155,7 @@ any table
 
 </td><td>
 
-If present or true, marks this table as not participating in domain separation. To learn more, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md).
+If present or true, marks this table as not participating in domain separation. To learn more, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -1332,7 +1332,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
+Causes auto-complete to work with all fields that are specified in the **ref\_ac\_columns** attribute. This attribute overrides the default behavior, which searches only the display value column. To learn more, see [Configure auto-complete to match text from any reference field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1348,7 +1348,7 @@ any reference field with an auto completer \(see ref\_auto\_completer\)
 
 </td><td>
 
-Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
+Causes the reference field to hide the display value column so that the auto-complete function only matches the text from the columns that are listed in the **ref\_ac\_columns** attribute. This feature requires the use of the AJAXTableCompleter class and the **ref\_ac\_columns**, **ref\_ac\_columns\_search**, and **ref\_ac\_display\_value** attributes. To learn more, see [Remove the display value column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 **Note:** The ref\_ac\_display\_value function does not work with Catalog Item variables.
 
@@ -1382,11 +1382,11 @@ any reference field \(can be applied to a table to affect all reference fields o
 
 </td><td>
 
-Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
+Specifies the name of a JavaScript class \(client side\) that creates the list auto completion choices. Valid class values include: -   AJAXReferenceCompleter: Matching auto-complete choices appear as a list. Only the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) column of the reference table appears. If there is no other auto-completion class specified, reference fields automatically use this class.
 -   AJAXTableCompleter: Matching auto-complete choices appear as rows in a table. The display value column of the reference table appears, with any columns listed in the **ref\_ac\_columns** attribute.
 -   AJAXReferenceChoice: Displays matching auto-complete choices as a list. Only the display value column of the reference table, and up to 25 matching choices, appear. If there are more than 25 auto-complete choices, the choices for the AJAXTableCompleter class appear for the reference field instead.
 
- For more information, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_AutoCompleteForReferenceFields.md).
+ For more information, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 </td></tr><tr><td>
 
@@ -1634,7 +1634,7 @@ condition fields
 
 </td><td>
 
-Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddingTheConditionCountWidget.md).
+Enables or disables the condition count widget to preview how many records are a set of conditions. To learn more, see [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddingTheConditionCountWidget.md).
 
 </td></tr><tr><td>
 
@@ -1778,7 +1778,7 @@ any table
 
 </td><td>
 
-Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_DisablingAttachmentsOnATable.md).
+Similar to **update\_synch** but writes the file attachments of the record to update sets. To learn more, see [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md).
 
 </td></tr><tr><td>
 
@@ -1840,7 +1840,7 @@ target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;9
 target_field=percent_complete_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen,target_field=u_expected_completion
 ```
 
- If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_TargetThresholdColorsAttribute.md).
+ If you do not specify an additional target\_field, a target value of 100 is used, allowing you to use the color thresholds with a single field value. See [Target threshold colors attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TargetThresholdColorsAttribute.md).
 
 </td></tr><tr><td>
 
@@ -1970,7 +1970,7 @@ any table
 
 </td><td>
 
-Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md).
+Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-web-embeddables.md).
 
 </td></tr><tr><td>
 
@@ -2050,7 +2050,7 @@ any table
 
 </td><td>
 
-Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md).
+Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md).
 
 </td></tr><tr><td>
 

@@ -130,7 +130,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/encryption-landing.md).
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md).
 
 </td></tr><tr><td>
 
@@ -276,9 +276,9 @@ The user ID that you specify in a REST endpoint call is subject to access contro
 
 ServiceNow REST APIs also support cookies that enable binding to the existing session.
 
-To use the certificate to call the API and information on mutual authentication, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/certificate-based-authentication.md).
+To use the certificate to call the API and information on mutual authentication, see [Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
 
-REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/rest-api-auth-scope.md). To know more about REST API access policy, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/inbound-authentication-profile.md).
+REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/rest-api-auth-scope.md). To know more about REST API access policy, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/inbound-authentication-profile.md).
 
 You can craft one single policy to block the incoming request, at a global REST API level by using the REST API Access policy from outside trusted network and at a basic REST authentication levels.
 
@@ -297,7 +297,7 @@ The following ServiceNow REST API ACLs are available in the base system but are 
 -   Import Set API
 -   Attachment API
 
-For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 **Important:** You should never modify the names of REST API ACLs.
 

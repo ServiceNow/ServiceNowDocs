@@ -4,8 +4,6 @@ description: Use the extension points available with CSM integration with IT Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/itsm-extension-points.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

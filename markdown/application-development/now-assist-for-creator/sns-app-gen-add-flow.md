@@ -19,7 +19,7 @@ Add a flow to a custom application by asking Now Assist. Describe what you want 
 
 ## Before you begin
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -57,7 +57,7 @@ Use the app generation skill to add one or more flows to a custom application wh
 
     \[Omitted image "app-generation-add-flow2.png"\] Alt text: Now Assist panel with flow details requested highlighted.
 
-    For more information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
+    For more information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
 8.  Continue the conversation until the flow contains what you need.
 

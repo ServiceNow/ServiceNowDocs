@@ -4,8 +4,6 @@ description: Several types of components are installed with activation of the Im
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-reference.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

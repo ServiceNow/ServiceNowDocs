@@ -47,7 +47,7 @@ For information about how you can automate and optimize your services and operat
 [Optimizing IT services in your organization \[Omitted image "icon-explore.png"\] Alt text: Optimizing IT services Enhance and optimize IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
 
 </td></tr></tbody>
-</table>For information about Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-landing-page-itom.md).
+</table>For information about Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md).
 
 ## Helpful resources
 

@@ -4,8 +4,6 @@ description: Use features available on CSM Configurable Workspace forms to view 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7

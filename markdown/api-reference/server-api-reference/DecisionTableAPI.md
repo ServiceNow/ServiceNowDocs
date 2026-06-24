@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DecisionTableAPI class enables you to access Decision Tables data in scoped and global server-side scripts.
 
-To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
 ## Date/Time inputs
 

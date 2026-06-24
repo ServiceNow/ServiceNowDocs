@@ -4,8 +4,6 @@ description: Download the Discovery Sensor for OT package and install the ISO im
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-discovery-sensor-for-ot.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Analyze the backlog of support work orders and identify clusters of
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/view-wo-trends.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Configure the scheduled import jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/setup-scheduled-jobs.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

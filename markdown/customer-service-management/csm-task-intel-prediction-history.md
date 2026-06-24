@@ -4,8 +4,6 @@ description: View details about historical predictions in the Predictor Result \
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-prediction-history.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -145,11 +145,11 @@ When the condition is met, retry attempts are made for a maximum number of three
 
 ### What to do next
 
--   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md), if you do not have the required alias.
+-   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md), if you do not have the required alias.
 -   Assign the retry policy as **Default Retry Policy** to the required Connection &amp; Credential alias.
 
     **Note:** A default retry policy is provided and is selected as **Default Retry Policy**. If you have created retry policies, you can select the required policy as **Default Retry Policy**.
 
--   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+-   Create an HTTP\(s\) Connection in the Connections related list for the Connection &amp; Credential alias. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 -   Verify and view the details of the retry attempts by navigating to **System Logs** &gt; **Outbound HTTP Requests**.
 

@@ -4,8 +4,6 @@ description: You must activate the agentic workflows from the AI Agent Studio. T
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/activate-agentic-workflow-now-assist-for-otsm.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -33,7 +31,7 @@ Role required: sn\_aia.admin
 
 2.  Under the **Agentic workflows** tab, select the **Generate OT KB articles** agentic workflow.
 
-    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 3.  In the **Define key requirements** screen, review and update the information as needed then select **Save and Continue**.
 

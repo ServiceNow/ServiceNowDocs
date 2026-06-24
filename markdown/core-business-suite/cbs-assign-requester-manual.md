@@ -4,8 +4,6 @@ description: Create a role rule to control which employees receive the CBS reque
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-assign-requester-manual.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1

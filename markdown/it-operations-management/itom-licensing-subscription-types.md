@@ -4,8 +4,6 @@ description: Purchase licensing subscriptions for ITOM products individually \(a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-subscription-types.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -40,5 +40,5 @@ The time zone used for appointment is displayed in the lower corner of the windo
 **Related topics**  
 
 
-[Personalize the system time format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemTimeFormat.md)
+[Personalize the system time format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PersonalizeTheSystemTimeFormat.md)
 

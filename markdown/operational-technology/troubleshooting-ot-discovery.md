@@ -4,8 +4,6 @@ description: Common troubleshooting options when you set up the integration for 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/troubleshooting-ot-discovery.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

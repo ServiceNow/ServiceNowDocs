@@ -4,8 +4,6 @@ description: You can track the relationship between requesting and fulfilling se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-business-locations-serviced-by-a-business-location.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Core Business Suite \(CBS\) is available in three subscription tier
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-product-hub-overview.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-06-08"
 reading_time_minutes: 1

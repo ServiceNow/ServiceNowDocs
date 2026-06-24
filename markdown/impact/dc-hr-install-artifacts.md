@@ -4,8 +4,6 @@ description: The Data Collection app contains a pre-build data metric structure 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-install-artifacts.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3

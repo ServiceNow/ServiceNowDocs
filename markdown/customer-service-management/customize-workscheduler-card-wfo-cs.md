@@ -4,8 +4,6 @@ description: Customize the Work Scheduler card components, such as adding an ext
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-workscheduler-card-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -67,5 +65,5 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 **Related topics**  
 
 
-[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
 

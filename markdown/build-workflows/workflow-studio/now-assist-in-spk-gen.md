@@ -40,7 +40,7 @@ Now Assist for Spoke Generation v1.6.0 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md) from the Now Assist Admin console.
+After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the Now Assist for Creator feature from the Now Assist Admin console.
 
 \[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in Now Assist Admin console.
 

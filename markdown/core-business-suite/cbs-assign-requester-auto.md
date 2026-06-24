@@ -4,8 +4,6 @@ description: Assign the CBS requester role to all employees at once using the au
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-assign-requester-auto.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1

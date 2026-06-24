@@ -4,8 +4,6 @@ description: View the closed incidents that belong to you and your assignment gr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/it-agent-dashboard-sow.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ Select the Dashboard icon \[Omitted image "dashboard-icon-sow.png"\] Alt text: D
 
 Procure the ITSM Pro package subscription to get additional performance analytics features.
 
-For more information on performance analytics subscription, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+For more information on performance analytics subscription, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 You can monitor data by any of the following time aggregations.
 

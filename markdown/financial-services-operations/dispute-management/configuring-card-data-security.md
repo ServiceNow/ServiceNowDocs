@@ -73,9 +73,9 @@ Tokenizer service
 
 </td></tr><tr><td>
 
-[Set up Visa integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/financial-services-operations-integration-with-visa-landing-page.md)
+[Set up Visa integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md)
 
- [Set up Mastercard integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/financial-services-operations-integration-with-mastercard-landing-page.md)
+ [Set up Mastercard integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-mastercard-landing-page.md)
 
 </td><td>
 

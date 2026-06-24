@@ -34,11 +34,11 @@ Role required: sn\_icw\_igt.standard\_author
 
     1.  Configure automation of guided tasks by selecting the **Automations** tab.
 
-        The availability of the Automation feature is dependent on the installation of Automation plugins described in [Smart Assessment Engine automation plugin dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/sae-automation-plugin-dependencies.md). For the detailed information about configuring automations in Smart Assessment Engine, see [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+        The availability of the Automation feature is dependent on the installation of Automation plugins described in [Smart Assessment Engine automation plugin dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/sae-automation-plugin-dependencies.md). For the detailed information about configuring automations in Smart Assessment Engine, see [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-post-assessment-actions.md).
 
     2.  Configure scoring for guided tasks by selecting the **Scoring** tab.
 
-        For detailed information about configuring Scoring in Smart Assessment Engine, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md).
+        For detailed information about configuring Scoring in Smart Assessment Engine, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-scoring-for-assessments.md).
 
     3.  Enable normalized scoring for the standard.
 
@@ -56,7 +56,7 @@ Role required: sn\_icw\_igt.standard\_author
 **Related topics**  
 
 
-[Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
+[Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md)
 
-[Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md)
+[Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-automation.md)
 

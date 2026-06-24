@@ -4,8 +4,6 @@ description: Use the Discovery Console for OT component to discover, monitor, an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-discovery-console-landing.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-27"
 reading_time_minutes: 1

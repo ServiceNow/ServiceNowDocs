@@ -4,8 +4,6 @@ description: Use ServiceNow Otto to generate an AI summary of an email interacti
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/summarize-email-interaction-eaai.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-11"
 reading_time_minutes: 2

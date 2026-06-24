@@ -18,7 +18,7 @@ Service Portal is an alternative presentation layer for the platform. As such, n
 
 ## Not currently supported
 
-Domain separation at Levels 1-3. However, Service Portal does include support for domain separation at the **Data only** level. For more information, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md) and [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md).
+Domain separation at Levels 1-3. However, Service Portal does include support for domain separation at the **Data only** level. For more information, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md) and [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md).
 
 ## No plans to support
 

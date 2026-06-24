@@ -35,7 +35,7 @@ Make sure that your administrator enables Now Assist experience on the Create Ar
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
     -   Display the knowledge base generation feature In-product and specify the Now Assist panel.
--   To manage who can access knowledge bases and knowledge articles, you can set permissions to define which users or user groups can read or contribute to the content. For more info, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
+-   To manage who can access knowledge bases and knowledge articles, you can set permissions to define which users or user groups can read or contribute to the content. For more info, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/user-access-knowledge.md)
 
 Role required: agent
 
@@ -108,5 +108,5 @@ The Create Knowledge UI action is available to the customer service agents who h
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

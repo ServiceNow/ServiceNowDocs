@@ -16,7 +16,7 @@ breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic P
 
 Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Create stories overview
 

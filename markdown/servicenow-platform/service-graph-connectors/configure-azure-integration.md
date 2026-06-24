@@ -29,7 +29,7 @@ Dependencies and requirements:
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 **Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
@@ -208,7 +208,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
         2.  Select the **SG-Azure Subscriptions** scheduled job.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select **Update**.
         5.  Set the Set up scheduled import jobs task to complete by selecting **Mark as Complete** in the Help panel.
@@ -355,7 +355,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as de
         2.  Select the **SG-Azure Software** scheduled data import.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select **Update**.
         5.  Set the Set up scheduled import jobs task to complete by selecting **Mark as Complete** in the Help panel.

@@ -105,7 +105,7 @@ Include members
 
 </td><td>
 
-Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See [Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/c_ReceiveNotifications.md) for more information.
+Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See [Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_ReceiveNotifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Helpful information about the group.
 
         Create a true/false field labeled `Hidden` on the Group form.
 
-        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreatingNewFields.md)
+        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md)
 
         The system creates a field called **u\_hidden** on the **Users \[sys\_user\_group\]** table and enables use of the **Hidden** check box to designate a hidden group.
 
@@ -135,7 +135,7 @@ Helpful information about the group.
         }
         ```
 
-        **Note:** For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/bp-before-query-business-rules.md).
+        **Note:** For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
 
 
 ## Result

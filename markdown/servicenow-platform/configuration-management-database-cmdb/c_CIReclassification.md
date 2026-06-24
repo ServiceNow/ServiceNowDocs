@@ -69,7 +69,7 @@ For the following payload flags that control reclassification behavior, the syst
 -   `updateWithoutDowngrade`
 -   `updateWithoutSwitch`
 
-Also, you can pass payload level settings \(which apply to all items within a payload\), per data source, by specifying CI reclassification properties on the Robust Import Set Transformers form. For more information, see [Robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-xform-props.md).
+Also, you can pass payload level settings \(which apply to all items within a payload\), per data source, by specifying CI reclassification properties on the Robust Import Set Transformers form. For more information, see [Robust import set transformer properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robust-import-set-xform-props.md).
 
 The following sample JSON payload enables automatic reclassification for the specified CI:
 

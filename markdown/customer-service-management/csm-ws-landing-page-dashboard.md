@@ -4,8 +4,6 @@ description: Enable your users to display, customize, and share dashboards in CS
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ws-landing-page-dashboard.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -64,8 +62,8 @@ By default, the Dashboard Overview landing page is available to users with the f
 
 The system administrator can change these default roles by configuring the page audience. For more information, see the following topics:
 
--   [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md)
--   [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-audiences.md)
+-   [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md)
+-   [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-audiences.md)
 
 Roles determine view access for the dashboards available with the Dashboard Overview landing page. For details, see [Default dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-dashboard.md).
 

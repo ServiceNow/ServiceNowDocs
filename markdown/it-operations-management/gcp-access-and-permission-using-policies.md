@@ -4,8 +4,6 @@ description: Google Cloud Platform \(GCP\) access and permission using policies 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/gcp-access-and-permission-using-policies.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

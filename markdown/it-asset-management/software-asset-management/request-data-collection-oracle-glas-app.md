@@ -56,16 +56,16 @@ Install the application according to the instructions in the email.
 
 **Note:**
 
-The Data Collection for Oracle GLAS application includes two configurations, V1 and V2, which are managed by a system property. V1 is set as the default, while V2 serves as an alternative optimized for larger or high-volume Oracle database environments. Both configurations provide the same data collection features. For more information on enabling V2, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
+The Data Collection for Oracle GLAS application includes two configurations, V1 and V2, which are managed by a system property. V1 is set as the default, while V2 serves as an alternative optimized for larger or high-volume Oracle database environments. Both configurations provide the same data collection features. For more information on enabling V2, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-oracle-glas-v2-method.md).
 
 **Parent Topic:**[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-options.md)
 
 **Related topics**  
 
 
-[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/oracle-glas-discovery.md)
 
-[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md)
+[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-oracle-glas-v2-method.md)
 
-[Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md)
+[Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/download-oracle-glas-data.md)
 

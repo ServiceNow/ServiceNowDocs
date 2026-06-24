@@ -4,8 +4,6 @@ description: Set up OAuth authentication for instance-to-instance Scan Engine in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-oauth-auth-method.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-28"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Configure the Employee Center for Operational Technology \(OT\) so 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/configuring-ot-employee-portal.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +21,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
     Users must be assigned the **cmdb\_ot\_viewer** role to access the **Industrial services** tab of the Employee Center and successfully submit a request.
 
-    For more information about how to assign roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    For more information about how to assign roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 2.  Install and configure the Operational Technology Incident Management.
 
@@ -33,7 +31,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
 3.  Add more connected content to the Employee Center for OT.
 
-    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-menu-items.md).
+    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/add-menu-items.md).
 
 
 **Parent Topic:**[Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-employee-portal-landing.md)

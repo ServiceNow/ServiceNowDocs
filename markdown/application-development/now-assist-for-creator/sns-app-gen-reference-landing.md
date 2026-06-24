@@ -17,7 +17,7 @@ breadcrumb: [App generation, Use generative AI, Now Assist for Creator, Agentic 
 
 Use these reference topics to look up configuration properties, roles, and related details for app generation.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 -   **[App generation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-na-app-gen-roles.md)**  
 Assign the correct role before using the Now Assist for Creator app generation skill. The role you need depends on whether you are creating or editing an application.

@@ -18,7 +18,7 @@ The Virtual Agent Bot Integration API provides endpoints that allow users to int
 
 This API is built on the conversational custom chat integration framework provided with Virtual Agent and operates in the `sn_va_as_service` namespace.
 
-For additional information on installing and configuring the Virtual Agent Bot Integration API, see [Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-agent-chat.md).
+For additional information on installing and configuring the Virtual Agent Bot Integration API, see [Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-va-agent-chat.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -170,7 +170,7 @@ emailId
 
 </td><td>
 
-Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see [Link your ServiceNow user account to a messaging application for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.md).Data type: String
+Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see [Link your ServiceNow user account to a messaging application for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/link-accounts-with-virtual-agent.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -882,7 +882,7 @@ body.group
 
 </td><td>
 
-Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-action-scripts.md).Possible values:
+Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-action-scripts.md).Possible values:
 
 -   DefaultOutputCard
 -   DefaultDate
@@ -1163,7 +1163,7 @@ body.uiType
 
 </td><td>
 
-Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).Possible values:
+Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).Possible values:
 
 -   ActionMsg
 -   DefaultOutputCard
@@ -1795,7 +1795,7 @@ The following is the success response sent from the VA to the configured respons
 
 ### Transfer a conversation to Live Agent using utterance
 
-The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/contextual-actions.md).
+The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/contextual-actions.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2312,7 +2312,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a conversation to Live Agent in a specific queue
 
-The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. This example uses the [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action parameter. For additional information on creating a work item queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. This example uses the [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action parameter. For additional information on creating a work item queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \

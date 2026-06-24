@@ -4,8 +4,6 @@ description: Reference topics provide information about roles installed with the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-observer-reference.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-03-11"
 reading_time_minutes: 1

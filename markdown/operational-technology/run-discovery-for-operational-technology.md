@@ -4,8 +4,6 @@ description: Define Operational Technology \(OT\) Discovery schedules that orche
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/run-discovery-for-operational-technology.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -20,9 +18,9 @@ Define Operational Technology \(OT\) Discovery schedules that orchestrate how an
 
 Do the following actions before you run IT Discovery for OT Networks:
 
--   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-setup.md).
+-   Install and configure the standard Discovery application. To learn more, see [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-setup.md).
 -   Install the CMDB CI Class Models plugin. To learn more, see [Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md).
--   Install the Mid Server. To learn more, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+-   Install the Mid Server. To learn more, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
 Role required: ot\_discovery\_admin
 
@@ -103,7 +101,7 @@ Scans devices without the use of credentials. These scans discover all the activ
 Purdue level that you want the OT discovery schedule to run in or select **--None--** for all Purdue levels.**Note:** To learn more about Purdue levels, see [https://subscription.packtpub.com/book/networking\_and\_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 
 </td></tr></tbody>
-</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+</table>    Most of the fields on this form are identical to or operate in the same manner as the standard Discovery form. Only those fields that differ from the standard Discovery scheduling appear in this topic. To learn more about the remaining fields, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md)
 
 4.  Run the Discovery process right away, or save the OT discovery schedule to run at the times you designated in the record.
 

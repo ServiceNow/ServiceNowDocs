@@ -4,8 +4,6 @@ description: The fields that are included in the details section of work order t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-task-bundling-fields.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4

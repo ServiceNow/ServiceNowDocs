@@ -4,8 +4,6 @@ description: Use the following list of terms to gain an understanding of playboo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-terminology.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -24,7 +22,7 @@ A playbook is an end-to-end workflow that includes the steps, strategies, and gu
 
 ## Playbook structure
 
-A playbook contains one or more stages, or groups of tasks, and sequences of activities within each stage. A playbook also includes a trigger. The structure of a playbook is created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+A playbook contains one or more stages, or groups of tasks, and sequences of activities within each stage. A playbook also includes a trigger. The structure of a playbook is created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 <table id="table_playbook_structure_terms"><thead><tr><th>
 
@@ -44,7 +42,7 @@ A trigger determines when a playbook starts running. Each trigger has a type and
 
 Trigger conditions determine when and how a trigger is fired.
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-trigger-definition.md) are created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-trigger-definition.md) are created in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +50,7 @@ Stage
 
 </td><td>
 
-A stage is a sequence of activities in a playbook that are grouped in a logical way. A playbook can contain one or more stages and each stage includes one or more activities for a user to complete. Stages can also include automated activities.[Stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md) are added to a playbook in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+A stage is a sequence of activities in a playbook that are grouped in a logical way. A playbook can contain one or more stages and each stage includes one or more activities for a user to complete. Stages can also include automated activities.[Stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-lanes-activities.md) are added to a playbook in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr><tr><td>
 
@@ -60,12 +58,12 @@ Activity
 
 </td><td>
 
-An activity is one step in the overall business process represented in a playbook. Activities are the tasks, steps, or actions that a user takes to complete a playbook. Activities are grouped in stages and are sequenced in a logical order. Users can complete or skip manual activities. Activities can also be completed automatically.[Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md) are added to playbook stages in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+An activity is one step in the overall business process represented in a playbook. Activities are the tasks, steps, or actions that a user takes to complete a playbook. Activities are grouped in stages and are sequenced in a logical order. Users can complete or skip manual activities. Activities can also be completed automatically.[Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-lanes-activities.md) are added to playbook stages in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 </td></tr></tbody>
 </table>## Playbook UI components
 
-Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md). Different components make up the playbook record pages.
+Customer service agents interact with playbooks in CSM Configurable Workspace. The record pages that display playbooks in a workspace are created or customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). Different components make up the playbook record pages.
 
 <table id="table_a2t_xmt_bcc"><thead><tr><th>
 

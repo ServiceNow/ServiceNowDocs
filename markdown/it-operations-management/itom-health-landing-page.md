@@ -4,8 +4,6 @@ description: ITOM AIOps enables IT operations teams, site reliability engineers,
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-landing-page.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2026-04-21"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Manual registration is generally used by advanced users or to obtai
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/use\_manual\_registration\_configure\_impact\_store\_application.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

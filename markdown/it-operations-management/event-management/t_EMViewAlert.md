@@ -321,5 +321,5 @@ In an alert, use the `Quick Response` feature to apply remediation to the alert 
 **Related topics**  
 
 
-[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
+[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_ScIncdUseAlrts.md)
 

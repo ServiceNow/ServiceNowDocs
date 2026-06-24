@@ -4,8 +4,6 @@ description: Add skills to groups and view skill assignments for your teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analyze-skill-usage-teams-configurable-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

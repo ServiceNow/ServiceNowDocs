@@ -4,10 +4,8 @@ description: The Service Model Foundation data model is vital for modeling the b
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/smf-data-model-example.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 9
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

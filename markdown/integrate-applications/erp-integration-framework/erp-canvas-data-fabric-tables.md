@@ -25,10 +25,10 @@ The SAP ECC and SAP S/4HANA SAP S/4HANA connectors provide read-only access to d
 
 For details about the SAP connectors and data fabric tables, see:
 
--   [SAP ECC connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/sap-ecc-primary-zcc.md)
--   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/sap-s4hana-primary-zcc.md)
--   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/data-fabric-tables-zcc.md)
--   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/managing-data-fabric-tables-zcc.md)
+-   [SAP ECC connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-ecc-primary-zcc.md)
+-   [SAP S/4HANA connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-s4hana-primary-zcc.md)
+-   [Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-fabric-tables-zcc.md)
+-   [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
 
 **Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
 

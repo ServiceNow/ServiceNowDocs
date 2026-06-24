@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use Advanced Work Assignment to automatically assign work items to your qualifie
 
 </td><td>
 
-[Roles installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-roles.md)
+[Roles installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-roles.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Enhance the experience
 
 </td><td>
 
-[Agent Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/define-number-of-agents-configurable-wfo-itsm.md)
+[Agent Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/define-number-of-agents-configurable-wfo-itsm.md)
 
 </td><td>
 
@@ -104,7 +104,7 @@ Build a foundation
 
 </td><td>
 
-[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
 
 </td><td>
 
@@ -112,11 +112,11 @@ Use Continual Improvement Management to request improvement opportunities, and i
 
 </td><td>
 
-[Roles installed with Continual Improvement Management \(CIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-roles.md)
+[Roles installed with Continual Improvement Management \(CIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-roles.md)
 
 </td><td>
 
-[Continual Improvement Management \(CIM\) support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-domain-separation.md)
+[Continual Improvement Management \(CIM\) support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-domain-separation.md)
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Build a foundation
 
 </td><td>
 
-[Skill Determination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.md)
+[Skill Determination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.md)
 
 </td><td>
 
@@ -165,7 +165,7 @@ Enhance the experience
 
 </td><td>
 
-[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
+[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)
 
 </td><td>
 
@@ -173,7 +173,7 @@ Use Skills Management to associate skills with individual users or groups and as
 
 </td><td>
 
-[Roles installed with Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
+[Roles installed with Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)
 
 </td><td>
 
@@ -185,7 +185,7 @@ Add advanced features
 
 </td><td>
 
-[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
+[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/getting-started-workforce-optimization-itsm.md)
 
 </td><td>
 
@@ -193,7 +193,7 @@ Use Workforce Optimization for ITSM to manage and maintain the productivity of y
 
 </td><td>
 
-[Roles installed with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-itsm-manager-workspace-reference.md)
+[Roles installed with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configurable-itsm-manager-workspace-reference.md)
 
 </td><td>
 

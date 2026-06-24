@@ -129,7 +129,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.
@@ -382,7 +382,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.

@@ -4,8 +4,6 @@ description: Many Script Includes are provided by default with the ITSM products
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/customize-script-includes-itsm.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

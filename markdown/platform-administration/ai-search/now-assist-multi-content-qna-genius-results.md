@@ -82,7 +82,7 @@ Records from tables configured as Knowledge Graph schema nodes
 
 </td><td>
 
-ServiceNow AI Platform records from tables configured as Knowledge Graph schema nodes.**Note:** Content from Knowledge Graph schema nodes is only available in synthesized responses if you've installed the Knowledge Graph ServiceNow® Store application. To learn about installing this application and configuring nodes in Knowledge Graph schemas, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
+ServiceNow AI Platform records from tables configured as Knowledge Graph schema nodes.**Note:** Content from Knowledge Graph schema nodes is only available in synthesized responses if you've installed the Knowledge Graph ServiceNow® Store application. To learn about installing this application and configuring nodes in Knowledge Graph schemas, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -94,7 +94,7 @@ Enhanced chat results
 
 </td><td>
 
-Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Now Assist Multi-Content Response Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
+Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Now Assist Multi-Content Response Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 

@@ -4,8 +4,6 @@ description: You can scan individual definitions or suites of definitions on-dem
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-limited-def-scans.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

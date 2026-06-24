@@ -37,7 +37,7 @@ You can add a custom remote table or a child from the parent table.1.  In the **
 On the Related tables form, fill the fields. For a description of the field values, see [Related Tables form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/related-tables-form.md).
 
 2.  To add a custom remote table:
-    1.  [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table.md).
+    1.  [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-remote-table.md).
     2.  Select the required remote table from list.
     3.  Select the **Enable custom script** option.
     4.  In the Custom script box, write the code to establish a connection between the remote table and main table.

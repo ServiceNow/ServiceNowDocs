@@ -4,8 +4,6 @@ description: Activate the Data Collection Pack for SPM after you enable and conf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-spm-activate.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

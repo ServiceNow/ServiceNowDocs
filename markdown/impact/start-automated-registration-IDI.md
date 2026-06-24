@@ -4,8 +4,6 @@ description: The automated registration process simplifies the configuration pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/start-automated-registration-IDI.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4

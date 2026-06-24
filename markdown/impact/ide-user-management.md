@@ -4,8 +4,6 @@ description: Impact admins can create, view, and manage their users with Impact 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/ide-user-management.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

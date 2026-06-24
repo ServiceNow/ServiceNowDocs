@@ -4,8 +4,6 @@ description: Configure paths with conditions to determine the next question or g
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-paths-for-next-nodes.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

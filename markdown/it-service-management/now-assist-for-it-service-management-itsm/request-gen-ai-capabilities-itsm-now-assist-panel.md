@@ -180,7 +180,7 @@ The conversational flow for adding a comment or work note is triggered.
 2.  Follow the on-screen instructions to complete the task.
 **Note:** You must have the itil role to add work notes.
 
-For more information, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md).
+For more information, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md).
 
 </td></tr></tbody>
 </table>

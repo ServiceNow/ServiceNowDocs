@@ -4,8 +4,6 @@ description: Enable definition synchronization and push new, customized, or over
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/sync-new-customized-overridden-defs.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1

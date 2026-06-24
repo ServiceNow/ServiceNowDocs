@@ -4,8 +4,6 @@ description: IT Discovery for OT Networks contains several related links and lis
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/discovery-for-ot-related-links-lists.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -30,7 +28,7 @@ Quick Ranges
 
 </td><td>
 
-IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID Server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md).
+IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID Server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-ip-address-configuration.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +44,7 @@ Run Point Scan
 
 </td><td>
 
-Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-point-scan.md).
+Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-execute-point-scan.md).
 
 </td></tr></tbody>
 </table><table id="related-lists"><thead><tr><th>
@@ -85,9 +83,9 @@ History of the results of the current and past OT discovery schedule runs.
 </table>**Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
 
-[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryPortsAndProtocols.md)
+[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_DiscoveryPortsAndProtocols.md)
 
-[Create a Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md)
+[Create a Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md)
 

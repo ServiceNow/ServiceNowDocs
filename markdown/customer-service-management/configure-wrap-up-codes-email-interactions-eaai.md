@@ -4,8 +4,6 @@ description: Configure internal wrap-up codes that agents use to categorize emai
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

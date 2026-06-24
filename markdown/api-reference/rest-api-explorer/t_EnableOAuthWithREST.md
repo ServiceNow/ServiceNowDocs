@@ -36,7 +36,7 @@ OAuth reduces the number of times you submit user credentials. After authenticat
 
 4.  Record the **client\_id** and **client\_secret** values to use when requesting an access token.
 
-    **Note:** This example uses the password grant type. You can also configure an OAuth API endpoint using other grant types. For more information, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md).
+    **Note:** This example uses the password grant type. You can also configure an OAuth API endpoint using other grant types. For more information, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-inbound.md).
 
 5.  Use a REST client, such as cURL or Postman, to send a POST request to the OAuth endpoint \(`oauth_token.do`\).
 

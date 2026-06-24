@@ -4,8 +4,6 @@ description: Impact Steady State is the cadence that keeps you on track with you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-steady-state.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

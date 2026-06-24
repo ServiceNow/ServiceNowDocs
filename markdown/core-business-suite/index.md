@@ -3,8 +3,6 @@ title: Australia Core Business Suite
 locale: en-US
 release: australia
 bundle: cbs
-product: Core Business Suite
-classification: core-business-suite
 doc_type: toc
 ---
 

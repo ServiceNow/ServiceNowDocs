@@ -1637,5 +1637,5 @@ Before insert and update
 Sets subscriber to the patient if the relationship is set to Self. Validates the relationship field value if the subscriber is set.
 
 </td></tr></tbody>
-</table>**Note:** To learn about before query business rules, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/bp-before-query-business-rules.md).
+</table>**Note:** To learn about before query business rules, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md).
 

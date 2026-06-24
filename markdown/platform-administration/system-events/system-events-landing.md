@@ -66,5 +66,5 @@ Managing system events involves creating, monitoring, and handling events to dri
 -   **[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-reference.md)**  
 Reference topics provide information about system events.
 
-**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/config-now-platform-core-features.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-now-platform-core-features.md)
 

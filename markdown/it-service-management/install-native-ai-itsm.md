@@ -4,8 +4,6 @@ description: Set up and get started with IT Service Management \(ITSM\) on your 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/install-native-ai-itsm.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

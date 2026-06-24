@@ -4,8 +4,6 @@ description: Enable logging in to both the Adobe Experience Manager \(AEM\) inst
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-setup-servicenow-authentication.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -121,7 +119,7 @@ Role required: oauth\_admin
     -   Click **New**, select **Configure an OIDC provider to verify ID tokens**, and then fill in the Application Registries form.
     -   Select an existing template for your OIDC provider \(Okta or Microsoft Azure\), and then either accept the default values in the Application Registries form or modify them.
 
-        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see [Configure an OAuth OIDC provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/add-OIDC-entity.md).
+        **Note:** OIDC provider templates are available after loading demo data with the OAuth 2.0 plugin. For more information, see [Configure an OAuth OIDC provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/add-OIDC-entity.md).
 
 <table id="table_zfw_cyj_vkb"><thead><tr><th>
 

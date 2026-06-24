@@ -161,7 +161,7 @@ Table that stores replicated log entries from the Log \[syslog\] table. Enables 
 
 The system removes these records in 28 days when the table is rotated or when it removes the context record, whichever comes first.
 
- The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
+ The table rotation on sys\_flow\_log is configurable. For more information, see Table rotation.
 
 </td></tr><tr><td>
 
