@@ -64,7 +64,7 @@ If only the Industrial Process Manager is installed, the following setup functio
 -   The Operational Technology Knowledge Management setup steps.
 -   The Operational Technology Request Management setup steps.
 
-To learn more about Guided Setups and their use, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services/guided-setup.md).
+To learn more about Guided Setups and their use, see Using guided setup.
 
 **Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

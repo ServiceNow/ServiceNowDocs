@@ -4,8 +4,6 @@ description: Use the SPM work item record link within the Impact entity to view 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-spm-work-item-impact-entity.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-04-14"
 reading_time_minutes: 3

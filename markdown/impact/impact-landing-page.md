@@ -4,8 +4,6 @@ description: ServiceNow Impact is built on the ServiceNow AI Platform and combin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-landing-page.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-02-24"
 reading_time_minutes: 4

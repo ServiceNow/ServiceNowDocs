@@ -4,8 +4,6 @@ description: ITOM AIOps aligns with CSDM framework to ensure standardized data m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-health-use-case-trouble.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

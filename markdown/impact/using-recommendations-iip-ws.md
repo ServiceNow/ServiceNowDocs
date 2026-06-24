@@ -4,8 +4,6 @@ description: Use the recommendations full list to view the recommendations tailo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/using-recommendations-iip-ws.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-02-24"
 reading_time_minutes: 1

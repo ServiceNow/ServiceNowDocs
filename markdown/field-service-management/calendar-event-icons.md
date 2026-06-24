@@ -4,8 +4,6 @@ description: Become familiar with the icons on calendar events to identify what 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/calendar-event-icons.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

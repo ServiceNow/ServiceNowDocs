@@ -4,8 +4,6 @@ description: Use the Field Service Management Overview dashboard to review the w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/Use\_field\_service\_management\_overview\_dashboard.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

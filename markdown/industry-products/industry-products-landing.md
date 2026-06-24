@@ -21,7 +21,7 @@ ServiceNow® Customer Relationship Management \(CRM\) helps you sell, fulfill an
 
 </td><td>
 
-[Field Service Management\[Omitted image "bus-field-service-technician.svg"\] Alt text: Manage work orders, assets, or locations, and dispatch agents to perform field work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md)
+Field Service Management\[Omitted image "bus-field-service-technician.svg"\] Alt text: Manage work orders, assets, or locations, and dispatch agents to perform field work.
 
 </td><td>
 

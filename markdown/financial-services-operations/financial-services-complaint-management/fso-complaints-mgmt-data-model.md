@@ -16,7 +16,7 @@ breadcrumb: [Exploring Financial Services Complaint Management, Complaint Manage
 
 The Financial Services Complaint Management data model provides a framework that is used in the complaint management workflow.
 
-This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
+This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
 
 The following diagram shows the tables and their relationships that comprise the complaints management data model.
 
@@ -30,7 +30,7 @@ This data model uses a combination of tables to store data:
     -   Extends the Sold Product \[sn\_install\_base\_sold\_product\] table for financial account and financial transaction tables.
     -   Uses these CSM tables to support customers: Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\]
 
-        For more information on these CSM tables that store customer records, see Accounts and contacts and Consumers.
+        For more information on these CSM tables that store customer records, see [Accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-csm-accounts-contacts.md) and [Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-csm-consumers.md).
 
 -   ServiceNow AI Platform tables.
 

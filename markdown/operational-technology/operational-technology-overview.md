@@ -4,8 +4,6 @@ description: Use ServiceNow for Operational Technology to help your organization
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-overview.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-20"
 reading_time_minutes: 5
@@ -91,6 +89,6 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 -   [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md)
 -   [Industrial Workspace for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 -   Service Management: [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md)
--   Security: [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/vulnerability-response/vuln-landing-page.md)
+-   Security: Vulnerability Response
 -   Visibility: [IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_ITOMApplications.md)
 

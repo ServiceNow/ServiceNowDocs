@@ -102,7 +102,7 @@ References
 
 </td><td>
 
-[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/c_Certificates.md)
+[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_Certificates.md)
 
  [Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.md)
 

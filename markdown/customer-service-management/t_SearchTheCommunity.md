@@ -4,8 +4,6 @@ description: Use the customer service portal to search the community site or vie
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SearchTheCommunity.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

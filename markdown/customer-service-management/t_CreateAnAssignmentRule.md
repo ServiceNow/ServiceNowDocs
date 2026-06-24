@@ -4,8 +4,6 @@ description: Create a rule that assigns those cases that meet the matching rule 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateAnAssignmentRule.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

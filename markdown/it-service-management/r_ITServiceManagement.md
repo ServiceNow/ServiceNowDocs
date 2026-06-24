@@ -4,8 +4,6 @@ description: Use IT Service Management \(ITSM\) to manage and resolve IT service
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/r\_ITServiceManagement.html
 release: yokohama
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2026-04-22"
 reading_time_minutes: 10

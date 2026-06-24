@@ -4,8 +4,6 @@ description: To securely access data on your provider account, the Discovery pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aws-create-creds-cloud-mgt.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Instance Observer is performing anomalies detection through the Z-s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/anomaly-detection-algorithm.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2

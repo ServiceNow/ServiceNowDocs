@@ -4,8 +4,6 @@ description: A path is created and associated with a node and represents the pot
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/guided-decision-tree-paths.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

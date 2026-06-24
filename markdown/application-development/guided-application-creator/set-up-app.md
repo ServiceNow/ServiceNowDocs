@@ -20,7 +20,7 @@ Set up an application in Guided Application Creator to store information and man
 
 ## Requirements
 
-Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/build-applications.md).
+Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-applications.md).
 
 To work in Guided Application Creator, use a different browser. For more detail on Internet Explorer 11 support, see [KB0683275](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275).
 

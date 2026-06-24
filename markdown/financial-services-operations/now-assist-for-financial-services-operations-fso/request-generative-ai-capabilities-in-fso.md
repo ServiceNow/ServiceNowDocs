@@ -19,7 +19,7 @@ Request the contextual generative AI capabilities, such as a case summary or ass
 
 ## Before you begin
 
-Next Experience must be enabled in the instance. For more information, see .
+Next Experience must be enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_manager, sn\_bom\_credit\_card.dispute\_viewer, sn\_bom\_credit\_card.contributor, sn\_bom.b2c\_agent, sn\_bom.b2b\_agent, sn\_bom.adjuster, or sn\_bom.fnol\_representative
 
@@ -29,7 +29,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the Now Assist panel in Financial Services Workspace to request a case summary.
 
-For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see . For information about act
 
 4.  After you request the generative AI capabilities, summarize a case or use the Help resolve friendly fraud agentic workflow.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28054e222">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28018e225">
 
 Option
 
-</th><th align="left" id="d28054e225">
+</th><th align="left" id="d28018e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28054e231">
+</th></tr></thead><tbody><tr><td id="d28018e234">
 
 **Summarize a case**
 
@@ -62,7 +62,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d28054e267">
+</td></tr><tr><td id="d28018e270">
 
 **Use the Help resolve friendly fraud agentic workflow**
 

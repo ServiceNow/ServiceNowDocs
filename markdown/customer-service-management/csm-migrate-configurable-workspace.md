@@ -4,8 +4,6 @@ description: Follow the instructions in this topic to migrate from CSM Agent Wor
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-migrate-configurable-workspace.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3

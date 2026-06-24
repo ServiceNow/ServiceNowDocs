@@ -4,8 +4,6 @@ description: If any conrefs are broken, re-add them from the doc/source/reuse/do
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/manufacturing-domain-separation.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-02-19"
 reading_time_minutes: 1
@@ -30,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Operational Technology domain separation overview
 
-Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
+Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see .
 
 The following table describes the domain separation support levels and use cases for each Operational Technology application.
 

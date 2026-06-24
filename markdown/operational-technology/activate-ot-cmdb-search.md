@@ -4,8 +4,6 @@ description: If you have the admin role, you can configure the Now Assist for Op
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/activate-ot-cmdb-search.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 2
@@ -35,7 +33,7 @@ The following table lists the features and skills that you can access from the N
 1.  Install the Now Assist for OTM plugin \(sn\_otm\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/supporting-information-for-now-assist-otm.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 
 3.  Select the **Now Assist Skills** tab.

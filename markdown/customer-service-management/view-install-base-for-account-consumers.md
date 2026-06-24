@@ -4,8 +4,6 @@ description: Track the instances provisioned for your account and which products
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-for-account-consumers.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -20,5 +20,5 @@ Reference topics include information about the limitations of the Robotic Proces
 -   **[Limitations of Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/limitations-rpa-bot-gen-skill.md)**  
 The limitations of the RPA bot generation skill are as follows.
 
-**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
 

@@ -4,8 +4,6 @@ description: As a service manager you can see key metric reports for walk-up int
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-experience-dashboard.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

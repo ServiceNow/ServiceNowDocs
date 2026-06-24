@@ -4,8 +4,6 @@ description: Depending on the Impact package that you are subscribed to, you can
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerators.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

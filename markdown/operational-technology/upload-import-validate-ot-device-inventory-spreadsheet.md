@@ -4,8 +4,6 @@ description: Chat with an AI agent in the Now Assist panel to begin the process 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/upload-import-validate-ot-device-inventory-spreadsheet.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 3
@@ -18,7 +16,7 @@ Chat with an AI agent in the Now Assist panel to begin the process for uploading
 
 ## Before you begin
 
-The Now Assist panel must be activated. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+The Now Assist panel must be activated. For more information, see .
 
 Role required: ot\_excel\_import\_user and now\_assist\_panel\_user
 

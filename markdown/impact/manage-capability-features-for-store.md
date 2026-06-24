@@ -4,8 +4,6 @@ description: Manage the various capabilities of the product by using the followi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-capability-features-for-store.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-03-02"
 reading_time_minutes: 2

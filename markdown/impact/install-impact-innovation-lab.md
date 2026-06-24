@@ -4,8 +4,6 @@ description: Follow these instructions to install the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/install-impact-innovation-lab.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-04-28"
 reading_time_minutes: 1

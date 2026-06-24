@@ -4,8 +4,6 @@ description: Impact IDI admins can create, view, and manage their users with Imp
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/ide-user-management.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

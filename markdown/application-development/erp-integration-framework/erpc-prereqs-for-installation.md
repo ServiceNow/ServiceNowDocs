@@ -18,7 +18,7 @@ Before you install Zero Copy Connector for ERP, you must complete several config
 
 ## Licensing
 
-You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/licensing.md).
+You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 

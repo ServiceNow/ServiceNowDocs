@@ -4,10 +4,8 @@ description: The Inbound Request Configuration table enables users to define the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/inbound-request-configuration-table.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

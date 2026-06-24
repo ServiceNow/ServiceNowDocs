@@ -4,8 +4,6 @@ description: Users with the agent schedule user role can add events to their per
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-event-to-agent-calendar.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2

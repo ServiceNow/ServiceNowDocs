@@ -4,8 +4,6 @@ description: Refer to the Proactive Code Check \(PCC\) scan suite matrix for det
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/proactive-code-check-scan-suite.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-03-06"
 reading_time_minutes: 14

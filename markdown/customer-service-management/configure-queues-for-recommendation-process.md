@@ -4,8 +4,6 @@ description: Enable administrators to configure custom queues to handle Recommen
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-queues-for-recommendation-process.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-04-23"
 reading_time_minutes: 1

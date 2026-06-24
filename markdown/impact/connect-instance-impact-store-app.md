@@ -4,8 +4,6 @@ description: The named contact administrator will establish a secure connection 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/connect-instance-impact-store-app.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-04-15"
 reading_time_minutes: 2

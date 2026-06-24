@@ -57,5 +57,5 @@ Configure how data is passed to the input fields of a component or method in RPA
 -   **[Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-output-port-properties.md)**  
 Configure the ways the output ports or fields of components or methods return output in the RPA Desktop Design Studio.
 
-**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
 

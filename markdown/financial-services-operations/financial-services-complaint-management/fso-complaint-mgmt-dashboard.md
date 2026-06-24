@@ -31,7 +31,7 @@ To access the Financial Services Complaint Management dashboard, navigate to **W
 
 Alternatively, you can navigate to **All** &gt; **Complaint Management** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Complaint Management** &gt; **Dashboard**.
 
@@ -155,5 +155,5 @@ The following table shows the available filters in the Financial Services Compla
 |Complaint Category|Choice|Shows all the active complaint categories for the Complaint service \[sn\_bom\_compl\_service\] table.|
 |Complaint Type|Choice|Shows all the active complaint types for the Complaint service \[sn\_bom\_compl\_service\] table.|
 
-**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
 

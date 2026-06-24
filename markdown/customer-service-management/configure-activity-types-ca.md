@@ -4,8 +4,6 @@ description: Create an activity type to display in the activity feed on the Cust
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-activity-types-ca.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-02-04"
 reading_time_minutes: 2

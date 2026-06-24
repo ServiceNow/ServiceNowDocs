@@ -64,7 +64,7 @@ Setting up an application in Guided Application Creator does not capture the ent
 
 After you set up an application in Guided Application Creator, you can further develop the application using Studio, [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-flows.md), and [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md). After the application is fully built, you can test the application and then share the application with your users.
 
-For more information on the application creation process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/build-applications.md).
+For more information on the application creation process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-applications.md).
 
 ## Activation information
 
@@ -81,5 +81,5 @@ By default, developers can't create applications in the global scope in Guided A
 -   **[Add field types in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-add-field-types.md)**  
 When you add fields to a custom table in Guided Application Creator, there are only 18 field types available by default. You can add a property to include more field types.
 
-**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/building-pro-code-applications.md)
+**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-pro-code-applications.md)
 

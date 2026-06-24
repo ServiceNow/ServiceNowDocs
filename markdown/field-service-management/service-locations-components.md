@@ -4,8 +4,6 @@ description: Roles installed with activation of the Field Service with Service L
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/service-locations-components.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

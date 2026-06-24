@@ -4,8 +4,6 @@ description: Enable Customer Service Management agents to assign partner contact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/assign-a-partner-contact-case-form.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

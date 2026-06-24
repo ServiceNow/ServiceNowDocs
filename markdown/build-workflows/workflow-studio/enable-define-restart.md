@@ -70,15 +70,15 @@ This message only displays for existing playbooks. Restart is automatically enab
 
     4.  Select what you want the stage or activity to do when restarted.
 
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d53484e284">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d53479e284">
 
 Rule
 
-</th><th align="left" id="d53484e287">
+</th><th align="left" id="d53479e287">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53484e293">
+</th></tr></thead><tbody><tr><td id="d53479e293">
 
 **Skip on restart**
 
@@ -86,7 +86,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d53484e307">
+</td></tr><tr><td id="d53479e307">
 
 **Run always**
 
@@ -94,7 +94,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d53484e316">
+</td></tr><tr><td id="d53479e316">
 
 **Skip on first run**
 

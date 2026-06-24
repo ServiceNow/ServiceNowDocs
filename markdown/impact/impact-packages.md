@@ -4,8 +4,6 @@ description: ServiceNow Impact packages comprise support tools, self-help resour
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-packages.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2

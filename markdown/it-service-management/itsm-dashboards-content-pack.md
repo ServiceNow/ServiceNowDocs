@@ -4,8 +4,6 @@ description: The ITSM Dashboards content pack provides several Platform Analytic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-dashboards-content-pack.html
 release: yokohama
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 3

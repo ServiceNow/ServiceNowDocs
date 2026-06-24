@@ -24,7 +24,7 @@ Every message sent through ServiceNow AI Platform email servers is assessed for 
 
 Before setting this property:
 
-Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_ConfAltEmailConfPOP3Server.md).
+Set the **glide.email.read.active** property to true. To learn more, see Enable using your own POP3 server.
 
 ## More information
 
@@ -117,12 +117,12 @@ References
 
 </td><td>
 
-[Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_EmailFilters.md)
+Email filters
 
  [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0549426](https://support.servicenow.com/kb_view.do?sysparm_article=KB0549426)
 
 </td></tr></tbody>
-</table>To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+</table>To learn more about activating a plugin, see .
 
 **Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

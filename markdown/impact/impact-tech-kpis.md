@@ -4,8 +4,6 @@ description: Tech Key Performance Indicators\(KPIs\) show how closely you're ali
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-tech-kpis.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

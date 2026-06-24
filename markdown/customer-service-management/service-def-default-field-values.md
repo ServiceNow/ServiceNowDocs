@@ -4,8 +4,6 @@ description: Configure default values for fields in a service definition's targe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-def-default-field-values.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

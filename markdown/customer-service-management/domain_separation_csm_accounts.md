@@ -4,8 +4,6 @@ description: With domain separation in Customer Service Management, you can furt
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/domain\_separation\_csm\_accounts.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

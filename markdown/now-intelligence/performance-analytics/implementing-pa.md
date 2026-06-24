@@ -16,7 +16,7 @@ breadcrumb: [Exploring, Performance Analytics \(Indicator data sources\), Platfo
 
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from .
+A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md).
 
 ## Plan and Prepare
 
@@ -34,7 +34,7 @@ Before you create new indicators, try out the built-in dashboards and indicators
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
-1.  Check your license entitlement and activate applicable Solutions, as described in [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics/content-packs-in-form-analytics.md).
+1.  Check your license entitlement and activate applicable Solutions, as described in [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md).
 2.  Verify that your indicator and breakdown sources refer to the correct tables.
 3.  Customize your indicators and breakdowns to meet the needs of your organization.
 

@@ -62,7 +62,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
     1.  Select **Retrieve connection info** to add the Get Connection Info step as the first step in the action preprocessing.
 
-        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/get-connection-info-action-designer.md).
+        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see .
 
     2.  Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Preprocessing executes once per action, before the first API request.
 

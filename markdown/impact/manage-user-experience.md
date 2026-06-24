@@ -4,8 +4,6 @@ description: Explore in-depth transactions for a user or a node for a given peri
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-user-experience.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

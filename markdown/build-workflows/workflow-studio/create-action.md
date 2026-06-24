@@ -18,14 +18,14 @@ Create a reusable component to automate one or more steps of a process.
 
 ## Before you begin
 
--   Set up an application in Guided Application Creator to store Workflow Studio content.
+-   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
 -   Role required: flow\_designer, action\_designer or admin
 
 ## About this task
 
 Action designers should know the application table structure and be aware of any existing business logic associated with the target tables of an action. Be sure to disable any conflicting business rules or workflows before creating an action.
 
-Creating a custom application to contain your Workflow Studio content enables you to deploy it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 ## Procedure
 

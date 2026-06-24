@@ -22,5 +22,5 @@ If you have the TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] role, you 
 -   **[Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md)**  
 Generate a summary of a TPRM issue to support efficient triaging, remediation, and reporting using the TPRM issue summarization skill. Summarized issues help risk assessors and analysts quickly review issue content and take informed action.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/r_WhatIsGRC.md)
 

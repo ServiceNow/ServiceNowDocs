@@ -4,8 +4,6 @@ description: Create AWS service accounts on the ServiceNow AI Platform to access
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/create-aws-service-accounts.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-07-08"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Look up your schedule, request time off, or swap your shift with yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage\_scheduling\_csm\_agent\_workspace.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2

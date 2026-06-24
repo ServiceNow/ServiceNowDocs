@@ -4,8 +4,6 @@ description: The Impact Store Application is available directly through your Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-app.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-03-06"
 reading_time_minutes: 2

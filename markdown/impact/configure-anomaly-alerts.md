@@ -4,8 +4,6 @@ description: Configure anomaly alerts based on metrics outliers on historical pa
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/configure-anomaly-alerts.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

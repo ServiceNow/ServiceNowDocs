@@ -27,7 +27,7 @@ The SSH step is available as an Workflow Studio action step. Users with the acti
 
 ## Sanitizing inputs
 
-Escape all user inputs to eliminate the possibility of a malicious user executing arbitrary commands on your target server. Escape and validate data pills before the command field uses them by sanitizing arguments using [Sanitize shell arguments transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/sanitize-shell-arguments-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the **Command** input.
+Escape all user inputs to eliminate the possibility of a malicious user executing arbitrary commands on your target server. Escape and validate data pills before the command field uses them by sanitizing arguments using Sanitize shell arguments transform functions. This transform function category automatically appears when a data pill is dropped into the **Command** input.
 
 ## Fields
 
@@ -178,7 +178,7 @@ Option to elevate privileges to execute the script.
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 
 ## Advanced SSH script options

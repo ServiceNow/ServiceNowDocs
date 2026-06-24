@@ -35,7 +35,7 @@ Role required: admin
 
 ## What to do next
 
-For more information about assignment rules, see [Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
+For more information about assignment rules, see .
 
 **Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

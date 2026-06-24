@@ -4,8 +4,6 @@ description: Create a dashboard that serves as a home page to assess the health 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/customize-instance-observer-dashboard.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-03-31"
 reading_time_minutes: 2

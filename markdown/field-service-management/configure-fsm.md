@@ -4,8 +4,6 @@ description: Set up the features and work flows that you need to manage your org
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-fsm.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3

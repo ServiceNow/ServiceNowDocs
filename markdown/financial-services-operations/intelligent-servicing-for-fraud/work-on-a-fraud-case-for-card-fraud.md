@@ -20,7 +20,7 @@ Use Card fraud to work on a fraud case that is created for reviewing alerts that
 
 Role required: sn\_bom\_fraud.agent or sn\_bom\_fraud.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## Procedure
 

@@ -4,8 +4,6 @@ description: The IT Asset Management content services team manages and supports 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/content-request-itam.html
 release: yokohama
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Users with the consumer role can accept or reject the proposed solu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/resolve-cases-consumer-portal.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

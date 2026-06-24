@@ -4,8 +4,6 @@ description: If a dispatcher experiences loading issues in Dispatcher Workspace,
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/clear-workspace-filters.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

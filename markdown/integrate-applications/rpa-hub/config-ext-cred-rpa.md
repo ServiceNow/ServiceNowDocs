@@ -57,7 +57,7 @@ Populate values for **appID** and **query**.
 
 </td></tr><tr><td>
 
-1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see [Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/steps.md).
+1.B. You can use the REST Step in the subflow to connect with the external credential vault. You can also use other integration steps such as SOAP. For more information, see .
 
 </td><td>
 

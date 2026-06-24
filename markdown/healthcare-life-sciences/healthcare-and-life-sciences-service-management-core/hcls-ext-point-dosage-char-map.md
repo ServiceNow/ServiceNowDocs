@@ -18,7 +18,7 @@ Use scripted extension points to decide which dosage characteristics are mapped 
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see Application picker.
+Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: admin
 

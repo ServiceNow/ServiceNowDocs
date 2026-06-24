@@ -24,11 +24,11 @@ Now Assist for Creator includes generative AI skills that can make developing on
 
 </td><td>
 
-App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.
+[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 
 </td><td>
 
-App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.
+[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate rec
 
 </td><td>
 
-Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
+[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining/now-assist.md)
 
 </td><td>
 
@@ -72,11 +72,11 @@ Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work not
 
 </td><td>
 
-Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.
+[Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/test-generation/test-generation-intro.md)
 
 </td><td>
 
-UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/ui-generation-landing.md)
 
 </td></tr></tbody>
 </table>**Important:**

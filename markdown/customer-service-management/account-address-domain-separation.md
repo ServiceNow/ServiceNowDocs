@@ -4,8 +4,6 @@ description: Domain separation enables you to separate data, processes, and admi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/account-address-domain-separation.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

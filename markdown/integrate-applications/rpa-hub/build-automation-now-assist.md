@@ -45,15 +45,15 @@ If there are multiple control output ports for a component, the generated automa
 
 1.  In the RPA Desktop Design Studio, extend the automation logic with in-line prompting from the component level or from the design surface.
 
-<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d147413e182">
+<table id="choicetable_lsf_npv_ydc"><thead><tr><th align="left" id="d147414e182">
 
 Option
 
-</th><th align="left" id="d147413e185">
+</th><th align="left" id="d147414e185">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d147413e191">
+</th></tr></thead><tbody><tr><td id="d147414e191">
 
 **From component level**
 
@@ -68,7 +68,7 @@ You can also use the keyboard shortcut Ctrl+Enter to open the in-line prompting 
 
  If you access in-line prompting from the component level, the automation workflow is generated to the default control output port of the component.
 
-</td></tr><tr><td id="d147413e242">
+</td></tr><tr><td id="d147414e242">
 
 **From design surface**
 
@@ -97,15 +97,15 @@ If you access in-line prompting from the design surface, the generated automatio
 
 3.  In the Build with Now Assist window, close the window, cancel the workflow generation, reject an automation, or accept the automation preview.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d147413e369">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d147414e369">
 
 Option
 
-</th><th align="left" id="d147413e372">
+</th><th align="left" id="d147414e372">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d147413e378">
+</th></tr></thead><tbody><tr><td id="d147414e378">
 
 **Close**
 
@@ -113,7 +113,7 @@ Procedure
 
 If you want to close the Build with Now Assist window, select the close icon \(\[Omitted image "close-now-assist-rpa-icon.png"\] Alt text: Close icon.\), and then select **Close Now Assist** in the confirmation window.The generated automation workflow is discarded.
 
-</td></tr><tr><td id="d147413e401">
+</td></tr><tr><td id="d147414e401">
 
 **Stop generating**
 
@@ -121,7 +121,7 @@ If you want to close the Build with Now Assist window, select the close icon \(\
 
 If you want to cancel the workflow generation or update the instruction, select **Stop generating**. You can update the Now Assist instructions and select the enter icon \(\[Omitted image "enter-inline-prompt-icon.png"\] Alt text: Enter icon.\).
 
-</td></tr><tr><td id="d147413e422">
+</td></tr><tr><td id="d147414e422">
 
 **Reject**
 
@@ -129,7 +129,7 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-</td></tr><tr><td id="d147413e444">
+</td></tr><tr><td id="d147414e444">
 
 **Accept**
 

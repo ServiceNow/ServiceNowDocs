@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 9
 breadcrumb: [Orchestration activity designer, Classic Orchestration, Data and Automation]
 ---
@@ -269,7 +269,7 @@ Yes
 
 By default, Windows MID Servers use the login credentials of the MID Server service on the host machine to discover Windows devices in the network. You should [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) so that they have domain or local administrator privileges. For Linux and UNIX machines and network devices, the MID Server uses the SSH and SNMP credentials configured in the instance in **Discovery** &gt; **Credentials**.
 
-MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md). Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)\) and VMware.
+MID Servers that Orchestration uses must have access to the necessary credentials to execute commands on computers in the network as specified by the Workflow activities. Orchestration can use the same SSH and SNMP credentials as Discovery, but has two additional credentials designed for specific workflow activities: Windows \(for [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md)\) and VMware.
 
 ### Encryption and decryption
 

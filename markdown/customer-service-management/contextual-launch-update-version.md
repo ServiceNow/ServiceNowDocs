@@ -4,8 +4,6 @@ description: Update the version of Engagement Messenger in the code used to embe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/contextual-launch-update-version.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

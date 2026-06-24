@@ -4,8 +4,6 @@ description: You can install the Recommended Actions application \(sn\_cs\_nb\_a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/install-recommended-actions-cs-app.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

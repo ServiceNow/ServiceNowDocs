@@ -4,8 +4,6 @@ description: Create Google Cloud Platform \(GCP\) service accounts on the Servic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/create-gcp-service-accounts.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-06-29"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: I have reworked this topic to fit the new accessibility configurati
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

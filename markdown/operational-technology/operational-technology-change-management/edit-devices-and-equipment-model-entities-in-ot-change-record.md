@@ -32,15 +32,15 @@ Role required: sn\_ot\_change\_write or sn\_ot\_change\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d29704e106">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d29724e106">
 
 Action
 
-</th><th align="left" id="d29704e109">
+</th><th align="left" id="d29724e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29704e115">
+</th></tr></thead><tbody><tr><td id="d29724e115">
 
 **Add a related OT device from the change record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d29704e145">
+</td></tr><tr><td id="d29724e145">
 
 **Remove a related OT device from the change record**
 

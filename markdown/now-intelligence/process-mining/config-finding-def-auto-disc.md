@@ -18,7 +18,7 @@ Automation Discovery helps you analyze your records and identity opportunities f
 
 ## Before you begin
 
-You must install the Automation Discovery application \(sn\_auto\_discovery\) before configuring. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics/install-automation-discovery.md).
+You must install the Automation Discovery application \(sn\_auto\_discovery\) before configuring. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/install-automation-discovery.md).
 
 Role required: administrator
 

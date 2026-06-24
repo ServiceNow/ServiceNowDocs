@@ -252,5 +252,5 @@ Under **Include Data**, select the **Recipients** option. Select other options a
 
 ### What to do next
 
-Create flows in Workflow Studio using these triggers as per your requirement. For more information, see [Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.md).
+Create flows in Workflow Studio using these triggers as per your requirement. For more information, see .
 

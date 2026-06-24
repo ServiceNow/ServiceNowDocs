@@ -4,8 +4,6 @@ description: Notifications for alerts and other system activity are displayed on
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/i-o-notifications.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

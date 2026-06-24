@@ -4,8 +4,6 @@ description: You can assign functional and granular roles to Customer Service Ma
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/security-roles-for-install-base-attributes.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

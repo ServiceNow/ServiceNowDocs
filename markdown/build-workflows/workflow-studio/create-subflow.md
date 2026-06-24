@@ -20,9 +20,9 @@ Reuse an entire flow's content as a subflow. Define the input data the subflow u
 
 Role required: flow\_designer or admin
 
-Create an application in App Engine Studio to store Workflow Studio content. For more information about building an application, see Building applications in App Engine Studio.
+Create an application in App Engine Studio to store Workflow Studio content. For more information about building an application, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/aes-app-creation.md).
 
-Creating a custom application to contain your Workflow Studio content allows you to deploy it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 ## About this task
 

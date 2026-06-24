@@ -4,8 +4,6 @@ description: Associate a service offering with a sold product giving customer se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/asssociate-service-offering-sold-prod.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

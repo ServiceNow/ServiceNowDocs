@@ -140,7 +140,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Default retry policy associated with **Connection Alias**. If **Override Default
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 
 \[Omitted image "openapi-postman-step-example.gif"\] Alt text: Demonstrates on how to import a Postman collection into an OpenAPI/Postman step
@@ -184,7 +184,7 @@ Default retry policy associated with **Connection Alias**. If **Override Default
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 
 ## Known limitations

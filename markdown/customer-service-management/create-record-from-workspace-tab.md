@@ -4,8 +4,6 @@ description: Create a record in CSM Configurable Workspace from the Record tab m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-record-from-workspace-tab.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-03-18"
 reading_time_minutes: 1

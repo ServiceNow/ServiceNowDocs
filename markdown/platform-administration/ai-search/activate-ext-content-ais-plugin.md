@@ -18,7 +18,7 @@ Request activation of the External Content for AI Search plugin \(com.glide.ais.
 
 ## Before you begin
 
-You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/c_ServiceNowPlugins.md).
+You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_ServiceNowPlugins.md).
 
 Role required: admin
 

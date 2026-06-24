@@ -4,8 +4,6 @@ description: Convert an Impact entity to an SPM entity either from the Impact ho
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/convert-spm-entity-impact-entity-recommendations.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-04-07"
 reading_time_minutes: 3

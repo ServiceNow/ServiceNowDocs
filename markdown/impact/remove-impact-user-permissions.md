@@ -4,8 +4,6 @@ description: Remove permissions that you've assigned to an Impact user if that u
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/remove-impact-user-permissions.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

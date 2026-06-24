@@ -4,8 +4,6 @@ description: Configure a resource generator of type decision table that provides
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-resorce-generator-assignment-grp.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

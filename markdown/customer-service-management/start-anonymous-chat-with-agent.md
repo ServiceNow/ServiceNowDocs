@@ -4,8 +4,6 @@ description: Users that are not logged in can chat anonymously with an agent fro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/start-anonymous-chat-with-agent.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

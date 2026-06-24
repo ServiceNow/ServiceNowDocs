@@ -82,5 +82,5 @@ Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your c
 -   **[Catalog Conversational Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)**  
 ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational catalog items.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/manage-services.md)
 

@@ -4,8 +4,6 @@ description: Check the RCC History page to further investigate the issues that c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

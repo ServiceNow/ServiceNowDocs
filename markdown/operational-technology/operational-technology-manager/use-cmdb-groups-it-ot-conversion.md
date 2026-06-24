@@ -44,7 +44,7 @@ Follow these general guidelines:
 
 1.  Define a CMDB group with the required filter criteria that identifies the right IT CIs..
 
-    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+    For more information, see .
 
 2.  Create an Automated IT to OT Bulk Conversion \(sn\_automated\_it\_ot\_bulk\_conversion\) record associated with the CMDB group.
 

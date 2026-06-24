@@ -4,8 +4,6 @@ description: As an Outsourced Customer Service external manager you can assign a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/osp-assign-case-manager.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

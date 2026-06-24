@@ -4,8 +4,6 @@ description: To activate Predictive Intelligence for Incident, request the Predi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-predictive-intelligence-for-im.html
 release: yokohama
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

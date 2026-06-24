@@ -26,7 +26,7 @@ Role required: sn\_ot\_incident\_write
 
 You can use the Recommendations panel and AI search when viewing an OT incident record to view and select relevant actions related to your incident.
 
-For more information about Recommended Actions, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
+For more information about Recommended Actions, see .
 
 ## Procedure
 

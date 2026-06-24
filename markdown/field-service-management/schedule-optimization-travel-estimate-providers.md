@@ -4,8 +4,6 @@ description: Travel estimate providers used by Schedule Optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/schedule-optimization-travel-estimate-providers.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2

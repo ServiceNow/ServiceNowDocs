@@ -73,7 +73,7 @@ Okay, now you understand that requesters fill out forms to create requests and C
 
 ## Try Creator Studio on a PDI
 
-Want to play with Creator Studio on your Personal Development Instance \(PDI\)? It comes automatically installed from the Application Manager on your PDI. For more information, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/personal_developer_instance_guide.md).
+Want to play with Creator Studio on your Personal Development Instance \(PDI\)? It comes automatically installed from the Application Manager on your PDI. For more information, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/personal_developer_instance_guide.md).
 
 -   **[Example apps you can build in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-sample-apps.md)**  
 Creator Studio enables you to build apps where people can make requests.

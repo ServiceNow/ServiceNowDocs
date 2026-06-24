@@ -4,8 +4,6 @@ description: Define colors for work order states so that you can have a visual i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/setting-up-task-state-colors.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

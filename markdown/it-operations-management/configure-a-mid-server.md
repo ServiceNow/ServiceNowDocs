@@ -4,8 +4,6 @@ description: You can configure a MID Server with additional configuration parame
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/configure-a-mid-server.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

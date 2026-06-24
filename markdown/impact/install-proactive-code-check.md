@@ -4,8 +4,6 @@ description: Developers can identify issues and prevent defects before they are 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/install-proactive-code-check.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-03-06"
 reading_time_minutes: 1

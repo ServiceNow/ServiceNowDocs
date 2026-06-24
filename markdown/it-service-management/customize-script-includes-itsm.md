@@ -4,8 +4,6 @@ description: Many Script Includes are provided by default with the ITSM products
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/customize-script-includes-itsm.html
 release: yokohama
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

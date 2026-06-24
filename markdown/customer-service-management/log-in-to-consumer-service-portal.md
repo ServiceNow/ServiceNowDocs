@@ -4,8 +4,6 @@ description: Use the name and password that you created during the registration 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/log-in-to-consumer-service-portal.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

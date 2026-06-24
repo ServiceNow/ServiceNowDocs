@@ -32,7 +32,7 @@ Set **glide.email.smtp.max\_recipients** to the recommended value of **100 or le
 |Security risk|\(Moderate\) Notifications that would exceed this limit instead create duplicate email notifications addressed to a subset of the recipient list.|
 |Security risk rating|4.9|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

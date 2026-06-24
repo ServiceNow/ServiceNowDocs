@@ -18,7 +18,7 @@ Configure your Service Level Agreement \(SLA\) definition to run a flow as the a
 
 ## Before you begin
 
--   Set up an application in Guided Application Creator to store Workflow Studio content.
+-   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
 -   Role required: flow\_designer or admin
 
 ## About this task

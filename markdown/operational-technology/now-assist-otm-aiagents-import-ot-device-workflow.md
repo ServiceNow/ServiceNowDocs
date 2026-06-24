@@ -4,8 +4,6 @@ description: Use the Import OT device spreadsheet into OT CMDB agentic workflow 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/now-assist-otm-aiagents-import-ot-device-workflow.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 2
@@ -22,7 +20,7 @@ Using the Import OT device spreadsheet into OT CMDB agentic workflow, you can im
 
 **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-To modify the Import OT device spreadsheet into OT CMDB agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Import OT device spreadsheet into OT CMDB agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 

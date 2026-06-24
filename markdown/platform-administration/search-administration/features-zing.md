@@ -128,7 +128,7 @@ Search content from attachments on indexed tables. Display attachments for searc
 
 </td><td>
 
--   [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_DisablingAttachmentsOnATable.md)
+-   [Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_DisablingAttachmentsOnATable.md)
 -   [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/configure-single-table-for-indexing.md)
 
 </td><td>

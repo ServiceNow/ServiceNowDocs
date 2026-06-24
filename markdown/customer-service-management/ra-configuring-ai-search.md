@@ -4,8 +4,6 @@ description: As an admin, configure AI search in Recommended Actions to enable a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-configuring-ai-search.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

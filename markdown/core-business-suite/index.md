@@ -3,8 +3,6 @@ title: Yokohama Core Business Suite
 locale: en-US
 release: yokohama
 bundle: cbs
-product: Core Business Suite
-classification: core-business-suite
 doc_type: toc
 ---
 

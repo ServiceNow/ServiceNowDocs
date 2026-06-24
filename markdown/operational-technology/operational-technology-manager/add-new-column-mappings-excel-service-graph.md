@@ -18,9 +18,9 @@ With the Service Graph Connector for Microsoft Excel, add a custom field to the 
 
 ## Before you begin
 
-To configure the form layout, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+To configure the form layout, see Configure the form layout.
 
-To create a custom field on the staging table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreatingNewFields.md).
+To create a custom field on the staging table, see Add and customize a field in a table.
 
 Roles required:
 

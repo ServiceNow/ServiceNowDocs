@@ -4,8 +4,6 @@ description: Field Service Management Guided Setup provides a sequence of tasks 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-fsm-using-guided-setup.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-04"
 reading_time_minutes: 1

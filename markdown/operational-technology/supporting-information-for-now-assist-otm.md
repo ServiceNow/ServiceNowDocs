@@ -4,8 +4,6 @@ description: Get a quick overview of the important information that is related t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/supporting-information-for-now-assist-otm.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 1
@@ -42,7 +40,7 @@ Industrial Workspace
 
 The OT CMDB search feature leverages the following agentic workflow and skill:
 
-    -   Now Assist for CMDB's Search CMDB agentic workflow. For more information, see [Use Now Assist to search the CMDB for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md).
+    -   Now Assist for CMDB's Search CMDB agentic workflow. For more information, see .
 
 **Note:**
 

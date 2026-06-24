@@ -40,7 +40,7 @@ Chargeback process to submit the dispute questionnaire to Visa.
 
 </td><td>
 
-1.  After the batch queue is triggered, the incoming pre-arbitration is reviewed and moves the transaction to the appropriate state. For more information on how to configure the batch queue, see [Configure the Visa Queue Scheduler Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/activate-visa-queue-scheduler-flow.md)
+1.  After the batch queue is triggered, the incoming pre-arbitration is reviewed and moves the transaction to the appropriate state. For more information on how to configure the batch queue, see [Configure the Visa Queue Scheduler Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-queue-scheduler-flow.md)
 2.  Review and respond to pre-arbitration details.
 
 </td></tr><tr><td>

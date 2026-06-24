@@ -218,7 +218,7 @@ Contains component, static value, field mapping, and action mapping settings for
 </td></tr></tbody>
 </table>## List of all components installed with AI Search for Next Experience
 
-To view the complete list of components installed with AI Search for Next Experience, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/find-components.md). The application's package name is **AI Search For Next Experience**.
+To view the complete list of components installed with AI Search for Next Experience, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/find-components.md). The application's package name is **AI Search For Next Experience**.
 
 -   **[AI Search for Next Experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ai-search-next-experience-properties.md)**  
 A system property allows you to control whether facets are shown when no source is selected in global search and workspace search results pages.

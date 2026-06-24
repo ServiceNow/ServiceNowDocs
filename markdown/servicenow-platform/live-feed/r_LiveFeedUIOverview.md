@@ -39,5 +39,5 @@ The Live Feed interface uses the standard bookmarking functionality for feeds an
 -   **[Add Live Feed to your homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_AddLiveFeedToYourHomepage.md)**  
 You can add Live Feed to your own homepage or to a global homepage.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/manage-people.md)
 
