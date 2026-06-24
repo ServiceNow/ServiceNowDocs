@@ -48,5 +48,5 @@ Rotate the database key annually or as needed by submitting a request to support
 -   **[Database Encryption with Customer-Controlled Switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md)**  
 Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 
-**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/encryption-landing.md)
+**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/encryption-landing.md)
 

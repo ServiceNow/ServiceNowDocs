@@ -30,7 +30,7 @@ Type
 
 </td><td>
 
-Context variable type.For information about the different field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_FieldTypes.md).
+Context variable type.For information about the different field types, see Field types.
 
 </td></tr><tr><td>
 

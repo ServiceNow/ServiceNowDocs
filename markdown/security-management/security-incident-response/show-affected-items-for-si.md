@@ -7,7 +7,7 @@ release: xanadu
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -61,9 +61,9 @@ Affected Services
 View or add business services associated with the security incident. **Note:** If an affected CI is added after the security incident is opened, it is a good idea to right-click in the form header and select **Refresh Impacted Services**.
 
 </td></tr></tbody>
-</table>    **Note:** If the [Security Operations Integration - Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/get-running-processes-capability.md) integration capability is active, and you add a CI to a security incident, the [Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-integration-get-running-processes-workflow.md) workflow runs and retrieves a list of running processes on the CI.
+</table>    **Note:** If the [Security Operations Integration - Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/get-running-processes-capability.md) integration capability is active, and you add a CI to a security incident, the [Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/secops-integration-get-running-processes-workflow.md) workflow runs and retrieves a list of running processes on the CI.
 
-    If the [Security Operations Integration - Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/isolate-host-capability.md) integration capability is active, you can select one or more CIs and restrict their system connections to other devices. To do this, select the check boxes for the CIs and click **Isolate Host** from the **Actions on selected rows** choice list.
+    If the [Security Operations Integration - Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/isolate-host-capability.md) integration capability is active, you can select one or more CIs and restrict their system connections to other devices. To do this, select the check boxes for the CIs and click **Isolate Host** from the **Actions on selected rows** choice list.
 
 4.  Click any of the following related links to further update the security incident:
 

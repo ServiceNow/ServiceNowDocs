@@ -164,7 +164,7 @@ Contains the call to the server script include method that determines where to l
 
 3.  Customize the after-login behavior in the **SPEntryPage** script include.
 
-    For more information about modifying script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
+    For more information about modifying script includes, see Script includes.
 
     For example, if you want users with certain roles to be redirected to Service Portal, you could modify `user.hasRoles()` in the following code.
 

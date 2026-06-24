@@ -4,10 +4,8 @@ description: Modify a sold product and its complete hierarchy on the CSM Configu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/modify\_a\_sold\_product\_to\_create\_a\_quote.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Modify a sold product and hierarchy, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

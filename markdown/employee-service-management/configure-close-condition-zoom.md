@@ -4,8 +4,6 @@ description: Define the way a Zoom chat is closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-close-condition-zoom.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -104,7 +104,7 @@ Depending on the risk score of the supplier, the following risk ratings are disp
         -   3 - Moderate
         -   4 - Low
         -   5 - Very Low
-For more information about risk ratings and risk scores, see [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md).
+For more information about risk ratings and risk scores, see .
 
     -   **Onboarded**: Status of whether the supplier is onboarded into the ERP system. The options are Yes or No.
     -   **DUNS number**: Unique, 9-digit identifier for a supplier.

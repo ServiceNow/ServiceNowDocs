@@ -31,7 +31,7 @@ To access the Financial Services Treasury Operations dashboard, navigate to **Wo
 
 Alternatively, you can navigate to **All** &gt; **Treasury Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Treasury Operations** &gt; **Dashboard**.
 
@@ -124,5 +124,5 @@ The following table shows the available filters in the Treasury Operations dashb
 |FSO Treasury.Service|Task record|Fetches all the records from the Service Definition \[sn\_bom\_service\_definition\] table where Task type starts with `sn_bom_treasury` and ends with `service`.|
 |Age|Bucket|Shows the age ranges in days for treasury cases.|
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-content-pack.md)
 

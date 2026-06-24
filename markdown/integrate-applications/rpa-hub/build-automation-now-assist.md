@@ -127,9 +127,9 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 </td><td>
 
-If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/monitoring-now-assist-usage.md).
+If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
-</td></tr><tr><td id="d138121e444">
+</td></tr><tr><td id="d138121e443">
 
 **Accept**
 

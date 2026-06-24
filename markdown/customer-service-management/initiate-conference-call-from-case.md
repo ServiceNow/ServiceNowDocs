@@ -4,8 +4,6 @@ description: As part of resolving a customer service case, you can initiate a co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/initiate-conference-call-from-case.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,7 +40,7 @@ Notify must be set up before you can use Notify on task. Ensure there are Notify
 **Related topics**  
 
 
-[Start a conference call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/start-a-conference-call.md)
+[bundle-platcap.start-a-conference-call]
 
-[Start a conference call from a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/t_StartAConferenceCallFromATask.md)
+[bundle-platcap.t_StartAConferenceCallFromATask]
 

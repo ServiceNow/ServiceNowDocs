@@ -4,8 +4,6 @@ description: As an agent, import a conversation with a user from Microsoft Teams
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-mst-use-import-msgs-wrkspc.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

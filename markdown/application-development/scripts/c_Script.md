@@ -37,7 +37,7 @@ Perform database operations. For example, use a server-side script to update a r
     The global scope is a special application scope that identifies applications developed prior to application scoping, or applications intended to be accessible to all other global applications. Use global APIs when scripting in the global scope.
 
 
-To learn more about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_ServerScripting.md). To learn more about application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
+To learn more about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_ServerScripting.md). To learn more about application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationScope.md).
 
 ## Client-side scripts
 
@@ -78,5 +78,5 @@ Debug scripts using session logs and ServiceNow AI Platform debugging tools such
 -   **[Packages Call Removal tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_PackagesCallRemovalTool.md)**  
 The Packages Call Removal Tool provides modules to identify fields that might contain scripts, find scripts that contain Packages calls to ServiceNow Java classes, and to examine proposed script changes that eliminate those Packages calls.
 
-**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/building-pro-code-applications.md)
+**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-pro-code-applications.md)
 

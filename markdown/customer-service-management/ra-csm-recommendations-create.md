@@ -4,8 +4,6 @@ description: Create a recommendation with an action type of guidance, field reco
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-recommendations-create.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -85,7 +83,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use a resource generator to supply values.
 
-<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d49709e297">
+<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d49712e297">
 
 **Use a static value**
 
@@ -93,7 +91,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
 Enter the value in the field in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d49709e306">
+</td></tr><tr><td id="d49712e306">
 
 **Use a pill picker**
 

@@ -4,8 +4,6 @@ description: Users with the agent calendar administrator role can create a sched
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-schedule-agent-calendar.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -22,14 +20,14 @@ Role required: agent\_schedule\_admin
 
 ## About this task
 
-Creating a schedule for the agent calendar uses the schedule feature. For more information, see Schedules.
+Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_UseSchedules.md).
 
 Schedules are configured with two types of records.
 
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[cmn\_schedule\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table.
 
-For more information on schedule fields, see .
+For more information on schedule fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
 
 ## Procedure
 

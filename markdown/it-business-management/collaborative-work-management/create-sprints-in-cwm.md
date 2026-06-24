@@ -32,15 +32,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  If there are existing sprints, choose an option to create a new sprint.
 
-<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d46953e99">
+<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d46941e99">
 
 Choice
 
-</th><th align="left" id="d46953e102">
+</th><th align="left" id="d46941e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46953e108">
+</th></tr></thead><tbody><tr><td id="d46941e108">
 
 **Create a sprint with the same duration and story points capacity as the existing sprint**
 
@@ -48,7 +48,7 @@ Steps
 
 Select **Add another Sprint**.
 
-</td></tr><tr><td id="d46953e120">
+</td></tr><tr><td id="d46941e120">
 
 **Create a sprint with different duration or story point capacity**
 

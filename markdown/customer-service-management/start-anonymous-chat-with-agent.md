@@ -4,8 +4,6 @@ description: Users that are not logged in can chat anonymously with an agent fro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/start-anonymous-chat-with-agent.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -26,7 +26,7 @@ Many websites use the same basic structure on every page. For example, every pag
 
 ## Ways to create an experience
 
-You can [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/create-experience.md) from scratch or use [UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/using-ui-generation.md) to assist you in building an experience.
+You can [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/create-experience.md) from scratch or use [UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/using-ui-generation.md) to assist you in building an experience.
 
 ## Experience view in UI Builder
 

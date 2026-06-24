@@ -4,8 +4,6 @@ description: View a map of the job site and get directions to the specific on-si
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/navigate-job-sites-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

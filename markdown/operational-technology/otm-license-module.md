@@ -4,8 +4,6 @@ description: The ServiceNow platform employs OTM for license management in the m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/otm-license-module.html
 release: xanadu
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

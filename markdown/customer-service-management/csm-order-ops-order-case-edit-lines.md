@@ -4,8 +4,6 @@ description: Edit one or more order case line items for an order case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-order-case-edit-lines.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-30"
 reading_time_minutes: 1

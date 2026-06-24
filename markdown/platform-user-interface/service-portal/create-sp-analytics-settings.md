@@ -24,7 +24,7 @@ Role required: portal\_analytics\_admin
 
 By default, tracking is enabled for all portals. Beginning with the Tokyo release, you need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
 
-Portals that have been configured for tracking are listed in the User Experience Analytics Settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see Configure User Experience Analytics Settings.
+Portals that have been configured for tracking are listed in the User Experience Analytics Settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/config-analytics-settings.md).
 
 ## Procedure
 
@@ -47,12 +47,12 @@ Portals that have been configured for tracking are listed in the User Experience
 
 ## Result
 
-You can now view user analytics tracking for the selected portal by navigating to **User Experience Analytics** &gt; **Dashboard**. For more information on using the dashboard, see Overview of the Dashboard.
+You can now view user analytics tracking for the selected portal by navigating to **User Experience Analytics** &gt; **Dashboard**. For more information on using the dashboard, see [Overview of the Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
 
 **Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[bundle-par.disable-tracking-mobile-app]
+[Disable User Experience Analytics tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/disable-tracking-mobile-app.md)
 

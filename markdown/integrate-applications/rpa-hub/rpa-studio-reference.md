@@ -21,5 +21,5 @@ Learn about the methods and events of an attended automation form in RPA Desktop
 -   **[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/form-control-methods-events.md)**  
 The methods and events for various form designing elements are displayed in the Object Explorer pane.
 
-**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/create-integrations-applications.md)
 

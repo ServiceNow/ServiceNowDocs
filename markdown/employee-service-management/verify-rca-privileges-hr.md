@@ -4,8 +4,6 @@ description: Verify that there are no duplicate entries in the Restricted Caller
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/verify-rca-privileges-hr.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-02-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: To book or reschedule an appointment for a service, use the Select 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appt-booking-select-appt-window.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -41,5 +39,5 @@ The time zone used for appointment is displayed in the lower corner of the windo
 **Related topics**  
 
 
-[bundle-platadm.t_PersonalizeTheSystemTimeFormat]
+[Personalize the system time format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemTimeFormat.md)
 

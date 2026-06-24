@@ -4,8 +4,6 @@ description: Follow these steps to generate Performance charts using Instance Ob
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/io-getting-started-perf-charts.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -26,15 +26,15 @@ Role required: admin or delegated developer
 
 2.  Access your recently opened apps and files from either the ServiceNow Studio home page or the Navigator panel.
 
-<table id="choicetable_ncs_cfb_qcc"><thead><tr><th align="left" id="d84875e96">
+<table id="choicetable_ncs_cfb_qcc"><thead><tr><th align="left" id="d84870e96">
 
 Location in ServiceNow Studio
 
-</th><th align="left" id="d84875e101">
+</th><th align="left" id="d84870e101">
 
 How to access recently opened apps and files
 
-</th></tr></thead><tbody><tr><td id="d84875e107">
+</th></tr></thead><tbody><tr><td id="d84870e107">
 
 **ServiceNow Studio home page**
 
@@ -50,7 +50,7 @@ How to access recently opened apps and files
 
 \[Omitted image "sn-studio-recents-label-column.png"\] Alt text: On theRecents tab, select an app or file under the Label column to open it.
 
-</td></tr><tr><td id="d84875e173">
+</td></tr><tr><td id="d84870e173">
 
 **Navigator panel**
 

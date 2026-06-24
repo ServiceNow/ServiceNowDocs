@@ -57,7 +57,7 @@ Role required: import\_admin or admin
 
 ## What to do next
 
--   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+-   Manage the data integration by scheduled import and export jobs on a daily, weekly, or monthly basis. Perform the **Scheduled Imports** based on your business needs. See Schedule a data import.
 -   Verify the accuracy of the data import and share the errors on the FTP server. The reseller can fix the posted errors using [Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md).
 
 -   **[Run scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.md)**  

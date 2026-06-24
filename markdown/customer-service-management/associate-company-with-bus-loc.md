@@ -4,8 +4,6 @@ description: Create a company record and associate it to an internal or an exter
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/associate-company-with-bus-loc.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ Create a company record and associate it to an internal or an external business 
 
 |Task|Description|
 |----|-----------|
-|[Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AddANewCompany.md)|Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
+||Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
 |[Associate company records with a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/associate-company-with-bus-loc.md)|Associate company records with a business location to indicate that a business location is a company.|
 
 ## Associate company records with a business location

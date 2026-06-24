@@ -4,8 +4,6 @@ description: View the closed incidents that belong to you and your team's throug
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/it-agent-dashboard-sow.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

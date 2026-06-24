@@ -109,7 +109,7 @@ client
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/r_ScriptActions.md)
+Script actions
 
 </td><td>
 
@@ -141,7 +141,7 @@ server
 
 </td></tr><tr><td>
 
-[Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
+Transform maps
 
 </td><td>
 
@@ -308,7 +308,7 @@ client
 
 </td></tr><tr><td>
 
-[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/legacy-workflow/workflow-editor.md)
+Workflow editor
 
 </td><td>
 

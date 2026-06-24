@@ -1,0 +1,18 @@
+---
+title: Optional configuration steps for Public Sector Digital Services Core
+description: As an admin, you can customize the Government Service Portal and configure the CSM Configurable Workspace for the Public Sector Digital Services Core application without using guided setup.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/government-industry/psds-optional-config-steps.html
+release: xanadu
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Public Sector Digital Services Core, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+---
+
+# Optional configuration steps for Public Sector Digital Services Core
+
+As an admin, you can customize the Government Service Portal and configure the CSM Configurable Workspace for the Public Sector Digital Services Core application without using guided setup.
+
+For example, the Government Service Portal is tailored for public sector use, but you can customize the portal by adding your own branding such as an agency name and logo. You can also configure various elements of the workspace to display the appropriate public sector modules, lists, and fields, and activate other workspace features for your agents, such as Customer Central.
+

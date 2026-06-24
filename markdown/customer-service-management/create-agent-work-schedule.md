@@ -4,8 +4,6 @@ description: Users with the agent schedule administrator role can create one or 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-agent-work-schedule.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-09-13"
 reading_time_minutes: 1

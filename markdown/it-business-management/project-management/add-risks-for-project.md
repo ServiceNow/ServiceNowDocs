@@ -202,7 +202,7 @@ Brief description of efforts taken to mitigate the risk.
 
 ## What to do next
 
--   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-project-risk-using-ara.md)
+-   Assess the risks that have been added. For more information, see Assign project risks to stakeholders for assessment
 -   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/convert-ridac-for-project.md).
 -   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
 

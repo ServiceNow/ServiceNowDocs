@@ -4,8 +4,6 @@ description: Activate the portal plugins to use the Consumer and Customer Servic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-consumer-portal.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,15 +24,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d196347e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d196334e76">
 
 Plugin name
 
-</th><th align="left" id="d196347e79">
+</th><th align="left" id="d196334e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d196347e91">
+</th></tr></thead><tbody><tr><td id="d196334e91">
 
 **Customer Service Portal**
 
@@ -42,7 +40,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d196347e103">
+</td></tr><tr><td id="d196334e103">
 
 **Consumer Service Portal**
 

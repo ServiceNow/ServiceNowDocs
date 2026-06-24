@@ -34,11 +34,11 @@ The Personal Lines Claims application enables your organization to quickly set u
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-content-pack.md)
 
 </td><td>
 
-[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-process-optz-content-pack.md)
 
 </td></tr></tbody>
 </table>

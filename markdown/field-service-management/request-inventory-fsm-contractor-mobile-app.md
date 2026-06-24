@@ -4,8 +4,6 @@ description: Request inventory to receive parts when your stock gets low or you 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/request-inventory-fsm-contractor-mobile-app.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

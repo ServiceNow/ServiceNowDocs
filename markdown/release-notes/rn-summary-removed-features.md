@@ -83,7 +83,7 @@ Document Intelligence
 
 </td><td>
 
-Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see [Document Intelligence monitoring dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-monitoring-dashboard.md).
+Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see .
 
 </td></tr><tr><td>
 

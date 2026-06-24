@@ -4,8 +4,6 @@ description: Customer Service Management and Field Service Management provide an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-integration-financial-mgmt.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -114,5 +112,5 @@ Navigate to **Performance Analytics** &gt; **Dashboards** and select the desired
 
 [Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_ITFinance.md)
 
-[Financial Management Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_TheITFinanceWorkbench.md)
+[bundle-itbm.c_TheITFinanceWorkbench]
 

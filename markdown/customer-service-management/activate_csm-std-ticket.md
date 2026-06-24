@@ -4,8 +4,6 @@ description: If you have upgraded your instance, redirect the ticket page to the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate\_csm-std-ticket.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,5 +42,5 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 **Related topics**  
 
 
-[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/standard-ticket-page.md)
+[bundle-platux.standard-ticket-page]
 

@@ -4,8 +4,6 @@ description: Respond to cases using options within a customer email thread. You 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/respond-cases-reply-forward.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,7 +42,7 @@ You can read and respond to large emails easily in a full screen which opens up 
 **Related topics**  
 
 
-[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_ActivityFormatter.md)
+[bundle-platadm.c_ActivityFormatter]
 
-[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_EmailProperties.md)
+[bundle-platadm.c_EmailProperties]
 

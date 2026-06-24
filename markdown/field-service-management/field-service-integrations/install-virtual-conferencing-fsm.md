@@ -29,20 +29,20 @@ You can install the Field Service Management Virtual Conferencing Integration ap
     -   **Required ServiceNow Store applications to integrate Zoom**
         -   **Zoom Spoke**
 
-            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
         -   **Notify Zoom Connector**
 
-            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
     -   **Required ServiceNow Store applications to integrate Microsoft Teams**
         -   **Notify Connector for Microsoft Teams**
 
-            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
         -   **Microsoft Teams Communication Spoke**
 
-            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
+            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_InstallApplications.md).
 
 
 Role required: admin

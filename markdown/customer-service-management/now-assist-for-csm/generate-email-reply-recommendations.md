@@ -30,7 +30,7 @@ An agent can do these actions by using the Now Assist icon:
 -   Refine the recommendation by elaborating or shortening the response.
 -   Availability of email template recommendations while composing an email.
 
-**Note:** The mail response skill is on the Case skill card in the Customer group. For more info, see [email response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-email-recommendation.md).
+**Note:** The mail response skill is on the Case skill card in the Customer group. For more info, see email response.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ An agent can do these actions by using the Now Assist icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d32848e118">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d32857e118">
 
 Method
 
-</th><th align="left" id="d32848e121">
+</th><th align="left" id="d32857e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32848e127">
+</th></tr></thead><tbody><tr><td id="d32857e127">
 
 **Compose email from More actions**
 
@@ -59,7 +59,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d32848e178">
+</td></tr><tr><td id="d32857e178">
 
 **Compose an email from Activity stream**
 
@@ -75,15 +75,15 @@ Description
 
     \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d32848e246">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d32857e246">
 
 Email message window
 
-</th><th align="left" id="d32848e249">
+</th><th align="left" id="d32857e249">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d32848e258">
+</th></tr></thead><tbody><tr><td id="d32857e258">
 
 **Typed response**
 
@@ -93,7 +93,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d32848e275">
+</td></tr><tr><td id="d32857e275">
 
 **Left blank**
 
@@ -101,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d32848e284">
+</td></tr><tr><td id="d32857e284">
 
 **Use template**
 

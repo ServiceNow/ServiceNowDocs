@@ -4,8 +4,6 @@ description: Define your email-related business processes using inbound email fl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/define-process-incoming-emails.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-19"
 reading_time_minutes: 1

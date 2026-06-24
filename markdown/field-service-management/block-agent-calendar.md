@@ -4,8 +4,6 @@ description: Block the calendar of affected and potentially affected agents base
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/block-agent-calendar.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ Role required: wm\_manager
 
 ## About this task
 
-As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see Configure the agent calendar.
+As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see [Configure the agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/configure-agent-calendar.md).
 
 ## Procedure
 
@@ -64,7 +62,7 @@ Type
 
 </td><td>
 
-Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see Create an event configuration for the agent calendar.
+Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see [Create an event configuration for the agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/create-agent-calendar-event-config.md).
 
  The event types are:
 

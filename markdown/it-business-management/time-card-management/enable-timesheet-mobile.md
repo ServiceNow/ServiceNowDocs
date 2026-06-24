@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Download the Now mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-    For more information on using this mobile app, see the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) topic.
+    For more information on using this mobile app, see the Now Mobile app topic.
 
 3.  Add the instance that has Mobile Time Sheets installed to the Now Mobile application and log in to access the application data on your mobile device.
 

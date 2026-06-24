@@ -4,8 +4,6 @@ description: The ServiceNow ITOM Health product includes the ServiceNow Event Ma
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-health-landing-page.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

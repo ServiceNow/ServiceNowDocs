@@ -4,10 +4,8 @@ description: Track the status of Sales and Order Management workflows and enab
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/som\_request\_tracker.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Sales and Order Management workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

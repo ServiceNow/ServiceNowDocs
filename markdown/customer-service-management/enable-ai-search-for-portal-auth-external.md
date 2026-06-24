@@ -4,8 +4,6 @@ description: Enable AI Search Assist in the Customer and Consumer Service Portal
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/enable-ai-search-for-portal-auth-external.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

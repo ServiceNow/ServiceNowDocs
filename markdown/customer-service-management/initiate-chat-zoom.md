@@ -4,8 +4,6 @@ description: Resolve issues faster by initiating a Zoom meeting directly from a 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/initiate-chat-zoom.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -59,5 +57,5 @@ An interaction record of type **Zoom** is generated for the meeting that capture
 
 **Note:** The conference call number is a value automatically generated in the **Channel Metadata Record** field on the Interaction form. For more information, see [View details for Zoom meetings initiated from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/view-details-chat-zoom.md).
 
-The recording URL of the Zoom meeting is added to the activity stream of the interaction record. For more information, see [Interaction records in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/interaction-message-agent-workspace.md).
+The recording URL of the Zoom meeting is added to the activity stream of the interaction record. For more information, see Interaction records in Agent Workspace.
 

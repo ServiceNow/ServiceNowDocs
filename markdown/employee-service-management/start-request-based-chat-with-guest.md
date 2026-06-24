@@ -4,8 +4,6 @@ description: Start a Microsoft Teams chat with the guest user of an external and
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/start-request-based-chat-with-guest.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

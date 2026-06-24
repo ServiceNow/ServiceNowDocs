@@ -4,8 +4,6 @@ description: Create a Microsoft Azure application in Microsoft Azure portal to e
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/register-app-req-based-chats.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

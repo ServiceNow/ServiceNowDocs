@@ -18,7 +18,7 @@ You can protect your processor against unauthorized use by using role restrictio
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
 
 You can re-use a table's user role restrictions to protect it from access by your processor. This protection method assumes the processor will access table data.
 

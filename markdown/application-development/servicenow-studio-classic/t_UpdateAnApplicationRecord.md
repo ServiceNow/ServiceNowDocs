@@ -76,7 +76,7 @@ Scope
 
 </td><td>
 
-\[Read Only\] Displays the unique application scope set during the creation process. You can change this value only by deleting and recreating the application with a new value. For more information about the protections offered, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
+\[Read Only\] Displays the unique application scope set during the creation process. You can change this value only by deleting and recreating the application with a new value. For more information about the protections offered, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Application administration
 
 </td><td>
 
-Select whether to protect sensitive application data by restricting how users acquire application-specific roles. See [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-administration.md).
+Select whether to protect sensitive application data by restricting how users acquire application-specific roles. See [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-administration.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -196,7 +196,7 @@ Dependencies
 
 </td><td>
 
-View or add tables or applications on which this application depends. The system automatically adds records to this list when you extend tables or when another application creates application files for this application. Add script-based dependencies. See [Dependencies for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationDependencies.md).
+View or add tables or applications on which this application depends. The system automatically adds records to this list when you extend tables or when another application creates application files for this application. Add script-based dependencies. See [Dependencies for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationDependencies.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Cross scope privileges
 
 </td><td>
 
-View or create cross-scope privilege records to determine which script operations and targets the system allows to run. See [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_CrossScopePrivilegeRecord.md).
+View or create cross-scope privilege records to determine which script operations and targets the system allows to run. See [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_CrossScopePrivilegeRecord.md).
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ Design Access
 
 </td><td>
 
-View or specify which other applications have design access to tables or records in this application. See [Application design access record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationDesignAccessRecord.md).
+View or specify which other applications have design access to tables or records in this application. See [Application design access record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationDesignAccessRecord.md).
 
 </td></tr></tbody>
 </table>5.  Click **Update**.

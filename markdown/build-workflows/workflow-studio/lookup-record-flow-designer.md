@@ -34,7 +34,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Conditions**
 
-    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See  and .
+    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and [GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideQueryConditionAPI.md).
 
 -   **Order by**
 

@@ -4,8 +4,6 @@ description: You can purchase subscriptions for individual ITOM applications \(a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-licensing-bundle-individual-subscription.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

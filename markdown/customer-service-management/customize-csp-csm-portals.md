@@ -4,8 +4,6 @@ description: Customize the Customer and Consumer Service Portals to meet your ne
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customize-csp-csm-portals.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,9 +24,9 @@ Role required: admin
 
     Some of the components that you can customize include:
 
-    -   Branding: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_BrandingEditor.md) to give your Customer Service Portal its own look and feel. Portals Next Experience Theme is available for Customer and Consumer Service portals.
-    -   Menus: [Configure the portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-header-menu.md) to set up the main menu, one of the main navigation controls for your users.
-    -   Homepage: [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/assign-portal-homepage.md).
+    -   Branding: Configure the portal branding to give your Customer Service Portal its own look and feel. Portals Next Experience Theme is available for Customer and Consumer Service portals.
+    -   Menus: Configure the portal header menu to set up the main menu, one of the main navigation controls for your users.
+    -   Homepage: Assign a homepage to the portal.
     -   Widgets: Use [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/service-portal-widgets.md) to define the content in your portal.
-    -   Roles: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
+    -   Roles: Configure page security by role to either set up pages to be public \(no login required\) or to filter them by user role.
 

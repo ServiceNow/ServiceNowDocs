@@ -4,8 +4,6 @@ description: Outsourced service provider agents \(OSPs\) extend the capabilities
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/osp-agent-tasks.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 4

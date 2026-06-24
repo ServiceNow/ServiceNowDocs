@@ -4,8 +4,6 @@ description: The ServiceNow Omnichannel Callback for Customer Service Management
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-omnichannel-callback.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -16,7 +14,7 @@ breadcrumb: [Customer communication, Using Customer Service Management, Customer
 
 The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
 
-For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md).
+For more information, see Omnichannel Callback.
 
 ## Callback flow
 

@@ -36,7 +36,7 @@ Domain separation in Workforce Optimization for Customer Service does not requir
 
 ## Domain separation for Channel Management in Workforce Optimization for Customer Service
 
-The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-domain-separation.md)
+The work items, such as cases, interactions, and their associated actions, appear based on the selected domain. For information on how work assignments are routed based on domain in Channel Management, refer to Domain separation and Advanced Work Assignment
 
 The domain-separated tables for Channel Management are as follows:
 
@@ -73,7 +73,7 @@ Domain separated tables for Skill Recommendation
 
 ## Domain separation for Coaching in Workforce Optimization for Customer Service
 
-For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/coaching/domain-separation-coaching.md).
+For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to Domain separation and Coaching.
 
 **Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 

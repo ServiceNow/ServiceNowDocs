@@ -20,7 +20,7 @@ Video showing how to navigate and use User Experience Analytics
 
 This video shows you how to analyze the user experience within your applications using User Experience Analytics.
 
-You can view user analytics tracking for the portal on the User Experience Analytics dashboard. For more information, see Overview of the User Experience Analytics dashboard.
+You can view user analytics tracking for the portal on the User Experience Analytics dashboard. For more information, see [Overview of the User Experience Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
 
 \[Omitted image "sp-analytics-dashboard.png"\] Alt text: User Experience Analytics dashboard for Service Portal
 
@@ -32,13 +32,13 @@ For example, User Experience Analytics tracks when a user orders a catalog item 
 
 ## User consent notices
 
-User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see .
+User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see [Defining texts for Notice and Explicit Opt-in user consent management policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/uxa-define-text-policies.md).
 
 ## Accessing User Experience Analytics data
 
 You can access User Experience Analytics data either:
 
--   Via the User Experience Analytics dashboard, see Use User Experience Analytics.
+-   Via the User Experience Analytics dashboard, see [Use User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/use-user-exp-analytics.md).
 -   By exporting the data to the UI Builder, see [Data Visualization UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/sandiego/shared-components/sn-par-visualization-base/uib-setup).
 
 -   **[Track User Experience Analytics in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/create-sp-analytics-settings.md)**  

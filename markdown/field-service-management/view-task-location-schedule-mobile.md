@@ -4,8 +4,6 @@ description: View tasks to be executed as well as your personal events on a part
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-task-location-schedule-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

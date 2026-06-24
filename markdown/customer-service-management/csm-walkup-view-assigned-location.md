@@ -4,8 +4,6 @@ description: Walk-up Experience technicians can view a list of the walk-up queue
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-view-assigned-location.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-06"
 reading_time_minutes: 1

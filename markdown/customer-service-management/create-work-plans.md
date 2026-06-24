@@ -4,8 +4,6 @@ description: Create a work plan so that you can plan and delegate field service 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-work-plans.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -75,5 +73,5 @@ One or more product catalog items that you can select to identify the configurat
 
 ## Result
 
-A draft of the work plan is created. Next, you can create a planned work schedule to make the work plan active and ready for an agent. To configure a planned work schedule, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/work-order-management/configure-work-plan.md).
+A draft of the work plan is created. Next, you can create a planned work schedule to make the work plan active and ready for an agent. To configure a planned work schedule, see .
 

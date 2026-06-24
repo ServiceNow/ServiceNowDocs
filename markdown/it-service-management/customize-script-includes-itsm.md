@@ -4,8 +4,6 @@ description: Many Script Includes are provided by default with the ITSM products
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/customize-script-includes-itsm.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

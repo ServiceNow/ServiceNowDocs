@@ -4,10 +4,8 @@ description: As a planned work administrator or planner, you can manage schedule
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/planning\_calendar\_pwm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Managing work orders for the planned work, Using Field Service Management, Field Service Management]
 ---

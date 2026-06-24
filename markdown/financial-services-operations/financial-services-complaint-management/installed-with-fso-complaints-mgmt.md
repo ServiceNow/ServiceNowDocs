@@ -102,7 +102,7 @@ Complaint contributor\[sn\_bom\_compl.contributor\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks for accounts managed by them until the Initiate and Review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -121,7 +121,7 @@ Complaint agent connector\[sn\_bom\_compl.agent\_connector\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks to resolve complaints for accounts managed by them.
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

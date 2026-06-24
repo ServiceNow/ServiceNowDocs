@@ -4,8 +4,6 @@ description: Close work order tasks to complete a task for which the issue is fi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/close-complete-wot-fsc.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

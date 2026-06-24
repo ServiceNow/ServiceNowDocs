@@ -33,12 +33,12 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
 2.  Open the **UI Builder** experience that you want to work in, or create a new experience.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see .
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  In your **UI Builder** experience, you can:
 
-    -   Create a page from scratch,
-    -   create a page from a **Standard record** template,
+    -   [Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/create-page.md),
+    -   [create a page from a **Standard record** template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/reuse-page-definitions.md),
     -   or create a page from a Playbook Experience template.
     Using a Playbook Experience template speeds up the development process, because the Playbook Custom Layout UI Controller and components are already added to every page, including record generators as of version 25.2. The controller automatically populates all the provided components with data.
 

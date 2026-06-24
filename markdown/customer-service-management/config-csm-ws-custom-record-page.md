@@ -4,8 +4,6 @@ description: To customize a record page, you first create a variant, or copy, of
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-custom-record-page.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

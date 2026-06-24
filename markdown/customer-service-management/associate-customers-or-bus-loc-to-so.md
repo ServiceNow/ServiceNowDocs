@@ -4,8 +4,6 @@ description: Associate your customers or business locations with a service organ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/associate-customers-or-bus-loc-to-so.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

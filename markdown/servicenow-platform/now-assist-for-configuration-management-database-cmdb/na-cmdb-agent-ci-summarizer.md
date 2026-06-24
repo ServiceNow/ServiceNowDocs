@@ -42,15 +42,15 @@ Like all agents, the agent is available for use by any agentic workflow. In addi
 
 3.  Provide feedback, copy the summary text to the clipboard, or refresh the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d353921e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d355103e133">
 
 Option
 
-</th><th align="left" id="d353921e136">
+</th><th align="left" id="d355103e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d353921e142">
+</th></tr></thead><tbody><tr><td id="d355103e142">
 
 **Provide feedback for the summary**
 
@@ -58,7 +58,7 @@ Procedure
 
 If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\] Alt text: thumbs up icon. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\] Alt text: thumbs down icon.This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d353921e165">
+</td></tr><tr><td id="d355103e165">
 
 **Copy the summary**
 
@@ -66,7 +66,7 @@ If you think that the summary was helpful, select thumbs-up \[Omitted image "ico
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] Alt text: copy to clipboard icon to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d353921e180">
+</td></tr><tr><td id="d355103e180">
 
 **Refresh the summary**
 

@@ -26,7 +26,7 @@ Set up your Dispute Management implementation by installing the required plugins
 
     Install Visa Spoke if Visa is your card payment network provider. Use the spoke to manage card disputes with Visa Resolve Online \(VROL\). Leverage Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
 
--   [Install Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/install-financial-services-operations-integration-with-visa.md)
+-   [Install Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/install-financial-services-operations-integration-with-visa.md)
 
     Install the Visa Integration plugin if Visa is your card payment network provider. This plugin installs Visa Spoke which is a dependent plugin if it is not already installed. Manage dispute lifecycle with events like case creation and submit questionnaires amongst others. Data model elements to capture the information used at sub-flows.
 

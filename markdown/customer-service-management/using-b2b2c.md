@@ -4,8 +4,6 @@ description: With the B2B2C model, organizations across industries can easily co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/using-b2b2c.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

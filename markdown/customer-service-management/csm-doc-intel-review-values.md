@@ -4,8 +4,6 @@ description: Agents can extract, validate, and update the key values from valid 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-doc-intel-review-values.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ The task definition includes an extraction mode that determines how the system h
 
 1.  Open a case in CSM Configurable Workspace.
 
-2.  Click **Review in DocIntel** to open the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md) in a separate tab and view the attachments and extracted values.
+2.  Click **Review in DocIntel** to open the Document Intelligence workspace in a separate tab and view the attachments and extracted values.
 
     In this tab:
 

@@ -4,8 +4,6 @@ description: Export a Task Intelligence model to another instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/export-a-task-intelligence-model.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-29"
 reading_time_minutes: 1

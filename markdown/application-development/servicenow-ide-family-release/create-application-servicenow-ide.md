@@ -40,7 +40,7 @@ Role required: admin
 
 7.  Enter a scope for the application and press Enter.
 
-    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_NamespaceIdentifier.md).
+    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_NamespaceIdentifier.md).
 
 8.  Enter a package name for the application and press Enter.
 
@@ -53,7 +53,7 @@ Role required: admin
 
 ## Result
 
-A scoped application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+A scoped application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 \[Omitted image "servicenow-ide-create-app.png"\] Alt text: An application open in the File Explorer view.
 

@@ -4,8 +4,6 @@ description: Manage customer service cases from a mobile device with the Custome
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-service-mobile-interface.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -79,5 +77,5 @@ Use the ServiceNow Agent mobile app to access the Customer Service mobile applic
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/mobile-experience.md)
+[bundle-mobile.mobile-experience]
 

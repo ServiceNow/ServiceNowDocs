@@ -4,8 +4,6 @@ description: Define normal and genius search result font sizes to change text ap
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/modify-search-result-font-size-auto-spell-correction-text.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

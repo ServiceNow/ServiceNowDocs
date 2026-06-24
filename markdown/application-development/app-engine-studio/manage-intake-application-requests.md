@@ -42,15 +42,15 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
 
 4.  Use the **Permission type** list in the Administration section to select one of the following options for provisioning groups to this application.
 
-<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d62951e214">
+<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d62959e214">
 
 Permission type
 
-</th><th align="left" id="d62951e217">
+</th><th align="left" id="d62959e217">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62951e223">
+</th></tr></thead><tbody><tr><td id="d62959e223">
 
 **Select group\(s\)**
 
@@ -62,7 +62,7 @@ Option to give one or more of the following groups permission to develop this ap
 -   Creator Studio Users
 For more information about how to control which groups show up in this list, see [Manage user groups for Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-app-intake-user-groups.md).
 
-</td></tr><tr><td id="d62951e272">
+</td></tr><tr><td id="d62959e272">
 
 **I will manually provision user**
 
@@ -70,7 +70,7 @@ For more information about how to control which groups show up in this list, see
 
 Option to add groups to the application manually.
 
-</td></tr><tr><td id="d62951e281">
+</td></tr><tr><td id="d62959e281">
 
 **Do not give requestor permissions**
 

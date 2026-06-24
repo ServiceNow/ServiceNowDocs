@@ -57,15 +57,15 @@ Role required: it\_project\_manager
 
 6.  In the Cost Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d89708e215">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d89696e215">
 
 Field
 
-</th><th align="left" id="d89708e218">
+</th><th align="left" id="d89696e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89708e224">
+</th></tr></thead><tbody><tr><td id="d89696e224">
 
 **Task**
 
@@ -73,7 +73,7 @@ Description
 
 Task to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d89708e233">
+</td></tr><tr><td id="d89696e233">
 
 **Portfolio**
 
@@ -81,7 +81,7 @@ Task to which the cost plan breakdown belongs.
 
 Portfolio to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d89708e242">
+</td></tr><tr><td id="d89696e242">
 
 **Entered currency**
 
@@ -89,7 +89,7 @@ Portfolio to which the cost plan breakdown belongs.
 
 Currency specified in the cost plan.
 
-</td></tr><tr><td id="d89708e251">
+</td></tr><tr><td id="d89696e251">
 
 **Exchange rate**
 
@@ -97,7 +97,7 @@ Currency specified in the cost plan.
 
 Rate in effect for the period corresponding to the cost plan breakdown. When the period corresponding to the cost plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert entered cost into functional cost. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d89708e264">
+</td></tr><tr><td id="d89696e264">
 
 **Actual**
 
@@ -105,7 +105,7 @@ Rate in effect for the period corresponding to the cost plan breakdown. When the
 
 Actual cost generated from processed expense lines.
 
-</td></tr><tr><td id="d89708e273">
+</td></tr><tr><td id="d89696e273">
 
 **Cost plan**
 
@@ -113,15 +113,15 @@ Actual cost generated from processed expense lines.
 
 Cost plan to which the cost plan breakdown belongs.
 
-</td></tr><tr><td id="d89708e282">
+</td></tr><tr><td id="d89696e282">
 
 **Fiscal period**
 
 </td><td>
 
-Fiscals generated at period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
+Fiscals generated at period level. For information on periods, see fiscal calendars.
 
-</td></tr><tr><td id="d89708e295">
+</td></tr><tr><td id="d89696e295">
 
 **Entered cost**
 
@@ -129,7 +129,7 @@ Fiscals generated at period level. For information on periods, see [fiscal calen
 
 Breakdown amount in entered currency.
 
-</td></tr><tr><td id="d89708e304">
+</td></tr><tr><td id="d89696e304">
 
 **Functional cost**
 
@@ -137,7 +137,7 @@ Breakdown amount in entered currency.
 
 Functional cost obtained by multiplying exchange rate with entered cost.
 
-</td></tr><tr><td id="d89708e313">
+</td></tr><tr><td id="d89696e313">
 
 **Exchange rate date**
 

@@ -4,8 +4,6 @@ description: Notify connector for Microsoft Teams enables you to initiate confer
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/notify-connector-ms-teams-task.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

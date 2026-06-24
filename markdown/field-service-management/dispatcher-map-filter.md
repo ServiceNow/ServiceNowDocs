@@ -4,8 +4,6 @@ description: Reduce the number of pins displayed on the map in dispatcher worksp
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/dispatcher-map-filter.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: As a Field Service agent, you can view and reply to the comments gi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/reply-to-push-notification.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

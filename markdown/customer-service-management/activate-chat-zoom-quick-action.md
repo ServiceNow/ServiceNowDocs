@@ -4,8 +4,6 @@ description: Activate the Zoom quick action to initiate Zoom meetings using the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-chat-zoom-quick-action.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -39,5 +37,5 @@ By default, the Zoom quick action is inactive. Activate this quick action to ena
 
 ## Result
 
-By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.md) and[Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) .
+By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see Conversational SMS service channel and[Quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md) .
 

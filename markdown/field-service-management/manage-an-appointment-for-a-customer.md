@@ -4,8 +4,6 @@ description: Dispatchers and agents can book, reschedule, or cancel an appointme
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/manage-an-appointment-for-a-customer.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-09-16"
 reading_time_minutes: 1

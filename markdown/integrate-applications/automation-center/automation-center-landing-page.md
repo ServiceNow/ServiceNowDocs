@@ -30,7 +30,7 @@ Automation Center provides an integration with the ServiceNow® RPA Hub applicat
 
 ## Integration with Document Intelligence
 
-Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
+Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see .
 
 ## Integration with UiPath
 
@@ -46,7 +46,7 @@ The Automation Center API enables you to create and update processes, robots, an
 
 ## Integration with Requirement Intake Diagram
 
-Automation Center integrates with Requirement Intake Diagram enabling you to create automations from intake diagrams. For more information, see [Requirement Intake Diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/requirement-intake-diagram-landing-page.md).
+Automation Center integrates with Requirement Intake Diagram enabling you to create automations from intake diagrams. For more information, see [Requirement Intake Diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/requirement-intake-diagram-landing-page.md).
 
 ## Get started
 

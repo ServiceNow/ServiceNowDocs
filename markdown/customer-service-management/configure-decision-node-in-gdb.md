@@ -4,8 +4,6 @@ description: Configure a question node in Decision Tree Builder to add follow-up
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-decision-node-in-gdb.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

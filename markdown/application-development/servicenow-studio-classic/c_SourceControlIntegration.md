@@ -50,7 +50,7 @@ After linking an application to Source Control, application developers can use S
 -   Switch branches.
 -   Import an application from a remote repository.
 
-It is not recommended to use Source Control to manage applications on a production instance, deploying to production may lead to unintended consequences, see [Legacy - Production deployment tips](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/tips-production-deployment.md). Instead, you can manage applications on a production instance using the application repository, an update set, or the ServiceNow Store. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_SharingApplications.md).
+It is not recommended to use Source Control to manage applications on a production instance, deploying to production may lead to unintended consequences, see [Legacy - Production deployment tips](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/tips-production-deployment.md). Instead, you can manage applications on a production instance using the application repository, an update set, or the ServiceNow Store. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_SharingApplications.md).
 
 ## Options available from a Git repository
 

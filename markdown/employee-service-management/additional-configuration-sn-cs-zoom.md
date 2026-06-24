@@ -4,8 +4,6 @@ description: Configure chat-specific options for Collaboration services for Zoom
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/additional-configuration-sn-cs-zoom.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

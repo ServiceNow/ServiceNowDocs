@@ -120,7 +120,7 @@ Display ServiceNow data graphically on a Google map page based on location data 
 
 </td></tr><tr><td>
 
-[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
+Map transforms
 
 </td><td>
 
@@ -183,7 +183,7 @@ Define automated, server-side script logic that executes at a specific time or o
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/r_ScriptActions.md)
+
 
 </td><td>
 

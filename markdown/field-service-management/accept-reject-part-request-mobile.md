@@ -4,8 +4,6 @@ description: Review the part requests that you receive from peer agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/accept-reject-part-request-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -38,15 +36,15 @@ Role required: wm\_agent
 
 3.  Check the part availability in your personal stockroom and determine whether you want to accept or reject the part request.
 
-<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d68596e139">
+<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d68592e139">
 
 Part availability
 
-</th><th align="left" id="d68596e142">
+</th><th align="left" id="d68592e142">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d68596e148">
+</th></tr></thead><tbody><tr><td id="d68592e148">
 
 **The part is not available**
 
@@ -54,7 +52,7 @@ Action
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d68596e160">
+</td></tr><tr><td id="d68592e160">
 
 **You cannot transfer the part because you have an insufficient quantity or need the part yourself**
 
@@ -62,7 +60,7 @@ Tap **Reject**.
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d68596e172">
+</td></tr><tr><td id="d68592e172">
 
 **The part is available to fulfill the request**
 

@@ -4,8 +4,6 @@ description: Case management within provides a structured and efficient approach
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/manage-cases.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-15"
 reading_time_minutes: 5

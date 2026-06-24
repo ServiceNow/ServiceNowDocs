@@ -8,7 +8,7 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\), Now Assist for Telecommunications, Media and Technology \(TMT\), Telecommunications, Media, and Technology]
 ---
 
@@ -30,7 +30,7 @@ The Test and repair telecom service issues agentic workflow supports these table
 
 Role required: sn\_tmt\_agentic\_ai.test\_and\_repair\_telecom\_service\_ai\_agent
 
-To modify the Test and repair telecom service issues agentic workflow , and adjust the settings according to your requirements.
+To modify the Test and repair telecom service issues agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -41,7 +41,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Test and repair telecom service issues**.
 
-To create a new agentic workflow, see .
+To create a new agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
 
 ## Testing the agentic workflow
 
@@ -50,13 +50,13 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see .
+To test the use case, see [Test an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 
 ## AI agents used in the Test and repair telecom service issues agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 
-To create an AI agent, see .
+To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
 <table id="table_gzg_pqh_l2c"><thead><tr><th>
 

@@ -35,7 +35,7 @@ The JMS activity supports third party JMS providers whose JMS client application
 
 ## Procedure
 
-1.  Create or verify your [JMS credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md) .
+1.  Create or verify your JMS credential .
 
     Your JMS credentials must have permission for the target database and proper configuration for the corresponding JMS connection. Credentials must be set up before you can create a JMS activity.
 
@@ -239,7 +239,7 @@ Location of the running JMS provider installation. **Note:** For example, to con
 
 7.  Click **New**, select **JMS Credentials**, and provide the user name and password the MID should use to communicate with the JMS provider.
 
-    For more information, see [JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md) [JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md).
+    For more information, see JMS credentials JMS credentials.
 
 8.  Click **Submit**.
 

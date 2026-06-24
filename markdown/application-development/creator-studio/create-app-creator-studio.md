@@ -40,7 +40,7 @@ Your administrator must add you to the Creator Studio Users group.
 
 4.  Select **Create app** to begin your journey.
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-collaboration.md).
     -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md).
 5.  Fill in the fields on the modal that pops up.
 
@@ -54,7 +54,7 @@ Your administrator must add you to the Creator Studio Users group.
 
     3.  Select **Advanced settings** and confirm that your app's name and tables are unique by specifying the **Scope**.
 
-        For more advanced information about scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
+        For more advanced information about scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationScope.md).
 
     4.  Select **Create app**.
 
@@ -135,7 +135,7 @@ Your administrator must add you to the Creator Studio Users group.
 
 **Congrats:** Hooray! You've named your app and selected a catalog template that provides the basics for how your app's first form will look and work. Next, we will customize the forms people will use to fill out requests in your app in the section [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md).
 
-To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-collaboration.md).
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 

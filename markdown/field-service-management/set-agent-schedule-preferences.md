@@ -4,8 +4,6 @@ description: Support flexible work types by allowing agents to start traveling b
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/set-agent-schedule-preferences.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -34,15 +32,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d73981e117">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d73977e117">
 
 Option
 
-</th><th align="left" id="d73981e120">
+</th><th align="left" id="d73977e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73981e126">
+</th></tr></thead><tbody><tr><td id="d73977e126">
 
 **Add a new record for this user**
 
@@ -55,7 +53,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d73981e167">
+</td></tr><tr><td id="d73977e167">
 
 **Updated an existing record**
 

@@ -49,15 +49,15 @@ For more information, see .
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d44033e162">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d44028e162">
 
 Task
 
-</th><th align="left" id="d44033e165">
+</th><th align="left" id="d44028e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d44033e171">
+</th></tr></thead><tbody><tr><td id="d44028e171">
 
 **Verify an inbound or outbound document**
 
@@ -67,7 +67,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d44033e192">
+</td></tr><tr><td id="d44028e192">
 
 **Defer an inbound document**
 
@@ -77,7 +77,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d44033e216">
+</td></tr><tr><td id="d44028e216">
 
 **Request exception for an inbound document**
 

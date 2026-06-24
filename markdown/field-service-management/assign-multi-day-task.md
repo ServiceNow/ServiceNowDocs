@@ -4,8 +4,6 @@ description: Assign a work order task that requires multiple schedules or days t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-multi-day-task.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,15 +38,15 @@ This procedure explains how you can assign a multi-day task to an agent using Se
 
 4.  Assign the task.
 
-<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d102144e137">
+<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d102149e137">
 
 Option
 
-</th><th align="left" id="d102144e140">
+</th><th align="left" id="d102149e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d102144e146">
+</th></tr></thead><tbody><tr><td id="d102149e146">
 
 **To assign a task manually**
 
@@ -58,7 +56,7 @@ Description
 2.  Click **Update**.
 
 
-</td></tr><tr><td id="d102144e170">
+</td></tr><tr><td id="d102149e170">
 
 **To auto-assign a task**
 

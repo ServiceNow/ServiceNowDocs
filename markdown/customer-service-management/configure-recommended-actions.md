@@ -4,8 +4,6 @@ description: As an admin, configure the Recommended Actions application to displ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-recommended-actions.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-10-17"
 reading_time_minutes: 2

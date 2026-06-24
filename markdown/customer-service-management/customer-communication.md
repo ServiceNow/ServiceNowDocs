@@ -4,8 +4,6 @@ description: Prioritize clear, timely, and meaningful customer interactions to e
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-communication.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-15"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Create notifications to send messages directly to your employees th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-campaign-content-publish-teams-mt.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

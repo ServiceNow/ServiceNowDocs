@@ -4,8 +4,6 @@ description: Link related party entity responsibilities to responsibility defini
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/adding-related-party-config-to-case.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

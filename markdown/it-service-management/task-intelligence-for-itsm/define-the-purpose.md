@@ -7,7 +7,7 @@ release: xanadu
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Set up similar records prediction model, Create a similar records prediction model in Task Intelligence for ITSM, Managing Task Intelligence for ITSM models, Task Intelligence for ITSM, IT Service Management]
 ---

@@ -20,7 +20,7 @@ Removing a user as a developer prevents the user from developing, changing, or d
 
 Role required: admin or application administrator
 
-If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.
+If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.
 
 ## Procedure
 

@@ -4,8 +4,6 @@ description: Omnichannel Callback for Customer Service Management enables a call
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/omni-callback-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -16,5 +14,5 @@ breadcrumb: [Configuring Omnichannel Callback for Customer Service Management, E
 
 Omnichannel Callback for Customer Service Management enables a callback option to be provided for customers when there is a long wait time for a live agent.
 
-Omnichannel Callback for Customer Service Management offers an option for customer service agents to call customers back when the wait time for agents is long or agents are unavailable. For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md).
+Omnichannel Callback for Customer Service Management offers an option for customer service agents to call customers back when the wait time for agents is long or agents are unavailable. For more information, see Omnichannel Callback.
 

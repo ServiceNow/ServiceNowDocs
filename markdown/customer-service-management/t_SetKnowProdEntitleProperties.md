@@ -4,8 +4,6 @@ description: Set various properties to allow customers to access knowledge bases
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_SetKnowProdEntitleProperties.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,7 +24,7 @@ Role required: admin
 
 2.  Set the following properties, as needed.
 
-<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d174088e86">
+<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d174075e86">
 
 **Enable access control of Knowledge Bases based on product entitlements**
 
@@ -34,7 +32,7 @@ Role required: admin
 
 If enabled, customers can access all of the knowledge bases related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d174088e95">
+</td></tr><tr><td id="d174075e95">
 
 **Allow access to Knowledge Bases with empty related\_products**
 
@@ -42,7 +40,7 @@ If enabled, customers can access all of the knowledge bases related to the produ
 
 If enabled, customers can access all knowledge bases even if no products have been specified in the **Related Products** field on the Knowledge Base form.
 
-</td></tr><tr><td id="d174088e107">
+</td></tr><tr><td id="d174075e107">
 
 **Enable access control of Knowledge Articles based on product entitlements**
 
@@ -50,7 +48,7 @@ If enabled, customers can access all knowledge bases even if no products have be
 
 If enabled, customers can access all of the knowledge articles related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d174088e116">
+</td></tr><tr><td id="d174075e116">
 
 **Allow access to Knowledge Articles with empty related\_products**
 

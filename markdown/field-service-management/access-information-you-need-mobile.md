@@ -4,8 +4,6 @@ description: Search relevant information from knowledge articles and see when yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/access-information-you-need-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -32,15 +30,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d108976e118">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d108981e118">
 
 To
 
-</th><th align="left" id="d108976e121">
+</th><th align="left" id="d108981e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108976e127">
+</th></tr></thead><tbody><tr><td id="d108981e127">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -52,7 +50,7 @@ Do this
 4.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d108976e173">
+</td></tr><tr><td id="d108981e173">
 
 **Search knowledge articles**
 
@@ -95,15 +93,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d108976e309">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d108981e309">
 
 To
 
-</th><th align="left" id="d108976e312">
+</th><th align="left" id="d108981e312">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108976e318">
+</th></tr></thead><tbody><tr><td id="d108981e318">
 
 **Place a call**
 
@@ -114,7 +112,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d108976e351">
+</td></tr><tr><td id="d108981e351">
 
 **Send a text message**
 
@@ -127,7 +125,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d108976e384">
+</td></tr><tr><td id="d108981e384">
 
 **View the member's location on the map**
 
@@ -202,15 +200,15 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d108976e653">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d108981e653">
 
 To
 
-</th><th align="left" id="d108976e656">
+</th><th align="left" id="d108981e656">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108976e662">
+</th></tr></thead><tbody><tr><td id="d108981e662">
 
 **Mark an article as helpful or unhelpful**
 
@@ -218,7 +216,7 @@ Do this
 
 Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon.\).
 
-</td></tr><tr><td id="d108976e683">
+</td></tr><tr><td id="d108981e683">
 
 **Rate the article**
 
@@ -226,7 +224,7 @@ Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpfu
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d108976e692">
+</td></tr><tr><td id="d108981e692">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -236,7 +234,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d108976e716">
+</td></tr><tr><td id="d108981e716">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -246,7 +244,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d108976e738">
+</td></tr><tr><td id="d108981e738">
 
 **Like a comment on the article \[available only in online mode\]**
 
@@ -256,7 +254,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon.\).
 
 
-</td></tr><tr><td id="d108976e765">
+</td></tr><tr><td id="d108981e765">
 
 **Reply to a comment on the article \[available only in online mode\]**
 

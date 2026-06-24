@@ -60,7 +60,7 @@ To create an advanced search source, you need authenticated access to an externa
     })(query);
     ```
 
-    **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the external resource. For more detail, see [GlideHTTPRequest - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/GlideHTTPRequestAPI.md).
+    **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the external resource. For more detail, see GlideHTTPRequest - Global.
 
 6.  Use the Search page template to customize the way the search results display.
 

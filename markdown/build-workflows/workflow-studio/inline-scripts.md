@@ -90,7 +90,7 @@ Follow these general guidelines to create reusable and maintainable inline scrip
 
 -   **Call script includes from inline script**
 
-    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see .
+    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     ```
     var si = new MyScriptInclude();

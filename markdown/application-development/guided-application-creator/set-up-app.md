@@ -20,7 +20,7 @@ Set up an application in Guided Application Creator to store information and man
 
 ## Requirements
 
-Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/build-applications.md).
+Plan your application before you build it. Define the business requirements of your organization, and then identify what information you want the application to track. For more information on the application development process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/build-applications.md).
 
 To work in Guided Application Creator, use a different browser. For more detail on Internet Explorer 11 support, see [KB0683275](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275).
 
@@ -62,7 +62,7 @@ In [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 -   UI policy
 -   Reports
 
-You can also learn how to automate your processes and create business logic for your application in [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md).
+You can also learn how to automate your processes and create business logic for your application in Flows in Workflow Studio.
 
 -   **[Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-app-record.md)**  
 Create an application record in Guided Application Creator to identify a custom application.

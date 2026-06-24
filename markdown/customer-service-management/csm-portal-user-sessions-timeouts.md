@@ -4,8 +4,6 @@ description: Portal usage enables you to track how your customers and employees 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-portal-user-sessions-timeouts.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ A user session times out after a specific period of inactivity.
 
 User access to the self-service portals is tracked as follows: per session, per day, and per portal. If the same user logs in from multiple browsers or devices, each login is counted as a separate visit. Each first call of a portal page starts a session and, the usage metrics are calculated for the 24 hours window.
 
-The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
+The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see Manage user sessions.
 
 ## Site visit calculation examples
 

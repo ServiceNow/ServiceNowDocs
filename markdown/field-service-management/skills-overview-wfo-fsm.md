@@ -4,8 +4,6 @@ description: Use Skills Overview to analyze skill data, such as how many skills 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/skills-overview-wfo-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -224,15 +222,15 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d38821e488">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d38817e488">
 
 Application
 
-</th><th align="left" id="d38821e491">
+</th><th align="left" id="d38817e491">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d38821e497">
+</th></tr></thead><tbody><tr><td id="d38817e497">
 
 **Teams**
 
@@ -244,7 +242,7 @@ Actions
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d38821e536">
+</td></tr><tr><td id="d38817e536">
 
 **Shift Scheduling**
 

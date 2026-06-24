@@ -4,8 +4,6 @@ description: Customer Service Management \(CSM\) focuses on enhancing customer s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-and-itsm-success-framework.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-10-28"
 reading_time_minutes: 3
@@ -20,7 +18,7 @@ Customer Service Management \(CSM\) focuses on enhancing customer satisfaction, 
 
 Customer Service Management \(CSM\) is centered around external customers, spanning both business-to-business \(B2B\) and business-to-consumer \(B2C\). For instance, consider Sarah, a customer service agent at a software company that provides cloud-based solutions. Sarah’s primary goal with CSM is to ensure customer satisfaction by resolving technical issues, managing subscription inquiries, and guiding customers through product updates. Ultimately, these efforts help retain clients and enhance the customer experience. See [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/c_CustomerServiceManagement.md) for more information.
 
-IT Service Management \(ITSM\) aims to support internal users of IT services within an organization while empowering teams that depend on these services to deliver value to external customers. Meet Alex, an IT administrator dedicated to maintaining network infrastructure. Alex's role in ITSM entails implementing and managing IT services aligned with the organization's business needs, aiming to support and enable business outcomes through efficient IT operations. See [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/r_ITServiceManagement.md) for more information.
+IT Service Management \(ITSM\) aims to support internal users of IT services within an organization while empowering teams that depend on these services to deliver value to external customers. Meet Alex, an IT administrator dedicated to maintaining network infrastructure. Alex's role in ITSM entails implementing and managing IT services aligned with the organization's business needs, aiming to support and enable business outcomes through efficient IT operations. See  for more information.
 
 ## Key stakeholders
 

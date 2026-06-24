@@ -4,8 +4,6 @@ description: Configurable Portal widgets provide you with the ability to configu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-configurable-portal-widget.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 5
@@ -32,7 +30,7 @@ For more information on using configurable widgets in your customer portals, see
 
 ## Widget instances
 
-You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
+You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see .
 
 The following are Configurable Portal widgets that enable you to configure the portal homepage.
 

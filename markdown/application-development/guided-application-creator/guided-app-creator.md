@@ -66,9 +66,9 @@ Classic ServiceNow AI Platform experience. Select this user experience to let yo
 
 Setting up an application in Guided Application Creator does not capture the entire process of creating an application. It is just one step of the process. Before you set up an application in Guided Application Creator, plan what kind of application you need for your business requirements before you build it.
 
-After you set up an application in Guided Application Creator, you can further develop the application using [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/servicenow-studio-landing.md), [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md), and [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md). After the application is fully built, you can test the application and then share the application with your users.
+After you set up an application in Guided Application Creator, you can further develop the application using [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/servicenow-studio-landing.md), Flows in Workflow Studio, and [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md). After the application is fully built, you can test the application and then share the application with your users.
 
-For more information on the application creation process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/build-applications.md).
+For more information on the application creation process, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/build-applications.md).
 
 ## Activation information
 
@@ -85,5 +85,5 @@ By default, developers can't create applications in the global scope in Guided A
 -   **[Add field types in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-add-field-types.md)**  
 When you add fields to a custom table in Guided Application Creator, there are only 18 field types available by default. You can add a property to include more field types.
 
-**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/building-pro-code-applications.md)
+**Parent Topic:**[Building pro-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-pro-code-applications.md)
 

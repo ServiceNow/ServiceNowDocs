@@ -46,7 +46,7 @@ Role required: admin.
 
 4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP ECC IDoc admin.
 
-    For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
+    For more information, see Synchronize a JAR file to MID Servers.
 
 
 ### What to do next

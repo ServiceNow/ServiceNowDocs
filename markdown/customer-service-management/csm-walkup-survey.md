@@ -4,8 +4,6 @@ description: With Walk-up Experience surveys, users can rate their satisfaction 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-survey.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,5 +29,5 @@ The Walk-up Experience application includes two base-system predefined surveys.
 
 Walk-up administrators and managers can modify these surveys and the associated trigger conditions. Managers and administrators can review responses by question and see a scorecard for each survey on the **Walk-up Experience Dashboard** module. User comments provide feedback that is used to improve the performance of walk-up interactions.
 
-For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/assessments-surveys-landing-page.md).
+For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see Assessments and Surveys.
 

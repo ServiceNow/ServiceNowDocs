@@ -4,8 +4,6 @@ description: Use the Guided Setup to integrate Customer Service Management with 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/spm-csm-integration.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -46,5 +44,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
+[bundle-itsm.c_ServicePortfolioManagementv2]
 

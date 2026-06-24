@@ -200,7 +200,7 @@ Role required: import\_admin
 
     \[Omitted image "JDBCDataSource.png"\] Alt text: JDBC Data Source
 
-4.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md) and add the **Connection URL** field.
+4.  Configuring the form layout and add the **Connection URL** field.
 
 5.  Provide the connection URL to the JDBC data source, and then click **Submit**.
 

@@ -4,8 +4,6 @@ description: Enable the integration with Safe Workplace applications to help con
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/integrate-csm-safe-workplace.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md).
+1.  Install Employee Health Screening.
 
 2.  Give external users access to the Health Verification form.
 

@@ -26,7 +26,7 @@ Role required: it\_project\_manager
 
     1.  [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md) any project form to show **Comments** and **Work notes**.
 
--   To add [live feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md) to a project form:
+-   To add live feed to a project form:
 
     1.  Navigate to **System Definition** &gt; **Dictionary**.
 

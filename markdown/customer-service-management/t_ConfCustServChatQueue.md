@@ -4,8 +4,6 @@ description: Define the customer service agents, default chat messages, schedule
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_ConfCustServChatQueue.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Customer Service Management chat communication channel uses the ServiceNow [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/connect/c_ConnectSupport.md) feature.
+The Customer Service Management chat communication channel uses the ServiceNow Connect Support feature.
 
 ## Procedure
 
@@ -51,5 +49,5 @@ The Customer Service Management chat communication channel uses the ServiceNow [
 **Related topics**  
 
 
-[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/connect/c_ConnectSupport.md)
+[bundle-platcap.c_ConnectSupport]
 

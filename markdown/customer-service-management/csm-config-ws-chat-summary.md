@@ -4,8 +4,6 @@ description: Use the chat summarization feature to automatically create summarie
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-config-ws-chat-summary.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ The system calls the chat summary prediction, which generates the summary from p
 
 An agent can modify and save the information in the **Chat summary** field. To revert the summary to the predicted value, the agent can select the value in the top recommendation.
 
-The chat summarization feature works with or without chat wrap-up enabled. For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md).
+The chat summarization feature works with or without chat wrap-up enabled. For more information, see .
 
 ## AI indicators
 

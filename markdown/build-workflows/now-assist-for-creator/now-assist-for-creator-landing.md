@@ -24,7 +24,7 @@ Now Assist for Creator includes generative AI skills that can make developing on
 
 </td><td>
 
-App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.
+[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ App generation\[Omitted image "bus-application-development.svg"\] Alt text:Gener
 
 </td></tr><tr><td>
 
-Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.
+[Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/now-assist-code-landing.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help wr
 
 </td><td>
 
-RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.
+[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create
 
 </td><td>
 
-UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/ui-generation-landing.md)
 
 </td><td>
 

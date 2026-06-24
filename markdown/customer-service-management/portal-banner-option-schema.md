@@ -4,8 +4,6 @@ description: Add a widget for additional functionality to the Portal Banner widg
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-banner-option-schema.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

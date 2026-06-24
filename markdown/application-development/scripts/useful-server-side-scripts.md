@@ -464,7 +464,7 @@ In a business rule or other server script, the gs.getUser\(\) method returns a u
 
 ### About this task
 
-For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/GUserAPI.md).
+For a list and description of the available scoped methods for the user object, see GlideUser.
 
 ### Procedure
 
@@ -499,7 +499,7 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/GSLogBoth.md).
+For the API reference, see GSLog\(\).
 
 For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/script-debug-overview.md)
 
@@ -549,12 +549,12 @@ gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValu
 
 See also:
 
--   [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/p_GlideServerAPIs.md)
--   [GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/GlideDateAPI.md)
--   [GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
--   [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
--   [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
--   [GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
+-   
+-   
+-   
+-   
+-   
+-   
 
 ## Using custom queues to process events
 

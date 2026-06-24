@@ -4,8 +4,6 @@ description: View the notifications that are sent during specific events in a ma
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/notifications-major-incident-2.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

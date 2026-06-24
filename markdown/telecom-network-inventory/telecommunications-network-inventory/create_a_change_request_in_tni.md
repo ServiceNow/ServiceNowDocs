@@ -62,7 +62,7 @@ You can create, review, update, or close a change request task in the Telecommun
     -   View or update a summary of this change request.
     -   Add scopes.
 
-        To learn more, see [Scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/add-plan-asset-scope-bcp.md).
+        To learn more, see Scopes.
 
     -   Assign this change request to a group or a person.
 

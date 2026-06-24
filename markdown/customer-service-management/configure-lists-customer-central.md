@@ -4,8 +4,6 @@ description: Configure lists for the Customer Information view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-lists-customer-central.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -84,7 +82,7 @@ View
 
 </td><td>
 
-Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
+Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see Configure the list layout.
 
 </td></tr><tr><td>
 

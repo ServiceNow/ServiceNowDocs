@@ -36,7 +36,7 @@ The **Security Operations Palo Alto Networks- Get AutoFocus Session Info Enrichm
 
     AutoFocus scans the information from the IP address and a text file in JSON format is attached to the security incident.
 
-    Actions specific to this integration are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration Flow Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/common-wf-activities.md).
+    Actions specific to this integration are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration Flow Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/common-wf-activities.md).
 
 
 ## AutoFocus Search Session action

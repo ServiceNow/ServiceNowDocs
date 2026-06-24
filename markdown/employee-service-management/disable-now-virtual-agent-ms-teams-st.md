@@ -4,8 +4,6 @@ description: Disable the Now Virtual Agent app to avoid duplicate notifications 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/disable-now-virtual-agent-ms-teams-st.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

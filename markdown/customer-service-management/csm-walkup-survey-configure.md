@@ -4,8 +4,6 @@ description: Define surveys so that requesters can provide feedback on their sat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-survey-configure.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,6 +30,6 @@ Creating a new customer satisfaction survey requires that you first define a new
 
 2.  To modify an existing walk-up survey, click the survey name, otherwise navigate to **Survey** &gt; **View Surveys** and click **New** to define a new survey if none of the base-system surveys are optimal for your walk-up location.
 
-3.  To modify or complete the form, refer to [modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/t_ModifySurveyDefinitions.md).
+3.  To modify or complete the form, refer to modify a survey definition.
 
 

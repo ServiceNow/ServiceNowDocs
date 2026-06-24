@@ -4,8 +4,6 @@ description: View comparisons for performance of key metrics over time with the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/io-analytics.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

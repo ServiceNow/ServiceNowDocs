@@ -328,7 +328,7 @@ Discovery script includes define JavaScript classes that you can use to accompli
 
 ### Using GlideRecordUtil to Work with GlideRecords
 
-GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to [GlideRecordUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordUtilAPI.md) for descriptions of available methods.
+GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to GlideRecordUtil for descriptions of available methods.
 
 ### Getting a GlideRecord Instance
 

@@ -4,8 +4,6 @@ description: Manage software licenses, hardware assets, and cloud assets with in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/it-asset-management.html
 release: xanadu
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 11

@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
 
 ## Procedure
 
@@ -34,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d193494e103">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d193483e102">
 
 Field
 
-</th><th align="left" id="d193494e106">
+</th><th align="left" id="d193483e105">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d193494e112">
+</th></tr></thead><tbody><tr><td id="d193483e111">
 
 **Name**
 
@@ -50,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d193494e121">
+</td></tr><tr><td id="d193483e120">
 
 **Type**
 
@@ -58,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d193494e130">
+</td></tr><tr><td id="d193483e129">
 
 **Path**
 
@@ -66,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d193494e139">
+</td></tr><tr><td id="d193483e138">
 
 **Script**
 

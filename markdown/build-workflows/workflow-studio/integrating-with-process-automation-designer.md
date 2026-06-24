@@ -24,15 +24,15 @@ Subscribing to ServiceNow AI Platform® features and applications adds Playbooks
 
 |Integration|Content available|
 |-----------|-----------------|
-|App Engine Studio|Build playbooks from App Engine Studio.|
-||Create basic request and fulfillment apps without code.|
-||Create playbooks for Customer Service Management.|
-||Create playbooks for Field Service Management.|
-||Create playbooks for HR services.|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/app-engine-studio/aes-overview.md)|Build playbooks from App Engine Studio.|
+|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/creator-studio/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
+|[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
+|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr.md)|Create playbooks for HR services.|
 |[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/financial-services-operations/financial-services/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
-||Create playbooks for Public Sector Digital Services.|
+|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/government-industry/public-sector-digital-services/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
 |[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
 |[Exploring account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
 |[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|

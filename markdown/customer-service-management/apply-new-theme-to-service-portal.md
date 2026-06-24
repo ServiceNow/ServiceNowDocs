@@ -4,8 +4,6 @@ description: Customize the theme of the decision tree component to match the Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/apply-new-theme-to-service-portal.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

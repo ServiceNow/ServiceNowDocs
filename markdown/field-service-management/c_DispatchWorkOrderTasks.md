@@ -4,8 +4,6 @@ description: When all of the work order tasks associated with a work order are q
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/c\_DispatchWorkOrderTasks.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -46,15 +44,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d37067e232">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d37063e232">
 
 Option
 
-</th><th align="left" id="d37067e235">
+</th><th align="left" id="d37063e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37067e241">
+</th></tr></thead><tbody><tr><td id="d37063e241">
 
 **If Territory Planning is not enabled**
 
@@ -67,7 +65,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d37067e273">
+</td></tr><tr><td id="d37063e273">
 
 **If Territory Planning is enabled**
 

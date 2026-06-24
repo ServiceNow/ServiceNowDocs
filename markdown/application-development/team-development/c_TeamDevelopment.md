@@ -47,5 +47,5 @@ Version records track changes to a customized record over time so that administr
 -   **[Versions and local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_VersionsAndLocalChanges.md)**  
 Version records track changes to a customizable record over time so that you can compare or revert to a specific version later.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/planning-applications.md)
 

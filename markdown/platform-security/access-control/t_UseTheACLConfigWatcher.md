@@ -20,7 +20,7 @@ Use the ACL configuration watcher after you elevate to security\_admin role.
 
 Role required: security\_admin
 
-[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md)
+[Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/t_ElevateToAPrivilegedRole.md)
 
 ## Procedure
 

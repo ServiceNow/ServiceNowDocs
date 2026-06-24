@@ -4,8 +4,6 @@ description: Create escalation templates and escalation severity definitions to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/administer-case-account-escalation.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -71,7 +69,7 @@ The CSM Agent Workspace case list shows these escalation details:
 -   Action status: Indicates the status of the case.
 -   Contact: Shows the contact person for the case.
 
-In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/highlight-list-fields-platform.md).
+In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see Highlight list fields.
 
 ## Escalation SLAs
 

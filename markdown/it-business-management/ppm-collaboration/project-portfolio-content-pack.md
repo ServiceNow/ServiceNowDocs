@@ -56,7 +56,7 @@ The Analytics Time sheet provides comprehensive time sheet activities and report
 **Related topics**  
 
 
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/content-packs-in-form-analytics.md)
+[bundle-par.content-packs-in-form-analytics]
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[bundle-par.c_PremiumPerformanceAnalytics]
 

@@ -4,8 +4,6 @@ description: When off-site work is requested, create a work order to provide inf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CreateAWorkOrder.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 8
@@ -35,15 +33,15 @@ To create work orders for common tasks such as the onboarding of new employees, 
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d42230e82">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d42226e82">
 
 Option
 
-</th><th align="left" id="d42230e85">
+</th><th align="left" id="d42226e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42230e91">
+</th></tr></thead><tbody><tr><td id="d42226e91">
 
 **Create a new work order**
 
@@ -57,7 +55,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d42230e138">
+</td></tr><tr><td id="d42226e138">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 

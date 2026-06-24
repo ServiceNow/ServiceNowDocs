@@ -4,8 +4,6 @@ description: Create request for new content via the Service Catalog application 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/create-itam-content-request.html
 release: xanadu
-product: IT Asset Management
-classification: it-asset-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

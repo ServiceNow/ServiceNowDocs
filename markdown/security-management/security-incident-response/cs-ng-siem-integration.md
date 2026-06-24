@@ -26,7 +26,7 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 1.  Download the CrowdStrike Next-Gen SIEM integration from the ServiceNow Store and install it.
 
-    For more information, see [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md)
+    For more information, see [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/download-app-first-time.md)
 
 2.  Navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 

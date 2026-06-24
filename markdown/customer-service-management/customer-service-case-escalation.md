@@ -4,8 +4,6 @@ description: Use the escalation feature to highlight specific cases or accounts 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-service-case-escalation.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-03-27"
 reading_time_minutes: 2

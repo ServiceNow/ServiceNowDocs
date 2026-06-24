@@ -4,8 +4,6 @@ description: You can associate a Notify phone number with a workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_AssociateNumberWithWorkflow.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -49,7 +47,7 @@ Role required: admin
 **Related topics**  
 
 
-[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/c_NumberGroups.md)
+[bundle-platcap.c_NumberGroups]
 
-[Configure Notify with\\n Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+[bundle-platcap.t_ConfigureNotifyWithTwilio]
 

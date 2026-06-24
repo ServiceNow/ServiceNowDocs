@@ -4,8 +4,6 @@ description: Create an order case for a customer order or for selected order lin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-create-order-case.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-30"
 reading_time_minutes: 2

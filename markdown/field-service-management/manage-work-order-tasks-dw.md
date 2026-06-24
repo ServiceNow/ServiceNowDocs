@@ -4,8 +4,6 @@ description: Track and monitor the real-time state of work order tasks. You can 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/manage-work-order-tasks-dw.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 10
@@ -61,15 +59,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27476e291">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27472e291">
 
 To
 
-</th><th align="left" id="d27476e294">
+</th><th align="left" id="d27472e294">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d27476e300">
+</th></tr></thead><tbody><tr><td id="d27472e300">
 
 **Assign a task manually from the task panel**
 
@@ -80,7 +78,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d27476e324">
+</td></tr><tr><td id="d27472e324">
 
 **Assign a task manually from the contextual side panel**
 
@@ -93,7 +91,7 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d27476e372">
+</td></tr><tr><td id="d27472e372">
 
 **Assign a task manually from the dispatch map**
 
@@ -105,7 +103,7 @@ Do this
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d27476e405">
+</td></tr><tr><td id="d27472e405">
 
 **Auto-assign a task from the task panel**
 
@@ -116,7 +114,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27476e439">
+</td></tr><tr><td id="d27472e439">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -128,7 +126,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27476e481">
+</td></tr><tr><td id="d27472e481">
 
 **Auto-assign from the task record**
 
@@ -139,7 +137,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27476e508">
+</td></tr><tr><td id="d27472e508">
 
 **Auto-assign a task from a list**
 
@@ -151,7 +149,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d27476e547">
+</td></tr><tr><td id="d27472e547">
 
 **Auto-assign a task from the dispatch map**
 

@@ -4,8 +4,6 @@ description: Accept a work order task if you are ready to work on that task. Rej
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_AcceptOrRejectAWorkOrderTask.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -34,15 +32,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d38263e107">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d38259e107">
 
 To
 
-</th><th align="left" id="d38263e110">
+</th><th align="left" id="d38259e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d38263e116">
+</th></tr></thead><tbody><tr><td id="d38259e116">
 
 **Accept the task**
 
@@ -50,7 +48,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d38263e131">
+</td></tr><tr><td id="d38259e131">
 
 **Reject the task.**
 

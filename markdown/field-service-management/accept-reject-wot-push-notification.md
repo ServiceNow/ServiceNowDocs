@@ -4,8 +4,6 @@ description: As a Field Service agent, you can accept or reject work order tasks
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/accept-reject-wot-push-notification.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,15 +26,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26870e70">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d26866e70">
 
 To
 
-</th><th align="left" id="d26870e73">
+</th><th align="left" id="d26866e73">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d26870e79">
+</th></tr></thead><tbody><tr><td id="d26866e79">
 
 **Accept working on the work order task notification**
 
@@ -44,7 +42,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d26870e91">
+</td></tr><tr><td id="d26866e91">
 
 **Reject the task notification**
 

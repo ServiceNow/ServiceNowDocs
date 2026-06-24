@@ -4,8 +4,6 @@ description: Learn about different ways to view tasks in the Scheduled state​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-and-assign-scheduled-tasks.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -35,15 +33,15 @@ Role required: wm\_dispatcher, wm\_admin, and wm\_agent
 
 1.  You can view tasks in the Scheduled state in one of the following roles​.
 
-<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d42041e98">
+<table id="choicetable_upk_mcy_3sb"><thead><tr><th align="left" id="d42037e98">
 
 role
 
-</th><th align="left" id="d42041e101">
+</th><th align="left" id="d42037e101">
 
 steps
 
-</th></tr></thead><tbody><tr><td id="d42041e107">
+</th></tr></thead><tbody><tr><td id="d42037e107">
 
 **wm\_dispatcher**
 
@@ -53,7 +51,7 @@ steps
 2.  View the list of scheduled tasks in the dispatcher group.
 
 
-</td></tr><tr><td id="d42041e137">
+</td></tr><tr><td id="d42037e137">
 
 **wm\_admin**
 
@@ -63,7 +61,7 @@ steps
 2.  View the list of all scheduled tasks.
 
 
-</td></tr><tr><td id="d42041e167">
+</td></tr><tr><td id="d42037e167">
 
 **wm\_agent**
 

@@ -140,5 +140,5 @@ This field doesn't appear to an RPA business user.
 **Related topics**  
 
 
-[View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/c_HistorySets.md)
+[bundle-psec.c_HistorySets]
 

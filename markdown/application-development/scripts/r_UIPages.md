@@ -92,7 +92,7 @@ obsolete-custom-processors
 
 </td><td>
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
 
 </td></tr><tr><td colspan="2">
 
@@ -104,7 +104,7 @@ Access Controls
 
 </td><td>
 
-View and configure access controls for the UI page. See [Use access controls on UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/r_UIPages.md) for more information.
+View and configure access controls for the UI page. See  for more information.
 
 </td></tr><tr><td>
 

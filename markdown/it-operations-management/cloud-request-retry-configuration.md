@@ -4,8 +4,6 @@ description: If a request is throttled by a cloud provider during Discovery, Clo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-request-retry-configuration.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

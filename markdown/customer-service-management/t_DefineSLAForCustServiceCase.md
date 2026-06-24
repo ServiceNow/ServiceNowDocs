@@ -4,8 +4,6 @@ description: A service level agreement \(SLA\) specifies the time within which s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_DefineSLAForCustServiceCase.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ An SLA is automatically associated to a case when the case is created or updated
 
 ## Procedure
 
--   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-level-management/service-level-management-concepts.md).
+-   For more information about SLAs, see Service Level Management concepts.
 
 -   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
 
@@ -36,5 +34,5 @@ An SLA is automatically associated to a case when the case is created or updated
 **Related topics**  
 
 
-[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-level-management/service-level-management-concepts.md)
+[bundle-itsm.service-level-management-concepts]
 

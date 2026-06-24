@@ -4,8 +4,6 @@ description: Major issue management uses major case candidates to identify poten
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/major-candidate-child-case-types.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-07"
 reading_time_minutes: 4

@@ -45,5 +45,5 @@ The Utilities components in the RPA Desktop Design Studio enable diverse and wid
 -   **[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/wait.md)**  
 The Wait components in the RPA Desktop Design Studio enable you to detain or change the automation execution using the criteria provided in the component.
 
-**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/create-integrations-applications.md)
 

@@ -36,15 +36,15 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 3.  From the List view of Prioritization or Scoring, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d45964e115">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d45952e115">
 
 Option
 
-</th><th align="left" id="d45964e118">
+</th><th align="left" id="d45952e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45964e124">
+</th></tr></thead><tbody><tr><td id="d45952e124">
 
 **From the List view of Prioritization or Scoring**
 
@@ -59,7 +59,7 @@ You can add more tags.
 
  \[Omitted image "add-tags-to-planning-items-from-grid.gif"\] Alt text: Add tags to a planning item from the grid view.
 
-</td></tr><tr><td id="d45964e159">
+</td></tr><tr><td id="d45952e159">
 
 **From the Details page of a planning item**
 
@@ -86,7 +86,7 @@ You can add more tags.
 
     \[Omitted image "edit-tag-in-spw.png"\] Alt text: Edit tag in Strategic Planning.
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d45964e236">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d45952e236">
 
 **Me**
 
@@ -94,7 +94,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d45964e245">
+</td></tr><tr><td id="d45952e245">
 
 **Groups and Users**
 
@@ -102,7 +102,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d45964e254">
+</td></tr><tr><td id="d45952e254">
 
 **Everyone**
 

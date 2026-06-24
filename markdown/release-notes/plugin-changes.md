@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/plugin-cha
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
-reading_time_minutes: 20
+reading_time_minutes: 19
 breadcrumb: [Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
 
@@ -116,7 +116,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/sec-center-v2.md).
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -734,7 +734,7 @@ Data Certification manages scheduled and on-demand validations of the configurat
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See .
 
 </td></tr><tr><td>
 
@@ -750,7 +750,7 @@ Planned for deprecation in the Y release
 
 </td><td>
 
-Transition to one of the following alternative applications: -   Use the instance scan tool installed on your instance by default. Review the [Product Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/instance-scan/hs-landing-page.md).
+Transition to one of the following alternative applications: -   Use the instance scan tool installed on your instance by default. Review the Product Documentation.
 -   Evaluate the [HealthScan product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan.md) available with the [ServiceNow Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-packages.md). Work with your Account Team to procure an Impact package required to use this product.
 
 </td></tr><tr><td>
@@ -898,7 +898,7 @@ This spoke is available in the Store, and it works with ServiceNow's Dynamic Tra
 
 </td><td>
 
-[IBM announced](https://cloud.ibm.com/docs/language-translator?topic=language-translator-about) end of life of the Watson Language Translator with end of support on June 10, 2024 and permanent removal on December 10, 2024. Review the [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) documentation to explore the available Dynamic Translation services with Google and Microsoft.
+[IBM announced](https://cloud.ibm.com/docs/language-translator?topic=language-translator-about) end of life of the Watson Language Translator with end of support on June 10, 2024 and permanent removal on December 10, 2024. Review the  documentation to explore the available Dynamic Translation services with Google and Microsoft.
 
 </td></tr><tr><td>
 
@@ -946,7 +946,7 @@ The Knowledge Management v3 homepage will no longer be deployed or activated beg
 
 </td><td>
 
-Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in [Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md), and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
+Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in , and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
 
 </td></tr><tr><td>
 

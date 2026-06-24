@@ -4,8 +4,6 @@ description: The IT Service Management \(ITSM\) solution provides scalable workf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/r\_ITServiceManagement.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 10

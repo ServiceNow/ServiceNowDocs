@@ -61,5 +61,5 @@ Use the Performance Analytics \(PA\) dashboards to view the comprehensive data f
 -   **[Advanced risk assessment dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment-dashboard.md)**  
 Use the Advanced Risk Assessment Overview dashboard for an overview of the performance of any risk assessment methodology based on the risk assessment instances.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -38,7 +38,7 @@ Xanadu Patch 3 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 3
 
--   **[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)**
+-   ****
     -   **com.snc.pa.xmr.processes.limit**
 
         The maximum number of KPI Signals Configurations \(pa\_xmr\_processes\) that can be evaluated by the KPI Signals Insight Job. After this number of processes have been evaluated, the remaining processes are ignored.

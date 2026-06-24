@@ -4,8 +4,6 @@ description: Configure the Customer Data Models for B2B2C application to enable 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-customer-data-model-b2b2c.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

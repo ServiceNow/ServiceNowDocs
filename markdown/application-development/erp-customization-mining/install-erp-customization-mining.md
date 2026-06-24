@@ -22,7 +22,7 @@ You must:
 
 -   Have a license and get entitlement to ERP-CM before you can install the application.
 
-    For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/licensing.md).
+    For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/licensing.md).
 
 -   Install ERP Data Hub. Use the application to configure connections to the system of record, as well as ERP \(Enterprise Resource Planning\) data models.
 -   Configure the JCO connector before you install ERP-CM. See the SAP documentation for more information.

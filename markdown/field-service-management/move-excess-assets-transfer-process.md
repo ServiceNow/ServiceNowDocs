@@ -4,8 +4,6 @@ description: Move your excess consumable parts from your stockroom to the drop-o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/move-excess-assets-transfer-process.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -34,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Move the part to be returned to the stockroom by doing one of the following actions.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d68635e100">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d68631e100">
 
 Option
 
-</th><th align="left" id="d68635e103">
+</th><th align="left" id="d68631e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68635e109">
+</th></tr></thead><tbody><tr><td id="d68631e109">
 
 **Drop off**
 
@@ -53,7 +51,7 @@ Description
 3.  Select the quantity that you want to return.
 
 
-</td></tr><tr><td id="d68635e133">
+</td></tr><tr><td id="d68631e133">
 
 **View part details and then drop off**
 

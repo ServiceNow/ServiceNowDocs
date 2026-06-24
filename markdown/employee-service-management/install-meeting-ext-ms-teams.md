@@ -4,8 +4,6 @@ description: Install and activate the Meeting Extensions for Microsoft Teams plu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-meeting-ext-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -28,14 +28,14 @@ Role required: sn\_apw\_advanced.eap\_admin or admin
 
 2.  Create a dashboard or modify one of the default dashboards for your Agile configuration.
 
-    -   To create a dashboard, select **Create new dashboard**. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/create-db-in-ac.md).
-    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/duplicate-db.md).
+    -   To create a dashboard, select **Create new dashboard**. For more information, see .
+    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see .
 
         **Note:** The **Duplicate** option is available only for an Inline dashboard.
 
 3.  Add visualizations and widgets.
 
-    For more information, see step 6 through 10 in [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/create-db-in-ac.md).
+    For more information, see step 6 through 10 in .
 
     For information about the default indicators, see [Enterprise Agile Planning Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/enterprise-agile-planning/eap-indicators.md).
 

@@ -4,8 +4,6 @@ description: Configure the form ribbon and the secondary values that appear in a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-display-header-in-sidebar.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -49,15 +47,15 @@ These properties can operate independently. For example, you can display the for
 
 3.  In the **Value** field for the selected property, enter one of the following values.
 
-<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d47975e175">
+<table id="choicetable_rz1_21k_npb"><thead><tr><th align="left" id="d47980e175">
 
 Value
 
-</th><th align="left" id="d47975e178">
+</th><th align="left" id="d47980e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47975e184">
+</th></tr></thead><tbody><tr><td id="d47980e184">
 
 **header**
 
@@ -69,7 +67,7 @@ Displays the selected component in the following location:
 -   Secondary values: at the top of the record, in the form header below the primary value.
 
 
-</td></tr><tr><td id="d47975e204">
+</td></tr><tr><td id="d47980e204">
 
 **sidebar**
 

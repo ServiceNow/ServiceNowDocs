@@ -4,8 +4,6 @@ description: Initiate a conference call from the major incident workbench by inv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/notify-ms-teams-major-incident.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

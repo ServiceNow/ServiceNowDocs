@@ -141,7 +141,7 @@ References
 
 </td><td>
 
-[High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/c_HighSecuritySettings.md)
+[High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/c_HighSecuritySettings.md)
 
  [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/r_JellyTags.md)
 

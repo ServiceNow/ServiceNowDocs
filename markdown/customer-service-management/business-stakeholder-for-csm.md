@@ -4,8 +4,6 @@ description: Business Stakeholder for Customer Service Management includes plugi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/business-stakeholder-for-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -498,9 +496,9 @@ Internal
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md)
+[bundle-itbm.business-stakeholder-role-ppm]
 
-[Business stakeholder role for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-portfolio-management/enterprise-architecture/business-stakeholder-role-apm.md)
+[bundle-appportman.business-stakeholder-role-apm]
 
-[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)
+[bundle-itsm.installed-with-business-stakeholder]
 

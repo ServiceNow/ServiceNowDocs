@@ -4,8 +4,6 @@ description: The case routing feature uses matching rules and assignment rules t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_CaseRouting.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -57,5 +55,5 @@ Reverse matching uses the same matching rules to match tasks to a resource rathe
 **Related topics**  
 
 
-[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/c_AssignmentRulesModule.md)
+[bundle-platadm.c_AssignmentRulesModule]
 

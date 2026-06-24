@@ -4,8 +4,6 @@ description: Enables users to interact with the agents from Microsoft Teams appl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-virtual-agent-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

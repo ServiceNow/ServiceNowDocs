@@ -19,7 +19,7 @@ Request the contextual generative AI capabilities, such as a case summary, in th
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see .
+Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_manager, sn\_bom\_credit\_card.dispute\_viewer, sn\_bom\_credit\_card.contributor, sn\_bom.b2c\_agent, sn\_bom.b2b\_agent, sn\_bom.adjuster, sn\_bom.fnol\_representative
 
@@ -29,7 +29,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the Now Assist panel in Financial Services Workspace to request a case summary.
 
-For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see . For information about act
 
 4.  After you request the generative AI capabilities, you can summarize a case.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d27044e181">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d27039e184">
 
 Option
 
-</th><th align="left" id="d27044e184">
+</th><th align="left" id="d27039e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27044e190">
+</th></tr></thead><tbody><tr><td id="d27039e193">
 
 **Summarize a case**
 

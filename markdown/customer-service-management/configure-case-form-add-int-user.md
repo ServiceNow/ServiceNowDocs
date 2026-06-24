@@ -4,8 +4,6 @@ description: Add the Internal user field to the Case form for the Case view and 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-case-form-add-int-user.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,5 +38,5 @@ With the Customer Service Management plugin \(com.sn\_customerservice\), agents 
 **Related topics**  
 
 
-[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md)
+[bundle-platux.create-delete-view]
 

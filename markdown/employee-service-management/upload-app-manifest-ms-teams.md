@@ -4,8 +4,6 @@ description: Enable users to interact with agents from Microsoft Teams applicati
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-app-manifest-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2023-03-08"
 reading_time_minutes: 1

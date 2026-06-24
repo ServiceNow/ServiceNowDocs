@@ -7,7 +7,7 @@ release: xanadu
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Now Assist in Virtual Agent conversations with Microsoft Teams, Conversational Integration with Microsoft Teams, Integrating Virtual Agent with enterprise messaging apps, Virtual Agent integration with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---

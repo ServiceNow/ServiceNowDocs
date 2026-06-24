@@ -4,8 +4,6 @@ description: Optimize your processes by using the Customer Service Management ap
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/optimization.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -58,7 +56,7 @@ Key Features of process mining include:
 
 For more information about enabling the Process Mining content pack, see the following topics:
 
--   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/po-content-pack.md).
+-   Activate Process Mining Content Packs.
 -   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization

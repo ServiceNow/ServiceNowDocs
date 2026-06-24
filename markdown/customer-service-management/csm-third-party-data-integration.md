@@ -4,8 +4,6 @@ description: The third-party data integration feature enables you to retrieve da
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-third-party-data-integration.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -61,12 +59,12 @@ Remote table script definitions are domain separated. If users do not have acces
 
 The data within the remote table is not domain separated.
 
-For more information, see [Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md).
+For more information, see Domain separation and remote tables.
 
 ## Related documentation
 
 -   Authentication and credentials
-    -   [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
+    -   Set up OAuth provider with JWT Bearer grant type
     -   [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r-credentials.md)
 -   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub.md)
 -   [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/flow-designer.md)

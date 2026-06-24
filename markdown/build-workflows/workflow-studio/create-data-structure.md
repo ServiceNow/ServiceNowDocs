@@ -19,7 +19,7 @@ Organize multiple data variables into a structure to process them as a unit and 
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   Set up an application in Guided Application Creator to store Workflow Studio content.
+-   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
 -   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-subflow.md)
 
 ## About this task
@@ -34,7 +34,7 @@ A data structure is a collection of related data elements organized into a hiera
     |---|---|
     |**Action or subflow input**|Click **Create Input**|
     |**Action or subflow output**|Click **Create Output**|
-    |**XML parser step**|See XML parser step|
+    |**XML parser step**|See [XML parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/xml-parser-step-action-designer.md)|
 
 2.  Set **Type** to **Object**.
 

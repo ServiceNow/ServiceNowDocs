@@ -4,10 +4,8 @@ description: Dispatchers can select multiple tasks on which to run dynamic sched
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/select-tasks-for-bulk-assignment.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---

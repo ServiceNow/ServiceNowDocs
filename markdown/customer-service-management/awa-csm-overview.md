@@ -4,8 +4,6 @@ description: Use the ServiceNow Advanced Work Assignment \(AWA\) for Customer Se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/awa-csm-overview.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -24,7 +22,7 @@ To use the shift-based assignment feature for customer service cases, you must e
 
 To use the chat feature with Advanced Work Assignment for CSM, you must also activate the Agent Chat plugin \(com.glide.interaction.awa\).
 
-For more information, see [Activate related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-related-plugins.md).
+For more information, see Activate related plugins for Advanced Work Assignment.
 
 ## Inbox layouts
 
@@ -45,14 +43,14 @@ Two case inbox layouts are included with the Case service channel.
 
 ## Variable work item sizing
 
-Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channel-capacity.md).
+Organizations may like to size cases based on the complexity of the case, time and effort required to complete work. This helps in estimating agent utilization accurately. Advance work assignment currently treats every case as one unit of work. However, sometimes, certain cases may require more work than others. These cases may account for a greater share of an agent’s capacity. Work item sizing allows to size the case differently based on the case attributes. For more information, see Service channel capacity and utilization.
 
 ## Agent affinity
 
-Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see [Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md).
+Agent Affinity is an Advanced Work Assignment enhancement that enables you to streamline the routing of work items. Advanced Work Assignment automatically assigns work items based on historical, task-based, or account team affinity. For more information about agent affinity, see Using Agent Affinity.
 
 **Related topics**  
 
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md)
+[bundle-platcap.awa-overview]
 

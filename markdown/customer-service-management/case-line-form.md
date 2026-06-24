@@ -4,8 +4,6 @@ description: The case line item form displays details about a case line item on 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/case-line-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-03-28"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Set up the features and workflows that you need to manage your orga
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configure-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-06"
 reading_time_minutes: 3

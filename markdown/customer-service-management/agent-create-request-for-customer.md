@@ -4,8 +4,6 @@ description: Customer service agents can create requests on behalf of customers 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/agent-create-request-for-customer.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -41,15 +39,15 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d65657e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d65658e118">
 
 Interface
 
-</th><th align="left" id="d65657e121">
+</th><th align="left" id="d65658e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d65657e127">
+</th></tr></thead><tbody><tr><td id="d65658e127">
 
 **CSM Configurable Workspace**
 
@@ -62,7 +60,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d65657e172">
+</td></tr><tr><td id="d65658e172">
 
 **Platform interface**
 

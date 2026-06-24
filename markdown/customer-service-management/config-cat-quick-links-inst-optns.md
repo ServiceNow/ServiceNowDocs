@@ -4,8 +4,6 @@ description: Add a Portal Catalog Quick Links widget on your portal and modify i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-cat-quick-links-inst-optns.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

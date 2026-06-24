@@ -31,7 +31,7 @@ To access the Financial Services Personal Loan Operations dashboard, navigate to
 
 Alternatively, you can navigate to **All** &gt; **Loan Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout by navigating to **All** &gt; **Loan Operations** &gt; **Dashboard**.
 
@@ -115,5 +115,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-content-pack.md)
 

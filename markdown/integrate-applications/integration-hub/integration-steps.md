@@ -145,11 +145,11 @@ Complete a step-by-step training on using the REST step in the [REST in Integrat
 
 ## Connection attributes
 
-Define connection-specific variables that you can use in Integration Hub integration steps. When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter. For more information about connection attributes, see [Create connection attributes for IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/create-connection-attributes.md).
+Define connection-specific variables that you can use in Integration Hub integration steps. When using an integration step, you must establish a connection with an external system. Use a Connection &amp; Credential alias instead of defining the connection inline. An alias enables you to update the connection details once without having to reconfigure every action. Any action step that uses an alias inherits the attributes associated with it. Workflow Studio displays attributes as data pills that you can drag into your action step. For example, you can create a page size attribute that becomes a REST step query parameter. For more information about connection attributes, see Create connection attributes for IntegrationHub.
 
 ## MID Server connection aliases
 
-Action designers can set MID Server selection attributes using a connection record associated with an alias and associate the alias with an integration step. When the flow runs, the system uses the attributes to determine which MID Server runs the step. Learn more about [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
+Action designers can set MID Server selection attributes using a connection record associated with an alias and associate the alias with an integration step. When the flow runs, the system uses the attributes to determine which MID Server runs the step. Learn more about Introduction to credentials, connections, and aliases.
 
 ## MID Server and MID Cluster selection
 

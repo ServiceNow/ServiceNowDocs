@@ -4,8 +4,6 @@ description: Set up access to the Microsoft Azure cloud accounts in Cloud Action
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/set-up-cloud-action-library-for-azure.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

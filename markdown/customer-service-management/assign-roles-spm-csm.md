@@ -4,8 +4,6 @@ description: Assign the required roles to customer service managers based on the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/assign-roles-spm-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

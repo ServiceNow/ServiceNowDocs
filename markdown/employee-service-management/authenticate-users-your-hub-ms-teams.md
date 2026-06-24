@@ -4,8 +4,6 @@ description: Create a Microsoft Azure application in the Microsoft Azure portal 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/authenticate-users-your-hub-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3

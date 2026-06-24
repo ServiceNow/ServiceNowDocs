@@ -4,8 +4,6 @@ description: Get personalized monthly updates in the form of Impact Digest.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-digest.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

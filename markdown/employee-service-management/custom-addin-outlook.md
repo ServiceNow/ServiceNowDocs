@@ -4,8 +4,6 @@ description: Get the custom add-in for your Microsoft Outlook client to use the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/custom-addin-outlook.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-04"
 reading_time_minutes: 1

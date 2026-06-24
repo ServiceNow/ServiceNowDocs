@@ -4,8 +4,6 @@ description: The Case form contains detailed information about a customer issue 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-case-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,5 +40,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md)
+[bundle-platux.create-delete-view]
 

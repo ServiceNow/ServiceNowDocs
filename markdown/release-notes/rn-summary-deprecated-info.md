@@ -46,7 +46,7 @@ Agent experience for CSM
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-workspaces-configure.md) provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. CSM Configurable Workspace provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -54,8 +54,8 @@ Analytics, Intelligence, and Reporting
 
 </td><td>
 
--   Core UI Reporting functionality is deprecated in favor of [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-data-visualizations.md) for new instances and instances that have migrated to the Platform Analytics experience.
--   Core UI Dashboards functionality is deprecated in favor of [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center-dashboards.md) for new instances and instances that have migrated to the Platform Analytics experience.
+-   Core UI Reporting functionality is deprecated in favor of  for new instances and instances that have migrated to the Platform Analytics experience.
+-   Core UI Dashboards functionality is deprecated in favor of  for new instances and instances that have migrated to the Platform Analytics experience.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Case management for CSM
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-workspaces-configure.md) provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. CSM Configurable Workspace provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
--   Starting with the Xanadu release, the Data Certification plugin \(com.snc.certification\_v2\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. The [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0867184]) article in the Now Support knowledge base.
+-   Starting with the Xanadu release, the Data Certification plugin \(com.snc.certification\_v2\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. The CMDB Workspace store app provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0867184]) article in the Now Support knowledge base.
 -   ServiceNow hosted Service Graph Connector for ExtraHop is now deprecated and no longer supported or available for new activation. Service Graph Connector for ExtraHop provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
@@ -331,7 +331,7 @@ Predictive Intelligence
 
 </td><td>
 
-The dashboard for Solution Statistics has been deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Xanadu release, the Solutions Statistics dashboard is not available. For more information, see [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
+The dashboard for Solution Statistics has been deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Xanadu release, the Solutions Statistics dashboard is not available. For more information, see .
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ Third-party Risk Management
 
 </td><td>
 
--   **Reminder workflows**
+-   **[Reminder workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md)**
 
 Starting with version 19.1.x of the Third-party Risk Management application, the tiering questionnaire and external assessment reminders workflows are deprecated and migrated to Workflow Studio. If you have customized these workflows, they won’t be deprecated or migrated as part of this change.
 

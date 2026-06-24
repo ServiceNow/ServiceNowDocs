@@ -120,7 +120,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see .
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
+For more information, see .
 
 </td></tr></tbody>
 </table>10. Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.

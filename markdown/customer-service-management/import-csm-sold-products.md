@@ -4,8 +4,6 @@ description: Sold products are products and components that have been sold to an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/import-csm-sold-products.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: The ServiceNow Virtual Agent platform offers user assistance throug
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/va-csp-csm-portal.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-04"
 reading_time_minutes: 1

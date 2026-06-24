@@ -4,8 +4,6 @@ description: Respond to or decline requests on Field Service Marketplace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/respond-request-fsm-mktplc.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
     **Note:** Selection options vary depending on the requestor's configuration.
 
-<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d32035e111">
+<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d32031e111">
 
 **Respond**
 
@@ -40,7 +38,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
 Enables you to respond with time estimates, cost estimates, or other notes and comments. The requestor may award the task to you.
 
-</td></tr><tr><td id="d32035e120">
+</td></tr><tr><td id="d32031e120">
 
 **Accept**
 
@@ -48,7 +46,7 @@ Enables you to respond with time estimates, cost estimates, or other notes and c
 
 Accepts the request. The requestor may award the task to you.
 
-</td></tr><tr><td id="d32035e129">
+</td></tr><tr><td id="d32031e129">
 
 **Decline**
 

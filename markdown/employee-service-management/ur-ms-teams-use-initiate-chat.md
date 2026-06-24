@@ -4,8 +4,6 @@ description: As an agent, initiate chats with the requester or an employee from 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-use-initiate-chat.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

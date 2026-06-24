@@ -40,15 +40,15 @@ Xanadu Patch 2 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 2
 
--   **[Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/data-migration.md)**
+-   ****
 
     You can disable the **Start Moving** and **Activate** Platform Analytics experience options. Create the system property `com.glide.par.coreui.migration.enabled` and set it to `False`. If you set the property to `False` before you migrate any content, both options are disabled. If you set the property to false after you migrate your content, only the **Activate** button is disabled.
 
     If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information, see .
 
--   **[System properties for Proactive analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/proactive-analytics/system-props-proactive-analytics.md)**
+-   ****
 
     The maximum number of KPI Signals Configurations \(pa\_xmr\_processes\) that can be evaluated by the KPI Signals Insight Job. After this number of processes have been evaluated, the remaining processes are ignored.
 

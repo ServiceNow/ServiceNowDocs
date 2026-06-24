@@ -4,8 +4,6 @@ description: Embed the source code of the messenger module that you configured i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/embed-engagement-messenger-code-in-your-web-application.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -47,15 +45,15 @@ Next, depending on the authentication type that you selected for your configured
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d72559e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d72556e153">
 
 Authentication type
 
-</th><th align="left" id="d72559e156">
+</th><th align="left" id="d72556e156">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72559e162">
+</th></tr></thead><tbody><tr><td id="d72556e162">
 
 **OIDC-based**
 
@@ -70,7 +68,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d72559e202">
+</td></tr><tr><td id="d72556e202">
 
 **SAML-based**
 

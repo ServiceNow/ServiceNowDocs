@@ -101,5 +101,5 @@ When you are looking at an approval request, the form has a context-appropriate 
 -   **[Scripts and engines execution order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/approvals/execution-order-scripts-engines.md)**  
 Scripts, assignment rules, business rules, workflows, escalations, and engines all take effect in relation to a database operation, such as insert or update. In many cases, the order of these events is important.
 
-**Parent Topic:**[Exploring Service Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/ai-platform-capabilities/c_ServiceAdministration.md)
+**Parent Topic:**[Exploring Service Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/c_ServiceAdministration.md)
 

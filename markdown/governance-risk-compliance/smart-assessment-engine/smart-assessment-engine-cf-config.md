@@ -57,7 +57,7 @@ Activate the **Smart Assessment Designer** plugin \(com.sn\_smart\_asmt\_desg\).
 Activate the **Smart Assessment Connected** plugin \(com.sn\_smart\_asmt\_conn\).Role required: admin
 
 </td></tr></tbody>
-</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/download-grc-first-time.md).
 
 <table id="table_usx_km3_h2c"><thead><tr><th>
 
@@ -122,7 +122,7 @@ Activate the **Basic Scoring for Smart Assessment** plugin \(com.sn\_smart\_scor
 Activate the **Smart Assessment Collaboration** plugin \(com.sn\_smart\_collab\).Role required: admin
 
 </td></tr></tbody>
-</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/download-grc-first-time.md).
 
 **Note:** After installing the required plugins, you can do the following:
 

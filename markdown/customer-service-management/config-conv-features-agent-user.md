@@ -4,8 +4,6 @@ description: Configure the Now Assist in Virtual Agent chat configuration to ens
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-conv-features-agent-user.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-11-04"
 reading_time_minutes: 2

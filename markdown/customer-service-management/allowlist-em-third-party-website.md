@@ -4,8 +4,6 @@ description: Configure a custom URL for the ServiceNow instance that helps preve
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/allowlist-em-third-party-website.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -18,7 +16,7 @@ Configure a custom URL for the ServiceNow instance that helps prevent web browse
 
 ## Before you begin
 
-You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see [Activate custom URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/activate-custom-url-plugin.md).
+You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see Activate custom URLs.
 
 Role required: admin
 
@@ -79,9 +77,9 @@ The following code includes a sample URL that contains `support.acme.com` as a c
 **Related topics**  
 
 
-[Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/configure-custom-url.md)
+[bundle-psec.configure-custom-url]
 
-[Custom URLs association to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/custom-url.md)
+[bundle-psec.custom-url]
 
-[Custom URL errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/custom-url-error-fix.md)
+[bundle-psec.custom-url-error-fix]
 

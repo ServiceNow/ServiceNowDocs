@@ -4,8 +4,6 @@ description: Flag tasks that you want to work on at a later time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/flag-a-task.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

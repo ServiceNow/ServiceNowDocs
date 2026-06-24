@@ -4,8 +4,6 @@ description: Delete a decision tree and all the related version records. All rel
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/delete-decision-tree.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

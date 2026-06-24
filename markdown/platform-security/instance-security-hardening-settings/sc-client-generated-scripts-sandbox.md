@@ -126,7 +126,7 @@ References
 
 </td><td>
 
-[Configuring Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/r_ScriptSandboxing.md) **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
+[Configuring Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/r_ScriptSandboxing.md) **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
 
 -   **glide.script.allow.ajaxevaluate**: See Enable AJAXEvaluate.
 -   **glide.script.secure.ajaxgliderecord**: See .

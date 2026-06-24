@@ -18,7 +18,7 @@ Create an ERP \(Enterprise Resource Planning\) extraction table to capture large
 
 ## Before you begin
 
-You must first configure the source table, target table, and table transform map before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
+You must first configure the source table, target table, and table transform map before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see .
 
 Role required:
 

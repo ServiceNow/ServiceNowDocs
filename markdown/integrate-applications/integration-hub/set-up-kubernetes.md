@@ -64,7 +64,7 @@ Role required: admin.
 
 3.  Complete the form and enter the certificate in the **PEM Certificate** field.
 
-    For more information about uploading certificates, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/t_UploadACertificateToAnInstance.md).
+    For more information about uploading certificates, see Upload a certificate to an instance.
 
 4.  Click **Submit**.
 

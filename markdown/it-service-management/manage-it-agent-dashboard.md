@@ -4,8 +4,6 @@ description: Add or edit the cards that are to be viewed on the IT Agent Dashboa
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/manage-it-agent-dashboard.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

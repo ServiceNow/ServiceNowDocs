@@ -4,8 +4,6 @@ description: Learn more about the system properties installed with the Now Assis
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/reference-now-assist-for-emp-exp.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-03-28"
 reading_time_minutes: 1

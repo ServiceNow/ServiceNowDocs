@@ -111,7 +111,7 @@ The route where the card layout is defined for this work item type. The route di
 -   Assignment group field
 -   Start date field
 -   End date field
-If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
+If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see Create a Work Scheduler card using UI Builder.
 
 </td></tr><tr><td>
 

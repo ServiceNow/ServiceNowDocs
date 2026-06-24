@@ -4,8 +4,6 @@ description: Create a customer project from a demand record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-ppm-create-project-from-demand.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,7 +24,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 2.  Fill in the fields on the Demand form and click **Save**.
 
-    For more information about the fields on this form, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/demand-management/t_CreatingDemands.md).
+    For more information about the fields on this form, see Create a demand.
 
 3.  Open the demand record and click the **Create Project** related link.
 

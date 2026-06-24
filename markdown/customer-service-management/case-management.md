@@ -4,8 +4,6 @@ description: Set up case management features to enable agents and customers to c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/case-management.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

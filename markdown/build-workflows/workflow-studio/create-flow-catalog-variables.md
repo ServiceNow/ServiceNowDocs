@@ -433,7 +433,7 @@ Macro
 
 </td><td>
 
-UI macro to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+[UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_UIMacros.md) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 

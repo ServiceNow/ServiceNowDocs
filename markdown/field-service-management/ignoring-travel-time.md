@@ -4,8 +4,6 @@ description: You can choose to assign work order tasks to the highest ranked age
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/ignoring-travel-time.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ The Ignore travel option in the work order task enables dynamic scheduling to as
 
 Enabling the **com.snc.dynamic.scheduling.ignoreAgentTravelTimeDuringScheduling** property displays the Ignore Travel option in work order tasks. For more information about enabling a dynamic scheduling property, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
-The Ignore Travel option does not appear in the work order task form by default so you have to add it manually. For more information, see Configuring the form layout.
+The Ignore Travel option does not appear in the work order task form by default so you have to add it manually. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
 
 Note the following parameters related to dynamic scheduling when Ignore travel is enabled:
 

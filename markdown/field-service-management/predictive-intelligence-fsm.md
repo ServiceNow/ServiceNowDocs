@@ -4,8 +4,6 @@ description: Use your instance records to build solutions to Field Service Manag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/predictive-intelligence-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ Use your instance records to build solutions to Field Service Management issues.
 
 ## Solution definitions
 
-Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see Predictive Intelligence. You can also create your own solution definition records.
+Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md). You can also create your own solution definition records.
 
 |Solution Definition|Solution Type|Description|
 |-------------------|-------------|-----------|

@@ -4,8 +4,6 @@ description: To securely access data on your provider account, the Discovery pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aws-create-creds-cloud-mgt.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

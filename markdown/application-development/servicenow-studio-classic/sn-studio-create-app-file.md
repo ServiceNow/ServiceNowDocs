@@ -22,7 +22,7 @@ Role required: admin or delegated developer
 
 ## About this task
 
-Application files are essentially metadata records for application logic such as business rules, workflows, and script includes. For more information on app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationFiles.md) and [Working with metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+Application files are essentially metadata records for application logic such as business rules, workflows, and script includes. For more information on app files, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationFiles.md) and [Working with metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
 
 Delegated developers have access to create app files for apps they have access to. If you need an app created, contact your admin.
 

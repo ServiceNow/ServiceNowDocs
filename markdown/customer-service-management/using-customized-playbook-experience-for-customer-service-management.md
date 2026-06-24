@@ -4,8 +4,6 @@ description: Add optional activities to different stages in a playbook. Although
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/using-customized-playbook-experience-for-customer-service-management.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

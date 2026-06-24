@@ -4,8 +4,6 @@ description: Raise a finance request on CBS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/core-business-suite/submit-fin-req-cbs.html
 release: xanadu
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2025-03-17"
 reading_time_minutes: 1

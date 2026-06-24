@@ -26,7 +26,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-    For more information, see the [Process Mining documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/submit-automation-idea.md).
+    For more information, see the Process Mining documentation.
 
 
 ## What to do next

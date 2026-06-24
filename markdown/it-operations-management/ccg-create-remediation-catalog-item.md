@@ -4,8 +4,6 @@ description: Create a custom remediation catalog item in Cloud Configuration Gov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-create-remediation-catalog-item.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

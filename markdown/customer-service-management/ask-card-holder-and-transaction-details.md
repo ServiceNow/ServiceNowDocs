@@ -4,8 +4,6 @@ description: Add questions to ask for credit cardholder details and transaction 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ask-card-holder-and-transaction-details.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Use playbook pages in CSM Configurable Workspace so that your agent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-playbook-pages.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 8
@@ -139,7 +137,7 @@ Create a record for a case type as the first step in a playbook by using a playb
 
 </td></tr><tr><td>
 
-[Set up email templates in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
+
 
 </td><td>
 

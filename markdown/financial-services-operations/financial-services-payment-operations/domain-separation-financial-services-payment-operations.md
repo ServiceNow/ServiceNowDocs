@@ -30,7 +30,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## How domain separation works in Financial Services Payment Operations
 
-All [FSO integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-overview.md) applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
+All [FSO integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-overview.md) applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables such as Consumer, Account, and Contact, and these tables are domain-separated.
 
 ## Tables
 

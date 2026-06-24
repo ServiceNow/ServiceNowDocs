@@ -4,8 +4,6 @@ description: You can install the ServiceNow Add-in for Microsoft 365 application
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-sn-addin-for-ms365.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-02"
 reading_time_minutes: 1

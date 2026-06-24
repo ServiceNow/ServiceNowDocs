@@ -4,8 +4,6 @@ description: You can activate the Customer Data Models for B2B2C plugin \(com.sn
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-customer-data-models-b2b2c.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

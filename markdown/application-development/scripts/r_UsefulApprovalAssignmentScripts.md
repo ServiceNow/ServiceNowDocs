@@ -169,7 +169,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
 -   **Custom approval UI macro**
 
-    For information on creating a custom approval UI macro, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/c_UIMacros.md).
+    For information on creating a custom approval UI macro, see .
 
 
 **Parent Topic:**[Field script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/r_UsefulFieldScripts.md)

@@ -4,8 +4,6 @@ description: Assess the ability of your agents to resolve tasks or the quality o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/asses-completed-task-quality-wfo-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -42,15 +40,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d38824e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d38820e109">
 
 To
 
-</th><th align="left" id="d38824e112">
+</th><th align="left" id="d38820e112">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d38824e118">
+</th></tr></thead><tbody><tr><td id="d38820e118">
 
 **Perform adhoc assessments**
 
@@ -65,7 +63,7 @@ The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d38824e158">
+</td></tr><tr><td id="d38820e158">
 
 **Use assessments triggered by coaching opportunities**
 

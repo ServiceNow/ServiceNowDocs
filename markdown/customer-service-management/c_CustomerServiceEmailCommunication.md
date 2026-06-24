@@ -4,8 +4,6 @@ description: Set up email addresses that customers can use to submit cases to yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_CustomerServiceEmailCommunication.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,5 +27,5 @@ The system administrator can also create a channel configuration to associate an
 **Related topics**  
 
 
-[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_EmailAccounts.md)
+[bundle-platadm.c_EmailAccounts]
 

@@ -4,8 +4,6 @@ description: Use tags to filter the items that appear in the activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-activity-stream-tags.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-03"
 reading_time_minutes: 1
@@ -20,7 +18,7 @@ Tags enable you to filter your activities in the activity stream by dynamic and 
 
 \[Omitted image "filter-activity-stream-tags.png"\] Alt text: Filter the activity stream by selecting tags from the Tags dropdown menu
 
-Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see [Create tags for the activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/tags-activity-stream-admin.md).
+Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see Create tags for the activity stream.
 
-To use tags to filter activities in the activity stream, see [Filter activities with tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/tags-activity-stream-agent.md).
+To use tags to filter activities in the activity stream, see Filter activities with tags.
 

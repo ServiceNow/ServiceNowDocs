@@ -20,7 +20,7 @@ Capacity Planning page provides resource managers with a comprehensive view of c
 
 Resource Managers are encouraged to use the [Planning user capacity in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/using-cap-plan-spw.md) to view and manage the capacity, allocations, and utilization of resources.
 
-The capacity planning page is based on Service Portal which enables you to configure, customize, and extend it per your requirements and organizational workflow. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ServicePortal.md) for more information.
+The capacity planning page is based on Service Portal which enables you to configure, customize, and extend it per your requirements and organizational workflow. See Service Portal for more information.
 
 The Capacity Planning page is divided into following sections:
 

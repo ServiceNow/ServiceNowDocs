@@ -4,8 +4,6 @@ description: Integrate Servicenow with MS teams and Microsoft 365, with MS teams
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/integrations-all-snteams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 1
