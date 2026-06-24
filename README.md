@@ -14,6 +14,8 @@ normally at least monthly, sometimes more often.
 
 ## Change log
 
+- __24 June 2026__:
+  * Reverted URLs to May refresh versions to match doc site URls.
 - __21 June 2026__:
   * Issues 8 and 17: All links within and between publications are absolute URLs to the GitHub raw format.
   * Issue 16: Media references are rendered as annotations indicating an omitted image with any alternative text retained.
