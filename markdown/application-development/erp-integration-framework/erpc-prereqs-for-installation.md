@@ -18,7 +18,7 @@ Before you install ERP Data Hub, you must complete several configurations, on bo
 
 ## Licensing
 
-You must have a license and get entitlement to ERP Data Hub for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/licensing.md).
+You must have a license and get entitlement to ERP Data Hub for installation. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
@@ -102,7 +102,7 @@ For required spokes, contact the admin of your SAP ECC RFC account to obtain the
 
 The MID Server restarts multiple times during this process.
 
-For more information on spoke integration, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
+For more information on spoke integration, see .
 
 ## SAP configuration
 

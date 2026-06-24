@@ -18,7 +18,7 @@ Reuse an entire flow's content as a subflow. Define the input data the subflow u
 
 ## Before you begin
 
-Set up an application in Guided Application Creator to store Workflow Studio content.
+[Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
 
 Role required: flow\_designer or admin
 
@@ -26,7 +26,7 @@ Role required: flow\_designer or admin
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content allows you to deploy it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -206,7 +206,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 

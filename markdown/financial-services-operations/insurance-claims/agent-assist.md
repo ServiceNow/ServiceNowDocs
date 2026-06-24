@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d40943e93">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d40938e93">
 
 Option
 
-</th><th align="left" id="d40943e96">
+</th><th align="left" id="d40938e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d40943e102">
+</th></tr></thead><tbody><tr><td id="d40938e102">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d40943e123">
+</td></tr><tr><td id="d40938e123">
 
 **From the Individual death claim tasks list**
 
@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see Finding solutions using Agent assist.
+    For more information about Agent assist, see [Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/agent-assist.md).
 
 

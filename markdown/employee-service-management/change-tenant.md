@@ -4,8 +4,6 @@ description: Change the tenant to use pre-published apps in your environment.Ove
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/change-tenant.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Fill in the Google API Credentials form to configure the credential
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/google-api-credentials-form.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

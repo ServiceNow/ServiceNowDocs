@@ -4,8 +4,6 @@ description: You can approve a shift swap requested by your peer if you are avai
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/approve\_reject\_shift\_swaps.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

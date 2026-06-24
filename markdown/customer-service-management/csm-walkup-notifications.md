@@ -4,8 +4,6 @@ description: As an administrator, you can create and use notifications to notify
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-notifications.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,7 +42,7 @@ Walk-up Experience includes several base-system notifications that you can use o
     For more information, refer to the following topics:
 
     -   [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md)
-    -   [Create a push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateAPushMessage.md)
+    -   Create a push message
     For complete information regarding using the System Notification application, refer to [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/notifications.md).
 
 

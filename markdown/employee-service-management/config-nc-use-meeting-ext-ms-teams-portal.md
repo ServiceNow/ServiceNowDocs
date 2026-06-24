@@ -4,8 +4,6 @@ description: Create and configure an app for Meeting Extensions in Microsoft Tea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/config-nc-use-meeting-ext-ms-teams-portal.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

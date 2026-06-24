@@ -4,8 +4,6 @@ description: Integrate Customer Service Management with ServiceNow Safe Workplac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-integration-safe-workplace.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,7 +22,7 @@ As a consumer or contact, verify that you understand and comply with requirement
 
 As a customer or consumer service agent, screen contacts or consumers entering a location to ensure compliance with entry requirements such as a temperature check and Personal Protection Equipment \(PPE\).
 
-For more information on the Employee Health Screening application, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/safe-workplace/employee-health-screening.md).
+For more information on the Employee Health Screening application, see Employee Health Screening.
 
 ## Key features
 

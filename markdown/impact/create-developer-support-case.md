@@ -4,8 +4,6 @@ description: Enter a support case to engage Developer Support assistance, if you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/create-developer-support-case.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

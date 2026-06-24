@@ -4,8 +4,6 @@ description: The ServiceNow Customer Service Management product enables you to p
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_CustomerServiceManagement.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -54,7 +52,7 @@ The ServiceNow® Customer Service Management product enables you to provide the 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/release-notes/customer-service-mgmt-rn-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Service Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

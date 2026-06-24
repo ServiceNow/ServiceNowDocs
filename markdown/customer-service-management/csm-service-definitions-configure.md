@@ -4,8 +4,6 @@ description: Create service definitions for the types of services required to su
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-service-definitions-configure.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3

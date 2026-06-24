@@ -4,8 +4,6 @@ description: Set up self-configured apps to integrate with IT, HR, and Universal
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/c\_employee\_ex\_s\_tnt.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

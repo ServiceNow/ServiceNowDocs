@@ -105,7 +105,7 @@ Deposit contributor\[sn\_bom\_deposit\_b2c.contributor\]
 -   View the overall status of cases
 -   Work on deposit service cases and tasks until the Initiate and Review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -127,7 +127,7 @@ Deposit agent connector\[sn\_bom\_deposit\_b2c.agent\_connector\]
 -   View the overall status of cases
 -   Work on deposit service cases and tasks to fulfill requests for accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

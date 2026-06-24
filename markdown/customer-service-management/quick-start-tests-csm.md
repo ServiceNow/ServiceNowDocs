@@ -4,8 +4,6 @@ description: Quick start tests are part of the Automated Test Framework \(ATF\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/quick-start-tests-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-10-28"
 reading_time_minutes: 12

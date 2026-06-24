@@ -4,8 +4,6 @@ description: Understand the configuration of the field service feature in Engage
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/field-service-feature-configuration.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -36,6 +34,6 @@ To enable this functionality, ensure that you meet the following criteria:
 -   Activate the Field Service Management - Customer Experience plugin \(com.snc.fsm\_customer\_experience\).
 -   in the sys\_user table, enable the **Geolocation tracked** field for all your field service agents who would be assigned to the customer work orders.
 
-    For more information, see [Location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/r_LocationTracking.md).
+    For more information, see Location tracking.
 
 

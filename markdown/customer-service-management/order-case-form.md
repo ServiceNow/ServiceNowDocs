@@ -4,8 +4,6 @@ description: The order case form displays details about an order case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/order-case-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-09-16"
 reading_time_minutes: 3

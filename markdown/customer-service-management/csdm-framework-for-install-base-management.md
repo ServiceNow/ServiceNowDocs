@@ -4,8 +4,6 @@ description: The Common Service Data Model \(CSDM\) framework is a standard set 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csdm-framework-for-install-base-management.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ The Common Service Data Model \(CSDM\) framework is a standard set of terms and 
 
 The CSDM is the data framework that you follow when you set up ServiceNow products and applications. You adhere to the CSDM guidelines when you define the configuration items \(CIs\) and the relationships between CIs in the CMDB. This process helps to ensure that your data resides in the appropriate CMDB tables so that you get the maximum value from your ServiceNow AI Platform applications. To learn about CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
-To set up a CSDM environment for Install Base Management, see [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable.md).
+To set up a CSDM environment for Install Base Management, see .
 
 **Note:** It's optional to adopt CSDM. You can either adopt the CSDM framework or continue using the existing model.
 

@@ -4,8 +4,6 @@ description: If you cannot find relevant knowledge articles that could help reso
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-workspace-report-knowledge-gap.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,7 +22,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 You can search for and attach knowledge articles to a customer service case. If you cannot find any relevant articles, you can report a knowledge gap. If you have permission, you can also create a knowledge article.
 
-Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md).
+Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see Demand Insights for Cases dashboard.
 
 ## Procedure
 

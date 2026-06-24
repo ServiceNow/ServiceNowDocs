@@ -4,8 +4,6 @@ description: Search for work order tasks that require a crew in the Dispatcher W
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/search-crew-task.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

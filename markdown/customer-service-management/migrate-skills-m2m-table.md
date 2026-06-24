@@ -4,8 +4,6 @@ description: Migrate data from the Skills field to the Task Skills table to util
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migrate-skills-m2m-table.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,15 +30,15 @@ In the Field Service Management application, the work order task assignments don
 
 1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md) with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d168832e84">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d168819e84">
 
 Option
 
-</th><th align="left" id="d168832e87">
+</th><th align="left" id="d168819e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168832e93">
+</th></tr></thead><tbody><tr><td id="d168819e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -52,7 +50,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d168832e118">
+</td></tr><tr><td id="d168819e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

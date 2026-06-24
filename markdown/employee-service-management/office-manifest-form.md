@@ -4,8 +4,6 @@ description: The Office Manifest form helps you configure a manifest file for th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/office-manifest-form.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-03"
 reading_time_minutes: 1

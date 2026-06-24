@@ -7,7 +7,7 @@ release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ This feature is available only when you own an ITBM Analyst license.
 
 ## What to do next
 
-As a first step you must [define a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md). Based on the service that you offer and the utilization of the service, the showback statement is generated for a fiscal period, as a report, for the business unit that utilized the service.
+As a first step you must define a service. Based on the service that you offer and the utilization of the service, the showback statement is generated for a fiscal period, as a report, for the business unit that utilized the service.
 
 To measure the business services utilized and the resources used in terms of cost, the showback statement uses statement items. Statement items capture the source from where the cost details must be retrieved. [Determine the type of the statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/determine-statement-item.md), which in turn determines the source from where the cost data is retrieved.
 

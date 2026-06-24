@@ -38,5 +38,5 @@ The Self-Service application gives supported end users a clean, simple front end
 </table>-   **[Exploring Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/self-service/r_EmployeeSelfService.md)**  
 The Self-Service application gives supported end users a clean, simple front end to their IT support organization.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/manage-services.md)
 

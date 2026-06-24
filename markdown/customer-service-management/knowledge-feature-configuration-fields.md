@@ -4,8 +4,6 @@ description: Understand the configuration and related lists of the Knowledge fea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/knowledge-feature-configuration-fields.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -34,7 +32,7 @@ Article category that is shown on the home page of the messenger. You can select
 
 -   Featured articles: Articles that are based on the keywords that are associated with the articles.
 
-For information on displaying articles in the Featured content section, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md).
+For information on displaying articles in the Featured content section, see Add a knowledge article to featured content.
 
 -   Most viewed articles: Articles that have the highest view among the articles of your knowledge base.
 

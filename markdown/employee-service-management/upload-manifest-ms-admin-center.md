@@ -4,8 +4,6 @@ description: Upload the manifest file to the Microsoft admin center to enable th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-manifest-ms-admin-center.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-04"
 reading_time_minutes: 1

@@ -36,5 +36,5 @@ Use system properties to configure User Experience Analytics for Service Portal.
 
 [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 
-[bundle-platadm.c_UniqueRecordIdentifier]
+[Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UniqueRecordIdentifier.md)
 

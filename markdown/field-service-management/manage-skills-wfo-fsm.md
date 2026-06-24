@@ -4,8 +4,6 @@ description: Add or update skills for an agent. You can approve predicted skills
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/manage-skills-wfo-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -40,15 +38,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d38827e112">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d38823e112">
 
 To
 
-</th><th align="left" id="d38827e115">
+</th><th align="left" id="d38823e115">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d38827e121">
+</th></tr></thead><tbody><tr><td id="d38823e121">
 
 **Add a skill**
 
@@ -59,7 +57,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d38827e151">
+</td></tr><tr><td id="d38823e151">
 
 **Update a skill level**
 

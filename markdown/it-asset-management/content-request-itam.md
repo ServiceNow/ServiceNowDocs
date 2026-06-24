@@ -4,8 +4,6 @@ description: The IT Asset Management content services team manages and supports 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/content-request-itam.html
 release: xanadu
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Learn how contracts and entitlements using workflows enable you to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/using-customer-cnt-ent-wf.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-09-24"
 reading_time_minutes: 1

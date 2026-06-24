@@ -16,7 +16,7 @@ breadcrumb: [Field Service Management for Telecommunications, Telecommunications
 
 Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 
-With the use of the ServiceNow Telecommunication Open API \(com.sn\_tmf\_api\) application, you create appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order and assigned it to the field service agent. To learn more about booking appointments, see .
+With the use of the ServiceNow Telecommunication Open API \(com.sn\_tmf\_api\) application, you create appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order and assigned it to the field service agent. To learn more about booking appointments, see [Managing appointments in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/managing-appointments-fsm.md).
 
 This feature supports the following:
 
@@ -33,7 +33,7 @@ To learn more about the methods used to book and manage appointments, see .
 
 To manage appointment bookings in your system, you must create, modify, or enable the application configuration and the individual service configurations. Do the following steps to configure the appointment booking feature:
 
-1.  .
-2.  .
-3.  .
+1.  [Configure an appointment booking record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/field-service-scheduling/appt-booking-config-record-producer.md).
+2.  [Create or modify an appointment booking service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
+3.  [Configure variable in service catalog record producer for appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/field-service-scheduling/create-variable-in-catalog-record-producer-for-appoinment-booking.md).
 

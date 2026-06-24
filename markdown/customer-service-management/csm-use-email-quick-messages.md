@@ -4,8 +4,6 @@ description: Use predefined quick email messages to quickly draft replies to cus
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-use-email-quick-messages.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 1
@@ -28,8 +26,8 @@ You can incorporate icons, business logos, pictures, HTML layout, and rich text 
 
 For more information, see the following topics:
 
--   [Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/quick-message.md)
--   [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_QuickMessages.md)
+-   Composing emails with quick messages
+-   Define a quick message
 
 ## Procedure
 
@@ -49,7 +47,7 @@ For more information, see the following topics:
 **Related topics**  
 
 
-[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_QuickMessages.md)
+[bundle-platadm.t_QuickMessages]
 
-[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/quick-message.md)
+[bundle-platadm.quick-message]
 

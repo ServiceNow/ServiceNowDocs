@@ -4,8 +4,6 @@ description: The notifications added by ServiceNow for Microsoft Teams, might du
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/disable-notifications-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Configure a name-value pair for HTTP response headers for the Engag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-http-response-headers-for-ec.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -137,5 +135,5 @@ Detailed description for the HTTP response header.
 **Related topics**  
 
 
-[HTTP Response Headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/http-response-header.md)
+[bundle-platcap.http-response-header]
 

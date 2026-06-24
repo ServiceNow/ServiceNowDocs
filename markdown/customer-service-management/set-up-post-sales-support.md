@@ -4,8 +4,6 @@ description: Configure the features and components of Customer Contracts and Ent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/set-up-post-sales-support.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

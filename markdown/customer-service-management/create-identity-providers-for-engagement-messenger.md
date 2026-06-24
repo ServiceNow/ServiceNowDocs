@@ -4,8 +4,6 @@ description: Create an IdP for your Engagement Messenger so that you can enable 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-identity-providers-for-engagement-messenger.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +25,7 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 **Note:** If you have configured multiple IdPs on your instance and want to select a specific IdP for your Engagement Messenger module, do the following:
 
 -   [Enable Engagement Messenger on a website when third-party application cookies are blocked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/allowlist-em-third-party-website.md)
--   [Custom URL with Identity Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/custom-url-with-multiple-identity-providers.md)
+-   
 -   If you have multiple IdPs on your instance:
 
     -   In case of OIDC authentication type, the generated ID token should contain the client ID of a IdP record against which authentication is required.
@@ -43,8 +41,8 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 
 3.  Select either **OpenID Connect** or **SAML**.
 
-    -   If you select **OpenID Connect**, follow the procedure in [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md).
-    -   If you select **SAML**, follow the procedure from step 3 in [Create and update identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/t_CreateUpdateIdentityProvider.md).
+    -   If you select **OpenID Connect**, follow the procedure in Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\).
+    -   If you select **SAML**, follow the procedure from step 3 in Create and update identity providers.
 
 ## What to do next
 

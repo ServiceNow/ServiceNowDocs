@@ -61,5 +61,5 @@ Several types of components are installed with activation of Strategic Spend Tra
 **Related topics**  
 
 
-[List of plugins \(Xanadu\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

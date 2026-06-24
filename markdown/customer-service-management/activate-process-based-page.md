@@ -4,8 +4,6 @@ description: Activate a playbook page or page variant and set the page order. Th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-process-based-page.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

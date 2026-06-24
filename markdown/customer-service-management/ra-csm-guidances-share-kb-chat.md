@@ -4,8 +4,6 @@ description: The Share KB in chat interactions guidance recommends relevant know
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-guidances-share-kb-chat.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-10-24"
 reading_time_minutes: 1

@@ -37,7 +37,7 @@ Users may select the **Track Granular Findings** action to use the [Granular Fin
 
 ## Available Protections
 
-Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/column-level-encryption-landing.md).
+Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/column-level-encryption-landing.md).
 
 Protecton services can also be accessed from the Dashboard. For more information on the dashboard see, [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/data-discovery/data-discovery-landing.md).
 

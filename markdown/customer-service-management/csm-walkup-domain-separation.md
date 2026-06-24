@@ -4,8 +4,6 @@ description: This section is an overview of domain separation as it pertains to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-domain-separation.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -56,7 +54,7 @@ Elements of the Service Portal that are used as part of the walk-up experience a
 -   Theme \(Walk-up theme\)
 -   Widgets \(Online check-in experience, walk-up queue on site, walk-up check-in, walk-up exit survey, walk-up home, walk-up schedule\)
 
-To learn more, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md).
+To learn more, see Domain separation and Service Portal.
 
 For data separation, the CSM Walk-up Experience application uses the walk-up user \(Requester/Walkup login user\) domain to determine in which domain the requester data should be placed.
 

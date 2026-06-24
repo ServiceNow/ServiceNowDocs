@@ -7,7 +7,7 @@ release: xanadu
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Creating integrations with applications]
 ---

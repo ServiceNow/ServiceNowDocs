@@ -4,8 +4,6 @@ description: Several types of components are installed with the Case lines and w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-11-01"
 reading_time_minutes: 2

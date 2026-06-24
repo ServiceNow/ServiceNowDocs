@@ -4,8 +4,6 @@ description: Use the account hierarchy feature to create a parent-child relation
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_AccountHierarchy.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-06"
 reading_time_minutes: 1

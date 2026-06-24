@@ -4,8 +4,6 @@ description: The similar case recommendation feature uses additional search reso
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/similar-cases-additional-resources.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -170,7 +168,7 @@ The agent assist provides a recommendation for each of the two major case scenar
 -   Major case found: returns a list with one or more major cases created in the time-frame indicated in the solution definition that are similar to the current case. Cases are listed by similarity score. The default time-frame is set to the start of yesterday.
 -   No major case found: returns a recommendation based on the number of cases created in the time-frame indicated in the solution definition that are similar to the current case \(does not include any major cases\). The default time-frame is set to the start of yesterday.
 
-To configure the time-frame for the solution definition threshold, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
+To configure the time-frame for the solution definition threshold, see Update your similarity score threshold.
 
 If the Major Case agent assist recommendations find one or more major cases similar to the current case, the Predictive Intelligence tab displays these cases ranked by similarity score. The case with the highest score is highlighted with a white box and the title **Major Case** and includes a user action to link the current case to the major case.
 

@@ -4,8 +4,6 @@ description: You can install the Cloud Action Library application \(sn.itom.cal\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/install-cloud-actions-library.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

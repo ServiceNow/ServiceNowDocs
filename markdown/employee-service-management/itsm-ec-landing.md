@@ -4,8 +4,6 @@ description: Employee Center for IT Service Management \(ITSM\) helps you improv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/itsm-ec-landing.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2025-03-19"
 reading_time_minutes: 1

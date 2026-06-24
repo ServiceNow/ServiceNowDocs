@@ -4,8 +4,6 @@ description: Search for crews with specific attributes on Dispatcher Workspace s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/search-crews-disp-wrkspc.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

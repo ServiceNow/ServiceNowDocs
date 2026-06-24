@@ -39,7 +39,7 @@ Role required: admin and now.assist.creator \(as of Xanadu Store Release 2, if y
 
     If you have the delegated\_developer, now\_assist\_panel\_user, and now.assist.creator roles, but do not see the app that you need, contact your App Engine admin. Ask them to add you to the app as a delegated developer. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
-    To edit with Now Assist, ensure that your scope is set to the same scope as the app. If you aren't in the correct scope, return to the browser tab you used to launch ServiceNow Studio and use the scope picker to change the scope. \(For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationPicker.md).\) When you're finished, select the tab with ServiceNow Studio open and select **Done**.
+    To edit with Now Assist, ensure that your scope is set to the same scope as the app. If you aren't in the correct scope, return to the browser tab you used to launch ServiceNow Studio and use the scope picker to change the scope. \(For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationPicker.md).\) When you're finished, select the tab with ServiceNow Studio open and select **Done**.
 
 4.  Interact with Now Assist to edit the app.
 

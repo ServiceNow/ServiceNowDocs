@@ -42,7 +42,7 @@ Integrate the ServiceNow instance and SAP S4 HANA RFC spoke by using the Basic A
 
     4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP S4 HANA RFC admin.
 
-        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
+        For more information, see Synchronize a JAR file to MID Servers.
 
     **Note:** Ensure that the files are synchronized in the `<MID-Server-root-directory>/agent/extlib` directory. If the files aren't synchronized, restart the MID Server.
 

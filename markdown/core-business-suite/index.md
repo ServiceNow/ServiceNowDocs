@@ -3,8 +3,6 @@ title: Xanadu Core Business Suite
 locale: en-US
 release: xanadu
 bundle: cbs
-product: Core Business Suite
-classification: core-business-suite
 doc_type: toc
 ---
 

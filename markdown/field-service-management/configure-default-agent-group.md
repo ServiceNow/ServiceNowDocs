@@ -4,8 +4,6 @@ description: Set an assignment group as default to readily access them on the te
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configure-default-agent-group.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

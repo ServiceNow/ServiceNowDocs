@@ -4,8 +4,6 @@ description: Complete the following procedures to configure the HR Service Deliv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn-ms-teams-config-hr.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: To enable finding related major cases in a cluster, you must first 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/solution-definition-trending-case.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -36,7 +34,7 @@ You can modify the fields, filters, update frequency, and training frequency.
 
 3.  On the Similarity Definition form, verify the default field values.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
+    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
 
 4.  Change the fields and filters, as required.
 

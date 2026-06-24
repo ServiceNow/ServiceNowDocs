@@ -4,8 +4,6 @@ description: Customer service agents can copy content from response templates an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-aw-agent-use-response-template.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,5 +40,5 @@ The contextual side panel in CSM Configurable Workspace gives you access to info
 **Related topics**  
 
 
-[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md)
+[bundle-platcap.response-templates-templated-snippets]
 

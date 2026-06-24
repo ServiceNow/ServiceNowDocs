@@ -39,15 +39,15 @@ If there's a Customer or Consumer Service Portal available for customers, they g
 
 3.  Open the debit approval payment service case from a claim case or from the Debit Approvals list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d40108e106">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d40103e106">
 
 Option
 
-</th><th align="left" id="d40108e109">
+</th><th align="left" id="d40103e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d40108e115">
+</th></tr></thead><tbody><tr><td id="d40103e115">
 
 **From a claim case**
 
@@ -58,7 +58,7 @@ Steps
 3.  In the **Debit approval** field on the claim form, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon\) next to the debit approval case number.
 
 
-</td></tr><tr><td id="d40108e154">
+</td></tr><tr><td id="d40103e154">
 
 **From the Debit Approvals list**
 

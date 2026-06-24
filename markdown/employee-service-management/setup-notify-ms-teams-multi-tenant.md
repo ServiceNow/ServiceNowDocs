@@ -4,8 +4,6 @@ description: Set up the Notify connector for Microsoft Teams using the pre-publi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/setup-notify-ms-teams-multi-tenant.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

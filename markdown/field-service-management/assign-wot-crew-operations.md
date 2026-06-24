@@ -4,8 +4,6 @@ description: Assign crews to work order tasks that require a group of agents to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-crew-operations.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -53,15 +51,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d40842e141">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d40838e141">
 
 Option
 
-</th><th align="left" id="d40842e144">
+</th><th align="left" id="d40838e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40842e150">
+</th></tr></thead><tbody><tr><td id="d40838e150">
 
 **To assign a task manually**
 
@@ -71,7 +69,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d40842e174">
+</td></tr><tr><td id="d40838e174">
 
 **To auto-assign a task**
 

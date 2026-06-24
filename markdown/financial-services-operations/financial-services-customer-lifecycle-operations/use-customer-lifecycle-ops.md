@@ -26,7 +26,7 @@ Relationship managers, administrators, and agents use workspaces and landing pag
 -   Customizing your workflow.
 -   Monitoring workload and performance.
 
-For more information on workspaces and playbooks, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-workspace.md).
+For more information on workspaces and playbooks, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-workspace.md).
 
 ## Workflows
 

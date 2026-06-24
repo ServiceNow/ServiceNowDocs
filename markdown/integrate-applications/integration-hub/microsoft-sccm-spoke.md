@@ -45,7 +45,7 @@ The Microsoft System Center Configuration Management \(SCCM\) spoke spoke provid
 |Is User In Collection|Checks if a specified user exists in a user collection.|
 |Remove From User Collection|Removes a user from a user collection.|
 
-To see inputs and outputs for these activities, see [SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md).
+To see inputs and outputs for these activities, see SCCM activity pack.
 
 ## Connection and credential alias requirements
 

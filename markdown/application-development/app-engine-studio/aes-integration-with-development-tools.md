@@ -56,7 +56,7 @@ See [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/S
 
 </td></tr><tr><td>
 
-[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
+Decision tables in Workflow Studio
 
 </td><td>
 
@@ -104,7 +104,7 @@ See [ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/Serv
 
 </td></tr><tr><td>
 
-[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md)
+Flows in Workflow Studio
 
 </td><td>
 
@@ -116,7 +116,7 @@ See [Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/Servi
 
 </td></tr><tr><td>
 
-[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+Integration Hub - Import
 
 </td><td>
 

@@ -4,8 +4,6 @@ description: Learn about how the Workspace Agent assist functions with Configura
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migration-agent-assist.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-02-04"
 reading_time_minutes: 1
@@ -22,6 +20,6 @@ Agent assist provides agents with automatic search results that show possible so
 
 For more information about using contextual search for Agent Assist, see the following topics:
 
--   [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/contextual-search/c_ContextualSearch.md)
+-   
 -   
 

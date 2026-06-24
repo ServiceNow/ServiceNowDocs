@@ -4,8 +4,6 @@ description: Authorize the pre-published SSO and Activity Notification apps to e
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/authorize-prepub-azure-apps-meeting.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

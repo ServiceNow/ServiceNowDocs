@@ -4,8 +4,6 @@ description: The contextual side panel offers valuable insights and easy access 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-territory-details-in-csp.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -40,15 +38,15 @@ Territory Key Performance Indicators \(KPIs\) offer valuable insights into the p
 
 3.  View details in the contextual side panel.
 
-<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d37092e114">
+<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d37088e114">
 
 To view
 
-</th><th align="left" id="d37092e117">
+</th><th align="left" id="d37088e117">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d37092e123">
+</th></tr></thead><tbody><tr><td id="d37088e123">
 
 **Map overlay data items**
 
@@ -58,7 +56,7 @@ Do the following
 -   You can customize the display using the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon\).
 
 
-</td></tr><tr><td id="d37092e147">
+</td></tr><tr><td id="d37088e147">
 
 **Territory**
 

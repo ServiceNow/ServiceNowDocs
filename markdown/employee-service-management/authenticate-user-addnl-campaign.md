@@ -4,8 +4,6 @@ description: Assign additional Microsoft Azure permissions to users to enable Mi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/authenticate-user-addnl-campaign.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

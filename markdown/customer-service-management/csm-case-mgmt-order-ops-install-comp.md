@@ -4,8 +4,6 @@ description: Several types of components are installed with the Order Operations
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-case-mgmt-order-ops-install-comp.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-20"
 reading_time_minutes: 7

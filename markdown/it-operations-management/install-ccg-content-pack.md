@@ -4,8 +4,6 @@ description: You can install the CCG Content Pack application \(sn\_itom\_ccg\_c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/install-ccg-content-pack.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

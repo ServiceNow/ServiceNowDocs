@@ -4,8 +4,6 @@ description: The following properties are installed with the Outlook Actionable 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/properties-sn-ms-outlook.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

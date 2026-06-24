@@ -28,7 +28,7 @@ Role required: admin
 
 ## About this task
 
-When you select an application in the application picker, application files are automatically assigned to it. You cannot move an application file into or out of a scoped application. See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
+When you select an application in the application picker, application files are automatically assigned to it. You cannot move an application file into or out of a scoped application. See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_ApplicationScope.md).
 
 ## Procedure
 

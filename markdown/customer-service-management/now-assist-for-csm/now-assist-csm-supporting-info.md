@@ -74,7 +74,7 @@ Now Assist for CSM supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+For more info, see 
 
 ## Application information
 

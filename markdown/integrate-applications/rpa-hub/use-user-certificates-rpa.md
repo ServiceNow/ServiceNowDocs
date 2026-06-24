@@ -140,11 +140,11 @@ Generate a code signing certificate for publishing an automation project from RP
 
 ### What to do next
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Install the generated client authentication and code signing certificate. For more information, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/use-user-certificates-rpa.md).
 
@@ -156,11 +156,11 @@ Install the user generated \(client authentication and code signing\) certificat
 
 Generate a client authentication and a code signing certificate. For more information, see [Generate a user certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/use-user-certificates-rpa.md).
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Role required: admin
 

@@ -34,11 +34,11 @@ Role required: an\_sprb\_mgmt.agent
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-service-definitions.md).
+    For more information about service definition, see .
 
 7.  Select **Create case**.
 
-    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see [Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/setup-record-generator-for-case-type.md).
+    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see .
 
 8.  On the intake form of verify issue, fill in the fields.
 

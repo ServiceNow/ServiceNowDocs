@@ -7,7 +7,7 @@ release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Define a consumption statement item, Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

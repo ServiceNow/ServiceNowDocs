@@ -4,8 +4,6 @@ description: Enable link unfurling in the manifest file to preview the content o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/unfurl-links-it.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

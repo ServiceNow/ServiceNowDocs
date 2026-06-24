@@ -4,8 +4,6 @@ description: Create a work order for an asset through the Field Service Contract
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-wot-asset-contrator-mob.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     -   Enter the asset code in **Asset Tag**.
 4.  Tap the asset record and do one of the following actions.
 
-<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d68517e94">
+<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d68513e94">
 
 **To create a work order for this asset**
 

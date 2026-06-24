@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/download-grc-first-time.md).
 
 
 **Parent Topic:**[Risk Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/risk-impl-overview.md)

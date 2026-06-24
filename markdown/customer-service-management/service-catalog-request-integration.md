@@ -4,8 +4,6 @@ description: Users with the customer administrator role \(sn\_customerservice.cu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/service-catalog-request-integration.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -18,7 +16,7 @@ Users with the customer administrator role \(sn\_customerservice.customer\_admin
 
 The following catalog pages and widgets are provided as part of the Customer Service with Request Management integration.
 
-For more information, see [Associate a portal with a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+For more information, see Associate a portal with a catalog.
 
 ## CSM Catalog page
 

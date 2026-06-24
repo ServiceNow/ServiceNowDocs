@@ -4,8 +4,6 @@ description: Create a work order for a customer service case as part of the case
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateAWorkOrderForACase.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ After a work order is created, it appears in the **Work Orders** related list on
 
 3.  Fill in the fields on the Work Order form.
 
-    For more information, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/t_CreateAWorkOrder.md).
+    For more information, see Create a work order.
 
 4.  Click **Update**.
 
@@ -40,5 +38,5 @@ After a work order is created, it appears in the **Work Orders** related list on
 **Related topics**  
 
 
-[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/c_ManageWorkOrders.md)
+[bundle-fsm.c_ManageWorkOrders]
 

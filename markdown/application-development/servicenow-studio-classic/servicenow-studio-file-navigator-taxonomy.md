@@ -48,7 +48,7 @@ Action
 
 Actions automate a repeatable task or operation within a flow as a sequence of related steps. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
 
- For more information, see [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-actions.md).
+ For more information, see .
 
 </td><td>
 
@@ -66,7 +66,7 @@ Activity definition
 
 Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs. Each activity definition contains some basic configuration details, as well as an automation plan and activity experience.
 
- For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/activity-definitions.md).
+ For more information, see .
 
 </td><td>
 
@@ -102,7 +102,7 @@ Datastream
 
 A datastream is a reusable action that processes a stream of response data within a flow. For example, you can create a data stream action to import a large quantity of employee data from a third-party HR site.
 
- For more information, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/data-stream-actions.md).
+ For more information, see .
 
 </td><td>
 
@@ -120,7 +120,7 @@ Decision table
 
 Decision tables decouple decision logic from your code by creating and maintaining decision rules. Decision tables provide a single point where you can create, view, and modify decisions.
 
- For more information, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
+ For more information, see .
 
 </td><td>
 
@@ -156,7 +156,7 @@ Flow
 
 Flows are automated processes that consist of a trigger and a sequence of reusable actions and flow logic. The trigger specifies when to run the flow. The actions perform a sequence of operations on your data. For example, the Visual Task Boards \(VTB\) Sample Flow creates and assigns a VTB card whenever a priority 1 incident is created.
 
- For more information, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md).
+ For more information, see .
 
 </td><td>
 
@@ -210,7 +210,7 @@ Subflow
 
 Subflows are processes that consist of a sequence of reusable actions and flow logic, data inputs, and outputs. In contrast to flows, subflows don’t have a trigger but instead run when called from a playbook, flow, another subflow, or a script.
 
- For more information, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-subflows.md).
+ For more information, see .
 
 </td><td>
 
@@ -357,7 +357,7 @@ UI Extension Instance
 
 Use a UI extension instance to create a registered instance of a UI extension point that links a UI macro with a UI extension point. The macro can be called whenever the UI extension point is invoked.
 
- For more information, see [Creating and adding a UI extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/impl-ui-ext-pts-base-code.md).
+ For more information, see .
 
 </td><td>
 
@@ -708,7 +708,7 @@ Data Import
 
 Use data imports to view the all the records that are being processed for an import job and also the import jobs that are awaiting approvals.
 
- For more information, see [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md) and [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
+ For more information, see  and .
 
 </td><td>
 
@@ -726,7 +726,7 @@ Data Source
 
 A data source specifies how and where to get the data you want to import.
 
- For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_DataSources.md) and [Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/configure-data-source.md).
+ For more information, see  and .
 
 </td><td>
 
@@ -744,7 +744,7 @@ Scheduled Data Import
 
 Scheduled data imports specify to import data from data sources using import sets. Transform maps are applied to the imported data before writing the data to the target table.
 
- For more information, see [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
+ For more information, see .
 
 </td><td>
 
@@ -762,7 +762,7 @@ Scheduled Data Import
 
 Scheduled data imports specify to import data from data sources. Transform maps are applied to the imported data before writing the data to the target table.
 
- For more information, see [Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
+ For more information, see .
 
 </td><td>
 
@@ -780,7 +780,7 @@ Scripted REST API
 
 Use scripted REST APIs to build custom web service APIs for your application. You can define service endpoints, query parameters, and headers for a scripted REST API, as well as scripts to manage the request and response.
 
- For more information, see [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
+ For more information, see .
 
 </td><td>
 
@@ -798,7 +798,7 @@ Scripted Web Service
 
 Scripted web services enable developers to create their own APIs on the ServiceNow AI Platform. Third-party applications use scripted web services to access records in ServiceNow tables.
 
- For more information, see [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/r_AvailableWebServices.md).
+ For more information, see .
 
 </td><td>
 
@@ -816,7 +816,7 @@ Table Transform Map
 
 Transform maps contain a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\]. After creating a transform map, you can reuse it to map data from another import set to the same table.
 
- For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
+ For more information, see .
 
 </td><td>
 
@@ -855,7 +855,7 @@ Export Definition
 
 Export definitions determine the data to include in an export set.
 
- For more information, see [Create an export definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-export-sets/t_CreateAnExportDefinition.md).
+ For more information, see .
 
 </td><td>
 
@@ -873,7 +873,7 @@ Export Set
 
 Export sets define the data to export, as well as the export target to use when exporting data. For example, you can push data from an instance to an external file.
 
- For more information, see [Create an export set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-export-sets/t_CreateAnExportSet.md).
+ For more information, see .
 
 </td><td>
 
@@ -891,7 +891,7 @@ Export Target
 
 Export targets specify the target file on a MID Server to which the export set data will be written.
 
- For more information, see [Create an export target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-export-sets/t_CreateAnExportTarget.md).
+ For more information, see .
 
 </td><td>
 
@@ -909,7 +909,7 @@ REST Message
 
 A REST message is a record that stores details on how to interact with an external web service through REST. Use REST messages to send requests to a REST web service endpoint by creating a REST message record.
 
- For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
+ For more information, see .
 
 </td><td>
 
@@ -927,7 +927,7 @@ Scheduled Data Export
 
 Scheduled data exports specify a schedule when export sets will be run. A single export can be scheduled or regular intervals can be scheduled with support for including only delta records.
 
- For more information, see [Schedule an export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-export-sets/t_ScheduleAnExport.md).
+ For more information, see .
 
 </td><td>
 
@@ -945,7 +945,7 @@ SOAP Message
 
 A SOAP message is a record that stores details on how to interact with an external web service through SOAP. SOAP messages define the remote endpoint, web services description language \(WSDL\), and authentication settings.
 
- For more information, see [SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/web-services/c_SOAPMessage.md).
+ For more information, see .
 
 </td><td>
 
@@ -1002,7 +1002,7 @@ MID Server Capability Value Test
 
 MID Server capabilities define the specific functions of a MID Server within an IP address range. The capability value can be empty, a single value, or a \* \(wildcard\). You can use value tests to create capabilities that find devices using values without requiring exact string matching.
 
- For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
+ For more information, see .
 
 </td><td>
 
@@ -1890,7 +1890,7 @@ Event Registration
 
 Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions. By registering an event, you can define properties about the event and associate the event with the business rule that fires the event.
 
- For more information, see [Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/t_RegisterAnEvent.md).
+ For more information, see .
 
 </td><td>
 
@@ -1944,7 +1944,7 @@ Fix Script
 
 Fix scripts are server-side JavaScript that run after a custom application is installed or upgraded. You can include fix scripts to make changes that are necessary for the data integrity or product stability of an application.
 
- For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/t_CreateFixScripts.md).
+ For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/t_CreateFixScripts.md).
 
 </td><td>
 
@@ -1980,7 +1980,7 @@ Script Action
 
 A script action is server-side JavaScript that is executed when a particular event is generated.
 
- For more information, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/system-events/r_ScriptActions.md)
+ For more information, see 
 
 </td><td>
 
@@ -2379,7 +2379,7 @@ Style
 
 Styles define properties such as font size, border, and alignment for text that appears in your app.
 
- For more information, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-next-experience-style.md) and [Style - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/StyleBothAPI.md).
+ For more information, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-next-experience-style.md) and .
 
 </td><td>
 

@@ -4,8 +4,6 @@ description: The Asset Management application uses the Asset form to store asset
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-service-asset-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 9
@@ -139,7 +137,7 @@ Parent
 
 </td><td>
 
-Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see [Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md).
+Parent asset of the asset. For example, a monitor or peripheral can have a workstation as their parent asset. When a parent link is defined, the fields related to assignment and state of the child assets is set to read-only and are populated based on the parent assignment and state fields. For more information, see .
 
 </td></tr><tr><td>
 
@@ -185,7 +183,7 @@ Also, when you set the Location field to a place and then set the **sn\_itam\_c
 
 Location map doesn’t appear for excluded assets.
 
-You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see [Track asset location using indoor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.md).
+You can also track your asset location using the Asset Indoor map in the Asset estate view of the Hardware Asset Workspace. For more information, see .
 
 </td></tr><tr><td>
 

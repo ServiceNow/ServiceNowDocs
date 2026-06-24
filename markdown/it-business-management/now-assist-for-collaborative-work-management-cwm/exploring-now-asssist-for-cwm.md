@@ -18,7 +18,7 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
 
 ## Skills
 
--   **[Docs summarization in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-cwm-doc-summarization.md)**
+-   ****
 
     Gain insights into the contents of the page by summarizing it in CWM Docs. Whether you're reviewing long documents or preparing for meetings, Doc summarization skill helps you stay informed and efficient.
 
@@ -26,7 +26,7 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
 
     \[Omitted image "cwm-na-doc-summarization.png"\] Alt text: Doc summarization using Now Assist for CWM.
 
--   **[Task generation in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-cwm-task-generation-skill.md)**
+-   ****
 
     Creating tasks with detailed descriptions for your CWM Board requires significant time and manual effort. If the tasks aren’t detailed enough, it can lead to confusion and misalignment within the team, affecting their understanding of the expected outcomes. To avoid this manual effort and improve time to value, Now Assist can generate tasks for your Board using the information in your Docs. This way, you can ensure clear and comprehensive task descriptions, allowing you to focus more on execution and less on the administrative work.
 
@@ -51,7 +51,7 @@ An administrator can activate and manage Now Assist features and skills for the 
 
 ## Now Assist panel in CWM workspace
 
-A knowledge worker can use the Now Assist panel in CWM workspace. This conversational interface enables the user to generate CWM tasks from the context of a Doc page. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+A knowledge worker can use the Now Assist panel in CWM workspace. This conversational interface enables the user to generate CWM tasks from the context of a Doc page. For more information about the Now Assist panel, see .
 
 ## What to explore next
 

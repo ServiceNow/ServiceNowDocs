@@ -20,20 +20,20 @@ Workflow Studio provides a set of subflows that are preconfigured to be compatib
 |----|-----------------|-------------------|
 |Send Email|Conversational subflows and actions|admin|
 |Send SMS|Conversational subflows and actions|admin|
-|Look up Opportunities - Sample||admin|
-|Look up Contacts - Sample||admin|
-|Look up Accounts - Sample||admin|
-|Look up Leads - Sample||admin|
-|Create Lead - Sample||admin|
-|Add User to Group - Sample||admin|
-|Add User to Group using Email Address - Sample||admin|
-|Look up Direct Reports - Sample||admin|
-|Look up Group Members - Sample||admin|
-|Look up Groups - Sample||admin|
-|Look up Users - Sample||admin|
-|Look up Purchase Order - Sample||admin|
-|Look up Images - Sample||admin|
-|Run Instances - Sample||admin|
+|Look up Opportunities - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)|admin|
+|Look up Contacts - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)|admin|
+|Look up Accounts - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)|admin|
+|Look up Leads - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)|admin|
+|Create Lead - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)|admin|
+|Add User to Group - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Add User to Group using Email Address - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Look up Direct Reports - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Look up Group Members - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Look up Groups - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Look up Users - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)|admin|
+|Look up Purchase Order - Sample|[Coupa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/coupa-spoke.md)|admin|
+|Look up Images - Sample|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/amazon-ec2-spoke.md)|admin|
+|Run Instances - Sample|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/amazon-ec2-spoke.md)|admin|
 
 **Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/conversational-subflows.md)
 

@@ -4,8 +4,6 @@ description: If you have the admin role, you can configure the Now Assist for Em
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-nowassist-emp-exp.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-04-25"
 reading_time_minutes: 1

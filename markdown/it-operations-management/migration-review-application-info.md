@@ -4,8 +4,6 @@ description: Review the information on the discovered applications to understand
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/migration-review-application-info.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

@@ -24,7 +24,7 @@ The steps for configuring users are:
 
     Simplify user administration by assigning roles to user groups instead of individual users. Create user groups that contain all the roles required by each type of user, and then assign users to those groups. The users inherit all the roles assigned to the user group.
 
-2.  Create a user
+2.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAUser.md)
 
     Create users using the ServiceNow AI Platform user administration feature or during guided setup.
 

@@ -4,8 +4,6 @@ description: Notifications for alerts and other system activity are displayed on
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/i-o-notifications.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

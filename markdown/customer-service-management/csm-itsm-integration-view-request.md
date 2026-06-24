@@ -4,8 +4,6 @@ description: With access to problem, change, and request records, external custo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-itsm-integration-view-request.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -50,7 +48,7 @@ Customers can also view Known Error articles for a problem related to a case. Th
 
 3.  Define the views for the problem, change, and request records and select the fields that are visible to external customers.
 
-    For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md).
+    For more information, see Create and delete views.
 
     **Note:** For the Consumer Service Portal, you can define views and select fields for problem and change records. Request records display a default set of fields in the Ticket Fields widget.
 

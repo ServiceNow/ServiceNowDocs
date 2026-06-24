@@ -4,8 +4,6 @@ description: The Teams Chat widget enables employees to view or continue chats w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/config-std-ticket-page-teams-hr.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

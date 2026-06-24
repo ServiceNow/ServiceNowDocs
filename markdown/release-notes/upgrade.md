@@ -18,7 +18,7 @@ Before you begin the upgrade process, read the [Xanadu release notes](https://ra
 
 \[Omitted image "upgrade-cycle-at-large.png"\] Alt text: Prepare, upgrade and test the test instance, upgrade and test production instance
 
-System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see [List of Xanadu plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-of-plugins.md).
+System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see List of Xanadu plugins.
 
 Careful preparation and knowledge of the available software, tools, and resources can contribute to a successful upgrade. In addition to the materials provided by ServiceNow, it is important to understand how your ServiceNow instance is currently operating and the performance level of key business functionality. Set the expectation with IT and business users that time must be dedicated to preparing for, implementing, and testing ServiceNow upgrades.
 
@@ -111,7 +111,7 @@ This instance naming convention assumes that you have three ServiceNow instances
 2.  Test
 3.  Production
 
-If you have more or less than three instances, or if you are using Team Development, these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
+If you have more or less than three instances, or if you are using [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/team-development/c_TeamDevelopment.md), these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
 
 <table id="table_uzh_mqs_tx"><thead><tr><th>
 
@@ -135,8 +135,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
+-   Use the ServiceNow [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/quick-start-tests.md).
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 </td></tr><tr><td>
@@ -145,7 +145,7 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>If you encounter any post-upgrade issues, document the issue's conditions, steps to reproduce the issue, and your customizations. [Contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html) to open an incident for each issue, and provide this information accordingly. Customer Service and Support is available 24 hours a day, 7 days a week to assist you with any questions or issues.

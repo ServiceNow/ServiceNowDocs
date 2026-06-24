@@ -4,8 +4,6 @@ description: The Office Control form helps you create a button, menu, or menu it
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/office-control-form.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-03"
 reading_time_minutes: 1

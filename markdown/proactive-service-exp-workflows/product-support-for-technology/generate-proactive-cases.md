@@ -38,7 +38,7 @@ Role required: admin
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-service-definitions.md).
+    For more information about service definition, see .
 
 8.  Select the **Recommended Services**.
 

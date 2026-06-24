@@ -4,8 +4,6 @@ description: The Order case record page displays information about order cases a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-order-case-record-page.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-10-31"
 reading_time_minutes: 8
@@ -163,7 +161,7 @@ The contextual side panel component includes different tools that agents can use
 
  For more information about related lists, see the [Order case record page related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
- **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/create-modify-templated-snippet.md).
+ **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see Create or modify a response template.
 
 </td></tr></tbody>
 </table>## Order case record page settings

@@ -4,8 +4,6 @@ description: Employees and agents can work together to resolve their issues for 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/c\_using\_sn\_ms\_teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 1

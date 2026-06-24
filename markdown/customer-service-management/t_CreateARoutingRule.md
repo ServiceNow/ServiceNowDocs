@@ -4,8 +4,6 @@ description: Create a matching rule for a customer service case that identifies 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateARoutingRule.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -153,7 +151,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 8.  In the **Use for** field, specify how you want the matching criterion to be used.
 
-<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d96908e355">
+<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d96905e355">
 
 **Ranking and display**
 
@@ -161,7 +159,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 Use the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d96908e364">
+</td></tr><tr><td id="d96905e364">
 
 **Display only**
 
@@ -169,7 +167,7 @@ Use the criterion to determine agent ranking and displays it in a column on the 
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d96908e373">
+</td></tr><tr><td id="d96905e373">
 
 **Ranking only**
 
@@ -180,7 +178,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>9.  Select a **Ranking Method**.
 
-<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d96908e394">
+<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d96905e394">
 
 **More is better**
 
@@ -188,7 +186,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d96908e403">
+</td></tr><tr><td id="d96905e403">
 
 **Less is better**
 

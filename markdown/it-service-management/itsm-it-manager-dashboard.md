@@ -4,8 +4,6 @@ description: Follow the daily and weekly progress of incidents, problems, and re
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-it-manager-dashboard.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 10

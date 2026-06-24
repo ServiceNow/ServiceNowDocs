@@ -69,5 +69,5 @@ Use the Work item form to view more details of the executed work items.
 -   **[Visibility conditions of the UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/visibility-cond-button-rpa.md)**  
 Ensure the following conditions are met to view the UI action \(button\) on the corresponding ServiceNow form, for the associated table that is selected in the Attended Configuration record. The visibility of the UI action is limited to classic environment.
 
-**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/create-integrations-applications.md)
 

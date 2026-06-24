@@ -111,5 +111,5 @@ Mark the bot process as ready for migration in RPA Hub so that the bot process c
 -   **[Migrate the bot process configuration to another environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/migrate-bot-process.md)**  
 Migrate the bot process configuration and associated assets to another environment in RPA Hub. With this feature, you can create an automation and test it in a lower environment and then migrate it to a higher or production environment.
 
-**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/create-integrations-applications.md)
 

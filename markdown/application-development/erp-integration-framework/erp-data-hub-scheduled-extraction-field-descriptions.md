@@ -84,7 +84,7 @@ Maximum no of retries on error
 
 </td><td>
 
-If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
+If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see .
 
 </td></tr><tr><td>
 

@@ -4,8 +4,6 @@ description: Learn how the Workspace declarative actions function with configura
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migration-form-declarative-actions.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-07-30"
 reading_time_minutes: 1
@@ -40,8 +38,8 @@ Action Assignment \[sys\_declarative\_action\_assignment\]
 </table>To migrate a declarative action, convert your custom declarative actions to new UXF Client Action type, and then define the corresponding add-on event mapping. For more information, see the following topics:
 
 -   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
--   [Create a UXF client action for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-a-new-uxf-client-action-for-forms.md)
--   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
+-   Create a UXF client action for forms
+-   Declarative actions glossary
 -   Custom Playbook actions
 
 **Related topics**  

@@ -4,8 +4,6 @@ description: Set up a training model to help it recognize similarities between t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-a-custom-similar-case-model.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-10-29"
 reading_time_minutes: 4

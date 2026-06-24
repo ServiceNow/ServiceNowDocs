@@ -16,7 +16,7 @@ breadcrumb: [Scripting, Building pro-code applications, Developing your applicat
 
 The code editor provides support to use programming language services in a text editor and is used in scripts.
 
-The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/inline-scripts.md).
+The code editor has these features for the supported language services and Inline scripts.
 
 -   Syntax coloring, indentation, line numbers, and automatic creation of closing braces and quotes
 -   Auto-suggestions and auto-completions

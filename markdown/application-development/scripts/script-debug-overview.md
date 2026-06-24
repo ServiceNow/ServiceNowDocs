@@ -22,7 +22,7 @@ Use the Script Debugger and session logs to debug server-side code. For more inf
 
 You can also use session debug to display error messages related to a server-side script that runs as a result of a client-side change. For more information, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_SessionDebug.md).
 
-GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values. For more information, see [GSLog API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/GSLogBoth.md).
+GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values. For more information, see GSLog API.
 
 ## Debugging client-side scripts
 

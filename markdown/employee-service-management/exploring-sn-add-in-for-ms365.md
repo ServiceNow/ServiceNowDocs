@@ -4,8 +4,6 @@ description: ServiceNow Add-in for Microsoft 365 provides quick links to employe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/exploring-sn-add-in-for-ms365.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-29"
 reading_time_minutes: 1

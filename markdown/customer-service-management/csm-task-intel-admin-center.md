@@ -4,8 +4,6 @@ description: Use the Task Intelligence Admin Console to create, train, and deplo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-task-intel-admin-center.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

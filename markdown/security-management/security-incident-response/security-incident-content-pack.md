@@ -20,7 +20,7 @@ Platform Analytics data visualizations use Performance Analytics [indicator](htt
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
-The Security Incident Response Performance Analytics Solution is available from the ServiceNow Store. For information about downloading and installing this application, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-and-store.md).
+The Security Incident Response Performance Analytics Solution is available from the ServiceNow Store. For information about downloading and installing this application, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/secops-and-store.md).
 
 **Note:** To evaluate the functionality, you can activate Performance Analytics solutions and in-form analytics on instances that have not licensed Performance Analytics. However, you have the following limitations:
 

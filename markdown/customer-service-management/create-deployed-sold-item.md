@@ -4,8 +4,6 @@ description: Create an installed product to create an association between sold p
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-deployed-sold-item.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

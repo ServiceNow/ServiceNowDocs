@@ -4,8 +4,6 @@ description: Manage agent scheduling and availability, use the mobile app to per
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/manage-schedules-and-sites.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-11-15"
 reading_time_minutes: 1

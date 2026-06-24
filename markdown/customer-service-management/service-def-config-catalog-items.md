@@ -4,8 +4,6 @@ description: After creating a service definition, you can associate one or more 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/service-def-config-catalog-items.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -50,5 +48,5 @@ A variable set for service definitions is available with the Customer Service Ca
 
 [Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 
-[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
+[bundle-platcap.t_DefineACatalogItem]
 

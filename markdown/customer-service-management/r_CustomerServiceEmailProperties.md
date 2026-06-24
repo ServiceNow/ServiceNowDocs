@@ -4,8 +4,6 @@ description: If you have the administrator role, you can set several properties 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_CustomerServiceEmailProperties.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

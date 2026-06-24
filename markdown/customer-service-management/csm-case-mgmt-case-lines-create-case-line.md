@@ -4,8 +4,6 @@ description: Agents can create case line items for cases and create tasks for ca
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-case-mgmt-case-lines-create-case-line.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-09-16"
 reading_time_minutes: 2

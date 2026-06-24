@@ -7,7 +7,7 @@ release: xanadu
 product: RPA Hub
 classification: rpa-hub
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 4
 breadcrumb: [Using automations, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Creating integrations with applications]
 ---

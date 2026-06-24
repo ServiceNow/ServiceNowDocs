@@ -109,7 +109,7 @@ All
 
 </td><td>
 
-Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Adjuster
 
 This adjuster workspace UI Builder page has been set up in Insurance claims.If necessary, you can clone this workspace and modify it to be more specific to your particular line of business.
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 

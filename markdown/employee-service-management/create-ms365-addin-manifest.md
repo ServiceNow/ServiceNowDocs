@@ -4,8 +4,6 @@ description: Create and download a manifest file with the configurations that yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-ms365-addin-manifest.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-02"
 reading_time_minutes: 1

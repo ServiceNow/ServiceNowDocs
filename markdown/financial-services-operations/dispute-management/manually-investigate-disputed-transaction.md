@@ -20,7 +20,7 @@ If a merchant refuses a transaction dispute, the case may move to the manual inv
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -58,15 +58,15 @@ When a case moves to the Manual investigation task, a dispute agent reviews case
 
 12. Close the task from the playbook.
 
-<table id="choicetable_dpp_ngx_f5b"><thead><tr><th align="left" id="d46298e213">
+<table id="choicetable_dpp_ngx_f5b"><thead><tr><th align="left" id="d46293e213">
 
 Dispute activity
 
-</th><th align="left" id="d46298e216">
+</th><th align="left" id="d46293e216">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46298e222">
+</th></tr></thead><tbody><tr><td id="d46293e222">
 
 **To close the Manual investigation task**
 

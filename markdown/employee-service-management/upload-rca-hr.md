@@ -4,8 +4,6 @@ description: Import update set from XML to provide cross-scope access to HR Serv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-rca-hr.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

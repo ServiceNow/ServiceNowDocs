@@ -4,8 +4,6 @@ description: As a customer, you can request a callback from a customer service a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/request-callback-from-em.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,15 +36,15 @@ You can request an immediate callback only over a voice channel. Use the **Call 
 
 4.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d58621e133">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d58624e133">
 
 Type of callback
 
-</th><th align="left" id="d58621e136">
+</th><th align="left" id="d58624e136">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58621e142">
+</th></tr></thead><tbody><tr><td id="d58624e142">
 
 **Immediate voice callback**
 
@@ -54,7 +52,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d58621e154">
+</td></tr><tr><td id="d58624e154">
 
 **Scheduled voice or video callback**
 

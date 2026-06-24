@@ -4,8 +4,6 @@ description: The Office Mailbox to Form Field Mappings form helps you map an ema
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mailbox-form-mapping-form.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2024-09-05"
 reading_time_minutes: 1

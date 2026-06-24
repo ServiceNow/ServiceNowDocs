@@ -4,8 +4,6 @@ description: To be able to use ITOM at its full capacity, you can deploy the lat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/store-upgrades-landing.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

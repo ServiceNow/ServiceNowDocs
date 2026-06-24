@@ -4,8 +4,6 @@ description: The agent map on the classic mobile interface displays the agent's 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-tasks-on-mobile-ui-map.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d55530e95">
+<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d55526e95">
 
 **On**
 
@@ -40,7 +38,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 Displays the current date. Click the arrow to display the calendar and select a different date.
 
-</td></tr><tr><td id="d55530e104">
+</td></tr><tr><td id="d55526e104">
 
 **Show Assigned Tasks**
 
@@ -48,7 +46,7 @@ Displays the current date. Click the arrow to display the calendar and select a 
 
 All assigned tasks are displayed by default. Disable the switch to hide assigned tasks.
 
-</td></tr><tr><td id="d55530e113">
+</td></tr><tr><td id="d55526e113">
 
 **Show My Location**
 
@@ -56,7 +54,7 @@ All assigned tasks are displayed by default. Disable the switch to hide assigned
 
 Displays your current position on the map with the agent location icon. Disable the switch to remove this icon from the map.If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d55530e125">
+</td></tr><tr><td id="d55526e125">
 
 **Show Routing Numbers**
 
@@ -64,7 +62,7 @@ Displays your current position on the map with the agent location icon. Disable 
 
 Displays the routing numbers on tasks dispatched for the date selected in the calendar. Disable the switch to hide the routing numbers.
 
-</td></tr><tr><td id="d55530e134">
+</td></tr><tr><td id="d55526e134">
 
 **Show Unassigned Tasks**
 

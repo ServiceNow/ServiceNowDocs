@@ -28,7 +28,7 @@ JSON Web Tokens \(JWTs\) enable the capability to configure server-to-server API
 
 1.  Generate a JSON Web Token \(JWT\).
 
-    Create a JWT for your instance by using this link to enable JWT authentication. For Verifi Spoke, generate the authorization by using the *VerifiAuthorizationTokenGenerator* script. For more information, see [Generate a JSON Web Token \(JWT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/Scoped-API-generate-JWT.md).
+    Create a JWT for your instance by using this link to enable JWT authentication. For Verifi Spoke, generate the authorization by using the *VerifiAuthorizationTokenGenerator* script. For more information, see .
 
 2.  Create credential records for the Verifi Spoke.
 

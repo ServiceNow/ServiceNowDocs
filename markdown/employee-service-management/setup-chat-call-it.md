@@ -4,8 +4,6 @@ description: Set up the chat to call functionality in your instance to enable th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/setup-chat-call-it.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

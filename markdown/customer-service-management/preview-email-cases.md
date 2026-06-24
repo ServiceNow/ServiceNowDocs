@@ -4,8 +4,6 @@ description: Preview emails directly from within cases. With this capability, yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/preview-email-cases.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-07"
 reading_time_minutes: 1
@@ -25,8 +23,8 @@ Role required: sn\_customerservice\_agent
 For information about adding or modifying actions on a form, see the following topics:
 
 -   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
--   [Create a UXF client action for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-a-new-uxf-client-action-for-forms.md)
--   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
+-   Create a UXF client action for forms
+-   Declarative actions glossary
 
 ## Procedure
 

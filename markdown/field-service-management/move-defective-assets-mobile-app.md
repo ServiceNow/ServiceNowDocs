@@ -4,8 +4,6 @@ description: Add defective parts from your stockroom to the drop-off list. Gener
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/move-defective-assets-mobile-app.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following to move the part to the stockroom where it needs to be returned.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d68630e101">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d68626e101">
 
 To
 
-</th><th align="left" id="d68630e104">
+</th><th align="left" id="d68626e104">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d68630e110">
+</th></tr></thead><tbody><tr><td id="d68626e110">
 
 **Drop off**
 
@@ -52,7 +50,7 @@ Do this
 2.  Swipe the part to the left and click **Add to drop-off list**.
 
 
-</td></tr><tr><td id="d68630e131">
+</td></tr><tr><td id="d68626e131">
 
 **View part details and then drop off**
 

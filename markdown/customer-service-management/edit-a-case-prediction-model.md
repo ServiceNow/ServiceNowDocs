@@ -4,8 +4,6 @@ description: Edit the case models that have already been trained and deployed. C
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/edit-a-case-prediction-model.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-21"
 reading_time_minutes: 1

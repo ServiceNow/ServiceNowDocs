@@ -61,7 +61,7 @@ The BigFix Inventory spoke provides a sample subflow, Send an Email Notification
 
 ServiceNow provides a sample remote table that you can use to connect to BigFix Inventory, and view, pull, and manipulate data from the BigFix Inventory. The name of the sample remote table is Computers. You can create custom remote tables based on the sample remote table. To access the remote table, on your instance, navigate to **All** &gt; **BigFix Inventory Spoke** &gt; **Software Inventories** &gt; **Remote Table**, and then select **Computers**.
 
-For more information on remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/remote-tables.md).
+For more information on remote tables, see .
 
 ## Spoke actions
 

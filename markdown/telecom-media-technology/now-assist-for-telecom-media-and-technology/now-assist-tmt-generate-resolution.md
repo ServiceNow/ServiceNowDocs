@@ -24,7 +24,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can also propose the resolution to the customer, and then add the resolution information to the service problem case record. Generating resolution notes may help you wrap up cases faster and provide information about the service problem case resolution to other agents who might encounter similar issues. The Generate resolution notes action is available to the customer service agents who have assigned service problem cases in the Open state.
 
-You can also generate resolution information on demand from the Now Assist panel. For more information, see .
+You can also generate resolution information on demand from the Now Assist panel. For more information, see [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-rn-summarization.md).
 
 **Note:** The resolution notes generation skill requires a minimum of 50 words in the service problem case record to generate the resolution notes. If the resolution notes cannot be generated, the system displays a message at the top in the Resolution notes modal.
 

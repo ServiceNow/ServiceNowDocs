@@ -4,8 +4,6 @@ description: Close a case at any time, except when it is in the Resolved state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CloseACase.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,15 +30,15 @@ An agent or agent manager can close a case at any time, except when it is in the
 
 2.  Depending on the user interface, navigate to the correct form section.
 
-<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d65669e88">
+<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d65670e88">
 
 Interface
 
-</th><th align="left" id="d65669e91">
+</th><th align="left" id="d65670e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65669e97">
+</th></tr></thead><tbody><tr><td id="d65670e97">
 
 **CSM Configurable Workspace
 
@@ -53,7 +51,7 @@ Steps
 3.  Select **Closure Information**.
 
 
-</td></tr><tr><td id="d65669e134">
+</td></tr><tr><td id="d65670e134">
 
 **Platform interface**
 

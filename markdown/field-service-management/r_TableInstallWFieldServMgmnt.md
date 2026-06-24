@@ -4,8 +4,6 @@ description: Tables are provided with the Field Service Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/r\_TableInstallWFieldServMgmnt.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

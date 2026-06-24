@@ -22,15 +22,15 @@ Role required: admin.
 
 \[Omitted image "progress-bar-phase-4.png"\] Alt text: Upgrade progress bar
 
-The [Upgrade Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-monitor-screen.md) helps you upgrade an individual instance. You can monitor the progress of an upgrade and resolve conflicts between the upgrade and customizations.
+The Upgrade Monitor helps you upgrade an individual instance. You can monitor the progress of an upgrade and resolve conflicts between the upgrade and customizations.
 
 ## Procedure
 
 1.  Using the Upgrade Monitor, monitor the upgrade to your instance and validate that the upgrade to your development instance is complete.
 
-2.  After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) in the Upgrade Monitor.
+2.  After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.
 
-    As you are processing the skipped list, you may merge and revert records, [resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/upgrademon-resolve_conflicts.md), and make additional customizations. These changes go into the latest version, which goes into your current update set.
+    As you are processing the skipped list, you may merge and revert records, resolve conflicts for an individual record, and make additional customizations. These changes go into the latest version, which goes into your current update set.
 
 3.  Identify your update sets.
 
@@ -45,6 +45,6 @@ The [Upgrade Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     After upgrading, track any defects or deviations from the pre-upgrade testing results. Defect tracking can help identify root causes and create fixes. When a fix is identified, capture the fix in a single update set. The resulting update sets hold the cumulative fixes that should be applied to the production instance.
 
-    To help automate your testing and validation on non-production instances, use the Automated Test Framework. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
+    To help automate your testing and validation on non-production instances, use the [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/automated-test-framework.md). You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/automated-test-framework-atf/quick-start-tests.md).
 
 

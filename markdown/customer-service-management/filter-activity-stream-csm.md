@@ -4,8 +4,6 @@ description: Enhancements in the Activity Stream help reduce cluttering in the A
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/filter-activity-stream-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -64,5 +62,5 @@ Enhancements in the Activity Stream include the following:
 **Related topics**  
 
 
-[Configure Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/configure-activity-stream-general.md)
+[bundle-platux.configure-activity-stream-general]
 

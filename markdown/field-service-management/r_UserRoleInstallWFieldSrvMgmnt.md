@@ -4,8 +4,6 @@ description: Roles are added with Field Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -293,7 +291,7 @@ wm\_initiator
 </td></tr></tbody>
 </table>## Role integration with Customer Service Management
 
-When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see Roles installed with Customer Service Management.
+When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 <table id="table_abt_gsr_4jb"><thead><tr><th>
 

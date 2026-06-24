@@ -7,7 +7,7 @@ release: xanadu
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Managing Individual Life Claims, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

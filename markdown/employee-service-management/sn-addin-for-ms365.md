@@ -4,8 +4,6 @@ description: Create an add-in with customized office controls and quick links fo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn-addin-for-ms365.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-29"
 reading_time_minutes: 1

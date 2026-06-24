@@ -4,8 +4,6 @@ description: Provide additional information on contacts or consumers to health s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-record-producer-csm-safe-workplace.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -30,7 +28,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
+        For more information about the different types of variables and how to configure them, see Creating variables.
 
     4.  Click **Submit**.
 

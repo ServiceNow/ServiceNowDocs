@@ -4,8 +4,6 @@ description: Install the fix\_script\_start\_chat\_field\_decorator\_IT in the S
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-fix-script-cs.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

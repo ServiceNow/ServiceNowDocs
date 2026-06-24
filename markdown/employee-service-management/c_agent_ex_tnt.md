@@ -4,8 +4,6 @@ description: Allow the agents to work and manage the major incidents from Major 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/c\_agent\_ex\_tnt.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

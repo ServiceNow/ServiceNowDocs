@@ -4,8 +4,6 @@ description: You can configure the standard ticket page for customer service cas
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure\_std\_ticket\_page\_csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ or sp\_admin
 
 2.  Click sn\_customerservice\_case, csm\_order case, sn\_customerservice\_task, or customer\_project\_task which is available by default.
 
-    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-st-page.md).
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see Configure the standard ticket page.
 
 3.  Click **here** to edit the record.
 
@@ -42,5 +40,5 @@ or sp\_admin
 **Related topics**  
 
 
-[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/configure-st-page.md)
+[bundle-platux.configure-st-page]
 

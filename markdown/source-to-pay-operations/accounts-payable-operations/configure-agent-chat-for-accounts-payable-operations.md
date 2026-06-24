@@ -30,7 +30,7 @@ Role required: admin
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md).
+    Add or update the quick action shortcuts for live agents in Agent Chat. For more information about configuring the toolbar controls, see .
 
 4.  Select **Save**.
 

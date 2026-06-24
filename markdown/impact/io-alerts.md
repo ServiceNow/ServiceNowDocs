@@ -4,8 +4,6 @@ description: Use the Instance Observer Key Alerts Activation functionality for f
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/io-alerts.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

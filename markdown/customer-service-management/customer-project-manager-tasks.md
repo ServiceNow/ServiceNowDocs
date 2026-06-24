@@ -4,8 +4,6 @@ description: A customer project manager can perform specific tasks to manage pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-project-manager-tasks.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3

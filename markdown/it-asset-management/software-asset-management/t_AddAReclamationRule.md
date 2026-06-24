@@ -7,7 +7,7 @@ release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 6
 breadcrumb: [Software reclamation rules, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
 ---

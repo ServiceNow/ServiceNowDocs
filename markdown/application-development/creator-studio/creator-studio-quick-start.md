@@ -42,7 +42,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
     \[Omitted image "crs-create-app-button.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-collaboration.md).
     -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  On the modal that pops up, enter a **Name** and brief **Description** of the app's purpose.
 

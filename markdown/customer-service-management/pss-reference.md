@@ -4,8 +4,6 @@ description: Reference topics provide additional information on service contract
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/pss-reference.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

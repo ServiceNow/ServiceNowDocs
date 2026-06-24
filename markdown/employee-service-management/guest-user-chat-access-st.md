@@ -4,8 +4,6 @@ description: Request-based self-configured app chat access enables a guest user 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/guest-user-chat-access-st.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

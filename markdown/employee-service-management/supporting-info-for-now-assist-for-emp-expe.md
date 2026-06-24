@@ -4,8 +4,6 @@ description: Get a quick overview of the key information related to the Now Assi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/supporting-info-for-now-assist-for-emp-expe.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

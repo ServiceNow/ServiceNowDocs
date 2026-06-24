@@ -81,7 +81,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -155,7 +155,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- requires a license for Virtual Agent and at least one Now Assist product.
+[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -268,7 +268,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and npm installed to install the ServiceNow SDK. For more information, see .
+You must have Node.js and npm installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-sdk/install-servicenow-sdk.md).
 
 </td></tr><tr><td>
 

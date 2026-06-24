@@ -16,7 +16,7 @@ breadcrumb: [Integration Hub, Creating integrations with applications]
 
 Create several connections to a single integration provider. View and configure connections in a simplified interface with the Connections dashboard.
 
-Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
+Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about credentials, connections, and aliases.
 
 ## Support for multiple connections
 

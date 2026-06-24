@@ -4,8 +4,6 @@ description: View the time worked summary of your team members to determine whet
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/analyze-adherence-conformance-wfo-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -24,7 +22,7 @@ Role required: sn\_shift\_planning.admin
 
 Adherence and conformance calculations are based on a defined configuration and your agents' actual and planned work schedules. For more information, see [Setting up scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/set-up-scheduling-wfo-fsm.md).
 
-**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see .
+**Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
 ## Procedure
 

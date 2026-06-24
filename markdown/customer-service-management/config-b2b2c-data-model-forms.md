@@ -4,8 +4,6 @@ description: Enable account consumers to view the Account Consumers related list
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-b2b2c-data-model-forms.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

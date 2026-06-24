@@ -4,8 +4,6 @@ description: Include knowledge articles and catalogs in your sitemap by activati
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-sitemap-confi-csp.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ Include knowledge articles and catalogs in your sitemap by activating the sitema
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
+-   Activate Sitemap Generator
 -   Verify that an unauthenticated user can access the knowledge base article and catalogs by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article form or Service Catalog page form.
 

@@ -4,8 +4,6 @@ description: Respond to the approval notifications and the comments against the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-sn-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

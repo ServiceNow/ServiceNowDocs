@@ -36,5 +36,5 @@ The application provides several global reports, both lists and charts, that sho
 **Related topics**  
 
 
-[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/reporting/reporting-landing-page.md)
+[bundle-par.reporting-landing-page]
 

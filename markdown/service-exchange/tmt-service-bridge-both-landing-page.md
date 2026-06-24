@@ -4,8 +4,6 @@ description: ServiceNow Service Exchange connects multiple ServiceNow instances 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/service-exchange/tmt-service-bridge-both-landing-page.html
 release: xanadu
-product: Service Exchange
-classification: service-exchange
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

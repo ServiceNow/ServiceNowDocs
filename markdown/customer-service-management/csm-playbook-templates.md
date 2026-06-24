@@ -4,8 +4,6 @@ description: Use playbook page templates to create pages and page variants for u
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-playbook-templates.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 8
@@ -191,7 +189,7 @@ The contextual side panel component includes different tools that agents can use
 -   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
+-   Email Templates
 -   Templates
 -   Record Information
 

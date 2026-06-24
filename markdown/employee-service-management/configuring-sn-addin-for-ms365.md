@@ -4,8 +4,6 @@ description: Configure the ServiceNow Add-in for Microsoft 365 and map the email
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configuring-sn-addin-for-ms365.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-12-01"
 reading_time_minutes: 1

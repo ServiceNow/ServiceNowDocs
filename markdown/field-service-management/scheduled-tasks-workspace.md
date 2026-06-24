@@ -4,8 +4,6 @@ description: As a dispatcher, you can move scheduled tasks to the Assigned state
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/scheduled-tasks-workspace.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,15 +26,15 @@ Role required: wm\_dispatcher or wm\_crew\_moderator
 
 3.  Assign or update a scheduled task.
 
-<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d41882e87">
+<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d41878e87">
 
 Option
 
-</th><th align="left" id="d41882e90">
+</th><th align="left" id="d41878e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41882e96">
+</th></tr></thead><tbody><tr><td id="d41878e96">
 
 **Assign a scheduled task**
 
@@ -48,7 +46,7 @@ Steps
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d41882e126">
+</td></tr><tr><td id="d41878e126">
 
 **Unassign a scheduled task**
 
@@ -59,7 +57,7 @@ Steps
 3.  Move a scheduled task to the Pending dispatch state by clicking **Unassign task**.
 
 
-</td></tr><tr><td id="d41882e150">
+</td></tr><tr><td id="d41878e150">
 
 **Reschedule a scheduled task**
 
@@ -70,7 +68,7 @@ Steps
 
 **Note:** This option appears only if the scheduled task starts beyond the 12-hour threshold.
 
-</td></tr><tr><td id="d41882e173">
+</td></tr><tr><td id="d41878e173">
 
 **Edit the duration of a scheduled task**
 
@@ -81,7 +79,7 @@ Steps
 
 **Note:** The travel duration will not be affected.
 
-</td></tr><tr><td id="d41882e194">
+</td></tr><tr><td id="d41878e194">
 
 **Remove time gaps between tasks**
 

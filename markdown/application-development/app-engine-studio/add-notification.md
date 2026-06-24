@@ -74,7 +74,7 @@ Situation where a notification is sent, such as after something happens or when 
 -   **When event is fired**
  This field is automatically set to **When a record is created or updated**.
 
- After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md).
+ After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see Notification step.
 
 </td></tr><tr><td>
 

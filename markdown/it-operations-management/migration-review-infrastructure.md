@@ -4,8 +4,6 @@ description: Use the holistic view of all discovered resources to assess your in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/migration-review-infrastructure.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3

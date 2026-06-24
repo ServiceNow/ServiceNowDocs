@@ -4,8 +4,6 @@ description: Create a guidance that you can select when creating a recommendatio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-guidances-create.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2

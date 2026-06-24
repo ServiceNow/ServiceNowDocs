@@ -4,8 +4,6 @@ description: The case line task form displays details about a case line task ass
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/case-line-task-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-26"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Add a question to ask for the failure code that the customer receiv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-question-node-to-ask-failure-codes.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

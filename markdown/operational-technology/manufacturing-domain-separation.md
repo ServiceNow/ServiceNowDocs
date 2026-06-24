@@ -4,8 +4,6 @@ description: If any conrefs are broken, re-add them from the doc/source/reuse/do
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/manufacturing-domain-separation.html
 release: xanadu
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-02-19"
 reading_time_minutes: 1

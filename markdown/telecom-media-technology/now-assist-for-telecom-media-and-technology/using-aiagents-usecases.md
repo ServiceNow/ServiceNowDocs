@@ -78,16 +78,16 @@ Monitors the health score trends for all active engagements and triggers risk si
 </td></tr></tbody>
 </table>Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Important:** By default, all use case and AI agent records are read only.
 
 To run the use case autonomously, activate the trigger. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-To configure AI Agent Studio, see  and .
+To configure AI Agent Studio, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md) and [Configuring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/configuring-ai-agents.md).
 
-To install AI Agent Studio, see  and .
+To install AI Agent Studio, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md) and [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
 
-To view all the available AI agents, see .
+To view all the available AI agents, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
 

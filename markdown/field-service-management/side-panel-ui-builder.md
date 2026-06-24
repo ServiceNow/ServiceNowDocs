@@ -4,8 +4,6 @@ description: Change or add fields and icons to the contextual side panel to upda
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/side-panel-ui-builder.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,5 +20,5 @@ In the following image you can see the Dispatcher Workspace contextual side pane
 
 \[Omitted image "dispatcher-workspace-uib.png"\] Alt text: Dispatcher workspace configurable components in UI Builder
 
-For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-tabs/usage). For information on adding tabs, see .
+For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-tabs/usage). For information on adding tabs, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/tabs-components.md).
 

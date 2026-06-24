@@ -7,7 +7,7 @@ release: xanadu
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 6
 breadcrumb: [CrowdStrike Next-Gen SIEM integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

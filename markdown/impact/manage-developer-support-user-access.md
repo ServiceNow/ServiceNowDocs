@@ -4,8 +4,6 @@ description: Add designated users to enter a support case for Developer Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/manage-developer-support-user-access.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -39,9 +39,9 @@ If you select a field that was defined as a parameter for the system query, you 
 If you want to use ERP data for processes or tasks outside of ERP Data Hub, use the following workflow:
 
 1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
-    -   For more information on testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/test-action.md).
+    -   For more information on testing actions, see .
     -   For more details on inputs for the action, see [ERP Data Hub Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-flow-reference-2.md).
-2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+2.  After the test runs, view the action execution details. For more information, see .
 3.  The returned data from testing the action appears in the **Response** field of the output data.
     -   For more information on outputs for the action, see [ERP Data Hub Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-flow-reference-2.md).
     -   For details on incorporating returned ERP data, see [Specifying where the ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-call-response-data.md).

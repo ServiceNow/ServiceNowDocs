@@ -107,7 +107,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
     3.  Select the predefined external trigger definition.\[Omitted image "select-external-trigger-definition.png"\] Alt text: External trigger definition.
 
-        To learn more about external trigger definitions, see .
+        To learn more about external trigger definitions, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
     4.  To define the conditions for the flow to execute, in the Condition 1 field, drag the appropriate data pill and enter the value.
 

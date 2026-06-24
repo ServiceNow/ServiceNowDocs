@@ -30,15 +30,15 @@ You can create as many financial baselines as necessary and review the financial
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d43707e83">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d43695e83">
 
 Option
 
-</th><th align="left" id="d43707e86">
+</th><th align="left" id="d43695e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43707e92">
+</th></tr></thead><tbody><tr><td id="d43695e92">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d43707e119">
+</td></tr><tr><td id="d43695e119">
 
 **From a related list**
 

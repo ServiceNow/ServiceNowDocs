@@ -112,5 +112,5 @@ Needs to be able to customize views.
 -   Commercial Claim.Service
 -   Commercial Claim.Stage
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/fso-content-pack.md)
 

@@ -80,5 +80,5 @@ Reference topics provide additional information about the lists and forms.
 -   **[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/debugging-service-catalog.md)**  
 Debug user criteria of catalog items, UI customizations for Service Catalog pages, actions on catalog item variables, performance diagnostics of a catalog item, and so on.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/manage-services.md)
 

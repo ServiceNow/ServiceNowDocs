@@ -4,8 +4,6 @@ description: Add a Portal Banner widget to your portal and modify its appearance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-portal-banner-widget-inst-opt.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

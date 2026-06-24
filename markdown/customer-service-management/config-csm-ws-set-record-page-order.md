@@ -4,8 +4,6 @@ description: Set the order number of a record page and activate the record page 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-set-record-page-order.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

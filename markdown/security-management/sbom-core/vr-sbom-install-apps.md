@@ -34,8 +34,8 @@ Roles required: admin for download, installation, and activation of all applicat
     -   SBOM Core
     For more information about downloading and activating applications, see the following:
 
-    -   [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-and-store.md)
-    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md)
+    -   [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/secops-and-store.md)
+    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/download-app-first-time.md)
 2.  If you want to view your SBOM data in the SBOM Workspace, view imported third-party vulnerability intelligence, assess your risk exposure, and remediate vulnerabilities with the Application Vulnerability Response and Vulnerability Response workflows, download the following applications:
 
     -   Vulnerability Response and its dependencies

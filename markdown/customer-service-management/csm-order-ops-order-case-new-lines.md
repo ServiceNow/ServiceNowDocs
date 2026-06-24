@@ -4,8 +4,6 @@ description: Create a new order case line item for an existing order case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-order-case-new-lines.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-30"
 reading_time_minutes: 1

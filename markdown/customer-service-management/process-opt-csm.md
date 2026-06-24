@@ -4,8 +4,6 @@ description: Integrate Customer Service Management with the Process Mining appli
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/process-opt-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -16,11 +14,11 @@ breadcrumb: [Integrating Customer Service Management with other applications, Cu
 
 Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 
-For more information about enabling the Process Mining Content Pack for CSM, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/po-content-pack.md).
+For more information about enabling the Process Mining Content Pack for CSM, see .
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Overview of the Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
+If you have the required roles, you can use Analyst Workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see Overview of the Analyst Workbench.
 
 The following combinations of roles are required for using the Process Mining application with Customer Service Management.
 
@@ -32,7 +30,7 @@ The following combinations of roles are required for using the Process Mining ap
 
 ## Optimization project for customer service cases
 
-The Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) adds a pre-built project that includes a predefined **Customer Service Cases** process model definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the pre-built project. For more information, see [Create a project using ServiceNow platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/create-proj.md).
+The Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) adds a pre-built project that includes a predefined **Customer Service Cases** process model definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the pre-built project. For more information, see Create a project using ServiceNow platform.
 
 The **Customer Service Cases** process model definition includes default activity definitions and breakdown definitions for customer service cases that you can use as they are or modify them for a custom configuration.
 
@@ -41,7 +39,7 @@ The **Customer Service Cases** process model definition includes default activit
 
 ## Continual Improvement Management initiative for customer service cases
 
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for customer service cases. The improvement initiative and process mining model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
+If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for customer service cases. The improvement initiative and process mining model are automatically linked. For more information, see Integration with Continual Improvement Management.
 
 ## Performance Analytics for customer service cases
 
@@ -50,5 +48,5 @@ If the Performance Analytics application is enabled, you can also use the availa
 **Related topics**  
 
 
-[Process Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/process-mining/example-po-csm.md)
+[bundle-par.example-po-csm]
 

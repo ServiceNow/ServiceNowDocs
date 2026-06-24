@@ -4,8 +4,6 @@ description: Authorize the required pre-published apps to enable your ServiceNow
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/authorize-multi-tenant-apps-mt.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

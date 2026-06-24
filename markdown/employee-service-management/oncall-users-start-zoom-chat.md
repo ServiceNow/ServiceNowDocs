@@ -4,8 +4,6 @@ description: On-call Scheduling users will be shown for Start Zoom Team Chat for
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/oncall-users-start-zoom-chat.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

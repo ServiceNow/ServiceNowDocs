@@ -4,8 +4,6 @@ description: Create a taxonomy to organize knowledge articles and catalog items 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/add-taxo-to-portal.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

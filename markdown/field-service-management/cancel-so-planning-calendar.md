@@ -4,8 +4,6 @@ description: Cancel a schedule occurrence and the work order events of its assoc
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/cancel-so-planning-calendar.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,15 +38,15 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 7.  Cancel the event.
 
-<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d39804e177">
+<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d39800e177">
 
 Action
 
-</th><th align="left" id="d39804e180">
+</th><th align="left" id="d39800e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39804e186">
+</th></tr></thead><tbody><tr><td id="d39800e186">
 
 **Cancel the schedule occurrence**
 
@@ -56,7 +54,7 @@ Steps
 
 On the calendar, right-click the schedule occurrence event that you want to cancel, and then select **Cancel schedule occurrence**.
 
-</td></tr><tr><td id="d39804e198">
+</td></tr><tr><td id="d39800e198">
 
 **Cancel work order for the schedule occurrence**
 
@@ -64,7 +62,7 @@ On the calendar, right-click the schedule occurrence event that you want to canc
 
 On the calendar, right-click the schedule occurrence event, and then select **Cancel work orders**.
 
-</td></tr><tr><td id="d39804e210">
+</td></tr><tr><td id="d39800e210">
 
 **Cancel work order**
 

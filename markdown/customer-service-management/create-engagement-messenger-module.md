@@ -4,8 +4,6 @@ description: Create a Engagement Messenger module and configure its behavior, ap
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-engagement-messenger-module.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 8
@@ -251,7 +249,7 @@ Option for enabling the collection of user experience analytics from users of yo
 
  This option is available only if you activate the Service Portal Analytics plugin \(com.glide.service-portal.analytics\) in your ServiceNow instance.
 
- For more information on using the User Experience Analytics, see [Use User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/usage-insights/use-user-exp-analytics.md).
+ For more information on using the User Experience Analytics, see Use User Experience Analytics.
 
  **Note:** If you update your Engagement Messenger module name after user behavior tracking is enabled, the User Experience Analytics dashboard would show the original module name, not the updated name.
 
@@ -382,7 +380,7 @@ The icon appears at the top of the list page and shows applied filters icon in m
     1.  [Create an identity provider \(IdP\) for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-identity-providers-for-engagement-messenger.md).
     2.  [Configure a CORS rule for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-cors-for-rest-api-ec.md).
     3.  [Create HTTP response headers for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-http-response-headers-for-ec.md).
-    **Note:** Engagement Messenger extends service portal capabilities that don’t support domain separation. For more information, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don’t support domain separation. For more information, see . However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
     Configure behavior, appearance, and styling of Engagement Messenger. 
 

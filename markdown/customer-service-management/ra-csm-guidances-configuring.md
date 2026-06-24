@@ -4,8 +4,6 @@ description: After creating guidances with the Recommended Actions application, 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-guidances-configuring.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-12-03"
 reading_time_minutes: 5

@@ -7,7 +7,7 @@ release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework reference, Test your apps with the ATF, Testing and debugging applications, Building applications]
 ---

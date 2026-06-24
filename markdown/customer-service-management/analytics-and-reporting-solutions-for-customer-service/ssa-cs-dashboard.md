@@ -91,7 +91,7 @@ The Self-Service Analytics for Customer Service plugin includes the following in
 
     A monthly calculation of the cost saving for a deflection. The score is calculated according to the formula `([[Self-Service: Confirmed Deflections]] + [[Self-Service: Potential Deflections]]) * 20`.
 
-    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
+    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see Create a formula indicator.
 
 -   **Self-Service: Potential Deflections**
 
@@ -217,5 +217,5 @@ This dashboard includes the following breakdowns:
 **Related topics**  
 
 
-[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
+[bundle-platcap.self-service-analytics]
 

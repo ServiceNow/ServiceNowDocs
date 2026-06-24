@@ -4,8 +4,6 @@ description: Configure the recommended actions by the frequency of issues or by 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-nba-arbitration-param.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Close a work order task as incomplete if there is work pending on t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CloseAWorkOrderTaskAsIncomplete.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

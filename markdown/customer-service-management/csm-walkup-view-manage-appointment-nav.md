@@ -4,8 +4,6 @@ description: Viewing upcoming scheduled Walk-up Experience appointments provides
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-view-manage-appointment-nav.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-06"
 reading_time_minutes: 1

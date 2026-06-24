@@ -38,7 +38,7 @@ Role required: admin, app\_template\_author
 
 7.  Specify which users or groups should have access to this template.
 
-<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d115644e128">
+<table id="choicetable_m5y_2nz_5tb"><tbody><tr><td id="d115637e128">
 
 **Share with specific users and groups**
 
@@ -50,7 +50,7 @@ Role required: admin, app\_template\_author
 4.  Select **Continue**.
 
 
-</td></tr><tr><td id="d115644e164">
+</td></tr><tr><td id="d115637e164">
 
 **Share with all users and groups**
 

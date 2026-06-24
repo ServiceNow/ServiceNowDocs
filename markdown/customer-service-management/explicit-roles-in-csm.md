@@ -4,8 +4,6 @@ description: You can give both internal users and external users access to your 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/explicit-roles-in-csm.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 11
@@ -57,7 +55,7 @@ The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit R
 
     **Note:** You can use the `isPublic()` function in scripts for Customer Service Portal to change the privacy setting for a single client-callable script include. For more detail, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/c_ScriptIncludes.md).
 
--   [Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md) site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
+-   Content Management System site access is also affected. CMS is set up with Sites \(content\_site\), Pages \(content\_page\), and other resources. Some of the sites may have the **Login page** configured.
     -   If CMS sites do not have the **Login page** configured, the public role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
     -   If CMS sites have the **Login page** configured, the snc\_internal role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
 -   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ServicePortal.md) site access is also affected.
@@ -67,7 +65,7 @@ The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit R
 
 Do not move [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/system-update-sets/system-update-sets.md) among instances with and without the Explicit Roles plugin enabled.
 
-**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/r_ContextualSecurity.md) plugin.
+**Note:** This plugin also requires the Contextual Security Manager plugin.
 
 ## The glide.security.explicit\_roles.internal\_user\_blacklist property
 

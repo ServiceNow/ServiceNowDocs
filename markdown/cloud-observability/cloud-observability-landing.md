@@ -4,8 +4,6 @@ description: Gain insights to detect and quickly respond to changes in cloud-nat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/cloud-observability/cloud-observability-landing.html
 release: xanadu
-product: Cloud Observability
-classification: cloud-observability
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

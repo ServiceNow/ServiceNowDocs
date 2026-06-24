@@ -7,7 +7,7 @@ release: xanadu
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
 ---

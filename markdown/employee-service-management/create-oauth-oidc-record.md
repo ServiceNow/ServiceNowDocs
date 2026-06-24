@@ -4,8 +4,6 @@ description: Create the OIDC provider configuration record that enables users to
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-oauth-oidc-record.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

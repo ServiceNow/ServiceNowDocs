@@ -4,8 +4,6 @@ description: Configure a Portal Mega Menu widget to define a menu category and a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/conf-cat-mega-menu.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,7 +42,7 @@ Role required: sp\_admin or admin
 
 9.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
+    For a description of the field values, see .
 
 10. Select **Update**.
 

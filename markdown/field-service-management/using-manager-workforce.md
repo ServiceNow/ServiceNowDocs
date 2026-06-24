@@ -4,8 +4,6 @@ description: Workforce is a configurable application that enables any users with
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/using-manager-workforce.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

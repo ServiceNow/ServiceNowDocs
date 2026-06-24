@@ -72,7 +72,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
     2.  Customize the collaboration roles or add new ones.
 
-        For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+        For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/application-collaboration.md).
 
     3.  Update the record to save your changes.
 

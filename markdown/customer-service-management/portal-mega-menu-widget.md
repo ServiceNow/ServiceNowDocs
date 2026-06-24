@@ -4,8 +4,6 @@ description: The Portal Mega Menu widget displays a hierarchical menu on the hea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-mega-menu-widget.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

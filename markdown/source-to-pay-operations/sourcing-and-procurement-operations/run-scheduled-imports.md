@@ -28,7 +28,7 @@ Role required: import\_scheduler, import\_admin, or admin
 
 2.  Select **Example File Based Catalog Import**
 
-3.  Follow the steps for [data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+3.  Follow the steps for data import.
 
 
 ## What to do next

@@ -26,7 +26,7 @@ Role required: sn\_si\_admin
 
     Take note of the names of the IP Dynamic List, URL Dynamic List, or Domain Dynamic List you are using for firewall blocking.
 
-2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/download-app-first-time.md).
 
 3.  When the installation is complete, navigate to **Security Operations** &gt; **Integration Configuration**.
 

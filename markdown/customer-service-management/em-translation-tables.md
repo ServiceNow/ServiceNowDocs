@@ -4,8 +4,6 @@ description: Engagement Messenger uses the \[sys\_translated\_text\] and \[sys\_
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/em-translation-tables.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,7 +40,7 @@ Stores translations for configurable fields such as User Greeting and Search Mes
 -   **Table Name**: Name of the feature instance.
 -   **Value**: Translated text that the user sees.
 
- For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/c_UseTranslatedText.md).
+ For details about translating text content into different languages, see Translated text table and Translating text fields.
 
 </td></tr><tr><td>
 

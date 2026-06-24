@@ -4,8 +4,6 @@ description: Create configurations for each type of entry displayed on the agent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-agent-calendar-event-config.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -37,15 +35,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d41246e123">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d41251e123">
 
 Option
 
-</th><th align="left" id="d41246e126">
+</th><th align="left" id="d41251e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41246e132">
+</th></tr></thead><tbody><tr><td id="d41251e132">
 
 **Create a configuration from an existing event configuration**
 
@@ -56,7 +54,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d41246e155">
+</td></tr><tr><td id="d41251e155">
 
 **Create a new event configuration**
 

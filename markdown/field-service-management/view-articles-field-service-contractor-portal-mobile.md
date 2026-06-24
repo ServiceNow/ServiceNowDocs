@@ -4,8 +4,6 @@ description: View knowledge articles related to a work order task through the Fi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-articles-field-service-contractor-portal-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

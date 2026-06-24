@@ -4,8 +4,6 @@ description: Compose an SMS message from CSM Agent Workspace to interact with a 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/agent-init-sms-csm-ws.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -70,7 +68,7 @@ Phone number of the consumer or customer contact. The phone number is in the E.1
 
  By default, the user profiles for consumers and customer contacts and the format of their phone numbers are validated for the SMS channel.
 
- If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see [Phone number fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UsePhoneNumberFields.md).
+ If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see Phone number fields.
 
 </td></tr><tr id="agent-init-message"><td>
 

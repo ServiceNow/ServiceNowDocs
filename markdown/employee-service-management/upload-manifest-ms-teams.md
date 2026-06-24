@@ -4,8 +4,6 @@ description: Upload the manifest file in Microsoft Teams to integrate Microsoft 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/upload-manifest-ms-teams.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

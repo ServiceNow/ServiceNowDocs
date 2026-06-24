@@ -4,8 +4,6 @@ description: Assign crews to a work order task that requires a crew of agents in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-to-crew.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 5
@@ -69,15 +67,15 @@ When scheduling tasks for multiple days:
 
 6.  Assign the crew task.
 
-<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d37083e243">
+<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d37079e243">
 
 Option
 
-</th><th align="left" id="d37083e246">
+</th><th align="left" id="d37079e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37083e252">
+</th></tr></thead><tbody><tr><td id="d37079e252">
 
 **To assign a task manually**
 
@@ -88,7 +86,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d37083e276">
+</td></tr><tr><td id="d37079e276">
 
 **To manually assign a task from the task panel**
 
@@ -100,7 +98,7 @@ Description
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d37083e315">
+</td></tr><tr><td id="d37079e315">
 
 **To auto-assign the task to a crew from the task panel**
 
@@ -111,7 +109,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d37083e348">
+</td></tr><tr><td id="d37079e348">
 
 **To auto-assign the task to a crew from the task record**
 
@@ -122,7 +120,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d37083e376">
+</td></tr><tr><td id="d37079e376">
 
 **To auto-assign the task to a crew from a list**
 
@@ -134,7 +132,7 @@ Description
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d37083e415">
+</td></tr><tr><td id="d37079e415">
 
 **To manually assign a task from the contextual side panel**
 
@@ -147,7 +145,7 @@ Description
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d37083e457">
+</td></tr><tr><td id="d37079e457">
 
 **To auto-assign the task to a crew from the contextual side panel**
 

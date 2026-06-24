@@ -4,8 +4,6 @@ description: Customer service agents and agent managers can create cases using t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateACaseFromCustServApp.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -24,15 +22,15 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, or admi
 
 1.  Create a case.
 
-<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d65594e64">
+<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d65595e64">
 
 Option
 
-</th><th align="left" id="d65594e67">
+</th><th align="left" id="d65595e67">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d65594e73">
+</th></tr></thead><tbody><tr><td id="d65595e73">
 
 **CSM Configurable Workspace**
 
@@ -40,7 +38,7 @@ Description
 
 From the Interaction form, click **Create Case**.
 
-</td></tr><tr><td id="d65594e86">
+</td></tr><tr><td id="d65595e86">
 
 **Platform interface**
 

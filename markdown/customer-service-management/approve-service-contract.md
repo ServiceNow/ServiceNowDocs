@@ -4,8 +4,6 @@ description: Approve a service contract for a customer account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/approve-service-contract.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,7 +30,7 @@ Role required: sn\_customerservice\_manager or admin
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d83692e106">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d83689e106">
 
 **Approve**
 
@@ -40,7 +38,7 @@ Role required: sn\_customerservice\_manager or admin
 
 The review state changes to **Approved** on the Approvals list.
 
-</td></tr><tr><td id="d83692e118">
+</td></tr><tr><td id="d83689e118">
 
 **Reject**
 
@@ -53,5 +51,5 @@ The review state changes to **Rejected** on the Approvals list. If you reject a 
 **Related topics**  
 
 
-[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/contract-management/c_ContractManagement.md)
+[bundle-itsm.c_ContractManagement]
 

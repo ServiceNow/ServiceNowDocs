@@ -28,7 +28,7 @@ You can do these actions by using the Now Assist icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill is on the Chat skill card in the Customer group. For more info, see [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-chat-recommendation.md).
+**Note:** The Chat reply recommendation skill is on the Chat skill card in the Customer group. For more info, see Chat reply recommendation.
 
 ## About this task
 
@@ -48,15 +48,15 @@ You can do these actions by using the Now Assist icon:
 
     \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d31321e160">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d31330e160">
 
 Chat message window
 
-</th><th align="left" id="d31321e163">
+</th><th align="left" id="d31330e163">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d31321e171">
+</th></tr></thead><tbody><tr><td id="d31330e171">
 
 **Typed response**
 
@@ -68,7 +68,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d31321e191">
+</td></tr><tr><td id="d31330e191">
 
 **Left blank**
 

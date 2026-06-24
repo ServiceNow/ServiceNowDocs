@@ -70,5 +70,5 @@ Create several connections to a single integration provider. View and configure 
 -   **[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/integration-hub-reference.md)**  
 Reference topics provide additional information about Integration Hub and domain separation.
 
-**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Creating integrations with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/create-integrations-applications.md)
 

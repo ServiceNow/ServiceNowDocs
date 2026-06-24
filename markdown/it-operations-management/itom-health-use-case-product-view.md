@@ -4,8 +4,6 @@ description: ITOM Health helps you track and maintain the health of services in 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-health-use-case-product-view.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2024-11-21"
 reading_time_minutes: 1

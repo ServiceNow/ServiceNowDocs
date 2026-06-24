@@ -4,8 +4,6 @@ description: Quickly generate reports to download and share with your business s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/instance-observer-reporting.html
 release: xanadu
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Set up your ServiceNow instance for the Microsoft Teams integration
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/setup-tenants.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

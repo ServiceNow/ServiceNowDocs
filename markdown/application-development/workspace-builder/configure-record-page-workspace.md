@@ -275,7 +275,7 @@ Add attachments to the record, such as images and PDFs.
 
 </td><td>
 
-[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/rpa-hub/attachments.md)
+
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Display templates that help reduce the time agents spend responding to requester
 
 9.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d38295e1006">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d38303e1005">
 
 **Update the name of the record page**
 
@@ -371,7 +371,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d38295e1041">
+</td></tr><tr><td id="d38303e1040">
 
 **Preview the record page in a new browser tab**
 
@@ -379,7 +379,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d38295e1062">
+</td></tr><tr><td id="d38303e1061">
 
 **Delete a record page**
 

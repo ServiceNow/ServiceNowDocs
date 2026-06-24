@@ -4,8 +4,6 @@ description: Add the Portal FAQ widget to your portal and modify its data, prese
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-portal-faq-widget-inst-optns.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

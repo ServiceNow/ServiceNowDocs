@@ -4,8 +4,6 @@ description: Reference topics provide information about the lists and forms used
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn-addin-for-ms365-reference.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-29"
 reading_time_minutes: 1

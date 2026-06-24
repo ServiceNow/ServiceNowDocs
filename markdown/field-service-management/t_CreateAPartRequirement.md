@@ -4,8 +4,6 @@ description: Create a part requirement for a work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CreateAPartRequirement.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -38,7 +36,7 @@ You can create a part requirement to request a part with or without the context 
 
 4.  Do one of the following.
 
-<table><tbody><tr><td id="d44410e180">
+<table><tbody><tr><td id="d44406e180">
 
 **Click __Source__.**
 
@@ -46,7 +44,7 @@ You can create a part requirement to request a part with or without the context 
 
 All tasks and part requirements are listed on the left. Point to any task or part requirement icon to obtain more information. Right-click a work order task and select **Create Part Requirement**. This method is useful if you are sourcing multiple parts for a work order task.
 
-</td></tr><tr><td id="d44410e195">
+</td></tr><tr><td id="d44406e195">
 
 **In the __Part Requirements__ related list, click __New__.**
 

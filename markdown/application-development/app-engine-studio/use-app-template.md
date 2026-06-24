@@ -24,7 +24,7 @@ Role required: admin, sn\_app\_eng\_studio.user
 
 ## About this task
 
-Using templates in App Engine Studio helps you save time and effort creating applications. You can download several templates from the ServiceNow Store, or you can create templates from your existing applications. To install a template on your PDI, see [Activating a plugin from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/activating_a_plugin_from_your_pdi.md).
+Using templates in App Engine Studio helps you save time and effort creating applications. You can download several templates from the ServiceNow Store, or you can create templates from your existing applications. To install a template on your PDI, see [Activating a plugin from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/activating_a_plugin_from_your_pdi.md).
 
 This video shows you how to perform the following procedure.
 

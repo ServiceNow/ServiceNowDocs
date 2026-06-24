@@ -4,8 +4,6 @@ description: Enables you to extend the Import Messages from Microsoft Teams UI a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/import-messages-ui-action-hr.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

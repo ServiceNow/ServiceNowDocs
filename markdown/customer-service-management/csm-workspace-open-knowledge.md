@@ -4,8 +4,6 @@ description: Search for a knowledge article in Agent Assist or or Recommended Ac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-workspace-open-knowledge.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Create a meeting, training, time-off request, personal, or an ad ho
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-event-to-calendar-wfo-fsm.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -36,15 +34,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d52398e116">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d52394e116">
 
 To
 
-</th><th align="left" id="d52398e119">
+</th><th align="left" id="d52394e119">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d52398e125">
+</th></tr></thead><tbody><tr><td id="d52394e125">
 
 **Create a meeting, training, or time-off request.**
 
@@ -69,7 +67,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d52398e231">
+</td></tr><tr><td id="d52394e231">
 
 **Create a work shift**
 

@@ -4,8 +4,6 @@ description: Use transfer order line tasks to move assets through the shipment o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-transfer-order-line-task.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -48,15 +46,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d95268e144">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d95273e144">
 
 To
 
-</th><th align="left" id="d95268e147">
+</th><th align="left" id="d95273e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d95268e153">
+</th></tr></thead><tbody><tr><td id="d95273e153">
 
 **Prepare for shipment**
 
@@ -98,7 +96,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d95268e235">
+</td></tr><tr><td id="d95273e235">
 
 **Drop off**
 

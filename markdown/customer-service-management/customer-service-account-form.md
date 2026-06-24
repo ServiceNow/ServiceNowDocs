@@ -4,8 +4,6 @@ description: The Customer Service Management application uses the Account form t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/customer-service-account-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-08"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Configure the footer link to include a link to a site you want your
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-footer-widget-conf-footer-links.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -36,7 +34,7 @@ Role required: admin or sp\_admin
 
 5.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
+    For a description of the field values, see .
 
     **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
 

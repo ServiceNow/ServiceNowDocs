@@ -34,7 +34,7 @@ Column Level Encryption with encryption modules is included for free in your ins
 
 The Platform Encryption group adds the following features and offerings:
 
--   [Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/now-platform-encryption.md):
+-   [Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/now-platform-encryption.md):
     -   Customer-supplied keys.
     -   Auto key rotation.
     -   Advanced field type support and future updates.
@@ -55,5 +55,5 @@ The Platform Encryption group adds the following features and offerings:
 
 To learn more about key management, see .
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/encryption.md)
 

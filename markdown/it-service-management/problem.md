@@ -4,8 +4,6 @@ description: Dashboard providing a view into Problem Management related metrics 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/problem.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2024-09-02"
 reading_time_minutes: 1

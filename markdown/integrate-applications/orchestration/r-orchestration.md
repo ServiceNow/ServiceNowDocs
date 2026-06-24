@@ -49,7 +49,7 @@ Orchestration is available as a separate subscription from the rest of the Servi
 **Use**
 
  -   [Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/c_OrchestrationActivityPacks.md)
--   [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/password-reset/password-reset-landing-page.md)
+-   Password Reset
 -   [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
 
 </td><td>

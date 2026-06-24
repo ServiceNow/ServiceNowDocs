@@ -1,0 +1,40 @@
+---
+title: Virtual Private Network \(VPN\)
+description: Use a virtual private network \(VPN\) to integrate your instance with external data sources over the Internet.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/c\_SetUpAVPN4SNowBusNet.html
+release: xanadu
+topic_type: concept
+last_updated: "2024-11-21"
+reading_time_minutes: 1
+breadcrumb: [Platform Security]
+---
+
+# Virtual Private Network \(VPN\)
+
+Use a virtual private network \(VPN\) to integrate your instance with external data sources over the Internet.
+
+<table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
+
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/exploring-virtual-private-network.md)
+
+ Learn the features and business values of virtual private network.
+
+</td><td>
+
+[Activate\[Omitted image "icon-workspace.png"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/t_RequestAVPNService.md)
+
+ Active the virtual private network.
+
+</td></tr><tr><td>
+
+[Configure\[Omitted image "icon-set-up.png"\] Alt text: Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/r_ScriptSandboxing.md)
+
+ Understand how to configure virtual private network.
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>

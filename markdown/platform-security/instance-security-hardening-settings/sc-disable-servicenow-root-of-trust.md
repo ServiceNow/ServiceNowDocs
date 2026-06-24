@@ -100,8 +100,8 @@ References
 
 </td><td>
 
--   [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/change-rot-overview.md)
--   [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/disable-sn-rot.md)
+-   [Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/change-rot-overview.md)
+-   [Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/disable-sn-rot.md)
 
 </td></tr><tr><td>
 

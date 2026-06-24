@@ -4,8 +4,6 @@ description: Offers help for employees to resolve their IT, HR, and UR related i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/c\_employee\_experience.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

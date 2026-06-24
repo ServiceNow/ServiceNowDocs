@@ -54,7 +54,7 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |Code snippet|Generate a code snippet to call an action. For more information, see [Code snippet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-design-code-snippet.md).|
     |Test|Test an action before publishing it for other users. For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/test-action.md).|
     |Properties|Configure how the system processes flows. For more information, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-designer-system-properties.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
 
     You can use these options to restrict access to Workflow Studio flow authoring features.
 
@@ -65,7 +65,7 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |Properties|Configure how the system processes flows. For more information, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-designer-system-properties.md).|
     |Copy flow|Copy a flow to give it a new name and move it to another application scope. For more information, see [Copy a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/copy-flow.md).|
     |Test|Test a flow before publishing it for other users. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-test.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
     |Activate|Activate a flow to make it available to other users. For more information, see [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-activate.md).|
     |Deactivate|Deactivate a flow to make it unavailable to other users.|
     |Configurations|Manage Workflow Studio configurations.|
@@ -86,11 +86,11 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
     |Manage security|Manage the access to subflows.|
     |Properties|Configure how the system processes subflows. For more information, see [Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-designer-system-properties.md).|
     |Manage natural language title|Change the default title for a subflow by adding styled and dynamic text. For more information, see [Manage natural language title](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/manage-natural-language-title.md).|
-    |Configure connections|Configure a connection through the Connections dashboard. For more information, see Configure a connection.|
+    |Configure connections|Configure a connection through the Connections dashboard. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
     |Copy subflow|Copy a subflow to give it a new name and move it to another application scope. For more information, see [Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/copy-subflow.md).|
     |Test|Test a subflow before publishing it for other users. For more information, see [Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/test-subflow.md).|
     |Publish|Publish a subflow to allow other users to use the subflow. For more information, see [Test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/test-subflow.md).|
-    |Configurations|Manage Workflow Studio configurations. For more information, see Configure a connection.|
+    |Configurations|Manage Workflow Studio configurations. For more information, see [Configure a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/dashboard-configure-connection.md).|
 
     You can use these options to restrict access to Workflow Studio flow template authoring features.
 

@@ -4,8 +4,6 @@ description: Filter the map view, hybrid view, and schedule view of Dispatcher W
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/filter-workspace-views.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Open a relevant catalog item or form to raise a request with pre-fi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/raise-request-addin-ms365.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-10"
 reading_time_minutes: 1

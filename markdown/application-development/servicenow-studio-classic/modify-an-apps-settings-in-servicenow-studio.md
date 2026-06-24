@@ -34,15 +34,15 @@ Role required: admin or delegated developer
 
 6.  Edit the app's settings.
 
-<table id="choicetable_bgr_ykw_xcc"><thead><tr><th align="left" id="d141077e131">
+<table id="choicetable_bgr_ykw_xcc"><thead><tr><th align="left" id="d141068e131">
 
 Update
 
-</th><th align="left" id="d141077e134">
+</th><th align="left" id="d141068e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141077e140">
+</th></tr></thead><tbody><tr><td id="d141068e140">
 
 **Change the name or description**
 
@@ -50,7 +50,7 @@ Description
 
 Change the values in the **Name** or **Description** fields.
 
-</td></tr><tr><td id="d141077e155">
+</td></tr><tr><td id="d141068e155">
 
 **Add an app image or logo**
 
@@ -58,7 +58,7 @@ Change the values in the **Name** or **Description** fields.
 
 Add a logo by either dragging the image to the **Browse or drag to upload** field or selecting the field, selecting the image from your file directory, and selecting **Open**. The accepted file types are BMP, GIF, ICO, JPEG, JPG, PNG, and SVG.
 
-</td></tr><tr><td id="d141077e170">
+</td></tr><tr><td id="d141068e170">
 
 **Delete the app**
 

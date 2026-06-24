@@ -4,8 +4,6 @@ description: You can create service contract lines in the Customer Contracts and
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/service-contract-line-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4

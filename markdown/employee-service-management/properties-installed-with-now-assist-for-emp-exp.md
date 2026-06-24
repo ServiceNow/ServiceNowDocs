@@ -4,8 +4,6 @@ description: Properties available with the Now Assist for Employee Experience ap
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/properties-installed-with-now-assist-for-emp-exp.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2025-03-28"
 reading_time_minutes: 1

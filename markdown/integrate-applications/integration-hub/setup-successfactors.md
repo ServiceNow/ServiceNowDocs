@@ -87,7 +87,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/t_UploadACertificateToAnInstance.md) .
+    For instructions to upload the JKS certificate, see Upload a certificate to an instance .
 
     \[Omitted image "sapsf-cert.png"\] Alt text: Upload JKS certificate.
 

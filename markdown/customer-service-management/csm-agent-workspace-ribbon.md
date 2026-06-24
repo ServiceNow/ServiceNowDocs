@@ -4,8 +4,6 @@ description: The form ribbon provides includes components that display relevant 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-agent-workspace-ribbon.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-12-16"
 reading_time_minutes: 8

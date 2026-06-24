@@ -4,8 +4,6 @@ description: Walk-up Experience managers and technicians can efficiently manage 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-manage-demand.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-06"
 reading_time_minutes: 2

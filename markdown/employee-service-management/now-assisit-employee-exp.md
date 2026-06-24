@@ -4,8 +4,6 @@ description: Use the Now Assist for Employee Experience application so that your
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assisit-employee-exp.html
 release: xanadu
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2025-03-25"
 reading_time_minutes: 3

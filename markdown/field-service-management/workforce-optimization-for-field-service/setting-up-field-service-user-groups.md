@@ -8,7 +8,7 @@ product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configuring users, Setting up your workforce, Configuring Field Service Management, Field Service Management]
 ---
 
@@ -22,7 +22,7 @@ Additionally, you can create optional group types based on your specific needs, 
 
 For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-For information about assigning a role to a user group, see Assign a role to a group.
+For information about assigning a role to a user group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
 Location also plays an important role in configuring field service user groups. It ensures that qualifiers, dispatchers, and agents only engage with tasks that align with their assigned locations and groups.
 
@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d90056e417">
+<table><tbody><tr><td id="d90061e417">
 
 **Roles**
 
@@ -286,9 +286,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d90056e445">
+</td></tr><tr><td id="d90061e446">
 
 **Group Members**
 
@@ -296,9 +296,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more agents from the list of available agents to the user group.
 
- For more information on assigning group members, see .
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d90056e463">
+</td></tr><tr><td id="d90061e465">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d90056e472">
+</td></tr><tr><td id="d90061e474">
 
 **Skills**
 
@@ -316,7 +316,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d90056e494">
+</td></tr><tr><td id="d90061e496">
 
 **Locations Covered**
 
@@ -326,7 +326,7 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/Locations-in-fsm.md).
 
-</td></tr><tr><td id="d90056e520">
+</td></tr><tr><td id="d90061e522">
 
 **Covered by Dispatch Groups**
 
@@ -334,7 +334,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d90056e532">
+</td></tr><tr><td id="d90061e534">
 
 **Product Models**
 
@@ -366,7 +366,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d90056e649">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d90061e651">
 
 **Roles**
 
@@ -374,9 +374,9 @@ Role required: wm\_admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
 
-</td></tr><tr><td id="d90056e677">
+</td></tr><tr><td id="d90061e680">
 
 **Group Members**
 
@@ -384,9 +384,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more qualifiers from the list of available qualifiers to the user group.
 
- For more information on assigning group members, see .
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
 
-</td></tr><tr><td id="d90056e695">
+</td></tr><tr><td id="d90061e699">
 
 **Groups**
 
@@ -394,7 +394,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d90056e704">
+</td></tr><tr><td id="d90061e708">
 
 **Locations Covered**
 
@@ -430,7 +430,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d90056e848">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d90061e852">
 
 **Roles**
 
@@ -438,9 +438,9 @@ Role required: admin
 
 Assign one or more roles from the list of available roles to the user group.
 
- For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and  .
+ For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md) .
 
-</td></tr><tr><td id="d90056e876">
+</td></tr><tr><td id="d90061e881">
 
 **Group Members**
 
@@ -448,9 +448,9 @@ Assign one or more roles from the list of available roles to the user group.
 
 Assign one or more dispatchers from the list of available dispatchers to the user group.
 
- For more information on assigning group members, see Add a user to a group.
+ For more information on assigning group members, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAGroup.md).
 
-</td></tr><tr><td id="d90056e895">
+</td></tr><tr><td id="d90061e900">
 
 **Groups**
 
@@ -458,7 +458,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d90056e904">
+</td></tr><tr><td id="d90061e909">
 
 **Locations Covered**
 
@@ -468,7 +468,7 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d90056e923">
+</td></tr><tr><td id="d90061e928">
 
 **Assignment Groups Covered\|**
 

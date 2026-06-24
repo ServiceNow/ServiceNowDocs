@@ -30,7 +30,7 @@ Currently, you can't make an action conversational. You can only modify the conv
 
 ## Activating the subflows and actions skill
 
-To activate the subflows and actions skill, see .
+To activate the subflows and actions skill, see [Turn on the subflows and actions skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.md).
 
 ## User role access
 

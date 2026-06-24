@@ -49,5 +49,5 @@ With the Kafka standard protocol, you can exchange messages with any application
 
 For details on exchanging data using a Kafka client, see [Producing and consuming messages from a Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.md).
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/manage-services.md)
 

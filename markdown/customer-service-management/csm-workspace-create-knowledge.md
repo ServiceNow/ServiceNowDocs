@@ -4,8 +4,6 @@ description: Reuse information from a customer service case by creating knowledg
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-workspace-create-knowledge.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 ## About this task
 
-Your administrator must [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/administer-create-article-from-case.md).
+Your administrator must enable creation of articles from customer service cases.
 
 ## Procedure
 

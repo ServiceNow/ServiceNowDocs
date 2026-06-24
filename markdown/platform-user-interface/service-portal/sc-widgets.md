@@ -67,5 +67,5 @@ Use this widget to add catalog items or record producers to the wish list so tha
 **Related topics**  
 
 
-[bundle-platcap.catalog-on-portal]
+[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 

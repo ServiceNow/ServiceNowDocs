@@ -34,15 +34,15 @@ Role required: admin
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d35636e117">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d35631e117">
 
 Claims page variant
 
-</th><th align="left" id="d35636e120">
+</th><th align="left" id="d35631e120">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d35636e126">
+</th></tr></thead><tbody><tr><td id="d35631e126">
 
 **Claim workspace page**
 

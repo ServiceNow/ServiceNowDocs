@@ -4,8 +4,6 @@ description: View all transfer order lines for the parts that are requested by y
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/source-part-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,15 +31,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d68607e83">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d68603e83">
 
 To
 
-</th><th align="left" id="d68607e86">
+</th><th align="left" id="d68603e86">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d68607e92">
+</th></tr></thead><tbody><tr><td id="d68603e92">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +52,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d68607e137">
+</td></tr><tr><td id="d68603e137">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +66,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d68607e192">
+</td></tr><tr><td id="d68603e192">
 
 **View transfer order lines for a part request**
 

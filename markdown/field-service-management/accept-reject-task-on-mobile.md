@@ -4,8 +4,6 @@ description: Accept a work order task that has been assigned to you. You can rej
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/accept-reject-task-on-mobile.html
 release: xanadu
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -32,15 +30,15 @@ Unlike other work order tasks, the task card for a work order task related to a 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d57864e83">
+<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d57860e83">
 
 Option
 
-</th><th align="left" id="d57864e86">
+</th><th align="left" id="d57860e86">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d57864e92">
+</th></tr></thead><tbody><tr><td id="d57860e92">
 
 **Accept a task**
 
@@ -55,7 +53,7 @@ Do one of the following:
     -   Tap **Accept**.
 When you accept a task, the work order task state changes to **Accepted**.
 
-</td></tr><tr><td id="d57864e133">
+</td></tr><tr><td id="d57860e133">
 
 **Reject a task**
 

@@ -30,7 +30,7 @@ Accounts Payable specialists can allocate invoice line cost by:
 -   Amount
 -   Amount percentage
 
-For more information on cost allocation, see [Allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-business-management/financial-management/c_Allocations.md).
+For more information on cost allocation, see .
 
 -   You can create a new invoice line record and cost allocation record only when the invoice is in draft state and exception found state.
 -   During cost allocation, you must confirm that the total allocated quantity or amount across different cost centers or ledger accounts must be equal to the invoice line quantity or subtotal, or else invoice cost allocation exception occurs.

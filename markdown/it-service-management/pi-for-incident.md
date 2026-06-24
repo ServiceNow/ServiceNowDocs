@@ -4,8 +4,6 @@ description: Use your instance records to build Incident Management -specific so
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/pi-for-incident.html
 release: xanadu
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

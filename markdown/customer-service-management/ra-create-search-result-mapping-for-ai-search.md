@@ -4,8 +4,6 @@ description: Create mappings between AI search results and guidance inputs to re
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-create-search-result-mapping-for-ai-search.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -30,7 +28,7 @@ Role required: sn\_nb\_action.next\_best\_action\_author, admin
 
 3.  In the **Search Application Configuration** field, select the Lookup using list icon \[Omitted image "lookup-list.jpg"\] Alt text: Lookup using list icon and select either the base system CSM Configurable Workspace Search Config or a custom configuration that specifies AI search as the search engine and contains your desired search settings.
 
-    You can configure the search result display and refinement settings in the search application configuration. For more information, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
+    You can configure the search result display and refinement settings in the search application configuration. For more information, see .
 
     The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store application. To access this configuration, navigate to **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 
@@ -56,15 +54,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author, admin
 
 7.  Configure the AI search result type.
 
-<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d35505e213">
+<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d35512e212">
 
 Option
 
-</th><th align="left" id="d35505e216">
+</th><th align="left" id="d35512e215">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d35505e222">
+</th></tr></thead><tbody><tr><td id="d35512e221">
 
 **Map genius result: No**
 
@@ -75,7 +73,7 @@ Steps
 
 This field shows all the source tables mapped to the search profile of your search application configuration.
 
-</td></tr><tr><td id="d35505e251">
+</td></tr><tr><td id="d35512e250">
 
 **Map genius result: Yes**
 
@@ -84,7 +82,7 @@ This field shows all the source tables mapped to the search profile of your sear
 1.  In the **Map genius result** field, select **Yes** to enable genius result mapping to guidance inputs.
 2.  In the **Genius result configuration** field, select a genius result configuration to map the return fields to guidance inputs.
 
-This field shows return fields of the genius result configuration that is linked to the search profile of your search application configuration. For more information, see [AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/genius-result-cfg-form-ais.md).
+This field shows return fields of the genius result configuration that is linked to the search profile of your search application configuration. For more information, see .
 
 </td></tr></tbody>
 </table>8.  Save the record.
@@ -95,15 +93,15 @@ This field shows return fields of the genius result configuration that is linked
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use the pill picker to supply dynamic values.
 
-<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d35505e305">
+<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d35512e303">
 
 Option
 
-</th><th align="left" id="d35505e308">
+</th><th align="left" id="d35512e306">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d35505e314">
+</th></tr></thead><tbody><tr><td id="d35512e312">
 
 **Use a static value**
 
@@ -111,7 +109,7 @@ Steps
 
 Enter a value in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d35505e323">
+</td></tr><tr><td id="d35512e321">
 
 **Use a pill picker**
 

@@ -4,8 +4,6 @@ description: Cloud Action Library \(CAL\) offers various actions that you can us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-cal-actions.html
 release: xanadu
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

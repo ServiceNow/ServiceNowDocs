@@ -4,8 +4,6 @@ description: Guide requesters through a self-service flow to find solutions to t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.html
 release: xanadu
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -30,7 +28,7 @@ Guided Flow for Case Creation
 1.  Enter Your Details:
     -   Navigate to **Request Something** &gt; **Support** &gt; **Create case for a product \(Now Assist\)**.
 
-        **Note:** Ensure that AI search in portals is activated. For more info, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
+        **Note:** Ensure that AI search in portals is activated. For more info, see Enable and configure AI Search in Service Portal
 
     -   A single Subject field appears. Start typing your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 

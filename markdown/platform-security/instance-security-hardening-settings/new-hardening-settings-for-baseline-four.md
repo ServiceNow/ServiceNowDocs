@@ -7,7 +7,7 @@ release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [New hardening settings for baseline version 5, Baseline versions, Hardening settings, Platform Security]
 ---
