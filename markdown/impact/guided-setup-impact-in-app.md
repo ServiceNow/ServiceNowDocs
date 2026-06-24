@@ -4,8 +4,6 @@ description: Use Impact Guided Setup to follow a sequence of tasks that help you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/guided-setup-impact-in-app.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ Role required: impact app admin, admin
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup**.
 
-    The Impact Guided Setup overview page displays with additional information about the setup process and Pre-checklist information. For general information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+    The Impact Guided Setup overview page displays with additional information about the setup process and Pre-checklist information. For general information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
 2.  Select **Get Started**.
 

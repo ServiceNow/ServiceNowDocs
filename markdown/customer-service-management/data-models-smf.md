@@ -4,8 +4,6 @@ description: The Service Model Foundation data model defines the underlying stru
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-models-smf.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

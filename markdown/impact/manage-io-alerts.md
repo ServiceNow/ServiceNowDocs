@@ -4,8 +4,6 @@ description: Act on Instance Observer \(IO\) threshold alerts directly from the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/manage-io-alerts.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

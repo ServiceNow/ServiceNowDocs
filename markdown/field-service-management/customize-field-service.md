@@ -4,8 +4,6 @@ description: Customizations are the best way to get the most out of Field Servic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/customize-field-service.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -22,6 +20,6 @@ Always test your advanced configurations on a non-production instance before com
 
 There are multiple ways that you can configure you Field Service Management instance, those include:
 
--   UI Builder: Dispatcher Workspace, and other Field Service Management applications are built with UI Builder. UI Builder gives you the flexibility to change any of the UI elements in Dispatcher Workspace to fit you needs. For more information on UI Builder, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
--   Script includes: Script includes are used to store JavaScript that runs on the server. Script includes have a name, description, and, script. They also specify whether they are active or not, and whether they can be called from a client script. View existing or create a new script include using the Script Include form. For more information on script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+-   UI Builder: Dispatcher Workspace, and other Field Service Management applications are built with UI Builder. UI Builder gives you the flexibility to change any of the UI elements in Dispatcher Workspace to fit you needs. For more information on UI Builder, see .
+-   Script includes: Script includes are used to store JavaScript that runs on the server. Script includes have a name, description, and, script. They also specify whether they are active or not, and whether they can be called from a client script. View existing or create a new script include using the Script Include form. For more information on script includes, see .
 

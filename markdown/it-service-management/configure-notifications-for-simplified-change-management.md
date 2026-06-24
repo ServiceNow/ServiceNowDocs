@@ -4,8 +4,6 @@ description: Add and manage notifications for Change Management to keep users in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-notifications-for-simplified-change-management.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-05-11"
 reading_time_minutes: 4
@@ -78,7 +76,7 @@ Send when
 
 Select under what condition that the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md) in Flow Designer
+-   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/trigger-notification-action-designer.md) in Flow Designer
 
 
 </td></tr><tr><td>

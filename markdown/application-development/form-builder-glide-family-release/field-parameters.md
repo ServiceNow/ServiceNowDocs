@@ -273,7 +273,7 @@ Option to filter the choice list. Select **Show inactive choices** to view all c
 </td></tr></tbody>
 </table>## Attributes
 
-A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md).
 
 In the Attributes section of the Config panel, select **Edit** or **+Add** to customize the available attributes for the selected field.
 
@@ -295,7 +295,7 @@ Attribute
 
 Option list of available attributes. Select an option from the list of available attributes.
 
- To review the list of available attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+ To review the list of available attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md).
 
 </td></tr><tr><td>
 

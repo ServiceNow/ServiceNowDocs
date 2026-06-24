@@ -84,7 +84,7 @@ Verify that you have installed and configured a MID Server Application.
 
 Configured MID Server ApplicationA MID Server in your ServiceNow AI Platform® instance is required to connect to the ArcSight ESM service if the ArcSight ESM server is deployed within your corporate network. See [Install and configure the ServiceNow application for the ArcSight ESM Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/arcsight-esm-install-configure.md) for instructions on how to configure a MID Server Application.
 
- See the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for information about MID Servers.
+ See the [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md) for information about MID Servers.
 
  If you are using a hosted or cloud service, that is Internet accessible, a MID Server is not required.
 
@@ -104,7 +104,7 @@ Verify that the following Security Operations applications are installed and act
     -   com.glide.hub.action\_step.rest =&gt; ServiceNow IntegrationHub Action Step - REST
 5.  Threat Core
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>## What to do next

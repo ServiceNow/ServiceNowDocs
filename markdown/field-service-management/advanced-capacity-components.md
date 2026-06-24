@@ -4,8 +4,6 @@ description: Several types of components are installed with the Advanced Capacit
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/advanced-capacity-components.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2026-05-25"
 reading_time_minutes: 2

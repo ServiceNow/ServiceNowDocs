@@ -4,8 +4,6 @@ description: On the Settings page, the Reprocess tab is available to reprocess A
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/reprocess-tab-results.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

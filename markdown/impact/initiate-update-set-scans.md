@@ -4,8 +4,6 @@ description: You can scan open update sets for findings to get insights into wha
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-update-set-scans.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -66,5 +66,5 @@ Further configuration is required for CI creation, receipt of events, and alert 
 **Related topics**  
 
 
-[Domain separation setup and basic administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_DomainSeparationSetup.md)
+[Domain separation setup and basic administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
 

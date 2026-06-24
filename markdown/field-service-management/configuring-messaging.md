@@ -4,8 +4,6 @@ description: Sending messages to agents from Dispatcher Workspace enables you to
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configuring-messaging.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,11 +18,11 @@ Leverage the Microsoft Teams application through the Sidebar configuration to se
 
 ## About Sidebar
 
-Messaging from the Sidebar in Dispatcher Workspace is a ServiceNow AI Platform® capability. For more information on configuring the Sidebar for messaging, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar.md).
+Messaging from the Sidebar in Dispatcher Workspace is a ServiceNow AI Platform® capability. For more information on configuring the Sidebar for messaging, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-sidebar.md).
 
-For more information on how the Sidebar works, see: [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/exploring-sidebar.md).
+For more information on how the Sidebar works, see: [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-sidebar.md).
 
-For more information on using the Sidebar to communicate, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/using-sidebar.md).
+For more information on using the Sidebar to communicate, see [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-sidebar.md).
 
 ## About Sidebar for the Field Service Mobile Agent application
 

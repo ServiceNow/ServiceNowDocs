@@ -4,8 +4,6 @@ description: Create a case from an inbound email interaction when the customer q
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-case-from-email-interaction.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

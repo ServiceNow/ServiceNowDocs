@@ -4,8 +4,6 @@ description: Resolve issues quickly and engage better with customers with video 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/chat-zoom-connector.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

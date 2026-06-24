@@ -4,8 +4,6 @@ description: Install Core Business Suite applications to support employee and su
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/install-cbs-apps.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 1

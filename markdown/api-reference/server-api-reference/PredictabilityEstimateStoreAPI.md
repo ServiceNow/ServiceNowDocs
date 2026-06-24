@@ -165,7 +165,7 @@ String
 
 </td><td>
 
-Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).
+Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-predictive-intelligence.md).
 
 </td></tr><tr><td>
 

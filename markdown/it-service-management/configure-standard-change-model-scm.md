@@ -4,8 +4,6 @@ description: Configure the Standard change model to manage the pre-defined templ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-standard-change-model-scm.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-05-18"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Create knowledge articles from customer service cases to save case 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-create-knowledge.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ When creating a knowledge article, you can select a knowledge base and an articl
 
 **Note:** The **sn\_km\_center.glide.knowman.ece.enable** system property enables the Knowledge Center article editor within CSM Configurable Workspace. This property is set to true by default for zBoot customers and can be enabled by upgrade customers.
 
-Before creating knowledge articles, the system administrator needs to [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/administer-create-article-from-case.md).
+Before creating knowledge articles, the system administrator needs to [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/administer-create-article-from-case.md).
 
 ## Procedure
 

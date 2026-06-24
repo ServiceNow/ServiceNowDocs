@@ -4,8 +4,6 @@ description: Use CSM Configurable Workspace to interact with customers, create a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspaces-use.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -167,7 +165,7 @@ Use the step-by-step guidance provided by playbooks to complete tasks and resolv
 
 </td><td>
 
-[Interact with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
+[Interact with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md)
 
 </td></tr><tr><td>
 

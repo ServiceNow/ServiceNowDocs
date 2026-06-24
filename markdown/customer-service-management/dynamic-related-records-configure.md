@@ -4,8 +4,6 @@ description: System administrators can configure the dynamic related records fea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/dynamic-related-records-configure.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -107,7 +105,7 @@ Configuring the dynamic related records feature includes the following tasks:
 
 ## Related Records list card layout
 
-Records appear in the Related Records tab in a card format. This format is created with [Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper.md) \(EVAM\), a ServiceNow AI Platform application that standardizes how different data sources display in cards and lists.
+Records appear in the Related Records tab in a card format. This format is created with [Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper.md) \(EVAM\), a ServiceNow AI Platform application that standardizes how different data sources display in cards and lists.
 
 EVAM uses view configurations and view templates to determine how information for each type of related record is displayed.
 
@@ -118,8 +116,8 @@ EVAM view configurations can be grouped together to create configuration bundles
 
 The system administrator can modify the view configurations in the **dynamic\_related\_records\_bundle** or create new view configurations. This includes selecting the fields that are displayed on the card for each type of record. For more information, see:
 
--   [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.md)
--   [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md)
+-   [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-entity-view-action-mapper.md)
+-   [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md)
 
 ## Related record definitions included with the plugin
 

@@ -4,8 +4,6 @@ description: Follow the daily and weekly progress of incidents, problems, and re
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-it-manager-dashboard.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8

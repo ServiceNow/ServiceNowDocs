@@ -4,8 +4,6 @@ description: Customer service agents manage cases and real-time notifications he
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-mobile-agent-mgr-task.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4

@@ -4,8 +4,6 @@ description: Consider deployment options for your Operational Technology Discove
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/deploy-ot-discovery-devices-landing.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 1

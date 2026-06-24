@@ -4,8 +4,6 @@ description: View all scheduled callbacks in a list view and access individual c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-scheduled-callbacks.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

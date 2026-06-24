@@ -20,7 +20,7 @@ Use the product release email communication agentic workflow to automatically dr
 
 To access the agentic workflow and product release content generator skill, install the plugin AI Agents for Customer Success Management \(sn\_cust\_succ\_ai\_ag\) in your instance.
 
-**Important:** In the Now Assist skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md) for more details.
+**Important:** In the Now Assist skills page, make sure to Activate the product release content generator skill to trigger the agentic workflow. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-skill.md) for more details.
 
 ## Product release email communication agentic workflow overview
 
@@ -32,7 +32,7 @@ The agentic workflow automatically drafts, refine, and publish release announcem
 
 This agentic workflow is delivered as part of the out-of-the-box \(OOB\) product offering and is preconfigured to operate with the Digital Product Release \(DPR\) application. This enables customers to get started quickly using the default setup. However, the workflow is designed with flexibility in mind and isn’t limited to DPR. Organizations using alternative release management or related systems can seamlessly adopt this capability by integrating their existing applications with minimal customization. That ensures the workflow can be adapted to diverse system landscapes and specific business requirements.
 
-When the DPR \(sn\_dpr\_model\_release\) record moves to the completed state, the agentic workflow triggers automatically. For more information about DPR, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
+When the DPR \(sn\_dpr\_model\_release\) record moves to the completed state, the agentic workflow triggers automatically. For more information about DPR, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-landing-page.md).
 
 To modify the Product release email communication agentic workflow, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 

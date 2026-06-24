@@ -4,8 +4,6 @@ description: Learn how the Workspace declarative actions function with configura
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-form-declarative-actions.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -45,7 +43,7 @@ Action Assignment \[sys\_declarative\_action\_assignment\]
 **Related topics**  
 
 
-[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
+[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-events.md)
 
-[Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md)
+[Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/bind-event-declarative-action.md)
 

@@ -4,8 +4,6 @@ description: The details provide the field and its descriptions of the widget in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/helpt-instance-form.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

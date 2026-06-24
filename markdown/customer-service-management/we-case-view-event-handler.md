@@ -4,8 +4,6 @@ description: A component triggers an event when a certain condition is met or on
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-case-view-event-handler.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

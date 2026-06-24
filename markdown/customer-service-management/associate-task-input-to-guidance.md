@@ -4,8 +4,6 @@ description: Link the task input in the start node to the task input in the guid
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-task-input-to-guidance.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -20,7 +20,7 @@ The Jumpstart Your Strategic Portfolio Management – Planning Workspace Acceler
 
 Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of Planning Workspaces in SPM, demonstrating how to gain clear visibility into work items, prioritize effectively, and align execution with strategic goals. This accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
-For additional information on SPM, see .
+For additional information on SPM, see [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md).
 
 ## Package Availability
 

@@ -4,8 +4,6 @@ description: Advanced resource filtering allows administrators and dispatchers t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-advanced-filter.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -61,7 +59,7 @@ The values in any tables related to users or crews that are part of your deploym
 
 **Warning:** You must be a professional developer and a service now administrator to set this up.
 
-For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
+For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
 
 ## Resource filter configuration
 

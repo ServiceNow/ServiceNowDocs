@@ -25,7 +25,7 @@ Export data from the ServiceNow AI Platform in a variety of formats.
 You can also export data from your instance using the following options:
 
 -   Export multiple records from a table via a web services request. For example, you can create an external application or process to automate the retrieval of data from an instance via web services such as REST or SOAP. For more information, see [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md).
--   Push all the data that you want to export to an external file by creating an export set. For more information, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/c_ExportSets.md).
+-   Push all the data that you want to export to an external file by creating an export set. For more information, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ExportSets.md).
 
 ## Associated roles
 
@@ -58,7 +58,7 @@ CSV
 
 Export table records as a comma-separated value text file. Use this option to export the currently displayed fields in the list or form as a text file. Configure the list or form to add or remove fields from the export. When exported to CSV, dot-walked fields appear using their full field name, such as u\_assignment\_group.parent.
 
- **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) to UTF-8.
+ **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to UTF-8.
 
 </td></tr><tr><td>
 

@@ -4,8 +4,6 @@ description: Create a work scheduler card and add the components that you want t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-workscheduler-card-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -44,7 +42,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     A new card is created.
 
-    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.md).
+    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-work-scheduler.md).
 
 10. Select **Done**.
 
@@ -75,5 +73,5 @@ Associate the work scheduler card that you've created to the work configuration 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
 

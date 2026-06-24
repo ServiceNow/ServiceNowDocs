@@ -134,5 +134,5 @@ Enter the due date for the requestee agent to approve.\[Omitted image "shift-swa
 **Related topics**  
 
 
-[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/build-your-first-flow.md)
+[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-your-first-flow.md)
 

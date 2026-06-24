@@ -4,8 +4,6 @@ description: You can view and configure a variety of information, formatted into
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/teamdev-scanning-properties.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

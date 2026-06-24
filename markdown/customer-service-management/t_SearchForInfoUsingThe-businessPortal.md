@@ -4,8 +4,6 @@ description: Use the search feature on the business portal header and home page 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SearchForInfoUsingThe-businessPortal.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

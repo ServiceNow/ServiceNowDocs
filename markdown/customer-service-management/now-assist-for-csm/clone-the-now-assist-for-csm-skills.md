@@ -34,7 +34,7 @@ There are 2 ways to clone Now Assist for CSM skills:
 
     Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies 
 
-2.  [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md) Clone from Now Assist Skill Kit.
+2.  [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Clone from Now Assist Skill Kit.
 
     Now Assist Skill Kit video that shows how to build a custom skill. 
 

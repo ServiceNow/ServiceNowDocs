@@ -4,8 +4,6 @@ description: Integrate Customer Service Management with IT Service Management th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-csm-integration-with-itsm.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

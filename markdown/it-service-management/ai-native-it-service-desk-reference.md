@@ -4,8 +4,6 @@ description: Reference topics provide additional information about Simplified IT
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/ai-native-it-service-desk-reference.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-04-01"
 reading_time_minutes: 1

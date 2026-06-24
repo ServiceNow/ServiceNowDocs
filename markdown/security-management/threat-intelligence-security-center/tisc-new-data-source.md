@@ -299,7 +299,7 @@ Set the frequency at which you want to ingest the records. The feed will run and
 -   Business Calendar: Entry End
 **Note:** By default, the frequency is set to On Demand.
 
- For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
+ For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 </td></tr><tr><td>
 

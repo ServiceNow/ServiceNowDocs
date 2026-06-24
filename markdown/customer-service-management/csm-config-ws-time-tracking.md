@@ -4,8 +4,6 @@ description: The activity timer log feature automatically tracks the time that a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-time-tracking.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 3

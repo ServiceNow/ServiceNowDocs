@@ -131,7 +131,7 @@ Enterprise asset request initiation
 
     -   If the total cost of the requested assets is less than the amount specified in the corresponding automatic approval rule, the request is approved automatically. By default, this amount is set to one thousand dollars.
     -   If the total cost of the requested assets is more than the amount specified in the corresponding automatic approval rule, the request must be reviewed and approved by an asset manager.
-For more information on automatic approval rules, see [Set automatic approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_SetAutomaticApprovalRules.md).
+For more information on automatic approval rules, see [Set automatic approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_SetAutomaticApprovalRules.md).
 
 
 </td></tr><tr><td>

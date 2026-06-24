@@ -4,8 +4,6 @@ description: Confirm an integration user, create a Basic authentication record, 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-basic-auth-method.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1

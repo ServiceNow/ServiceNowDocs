@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -52,7 +52,7 @@ Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
 </td></tr><tr><td id="d205413e97">
 
-**[Add to Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/case-mgmt.md)**
+**[Add to Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-mgmt.md)**
 
 </td><td>
 
@@ -76,7 +76,7 @@ Choose and run a Security Operations workflow.
 
 </td></tr><tr><td id="d205413e134">
 
-**[View SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_ViewSLATimeline.md)**
+**[View SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ViewSLATimeline.md)**
 
 </td><td>
 

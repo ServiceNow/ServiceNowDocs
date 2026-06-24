@@ -4,8 +4,6 @@ description: Share a task plan template with specific users, groups, service o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/share-a-task-plan-template-from-the-workspace.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-11"
 reading_time_minutes: 1

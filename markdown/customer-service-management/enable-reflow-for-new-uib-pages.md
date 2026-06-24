@@ -4,8 +4,6 @@ description: Enable a reflow for your UI Builder pages. This way, when you’re 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-reflow-for-new-uib-pages.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -58,6 +56,6 @@ The reflow feature adjusts the properties of the components when you’re resizi
 
 7.  Select **Done**.
 
-    For more details, see [Reflow for playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/reflow-for-playbook-components.md).
+    For more details, see [Reflow for playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/reflow-for-playbook-components.md).
 
 

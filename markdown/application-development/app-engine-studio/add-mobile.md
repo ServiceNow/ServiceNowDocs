@@ -40,7 +40,7 @@ Use Mobile App Builder to build and manage screens and records that make up work
 
     -   Mobile Agent
     -   Now Mobile
-    For more information about the mobile experience options and important considerations when choosing a mobile experience, see [Design considerations for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-design-consideration.md).
+    For more information about the mobile experience options and important considerations when choosing a mobile experience, see [Design considerations for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-design-consideration.md).
 
 6.  On the form, fill in the fields.
 
@@ -155,7 +155,7 @@ Screen that displays an existing webpage, which you specify the URL for in the n
 
 14. Edit the mobile experience in Mobile App Builder.
 
-    For more information, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mab-concept.md).
+    For more information, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
 
 ## What to do next
@@ -164,7 +164,7 @@ Scan or copy the QR code for your mobile experience using the **Select app** and
 
 \[Omitted image "mobile-experience-qr-code.jpg"\] Alt text: Scan QR code for the mobile experience.
 
-For more information on modifying mobile experiences, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mab-concept.md).
+For more information on modifying mobile experiences, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
 -   **[Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/mobile-experiences-examples.md)**  
 A mobile experience enables users to access your application from a ServiceNow native mobile app.

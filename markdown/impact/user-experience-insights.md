@@ -4,8 +4,6 @@ description: Explore real-time user monitoring to analyze user experience and pe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/user-experience-insights.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

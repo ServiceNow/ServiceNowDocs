@@ -4,8 +4,6 @@ description: Associate your assignment groups with an internal or an external bu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-assignment-groups.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

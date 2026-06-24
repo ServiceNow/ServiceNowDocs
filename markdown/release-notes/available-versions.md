@@ -4,8 +4,6 @@ description: The Australia family includes patches and hotfixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-23"
 reading_time_minutes: 2

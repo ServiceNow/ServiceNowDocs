@@ -4,8 +4,6 @@ description: The ServiceNow Configurable Workspace offers voice interaction and 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/contact-center-integration-with-icc.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -18,7 +18,7 @@ The Search CMDB agentic workflow enables you to search for CIs by specifying any
 
 ## Before you begin
 
-Confirm that Query Generation skills are activated. For instructions, see [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/configuring-query-generation.md).
+Confirm that Query Generation skills are activated. For instructions, see [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md).
 
 **Note:** Because activation configures a large amount of data, wait one day after activation to use the Search CMDB agentic workflow.
 
@@ -43,7 +43,7 @@ The Search CMDB agentic workflow can perform the following types of search:
 3.  Enter the information that describes the searched-for CIs.
 
     -   Provide as much as you know about the CIs. Ideally provide the class type followed by other search values and conditions. For example, name, IP address, serial number, MAC address, or asset tag.
-    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics/query-generation-logs.md).
+    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-logs.md).
 4.  Refine the query if Now Assist does not return the CI that you're interested in.
 
     For example, you might have specified an IP address that is duplicated in multiple tables. In such cases, provide details that narrow the search.

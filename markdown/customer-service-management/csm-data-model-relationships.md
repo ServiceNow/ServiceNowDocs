@@ -4,8 +4,6 @@ description: Create relationships between an agent and a customer or between two
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-relationships.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -155,8 +155,8 @@ Relationship between the input table and the table field.
 
         **Note:**
 
-        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
-        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
+        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
+        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-source-form-ais.md).
         \[Omitted image "itsm-now-assist-change-similar-changes.png"\] Alt text: Similar changes for change risk explanation
 
         The **Short description** field is available by default. You can edit or remove the following fields:

@@ -84,5 +84,5 @@ Update the planned dates on the associated change requests manually because they
 **Related topics**  
 
 
-[Digital Product Release - PUT /sn\_dpr/digital\_product\_release/release/\{sysId\}/retarget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/digital-product-release-api.md)
+[Digital Product Release - PUT /sn\_dpr/digital\_product\_release/release/\{sysId\}/retarget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/digital-product-release-api.md)
 

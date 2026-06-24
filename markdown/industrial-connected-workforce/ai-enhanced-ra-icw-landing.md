@@ -4,8 +4,6 @@ description: The AI Enhanced recommended actions for Industrial Connected Workfo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/ai-enhanced-ra-icw-landing.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

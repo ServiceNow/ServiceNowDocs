@@ -4,8 +4,6 @@ description: Edit a User's information and keep the user account up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-user-information.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

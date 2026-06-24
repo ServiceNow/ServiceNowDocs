@@ -72,7 +72,7 @@ Map data by using the pill picker \(\[Omitted image "pill-picker-green.png"\] Al
 
 </td><td>
 
-Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md) for information on how to use these to trim data for your imported spreadsheet fields.
+Add transform options for each of the individual mapped spreadsheet fields by clicking the FX icon \( \[Omitted image "fx-icon.png"\] Alt text: FX icon.\) on the right side pane. For example, you can use the Uppercase transform function to change an input string to all uppercase characters. See [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/transform-functions.md) for information on how to use these to trim data for your imported spreadsheet fields.
 
 **Note:** Not all the transform functions available in Flow Designer are available.
 

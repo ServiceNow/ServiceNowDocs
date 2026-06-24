@@ -4,8 +4,6 @@ description: The Targeted Communications application provides the ability to cre
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_TargetedCommunications.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -87,7 +85,7 @@ Includes publications that have reached their **Expiry Date** or have been set t
 </td></tr></tbody>
 </table>## Targeted communications workflows
 
-Starting with the Zurich release, legacy publication workflows for the Targeted Communications \(com.sn\_publications\) application have been migrated to low code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md). The functionality of the flows remains the same.
+Starting with the Zurich release, legacy publication workflows for the Targeted Communications \(com.sn\_publications\) application have been migrated to low code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md). The functionality of the flows remains the same.
 
 If customers have customized the legacy workflows, a fix script deactivates the new flows and activates the legacy workflows during instance upgrade.
 

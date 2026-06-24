@@ -4,8 +4,6 @@ description: Create a task plan template that includes template items, such as t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

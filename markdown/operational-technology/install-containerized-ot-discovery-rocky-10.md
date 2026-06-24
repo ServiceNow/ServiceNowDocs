@@ -4,8 +4,6 @@ description: Install the containerized packages for the Discovery Console for OT
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-containerized-ot-discovery-rocky-10.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-06-01"
 reading_time_minutes: 1

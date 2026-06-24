@@ -325,7 +325,7 @@ Groups that contains a different set of fields. These groups are available as a 
 
 9.  In the **Test Action** field, enter the name of the test action.
 
-    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-alias-configuration-template.md).
+    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/test-alias-configuration-template.md).
 
 10. Add the template to a Connection &amp; Credential alias.
 

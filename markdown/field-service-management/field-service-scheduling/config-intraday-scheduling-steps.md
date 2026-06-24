@@ -34,11 +34,11 @@ Intraday schedule automation updates agents schedules to maximize productivity d
 
     Update the value that determines whether an agent has acted.
 
-5.  \(Optional\) [Delete a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-delete.md)
+5.  \(Optional\) [Delete a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-delete.md)
 
     If you do not need a flow installed with intra-day schedule automation, you can delete it.
 
-6.  [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md)
+6.  [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-activate.md)
 
     Activate the flows when you want to add the configurations to your instance.
 

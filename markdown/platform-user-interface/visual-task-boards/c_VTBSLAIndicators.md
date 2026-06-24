@@ -29,5 +29,5 @@ When SLA indicators are enabled, a status bar appears on each card that has an a
 **Related topics**  
 
 
-[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md)
+[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md)
 

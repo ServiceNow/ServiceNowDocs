@@ -4,8 +4,6 @@ description: Agents can request supervisor assistance during active customer cal
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-help-request-for-voice-calls.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -52,7 +50,7 @@ Persona:
     Responds to help requests and performs coaching or barge in actions with appropriate permissions.
 
 
-See [Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/help-request-api.md)
+See [Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/help-request-api.md)
 
 Review the following scenarios to understand how the feature works.
 

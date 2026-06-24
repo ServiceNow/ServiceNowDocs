@@ -4,8 +4,6 @@ description: Details of the default configurations for Core Business Suite Found
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-default-configs.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-28"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Install all eligible Customer Service Management \(CSM\) applicatio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-all-customer-service-apps.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-05-20"
 reading_time_minutes: 1

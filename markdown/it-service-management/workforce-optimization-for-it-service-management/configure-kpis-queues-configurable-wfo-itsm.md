@@ -63,7 +63,7 @@ Do This
 
 4.  Add Workforce Optimization for ITSM KPIs \(reports\) that are filtered based on **My Managed Groups**.
 
-    To create reports that explicitly apply to your managed teams, refer to [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_SingleScoreCharts.md).
+    To create reports that explicitly apply to your managed teams, refer to [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_SingleScoreCharts.md).
 
 5.  Click **Submit**.
 

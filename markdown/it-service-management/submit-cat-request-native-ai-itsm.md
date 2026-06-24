@@ -4,8 +4,6 @@ description: Save time in searching for and submitting requests for commonly req
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/submit-cat-request-native-ai-itsm.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

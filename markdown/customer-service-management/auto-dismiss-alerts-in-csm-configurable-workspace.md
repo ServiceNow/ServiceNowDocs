@@ -4,8 +4,6 @@ description: In CSM Configurable Workspace, alerts automatically dismiss after a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Use the dashboards to monitor the operational KPIs and identify are
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/operational-success-kpi.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

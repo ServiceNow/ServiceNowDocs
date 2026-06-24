@@ -4,8 +4,6 @@ description: OpenFrame provides a communication frame that customer service agen
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_OpenFrameOverview.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -42,7 +40,7 @@ OpenFrame includes these components:
 **Note:**
 
 -   To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
--   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md), and [Enable URL allow list for cross-origin iframe communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-url-allowlist-for-cross-origin-iframe-communication.md) in Instance Security Hardening Settings.
+-   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md), and [Enable URL allow list for cross-origin iframe communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-enable-url-allowlist-for-cross-origin-iframe-communication.md) in Instance Security Hardening Settings.
 
 ## Using the OpenFrame window
 

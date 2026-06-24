@@ -64,14 +64,14 @@ Do one of the following:
 
  Alternatively, you can browse articles, view popular or the most recently viewed articles by tapping **See All** in the respective section.
 
- For more information on accessing knowledge articles, see [Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md).
+ For more information on accessing knowledge articles, see [Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mobile-experience-for-km.md).
 
 </td></tr></tbody>
 </table>
 **Related topics**  
 
 
-[Configure the Knowledge Management Service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
+[Configure the Knowledge Management Service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management-service-portal.md)
 
 ## Access information about your team
 

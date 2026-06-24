@@ -57,5 +57,5 @@ When you add global search to a CMS site, two different search result blocks can
 -   **[CMS translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSTranslation.md)**  
 You can translate CMS sites by activating internationalization plugins and manually translating custom interface strings.
 
-**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-uis-and-portals.md)
+**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-uis-and-portals.md)
 

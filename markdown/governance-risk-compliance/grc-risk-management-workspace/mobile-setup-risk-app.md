@@ -46,7 +46,7 @@ As a user with the admin role, verify that you have the GRC core applications in
 
  If not visible in your instance, all of the GRC core applications are available from the ServiceNow Store.
 
- For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+ For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-and-store.md).
 
 When you install the GRC core applications, the dependency plugins for the GRC Mobile application, \(com.glide.sg and com.glide.sg.agent\_native\_client\) are also automatically installed.To verify that these dependency plugins are installed and activated:
 
@@ -64,7 +64,7 @@ As a user with the admin role, verify that you have the GRC mobile app installed
 
  **Note:** The GRC mobile app and the ServiceNow AI Platform instance should be from the same family release.
 
- For more information about getting entitlement, downloading, and installing the GRC Mobile application, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+ For more information about getting entitlement, downloading, and installing the GRC Mobile application, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ As a user with the admin role, in your ServiceNow AI Platform instance verify th
 
  **Note:** If you have multiple users for the mobile application, you alternatively can assign the sn\_risk.manager role to a group. Each user you add to the group inherits this role.
 
- For more information on users and assigning roles to users and groups, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+ For more information on users and assigning roles to users and groups, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
 
 </td></tr><tr><td>
 

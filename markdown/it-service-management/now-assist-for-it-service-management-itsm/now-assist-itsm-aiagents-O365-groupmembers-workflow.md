@@ -23,7 +23,7 @@ Using the Manage Microsoft 365 group members agentic workflow, add or remove nam
 
 **Important:**
 
--   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
+-   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-azure-ad-spoke.md).
 -   After you add or remove users to the group using the Microsoft 365 agentic workflow, follow the instructions listed in the table.
 
 <table id="table_xvf_npv_w2c"><thead><tr><th>

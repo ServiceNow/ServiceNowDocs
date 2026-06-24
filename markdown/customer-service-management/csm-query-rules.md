@@ -4,8 +4,6 @@ description: Query rules are used to filter the records in CSM-related tables th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-query-rules.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

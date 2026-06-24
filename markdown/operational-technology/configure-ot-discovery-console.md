@@ -4,8 +4,6 @@ description: This section is an overview of the steps for installing the Discove
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/configure-ot-discovery-console.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3

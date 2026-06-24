@@ -4,8 +4,6 @@ description: Requesters in CBS can use Now Assist in the conversational interfac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/now-assist-configurations-requesters.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2024-12-19"
 reading_time_minutes: 1

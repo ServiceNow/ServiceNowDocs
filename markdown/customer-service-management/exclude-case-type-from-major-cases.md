@@ -4,8 +4,6 @@ description: Edit the CSUIActionsImpl script include to exclude specific case ty
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/exclude-case-type-from-major-cases.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-06-05"
 reading_time_minutes: 1

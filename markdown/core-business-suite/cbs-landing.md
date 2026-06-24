@@ -4,8 +4,6 @@ description: Core Business Suite \(CBS\) lays the foundation to unify disjointed
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-landing.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

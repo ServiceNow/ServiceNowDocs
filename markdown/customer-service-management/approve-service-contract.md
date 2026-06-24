@@ -4,8 +4,6 @@ description: Approve a service contract for a customer account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-service-contract.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -53,5 +51,5 @@ The review state changes to **Rejected** on the Approvals list. If you reject a 
 **Related topics**  
 
 
-[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md)
+[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ContractManagement.md)
 

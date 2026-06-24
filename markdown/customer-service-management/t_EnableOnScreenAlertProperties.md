@@ -4,8 +4,6 @@ description: Configure the necessary properties to display special handling note
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_EnableOnScreenAlertProperties.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

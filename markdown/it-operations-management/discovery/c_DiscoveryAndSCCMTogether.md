@@ -24,7 +24,7 @@ When Software Asset Management is not enabled, software installation records are
 
 ## Overview of Service Graph connector for Microsoft SCCM
 
-Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more details.
+Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-sccm.md) for more details.
 
 **Note:** If you upgrade your instance to a version of the ServiceNow AI Platform that does not provide support for your version of SCCM, you can continue to use that version. However, all new instances require the use of a supported SCCM version.
 

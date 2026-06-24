@@ -4,8 +4,6 @@ description: Configure how exception reasons are enforced, approved, and re-eval
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-exception-reasons-scan-engine.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-04-13"
 reading_time_minutes: 1

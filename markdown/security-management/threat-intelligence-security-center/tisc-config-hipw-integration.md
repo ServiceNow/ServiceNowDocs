@@ -37,7 +37,7 @@ The integration supports the following observable types:
 -   Email address
 -   Domain name
 
-**Note:** Before you begin, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
+**Note:** Before you begin, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
 
 ## Procedure
 

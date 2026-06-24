@@ -4,8 +4,6 @@ description: Use the Case Playbook for Complaints to guide agents through the st
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-complaint-overview.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13

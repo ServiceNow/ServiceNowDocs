@@ -4,8 +4,6 @@ description: Field descriptions for the CBS Client Role Rule form, used to defin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-role-rule-form.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: reference
 last_updated: "2026-06-08"
 reading_time_minutes: 1

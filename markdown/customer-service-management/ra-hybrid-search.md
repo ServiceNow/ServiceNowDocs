@@ -4,8 +4,6 @@ description: Hybrid search combines keyword-based and semantic search to surface
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-hybrid-search.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-04-07"
 reading_time_minutes: 2
@@ -30,7 +28,7 @@ The two methods are combined to rank results, improving relevance without requir
 
 ## Hybrid search results
 
-For example, a search for `My system keeps freezing` now returns relevant KB articles such as titled `Troubleshooting application performance degradation`, even if they do not use the word "freezing" — a query that previously returned no results with keyword-only search. With Hybrid Search, the article is surfaced because the search understands that freezing, lagging, and performance degradation describe the same problem. For more information on hybrid search, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/hybrid-search-ais.md).
+For example, a search for `My system keeps freezing` now returns relevant KB articles such as titled `Troubleshooting application performance degradation`, even if they do not use the word "freezing" — a query that previously returned no results with keyword-only search. With Hybrid Search, the article is surfaced because the search understands that freezing, lagging, and performance degradation describe the same problem. For more information on hybrid search, see [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hybrid-search-ais.md).
 
 ## Default behavior
 

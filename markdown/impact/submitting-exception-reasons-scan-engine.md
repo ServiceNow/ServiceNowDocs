@@ -4,8 +4,6 @@ description: For Recommend level findings, developers can submit exception reque
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/submitting-exception-reasons-scan-engine.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-15"
 reading_time_minutes: 1

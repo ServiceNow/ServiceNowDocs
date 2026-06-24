@@ -27,5 +27,5 @@ Prepare your instance upgrade with Upgrade Plan by determining all the applicati
 -   **[Apply Upgrade Plan on your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-apply-upgrade-plan.md)**  
 Apply the selected upgrade plan to your instance upgrade.
 
-**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/upgrade-now-platform.md)
+**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-now-platform.md)
 

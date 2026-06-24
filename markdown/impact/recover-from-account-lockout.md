@@ -4,8 +4,6 @@ description: Unlock the integration user account and clear the password reset fl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/recover-from-account-lockout.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1

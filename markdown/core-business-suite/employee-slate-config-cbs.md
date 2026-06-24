@@ -4,8 +4,6 @@ description: Core Business Suite provides two setup options for configuring Empl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/employee-slate-config-cbs.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 1

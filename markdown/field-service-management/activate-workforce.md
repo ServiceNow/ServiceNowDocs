@@ -4,8 +4,6 @@ description: Activate the Workforce plugin to start using Workforce for Field Se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/activate-workforce.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Customize the New Activity marker in UI Builder to differentiate be
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-new-activity-marker-email-interaction.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 ## Procedure
 

@@ -4,8 +4,6 @@ description: As an OSP agent, you can view the list of emails related to a case 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-view-email-respond.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

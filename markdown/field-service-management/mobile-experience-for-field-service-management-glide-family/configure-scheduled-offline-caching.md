@@ -93,5 +93,5 @@ The duration when the cache expires on the client. Every time the payload is ref
 **Related topics**  
 
 
-[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/scheduled-offline-caching.md)
+[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md)
 

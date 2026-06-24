@@ -4,8 +4,6 @@ description: Integrate the Customer Service Virtual Agent with Facebook Messenge
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/update-authentication-facebook-va-integration.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 -   Make sure Virtual Agent is integrated with Facebook Messenger.
 -   Make sure you have the token and secret for the messenger.
 
-For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+For information on integrating the Virtual Agent with Facebook Messenger and for retrieving the messenger token and secret, see [Set up Virtual Agent integration for consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integration-messaging-apps.md).
 
 ## About this task
 

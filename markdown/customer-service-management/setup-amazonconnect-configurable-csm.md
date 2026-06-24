@@ -4,8 +4,6 @@ description: Set up phone queues for Amazon Connect to gain visibility into the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-amazonconnect-configurable-csm.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -55,7 +53,7 @@ A routing profile links queues to agents. Every agent must have a routing profil
 
 1.  Create placeholder queues for an Amazon Connect \(phone\) service channel if you need additional queues.
 
-    For more information on creating the queue, refer to [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+    For more information on creating the queue, refer to [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
 
     **Note:** Do not add work item routing conditions when you create the placeholder queues.
 

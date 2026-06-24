@@ -4,8 +4,6 @@ description: Configure assignment rules for each business unit in Core Business 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/set-assignment-rules-cbs.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Create an investment board on the CSM Investment Portal and add the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-create-investment-portal.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 3.  Fill in the fields on the Create New pop-up window.
 
-    For more information about these fields, see [Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/create-an-investment-report.md).
+    For more information about these fields, see [Create an investment board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-an-investment-report.md).
 
 4.  Click **Create**.
 

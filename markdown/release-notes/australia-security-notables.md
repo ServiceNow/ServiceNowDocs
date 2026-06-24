@@ -4,8 +4,6 @@ description: The Australia release contains important problem fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-security-notables.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 108

@@ -4,8 +4,6 @@ description: Add additional contacts for the B2B \(accounts or contacts\) or B2B
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-additional-contacts-soldproduct.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

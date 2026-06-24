@@ -32,7 +32,7 @@ Role required: admin or playbook.admin
 
 5.  On the **Build on your own** tab, fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d66043e95">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d66045e95">
 
 **Variant name**
 
@@ -40,7 +40,7 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d66043e107">
+</td></tr><tr><td id="d66045e107">
 
 **Conditions**
 

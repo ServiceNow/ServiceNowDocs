@@ -49,7 +49,7 @@ Your changes reflect in the AI Risk and Compliance Workspace under the correspon
 
 [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-configurable-workspace-page-uib.md)
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
 
 Receive additional, detailed documentation on configuring and using UI Builder.
 

@@ -4,8 +4,6 @@ description: Add fields to task cards or the Contextual Side Panel \(CSP\) so mo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configuring-popover-fields.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

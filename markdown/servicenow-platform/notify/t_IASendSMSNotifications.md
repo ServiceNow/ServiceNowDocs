@@ -44,5 +44,5 @@ Update users on the latest communication on an incident through selected communi
 **Related topics**  
 
 
-[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_IncidentAlertManagement.md)
+[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentAlertManagement.md)
 

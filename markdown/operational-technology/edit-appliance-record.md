@@ -4,8 +4,6 @@ description: This section describes what information that is available and that 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-appliance-record.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-06-10"
 reading_time_minutes: 5

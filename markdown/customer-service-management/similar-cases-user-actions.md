@@ -4,8 +4,6 @@ description: Customer service agents and major issue managers can use the simila
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/similar-cases-user-actions.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -102,5 +100,5 @@ The current case is added as a child to the major case.
 </table>**Related topics**  
 
 
-[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/word-collection-similarity-solution.md)
+[Similarity solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/word-collection-similarity-solution.md)
 

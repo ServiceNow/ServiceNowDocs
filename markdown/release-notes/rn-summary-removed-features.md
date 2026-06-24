@@ -4,8 +4,6 @@ description: Cumulative release notes summary on features that were removed from
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-removed-features.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
 reading_time_minutes: 2
@@ -53,7 +51,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-The Multisource Report Builder has been removed. Use CMDB 360 in CMDB Workspace or in Service Graph Workspace to generate reports for multisource data. For more information, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
+The Multisource Report Builder has been removed. Use CMDB 360 in CMDB Workspace or in Service Graph Workspace to generate reports for multisource data. For more information, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multisource-cmdb.md).
 
 </td></tr><tr><td>
 

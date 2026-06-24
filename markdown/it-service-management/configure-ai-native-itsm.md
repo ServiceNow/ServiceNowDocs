@@ -4,8 +4,6 @@ description: Enable ITSM requester and fulfiller experiences by completing the e
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-ai-native-itsm.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

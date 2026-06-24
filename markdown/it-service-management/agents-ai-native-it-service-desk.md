@@ -4,8 +4,6 @@ description: Use conversational AI-native experience for administrators, employe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/agents-ai-native-it-service-desk.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: reference
 last_updated: "2026-03-31"
 reading_time_minutes: 5

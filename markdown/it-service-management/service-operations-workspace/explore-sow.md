@@ -81,10 +81,10 @@ User who implements and sets up Service Operations Workspace for ITSM.
 | Agents can create requests from incidents and interactions. Agents can also manage the entire life cycle of requests. |[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/request-sow.md)|Tier 1 and Tier 2 agents|
 |Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/walkup-sow.md)|Tier 1 and Tier 2 agents|
 |All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
-|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md)|Administrator|
+|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
 |Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/explore-sow-itom.md).
+For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-sow-itom.md).
 
 ## Service Operations Workspace for ITSM workflow for an agent
 
@@ -103,12 +103,12 @@ Use a guided tour that is sequence of interactive steps to guide an agent throug
 
 **Important:**
 
--   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/edit-guided-tour.md).
+-   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-guided-tour.md).
 -   The **Take a Tour** or **Select a Tour** option is available only when a guided tour is available for that UI page.
 
 ## Using guided setup to implement Service Operations Workspace for ITSM
 
-Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
 ## What to explore next
 

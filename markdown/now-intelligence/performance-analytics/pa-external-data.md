@@ -31,7 +31,7 @@ Performance Analytics external data collection uses three types of configuration
 **Related topics**  
 
 
-[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md)
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Supported database formats for external data
 
@@ -46,7 +46,7 @@ Performance Analytics supports only the database formats that ServiceNow support
 **Related topics**  
 
 
-[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md)
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Create an indicator for external data
 
@@ -176,7 +176,7 @@ Live group profile
 
 Live Group Profile \[live\_group\_profile\] record for a Live Feed group. Specify a group profile to cause that group to get notifications about this indicator.
 
- For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md).
+ For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md).
 
 </td></tr><tr id="row_order"><td>
 
@@ -245,7 +245,7 @@ If you want to collect breakdown scores for the indicator, define an external br
 **Related topics**  
 
 
-[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md)
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Create a breakdown using external data
 

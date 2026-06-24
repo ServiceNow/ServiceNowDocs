@@ -22,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 ## Procedure
 
-1.  Follow the instructions for [installing an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md) and install the **Threat Intelligence Security Center Security Operations** application.
+1.  Follow the instructions for [installing an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md) and install the **Threat Intelligence Security Center Security Operations** application.
 
 2.  After installation completes, you can open the Threat Intelligence Security Center Workspace by navigating to **Workspaces** &gt; **Threat Intelligence Security Center**
 

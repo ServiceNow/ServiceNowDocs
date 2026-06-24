@@ -4,10 +4,8 @@ description: Navigate the AI-Eligible Findings dashboard, generate an AI fix for
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/use-remediation-agent.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---

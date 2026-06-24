@@ -79,7 +79,7 @@ By default, all resources in an API support the following request and response f
 
 You can configure your scripted REST APIs with the necessary level of security. From public APIs/endpoints that don't require any security to highly secure APIs/endpoints that require user authentication with tight access control to all resources.
 
-Use the API access policy feature to control the authentication method for the APIs. For more information, see [API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-access-policy.md).
+Use the API access policy feature to control the authentication method for the APIs. For more information, see [API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/api-access-policy.md).
 
 ## Scripted REST API access controls
 
@@ -87,7 +87,7 @@ Access control lists \(ACLs\) define criteria, such as the roles needed and cond
 
 When defining a scripted REST API ACL, it must have the **Type** value **REST\_Endpoint**.
 
-For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
+For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
 
 ## Scripted REST API security matrix
 
@@ -127,7 +127,7 @@ The numeric status code, such as 404, is included in the response Status code he
 
 ## Automated Test Framework support
 
-The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See [Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-administer-rest.md) and [ATF REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/rest-test-steps.md).
+The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md) \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See [Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-administer-rest.md) and [ATF REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/rest-test-steps.md).
 
 ## Developer training
 

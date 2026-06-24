@@ -20,7 +20,7 @@ When the **glide.authenticate.session\_access.log\_audit\_event** system propert
 
 Ensure the that the property **glide.authenticate.session\_access.log\_audit\_event** is set to **true**.
 
-**Important:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/session-access.md).
+**Important:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md).
 
 ## More information
 

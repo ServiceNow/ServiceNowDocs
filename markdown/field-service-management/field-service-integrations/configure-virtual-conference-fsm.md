@@ -44,15 +44,15 @@ Do this
 
 1.  Integrate the Zoom account of your company with your ServiceNow instance using the Zoom spoke.
 
-For more information, see [Setup Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
+For more information, see [Setup Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md).
 
 2.  Set up the Notify Zoom connector in Zoom for associating the Notify communication channel with Zoom meetings.
 
-The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-zoom-connector.md).
+The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-zoom-connector.md).
 
 3.  Configure a conference provider or a phone number to be used as choices for initiating a conference call.
 
-For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md).
+For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-providers-for-provider-selectors.md).
 
 </td></tr><tr><td id="d51111e168">
 
@@ -62,7 +62,7 @@ For more information, see [Configure a provider in Notify](https://raw.githubuse
 
 1.  Integrate the Microsoft Teams account of your company with your ServiceNow instance using the Microsoft Teams Communication spoke.
 
-For more information, see [Set up the Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) .
+For more information, see [Set up the Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-msteams-comm.md) .
 
 2.  Set up the Notify connector for Microsoft Teams in Microsoft Teams for associating the Notify communication channel with Microsoft Teams meetings.
 

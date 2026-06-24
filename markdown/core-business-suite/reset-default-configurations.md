@@ -4,8 +4,6 @@ description: If the default configurations aren’t applied for Core Business Su
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/reset-default-configurations.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-04-05"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Export OAuth records from the development instance, import them int
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-oauth-auth-method-prod.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-29"
 reading_time_minutes: 8

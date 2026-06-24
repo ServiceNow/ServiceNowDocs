@@ -232,7 +232,7 @@ The method digest algorithm based on the standard WS-security standard. Choose o
 -   **SHA-256 \(lower case\)**
 -   **SHA-1 \(lower case\)**
 
-For more information about the WS-security standards, see [WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ws-security-properties.md).
+For more information about the WS-security standards, see WS-Security properties.
 
 </td></tr><tr><td>
 

@@ -4,8 +4,6 @@ description: Compare performance metrics between two time periods to identify tr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-compare-datasets.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-02-12"
 reading_time_minutes: 2

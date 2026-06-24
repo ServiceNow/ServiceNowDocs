@@ -4,8 +4,6 @@ description: Create a case for customer install base affected by an alert to ant
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-alert-workspace.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -32,7 +30,7 @@ ITOM Event Management calculates the services \(CIs\) impacted by an alert and p
 
 The Affected Install Base related list on the Alert form displays the install base items that are linked to the impacted services \(CIs\).
 
-The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see [Alert Impact Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
+The **Refresh Affected Install Base Items** button on the Alert form recalculates the impacted services \(CIs\) and updates the em\_impacted\_ci\_table and affected install base items with the latest changes. For more details, see [Alert Impact Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMImpactCalculation.md).
 
 ## Procedure
 

@@ -64,7 +64,7 @@ If your organization has processes to be run before or after the service fulfill
 
     Ensure that the Service Fulfillment Steps base flow subflow is called from this flow.
 
-    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sc-flow.md).
+    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-sc-flow.md).
 
 2.  Register the flow as service fulfillment flow.
 

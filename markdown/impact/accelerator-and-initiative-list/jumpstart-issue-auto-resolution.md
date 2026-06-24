@@ -20,7 +20,7 @@ The Jumpstart Your Issue Auto Resolution \(IAR\) Accelerator provides a demonstr
 
 Jumpstart Your Issue Auto Resolution provides Impact customers with an introduction to IAR to deflect high-volume, non-critical tasks and demonstrates how IAR will  enhance self-service and automation capabilities. This Accelerator aims to educate customers on the possibilities and capabilities of IAR,  specific use cases, a configuration overview, and key resources and guides to enable customers on getting started.
 
-See  for additional information on IAR.
+See [Issue auto-resolution tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/dashboard-auto-resolution-pae.md) for additional information on IAR.
 
 ## Package Availability
 

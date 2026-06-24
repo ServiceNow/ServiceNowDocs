@@ -4,8 +4,6 @@ description: Assign roles to internal and external users to facilitate proper ac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-roles.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -213,6 +211,6 @@ A location support agent is a service organization member who acts as a fulfille
 
 -   You can assign roles to users using the Service Model Foundation guided setup.
 
--   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 

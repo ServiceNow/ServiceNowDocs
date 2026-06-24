@@ -4,8 +4,6 @@ description: The AI Enhanced recommended actions for Industrial Connected Workfo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +19,7 @@ The AI Enhanced recommended actions for Industrial Connected Workforce feature a
 
 AI Enhanced recommended actions for ICW leverages the external content connector to collect data from an external source. This feature currently supports using Microsoft SharePoint Online as the external source.
 
-**Note:** The external content connector is part of the existing ServiceNow AI Platform capabilities. For more information about the external content connector, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
+**Note:** The external content connector is part of the existing ServiceNow AI Platform capabilities. For more information about the external content connector, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
 ## Using the AI Enhanced recommended actions for ICW for your recommended actions
 

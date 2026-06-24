@@ -4,8 +4,6 @@ description: If you’re using any standard business unit included in Core Busin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/activate-cbs-bu-version.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 1

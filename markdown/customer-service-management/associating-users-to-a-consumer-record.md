@@ -4,8 +4,6 @@ description: Create and associate a Unified Consumer user with a consumer record
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associating-users-to-a-consumer-record.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -44,7 +42,7 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    For a description of the field values, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
 
 6.  Select **Submit**.
 

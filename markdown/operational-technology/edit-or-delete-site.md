@@ -4,8 +4,6 @@ description: Edit a site to update its information or delete a site that no long
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-or-delete-site.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

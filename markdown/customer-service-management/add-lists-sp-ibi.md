@@ -4,8 +4,6 @@ description: Add Customer Contracts and Entitlements entities' related lists on 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-lists-sp-ibi.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

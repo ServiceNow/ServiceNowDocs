@@ -4,8 +4,6 @@ description: As an agent, you can compose emails using email templates. These te
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/compose-email-from-email-template.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

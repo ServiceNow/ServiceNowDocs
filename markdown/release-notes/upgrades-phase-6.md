@@ -4,8 +4,6 @@ description: After you have configured and refined your test environment to be a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-6.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

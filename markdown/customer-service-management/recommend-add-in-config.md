@@ -4,8 +4,6 @@ description: Enable users to access both CSM and ITSM through one combined add-i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/recommend-add-in-config.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Use extension points to call custom scripts in the Customer Service
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/extension-points-customer-service.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

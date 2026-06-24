@@ -20,18 +20,18 @@ You can use DevOps Config and CDM APIs to access your config data.
 
 ## DevOps Config
 
--   **[DevOps Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-config-api.md)**
+-   **[DevOps Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-config-api.md)**
 
     Manage your application lifecycle, using delete, get, patch, and post operations.
 
 
 ## CDM
 
--   **[CdmApplicationsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md)**
+-   **[CdmApplicationsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/applications-api.md)**
 
     Upload configuration data to the component, collection, deployable, and component variable folders found in the DevOps Config Workspace UI. Export deployable configuration data to your DevOps pipeline and manage shared components and shared applications.
 
--   **[CdmChangesetsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md)**
+-   **[CdmChangesetsApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/changesets-api.md)**
 
     Manage your changesets, including:
 
@@ -42,23 +42,23 @@ You can use DevOps Config and CDM APIs to access your config data.
     -   Retrieve a list of applications or deployables impacted by a changeset.
     -   Delete changesets.
     -   Return a list of shared components associated with a specified changeset.
--   **[CdmEditorApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/editor-api.md)**
+-   **[CdmEditorApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/editor-api.md)**
 
     Create nodes, update nodes, include existing nodes under other nodes, delete nodes, and retrieve nodes and node includes.
 
--   **[CdmPoliciesApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/policies-api.md)**
+-   **[CdmPoliciesApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/policies-api.md)**
 
     Manage policy mappings of deployables in CDM. Policies that are properly mapped to a deployable are executed when a snapshot of the deployable is validated.
 
--   **[CdmSharedLibraryApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/shared_libraries-api.md)**
+-   **[CdmSharedLibraryApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/shared_libraries-api.md)**
 
     Create and manage shared libraries and shared components. Upload and export the configuration data of a shared component.
 
--   **[CdmSnapshotApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/snapshot-api.md)**
+-   **[CdmSnapshotApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/snapshot-api.md)**
 
     Publish, unpublish, and revalidate snapshots in CDM.
 
--   **[CdmVersionApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/versions-api.md)**
+-   **[CdmVersionApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/versions-api.md)**
 
     Publish, unpublish, and export versions \(snapshots\) in CDM for shared components under shared libraries.
 

@@ -70,7 +70,7 @@ Role required: admin
 
     1.  Create a pre-publish subflow by specifying the following input and output parameters.
 
-        You can also copy the Template: Catalog Builder - Item review subflow and then define your subflow. For information about subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+        You can also copy the Template: Catalog Builder - Item review subflow and then define your subflow. For information about subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
 
         |Parameter|Type|Description|
         |---------|----|-----------|

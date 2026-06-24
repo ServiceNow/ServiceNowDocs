@@ -4,8 +4,6 @@ description: Access all Core Business Suite \(CBS\) analytics in one place to mo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/view-cbs-analytics.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Follow the instructions in this topic to migrate from CSM Agent Wor
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-migrate-configurable-workspace.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -16,7 +14,7 @@ breadcrumb: [Migrating to Configurable Workspace, CSM Configurable Workspace, Or
 
 Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 
-If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) tool.
+If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) tool.
 
 <table id="table_rrk_p52_v4b"><thead><tr><th>
 

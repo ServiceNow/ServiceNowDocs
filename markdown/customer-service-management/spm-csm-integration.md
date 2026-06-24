@@ -4,8 +4,6 @@ description: Use the Guided Setup to integrate Customer Service Management with 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/spm-csm-integration.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -46,5 +44,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
+[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ServicePortfolioManagementv2.md)
 

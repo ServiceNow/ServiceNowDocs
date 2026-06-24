@@ -1204,7 +1204,7 @@ search\_rank
 
 </td><td>
 
-Optional unless using **search\_id**. Article [search rank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_DocumentScoring.md) by click-rate that you can retrieve using one of the following APIs that returns the **articles.rank** element:-   [Knowledge Management - GET /knowledge/articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/knowledge-api.md)
+Optional unless using **search\_id**. Article [search rank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DocumentScoring.md) by click-rate that you can retrieve using one of the following APIs that returns the **articles.rank** element:-   [Knowledge Management - GET /knowledge/articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/knowledge-api.md)
 -   [Knowledge Management - GET /knowledge/articles/featured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/knowledge-api.md)
 -   [Knowledge Management - GET knowledge/articles/most\_viewed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/knowledge-api.md)
 

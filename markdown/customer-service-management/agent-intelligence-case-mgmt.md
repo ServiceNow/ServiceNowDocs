@@ -4,8 +4,6 @@ description: Assist agents with case creation by requiring a minimum of informat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-intelligence-case-mgmt.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +14,7 @@ breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Cust
 
 Assist agents with case creation by requiring a minimum of information, such as the short description, and predicting values for the category, priority, and assignment group.
 
-From either Agent Workspace or the platform interface, agents can use this feature when creating cases by providing the short description. Based on the information entered in the **Short description** field, the [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md) feature predicts the category, priority, and assignment group, and routes the case to the correct queue.
+From either Agent Workspace or the platform interface, agents can use this feature when creating cases by providing the short description. Based on the information entered in the **Short description** field, the [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md) feature predicts the category, priority, and assignment group, and routes the case to the correct queue.
 
 ## Plugin
 

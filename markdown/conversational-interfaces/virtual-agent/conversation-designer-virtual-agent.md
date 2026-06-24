@@ -55,7 +55,7 @@ If you're using ServiceNow NLU/keyword topic discovery, then Assistant Designer 
 
 When you open Assistant Designer, the Asset library lists the assets in your instance. These assets include topics, topic blocks, setup topics, small talk topics, custom controls, subflows, actions, and AI agents.
 
-**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
+**Note:** Along with small talk topics, you can also set small talk filters to redirect conversations based on unexpected user statements. For more information, see [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-small-talk-filters.md).
 
 In the Asset library, you can access and edit any of these assets, and create topics, topic blocks, setup topics, small talk topics, and custom controls, in Virtual Agent Designer
 

@@ -4,8 +4,6 @@ description: Several types of components are installed with activation of the CS
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/components-installed-configurable-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 25
@@ -612,7 +610,7 @@ Runs the job and collects historic data for all teams indicators.
 Runs the job weekly and collects data for all indicators in Manager Workspace.
 
 </td></tr></tbody>
-</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/build-your-first-flow.md).
+</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-your-first-flow.md).
 
 ## Demand forecast
 

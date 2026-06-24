@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Developers and topic authors may need to access [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md) created in other application scopes. To give them access, define cross-scope privilege records for the appropriate applications. For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_CrossScopePrivilegeRecord.md).
+Developers and topic authors may need to access [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md) created in other application scopes. To give them access, define cross-scope privilege records for the appropriate applications. For more information on cross-scope privileges, see Cross-scope privilege record.
 
 ## Procedure
 

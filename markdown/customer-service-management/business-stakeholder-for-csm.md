@@ -4,8 +4,6 @@ description: Business Stakeholder for Customer Service Management includes plugi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/business-stakeholder-for-csm.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -498,7 +496,7 @@ Internal
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md)
+[Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/business-stakeholder-role-ppm.md)
 
-[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)
+[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-business-stakeholder.md)
 

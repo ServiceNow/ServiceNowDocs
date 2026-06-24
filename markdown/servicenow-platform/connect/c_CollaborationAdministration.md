@@ -119,7 +119,7 @@ Right-click any column header and select **Configure** &gt; **Dictionary**.
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Prevent users from following records in Connect for all tables
 
@@ -181,7 +181,7 @@ To disable record conversations for a specific table, prevent the **Follow** but
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Disable Connect Chat
 

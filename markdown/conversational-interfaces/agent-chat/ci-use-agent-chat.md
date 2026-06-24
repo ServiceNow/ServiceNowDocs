@@ -24,7 +24,7 @@ Provide your agents with a workspace that has built-in productivity features for
 -   Interact with customers in their native language using [Dynamic Translation for Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-dtac-overview.md).
 -   Manage work assignments delivered to agents' inboxes, enabling them to set their availability and accept, reject, or transfer chats.
 -   Trigger a Virtual Agent self-service topic that walks end users through a task with [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
--   Provide agents with the option to add work notes or updates after they finish a support session with [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md).
+-   Provide agents with the option to add work notes or updates after they finish a support session with [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md).
 
 ## Get started
 

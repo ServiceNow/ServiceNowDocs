@@ -4,8 +4,6 @@ description: The Australia EA Hotfix 1 release contains fixes to these problems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-0-hf-1-PO.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-18"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: A service level agreement \(SLA\) specifies the time within which s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_DefineSLAForCustServiceCase.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,13 +26,13 @@ An SLA is automatically associated to a case when the case is created or updated
 
 ## Procedure
 
--   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md).
+-   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md).
 
--   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
+-   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md).
 
 
 **Related topics**  
 
 
-[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md)
+[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md)
 

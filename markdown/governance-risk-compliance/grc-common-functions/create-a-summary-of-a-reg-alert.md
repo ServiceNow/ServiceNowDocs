@@ -27,7 +27,7 @@ For more information on related roles and regulatory alerts, see [Types of alert
 
 Install the Now Assist for IRM application to generate regulatory alert summaries. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The summary for a regulatory alert is generated based on the prompts set during the configuration of the summarization skill. For example, if you select important dates, regulatory authority, summary of changes, penalties, and fines as key details to capture, the summary includes that information. After the summary is generated, you can directly use the summary and save it in the activity stream of the regulatory alert.
 

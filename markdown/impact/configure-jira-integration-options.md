@@ -4,8 +4,6 @@ description: Configure the Jira user story integration to create work items in a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-jira-integration-options.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2

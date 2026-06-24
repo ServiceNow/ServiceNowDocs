@@ -4,8 +4,6 @@ description: Before the phone communication channel between customer service age
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_PhoneInstallationAndConfiguration.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -22,13 +20,13 @@ Role required: admin
 
 ## Procedure
 
-1.  [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md) \(com.snc.notify\).
+1.  [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ActivateNotify.md) \(com.snc.notify\).
 
 2.  Set up a Twilio Voice account.
 
     You can create an account at `https://www.twilio.com`.
 
-3.  [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
+3.  [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
 4.  [Activate the CTI Softphone plugin \(com.snc.cti\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 

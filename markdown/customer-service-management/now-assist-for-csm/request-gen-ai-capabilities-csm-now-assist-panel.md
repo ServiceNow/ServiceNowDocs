@@ -21,7 +21,7 @@ Request the contextual generative AI capabilities, such as a chat summary, case 
 
 Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
-Make sure that [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md) and Now Assist in Virtual Agent are enabled in the instance for the conversational subflows and actions to work.
+Make sure that [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md) and Now Assist in Virtual Agent are enabled in the instance for the conversational subflows and actions to work.
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 

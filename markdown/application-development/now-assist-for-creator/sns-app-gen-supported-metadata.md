@@ -33,7 +33,7 @@ Usage
 
 </th></tr></thead><tbody><tr><td>
 
-[Access control list \(ACL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/exploring-access-control-list.md)
+[Access control list \(ACL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-access-control-list.md)
 
 </td><td>
 
@@ -46,7 +46,7 @@ ACLs manage role-based access control for the application:-   Rules that define 
 
 </td></tr><tr><td>
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ Interface that enables users to submit data to create or update records in a tab
 
 </td></tr><tr><td>
 
-[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Type of form that enables users to enter information that generates a task-based
 
 </td></tr><tr><td>
 
-[Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+[Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Set of permissions that are assigned to users and groups
 
 </td></tr><tr><td>
 
-[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
+[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md)
 
 </td><td>
 

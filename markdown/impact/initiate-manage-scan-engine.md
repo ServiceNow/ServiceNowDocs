@@ -4,8 +4,6 @@ description: Use the Scan Results list view to initiate scans, monitor scan stat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-manage-scan-engine.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 2

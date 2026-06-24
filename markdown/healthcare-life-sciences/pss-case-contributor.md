@@ -24,5 +24,5 @@ If the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\) is install
 
 As an administrator, you can include the record producer for creating enrollment cases in a service  catalog and display the service  catalog  as a module on the Consumer Service Portal page. Users with the contributor profile can then use the module to create enrollment cases.
 
-For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_SetUpAServiceCatalog.md) . 
+For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpAServiceCatalog.md) . 
 

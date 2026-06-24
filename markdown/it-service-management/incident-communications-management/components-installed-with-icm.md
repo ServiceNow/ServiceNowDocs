@@ -102,7 +102,7 @@ sn\_tcm\_admin
 
 </td><td>
 
-Configure all Task Communications Management features including communication plans and tasks. For more information, see [Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/components-installed-with-tcm.md).
+Configure all Task Communications Management features including communication plans and tasks. For more information, see [Components installed with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-installed-with-tcm.md).
 
 </td><td>
 

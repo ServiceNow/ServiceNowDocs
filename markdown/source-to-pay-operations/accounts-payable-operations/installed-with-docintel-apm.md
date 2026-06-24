@@ -21,7 +21,7 @@ Reference information for the roles, flows, and tables installed with the Accoun
 
 You must have the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role to review an invoice in Document Intelligence and enter values in the invoice fields.
 
-For more information about the roles that are installed with Document Intelligence, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
+For more information about the roles that are installed with Document Intelligence, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installed-with-document-intelligence.md).
 
 ## Flows installed
 

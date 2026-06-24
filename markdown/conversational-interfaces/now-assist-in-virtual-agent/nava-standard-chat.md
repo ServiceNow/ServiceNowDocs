@@ -68,7 +68,7 @@ While the LLM processes the utterance, an animated avatar appears alongside late
 </td></tr></tbody>
 </table>## Chatting with the Virtual Agent
 
-After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md) and [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md).
+After the user enters an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results along with Genius Results. For more information on how these search results are found, see [Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-catalog-ordering-gr.md) and [Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-qna-genius-results.md).
 
 If multiple results are found, they are presented to users, and users can view inline citations and/or the Sources section at the bottom of the synthesized response. Users can view Knowledge Base articles, Virtual Agent topics, subflows or actions, external content, people citations, and complete catalog request items. Virtual Agent can only return available catalog items that match a user's request when the Now Assist Multi-Turn Catalog Ordering skill is enabled. Users can follow up on a synthesized response and receive an answer that considers the previous context. For example, if you previously were chatting about the company's travel policy and then enter `International`, the system recognizes that you’re wanting additional information on the company's international travel policy.
 
@@ -130,7 +130,7 @@ The **\[Asset's name\]** option appears, and if selected, the asset flow begins 
 
 The answer is shown with the option to view your sources through the numbered inline citations icon \(\[Omitted image "NAVA-citations-icon.png"\] Alt text: Numbered citations icon.\). These Knowledge Base inline citations show which ServiceNow knowledge articles were used to generate the response.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/access-knowledge-graph-designer.md).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/access-knowledge-graph-designer.md).
 
 ## External content connections citations
 
@@ -145,7 +145,7 @@ If external search sources are added to your information sources when [Configuri
 -   ServiceNow® documentation
 -   Slack
 
-For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
+For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
 \[Omitted image "NAinVA-external-search-source-citation.png"\] Alt text: Response from external content with link to its source.
 
@@ -157,7 +157,7 @@ Information about people in your organization can be found if you have activated
 
 Selecting the person's inline numbered citation presents a popover. The information in the popover can include the following information:
 
-**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
+**Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md).
 
 -   Manager
 -   Location

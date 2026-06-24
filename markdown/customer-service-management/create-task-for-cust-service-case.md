@@ -4,8 +4,6 @@ description: Create a task for a customer service case for additional work that 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-for-cust-service-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

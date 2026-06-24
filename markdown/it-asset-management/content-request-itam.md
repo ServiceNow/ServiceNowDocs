@@ -4,8 +4,6 @@ description: The IT Asset Management Content Service team manages and supports c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/content-request-itam.html
 release: australia
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

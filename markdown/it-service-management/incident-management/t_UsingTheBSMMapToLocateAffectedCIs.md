@@ -73,5 +73,5 @@ Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look
 **Related topics**  
 
 
-[Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_NextGenBSMMaps.md)
+[Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NextGenBSMMaps.md)
 

@@ -141,7 +141,7 @@ A change type that is used to implement any change to a service that is not a st
 
 A pre-authorized, low-risk change request that is frequently implemented. Approved standard change requests can be predefined in a catalog of templates to make accessing and requesting a standard change more efficient. If selected, two fields are displayed. Select one from each list to fill in these fields:-   **Change category**: Select a category for the change from your existing catalog, for example, `Hardware`, `Server Standard Changes`, `Software`.
 -   **Change template**: Select one available template for change requests with pre-defined supporting tasks from your catalog.
- For more information on ITSM change request categories, templates, and change types, see [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-types.md).
+ For more information on ITSM change request categories, templates, and change types, see [Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-types.md).
 
 </td></tr></tbody>
 </table>    The feature automatically reads the types of change requests that you set up in your catalog in ITSM Change Management. For example, if you change the name for your Standard change requests in ITSM from `Standard` to `Pre-approved`, your new name is automatically displayed in the Change type list on the Create change request form.

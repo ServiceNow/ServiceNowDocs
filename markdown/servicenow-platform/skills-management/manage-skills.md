@@ -31,5 +31,5 @@ You can select the filter icon and narrow down the display of the skill matrix u
 -   **[Assign skill proficiency levels for skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/assign-it-skills-users.md)**  
 Add a skill and assign skill levels to users to facilitate the automatic assignment of skill-based tasks to agents.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-people.md)
 

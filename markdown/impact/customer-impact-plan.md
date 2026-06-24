@@ -4,10 +4,8 @@ description: Focuses on accelerating value realization, enhancing platform adopt
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/customer-impact-plan.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Impact Foundations, Impact operating model, Exploring Impact, Impact]
 ---

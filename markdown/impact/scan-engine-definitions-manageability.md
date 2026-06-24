@@ -4,10 +4,8 @@ description: Scan Engine Manageability definitions measure the extent to which S
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-manageability.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 26
 breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
@@ -434,7 +432,7 @@ Use **g\_form.showFieldMsg**\(\) or **g\_form.hideFieldMsg**\(\) functions in pl
 
 </td><td>
 
-Documentation
+[Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
 
 </td></tr><tr><td>
 

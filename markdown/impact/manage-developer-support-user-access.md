@@ -4,8 +4,6 @@ description: Add designated users to enter a support case for Developer Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/manage-developer-support-user-access.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

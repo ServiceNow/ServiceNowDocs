@@ -4,8 +4,6 @@ description: This section describes how the OT Discovery components should be co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-discovery-components-communications.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 2

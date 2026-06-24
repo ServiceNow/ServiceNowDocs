@@ -4,8 +4,6 @@ description: Use the recommendations full list to view the recommendations tailo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/using-recommendations-iip-ws.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

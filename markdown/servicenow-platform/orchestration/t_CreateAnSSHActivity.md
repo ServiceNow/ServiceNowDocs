@@ -26,7 +26,7 @@ For instructions on using the activity template process flow, see [create custom
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
@@ -94,7 +94,7 @@ If checked, disables the SSH connection timeout for commands that might take lon
 
 </td><td>
 
-If checked, enables the use of [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
+If checked, enables the use of [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
@@ -293,7 +293,7 @@ Boolean
 
 </td><td>
 
-Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) must be used.
+Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) must be used.
 
 </td></tr></tbody>
 </table>## SSH post-processing parameters and payload parsing
@@ -467,7 +467,7 @@ Credential tag
 
 </td><td>
 
-The [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) to use when running the command.
+The [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AssignCredsOrchActivities.md) to use when running the command.
 
 </td></tr><tr><td>
 
@@ -491,7 +491,7 @@ Must Sudo
 
 </td><td>
 
-Check box to allow the use of [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) to run commands.
+Check box to allow the use of [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md) to run commands.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

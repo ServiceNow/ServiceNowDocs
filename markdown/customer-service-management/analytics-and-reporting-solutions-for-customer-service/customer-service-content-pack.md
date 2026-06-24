@@ -25,7 +25,7 @@ Two Platform Analytics Solutions are available for Customer Service:
 -   Customer Service \(com.snc.pa.customer\_service\)
 -   Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)
 
-**Note:** Customer Service Performance Analytics solutions are an optional feature available for the Customer Service Management application. To use them, your license must also include Performance Analytics. Once licensed, enable the Performance Analytics Premium for Customer Service and the Customer Service Performance Analytics solutions on the instances where you wish to leverage the enhanced functionality. For more information about licensing Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+**Note:** Customer Service Performance Analytics solutions are an optional feature available for the Customer Service Management application. To use them, your license must also include Performance Analytics. Once licensed, enable the Performance Analytics Premium for Customer Service and the Customer Service Performance Analytics solutions on the instances where you wish to leverage the enhanced functionality. For more information about licensing Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 ## Customer Service solution
 
@@ -74,5 +74,5 @@ To enable Performance Analytics for Customer Service Management, a user with the
 **Related topics**  
 
 
-[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight.md)
 

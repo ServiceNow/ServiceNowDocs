@@ -20,8 +20,8 @@ The Sales and Service API Core \(com.sn\_tmt\_core\) plugin must be activated fo
 
 See also:
 
--   [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/lead-to-cash.md)
--   [Inbound Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/som_request_tracker.md)
+-   [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+-   [Inbound Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som_request_tracker.md)
 
 ## Extending the IBQConfigBase API
 
@@ -511,7 +511,7 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
 </td></tr><tr id="ibqc-source_records_ids"><td>
 
@@ -961,7 +961,7 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
 </td></tr><tr id="ibqc-source_records_ids"><td>
 
@@ -1664,7 +1664,7 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
 </td></tr><tr><td>
 

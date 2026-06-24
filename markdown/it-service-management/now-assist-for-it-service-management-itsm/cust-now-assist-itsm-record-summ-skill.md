@@ -160,7 +160,7 @@ In the Activity stream:-   You can summarize new attachments of type PNG, JPEG o
     -   German
     -   Portuguese
     -   Spanish
-When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/using-dynamic-translation.md).**Note:**
+When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-dynamic-translation.md).**Note:**
 
 -   Attachment summaries aren't available in child incident records and are only supported in the English language.
 -   If you have one or more existing attachments, you must add new attachments to the incident for the existing attachments to be summarized.

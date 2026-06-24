@@ -4,8 +4,6 @@ description: The Definitions integration synchronizes new, customized, and overr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/definitions-integrations.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1

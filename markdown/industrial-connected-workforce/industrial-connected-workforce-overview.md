@@ -4,8 +4,6 @@ description: Industrial Connected Workforce \(ICW\) helps you run manufacturing 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-overview.html
 release: australia
-product: Industrial Connected Workforce
-classification: industrial-connected-workforce
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

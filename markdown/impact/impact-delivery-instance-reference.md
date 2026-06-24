@@ -4,8 +4,6 @@ description: The Impact Delivery Instance is the service provider for the Impact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-delivery-instance-reference.html
 release: australia
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2026-05-11"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Core Business Suite application provides a unified request experien
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-using-parent.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

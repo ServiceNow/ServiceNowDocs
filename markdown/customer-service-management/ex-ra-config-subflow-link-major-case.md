@@ -4,8 +4,6 @@ description: Configure a subflow that you can use in a guidance to automatically
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-ra-config-subflow-link-major-case.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +14,7 @@ breadcrumb: [Example: Link the similar major case to the current case, Example c
 
 Configure a subflow that you can use in a guidance to automatically link the proposed major case to the current case on a click of an action button.
 
-Configure and publish a subflow with the following inputs and action. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+Configure and publish a subflow with the following inputs and action. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
 
 <table id="table_wxq_2dr_pzb"><thead><tr><th>
 

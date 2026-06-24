@@ -4,8 +4,6 @@ description: In addition to assigning Impact users to groups, Platform Health us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/assign-users-scan-engine-groups.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

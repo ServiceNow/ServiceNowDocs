@@ -4,8 +4,6 @@ description: The full view search feature displays the AI search results in a ne
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-enable-full-view-search-page.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -48,7 +46,7 @@ Use the following steps to define the full view search page in a configurable wo
 
 2.  Create a new page with the following URL path: **ra-expanded-search**.
 
-    This is the path that you will use in the above script to open the full view search page. For more information, see [Create a blank page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learn-by-example-create-blank-page.md) in the UI Builder documentation.
+    This is the path that you will use in the above script to open the full view search page. For more information, see [Create a blank page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/learn-by-example-create-blank-page.md) in the UI Builder documentation.
 
 3.  Select the following required parameters for the page.
 

@@ -29,7 +29,7 @@ Admin Center offers easy access to a number of key applications administrators n
 
     **Note:** Application Manager store application is available by default with the instance upgrade of Vancouver and above.
 
--   Security Center: Use the Security Center application to help your organization maintain the security of your ServiceNow deployments. See [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md) for more information.
+-   Security Center: Use the Security Center application to help your organization maintain the security of your ServiceNow deployments. See [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sec-center-v2.md) for more information.
 
     **Note:** Security Center is available by default from the Vancouver release and above with the instance upgrade. For the previous releases, you can install it from the ServiceNow store.
 

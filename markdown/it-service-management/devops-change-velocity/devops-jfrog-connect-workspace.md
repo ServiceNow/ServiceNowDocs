@@ -90,7 +90,7 @@ Steps
 
     4.  Select the MID Server option and enter its details if your JFrog instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
 
     \[Omitted image "jfrog-workspace-connect-2.png"\] Alt text: Connect to the JFrog tool - Enter instance details screen
 

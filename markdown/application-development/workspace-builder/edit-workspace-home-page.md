@@ -128,7 +128,7 @@ Table data that you can customize for the dashboard audience.
 
 </td><td>
 
--   [Simple List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/simple-list-widget.md) or [List - Simple Usage - Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/usage)
+-   [Simple List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/simple-list-widget.md) or [List - Simple Usage - Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/usage)
 -   [Developer site List - simple component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected-snapshot/overview)
 
 

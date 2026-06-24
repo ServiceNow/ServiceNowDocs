@@ -4,8 +4,6 @@ description: You can configure a MID Server with additional configuration parame
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-a-mid-server.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,7 +18,7 @@ A system property 'mid.property.probe.api.timeout.minutes' enables you to decide
 
 This Cloud Provisioning and Governance MID Server property with name and value parameters handles the timeout exception.
 
-See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information on creating a MID Server property.
+See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) for more information on creating a MID Server property.
 
 **Parent Topic:**[ITOM Optimization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-optimization-reference.md)
 

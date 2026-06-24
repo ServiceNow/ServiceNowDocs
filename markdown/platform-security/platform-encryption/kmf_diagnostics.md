@@ -121,5 +121,5 @@ Checks the File Key Store and KeySecure for a key and whether the certificate is
 </table>    For assistance in troubleshooting, contact Customer Service and Support.
 
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
 

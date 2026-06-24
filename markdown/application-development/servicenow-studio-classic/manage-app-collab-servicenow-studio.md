@@ -40,9 +40,9 @@ The admin and delegated\_developer roles have different levels of app access in 
 -   Users with the delegated\_developer role have access to:
     -   Apps they create.
     -   Apps they have been invited to edit.
-    -   All apps within the scope they have access to. For more information about scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
+    -   All apps within the scope they have access to. For more information about scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
 
-To request access to an app that is not visible in ServiceNow Studio, contact your admin and ask them to grant you permission using the Collaboration app. The Collaboration app is automatically installed with ServiceNow Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/application-collaboration.md).
+To request access to an app that is not visible in ServiceNow Studio, contact your admin and ask them to grant you permission using the Collaboration app. The Collaboration app is automatically installed with ServiceNow Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-collaboration.md).
 
 ## What can owners and editors do?
 
@@ -88,7 +88,7 @@ The collaboration descriptor assigned to a developer determines what they can do
 
 To create a customized collaboration role, create a custom collaboration descriptor and use collaboration permissions to control what developers can do in the app.
 
-Admins can define custom collaboration descriptors to select when managing collaborators using the Collaboration app. For more information about custom descriptors, see [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/create-collaboration-descriptors.md).
+Admins can define custom collaboration descriptors to select when managing collaborators using the Collaboration app. For more information about custom descriptors, see [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-collaboration-descriptors.md).
 
 ## How does the collaboration approval process work?
 

@@ -4,8 +4,6 @@ description: Browser support varies for each version of the user interface \(UI\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/browser-support.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -179,7 +177,7 @@ Not supported
 Latest version of iOS and SafariLatest version of Android and Chrome
 
 </td></tr></tbody>
-</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-access-options.md).
+</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-access-options.md).
 
 ## Firefox
 

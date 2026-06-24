@@ -16,7 +16,7 @@ breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CM
 
 Manage the data source failure when importing resources from GCP.
 
-When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md).
+When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rest-request-action-designer.md).
 
 You can use one or more of the following options to handle the REST response size limitation error in the Service Graph Connector for GCP:
 

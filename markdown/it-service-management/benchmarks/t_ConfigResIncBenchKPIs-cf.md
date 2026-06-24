@@ -38,7 +38,7 @@ Configure the KPI conditions and script to use your custom field \(instead of th
 
 ## Procedure
 
-1.  Configure the Benchmark.Incidents.Resolved [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md) condition with your custom field.
+1.  Configure the Benchmark.Incidents.Resolved [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_IndicatorSources.md) condition with your custom field.
 
     1.  Navigate to **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources**.
 

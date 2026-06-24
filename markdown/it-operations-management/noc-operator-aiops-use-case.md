@@ -4,8 +4,6 @@ description: Follow a typical NOC operator through their daily workflow using IT
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/noc-operator-aiops-use-case.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-04-01"
 reading_time_minutes: 3

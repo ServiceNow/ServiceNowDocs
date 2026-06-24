@@ -4,8 +4,6 @@ description: Call wrap-up enables agents to open the wrap-up modal, select wrap-
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/initiate-agent-wrap-up-during-active-call.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-05-13"
 reading_time_minutes: 2
@@ -29,7 +27,7 @@ Agents handling complex or sensitive calls can use this feature to record contex
 
 Agent-initiated wrap-up is available when the ICC for voice is integrated and the CCaaS administrator has configured and enabled the feature in the ServiceNow instance.
 
-For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md) and [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
+For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md) and [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md).
 
 ## Benefits
 

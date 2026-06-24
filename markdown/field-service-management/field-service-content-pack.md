@@ -4,8 +4,6 @@ description: Platform Analytics Solutions contain preconfigured dashboards. Thes
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-content-pack.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

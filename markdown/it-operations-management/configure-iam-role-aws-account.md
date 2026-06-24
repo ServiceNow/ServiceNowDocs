@@ -4,8 +4,6 @@ description: Configure the trusting account whose resources need to be accessed,
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-iam-role-aws-account.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4

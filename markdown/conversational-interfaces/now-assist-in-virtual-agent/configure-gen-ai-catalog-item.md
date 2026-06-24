@@ -52,7 +52,7 @@ When the generative AI experience is configured for catalog item request submiss
 
     2.  Select a catalog item that must be requested in the conversation mode.
 
-        For information about catalog items that are supported in the conversation mode, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        For information about catalog items that are supported in the conversation mode, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va-llm.md).
 
     3.  On the catalog item form, confirm that the **Make the item non-conversational in VA** check box isn’t selected.
 
@@ -63,7 +63,7 @@ When the generative AI experience is configured for catalog item request submiss
         **Note:**
 
         -   If you want the catalog item non-conversational, then select the **Make the item non-conversational in VA** check box. But if the catalog item contains some sensitive information that you don’t want to send to LLM, then select the **Turn off Now Assist \(LLM\)** check box.
-        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+        -   If you clear the **Make the item non-conversational in VA** check box, the item will become conversational only if all the conditions are met for making an item conversational. For more information about such conditions, see [Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va-llm.md).
     5.  Select **Update**.
 
 3.  Confirm that the fallback record producer is configured in the **Fetch generic ticket producer for conversational catalog request** subflow.
@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d59291e313">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d59289e313">
 
 Option
 
-</th><th align="left" id="d59291e316">
+</th><th align="left" id="d59289e316">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59291e322">
+</th></tr></thead><tbody><tr><td id="d59289e322">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,13 +96,13 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d59291e361">
+</td></tr><tr><td id="d59289e361">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 
 </td><td>
 
-1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see .
 2.  Navigate to **sys\_properties.list**.
 3.  Select the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.subflow** property.
 4.  In the **Value** field, enter the scope and internal name of the subflow. For example, **global.subflow\_name**. Locate the **Internal name** field in the list of Flow Designer subflows.
@@ -125,7 +125,7 @@ Description
 **Related topics**  
 
 
-[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md)
+[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va.md)
 
-[Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md)
+[Topic blocks to request catalog items through conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va-llm.md)
 

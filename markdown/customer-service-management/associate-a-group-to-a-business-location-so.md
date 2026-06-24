@@ -4,8 +4,6 @@ description: Associate a group with the desired business location by establishin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-a-group-to-a-business-location-so.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

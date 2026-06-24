@@ -4,8 +4,6 @@ description: Override existing scripts or call custom scripts for the workflows 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/extension-points-for-workflows.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -41,7 +39,7 @@ CustomerWorkflowsEPsn\_l2c\_cust.flows.CustomerWorkflowEP
 Overrides the existing flows and configurations.This extension can be used for any one of these two reasons:
 
 -   If you want to execute custom flows that are extensions of the current sold product \(sn\_install\_base\_sold\_product\) table. To learn more about existing flows, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-life-cycle-management-workflows.md).
--   If you want to execute custom Lead to Cash Core configurations. To learn more about existing Lead to Cash configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/entity-configuration-and-mapping.md).
+-   If you want to execute custom Lead to Cash Core configurations. To learn more about existing Lead to Cash configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
 
 </td></tr><tr><td>
 

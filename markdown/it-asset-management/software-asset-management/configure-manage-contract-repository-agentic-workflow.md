@@ -38,11 +38,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 6.  In the skill guided setup, configure the use cases and other mappings for the Contract obligation extraction and Contract metadata extraction skills.
 
-    For more information on configuring contract metadata extraction skill, see [Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md).
+    For more information on configuring contract metadata extraction skill, see [Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-conf-metadata-extraction.md).
 
-    **Note:** For the Contract metadata extraction skill, complete the [creation of use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md), [mapping use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md), and [enable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-notf-na-metadata.md) setup.
+    **Note:** For the Contract metadata extraction skill, complete the [creation of use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-usecase-me.md), [mapping use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-usecase-mappings-me.md), and [enable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-config-notf-na-metadata.md) setup.
 
-    For more information on configuring Contract obligation extraction skill, see [Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md).
+    For more information on configuring Contract obligation extraction skill, see [Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-conf-obligation-extraction.md).
 
     **Note:** On the use case mapping page, the **Contracts created from contract request** check box is visible only if the Contracts core \(sn\_cm\_core\) plugin is installed. If you have the Contracts core \(sn\_cm\_core\) plugin installed, it means you're already availing the contract pre-signature capabilities. You must clear the **Contracts created from contract request** check box.
 

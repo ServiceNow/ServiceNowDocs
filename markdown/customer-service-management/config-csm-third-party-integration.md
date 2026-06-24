@@ -4,8 +4,6 @@ description: Configure the required components to enable the third-party data in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-third-party-integration.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -28,7 +26,7 @@ Role required: admin
 
     2.  Follow the setup instructions specific to the spoke.
 
-        For example, for the Salesforce spoke, follow the instructions in the [Set up Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md) topic.
+        For example, for the Salesforce spoke, follow the instructions in the [Set up Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-sf-spk.md) topic.
 
 2.  Identify the spoke action that retrieves the desired third-party data.
 

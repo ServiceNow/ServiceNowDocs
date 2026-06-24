@@ -4,8 +4,6 @@ description: Enable your location staff to track customer orders for their busin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-customer-orders-on-the-blsp.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

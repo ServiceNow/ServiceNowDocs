@@ -4,8 +4,6 @@ description: This sections describes your initial log onto the OT Discovery Coll
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/log-onto-ot-console.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 1

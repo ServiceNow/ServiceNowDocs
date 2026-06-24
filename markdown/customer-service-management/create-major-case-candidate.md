@@ -4,8 +4,6 @@ description: Users with the customer service agent role can create a major case 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-major-case-candidate.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

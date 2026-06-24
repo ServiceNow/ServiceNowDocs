@@ -4,8 +4,6 @@ description: Configure AI Search to preprocess contextual inputs from Recommende
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-configure-contextual-filtering.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -36,7 +34,7 @@ When preprocessing is implemented, AI Search considers the defined filter condit
 
 2.  In the selected search source, select the **Has Dynamic Filters** check box and select **Save**.
 
-    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
+    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-source-form-ais.md).
 
 3.  Create the AisDynamicFilter implementation for search sources.
 

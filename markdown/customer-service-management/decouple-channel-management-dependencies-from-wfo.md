@@ -4,8 +4,6 @@ description: Decouple Channel Management from core Workforce Optimization \(WFO\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/decouple-channel-management-dependencies-from-wfo.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -53,7 +51,7 @@ sn\_channel\_mgmt.user \(for the additional manager\)
 
 </td><td>
 
-The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md)
+The Manager can log into Agent Workspace and access the channel management module through role-based visibility, such as the sn\_channel\_mgmt.user role. The Manager can utilize Channel Management in Agent Workspace independently of the full WFO suite.For more details see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-groups-wfo-itsm.md)
 
 </td></tr></tbody>
 </table>## Channel Management \(New Menu in Agent Workspace\)

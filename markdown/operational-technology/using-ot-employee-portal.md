@@ -4,8 +4,6 @@ description: After you set up the Employee Center for Operational Technology \(O
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/using-ot-employee-portal.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

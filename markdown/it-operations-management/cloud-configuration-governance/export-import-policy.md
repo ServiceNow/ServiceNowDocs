@@ -50,5 +50,5 @@ Role required: sn\_cmp.cloud\_admin or admin.
 **Related topics**  
 
 
-[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
+[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md)
 

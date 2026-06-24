@@ -4,8 +4,6 @@ description: Reference information for Workforce Optimization for Customer Servi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/workforce-optimization-customer-service-reference.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-05-18"
 reading_time_minutes: 1

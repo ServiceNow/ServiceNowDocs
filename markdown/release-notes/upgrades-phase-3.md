@@ -4,8 +4,6 @@ description: Check the configuration of the Check distribution for possible upgr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-3.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4

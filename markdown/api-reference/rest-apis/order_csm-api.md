@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.
 
-This API requires the Order Management \(app-csm-order-mgmt\) store application and is provided within the `sn_ind_tmt_orm` namespace. For information, see [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/order-mgt-overview.md).
+This API requires the Order Management \(app-csm-order-mgmt\) store application and is provided within the `sn_ind_tmt_orm` namespace. For information, see [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md).
 
 This API requires sn\_csm\_om.order\_integrator for access, and one of the following:
 

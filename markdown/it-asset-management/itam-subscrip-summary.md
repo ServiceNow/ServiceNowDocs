@@ -4,8 +4,6 @@ description: You can view how many subscriptions for IT Asset Management applica
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/itam-subscrip-summary.html
 release: australia
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

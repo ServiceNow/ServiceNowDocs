@@ -4,8 +4,6 @@ description: After creating a service definition, you can associate one or more 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-def-config-catalog-items.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -48,7 +46,7 @@ A variable set for service definitions is available with the Customer Service Ca
 **Related topics**  
 
 
-[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
+[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IntroductionToCatalogItems.md)
 
-[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
+[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineACatalogItem.md)
 

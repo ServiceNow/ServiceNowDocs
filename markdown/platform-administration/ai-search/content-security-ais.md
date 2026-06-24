@@ -22,12 +22,12 @@ Content security is automatically enabled and isn't configurable.
 
 When indexing records from ServiceNow AI Platform® tables, AI Search preserves the following access control settings:
 
--   Role-based field-level [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) \(ACLs\)
+-   Role-based field-level [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) \(ACLs\)
 -   Non-scripted conditional ACLs
 -   Scripted table-level ACLs
--   [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/bp-before-query-business-rules.md)
+-   [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md)
 -   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-domain-separation.md)
--   [User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
+-   [User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAUserCriteriaRecord.md) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
 
 AI Search doesn't support scripted field-level ACLs or conditional field-level ACLs.
 

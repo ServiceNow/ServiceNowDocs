@@ -4,8 +4,6 @@ description: Edit a Variable set for an Auto Query scan created in the Discovery
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/editing-a-variable-set.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

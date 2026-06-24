@@ -4,8 +4,6 @@ description: Dashboard providing a view into Change request workflow with metric
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change.html
 release: australia
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

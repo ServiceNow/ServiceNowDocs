@@ -4,8 +4,6 @@ description: When real-time enforcement, enforce\_real\_time\_validation is set 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-properties.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

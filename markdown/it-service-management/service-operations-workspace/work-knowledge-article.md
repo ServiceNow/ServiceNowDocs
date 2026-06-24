@@ -67,7 +67,7 @@ Select **View Article**.
 
 </td><td>
 
-From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
 
 </td></tr><tr><td id="d127907e147">
 

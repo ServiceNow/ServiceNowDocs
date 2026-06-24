@@ -4,8 +4,6 @@ description: Export a Task Intelligence model to another instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/export-a-task-intelligence-model.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -41,5 +39,5 @@ The browser downloads the XML file to your system.
 
 ## What to do next
 
-You can use the XML file to transfer the model to another instance using update sets. To learn more, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md). Find out [How to move your trained Task Intelligence Models to a different instance](https://www.servicenow.com/community/intelligence-ml-articles/how-to-move-your-trained-task-intelligence-models-to-a-different/ta-p/2537933).
+You can use the XML file to transfer the model to another instance using update sets. To learn more, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md). Find out [How to move your trained Task Intelligence Models to a different instance](https://www.servicenow.com/community/intelligence-ml-articles/how-to-move-your-trained-task-intelligence-models-to-a-different/ta-p/2537933).
 

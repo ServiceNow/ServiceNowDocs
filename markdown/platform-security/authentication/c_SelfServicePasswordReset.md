@@ -31,7 +31,7 @@ The default self-service Password Reset process \(`com.glideapp.password_reset`\
 -   The **Enable Password Reset URL** option, which specifies that the user should receive an email with a link to reset their password after they click **Forgot Password?**.
 -   The Personal Data - Enter Email Address verification flow that specifies the three-step password reset flow.
 
-See [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md) for instructions on accessing this form and configuring the fields.
+See [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAPasswordResetProcess.md) for instructions on accessing this form and configuring the fields.
 
 **Note:**
 

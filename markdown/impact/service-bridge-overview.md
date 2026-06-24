@@ -4,8 +4,6 @@ description: Data transfer between the Impact Delivery Instance and Impact Store
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/service-bridge-overview.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

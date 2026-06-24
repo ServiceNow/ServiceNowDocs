@@ -4,8 +4,6 @@ description: Impact's Platform Health suite comes with Now Assist powered featur
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-health-agent.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-06-08"
 reading_time_minutes: 1

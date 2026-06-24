@@ -4,8 +4,6 @@ description: Explore in-depth transactions for a user or a node for a given peri
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/manage-user-experience.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

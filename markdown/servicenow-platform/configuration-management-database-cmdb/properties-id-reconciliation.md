@@ -374,7 +374,7 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_source\_las
 
 </td><td>
 
-If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md), IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md), IRE uses the value of this property for the **skip\_updating\_source\_last\_discovered\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
  -   Type: true \| false
 -   Default: false
@@ -407,7 +407,7 @@ glide.identification\_engine.ire\_message\_listener\_skip\_updating\_last\_scan\
 
 </td><td>
 
-If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md), IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
+If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom property on the [Robust Import Set Transformer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md), IRE uses the value of this property for the **ire.skip\_updating\_last\_scan\_to\_now** [IRE option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
  -   Type: true \| false
 -   Default: false

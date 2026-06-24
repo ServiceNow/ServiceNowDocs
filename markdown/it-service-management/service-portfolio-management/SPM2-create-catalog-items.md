@@ -137,7 +137,7 @@ Meta
 
 Comma-separated list of tags used to search for the catalog item. Use commas between keywords for better results when searching.
 
- For more information, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/search-catalog-item.md).
+ For more information, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/search-catalog-item.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

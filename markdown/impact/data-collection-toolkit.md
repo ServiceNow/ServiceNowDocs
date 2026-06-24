@@ -4,8 +4,6 @@ description: The Impact Value Management Data Collection apps are designed to si
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/data-collection-toolkit.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

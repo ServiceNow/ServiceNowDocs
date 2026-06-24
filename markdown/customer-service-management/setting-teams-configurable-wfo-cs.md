@@ -4,8 +4,6 @@ description: Organize your teams into assignment groups and create reports for t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-teams-configurable-wfo-cs.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -73,7 +71,7 @@ Role required: sn\_wfo\_admin or admin
 
 ### About this task
 
-You can associate a user with a primary assignment group by selecting the group in the [user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) record.
+You can associate a user with a primary assignment group by selecting the group in the [user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) record.
 
 ### Procedure
 

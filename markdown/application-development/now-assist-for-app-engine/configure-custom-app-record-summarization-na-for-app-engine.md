@@ -81,7 +81,7 @@ You must have the custom app record summarization skill activated to configure t
 
     1.  To adjust which roles have access to the skill, select the edit icon \(\[Omitted image "crs-edit-pencil-icon-purple.png"\]\).
 
-    2.  Follow the instructions outlined in [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md) to control who has access to the skill.
+    2.  Follow the instructions outlined in [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nask-access-control.md) to control who has access to the skill.
 
     3.  When finished, select **Save and continue**.
 

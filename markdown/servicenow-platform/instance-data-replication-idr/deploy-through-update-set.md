@@ -22,7 +22,7 @@ Role required: idr\_admin or admin
 
 ## About this task
 
-You can copy a replication configuration from one instance to another using an update set. For details on using update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
+You can copy a replication configuration from one instance to another using an update set. For details on using update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
 
 ## Procedure
 

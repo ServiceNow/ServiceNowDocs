@@ -4,8 +4,6 @@ description: Configure the MID Server to retrieve the temporary security credent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/config-mid-iam-roles.html
 release: australia
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

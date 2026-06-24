@@ -4,8 +4,6 @@ description: Use the lookup component on interaction record pages in CSM Configu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-record-page-lookup-component.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

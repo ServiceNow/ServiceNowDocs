@@ -4,8 +4,6 @@ description: Customer service agents can review time worked on cases and case ta
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-service-agent-review-time.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

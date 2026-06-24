@@ -4,8 +4,6 @@ description: This document intends to describe the ServiceNow Operational Techno
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/architect-considerations.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-05-08"
 reading_time_minutes: 9

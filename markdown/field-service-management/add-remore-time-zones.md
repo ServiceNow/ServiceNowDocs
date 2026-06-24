@@ -4,8 +4,6 @@ description: Add time zones for dispatchers to choose from and make it easier fo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/add-remore-time-zones.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

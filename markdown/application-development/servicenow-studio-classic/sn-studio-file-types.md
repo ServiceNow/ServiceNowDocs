@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-access-control.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Determines whether access is granted for a specified operation to a specific ent
 
 </td></tr><tr><td>
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ sys\_script
 
 </td><td>
 
-Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
+Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
 -   The script can run:
     -   before or after the database action is performed \(runs as part of the database operation\).
     -   asynchronously \(at some point after the database operation\).
@@ -122,7 +122,7 @@ Display ServiceNow data graphically on a Google map page based on location data 
 
 </td></tr><tr><td>
 
-[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
+[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
 
 </td><td>
 
@@ -161,7 +161,7 @@ Provide customizable URL endpoints that execute server-side JavaScript code and 
 
 </td></tr><tr><td>
 
-[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-relationships.md)
+[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-relationships.md)
 
 </td><td>
 
@@ -173,7 +173,7 @@ Extend tables, reference records in another table, create many-to-many relations
 
 </td></tr><tr><td>
 
-[Scheduled script executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+[Scheduled script executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md)
 
 </td><td>
 
@@ -185,7 +185,7 @@ Define automated, server-side script logic that executes at a specific time or o
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ScriptActions.md)
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_ScriptActions.md)
 
 </td><td>
 
@@ -213,7 +213,7 @@ Contain reusable functions or classes that run only when called by other scripts
 
 </td></tr><tr><td>
 
-[Schedule items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ViewAScheduleItem.md)
+[Schedule items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewAScheduleItem.md)
 
 </td><td>
 
@@ -221,7 +221,7 @@ sys\_trigger
 
 </td><td>
 
-Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. Access schedule item records to troubleshoot scheduling.
+Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. Access schedule item records to troubleshoot scheduling.
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Declare individual CSS styles for a field in a list or form.
 
 </td></tr><tr><td>
 
-[Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_NestedWidgets.md)
+[Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NestedWidgets.md)
 
 </td><td>
 

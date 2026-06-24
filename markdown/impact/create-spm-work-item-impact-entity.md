@@ -4,8 +4,6 @@ description: Use the SPM work item record link within the Impact entity to view 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/create-spm-work-item-impact-entity.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

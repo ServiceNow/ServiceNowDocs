@@ -4,8 +4,6 @@ description: Machine learning in Customer Service Management helps with case res
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ettr.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,7 +18,7 @@ Machine learning predicts the estimated time to resolve a case \(ETTR\) based on
 
 ## Activation
 
-This feature is available with activation of the Predictive Intelligence for Customer Service Management plugin \(com.sn\_csm\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
+This feature is available with activation of the Predictive Intelligence for Customer Service Management plugin \(com.sn\_csm\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-predictive-intelligence.md).
 
 Agents must activate the **Time to resolve** ribbon component, which displays the ETTR, to view it in the CSM Agent Workspace or in the CSM Configurable Workspace. For more information, see [Display the time to resolve ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr-activate.md) and [CSM Configurable Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-agent-workspace-ribbon.md).
 

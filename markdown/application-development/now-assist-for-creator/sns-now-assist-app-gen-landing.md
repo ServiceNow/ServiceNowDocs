@@ -17,7 +17,7 @@ breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on t
 
 Use the app generation skill available with Now Assist for Creator to create applications through conversation with generative AI. Describe the app you want to build, and Now Assist for Creator generates it so you can review and modify it.
 
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 Video describing Now Assist for app generation and how to use it to create applications. 
 

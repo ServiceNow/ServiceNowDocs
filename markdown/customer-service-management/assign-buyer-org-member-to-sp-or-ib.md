@@ -4,8 +4,6 @@ description: Assign a business organization member to a sold product or install 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-buyer-org-member-to-sp-or-ib.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1

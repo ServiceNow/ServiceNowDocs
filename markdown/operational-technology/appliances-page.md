@@ -4,8 +4,6 @@ description: The Appliances page displays active appliances in the Discovery Con
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/appliances-page.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-04-07"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Use the case digests feature to provide periodic updates and resolu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-case-digests.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -22,7 +20,7 @@ The case digests feature uses a configuration for case action summaries and post
 
 ## Case digests workflows
 
-Starting with the Zurich release, legacy approval workflows for the Case Digests \(com.sn\_csm\_case\_digest\) application have been migrated to low code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md). The functionality of the flows remains the same.
+Starting with the Zurich release, legacy approval workflows for the Case Digests \(com.sn\_csm\_case\_digest\) application have been migrated to low code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md). The functionality of the flows remains the same.
 
 Post case reviews can include optional approval workflows that trigger an approval process. These workflows are selected as part of the case digest configuration.
 

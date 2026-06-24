@@ -4,8 +4,6 @@ description: Outcomes based contextual learning recommendations provide data-dri
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/contextual-learning-recommendations.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

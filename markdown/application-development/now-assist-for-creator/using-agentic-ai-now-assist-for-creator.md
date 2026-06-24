@@ -37,7 +37,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md)
+[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
 
 </td><td>
 

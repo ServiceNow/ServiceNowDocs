@@ -4,8 +4,6 @@ description: Modify the Workforce configuration by setting system properties to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-system-properties.html
 release: australia
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

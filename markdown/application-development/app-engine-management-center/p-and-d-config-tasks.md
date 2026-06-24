@@ -146,7 +146,7 @@ Configure Instance Scan suite
 
 </td><td>
 
-For more information, see [Configuring Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-intro-scans.md).
+For more information, see [Configuring Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-intro-scans.md).
 
 </td></tr><tr><td rowspan="2">
 

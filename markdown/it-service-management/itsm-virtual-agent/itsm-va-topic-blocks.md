@@ -16,7 +16,7 @@ breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT S
 
 Reuse topic blocks to perform common functions in ITSM Virtual Agent conversations, such as creating an incident or performing a search.
 
-Use the **Type** list on the Topics page in Virtual Agent Designer to sort by **Topic Blocks**. For detailed information about topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
+Use the **Type** list on the Topics page in Virtual Agent Designer to sort by **Topic Blocks**. For detailed information about topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/topic-blocks-overview.md).
 
 ITSM Virtual Agent provides the following pre-built topic blocks and templates.
 
@@ -110,7 +110,7 @@ This topic block is deprecated. Use [Get MS Teams Meeting Link](https://raw.gith
 
 Users can request a Microsoft Teams meeting link using Virtual Agent. This topic block can be included in other topics. By default, this topic block runs in silent mode, and the output messages are not displayed.
 
-Requirement: [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-comm.md) \(sn\_msteams\_com\_spk\) plugin
+Requirement: [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) plugin
 
 ## Create Zoom Meeting Link
 
@@ -118,7 +118,7 @@ For more actions, the [Zoom Meeting Actions](https://raw.githubusercontent.com/S
 
 Users can request a Zoom meeting link using Virtual Agent. This topic block can be included in other topics. By default, this topic block runs in silent mode, and the output messages are not displayed.
 
-Requirement: [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md)\(com.sn.zoom.spoke\) plugin
+Requirement: [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) plugin
 
 ## Describe Virtual Machine
 
@@ -128,7 +128,7 @@ Basic flow:
 
 1.  User specifies which VM to describe, or Virtual Agent provides a list of available VM instances for the user to choose from.
 2.  Virtual Agent provides the requested virtual machine details.
-3.  To get additional details, users can select the link provided, which redirects them to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-cloud-user-portal.md).
+3.  To get additional details, users can select the link provided, which redirects them to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloudmgt-cloud-user-portal.md).
 
 \[Omitted image "DescribeVM2.png"\] Alt text: Describe Virtual Machine topic block.
 
@@ -171,17 +171,17 @@ If Password Reset is enabled on Virtual Agent, and the user has been authenticat
 
 This topic block as one input parameter: **unlock\_account**. If the user has been authenticated, the value is **true**. Otherwise, the value is **false**.
 
-For more information, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-for-virtual-agent.md).
+For more information, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-for-virtual-agent.md).
 
 This topic block has one input parameter: **unlock\_account**. If the user has been authenticated, the value is **true**. Otherwise, the value is **false**.
 
 ## Request Catalog Item
 
-For information about this topic block, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+For information about this topic block, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va.md).
 
 ## Search Catalog Item
 
-For information about this topic block, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+For information about this topic block, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-topic-blocks-va.md).
 
 ## Start Virtual Machine
 

@@ -4,8 +4,6 @@ description: Activate a skill before you can use the generative AI capabilities 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/activate-now-assist-skills-in-now-assist-for-impact.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

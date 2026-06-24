@@ -30,7 +30,7 @@ Individual Life Claims includes a death benefit claim workflow that demonstrates
 
 1.  Import your insurance policies, financial products, and financial institutions into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them, or add new ones as applicable.
 
@@ -48,7 +48,7 @@ Description
 
 </td><td>
 
-Determine the roles of the individuals that you need to work on the claim cases for your line of business. Set up the roles to support the permissions that are required to adjudicate a claim. The roles should inherit the included roles from FSO core. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+Determine the roles of the individuals that you need to work on the claim cases for your line of business. Set up the roles to support the permissions that are required to adjudicate a claim. The roles should inherit the included roles from FSO core. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
  Required roles include:
 
@@ -57,7 +57,7 @@ Determine the roles of the individuals that you need to work on the claim cases 
 -   FNOL Agent: Included in the Individual Life Claims application and inherits the first-notice-of-loss \(FNOL\) representative core role. This FNOL agent role is shared across all lines of business.
 -   Manager: Included in the Individual Life Claims application and inherits the death benefit claims adjuster role. This role contains the adjuster roles for all your lines of business. This role has the permission to view Performance Analytics dashboards. This role is shared across all lines of business.
 -   Admin: Included in Individual Life Claims and inherits the service definition admin core role. This role performs the configurations that are required for the application. This role is shared across all your lines of business. You may not need to make any changes to this role.
- Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-groups-fso.md).
+ Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-groups-fso.md).
 
 </td></tr><tr><td id="d54092e217">
 
@@ -85,7 +85,7 @@ Configure the tables by reviewing the existing tables that were provided in Insu
 
 **Note:** The claims data model supports working on a single case with either a single policy, or multiple policies, or beneficiaries.
 
-For more information, see [Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
+For more information, see [Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
 
 </td></tr><tr><td id="d54092e282">
 
@@ -105,7 +105,7 @@ Configure service definitions to enable unique flows and views for your service 
 
 You can also define the services for task tables to create different flows for your tasks. Examples include a claim validation task flow or a claim closure task flow.
 
-For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-service-definitions.md).
+For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-service-definitions.md).
 
 </td></tr><tr><td id="d54092e318">
 
@@ -117,7 +117,7 @@ Define the actions that the user can take on the table record in a form. Example
 -   The task tables inherit the UI actions from Financial Task.
 Override or hide the actions according to your business requirements.
 
-For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md) and [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-core-banking-tables.md).
+For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md) and [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-banking-tables.md).
 
 </td></tr><tr><td id="d54092e353">
 
@@ -129,7 +129,7 @@ Configure the workspaces for your defined personas to interact with the customer
 
 For more information, see [Enable the claim workspace for Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.md).**Note:** The claim workspace is accessible from an adjuster task.
 
-For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 </td></tr><tr><td id="d54092e402">
 
@@ -141,7 +141,7 @@ Set up the decision tables that are specific to your business requirements.Refer
 
  If the input parameters, rules, and other elements vary, new tables may be needed for each line of business.
 
-For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
 </td></tr><tr><td id="d54092e422">
 
@@ -151,7 +151,7 @@ For more information, see [Decision Tables](https://raw.githubusercontent.com/Se
 
 Update the approval engine properties as required at **Insurance claim operations** &gt; **Properties**.For reserves and payments, review and update the Claim reserves and payments rules decision table with your desired parameters and values.
 
-For more information, see [Insurance claims core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/insurance-claims-core-roles-and-properties.md).
+For more information, see [Insurance claims core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-roles-and-properties.md).
 
 </td></tr><tr><td id="d54092e450">
 
@@ -159,7 +159,7 @@ For more information, see [Insurance claims core properties](https://raw.githubu
 
 </td><td>
 
-Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
+Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md).
 
 </td></tr><tr><td id="d54092e467">
 
@@ -167,7 +167,7 @@ Configure the assignment rules to identify the cases that meet certain condition
 
 </td><td>
 
-Edit or create flows by using Workflow Studio. For more information, see [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md).
+Edit or create flows by using Workflow Studio. For more information, see [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md).
 
 </td></tr></tbody>
 </table>

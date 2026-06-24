@@ -4,8 +4,6 @@ description: The Scan Engine uses a large set of definitions to correct coding a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions.html
 release: australia
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

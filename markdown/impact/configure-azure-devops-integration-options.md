@@ -4,8 +4,6 @@ description: Perform the following procedure to configure your Azure DevOps inte
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-azure-devops-integration-options.html
 release: australia
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

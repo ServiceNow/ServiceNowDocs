@@ -4,8 +4,6 @@ description: Technicians supporting CSM Walk-up Experience locations can view an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-auto-assigned-requests.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

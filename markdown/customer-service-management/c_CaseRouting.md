@@ -4,8 +4,6 @@ description: The case routing feature uses matching rules and assignment rules t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CaseRouting.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -50,5 +48,5 @@ Alternately, you can create a script to further customize the assignment rule.
 **Related topics**  
 
 
-[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_AssignmentRulesModule.md)
+[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AssignmentRulesModule.md)
 

@@ -4,8 +4,6 @@ description: When you upgrade from the Zurich release, understand the fixes in e
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-n-1-landing-page.html
 release: australia
-product: Release Notes
-classification: release-notes
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

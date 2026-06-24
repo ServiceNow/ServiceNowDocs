@@ -4,8 +4,6 @@ description: Use these applications to help streamline communications and manage
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/manage-people-work-convint.html
 release: australia
-product: Conversational Interfaces
-classification: conversational-interfaces
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -218,7 +218,7 @@ Contains CI classes included or excluded from application services during popula
 
 To access application services properties, navigate to **All** &gt; **Configuration** &gt; **Application Services** &gt; **Properties**. The role required for modifying property values, is app\_service\_admin.
 
-If Service Mapping is deployed, see [Properties installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md) for additional application service properties.
+If Service Mapping is deployed, see [Properties installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-service-mapping.md) for additional application service properties.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 

@@ -4,8 +4,6 @@ description: Usage Insights provides event tracking for voice call events in ICC
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usage-insight-for-icc-enabled-call-events.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 1
@@ -28,7 +26,7 @@ The **Usage Insights** dashboard displays all applications by default. To view t
 
 -   **Users**
 
-    Lists all agents who have triggered tracked events, displayed as hashed IDs. See [Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ued-ec.md).
+    Lists all agents who have triggered tracked events, displayed as hashed IDs. See [Usage Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ued-ec.md).
 
 -   **Sessions**
 

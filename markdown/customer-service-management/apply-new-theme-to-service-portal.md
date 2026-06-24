@@ -4,8 +4,6 @@ description: Customize the theme of the decision tree component to match the Ser
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/apply-new-theme-to-service-portal.html
 release: australia
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -18,7 +16,7 @@ Customize the theme of the decision tree component to match the Service Portal t
 
 ## Before you begin
 
-A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-the-visual-style-of-ui-builder-experiences.md).
 
 Role required: sp\_admin or admin
 

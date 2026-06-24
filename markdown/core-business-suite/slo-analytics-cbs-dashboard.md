@@ -4,8 +4,6 @@ description: The Supplier Lifecycle Operations tab on the Core Business Suite An
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/slo-analytics-cbs-dashboard.html
 release: australia
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 2

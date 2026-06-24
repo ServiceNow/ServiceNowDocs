@@ -4,8 +4,6 @@ description: Use the OT Discovery Collector component to discover devices the Di
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/ot-discovery-collectors-landing.html
 release: australia
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
