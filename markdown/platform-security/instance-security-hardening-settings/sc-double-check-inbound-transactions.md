@@ -36,7 +36,7 @@ Ensure the property **glide.security.strict.updates** exists in the sys\_propert
 |Security risk|\(High\) You should always check access request when transactions happen between two zones. This operation checks for permissions when the form is requested and before form rendering happens.|
 |References||
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

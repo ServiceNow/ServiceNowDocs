@@ -32,7 +32,7 @@ None.
 
 None.
 
-For more information, see .
+For more information, see [User Experience Analytics for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mobile-analytics.md).
 
 **Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/healthscan-definitions-may-store.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 8
 breadcrumb: [HealthScan definitions, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---

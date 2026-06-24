@@ -4,8 +4,6 @@ description: This Field Service preventive maintenance workflow example provides
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/preventive-maintenance-use-case.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2

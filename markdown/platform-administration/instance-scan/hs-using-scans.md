@@ -33,5 +33,5 @@ After the scans have been executed, you can review them with the findings and re
 -   **[Using the Instance Scan dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-scan/hs-implement-dashboard.md)**  
 Compare and analyze the results of the scans in your instance by representing it on the premium Performance Analytics \(PA\) dashboard.
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/maintain-monitor-now-platform.md)
 

@@ -4,8 +4,6 @@ description: Use the Now Assist for Operational Technology Manager \(OTM\) appli
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/now-assist-for-otm-landing.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 3

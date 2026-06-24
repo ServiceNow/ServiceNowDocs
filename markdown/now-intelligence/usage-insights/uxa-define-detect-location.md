@@ -63,7 +63,7 @@ The available detection policy providers are:
 
     **Note:** You can use the system property **glide.analytics.consent.script\_timeout** to define the run time of the script. For more information, see [Usage Insights related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/all-analytics-properties.md).
 
-    For more information on using scripts, see .
+    For more information on using scripts, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SyntaxEditor.md).
 
 
 -   **[View and update Usage Insights consent tracking policies for individual countries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-view-policy-country.md)**  

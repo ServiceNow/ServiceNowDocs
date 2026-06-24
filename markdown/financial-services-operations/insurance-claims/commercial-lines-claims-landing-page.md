@@ -38,7 +38,7 @@ The Commercial Lines Claims application enables your organization to quickly set
 
 </td><td>
 
-[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize processes and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize processes and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-process-optz-content-pack.md)
 
 </td></tr></tbody>
 </table>

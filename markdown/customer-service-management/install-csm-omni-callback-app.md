@@ -4,8 +4,6 @@ description: You can install the Omnichannel Callback for Customer Service Manag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/install-csm-omni-callback-app.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

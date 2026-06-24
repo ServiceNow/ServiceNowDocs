@@ -30,8 +30,8 @@ The Care Team Portal can also be embedded within Epic, with access to all featur
 
 The following plugins provide preconfigured record producers for use with Care Team Portal:
 
--   [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences/care-team-operations-for-biomed.md)
--   [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-it-app.md):
+-   [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/care-team-operations-for-biomed.md)
+-   [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/hcls-cto-it-app.md):
 
 For information on the features available with the Care Team Portal, see [Navigating the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-cto-using-portal.md).
 
@@ -43,5 +43,5 @@ Virtual Agent can be used to quickly obtain information, decide, and perform com
 
 To interact with Virtual Agent, simply select the chat window icon on the bottom right-hand corner of the screen.
 
-For more information on Virtual Agent, see .
+For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/virtual-agent.md).
 

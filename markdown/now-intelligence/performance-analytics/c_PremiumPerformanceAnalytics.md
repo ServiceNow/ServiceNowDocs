@@ -50,7 +50,7 @@ With a subscription to Performance Analytics, your features should be activated 
 
 Starting in Tokyo, Subscription Management applies to Performance Analytics. If you use Subscription Management, you should not need to activate a Performance Analytics plugin manually. The remainder of this page describes the older, manual system of activating a subscription.
 
-This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see Subscription Management.
+This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 ## Identify your entitlement to Performance Analytics on an on-premises instance
 
@@ -108,7 +108,7 @@ A progress bar shows you the progress of the plugin activation, after which you 
 
 ### What to do next
 
-When the process is complete, consider installing Analytics Solutions, which include preconfigured dashboards and all necessary underlying components. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics/content-packs-in-form-analytics.md).
+When the process is complete, consider installing Analytics Solutions, which include preconfigured dashboards and all necessary underlying components. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md).
 
 Also consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlight.md).
 

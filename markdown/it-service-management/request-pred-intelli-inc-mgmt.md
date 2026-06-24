@@ -4,8 +4,6 @@ description: Activate Predictive Intelligence for Incident Management by request
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-pred-intelli-inc-mgmt.html
 release: yokohama
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

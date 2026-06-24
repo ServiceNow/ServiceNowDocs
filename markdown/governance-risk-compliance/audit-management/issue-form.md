@@ -7,7 +7,7 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 7
 breadcrumb: [Manually create GRC issues, Manage audit issues and remediation, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
 ---

@@ -4,8 +4,6 @@ description: Impact multi-instance support allows the Impact Delivery Instance t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-multi-instance-support.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-04-22"
 reading_time_minutes: 1

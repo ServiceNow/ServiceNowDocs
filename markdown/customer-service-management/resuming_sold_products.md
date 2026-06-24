@@ -4,10 +4,8 @@ description: Resume sold products to create a resume order on the CSM Configurab
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/resuming\_sold\_products.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

@@ -113,5 +113,5 @@ Migrate the bot process configuration and associated assets to another environme
 -   **[Convert existing unattended robots to high density robots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/convert-robot-hdr.md)**  
 Run multiple unattended automations simultaneously on a single machine by batch converting one or more existing robots to high density robots using the **Actions on selected rows** option.
 
-**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
 

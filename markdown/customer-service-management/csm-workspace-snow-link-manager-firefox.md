@@ -4,8 +4,6 @@ description: Follow the steps below to install and activate ServiceNow Link Mana
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-snow-link-manager-firefox.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-19"
 reading_time_minutes: 1

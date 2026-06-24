@@ -75,7 +75,7 @@ After a successful configuration, the system generates a link, and then shares t
 
     1.  Navigate to **Roles** and create a role. For example: remote\_worker.
 
-    2.  Create a user with a valid email id and mobile number. To know how to create a user see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    2.  Create a user with a valid email id and mobile number. To know how to create a user see, Create a user.
 
     3.  Assign the role to the user. To know how to assign the role to the user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 

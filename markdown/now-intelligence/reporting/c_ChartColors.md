@@ -104,7 +104,7 @@ The value of the element for which the specified color applies. The value is cas
 
  \[Omitted image "chart-color-choice-type-ex-pt1.png"\] Alt text: Chart color choice type example - part 1
 
- To understand the various ways to get a record's sys\_id, see The unique record identifier \(sys\_id\).
+ To understand the various ways to get a record's sys\_id, see [The unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 </td></tr><tr id="row_xqw_5fw_1z"><td>
 

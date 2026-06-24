@@ -1944,7 +1944,7 @@ Fix Script
 
 Fix scripts are server-side JavaScript that run after a custom application is installed or upgraded. You can include fix scripts to make changes that are necessary for the data integrity or product stability of an application.
 
- For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/t_CreateFixScripts.md).
+ For more information, see [Fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_FixScripts.md) and [Create a fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/t_CreateFixScripts.md).
 
 </td><td>
 

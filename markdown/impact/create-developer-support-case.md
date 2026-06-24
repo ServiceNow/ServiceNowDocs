@@ -4,8 +4,6 @@ description: Enter a support case to engage Developer Support assistance, if you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-developer-support-case.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

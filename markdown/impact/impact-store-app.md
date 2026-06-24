@@ -4,8 +4,6 @@ description: The Impact Store Application, a centralized, interactive portal whe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-store-app.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-03-09"
 reading_time_minutes: 1

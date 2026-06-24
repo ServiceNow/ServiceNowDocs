@@ -4,8 +4,6 @@ description: Modify the default anonymous chat record producer to gather the des
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/modify-anonymous-chat-rec-producer.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

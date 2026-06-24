@@ -18,7 +18,7 @@ Learn how to create data filtration rules to grant your users' access to records
 
 Role required: security\_admin
 
-**Note:** To create or modify data filtration rules you, must elevate to the privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+**Note:** To create or modify data filtration rules you, must elevate to the privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 
@@ -70,7 +70,7 @@ Cascading
 
 Select to set the data filtration rule to apply to extended tables.
 
- For example, you select the Task\[task\] table, and enable cascading. In this case, the data filtration rule also applies to all tables extended from task, such as Incident\[incident\] and Change Request\[change\_request\]. For detail on table extension, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md)
+ For example, you select the Task\[task\] table, and enable cascading. In this case, the data filtration rule also applies to all tables extended from task, such as Incident\[incident\] and Change Request\[change\_request\]. For detail on table extension, see 
 
  **Note:** This field is enabled by default.
 

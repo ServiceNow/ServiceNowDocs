@@ -107,7 +107,7 @@ After configuring the required inputs for your activity, you can also choose to 
 
 |Input|Type|Description|
 |-----|----|-----------|
-|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see .|
+|Decision Tree|Reference|The Decision Tree \[ga\_decision\_tree\] record whose decision inputs and guidance you want to show to agents in the Workspace playbook. For more information on how to set up the Guided Decisions framework, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/setting-up-guided-decisions.md).|
 |Task|Reference|The triggering Case \[sn\_customerservice\_case\] record.|
 
 ## Outputs

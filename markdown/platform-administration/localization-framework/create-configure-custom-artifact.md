@@ -82,7 +82,7 @@ Application
 
 </td><td>
 
-Application scope. The value is the current application selected for the logged-in user session. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
+Application scope. The value is the current application selected for the logged-in user session. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 </td></tr><tr><td>
 

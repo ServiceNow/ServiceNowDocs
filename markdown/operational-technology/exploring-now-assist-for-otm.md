@@ -4,8 +4,6 @@ description: The Now Assist for Operational Technology Manager \(OTM\) plugin us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/exploring-now-assist-for-otm.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-07"
 reading_time_minutes: 1

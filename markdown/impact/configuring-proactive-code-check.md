@@ -4,8 +4,6 @@ description: Impact Platform Health features Proactive Code Check that can be ac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/configuring-proactive-code-check.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-02-27"
 reading_time_minutes: 1

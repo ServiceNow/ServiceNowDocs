@@ -4,8 +4,6 @@ description: Enable your users to display, customize, and share dashboards in CS
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ws-landing-page-dashboard.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 8

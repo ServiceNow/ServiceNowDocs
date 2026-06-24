@@ -4,8 +4,6 @@ description: Instance Observer integrations allow you to define and manage custo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/custom-payload-help-guide-impact.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-04-21"
 reading_time_minutes: 2

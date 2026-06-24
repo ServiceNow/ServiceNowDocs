@@ -1,0 +1,20 @@
+---
+title: Upgrade your instance to the next family release
+description: If you are currently running a family release and want to upgrade to the next release, it is not necessary to acquire the applications from the ServiceNow Store. The application is automatically updated when the platform is updated to the minimum required version.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/upgrade-to-next-family.html
+release: yokohama
+topic_type: concept
+last_updated: "2025-08-08"
+reading_time_minutes: 1
+breadcrumb: [Security Operations and the ServiceNow Store, Security Operations]
+---
+
+# Upgrade your instance to the next family release
+
+If you are currently running a family release and want to upgrade to the next release, it is not necessary to acquire the applications from the ServiceNow Store. The application is automatically updated when the platform is updated to the minimum required version.
+
+Role required: admin
+
+For more information about new features and steps for how to upgrade, see [Using the release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/rn-getting-started-landing-page.md) and [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/rn-n-1-landing-page.md) to learn how to navigate the redesigned release notes and find the information you're looking for.
+

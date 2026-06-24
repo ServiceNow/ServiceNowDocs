@@ -37,15 +37,15 @@ Business customers and consumers can also submit loan service requests from the 
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d88286e97">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d88264e97">
 
 Option
 
-</th><th align="left" id="d88286e100">
+</th><th align="left" id="d88264e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88286e106">
+</th></tr></thead><tbody><tr><td id="d88264e106">
 
 **Personal loan service request for a consumer**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d88286e133">
+</td></tr><tr><td id="d88264e133">
 
 **Business loan service request for a business customer**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d88286e163">
+</td></tr><tr><td id="d88264e163">
 
 **Loan service request from an interaction record**
 
@@ -73,7 +73,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record for the customer that you want to open.
- For information on how to create an interaction, see Create an interaction.
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/interaction-management/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  Click **Create Loan Request**.

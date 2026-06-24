@@ -4,8 +4,6 @@ description: Users with an OSP \(Outsourced Service Provider\) agent role can pr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/osp-close-case.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

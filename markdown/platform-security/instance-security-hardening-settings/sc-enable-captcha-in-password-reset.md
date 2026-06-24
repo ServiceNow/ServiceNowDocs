@@ -35,7 +35,7 @@ CAPTCHAs help prevent automation attacks by prompting the user for a challenge-r
 |Security risk|\(Moderate\) Unideal value may result in security vulnerability.|
 |Security risk rating|5.5|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

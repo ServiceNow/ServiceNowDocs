@@ -4,8 +4,6 @@ description: You can triage your instance to get instant information on transact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/io-triage.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -23,5 +23,5 @@ The system supports Visual Task Boards on most modern browsers.
 -   **[Installed with Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/visual-task-boards/r_InstalledWithVisualTaskBoards.md)**  
 Several types of components are installed with Visual Task Boards.
 
-**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/personalize-your-experience.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/personalize-your-experience.md)
 

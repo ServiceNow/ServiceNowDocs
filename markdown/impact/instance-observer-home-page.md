@@ -4,8 +4,6 @@ description: The Home page provides a snapshot of the overall health of your ins
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/instance-observer-home-page.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

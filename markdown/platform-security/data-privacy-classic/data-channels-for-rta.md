@@ -16,7 +16,7 @@ breadcrumb: [Real time anonymization, Data privacy \(Store\), Data Privacy, Plat
 
 Select the data channel for use with real time anonymization\(RTA\).
 
-A data channel is the channel taken by your data for processing. You can control which channel RTA discovered data is sent to when [configuring an anonymization policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/dps-create-anonymization-policies.md). The following are the data channels available for use with RTA:
+A data channel is the channel taken by your data for processing. You can control which channel RTA discovered data is sent to when [configuring an anonymization policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/dps-create-anonymization-policies.md). The following are the data channels available for use with RTA:
 
 <table id="table_zk1_2nc_v2c"><thead><tr><th>
 

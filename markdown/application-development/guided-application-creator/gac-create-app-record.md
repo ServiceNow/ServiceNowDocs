@@ -64,7 +64,7 @@ Scope of your application. The application scope is set automatically when you n
 
  If available, you can also select to create your application in the global scope.
 
- For more information on application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
+ For more information on application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_ApplicationScope.md).
 
 </td></tr></tbody>
 </table>3.  Give your application a logo image.

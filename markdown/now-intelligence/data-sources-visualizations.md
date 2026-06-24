@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [What data can I base my visualization on]
 breadcrumb: [Reference, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -75,7 +75,7 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see MetricBase.
+The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/metricbase/metricbase.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see .
+The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/health-log-analytics/hla-landing-page.md).
 
  **Note:** You can create and edit data visualizations for Health Log Analytics only in the UI Builder, not in the Platform Analytics Visualization Designer or in dashboards.
 

@@ -4,8 +4,6 @@ description: The Impact Health Store Application enhances platform health by ena
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-healthscan-store-app.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-03-09"
 reading_time_minutes: 1

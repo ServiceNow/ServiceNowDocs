@@ -35,5 +35,5 @@ As an administrator, you define whether to anonymize all information for all use
 
 -   Only classified data can be anonymized. For information on data classes and classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-classification/data-classification.md) \(Classic\) or [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/dps-data-classification.md) Store App.
 -   PII in logs and other auditing data are not anonymized.
--   Integrations with single sign-on \(SSO\) systems may resynchronize user information from their source of truth systems. There is no mechanism in place to ensure the permanency of the de-identification of sys\_user data. For information on user administration and sys\_users see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_UserAdministration.md).
+-   Integrations with single sign-on \(SSO\) systems may resynchronize user information from their source of truth systems. There is no mechanism in place to ensure the permanency of the de-identification of sys\_user data. For information on user administration and sys\_users see User Administration.
 

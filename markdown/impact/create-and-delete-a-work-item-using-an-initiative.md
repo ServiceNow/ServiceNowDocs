@@ -4,8 +4,6 @@ description: Create an actionable Strategic Planning Workspace \(SPM\) or Collab
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-and-delete-a-work-item-using-an-initiative.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-02-25"
 reading_time_minutes: 1

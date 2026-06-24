@@ -25,5 +25,5 @@ Some applications can be uninstalled from your instance to remove scripts, backg
 -   **[Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/application-manager/uninstall-application-app-mgr.md)**  
 Uninstall an unused application to remove unnecessary or conflicting scripts, background jobs, and roles from your instance.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/administering-applications.md)
 

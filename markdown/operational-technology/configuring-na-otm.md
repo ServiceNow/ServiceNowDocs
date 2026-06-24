@@ -4,8 +4,6 @@ description: Configure the features and agentic workflows available for Now Assi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/configuring-na-otm.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1

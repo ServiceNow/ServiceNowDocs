@@ -4,8 +4,6 @@ description: Configure the Trigger Recommendation Refresh data broker to refresh
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-config-data-broker.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-02"
 reading_time_minutes: 2

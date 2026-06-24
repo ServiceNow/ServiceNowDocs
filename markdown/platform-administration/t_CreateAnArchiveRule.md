@@ -70,7 +70,7 @@ Name
 
 </td><td>
 
-Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/c_DisplayValues.md) for references to this archive rule.
+Name that identifies the rule. Used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DisplayValues.md) for references to this archive rule.
 
 </td></tr><tr><td>
 

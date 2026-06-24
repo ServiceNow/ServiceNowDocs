@@ -49,7 +49,7 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d48947e165">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d48941e165">
 
 **Add as viewer**
 
@@ -57,7 +57,7 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 Grant only viewing rights to the users, groups, or roles you share the visualization with. The recipients cannot edit it.
 
-</td></tr><tr><td id="d48947e174">
+</td></tr><tr><td id="d48941e174">
 
 **Add as editor**
 

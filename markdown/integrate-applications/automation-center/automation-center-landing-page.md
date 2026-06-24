@@ -42,11 +42,11 @@ Automation Center integrates with third-party vendors enabling you to get their 
 
 ## Automation Center API
 
-The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/auto-api.md).
+The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see .
 
 ## Integration with Requirement Intake Diagram
 
-Automation Center integrates with Requirement Intake Diagram enabling you to create automations from intake diagrams. For more information, see [Requirement Intake Diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/requirement-intake-diagram-landing-page.md).
+Automation Center integrates with Requirement Intake Diagram enabling you to create automations from intake diagrams. For more information, see [Requirement Intake Diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/requirement-intake-diagram-landing-page.md).
 
 ## Get started
 

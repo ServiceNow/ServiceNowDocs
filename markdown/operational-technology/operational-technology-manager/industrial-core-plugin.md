@@ -44,7 +44,7 @@ The Industrial Core plugin introduces a configuration template to manage class m
 
 **Note:** Partners can extend the OT Class Mapping Template table in the scope of their application to capture the class mappings specific to the integration.
 
-For more information about the OT Class Mapping Template, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
+For more information about the OT Class Mapping Template, see .For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ OT Device Network connection \[sn\_ot\_device\_network\_connection\]
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table, and identifies device-to-device connections in CI relationships for OT devices.**Note:** This data is populated with the available OT integrations and cannot be manually created.
 
-For more information about the OT Device Network Connection data model, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
+For more information about the OT Device Network Connection data model, see .
 
 </td></tr><tr><td>
 

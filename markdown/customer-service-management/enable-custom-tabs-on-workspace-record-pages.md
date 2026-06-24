@@ -4,10 +4,8 @@ description: Enable custom tabs which appear after details tab, on CSM default R
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-custom-tabs-on-workspace-record-pages.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

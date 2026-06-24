@@ -43,5 +43,5 @@ Logs record events that occur during the execution of an automation process. The
 -   **[Post requisites after installing a hot fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/post-req-hot-fix-rpa.md)**  
 Perform these tasks after installing a hot fix for either Universal App Connector \(UAC\) or Chromium connector on your instance to verify the hot fix is accurately downloaded.
 
-**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
 

@@ -4,10 +4,8 @@ description: Billing Account Core provides a foundational data model for managin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-billing-accounts.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

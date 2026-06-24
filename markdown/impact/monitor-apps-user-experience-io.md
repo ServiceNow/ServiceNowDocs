@@ -4,8 +4,6 @@ description: Track the response time of applications to gauge their performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/monitor-apps-user-experience-io.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3

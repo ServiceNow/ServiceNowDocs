@@ -81,13 +81,13 @@ When domain separation is enabled and the system property **glide.security.admin
 
     You can choose not to send an email message. For example, when recipients already know the dashboard has been shared with them.
 
-    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see .
+    **Note:** Sending email from within your instance requires configuration of email servers. For more information, see [Basic email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_StandardEmailConfiguration.md).
 
 9.  Write an addition to the default email invitation message.
 
     The default email message reads "The dashboard &lt;Name of Dashboard&gt; has been shared with you by &lt;user role&gt;."
 
-    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see Create an email notification.
+    Users with the admin role can edit the default email message. Navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the dashboard sharing notification. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
 
 10. Select **Share**.
 

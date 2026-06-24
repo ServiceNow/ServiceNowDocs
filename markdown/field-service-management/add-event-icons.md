@@ -4,8 +4,6 @@ description: Change the fields that determine whether icons are displayed on cal
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/add-event-icons.html
 release: yokohama
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

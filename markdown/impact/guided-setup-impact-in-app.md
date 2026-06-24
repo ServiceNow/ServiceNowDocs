@@ -4,8 +4,6 @@ description: Use Impact Guided Setup to complete the configuration of the Impact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/guided-setup-impact-in-app.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-03-05"
 reading_time_minutes: 2

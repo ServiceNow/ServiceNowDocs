@@ -24,7 +24,7 @@ You can add, remove, or rearrange checklist items. You can also save a checklist
 
 \[Omitted image "TaskCardChecklistProgress.png"\] Alt text: The task card displays a checklist progress bar
 
-You can also use checklists with task records in the standard interface. For more information, see [Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/c_Checklists.md).
+You can also use checklists with task records in the standard interface. For more information, see [Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_Checklists.md).
 
 -   **[Create a checklist for a Visual Task Board card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/visual-task-boards/t_CreateANewChecklistForACard.md)**  
 You can create a unique checklist for each Visual Task Board card or create a task from a checklist item.

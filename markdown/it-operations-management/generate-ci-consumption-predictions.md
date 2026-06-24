@@ -4,8 +4,6 @@ description: Use the CI consumption prediction to compare your current ITOM subs
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/generate-ci-consumption-predictions.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-05-10"
 reading_time_minutes: 1

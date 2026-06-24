@@ -4,8 +4,6 @@ description: Configure a subflow that you can use in a guidance to automatically
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-ra-config-subflow-link-major-case.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

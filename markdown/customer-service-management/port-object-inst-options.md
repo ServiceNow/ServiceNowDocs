@@ -4,8 +4,6 @@ description: Instance options enable you to configure the Portal Object widget o
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/port-object-inst-options.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

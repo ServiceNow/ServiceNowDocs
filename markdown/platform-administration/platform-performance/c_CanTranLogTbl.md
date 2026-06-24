@@ -42,7 +42,7 @@ Indicates whether canceled transactions are to be logged to the Transaction Canc
 
  Default value: true
 
- Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) \[sys\_properties\] table
+ Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) \[sys\_properties\] table
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/transaction-cancellation.md)

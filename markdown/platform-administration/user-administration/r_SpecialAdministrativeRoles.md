@@ -152,7 +152,7 @@ None.
 
 ## UI action administrator \[ui\_action\_admin\]
 
-Create, modify, and delete [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/c_UIActions.md).
+Create, modify, and delete [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_UIActions.md).
 
 ### Contains Roles
 
@@ -212,7 +212,7 @@ None.
 
 ## UI policy administrator \[ui\_policy\_admin\]
 
-Create, modify, and delete [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md).
+Create, modify, and delete [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_CreateAUIPolicy.md).
 
 ### Contains Roles
 

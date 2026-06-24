@@ -28,7 +28,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-operations/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/download-app-first-time.md).
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 

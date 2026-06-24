@@ -43,8 +43,8 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 
 ## Additional references
 
--   
--   
+-   [User Experience Analytics for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/mobile-analytics.md)
+-   [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/sp-analytics.md)
 
 -   **[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)**  
 The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
@@ -55,5 +55,5 @@ Monitor usage analytics of your Next Experience web applications as well as Core
 -   **[User Experience Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)**  
 Roles and properties installed with Usage Insights.
 
-**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

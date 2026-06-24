@@ -4,8 +4,6 @@ description: Modify the Advanced Work Assignment queues and add routing conditio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-awa-queue-for-proxy-contact.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

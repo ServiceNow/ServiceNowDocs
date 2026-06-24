@@ -44,7 +44,7 @@ You can adjust timeout values for JDBC operations with the following properties.
 
 ## Sanitizing inputs
 
-Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using [Sanitize SQL transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/sanitize-sql-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
+Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using Sanitize SQL transform functions. This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
 
 ## SQL operations inclusion list
 
@@ -257,6 +257,6 @@ Default retry policy associated with **Connection Alias**. If **Override Default
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 

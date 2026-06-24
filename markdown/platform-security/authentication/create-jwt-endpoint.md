@@ -111,7 +111,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationAccessSettings.md).
+Cross-scope access policy. For more information, see Application access settings.
 
 </td></tr><tr><td>
 

@@ -34,7 +34,7 @@ Indicates the application quota update period in seconds. If this value is less 
 
  Default value: 300 \(5 minutes\)
 
- Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) `[sys_properties]` table
+ Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) `[sys_properties]` table
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/platform-performance-references.md)

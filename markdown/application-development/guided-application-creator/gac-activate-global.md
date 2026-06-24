@@ -18,7 +18,7 @@ By default, developers can't create applications in the global scope in Guided A
 
 ## Before you begin
 
-**Important:** Applications that you create in the global scope bypass scope protections and may cause licensing issues. For information on what to expect when you create an application in the global scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
+**Important:** Applications that you create in the global scope bypass scope protections and may cause licensing issues. For information on what to expect when you create an application in the global scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_ApplicationScope.md).
 
 Role required: admin
 

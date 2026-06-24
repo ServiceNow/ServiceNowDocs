@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Administering an app's underlying table, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -51,7 +51,7 @@ To ensure that forms and automations work, a general guideline is to change the 
 
     -   Selecting the **here** in the message "To edit the record click here."
     -   Selecting the application scope icon \(\[Omitted image "icon-scope-changed.png"\]\) and choosing the appropriate scope.
-    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
+    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.
 

@@ -28,7 +28,7 @@ The performance analysis tool provides feedback on performance impact of a secur
 
 2.  Set the property `glide.security.data_filter.diagnostic_enabled` to **true**.
 
-    If the property does not exist in the System Properties table, read [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) and add the property manually.
+    If the property does not exist in the System Properties table, read  and add the property manually.
 
 3.  Navigate to **All** &gt; **System Security** &gt; **Security Data Filters**.
 

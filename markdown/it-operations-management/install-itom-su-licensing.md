@@ -4,8 +4,6 @@ description: Update the ServiceNow ITOM/OT SU Licensing \[com.snc.itom.license\]
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/install-itom-su-licensing.html
 release: yokohama
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

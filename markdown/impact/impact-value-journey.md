@@ -4,8 +4,6 @@ description: Use Value Management to get a closer look at your Objectives and Ou
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-value-journey.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

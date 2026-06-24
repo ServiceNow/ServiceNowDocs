@@ -60,7 +60,7 @@ To toggle between showing only favorite reports and showing all reports, click t
 
 A report is automatically marked as a favorite when you open it. You can manually mark a report as a favorite by clicking the star icon beside the report title.
 
-To turn off the automatic marking of reports as favorites, disable the user preference glide.ui.nav.auto\_favorite. For more information, see User preferences .
+To turn off the automatic marking of reports as favorites, disable the user preference glide.ui.nav.auto\_favorite. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_UserPreferences.md) .
 
 ## View report owners
 
@@ -173,7 +173,7 @@ sysparm\_query
 
 </td><td>
 
-Enables you to filter on any condition in platform condition builder format. For example, `https://yourbusiness.service-now.com/report_home.do?sysparm_query=titleSTARTSWITHPRB&table!=incident`. For more information, see Condition builder.
+Enables you to filter on any condition in platform condition builder format. For example, `https://yourbusiness.service-now.com/report_home.do?sysparm_query=titleSTARTSWITHPRB&table!=incident`. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
 
 </td></tr></tbody>
 </table>

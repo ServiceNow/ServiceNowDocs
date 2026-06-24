@@ -4,8 +4,6 @@ description: Properties are added with the activation of the Customer Service Ma
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_PropInstallWcustServ.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 7

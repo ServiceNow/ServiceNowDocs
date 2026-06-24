@@ -4,8 +4,6 @@ description: Associate your customers or business locations with a service organ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/associate-customers-or-bus-loc-to-so.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

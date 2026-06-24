@@ -32,7 +32,7 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see Record Producer.
+You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
 
 -   **[Use questions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-questions-dv.md)**  
 In visualizations of data from the Task \[task\] hierarchy of tables, you can use questions defined for the table to filter or group the data.

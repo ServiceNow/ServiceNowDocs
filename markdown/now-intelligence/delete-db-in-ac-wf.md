@@ -18,7 +18,7 @@ Using the Workflow Studio, you can add actions to the dashboard deletion process
 
 Prior to invoking the flow, the instance checks that the dashboard exists and that the initiating user has the correct role.
 
-Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see User access to Flow Designer.
+Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 6.  Test the flow with the actions that you added.
 
-    For more information, see Test a flow.
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flow-test.md).
 
 7.  Save the flow.
 

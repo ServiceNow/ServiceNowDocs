@@ -4,8 +4,6 @@ description: The CSM voice interaction record page provides a component that cus
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-native-voice-record-page.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-03-17"
 reading_time_minutes: 11

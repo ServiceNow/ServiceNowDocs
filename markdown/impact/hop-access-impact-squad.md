@@ -4,8 +4,6 @@ description: View or grant your Impact squad 30 day read-only access to your ins
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/hop-access-impact-squad.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-04-24"
 reading_time_minutes: 1

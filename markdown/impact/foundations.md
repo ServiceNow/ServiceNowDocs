@@ -4,8 +4,6 @@ description: Impact Foundations is a fit-for-purpose set of account level initia
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/foundations.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

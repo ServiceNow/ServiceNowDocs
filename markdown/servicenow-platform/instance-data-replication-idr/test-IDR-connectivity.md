@@ -28,7 +28,7 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d452716e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d453341e86">
 
 **Certificate Management Service**
 
@@ -36,7 +36,7 @@ Role required: admin or idr\_admin
 
 Checks the status and setup of your certificate management service.**Note:** IDR requires a certificate management service to be up and running.
 
-</td></tr><tr><td id="d452716e100">
+</td></tr><tr><td id="d453341e100">
 
 **EJBCA Service Status**
 
@@ -47,7 +47,7 @@ Checks the status and setup of the EJBCA service as part of the Key Management F
 </td></tr></tbody>
 </table>3.  Test the connection to the message queue and confirm the replicator is working by running the Message Queue Connection Test.
 
-<table id="choicetable_y42_xvl_pvb"><tbody><tr><td id="d452716e124">
+<table id="choicetable_y42_xvl_pvb"><tbody><tr><td id="d453341e124">
 
 **Test the connection to the Legacy message queue**
 
@@ -64,7 +64,7 @@ Checks the status and setup of the EJBCA service as part of the Key Management F
 3.  Select **Run Legacy Message Queue Test**.
 
 
-</td></tr><tr><td id="d452716e171">
+</td></tr><tr><td id="d453341e171">
 
 **Test the connection to the V2 message queue**
 

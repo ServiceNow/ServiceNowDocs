@@ -99,7 +99,7 @@ Step 6
 [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/testing-and-debugging-applications.md).
+</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/testing-and-debugging-applications.md).
 
 Follow along with the tutorial to test the employee travel request application.
 

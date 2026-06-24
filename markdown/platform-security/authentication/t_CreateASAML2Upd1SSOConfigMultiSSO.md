@@ -34,7 +34,7 @@ Role required: admin
     -   To create a new configuration, click **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d46374e116">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d46366e116">
 
 **Using a metadata descriptor URL**
 
@@ -42,7 +42,7 @@ Role required: admin
 
 Click the URL check box and enter the URL of the IdP that you are using.
 
-</td></tr><tr><td id="d46374e125">
+</td></tr><tr><td id="d46366e125">
 
 **Using metadata descriptor XML file**
 
@@ -50,7 +50,7 @@ Click the URL check box and enter the URL of the IdP that you are using.
 
 Click the XML check box and paste in the XML data generated from the IdP you are using.
 
-</td></tr><tr><td id="d46374e134">
+</td></tr><tr><td id="d46366e134">
 
 **Entering metadata manually**
 
@@ -400,7 +400,7 @@ An unique id as part of response, the id can be user name, employee id, and so o
     **Note:**
 
     -   The Continuous Authentication tab appears only when you install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin that requires license.
-    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/ca-homepage.md).
+    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/ca-homepage.md).
     \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
 <table id="table_vvj_d5x_4dc"><thead><tr><th>

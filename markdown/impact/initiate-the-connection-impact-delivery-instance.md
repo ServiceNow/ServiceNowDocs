@@ -4,10 +4,8 @@ description: Connect between your Impact Store Application with the Impact Deliv
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/initiate-the-connection-impact-delivery-instance.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
 ---

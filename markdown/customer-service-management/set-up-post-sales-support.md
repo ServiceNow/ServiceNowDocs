@@ -4,8 +4,6 @@ description: Configure the features and components of Customer Contracts and Ent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/set-up-post-sales-support.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

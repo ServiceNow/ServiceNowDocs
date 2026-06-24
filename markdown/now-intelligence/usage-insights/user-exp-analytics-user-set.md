@@ -28,15 +28,15 @@ You can opt in or opt out of advanced tracking on a mobile device, in the Servic
 
 1.  Access a platform to configure Usage Insights advanced tracking settings either via your mobile application, the Service Portal, or the web-based UI.
 
-<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d69420e83">
+<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d69414e83">
 
 Platform type
 
-</th><th align="left" id="d69420e86">
+</th><th align="left" id="d69414e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d69420e92">
+</th></tr></thead><tbody><tr><td id="d69414e92">
 
 **Mobile application**
 
@@ -48,7 +48,7 @@ Action
 4.  Either enable the **Enable Analytics** button to opt in to advanced tracking, or turn off the **Enable Analytics** button to opt out of advanced tracking.
 
 
-</td></tr><tr><td id="d69420e137">
+</td></tr><tr><td id="d69414e137">
 
 **Web-based UI**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d69420e176">
+</td></tr><tr><td id="d69414e176">
 
 **Service Portal**
 

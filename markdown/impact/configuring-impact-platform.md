@@ -4,8 +4,6 @@ description: The tasks are outlined that are required to install and configure t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/configuring-impact-platform.html
 release: yokohama
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-04-23"
 reading_time_minutes: 1

@@ -55,5 +55,5 @@ Copy existing thresholds to quickly create similar threshold configurations for 
 -   **[Customize threshold colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/customize-threshold-colors-irm.md)**  
 Customize the available threshold colors by enabling inactive colors in the Color dictionary.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/r_WhatIsGRC.md)
 

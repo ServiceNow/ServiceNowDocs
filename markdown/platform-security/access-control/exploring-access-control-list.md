@@ -278,7 +278,7 @@ report\_on
 
 </td><td>
 
-User can’t create a report on the ACL table. For more information, see [Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md).
+User can’t create a report on the ACL table. For more information, see Restrict report creation with an ACL rule.
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ report\_view
 
 </td><td>
 
-User can’t view the content of a report on the ACL table or on the ACL field. For more information, see [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting/reporting-landing-page.md).
+User can’t view the content of a report on the ACL table or on the ACL field. For more information, see .
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ If two or more rules match at the same point in the processing order, the user m
 
 ## Required role
 
-Normal admin users can view and debug access control rules. However, to create or update existing access control rules, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
+Normal admin users can view and debug access control rules. However, to create or update existing access control rules, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
 
 ## ACL rules in scoped applications
 

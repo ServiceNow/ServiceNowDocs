@@ -16,7 +16,7 @@ breadcrumb: [Guided Tours, Adoption services, Configure user experiences]
 
 The Guided Tour Designer has accessibility features so that users can design tours using screen readers and keyboard navigation.
 
-For the most part, accessibility functionality is the same for the Guided Tour Designer accessibility is the same as platform accessibility. See [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md).
+For the most part, accessibility functionality is the same for the Guided Tour Designer accessibility is the same as platform accessibility. See [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 
 ## Use the Guided Tour Designer with accessibility enabled
 

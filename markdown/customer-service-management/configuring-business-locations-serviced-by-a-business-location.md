@@ -4,8 +4,6 @@ description: You can track the relationship between requesting and fulfilling se
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-business-locations-serviced-by-a-business-location.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Use the ServiceNow Link Manager feature to manage and organize brow
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-snow-link-manager.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-12"
 reading_time_minutes: 2

@@ -32,7 +32,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     -   [Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/create-app-creator-studio.md)
     -   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)
-    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md)
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
     1.  Navigate to **All** &gt; **** &gt; **System update sets** &gt; **Local update sets**.

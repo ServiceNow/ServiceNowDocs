@@ -53,7 +53,7 @@ Before setting transaction quotas, navigate to **All** &gt; **User Administratio
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/maintain-monitor-now-platform.md)
 
 **Related topics**  
 

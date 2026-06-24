@@ -4,8 +4,6 @@ description: Configure a guidance title and description that are displayed to us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-guidance-preview-detail-experiences-ga.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

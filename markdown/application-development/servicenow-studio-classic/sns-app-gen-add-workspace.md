@@ -23,7 +23,7 @@ Role required: a now.assist.creator role and the now\_assist\_panel\_user role
 
 **Note:** If you have users that only need to edit \(not create\) apps, they can be assigned the delegated\_developer, now\_assist\_panel\_user, and now.assist.creator roles.
 
-To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/generate-ui.md).
+To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/generate-ui.md).
 
 ## About this task
 

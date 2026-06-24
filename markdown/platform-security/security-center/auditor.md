@@ -22,7 +22,7 @@ The Auditor suite is provided as an update set. You can use this suite within [S
 
 Administrators can download the update set from support.servicenow.com using this link: [https://support.servicenow.com/sys\_attachment.do?sys\_id=821e1e724732969077748d01426d4393](https://support.servicenow.com/sys_attachment.do?sys_id=821e1e724732969077748d01426d4393).
 
-Commit the update set using the steps detailed in [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
+Commit the update set using the steps detailed in .
 
 Once the update set has been committed, you can access the Auditor suite at **All** &gt; **Security Center** &gt; **Scanner** &gt; **Suites**.
 
@@ -132,7 +132,7 @@ Review fields with HTML Sanitization disabled
 
 </td><td>
 
-Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md) is inactive.
+Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_HTMLSanitizer.md) is inactive.
 
  HTML sanitization removes or replaces potentially harmful elements and attributes within HTML code. Review HTML fields where sanitization is inactive to confirm whether this configuration is necessary.
 

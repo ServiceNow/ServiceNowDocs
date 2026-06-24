@@ -4,8 +4,6 @@ description: Search for Operational Technology \(OT\) configuration items \(CIs\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.html
 release: yokohama
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 2
@@ -18,7 +16,7 @@ Search for Operational Technology \(OT\) configuration items \(CIs\) and OT devi
 
 ## Before you begin
 
--   The Now Assist panel must be activated. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+-   The Now Assist panel must be activated. For more information, see .
 -   You must be assigned the now\_assist\_panel\_user role to have access to the Now Assist panel.
 -   You must be assigned appropriate roles to search the relevant OT CMDB tables, such as cmdb\_ot\_viewer or cmdb\_ot\_isa\_viewer.
 

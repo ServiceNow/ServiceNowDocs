@@ -34,7 +34,7 @@ Use the ServiceNow Access Control plugin to control which employees can access y
 
  **Note:** After ServiceNow Access Control is activated, personnel must explicitly request access from you on an ad-hoc and temporary basis.
 
- For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md).
+ For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_SNCAccessControl.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Consider limiting file attachments, uploads, and downloads
 
 Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and then delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
 
- These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see [Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md).
+ These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see .
 
 </td></tr><tr><td>
 
@@ -118,9 +118,9 @@ Enable table auditing for important or sensitive data
 
 Track changes to your data using table auditing. Auditing tracks the creation, update, and deletion of all records in the table where it’s enabled, enabling admins to track changes to important or sensitive data. Admins can also choose to select specific fields in a table for auditing to see more targeted results or to reduce performance impact.
 
- For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/c_AuditedTables.md).
+ For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_AuditedTables.md).
 
- For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/t_EnableAuditingForATable.md).
+ For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_EnableAuditingForATable.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Encrypt your data to maintain its confidentiality and integrity. Data on your in
 
  You can use different methods of encryption simultaneously for data stored in your instance, depending on your use case and the risks you wish to mitigate. For example, you can choose to transparently encrypt your data at rest using database encryption on most tables, cloud encryption on the entire data volume. You could also use full disk hardware encryption, which also requires a dedicated environment to protect against drive or server theft.
 
- Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/encryption.md).
+ Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/encryption.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Ensure automatic account creation
 
 Use this feature to create user accounts by email dynamically. Activate this feature only if necessary for your business needs, only after you have defined a list of trusted domains from which accounts can be created. You can also control how passwords are assigned to new accounts created this way.
 
- For details on automatic user creation, see [Enable automatic user creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_EnablingAutomaticUserCreation.md).
+ For details on automatic user creation, see .
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Ensure Secure Access to knowledge bases
 
 Manage access to knowledge bases and articles to help ensure secure and efficient information sharing. You can determine whether certain users or categories of users can access knowledge bases and knowledge articles by controlling contribute and read access.
 
- The specific configuration depends on your business needs. Learn about your options for configuring knowledge access at [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
+ The specific configuration depends on your business needs. Learn about your options for configuring knowledge access at .
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Security information constantly evolves, so it's crucial to stay updated with se
 
  -   [CORE Directory: ServiceNow CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0959484)
 -   [Securing the ServiceNow AI Platform: How ServiceNow protects customer data](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/ebook/ebk-how-servicenow-delivers-safe-and-secure-cloud-services.pdf)
--   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/platsec-landing.md)
+-   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platsec-landing.md)
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ Install patches and platform updates as soon as possible help ensure the highest
 
  Security fixes are routinely released for the Now Platform via the patches and hot fixes that accompany product feature updates. Upgrading when new patches and hot fixes are available helps reduce the risk of potential vulnerabilities.
 
- Information about Now Platform releases, patches, and hot fixes can be found in the Release Notes section of the product documentation. For more information, see [Phase 1 -](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/upgrades-phase-1.md).
+ Information about Now Platform releases, patches, and hot fixes can be found in the Release Notes section of the product documentation. For more information, see .
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Limit accepted email sender domains
 
 Control which domains and users your instance can communicate with via email by using system address filters. These filters can be customized to your requirements.
 
- Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/designate-untrusted-trusted-email-domains.md).
+ Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/designate-untrusted-trusted-email-domains.md).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ You can view detailed information related to data import activity into your inst
 These show REST and SOAP request activity and can help you to track the volume and destination of connections to external services.
 
 
- Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/system-logs.md).
+ Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/system-logs.md).
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Monitor login failure rates and create alerts
 
 Monitor for unusual activity such as high numbers of failed logins, especially within short time frames. You can create alerts to send emails when a threshold you define is exceeded.
 
- Learn how to configure these thresholds at [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/performance-analytics/pa-threshold.md).
+ Learn how to configure these thresholds at .
 
 </td></tr><tr><td>
 
@@ -374,7 +374,7 @@ Archive your log data to retain it beyond the default 21-day log rotation period
  Use the following resources to learn more about these methods:
 
  -   [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/r_AvailableWebServices.md)
--   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/les-landing-page.md)
+-   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -427,9 +427,9 @@ Use the email filters feature set to deal with suspect inbound messages
 
 Create email filters to filter out messages marked as suspicious by ServiceNow Antivirus Protection. In addition to virus protection, Antivirus Protection analyzes email for malware and SPAM, scoring and the results adding this information to the message in x-headers. You can use these headers as criteria for the Email Filters Plugin to act on if desired.
 
- Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/antivirus-protection.md).
+ Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/antivirus-protection.md).
 
- Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_EmailFilters.md).
+ Learn how to configure email filters on your instance at .
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Use the Syslog Probe to send logs to your SIEM
 
 Use the ServiceNow syslog probe to send log messages from your instance to a Security Information and Event Manager \(SIEM\). An SIEM is third-party software or service that can be used for activity monitoring and identifying security events.
 
- Learn more about ServiceNow syslog probe configuration at [Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_SyslogProbe.md).
+ Learn more about ServiceNow syslog probe configuration at .
 
 </td></tr><tr><td>
 

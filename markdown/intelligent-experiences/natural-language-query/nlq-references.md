@@ -21,5 +21,5 @@ The Natural Language Query \(NLQ\) properties control how and where NLQ operates
 -   **[Natural Language Query roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/natural-language-query/natural-language-query-roles.md)**  
 Natural Language Query \(NLQ\) is installed with these roles.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-ai-experiences/ai-products.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md)
 

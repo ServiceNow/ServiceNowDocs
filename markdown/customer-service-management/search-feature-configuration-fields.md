@@ -4,8 +4,6 @@ description: Understand the configuration of the Search feature in Engagement Me
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/search-feature-configuration-fields.html
 release: yokohama
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
