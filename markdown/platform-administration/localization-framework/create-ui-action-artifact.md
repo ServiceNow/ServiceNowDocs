@@ -131,7 +131,7 @@ List choice
 Option to enable the UI action in the choice list.
 
 </td></tr></tbody>
-</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
+</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_EditingAUIAction.md).
 
 5.  Click **Submit**.
 

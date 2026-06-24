@@ -63,7 +63,7 @@ You can create apps using the following procedure, or you can use Now Assist too
 
         -   **Scoped** means that the app doesn't interact with any other data on the instance. By default, the app can access and change its own tables and business logic, but other apps can't unless you give them explicit permission.
         -   **Global** means that all tables and business logic on the instance can interact with the app.
-        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
+        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md).
 
     4.  Select **Continue**.
 

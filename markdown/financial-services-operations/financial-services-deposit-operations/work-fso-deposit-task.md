@@ -23,7 +23,7 @@ Role required:
 -   For a business deposit service task: sn\_bom\_deposit\_b2b.agent or sn\_bom\_deposit\_b2b.agent\_connector
 -   For a personal deposit service task: sn\_bom\_deposit\_b2c.agent or sn\_bom\_deposit\_b2c.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -50,15 +50,15 @@ If assignment rules are configured, the task is automatically assigned to a depo
 
 3.  Open the task from the case playbook or the deposit task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d46422e149">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d46447e149">
 
 Option
 
-</th><th align="left" id="d46422e152">
+</th><th align="left" id="d46447e152">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46422e158">
+</th></tr></thead><tbody><tr><td id="d46447e158">
 
 **From the case playbook**
 
@@ -70,7 +70,7 @@ Steps
 4.  Under the playbook stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d46422e191">
+</td></tr><tr><td id="d46447e191">
 
 **From the Deposit task list**
 
@@ -91,15 +91,15 @@ Steps
 
 7.  Close the deposit task.
 
-<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d46422e263">
+<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d46447e263">
 
 Deposit task
 
-</th><th align="left" id="d46422e266">
+</th><th align="left" id="d46447e266">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46422e272">
+</th></tr></thead><tbody><tr><td id="d46447e272">
 
 **To verify operating instructions for a standing order**
 
@@ -107,7 +107,7 @@ Action
 
 Click **Approve** to approve or **Reject** to reject the request.
 
-</td></tr><tr><td id="d46422e287">
+</td></tr><tr><td id="d46447e287">
 
 **To authorize a deposit request**
 
@@ -115,7 +115,7 @@ Click **Approve** to approve or **Reject** to reject the request.
 
 Click **Approve** to approve or **Reject** to reject the request.**Note:** You can't authorize a deposit task if its parent deposit case is assigned to you.
 
-</td></tr><tr><td id="d46422e305">
+</td></tr><tr><td id="d46447e305">
 
 **-   To update a deposit account to fulfill and close the request
 -   To create and activate account for account origination

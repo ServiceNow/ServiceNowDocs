@@ -4,8 +4,6 @@ description: Create a record in CSM Configurable Workspace from the Record tab m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-record-from-workspace-tab.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

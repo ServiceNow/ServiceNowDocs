@@ -26,5 +26,5 @@ By default, the Available for you page of the Application Manager automatically 
 -   **[Deactivating automatic synchronization with the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/turning-autosync-off-app-mgr.md)**  
 By default, the Application Manager in hosted ServiceNow AI Platform instances syncs automatically with available applications and updates from the ServiceNow Store. Automatic synchronization can be deactivated so you can receive updates only when you choose to.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/administering-applications.md)
 

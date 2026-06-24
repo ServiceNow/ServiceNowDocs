@@ -4,10 +4,8 @@ description: Use the OTM Licensing dashboard to assess resource consumption and 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/otm-licensing-dashboard.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

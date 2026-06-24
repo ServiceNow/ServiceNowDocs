@@ -4,8 +4,6 @@ description: You can create new pages or customize existing pages in UI Builder 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-ws-create-page-variant.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 4

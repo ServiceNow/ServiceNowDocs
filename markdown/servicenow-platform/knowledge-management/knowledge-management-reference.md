@@ -57,5 +57,5 @@ Knowledge article versions can be in one of several states as it progresses thro
 -   **[Knowledge subscription email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/subscription-email-templates.md)**  
 The knowledge subscription feature uses email notification templates to send subscription notifications to knowledge users.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

@@ -97,6 +97,6 @@ Choose the role from the Group List.
 
     -   If **Remove Roles**, the users from the configured countries in the location filter will be removed with the roles configured for the session.
     -   If **Limit To Roles**, the users from the configured countries in the location filter has only the roles that are configured for the session.
-    To know more about how to remove or limit roles for a session, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/use-zero-trust-access.md).
+    To know more about how to remove or limit roles for a session, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/use-zero-trust-access.md).
 
 

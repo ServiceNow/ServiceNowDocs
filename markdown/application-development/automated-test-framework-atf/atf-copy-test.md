@@ -36,7 +36,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 6.  When you are finished making changes, click **Update**.
 
-    **Note:** Scope management in ATF tests helps identify and restrict copying of tests in other scopes. If you want to copy a test, you must be in the same scope as the test. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md) for more information.
+    **Note:** Scope management in ATF tests helps identify and restrict copying of tests in other scopes. If you want to copy a test, you must be in the same scope as the test. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md) for more information.
 
 
 **Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-build-overview.md)

@@ -24,19 +24,19 @@ Now Assist for Creator includes generative AI skills and agents that can make de
 
 </td><td>
 
-[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.
 
 </td><td>
 
-[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.
 
 </td></tr><tr><td>
 
-[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/atf-troubleshooting-agent-landing-page.md)
+ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.
 
 </td><td>
 
-[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/build-agent.md)
+Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in the ServiceNow IDE.
 
 </td><td>
 
@@ -76,7 +76,7 @@ Now Assist for Creator includes generative AI skills and agents that can make de
 
 </td><td>
 
-[Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/test-generation/test-generation-intro.md)
+Test generation \[Omitted image "test-generation-icon.png"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Now Assist for Creator includes generative AI skills and agents that can make de
 
 </td><td>
 
-[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/ui-generation-landing.md)
+UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.
 
 </td><td>
 

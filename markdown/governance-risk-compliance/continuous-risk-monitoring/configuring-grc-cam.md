@@ -22,7 +22,7 @@ Follow the steps in the checklist to download CAM from the ServiceNow Store and 
 
     The checklist includes the tasks that you must complete to prepare the base system.
 
-2.  [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md)
+2.  [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md)
 
     You download CAM from the ServiceNow Store.
 

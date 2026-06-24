@@ -30,7 +30,7 @@ The Test and repair telecom service issues agentic workflow supports these table
 
 Role required: sn\_tmt\_agentic\_ai.test\_and\_repair\_telecom\_service\_ai\_agent
 
-To modify the Test and repair telecom service issues agentic workflow , and adjust the settings according to your requirements.
+To modify the Test and repair telecom service issues agentic workflow [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -38,7 +38,7 @@ To modify the Test and repair telecom service issues agentic workflow , and adju
 
 Required role: sn\_tmt\_agentic\_ai.test\_and\_repair\_telecom\_service\_ai\_agent
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## Test and repair telecom service issues agentic workflow
 
@@ -47,7 +47,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Test and repair telecom service issues**.
 
-To create a new agentic workflow, see .
+To create a new agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
 
 ## Testing the agentic workflow
 
@@ -56,13 +56,13 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see .
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 
 ## AI agents used in the Test and repair telecom service issues agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 
-To create an AI agent, see .
+To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
 <table id="table_gzg_pqh_l2c"><thead><tr><th>
 

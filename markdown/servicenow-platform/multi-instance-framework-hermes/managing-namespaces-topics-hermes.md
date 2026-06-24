@@ -23,5 +23,5 @@ Manage topic records in your instance and Kafka topics in the Hermes Kafka clust
 -   **[Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md)**  
 Monitor message processing and view topics in the Hermes Kafka cluster that belong to you using the Hermes Messaging Service topic inspector.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-services.md)
 

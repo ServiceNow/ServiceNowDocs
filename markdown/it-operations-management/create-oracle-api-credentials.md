@@ -4,8 +4,6 @@ description: Create Oracle API credentials on the ServiceNow AI Platform to enab
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/create-oracle-api-credentials.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

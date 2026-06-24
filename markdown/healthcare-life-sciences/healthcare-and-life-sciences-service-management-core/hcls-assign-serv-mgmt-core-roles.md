@@ -18,7 +18,7 @@ Assign roles to control access to features, capabilities, and data in the Health
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_hcls.manager or admin
 

@@ -52,7 +52,7 @@ For more information, see [Dispute Content Pack for US Regulations](https://raw.
 
 ## Dashboards
 
-ServiceNow® Performance Analytics give service owners insight into how the team and business are performing. A dashboard with customizable views is available for Card Operations Dispute Management. For more information, see [Dispute Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/card-operations-dashboard.md).
+ServiceNow® Performance Analytics give service owners insight into how the team and business are performing. A dashboard with customizable views is available for Card Operations Dispute Management. For more information, see [Dispute Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/card-operations-dashboard.md).
 
 -   **[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-management-workflows.md)**  
 ServiceNow® Dispute Management enables efficient card and non-card transaction dispute resolution, enhanced compliance, and streamlined customer experiences.

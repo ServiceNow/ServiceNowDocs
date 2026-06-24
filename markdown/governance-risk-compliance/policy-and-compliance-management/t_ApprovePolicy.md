@@ -23,7 +23,7 @@ Role required: sn\_compliance.user or sn\_compliance.manager
 **Note:** For more information:
 
 -   About a policy, see [An overview of policy life cycle in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.md).
--   About GRC application, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md).
+-   About GRC application, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md).
 
 ## About this task
 

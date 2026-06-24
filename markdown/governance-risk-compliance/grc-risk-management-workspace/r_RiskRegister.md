@@ -33,5 +33,5 @@ You can create and associate multiple risks to the same risk statement and entit
 -   **[Risk hierarchy and scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/risk-hierarchy-scoring.md)**  
 Starting with New York, risk managers can create hierarchies that include different types of risk \(operational risk, IT risk, or strategic risk\). Once the underlying risks are assessed, the risk scores are automatically rolled up across the risk statement hierarchy, providing better tactical and strategic decision-making.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

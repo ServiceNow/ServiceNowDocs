@@ -4,8 +4,6 @@ description: Real-time scanning properties allow control over which users have a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-real-time-scanning-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-10-20"
 reading_time_minutes: 1

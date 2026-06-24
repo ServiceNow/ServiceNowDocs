@@ -4,8 +4,6 @@ description: The AES/AEMC integration provides automated governance for custom a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/aes-aemc-integration-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3

@@ -4,8 +4,6 @@ description: Notifications in CBS provide multi-faceted and timely communication
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-notif.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2025-11-24"
 reading_time_minutes: 1

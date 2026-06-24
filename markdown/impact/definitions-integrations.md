@@ -4,8 +4,6 @@ description: You can push changes made to definitions, or new definitions betwee
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/definitions-integrations.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 1

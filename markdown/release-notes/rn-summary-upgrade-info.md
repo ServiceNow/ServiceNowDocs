@@ -4,8 +4,6 @@ description: Cumulative release notes summary on upgrade information for Zurich 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-upgrade-info.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
 reading_time_minutes: 33
@@ -68,7 +66,7 @@ Automated Test Framework
 
 Copy and customize quick start tests provided by the ServiceNow AI Platform® to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
 
-The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see [Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/available-quick-start-tests.md).
+The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see .
 
 </td></tr><tr><td>
 
@@ -215,7 +213,7 @@ Flows, subflows, and actions in Workflow Studio
 
 </td><td>
 
-An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/restore-save-as-you-go-functionality.md).
+An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see .
 
 </td></tr><tr><td>
 
@@ -591,7 +589,7 @@ SQL API
 
 </td><td>
 
-ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Pro entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see [Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configuring-sql-api.md).
+ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Pro entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see .
 
 </td></tr><tr><td>
 
@@ -656,7 +654,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-family-release/install-servicenow-ide.md).
+ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see .
 
 </td></tr><tr><td>
 
@@ -664,11 +662,11 @@ ServiceNow SDK
 
 </td><td>
 
-To upgrade to the latest version of the ServiceNow SDK globally or within an application, see [Upgrade the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk/upgrade-servicenow-sdk.md).
+To upgrade to the latest version of the ServiceNow SDK globally or within an application, see .
 
 ServiceNow SDK version 4.0 supports integration with ServiceNow instances beginning with the Washington DC release.
 
-On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
+On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see .
 
 **Note:** For more information about minor releases of the ServiceNow SDK, see the [ServiceNow SDK repository](https://github.com/ServiceNow/sdk/releases) on GitHub.
 
@@ -797,7 +795,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-If you have existing scheduled extractions and have upgraded to Zurich, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/t_RunFixScripts.md).
+If you have existing scheduled extractions and have upgraded to Zurich, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see .
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)

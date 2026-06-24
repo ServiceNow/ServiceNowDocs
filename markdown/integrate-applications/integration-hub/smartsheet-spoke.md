@@ -66,7 +66,7 @@ Smartsheet Download Subscriptions
 
 </td><td>
 
-Downloads user subscriptions from the Smartsheet portal. To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Downloads user subscriptions from the Smartsheet portal. To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Smartsheet Update User Activity
 
 </td><td>
 
-Retrieves Smartsheet user activity.To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Retrieves Smartsheet user activity.To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Smartsheet Reclaim Subscription
 
 </td><td>
 
-Deactivates user accounts in Smartsheet.To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Deactivates user accounts in Smartsheet.To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr></tbody>
 </table>## Spoke actions

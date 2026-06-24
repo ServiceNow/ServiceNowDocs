@@ -127,7 +127,7 @@ Personal access token that you had generated on GitHub.
 
     **Important:** Generate a personal access token on the GitHub Enterprise server.
 
-    To learn to generate a personal access token on the GitHub Enterprise server, see [Integrate with GitHub Enterprise Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrating-with-github-server.md).
+    To learn to generate a personal access token on the GitHub Enterprise server, see .
 
     1.  Select the GitHub Server connection card.
 

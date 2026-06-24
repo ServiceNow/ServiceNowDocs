@@ -28,7 +28,7 @@ At installation time, the AI Search for Next Experience application includes sea
 
 If you activate a new ServiceNow AI Platform language plugin in an instance that already has AI Search for Next Experience installed, the application doesn't automatically update to include UI element translations for the newly added language. To install these translations, you can repair the AI Search for Next Experience application.
 
-For more details on repairing applications, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/repair-app.md).
+For more details on repairing applications, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/repair-app.md).
 
 ## Procedure
 

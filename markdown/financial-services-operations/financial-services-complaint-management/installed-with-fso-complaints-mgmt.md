@@ -41,7 +41,7 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
 
 ## Roles installed
@@ -102,7 +102,7 @@ Complaint contributor\[sn\_bom\_compl.contributor\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks for accounts managed by them until the Initiate and Review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -121,7 +121,7 @@ Complaint agent connector\[sn\_bom\_compl.agent\_connector\]
 -   Submit complaint service requests
 -   Work on complaint cases and tasks to resolve complaints for accounts managed by them.
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

@@ -4,8 +4,6 @@ description: Customize map pins so your dispatch map shows unique graphics relev
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/customize-map-pins.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -26,23 +26,23 @@ Setup [Get started with the Splunk Search integration for Security Operations](h
 
 </td></tr><tr><td>
 
-Use -   [Run a Sightings Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/run-sightings-search.md)
--   [Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-sightings-search-workflow.md)
--   [Security Operations Integration - Splunk Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-sightings-search-splunk-workflow.md)
--   [View Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/view-sightings-search-details.md)
--   [View Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/view-sightings-search-results.md)
+Use -   [Run a Sightings Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/run-sightings-search.md)
+-   [Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-sightings-search-workflow.md)
+-   [Security Operations Integration - Splunk Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-sightings-search-splunk-workflow.md)
+-   [View Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-sightings-search-details.md)
+-   [View Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-sightings-search-results.md)
 
 </td><td>
 
-Develop -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_BestPractisesIntegrations.md)
+Develop -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 -   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md)
 
 </td></tr><tr><td>
 
-Troubleshooting and Additional information -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationTroubleshooting.md)
+Troubleshooting and Additional information -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

@@ -4,8 +4,6 @@ description: This Field Service preventive maintenance workflow example provides
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/preventive-maintenance-use-case.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

@@ -78,7 +78,7 @@ Force Late Binding
 
 </td><td>
 
-Option to make AI Search use late binding security for all search results from the indexed source. This field isn't shown in the default Indexed Source form view. For instructions on configuring the form layout to show the field, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+Option to make AI Search use late binding security for all search results from the indexed source. This field isn't shown in the default Indexed Source form view. For instructions on configuring the form layout to show the field, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
  For an explanation of late binding security and its effects on search, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/content-security-ais.md).
 

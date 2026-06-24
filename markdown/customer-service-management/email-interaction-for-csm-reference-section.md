@@ -4,8 +4,6 @@ description: Reference topics provide additional information about Email Interac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/email-interaction-for-csm-reference-section.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-04-03"
 reading_time_minutes: 1

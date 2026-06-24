@@ -4,8 +4,6 @@ description: Populate and configure ServiceNow instances to take advantage of ex
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/register-your-instance.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-01-08"
 reading_time_minutes: 1

@@ -26,7 +26,7 @@ You can automate the following kinds of tasks:
 
 For developer training, see [Scheduled Script Executions and Events Objectives](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_automatingapps_washingtondc_automating_application_logic/app_store_learnv2_automatingapps_washingtondc_scheduled_script_executions_and_events/app_store_learnv2_automatingapps_washingtondc_scheduled_script_executions_and_events_objectives) on the ServiceNow Developer Site.
 
-Use the [System Events and Jobs Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/track-events.md) to monitor the system event processing system and the scheduled jobs processing system.
+Use the [System Events and Jobs Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/track-events.md) to monitor the system event processing system and the scheduled jobs processing system.
 
 ## Scheduled job states
 

@@ -4,8 +4,6 @@ description: Set up the group by adding members and assigning them the necessary
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configuring-a-group.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

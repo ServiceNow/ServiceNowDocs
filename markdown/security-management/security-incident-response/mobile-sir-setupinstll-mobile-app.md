@@ -45,7 +45,7 @@ As a user with the admin role, verify that you have the Security Incident Respon
 
  For more information about installing the Security Incident Response core application, see [Install and configure Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/install-and-configure-sir.md).
 
- If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-and-store.md).
+ If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-and-store.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ As a user with the admin role, verify that you have the Security Incident Respon
 2.  Search for the plugin IDs \(com.glide.sg and com.glide.sg.agent\_native\_client\).
 3.  If they are not activated, activate these plugins. These plugins are required for the Security Incident Response Mobile app.
 
- For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-and-store.md).
+ For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-and-store.md).
 
 </td></tr><tr><td>
 

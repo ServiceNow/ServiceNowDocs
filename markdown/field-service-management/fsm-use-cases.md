@@ -4,8 +4,6 @@ description: The sample workflows in this section provide examples of how you ca
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/fsm-use-cases.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

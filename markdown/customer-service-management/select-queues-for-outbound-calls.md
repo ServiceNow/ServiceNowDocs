@@ -4,8 +4,6 @@ description: Agents can select a queue for their outbound calls directly from th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queues-for-outbound-calls.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-01-02"
 reading_time_minutes: 1

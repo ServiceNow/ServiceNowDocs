@@ -92,7 +92,7 @@ This dependency must be procured from the ServiceNow Store before it can be inst
 
  For more information about application state indicators, see [Application state indicators in Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/app-mgr-state-indicators.md).
 
- For more information about procuring applications, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
+ For more information about procuring applications, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/getting-apps-trials.md).
 
 </td></tr></tbody>
 </table>

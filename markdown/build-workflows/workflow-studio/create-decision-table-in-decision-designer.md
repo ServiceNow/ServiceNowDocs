@@ -18,7 +18,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ## About this task
 

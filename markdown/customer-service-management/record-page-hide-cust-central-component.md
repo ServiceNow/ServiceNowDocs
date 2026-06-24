@@ -4,8 +4,6 @@ description: Configure the CSM default record page and CSM Interaction record pa
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/record-page-hide-cust-central-component.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

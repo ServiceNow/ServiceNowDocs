@@ -29,7 +29,7 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Using your instance, access **Threat Intelligence Security Center**.
 
-3.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
+3.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 4.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 

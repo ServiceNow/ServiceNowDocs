@@ -24,7 +24,7 @@ Role required: sn\_grc\_reg\_change.manager, sn\_grc\_reg\_change.it\_admin, or 
 
 1.  Download the GRC: Regulatory Change Management application from the ServiceNow Store.
 
-    Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md). Downloading the Regulatory Change Management application automatically installs the following required applications:
+    Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md). Downloading the Regulatory Change Management application automatically installs the following required applications:
 
     -   GRC: Policy and Compliance Management
     -   GRC: Advanced Risk

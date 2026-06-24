@@ -21,7 +21,7 @@ Use the Scripting Governance Tool to provide a single, centralised control for m
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 
 The Scripting Governance Tool helps you review user scripting governance your ServiceNow AI Platform. The **Conditional Script Writer** group grants scripting permissions to its members via the `snc_required_script_writer_permission` role. Users are added to the group by either an automated assignment or manual configuration. You can manage both of these settings from the Scripting Governance Tool.
 

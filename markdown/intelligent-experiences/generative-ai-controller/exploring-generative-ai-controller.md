@@ -34,7 +34,7 @@ Generative AI Controller integrates with external LLMs, including ones by OpenAI
 
 ## Get started with Generative AI Controller
 
--   The Generative AI Controller application is installed with any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+-   The Generative AI Controller application is installed with any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md).
 -   Sign up and create an account with a generative AI provider.
     -   To sign up with OpenAI, go to their [official platform website](https://platform.openai.com/).
     -   To get started with Azure OpenAI, go to their [documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart).

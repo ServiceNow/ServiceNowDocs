@@ -28,5 +28,5 @@ The sitemap is generated from a script or static XML. Validating sitemaps isn't 
 
 For information about sitemap requirements for search engine optimization \(SEO\), see [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) in the Google documentation.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

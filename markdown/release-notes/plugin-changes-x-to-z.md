@@ -4,8 +4,6 @@ description: Before you upgrade from Xanadu to Zurich, read the release notes fo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/plugin-changes-x-to-z.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 17

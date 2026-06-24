@@ -4,8 +4,6 @@ description: The Manager Workspace landing page provides managers with real-time
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/wfo-cs-manager-landing-page-new.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-05-12"
 reading_time_minutes: 5

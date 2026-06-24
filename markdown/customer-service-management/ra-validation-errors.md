@@ -4,8 +4,6 @@ description: Several types of errors are displayed for missing or incorrect info
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-validation-errors.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 8

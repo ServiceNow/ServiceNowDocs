@@ -20,7 +20,7 @@ Administrators with the security\_admin role can assign Key Management Framework
 
 Role required: admin and security\_admin
 
-You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 
 **Important:** KMF roles are required to use the Key Management Framework. Users without KMF roles aren’t be able to access lists, tables, and modules used to configure key management.
 

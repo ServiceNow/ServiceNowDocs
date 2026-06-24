@@ -23,7 +23,7 @@ The system supports Visual Task Boards on most modern browsers.
 -   Safari version 12
 -   Access Visual Task Boards on your mobile device using either a browser or the native mobile app. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-supported-devices.md).
 
-For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/browser-support.md).
+For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/browser-support.md).
 
 ## Scripting support
 

@@ -7,7 +7,7 @@ release: zurich
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---

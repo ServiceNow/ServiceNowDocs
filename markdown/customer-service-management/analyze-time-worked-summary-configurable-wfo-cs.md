@@ -4,8 +4,6 @@ description: View the time worked summary of your team members to determine if y
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

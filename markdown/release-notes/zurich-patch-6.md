@@ -4,8 +4,6 @@ description: The Zurich Patch 6 release contains important problem fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-6.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-02-05"
 reading_time_minutes: 62

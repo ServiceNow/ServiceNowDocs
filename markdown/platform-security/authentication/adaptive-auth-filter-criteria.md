@@ -20,7 +20,7 @@ Use filter criteria to supply information authentication policies such as a user
 
 There are seven types of filter criteria used in adaptive authentication. Your authentication policies can use one or more of these criteria to evaluate authentication requests.
 
-**Note:** Location filter and Identity Provider filter are available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/session-access.md).
+**Note:** Location filter and Identity Provider filter are available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md).
 
 |Type|Description|
 |----|-----------|

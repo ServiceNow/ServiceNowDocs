@@ -30,5 +30,5 @@ When you install Workspace Builder, you also install the following related items
 
 ## Licensing for Workspace Builder
 
-Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/app-engine-products-offerings.md).
+Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-products-offerings.md).
 

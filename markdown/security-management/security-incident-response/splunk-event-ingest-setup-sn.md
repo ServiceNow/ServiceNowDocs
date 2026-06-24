@@ -64,7 +64,7 @@ Refer to the following table and verify that you have completed all the listed t
     2.  Security Integration Framework
     3.  Security Support Common
     4.  Security Support Orchestration
-    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 
 ## What to do next

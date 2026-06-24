@@ -83,5 +83,5 @@ You can enable authors to reuse information in a case by copying case details in
 -   **[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)**  
 Review the following configurations tasks for knowledge demand insights.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

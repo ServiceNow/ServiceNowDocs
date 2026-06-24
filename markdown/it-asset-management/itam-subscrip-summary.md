@@ -4,8 +4,6 @@ description: You can view how many subscriptions for IT Asset Management applica
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/itam-subscrip-summary.html
 release: zurich
-product: IT Asset Management
-classification: it-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3

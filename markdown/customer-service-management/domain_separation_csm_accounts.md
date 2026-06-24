@@ -4,8 +4,6 @@ description: With domain separation in Customer Service Management, you can furt
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/domain\_separation\_csm\_accounts.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

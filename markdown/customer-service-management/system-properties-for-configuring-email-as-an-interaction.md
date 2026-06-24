@@ -4,8 +4,6 @@ description: You can manage certain workflows based on the system properties, su
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/system-properties-for-configuring-email-as-an-interaction.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

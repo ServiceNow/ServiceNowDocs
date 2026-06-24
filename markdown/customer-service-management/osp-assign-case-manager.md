@@ -4,8 +4,6 @@ description: As an Outsourced Customer Service external manager, you can assign 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/osp-assign-case-manager.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

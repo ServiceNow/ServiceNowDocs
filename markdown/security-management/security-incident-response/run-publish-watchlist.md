@@ -36,7 +36,7 @@ Role required: sn\_si.analyst
 
 4.  Enter or choose the implementation.
 
-    **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
+    **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
 
 5.  Select **Submit**.
 

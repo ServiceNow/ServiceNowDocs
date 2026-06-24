@@ -4,8 +4,6 @@ description: Gain insights to detect and quickly respond to changes in cloud-nat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/cloud-observability/cloud-observability-landing.html
 release: zurich
-product: Cloud Observability
-classification: cloud-observability
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

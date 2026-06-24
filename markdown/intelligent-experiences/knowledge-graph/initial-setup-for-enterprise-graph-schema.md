@@ -71,11 +71,11 @@ Role required: admin
 
 9.  Navigate to **System Import Sets** &gt; **Advanced** &gt; **Import Sets**, once the data is loaded.
 
-    For detailed information, see import set documentation \[Omitted image "import-set-kg.png"\] Alt text: Import set
+    For detailed information, see import set documentation [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)\[Omitted image "import-set-kg.png"\] Alt text: Import set
 
 10. Open the import set and select **Transform** from the Related links section.
 
-    For detailed information, see Transform map documentation 
+    For detailed information, see Transform map documentation [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
 
 11. Select **Transform** to complete the transformation.
 

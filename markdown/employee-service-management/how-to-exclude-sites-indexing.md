@@ -4,8 +4,6 @@ description: Index sites and subsites selectively by excluding some URLs and sub
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/how-to-exclude-sites-indexing.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

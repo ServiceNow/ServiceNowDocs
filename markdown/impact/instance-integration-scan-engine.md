@@ -4,8 +4,6 @@ description: You can integrate the Scan Engine into a variety of processes, such
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/instance-integration-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-10-20"
 reading_time_minutes: 2

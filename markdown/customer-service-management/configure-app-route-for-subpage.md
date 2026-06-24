@@ -4,8 +4,6 @@ description: Create an app route to make an existing page a part of the page col
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-app-route-for-subpage.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-25"
 reading_time_minutes: 1

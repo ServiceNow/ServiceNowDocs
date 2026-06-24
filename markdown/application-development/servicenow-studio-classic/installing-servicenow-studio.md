@@ -22,7 +22,7 @@ No additional configurations must happen for you to use ServiceNow Studio.
 
 ## Give ServiceNow Studio a try
 
-Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/personal_developer_instance_guide.md).
+Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/personal_developer_instance_guide.md).
 
 <table id="table_f4p_d1v_2dc" class="nav-card"><tbody><tr><td>
 

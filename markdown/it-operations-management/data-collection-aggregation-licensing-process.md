@@ -4,8 +4,6 @@ description: ITOM/OT SU Licensing application counts CIs for ITOM applications a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/data-collection-aggregation-licensing-process.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

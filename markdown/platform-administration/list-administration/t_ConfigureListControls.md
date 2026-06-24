@@ -151,7 +151,7 @@ List edit tag
 
 </td><td>
 
-Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
+Unique tag that is sent to a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ReferenceQualifiers.md) as the script variable *listEditRefQualTag*. Enter an arbitrary string of letters or numbers.
 
 </td></tr><tr><td>
 

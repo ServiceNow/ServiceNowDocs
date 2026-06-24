@@ -48,5 +48,5 @@ FSO insurance applications store claim contact information in the following Insu
 -   The Claim Participant table \[sn\_ins\_claim\_profile\] stores details about all participants involved in the claims process.
 -   The Participant Role table \[sn\_ins\_claim\_participant\] stores information on the participant's role in the claim \(such as if they are the injured or insured\).
 
-For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/insurance-claims-core-tables.md).
+For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims-core-tables.md).
 

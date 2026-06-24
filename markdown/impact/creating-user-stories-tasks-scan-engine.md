@@ -4,8 +4,6 @@ description: You can generate user stories from open or resolved findings to fac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/creating-user-stories-tasks-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1

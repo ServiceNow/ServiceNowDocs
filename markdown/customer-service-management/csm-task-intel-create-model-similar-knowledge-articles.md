@@ -4,8 +4,6 @@ description: Use the Task Intelligence for CSM to create and train a machine lea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-task-intel-create-model-similar-knowledge-articles.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-10-28"
 reading_time_minutes: 2

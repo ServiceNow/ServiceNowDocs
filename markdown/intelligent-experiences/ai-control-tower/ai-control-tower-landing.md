@@ -37,7 +37,7 @@ The AI Control Tower is a platform that connects different parts of an organizat
 
 </td></tr><tr><td>
 
-Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.
+[Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md)
 
 </td><td>
 
@@ -61,7 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 **Note:** We have controls in place to enable/disable the data collection and data processing.
 

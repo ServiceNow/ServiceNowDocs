@@ -20,7 +20,7 @@ If an escalation path exists for a security incident, the Escalate button is ava
 
 Role required: sn\_si.admin
 
-You must have an escalation group created to see this button. See [Create a Security Operations user-defined escalation group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/create-user-defined-escalation-group.md) for more information.
+You must have an escalation group created to see this button. See [Create a Security Operations user-defined escalation group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/create-user-defined-escalation-group.md) for more information.
 
 ## Procedure
 

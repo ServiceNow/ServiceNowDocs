@@ -25,5 +25,5 @@ The Normalization Data Services plugin helps maintain consistency for table fiel
 -   **[Add a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/t_AddANewDepartment.md)**  
 Departments provide another way to categorize users, groups, and assets. You can add departments and assign them to users.
 
-**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/config-now-platform-core-features.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/config-now-platform-core-features.md)
 

@@ -73,5 +73,5 @@ Learn about logging options for Cloud Encryption.
 -   **[Tamper Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/tamper-detect.md)**  
 Use tamper detection to improve security by detecting unauthorized changes to your quorum control settings.
 
-**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption-landing.md)
+**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption-landing.md)
 

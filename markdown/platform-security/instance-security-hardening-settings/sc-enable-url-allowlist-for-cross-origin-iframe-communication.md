@@ -32,7 +32,7 @@ Use the **glide.ui.concourse.onmessage\_enforce\_same\_origin** property to enab
 |Security risk rating|4.2|
 |Functional impact|If you do not inclusion list intended domains, the ability to embed other pages within ServiceNow AI Platform instances may be limited.|
 |Security risk|\(High\) If a web page contains event handlers that do not perform proper origin validation, a web page, or script from any origin, can communicate with it. It can also initiate any functionality performed by the event handler.|
-|References|[OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OpenFrameOverview.md)|
+|References|OpenFrame overview|
 
 To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

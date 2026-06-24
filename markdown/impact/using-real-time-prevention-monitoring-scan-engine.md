@@ -4,8 +4,6 @@ description: Real-Time Prevention is a Scan Engine feature that actively monitor
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/using-real-time-prevention-monitoring-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-13"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Plan and track the activities related to your ServiceNow instance u
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-planning-checklist.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 8

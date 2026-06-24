@@ -44,5 +44,5 @@ Users with the assigned e-signature roles can create templates for documents tha
 -   **[E-signature reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/e-signature/esignature-reference.md)**  
 Activating the e-signature plugin installs additional roles and tables.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

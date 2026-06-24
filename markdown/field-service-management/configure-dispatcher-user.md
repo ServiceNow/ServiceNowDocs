@@ -4,8 +4,6 @@ description: Enable dispatchers to be a member of different user groups so they 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-dispatcher-user.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

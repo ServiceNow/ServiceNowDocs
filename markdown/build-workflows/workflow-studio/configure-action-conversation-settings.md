@@ -273,7 +273,7 @@ Channels
 
 </td><td>
 
-The list of default channels in which this action is available.To learn more about channels, see [Channels in conversational interfacesChannels in conversational interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-channels-overview.md).
+The list of default channels in which this action is available.To learn more about channels, see Channels in conversational interfacesChannels in conversational interfaces.
 
 </td></tr></tbody>
 </table>9.  Save the skill.

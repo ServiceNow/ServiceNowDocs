@@ -4,8 +4,6 @@ description: The Scan Engine provides several options to further configure updat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/update-set-scanning-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 2

@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -82,7 +82,7 @@ Email Search
 
 </td><td>
 
-A list of records that holds search criteria to run queries on an email server, such as a Microsoft® Exchange Server \(based on the implementation installed\), and stores the results received. **Note:** if the [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/email-search-capability.md) is not active, the **Email Search** related link is not displayed.
+A list of records that holds search criteria to run queries on an email server, such as a Microsoft® Exchange Server \(based on the implementation installed\), and stores the results received. **Note:** if the [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/email-search-capability.md) is not active, the **Email Search** related link is not displayed.
 
 </td></tr></tbody>
 </table>4.  Click any of the following related links to further update the security incident:

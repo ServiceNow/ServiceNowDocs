@@ -80,7 +80,7 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ To verify that email send/receive capability is enabled in your ServiceNow AI Pl
 </td></tr></tbody>
 </table>## Procedure
 
-1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 
 **Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/paloalto_integration.md)

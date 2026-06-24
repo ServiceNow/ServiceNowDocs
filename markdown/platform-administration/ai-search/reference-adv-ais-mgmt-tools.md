@@ -75,5 +75,5 @@ Pre-calculates metrics to improve load time for the AI Search Analytics dashboar
 </td></tr></tbody>
 </table>## List of all components installed with Advanced AI Search Management Tools
 
-To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
+To view the complete list of components installed with Advanced AI Search Management Tools, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md). The application's package name is **Advanced AI Search Management Tools**.
 

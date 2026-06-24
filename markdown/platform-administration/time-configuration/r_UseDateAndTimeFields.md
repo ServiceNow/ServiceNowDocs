@@ -28,7 +28,7 @@ The ServiceNow AI Platform stores date and date/time information in records usin
 |Duration|**glide\_duration**|DATETIME|
 |Due date|**due\_date**|DATETIME|
 
-For the full listing of field types, see [Introduction to Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_IntroductionToFields.md).
+For the full listing of field types, see [Introduction to Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_IntroductionToFields.md).
 
 -   **[Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)**  
 You define default date and time formats globally using system properties.

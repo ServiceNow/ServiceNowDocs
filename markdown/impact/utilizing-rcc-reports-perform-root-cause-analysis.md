@@ -4,8 +4,6 @@ description: Check the Root cause analysis \(RCA\) History page to investigate t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

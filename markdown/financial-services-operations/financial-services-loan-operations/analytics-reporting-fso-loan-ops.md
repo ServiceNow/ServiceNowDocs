@@ -20,6 +20,6 @@ Use the Performance Analytics widgets on a dashboard to visualize data over time
 
 The following dashboards are available for Financial Services Loan Operations:
 
--   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/business-loan-operations-dashboard.md)
--   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/personal-loan-operations-dashboard.md)
+-   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/business-loan-operations-dashboard.md)
+-   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/personal-loan-operations-dashboard.md)
 

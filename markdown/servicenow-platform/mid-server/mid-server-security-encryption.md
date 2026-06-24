@@ -61,5 +61,5 @@ The MID Server supports the National Security Cloud \(NSC\) IL-5 environment, wh
 -   **[MID Server Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-timeout.md)**  
 Improve MID Server security by setting an automatic timeout to invalidate and shut down inactive MID Servers. You can enable this feature and set the inactivity timeout period globally and for each MID Server.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

@@ -30,7 +30,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-overview.md)
+App Engine Studio
 
 </td><td>
 

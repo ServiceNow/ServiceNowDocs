@@ -4,8 +4,6 @@ description: To finalize the OAuth configuration, perform the following steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/finalize-oauth-config.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1

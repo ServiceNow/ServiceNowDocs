@@ -86,27 +86,27 @@ Set up the Healthcare Operations Core application.
 
     Add more menu items into the Care Team Portal for easy user access.
 
-18. [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/configure-care-team-portal.md)
+18. [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/configure-care-team-portal.md)
 
     Configure the Care Team Portal by embedding it into Epic Hyperspace via Hyperdrive and enabling OIDC authentication.
 
-19. [Capture Additional Data From Epic Within ServiceNow Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/hco-update-variables-portal.md)
+19. [Capture Additional Data From Epic Within ServiceNow Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/hco-update-variables-portal.md)
 
     Update the variable values in existing record producers to capture tokenized data from Epic.
 
-20. [Configure iFrame embedding for Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/configure-iframe-portal.md)
+20. [Configure iFrame embedding for Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/configure-iframe-portal.md)
 
     For the Care Team Portal to successfully launch in Hyperspace via Hyperdrive, the portal must be configured to work within an iFrame.
 
-21. [Enable Multi-Provider SSO for your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-enabling-oidc.md)
+21. [Enable Multi-Provider SSO for your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/hcls-cto-enabling-oidc.md)
 
     Ensure that Multiple Provider SSO is enabled and configured correctly for Care Team Portal to authenticate with Epic Hyperspace via Hyperdrive.
 
-22. [In Epic: Build the FHIR App to Authenticate with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/hco-authenticate-portal.md)
+22. [In Epic: Build the FHIR App to Authenticate with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/hco-authenticate-portal.md)
 
     Set up your FHIR app with the correct configurations to allow single sign-on for EPIC users to access the Care Team Portal inside EPIC Hyperspace via Hyperdrive.
 
-23. [Create and Configure an Identity Provider in ServiceNow to Authenticate with Epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/create-identity-provider-hco.md)
+23. [Create and Configure an Identity Provider in ServiceNow to Authenticate with Epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/create-identity-provider-hco.md)
 
     Set up an Identity Provider in your ServiceNow instance to enable OIDC for Healthcare Operations Core.
 

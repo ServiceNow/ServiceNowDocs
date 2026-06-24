@@ -51,15 +51,15 @@ The success initiative summarization skill checks the record to determine if the
 
 3.  After you're finished summarizing the success initiative, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23013e149">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23011e149">
 
 Option
 
-</th><th align="left" id="d23013e152">
+</th><th align="left" id="d23011e152">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23013e158">
+</th></tr></thead><tbody><tr><td id="d23011e158">
 
 **View more or less summary details**
 
@@ -69,7 +69,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23013e188">
+</td></tr><tr><td id="d23011e188">
 
 **Provide feedback for the summary**
 
@@ -79,7 +79,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23013e221">
+</td></tr><tr><td id="d23011e221">
 
 **Copy the summary**
 
@@ -87,7 +87,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23013e236">
+</td></tr><tr><td id="d23011e236">
 
 **View the information about the summary**
 

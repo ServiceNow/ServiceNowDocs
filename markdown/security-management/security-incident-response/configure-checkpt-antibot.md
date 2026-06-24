@@ -36,7 +36,7 @@ A Check Point Anti-bot email parser template is provided to use for the integrat
 
 4.  Select the **Check Point Anti-bot** link to edit the settings in the template email parser provided.
 
-    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/parsing-emails.md).
+    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/parsing-emails.md).
 
 5.  Check the **Active** box.
 

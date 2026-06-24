@@ -21,5 +21,5 @@ You can use the Unattended Robot application to execute unattended automations t
 -   **[Run an automation using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/run-rpa-robot.md)**  
 Run an unattended robot to execute the unattended automations that are triggered either by a schedule, API, or manually.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

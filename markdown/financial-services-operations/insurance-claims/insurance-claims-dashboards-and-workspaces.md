@@ -25,7 +25,7 @@ The following workspaces are included in Insurance claims:
 
 For more information about these workspaces, see [Insurance claims landing pages and workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.md).
 
-You can modify these workspaces in UI Builder. You can also customize the subpages in these workspaces by creating a variant. For more information about this customization, see .
+You can modify these workspaces in UI Builder. You can also customize the subpages in these workspaces by creating a variant. For more information about this customization, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/create-variant.md).
 
 ## Setting up workspaces by persona
 
@@ -109,7 +109,7 @@ All
 
 </td><td>
 
-Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Other workspace-related configuration, like the changes that are related to a record, can be done through UI Builder. By default, Insurance claims uses the Record default configuration from the Customer Service Management \(CSM\) application.For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Adjuster
 
 This adjuster workspace UI Builder page has been set up in Insurance claims.If necessary, you can clone this workspace and modify it to be more specific to your particular line of business.
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 

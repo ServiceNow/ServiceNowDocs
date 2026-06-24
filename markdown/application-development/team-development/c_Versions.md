@@ -29,5 +29,5 @@ Undo changes to a customized record by reverting to an older version.
 -   **[Suppress versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_SuppressVersions.md)**  
 Administrators can configure a table so that it doesn’t track customizations in the Versions `[sys_update_version]` table.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
 

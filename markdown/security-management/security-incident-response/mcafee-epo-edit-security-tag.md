@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## About this task
 
-As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/create-class-group-and-tags.md).
+As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/create-class-group-and-tags.md).
 
 ## Procedure
 

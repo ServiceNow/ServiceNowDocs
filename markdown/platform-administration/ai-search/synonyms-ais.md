@@ -78,7 +78,7 @@ Synonym term expansion is bidirectional. AI Search treats all terms defined in t
 
 By default, AI Search ignores synonym terms that exceed 256 characters in length. You can override this default limit by adding the **query.maxDictionaryTermLength** system property. The integer value of this system property indicates the maximum allowable character length for stop word and synonym dictionary terms.
 
-For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Warning:** Exercise caution when increasing the dictionary term-length limit beyond its default value. Processing long dictionary terms increases AI Search's memory usage, and in some cases search queries may fail with out-of-memory errors.
 

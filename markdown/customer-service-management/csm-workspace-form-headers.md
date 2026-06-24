@@ -4,8 +4,6 @@ description: Form headers in CSM Configurable Workspace provide agents with a br
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-form-headers.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-24"
 reading_time_minutes: 1

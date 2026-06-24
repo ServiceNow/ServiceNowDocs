@@ -4,8 +4,6 @@ description: Change or add fields and icons to the contextual side panel to upda
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/side-panel-ui-builder.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -4,8 +4,6 @@ description: Track errors on recent transactions, see connection status, run hea
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/perform\_pre\_configuration\_health\_checks\_impact\_store\_app.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-20"
 reading_time_minutes: 2

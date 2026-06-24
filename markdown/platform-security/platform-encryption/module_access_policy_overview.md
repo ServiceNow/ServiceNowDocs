@@ -18,7 +18,7 @@ Module access policies \(MAPs\) are access controls that you apply to your crypt
 
 ## Module access policies
 
-**Note:** A subscription is required to utilize the Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/activate-platform-encryption.md) for more information on Field Encryption Enterprise.
+**Note:** A subscription is required to utilize the Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-platform-encryption.md) for more information on Field Encryption Enterprise.
 
 Module access policies are introduced with the Key Management Framework \(KMF\) in the base system.
 

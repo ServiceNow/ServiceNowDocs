@@ -33,5 +33,5 @@ Configure the ATO artifacts report templates using the ServiceNow Document Desig
 -   **[Tables installed with CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/tables-installed-with-cam.md)**  
 Tables are added with the activation of the CAM plugin.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

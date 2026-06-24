@@ -4,8 +4,6 @@ description: The Availability section shows instance level availability on a geo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-availability.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

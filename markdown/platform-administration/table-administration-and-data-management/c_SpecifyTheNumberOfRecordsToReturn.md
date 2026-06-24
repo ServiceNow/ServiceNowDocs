@@ -16,7 +16,7 @@ breadcrumb: [Joining tables, Work with database views, Table admin, Tables and d
 
 Specify the number of records to return for a database view when the view is used in a script.
 
-A property called **glide.db.max\_view\_records** controls the maximum number of rows returned when running a GlideRecord query in a script. The default value for this property is 10000. To change this value, [add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table and edit the property's **Value** field, which determines the number of rows to return.
+A property called **glide.db.max\_view\_records** controls the maximum number of rows returned when running a GlideRecord query in a script. The default value for this property is 10000. To change this value, [add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table and edit the property's **Value** field, which determines the number of rows to return.
 
 This property only applies when querying a database view table in a script. When the database view table is used in a list or report, this property doesn’t apply. Reports or lists based on the database view use all rows in the view.
 

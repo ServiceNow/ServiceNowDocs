@@ -55,5 +55,5 @@ When a user requests membership to a private team, the team administrator receiv
 -   **[Delete a team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_DeleteATeam.md)**  
 If you are the team administrator, you can delete a team.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

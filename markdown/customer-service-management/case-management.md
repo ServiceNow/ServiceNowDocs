@@ -4,8 +4,6 @@ description: Set up case management features to enable agents and customers to c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-management.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

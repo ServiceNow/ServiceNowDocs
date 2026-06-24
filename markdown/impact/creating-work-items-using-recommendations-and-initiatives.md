@@ -4,8 +4,6 @@ description: Create a Strategic Portfolio Management \(SPM\) or Collaborative Wo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/creating-work-items-using-recommendations-and-initiatives.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

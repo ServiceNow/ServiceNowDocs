@@ -113,5 +113,5 @@ Migrate the bot process configuration and associated assets to another environme
 -   **[Convert existing unattended robots to high density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/convert-robot-hdr.md)**  
 Run multiple unattended automations simultaneously on a single machine by batch converting one or more existing robots to high density robots using the **Actions on selected rows** option.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

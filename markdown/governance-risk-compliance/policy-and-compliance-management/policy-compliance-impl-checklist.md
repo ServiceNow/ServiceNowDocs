@@ -47,7 +47,7 @@ As a user with the Compliance Administrator or Compliance Manager role, verify t
  1.  To verify the GRC: GRC Profile Dependencies core application is installed on your instance, navigate to **Plugins** and search for GRC Profile.
 2.  If the GRC Profile core application is not already installed, click **Install** to install it.
 3.  After the GRC Profile application is installed, install the Policy and Compliance Management core application.
- If Policy and Compliance Management is not visible in your instance, all of the GRC core applications are available from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+ If Policy and Compliance Management is not visible in your instance, all of the GRC core applications are available from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 

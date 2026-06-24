@@ -46,15 +46,15 @@ To change the password policy navigate to **All** &gt; **Password Reset** &gt; *
 
 4.  In the Password Policy Criteria section, select one of the following presets from the **Password Strength Preset** field.
 
-<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d67124e144">
+<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d67121e144">
 
 Password Strength Preset
 
-</th><th align="left" id="d67124e147">
+</th><th align="left" id="d67121e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67124e153">
+</th></tr></thead><tbody><tr><td id="d67121e153">
 
 **Default**
 
@@ -66,7 +66,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 0.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d67124e192">
+</td></tr><tr><td id="d67121e192">
 
 **Medium**
 
@@ -78,7 +78,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 12 characters, and the maximum is 40.
 
-</td></tr><tr><td id="d67124e231">
+</td></tr><tr><td id="d67121e231">
 
 **High**
 
@@ -90,7 +90,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 3.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d67124e270">
+</td></tr><tr><td id="d67121e270">
 
 **Default Strong**
 
@@ -102,7 +102,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d67124e310">
+</td></tr><tr><td id="d67121e310">
 
 **Custom**
 
@@ -116,7 +116,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 
  You can also customize the **Password Policy Script** that is displayed.
 
-</td></tr><tr><td id="d67124e355">
+</td></tr><tr><td id="d67121e355">
 
 **Advanced**
 

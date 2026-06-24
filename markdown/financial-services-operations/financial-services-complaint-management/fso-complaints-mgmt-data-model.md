@@ -16,7 +16,7 @@ breadcrumb: [Explore, Complaint Management, Common applications, Financial Servi
 
 The Financial Services Complaint Management data model provides a framework that is used in the complaint management workflow.
 
-This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
+This data model is aligned to the Financial Services Operations Core data model. See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-core-data-model.md) to learn about Financial Services Operations Core data model.
 
 The following diagram shows the tables and their relationships that comprise the complaints management data model.
 

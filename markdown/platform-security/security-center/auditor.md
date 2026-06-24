@@ -122,7 +122,7 @@ Review fields with HTML Sanitization disabled
 
 </td><td>
 
-Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md) is inactive.
+Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HTMLSanitizer.md) is inactive.
 
  HTML sanitization removes or replaces potentially harmful elements and attributes within HTML code. Review HTML fields where sanitization is inactive to confirm whether this configuration is necessary.
 

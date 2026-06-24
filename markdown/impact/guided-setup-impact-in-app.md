@@ -4,8 +4,6 @@ description: Use Impact Guided Setup to follow a sequence of tasks that help you
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/guided-setup-impact-in-app.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-12-03"
 reading_time_minutes: 1

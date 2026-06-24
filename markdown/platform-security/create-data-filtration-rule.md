@@ -18,7 +18,7 @@ Learn how to create data filtration rules to grant your users' access to records
 
 Role required: security\_admin
 
-**Note:** To create or modify data filtration rules you, must elevate to the privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+**Note:** To create or modify data filtration rules you, must elevate to the privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 

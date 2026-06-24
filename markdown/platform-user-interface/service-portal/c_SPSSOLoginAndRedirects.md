@@ -49,7 +49,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Add a system property with the following settings:
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings:
 
     -   Name: glide.entry.page.script
     -   Type: string
@@ -166,7 +166,7 @@ Contains the call to the server script include method that determines where to l
 
 3.  Customize the after-login behavior in the **SPEntryPage** script include.
 
-    For more information about modifying script includes, see Script includes.
+    For more information about modifying script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     For example, if you want users with certain roles to be redirected to Service Portal, you could modify `user.hasRoles()` in the following code.
 

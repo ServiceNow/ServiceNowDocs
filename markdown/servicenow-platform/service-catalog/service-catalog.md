@@ -82,5 +82,5 @@ Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your c
 -   **[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-services.md)
 

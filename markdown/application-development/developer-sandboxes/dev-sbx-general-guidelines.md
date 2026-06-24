@@ -68,7 +68,7 @@ Developer Sandboxes work best with ServiceNow Fluent and ServiceNow IDE.
 
 Low-code changes represented in XML markup sometimes cause merging issues, because the generated file structure can make it challenging to align changes. When using low-code builders on the ServiceNow AI Platform, the best long-term strategy is to save changes in ServiceNow Fluent instead of XML.
 
-ServiceNow Fluent is a domain-specific programming language that you can use to define application metadata in source code. Developers and admins can easily look up changes in version control, such as Git. For details, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/servicenow-fluent.md).
+ServiceNow Fluent is a domain-specific programming language that you can use to define application metadata in source code. Developers and admins can easily look up changes in version control, such as Git. For details, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-fluent.md).
 
 You can use Developer Sandboxes with System Update Sets, but a more forward-looking solution is to use ServiceNow IDE. Pairing your sandboxes and ServiceNow IDE with version control and deployment apps \(such as App Engine Management Center\) enables a cleaner, more streamlined deployment ecosystem. For more information, see [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/servicenow-ide-landing.md).
 

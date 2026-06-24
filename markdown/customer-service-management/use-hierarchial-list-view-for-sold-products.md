@@ -4,10 +4,8 @@ description: Customer service agents can view sold product line items as a hiera
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/use-hierarchial-list-view-for-sold-products.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Sold products, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

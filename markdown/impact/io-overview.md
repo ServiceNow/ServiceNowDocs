@@ -4,8 +4,6 @@ description: Instance Observer \(IO\) is an observability and performance monito
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-overview.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7

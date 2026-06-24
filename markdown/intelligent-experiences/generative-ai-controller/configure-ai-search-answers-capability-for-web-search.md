@@ -19,7 +19,7 @@ AI web search is a OneExtend capability that enables end users to perform web se
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
+When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36481e220">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36477e220">
 
 Scenario
 
-</th><th align="left" id="d36481e223">
+</th><th align="left" id="d36477e223">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d36481e229">
+</th></tr></thead><tbody><tr><td id="d36477e229">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d36481e238">
+</td></tr><tr><td id="d36477e238">
 
 **Connection isn’t available and must be created**
 

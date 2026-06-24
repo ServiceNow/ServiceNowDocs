@@ -28,5 +28,5 @@ When a customer requests a new credit card, a credit card service case is create
 5.  [File a customer agreement for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/file-customer-agreement.md).
 6.  [Set up a credit card account for a customer and close the case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/set-up-credit-card-account.md).
 
-For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/flow-designer-flows-fso-apps.md).
+For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/flow-designer-flows-fso-apps.md).
 

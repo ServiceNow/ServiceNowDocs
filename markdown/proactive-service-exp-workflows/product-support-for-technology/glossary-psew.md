@@ -119,7 +119,7 @@ An agreement that specifies the time period that a service must be provided with
 
 ### service operations workspace
 
-A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers. To learn more, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/sow-landing-page.md).
+A dedicated workspace within ServiceNow where technical support agents can manage and resolve incidents, view affected accounts, and communicate with customers. To learn more, see .
 
 ## T
 

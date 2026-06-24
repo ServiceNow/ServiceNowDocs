@@ -4,10 +4,8 @@ description: Use the Install Base Hierarchy tab on the CSM Configurable Workspac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/install\_base\_hierarchy\_visualisation.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

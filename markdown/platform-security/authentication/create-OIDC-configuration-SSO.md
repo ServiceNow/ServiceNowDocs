@@ -44,7 +44,7 @@ If you do not have the required information about the identity provider, you can
     -   To create a new configuration, click **New** and select **OpenID Connect**.
 3.  For a new configuration, enter the OIDC configuration information in one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d49111e169">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d49108e169">
 
 **Import OpenID Connect Well-Known Configuration**
 
@@ -52,7 +52,7 @@ If you do not have the required information about the identity provider, you can
 
 If you have the well-known configuration URL along with your associated client credentials, you can directly import an OIDC configuration.**Note:** If you import the OIDC well-known configuration, all related fields are auto-populated.
 
-</td></tr><tr><td id="d49111e181">
+</td></tr><tr><td id="d49108e181">
 
 **Manually configure the OIDC Identity Provider form**
 
@@ -203,7 +203,7 @@ Publicly available URL that contains logo of the OIDC IdP provider. This field a
     **Note:**
 
     -   The Continuous Authentication tab appears only when you install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin that requires license.
-    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/ca-homepage.md).
+    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/ca-homepage.md).
     \[Omitted image "ca-tab-oidc.png"\] Alt text: Continuous Authentication - tab information
 
 <table id="table_klg_xrx_4dc"><thead><tr><th>

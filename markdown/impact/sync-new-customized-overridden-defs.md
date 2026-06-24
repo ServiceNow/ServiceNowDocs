@@ -4,8 +4,6 @@ description: You can sync overridden or custom definitions that your organizatio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/sync-new-customized-overridden-defs.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1

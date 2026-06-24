@@ -4,8 +4,6 @@ description: Grant administrative permissions for the Core Business Suite applic
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-admin-role.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-20"
 reading_time_minutes: 1

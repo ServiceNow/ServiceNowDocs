@@ -92,6 +92,6 @@ The Okta IDP attributes are as displayed in the following screen shot. You shoul
 
         Based on this configuration, when the `itil` user using a device that is not-trusted from the Okta \(IdP\), then the user's privileges are reduced for the logged in session.
 
-        For more information on how to create Zero Trust - Policy based session access with Policy and Condition, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/session-access.md).
+        For more information on how to create Zero Trust - Policy based session access with Policy and Condition, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md).
 
 

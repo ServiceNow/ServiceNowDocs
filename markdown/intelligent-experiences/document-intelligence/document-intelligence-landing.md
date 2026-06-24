@@ -64,7 +64,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </table>## Troubleshoot and get help
 
 -   Learn more about what's new and changed in the [Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/document-intelligence-rn.md).
--   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-additional-resources.md).
+-   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-additional-resources.md).
 -   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Search the [Known Error Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477) for known error articles.

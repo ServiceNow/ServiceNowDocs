@@ -4,8 +4,6 @@ description: The Customer Service plugin activates several related plugins, if t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/plugins-activated-with-csm.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-08-20"
 reading_time_minutes: 3

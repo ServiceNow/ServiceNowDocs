@@ -20,7 +20,7 @@ Block a credit card for a customer as per the credit card service request.
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,15 +34,15 @@ This credit card task is automatically created with a credit card service case f
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d41867e117">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d41892e117">
 
 Option
 
-</th><th align="left" id="d41867e120">
+</th><th align="left" id="d41892e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41867e126">
+</th></tr></thead><tbody><tr><td id="d41892e126">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d41867e159">
+</td></tr><tr><td id="d41892e159">
 
 **From the Credit Card Task list**
 

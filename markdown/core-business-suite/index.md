@@ -3,8 +3,6 @@ title: Zurich Core Business Suite
 locale: en-US
 release: zurich
 bundle: cbs
-product: Core Business Suite
-classification: core-business-suite
 doc_type: toc
 ---
 

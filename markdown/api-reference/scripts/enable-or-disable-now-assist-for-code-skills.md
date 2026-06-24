@@ -7,7 +7,7 @@ release: zurich
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---

@@ -4,8 +4,6 @@ description: Dashboard with distribution and process metrics for Interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/Interaction.html
 release: zurich
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

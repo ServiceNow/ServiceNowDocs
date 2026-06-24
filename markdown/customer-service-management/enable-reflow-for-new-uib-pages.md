@@ -4,8 +4,6 @@ description: Enable a reflow for your UI Builder pages. This way, when you’re 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/enable-reflow-for-new-uib-pages.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

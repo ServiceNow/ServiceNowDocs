@@ -4,8 +4,6 @@ description: Before you begin the upgrade process, it is essential to read the r
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-1.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -126,8 +124,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md).
+-   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 
@@ -137,7 +135,7 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>

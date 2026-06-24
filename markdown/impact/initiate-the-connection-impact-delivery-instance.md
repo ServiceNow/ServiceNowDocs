@@ -4,10 +4,8 @@ description: Establish a connection between your Impact Store Application and th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-the-connection-impact-delivery-instance.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Use manual registration to IDI, Impact reference, Impact]
 ---

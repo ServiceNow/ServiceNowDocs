@@ -55,7 +55,7 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
 4.  On your source instance, create a new custom role in the Global application scope.
 
-    1.  Select the Global application scope, following the steps from [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    1.  Select the Global application scope, following the steps from [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
     2.  Navigate to **All** &gt; **User Administration** &gt; **Roles**.
 

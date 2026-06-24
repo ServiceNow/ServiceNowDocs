@@ -4,8 +4,6 @@ description: You can synchronize exception reasons from sub-production to Produc
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/exception-reason-integration.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1

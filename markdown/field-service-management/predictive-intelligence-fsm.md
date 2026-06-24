@@ -4,8 +4,6 @@ description: Use your instance records to build solutions to Field Service Manag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/predictive-intelligence-fsm.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

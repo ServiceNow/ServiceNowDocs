@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Use the **Multi-factor Roles** list to add or remove roles.
 
-<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d32216e85">
+<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d32213e85">
 
 **Add a role**
 
@@ -36,7 +36,7 @@ Role required: admin
 
 Double-click **Insert a new row...** and enter or select a role name. Click the **Save Icon** \(\[Omitted image "save-icon.png"\] Alt text: Save icon\) to save the entry.
 
-</td></tr><tr><td id="d32216e106">
+</td></tr><tr><td id="d32213e106">
 
 **Remove a role**
 

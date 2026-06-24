@@ -460,7 +460,7 @@ personalize\_choices
 
 </td><td>
 
-Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
+Can configure [choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ViewChoiceListDefinitions.md) and predefined responses for non-journal fields designated as choice or suggestion fields.
 
 </td></tr><tr><td>
 
@@ -476,7 +476,7 @@ personalize\_dictionary
 
 </td><td>
 
-Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_ChangeFieldLabelOrHint.md).
+Can configure dictionary entries and [labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_ChangeFieldLabelOrHint.md).
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ personalize\_form
 
 </td><td>
 
-Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+Can [configure forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ personalize\_responses
 
 </td><td>
 
-Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_JournalFields.md) designated as suggestion fields.
+Can configure predefined responses for [journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_JournalFields.md) designated as suggestion fields.
 
 </td></tr><tr><td>
 
@@ -519,7 +519,7 @@ personalize\_styles
 
 </td><td>
 
-Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DefineFieldStyles.md).
+Can configure [field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DefineFieldStyles.md).
 
 </td></tr><tr><td>
 

@@ -83,5 +83,5 @@ View the past funding details of your investments.
 -   **[Domain separation and Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/domain-separation-investment-funding.md)**  
 Domain separation is supported in Investment Funding. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
 

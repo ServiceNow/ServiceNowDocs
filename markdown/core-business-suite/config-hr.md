@@ -4,8 +4,6 @@ description: If your instance is running on Zurich patch 5 or older versions, co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/config-hr.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2025-12-29"
 reading_time_minutes: 1

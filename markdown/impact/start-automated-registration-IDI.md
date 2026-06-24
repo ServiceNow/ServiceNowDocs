@@ -4,8 +4,6 @@ description: The automated registration process simplifies the configuration pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/start-automated-registration-IDI.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-12-03"
 reading_time_minutes: 2

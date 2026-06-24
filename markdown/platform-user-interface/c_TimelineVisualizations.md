@@ -68,5 +68,5 @@ Before creating a timeline visualization, you should have a clear idea of the in
 -   **[Use Timeline Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_UseTimelineVisualizations.md)**  
 Timeline Visualization provides a high-level view of an organization's strategic and operational activities over time.
 
-**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/personalize-your-experience.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/personalize-your-experience.md)
 

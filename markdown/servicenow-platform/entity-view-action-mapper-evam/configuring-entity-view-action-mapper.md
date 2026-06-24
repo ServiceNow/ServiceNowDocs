@@ -37,5 +37,5 @@ You can configure multiple view templates per data source based on conditions to
 -   **[Define an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md)**  
 Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template using the Entity View Action Mapper \(EVAM\).
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

@@ -4,8 +4,6 @@ description: ServiceNow OTM licensing is a crucial aspect of Operational Technol
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/otm-su-license-landing-page.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

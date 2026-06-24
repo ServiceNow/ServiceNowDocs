@@ -4,8 +4,6 @@ description: With the AI Enhanced Recommended Actions for Operational Technology
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/use-ai-enhanced-ra-otsm.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -18,7 +18,7 @@ You can write scripts to specify which list elements, such as links, filters, an
 
 These scripts can react to the record that is being displayed. For related list controls, the global variable **parent** identifies the parent record. For primary lists, there is no parent record.
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md) the List Control form and add the script field that you need:
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md) the List Control form and add the script field that you need:
 
 -   **Omit Columns Condition:** If there are no conditions, omit column headings.
 -   **Omit Edit Condition:** Omit the **Edit** button.

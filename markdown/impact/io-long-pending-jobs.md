@@ -4,8 +4,6 @@ description: Get notifications when jobs that are pending exceed your defined ov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-long-pending-jobs.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 2

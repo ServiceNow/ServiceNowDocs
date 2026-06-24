@@ -4,8 +4,6 @@ description: Chat with an AI agent in the Now Assist panel to begin the process 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/upload-import-validate-ot-device-inventory-spreadsheet.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 3

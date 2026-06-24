@@ -22,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, access the Carbon Black website and obtain the Endpoint Base URL and API Token under your profile.
 

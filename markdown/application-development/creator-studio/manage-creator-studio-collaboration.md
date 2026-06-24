@@ -36,7 +36,7 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
     2.  Choose a **Development permission set**, such as **Service Catalog**, to update its permissions.
 
-        For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/collaboration-permissions.md).
+        For a list of permissions, see [Collaboration permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/collaboration-permissions.md).
 
     3.  Select **Save** and **Update**.
 
@@ -54,8 +54,8 @@ Users with the Manage collaborators permission can adjust who can collaborate on
 
         For more information, see the following topics:
 
-        -   [Assign collaboration descriptors to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/assign-descriptor-user.md)
-        -   [Assign collaboration descriptors to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/assign-descriptor-group.md)
+        -   [Assign collaboration descriptors to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/assign-descriptor-user.md)
+        -   [Assign collaboration descriptors to groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/assign-descriptor-group.md)
     5.  Select **Save**.
 
 4.  If you need a new collaboration descriptor, create a custom one.
@@ -112,7 +112,7 @@ Option for inviting other collaborators with this role.
 
 ## Result
 
-You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+You've now set up collaboration descriptors, defined permissions, and assigned roles to users and groups for specific apps. For complete details on using the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
 
 **Parent Topic:**[Administering collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
 

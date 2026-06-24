@@ -4,8 +4,6 @@ description: Perform a triage on a ServiceNow instance to gather point-in-time t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-triage-sn-instance.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-08-08"
 reading_time_minutes: 2

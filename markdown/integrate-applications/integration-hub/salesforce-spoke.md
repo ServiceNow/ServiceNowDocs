@@ -210,7 +210,7 @@ Metadata - Check Service Cloud Feature
 
 </td><td>
 
-Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Checks whether Salesforce Service Cloud is enabled on the target Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ Metadata - Get Organization Type
 
 </td><td>
 
-Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in [Integrating with Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Retrieves the organization type of the Salesforce instance. To use this action, perform the steps outlined in the Create a Salesforce integration profile section in Integrating with Salesforce.
 
 </td></tr><tr><td>
 
@@ -454,7 +454,7 @@ Look up User Licenses Stream
 
 </td><td>
 
-Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Retrieves user subscription information that is available in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ Look up Usage Based Entitlements Stream
 
 </td><td>
 
-Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Retrieves the consumption usage details for the resources.To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
 
 </td></tr><tr><td rowspan="5">
 
@@ -498,7 +498,7 @@ Look up Users
 
 </td><td>
 
-Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Retrieves user attributes for Salesforce users. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
 
 </td></tr><tr><td>
 
@@ -506,7 +506,7 @@ Remove User
 
 </td><td>
 
-Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in [Integrating with Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
+Reclaims a user account in Salesforce. To use this action, perform the steps outlined in the Create a Salesforce CRM integration profile section in Integrating with Salesforce CRM.
 
 </td></tr></tbody>
 </table>## Salesforce account requirements

@@ -4,8 +4,6 @@ description: To be able to use ITOM at its full capacity, you can deploy the lat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/store-upgrades-landing.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

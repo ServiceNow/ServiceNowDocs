@@ -18,7 +18,7 @@ You can install the App Engine Studio \(AES\) application \(com.snc.app-engine-s
 
 ## Trial version of AES
 
-To try AES before purchasing a license, you can install it on a personal developer instance \(PDI\). For more information about PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/personal_developer_instance_guide.md). To obtain a PDI, see the [ServiceNow Developer Site](https://developer.servicenow.com/).
+To try AES before purchasing a license, you can install it on a personal developer instance \(PDI\). For more information about PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/personal_developer_instance_guide.md). To obtain a PDI, see the [ServiceNow Developer Site](https://developer.servicenow.com/).
 
 **Note:** An App Engine Studio subscription is required to install on a production or non-production instance. For more information, contact your ServiceNow representative.
 

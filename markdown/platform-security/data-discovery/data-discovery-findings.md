@@ -37,7 +37,7 @@ Users may select the **Track Granular Findings** action to use the [Granular Fin
 
 ## Available Protections
 
-Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/field-encryption.md).
+Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/field-encryption.md).
 
 Protecton services can also be accessed from the Dashboard. For more information on the dashboard see, [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/data-discovery-landing.md).
 

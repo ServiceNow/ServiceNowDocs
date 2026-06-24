@@ -4,8 +4,6 @@ description: For a better understanding of your production upgrade duration, req
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-2.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

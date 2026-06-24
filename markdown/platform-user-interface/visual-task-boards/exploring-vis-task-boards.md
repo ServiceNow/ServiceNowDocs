@@ -90,5 +90,5 @@ SLA \(service-level agreement\) indicators alert board members if any cards on t
 -   **[Visual Task Board accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/accessibility-vtb.md)**  
 Accessibility improvements in Visual Task Boards include skip links and the ability to view card details.
 
-**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/personalize-your-experience.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/personalize-your-experience.md)
 

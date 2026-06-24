@@ -33,23 +33,23 @@ The Carbon Black integration enables you to investigate and respond to security 
 
 **Use**
 
- -   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/workflow-triggers.md)
+ -   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/workflow-triggers.md)
 -   [View affected items for a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-affected-items-for-si.md)
--   [Security Operations - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-get-running-processes-workflow.md)
--   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-get-running-processes-workflow.md)
+-   [Security Operations - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-get-running-processes-workflow.md)
+-   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-get-running-processes-workflow.md)
 -   [View affected items for a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/show-affected-items-for-si.md)
--   [Run Block Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/run-block-request.md)
--   [Security Operations Integration - Block Request Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-block-request-workflow.md)
--   [Run Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/run-isolate-host.md)
--   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-isolate-host-workflow.md)
--   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-remove-host-isolation-workflow.md)
+-   [Run Block Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/run-block-request.md)
+-   [Security Operations Integration - Block Request Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-block-request-workflow.md)
+-   [Run Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/run-isolate-host.md)
+-   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-isolate-host-workflow.md)
+-   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-remove-host-isolation-workflow.md)
 
 </td><td>
 
 **Develop**
 
- -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 -   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md)
@@ -58,7 +58,7 @@ The Carbon Black integration enables you to investigate and respond to security 
 
 **Troubleshoot and get help**
 
- -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

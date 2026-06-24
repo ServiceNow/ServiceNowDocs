@@ -4,8 +4,6 @@ description: Get visibility into the operational metrics of applications and the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-app-mon-perf-analy.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-10-30"
 reading_time_minutes: 2

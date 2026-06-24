@@ -53,5 +53,5 @@ In the new workspace, several enhancements have been made to ease the way you pe
 -   **[Advanced Risk Assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/ara-in-ws.md)**  
 The Risk Workspace offers an enhanced and a simplified user experience for users to perform Advanced Risk Assessments. You can quickly access the risk assessments assigned to you or your group from the GRC Risk Portal or the Risk Workspace.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

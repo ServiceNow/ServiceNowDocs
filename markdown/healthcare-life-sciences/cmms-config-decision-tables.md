@@ -26,5 +26,5 @@ The **Trigger medical device AEM approval** business rule runs when a clinical e
 
 **Note:** When configuring the decision approval flow using the Workflow Studio feature, make sure that the **Approval** field configured for the Medical device case \[sn\_hcls\_cmms\_case\] table is set to **Approval** for the last level of the approval action only. For more information, see [Ask for Approval step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/ask-approval-action-designer.md).
 
-To learn more, see .
+To learn more, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-tables/decision-table.md).
 

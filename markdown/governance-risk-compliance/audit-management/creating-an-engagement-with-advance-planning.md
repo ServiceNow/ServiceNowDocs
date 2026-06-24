@@ -31,7 +31,7 @@ To use the advanced planning feature, you must activate the following store appl
 
 You can choose to create audit plans for the engagement.
 
-**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md).
+**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md).
 
 Role required: sn\_audit.manager
 

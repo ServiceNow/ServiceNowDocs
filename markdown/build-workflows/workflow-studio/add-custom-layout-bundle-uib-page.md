@@ -28,7 +28,7 @@ Templates are page level, they are meant to be used when you create a completely
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder** and select **Playbook Experience Builder**.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/work-experiences.md).
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see .
 
 2.  Select **+** next to **Pages and variants** to create a new page.
 

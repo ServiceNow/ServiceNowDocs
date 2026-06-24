@@ -23,5 +23,5 @@ Download and install the MID Server on the host machine, test the connection, an
 -   **[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/c_MIDServerConfiguration.md)**  
 After installing and validating your MID Servers, ensure that they have access to sufficient system resources, probe the proper targets, and communicate with the instance as expected. Configure MID Server selection criteria, create clusters for failover protection, and set up MID Servers in different domains to protect data.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

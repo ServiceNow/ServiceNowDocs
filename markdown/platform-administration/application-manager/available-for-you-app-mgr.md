@@ -16,9 +16,9 @@ breadcrumb: [Explore, Application Manager, Administering applications, Get start
 
 The **Available for you** tab displays all applications, products, and plugins.
 
-The applications and products in **Available for you** include the ones available for purchase from the ServiceNow Store and the ones that are already licensed. For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
+The applications and products in **Available for you** include the ones available for purchase from the ServiceNow Store and the ones that are already licensed. For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/getting-apps-trials.md).
 
-The plugins in this section include those that are licensed and ready to install and those that need to be requested. For more information about requesting plugins, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_RequestAPlugin.md).
+The plugins in this section include those that are licensed and ready to install and those that need to be requested. For more information about requesting plugins, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_RequestAPlugin.md).
 
 \[Omitted image "app-manager-home.png"\] Alt text: Application Manager home.
 

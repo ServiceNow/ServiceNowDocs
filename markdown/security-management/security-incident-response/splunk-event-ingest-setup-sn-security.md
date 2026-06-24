@@ -64,7 +64,7 @@ Refer to the following table and verify that you have completed all the listed t
     1.  Security Incident Response
     2.  Security Integration Framework
     3.  Security Support Common
-    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+    For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 
 You have successfully set up your ServiceNow AI Platform® instance for the integration. The next step is to install the Splunk Enterprise Security Notable Event Ingestion application from the ServiceNow Store for the integration. For more information, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.md).

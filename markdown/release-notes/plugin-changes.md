@@ -4,8 +4,6 @@ description: This table lists the existing plugins that were deprecated, planned
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/plugin-changes.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 11

@@ -78,5 +78,5 @@ You can define a risk appetite and tolerance within your organization by using t
 -   **[Target risk assessment in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/target-risk-assessment.md)**  
 You can perform a target risk assessment to define your desired future risk level using the Advanced Risk application. The target risk assessment enables you to assess your target risk posture and monitor progress toward its achievement.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

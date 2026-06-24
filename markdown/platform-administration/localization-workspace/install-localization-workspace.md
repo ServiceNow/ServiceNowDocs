@@ -53,7 +53,7 @@ For more information, see [Components installed with Localization Workspace](htt
 
 5.  Select **Install**.
 
-6.  For more information about investigating installed components, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md).
+6.  For more information about investigating installed components, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md).
 
 
 ## What to do next

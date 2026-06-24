@@ -83,7 +83,7 @@ Credit contributor – Business \[sn\_bom\_credit\_asmt.b2b\_contributor\]
 -   View the status of credit assessment cases and tasks
 -   Work on credit case for accounts managed by them till the Initiate stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -109,7 +109,7 @@ Credit contributor – Personal \[sn\_bom\_credit\_asmt.b2c\_contributor\]
 -   View the status of credit assessment cases and tasks
 -   Work on credit case for consumer accounts managed by them till the Initiate stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -131,7 +131,7 @@ Credit agent connector – Business \[sn\_bom\_credit\_asmt.b2b\_agent\_connecto
 -   Submit credit service requests
 -   Work on credit cases and tasks to fulfil requests for accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -156,7 +156,7 @@ Credit agent connector – Personal \[sn\_bom\_credit\_asmt.b2c\_agent\_connecto
 -   Submit credit service requests
 -   Work on credit cases and tasks to fulfil requests for consumer accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

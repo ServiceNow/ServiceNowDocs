@@ -28,7 +28,7 @@ Healthcare Operations Core provides the foundation to enable hospitals to stream
 
 </td><td>
 
-[Care Team Portal\[Omitted image "bus-service-portal.svg"\] Alt text:Open the standalone Care Team Portal docs to learn how care teams create and track support requests from inside Epic Hyperspace or the Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences/care-team-portal-landing.md)
+[Care Team Portal\[Omitted image "bus-service-portal.svg"\] Alt text:Open the standalone Care Team Portal docs to learn how care teams create and track support requests from inside Epic Hyperspace or the Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/care-team-portal-landing.md)
 
 </td></tr><tr><td>
 

@@ -29,5 +29,5 @@ Review NLQ logs to see how the system has handled your users' plain-language req
 -   **[View NLQ Table Guesser logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.md)**  
 Use the Table Guesser logs to review the CMDB tables that were picked by NLQ in response to plain-language queries.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-products.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md)
 

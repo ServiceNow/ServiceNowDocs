@@ -4,10 +4,8 @@ description: Assign a team member to a household by selecting an employee and th
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-team-member-to-household.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

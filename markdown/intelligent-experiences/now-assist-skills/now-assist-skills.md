@@ -19,7 +19,7 @@ Now Assist products provide generative AI skills that are tailored to meet the n
 
 The following sections describe the available Now Assist skills.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).\)
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
@@ -78,7 +78,7 @@ Technology
 
 </td><td>
 
-
+[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/extract-data-from-utility-invoices.md)
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Technology
 
 </td><td>
 
--   Generate hardware asset insights
+-   [Generate hardware asset insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/generate-asset-analysis-now-assist-ham.md)
 
 </td></tr><tr><td>
 
@@ -102,22 +102,22 @@ Technology
 
 </td><td>
 
--   Common control objective creation
--   Control objective impact analyzer
--   Control objective rationalization and deduplication
--   
--   Issue summarization
--   Recommendations for regulatory alert impacted areas
--   Recommendation of similar control objectives
--   Regulatory alert summarization
--   Regulatory alert impacted citations
--   Regulatory alert impacted control objectives
--   Regulatory alert impacted controls
--   Regulatory alert impacted policies
--   Risk assessment summarization
--   Risk event summarization
+-   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.md)
+-   [Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/identify-control-objectives-impacted-by-citation-updates.md)
+-   [Control objective rationalization and deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/ai-generated-recommendations-for-similar-control-objective.md)
+-   [Use Recommendation of similar control objectives skill to generate suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/generate-recommendation-for-a-new-control-objective.md)
+-   [Issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/summarize-an-issue.md)
+-   [Recommendations for regulatory alert impacted areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/generate-recommendation-for-a-new-control-objective.md)
+-   [Regulatory alert summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
+-   [Risk assessment summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/generate-risk-assessment-summary-genai.md)
+-   [Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/generate-risk-event-summary-in-the-risk-workspace.md)
 
-Risk event summarization in the classic UI
+[Risk event summarization in the classic UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/generate-a-risk-event-summary.md)
 
 
 </td></tr><tr><td>
@@ -197,14 +197,14 @@ Technology
 
 </td><td>
 
-
+[Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-workspace/now-assist-for-privacy-management.md)
 
 </td><td>
 
--   Control objective impact analyzer
--   Common control objective creation
--   Recommendation of similar control objectives
--   Risk assessment summary
+-   [Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/identify-control-objectives-impacted-by-citation-updates.md)
+-   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-workspace/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md)
+-   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-workspace/privacy-generate-recommendation-for-a-new-control-objective.md)
+-   [Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/privacy-workspace/privacy-generate-risk-assessment-summary.md)
 
 </td></tr><tr><td>
 
@@ -235,16 +235,16 @@ Technology
 
 </td><td>
 
--   Extract entitlements from contract
--   Error log summarization
--   Error resolution recommendation
--   Publisher compliance summarization
--   Product compliance summarization
--   Recommended actions
--   SaaS user resolution
--   Contract entitlement data extraction
--   Product match reviewer
--   Software normalization
+-   [Extract entitlements from contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/extract-entitlements-from-contracts-now-assist-sam.md)
+-   [Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/troubleshooting-saas-now-assist-sam.md)
+-   [Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/troubleshooting-saas-now-assist-sam.md)
+-   [Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/summarize-publisher-compliance-now-assist-sam.md)
+-   [Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/summarize-product-compliance-now-assist-sam.md)
+-   [Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/recommended-actions-now-assist-sam.md)
+-   [SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/automate-userresolution-saas-now-assist-sam.md)
+-   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/extract-entitlements-from-contracts-now-assist-sam.md)
+-   [Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/resolve-entitlement-import-error.md)
+-   [Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/resolve-entitlement-import-error.md)
 
 </td></tr><tr><td>
 
@@ -256,17 +256,17 @@ Technology
 
 </td><td>
 
--   Create a demand
--   EAP doc summarization
--   Identify similar records
--   Multi feedback summarization
--   Planning item doc summarization
--   Project doc summarization
--   Project insights generation
--   Refine records
--   Story generation
--   Target generation
--   Write planning item
+-   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/demand-creation-using-now-assist.md)
+-   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)
+-   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/identify-similar-demand-records.md)
+-   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.md)
+-   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-documents-genai-skill-spw.md)
+-   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-doc-content-genai-skill-pw.md)
+-   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md)
+-   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md)
+-   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-stories-from-epics-now-assist-eap.md)
+-   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.md)
+-   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md)
 
 </td></tr><tr><td>
 
@@ -278,7 +278,7 @@ Technology
 
 </td><td>
 
-TPRM issue summarization
+[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md)
 
 </td></tr><tr><td>
 
@@ -307,22 +307,22 @@ Customer
 
 </td><td>
 
--   Activity response generation
--   Automated quality assurance
--   Case summarization
--   Chat recommendation
--   Chat summarization
--   Customer summarization
--   Email recommendation
--   KB generation
--   Resolution notes generation
--   Sentiment analysis case
--   Sentiment analysis dashboard
--   Sentiment analysis for email interactions
--   Sidebar summarization
--   Special handling notes summarization
--   Suggested steps generation
--   Trending topics dashboard
+-   [Activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md)
+-   [Automated quality assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/quality-assurance-management.md)
+-   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md)
+-   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md)
+-   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.md)
+-   [Customer summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.md)
+-   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.md)
+-   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md)
+-   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)
+-   [Sentiment analysis case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)
+-   [Sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md)
+-   [Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/sentiment-analysis-interaction.md)
+-   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.md)
+-   [Special handling notes summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.md)
+-   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)
+-   [Trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md)
 
 </td></tr><tr><td>
 
@@ -334,9 +334,9 @@ Customer
 
 </td><td>
 
--   KB generation
--   Sidebar summarization
--   Work order task summarization
+-   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-generate-kb-article.md)
+-   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-summarize-sidebar-platform.md)
+-   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/generate-wot-summ-fsm.md)
 
 </td></tr><tr><td>
 
@@ -348,8 +348,8 @@ Customer
 
 </td><td>
 
--   Case summarization
--   Disputes intake via Virtual Agent
+-   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-case-using-now-assist-fso.md)
+-   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.md)
 
 </td></tr><tr><td>
 
@@ -373,8 +373,8 @@ Customer
 
 </td><td>
 
--   Government case summarization
--   Chat summarization
+-   [Government case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/now-assist-psds-summarize-case.md)
+-   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/now-assist-psds-summarize-chat.md)
 
 </td></tr><tr><td>
 
@@ -406,13 +406,13 @@ Employee
 
 </td><td>
 
-
+[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 
 </td><td>
 
--   Requested item summarization for approvals
--   Request summarization for approvals
--   Case summarization for approvals
+-   [Requested item summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
+-   [Request summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
+-   [Case summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
 
 </td></tr><tr><td>
 
@@ -424,7 +424,7 @@ Employee
 
 </td><td>
 
-Incident summarization
+[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)
 
 </td></tr><tr><td>
 
@@ -436,18 +436,18 @@ Employee
 
 </td><td>
 
--   Case summarization
--   Chat reply recommendation
--   Chat summarization
--   Email recommendation
--   ER case summarization
--   ER interview summarization
--   KB generation
--   Employee information summarization
--   Resolution notes generation
--   Sentiment analysis for HR case
--   Sentiment analysis for HR task
--   Sidebar discussion summarization
+-   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md)
+-   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.md)
+-   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md)
+-   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/email-recommendation-nahr.md)
+-   [ER case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-er-case.md)
+-   [ER interview summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-er-interview.md)
+-   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.md)
+-   [Employee information summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/employee-summary-lh.md)
+-   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md)
+-   [Sentiment analysis for HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/analyze-sentiments-now-assist.md)
+-   [Sentiment analysis for HR task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/tcase-now-assist-hr.md)
+-   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/sidebar-discussion-nahr.md)
 
 </td></tr><tr><td>
 
@@ -459,11 +459,11 @@ Employee
 
 </td><td>
 
--   Get category of the legal request
--   Legal matter summarization
--   Legal request summarization
--   Triage legal request AI Search
--   Triage legal request capability
+-   [Get category of the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.md)
+-   [Legal matter summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)
+-   [Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)
+-   [Triage legal request AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.md)
+-   [Triage legal request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.md)
 
 </td></tr><tr><td>
 
@@ -475,11 +475,11 @@ Employee
 
 </td><td>
 
--   Contract analysis
--   Contract metadata extraction
--   Contract obligation extraction
--   Contracts query classifier
--   Conversational contract search and insights
+-   [Contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+-   [Contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+-   [Contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
+-   [Contracts query classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-conf-converse-skill.md)
+-   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-conf-converse-skill.md)
 
 </td></tr><tr><td>
 
@@ -491,8 +491,8 @@ Employee
 
 </td><td>
 
--   Reserve Space Virtual Agent topic
--   Workplace Case Summarization
+-   [Reserve Space Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/wsd-reserve-a-space-now-assist-va.md)
+-   [Workplace Case Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/summarize-workplace-case.md)
 
 </td></tr><tr><td>
 
@@ -500,7 +500,7 @@ Creator
 
 </td><td>
 
-
+[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)
 
 </td><td>
 
@@ -509,24 +509,24 @@ Creator
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 -   App summary generation
 -   
--   Code Assist autocomplete
--   Code Assist edit
--   Code assist summarization
--   Code Assist generation
+-   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
+-   [Code Assist edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/edit-code-now-assist.md)
+-   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
+-   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/generate-scripts-from-text.md)
 -   Event handler generation
 -   
--   
--   
--   
--   
+-   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-landing.md)
+-   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-with-images-landing.md)
+-   [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-recommendations-landing.md)
+-   [Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-summarization-landing.md)
 -   Mobile card generation
--   Playbook generation
--   Playbook generation with images
--   Playbook recommendations
--   Playbook summarization
+-   [Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/generate-a-playbook-outline.md)
+-   [Playbook generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/generate-a-playbook-outline.md)
+-   [Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/generate-playbook-recommendations.md)
+-   [Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/playbook-summarization.md)
 -   [Process inefficiency highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/generate-highlights.md)
--   
--   Spoke generation
+-   [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)
+-   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-spk-now-spk-gen.md)
 -   Test generation
 -   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/run-worknotes-analysis.md)
 
@@ -536,7 +536,7 @@ Platform
 
 </td><td>
 
-[Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md)
+[Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-now-assist-landing.md)
 
 </td><td>
 
@@ -546,7 +546,7 @@ Platform
 -   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/generate-document-summary-now-assist.md)
 -   [Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/dynamic-guidance.md)
 -   [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)
--   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/configure-gaf.md)
+-   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-gaf.md)
 -   [Identify duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.md)
 -   [Knowledge content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.md)
 -   [Multimodal chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/exploring-docintel.md)
@@ -675,12 +675,12 @@ Other
 
 </td><td>
 
-
+[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.md)
 
 </td><td>
 
--   ERP data discovery
--   ERP data query
+-   [ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-erp-data-discovery-skill.md)
+-   [ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-erp-data-query.md)
 
 </td></tr></tbody>
 </table>

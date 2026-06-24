@@ -4,10 +4,8 @@ description: Related party configurations for different entities that are provid
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/list-of-related-party-configurations.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

@@ -4,8 +4,6 @@ description: Use this dashboard to view and analyze performance analytics such a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/territory-planning-dashboard.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

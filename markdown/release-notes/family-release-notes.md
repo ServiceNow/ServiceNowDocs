@@ -4,8 +4,6 @@ description: The ServiceNow Zurich release includes new products and application
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/family-release-notes.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: concept
 last_updated: "2026-06-16"
 reading_time_minutes: 4

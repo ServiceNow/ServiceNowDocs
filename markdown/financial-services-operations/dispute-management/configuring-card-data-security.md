@@ -20,7 +20,7 @@ Plan and configure your implementation of Card Data Security by following the ta
 
 Refer to the following steps to set up and configure Card Data Security for the first time.
 
-1.  [Set up spoke integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/spokes.md)
+1.  [Set up spoke integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/spokes.md)
 
     Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly.
 

@@ -32,7 +32,7 @@ The application version that displays "Installation blocked" isn't licensed.
 
 1.  If your organization uses the application, license the version required for the Now Assist Suite installation.
 
-    To license the necessary application version, contact your account executive or request the license through the ServiceNow Store. For more information about licensing applications through the ServiceNow Store, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md).
+    To license the necessary application version, contact your account executive or request the license through the ServiceNow Store. For more information about licensing applications through the ServiceNow Store, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md).
 
 
 ## Resolution: Uninstall the application

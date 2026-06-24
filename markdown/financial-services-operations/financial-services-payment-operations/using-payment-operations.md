@@ -24,7 +24,7 @@ Contributors and back-office agents use personalized Workspace to work on all as
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -80,7 +80,7 @@ Payment admin
 
 </td><td>
 
-Configures the payment workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Configures the payment workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflows

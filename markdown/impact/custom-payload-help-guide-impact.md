@@ -4,8 +4,6 @@ description: Instance Observer integrations enable you to define and manage cust
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/custom-payload-help-guide-impact.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

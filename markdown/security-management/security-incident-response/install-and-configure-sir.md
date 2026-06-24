@@ -30,7 +30,7 @@ Role required: sn\_secops\_setup.admin
 
 ## Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 2.  After you have downloaded the Security Incident Response application and all of its dependency applications, navigate to **Security Incident** &gt; **Analyst Workspace Setup** &gt; **Setup Assistant**.
 

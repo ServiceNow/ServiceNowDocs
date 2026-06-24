@@ -127,7 +127,7 @@ Perform one of the following operations:
 -   Select an entry in the Key Lifecycle table to define key lifecycle behavior. See [Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-key-lifecycle-states.md) for details to complete the lifecycle definition for the key.
 -   Select **Next** to create a cryptographic key. See one of the following tasks for key generation:
     -   [Generate a ServiceNow cryptographic key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/generate_sn_key.md).
-    -   [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/customer-supplied-keys.md).
+    -   [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/customer-supplied-keys.md).
     -   [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/import-key-webservice-1.md).
 
 **Parent Topic:**[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-cryptographic-module.md)

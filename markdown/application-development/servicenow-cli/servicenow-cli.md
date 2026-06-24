@@ -202,5 +202,5 @@ Commands and command arguments available to the base system ServiceNow CLI.
 -   **[Commands installed with CMDB Application CLI and API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-cli/cmdb-cli-commands.md)**  
 Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 
-**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-low-code-applications-with-app-engine.md)
+**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-low-code-applications-with-app-engine.md)
 

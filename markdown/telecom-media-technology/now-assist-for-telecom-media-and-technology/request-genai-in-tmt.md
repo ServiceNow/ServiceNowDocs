@@ -26,7 +26,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM/FSM Configurable Workspace to request a service problem case summary and generate service problem case resolution notes.
 
-For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 

@@ -4,8 +4,6 @@ description: Portal usage enables you to track how your customers and employees 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-portal-user-sessions-timeouts.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

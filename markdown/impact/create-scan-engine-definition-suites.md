@@ -4,8 +4,6 @@ description: Follow these steps to create Scan Engine definition suites.You can 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/create-scan-engine-definition-suites.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-10-29"
 reading_time_minutes: 1

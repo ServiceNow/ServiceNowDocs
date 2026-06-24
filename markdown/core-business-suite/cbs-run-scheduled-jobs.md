@@ -4,8 +4,6 @@ description: Configure Core Business Suite applications by running scheduled job
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-run-scheduled-jobs.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-17"
 reading_time_minutes: 5

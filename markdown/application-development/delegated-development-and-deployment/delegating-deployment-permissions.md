@@ -20,7 +20,7 @@ A system administrator can assign a non-administrator user or group as a deploym
 
 -   Role required: admin or application administrator
 
-    If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate deployment resources to an application. If application administration isn’t enabled, an admin user can delegate deployment resources.
+    If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate deployment resources to an application. If application administration isn’t enabled, an admin user can delegate deployment resources.
 
 -   System properties control the visibility of the **Publish To Update Set** and **Manage Update Sets** permissions. By default, both deployment permissions for update sets are hidden. See [Delegated Development System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/delegated-development-system-properties.md).
 

@@ -38,7 +38,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/payment-operations-dashboard.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/payment-operations-dashboard.md)
 
 </td><td>
 

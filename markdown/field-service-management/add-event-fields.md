@@ -4,8 +4,6 @@ description: Administrators can add fields to event bodies so dispatchers have m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/add-event-fields.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

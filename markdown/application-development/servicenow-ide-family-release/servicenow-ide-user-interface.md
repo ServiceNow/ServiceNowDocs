@@ -70,7 +70,7 @@ Work in the right environment for your task by using the experience switcher to 
 
 \[Omitted image "servicenow-ide-file-explorer.png"\] Alt text: File Explorer view
 
-Navigate through applications in a workspace and add files or folders. In the Outline section, view the outline of the active file in the editor. In the Timeline section, view a history of changes to the active file. For information about the default application file structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+Navigate through applications in a workspace and add files or folders. In the Outline section, view the outline of the active file in the editor. In the Timeline section, view a history of changes to the active file. For information about the default application file structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 ### Search view
 

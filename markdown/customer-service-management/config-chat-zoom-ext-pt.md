@@ -4,8 +4,6 @@ description: Use scripted extension points to enable the copying of application-
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-chat-zoom-ext-pt.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 2

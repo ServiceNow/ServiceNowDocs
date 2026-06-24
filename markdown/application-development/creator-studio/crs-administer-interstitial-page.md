@@ -18,7 +18,7 @@ Hide the App type page that appears when users select to create an app by adding
 
 ## Before you begin
 
-You must change your scope to global. For more information, see [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_GlobalScope.md).
+You must change your scope to global. For more information, see [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_GlobalScope.md).
 
 Role required: admin
 

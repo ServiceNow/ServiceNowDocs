@@ -4,8 +4,6 @@ description: Follow these steps to configure Fix code in real-time for Impact Pl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-ai-code-fix-for-platform-health.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 1

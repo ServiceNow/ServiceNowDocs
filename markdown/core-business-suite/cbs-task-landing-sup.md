@@ -4,8 +4,6 @@ description: The supplier support services in the Core Business Suite help you s
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-task-landing-sup.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2025-08-22"
 reading_time_minutes: 1

@@ -141,7 +141,7 @@ References
 
 </td><td>
 
-[High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HighSecuritySettings.md)
+[High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HighSecuritySettings.md)
 
  [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/r_JellyTags.md)
 

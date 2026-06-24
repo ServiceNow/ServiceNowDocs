@@ -4,8 +4,6 @@ description: The Zurich Patch 7b Hotfix 1 release contains fixes to these proble
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-7b-hf-1.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-05-21"
 reading_time_minutes: 1

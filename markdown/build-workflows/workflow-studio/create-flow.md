@@ -27,7 +27,7 @@ Create a flow with Workflow Studio
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_SharingApplications.md) the application using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to deploy the application using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -213,8 +213,8 @@ Select a published subflow and define the input values. In addition to adding a 
     **Note:** The system only triggers activated flows.
 
 -   Deploy or transfer your flow to another instance.
-    -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
-    -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
+    -   Deploy your flow from the application repository when your application is complete and ready for release.
+    -   Transfer your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
 -   **[Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.

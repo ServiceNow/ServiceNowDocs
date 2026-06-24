@@ -4,8 +4,6 @@ description: Activate Predictive Intelligence for Incident Management by request
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/request-pred-intelli-inc-mgmt.html
 release: zurich
-product: IT Service Management
-classification: it-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -20,6 +20,6 @@ Use the ServiceNow® Performance Analytics widgets on a dashboard to visualize d
 
 The following dashboards are available for Financial Services Customer Lifecycle Operations:
 
--   [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-business-lifecycle-dashboard.md)
--   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-client-lifecycle-dashboard.md)
+-   [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-business-lifecycle-dashboard.md)
+-   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-client-lifecycle-dashboard.md)
 

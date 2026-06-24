@@ -39,7 +39,7 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
 
 ## Roles installed

@@ -18,7 +18,7 @@ Activate and set up the CrowdStrike Falcon X Sandbox to interface with your Serv
 
 ## Before you begin
 
--   Before you can use the CrowdStrike Falcon X Sandbox for Security Operations integration, you must download it from the [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-and-store.md).
+-   Before you can use the CrowdStrike Falcon X Sandbox for Security Operations integration, you must download it from the [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-and-store.md).
 -   Review the following setup checklist and verify that you have completed all the tasks for a smooth CrowdStrike Falcon X Sandbox integration.
 
 Role required: admin, sn\_si.admin
@@ -70,7 +70,7 @@ This integration is supported on Paris and Orlando releases.
 7.  Security Operations Setup Assistant
 8.  Security Incident Response
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) or application and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) or application and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ This integration supports the Falcon Sandbox Private Cloud only.
 </td></tr></tbody>
 </table>## Procedure
 
-1.  [Download the CrowdStrike Falcon Sandbox for Security Operations integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
+1.  [Download the CrowdStrike Falcon Sandbox for Security Operations integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to Security Operations &gt; Integrations &gt; Integration Configurations.
 

@@ -4,8 +4,6 @@ description: After the connection is established between your Impact Store Appli
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-migration-idi.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-20"
 reading_time_minutes: 1

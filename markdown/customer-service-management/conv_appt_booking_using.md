@@ -4,8 +4,6 @@ description: Customers can initiate an appointment booking conversation in a cha
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/conv\_appt\_booking\_using.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

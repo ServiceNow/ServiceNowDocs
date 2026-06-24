@@ -4,8 +4,6 @@ description: Scans performed on update sets automatically sync from Developer to
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/update-set-integration.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1

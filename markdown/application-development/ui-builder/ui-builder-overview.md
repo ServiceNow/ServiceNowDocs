@@ -69,5 +69,5 @@ UI Builder can be used by application developers with a variety of skill levels.
 -   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/component-builder-uib.md)**  
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
 
-**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/builder-library-table.md)
+**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/builder-library-table.md)
 

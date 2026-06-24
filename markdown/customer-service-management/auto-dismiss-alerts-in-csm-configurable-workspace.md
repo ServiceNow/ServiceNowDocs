@@ -4,8 +4,6 @@ description: In CSM Configurable Workspace, you can configure certain alerts to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

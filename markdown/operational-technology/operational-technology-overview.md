@@ -4,8 +4,6 @@ description: Use ServiceNow for Operational Technology \(OT\) to help your organ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-overview.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-05-12"
 reading_time_minutes: 7

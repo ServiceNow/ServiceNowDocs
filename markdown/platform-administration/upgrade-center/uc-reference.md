@@ -25,5 +25,5 @@ Reduce considerable processing time with the default skipped rules to auto-retai
 -   **[Upgrade Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-roles.md)**  
 Upgrade Center is installed with these roles.
 
-**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/upgrade-now-platform.md)
+**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-now-platform.md)
 

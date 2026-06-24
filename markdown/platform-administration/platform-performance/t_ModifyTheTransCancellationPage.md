@@ -37,5 +37,5 @@ Knowledge of [Apache Jelly](http://commons.apache.org/jelly/) is highly recommen
 4.  Click **Update**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-monitor-now-platform.md)
 

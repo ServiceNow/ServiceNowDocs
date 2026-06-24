@@ -104,7 +104,7 @@ References
 
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0755132](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0755132)
 
- [Define a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/team-development/t_DefineARemoteInstance.md)
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-business-logic.md)

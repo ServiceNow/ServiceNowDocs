@@ -43,5 +43,5 @@ Logs record events that occur during the execution of an automation process. The
 -   **[Post requisites after installing a hot fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/post-req-hot-fix-rpa.md)**  
 Perform these tasks after installing a hot fix for either Universal App Connector \(UAC\) or Chromium connector on your instance to verify the hot fix is accurately downloaded.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

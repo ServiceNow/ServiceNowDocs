@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

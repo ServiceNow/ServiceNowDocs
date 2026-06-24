@@ -4,8 +4,6 @@ description: Create a configuration for the single-select version of the case ty
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-case-type-single-selection.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

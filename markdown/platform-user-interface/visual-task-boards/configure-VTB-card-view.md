@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Under the Form view and section, select the VTB view.
 
-    You may need to create a VTB view for the form. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/create-delete-view.md).
+    You may need to create a VTB view for the form. For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-delete-view.md).
 
 4.  Select the fields to appear on the card by adding or removing the fields from the **Selected** column.
 

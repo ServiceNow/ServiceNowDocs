@@ -64,7 +64,7 @@ PagerDuty Download Subscriptions
 
 </td><td>
 
-Downloads user subscriptions from the PagerDuty portal.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Downloads user subscriptions from the PagerDuty portal.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ PagerDuty Reclaim Subscription
 
 </td><td>
 
-Deactivates user accounts in PagerDuty.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Deactivates user accounts in PagerDuty.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ PagerDuty Update User Activity
 
 </td><td>
 
-Retrieves the activity of users who are on an on-call schedule.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Retrieves the activity of users who are on an on-call schedule.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr></tbody>
 </table>## Spoke actions

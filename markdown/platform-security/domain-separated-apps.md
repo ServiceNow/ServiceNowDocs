@@ -1,0 +1,279 @@
+---
+title: Application support for domain separation
+description: Many ServiceNow applications support domain separation in the base system but not all. Some supported applications include limitations on the data and administrative settings that can be domain-separated. These definitions delineate the domain separation support levels from the perspective of actual use cases and the people who use them.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/domain-separated-apps.html
+release: zurich
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 9
+breadcrumb: [Domain separation for service providers, Access Management]
+---
+
+# Application support for domain separation
+
+Many ServiceNow applications support domain separation in the base system but not all. Some supported applications include limitations on the data and administrative settings that can be domain-separated. These definitions delineate the domain separation support levels from the perspective of actual use cases and the people who use them.
+
+## Domain separation support levels
+
+ServiceNow applications that support domain separation may support the separation of data and data routing only, have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
+
+**No support**
+
+-   The domain field may exist on data tables, but no logic exists to manage data.
+-   This level is not considered domain-separated.
+
+**Basic**
+
+-   Business logic: Ensure data goes into the proper domain for the application’s service provider \(SP\) use cases.
+-   In the application, the user interface, cache keys, reporting, rollups, aggregations, and so on, all use domain at production run time.
+-   The owner of the instance must be able to set up the application to function across multiple tenants.
+
+Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
+
+**Standard**
+
+-   Includes **Basic** level support.
+-   Business logic: Processes can be created or modified per customer by the service provider \(SP\). The use cases reflect proper use of the application by multiple SP customers in a single instance.
+-   The owner of the instance must be able to configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
+
+Sample use case: An admin must be able to make comments mandatory when a record closes for one tenant but not for another.
+
+**Enhanced**
+
+-   Includes **Basic** and **Standard** levels.
+-   Data-driven process enables service provider customers to modify business logic that is based on defined use cases. These configurations are UI-based and fail-safe so that configurations by one customer cannot affect another.
+-   Tenants of the instance must be able to configure minimum viable product \(MVP\) business logic and data parameters for themselves. This logic and parameters would be expected for the application's normal function.
+
+Sample use case: Tenant-customers of a shared environment must be able to change to the impact, urgency, or priority matrix to set priority within their domain.
+
+**Note:** **Effective Domain \(\*\)**
+
+Sometimes, a platform feature or application may effectively support SP use cases even without the domain framework. If so, the use cases must detail its support of domain separation. An asterisk \(**\***\) after the support level indicates this kind of configuration.
+
+|Supported feature|Basic|Standard|Enhanced|
+|-----------------|-----|--------|--------|
+|Domain column is present for base system application tables.|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Domain-specific configuration is managed by instance owner.|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Tenant domains can manage their own application data.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Application properties are domain aware when needed.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Business logic and processes can be domain-separated by instance owner.| |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+|Business logic and processes can be administered by the tenant domain.| | |\[Omitted image "icon-active-plugin.png"\] Alt text: supported|
+
+## Support levels by application
+
+|Product Suite|Application|Support level|
+|-------------|-----------|-------------|
+|[App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|App Engine Studio|No support|
+|Automation Center|Basic|
+|Robotic Process Automation \(RPA\) Hub|Basic|
+|ServiceNow Studio|No support|
+|Workflow Data Fabric Hub / Zero Copy Connectors|No support|
+|Table Builder|Basic|
+|App Engine Management Center|No support|
+|[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-designer-overview.md)|Standard|
+|Enterprise Resource Planning Integration|No support|
+|Enterprise Resource Planning Customization Mining|No support|
+|Next Experience UI Builder|Basic|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)|Communities|No support|
+|Customer Service Management|Basic|
+|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/release-management/domain-separation-release-management.md)|Basic\*|
+|Order Management for Customer Service Management|Basic|
+|Post-Sales Support|Basic|
+||Basic|
+|Now Assist for CSM|Basic|
+|[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md)|[Domain separation and DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-change-velocity/devops-domain-separation.md)|No support|
+|[Domain separation and DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/devops-config-domain-separation.md)|
+|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/hr-domain-separation.md)|Basic\*|
+|[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/health-and-safety-incident-management/health-safety-domain-separation.md)|No support|
+|[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)|Basic|
+|[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/legal-service-delivery/legal-domain-separation.md)|Basic|
+|Contract Management Pro|Basic|
+|[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-domain-separation.md)|No support|
+|[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/safe-workplace/domain-separation-safe-workplace.md)|See application site for individual application support levels|
+|[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
+|[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-request-for-hr-service-delivery/domain-sep-universal-request.md)|Basic|
+|[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/universal-task/domain-sep-universal-task.md)|Basic|
+|[Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/workforce-optimization-for-hr/wfo-hr-overview.md)|Basic|
+|[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/finance-and-supply-chain/finance-supply-chain-landing.md)|[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-domain-separation.md)|No support\*|
+|Purchase Order Management|No support\*|
+|[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/esg-landing-page.md)|ESG Management and Reporting|No support\*|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/domain-separation-field-service.md)|Basic|
+|[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)|Business Continuity Management|Basic|
+|[Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/grc-domain-separation.md)|Basic|
+|[Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-opres-landing-page.md)|Basic|
+|[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/industry-products/industry-products-landing.md)|
+|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/financial-services/fso-overview.md)|Financial Services Card Operations|Basic|
+|Financial Services Deposit Operations|Basic|
+|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/financial-services-payment-operations/domain-separation-financial-services-payment-operations.md)|Basic|
+|Intelligent Servicing for Fraud|Basic|
+|Property and Casualty Insurance Servicing|Basic|
+|Life Insurance Servicing|Basic|
+|Insurance Claims|Basic|
+|Financial Services Know Your Customer|Basic|
+|Financial Services Credit Operation|Basic|
+|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/domain-separated-apps.md)|Basic|
+|• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/emr-help/emr-help-domain-sep.md)|Basic|
+|[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-domain-sep-serv-mgmt-core.md)|Basic|
+|[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
+|[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|
+|[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/vaccine-administration-management/VAM-domain-separation.md)|Basic|
+|Manufacturing Commercial Operations|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/manufacturing/manufacturing-commercial-operations/mco-domain-separation.md)|Standard|
+|Retail Core|Basic|
+|Retail Task Management|Basic|
+|• [Manufacturing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/manufacturing-domain-separation.md)|[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)|Standard|
+|[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)|Standard|
+|[Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md)|Standard|
+|[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)|Standard|
+|[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/telecommunications-media-and-technology-core/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-domain-separation.md)|Basic|
+|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/domain-separation-cspm.md)|Basic|
+|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
+|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/domain-separation-assurance-workflows.md)|Standard|
+|[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
+|[Product Support for Technology application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-app.md)|Basic \(Inherited from Customer Service Management\).|
+|Telecommunications Network Inventory|Basic|
+|[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/it-asset-management.md)|[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/cloud-cost-management/domain-separation-cloudin.md)|No support|
+|[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/domain-separation-ham.md)|Enhanced|
+|[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/domain-separation-software-asset-management.md)|Enhanced|
+|Enterprise Asset Management|Standard|
+|[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)|[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-development/agile-development-2.0-domain-separation.md)|Basic\*|
+|[Alignment Planner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-domain-separation.md)|Basic|
+|[Application Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/domain-separation-app-portfolio-mgt.md)|Basic|
+|[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/cost-management/domain-separation-cost-management.md)|No support|
+|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/demand-management/domain-sep-demand-mgt.md)|Basic|
+|Financial Management|No support|
+|[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/investment-funding/domain-separation-investment-funding.md)|Basic|
+|[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/domain-separation-project-portfolio-financials.md)|Basic\*|
+|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/release-management/domain-separation-release-management.md)|Basic\*|
+|[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/scaled-agile-framework-safe/domain-separation-scaled-agile-framework.md)|Basic\*|
+|[Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/test-management/domain-separation-test-management.md)|Basic\*|
+|Goal Framework|Basic|
+|[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_ITOMApplications.md)|[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md)|Basic|
+|Agent Client Collector|Basic|
+|[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)|Standard|
+|[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/event-management/domain-separation-event-management.md)|Basic|
+|Service Operations Workspace for ITOM|Basic|
+|[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/health-log-analytics/hla-domain-separation.md)|Basic|
+|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/metric-intelligence/domain-separation-operational-intelligence.md)|Basic|
+|[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/domain-separation-service-mapping.md)|Basic|
+|Cloud Migration Assessment|Basic|
+|Action Library|No support|
+|Cloud Configuration Governance|No support|
+|[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/tag-governance/tag-governance-domain-separation.md)|Basic|
+|Cloud Insights Billing|No support|
+|Cloud Provisioning and Governance: Google Cloud|Basic|
+|Cloud Provisioning and Governance Terraform|Basic|
+|Cloud Operation Workspace|Basic|
+|Cloud Discovery|Standard|
+|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_ITServiceManagement.md)|[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/benchmarks/domain-separation-benchmarks.md)|No support|
+|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/change-management/domain-separation-change-mgt.md)|Basic|
+|Coaching|Basic|
+|[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/continual-improvement-management/cim-domain-separation.md)|Basic|
+|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/contract-management/domain-separation-contract-mgmt.md)|No support|
+|[Domain separation and Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/digital-product-release/dpr-domain-separation-digital-product-release.md)|Basic|
+|[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/expense-line/r_InstalledWithExpenseLine.md)|No support|
+|[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-communications-management/domain-separation-incident-comm-mgt.md)|Standard|
+|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-management/domain-separation-incident-management.md)|Standard|
+|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/service-management-legacy/domain-separation-facilities-service-mgt.md)|Standard|
+|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/incident-management/domain-separation-incident-management.md)|Standard|
+|[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.md)|Standard|
+|Asset Management|Basic|
+|[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/problem-management/domain-separation-and-problem-management.md)|Standard|
+|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/procurement/domain-separation-procurement.md)|Standard\*|
+|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/product-catalog/domain-separation-product-catalog.md)|Standard|
+|[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/request-management/domain-sep-req-management.md)|Standard|
+|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/domain-separation-service-catalog-management.md)|Standard|
+|[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/domain-separation-sla.md)|Basic|
+|[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md)|Basic\*|
+|Site Reliability Operations|Basic\*|
+|[Task outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-outage/domain-separation-task-outage.md)|Basic|
+|[Domain separation and Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/vendor-management-workspace/domain-sep-vendor-management-workspace.md)|No support|
+|[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/walk-up-experience/domain-separation-walkup-experience.md)|Basic|
+|[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-domain-separation.md)|Basic|
+|[Now Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/c_performanceAnalyticsAndReporting.md)|[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/domain-separation-in-dashboards.md)|Basic|
+|[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md)|Enhanced|
+|[Process Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/domain-separation-process-optimization.md)|Basic|
+|[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/domain-separation-in-reporting.md)|Basic|
+|[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)|Basic|
+|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-platform/servicenow-ai-platform/now-platform-landing.md)|[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/intro-now-platform-landing.md)| |
+|[Domain separation and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-agent-chat-reference.md)|Standard|
+|[ServiceNow AI Platform Capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/capabilities-bundle-landingpage.md)| |
+|[User Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_NavigationAndTheUserInterface.md)| |
+|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-domain-separation.md)|Standard|
+|[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
+|App Engine Studio|No support|
+|Application Management|No support|
+|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-assessments.md)|Standard|
+|Automated Test Framework|Standard\*|
+|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-voice.md)| |
+|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-landing.md)|Basic support|
+|[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/contextual-search/domain-separation-contextual-search.md)|Standard|
+|[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-cmdb.md)|Standard|
+|[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/content-management-system/domain-separation-content-management.md)|No support|
+|[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
+|[Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/data-separation-data-certification.md)|Basic\*|
+|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
+|Data Privacy|No support|
+|[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
+|Delegated Development|No support|
+|[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/dependency-views/domain-separation-dependency-views.md)|Basic|
+|[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/domain-separation-document-services.md)|No support|
+|[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md)|Basic|
+|[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/edge-encryption/edge-encryption-domain-separation.md)|Basic support|
+|External Content Connectors|No support\*|
+|[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/field-encryption.md)|No support|
+|[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption-landing.md)|No support|
+|[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/dare-overview.md)|Basic support|
+|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/domain-separation-field-normalization.md)|No support|
+|[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md)|Standard\*|
+|[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/domain-separation-guided-setup.md)|No support|
+||Standard\*|
+|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
+|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/domain-separation-knowledge.md)|Standard|
+|Hermes Messaging Service|No support|
+|[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/domain-separation-managed-documents.md)|No support|
+|[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/metricbase/domain-separation-metricbase.md)|Basic|
+|Natural Language Understanding|Basic+Standard|
+|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/domain-separation-notifications.md)|Standard|
+|[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
+|[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/domain-separation-orchestration.md)|Standard\*|
+|[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/domain-separation-pwd-reset.md)|Standard|
+|[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/domain-sep-landing-page.md)|Domain separation landing page|
+|Data Privacy|No support|
+|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md)|Standard|
+|Proactive Triggers|Basic|
+|[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer-domain-separation.md)|Basic|
+|[Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md)|No support|
+|[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/domain-support-for-schedules.md)|Basic|
+|[Script debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/domain-separation-script-debugging.md)|Basic|
+|[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-suggestions/domain-separation-search-suggestions.md)|No support|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)|No support|
+|Service Graph Connectors|No support|
+|[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/sidebar-domain-separation.md)|Standard|
+|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-state-flows.md)|No support|
+|Subscription Management|Basic\*|
+|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-surveys.md)|Basic\*|
+|Task Intelligence|No support|
+|[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/time-card-management/domain-separation-time-card.md)|Basic\*|
+|UI Builder|Standard|
+|[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md)|Basic|
+|[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.md)|Basic|
+|[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|
+|[Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/legacy-workflow/c_WorkflowsAndDomainSeparation.md)|Standard\*|
+|Workspace|Standard|
+|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-operations/security-operations-landing-page.md)|[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/configuration-compliance/domain-separation-config-compliance.md)|Standard|
+|[Configuration Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/domain-separation-cdm.md)|Basic|
+|[IBM QRadar Offense Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/qradar-ibm-domain-sep.md)|Basic|
+|[Microsoft Graph Security API alert ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/ms-graph-domain-sep.md)|Basic|
+|[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/domain-separation-security-incident-response.md)|Standard|
+|[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-operations/domain-separation-threat-intelligence.md)|Standard|
+|[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/vulnerability-response/domain-separation-vulnerability-response.md)|Standard|
+|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/service-management-legacy/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/service-management-legacy/domain-separation-facilities-service-mgt.md)|Standard|
+|[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/planned-maintenance-family/domain-separation-planned-maintenance.md)|Standard\*|
+|[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md)|Basic|
+|NOW Code Editor|No support|
+|Workforce Optimization for ITSM|Basic|
+|Vendor Management Workspace|Basic|
+
+**Parent Topic:**[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/domain-sep-landing-page.md)
+

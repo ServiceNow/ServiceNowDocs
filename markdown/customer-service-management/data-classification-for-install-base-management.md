@@ -4,10 +4,8 @@ description: Enable customers to automatically classify sensitive data for their
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/data-classification-for-install-base-management.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---

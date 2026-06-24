@@ -4,8 +4,6 @@ description: You can configure additional capabilities and configuration options
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/additional-scan-engine-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-11-04"
 reading_time_minutes: 1

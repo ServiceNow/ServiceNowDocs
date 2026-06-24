@@ -20,7 +20,7 @@ Location filter is a filter criteria that the admins can use while crafting the 
 
 **Note:**
 
--   Location filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/session-access.md).
+-   Location filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/session-access.md).
 -   The instance should be on ADCv2. If the instance isn’t on ADCv2, then user location information won’t be available.
 
 The location filter criteria enable you to perform the following:

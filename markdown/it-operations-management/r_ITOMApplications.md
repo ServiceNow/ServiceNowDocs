@@ -4,8 +4,6 @@ description: Get better visibility into your infrastructure and services, preven
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/r\_ITOMApplications.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 5

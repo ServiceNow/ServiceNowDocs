@@ -4,8 +4,6 @@ description: Use the JSON parameters to define aspects of the Portal Footer widg
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/portal-footer-widget-json.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

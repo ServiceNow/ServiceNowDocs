@@ -29,7 +29,7 @@ The extension of the Localization Framework capabilities to email enables you to
 
 -   Approve and publish the translated content.
 
-For more information about localizing email notification, see [Email notification localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/static-translation.md).
+For more information about localizing email notification, see [Email notification localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/static-translation.md).
 
 **Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/exploring-localization-framework.md)
 

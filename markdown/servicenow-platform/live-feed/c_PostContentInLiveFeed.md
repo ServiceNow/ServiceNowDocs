@@ -53,5 +53,5 @@ Like a message to provide feedback to the author.
 -   **[Delete a message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_DeleteAMessage.md)**  
 Users can delete any of their own posts or replies. A conversation administrator can also delete messages.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

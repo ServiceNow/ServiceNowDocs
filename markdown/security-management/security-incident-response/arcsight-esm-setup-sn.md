@@ -104,7 +104,7 @@ Verify that the following Security Operations applications are installed and act
     -   com.glide.hub.action\_step.rest =&gt; ServiceNow IntegrationHub Action Step - REST
 5.  Threat Core
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>## What to do next

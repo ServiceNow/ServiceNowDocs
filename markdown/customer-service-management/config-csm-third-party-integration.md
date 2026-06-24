@@ -4,8 +4,6 @@ description: Configure the required components to enable the third-party data in
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-third-party-integration.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

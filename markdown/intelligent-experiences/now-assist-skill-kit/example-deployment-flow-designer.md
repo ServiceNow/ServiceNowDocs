@@ -39,7 +39,7 @@ To execute the skill:
 1.  Finalize and publish the skill.
 2.  Activate the skill.
 3.  Navigate to Workflow Studio.
-4.  Add the .
+4.  Add the [Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/execute-skill-action.md).
 
 **Parent Topic:**[Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 

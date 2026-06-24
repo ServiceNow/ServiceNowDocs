@@ -4,8 +4,6 @@ description: Logging for the case action status feature uses a metric definition
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-logging.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-09-22"
 reading_time_minutes: 1

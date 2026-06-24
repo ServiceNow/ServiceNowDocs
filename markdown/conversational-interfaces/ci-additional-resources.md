@@ -4,8 +4,6 @@ description: If you’re looking for Conversational Interfaces \(CI\) best pract
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ci-additional-resources.html
 release: zurich
-product: Conversational Interfaces
-classification: conversational-interfaces
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---

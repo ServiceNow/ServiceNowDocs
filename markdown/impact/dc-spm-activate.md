@@ -4,8 +4,6 @@ description: Activate the Data Collection Pack for SPM after you enable and conf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-spm-activate.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

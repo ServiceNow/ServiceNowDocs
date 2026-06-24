@@ -23,7 +23,7 @@ Role required: security\_admin
 
 **Important:**
 
--   You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+-   You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 -   Until auto-assignment is turned off, a background job continues adding existing and new users to the **Conditional Script Writer** group, which assigns the `snc_required_script_writer_permission` role. It is recommended that you deactivate auto-assignment and manage the removal process to confirm only users with a legitimate scripting need remain in the group.
 
 ## Procedure

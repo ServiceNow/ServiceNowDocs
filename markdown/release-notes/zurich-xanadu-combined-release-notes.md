@@ -4,8 +4,6 @@ description: To help you upgrade from Xanadu to Zurich, we have combined the cro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-xanadu-combined-release-notes.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2020-06-26"
 reading_time_minutes: 9

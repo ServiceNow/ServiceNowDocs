@@ -1,0 +1,33 @@
+---
+title: Install multiple applications in a batch
+description: The Batch Installation feature helps you install multiple applications, plugins, or application-customizations together, instead of having to install them serially one at a time. You can access this feature either from the Continuous Integration and Continuous Delivery \(CI/CD\) APIs via three new endpoints, or via the CI/CD Spoke on Integration Hub using Workflow Studio subflows and actions.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/cicd-spoke-batch-install.html
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Use, Legacy Application Manager, Administering applications, Get started, Administer]
+---
+
+# Install multiple applications in a batch
+
+The Batch Installation feature helps you install multiple applications, plugins, or application-customizations together, instead of having to install them serially one at a time. You can access this feature either from the Continuous Integration and Continuous Delivery \(CI/CD\) APIs via three new endpoints, or via the CI/CD Spoke on Integration Hub using Workflow Studio subflows and actions.
+
+## Overview
+
+When managing many types of applications, it can be a challenge to have separate pipelines for each application and to wait for them to serially deploy to the same environment. With the Batch Installation feature, you can install several applications together by bundling them into a single JSON manifest file. These applications include scoped or global applications, plugins, and application-customizations.
+
+A batch can contain any combination of the following types:
+
+-   A ServiceNow plugin
+-   Application: Scoped applications in the ServiceNow Store that your company doesn't own, scoped or global applications in the Application Repository owned by your company, and your application-customizations for Store applications stored in the Application Repository.
+
+## Batch installation methods
+
+For details on installing applications in a batch via the REST API see [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/cicd-api.md).
+
+For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/cicd-spoke.md).
+
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-legacy-application-manager.md)
+

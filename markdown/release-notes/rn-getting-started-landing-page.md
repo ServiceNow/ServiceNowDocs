@@ -4,8 +4,6 @@ description: Learn how to navigate the redesigned release notes and find the inf
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-getting-started-landing-page.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

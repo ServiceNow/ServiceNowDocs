@@ -4,8 +4,6 @@ description: Explore the home page for the employee requester persona along with
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/exploring-emp-home.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 2

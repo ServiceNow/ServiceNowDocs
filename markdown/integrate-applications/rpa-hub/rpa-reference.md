@@ -19,5 +19,5 @@ Reference topics provide additional information about the lists and forms that y
 -   **[Robotic Process Automation \(RPA\) Hub glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/rpa-hub-glossary.md)**  
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

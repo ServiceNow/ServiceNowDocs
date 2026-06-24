@@ -85,5 +85,5 @@ Reference topics provide information about tables, roles, and properties install
 -   **[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)**  
 The Anonymous Reporting Center \(ARC\) enables employees to submit compliance, privacy, or AI‑related concerns without revealing their identity. Employees are automatically signed out of the **Employee Center** when ARC opens.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

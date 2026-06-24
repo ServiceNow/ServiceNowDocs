@@ -4,8 +4,6 @@ description: Activate a skill before you can use the generative AI capabilities 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/activate-now-assist-skills-in-now-assist-for-impact\_0.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1

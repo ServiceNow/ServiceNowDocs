@@ -148,5 +148,5 @@ The ServiceNow® Test Management 2.0 application streamlines the management of t
 -   **[Migration from Test Management 1.0 to Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/migrate-test.md)**  
 Migrate your test data from Test Management 1.0 to Test Management 2.0, and start using Test Management 2.0 for its enhanced testing capabilities and features.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
 

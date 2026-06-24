@@ -4,10 +4,8 @@ description: Planned Work Management uses the following system properties, which
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/planned\_work\_management\_sys\_properties.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management components, Components installed with additional plugins, Reference, Field Service Management]
 ---

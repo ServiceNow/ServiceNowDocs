@@ -4,8 +4,6 @@ description: After you have upgraded your development, non-production, and test 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-7.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3

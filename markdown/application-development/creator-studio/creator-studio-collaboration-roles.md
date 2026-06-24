@@ -23,7 +23,7 @@ Collaboration, also referred to as [delegated development](https://raw.githubuse
 
 **Note:** You must have an App Engine Enterprise license to take full advantage of collaboration.
 
-The ServiceNow AI Platform Collaboration app is automatically installed with Creator Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+The ServiceNow AI Platform Collaboration app is automatically installed with Creator Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
 
 ## Collaboration descriptors: Owners and Editors
 
@@ -31,7 +31,7 @@ So, you realize you either need help with your app, or you want to help someone 
 
 There are two standard types of collaborators when you co-develop an app with other people: Owners and Editors. These two roles are called [collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-glossary.md). The collaboration descriptor that someone is assigned determines if they can assign, manage, and monitor delegated development permissions. For example, people who are Owners can do more than people with the Editor collaboration type.
 
-If needed, your admin can define custom collaboration descriptors to select when managing collaborators, either in the Creator Studio Guided Setup or in the Collaboration app. For more information on custom descriptors, see [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md) and [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/create-collaboration-descriptors.md).
+If needed, your admin can define custom collaboration descriptors to select when managing collaborators, either in the Creator Studio Guided Setup or in the Collaboration app. For more information on custom descriptors, see [Configure Creator Studio using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/config-creator-studio-guided-setup.md) and [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-collaboration-descriptors.md).
 
 <table id="table_p2r_v4r_m1c"><thead><tr><th>
 

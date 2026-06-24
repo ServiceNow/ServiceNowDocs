@@ -47,5 +47,5 @@ Domain separation is supported for TPRM. Domain separation enables you to separa
 -   **[Vendor Risk Overview reports — Legacy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-risk-overview-reports.md)**  
 The Vendor Risk Overview page is replaced by the third-party risk reports on the Vendor Management Workspace.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

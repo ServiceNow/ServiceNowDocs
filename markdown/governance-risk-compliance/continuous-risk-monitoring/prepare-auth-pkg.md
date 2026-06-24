@@ -26,5 +26,5 @@ An authorization boundary defines the scope of a particular system that can be c
 -   **[Create an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.md)**  
 After you have defined the authorization boundaries for the assets or systems to send through the Authorization to Operate process, you must create an authorization package for that purpose. The package is processed through the seven steps mandated by the RMF.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -54,7 +54,7 @@ There is no support for LIKE or CONTAINS conditions in the **Where clause** clau
 
 1.  From the Database View form, select **New** on the View Tables related list.
 
-2.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md) and add the **Left join** field \(a check box\) to the form.
+2.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md) and add the **Left join** field \(a check box\) to the form.
 
 3.  Select **Save**.
 

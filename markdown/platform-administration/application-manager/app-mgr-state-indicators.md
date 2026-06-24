@@ -90,7 +90,7 @@ This application has custom terms and conditions that haven't been accepted yet.
 
 </td><td>
 
-Accept the application's custom terms and conditions on the ServiceNow Store to enable installation. For more information, see [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/get-free-app.md).
+Accept the application's custom terms and conditions on the ServiceNow Store to enable installation. For more information, see [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/get-free-app.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ The standard terms and conditions for the ServiceNow Store must be accepted.
 
 </td><td>
 
-Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and accept the standard terms and conditions. For more information, see [Terms and conditions in the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/sn-store-tncs.md).
+Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and accept the standard terms and conditions. For more information, see [Terms and conditions in the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/sn-store-tncs.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ The application requires a license to install in non-production instances. You d
 
 </td><td>
 
-Purchase the necessary license. For more information, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md).
+Purchase the necessary license. For more information, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md).
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Your license for this application is expiring soon.
 
 </td><td>
 
-Contact your account executive or the application's provider and renew your license to continue using the application. For more information about contacting an application provider, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/contact-seller.md).
+Contact your account executive or the application's provider and renew your license to continue using the application. For more information about contacting an application provider, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contact-seller.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ You don't have a valid license for this application yet, or your license has exp
 
 </td><td>
 
-Purchase the necessary license. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-partner-app.md).
+Purchase the necessary license. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-partner-app.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ This application requires approval from the provider before it can be procured o
 
 Go to the ServiceNow Store and request the application. Paid applications and applications that are available at no additional cost can require approval.
 
- For more information about procuring applications from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
+ For more information about procuring applications from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/getting-apps-trials.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Your purchase of this application is being processed.
 
 </td><td>
 
-Monitor the email address associated with your ServiceNow Store account for updates. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-partner-app.md).
+Monitor the email address associated with your ServiceNow Store account for updates. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-partner-app.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +188,7 @@ The request to purchase the application wasn’t approved by the provider.
 
 </td><td>
 
-Purchase approval is granted at the discretion of the application provider. If you have questions, you can contact the provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/contact-seller.md).
+Purchase approval is granted at the discretion of the application provider. If you have questions, you can contact the provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contact-seller.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ The application provider has requested that you deactivate the application.
 
 Uninstall or deactivate the application on your instance. For more information, see [Uninstalling applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/uninstalling-apps-app-manager.md).
 
- If you have questions, you can contact the application provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/contact-seller.md).
+ If you have questions, you can contact the application provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contact-seller.md).
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ A trial of this application is available to request from the ServiceNow Store.
 
 </td><td>
 
-Request a trial of the application from the ServiceNow Store. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/start-trial.md).
+Request a trial of the application from the ServiceNow Store. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/start-trial.md).
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ Installing a trial of this application requires approval from the provider.
 
 </td><td>
 
-Request a 30-day trial of the application from the ServiceNow Store. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/start-trial.md).
+Request a 30-day trial of the application from the ServiceNow Store. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/start-trial.md).
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Your trial request for this application has been submitted to the application pr
 
 </td><td>
 
-Monitor the email address associated with your ServiceNow Store account for updates. Trial approvals are granted at the application provider's discretion. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/start-trial.md).
+Monitor the email address associated with your ServiceNow Store account for updates. Trial approvals are granted at the application provider's discretion. For more information, see [Start an application trial from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/start-trial.md).
 
 </td></tr><tr><td>
 
@@ -252,7 +252,7 @@ A 30-day trial of this application has been activated.
 
 Install the application in a non-production instance for testing and evaluation. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/installing-applications-in-application-manager.md).
 
- If you want to install the application in a production instance or continue using it after the trial period, purchase the application from the ServiceNow Store. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-partner-app.md).
+ If you want to install the application in a production instance or continue using it after the trial period, purchase the application from the ServiceNow Store. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-partner-app.md).
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Your trial request for this application has been rejected.
 
 </td><td>
 
-Trial approval is granted at the discretion of the application provider. If you have questions, you can contact the provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/contact-seller.md).
+Trial approval is granted at the discretion of the application provider. If you have questions, you can contact the provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contact-seller.md).
 
 </td></tr><tr><td>
 
@@ -278,7 +278,7 @@ The application trial period has expired.
 
 If you don't want to continue using the application after the trial period, uninstall or deactivate the application. For more information, see [Uninstalling applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/uninstalling-apps-app-manager.md).
 
- If you want to continue using the application in a production instance, purchase the license from the ServiceNow Store. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/buy-partner-app.md).
+ If you want to continue using the application in a production instance, purchase the license from the ServiceNow Store. For more information about purchasing applications, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-servicenow-app.md) or [Buy a partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/buy-partner-app.md).
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ The provider of this application has requested that you deactivate the trial.
 
 Uninstall or deactivate the application on your instance. For more information, see [Uninstalling applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/uninstalling-apps-app-manager.md).
 
- If you have questions, you can contact the application provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/contact-seller.md).
+ If you have questions, you can contact the application provider. For more information, see [Contact a seller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contact-seller.md).
 
 </td></tr><tr><td>
 

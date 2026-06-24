@@ -4,11 +4,9 @@ description: The Zurich Patch 10 release contains important problem fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-10.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-16"
-reading_time_minutes: 105
+reading_time_minutes: 106
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -1205,6 +1203,35 @@ A system property called glide.search.exact\_match \_use\_search\_source\_filter
 Set the system property glide.search.exact\_match\_use\_search\_source\_filter to true.
 
  Notice how setting this property to true applies to all search applications. Instead, it should be enabled/inactive for a single application.
+
+</td></tr><tr><td>
+
+AI Search UX
+
+ PRB2006060
+
+</td><td>
+
+Now Assist AI Search summary links \(catalog item references\) are non-functional, but appear active due to the text styling
+
+</td><td>
+
+When a user performs an AI Search on Employee Center/Employee Service Center, the generated summary contains functional reference links to catalog items. When the user selects **Ask a follow-up**, the AI Search summary is copied into the Virtual Agent \(VA\) chat window. The catalog item reference links within a copied summary in VA are non-functional, which is expected. However, they still appear active due to the text styling. Instead, they should appear faded and the link pop-up shouldn't be displayed.
+
+</td><td>
+
+1.  Log in to an ESC/EC portal.
+2.  In the search bar, enter a query that triggers an AI Search summary with catalog item links \(for example, 'I would like to order hardware' or 'reset password'\).
+
+In the AI Search generated summary, observe that the reference links to catalog items are functional.
+
+3.  Select **Ask a follow-up**.
+
+Observe that the AI Search summary is copied into the Virtual Agent \(VA\) chat window.
+
+4.  In the VA chat window, select any of the catalog item reference links.
+
+ Observe that the links are non-functional, but they appear active due to the text styling. A pop-up is also displayed.
 
 </td></tr><tr><td>
 

@@ -70,7 +70,7 @@ The Search Application Attribute Configuration New record page appears.
 
 1.  Configure the form layout.
 
-For instructions on configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+For instructions on configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
 2.  Select the \[\[\[ **Hybrid search** \]\]\] option.
 3.  Select **Update**.

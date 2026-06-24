@@ -24,5 +24,5 @@ The playbooks in the Healthcare CMMS application use the CSM Configurable Worksp
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with the medical device cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-definitions.md).
 
-**Note:** When configuring a process definition for the playbook associated with medical device AEM cases, ensure that the application scope is set to Healthcare Computerized Maintenance Management System using the application picker. For more information, see Application picker.
+**Note:** When configuring a process definition for the playbook associated with medical device AEM cases, ensure that the application scope is set to Healthcare Computerized Maintenance Management System using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 

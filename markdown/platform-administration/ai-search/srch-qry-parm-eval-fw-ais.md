@@ -338,7 +338,7 @@ Search administrators can exclude individual search profiles from the search que
 
 3.  If the Search Profile form doesn't already display the **Exclude from evaluation** field, configure the form layout to make the field visible.
 
-    For details on configuring a form layout to make fields visible, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+    For details on configuring a form layout to make fields visible, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
 4.  Select the **Exclude from evaluation** option.
 

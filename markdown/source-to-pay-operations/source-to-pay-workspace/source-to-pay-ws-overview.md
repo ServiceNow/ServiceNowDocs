@@ -136,5 +136,5 @@ Procurement specialists, sourcing managers, supplier managers, supplier contacts
 -   **[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)**  
 Reference topics provide additional information about articles, lists and forms that you use in Source-to-Pay Workspace.
 
-**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-and-supply-chain/source-to-pay-operations-overview.md)
+**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-operations-overview.md)
 

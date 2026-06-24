@@ -4,8 +4,6 @@ description: You can modify an existing definition to further customize and refi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/view-modify-scan-engine-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-09-22"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: Following are the tables that are synced with anything related to r
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerators-mapping.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-11-18"
 reading_time_minutes: 1

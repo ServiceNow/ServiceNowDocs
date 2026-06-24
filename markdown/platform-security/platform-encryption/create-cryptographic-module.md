@@ -18,13 +18,13 @@ Create a cryptographic module to define the mechanisms used for cryptographic op
 
 ## Before you begin
 
-If you're supplying your own keys, go to [Configure and upload your customer supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/upload-customer-supplied-key.md).
+If you're supplying your own keys, go to [Configure and upload your customer supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/upload-customer-supplied-key.md).
 
 Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/create-PE-cryptographic-module.md).
+This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/create-PE-cryptographic-module.md).
 
 **Note:** Cryptographic module \[sys\_kmf\_crypto\_module\] records can't be deleted.
 

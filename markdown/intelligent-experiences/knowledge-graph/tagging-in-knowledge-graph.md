@@ -75,6 +75,6 @@ Follow these steps to create or edit tags:
     -   An individual tag for each workspace that encompasses key tables relevant to that workspace. This ensures the Now Assist panel can deliver responses specific to queries related to the workspace tables when accessed within each workspace.
     -   Create a general tag that includes the most important tables required to answer users questions on Now Assist panel, allowing the Now Assist panel to provide relevant answers when used outside of any workspace.
     -   For more information on adding workspace tags in Now Assist Panel, see .
--   AI agent: For an AI agent use case, include key tables relevant to the agent's purpose. For example, for asset manager agents User, Asset, and other crucial tables should be included in the tag. For more information, see [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/add-knowledge-graph.md).
+-   AI agent: For an AI agent use case, include key tables relevant to the agent's purpose. For example, for asset manager agents User, Asset, and other crucial tables should be included in the tag. For more information, see [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/add-knowledge-graph.md).
 
 

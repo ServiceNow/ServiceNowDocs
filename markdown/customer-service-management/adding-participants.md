@@ -4,8 +4,6 @@ description: This step is the final phase in your simulation where you add agent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/adding-participants.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-10-16"
 reading_time_minutes: 1

@@ -19,5 +19,5 @@ The following topics provide additional information about the features and prope
 -   **[Components installed with Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/conversational-intelligence/components-installed-with-conversation-insights.md)**  
 Installation of the Conversation Insights application also installs the Conversation Insights \[sn\_aci\_insights\] table.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-products.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-products.md)
 

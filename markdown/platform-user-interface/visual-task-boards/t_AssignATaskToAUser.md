@@ -36,7 +36,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 
 1.  Do one of the following actions.
 
-<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d43735e97">
+<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d43728e97">
 
 **Add an assignee from the quick panel**
 
@@ -46,7 +46,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 2.  Drop the avatar in the **Primary** or **Additional** drop zone.
 
 
-</td></tr><tr><td id="d43735e121">
+</td></tr><tr><td id="d43728e121">
 
 **Add an assignee from the card details**
 

@@ -32,7 +32,7 @@ Because Expert Feedback Loop relies on the data from VA chat logs, make sure tha
 
 Before you start an import, make sure you have access to the data in your instance and have enough data to proceed with your feedback.
 
-If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see Importing from another ServiceNow instance.
+If you're working in a sub-production instance, you must import the feedback data from the **open\_nlu\_predict\_intent\_feedback** table in your production instance to your sub-production instance. For guidance on how to import, see [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md).
 
 Here are a few data scenarios regarding the system behavior for the NLU models that house the feedback loop utterances.
 

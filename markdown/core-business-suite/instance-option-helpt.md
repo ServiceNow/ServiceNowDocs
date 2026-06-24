@@ -4,8 +4,6 @@ description: Configure the instance options for the Help topics widget on the CB
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/instance-option-helpt.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-24"
 reading_time_minutes: 1

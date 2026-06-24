@@ -4,10 +4,8 @@ description: Perform the Modify operation on a single product inventory record t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/modify\_product\_inventory\_records.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

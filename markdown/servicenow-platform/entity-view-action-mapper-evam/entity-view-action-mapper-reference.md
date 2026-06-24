@@ -21,5 +21,5 @@ Learn about the roles needed to configure and manage the Entity View Action Mapp
 -   **[Domain separation and EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/domain-separation-and-evam.md)**  
 The Entity View Action Mapper \(EVAM\) in ServiceNow supports domain separation. This means you can configure EVAM to separate data, processes, and administrative tasks into logical groupings called domains, ensuring that users have access only to the data pertinent to their specific domain.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

@@ -18,7 +18,7 @@ Create a connection to fetch and update scores from EcoVadis to help ensure that
 
 ## Before you begin
 
-Activate the Vendor Risk Management integration with EcoVadis application \[com.sn\_app\_grc\_ecovadis\]. To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+Activate the Vendor Risk Management integration with EcoVadis application \[com.sn\_app\_grc\_ecovadis\]. To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 Role required: admin
 

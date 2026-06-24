@@ -19,5 +19,5 @@ The reference topics provide additional information about Instance Scan.
 -   **[Instance Scan roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/instance-scan/instance-scan-roles.md)**  
 Instance Scan is installed with these roles.
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-monitor-now-platform.md)
 

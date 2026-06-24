@@ -124,7 +124,7 @@ Contains the component, static value, field-mapping, and action-mapping settings
 </td></tr></tbody>
 </table>## List of all components installed with Now Assist in AI Search
 
-To view the complete list of components installed with Now Assist in AI Search, follow the steps in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md). The application's package name is **Now Assist in AI Search**.
+To view the complete list of components installed with Now Assist in AI Search, follow the steps in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md). The application's package name is **Now Assist in AI Search**.
 
 **Parent Topic:**[Now Assist in AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/reference-now-assist-ais.md)
 

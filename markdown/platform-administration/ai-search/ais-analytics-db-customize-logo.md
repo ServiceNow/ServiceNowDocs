@@ -65,7 +65,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
     4.  In the UX Theme Assets list, edit the existing asset record.
 
-        **Note:** If you don't see the UX Theme Assets list, configure the form layout, adding **UX Theme Assets-&gt;Theme** to the list of selected fields. When prompted, switch to editing the form section in the Global application. For details on this procedure, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+        **Note:** If you don't see the UX Theme Assets list, configure the form layout, adding **UX Theme Assets-&gt;Theme** to the list of selected fields. When prompted, switch to editing the form section in the Global application. For details on this procedure, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
     5.  On the UX Theme Assets form, in the **Asset** field, enter the value `header_for_dashboard`.
 

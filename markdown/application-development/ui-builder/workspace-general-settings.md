@@ -20,7 +20,7 @@ This video show you how to perform the following procedure.
 
 ## Before you begin
 
-You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
+You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md).
 
 Role required: ui\_builder\_admin
 

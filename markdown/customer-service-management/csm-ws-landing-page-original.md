@@ -4,8 +4,6 @@ description: The CSM Landing Page provides users with lists of assigned cases an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-ws-landing-page-original.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3

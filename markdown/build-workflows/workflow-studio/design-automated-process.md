@@ -20,7 +20,7 @@ Transform an example manual business process into a well-designed, automated pro
 
 -   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Follow the steps to Configure a Playbook user experience.
--   Ensure that your current application is set to **Global**. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   Ensure that your current application is set to **Global**. For more information, see Application picker.
 -   Role required: admin or playbook.admin
 
 ## About this task

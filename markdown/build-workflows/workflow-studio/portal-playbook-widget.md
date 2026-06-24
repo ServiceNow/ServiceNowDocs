@@ -70,7 +70,7 @@ Application
 
 </td><td>
 
-Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md).
+Choose an application scope that you want your widget to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
 
 </td></tr><tr><td>
 

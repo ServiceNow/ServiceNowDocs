@@ -4,8 +4,6 @@ description: Browser support varies for each version of the user interface \(UI\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/browser-support.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -29,5 +29,5 @@ There are some types of records that you can’t merge while resolving differenc
 -   **[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/r_VersionRecords.md)**  
 The sys\_update\_version table contains records that represent the state of a customizable object at a particular time.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
 

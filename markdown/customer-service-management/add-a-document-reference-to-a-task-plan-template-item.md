@@ -4,8 +4,6 @@ description: Add documents to task plan template items through extensible featur
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-a-document-reference-to-a-task-plan-template-item.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

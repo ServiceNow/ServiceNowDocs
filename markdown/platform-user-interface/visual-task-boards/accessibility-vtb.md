@@ -18,7 +18,7 @@ Accessibility improvements in Visual Task Boards include skip links and the abil
 
 ## Skip links
 
-Skip links allow you to tab directly to the main content on a page. When [accessibility mode is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md), task boards include a skip link to view tasks as a list. The **View tasks as a list** skip link switches all the task cards to the table view. For more information on viewing task boards in a list view, see [View a Visual Task Board in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/view-board-list.md).
+Skip links allow you to tab directly to the main content on a page. When [accessibility mode is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_SetUpSect508ComplianceFeature.md), task boards include a skip link to view tasks as a list. The **View tasks as a list** skip link switches all the task cards to the table view. For more information on viewing task boards in a list view, see [View a Visual Task Board in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/view-board-list.md).
 
 ## View card details
 

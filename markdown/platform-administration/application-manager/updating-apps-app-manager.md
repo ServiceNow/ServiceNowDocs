@@ -27,7 +27,7 @@ There are some exceptions that might require you to procure the new application 
 -   A new version of a previously installed dependency has updated terms and conditions that must be accepted. The dependency is eligible for update after procuring the updated version of the dependency from the ServiceNow Store.
 -   The provider of an application or product requires that each new version is procured from the ServiceNow Store. The application or product dependencies are available for update after procuring an updated version of the application or product from the ServiceNow Store.
 
-For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/getting-apps-trials.md).
+For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/getting-apps-trials.md).
 
 ## Notifications about available updates
 
@@ -38,5 +38,5 @@ For more information about contact roles and notifications in the ServiceNow AI 
 -   **[Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/update-application-app-mgr.md)**  
 Update an application or plugin to get the latest features that are compatible with your instance version.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/administering-applications.md)
 

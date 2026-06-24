@@ -4,8 +4,6 @@ description: Trigger types determine the initiation of the execution of the work
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/schedule-trigger-types.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-11-19"
 reading_time_minutes: 5

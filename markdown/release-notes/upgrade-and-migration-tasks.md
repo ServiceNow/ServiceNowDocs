@@ -4,10 +4,8 @@ description: In preparation for your upgrade, review the upgrade and migration t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrade-and-migration-tasks.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 97
 breadcrumb: [Prepare your upgrade, Zurich release notes]
 ---

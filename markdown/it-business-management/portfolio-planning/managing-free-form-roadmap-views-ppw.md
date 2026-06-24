@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---

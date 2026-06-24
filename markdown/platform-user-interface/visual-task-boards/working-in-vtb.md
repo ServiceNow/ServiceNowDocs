@@ -35,5 +35,5 @@ Visual Task Board task cards can represent a personal task or a record on a tabl
 -   **[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)**  
 Checklists help you track the progress of tasks on your Visual Task Board.
 
-**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/personalize-your-experience.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/personalize-your-experience.md)
 

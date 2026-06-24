@@ -4,8 +4,6 @@ description: Customize an existing work scheduler card based on your need. You c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-work-scheduler-wfo-cs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

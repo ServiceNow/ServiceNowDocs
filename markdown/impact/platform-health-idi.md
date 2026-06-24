@@ -4,8 +4,6 @@ description: Use Impact Platform Health to track Tech Key Performance Indicators
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/platform-health-idi.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-09-30"
 reading_time_minutes: 1

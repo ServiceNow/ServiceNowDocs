@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the IBM QRadar tile.
 

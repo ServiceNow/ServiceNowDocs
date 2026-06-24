@@ -18,7 +18,7 @@ Manage ServiceNow IT service requests from your EMR system by using either a sys
 
 ## Using a system support module for your EMR system
 
-Use the pre-built ServiceNow scripted REST APIs for submitting IT service requests within your EMR system. The Remote help request API is available for integrations with your EMR system. For more information, see Remote help request API.
+Use the pre-built ServiceNow scripted REST APIs for submitting IT service requests within your EMR system. The Remote help request API is available for integrations with your EMR system. For more information, see [Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-apis/remote_help_request-api.md).
 
 ## Using a dedicated service portal for your EMR system
 

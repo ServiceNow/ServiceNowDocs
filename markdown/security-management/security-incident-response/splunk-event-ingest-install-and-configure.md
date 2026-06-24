@@ -24,7 +24,7 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## Procedure
 
-1.  If you have not installed the Splunk Enterprise Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Splunk Enterprise Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  Navigate to **All** &gt; **Integrations** &gt; **Integrations Configurations**
 

@@ -57,5 +57,5 @@ Activate or update NIST Risk Management Framework and select the citations for t
 -   **[Activate or update EU Artificial Intelligence Act using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)**  
 Activate or update the EU Artificial Intelligence Act and select the citations for the framework. It installs the framework and the selected citations on your instance.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

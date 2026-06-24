@@ -4,8 +4,6 @@ description: ServiceNow Service Exchange connects multiple ServiceNow instances 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/tmt-service-bridge-both-landing-page.html
 release: zurich
-product: Service Exchange
-classification: service-exchange
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

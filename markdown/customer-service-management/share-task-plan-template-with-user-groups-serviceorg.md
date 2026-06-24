@@ -4,8 +4,6 @@ description: Share templates and grant access to the template with specific user
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/share-task-plan-template-with-user-groups-serviceorg.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-09-24"
 reading_time_minutes: 1

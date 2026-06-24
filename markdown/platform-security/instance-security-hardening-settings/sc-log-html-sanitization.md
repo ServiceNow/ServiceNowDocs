@@ -100,7 +100,7 @@ References
 
 </td><td>
 
-[Enabling HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ActivateHTMLSanitizer.md)
+[Enabling HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateHTMLSanitizer.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)

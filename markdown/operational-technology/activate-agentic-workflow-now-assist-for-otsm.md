@@ -4,8 +4,6 @@ description: You must activate the agentic workflows from the AI Agent Studio. T
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/activate-agentic-workflow-now-assist-for-otsm.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2026-01-14"
 reading_time_minutes: 1

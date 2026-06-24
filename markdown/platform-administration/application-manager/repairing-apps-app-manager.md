@@ -31,5 +31,5 @@ For more information about customizations, see [Customization vs. configuration 
 -   **[Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/repair-application-app-mgr.md)**  
 Repair an application procured through the ServiceNow Store or a plugin included in your instance. Repairing apps or plugins can resolve issues caused by unintentional modifications, corrupted files, or partial deletion.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/administering-applications.md)
 

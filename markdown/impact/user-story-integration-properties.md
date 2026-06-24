@@ -4,8 +4,6 @@ description: With Scan Engine, you can create agile tasks and stories directly f
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/user-story-integration-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 2

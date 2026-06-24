@@ -24,7 +24,7 @@ Requesters, contributors, and back-office agents use personalized workspace to w
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 <table id="table_qy3_jmx_tnb"><thead><tr><th>
 
@@ -88,7 +88,7 @@ Loan admin
 
 </td><td>
 
-Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Configures the loan workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Workflows
@@ -110,5 +110,5 @@ Using the case playbook, loan contributor and loan agents can visualize and inte
 
 Performance Analytics give business owners an insight into how the team and business are performing. Dashboards with customizable views are available for business and personal loan operations with the application.
 
-For more information, see [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/business-loan-operations-dashboard.md).
+For more information, see [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/business-loan-operations-dashboard.md).
 

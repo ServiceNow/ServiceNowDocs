@@ -30,7 +30,7 @@ Inferred CSAT is a numerical score from 1 \(least satisfied\) to 5 \(most satisf
 -   Frustration: Flags signs of user dissatisfaction or repeated failed attempts during the interaction.
 -   Transfers and Escalations: Tracks how often the Virtual Agent or AI agent handed off the conversation to a human agent or another system.
 
-Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
+Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
 
 The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-db-in-ac.md) and [Select a table data source for a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/select-table-data-source.md).
 
@@ -46,7 +46,7 @@ Use the additional insights introduced to report on Inferred CSAT segmented by i
 
 The score for Inferred CSAT segmented by intent is automatically generated when customers upgrade the Conversation Insights app. It requires a minimum sample size of 500 conversations to start and samples up to 2000 records every 15 minutes.
 
-These metrics are available in the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/ai-agent-dashboard.md), under the Insights tab, where you can find two new charts.
+These metrics are available in the [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-dashboard.md), under the Insights tab, where you can find two new charts.
 
 You can also explore the conversational insights for Now Assist Panel and Now Assist Virtual Agent. To view the dashboard, go to **Dashboards** &gt; **AI Engagement Analytics** &gt; **Platform Analytics** section or **Dashboards** &gt; **AI Engagement Analytics** &gt; **Voice Agents** Agents section.
 

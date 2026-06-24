@@ -4,8 +4,6 @@ description: Description of the Chat feature configuration form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-chat-feature-configuration-fields.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

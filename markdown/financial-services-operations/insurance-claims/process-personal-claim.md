@@ -28,15 +28,15 @@ Update and close the tasks of the claim case.
 
 2.  Open the claim case and task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d119367e76">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d119382e76">
 
 Option
 
-</th><th align="left" id="d119367e79">
+</th><th align="left" id="d119382e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d119367e85">
+</th></tr></thead><tbody><tr><td id="d119382e85">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d119367e94">
+</td></tr><tr><td id="d119382e94">
 
 **From the case playbook**
 
@@ -61,7 +61,7 @@ Select an active case from the My pending tasks or My open claims list.
     -   **Fulfillment**
 
 
-</td></tr><tr><td id="d119367e157">
+</td></tr><tr><td id="d119382e157">
 
 **From a personal auto claim case**
 
@@ -74,7 +74,7 @@ Select an active case from the My pending tasks or My open claims list.
 5.  In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d119367e205">
+</td></tr><tr><td id="d119382e205">
 
 **From the Personal auto claim tasks list**
 
@@ -101,15 +101,15 @@ Select an active case from the My pending tasks or My open claims list.
 
 5.  Close the task from the playbook activity or the task form.
 
-<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d119367e288">
+<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d119382e288">
 
 Claim task
 
-</th><th align="left" id="d119367e291">
+</th><th align="left" id="d119382e291">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d119367e297">
+</th></tr></thead><tbody><tr><td id="d119382e297">
 
 **To submit incident details**
 
@@ -117,7 +117,7 @@ Action
 
 In the case playbook, select **Mark complete**.
 
-</td></tr><tr><td id="d119367e309">
+</td></tr><tr><td id="d119382e309">
 
 **To validate a claim**
 
@@ -125,7 +125,7 @@ In the case playbook, select **Mark complete**.
 
 A claim validation task is created when a business rule determines a duplicate claim due to the same insurance policy and loss date.To validate a claim: In the task form, select **Approve** to validate the claim or **Reject** to deny and close the claim.
 
-</td></tr><tr><td id="d119367e327">
+</td></tr><tr><td id="d119382e327">
 
 **To add or edit claim property, participant, or coverage information**
 
@@ -133,7 +133,7 @@ A claim validation task is created when a business rule determines a duplicate c
 
 In the case playbook, select **Save**.
 
-</td></tr><tr><td id="d119367e339">
+</td></tr><tr><td id="d119382e339">
 
 **To initiate a claim**
 
@@ -141,7 +141,7 @@ In the case playbook, select **Save**.
 
 In the case playbook, select **Submit**.
 
-</td></tr><tr><td id="d119367e352">
+</td></tr><tr><td id="d119382e352">
 
 **To close a claim**
 

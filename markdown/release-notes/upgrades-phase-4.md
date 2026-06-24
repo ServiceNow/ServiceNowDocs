@@ -4,8 +4,6 @@ description: Track the progress of your upgrades with the Upgrade Monitor. For y
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-4.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -41,12 +39,12 @@ The Upgrade Monitor helps you upgrade an individual instance. You can monitor th
     -   Were created while reviewing the skipped updates list.
     -   Were created while changing customizations to work with the latest release.
     -   Must go live immediately after your next upgrade.
-    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md) for details.
+    Gathering these update sets before your upgrade expedites the process of exporting, importing, and committing them onto your other instances. After the correct update sets are identified, follow the standard process for moving and applying those update sets. Refer to System update sets for details.
 
 4.  Before and after upgrading, conduct smoke tests on your development instance. Use your comprehensive test plan to perform functional testing.
 
     After upgrading, track any defects or deviations from the pre-upgrade testing results. Defect tracking can help identify root causes and create fixes. When a fix is identified, capture the fix in a single update set. The resulting update sets hold the cumulative fixes that should be applied to the production instance.
 
-    To help automate your testing and validation on non-production instances, use the [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md). You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md).
+    To help automate your testing and validation on non-production instances, use the Automated Test Framework. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
 
 

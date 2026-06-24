@@ -4,8 +4,6 @@ description: Schedule Management as a standalone plugin supports to manage agent
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/schedule-management-as-a-standalone-activation.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: reference
 last_updated: "2026-06-09"
 reading_time_minutes: 1

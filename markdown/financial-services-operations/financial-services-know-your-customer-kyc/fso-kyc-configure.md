@@ -28,8 +28,8 @@ Role required: sn\_bom\_kyc.admin and admin
 
     |Task|Description|
     |----|-----------|
-    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-service-definitions.md) to enable specific views for KYC service cases and tasks.|
-    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/create-modify-record-producers-fso-apps.md) to define request forms.|
-    |**Edit or create new flows**|[Edit or create new flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using ServiceNow® Workflow Studio.|
+    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-service-definitions.md) to enable specific views for KYC service cases and tasks.|
+    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.|
+    |**Edit or create new flows**|[Edit or create new flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using ServiceNow® Workflow Studio.|
 
 

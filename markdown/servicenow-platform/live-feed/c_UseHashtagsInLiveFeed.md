@@ -33,5 +33,5 @@ You can view all postings assigned a specific hashtag by following the hashtag. 
 -   **[Remove a hashtag from a posted message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_RemoveAHashtagFromAPostedMessage.md)**  
 As a participant in a conversation, you can remove hashtags from messages that have already been posted.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

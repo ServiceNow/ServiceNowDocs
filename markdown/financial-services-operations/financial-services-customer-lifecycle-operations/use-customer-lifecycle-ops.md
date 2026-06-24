@@ -26,7 +26,7 @@ Relationship managers, administrators, and agents use workspaces and landing pag
 -   Customizing your workflow.
 -   Monitoring workload and performance.
 
-For more information on workspaces and playbooks, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information on workspaces and playbooks, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 ## Workflows
 
@@ -40,5 +40,5 @@ For more information, see [Customer Lifecycle Operations workflows](https://raw.
 
 ServiceNow® Performance Analytics give business owners insight into how the team and business are performing. Dashboards with customizable views are available for Business Lifecycle and Client Lifecycle within their respective applications.
 
-For more information, see [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-business-lifecycle-dashboard.md) and [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-client-lifecycle-dashboard.md).
+For more information, see [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-business-lifecycle-dashboard.md) and [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-client-lifecycle-dashboard.md).
 

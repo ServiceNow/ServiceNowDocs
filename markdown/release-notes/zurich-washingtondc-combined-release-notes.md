@@ -4,8 +4,6 @@ description: To help you upgrade from Washington DC to Zurich, we have combined 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-washingtondc-combined-release-notes.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2020-06-26"
 reading_time_minutes: 9

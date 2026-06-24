@@ -4,8 +4,6 @@ description: Stay ahead of job delays by identifying and acting on jobs that bre
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-long-pending-job-alert-card.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3

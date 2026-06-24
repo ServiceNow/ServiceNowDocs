@@ -39,5 +39,5 @@ Back out all local changes and restore the last version reconciled with the pare
 -   **[Ignore a local change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/t_IgnoreALocalChange.md)**  
 Ignoring a local change helps to prevent a record from generating new versions in the Local Changes list.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
 

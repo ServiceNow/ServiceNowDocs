@@ -4,8 +4,6 @@ description: Enable users to engage with live agents, virtual agents, or both us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/convint-landing-page.html
 release: zurich
-product: Conversational Interfaces
-classification: conversational-interfaces
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-See the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/navigate-using-url.md) page for an overview of URL syntax in the ServiceNow platform.
+See the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/navigate-using-url.md) page for an overview of URL syntax in the ServiceNow platform.
 
 The Incidents list offers a quick example of viewing a form within its own tab. This viewing method illustrates how to append the URL string to render more specific content within your site.
 

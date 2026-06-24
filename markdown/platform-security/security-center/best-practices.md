@@ -34,7 +34,7 @@ Use the ServiceNow Access Control plugin to control which employees can access y
 
  **Note:** After ServiceNow Access Control is activated, personnel must explicitly request access from you on an ad-hoc and temporary basis.
 
- For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md).
+ For details on this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_SNCAccessControl.md).
 
 </td></tr><tr><td>
 
@@ -118,9 +118,9 @@ Enable table auditing for important or sensitive data
 
 Track changes to your data using table auditing. Auditing tracks the creation, update, and deletion of all records in the table where it’s enabled, enabling admins to track changes to important or sensitive data. Admins can also choose to select specific fields in a table for auditing to see more targeted results or to reduce performance impact.
 
- For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_AuditedTables.md).
+ For details on auditing on instances, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_AuditedTables.md).
 
- For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_EnableAuditingForATable.md).
+ For specific instructions on enabling auditing on a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnableAuditingForATable.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Encrypt your data to maintain its confidentiality and integrity. Data on your in
 
  You can use different methods of encryption simultaneously for data stored in your instance, depending on your use case and the risks you wish to mitigate. For example, you can choose to transparently encrypt your data at rest using database encryption on most tables, cloud encryption on the entire data volume. You could also use full disk hardware encryption, which also requires a dedicated environment to protect against drive or server theft.
 
- Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md).
+ Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption.md).
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Security information constantly evolves, so it's crucial to stay updated with se
 
  -   [CORE Directory: ServiceNow CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0959484)
 -   [Securing the ServiceNow AI Platform: How ServiceNow protects customer data](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/ebook/ebk-how-servicenow-delivers-safe-and-secure-cloud-services.pdf)
--   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/platsec-landing.md)
+-   [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-landing.md)
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Limit accepted email sender domains
 
 Control which domains and users your instance can communicate with via email by using system address filters. These filters can be customized to your requirements.
 
- Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/designate-untrusted-trusted-email-domains.md).
+ Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/designate-untrusted-trusted-email-domains.md).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ You can view detailed information related to data import activity into your inst
 These show REST and SOAP request activity and can help you to track the volume and destination of connections to external services.
 
 
- Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/system-logs.md).
+ Learn more about system logs in [System logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/system-logs.md).
 
 </td></tr><tr><td>
 
@@ -374,7 +374,7 @@ Archive your log data to retain it beyond the default 21-day log rotation period
  Use the following resources to learn more about these methods:
 
  -   [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/r_AvailableWebServices.md)
--   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/les-landing-page.md)
+-   [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/les-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -427,7 +427,7 @@ Use the email filters feature set to deal with suspect inbound messages
 
 Create email filters to filter out messages marked as suspicious by ServiceNow Antivirus Protection. In addition to virus protection, Antivirus Protection analyzes email for malware and SPAM, scoring and the results adding this information to the message in x-headers. You can use these headers as criteria for the Email Filters Plugin to act on if desired.
 
- Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/antivirus-protection.md).
+ Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/antivirus-protection.md).
 
  Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailFilters.md).
 

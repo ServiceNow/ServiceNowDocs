@@ -18,5 +18,5 @@ Financial Services Complaint Management contains a preconfigured dashboard with 
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-complaint-mgmt-dashboard.md) is available for Financial Services Complaint Management.
+The [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-complaint-mgmt-dashboard.md) is available for Financial Services Complaint Management.
 

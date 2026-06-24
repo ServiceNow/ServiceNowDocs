@@ -4,8 +4,6 @@ description: Setup Hub provides a guided setup experience to install and configu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/exploring-nowassist-setup-itom-aiops.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-16"
 reading_time_minutes: 2

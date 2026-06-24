@@ -27,5 +27,5 @@ You can customize the KPI information you would want to see in your SPM Benchmar
 -   **[SPM Benchmarks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-reference.md)**  
 Reference information to provide additional details about SPM Benchmarks such as the fields, user roles, and scheduled job information.
 
-**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/r_ITBusinessManagement.md)
 

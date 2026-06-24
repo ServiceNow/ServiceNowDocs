@@ -22,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 ## Before you begin
 
-Set the application scope to Pre-Visit Management using the application picker. For more information, see Application picker.
+Set the application scope to Pre-Visit Management using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_previsit.admin, sn\_hcls.admin, or admin
 

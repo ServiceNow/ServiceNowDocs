@@ -1,0 +1,45 @@
+---
+title: Upload a public key for Secrets Management
+description: Upload a public key to encrypt your secrets in Secrets Management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/sm-upload-key.html
+release: zurich
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
+---
+
+# Upload a public key for Secrets Management
+
+Upload a public key to encrypt your secrets in Secrets Management.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Secrets Management** &gt; **Secret Groups** and open the secret group record.
+
+2.  In the record, select the **Manage Client Side Access** button.
+
+    A new identity group record opens.
+
+3.  Select the **Upload Identity Key** button.
+
+    A **Import identity public key certificate** window displays.
+
+4.  Enter an alias for your key in the **Identity Key alias** field.
+
+5.  Select the **Import** button, to upload the key from your local environment.
+
+6.  Select the **OK** button.
+
+    The **Group module key** field uses the identity key alias name.
+
+7.  Select **Submit** to save the identity group record.
+
+
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/secrets-dashboard.md)
+

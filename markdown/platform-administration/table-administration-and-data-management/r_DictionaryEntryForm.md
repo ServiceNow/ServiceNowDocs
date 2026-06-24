@@ -38,7 +38,7 @@ Type
 
 </td><td>
 
-Defines the field type of the column or, if the **Type** is **Collection**, indicates that the dictionary entry represents the table. For more information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_IntroductionToFields.md).You can change the type of a field. To preserve existing data, only change between logical types that map to the same physical type on the database. For example, Choice and String.
+Defines the field type of the column or, if the **Type** is **Collection**, indicates that the dictionary entry represents the table. For more information, see [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_IntroductionToFields.md).You can change the type of a field. To preserve existing data, only change between logical types that map to the same physical type on the database. For example, Choice and String.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Mandatory
 
 </td><td>
 
-Determines whether this field must contain a value to save a record. For more information, see [Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_MakingAFieldMandatory.md).**Note:** You can override this option for extended tables.
+Determines whether this field must contain a value to save a record. For more information, see [Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_MakingAFieldMandatory.md).**Note:** You can override this option for extended tables.
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Display
 
 </td><td>
 
-Indicates that this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_DisplayValues.md) for reference fields. Set this to true for the one field whose value you want to use as the text displayed in links to this table on lists and forms. By default, the **Number** field is the display value for all task tables.**Note:**
+Indicates that this field is the [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_DisplayValues.md) for reference fields. Set this to true for the one field whose value you want to use as the text displayed in links to this table on lists and forms. By default, the **Number** field is the display value for all task tables.**Note:**
 
 -   This option does not control whether a list or form displays this field as part of the layout. Instead, see [List configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/c_ListConfiguration.md) and Personalizing Forms.
 -   The display value becomes part of the form title when viewing an individual record from a table.
@@ -210,7 +210,7 @@ Reference
 
 </td><td>
 
-Makes the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceField.md).If you enter a name that does not match an existing table, a new table is created when you save your changes to the dictionary record. If the current table has a module in the application navigator, a module for the new table is automatically created in the same application menu.
+Makes the field into a [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ReferenceField.md).If you enter a name that does not match an existing table, a new table is created when you save your changes to the dictionary record. If the current table has a module in the application navigator, a module for the new table is automatically created in the same application menu.
 
 </td></tr><tr><td>
 
@@ -299,7 +299,7 @@ Dependent on field \[Advanced view\]
 
 </td><td>
 
-Specifies a field on which the current field depends. For more information, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_MakingAFieldDependent.md) **Note:** You can override this value for extended tables.
+Specifies a field on which the current field depends. For more information, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_MakingAFieldDependent.md) **Note:** You can override this value for extended tables.
 
 .
 
@@ -315,9 +315,9 @@ Choice
 
 Allows users to see a list of suggested values in one of the following ways:-   List menu without -- None --
 -   List menu with -- None --
--   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddingASuggestionField.md)
+-   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddingASuggestionField.md)
 
- If a choice is used, either define a [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ChoiceLists.md) or use the fields **Choice** table and **Choice** field to copy choices from another field elsewhere in the dictionary.
+ If a choice is used, either define a [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ChoiceLists.md) or use the fields **Choice** table and **Choice** field to copy choices from another field elsewhere in the dictionary.
 
 </td></tr><tr><td>
 

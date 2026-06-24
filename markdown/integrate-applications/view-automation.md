@@ -1,0 +1,41 @@
+---
+title: View automation
+description: View the automation created using the requirement diagram.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/view-automation.html
+release: zurich
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Using Requirement Intake Diagram, Requirement Intake Diagram, Workflow Data Fabric]
+---
+
+# View automation
+
+View the automation created using the requirement diagram.
+
+## Before you begin
+
+Role required: sn\_ac.automation\_technical\_user, playbook.write, playbook.activity\_def\_read, connection\_admin, or cmdb\_read
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
+
+2.  On the **Lists** tab \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon\), under **Build**, select **All Automation Requests**.
+
+3.  Select an automation request for which you want to view the automation.
+
+4.  Select **View Automation**.
+
+5.  The Workflow Studio page is displayed.
+
+    The page displays two views of the automation:
+
+    -   Diagram view
+    -   Board view
+6.  You can edit the diagram if required.
+
+    For more information about editing or creating diagrams, see .
+
+

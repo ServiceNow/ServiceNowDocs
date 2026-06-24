@@ -4,8 +4,6 @@ description: After you've configured and refined your development instance, requ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrades-phase-5.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -52,6 +50,6 @@ After you have applied your development update sets to your test instance, perfo
 
 7.  Perform functional testing and monitor the performance of your instance.
 
-    Reproduce the typical user activities that occur on your production instance. The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md). For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
+    Reproduce the typical user activities that occur on your production instance. The Automated Test Framework can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests. For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
 
 

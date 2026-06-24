@@ -4,8 +4,6 @@ description: Set an alert to monitor the application performance when the averag
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-app-monitor-alert-card.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

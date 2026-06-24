@@ -23,7 +23,7 @@ Role required: now\_assist\_panel\_user
 
 **Note:** If you have users that only need to edit \(not create\) apps, they can be assigned the delegated\_developer and now\_assist\_panel\_user roles.
 
-To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/generate-ui.md).
+To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/generate-ui.md).
 
 ## About this task
 

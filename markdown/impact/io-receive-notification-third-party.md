@@ -4,8 +4,6 @@ description: Set up a basic integration between Instance Observer \(IO\) and thi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-receive-notification-third-party.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 4

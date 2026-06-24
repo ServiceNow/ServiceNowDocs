@@ -122,7 +122,7 @@ Helpful information about the group.
 
         Create a true/false field labeled `Hidden` on the Group form.
 
-        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_CreatingNewFields.md)
+        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_CreatingNewFields.md)
 
         The system creates a field called **u\_hidden** on the **Users \[sys\_user\_group\]** table and enables use of the **Hidden** check box to designate a hidden group.
 

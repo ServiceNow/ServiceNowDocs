@@ -46,7 +46,7 @@ After linking an application to source control, application developers can use A
 -   Switch branches.
 -   Import an application from a remote repository.
 
-Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_SharingApplications.md).
+Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_SharingApplications.md).
 
 ## Options available from a Git repository
 
@@ -72,7 +72,7 @@ Use an existing MID Server to connect to a source control repository. Connecting
 
 ## Source control role permissions
 
-For more information on roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+For more information on roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
 
 -   **[Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/source-control-link-application.md)**  
 Linking an application or application-customization to source control allows application developers to manage changes in App Engine Studio \(AES\) from a Git repository.

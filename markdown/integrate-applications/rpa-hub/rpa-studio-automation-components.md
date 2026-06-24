@@ -45,5 +45,5 @@ The Utilities components in the RPA Desktop Design Studio enable diverse and wid
 -   **[Wait](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/wait.md)**  
 The Wait components in the RPA Desktop Design Studio enable you to detain or change the automation execution using the criteria provided in the component.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

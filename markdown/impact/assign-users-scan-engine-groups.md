@@ -4,8 +4,6 @@ description: In addition to assigning Impact users to groups, the Platform Healt
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/assign-users-scan-engine-groups.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 2

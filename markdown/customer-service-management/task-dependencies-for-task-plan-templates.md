@@ -4,8 +4,6 @@ description: Task dependencies control the execution order of tasks, cases, and 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-dependencies-for-task-plan-templates.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1

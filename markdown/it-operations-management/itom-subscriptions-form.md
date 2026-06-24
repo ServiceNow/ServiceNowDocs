@@ -4,8 +4,6 @@ description: Description of the fields on the Subscriptions form for the ITOM pr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-subscriptions-form.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

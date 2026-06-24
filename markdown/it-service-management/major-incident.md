@@ -4,8 +4,6 @@ description: Dashboard providing a view into the process and communication relat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/major-incident.html
 release: zurich
-product: IT Service Management
-classification: it-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

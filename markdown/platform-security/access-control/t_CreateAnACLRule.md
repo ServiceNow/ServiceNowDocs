@@ -28,7 +28,7 @@ For tables that are in a different scope from the ACL rule record, the types of 
 
 ## Procedure
 
-1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
+1.  [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_ElevatedPrivilege.md) to the security\_admin role.
 
 2.  Navigate to **System Security** &gt; **Access Control \(ACL\)**.
 

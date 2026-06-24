@@ -119,7 +119,7 @@ Source code developers
 
 </td><td>
 
-Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md).
+Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md).
 
 </td></tr></tbody>
 </table>## What apps are in ServiceNow
@@ -139,7 +139,7 @@ For example:
 
 ## Give Creator Studio a try
 
-Ready to give Creator Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/personal_developer_instance_guide.md).
+Ready to give Creator Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/personal_developer_instance_guide.md).
 
 <table id="table_f4p_d1v_2dc" class="nav-card"><tbody><tr><td>
 

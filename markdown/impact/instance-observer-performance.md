@@ -4,8 +4,6 @@ description: Monitor all your instances 24x7 in one place with near real-time me
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/instance-observer-performance.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

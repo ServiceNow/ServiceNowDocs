@@ -4,8 +4,6 @@ description: Set up phone queues for Amazon Connect to gain visibility into the 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setup-amazonconnect-configurable-csm.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

@@ -47,7 +47,7 @@ This topic describes how to install an application or plugin. For information ab
 
 5.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
-    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block installation, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/versions-dependencies.md).
+    If any dependencies are categorized as **Needs to be procured from store**, procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block installation, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/versions-dependencies.md).
 
 6.  Install the application now or schedule installation for a later time.
 

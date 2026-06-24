@@ -4,8 +4,6 @@ description: Use the Field Service Management Overview dashboard to review the w
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/Use\_field\_service\_management\_overview\_dashboard.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

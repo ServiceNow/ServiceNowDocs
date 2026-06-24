@@ -20,7 +20,7 @@ Review second presentment for the chargeback and initiate pre-arbitration or arb
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -73,15 +73,15 @@ This task becomes active when the merchant proceeds with a second presentment af
 
 13. In the **Response outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d53369e382">
+<table id="choicetable_sc5_fy5_vfc"><thead><tr><th align="left" id="d53394e382">
 
 Selection
 
-</th><th align="left" id="d53369e385">
+</th><th align="left" id="d53394e385">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d53369e391">
+</th></tr></thead><tbody><tr><td id="d53394e391">
 
 **Unresolved**
 
@@ -116,7 +116,7 @@ The **Arbitration response received** drop-down is displayed.
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d53369e570">
+</td></tr><tr><td id="d53394e570">
 
 **Resolved**
 

@@ -41,7 +41,7 @@ As a user with the System Administrator role, verify that you have the GRC core 
     -   GRC: Risk Management
     -   GRC: Audit Management
 4.  After the applications have been installed, install the Continuous Authorization and Monitoring core application.
- If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+ If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 

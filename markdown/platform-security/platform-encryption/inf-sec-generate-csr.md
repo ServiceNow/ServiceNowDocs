@@ -56,7 +56,7 @@ For information on using custom URLs with ServiceNow, see [Set a custom URL as t
 After generating the CSR, complete the following steps to install the signed certificate on your instance:
 
 1.  Submit the CSR to your Certificate Authority \(CA\). The CA signs the request and returns a signed certificate file.
-2.  Upload the signed certificate to your instance. See [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_UploadACertificateToAnInstance.md).
+2.  Upload the signed certificate to your instance. See [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_UploadACertificateToAnInstance.md).
 
 **Parent Topic:**[Infrastructure Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/infrastructure-security.md)
 

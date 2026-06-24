@@ -45,7 +45,7 @@ To learn more about AI Control Tower and other applications integrating with its
 
 -   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-governance.md)
 -   [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
--   
+-   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md)
 -   [Explore Now Assist AI asset discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.md)
 -   [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.md)
 -   [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-gateway-overview.md)

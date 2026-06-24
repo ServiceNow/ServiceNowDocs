@@ -4,8 +4,6 @@ description: Search for Operational Technology \(OT\) configuration items \(CIs\
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 2

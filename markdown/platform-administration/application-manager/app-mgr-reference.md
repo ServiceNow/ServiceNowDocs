@@ -24,5 +24,5 @@ Application detail page headers display indicators with additional information a
 -   **[App installation blocked when installing or updating Now Assist Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/application-manager/app-installation-blocked.md)**  
 Unlicensed applications can block the installation or update of Now Assist Suites.
 
-**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/administering-applications.md)
 

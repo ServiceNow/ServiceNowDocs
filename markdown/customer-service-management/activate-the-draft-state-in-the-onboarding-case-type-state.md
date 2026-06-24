@@ -4,8 +4,6 @@ description: Activate a draft state for the onboarding case type so that the cas
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/activate-the-draft-state-in-the-onboarding-case-type-state.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

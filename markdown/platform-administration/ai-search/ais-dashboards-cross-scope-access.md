@@ -36,7 +36,7 @@ For more information on cross-scope privileges, see [Cross-scope privilege recor
 
 ## Procedure
 
-1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
+1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **System Applications** &gt; **Application Cross-Scope Access**.
 

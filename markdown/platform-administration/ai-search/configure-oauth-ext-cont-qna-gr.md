@@ -164,7 +164,7 @@ Enter `offline_access https://<root-site>.sharepoint.com/.default`, replacing `<
 
     4.  If the **Integration Type** field isn't visible on the OAuth 2.0 Credentials form, configure the form layout to make the field visible.
 
-        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+        For details on configuring a form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
     5.  On the OAuth 2.0 Credentials form, fill in the fields:
 

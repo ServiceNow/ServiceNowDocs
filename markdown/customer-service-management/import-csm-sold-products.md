@@ -4,8 +4,6 @@ description: Sold products are products and components that have been sold to an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/import-csm-sold-products.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

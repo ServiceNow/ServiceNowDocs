@@ -4,8 +4,6 @@ description: The Zurich Patch 4 Hotfix 6 release contains fixes to these problem
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-4-hf-6-PO.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-02-25"
 reading_time_minutes: 1

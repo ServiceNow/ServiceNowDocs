@@ -32,5 +32,5 @@ To enable search for different languages simultaneously, navigate to **Knowledge
 
 **Note:** If the **glide.knowman.search.default\_language** system property is inactive, you can search one language at a time. If the property is enabled, you can search for multiple languages simultaneously.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

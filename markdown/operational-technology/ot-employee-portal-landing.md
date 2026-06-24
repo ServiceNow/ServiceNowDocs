@@ -4,8 +4,6 @@ description: The Employee Center for Operational Technology \(OT\) is a central 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/ot-employee-portal-landing.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
 last_updated: "2026-01-23"
 reading_time_minutes: 1

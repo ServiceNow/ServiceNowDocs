@@ -20,16 +20,16 @@ Use the Service Exchange onboarding agentic workflow to register your consumers 
 
 The Service Exchange onboarding agentic workflow helps providers register a consumer user in Service Exchange. It also helps identify any issues during consumer registration and helps you resolve those problems.
 
-To modify the Service Exchange onboarding agentic workflow, you must duplicate the workflow and adjust the settings according to your requirements. For more information, see .
+To modify the Service Exchange onboarding agentic workflow, you must duplicate the workflow and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md).
 
-You can initiate the onboarding workflow from the Now Assist panel by entering the prompt `start onboarding`. For more information on the Now Assist panel, see .
+You can initiate the onboarding workflow from the Now Assist panel by entering the prompt `start onboarding`. For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 ## Access the Service Exchange onboarding agentic workflow
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Service Exchange Onboarding**.
 
-To create an agentic workflow, see .
+To create an agentic workflow, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
 
 ## Test the Service Exchange onboarding agentic workflow
 
@@ -37,13 +37,13 @@ To create an agentic workflow, see .
 2.  On the Overview page, select **Test AI reasoning**.
 3.  Select the agentic workflow and version, and select **Start test**.
 
-To test the use case, see .
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
 
 ## AI agents and their role in the Service Exchange onboarding agentic workflow
 
 The following AI agents are used to execute the instructions for the Service Exchange onboarding agentic workflow.
 
-To create an AI agent, see .
+To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
 
 |AI agent|AI agent role|
 |--------|-------------|

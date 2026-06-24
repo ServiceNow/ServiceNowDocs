@@ -58,7 +58,7 @@ To ensure that forms and automations work, a general guideline is to change the 
 
     -   Selecting the **here** in the message "To edit the record click here."
     -   Selecting the application scope icon \(\[Omitted image "icon-scope-changed.png"\]\) and choosing the appropriate scope.
-    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
+    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.
 

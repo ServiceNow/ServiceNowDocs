@@ -92,7 +92,7 @@ Select whether to create a scoped or global application.-   Scoped: Create a sco
 
 </td><td>
 
-For scoped applications, enter the scope of the application.The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_NamespaceIdentifier.md).
+For scoped applications, enter the scope of the application.The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_NamespaceIdentifier.md).
 
 </td></tr></tbody>
 </table>    In the following example, a scoped application named Example App \(x\_snc\_example\_app\) is created.
@@ -128,7 +128,7 @@ For scoped applications, enter the scope of the application.The scope name must 
 
 ## Result
 
-A scoped application with the default application structure is available locally. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+A scoped application with the default application structure is available locally. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 If you installed the application successfully, it’s available on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 

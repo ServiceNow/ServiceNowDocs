@@ -29,5 +29,5 @@ Modify the messages displayed on the risk assessment form using the Advanced Ris
 -   **[Create related list groupings in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-related-list-groupings-advanced-risk.md)**  
 Simplify the groupings of related lists on a record page and customize them to your specific needs, assigning meaningful names in the process. This configuration enhances readability and user experience when interacting with the forms.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

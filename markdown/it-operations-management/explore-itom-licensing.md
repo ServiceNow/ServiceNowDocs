@@ -4,8 +4,6 @@ description: Learn more about ServiceNow ITOM/OT SU Licensing, the different ITO
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/explore-itom-licensing.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

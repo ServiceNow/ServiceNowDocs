@@ -207,7 +207,7 @@ glide.ui.export.limit
 10,000
 
 </td></tr></tbody>
-</table>A warning threshold property called **glide.ui.export.warn.threshold** controls how the records are exported. When you export enough records from a list to exceed the threshold, a choice dialog appears. You can choose to wait for the export to complete or email the exported records as an attachment. The warning threshold can be changed in the system property. The email attachment must not exceed the maximum [Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_EmailAttachmentLimits.md).
+</table>A warning threshold property called **glide.ui.export.warn.threshold** controls how the records are exported. When you export enough records from a list to exceed the threshold, a choice dialog appears. You can choose to wait for the export to complete or email the exported records as an attachment. The warning threshold can be changed in the system property. The email attachment must not exceed the maximum [Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_EmailAttachmentLimits.md).
 
 <table id="table_jyw_zvl_2r"><thead><tr><th>
 

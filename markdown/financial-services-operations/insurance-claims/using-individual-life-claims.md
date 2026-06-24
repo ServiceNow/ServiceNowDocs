@@ -27,7 +27,7 @@ Use Workspace to work on all aspects of an individual life claim case. Users wit
 -   Navigate across tasks
 -   Manage multiple policies in a claim
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 The following table shows which workspace users can use the Individual Life Claims application in.
 
@@ -47,7 +47,7 @@ Claims admin
 
 Configures workspace according to the business requirements.
 
- For more information, see [Configure Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/configure-individual-life-claims.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+ For more information, see [Configure Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/configure-individual-life-claims.md) and [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -93,5 +93,5 @@ FSO insurance applications store claim contact information in the following Insu
 -   The Claim Participant table \[sn\_ins\_claim\_profile\] stores details about all participants involved in the claims process.
 -   The Participant Role table \[sn\_ins\_claim\_participant\] stores information on the participant's role in the claim \(such as if they are the injured or insured\).
 
-For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/insurance-claims-core-tables.md).
+For more information, see [Insurance Claims Core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims-core-tables.md).
 

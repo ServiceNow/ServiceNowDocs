@@ -4,8 +4,6 @@ description: Set up the SharePoint Online Search Connector by configuring and co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/setup-sp-ovrvw.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 11

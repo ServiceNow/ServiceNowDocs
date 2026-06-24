@@ -52,7 +52,7 @@ Video on how to create an app
 
     \[Omitted image "crs-create-app-button-search.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
     -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  Select the type of app you want to build, such as **Service Desk**.
 

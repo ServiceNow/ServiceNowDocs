@@ -1,0 +1,58 @@
+---
+title: Track Usage Insights in Service Portal
+description: Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/service-portal/create-sp-analytics-settings.html
+release: zurich
+product: Service Portal
+classification: service-portal
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+---
+
+# Track Usage Insights in Service Portal
+
+Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
+
+## Before you begin
+
+Role required: portal\_analytics\_admin
+
+## About this task
+
+By default, tracking is not enabled for portals. You need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
+
+Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
+
+2.  Select the portal title.
+
+3.  On the portal form, select **Create Analytics Settings**.
+
+    **Note:** If a portal has already been configured for tracking, the button name will be **View Analytics Settings**.
+
+4.  On the User Experience Analytics Settings form, specify which users to track.
+
+    -   To track analytics only for authenticated users, clear the **Enable Unauthenticated User Tracking** check box.
+    -   To track analytics for both unauthenticated and authenticated users, select the **Enable Unauthenticated User Tracking** check box.
+    **Note:** If you enabled unauthenticated user tracking, you might be required by law to notify unauthenticated users that you are tracking their usage for analysis. To display a legal notice, activate the Privacy Notice announcement, which is inactive by default. For more information, see [Activate the privacy notice for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/activate-privacy-notice.md).
+
+5.  Select **Update**.
+
+
+## Result
+
+You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**. For more information on using the Usage Insights application, see [Overview of the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
+
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sp-analytics.md)
+
+**Related topics**  
+
+
+[Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md)
+

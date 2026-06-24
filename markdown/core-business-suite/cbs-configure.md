@@ -4,8 +4,6 @@ description: Install and configure Core Business Suite to streamline employee an
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/cbs-configure.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 2

@@ -23,5 +23,5 @@ Team Development enables you to set up a distributed version control system betw
 -   **[Exclusion policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_ExclusionPolicies.md)**  
 You can exclude certain files from change tracking by creating an exclusion policy.
 
-**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/planning-applications.md)
+**Parent Topic:**[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/planning-applications.md)
 

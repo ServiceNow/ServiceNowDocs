@@ -31,5 +31,5 @@ You can follow records that have a record feed associated with them when viewing
 -   **[Post a message to a record feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_PostingMessagesToRecordFeeds.md)**  
 Use Live Feed to post a message to a record feed.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

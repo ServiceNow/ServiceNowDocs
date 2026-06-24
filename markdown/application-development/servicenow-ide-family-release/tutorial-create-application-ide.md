@@ -58,7 +58,7 @@ In the ServiceNow IDE, you can develop scoped applications in source code using 
 
     4.  Enter a scope, such as `x_snc_hello_world`, and press Enter.
 
-        **Important:** The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_NamespaceIdentifier.md).
+        **Important:** The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_NamespaceIdentifier.md).
 
     5.  Enter a package name, such as `x-snc-hello-world`, and press Enter.
 
@@ -88,7 +88,7 @@ In the ServiceNow IDE, you can develop scoped applications in source code using 
 
         \[Omitted image "servicenow-ide-deploy-logs.png"\] Alt text: Logs in the Output panel indicating that the application built and installed successfully.
 
-        For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+        For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 
 ## What to do next

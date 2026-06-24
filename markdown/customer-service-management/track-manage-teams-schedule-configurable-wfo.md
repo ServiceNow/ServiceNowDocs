@@ -4,8 +4,6 @@ description: Create, update, or monitor the schedule for your team from one loca
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/track-manage-teams-schedule-configurable-wfo.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

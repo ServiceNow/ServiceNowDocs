@@ -41,5 +41,5 @@ You must be in the application scope of the application for which you want to cr
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-monitor-now-platform.md)
 

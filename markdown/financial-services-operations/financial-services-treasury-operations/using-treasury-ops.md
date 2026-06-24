@@ -24,7 +24,7 @@ Contributors and back-office agents use personalized Workspace to work on all as
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Treasury admin
 
 </td><td>
 
-Configures the treasury workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Configures the treasury workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflows
@@ -91,7 +91,7 @@ Using the case playbook, treasury contributor and agents review and work on thei
 
 Performance Analytics give business owners an insight into how the team and business is performing. A dashboard with pre-configured reports and customizable views is available with the application.
 
-For more information, see [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-treasury-ops-dashboard.md).
+For more information, see [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-treasury-ops-dashboard.md).
 
 -   **[Financial Services Treasury Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-workflow.md)**  
 The Financial Services Treasury Operations application installs automated workflows that can be configured for any treasury service. These workflows create cases and route tasks to the treasury and document agents.

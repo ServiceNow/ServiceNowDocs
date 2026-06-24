@@ -20,11 +20,11 @@ Plan and configure your implementation of the Insurance claims application by fo
 
 Before beginning the configuration steps, you should familiarize yourself with the following topics:
 
--   [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/financial-services-operations-core-data-model.md)
--   [Insurance Claims Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/insurance-claims-core-data-model.md)
--   [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/integrating-with-document-processor.md)
+-   [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-operations-core-data-model.md)
+-   [Insurance Claims Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims-core-data-model.md)
+-   [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/integrating-with-document-processor.md)
 -   [Best practices for setting up an instance](https://www.servicenow.com/community/in-other-news/best-practices-for-general-planning-and-setup-of-your-instance/ba-p/2287790)
--   
+-   [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md)
 
 ## Configuration overview
 
@@ -112,7 +112,7 @@ Set up Document Processing
 
 </td><td>
 
-Set up FSO Document Processor to define the documentation that you need from customers to process claims. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/integrating-with-document-processor.md).
+Set up FSO Document Processor to define the documentation that you need from customers to process claims. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/integrating-with-document-processor.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Review the reserves and payments approval engine
 
 </td><td>
 
-Go through the rules for the reserve and payment approval process provided in Insurance Claims Core. For more information, see [Approval Engine for Reserves and Payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/approval-engine-for-reserves-and-payments.md).
+Go through the rules for the reserve and payment approval process provided in Insurance Claims Core. For more information, see [Approval Engine for Reserves and Payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/approval-engine-for-reserves-and-payments.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Configure assignment rules
 
 </td><td>
 
-Look at the rules that determine how cases and tasks are assigned to personas. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
+Look at the rules that determine how cases and tasks are assigned to personas. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-assignment-rules-fso-applications.md).
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Configure SLA definitions
 
 </td><td>
 
-Configure service level agreement \(SLA\) definitions to match your business needs.The SLA definitions are based on the service definition of case and adjuster tasks. For more information, see [Configure SLA definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md).
+Configure service level agreement \(SLA\) definitions to match your business needs.The SLA definitions are based on the service definition of case and adjuster tasks. For more information, see [Configure SLA definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-sla-definitions-fso-cases.md).
 
 </td></tr><tr><td>
 

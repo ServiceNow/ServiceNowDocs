@@ -4,8 +4,6 @@ description: Install Core Business Suite applications to be able to submit inqui
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/core-business-suite/install-cbs-applications.html
 release: zurich
-product: Core Business Suite
-classification: core-business-suite
 topic_type: concept
 last_updated: "2025-12-02"
 reading_time_minutes: 2

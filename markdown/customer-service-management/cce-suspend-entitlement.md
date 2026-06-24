@@ -4,8 +4,6 @@ description: Suspend an entitlement by creating an order on the CSM Configurable
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/cce-suspend-entitlement.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

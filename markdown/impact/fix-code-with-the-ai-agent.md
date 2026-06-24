@@ -4,8 +4,6 @@ description: As a ServiceNow developer, you can receive code fix suggestions whe
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/fix-code-with-the-ai-agent.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-03-02"
 reading_time_minutes: 2

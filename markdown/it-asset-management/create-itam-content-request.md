@@ -4,8 +4,6 @@ description: Create request for new content via the Service Catalog application 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/create-itam-content-request.html
 release: zurich
-product: IT Asset Management
-classification: it-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

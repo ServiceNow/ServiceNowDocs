@@ -23,9 +23,9 @@ Role required: none
 -   For a business loan service for a business customer \(account or contact\): sn\_bom\_loan\_b2b.contributor or sn\_bom\_loan\_b2b.agent\_connector
 -   For a personal loan service for a consumer: sn\_bom\_loan.contributor or sn\_bom\_loan.agent\_connector
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 

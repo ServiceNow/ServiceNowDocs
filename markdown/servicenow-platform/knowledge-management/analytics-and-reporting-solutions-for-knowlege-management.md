@@ -27,5 +27,5 @@ The Demand Insights for Incidents dashboard enables you as an incident manager t
 -   **[Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.md)**  
 The Demand Insights for HR cases dashboard enables you as an HR agent to identify which HR cases have no or insufficient knowledge coverage. You can then create feedback tasks for knowledge gaps to deflect such HR cases.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

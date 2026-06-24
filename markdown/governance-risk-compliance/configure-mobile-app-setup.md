@@ -29,7 +29,7 @@ Role required: sn\_bcp.plan\_admin
     3.  After the GRC: Profiles application is installed, install Business Continuity Management.
     All GRC core applications are available on the ServiceNow Store.
 
-    For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+    For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-and-store.md).
 
     When you install the GRC core applications, the dependency plugins for the GRC Mobile application \(com.glide.sg and com.glide.sg.agent\_native\_client\) are also automatically installed.
 
@@ -42,7 +42,7 @@ Role required: sn\_bcp.plan\_admin
 
     **Note:** The BCM mobile app and the ServiceNow AI Platform instance should be from the same family release.
 
-    For more information about getting entitlement, downloading, and installing the BCM mobile app, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/grc-and-store.md).
+    For more information about getting entitlement, downloading, and installing the BCM mobile app, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-and-store.md).
 
 3.  Assign the mobile users with the required ServiceNow AI Platform roles as a user with the admin role in your ServiceNow AI Platform instance.
 

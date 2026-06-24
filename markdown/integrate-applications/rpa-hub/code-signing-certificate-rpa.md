@@ -38,5 +38,5 @@ You can generate and install a user certificate for client authentication and co
 -   **[Exporting Microsoft Active Directory certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/export-certificates-rpa.md)**  
 You can export Microsoft Active Directory certificates, such as root, intermediate, and a client authentication certificate, for authentication purposes. You then register the exported root and intermediate certificate in the ServiceNow instance and map the exported client authentication certificate to the user.
 
-**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/workflow-data-fabric/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/create-integrations-applications.md)
 

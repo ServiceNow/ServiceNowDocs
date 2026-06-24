@@ -20,7 +20,7 @@ Create, edit, train, and assess machine learning models to make predictions for 
 
     Use the machine learning capabilities of Task Intelligence for ITSM to predict and recommend incident field information and help with incident categorization.
 
--   ****
+-   **[Use Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/use-task-intelligence.md)**
 
     Use the Task Intelligence features to create field prediction and sentiment models for cases, and review Task Intelligence analytics and prediction history.
 

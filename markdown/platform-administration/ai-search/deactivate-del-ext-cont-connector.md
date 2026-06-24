@@ -31,7 +31,7 @@ You can delete an external content connector to remove its definition. When you 
 
 1.  Use the application picker to switch to the External Content Connectors Admin application scope.
 
-    For details on selecting an application scope using the application picker, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    For details on selecting an application scope using the application picker, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 

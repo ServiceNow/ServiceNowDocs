@@ -59,5 +59,5 @@ Create a risk indicator to identify the possibility of a future adverse impact o
 -   **[View the Risk Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/c_RiskHomepage.md)**  
 The Risk Overview is contained in the Risk Management application and provides an executive view, allowing risk managers to quickly identify areas of concern by pinpointing entities with known high risk.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

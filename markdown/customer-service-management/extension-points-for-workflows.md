@@ -4,8 +4,6 @@ description: Override existing scripts or call custom scripts for the workflows 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/extension-points-for-workflows.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

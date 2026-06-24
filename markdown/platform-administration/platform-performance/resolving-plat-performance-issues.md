@@ -31,5 +31,5 @@ You can cancel transactions that take longer than expected to load. Canceling lo
 -   **[Add a module to test connection speed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/t_CreateAConnectionTestModule.md)**  
 A connection test can indicate the connection speed between your computer and your instance. A connection speed test \(/connection\_test.do\) is available as a UI page.
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/maintain-monitor-now-platform.md)
 

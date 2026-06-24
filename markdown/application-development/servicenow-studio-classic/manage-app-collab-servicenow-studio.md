@@ -40,9 +40,9 @@ The two ServiceNow Studio roles that can access ServiceNow Studio, admin and del
 -   Users with the delegated\_developer role have access to:
     -   Apps they create.
     -   Apps they've been invited to edit \(as an editor on the app\).
-    -   All apps within the scope you have access to. For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_ApplicationScope.md).
+    -   All apps within the scope you have access to. For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_ApplicationScope.md).
 
-If you know of an app that you want to work on but don't see it in ServiceNow Studio, contact your admin and ask that they give you permission to work on the app using the Collaboration app. The ServiceNow AI Platform Collaboration app is automatically installed with ServiceNow Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+If you know of an app that you want to work on but don't see it in ServiceNow Studio, contact your admin and ask that they give you permission to work on the app using the Collaboration app. The ServiceNow AI Platform Collaboration app is automatically installed with ServiceNow Studio. For more information about the Collaboration app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
 
 ## What app owners and editors can do
 
@@ -88,7 +88,7 @@ The collaboration descriptor that someone is assigned determines if they can ass
 
 If you want to create a customized collaboration role for help building your app, you can create a custom collaboration descriptor, which is a customized collaboration role. You then use collaboration permissions to control what developers \(or users who deploy applications\) can do in the app.
 
-If needed, admins can define custom collaboration descriptors to select when managing collaborators using the Collaboration app. For more information on custom descriptors, see [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/create-collaboration-descriptors.md).
+If needed, admins can define custom collaboration descriptors to select when managing collaborators using the Collaboration app. For more information on custom descriptors, see [Create collaboration descriptors to assign permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-collaboration-descriptors.md).
 
 ## Managing collaboration permissions for other developers
 

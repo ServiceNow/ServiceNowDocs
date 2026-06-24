@@ -4,8 +4,6 @@ description: This feature lets agents set up and test their voice workflow in a 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/launch-voice-controls-simulator.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-10-03"
 reading_time_minutes: 1

@@ -139,11 +139,11 @@ To learn more about ensuring your instances meet hardening requirements, see [Se
 
 ## Other resources
 
-For user reference, the ServiceNow AI Platform maintains extensive configuration capabilities information in the product documentation. You access most of the security content using the links found in [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/platsec-landing.md). Also, see the following:
+For user reference, the ServiceNow AI Platform maintains extensive configuration capabilities information in the product documentation. You access most of the security content using the links found in [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-landing.md). Also, see the following:
 
 -   [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md)
 -   General security settings properties
--   [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HighSecuritySettings.md)
+-   [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HighSecuritySettings.md)
 
 -   **[Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md)**  
 Explore how baseline versions for hardening settings align with family and store releases.
@@ -176,5 +176,5 @@ This category focuses on the encryption of stored data. It encompasses several k
 -   **[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)**  
 Validation, sanitization, and encoding addresses input validation to prevent against vulnerabilities like Cross-Site Scripting \(XSS\), SQL injection and other attacks.
 
-**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-sublanding.md)
 

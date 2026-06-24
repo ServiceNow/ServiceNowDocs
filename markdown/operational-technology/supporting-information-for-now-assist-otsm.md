@@ -4,8 +4,6 @@ description: Get a quick overview of the important information that is related t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/supporting-information-for-now-assist-otsm.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-01-23"
 reading_time_minutes: 1

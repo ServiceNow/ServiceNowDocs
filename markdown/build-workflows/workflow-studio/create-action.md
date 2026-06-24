@@ -24,7 +24,7 @@ Create a reusable component to automate one or more steps of a process.
 
 Action designers should know the application table structure and be aware of any existing business logic associated with the target tables of an action. Be sure to disable any conflicting business rules or workflows before creating an action.
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to deploy it using the application repository or the ServiceNow Store.
 
 ## Procedure
 

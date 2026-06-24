@@ -46,7 +46,7 @@ The Financial Services Payment Operations application is aimed at the following 
 
 ## Payment dashboard
 
-Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service. For more information, see [Payment Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/payment-operations-dashboard.md).
+Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service. For more information, see [Payment Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/payment-operations-dashboard.md).
 
 **Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
 

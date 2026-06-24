@@ -60,7 +60,7 @@ For the Madrid release and later family releases, the com.snc.si\_dep plugin is 
 3.  Security Support Orchestration
 4.  Security Incident Response
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
@@ -89,7 +89,7 @@ Perform the following steps to update system properties and install and configur
 
     \[Omitted image "hybrid-analysis-system-property.png"\] Alt text: Attributes for the system property required for this integration.
 
-4.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
+4.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 5.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Hybrid Analysis tile.
 

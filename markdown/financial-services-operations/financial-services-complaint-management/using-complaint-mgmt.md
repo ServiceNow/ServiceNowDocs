@@ -24,7 +24,7 @@ Branch workers and back-office agents use personalized Workspace to work on all 
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -64,7 +64,7 @@ Complaint admin
 
 </td><td>
 
-Configures the complaint workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
+Configures the complaint workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflow
@@ -83,5 +83,5 @@ Using the case playbook, complaint agents review and work on their cases and tas
 
 Performance Analytics give business owners an insight into how the team and business is performing. A dashboard with pre-configured reports and customizable views is available with the application.
 
-For more information, see [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-complaint-mgmt-dashboard.md).
+For more information, see [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-complaint-mgmt-dashboard.md).
 

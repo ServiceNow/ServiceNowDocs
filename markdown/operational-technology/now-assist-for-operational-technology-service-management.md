@@ -4,8 +4,6 @@ description: Use the Now Assist for Operational Technology Service Management \(
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/now-assist-for-operational-technology-service-management.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 3

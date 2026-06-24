@@ -4,8 +4,6 @@ description: Create learning tasks for agents to keep track of their learning ac
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-learning-task-configurable-wfo-cs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

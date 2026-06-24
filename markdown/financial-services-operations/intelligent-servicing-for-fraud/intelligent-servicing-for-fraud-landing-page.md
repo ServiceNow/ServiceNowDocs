@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Process Mining \[Omitted image "bus-project.svg"\] Alt text: Visualize the process and identify the improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "bus-project.svg"\] Alt text: Visualize the process and identify the improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-process-optz-content-pack.md)
 
 </td><td>
 

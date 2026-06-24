@@ -22,7 +22,7 @@ Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-Cryptographic managers have the choice to use ServiceNow supplied keys or their own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform with Field Encryption Enterprise. For information on CSK, see [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/customer-supplied-keys.md).
+Cryptographic managers have the choice to use ServiceNow supplied keys or their own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform with Field Encryption Enterprise. For information on CSK, see [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/customer-supplied-keys.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Cryptographic managers have the choice to use ServiceNow supplied keys or their 
 
 6.  Select **Servicenow** in the Origin field.\[Omitted image "cryptospec-sn-keyorigin.png"\] Alt text: Servicenow key origin in the crypto spec.
 
-    This field varies based on the field encryption settings from Step 1 and the algorithm selected. To use an imported key, see [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/import-key-webservice-1.md). See [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/customer-supplied-keys.md) if you’re using your own key.
+    This field varies based on the field encryption settings from Step 1 and the algorithm selected. To use an imported key, see [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/import-key-webservice-1.md). See [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/customer-supplied-keys.md) if you’re using your own key.
 
 7.  Enter a friendly name for the Key alias.
 

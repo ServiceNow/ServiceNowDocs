@@ -4,8 +4,6 @@ description: Exception reasons are automatically synchronized to the Production 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/syncing-exception-reasons.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 1

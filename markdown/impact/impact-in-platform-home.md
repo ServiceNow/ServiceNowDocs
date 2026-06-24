@@ -4,8 +4,6 @@ description: Use Impact to obtain new and updated features quickly. Leverage the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-in-platform-home.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-10-08"
 reading_time_minutes: 6

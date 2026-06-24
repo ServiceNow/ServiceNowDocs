@@ -4,8 +4,6 @@ description: Use Impact Guided Setup to set up the minimum required configuratio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-initial-scan-engine-settings.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-19"
 reading_time_minutes: 2

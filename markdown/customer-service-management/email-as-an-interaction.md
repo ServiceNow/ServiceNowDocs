@@ -4,8 +4,6 @@ description: Like chat and phone channels, Email Interaction enables agents to m
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/email-as-an-interaction.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

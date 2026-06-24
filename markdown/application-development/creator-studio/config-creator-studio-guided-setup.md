@@ -118,7 +118,7 @@ Role required: admin
 
 2.  Customize the collaboration roles or add new ones.
 
-    For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-collaboration.md).
+    For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-collaboration.md).
 
 3.  Update the record to save your changes.
 

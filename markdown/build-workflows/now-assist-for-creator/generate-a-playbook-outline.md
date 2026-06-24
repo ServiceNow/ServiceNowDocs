@@ -67,7 +67,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 

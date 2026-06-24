@@ -235,8 +235,8 @@ For more information about configuring sources for skill or AI agent use, see th
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/overview-ais.md)
 -   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-ais.md)
 -   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
--   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md)
--   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/na-ai-agents.md)
+-   [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist.md)
+-   [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/na-ai-agents.md)
 
 ## Additional guidelines for Now Assist skills and tools
 
@@ -245,11 +245,11 @@ For more information about configuring sources for skill or AI agent use, see th
 |App generation||
 |Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/example-questions-generating-dv.md)|
 |Catalog item generation|[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)|
-|Code generation||
-|Flow generation||
+|Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/general-guidelines-code-generation.md)|
+|Flow generation|[Exploring flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/exploring-flow-generation.md)|
 |LLM topic skill for Virtual Agent||
 |Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
-|RPA bot generation|General guidelines for RPA bot generation|
+|RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)|
 |Test generation||
 |UI generation||
 

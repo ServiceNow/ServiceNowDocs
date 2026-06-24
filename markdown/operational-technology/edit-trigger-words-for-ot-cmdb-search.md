@@ -4,8 +4,6 @@ description: Edit the trigger words used in the Operational Technology \(OT\) Co
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-trigger-words-for-ot-cmdb-search.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-07"
 reading_time_minutes: 1

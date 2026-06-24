@@ -321,7 +321,7 @@ Deactivate Subscription
 
 </td><td>
 
-Deactivates a user subscription in Slack. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in [Integrating with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-slack.md).
+Deactivates a user subscription in Slack. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in .
 
 </td></tr><tr><td>
 
@@ -329,7 +329,7 @@ Look up Access Logs Stream
 
 </td><td>
 
-Retrieves the access logs for all users since the provided oldest date. To use this action, perform the steps outlined in the Create a Slack workspace application and Create a Slack workspace connection section in [Integrating with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-slack.md).
+Retrieves the access logs for all users since the provided oldest date. To use this action, perform the steps outlined in the Create a Slack workspace application and Create a Slack workspace connection section in .
 
 </td></tr><tr><td>
 
@@ -337,7 +337,7 @@ Look up Users Stream
 
 </td><td>
 
-Retrieves all users in the Slack Enterprise grid. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in [Integrating with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/saas-license-management/integrate-with-slack.md).
+Retrieves all users in the Slack Enterprise grid. To use this action, perform the steps outlined in the Create a Slack Enterprise Grid application and Create a Slack Enterprise connection section in .
 
 </td></tr></tbody>
 </table>**Note:**

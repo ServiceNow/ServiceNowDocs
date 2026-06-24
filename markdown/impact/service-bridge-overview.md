@@ -4,8 +4,6 @@ description: Data transfer between the Impact Delivery Instance and Impact Store
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/service-bridge-overview.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-11-20"
 reading_time_minutes: 1

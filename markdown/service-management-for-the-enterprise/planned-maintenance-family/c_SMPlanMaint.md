@@ -30,5 +30,5 @@ You can define maintenance plans using model-based, meter-based, or duration-bas
 -   **[Domain separation and Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/planned-maintenance-family/domain-separation-planned-maintenance.md)**  
 Domain separation is supported in Planned Maintenance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/service-management-legacy/c_ServiceManagement.md)
+**Parent Topic:**[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_ServiceManagement.md)
 

@@ -4,8 +4,6 @@ description: Enroll or add group members to a business location to create a dedi
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-group-members-to-a-business-location-so.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -20,7 +20,7 @@ Prevent ServiceNow Customer Service and Support personnel from accessing the ins
 
 **Note:** Other authorized ServiceNow Operations personnel, in their capacity to support and manage the product, are required to perform administrative actions on the underlying infrastructure. Enabling this plugin may affect support service levels and the Availability SLA. Availability SLA is then measured from the time that Support staff personnel are granted access to your instance.
 
-Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restrict access to your instance without your express permission. For more details on this feature, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md). For activation information, see [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ActivateSNCAccessControl.md)
+Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restrict access to your instance without your express permission. For more details on this feature, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_SNCAccessControl.md). For activation information, see [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateSNCAccessControl.md)
 
 ## More information
 
@@ -36,12 +36,12 @@ Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restric
 |Security risk rating|3.3|
 |Functional impact|If this plugin is inactive, all Customer Service and Support employees can access the customer's instance. Enabling the plugin enables the customer to restrict access to authorized Customer Service and Support employees only.|
 |Security risk|\(High\) Unnecessary exposure of instance access to wider group of people.|
-|References|[ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md)|
+|References|[ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_SNCAccessControl.md)|
 
 ## Steps to configure
 
-1.  To request the plugin, follow the steps in [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ActivateSNCAccessControl.md). Customers must request the SNC Access Control plugin \(com.snc.snc\_access\_control\) from HI.
-2.  To enable SNC access control, follow the steps in [Configure ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ConfigureAccessControl.md). Configure an access control record to specify one or more Customer Service and Support employees that have permission to log in your instance.
+1.  To request the plugin, follow the steps in [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateSNCAccessControl.md). Customers must request the SNC Access Control plugin \(com.snc.snc\_access\_control\) from HI.
+2.  To enable SNC access control, follow the steps in [Configure ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ConfigureAccessControl.md). Configure an access control record to specify one or more Customer Service and Support employees that have permission to log in your instance.
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

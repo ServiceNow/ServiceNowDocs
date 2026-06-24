@@ -33,5 +33,5 @@ Generate Authority to Operate \(ATO\) artifacts such as System Security Plan \(S
 -   **[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)**  
 Continuous Authorization and Monitoring supports Open Security Controls Assessment Language \(OSCAL\) version 1.1.2 for importing and exporting security control data in JSON format.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -34,11 +34,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Analytics and Reporting \[Omitted image "bus-infographic.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-complaint-mgmt-dashboard.md)
+[Analytics and Reporting \[Omitted image "bus-infographic.svg"\] Alt text: Coordinate work and improve processes with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-complaint-mgmt-dashboard.md)
 
 </td><td>
 
-[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-process-optz-content-pack.md)
 
 </td><td>
 

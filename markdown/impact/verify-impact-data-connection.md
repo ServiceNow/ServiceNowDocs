@@ -4,10 +4,8 @@ description: During Impact Guided Setup automated registration, a status is prov
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/verify-impact-data-connection.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
 ---

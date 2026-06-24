@@ -4,8 +4,6 @@ description: The upgrade process moves your instance to a new ServiceNow release
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/upgrade.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 6
@@ -137,8 +135,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md).
+-   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 </td></tr><tr><td>
@@ -147,7 +145,7 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>If you encounter any post-upgrade issues, document the issue's conditions, steps to reproduce the issue, and your customizations. [Contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html) to open an incident for each issue, and provide this information accordingly. Customer Service and Support is available 24 hours a day, 7 days a week to assist you with any questions or issues.

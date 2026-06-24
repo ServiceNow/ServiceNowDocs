@@ -4,8 +4,6 @@ description: Add, edit, and manage dependencies within template items so that ta
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/add-and-manage-task-dependencies.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

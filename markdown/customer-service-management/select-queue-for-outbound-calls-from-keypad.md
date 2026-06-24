@@ -4,8 +4,6 @@ description: This procedure describes how to select a queue and place outbound c
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-01-02"
 reading_time_minutes: 1

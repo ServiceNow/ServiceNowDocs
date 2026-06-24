@@ -4,8 +4,6 @@ description: Collect skill data based on skills agents have used for case resolu
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/setting-up-skill-prediction-configurable-cs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

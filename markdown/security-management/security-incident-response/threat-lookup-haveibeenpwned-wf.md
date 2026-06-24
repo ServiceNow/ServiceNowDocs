@@ -18,7 +18,7 @@ The Threat Lookup - Have I been pwned? flow performs a lookup on selected observ
 
 Role required: sn\_si\_admin
 
-This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the Have I been pwned? implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/perform-lookups-on-observables.md).
+This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the Have I been pwned? implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/perform-lookups-on-observables.md).
 
-For information on the activities used by this flow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/common-wf-activities.md).
+For information on the activities used by this flow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/common-wf-activities.md).
 

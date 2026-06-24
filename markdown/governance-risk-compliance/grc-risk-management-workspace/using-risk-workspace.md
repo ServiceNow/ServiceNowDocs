@@ -81,5 +81,5 @@ You can perform assessments on multiple risks and controls simultaneously by cre
 -   **[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/matrix-report-in-risk-workspace.md)**  
 Matrix report is a structured report that you can configure to view in a grid or table format in the Risk Workspace. You can use the matrix report to access and analyze the risk posture of your organization using entity-related data, such as risks, controls, KRIs, and events.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

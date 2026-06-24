@@ -4,8 +4,6 @@ description: If you have the admin role, you can configure the Now Assist for Op
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/activate-ot-cmdb-search.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 2

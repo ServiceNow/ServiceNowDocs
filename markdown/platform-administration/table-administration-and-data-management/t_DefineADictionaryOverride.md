@@ -80,7 +80,7 @@ Override reference qualifier
 
 </td><td>
 
-Select the check box to display the **Reference qualifier** field, which overrides the [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) for the field on the extended table.
+Select the check box to display the **Reference qualifier** field, which overrides the [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ReferenceQualifiers.md) for the field on the extended table.
 
 </td></tr><tr><td>
 

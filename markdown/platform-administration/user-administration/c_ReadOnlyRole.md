@@ -36,7 +36,7 @@ Users with the **snc\_read\_only** role have the following restrictions regardle
 
 ## Exempt tables from the read-only restriction
 
-Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 |Property|Description|
 |--------|-----------|
@@ -66,7 +66,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md).
 
 
 ## Read-only role properties

@@ -20,7 +20,7 @@ Explore the AI Gateway, its value, and learn how to use and configure it for you
 
 The MCP is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and systems. MCP facilitates communication between an AI host application \(AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP servers that expose specific capabilities such as tools.
 
-For more information on MCP, see [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/mcp-client.md).
+For more information on MCP, see [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mcp-client.md).
 
 ## AI Gateway overview
 

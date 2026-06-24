@@ -4,10 +4,8 @@ description: Several types of components are installed with activation of the OT
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/components-installed-otm-su-licensing.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

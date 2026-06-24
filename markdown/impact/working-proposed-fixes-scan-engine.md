@@ -4,8 +4,6 @@ description: Some definitions include proposed fixes for resolving them, which y
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/working-proposed-fixes-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1

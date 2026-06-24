@@ -18,7 +18,7 @@ Create subject criteria records for use in data filtration rules.
 
 Role required: security\_admin
 
-**Important:** To create or modify data filtration rules you, must elevate to a privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** To create or modify data filtration rules you, must elevate to a privileged role. For details on this process, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 

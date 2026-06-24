@@ -57,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -118,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 

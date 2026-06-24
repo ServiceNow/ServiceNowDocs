@@ -33,5 +33,5 @@ The ServiceNow® Dispute Content Pack for US Regulations enables issuers in the 
 -   **[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/dispute-management-reference.md)**  
 Learn about managing the archive dispute service case and the retention policy of inactive cases.
 
-**Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-overview.md)
+**Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-overview.md)
 

@@ -29,83 +29,83 @@ Role required:
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components.
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d46003e162">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d46028e162">
 
 Task
 
-</th><th align="left" id="d46003e165">
+</th><th align="left" id="d46028e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46003e171">
+</th></tr></thead><tbody><tr><td id="d46028e171">
 
 **Configure service definitions**
 
 </td><td>
 
-[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-service-definitions.md) to enable unique flows and views for deposit service cases and tasks. You can add new case types and configure service definitions for each type.
+[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for deposit service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d46003e193">
+</td></tr><tr><td id="d46028e193">
 
 **Edit or create flows**
 
 </td><td>
 
-[Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
+[Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d46003e215">
+</td></tr><tr><td id="d46028e215">
 
 **Configure playbooks**
 
 </td><td>
 
-[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-playbooks-fso-apps.md) using Playbooks.
+[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d46003e237">
+</td></tr><tr><td id="d46028e237">
 
 **Configure CSM Configurable Workspace**
 
 </td><td>
 
-[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
+[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d46003e265">
+</td></tr><tr><td id="d46028e265">
 
 **Configure Service Level Agreements \(SLAs\)**
 
 </td><td>
 
-[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md) to configure SLA timings for deposit service cases and tasks.
+[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for deposit service cases and tasks.
 
-</td></tr><tr><td id="d46003e284">
+</td></tr><tr><td id="d46028e284">
 
 **Configure user groups**
 
 </td><td>
 
-[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.Configure agent connector and contributor roles for the groups, if required. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.Configure agent connector and contributor roles for the groups, if required. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
-</td></tr><tr><td id="d46003e321">
+</td></tr><tr><td id="d46028e321">
 
 **Configure assignment rules**
 
 </td><td>
 
-[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
+[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d46003e337">
+</td></tr><tr><td id="d46028e337">
 
 **Configure Document Processor**
 
 </td><td>
 
-[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
+[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
 
 </td></tr></tbody>
 </table>

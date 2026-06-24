@@ -4,8 +4,6 @@ description: Description of the fields on the License Report form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/license-report-form.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

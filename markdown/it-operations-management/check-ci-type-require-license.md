@@ -4,8 +4,6 @@ description: View the list of configuration item \(CI\) types that require IT Op
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/check-ci-type-require-license.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

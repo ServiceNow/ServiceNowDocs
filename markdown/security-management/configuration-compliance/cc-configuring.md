@@ -20,7 +20,7 @@ Complete the following setup checklist steps listed in the following table prior
 
 For more information about released versions of the Configuration Compliance application, as well as third-party and ServiceNow applications that are compatible with it, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the HI Knowledge Base.
 
-For more information about getting entitlements for store apps, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-and-store.md).
+For more information about getting entitlements for store apps, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-and-store.md).
 
 <table id="table_wyt_b3p_v5b"><thead><tr><th>
 

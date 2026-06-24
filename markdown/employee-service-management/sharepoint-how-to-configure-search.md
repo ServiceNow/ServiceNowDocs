@@ -4,8 +4,6 @@ description: Configure the SharePoint Online Search Connector to crawl the conte
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/sharepoint-how-to-configure-search.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3

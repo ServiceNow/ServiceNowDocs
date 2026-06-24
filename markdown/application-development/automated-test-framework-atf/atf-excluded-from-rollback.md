@@ -7,7 +7,7 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---

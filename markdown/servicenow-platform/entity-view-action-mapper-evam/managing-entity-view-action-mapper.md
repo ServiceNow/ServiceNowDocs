@@ -30,5 +30,5 @@ Define the list of data sources to render. The Entity View Action Mapper \(EVAM\
 -   **[Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md)**  
 You can associate a declarative action with a view template. The Entity View Action Mapper \(EVAM\) also enables user interactions to trigger a server script or UXF client action.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

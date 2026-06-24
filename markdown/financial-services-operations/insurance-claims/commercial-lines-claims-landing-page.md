@@ -30,7 +30,7 @@ The Commercial Lines Claims application enables your organization to quickly set
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/commercial-lines-claims.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/commercial-lines-claims.md)
 
 s
 

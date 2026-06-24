@@ -28,7 +28,7 @@ Activate the following plugins to set up the core SAE application. Role required
 -   **Smart Assessment Designer** plugin \(com.sn\_smart\_asmt\_desg\)
 -   **Smart Assessment Connected** plugin \(com.sn\_smart\_asmt\_conn\)
 
-To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 ## Advanced feature plugins for SAE
 
@@ -50,7 +50,7 @@ Activate the following plugins to enable additional SAE capabilities. Role requi
 -   **Basic Scoring for Smart Assessment** plugin \(com.sn\_smart\_scoring\)
 -   **Smart Assessment Collaboration** plugin \(com.sn\_smart\_collab\)
 
-To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 **Note:** After installing the required plugins, you can do the following:
 

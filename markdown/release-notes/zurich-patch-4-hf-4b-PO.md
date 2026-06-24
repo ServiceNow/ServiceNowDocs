@@ -4,8 +4,6 @@ description: The Zurich Patch 4 Hotfix 4b release contains fixes to these proble
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-4-hf-4b-PO.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-03-11"
 reading_time_minutes: 1

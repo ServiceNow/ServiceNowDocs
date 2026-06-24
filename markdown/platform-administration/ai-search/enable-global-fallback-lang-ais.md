@@ -48,7 +48,7 @@ For more details on ServiceNow AI Platform locales and their associated language
 
 4.  Add the **glide.ais.translate.global\_fallback\_locale** system property and set its value to the locale that you want AI Search to use as the global fallback locale.
 
-    For instructions on adding this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For instructions on adding this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 
 ## Result

@@ -25,13 +25,13 @@ The Support renewals and expansion agentic workflow enables customer success age
 -   Retrieve and calculate health and adoption scores.
 -   Analyze trends to support informed adoption decisions.
 
-**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See  for details.
+**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) for details.
 
 ## Role masking
 
 Required role: sn\_acct\_lc.customer\_success\_agent
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 ## Configure the Support renewals and expansion agentic workflow
 
@@ -63,7 +63,7 @@ For more details on configuring the data sources, see [Set up the Data Context E
     -   Generic Prompt Vertex AI \(Google Cloud Chat Completion\)
     -   Generic Prompt \(Amazon Bedrock Chat Completions\)
 
-When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The contract health, value, and usage scans are initiated and the customer success manager can monitor the progress in the .
+When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The contract health, value, and usage scans are initiated and the customer success manager can monitor the progress in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
 
 When the workflow is completed, two reports are generated for the engagement and the associated contract \(that is due to expire in 90 days\) with the following details:
 
@@ -81,7 +81,7 @@ You can then select the appropriate renewal play based on the report.
 To access the use case testing page:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
-2.  Follow the instructions in the  section to test the agentic workflow.
+2.  Follow the instructions in the [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md) section to test the agentic workflow.
 
 **Example of Support renewals and expansion agentic workflow output in the ServiceNow**
 

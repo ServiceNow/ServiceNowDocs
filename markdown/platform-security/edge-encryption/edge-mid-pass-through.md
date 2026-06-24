@@ -7,7 +7,7 @@ release: zurich
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Data integration with Edge Encryption, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---

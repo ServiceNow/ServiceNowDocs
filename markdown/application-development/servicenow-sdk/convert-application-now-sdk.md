@@ -83,7 +83,7 @@ This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a co
               Ex: Run "npm install" if using npm.
     ```
 
-    The application is available locally with the default application structure and supports development in source code. Existing application metadata is downloaded into in the `metadata` directory. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+    The application is available locally with the default application structure and supports development in source code. Existing application metadata is downloaded into in the `metadata` directory. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 6.  Install the required third-party dependencies using your preferred package manager.
 

@@ -22,7 +22,7 @@ Starting with the Yokohama release, Redox Inbound Integration is being prepared 
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see Application picker.
+Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_hcls.admin or admin
 

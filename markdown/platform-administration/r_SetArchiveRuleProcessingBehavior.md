@@ -28,7 +28,7 @@ The archive process uses a producer and consumer model. Records are queued for a
 
 **Note:** The archive and destroy properties listed in the table are not used if the Archive Job Execution Chunks \[sys\_archive\_run\_chunk\] table is deleted.
 
-To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To manually control how many records the archive rule and destroy processes at one interval, you can change these default settings by [adding the following system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 |Name|Description|Type|Default Value|
 |----|-----------|----|-------------|

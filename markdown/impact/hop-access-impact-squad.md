@@ -4,8 +4,6 @@ description: Familiarize yourself with your ServiceNow Impact Squad, a dedicated
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/hop-access-impact-squad.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-21"
 reading_time_minutes: 2

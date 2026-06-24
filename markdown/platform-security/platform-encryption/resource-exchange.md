@@ -40,5 +40,5 @@ Resource Exchange supports rekeying of ciphertext on the target instance that wa
 -   **[Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/key-exchange-walkthrough.md)**  
 Use this walkthrough to set up a recurring key exchange in your instance using and Resource Exchange.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/encryption.md)
 

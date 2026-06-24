@@ -56,8 +56,8 @@ Role required: admin for download, installation, and activation of all applicati
 
     For more information about downloading and activating applications, see the following topics:
 
-    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
-    -   [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/activate-entitled-store-app.md).
+    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
+    -   [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-entitled-store-app.md).
 2.  After you have downloaded the applications, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 3.  Locate the applications that you downloaded and select **Install** to activate them along with their dependencies.

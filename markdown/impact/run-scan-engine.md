@@ -4,8 +4,6 @@ description: An initial full Scan Engine completion is required to set a baselin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/run-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-08-28"
 reading_time_minutes: 2

@@ -27,5 +27,5 @@ Hermes Messaging Service is installed with these roles.
 -   **[Hermes Messaging Service domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-domain-separation.md)**  
 Domain separation is supported for the Hermes Messaging Service. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-services.md)
 

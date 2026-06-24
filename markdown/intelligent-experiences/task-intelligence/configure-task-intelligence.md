@@ -24,7 +24,7 @@ The Task Intelligence Admin Console is installed along with Task Intelligence fo
 
     Configure Task Intelligence for ITSM so that agents can use the application to fulfill their requirements efficiently.
 
--   ****
+-   **[Configure Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-task-intelligence.md)**
 
     Install the Task Intelligence for Customer Service application and configure the different features: case categorization, language detection, sentiment analysis, and Document Intelligence for Customer Service.
 

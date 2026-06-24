@@ -4,8 +4,6 @@ description: Perform the following procedure to configure your ServiceNow integr
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configuring-sn-integration-options.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-04"
 reading_time_minutes: 1

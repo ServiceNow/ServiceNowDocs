@@ -4,8 +4,6 @@ description: Create a ribbon setting and add that setting to a ribbon configurat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-config-ws-ribbon.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-08-14"
 reading_time_minutes: 4

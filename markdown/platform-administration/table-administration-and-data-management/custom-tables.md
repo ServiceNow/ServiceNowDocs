@@ -24,7 +24,7 @@ Entitlements for custom tables are included in certain subscription licenses bas
 
 ## ServiceNow Store applications that consume custom tables
 
-Some applications available from the ServiceNow Store at no additional cost require a number of unallocated custom table entitlements. If an application consumes custom table entitlements, the application listing details and contract show how many are needed. For more information about application listing details, see [ServiceNow Store application listing details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/store-listing-details.md).
+Some applications available from the ServiceNow Store at no additional cost require a number of unallocated custom table entitlements. If an application consumes custom table entitlements, the application listing details and contract show how many are needed. For more information about application listing details, see [ServiceNow Store application listing details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/store-listing-details.md).
 
 ## Additional information
 

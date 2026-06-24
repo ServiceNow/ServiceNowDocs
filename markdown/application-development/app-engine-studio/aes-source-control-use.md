@@ -37,7 +37,7 @@ After an application has been linked to source control, application developers c
 -   Switch branches.
 -   Import an application from a remote repository.
 
-Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_SharingApplications.md).
+Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or App Engine Studio. For more information about managing applications on a production instance, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_SharingApplications.md).
 
 ## Options available from a Git repository
 

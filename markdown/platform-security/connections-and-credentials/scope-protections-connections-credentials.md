@@ -31,7 +31,7 @@ Restricting the use of a Connection &amp; Credentials record to a specific scope
 
 -   Protects records when queried using a script. If you do a query from the Global scope, and the Connection &amp; Credential record is in a protected scope, it doesn't appear in the query, unless given access to it.
 
-You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/restricted-caller-access-privilege.md). Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
+You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see Restricted caller access privilege settings. Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
 
 **Note:** Scope protections are only enabled for specific secured scopes to avoid confusion when setting up new records. If someone makes a connection in their scoped application scope, it doesn't have automatic scope restriction.
 

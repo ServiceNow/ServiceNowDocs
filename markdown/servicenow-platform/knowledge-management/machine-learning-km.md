@@ -25,5 +25,5 @@ Machine learning in Knowledge Management has the following benefits:
 -   **[Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)**  
 The Predictive Intelligence for Knowledge Management capability uses machine-learning algorithms to provide various Knowledge Management capabilities, such as similar articles and knowledge demand insights.
 
-**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-content.md)
+**Parent Topic:**[Manage content capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-content.md)
 

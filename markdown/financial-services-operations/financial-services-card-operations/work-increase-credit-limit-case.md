@@ -33,5 +33,5 @@ When a customer requests to increase a credit limit, a credit card service case 
     The **sn\_bom\_credit\_card.reserverd\_hours\_to\_update\_credit\_limit** [card property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/properties-installed-card-ops.md) defines the number of hours before the end date when the system creates a case to revert the credit limit.
 
 
-For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/flow-designer-flows-fso-apps.md).
+For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/flow-designer-flows-fso-apps.md).
 

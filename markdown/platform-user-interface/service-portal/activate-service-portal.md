@@ -23,7 +23,7 @@ The following plugins are installed with the Service Portal for Enterprise Servi
 -   Service Portal Designer \[com.glide.service-portal.designer\]
 -   Service Portal Surveys \[com.glide.service-portal.survey\]
 
-If Service Portal \[com.glide.service-portal.esm\] is not active on your instance, you can activate by following the Activate a plugin instructions.
+If Service Portal \[com.glide.service-portal.esm\] is not active on your instance, you can activate by following the [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md) instructions.
 
 **Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/reference-service-portal.md)
 

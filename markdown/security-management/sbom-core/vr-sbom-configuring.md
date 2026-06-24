@@ -18,7 +18,7 @@ Download and activate the required applications for the Software Bill of Materia
 
 ## Configuration overview
 
-1.  Download the required SBOM applications and any additional supported applications and integrations you want from the ServiceNow Store into your ServiceNow instance. See [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-exploring.md) and [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md) for more information about supported applications.
+1.  Download the required SBOM applications and any additional supported applications and integrations you want from the ServiceNow Store into your ServiceNow instance. See [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-exploring.md) and [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md) for more information about supported applications.
 
     The Vulnerability Response application is required for SBOM Response. Install The Vulnerability Response application prior to installing SBOM Response.
 

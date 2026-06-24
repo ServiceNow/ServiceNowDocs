@@ -4,8 +4,6 @@ description: ServiceNow Impact personalizes your digital transformation journey 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/impact-program-features.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-10-08"
 reading_time_minutes: 1

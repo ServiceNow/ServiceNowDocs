@@ -4,8 +4,6 @@ description: Use the Contact card on the email interaction page to create a cust
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-a-customer-contact\_EaaI.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

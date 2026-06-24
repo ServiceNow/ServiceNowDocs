@@ -4,8 +4,6 @@ description: Legal and Contract Operations empowers organizations to accelerate 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/lco-landing.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: reference
 last_updated: "2025-09-23"
 reading_time_minutes: 1

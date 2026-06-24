@@ -76,7 +76,7 @@ In this release, the available prebuilt integrations are:
 |Customizable Knowledge Graph schema|Provides an option to copy the ServiceNow Knowledge Graph schemas for customization.|kg\_admin|
 |Test a Knowledge Graph schema|Provides an option to test a Knowledge Graph schema by running a query.|kg\_admin|
 |Use Workflow Data Fabric to retrieve information without saving or copying them from the source entity. This ensures efficiency and security.|Leverage Workflow Data Fabric tables in Knowledge Graph to retrieve data.|Requester|
-|Create a Knowledge Graph schema with Workflow Data Fabric tables.|To create and manage Workflow Data Fabric tables, see|kg\_admin|
+|Create a Knowledge Graph schema with Workflow Data Fabric tables.|To create and manage Workflow Data Fabric tables, see[Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)|kg\_admin|
 
 ## What to explore next
 

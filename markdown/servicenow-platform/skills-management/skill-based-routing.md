@@ -27,5 +27,5 @@ Create Skill Determination rules to identify skills required by agents to work o
 -   **[Qualify and rank users based on skills and skill levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/skills-management/assign-work-based-on-skills.md)**  
 Rank users so that you can select the right users based on skills needed to complete tasks. Qualify users to work on tasks such as case, work order task, or chat interaction based on the number of skills and skill levels required to work on those tasks.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

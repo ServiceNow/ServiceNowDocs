@@ -29,5 +29,5 @@ You can use script actions to create server-side scripts that perform a variety 
 -   **[Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/r_ChangeEventsSampleScripts.md)**  
 Several scripts are found in the baseline change events business rule.
 
-**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/config-now-platform-core-features.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/config-now-platform-core-features.md)
 

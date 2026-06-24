@@ -20,7 +20,7 @@ Determine whether to initiate a chargeback for a transaction if the cardholder h
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -50,7 +50,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d76997e217">
+<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d77020e217">
 
 **Yes**
 
@@ -58,7 +58,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d76997e229">
+</td></tr><tr><td id="d77020e229">
 
 **No**
 

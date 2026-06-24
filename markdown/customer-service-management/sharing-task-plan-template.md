@@ -4,10 +4,8 @@ description: Sharing task plan templates ensures that only authorized users can 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/sharing-task-plan-template.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

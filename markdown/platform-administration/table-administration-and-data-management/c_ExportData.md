@@ -58,7 +58,7 @@ CSV
 
 Export table records as a comma-separated value text file. Use this option to export the currently displayed fields in the list or form as a text file. Configure the list or form to add or remove fields from the export. When exported to CSV, dot-walked fields appear using their full field name, such as u\_assignment\_group.parent.
 
- **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) to UTF-8.
+ **Note:** By default, ServiceNow exports all CSV files in Windows-1252 encoding. If you need to export translated data, set the **glide.export.csv.charset** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/r_AvailableSystemProperties.md) to UTF-8.
 
 </td></tr><tr><td>
 

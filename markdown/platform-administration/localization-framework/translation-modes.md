@@ -32,13 +32,13 @@ You can configure a custom Translation Management System of your choice. For mor
 
 When the Localization Framework Hub and Spoke architecture is installed, the TMS must be configured accordingly. For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
 
-Zip attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md)
+Zip attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
 
 ## Send via Email
 
 The Localization Framework provides **Send via Email** as a translation mode that can be used to send the translatable content for translation to a TMS service via email.
 
-If you have more than one requested item in a task, then the requested CSV or XLIFF items are compressed into one ZIP file and attached to the email. Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md)
+If you have more than one requested item in a task, then the requested CSV or XLIFF items are compressed into one ZIP file and attached to the email. Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
 
 You can configure the **Send via Email** mode as a translation preference for one or more activated languages. For more information see, [Configure Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/define-translation-preferences.md).
 
@@ -49,7 +49,7 @@ Localization Framework supports the following translation modes:
 -   **Export**: Export the translatable content for translation to a TMS service. If you have more than one requested item in a task, the individual CSV or XLIFF files are compressed and downloaded as one zip file.
 -   **Import**: Import the translated content from a TMS service. If you have more than one requested item in the task, you can import individual CSV or XLIFF files or in a ZIP format. Any files unrelated to the task are skipped.
 
-Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md)
+Either CSV or XLIFF attachment should be supported on the instance. For more details on attachment configuration, see [Configure system attachment properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_DisablingTheDragAndDropFeature.md)
 
 **Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/reference-localization-framework.md)
 

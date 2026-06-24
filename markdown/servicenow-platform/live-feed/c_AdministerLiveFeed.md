@@ -33,5 +33,5 @@ By default, administrators and users with the live\_feed\_admin role can configu
 -   **[Provide access to Live Feed from CMS pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/live-feed/t_AccessLiveFeedFromCMSPages.md)**  
 You can provide access to Live Feed from pages built in the Content Management System \(CMS\). For example, allow an end user to access your company feed via the ESS portal.
 
-**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-people.md)
 

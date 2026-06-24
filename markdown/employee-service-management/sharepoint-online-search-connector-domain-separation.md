@@ -4,8 +4,6 @@ description: Domain separation is unsupported for the SharePoint Online Search C
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/sharepoint-online-search-connector-domain-separation.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

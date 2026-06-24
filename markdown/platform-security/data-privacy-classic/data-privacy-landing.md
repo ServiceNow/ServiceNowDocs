@@ -18,7 +18,7 @@ Use Data Privacy to classify sensitive data and to remove personally identifiabl
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/data-privacy.md)
+[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-privacy.md)
 
 </td><td>
 

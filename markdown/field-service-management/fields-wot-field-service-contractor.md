@@ -4,8 +4,6 @@ description: The Details tab in a work order task provides information about a t
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/fields-wot-field-service-contractor.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

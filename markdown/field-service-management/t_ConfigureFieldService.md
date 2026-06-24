@@ -4,8 +4,6 @@ description: Administrators in the global domain can select configuration settin
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/t\_ConfigureFieldService.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 10

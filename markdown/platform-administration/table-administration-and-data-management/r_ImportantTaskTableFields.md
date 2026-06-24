@@ -62,7 +62,7 @@ journal\_input
 
 </td><td>
 
-Displays and allows the entry of comments about the task record. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_JournalFields.md).
+Displays and allows the entry of comments about the task record. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_JournalFields.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ reference
 
 </td><td>
 
-Specifies the user assigned to complete the task. By default, this field uses a [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) to only display users with the itil role.
+Specifies the user assigned to complete the task. By default, this field uses a [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ReferenceQualifiers.md) to only display users with the itil role.
 
  Some applications override the parent reference qualifier to display relevant users. For example, the Service Order and Project Task tables filter users based on their skills.
 
@@ -162,7 +162,7 @@ string
 
 Displays an identifying number for each task record. This field is the display value for the Task table. The system generates this number when the task is created.
 
- To manage number generation, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ManagingRecordNumbering.md).
+ To manage number generation, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ManagingRecordNumbering.md).
 
 </td></tr><tr><td>
 
@@ -299,7 +299,7 @@ glide\_list
 
 </td><td>
 
-Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_EmailNotifications.md) when the record is updated. By default, only the Incident, Change, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
+Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_EmailNotifications.md) when the record is updated. By default, only the Incident, Change, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
 
 </td></tr><tr><td>
 
@@ -315,7 +315,7 @@ journal\_input
 
 </td><td>
 
-Displays and allows the entry of comments viewable only by ITIL users. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_JournalFields.md).
+Displays and allows the entry of comments viewable only by ITIL users. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_JournalFields.md).
 
 </td></tr><tr><td>
 
@@ -331,7 +331,7 @@ glide\_list
 
 </td><td>
 
-Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_EmailNotifications.md) when work notes are added to the record. By default, only the Change, Problem, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
+Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_EmailNotifications.md) when work notes are added to the record. By default, only the Change, Problem, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Task table structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/table-administration-and-data-management/task-table-structure.md)

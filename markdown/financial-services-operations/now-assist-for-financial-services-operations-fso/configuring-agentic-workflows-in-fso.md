@@ -62,7 +62,7 @@ Predefined ACLs exist in Now Assist for FSO for the following:
 -   Subflows used in Disputes intake via Virtual Agent
 -   Subflows and subflow actions used in the Help Resolve Friendly Fraud agentic workflow
 
-See  for more information.
+See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md) for more information.
 
 ## Role masking
 

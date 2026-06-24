@@ -78,7 +78,7 @@ Write source code to define the metadata that makes up ServiceNow applications
 
 </td><td>
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-fluent.md)
 
 </td><td>
 
@@ -90,7 +90,7 @@ Organize and reuse code within scoped applications with custom JavaScript module
 
 </td><td>
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/javascript-modules-third-party-libraries.md)
 
 </td><td>
 

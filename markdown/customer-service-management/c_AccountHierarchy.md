@@ -4,8 +4,6 @@ description: Use the account hierarchy feature to create and view a parent-child
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/c\_AccountHierarchy.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-26"
 reading_time_minutes: 1

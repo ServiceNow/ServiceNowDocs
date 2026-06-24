@@ -24,7 +24,7 @@ When fuzzy numeric search is activated, AI Search checks all-numeric search term
 
 **Important:**
 
-Fuzzy numeric search only searches records from numbered tables. These are tables with Number fields that have prefixes defined in the Number \[sys\_number\] table. To learn about record numbering and the Number table, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/c_ManagingRecordNumbering.md).
+Fuzzy numeric search only searches records from numbered tables. These are tables with Number fields that have prefixes defined in the Number \[sys\_number\] table. To learn about record numbering and the Number table, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/c_ManagingRecordNumbering.md).
 
 Child tables that inherit the Number field from their parent table can't be searched using fuzzy numeric search. Only tables that have their own Number field defined work with this feature.
 

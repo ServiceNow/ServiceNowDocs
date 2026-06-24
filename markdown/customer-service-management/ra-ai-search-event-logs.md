@@ -4,8 +4,6 @@ description: AI search event and action logs capture user interactions and searc
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-ai-search-event-logs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-10-22"
 reading_time_minutes: 3

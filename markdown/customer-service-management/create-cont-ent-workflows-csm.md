@@ -4,8 +4,6 @@ description: After a product offer is selected by the customer and the product i
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-cont-ent-workflows-csm.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4

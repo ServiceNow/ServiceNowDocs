@@ -4,8 +4,6 @@ description: ITOM AIOps helps you track and maintain the health of services in y
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-health-use-case-product-view.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

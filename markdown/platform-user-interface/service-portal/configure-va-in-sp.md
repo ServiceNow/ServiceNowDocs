@@ -106,7 +106,7 @@ Server script
 
 </td><td>
 
-Write a script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the GlideSPScriptable API.
+Write a script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -138,7 +138,7 @@ You can change the color and images that are used in the Agent Chat button in yo
 
 ### Before you begin
 
-If you plan to replace one or both of the images that are used in the Agent Chat button, upload the images to your instance. For more information on uploading an image, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/c_StoringImagesInTheDatabase.md).
+If you plan to replace one or both of the images that are used in the Agent Chat button, upload the images to your instance. For more information on uploading an image, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 Role required: sp\_admin or admin
 
@@ -304,7 +304,7 @@ Examine the widget to understand how data is passed to the widget client script.
     };
     ```
 
-    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see spContextManager.
+    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see [spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spContextManagerAPI.md).
 
 3.  Click **Save.**
 

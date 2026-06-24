@@ -23,5 +23,5 @@ Create skipped record rules based on your set conditions to define your customiz
 -   **[Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md)**  
 Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.
 
-**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/upgrade-now-platform.md)
+**Parent Topic:**[Using ServiceNow AI Platform upgrade tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/upgrade-now-platform.md)
 

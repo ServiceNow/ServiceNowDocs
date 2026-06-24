@@ -24,7 +24,7 @@ Role required: data\_privacy\_admin and admin
 
 1.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Anonymization**.
 

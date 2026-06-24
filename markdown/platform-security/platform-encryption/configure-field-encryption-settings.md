@@ -37,7 +37,7 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 ## What to do next
 
--   If you’re using your own customer-supplied keys, see [Using customer supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/csk-landing.md).
+-   If you’re using your own customer-supplied keys, see [Using customer supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/csk-landing.md).
 -   If you’re using ServiceNow supplied keys, start creating your cryptographic module. See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/create-cryptographic-module.md).
 
 **Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platform-encryption/configure-kmf.md)

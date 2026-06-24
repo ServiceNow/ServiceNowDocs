@@ -4,8 +4,6 @@ description: Get a quick overview of the skill inputs and triggers for Now Assis
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.html
 release: zurich
-product: Operational Technology
-classification: operational-technology
 topic_type: concept
 last_updated: "2026-01-14"
 reading_time_minutes: 2

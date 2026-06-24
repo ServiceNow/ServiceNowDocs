@@ -4,8 +4,6 @@ description: Learn about how the Workspace Activity stream functions in Configur
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-activity-stream.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-08-06"
 reading_time_minutes: 1

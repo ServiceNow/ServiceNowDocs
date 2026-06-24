@@ -4,8 +4,6 @@ description: Following is the information that is synced: who’s on your Impact
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/working-with-squad-mapping.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: reference
 last_updated: "2025-11-18"
 reading_time_minutes: 1

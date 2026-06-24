@@ -44,7 +44,7 @@ The ServiceNow® Knowledge Management \(KM\) application enables the sharing of 
 
 </td></tr><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/exploring-knowledge-center.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/exploring-knowledge-center.md)
 
 </td><td>
 

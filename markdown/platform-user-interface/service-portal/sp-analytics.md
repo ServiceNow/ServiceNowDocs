@@ -18,7 +18,7 @@ The Usage Insights application provides views for monitoring usage analytics of 
 
 Video showing how to navigate and use User Experience Analytics 
 
-You can view user analytics tracking for the portal in the Usage Insights application. For more information, see Overview of the User Experience Analytics application.
+You can view user analytics tracking for the portal in the Usage Insights application. For more information, see [Overview of the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
 
 \[Omitted image "sp-analytics-dashboard.png"\] Alt text: Usage Insights interface for Service Portal
 
@@ -33,11 +33,11 @@ For example, Usage Insights tracks when a user orders a catalog item or views a 
 
 ## Roles
 
-The portal\_analytics\_admin and portal\_analytics\_viewer roles are installed with the Service Portal Analytics plugin \(com.glide.service-portal.analytics\). For information on other roles associated with Usage Insights, see .
+The portal\_analytics\_admin and portal\_analytics\_viewer roles are installed with the Service Portal Analytics plugin \(com.glide.service-portal.analytics\). For information on other roles associated with Usage Insights, see [Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md).
 
 ## User consent notices
 
-User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see .
+User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see [Define texts for Notice and Explicit Opt-in messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/uxa-define-text-policies.md).
 
 -   **[Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/create-sp-analytics-settings.md)**  
 Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
@@ -53,5 +53,5 @@ Use system properties to configure Usage Insights for Service Portal.
 **Related topics**  
 
 
-[bundle-par.user-exp-analytics-landing]
+[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 

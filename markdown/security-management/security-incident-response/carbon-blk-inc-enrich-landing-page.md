@@ -19,14 +19,14 @@ Use the Carbon Black integration to investigate and respond to security incident
 ## Find Carbon Black- Incident Enrichment integration resources
 
 -   [Get started with the Carbon Black - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/activate-configure-carbonblack-inc-enrich.md)
--   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-get-running-processes-workflow.md)
--   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-isolate-host-workflow.md)
--   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-cb-remove-host-isolation-workflow.md)
+-   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-get-running-processes-workflow.md)
+-   [Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-isolate-host-workflow.md)
+-   [Security Operations Carbon Black Integration- Remove Host Isolation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-cb-remove-host-isolation-workflow.md)
 
 ## Understand integration concepts
 
--   [Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_TypesOfIntegrationsProv.md)
--   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/workflow-triggers.md)
+-   [Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_TypesOfIntegrationsProv.md)
+-   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/workflow-triggers.md)
 
 ## Get help from ServiceNow resources
 

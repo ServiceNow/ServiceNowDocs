@@ -43,7 +43,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
 
 ### About this task
 
@@ -63,7 +63,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
     |Type|**true\|false**|
     |Value|true|
 
-2.  [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/set-RCA-level.md) .
+2.  Define cross-scope access to an application resource .
 
     Enable Caller Restriction for the tables you want flows and actions to request access to.
 
@@ -77,7 +77,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
     Cross-scope flows and actions generate access privilege requests to the tables set to caller restriction.
 
-5.  [Allow flows and actions to access your application resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/scope-resource-access.md) .
+5.  Allow flows and actions to access your application resources .
 
     Identify access privilege requests with these source types.
 

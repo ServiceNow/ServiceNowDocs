@@ -4,8 +4,6 @@ description: The Record List component bundle is a list component bundle that us
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-record-page-record-list-component-bundle.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3

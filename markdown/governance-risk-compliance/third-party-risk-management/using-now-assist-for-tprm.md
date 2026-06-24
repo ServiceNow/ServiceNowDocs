@@ -24,5 +24,5 @@ Generate a summary of a TPRM issue to support efficient triaging, remediation, a
 -   **[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md)**  
 Use generative AI to identify and recommend potential Third-party Risk Management issues based on assessment responses. The TPRM issue recommendation skill presents recommended issues with rationalized summaries for reviewer confirmation.
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/r_WhatIsGRC.md)
 

@@ -4,8 +4,6 @@ description: Developers can identify issues and prevent defects before they are 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/install-proactive-code-check.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

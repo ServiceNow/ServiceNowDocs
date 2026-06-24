@@ -20,7 +20,7 @@ Integrating EcoVadis into your third-party risk management program can enhance y
 
 The following pre-requisite configurations are required to use the Vendor Risk Management integration with the EcoVadis application.
 
--   Activate the Vendor Risk Management integration with EcoVadis application \[com.sn\_app\_grc\_ecovadis\]. To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+-   Activate the Vendor Risk Management integration with EcoVadis application \[com.sn\_app\_grc\_ecovadis\]. To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 -   Create a connection and authenticate your credentials with EcoVadis for more information, see [Create an EcoVadis connection and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-config-connection-ecovadis.md).
 -   Request EcoVadis ratings using the EcoVadis website. After the request is accepted, scores will become available in TPRM. For more information on the EcoVadis website, see [https://support.ecovadis.com/hc/en-us](https://support.ecovadis.com/hc/en-us).

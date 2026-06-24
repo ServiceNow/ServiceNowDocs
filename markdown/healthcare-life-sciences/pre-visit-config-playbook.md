@@ -26,5 +26,5 @@ The playbooks in the Pre-Visit Management application use the CSM Configurable W
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with procedure request cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-definitions.md).
 
-**Note:** When configuring a process definition for the playbook associated with procedure request cases, ensure that the application scope is set to Pre-Visit Management or Healthcare and Life Sciences Service Management Core by using the application picker. For more information, see Application picker.
+**Note:** When configuring a process definition for the playbook associated with procedure request cases, ensure that the application scope is set to Pre-Visit Management or Healthcare and Life Sciences Service Management Core by using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 

@@ -4,8 +4,6 @@ description: The plugins and roles for the Time Recording for Field Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/components-time-recording-fsm.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

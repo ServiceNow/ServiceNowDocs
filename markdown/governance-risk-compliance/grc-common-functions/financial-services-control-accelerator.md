@@ -35,7 +35,7 @@ Prior to running the Financial Services Control Accelerator application, you mus
 -   GRC: Policy and Compliance Management
 -   GRC: Profiles
 
-**Note:** Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+**Note:** Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 ## Financial Services Control Accelerator controls
 

@@ -24,9 +24,9 @@ Role required: admin
 
 After you have created and tested your model, assess its performance to evaluate how well it's predicting what you want it to predict. For multi-output models that predict multiple fields, you may want to assess the performance of each field individually.
 
-If you have not already created a model, see either  or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) to make one.
+If you have not already created a model, see either [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) to make one.
 
-Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in Create a case field prediction model or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) model.
+Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) model.
 
 ## Procedure
 

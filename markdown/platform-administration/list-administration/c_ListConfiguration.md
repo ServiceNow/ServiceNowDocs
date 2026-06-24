@@ -33,5 +33,5 @@ You can write scripts to specify which list elements, such as links, filters, an
 -   **[Show/hide filter controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/list-administration/show-hide-filter.md)**  
 The Show/hide filter used in the list configuration, lists the fields to configure in the filter conditions.
 
-**Parent Topic:**[ServiceNow AI Platform forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/now-platform-forms-fields-lists.md)
+**Parent Topic:**[ServiceNow AI Platform forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/now-platform-forms-fields-lists.md)
 

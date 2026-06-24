@@ -112,7 +112,7 @@ Workaround
 
 </td><td>
 
-This property sanitizes all HTML fields in the system. If you must enable HTML sanitization on individual fields, see [Enable sanitization on individual fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_EnSanitizIndFlds.md).
+This property sanitizes all HTML fields in the system. If you must enable HTML sanitization on individual fields, see [Enable sanitization on individual fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_EnSanitizIndFlds.md).
 
  You can also configure the inclusion list or exclusion list to sanitize HTML tags and attributes as per your organizations policy.
 
@@ -122,9 +122,9 @@ References
 
 </td><td>
 
-[Enabling HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/t_ActivateHTMLSanitizer.md)
+[Enabling HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateHTMLSanitizer.md)
 
- [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md)
+ [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HTMLSanitizer.md)
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).

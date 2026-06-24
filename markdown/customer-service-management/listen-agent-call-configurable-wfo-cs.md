@@ -4,8 +4,6 @@ description: Monitor your customer service agents' calls when they are resolving
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/listen-agent-call-configurable-wfo-cs.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

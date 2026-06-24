@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -73,9 +73,9 @@ Unmatched Affected Users
 View or add the users who are affected by a security incident but cannot be matched to existing user records in the Users \[sys\_user\] table.
 
 </td></tr></tbody>
-</table>    **Note:** If the [Security Operations Integration - Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/get-running-processes-capability.md) integration capability is active, and you add a CI to a security incident, the [Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/secops-integration-get-running-processes-workflow.md) workflow runs and retrieves a list of running processes on the CI.
+</table>    **Note:** If the [Security Operations Integration - Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/get-running-processes-capability.md) integration capability is active, and you add a CI to a security incident, the [Get Running Processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/secops-integration-get-running-processes-workflow.md) workflow runs and retrieves a list of running processes on the CI.
 
-    If the [Security Operations Integration - Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/isolate-host-capability.md) integration capability is active, you can select one or more CIs and restrict their system connections to other devices. To do this, select the check boxes for the CIs and select **Isolate Host** from the **Actions on selected rows** choice list.
+    If the [Security Operations Integration - Isolate Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/isolate-host-capability.md) integration capability is active, you can select one or more CIs and restrict their system connections to other devices. To do this, select the check boxes for the CIs and select **Isolate Host** from the **Actions on selected rows** choice list.
 
 6.  Selected any of the following related links to further update the security incident:
 

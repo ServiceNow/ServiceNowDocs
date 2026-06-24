@@ -18,14 +18,14 @@ Install the Whois plugin to provide additional enrichment information on your do
 
 ## Before you begin
 
-1.  If you have not requested entitlement for the application, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/entitle-secops-product.md) for the Whois application from the ServiceNow Store.
+1.  If you have not requested entitlement for the application, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/entitle-secops-product.md) for the Whois application from the ServiceNow Store.
 2.  Obtain credentials for the Whois API key from the product website: [WHOIS API website](https://whoisapi.whoisxmlapi.com/).
 
 Role required: admin
 
 ## Procedure
 
-1.  If you have not installed the application, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the application, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Whois API tile.
 

@@ -4,8 +4,6 @@ description: View tracking and diagnostic information for every execution of tas
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-task-plan-template-exec.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-12-01"
 reading_time_minutes: 2

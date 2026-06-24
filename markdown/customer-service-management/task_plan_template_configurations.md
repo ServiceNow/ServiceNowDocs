@@ -4,10 +4,8 @@ description: Admins can create configurations for task plan templates that pre-f
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task\_plan\_template\_configurations.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

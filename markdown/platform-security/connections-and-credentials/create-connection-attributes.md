@@ -24,7 +24,7 @@ Role required:
 -   The connection\_admin or admin role is required to assign attribute values.
 -   The action\_designer or admin role is required to use attributes in a custom action.
 
-Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/request-integrationhub.md).
+Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see Request an Integration Hub plugin.
 
 ## About this task
 

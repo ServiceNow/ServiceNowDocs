@@ -59,7 +59,7 @@ The Now LLM retrieves the most relevant result from [https://www.servicenow.com/
 
 \[Omitted image "na-conversational-help-skills.png"\] Alt text: Now Assist Conversational Help skill
 
-For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-ai-experiences/fetch-end-points-in-conversational-help-skill.md).
+For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md).
 
 **Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

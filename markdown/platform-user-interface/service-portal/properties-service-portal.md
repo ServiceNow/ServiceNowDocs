@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 6
 breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -79,7 +79,7 @@ Set the duration in seconds that non-critical notifications remain on the screen
 
  Critical notifications should be tagged with the `sn-sticky-notification` HTML class attribute to prevent them from being automatically dismissed.
 
- If the glide.ui.accessibility preference is enabled, messages don’t auto-dismiss, regardless of the system property value. To set this preference, see [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md).
+ If the glide.ui.accessibility preference is enabled, messages don’t auto-dismiss, regardless of the system property value. To set this preference, see [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 
 </td></tr><tr><td>
 

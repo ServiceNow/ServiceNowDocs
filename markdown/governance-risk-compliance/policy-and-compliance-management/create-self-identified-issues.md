@@ -18,7 +18,7 @@ Your employees and business users within your company can self-identify an issue
 
 ## Before you begin
 
-You must download the GRC: Advanced Core application before you can use the Issue Triage featuring within Policy and Compliance Management. For more information, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/governance-risk-and-compliance/download-grc-first-time.md).
+You must download the GRC: Advanced Core application before you can use the Issue Triage featuring within Policy and Compliance Management. For more information, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/download-grc-first-time.md).
 
 Role required: sn\_compliance.user, sn\_grc.business\_user
 

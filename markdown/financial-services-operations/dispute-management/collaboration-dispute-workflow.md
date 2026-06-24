@@ -33,7 +33,7 @@ Description
 </td><td>
 
 1.  The chargeback process gets initiated and the merchant response is submitted Visa for review.
-2.  After the batch queue is triggered, the transaction moves to **Work in progress**. For more information on how to configure the batch queue, see [Configure the Visa Queue Scheduler Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/activate-visa-queue-scheduler-flow.md).
+2.  After the batch queue is triggered, the transaction moves to **Work in progress**. For more information on how to configure the batch queue, see [Configure the Visa Queue Scheduler Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/activate-visa-queue-scheduler-flow.md).
 
 </td></tr><tr><td>
 

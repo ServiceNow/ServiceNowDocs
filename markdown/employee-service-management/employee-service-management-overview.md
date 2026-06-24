@@ -4,8 +4,6 @@ description: ServiceNow Employee Service Management transforms how employees int
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-service-management-overview.html
 release: zurich
-product: Employee Service Management
-classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 8

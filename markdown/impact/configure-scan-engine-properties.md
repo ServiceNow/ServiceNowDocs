@@ -4,8 +4,6 @@ description: Configure the primary scanning capabilities and configuration optio
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/configure-scan-engine-properties.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 3

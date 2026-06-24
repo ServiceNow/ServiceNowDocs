@@ -4,8 +4,6 @@ description: Set up a trusted credential-less account that other AWS accounts ca
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aws-trusted-credential-less.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 5

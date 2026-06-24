@@ -50,7 +50,7 @@ In this example, a finding rule is created to find when someone requests an appr
 ## What to do next
 
 -   Configure automated root cause analysis to find the root cause of undesired process behavior. For details on this feature. See [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/auto-rca.md).
--   Configure Automation Discovery to help you identify automation opportunities for your workflows. For details on this configuration, see [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics/automation-discovery.md).
+-   Configure Automation Discovery to help you identify automation opportunities for your workflows. For details on this configuration, see [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/automation-discovery.md).
 
 -   Configure cluster analysis to group similar records into a cluster \(one group\) so you can identify patterns. For more detail on this configuration, see [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/cluster-analysis.md).
 

@@ -18,5 +18,5 @@ Financial Services Treasury Operations contains a preconfigured dashboard with a
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-treasury-ops-dashboard.md) is available for Financial Services Treasury Operations.
+The [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-treasury-ops-dashboard.md) is available for Financial Services Treasury Operations.
 

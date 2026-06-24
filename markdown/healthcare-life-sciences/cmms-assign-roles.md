@@ -20,7 +20,7 @@ Assign roles to control access to features, capabilities, and data in the Health
 
 To use maintenance and servicing workflows or inventory and management workflows, please see [Clinical Device Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/clinical-device-mgmt-overview.md).
 
-Set the application scope to Healthcare Computerized Maintenance Management System using the application picker. For more information, see Application picker.
+Set the application scope to Healthcare Computerized Maintenance Management System using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_hcls\_cmms.clinical\_engineering\_admin or admin
 

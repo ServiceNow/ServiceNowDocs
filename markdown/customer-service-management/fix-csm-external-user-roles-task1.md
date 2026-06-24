@@ -4,8 +4,6 @@ description: Review and fix roles for external users that may have non-intention
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/fix-csm-external-user-roles-task1.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

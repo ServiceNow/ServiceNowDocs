@@ -4,8 +4,6 @@ description: Set up automatic email reminders to notify customers to respond to 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-email-reminders-interaction.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-10-08"
 reading_time_minutes: 1

@@ -4,11 +4,9 @@ description: Cumulative release notes summary on features that were removed from
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-removed-features.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -119,7 +117,7 @@ Now Assist for Creator
 
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
--   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) product documentation for more information.
+-   Starting with version 28.4.3 of Now Assist for Creator, the now.assist.creator role has been removed as a required role for using most Now Assist for Creator skills and agents. Some skills and agents might have additional role requirements. See the  product documentation for more information.
 
 </td></tr><tr><td>
 
@@ -157,7 +155,7 @@ ServiceNow SDK
 
 </td><td>
 
--   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see [Upgrade the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk/upgrade-servicenow-sdk.md).
+-   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see .
 
 </td></tr><tr><td>
 

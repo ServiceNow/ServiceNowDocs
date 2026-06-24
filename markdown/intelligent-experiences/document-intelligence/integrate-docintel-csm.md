@@ -22,7 +22,7 @@ Agents can review values for extracted fields and make corrections as needed by 
 
 Create use cases that identify the information to extract from attachments, such as invoices, and automatically add that information to case fields, depending on the configuration. Labels identify the extracted fields on the case form.
 
-For more information, see Document Intelligence for CSM.
+For more information, see [Document Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-document-intelligence.md).
 
 ## How Document Intelligence works with CSM
 
@@ -45,7 +45,7 @@ If the case meets those requirements, the feature:
 
 Set the system properties and activate the required flows to enable Document Intelligence for CSM.
 
-See .
+See [Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-document-intelligence.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

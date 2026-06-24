@@ -29,5 +29,5 @@ When a customer requests to block a credit card, a credit card service case is c
     The **sn\_bom\_credit\_card.reserverd\_hours\_to\_unblock\_credit\_card** [card property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-card-operations/properties-installed-card-ops.md) defines the number of hours before the end date when the system creates a case to unblock the credit card.
 
 
-For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/flow-designer-flows-fso-apps.md).
+For more information on the flows that are installed with the Financial Services Card Operations application, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/flow-designer-flows-fso-apps.md).
 

@@ -4,8 +4,6 @@ description: Several types of components are installed with activation of the IT
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/components-installed-with-itom-su-licensing.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2

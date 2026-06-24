@@ -16,8 +16,8 @@ The Security Posture Control and the Mitigation Controls applications are requir
 
 Refer to the following topics for more information about downloading and installing applications from the ServiceNow® Store.
 
--   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md)
--   [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/install-non-core-apps.md)
+-   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md)
+-   [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/install-non-core-apps.md)
 
 To view the mitigation controls policies, users in the SPC Admin Group and SPC Analyst Group can navigate to **Workspaces** &gt; **Security Posture Control** &gt; **Policies and findings** &gt; **All** in the SPC Workspace navigation panel.
 

@@ -32,14 +32,14 @@ Set up
 
 Use
 
- [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/perform-lookups-on-observables.md)
+ [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/perform-lookups-on-observables.md)
 
 </td><td>
 
 Develop
 
- -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 -   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md)
@@ -48,7 +48,7 @@ Develop
 
 Troubleshoot and get help
 
- -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

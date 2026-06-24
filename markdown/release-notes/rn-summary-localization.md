@@ -4,8 +4,6 @@ description: Cumulative release notes summary on new Zurich features and product
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-localization.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
 reading_time_minutes: 2

@@ -4,8 +4,6 @@ description: By setting up the relationships between organizations and users in 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/products-services-at-bus-loc.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-11"
 reading_time_minutes: 1

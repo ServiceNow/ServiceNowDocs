@@ -4,8 +4,6 @@ description: Customize the information displayed for territories in the Territor
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/configure-fields-to-appear-in-contextual-side-panel.html
 release: zurich
-product: Field Service Management
-classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -38,7 +38,7 @@ As an example, suppose you have an instance with domain separation configured wh
 
 3.  On the User form, configure the layout to show the **Managed domain**, **Domain**, and **Domain Path** fields.
 
-    To learn how to show or hide fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/configure-form-layout.md).
+    To learn how to show or hide fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/configure-form-layout.md).
 
 4.  Select the **Managed domain** option.
 

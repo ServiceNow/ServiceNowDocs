@@ -22,7 +22,7 @@ Security Center is a free application that administrators can download from the 
 
 Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for activation.
 
-Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/instance-security-center-to-security-center-migration.md).
+Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-center-to-security-center-migration.md).
 
 ## Get started
 
@@ -96,5 +96,5 @@ Access security learning materials from a single page.
 -   **[Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/security-center/scc-banner.md)**  
 Enable security banner announcements to stay informed about urgent and critical security alerts using high visibility banners visible to administrators within the instance UI.
 
-**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/servicenow-ai-platform-security/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/platsec-sublanding.md)
 

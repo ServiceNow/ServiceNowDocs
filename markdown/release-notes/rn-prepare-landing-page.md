@@ -4,8 +4,6 @@ description: Before each upgrade, refresh your memory on general upgrade informa
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-prepare-landing-page.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

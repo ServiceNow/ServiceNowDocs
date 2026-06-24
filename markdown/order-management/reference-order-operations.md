@@ -1,0 +1,27 @@
+---
+title: Order operations reference
+description: Reference for order operations applications.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/reference-order-operations.html
+release: zurich
+topic_type: concept
+last_updated: "2025-11-26"
+reading_time_minutes: 1
+breadcrumb: [Reference, Sales Customer Relationship Management]
+---
+
+# Order operations reference
+
+Reference for order operations applications.
+
+[Components installed with Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-order-ops-install-comp.md)
+
+Several types of components are installed with the Order Operations Case Management application, including tables, roles, and service definitions.
+
+-   **[Lead-to-Cash Process Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-cash-process-management-reference.md)**  
+Reference topics provide additional information about Lead-to-Cash Process Management.
+-   **[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization-case-management-reference.md)**  
+Reference topic provides additional information about lists and forms that you can use to configure Return Merchandise Authorization \(RMA\) Case Management.
+
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-reference.md)
+

@@ -18,5 +18,5 @@ The AI Search Admin Console application installs new system components.
 
 ## List of all components installed with AI Search Admin Console
 
-To view the complete list of system components installed with AI Search Admin Console, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/find-components.md). The application's package name is **AI Search Admin Console**.
+To view the complete list of system components installed with AI Search Admin Console, follow the steps described in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/find-components.md). The application's package name is **AI Search Admin Console**.
 

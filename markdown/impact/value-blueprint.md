@@ -4,8 +4,6 @@ description: The value management lifecycle starts with the identification of yo
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/value-blueprint.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

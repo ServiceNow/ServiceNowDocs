@@ -34,7 +34,7 @@ Data visualizations exported to PowerPoint include the title and the description
 
 **Note:**
 
-If you have any Now Assist applications installed, you can probably export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics/export-db-dv-now-assist-panel.md).
+If you have any Now Assist applications installed, you can probably export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md).
 
 ## Procedure
 

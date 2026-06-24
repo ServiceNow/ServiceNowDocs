@@ -26,7 +26,7 @@ You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure Open
 -   To use Now Assist, you must have the now\_assist\_panel\_user role.
 -   To create an application with Now Assist for app generation, you must have the admin role or the sn\_g\_app\_creator.app\_creator role.
 -   To edit \(not create\) an application with Now Assist for app generation, you can have the delegated developer role and be assigned to the application.
--   To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/generate-ui.md).
+-   To add a workspace to an application in Now Assist for app generation, the Now Assist Experience Generation skill must be active. For more information, see [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/generate-ui.md).
 -   To add a flow to an application in Now Assist for app generation, the Now Assist Flow Generation skill must be active and you must have a flow\_designer role. For more information, see [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-landing.md).
 
 \[Omitted image "app-generation-workflow-infographic-asset-0020323v2.png"\] Alt text: Infographic that shows the four phases to using app generation, with a fifth on verifying the app in ServiceNow Studio.

@@ -4,8 +4,6 @@ description: Cumulative release notes summary on highlights of Zurich features a
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-highlights.html
 release: zurich
-product: Release Notes
-classification: release-notes
 topic_type: reference
 last_updated: "2026-06-12"
 reading_time_minutes: 159
@@ -194,7 +192,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -353,7 +351,7 @@ App Engine Management Center
 -   Migrate your existing App Engine pipelines to ReleaseOps.
 -   Oversee application development, deployment, and insights using AEMC.
 
-See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center/app-engine-management-center.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -463,7 +461,7 @@ Following are the OAuth enhancements:
 Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
     -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/oauth-inbound.md).
-    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see .
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
@@ -494,7 +492,7 @@ Automated Test Framework
 -   Create and schedule test suites to organize and run tests in batches.
 -   Reduce test design time by copying quick start tests and test suites. You can also create custom test steps to expand test coverage.
 
-See [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/atf-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -508,7 +506,7 @@ Build Agent
 -   Choose from newly supported models.
 -   Access update sets created in Build Agent directly from the chat panel.
 
-See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/build-agent.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -664,7 +662,7 @@ Classic Workflow
 -   Added the snc\_required\_script\_writer role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
-See [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -896,7 +894,7 @@ Creator Studio
 -   Add playbooks with a new activity that automatically updates some fields on the app's generated record.
 -   Augment forms with the new Duration and Attachment question types.
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio/creator-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1048,7 +1046,7 @@ Developer Sandboxes
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
 
-See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/developer-sandboxes/sandboxes-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1401,7 +1399,7 @@ Flows, subflows, and actions in Workflow Studio
 -   Create multiple skills for conversational subflows and actions from the conversational settings.
 -   Configure a default LLM for generating metadata for conversational subflows and actions.
 
-See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-actions.md) for more information.
+See , , and  for more information.
 
 </td></tr><tr><td>
 
@@ -1595,7 +1593,7 @@ Identity
 **Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
 
 -   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Explore Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/identity/federated-id.md).
--   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/identity/machine-identity-metrics.md) and [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+-   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/identity/machine-identity-metrics.md) and .
 
 Zurich
 
@@ -2185,7 +2183,7 @@ Now Assist for App Engine
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2305,7 +2303,7 @@ Now Assist for Creator
 -   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
 -   Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3333,7 +3331,7 @@ Performance Analyzer
 -   Receive page load time data directly on the instance.
 -   Access aggregated metrics by application and routes.
 
-See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/performance-analyzer/performance-analyzer-landing.md) for more information.
+See Performance Analyzer for more information.
 
 </td></tr><tr><td>
 
@@ -3358,7 +3356,7 @@ Playbooks in Workflow Studio
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/process-automation-designer.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3607,7 +3605,7 @@ ReleaseOps
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops/releaseops-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3669,7 +3667,7 @@ SQL API
 -   Merge your ServiceNow data with third-party datasets in your data lakes and analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -3945,7 +3943,7 @@ ServiceNow IDE
 -   Use light and dark developer themes.
 -   Use the ServiceNow IDE in any supported left-to-right language.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3956,7 +3954,7 @@ ServiceNow SDK
 -   Develop a user interface \(UI\) with React to build a full-stack application in source code.
 -   Define flows, service catalogs, UI pages and more in source code with ServiceNow Fluent APIs.
 
-See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3970,7 +3968,7 @@ ServiceNow Studio
 -   As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 -   As of version 28.2.1, access your favorite lists in ServiceNow Studio by bookmarking them.
 
-See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -4225,7 +4223,7 @@ UI Builder
 -   Add Now Assist skills to enhance your page, component, or controller with generative AI capabilities.
 -   Get instant conversational help within UI Builder through the Now Assist Panel.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 

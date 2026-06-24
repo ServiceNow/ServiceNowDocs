@@ -61,5 +61,5 @@ Experience the ability to zoom into an application or a group of applications an
 -   **[Admin Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/ac-reference.md)**  
 Find all the miscellaneous information about Admin Center and its applications in the reference section.
 
-**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/get-started-now-platform.md)
+**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/get-started-now-platform.md)
 

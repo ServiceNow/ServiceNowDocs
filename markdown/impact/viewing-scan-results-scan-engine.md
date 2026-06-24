@@ -4,8 +4,6 @@ description: You can view scans in real-time as they run, or after they're compl
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/viewing-scan-results-scan-engine.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1

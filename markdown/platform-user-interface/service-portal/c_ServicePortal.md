@@ -49,7 +49,7 @@ Both beginner and expert developers and can configure portals using Service Port
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   To learn more about what's new and what's changed in Zurich, see the .
+-   To learn more about what's new and what's changed in Zurich, see the [Service Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-portal-rn.md).
 -   [Ask or answer questions in the ServiceNow AI Platform community forum](https://www.servicenow.com/community/now-platform/ct-p/now-platform)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

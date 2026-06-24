@@ -20,7 +20,7 @@ Create a scoped application to develop in source code with the ServiceNow IDE.
 
 Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
-**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/build-agent.md).
+**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md).
 
 Role required: admin
 
@@ -42,7 +42,7 @@ Role required: admin
 
 7.  Enter a scope for the application and press Enter.
 
-    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/c_NamespaceIdentifier.md).
+    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/c_NamespaceIdentifier.md).
 
 8.  Enter a package name for the application and press Enter.
 
@@ -55,7 +55,7 @@ Role required: admin
 
 ## Result
 
-A scoped application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
+A scoped application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 \[Omitted image "servicenow-ide-create-app.png"\] Alt text: An application open in the File Explorer view.
 

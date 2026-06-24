@@ -47,5 +47,5 @@ The MID Server starts with a default JVM memory allocation, but you can modify t
 -   **[Pause the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/t_PauseTheMIDServer.md)**  
 Pause the MID Server to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.
 
-**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ai-platform-capabilities/manage-data-sources.md)
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/manage-data-sources.md)
 

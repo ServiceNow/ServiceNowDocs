@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, access Splunk and obtain the API Key and API ID under your profile.
 

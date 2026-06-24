@@ -48,7 +48,7 @@ Use the Connections view in our tokenizer service website to set up a new connec
 
 </td></tr><tr><td>
 
-[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-integrate-other-applications.md)
+[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-integrate-other-applications.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Create a new REST message function in **All** &gt; **System Web Services** &gt; 
 
 </td></tr><tr><td>
 
-[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
+
 
 </td><td>
 

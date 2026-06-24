@@ -4,8 +4,6 @@ description: Access the Analytics Dashboards to view detailed information relati
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/access-analytics-dashboards.html
 release: zurich
-product: Impact
-classification: impact
 topic_type: task
 last_updated: "2025-11-06"
 reading_time_minutes: 1

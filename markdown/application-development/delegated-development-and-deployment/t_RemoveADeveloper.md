@@ -20,7 +20,7 @@ Removing a user as a developer helps to prevent the accidental developing, chang
 
 Role required: admin or application administrator
 
-If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration isn’t enabled, an admin user can delegate developers.
+If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration isn’t enabled, an admin user can delegate developers.
 
 ## Procedure
 

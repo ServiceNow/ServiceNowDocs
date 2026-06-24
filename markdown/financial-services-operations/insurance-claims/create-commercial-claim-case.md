@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d100213e85">
+<table><thead><tr><th align="left" id="d100236e85">
 
 Option
 
-</th><th align="left" id="d100213e88">
+</th><th align="left" id="d100236e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100213e94">
+</th></tr></thead><tbody><tr><td id="d100236e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d100213e124">
+</td></tr><tr><td id="d100236e124">
 
 **Commercial auto claim case from an interaction record**
 
@@ -55,7 +55,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/create-interactions.md).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select **Commercial auto policy report claim**.

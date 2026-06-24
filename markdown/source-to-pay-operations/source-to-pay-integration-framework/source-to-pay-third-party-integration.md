@@ -7,7 +7,7 @@ release: zurich
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---

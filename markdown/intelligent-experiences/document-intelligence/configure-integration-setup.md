@@ -166,7 +166,7 @@ The following images show two example integrations. The first image is a Process
 
 If you selected to create a flow, finish the activation in Workflow Studio.
 
-For more information, see .
+For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md).
 
 **Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

@@ -4,8 +4,6 @@ description: Review statistics for the resources that can be managed by ITOM pro
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/view-resource-usage-licenses.html
 release: zurich
-product: IT Operations Management
-classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

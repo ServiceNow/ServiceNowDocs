@@ -4,8 +4,6 @@ description: Assign the required roles to customer service managers based on the
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/assign-roles-spm-csm.html
 release: zurich
-product: Customer Service Management
-classification: customer-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

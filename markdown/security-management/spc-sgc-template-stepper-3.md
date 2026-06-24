@@ -18,7 +18,7 @@ Select a template to support your API's structure.
 
 These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. By selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies, connecting with a wide variety of security tools is easier, because you’re using familiar and widely adopted API patterns.
 
-You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Role required: sn\_sec\_spc\_core.developer
 
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-operations/select-api-template.md) for the steps for using Now Assist.
+See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/select-api-template.md) for the steps for using Now Assist.
 
 </td></tr><tr><td id="d130647e132">
 

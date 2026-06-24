@@ -20,7 +20,7 @@ Work on a treasury task to perform due diligence or fulfillment activities for t
 
 Role required: sn\_bom\_treasury.agent or sn\_bom\_treasury.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -44,15 +44,15 @@ If assignment rules are configured, the task is automatically assigned to a trea
 
 3.  Open the task from the case playbook or the treasury task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d43269e150">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d43294e150">
 
 Option
 
-</th><th align="left" id="d43269e153">
+</th><th align="left" id="d43294e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43269e159">
+</th></tr></thead><tbody><tr><td id="d43294e159">
 
 **From the case playbook**
 
@@ -65,7 +65,7 @@ Steps
 
 **Note:** The Due diligence activity is available only for an RDC treasury case.
 
-</td></tr><tr><td id="d43269e200">
+</td></tr><tr><td id="d43294e200">
 
 **From the Treasury task list**
 

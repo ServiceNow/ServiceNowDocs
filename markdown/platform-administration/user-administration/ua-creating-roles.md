@@ -31,5 +31,5 @@ Administrators can grant users the ability to assign roles within groups. Howeve
 -   **[Time-limited role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/time-limited-role-overview.md)**  
 Time-limited roles give users the defined role during the defined time period.
 
-**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-platform-administration/config-now-platform-core-features.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/config-now-platform-core-features.md)
 
