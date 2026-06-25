@@ -16,7 +16,7 @@ breadcrumb: [Workflow Studio, Build workflows]
 
 Create and maintain decision logic in a table rather than in code.
 
-Create a decision table from Workflow Studio 
+\[Omitted video\] Description: Create a decision table from Workflow Studio
 
 This video provides an example of creating a decision table from within a Workflow Studio flow.
 

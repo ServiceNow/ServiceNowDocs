@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/create-partition-ewd.html
 release: australia
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 3
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

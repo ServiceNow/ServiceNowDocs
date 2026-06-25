@@ -36,7 +36,7 @@ If you want to add details that aren’t included in the Workplace Reservation \
 4.  Select **New**.
 5.  On the Dictionary Entry form, fill in the fields.
 
-    For more information on columns and fields, refer to [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_IntroductionToFields.md).
+    For more information on columns and fields, refer to [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
 
 6.  Select **Submit**.
 

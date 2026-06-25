@@ -17,7 +17,7 @@ breadcrumb: [Create a copy of the default Invoice Processing use case, Configuri
 
 Configure the copied Document Intelligence Extract Values flow for Invoice Processing to add missing field information, using the default flow as a reference.
 
-Configure the newly created DocIntel Extract Values flow. 
+\[Omitted video\] Description: Configure the newly created DocIntel Extract Values flow.
 
 ## Before you begin
 

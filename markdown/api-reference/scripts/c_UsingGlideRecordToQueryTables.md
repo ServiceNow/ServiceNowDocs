@@ -277,7 +277,7 @@ Special operator that retrieves only records of a specified "class" for extended
 addQuery\('sys\_class\_name', 'INSTANCEOF', 'cmdb\_ci\_computer'\);
 
 </td></tr></tbody>
-</table>For additional information on the operators that are available for filters and queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+</table>For additional information on the operators that are available for filters and queries, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 There are also some special methods that you can use to search for data that is NULL or NOT NULL. To search for all incidents where the *short\_description* field has not been supplied \(is null\), use the following query:
 

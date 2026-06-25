@@ -46,7 +46,7 @@ Displays Virtual Agent conversational prompts based on previous user searches \(
 
  When you create a new search application configuration, this suggestion reader group isn't linked to it by default. If you enable enhanced chat in a search portal, this suggestion reader group is linked to the search application configuration record that's shared between the portal and Virtual Agent.
 
- Conversational prompt suggestions are displayed in search portals by default. To make conversational prompt suggestions available in global and workspace search, you must enable Now Assist panel enhanced chat. For details on this procedure, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced-activate.md).
+ Conversational prompt suggestions are displayed in search portals by default. To make conversational prompt suggestions available in global and workspace search, you must enable Now Assist panel enhanced chat. For details on this procedure, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
  Default section header: `Ask Now Assist`
 

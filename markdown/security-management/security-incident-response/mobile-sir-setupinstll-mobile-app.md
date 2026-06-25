@@ -106,7 +106,7 @@ As a user with the sn\_si.analyst role, verify notifications are enabled on your
 1.  Verify you have downloaded and installed the Security Incident Response Mobile app on your ServiceNow AI Platform instance.
 2.  In System Settings in your ServiceNow AI Platform instance, under Notifications, verify you have enabled the **ServiceNow Mobile Application**.
 
-For more information about setting notifications, see [Setting user notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/user-notification-preferences.md).
+For more information about setting notifications, see [Setting user notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md).
 
 
  ServiceNow AI Platform notifications are also displayed on the messages screen on your mobile device. Verify that notifications are also enabled in the settings of your mobile device.

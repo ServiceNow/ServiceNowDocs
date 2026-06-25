@@ -64,7 +64,7 @@ Action Script
 
 </td><td>
 
-Create the script in the text box.See [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
+Create the script in the text box.See [Create a policy action script]() for details.
 
 </td></tr></tbody>
 </table><table id="table_qhx_32h_sfb"><thead><tr><th>
@@ -97,7 +97,7 @@ Enter a value that overrides the value in the **Property** field. You can overri
 
 When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
-Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details\):
+Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance]() for details\):
 
 -   Set form data values using definition expressions. For example: `${parameter.formData.CatalogAttributeType}`
 -   Assign user data values using definition expressions. For example: `${parameter.userData.userId}`

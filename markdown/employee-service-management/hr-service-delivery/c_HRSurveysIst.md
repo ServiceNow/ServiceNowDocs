@@ -30,7 +30,7 @@ With trigger conditions, the system generates a survey instance each time a spec
 
 When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
-For more detailed information about working with surveys, trigger conditions, and survey questions, see [Get started with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementLandingPage.md).
+For more detailed information about working with surveys, trigger conditions, and survey questions, see [Get started with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementLandingPage.md).
 
 -   **[Add or modify an HR survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyAnHRSurvey.md)**  
 You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.

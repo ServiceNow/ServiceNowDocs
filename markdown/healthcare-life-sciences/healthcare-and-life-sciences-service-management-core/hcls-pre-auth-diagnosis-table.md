@@ -23,7 +23,7 @@ The Pre-authorization diagnosis \[sn\_hcls\_pre\_auth\_diagnosis\] table stores 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_ykg_4qj_rvb"><thead><tr><th>
 

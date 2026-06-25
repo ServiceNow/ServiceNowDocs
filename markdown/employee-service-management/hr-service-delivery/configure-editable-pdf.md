@@ -27,7 +27,7 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 ## About this task
 
-How to configure a PDF document template 
+\[Omitted video\] Description: How to configure a PDF document template
 
 ## Procedure
 

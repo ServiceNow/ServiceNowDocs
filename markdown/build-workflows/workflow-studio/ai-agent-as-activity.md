@@ -19,7 +19,7 @@ Use an existing AI agent as an activity in your playbook to automate tasks. The 
 
 ## Before you begin
 
-Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
+Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see .
 
 Role required: playbook.admin or pd\_author.
 

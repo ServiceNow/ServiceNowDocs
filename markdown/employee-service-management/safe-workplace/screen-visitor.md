@@ -39,15 +39,15 @@ A visitor must be invited before they can be screened for entry. If an uninvited
 
 3.  Take one of the following actions to perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d77813e164">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d582250e164">
 
 Option
 
-</th><th align="left" id="d77813e167">
+</th><th align="left" id="d582250e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d77813e173">
+</th></tr></thead><tbody><tr><td id="d582250e173">
 
 **Smartphone or tablet**
 
@@ -55,7 +55,7 @@ Action
 
 Tap **Screening** &gt; **Request Visitor Entry**.
 
-</td></tr><tr><td id="d77813e191">
+</td></tr><tr><td id="d582250e191">
 
 **Computer**
 

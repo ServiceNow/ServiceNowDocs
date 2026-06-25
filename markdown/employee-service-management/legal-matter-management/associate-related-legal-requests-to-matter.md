@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d291158e104">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d498474e104">
 
 Option
 
-</th><th align="left" id="d291158e107">
+</th><th align="left" id="d498474e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291158e113">
+</th></tr></thead><tbody><tr><td id="d498474e113">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d291158e142">
+</td></tr><tr><td id="d498474e142">
 
 **As a collaborator**
 
@@ -74,5 +74,5 @@ The state of the legal matter updates to Work in Progress.
 
 The selected legal requests are added to the matter and listed in the **Related Requests** tab.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

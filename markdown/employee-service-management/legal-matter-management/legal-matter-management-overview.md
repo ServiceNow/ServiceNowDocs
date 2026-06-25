@@ -96,6 +96,6 @@ Matter Manager can do the following:-   Create and promote legal matter.
 To learn more about configuring and using Legal Matter Management, see:
 
 -   [Setting up Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/setting-up-legal-matter-managemment.md)
--   [Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Work on a legal matter]()
 -   [Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

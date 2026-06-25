@@ -27,7 +27,7 @@ From the Employee Center, users can create, modify, and complete journeys depend
 -   Journeys are available from the Now Mobile app. See [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/journeys-mobile-now.md)
 -   The total task count in the journey progress bar may be different from the **Journey overview** **All tasks** count. This total task count discrepancy is because the **Journey overview** count displays the task count for only those tasks the employee has access to.
 
-Some features may require integration with a related application, see [Integrations for Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Some features may require integration with a related application, see [Integrations for Journey designer app]().
 
 -   **[Journey view for a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/manager-journeys-view.md)**  
 As a manager, here's how you can view all your journeys and your team's journeys in Journey designer on the Employee Center portal.

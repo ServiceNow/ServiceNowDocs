@@ -93,7 +93,7 @@ Step 6
 [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>Introduction to the app creation tutorial series. Learn how to develop a plan for your application before building it by identifying your application use case, visualizing your app workflow, and outlining your user and data needs. 
+</table>\[Omitted video\] Description: Introduction to the app creation tutorial series. Learn how to develop a plan for your application before building it by identifying your application use case, visualizing your app workflow, and outlining your user and data needs.
 
 |Timestamp|Section|
 |---------|-------|

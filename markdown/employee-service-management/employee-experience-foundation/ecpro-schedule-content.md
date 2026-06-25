@@ -156,7 +156,7 @@ Who you want to approve the content before it is available.Only users with the C
 
  After adding approvers, click **Update** or **Save**.
 
- You can send email notifications to approvers requesting their approval. See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md).
+ You can send email notifications to approvers requesting their approval. See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 
 **Note:** If **Yes** is the value in the **sn\_cd.all\_must\_approve** Content Delivery property, all approvers must approve before campaign publication. If **No** is the value, you only need one approver.
 

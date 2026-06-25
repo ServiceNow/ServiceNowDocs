@@ -22,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d52745e52">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d71446e52">
 
 Option
 
-</th><th align="left" id="d52745e55">
+</th><th align="left" id="d71446e55">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d52745e61">
+</th></tr></thead><tbody><tr><td id="d71446e61">
 
 **Using the Data Management Console**
 
@@ -40,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d52745e96">
+</td></tr><tr><td id="d71446e96">
 
 **Using a data management policy**
 

@@ -22,7 +22,7 @@ Role required: Sales\_agent
 
 ## About this task
 
-Adding a price ramp to a quote line. 
+\[Omitted video\] Description: Adding a price ramp to a quote line.
 
 Use price ramps to specify how the price of a configurable product offering in a quote increases over different time segments, yearly, quarterly, or with a custom ramp structure.
 

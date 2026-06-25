@@ -20,7 +20,7 @@ Resetting the password enables the user to log in to their system and resume the
 
 Resetting the password will both unlock the account and set a new password if the user account is locked.
 
-Reset password in Service Operations Workspace 
+\[Omitted video\] Description: Reset password in Service Operations Workspace
 
 ## Before you begin
 

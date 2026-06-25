@@ -20,7 +20,7 @@ The purpose of this preference is to provide access to truncated text.
 
 Learn more about this preference from the following tutorial:
 
-Enable keyboard focus on text that displays tooltip 
+\[Omitted video\] Description: Enable keyboard focus on text that displays tooltip
 
 <table id="table_jbq_dgy_hgc"><thead><tr><th>
 

@@ -18,7 +18,7 @@ Use HR fulfillment instructions to provide focused and targeted instructions for
 
 ## Before you begin
 
-Configure HR fulfillment instructions 
+\[Omitted video\] Description: Configure HR fulfillment instructions
 
 Role required: sn\_hr\_core.admin
 
@@ -64,7 +64,7 @@ Conditions under which the fulfillment instructions are made available for an HR
 
 **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
- For additional information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+ For additional information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 

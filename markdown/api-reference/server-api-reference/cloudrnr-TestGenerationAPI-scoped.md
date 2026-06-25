@@ -290,7 +290,7 @@ String
 
 </td><td>
 
-Optional. Encoded query specifying the tables on which to generate tests. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Default: All tables \(empty string\)
+Optional. Encoded query specifying the tables on which to generate tests. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).Default: All tables \(empty string\)
 
 </td></tr><tr><td>
 

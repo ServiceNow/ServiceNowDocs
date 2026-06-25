@@ -18,7 +18,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 ## Before you begin
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
+Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
 
 Role required: admin
 

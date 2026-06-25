@@ -40,7 +40,7 @@ To access the agent in AI Agent Studio:
 2.  Select the **AI agents** tab.
 3.  Select **SLO Creator Agent**.
 
-The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) and adjust the settings.
+The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

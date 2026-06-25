@@ -396,7 +396,7 @@ Duration for the channel capacity that is overridden.-   **Type**: Integer
 -   **Default value**: 12 hours
 
 </td></tr></tbody>
-</table>**Note:** Channel management properties are not visible by default in the \[sys\_properties\] table. To use any of the channel management properties, you must add the required property to the System Property \[sys\_properties\] table. For more information, refer to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>**Note:** Channel management properties are not visible by default in the \[sys\_properties\] table. To use any of the channel management properties, you must add the required property to the System Property \[sys\_properties\] table. For more information, refer to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Scheduling
 
@@ -1169,7 +1169,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
+You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
 
 When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integrate-learning-third-party-configurable-wfo-cs.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization fails.
 

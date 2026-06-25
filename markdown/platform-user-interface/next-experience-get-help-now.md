@@ -18,7 +18,7 @@ To get help with Next Experience, your ServiceNow instance, plugins, permissions
 
 The ServiceNow admin in your company can help you with things like activating plugins, kicking off upgrades, unlocking accounts, updating user permissions, and much more.
 
-How to get help from your admin 
+\[Omitted video\] Description: How to get help from your admin
 
 ## Helpful resources
 

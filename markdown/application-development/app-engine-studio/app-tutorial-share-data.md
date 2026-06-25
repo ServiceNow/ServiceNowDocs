@@ -69,7 +69,7 @@ Phase 3
 
 Download the airport spreadsheet and follow along with the tutorial to create references fields between the employee travel request and airport tables.
 
-Fourth video in the app creation tutorial series. 
+\[Omitted video\] Description: Fourth video in the app creation tutorial series.
 
 |Timestamp|Section|
 |---------|-------|

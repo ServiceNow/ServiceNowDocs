@@ -18,7 +18,7 @@ With ServiceNow Sourcing and Procurement Operations \(SPO\), you can provide you
 
 This video provides a visual overview of Sourcing and Procurement Operations and its key capabilities.
 
-Sourcing and Procurement Operations overview 
+\[Omitted video\] Description: Sourcing and Procurement Operations overview
 
 Provide a seamless procurement experience with:
 

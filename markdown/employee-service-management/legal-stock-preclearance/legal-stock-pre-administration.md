@@ -23,7 +23,7 @@ As an administrator, you can review the installed components and modify them or 
 -   [Trading windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/set-up-trading-window.md)
 -   [Trading holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/add-trading-holidays.md)
 -   [Access Persons list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/manage-access-persons-list.md)
--   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md)
+-   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
 
 -   **[Install Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/install-stock-preclearance.md)**  
 You can install the Legal Stock Preclearance application \(sn\_lg\_stock\_cp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.

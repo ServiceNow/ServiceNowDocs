@@ -22,7 +22,7 @@ Update a record with the field values you specify.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -215,7 +215,7 @@ These outputs can provide data to other activities in your playbook. You can acc
 
 -   **Create form views for activities that you want to render in a playbook**
 
-    Use a form view to display only the fields your users need to update a record. Your view should display required fields or those fields validated by other business logic. See [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
+    Use a form view to display only the fields your users need to update a record. Your view should display required fields or those fields validated by other business logic. See View Management.
 
 -   **Run non-interactive activities before interactive activities**
 

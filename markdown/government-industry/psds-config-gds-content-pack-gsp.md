@@ -50,7 +50,7 @@ This workflow provides a high-level overview for configuring the GDS Service Por
 
     Search data displays within a widget on the search page. To make data searchable from a portal, create a search source that fetches data from a single table within your instance, from multiple tables, or from an external site. Enable AI Search to allow constituents to take advantage of intelligent query features and find the answers they need.
 
-5.  [Manage access to the portal]()
+5.  [Manage access to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md)
 
     Manage who can access the GDS Service Portal by making pages or widgets public, configuring login and single sign-on \(SSO\), or limiting page access by role. You can also use advanced user criteria for access to pages, widgets, and more.
 
@@ -69,7 +69,7 @@ Use the Service Catalog and the Service Catalog widgets to add or edit existing 
 Use Knowledge Base widgets to build a knowledge base for your GDS Service Portal.
 -   **[Configure GDS Service Portal Search Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-search.md)**  
 Configure and use search widgets for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-man-acc.md)**  
 
 
 **Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)

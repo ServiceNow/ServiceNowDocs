@@ -16,7 +16,7 @@ breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 
 Configure key performance indicator \(KPI\) groups in Digital Portfolio Management \(DPM\) to surface performance information in the context of your organization's solutions.
 
-Configure KPI groups. 
+\[Omitted video\] Description: Configure KPI groups.
 
 With a DPM admin role \[sn\_dpm.dpm\_admin\], you can define and configure the key performance indicator \(KPI\) groups in DPM. With KPI groups, your organization can analyze the performance of services, offerings, business services, and service instances in a centralized area.
 

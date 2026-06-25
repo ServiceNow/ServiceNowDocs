@@ -42,5 +42,5 @@ No other configuration is required. Users who request password change or passwor
 **Related topics**  
 
 
-[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md)
+[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)
 

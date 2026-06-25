@@ -23,7 +23,7 @@ The Program \[sn\_hcls\_program\] table stores the programs offered by healthcar
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_uvk_nh1_drb"><thead><tr><th>
 
@@ -111,7 +111,7 @@ Alpha-numeric identifier of the program.
 
  The value is auto-generated and is incremented every time you add a new program to an instance. The initial value for the **Number** field is PSSPG00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Program \[sn\_hcls\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Program \[sn\_hcls\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

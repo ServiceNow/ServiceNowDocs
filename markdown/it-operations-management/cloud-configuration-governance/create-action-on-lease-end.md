@@ -19,8 +19,8 @@ A policy that is triggered by the on Lease end trigger can send a notification o
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor or admin
--   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
--   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and associated conditions.
+-   Optional: [Create one or more cloud policy groups]().
+-   [Configure a cloud policy rule]() and associated conditions.
 
 ## Procedure
 

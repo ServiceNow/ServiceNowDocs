@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-or-edit-approval-levels.html
 release: australia
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---

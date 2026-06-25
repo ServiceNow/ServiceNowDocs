@@ -40,9 +40,9 @@ Role required: admin
 
     3.  On the Service Catalog card, verify that the catalog item generation skill is active.
 
-        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+        **Note:** If the Service Catalog card displays **Not started** or **Inactive** for the catalog item generation skill, you must activate it. To learn more, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+    For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
 ## What to do next

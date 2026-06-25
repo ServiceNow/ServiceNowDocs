@@ -24,7 +24,7 @@ Set your scope to Healthcare and Life Sciences Service Management Core.
 
 ## About this task
 
-Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
+\[Omitted video\] Description: Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
 
 ## Procedure
 

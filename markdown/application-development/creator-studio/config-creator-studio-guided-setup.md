@@ -220,7 +220,7 @@ Role required: admin
     1.  **When to send**
     2.  **Who will receive**
     3.  **What it will contain**
-    For more information on editing notifications on the ServiceNow AI Platform, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
+    For more information on editing notifications on the ServiceNow AI Platform, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 5.  Update the record to save your changes.
 

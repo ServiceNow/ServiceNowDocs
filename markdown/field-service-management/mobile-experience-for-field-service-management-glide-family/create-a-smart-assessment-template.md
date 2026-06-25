@@ -20,7 +20,7 @@ Author and publish Smart Assessment template, and associate it with Work Order T
 
 Role required: questionnaire\_admin
 
-Author and publish a Smart Assessment template 
+\[Omitted video\] Description: Author and publish a Smart Assessment template
 
 ## About this task
 

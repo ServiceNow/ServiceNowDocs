@@ -63,5 +63,5 @@ Configure Chat Summarization to enable the summarization and recommendation feat
 **Related topics**  
 
 
-[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md)
+[Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md)
 

@@ -17,7 +17,7 @@ breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Oper
 
 Copy and configure the DI STP Failed flow and activate this flow to use it.
 
-Copy and configure the DI STP failed flow 
+\[Omitted video\] Description: Copy and configure the DI STP failed flow
 
 ## Before you begin
 

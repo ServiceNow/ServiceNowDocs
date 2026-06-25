@@ -16,7 +16,7 @@ breadcrumb: [Incident Management in Service Operations Workspace reference, Inci
 
 Several types of components are installed with activation of the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application, including user roles and ServiceNow Store applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

@@ -18,7 +18,7 @@ The Change Advisory Board \(CAB\) workbench enables a CAB manager to schedule, p
 
 CAB meetings are typically intended to review and authorize change requests and review recently implemented changes. A standard agenda with the relevant change request details enables the CAB members to conduct risk and impact analysis prior to the CAB meeting.
 
-Overview of the CAB workbench 
+\[Omitted video\] Description: Overview of the CAB workbench
 
 The CAB workbench assists you in managing CAB meetings in the following ways:
 

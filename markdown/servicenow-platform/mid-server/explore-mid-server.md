@@ -49,7 +49,7 @@ You can search the HI Knowledge Base for troubleshooting articles or monitor the
 ## External applications that use the MID Server
 
 -   [Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md)
--   [Microsoft SMS/SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MicrosoftSCCMIntegration.md)
+-   [Microsoft SMS/SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
 -   [LANDesk Maintenance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CSDExtensionFramework.md)
 -   [Microsoft System Center Operations Manager \(SCOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMConfigureSCOMConnectorInstance.md)
 -   [Microsoft MIIS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_UsingADAMSyncToPopulateADAM.md)

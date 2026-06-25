@@ -16,7 +16,7 @@ The system offers several ways to manage applications. You must have the admin r
 
 ## Legacy Application Manager
 
-The legacy application manager provides information on how to administer your applications in your instance. For more information about installing, updating, or removing an application see [Available actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/app-installation.md).
+The legacy application manager provides information on how to administer your applications in your instance. For more information about installing, updating, or removing an application see [Available actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/app-installation.md).
 
 ## Application Manager
 

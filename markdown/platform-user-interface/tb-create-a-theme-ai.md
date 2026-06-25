@@ -18,7 +18,7 @@ Use an AI-powered theme creation from within Theme Builder to generate themes fr
 
 This feature requires:
 
--   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Now Assist for Creator installed. See .
 
 Role required: ui\_builder\_admin
 

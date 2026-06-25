@@ -18,7 +18,7 @@ Select a layer on the Map Configuration preview and edit it.
 
 ## Before you begin
 
-Configure layers in the Indoor Mapping application. 
+\[Omitted video\] Description: Configure layers in the Indoor Mapping application.
 
 Layers are the shapes or geometries in your CAD file.
 

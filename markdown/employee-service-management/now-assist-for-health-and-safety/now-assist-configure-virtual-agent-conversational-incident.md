@@ -35,7 +35,7 @@ Role required: admin
 
 ## Procedure
 
-1.  To turn on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+1.  To turn on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
     The **CI Admin console** opens the **Assistants** page that shows the two assistants.
 

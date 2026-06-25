@@ -16,7 +16,7 @@ breadcrumb: [Adoption services, Configure user experiences]
 
 ServiceNow®Guided Tours are interactive, step-by-step walkthroughs designed to help users navigate the platform's features and processes. They are useful for onboarding new users, training on new features, and providing assistance with specific tasks.
 
-Guided Tours Overview 
+\[Omitted video\] Description: Guided Tours Overview
 
 Watch this five-minute video to learn about creating Guided Tours that help users learn how to perform tasks in ServiceNow.
 

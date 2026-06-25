@@ -56,7 +56,7 @@ A landing page is an initial view of a user's workspace. For customer service ag
 
 </td></tr><tr><td>
 
-[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/lists-configurable-workspace.md)
+[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
 
 </td><td>
 
@@ -88,7 +88,7 @@ The activity stream helps agents stay informed by displaying a chronological lis
 
 </td></tr><tr><td>
 
-[Compose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/activity-stream-compose-configurable-workspace.md)
+[Compose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activity-stream-compose-configurable-workspace.md)
 
 </td><td>
 

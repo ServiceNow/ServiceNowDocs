@@ -64,7 +64,7 @@ Action Script
 
 </td><td>
 
-Create the script in the text box.See [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
+Create the script in the text box.See [Create a policy action script]() for details.
 
 </td></tr></tbody>
 </table>    \[Omitted image "action-wf-on-cat-item-end.png"\] Alt text: Selecting a workflow as the policy action

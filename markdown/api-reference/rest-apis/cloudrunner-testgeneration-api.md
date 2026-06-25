@@ -519,7 +519,7 @@ catalogEncodedQuery
 
 </td><td>
 
-Encoded query specifying which catalog items to generate tests on. An empty string defaults to all catalog items. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String
+Encoded query specifying which catalog items to generate tests on. An empty string defaults to all catalog items. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -604,7 +604,7 @@ tableEncodedQuery
 
 </td><td>
 
-Encoded query specifying the tables on which to generate tests. An empty string defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String
+Encoded query specifying the tables on which to generate tests. An empty string defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).Data type: String
 
 </td></tr><tr><td>
 
@@ -612,7 +612,7 @@ userEncodedQuery
 
 </td><td>
 
-Encoded query specifying which users to generate tests on. An empty string input defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String
+Encoded query specifying which users to generate tests on. An empty string input defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).Data type: String
 
 </td></tr></tbody>
 </table>### Headers

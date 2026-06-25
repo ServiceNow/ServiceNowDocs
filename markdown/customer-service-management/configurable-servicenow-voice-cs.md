@@ -29,7 +29,7 @@ With the Voice application, you can:
     These reports are collected from Amazon Connect using GetMetricData and GetCurrentMetricData APIs. For more information on the prices of these reports, see [Amazon CloudWatch Pricing](https://aws.amazon.com/cloudwatch/pricing/).
 
 
-**Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/cloud-call-center-overview.md) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
+**Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
 
 You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) to report data from the Amazon Connect queues.
 

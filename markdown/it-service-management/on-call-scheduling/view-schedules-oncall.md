@@ -24,7 +24,7 @@ Role required: itil, rota\_manager, or rota\_admin
 
 Each card on the On-Call Schedules page represents a shift and identifies the on-call members. A card displays the group name, the shift name, and rosters \(Primary and Secondary\).
 
-On-Call schedules enable you to view the presence of on-call members. For more information on presence, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UserPresence.md).
+On-Call schedules enable you to view the presence of on-call members. For more information on presence, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md).
 
 **Note:** By default, on-call schedules are loaded in batches of 20. You can use the **com.snc.on\_call\_rotation.landing\_page.group\_limit** property update the setting. For details, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
 

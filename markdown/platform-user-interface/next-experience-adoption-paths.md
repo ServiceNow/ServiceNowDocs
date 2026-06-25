@@ -39,9 +39,9 @@ If you're an existing customer who has made any of the following modifications t
 
 You can use the following tools and APIs with your implementation partner to help adjust your customizations to work well with the new Next Experience theme:
 
--   [Scriptable PolarisUI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PolarisUIScopedAPI.md)
+-   Scriptable PolarisUI API
 -   [Next Experience client scripting globals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-exp-client-script-globals.md)
--   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
+-   Jelly tags
 
 ## Existing customer who upgraded previously
 
@@ -64,7 +64,7 @@ During the upgrade, the Next Experience UI is not turned on.
 
 Connect Chat is not available in Next Experience. Starting with Australia, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
 
-Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/migrate-from-connect-support.md).
+Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 These features and products are not currently supported with Next Experience:
 

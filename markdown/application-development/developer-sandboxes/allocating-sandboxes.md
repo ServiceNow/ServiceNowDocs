@@ -20,7 +20,7 @@ Allocate sandboxes to your development teams so they can start using them for de
 
 You can watch a short video on how to allocate a sandbox.
 
-Demo of allocating a sandbox 
+\[Omitted video\] Description: Demo of allocating a sandbox
 
 Role required: admin or sandbox\_manager
 

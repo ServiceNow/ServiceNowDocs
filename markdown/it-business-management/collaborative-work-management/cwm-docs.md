@@ -16,7 +16,7 @@ breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 
 Manage all kinds of documentation for work such as meeting notes, project requirements, or technical specifications using rich text Docs with real-time collaboration.
 
-Overview of collaboration within Docs for CWM workspace. Approximately two minutes long.
+\[Omitted video\] Description: Overview of collaboration within Docs for CWM workspace. Approximately two minutes long.
 
 Docs can be created within a Space, and organized into folders. Within a Space, you can create multiple Docs and within each Doc, you can create unlimited pages to help you effectively organize your information.
 

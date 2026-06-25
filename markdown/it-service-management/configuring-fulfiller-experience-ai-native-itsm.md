@@ -55,7 +55,7 @@ Incident form is preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/working-incident-record-form.md) and [Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Request Management
@@ -288,7 +288,7 @@ Prebuilt AI agents for requesters such as for incident creation, status checks, 
 
 </td><td>
 
-Remove an agent that is part of the agentic workflow or manage \(edit, deactivate, activate, or create\) the triggers associated with the agentic workflows. For information about modifying agentic workflows, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/modify-aia-use-case.md).
+Remove an agent that is part of the agentic workflow or manage \(edit, deactivate, activate, or create\) the triggers associated with the agentic workflows. For information about modifying agentic workflows, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
 
 </td></tr><tr><td>
 
@@ -304,7 +304,7 @@ Now Assist skills such as KB generation, Incident summarization, Chat summarizat
 
 </td><td>
 
-Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/edit-a-now-assist-skill.md).
+Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
 
 </td></tr></tbody>
 </table>## Change Management

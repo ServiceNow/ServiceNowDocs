@@ -40,5 +40,5 @@ You can [manually train the predictive models](https://raw.githubusercontent.com
 -   Solution name for Content Task
 -   Solution name for HR Task
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery]()
 

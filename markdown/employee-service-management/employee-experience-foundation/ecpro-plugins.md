@@ -95,7 +95,7 @@ Package your content into a campaign using multiple channels to deliver the righ
 [Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md)
 
 </td></tr></tbody>
-</table>To learn about the tables, roles, and widgets installed, see [Components installed with Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+</table>To learn about the tables, roles, and widgets installed, see [Components installed with Employee Center Pro]()
 
 ## Plugins to extend Employee Center Pro capabilities
 
@@ -148,5 +148,5 @@ Content Governance provides a streamlined way for employees to request content t
 [Activate Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-install-content-gov.md)
 
 </td></tr></tbody>
-</table>For more information, see the [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/list-of-plugins.md).
+</table>For more information, see the [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
 

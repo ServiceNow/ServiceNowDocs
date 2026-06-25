@@ -73,7 +73,7 @@ Data Snapshots Hierarchies
 
 </td><td>
 
-Reference table for record hierarchies used with Data Snapshots indicators. For more information, see [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md).
+Reference table for record hierarchies used with Data Snapshots indicators. For more information, see .
 
 </td></tr><tr><td>
 

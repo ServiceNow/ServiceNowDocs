@@ -53,7 +53,7 @@ Phase 2
 
 Follow along with the tutorial to add a record producer to the employee travel request application.
 
-Create a record producer 
+\[Omitted video\] Description: Create a record producer
 
 |Timestamp|Section|
 |---------|-------|

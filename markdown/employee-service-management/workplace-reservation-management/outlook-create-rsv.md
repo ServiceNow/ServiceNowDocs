@@ -102,7 +102,7 @@ Option to select a reservable path.-   **Browse all**
 -   **Browse by neighborhood**
 -   **Browse near a person**
 
-For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Create a reservation]().
 
 **Note:** **Browse by Shift** Reservable path is available for Microsoft Outlook Add-in reservations.
 

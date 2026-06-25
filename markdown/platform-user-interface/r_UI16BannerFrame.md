@@ -217,8 +217,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-channel.md) using the **Create Channel** option.
--   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md) using the **Create Channel** option.
+-   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr><td>
 
@@ -230,8 +230,8 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
+    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
+-   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -275,7 +275,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side [JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md).
+\(Administrators only\) Opens the client-side JavaScript debug window.
 
 </td></tr><tr><td>
 

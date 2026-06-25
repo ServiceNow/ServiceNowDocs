@@ -20,7 +20,7 @@ Reference topics provide additional information about the lists and forms that y
 Block content form
 -   **[Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md)**  
 Content Analytics collects data on user interactions and generates visualizations to help campaign managers determine the effectiveness of campaigns.
--   **[Components installed with Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Components installed with Employee Center Pro]()**  
 Several types of components install with the activation of the Employee Center Pro plugin, including user roles and tables.
 -   **[Components installed with Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installed-content-engagement.md)**  
 Several types of components are installed with activation of the Content engagement plugin, including tables, user roles, and scheduled jobs.
@@ -30,7 +30,7 @@ Several types of components install with the activation of the Content Experienc
 Several types of components install with the activation of the Content Delivery \[com.sn\_content\_delivery\] plugin, including tables, user roles, and scheduled jobs.
 -   **[Components installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-installed-content-governance.md)**  
 Several types of components install with the activation of the Content Governance \[sn\_cg\] plugin, including tables, user roles, and scheduled jobs.
--   **[Components installed with Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Components installed with Content Analytics]()**  
 Several types of components install with the activation of the Content Analytics \[sn\_cda\] plugin, including tables, user roles, and scheduled jobs.
 -   **[Content Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/content-analytics-dashboards.md)**  
 Content Analytics display data visualizations for portal data collected in the default tracking profile.

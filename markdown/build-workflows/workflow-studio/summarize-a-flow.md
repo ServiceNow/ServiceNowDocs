@@ -17,7 +17,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Generate a summary of a flow with Now Assist for Creator.
 
-Summarize a flow with Now Assist 
+\[Omitted video\] Description: Summarize a flow with Now Assist
 
 ## Before you begin
 

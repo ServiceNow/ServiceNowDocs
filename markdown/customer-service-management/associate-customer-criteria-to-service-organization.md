@@ -26,15 +26,15 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 3.  Select the configuration type based on whether you intend to provide service to customers or business locations within any service organization.
 
-<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d77433e96">
+<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d153010e96">
 
 Configuration type
 
-</th><th align="left" id="d77433e99">
+</th><th align="left" id="d153010e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77433e105">
+</th></tr></thead><tbody><tr><td id="d153010e105">
 
 **Customers served**
 
@@ -44,7 +44,7 @@ Customers that are served at a business location. The customers served can be de
 -   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
 
 
-</td></tr><tr><td id="d77433e126">
+</td></tr><tr><td id="d153010e126">
 
 **Business locations served**
 

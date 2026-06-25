@@ -52,7 +52,7 @@ For more information on the properties, see [Channel Management components in Wo
 
 3.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
 
 4.  Add reports that are configured by default in Workforce Optimization for ITSM.
 

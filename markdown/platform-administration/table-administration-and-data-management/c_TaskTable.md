@@ -50,7 +50,7 @@ These tools can be run on any table which extends Task.
 
 -   Workflow Studio
 
-    A process owner can design a flow for tasks that meet certain conditions. After a task is created that meets the conditions, the flow applies an automated process to the task. The process is defined in Workflow Studio. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+    A process owner can design a flow for tasks that meet certain conditions. After a task is created that meets the conditions, the flow applies an automated process to the task. The process is defined in Workflow Studio. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 
 ## Modifying the Task table

@@ -897,7 +897,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
+You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
 
 </td></tr><tr><td>
 

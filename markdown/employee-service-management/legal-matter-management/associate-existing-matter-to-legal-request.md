@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d291168e104">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d721625e104">
 
 Option
 
-</th><th align="left" id="d291168e107">
+</th><th align="left" id="d721625e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291168e113">
+</th></tr></thead><tbody><tr><td id="d721625e113">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d291168e142">
+</td></tr><tr><td id="d721625e142">
 
 **As a collaborator**
 
@@ -72,5 +72,5 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 The selected legal matter is associated with the legal request and shows up in the list in the **Legal Matters** tab.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

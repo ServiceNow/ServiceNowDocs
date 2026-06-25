@@ -16,7 +16,7 @@ breadcrumb: [Security Incident Response, Enterprise security case management app
 
 With Security Incident Response \(SIR\), manage the life cycle of your security incidents from initial analysis to containment, eradication, and recovery. Security Incident Response enables you to get a comprehensive understanding of incident response procedures performed by your analysts, and understand trends and bottlenecks in those procedures with analytic-driven dashboards and reporting.
 
-An introduction to Security Incident Response, showing how to get started using the application. 
+\[Omitted video\] Description: An introduction to Security Incident Response, showing how to get started using the application.
 
 Watch this video to learn about the SIR process, using Security Incident Response to thwart attacks and viewing security activity in the Security Incident Response Explorer.
 

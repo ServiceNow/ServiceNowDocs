@@ -39,5 +39,5 @@ By default the Auto Assignment Group for HR Cases solution definition is configu
 
 You can [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default. After you manually train the predictive model, navigate to the **HR AI configuration** module, open the Case Assignment group record, and map the configured solution definition.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery]()
 

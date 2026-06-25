@@ -33,7 +33,7 @@ You can use the Findings view to:
     Act faster with GenAI-powered important actions and insights.
 
 
-SEM Finding view overview 
+\[Omitted video\] Description: SEM Finding view overview
 
 The Visualization library offers a rich set of default widgets that fetch from specific findings tables. These widgets help you visualize and categorize findings based on various attributes. In addition to the default widgets, administrators can create custom widgets that meet organization-specific reporting needs. Custom widgets appear in the Visualization library and can be added to dashboards in the same way as the default widgets. For more information, see [Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-visualization-library.md) and [Configure Visualization library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-visualization-library.md)
 

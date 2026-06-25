@@ -16,7 +16,7 @@ breadcrumb: [Managing projects with Project Workspace, Project Workspace, Projec
 
 Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 
-AI identified risks in Project Workspace. 
+\[Omitted video\] Description: AI identified risks in Project Workspace.
 
 ## Before you begin
 

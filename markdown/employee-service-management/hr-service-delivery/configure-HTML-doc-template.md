@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 ## About this task
 
-Configure an HTML document template 
+\[Omitted video\] Description: Configure an HTML document template
 
 ## Procedure
 

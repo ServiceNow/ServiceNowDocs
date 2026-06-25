@@ -15,7 +15,7 @@ breadcrumb: [Exploring Now Assist, Now Assist for Mobile, Mobile Platform]
 
 ServiceNow AI Lens enables you to harness generative AI to scan, extract, understand, and synthesize data directly from your phone or tablet, making it easy to optimize your workflows on the go.
 
-Overview of ServiceNow Lens features 
+\[Omitted video\] Description: Overview of ServiceNow Lens features
 
 \[Omitted image "na-lens.png"\] Alt text: now assist generating troubleshooting steps based on an image
 

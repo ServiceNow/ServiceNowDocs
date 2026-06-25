@@ -173,15 +173,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d392949e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d446142e568">
 
 To
 
-</th><th align="left" id="d392949e571">
+</th><th align="left" id="d446142e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d392949e577">
+</th></tr></thead><tbody><tr><td id="d446142e577">
 
 **Evaluate a prompt for each input template**
 
@@ -195,7 +195,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d392949e616">
+</td></tr><tr><td id="d446142e616">
 
 **Edit the prompt in the Now Assist Skill Kit and test the prompt**
 
@@ -239,7 +239,7 @@ The prompt displays in the Test prompt screen where you can run the test.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

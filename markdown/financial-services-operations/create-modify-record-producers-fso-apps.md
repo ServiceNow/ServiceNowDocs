@@ -16,7 +16,7 @@ Review the record producers that are installed with Financial Services Operation
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are creating a record producer. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Ensure that the scope is selected for the application for which you are creating a record producer. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 

@@ -26,7 +26,7 @@ Role required: pa\_data\_collector, pa\_power\_user, admin
 
 ## About this task
 
-Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks-landing.md).
+Used together, benchmarking and Performance Analytics enables you to measure your enterprise ITSM and ITOM against industry standards while driving improvements across all important metrics. For more information, see Benchmarks.
 
 ## Procedure
 

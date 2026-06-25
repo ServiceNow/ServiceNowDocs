@@ -65,7 +65,7 @@ Phase 3
 
 Follow along to configure a table to store the necessary data for the employee travel request application.
 
-Tutorial video that demonstrates how to create and configure a data table to capture the necessary data for your application. 
+\[Omitted video\] Description: Tutorial video that demonstrates how to create and configure a data table to capture the necessary data for your application.
 
 |Timestamp|Section|
 |---------|-------|

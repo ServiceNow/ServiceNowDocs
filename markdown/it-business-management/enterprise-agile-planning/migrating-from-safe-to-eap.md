@@ -16,7 +16,7 @@ breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio 
 
 Learn about the process required For a successful migration of data from Scaled Agile Framework applications to Enterprise Agile Planning.
 
-Step by step guidance on migrating SAFe data to EAP. 
+\[Omitted video\] Description: Step by step guidance on migrating SAFe data to EAP.
 
 ## Guided Setup to migrate data from SAFe to EAP
 

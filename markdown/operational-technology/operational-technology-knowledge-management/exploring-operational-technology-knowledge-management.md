@@ -18,7 +18,7 @@ Operational Technology Knowledge Management helps you to capture information abo
 
 ## Operational Technology Knowledge Management overview
 
-Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Knowledge Management.Operational Technology Service Management overview video 
+Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Knowledge Management.\[Omitted video\] Description: Operational Technology Service Management overview video
 
 ## Operational Technology Knowledge Management benefits
 

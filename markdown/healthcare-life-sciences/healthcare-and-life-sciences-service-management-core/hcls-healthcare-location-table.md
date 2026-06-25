@@ -30,7 +30,7 @@ For more information on how healthcare locations and healthcare organizations fu
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_ync_1ts_mpb"><thead><tr><th>
 

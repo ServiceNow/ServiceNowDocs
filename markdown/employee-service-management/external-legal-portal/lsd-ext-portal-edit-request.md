@@ -42,15 +42,15 @@ Role required: sn\_lg\_ext\_portal.ext\_user
 
 8.  Work on the attachments.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d440844e114">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d482184e114">
 
 Action
 
-</th><th align="left" id="d440844e117">
+</th><th align="left" id="d482184e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d440844e123">
+</th></tr></thead><tbody><tr><td id="d482184e123">
 
 **Add attachments**
 
@@ -60,7 +60,7 @@ Steps
 2.  You can add attachments by selecting, dragging, or pasting a file.
 
 
-</td></tr><tr><td id="d440844e147">
+</td></tr><tr><td id="d482184e147">
 
 **Rename attachments**
 
@@ -70,7 +70,7 @@ Steps
 2.  Edit the file name.
 
 
-</td></tr><tr><td id="d440844e171">
+</td></tr><tr><td id="d482184e171">
 
 **Delete attachments**
 

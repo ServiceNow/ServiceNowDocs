@@ -98,7 +98,7 @@ Available missing data categories include:
     **Note:** Displayed only when the Digital Integration Management plugin \(sn\_apm\_di\) is activated.
 
 
-**Important:** When creating relationships for a large number of APIs, you can automate creating relationships based on tags on API. For more information, see [Automating creating tag-based relationship mapping within API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+**Important:** When creating relationships for a large number of APIs, you can automate creating relationships based on tags on API. For more information, see [Automating creating tag-based relationship mapping within API Insights]().
 
 ### Procedure
 

@@ -39,7 +39,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent and sn\_acct\_lc.agent
 
 To configure the Squad resource identifier agentic workflow, see [Squad Resource Identifier AI Workflow: Setup and Configuration Guide](https://support.servicenow.com/kb?sys_kb_id=99f441a747d6365077748d01426d433a&id=kb_article_view).
 
-To modify the Squad resource identifier agentic workflow, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Squad resource identifier agentic workflow, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -56,7 +56,7 @@ To access the use case:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Squad Resource Identifier**.
 
-To create a use case, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
+To create a use case, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
 
 ## Testing the agentic workflow
 
@@ -65,7 +65,7 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
 ## AI agent used in the Squad resource identifier agentic workflow
 
@@ -75,5 +75,5 @@ The following AI agent is used to execute the instructions for the agentic workf
 |--------|-------------|
 |User resource recommender AI agent|Analyzes user data to identify the most relevant candidates, ranks them by priority, and automatically populates the input record with top-performing users.|
 
-To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
+To create an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 

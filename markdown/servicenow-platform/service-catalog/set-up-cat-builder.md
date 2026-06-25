@@ -103,7 +103,7 @@ State of the pre-publish subflow. Possible values are:-   completed: Publishing 
  **Note:** The **completed** and **failed** values are case sensitive and must be selected the same way.
 
 </td></tr></tbody>
-</table>        For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
+</table>        For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
     2.  Create the **glide.sc.builder.item\_review\_flow** property.
 

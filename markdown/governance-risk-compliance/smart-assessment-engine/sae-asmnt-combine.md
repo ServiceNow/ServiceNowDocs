@@ -22,7 +22,7 @@ Role required: sn\_smart\_asmt.actor
 
 ## About this task
 
-Submitting combined assessments 
+\[Omitted video\] Description: Submitting combined assessments
 
 ## Procedure
 

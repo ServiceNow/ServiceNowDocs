@@ -129,7 +129,7 @@ This template walks you through customizing a use case model to categorize the e
 
 ## Result
 
-When the configuration is complete, the solution auto-categorizes the HR service for email cases. For more information, see [Auto-case creation from an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+When the configuration is complete, the solution auto-categorizes the HR service for email cases. For more information, see [Auto-case creation from an email]()
 
 ## What to do next
 

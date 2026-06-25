@@ -18,7 +18,7 @@ ServiceNow® Service Operations Workspace is a configurable workspace that provi
 
 \[Omitted image "sow-overview-landing-new-bg.svg"\] Alt text: SOW overview
 
-For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions/service-operations.md).
+For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md).
 
 ## Get started with Service Operations Workspace for ITSM
 

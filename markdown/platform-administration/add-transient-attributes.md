@@ -32,15 +32,15 @@ After creating a dynamic attribute store field on a table, you can immediately s
 
 3.  Add one or more attributes directly on the form using JSON or via the API.
 
-<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d72448e78">
+<table id="choicetable_hbk_hpf_yfc"><thead><tr><th align="left" id="d85860e78">
 
 Option
 
-</th><th align="left" id="d72448e81">
+</th><th align="left" id="d85860e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72448e87">
+</th></tr></thead><tbody><tr><td id="d85860e87">
 
 **Enter JSON on the form**
 
@@ -53,7 +53,7 @@ Description
 "screen_resolution":"2160p","screen_size":"75","screen_type":"OLED"
     ```
 
-</td></tr><tr><td id="d72448e107">
+</td></tr><tr><td id="d85860e107">
 
 **Call setValue\(\)**
 

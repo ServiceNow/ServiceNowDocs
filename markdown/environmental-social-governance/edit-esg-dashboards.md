@@ -34,15 +34,15 @@ The **More actions** menu includes the option to clear the edit lock. Use this o
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d22595e109">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d22639e109">
 
 Action
 
-</th><th align="left" id="d22595e112">
+</th><th align="left" id="d22639e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d22595e118">
+</th></tr></thead><tbody><tr><td id="d22639e118">
 
 **Edit dashboard details**
 
@@ -63,7 +63,7 @@ To edit the details of a dashboard created in the in-line editor:
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
  For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboard-details.md).
 
-</td></tr><tr><td id="d22595e192">
+</td></tr><tr><td id="d22639e192">
 
 **Configure the dashboard layout**
 
@@ -71,7 +71,7 @@ To edit the details of a dashboard created in the in-line editor:
 
 Select and drag an element's handlebars to resize it. Select and drag an entire element to move it around the dashboard layout. Elements include data visualizations, filters, and other dashboard content.
 
-</td></tr><tr><td id="d22595e201">
+</td></tr><tr><td id="d22639e201">
 
 **Add a tab to a dashboard**
 
@@ -79,7 +79,7 @@ Select and drag an element's handlebars to resize it. Select and drag an entire 
 
 Select **Add a tab**. A tab labeled `New Tab` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text: to rename the tab.
 
-</td></tr><tr><td id="d22595e224">
+</td></tr><tr><td id="d22639e224">
 
 **Reorder a dashboard tab**
 
@@ -92,7 +92,7 @@ You can reorder tabs by dragging and dropping them. You can also reorder dashboa
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d22595e258">
+</td></tr><tr><td id="d22639e258">
 
 **Duplicate a dashboard tab**
 
@@ -102,7 +102,7 @@ You can duplicate a tab on the current dashboard.1.  Select **Edit** to put the 
 2.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: next to the tab's name and choose **Duplicate**.
 A new tab with the same content as the duplicated tab opens with the name `New Tab`. Choose the pencil icon \[Omitted image "pencil-icon.png"\] Alt text: to rename the tab.
 
-</td></tr><tr><td id="d22595e296">
+</td></tr><tr><td id="d22639e296">
 
 **Delete a dashboard tab**
 
@@ -112,7 +112,7 @@ A new tab with the same content as the duplicated tab opens with the name `New T
 2.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: next to the tab's name and choose **Delete**.
  **Note:** There’s no confirmation message. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d22595e328">
+</td></tr><tr><td id="d22639e328">
 
 **Rename a tab**
 
@@ -130,7 +130,7 @@ If you rename a tab on a dashboard that has been translated, the translations ar
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d22595e367">
+</td></tr><tr><td id="d22639e367">
 
 **Configure the refresh settings**
 
@@ -143,7 +143,7 @@ Role required: admin.1.  Select **Edit** to put the dashboard into edit mode.
 
 The minimum refresh interval is 10 minutes.
 
-</td></tr><tr><td id="d22595e406">
+</td></tr><tr><td id="d22639e406">
 
 **Configure background colors**
 
@@ -156,7 +156,7 @@ The minimum refresh interval is 10 minutes.
 
 Specify Hex or RGBA values, or choose from the color picker.
 
-</td></tr><tr><td id="d22595e440">
+</td></tr><tr><td id="d22639e440">
 
 **Configure Insights**
 

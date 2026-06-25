@@ -16,7 +16,7 @@ breadcrumb: [Integration with other translation services, Dynamic Translation, T
 
 Microsoft Azure Translator Service spoke provides subflows and actions to detect and translate user-entered text, using the Microsoft machine translation service. Dynamic Translation supports detection and translation of single texts and multiple texts.
 
-Configure Microsoft as a third-party machine translation provider in the Dynamic Translation app. 
+\[Omitted video\] Description: Configure Microsoft as a third-party machine translation provider in the Dynamic Translation app.
 
 ## Activation
 

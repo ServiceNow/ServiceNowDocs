@@ -179,7 +179,7 @@ Max days in Future
 
 </td><td>
 
-Option to specify the maximum number of the days in the future up to which the reservable module can be reserved. For example, if you set the max number of days in future to 90, employees can make future reservations on this module only up to 90 days in advance.If this option is enabled, users can’t select a date beyond the specified value in Max days in future while making a reservation. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Option to specify the maximum number of the days in the future up to which the reservable module can be reserved. For example, if you set the max number of days in future to 90, employees can make future reservations on this module only up to 90 days in advance.If this option is enabled, users can’t select a date beyond the specified value in Max days in future while making a reservation. For more information, see [Create a reservation]().
 
 </td></tr><tr><td>
 

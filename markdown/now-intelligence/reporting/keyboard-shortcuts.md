@@ -30,5 +30,5 @@ You can use the following keyboard shortcuts.
 **Related topics**  
 
 
-[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_KeyboardShortcuts.md)
+[bundle-platux.r_KeyboardShortcuts]
 

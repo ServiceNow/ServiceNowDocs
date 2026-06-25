@@ -53,7 +53,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 4.  Select a type associated with the field value \(for example, `Integer`\) from the **Type** menu.
 
-    **Note:** For a list of valid types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
+    **Note:** For a list of valid types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 5.  Enter a meaningful name in the **Column label** field.
 
@@ -63,7 +63,7 @@ Use the following procedure to add custom fields for invoices, invoice lines, an
 
 7.  Add a column of the same name and type to the Invoice \[sn\_shop\_invoice\] table.
 
-    **Note:** For more information on columns and fields, see [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_IntroductionToFields.md).
+    **Note:** For more information on columns and fields, see [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
 
 8.  [Map the fields between the source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/apInvoice-dev-guide.md).
 

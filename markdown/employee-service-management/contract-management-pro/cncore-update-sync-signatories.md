@@ -23,5 +23,5 @@ As a contract user, resubmit a contract request that was not submitted due to in
 -   **[Resolve an error during send for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-sync-signatories-user.md)**  
 As a contract user or fulfiller, update and synchronize signatory details when send for signature fails due to a mismatch between signatory information in the contract request and contract document.
 
-**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use self-served contract request]()
 

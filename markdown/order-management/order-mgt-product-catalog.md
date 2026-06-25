@@ -42,11 +42,11 @@ The relationship between product offerings and the product, service, and resourc
     -   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications are not customer-facing.
     -   Its relationship to other product, service, and resource specifications. You can enable the product and service delivery by using the required resource.
 
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-characteristics.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-characteristics.md)**  
 
 -   **[Create specification characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-specification-characteristic.md)**  
 Define characteristics for a product, service, or resource specification.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md)**  
 
 -   **[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-specification-version-update.md)**  
 Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow®. Failure to update the product specifications can lead to difficulties with MACD \(Modify, Add, Change, Delete\) operation when orders enter fulfillment.

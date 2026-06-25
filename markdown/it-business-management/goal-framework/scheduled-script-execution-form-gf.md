@@ -70,7 +70,7 @@ migrateStrategyWorkItemRelData
 </td></tr></tbody>
 </table>## Migrate goal relationships for assigned entities
 
-Use the **Migrate goal relationships for assigned entities** job to populate the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) based on the existing values in the legacy fields, **Business Unit**, **Department**, **Company**, **Portfolio**, and any customized entity field.
+Use the **Migrate goal relationships for assigned entities** job to populate the fields, **Assigned entity type** and **Assigned entity** on the [Goal form]() based on the existing values in the legacy fields, **Business Unit**, **Department**, **Company**, **Portfolio**, and any customized entity field.
 
 <table id="table_smd_b5p_fwb"><thead><tr><th>
 

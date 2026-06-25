@@ -22,7 +22,7 @@ A chat initiated about a specific HR case is part of the case record. By default
 
 In the chat widow, click the icon next to the HR case number to access the details of the HR case.
 
-**Note:** When an agent is not assigned to an HR case, some features are not available from the Employee Center. For example, the Ask a Question link to chat about a specific case cannot assign an agent. For information on automatically assigning an HR agent to a case, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+**Note:** When an agent is not assigned to an HR case, some features are not available from the Employee Center. For example, the Ask a Question link to chat about a specific case cannot assign an agent. For information on automatically assigning an HR agent to a case, see [Assignment and matching rules in HR]().
 
 See [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md).
 

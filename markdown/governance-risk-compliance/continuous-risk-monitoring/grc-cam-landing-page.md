@@ -16,7 +16,7 @@ breadcrumb: [Governance, Risk, and Compliance]
 
 Continuous Authorization and Monitoring \(CAM\) employs the seven steps defined by the NIST Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 
-An overview of the Continuous Authorization and Monitoring application 
+\[Omitted video\] Description: An overview of the Continuous Authorization and Monitoring application
 
 The video gives you an overview of the seven steps of the Risk Management Framework mandated by the US government for federal agencies that help companies to identify and eliminate risks to their infrastructure.
 

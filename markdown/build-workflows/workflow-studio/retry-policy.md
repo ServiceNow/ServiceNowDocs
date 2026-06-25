@@ -108,7 +108,7 @@ Count
 
 </td><td>
 
-Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
+Maximum number of retry attempts. This field applies only to **Exponential Backoff** and **Fixed Interval** retry strategies. If no value is specified, the maximum number of retry attempts is based on the value provided in the **glide.fdih.retry.max\_count** system property. Default value of the **glide.fdih.retry.max\_count** system property is 0. For more information about system properties, see Available system properties.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Maximum cumulative time in seconds after which the retry attempts are stopped. T
 </td></tr></tbody>
 </table>3.  Create a global system property with the following attributes.
 
-    For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md). You can use this system property to specify the maximum time in seconds for a retry policy.
+    For more information on how to create a property, see Add a system property. You can use this system property to specify the maximum time in seconds for a retry policy.
 
     |Field|Value|
     |-----|-----|

@@ -24,7 +24,7 @@ Use the following development tools to build apps, flows, processes, tables, and
 
 |Builder|Description|
 |-------|-----------|
-|[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
+|[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)|Create, manage, and test AI agents and agentic workflows to automate self-executing processes and achieve business goals.|
 |[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|Create and activate custom prompts and skills for Now Assist using the Now Assist Skill Kit plugin.|
 
 ## Automation
@@ -61,7 +61,7 @@ Use the following development tools to build apps, flows, processes, tables, and
 |[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-up-cat-builder.md)|Create or edit a catalog item \(catalog item or record producer\) using a visual, guided experience with specified restrictions. Catalog Builder enables you to delegate the creation and maintenance of the catalog.|
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md)|Create or update the portal page layout and add or remove widgets on the page.|
 |[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md)|Create or edit a catalog item, which can be a record producer, an order guide, or a content item.|
-|[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
+|[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)|Create survey categories and questions, configure their details, and publish the survey to specific users or groups.|
 |[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)|Build pages for App Engine Studio-generated workspaces or custom web experiences using Next Experience Components and custom web components.|
 |[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md)|Automate processes in a single design environment using Workspace Builder.|
 

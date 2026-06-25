@@ -1,0 +1,54 @@
+---
+title: Cancel a privacy assessment request
+description: Cancel a privacy assessment request if it is no longer necessary.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/cancel-privacy-assessment-request.html
+release: australia
+product: Legal Simple Privacy
+classification: legal-simple-privacy
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Requests, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+---
+
+# Cancel a privacy assessment request
+
+Cancel a privacy assessment request if it is no longer necessary.
+
+## Before you begin
+
+**Note:** You can cancel a privacy assessment request regardless of its state.
+
+Role required: sn\_lg\_ops.legal\_user
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**.
+
+2.  Select **View all** from the **My Requests** panel.
+
+3.  Open your submitted privacy assessment request.
+
+4.  From the Actions menu, select **Cancel Request**.
+
+5.  In the Confirm request cancellation dialog box, provide the reason for the cancellation in the **Comments** field.
+
+6.  Select **Confirm Cancellation**.
+
+    The request is canceled and the cancellation comments appear in the Additional Comments section of the request.
+
+    Any associated active flows are terminated. Any pending approval record is also canceled and a comment is posted in the Additional Comments section of the approval record.
+
+
+**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
+
+**Related topics**  
+
+
+[Submit a privacy assessment request]()
+
+[Update a privacy assessment request]()
+
+[Assign a privacy assessment request]()
+

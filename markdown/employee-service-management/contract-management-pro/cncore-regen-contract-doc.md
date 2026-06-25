@@ -46,5 +46,5 @@ The results of the regeneration depends on the initial state of the document:
 
 Note that although contract fulfillers can see all contract document revisions, a contract user can see only the latest revision.
 
-**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use self-served contract request]()
 

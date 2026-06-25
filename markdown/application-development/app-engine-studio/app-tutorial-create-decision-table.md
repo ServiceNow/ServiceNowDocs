@@ -53,7 +53,7 @@ Phase 2
 
 Follow along with the tutorial to build a decision table for the employee travel request application.
 
-Video 6 
+\[Omitted video\] Description: Video 6
 
 |Timestamp|Section|
 |---------|-------|

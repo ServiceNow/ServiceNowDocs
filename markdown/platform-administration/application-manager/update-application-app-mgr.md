@@ -39,7 +39,7 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 4.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
 
-    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-suites-app-mgr.md).
+    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
 5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
@@ -51,15 +51,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 7.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d80654e223">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d95854e223">
 
 Installation option
 
-</th><th align="left" id="d80654e226">
+</th><th align="left" id="d95854e226">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d80654e232">
+</th></tr></thead><tbody><tr><td id="d95854e232">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d80654e256">
+</td></tr><tr><td id="d95854e256">
 
 **Install later**
 

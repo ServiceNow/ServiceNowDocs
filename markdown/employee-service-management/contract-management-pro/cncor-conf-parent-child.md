@@ -19,7 +19,7 @@ Select the child contract type and configure the parent-child field mapping to i
 
 ## About this task
 
-The following video walks you through the process of configuring parent-child field mapping to inherit mapped fields when linked.Video explaining how to configuring parent-child field mapping to inherit mapped fields when linked, approximately two minutes long. 
+The following video walks you through the process of configuring parent-child field mapping to inherit mapped fields when linked.\[Omitted video\] Description: Video explaining how to configuring parent-child field mapping to inherit mapped fields when linked, approximately two minutes long.
 
 ## About this task
 

@@ -109,7 +109,7 @@ Add tags to track analytics for the voice assistant. For example, HR.Adding or r
         -   Danish
         -   Russian
         -   Turkish
-        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/multi-lingual-support-for-voice-assistants.md) for more information.
+        See  for more information.
 
     2.  Add a personalized welcome message to greet the callers calling into the voice assistant.
 

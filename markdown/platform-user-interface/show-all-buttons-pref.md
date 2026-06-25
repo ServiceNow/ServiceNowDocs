@@ -20,7 +20,7 @@ The purpose of this preference is to improve discoverability and usability.
 
 Learn more about this preference from the following tutorial:
 
-Show all buttons without the need to hover 
+\[Omitted video\] Description: Show all buttons without the need to hover
 
 <table id="table_o5c_x2y_hgc"><thead><tr><th>
 

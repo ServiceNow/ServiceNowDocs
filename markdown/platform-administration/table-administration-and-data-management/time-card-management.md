@@ -16,7 +16,7 @@ breadcrumb: [Working with Task table, Table admin, Tables and data, Configure co
 
 The Time Card Management feature enables time card users such as task assignees to report and track their time for the assigned tasks.
 
-Video explaining how to set up the time tracking feature for projects, enter time, and approve time cards.Watch this three-minute video to learn about setup of the time tracking feature, entering time and approvals.
+\[Omitted video\] Description: Video explaining how to set up the time tracking feature for projects, enter time, and approve time cards.Watch this three-minute video to learn about setup of the time tracking feature, entering time and approvals.
 
 Time Card Management works with the Task table to record time worked on various task types, such as projects, incidents, problems, and change requests.
 

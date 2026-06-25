@@ -48,15 +48,15 @@ Closing a transfer order line completes the task, moves the transfer order line 
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d109166e152">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d114598e152">
 
 To
 
-</th><th align="left" id="d109166e155">
+</th><th align="left" id="d114598e155">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d109166e161">
+</th></tr></thead><tbody><tr><td id="d114598e161">
 
 **Prepare for shipment**
 
@@ -98,7 +98,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d109166e243">
+</td></tr><tr><td id="d114598e243">
 
 **Drop off**
 

@@ -18,7 +18,7 @@ The source for the KPIs containing resolved incident data is the **resolved\_at*
 
 ## Before you begin
 
-**Note:** If you have never tracked resolved incidents in your environment before, install the [Incident Resolution Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/list-of-plugins.md) \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
+**Note:** If you have never tracked resolved incidents in your environment before, install the [Incident Resolution Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
 
 Role required: sn\_bm\_client.benchmark\_admin
 

@@ -132,7 +132,7 @@ Create a script to perform certain actions, like sending a notification based on
 
 9.  Select the **What it will contain** tab and configure the email template and message body content.
 
-    For more information on creating notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
+    For more information on creating notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
 10. Select **Submit**.
 

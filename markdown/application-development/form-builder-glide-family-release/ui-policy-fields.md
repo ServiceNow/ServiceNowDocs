@@ -80,7 +80,7 @@ Apply to all views/Apply to view \[Advanced settings\]
 
 </td><td>
 
-Option for specifying whether the UI policy applies to all form views or specific views. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
+Option for specifying whether the UI policy applies to all form views or specific views. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 </td></tr><tr><td>
 

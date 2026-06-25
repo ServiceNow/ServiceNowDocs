@@ -16,7 +16,7 @@ Learn the details of Field Encryption Starter and Field Encryption Enterprise
 
 ## Encryption-backed access control
 
-This video provides an overview of Field Encryption, including how it protects sensitive data at rest by encrypting individual fields and attachments, and how its key components work together. 
+\[Omitted video\] Description: This video provides an overview of Field Encryption, including how it protects sensitive data at rest by encrypting individual fields and attachments, and how its key components work together.
 
 By default, Field Encryption blocks all users, scripts, and system processes from accessing encrypted data. However, Field Encryption has an access control feature that is used in combination with, but also separate from, Access Control Lists \(ACLs\) to ensure only the correct users, scripts, or system processes can access encrypted data.
 

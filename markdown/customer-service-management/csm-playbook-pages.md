@@ -137,7 +137,7 @@ Create a record for a case type as the first step in a playbook by using a playb
 
 </td></tr><tr><td>
 
-[Configure an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
+[Configure an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md)
 
 </td><td>
 

@@ -209,8 +209,8 @@ Now Assist contract fulfiller
 To learn more about configuring and using , see:
 
 -   [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
--   -   [Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
--   [Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   -   [Non-disclosure agreement requests]()
+-   [Third-party contract review requests]()
 -   [Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
 
 -   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)**  

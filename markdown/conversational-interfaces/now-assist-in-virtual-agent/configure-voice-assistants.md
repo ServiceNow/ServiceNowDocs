@@ -83,7 +83,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** Add at least one AI voice agent to the voice assistant. The voice assistant uses the AI voice agents to execute AI instructions. You can select an existing agent or select **Create** to create one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/create-a-voice-enabled-ai-agent.md) for more information.
+    **Note:** Add at least one AI voice agent to the voice assistant. The voice assistant uses the AI voice agents to execute AI instructions. You can select an existing agent or select **Create** to create one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Select a voice personality.
 
@@ -115,11 +115,11 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
     1.  Integrate a telephony provider to connect to the voice assistant.
 
-        For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/integrating-voice-service-with-ccaas-providers.md).
+        For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
     2.  Configure your voice assistant to be accessible through mobile app voice launcher function.
 
-        For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md)
+        For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md)
 
 7.  Identify and authenticate the caller.
 
@@ -197,5 +197,5 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

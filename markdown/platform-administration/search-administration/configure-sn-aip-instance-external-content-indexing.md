@@ -138,7 +138,7 @@ Insert a new row with the name of your new custom role.
         |-----|---------|-----|
         |Sys ID|is|ee3ebfdc9f4112108647e8c40b0a1cb0|
 
-        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreatingFilters.md).
+        For details on creating and applying filters to limit records shown in a table's list view, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
 
         This filter should display a single Access Control record with Decision Type **Deny Unless**.
 

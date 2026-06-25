@@ -17,7 +17,7 @@ breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Age
 
 Generate a playbook with Now Assist by providing text directions or image.
 
-Generate a playbook outline and get recommendations for placeholder activities 
+\[Omitted video\] Description: Generate a playbook outline and get recommendations for placeholder activities
 
 ## Before you begin
 

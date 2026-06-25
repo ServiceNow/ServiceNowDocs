@@ -30,7 +30,7 @@ ITSM Virtual Agent includes pre-built topic conversations that cover common IT i
 
 Conversations between Virtual Agent and the user accomplish an IT goal. The information exchanged during the conversation flow, such as user inputs and Virtual Agent responses, enables Virtual Agent to fulfill a request or help complete a task.
 
-ITSM Virtual Agent integrates with ServiceNow® [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md). Some topics may require specific spokes to be installed.
+ITSM Virtual Agent integrates with ServiceNow® [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). Some topics may require specific spokes to be installed.
 
 For more information about Virtual Agent features, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 

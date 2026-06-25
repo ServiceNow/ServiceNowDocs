@@ -51,7 +51,7 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesignerElements.md).
+    For further details on the different question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md).
 
     **Note:** There are several limitations with native mobile screens, including custom and rating data types, validation scripts, read-only questions, and additional information fields. See this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2769842) for more details.
 

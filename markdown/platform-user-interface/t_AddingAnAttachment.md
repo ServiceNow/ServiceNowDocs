@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Administrators can configure attachments and how they work in the system. For more information, see [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AdministeringAttachments.md).
+Administrators can configure attachments and how they work in the system. For more information, see [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md).
 
 The default maximum size limit for an attachment file that can be added to a record on the ServiceNow AI Platform is 1024MB for a new out-of-box instance. If the field is left blank the default limit \(currently set at 1GB\) will be used as the maximum attachment file size.
 

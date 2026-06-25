@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Shows how to configure a delegate for a shopper. 
+\[Omitted video\] Description: Shows how to configure a delegate for a shopper.
 
 When shopping as a delegate, the user can see the previous purchases and top supplier preferences of the delegate. The user can place orders and request pricing for the catalog and non-catalog items on Shopping Hub on the behalf of the delegate.
 

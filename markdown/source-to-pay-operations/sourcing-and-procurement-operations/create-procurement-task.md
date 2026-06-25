@@ -16,7 +16,7 @@ breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Op
 
 As a procurement specialist, create a procurement task for the shopper or employer from the contextual panel of a procurement object details page in Source-to-Pay Workspace, to address your procurement-related business needs.
 
-Describes the procedure for creating a procurement task from the Procurement workspace. 
+\[Omitted video\] Description: Describes the procedure for creating a procurement task from the Procurement workspace.
 
 ## Before you begin
 

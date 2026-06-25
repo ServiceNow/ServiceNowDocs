@@ -36,7 +36,7 @@ Build Agent supports the following deployment methods for vibe-coded and AI-deve
     -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
-    -   For more information on System Update Sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    -   For more information on System Update Sets, see [System update sets]().
 
 ## Workflows for moving apps through higher instances
 

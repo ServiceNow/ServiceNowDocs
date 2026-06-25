@@ -164,7 +164,7 @@ In scripts, you can assign values as follows:
 
 `this.parameter.userData.userId == 'servicenowuserId';`
 
--   See also [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   See also [Create a policy action script]().
 
 </td></tr><tr><td>
 

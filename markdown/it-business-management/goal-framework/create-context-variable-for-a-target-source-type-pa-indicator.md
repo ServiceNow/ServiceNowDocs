@@ -38,7 +38,7 @@ Creating a context variable is similar to creating a column on a table.
 
 4.  On the form, fill in the **Type** field as Choice and the other fields as needed.
 
-    For a description of the field values, see [Context Variable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For a description of the field values, see [Context Variable form]().
 
 5.  Click **Submit**.
 

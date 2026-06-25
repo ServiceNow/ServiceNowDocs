@@ -24,7 +24,7 @@ You must [Configure Schedule Optimization](https://raw.githubusercontent.com/Ser
 
 ## About this task
 
-This video demonstrates how to create a scheduling attribute for Schedule Optimization. 
+\[Omitted video\] Description: This video demonstrates how to create a scheduling attribute for Schedule Optimization.
 
 ## Procedure
 

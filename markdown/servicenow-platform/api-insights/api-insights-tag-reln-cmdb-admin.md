@@ -26,8 +26,8 @@ You can use tag-based relationship mapping for:
 
 To create CMDB relationships between APIs and application services or business applications based on API tags, follow these steps:
 
-1.  [Define tag-based mapping rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
-2.  [Schedule the tag-based mapping rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+1.  [Define tag-based mapping rules]().
+2.  [Schedule the tag-based mapping rule]().
 
 ## Define tag-based mapping rules
 

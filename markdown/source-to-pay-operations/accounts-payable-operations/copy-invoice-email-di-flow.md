@@ -16,7 +16,7 @@ breadcrumb: [Configuring the invoice ingestion flows using Accounts Payable Oper
 
 Copy and configure the Invoice processing case for Invoice email flow and add a trigger condition to specify when to create an invoice processing case.
 
-Configure the invoice processing case for invoice email flow. 
+\[Omitted video\] Description: Configure the invoice processing case for invoice email flow.
 
 ## Before you begin
 

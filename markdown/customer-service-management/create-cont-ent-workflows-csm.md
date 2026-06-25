@@ -42,7 +42,7 @@ Customer Life Cycle Workflows Policy decision table decides the target entity wh
 
 \[Omitted image "customer-lc-decision-table-conditions.png"\] Alt text: Customer Life Cycle Workflows Policy decision table
 
-You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.Using Customer Life Cycle Workflows Policy Decision Table 
+You can configure rules based on the six available input parameters to a required target entity while renewing and modifying contracts. Select the following values in the Target Entity Name column to create the corresponding target entities.\[Omitted video\] Description: Using Customer Life Cycle Workflows Policy Decision Table
 
 <table id="table_khy_45b_v2c"><thead><tr><th>
 

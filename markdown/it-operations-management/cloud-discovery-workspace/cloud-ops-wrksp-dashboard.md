@@ -109,5 +109,5 @@ This report displays the trend of the cloud events received over the last 24 hou
 **Related topics**  
 
 
-[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/list-of-workspaces.md)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
 

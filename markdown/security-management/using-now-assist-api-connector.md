@@ -14,7 +14,7 @@ breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 
 Use the SPC Setup Connector generative AI skill in USEM to help your developers quickly and automatically create an API connector that you can publish and use in the Security Posture Control workspace. This skill automatically selects an API template, populates request and header parameters, and maps sample response attributes to SPC attributes based on API documentation you provide.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 You must have Zurich Patch 4 of Now Assist for Vulnerability Response to view the SPC Setup Connector skill.
 

@@ -28,7 +28,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.workspace.script.code\_editor.enable**.
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     2.  Set the Value to **true**.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.workspace.script.code\_editor.autoresize\_line\_limit**.
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     2.  Select **Submit**.
 

@@ -16,5 +16,5 @@ breadcrumb: [Workflow activities reference, Workflow activities, Classic Workflo
 
 Subflow activities run and manage workflows from a parent workflow.
 
-The [Parallel Flow Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)subflow activity is available.
+The [Parallel Flow Launcher]()subflow activity is available.
 

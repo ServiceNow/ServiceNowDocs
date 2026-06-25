@@ -325,7 +325,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
+You must [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to set the desired value.
 
 When you [synchronize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail.
 

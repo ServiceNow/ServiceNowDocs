@@ -36,9 +36,9 @@ This task walks you through creating a reference qualifier in the [system dictio
 
 6.  Configure the qualifier based on the type of reference qualifier.
 
-    -   **Simple**: [Build the condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) using the choice lists.
-    -   **Dynamic**: Either select an existing dynamic filter option or [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_DynamicFilterOptions.md).
-    -   **Advanced**: In the **Reference qual** field, enter an [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md), JavaScript that returns a query string, or the name of a [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExJSConstrainAssignmentGroupField.md) or [business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExJavaScriptLimitAssignedToField.md) to run.
+    -   **Simple**: [Build the condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) using the choice lists.
+    -   **Dynamic**: Either select an existing dynamic filter option or [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md).
+    -   **Advanced**: In the **Reference qual** field, enter an [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md), JavaScript that returns a query string, or the name of a [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExJSConstrainAssignmentGroupField.md) or [business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExJavaScriptLimitAssignedToField.md) to run.
 7.  Complete the **Reference Specification — Additional Customization** section, as appropriate.
 
 <table id="table_kt2_mhd_yz"><thead><tr><th>
@@ -77,7 +77,7 @@ Reference floats
 
 </td><td>
 
-Flag that determines whether to [Configure the edit option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_ConfigureTheEditOption.md) for one-to-many relationships.
+Flag that determines whether to [Configure the edit option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureTheEditOption.md) for one-to-many relationships.
 
 </td></tr><tr><td>
 

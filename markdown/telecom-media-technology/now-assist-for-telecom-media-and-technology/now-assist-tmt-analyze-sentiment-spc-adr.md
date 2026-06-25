@@ -40,15 +40,15 @@ Role required: sn\_telco\_adr\_mgmt.manager
 
 6.  After you're finished analyzing the sentiment, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d25175e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d32204e133">
 
 Option
 
-</th><th align="left" id="d25175e136">
+</th><th align="left" id="d32204e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d25175e142">
+</th></tr></thead><tbody><tr><td id="d32204e142">
 
 **Provide feedback for the summary**
 

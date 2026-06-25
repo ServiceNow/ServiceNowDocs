@@ -33,15 +33,15 @@ Note the following:
 
 1.  Open an NDA legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d369508e105">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d741166e105">
 
 Method
 
-</th><th align="left" id="d369508e108">
+</th><th align="left" id="d741166e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d369508e114">
+</th></tr></thead><tbody><tr><td id="d741166e114">
 
 **__Employee Center__**
 
@@ -51,7 +51,7 @@ Actions
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d369508e144">
+</td></tr><tr><td id="d741166e144">
 
 **__Legal Service Portal__**
 
@@ -80,5 +80,5 @@ Actions
 -   A new document revision is created and the file name is appended with the version number.
 -   The Contract status is marked as Ready revision.
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

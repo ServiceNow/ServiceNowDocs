@@ -22,7 +22,7 @@ Dispatch groups must be added to a dispatcher’s user record so they can see me
 
 Role required: admin
 
-Configure user groups for dispatchers in Dispatcher Workspace 
+\[Omitted video\] Description: Configure user groups for dispatchers in Dispatcher Workspace
 
 ## Procedure
 

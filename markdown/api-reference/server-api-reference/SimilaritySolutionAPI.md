@@ -512,7 +512,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in the standard platform format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).Data type: String.
+Encoded query string in the standard platform format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).Data type: String.
 
 </td></tr><tr><td>
 

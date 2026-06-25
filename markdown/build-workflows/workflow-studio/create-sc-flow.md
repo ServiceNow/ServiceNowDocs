@@ -16,7 +16,7 @@ breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow 
 
 Start a flow when a Service Catalog item is requested to automate the fulfillment process.
 
-Getting started with flows in Workflow Studio 
+\[Omitted video\] Description: Getting started with flows in Workflow Studio
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
 
     3.  Complete the fields.
 
-        For a detailed description of catalog item fields, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-item-form.md).
+        For a detailed description of catalog item fields, see .
 
         **Note:** If you plan to add stages to your flow, verify that there is not an existing workflow associated with the item that also has stages. Clear the values of the **Workflow** and **Execution Plan** fields to prevent conflicting stages from reporting to the requested item stage field.
 

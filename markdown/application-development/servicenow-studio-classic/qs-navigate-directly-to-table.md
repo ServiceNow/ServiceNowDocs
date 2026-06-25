@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 Watch a short video on how to navigate directly to a table.
 
-Video on how to navigate directly to a table in ServiceNow Studio 
+\[Omitted video\] Description: Video on how to navigate directly to a table in ServiceNow Studio
 
 ## Procedure
 

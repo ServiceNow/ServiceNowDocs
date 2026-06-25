@@ -70,7 +70,7 @@ Each Normal value record specifies how to identify variations of a normal value 
 
 ## Normalized queries
 
-An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UsingFiltersAndBreadcrumbs.md) using the original \(raw\) value for the normalized field in the query condition.
+An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md) using the original \(raw\) value for the normalized field in the query condition.
 
 The filtered list returns records with the normal value substituted for the raw value. However, the breadcrumbs for the filter display the original query conditions.
 

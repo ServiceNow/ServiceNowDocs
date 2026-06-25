@@ -149,7 +149,7 @@ For more information, see [Set record page order](https://raw.githubusercontent.
 **Related topics**  
 
 
-[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-configurable-workspace-experience-uib.md)
+[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-experience-uib.md)
 
-[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-configurable-workspace-page-uib.md)
+[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-configurable-workspace-page-uib.md)
 

@@ -40,5 +40,5 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
     -   View the final contract documents by accessing the **Legal Contract** tab. When multiple contract documents are attached, a separate record is created for each contract type.
 
-**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Third-party contract review requests]()
 

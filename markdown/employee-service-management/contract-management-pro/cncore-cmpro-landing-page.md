@@ -21,7 +21,7 @@ You can use the actionable widgets on Contract Workspace to categorize, prioriti
 
 With Contracts Dashboard, you can analyze the various contract request trends and also get insights into the volume of contract requests that are handled by your team.
 
-The following video provides an overview of Contract Management Pro.Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long. 
+The following video provides an overview of Contract Management Pro.\[Omitted video\] Description: Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long.
 
 \[Omitted image "mmasset0021176-final-clm.png"\] Alt text: An overview diagram of the various stages of Contract Management Pro.
 

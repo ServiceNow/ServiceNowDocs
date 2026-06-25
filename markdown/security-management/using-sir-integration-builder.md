@@ -14,7 +14,7 @@ breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 
 Add new integrations and use the existing integrations in SIR Workspace.
 
-Overview and use of SIR Integration Builder 
+\[Omitted video\] Description: Overview and use of SIR Integration Builder
 
 -   [Add an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-a-new-integration.md)
 -   [Verify capabilities in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/verify-capabilities.md)

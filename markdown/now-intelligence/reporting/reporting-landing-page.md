@@ -20,7 +20,7 @@ ServiceNow® Reporting enables you to create and distribute reports that show th
 
 Core UI Reporting functionality is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
-How to create reports in Core UI and add them to responsive dashboards 
+\[Omitted video\] Description: How to create reports in Core UI and add them to responsive dashboards
 
 ## Get started
 

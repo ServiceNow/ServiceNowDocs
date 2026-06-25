@@ -34,7 +34,7 @@ See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 3.  Click **Next**.
 
-    Based on the provider you select, the **Service Account** field is populated and a list of discovered datacenters appears. If no datacenters appear, click **Discover Datacenters** to find them. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
+    Based on the provider you select, the **Service Account** field is populated and a list of discovered datacenters appears. If no datacenters appear, click **Discover Datacenters** to find them. See [Discover all datacenters in a service account on-demand]() for details.
 
 4.  Select one or more datacenters to associate with the cloud account, click **Save**, and then close the popup.
 
@@ -44,8 +44,8 @@ See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
     The following lists appear:
 
-    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
-    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand]().
+    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. [Set capacity limits on user requests for resources]()
     -   **Discovery Log**: The process creates a log record for each action in an datacenter.
     **Note:**
 

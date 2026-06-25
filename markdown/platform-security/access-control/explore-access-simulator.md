@@ -18,7 +18,7 @@ Access Simulator helps you pre-validate how access to a specified table would ch
 
 Use Access Simulator to simulate access requirements of your users on a specified table and understand how the access controls changes for a user. It helps in quickly troubleshooting and validating the effectiveness of changes.
 
-Access Simulator 
+\[Omitted video\] Description: Access Simulator
 
 Use Access Simulator to pre-validate access for a selected user by:
 

@@ -18,7 +18,7 @@ Make updates to action-based location tracking for more accurate tracking of an 
 
 ## Before you begin
 
-Configuring action-based location tracking 
+\[Omitted video\] Description: Configuring action-based location tracking
 
 Role required: admin
 

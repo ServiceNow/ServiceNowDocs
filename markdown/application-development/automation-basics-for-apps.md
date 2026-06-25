@@ -112,7 +112,7 @@ AI Agent Execution on Connected Data
 
 </td><td>
 
-ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md).
+ServiceNow AI Agents leverage the unified data withinWorkflow Data Fabric to autonomously execute multi-step tasks. They use advanced reasoning to understand context from multiple systems, make decisions, and take actions like creating tickets, assigning work, or triggering scripts—all automatically based on real-time data.For more information, see [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 </td></tr><tr><td>
 

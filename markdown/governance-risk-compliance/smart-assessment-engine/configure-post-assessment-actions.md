@@ -26,7 +26,7 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 ## About this task
 
-Configuring post assessment actions 
+\[Omitted video\] Description: Configuring post assessment actions
 
 ## Procedure
 
@@ -44,15 +44,15 @@ Configuring post assessment actions
 
 6.  Add either a conditional action set or a standalone action set.
 
-<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d67692e151">
+<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d295533e151">
 
 Option
 
-</th><th align="left" id="d67692e154">
+</th><th align="left" id="d295533e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67692e160">
+</th></tr></thead><tbody><tr><td id="d295533e160">
 
 **Choose a conditional action set**
 
@@ -60,11 +60,11 @@ Description
 
 1.  Select **Add a conditional action set**.
 2.  Select **If** and then select **+New condition set**.
-3.  Create the conditional action set using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+3.  Create the conditional action set using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 4.  Select **Save**.
  **Note:** You can select **+New condition set** to add multiple conditions.
 
-</td></tr><tr><td id="d67692e206">
+</td></tr><tr><td id="d295533e206">
 
 **Choose a standalone action set**
 
@@ -97,5 +97,5 @@ Select **Add a standalone action set**.
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

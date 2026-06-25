@@ -18,7 +18,7 @@ Add new or updated information to your current data sets by importing it into ex
 
 This video shows you how to perform the following procedure.
 
-This video shows you how to create a data integration. 
+\[Omitted video\] Description: This video shows you how to create a data integration.
 
 ## Before you begin
 

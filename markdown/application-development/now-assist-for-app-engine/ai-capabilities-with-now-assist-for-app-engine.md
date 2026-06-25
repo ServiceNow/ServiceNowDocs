@@ -109,7 +109,7 @@ There are several important components of an AI agent.
 -   The trigger defines how the AI agent is activated.
 -   The availability determines how your AI agent is displayed, either in the Now Assist panel or Virtual Agent.
 
-For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md).
+For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## Agentic workflows
 
@@ -117,7 +117,7 @@ An agentic workflow contains a set of large language model \(LLM\) instructions 
 
 An agentic workflow is controlled by an AI Agent Orchestrator that coordinates the flow of work between AI agents. Additionally, an AI Agent Communicator helps to facilitate communication between the AI Agent Orchestrator and AI agents in the workflow.
 
-For more information about agentic workflows, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/gg-creating-aia.md).
+For more information about agentic workflows, see [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
 
 ## Now Assist AI agents, Platform agentic workflows, and custom AI agents and agentic workflows
 
@@ -153,8 +153,8 @@ Must be duplicated and modified significantly for use in custom applications
 
 </td><td>
 
--   [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/exploring-ai-agents.md)
--   [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-use-cases.md)
+-   [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
+-   [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md)
 
 </td></tr><tr><td>
 
@@ -170,9 +170,9 @@ Can be designed to work within custom apps during the creation process, when you
 
 </td><td>
 
--   [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/gg-creating-aia.md)
--   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md)
--   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md)
+-   [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md)
+-   [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md)
+-   [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
 
 </td></tr></tbody>
 </table>

@@ -24,7 +24,7 @@ Plugins: Journey designer \(sn\_jny\), Journey Accelerator \(sn\_ja\), HR Servic
 
 Assign the Journey to the employee and publish the Journey. See [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
 
-For more information on Journeys, see [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information on Journeys, see [Journey designer]().
 
 ## Procedure
 

@@ -27,7 +27,7 @@ The Integration — Microsoft SCCM 2016 plugin is compatible with SCCM version 1
 
 The SCCM integration plugin installs [several components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sccm-sam-components.md).
 
-After the SCCM usage plugin is [activated and configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-sccm-sam.md), a scheduled import runs monthly to [bring SCCM software usage data into your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MicrosoftSCCMIntegration.md). The usage data is then mapped to Software Usage table. During the scheduled job, a SQL query is executed.
+After the SCCM usage plugin is [activated and configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-sccm-sam.md), a scheduled import runs monthly to [bring SCCM software usage data into your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md). The usage data is then mapped to Software Usage table. During the scheduled job, a SQL query is executed.
 
 The scheduled import runs once a month, but you can run the import on demand by clearing the **Conditional** option on the Scheduled Data Import form. However, the data is always pulled from the previous month, so there won't be a change in the data until the following scheduled import.
 

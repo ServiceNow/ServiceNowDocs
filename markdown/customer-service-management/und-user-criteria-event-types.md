@@ -89,15 +89,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d107432e442">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d238506e442">
 
 To
 
-</th><th align="left" id="d107432e445">
+</th><th align="left" id="d238506e445">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d107432e451">
+</th></tr></thead><tbody><tr><td id="d238506e451">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -116,7 +116,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d107432e508">
+</td></tr><tr><td id="d238506e508">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 
@@ -162,15 +162,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d107432e696">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d238506e696">
 
 To
 
-</th><th align="left" id="d107432e699">
+</th><th align="left" id="d238506e699">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d107432e705">
+</th></tr></thead><tbody><tr><td id="d238506e705">
 
 **Verify user access for all your groups**
 
@@ -178,7 +178,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d107432e717">
+</td></tr><tr><td id="d238506e717">
 
 **Specific groups and team members**
 

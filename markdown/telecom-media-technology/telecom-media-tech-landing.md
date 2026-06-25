@@ -109,7 +109,7 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 
 </td><td>
 
-
+[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md)
 
 </td></tr></tbody>
 </table>## Additional resources

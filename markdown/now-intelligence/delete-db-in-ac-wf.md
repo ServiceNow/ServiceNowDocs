@@ -30,7 +30,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 4.  Select **Add an Action, Flow Logic, or Subflow**.
 
-    For more information about the available possibilities, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+    For more information about the available possibilities, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 5.  Use the handle next to the action number to reorder the action.
 

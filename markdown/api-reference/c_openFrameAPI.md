@@ -581,7 +581,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)
+-   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
 
 </td></tr></tbody>
 </table>|Type|Description|

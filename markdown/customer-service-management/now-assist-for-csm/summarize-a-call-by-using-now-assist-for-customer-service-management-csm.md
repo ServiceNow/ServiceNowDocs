@@ -19,7 +19,7 @@ Generate a summary of the call conversation between a live agent and a customer 
 
 ## Before you begin
 
-To make the skill available in the Now Assist Admin console, install [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/install-ccc-apps.md).
+To make the skill available in the Now Assist Admin console, install [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_csm\_agent
 

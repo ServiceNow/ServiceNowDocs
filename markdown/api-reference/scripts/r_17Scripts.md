@@ -158,7 +158,7 @@ server
 
 </td></tr><tr><td>
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md)
+[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 
 </td><td>
 

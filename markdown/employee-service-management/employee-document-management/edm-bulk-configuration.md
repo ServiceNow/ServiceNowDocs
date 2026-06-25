@@ -359,7 +359,7 @@ Import type
 </td><td>
 
 The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflows-as-subflows.md).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+-   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 -   Workflow: An automated way to provide a multi-step process. See [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
 -   Script: Use to automate the import step. See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).
 
@@ -459,7 +459,7 @@ Import type
 </td><td>
 
 The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflows-as-subflows.md).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+-   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 -   Workflow: An automated way to provide a multi-step process. See [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
 -   Script: Use to automate the import step. See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).
 
@@ -549,7 +549,7 @@ Import type
 </td><td>
 
 The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflows-as-subflows.md).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+-   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 -   Workflow: An automated way to provide a multi-step process. See [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
 -   Script: Use to automate the import step. See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).
 
@@ -653,7 +653,7 @@ Import type
 </td><td>
 
 The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflows-as-subflows.md).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+-   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 -   Workflow: An automated way to provide a multi-step process. See [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
 -   Script: Use to automate the import step. See [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).
 

@@ -18,7 +18,7 @@ Use the Industrial Process Manager application to create the ISA-95 Equipment Mo
 
 **Note:** The Manufacturing Process Manager was renamed to the Industrial Process Manager for Vancouver. If you're on version 1.0.9 and prior, the application is still called Manufacturing Process Manager. If you're on version 2.0, the application is called Industrial Process Manager.
 
-Watch an overview about the Industrial Process Manager application.Overview video for the Industrial Process Manager application 
+Watch an overview about the Industrial Process Manager application.\[Omitted video\] Description: Overview video for the Industrial Process Manager application
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 

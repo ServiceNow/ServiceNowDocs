@@ -22,7 +22,7 @@ Open the knowledge article in which you want to use the HTML editor.
 
 ## About this task
 
-You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) or [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
 
 ## Procedure
 
@@ -42,15 +42,15 @@ You can also use the HTML editor when creating or editing a knowledge article us
     -   To limit the search to text that matches one or more complete words only, select the **Whole words** check box.
 6.  Find or replace the search term.
 
-<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d479976e170">
+<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d627264e170">
 
 To
 
-</th><th align="left" id="d479976e173">
+</th><th align="left" id="d627264e173">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d479976e179">
+</th></tr></thead><tbody><tr><td id="d627264e179">
 
 **Find instances of the search text**
 
@@ -58,7 +58,7 @@ Do this
 
 Click **Find**.
 
-</td></tr><tr><td id="d479976e191">
+</td></tr><tr><td id="d627264e191">
 
 **Replace individual instances of the found text with the replacement text entered in the __Replace with__ field**
 
@@ -66,7 +66,7 @@ Click **Find**.
 
 Click **Replace**.Use the **Prev** and **Next** buttons to navigate to the previous and next instance of the search term, respectively.
 
-</td></tr><tr><td id="d479976e215">
+</td></tr><tr><td id="d627264e215">
 
 **Replace all instances of the search text automatically in the selected field**
 

@@ -55,15 +55,15 @@ The Post Upgrade Script performs required order management table reparenting and
 
 4.  To approve or reject fulfillment of a customer order in a New state, perform one of the following actions.
 
-<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23973e212">
+<table id="choicetable_opd_p3f_5rb"><thead><tr><th align="left" id="d23975e212">
 
 Action
 
-</th><th align="left" id="d23973e215">
+</th><th align="left" id="d23975e215">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23973e221">
+</th></tr></thead><tbody><tr><td id="d23975e221">
 
 **Approve a customer or service order for fulfillment**
 
@@ -77,7 +77,7 @@ When you approve an order for fulfillment, the following actions take place:
 -   The **Revision Operation** field is set to None.
 **Note:** You must have an sn\_ind\_tmt\_orm.order\_fulfillment\_manager role.
 
-</td></tr><tr><td id="d23973e264">
+</td></tr><tr><td id="d23975e264">
 
 **Reject a customer or service order for fulfillment**
 

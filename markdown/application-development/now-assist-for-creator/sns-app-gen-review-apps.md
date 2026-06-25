@@ -21,7 +21,7 @@ Starting with the Australia release, app generation is being prepared for future
 
 This video shows you how to review apps created using app generation in ServiceNow Studio.
 
-Review applications generated using app generation in ServiceNow Studio. 
+\[Omitted video\] Description: Review applications generated using app generation in ServiceNow Studio.
 
 ## Before you begin
 

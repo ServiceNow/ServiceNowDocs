@@ -28,15 +28,15 @@ Role required: none
 
 3.  Perform any of the following tasks.
 
-<table id="choicetable_zgc_w5s_whc"><thead><tr><th align="left" id="d173396e74">
+<table id="choicetable_zgc_w5s_whc"><thead><tr><th align="left" id="d258454e74">
 
 Option
 
-</th><th align="left" id="d173396e77">
+</th><th align="left" id="d258454e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173396e83">
+</th></tr></thead><tbody><tr><td id="d258454e83">
 
 **Use chat**
 
@@ -46,7 +46,7 @@ Description
 2.  Use the Now Assist conversational experience to explain your issue. Now Assist generates self-serve troubleshooting steps and solutions for your issue.
 
 
-</td></tr><tr><td id="d173396e110">
+</td></tr><tr><td id="d258454e110">
 
 **Contact a live support agent**
 

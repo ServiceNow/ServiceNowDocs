@@ -34,7 +34,7 @@ The available actions for handling application service relationships for APIs in
 -   [Create application service relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-manage-serv-reln.md).
 -   [Remove application service relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-manage-serv-reln.md).
 
-**Note:** When managing multiple API relationships for application services, you can automate the mapping. For more information, see [Automate tag-based relationship mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+**Note:** When managing multiple API relationships for application services, you can automate the mapping. For more information, see [Automate tag-based relationship mapping]().
 
 ## View application service relationships
 

@@ -18,7 +18,7 @@ A cloud policy can override a property value set by a user, create an approval t
 
 ## Before you begin
 
--   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   Optional: [Create one or more cloud policy groups]().
 -   Role required: sn\_cmp.cloud\_governor or admin
 
 ## About this task

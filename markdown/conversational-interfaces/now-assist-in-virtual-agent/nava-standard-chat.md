@@ -74,7 +74,7 @@ If multiple results are found, they are presented to users, and users can view i
 
 **Note:** For full catalog functionality in the chat window, enable the generative AI experience for catalog item request submissions. For more information, see [Configure Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-gen-ai-catalog-item.md).
 
-Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
+Whenever a single Virtual Agent topic is found within a synthesized response, users are brought directly into that action's flow. You may consider bypassing the synthesized response and options by automatically launching catalog items, too. For more information on automatically launching single search result actions, search for the **sn\_nowassist\_va.synthesized\_autostart\_items** system property in [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, Knowledge Base articles, attachments, external content, and people sources. The following citations may appear inline and/or within the expandable Sources section depending on what search results are returned:
 
@@ -102,7 +102,7 @@ If you need more help, Now Assist in Virtual Agent directs you to either a live 
 
 If you entered a single message with multiple questions or requests, a **Ready to move on to your next task?** card appears. For example, a response like `Order a loaner laptop and also what is spam?` When you select the **Continue to next task** button on the **Ready to move on to your next task?** card, Virtual Agent searches for a response to your second question or request. In this example, Virtual Agent would search for an answer to your `what is spam?` question.
 
-For information about configuring a Now Assist skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+For information about configuring a Now Assist skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 ## Agentic conversations
 

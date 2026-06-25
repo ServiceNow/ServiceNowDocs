@@ -67,7 +67,7 @@ Content Analytics stores collected data in tables, which are organized by data t
 
 **Note:** If a dashboard does not display visualizations, check that the data is being collected by opening a table. Enter the table name in the navigation bar, appended by `.list`.
 
-For a list of Content Analytics tables, see [Components installed with Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For a list of Content Analytics tables, see [Components installed with Content Analytics]().
 
 This is an overview of the process by which Content Analytics collects and moves data:
 

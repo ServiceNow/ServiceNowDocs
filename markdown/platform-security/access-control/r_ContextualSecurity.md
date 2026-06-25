@@ -27,7 +27,7 @@ The Contextual Security Manager is aware of the system table hierarchy, enabling
 
 With the legacy Simple Security Manager, you could secure fields and tables by adding roles to the appropriate dictionary entry. With the Contextual Security Manager, these dictionary roles are no longer tested. Instead, the system looks for ACL rules on fields and tables.
 
-**Warning:** After you install the Contextual Security Manager, you must secure fields and tables via ACL rules. Even if you [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) the dictionary form and add roles to a dictionary entry, no change in rights occurs.
+**Warning:** After you install the Contextual Security Manager, you must secure fields and tables via ACL rules. Even if you [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) the dictionary form and add roles to a dictionary entry, no change in rights occurs.
 
 ## Contextual security and roles
 

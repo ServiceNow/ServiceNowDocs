@@ -46,8 +46,8 @@ Role required: sn\_lg\_investigate.fulfiller
 
         -   **Documentation**: Store documents that you collected as part of the investigations in the legal matter. You can also assign the task of collecting investigation documentation to another user. For detailed instructions, see [Add a task in the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md).
         -   **Interview**: Conduct interviews with the involved parties, and as needed, include other users on the interview panel. For detailed instructions on adding interviews, see [Add an interview task to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/add-interview-matter-task.md).
-        -   **Recommended Actions**: Based on the findings of the investigations, provide recommendations for the involved parties. For detailed instructions on adding recommended actions, see [Add a recommended actions task to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
-    -   [Perform other general tasks on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+        -   **Recommended Actions**: Based on the findings of the investigations, provide recommendations for the involved parties. For detailed instructions on adding recommended actions, see [Add a recommended actions task to a legal matter]().
+    -   [Perform other general tasks on the legal matter]().
 7.  [Close the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/close-legal-matter.md) or [transfer the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.md) based on the requirements.
 
 

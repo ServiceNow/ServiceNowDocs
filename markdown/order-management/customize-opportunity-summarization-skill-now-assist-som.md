@@ -17,7 +17,7 @@ Configure the opportunity summarization skill to generate AI-powered opportunity
 
 ## Before you begin
 
-Use the Now Assist Admin console to configure the opportunity summarization skill. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+Use the Now Assist Admin console to configure the opportunity summarization skill. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 Role required: admin
 

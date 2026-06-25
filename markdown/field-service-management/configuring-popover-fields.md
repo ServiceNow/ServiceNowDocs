@@ -18,7 +18,7 @@ Add fields to task cards or the Contextual Side Panel \(CSP\) so more informatio
 
 In the video below we’re updating the fields in the CSP.
 
-Configure fields to appear on task cards or in the contextual side panel 
+\[Omitted video\] Description: Configure fields to appear on task cards or in the contextual side panel
 
 Role required: admin, wm\_admin
 

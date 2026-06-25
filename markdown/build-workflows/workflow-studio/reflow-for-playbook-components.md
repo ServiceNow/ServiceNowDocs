@@ -18,7 +18,7 @@ Apply reflow to out-of-the-box standalone and custom layout Playbook Experience 
 
 Reflow, is a configurable workspace feature that enables pages and content to be zoomed up to 400% through browser settings. In a playbook with reflow enabled, the playbook changes to compact mode when zooming in to 200% browser zoom and leaves compact mode when zooming back out.
 
-
+\[Omitted video\]
 
 If you want Reflow to work for your Playbook Experience components, see [Apply Reflow to playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/apply-reflow-playbook-components.md).
 

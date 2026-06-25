@@ -67,7 +67,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to create field conditions for when your playbook runs. See [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+Use the condition builder to create field conditions for when your playbook runs. See Condition builder.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Run this trigger on extended tables
 
 </td><td>
 
-Select this option to trigger the playbook on tables that extend from your selected table. For example, if you enable this option and select the Configuration Item \[cmdb\_ci\] table, your playbook runs when record operations occur on the Server \[cmdb\_ci\_server\], Computer \[cmdb\_ci\_computer\], and other extended tables. For more information, see .
+Select this option to trigger the playbook on tables that extend from your selected table. For example, if you enable this option and select the Configuration Item \[cmdb\_ci\] table, your playbook runs when record operations occur on the Server \[cmdb\_ci\_server\], Computer \[cmdb\_ci\_computer\], and other extended tables. For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
 
 </td></tr><tr><td>
 

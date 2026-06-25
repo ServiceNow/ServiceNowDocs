@@ -18,7 +18,7 @@ To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analy
 
 \[Omitted image "pa-filters-lib.png"\] Alt text: Platform Analytics Filters library
 
-Add an interactive filter to a Platform Analytics dashboard 
+\[Omitted video\] Description: Add an interactive filter to a Platform Analytics dashboard
 
 This video illustrates how to create a filter, in this case a multi-select filter for table data.
 

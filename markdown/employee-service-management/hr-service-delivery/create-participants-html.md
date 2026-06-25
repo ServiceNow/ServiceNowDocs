@@ -23,7 +23,7 @@ Define actions and the order of actions for participants. The type of action and
 
 ## About this task
 
-Creating participants and inserting signatures 
+\[Omitted video\] Description: Creating participants and inserting signatures
 
 ## Procedure
 

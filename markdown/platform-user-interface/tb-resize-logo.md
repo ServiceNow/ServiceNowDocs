@@ -28,7 +28,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.ui.polaris.login.logo.height.
+2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.ui.polaris.login.logo.height.
 
 3.  Set the system property **Value** to the maximum CSS height value for your logo.
 

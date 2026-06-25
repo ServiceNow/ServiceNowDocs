@@ -170,7 +170,7 @@ Create an online food order form in an food delivery application for customers. 
 
 </td></tr><tr><td>
 
-[Themes in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md)
+[Themes in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 </td><td>
 

@@ -38,8 +38,8 @@ The Mobile Custom Localization app is available from the  ServiceNow Store and
 
 For more information, refer to the following topics:
 
--   [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/servicenow-store.md)
--   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/get-free-app.md)
+-   [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-store.md)
+-   [Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-free-app.md)
 
 ## General Guidelines for client-side localization
 

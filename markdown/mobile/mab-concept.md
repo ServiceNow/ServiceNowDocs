@@ -14,7 +14,7 @@ breadcrumb: [Building tools, Building mobile apps, Mobile Platform]
 
 The ServiceNow® Mobile App Builder \(MAB\) is a configuration tool to build and manage screens and records that make up workflows within ServiceNow mobile apps. The organizational layout and navigation options in the Mobile App Builder facilitate a faster and more intuitive creation of ServiceNow mobile applications.
 
-an overview of mobile app builder capabilities 
+\[Omitted video\] Description: an overview of mobile app builder capabilities
 
 Benefits and uses of the Mobile App Builder include the following:
 

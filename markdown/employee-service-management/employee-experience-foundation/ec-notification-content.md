@@ -85,5 +85,5 @@ Notify supports the concept of SMS concatenation. The maximum length of a single
     -   Content Experiences: Add Non-Portal Campaign Content: Creates sn\_ca\_campaign\_item\_user\_records for sent emails. It does not send the email.
     -   Content Publishing: Send SMS notifications: Responsible for sending SMS notifications for Content Delivery. Default value is to run every hour.
 
-For more information, see: [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md), [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md), and [Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NumberGroups.md).
+For more information, see: [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md), [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md), and [Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NumberGroups.md).
 

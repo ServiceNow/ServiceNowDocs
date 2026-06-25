@@ -29,7 +29,7 @@ The **Health safety incident patterns assistant** agentic workflow helps safety 
 
 This agentic workflow is automatically available to users with sn\_ohs\_im.manager, sn\_ohs\_im.admin, and sn\_ohs\_im.agent roles and can be used from the Now Assist panel.
 
-For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## AI agent and tools used in the Health safety incident patterns assistant agentic workflow
 

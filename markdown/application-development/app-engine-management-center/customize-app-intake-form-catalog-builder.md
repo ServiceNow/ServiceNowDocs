@@ -158,7 +158,7 @@ Clear value
 Option to clear the question value.
 
 </td></tr></tbody>
-</table>8.  On the **Conditions** tab, specify the conditions that trigger the action on the question. For more information about building condition statements, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+</table>8.  On the **Conditions** tab, specify the conditions that trigger the action on the question. For more information about building condition statements, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 9.  On the **Settings** tab, specify the scenarios where the behavior setting applies.
 

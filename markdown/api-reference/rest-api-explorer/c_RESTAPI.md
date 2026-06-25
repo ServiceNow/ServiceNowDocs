@@ -77,7 +77,7 @@ The following describes some of the data handling nuances within the REST API.
 
     For example, if a user in the UK locale queries records with currency values in USD, the returned values are converted to GBP. However, if this user adds a new record with the currency field value in GBP, the value is stored in GBP without being converted to USD. This GBP value appears in USD if queried by a user in the US locale.
 
--   UI data display versus values passed in a REST endpoint: The UI shows the database [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md), which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) request parameter to true.
+-   UI data display versus values passed in a REST endpoint: The UI shows the database [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md), which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) request parameter to true.
 
 ## Custom query parameters
 
@@ -150,7 +150,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
 -   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
@@ -163,7 +163,7 @@ sysparm\_query
     -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
 -   &lt;value&gt;: Value to filter on.
 
-For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 

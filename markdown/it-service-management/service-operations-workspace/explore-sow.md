@@ -82,7 +82,7 @@ User who implements and sets up Service Operations Workspace for ITSM.
 |Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/walkup-sow.md)|Tier 1 and Tier 2 agents|
 |All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
 |Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
-|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
+|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
 For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-sow-itom.md).
 
@@ -135,5 +135,5 @@ On-Call Scheduling ensures that dedicated support team members are always availa
 **Related topics**  
 
 
-[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/list-of-workspaces.md)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
 

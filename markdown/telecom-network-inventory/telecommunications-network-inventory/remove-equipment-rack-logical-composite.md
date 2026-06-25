@@ -1,0 +1,70 @@
+---
+title: Remove an equipment or rack from logical composite
+description: Remove a rack or equipment from a logical composite using design and assign.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-rack-logical-composite.html
+release: australia
+product: Telecommunications Network Inventory
+classification: telecommunications-network-inventory
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
+---
+
+# Remove an equipment or rack from logical composite
+
+Remove a rack or equipment from a logical composite using design and assign.
+
+## Before you begin
+
+Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
+
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon\), and then go to **Changes** &gt; **All**.
+
+3.  Select the **New** button.
+
+4.  Select **Remove Equipment/Rack from Multi Chassis Equipment**.
+
+5.  Select **Next**.
+
+    A change request is created.
+
+6.  On the **Details** tab, fill in the fields.
+
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+
+7.  Select **Save**.
+
+    A change task is created.
+
+8.  Open the change task.
+
+9.  On the **Task Attributes** tab, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Multi Chassis Equipment|Logical composite from where you remove the equipment or rack.|
+    |Equipment / Rack|Equipment or rack that you want to remove from logical composite.|
+    |Attachments|Select **Add** to add any attachments.|
+
+10. Select **Submit**.
+
+
+## Result
+
+The equipment or rack record is removed from the logical composite record.
+
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+
+**Related topics**  
+
+
+[Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md)
+
+[Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
+

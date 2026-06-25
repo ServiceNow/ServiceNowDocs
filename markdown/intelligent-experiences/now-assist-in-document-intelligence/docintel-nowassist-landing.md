@@ -17,7 +17,7 @@ breadcrumb: [Enable AI experiences]
 
 With ServiceNow® Now Assist in Document Intelligence, you can use generative AI to get key information from digital documents into your automation workflows.
 
-Video that shows you how you can use Now Assist in Document Intelligence to get key information from documents and images into your automation workflows. 
+\[Omitted video\] Description: Video that shows you how you can use Now Assist in Document Intelligence to get key information from documents and images into your automation workflows.
 
 ## Get started
 

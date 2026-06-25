@@ -32,7 +32,7 @@ DTAC translates chat conversations from one language to another. The preferred l
 
 DTAC is inactive by default. Before activating DTAC, the following requirements must be completed:
 
--   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-translation.md)
+-   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md)
 -   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
 -   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md)
 

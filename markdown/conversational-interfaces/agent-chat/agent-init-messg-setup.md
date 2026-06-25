@@ -20,7 +20,7 @@ Set up the Agent-Initiated Messaging Interface application to send messages from
 
 -   [Install agent-initiated messaging interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/install-agent-init-messg.md).
 -   [Review the list of messaging channels available for the Agent-Initiated Messaging Interface application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.md).
--   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   Set the application scope to the application associated with the messaging channel using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
     For example, for using the SMS messaging channel, set the application scope to the Conversational SMS service channel application.
 

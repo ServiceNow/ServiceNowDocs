@@ -22,7 +22,7 @@ You can also use client scripts to perform all of these actions, but for faster 
 
 Create a UI policy to define custom process flows for tasks.
 
-Adding a UI Policy
+\[Omitted video\] Description: Adding a UI Policy
 
 ### Before you begin
 
@@ -118,7 +118,7 @@ View \[Advanced view\]
 
 </td><td>
 
-Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/view-management-overview.md).
+Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
 
 </td></tr><tr><td>
 

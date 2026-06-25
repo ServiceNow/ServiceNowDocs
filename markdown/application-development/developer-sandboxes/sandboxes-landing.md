@@ -17,7 +17,7 @@ breadcrumb: [Developing your application, Building applications]
 
 Developer Sandboxes provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance. Delegated developers can write and merge code and configuration changes without the risk of their changes getting overwritten on the instance mid-development.
 
-Developer Sandboxes overview video 
+\[Omitted video\] Description: Developer Sandboxes overview video
 
 ## Get started
 

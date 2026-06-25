@@ -20,7 +20,7 @@ Create an access control list rule to restrict who can create a report on a tabl
 
 Role required: security\_admin.
 
-**Note:** In addition to [report\_on ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-rule-types.md) for specific tables, a write ACL on the \[sys\_report\] table controls write access for all reports. If this ACL prevents you from saving the current report, the **Save** button in the Report Designer is disabled. For example, when you view a report that another user shared with you. If you have the correct security settings, click **Save** &gt; **Insert** to save an editable copy of the report.
+**Note:** In addition to report\_on ACLs for specific tables, a write ACL on the \[sys\_report\] table controls write access for all reports. If this ACL prevents you from saving the current report, the **Save** button in the Report Designer is disabled. For example, when you view a report that another user shared with you. If you have the correct security settings, click **Save** &gt; **Insert** to save an editable copy of the report.
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: security\_admin.
 
 2.  Add an access control record with the following information.
 
-<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d165266e110">
+<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d175715e110">
 
 **_Type_**
 
@@ -36,7 +36,7 @@ Role required: security\_admin.
 
 `record`
 
-</td></tr><tr><td id="d165266e125">
+</td></tr><tr><td id="d175715e125">
 
 **_Operation_**
 
@@ -44,7 +44,7 @@ Role required: security\_admin.
 
 ``report_on``
 
-</td></tr><tr><td id="d165266e143">
+</td></tr><tr><td id="d175715e143">
 
 **_Name_ \(table\)**
 
@@ -69,7 +69,7 @@ Role required: security\_admin.
 **Related topics**  
 
 
-[Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md)
+[bundle-psec.t_CreateAnACLRule]
 
-[Access control rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)
+[bundle-psec.access-control-rules]
 

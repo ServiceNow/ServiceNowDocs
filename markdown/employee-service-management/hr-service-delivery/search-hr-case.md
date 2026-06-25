@@ -20,7 +20,7 @@ Create HR cases for employees or other individuals that require an HR service. N
 
 Role required: sn\_hr\_core.case\_writer
 
-Create a case in Core UI 
+\[Omitted video\] Description: Create a case in Core UI
 
 ## About this task
 
@@ -38,15 +38,15 @@ Create a case in Core UI
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d69361e101">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d464566e101">
 
 Status of the person related to the case
 
-</th><th align="left" id="d69361e104">
+</th><th align="left" id="d464566e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d69361e110">
+</th></tr></thead><tbody><tr><td id="d464566e110">
 
 **Anonymous employee or external individual**
 
@@ -58,7 +58,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d69361e143">
+</td></tr><tr><td id="d464566e143">
 
 **An employee**
 

@@ -24,7 +24,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-Create a Block or Allow request 
+\[Omitted video\] Description: Create a Block or Allow request
 
 The Block Request Category List includes two Hash Categories.
 

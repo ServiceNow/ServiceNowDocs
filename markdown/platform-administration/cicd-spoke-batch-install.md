@@ -27,7 +27,7 @@ A batch can contain any combination of the following types:
 
 For details on installing applications in a batch via the REST API see [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cicd-api.md).
 
-For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cicd-spoke.md).
+For details on installing applications in a batch with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) application, see [Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cicd-spoke.md).
 
 **Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
 

@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Export the portfolio plan status to Microsoft PowerPoint from Strategic Planning 
+\[Omitted video\] Description: Export the portfolio plan status to Microsoft PowerPoint from Strategic Planning
 
 The following three PowerPoint templates are provided by default to generate a status report for your portfolio plan:
 
@@ -42,15 +42,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d53370e155">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d281238e155">
 
 For exporting this data
 
-</th><th align="left" id="d53370e158">
+</th><th align="left" id="d281238e158">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d53370e164">
+</th></tr></thead><tbody><tr><td id="d281238e164">
 
 **Portfolio plan, goals, or roadmap with default settings**
 
@@ -67,7 +67,7 @@ Perform these steps
 
 **Note:** The **Roadmap Template - default** option appears only when you select **Export to PowerPoint** from the Scoring or Planning page.
 
-</td></tr><tr><td id="d53370e229">
+</td></tr><tr><td id="d281238e229">
 
 **Roadmap or free-form roadmap with customized settings**
 

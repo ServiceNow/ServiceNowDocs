@@ -26,7 +26,7 @@ Check your custom table entitlements before creating custom tables. See [Managin
 
 ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
-**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-applications.md). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
+**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
 
 ## Procedure
 
@@ -200,7 +200,7 @@ Indicate whether this field is the [Display values](https://raw.githubuserconten
 
 6.  In the **Application Access** section, define the scope protection for the table.
 
-    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationAccessSettings.md).
+    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
 
 <table id="table_xwp_pny_wt"><thead><tr><th>
 

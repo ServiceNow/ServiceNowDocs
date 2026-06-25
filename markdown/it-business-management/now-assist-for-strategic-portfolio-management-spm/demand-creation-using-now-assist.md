@@ -19,7 +19,7 @@ Use the conversational experience of Now Assist in Virtual Agent to create a dem
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Ensure that the following tasks are completed:
 
@@ -30,7 +30,7 @@ Role required: none
 
 ## About this task
 
-Creating demands using Now Assist 
+\[Omitted video\] Description: Creating demands using Now Assist
 
 In the application that supports Virtual Agent, for example Employee Service Center, start with a prompt to create a demand in the chat. Through a series of questions, Virtual Agent prompts you to provide information for the questions that you configured for a catalog item. Now Assist in Virtual Agent understands the context and maps the information that you provide in response to a question to an appropriate catalog item, in this case, a demand.
 

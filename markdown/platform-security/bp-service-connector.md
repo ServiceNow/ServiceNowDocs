@@ -154,7 +154,7 @@ Flow Designer
 </td><td>
 
 When process design is the goal-   Used for automating processes in a single design environment. Process owners can use natural language to automate approvals, tasks, notifications, and record operations without coding.
--   To learn more, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md)
+-   To learn more, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
 </td></tr></tbody>
 </table>Learn more about the [Service Connector proof of concept](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817720) on the ServiceNow Knowledge site.

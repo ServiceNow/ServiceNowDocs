@@ -13,7 +13,7 @@ reading_time_minutes: 7
 
 Strategically align work with business goals to deliver products and services. ServiceNow® Strategic Portfolio Management \(SPM\), enables digital transformation by helping you can plan, deliver, and track value across different methodologies and drive customer value faster.
 
-Strategic Portfolio Management overview 
+\[Omitted video\] Description: Strategic Portfolio Management overview
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 

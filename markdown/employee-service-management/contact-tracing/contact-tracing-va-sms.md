@@ -27,7 +27,7 @@ Organizations can use the Exposure conversation topic and Exposure Case Task Sur
 **Note:** To complete the customization, you must apply any changes to both the Exposure conversation topic in **Virtual Agent** &gt; **Designer** and the Exposure Case Task Survey in **Survey** &gt; **View Surveys**. Applying changes to only the conversation topic or the survey will not update both the topic and survey.
 
 -   For more information on updating conversation topics, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
--   For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).
+-   For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
 ## Installation and setup requirements
 
@@ -89,7 +89,7 @@ Enable the **sn\_imt\_tracing.enable\_sms\_exposure\_survey** property so that E
 
     2.  Update the Exposure Case Task Survey in **Survey** &gt; **View Surveys**.
 
-        For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).
+        For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
 
     To complete the customization, you must apply any changes to both the Exposure conversation topic in **Virtual Agent** &gt; **Designer** and the Exposure Case Task Survey in **Survey** &gt; **View Surveys**. Applying changes to only the conversation topic or the survey will not update both the topic and survey.
 

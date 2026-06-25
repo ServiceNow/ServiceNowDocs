@@ -123,5 +123,5 @@ After plugin activation, resume all paused workflows. Refer to [Pause and resume
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/list-of-plugins.md)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

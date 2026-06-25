@@ -16,7 +16,7 @@ breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Plann
 
 Create goals for your portfolio plans, set targets for them, and evaluate the progress of the goals and targets in Strategic Planning Workspace to accomplish your organizational plans and drive business outcomes.
 
-Managing goals in Strategic Planning. 
+\[Omitted video\] Description: Managing goals in Strategic Planning.
 
 The Goals view in the Strategic Planning Workspace gives you an overview of your goals and their targets with the Dashboard, List, and Hierarchy tabs. The Dashboard tab \(formerly known as the Overview tab\) provides a summary of all your goals in a particular portfolio plan. The List tab helps you view, create, and manage your goals and targets of the particular portfolio level. The Hierarchy tab helps you view the goals and targets of the portfolio plan entities in a hierarchical manner. This tab also helps you view the goals of the parent entities \(of the portfolio plan entities\) along with the goals and targets of the current portfolio plan.
 

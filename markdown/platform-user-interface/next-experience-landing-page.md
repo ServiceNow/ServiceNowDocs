@@ -1,0 +1,98 @@
+---
+title: Next Experience UI
+description: The Next Experience UI delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. The UI unifies your instance apps and reduces clicks to access the items you need to get working.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-landing-page.html
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Configure UIs and portals, Configure user experiences]
+---
+
+# Next Experience UI
+
+The Next Experience UI delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. The UI unifies your instance apps and reduces clicks to access the items you need to get working.
+
+## Get started
+
+<table id="table_b5z_nd3_2bc" class="nav-card"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Next Experience concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui.md)
+
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+
+</td><td>
+
+[Migrate \[Omitted image "bus-it-leader.svg"\] Alt text: Administer navigation card Migrate to Next Experience UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md)
+
+</td></tr><tr><td>
+
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Next Experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-use.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Benefits
+
+New features and benefits when working in the Next Experience:
+
+-   **Unified Navigation**
+
+    \[Omitted video\] Description: Unified Navigation in Next Experience
+
+    -   Access app shell items—such as the contextual app pill, menu items, notifications, and search—all in one place across the entire platform, no matter which application you're using.
+    -   Pin and unpin navigation menus to access menu items or free up screen real estate.
+    -   Find your favorite pages quickly by organizing your favorites into folders.
+-   **Additional menus**
+
+    \[Omitted video\] Description: Additional Menus in Next Experience
+
+    -   Navigate to and save important resources with the Favorites, History, and Workspaces menus. Find your recently-viewed items in a single menu.
+    -   Easily switch between classic environment applications and configurable workspaces.
+    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-custom-menu.md).
+-   **Next Experience landing pages**
+    -   Start your day with everything you need right when you log in.
+    -   View content specific to your role and tasks all in one location.
+    -   Designate a start page for your users, or allow them to choose their own.
+
+## Functionality not supported
+
+**Important:**
+
+Connect Chat is not available in Next Experience. Starting with Australia, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
+
+Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
+
+These features and products are not currently supported with Next Experience:
+
+-   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
+-   [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) is not supported.
+-   The JavaScript console log isn't supported in the Next Experience framework.
+-   ATF doesn't support these elements of Next Experience, but support for these features is planned for future releases:
+
+    -   Pages built with UI Builder, including pages with lists and form components.
+    -   Configurable Workspaces
+    -   Landing pages
+    **Note:** ATF still supports the Core UI, including Classic Environment \(such as classic lists and forms\).
+
+
+For more information, see:
+
+-   [KB1156736 – Moving from Connect Chat to AWA and Agent Chat](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1156736)
+-   [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615)
+-   [KB1157068 – Live Feed Is Not Supported in Next Experience](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1157068)
+
+## Learn more
+
+-   View Next Experience articles on the community at the [Next Experience Center of Excellence](https://community.servicenow.com/community?id=community_article&sys_id=70e78f831bebac100b8a9979b04bcb68).
+-   Review answers to common questions on the community. See [Getting Started with Next Experience UI FAQs](https://community.servicenow.com/community?id=community_article&sys_id=c96ec69c1b930510acdc54e56b4bcb5c).
+

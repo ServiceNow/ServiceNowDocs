@@ -25,7 +25,7 @@ The Patient \[sn\_hcls\_patient\] table stores the details of a patient in your 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_rkd_g4t_mpb"><thead><tr><th>
 
@@ -283,7 +283,7 @@ Alpha-numeric profile identifier of the patient.
 
  The value is auto-generated and is incremented every time you add a new patient to an instance. The initial value for the **Number** field is PAT00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Patient \[sn\_hcls\_patient\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Patient \[sn\_hcls\_patient\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

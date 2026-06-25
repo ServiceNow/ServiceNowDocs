@@ -16,7 +16,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_bom.admin
 

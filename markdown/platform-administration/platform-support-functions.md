@@ -454,7 +454,7 @@ For example, the following function definition creates a field that shows the sh
 
 `glidefunction:concat(short_description, ' ', caller_id.name)`
 
-**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_DotWalking.md).
+**Note:** Function parameters support dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -465,7 +465,7 @@ For example, the following function definition creates a field that shows the sh
 
 7.  Add the function field to the list.
 
-    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_UseSlushbuckets.md).
+    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md).
 
 
 ### Result

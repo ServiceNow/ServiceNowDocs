@@ -84,7 +84,7 @@ Geo map component
 
 Provides access to enable the map component in the Health and Safety Workspace from the application properties.
 
- To install, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md)
+ To install, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)
 
 </td></tr><tr><td>
 

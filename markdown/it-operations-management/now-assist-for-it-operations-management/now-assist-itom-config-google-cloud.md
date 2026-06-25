@@ -21,7 +21,7 @@ Configure the Google Gemini Cloud Assist agent to use the Gemini Cloud Assistant
 
 Before configuring the Google Gemini Cloud Assist agent, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/gcp-events-integration.md)
 -   Download the JSON private key file from your Google Cloud project and gather the following credentials: Google project ID, service account email, and private key ID.
 -   Create a keystore file and password by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-google-translator.md).

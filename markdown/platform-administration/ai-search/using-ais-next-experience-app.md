@@ -126,7 +126,7 @@ To see this enhanced chat entry point behavior, your instance must satisfy all o
 
 -   [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) is installed.
 -   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md) is installed.
--   Enhanced chat is activated via the Now Assist panel. For details on activating enhanced chat, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-enhanced-activate.md).
+-   Enhanced chat is activated via the Now Assist panel. For details on activating enhanced chat, see [Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md).
 
 If these conditions aren't satisfied, the search field in global and workspace search doesn't display the icon and placeholder text or show Now Assist suggestions.
 

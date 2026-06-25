@@ -46,15 +46,15 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
 4.  To revise or request cancellation of the service order, perform one of the following actions.
 
-<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d40810e179">
+<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d46010e179">
 
 Action
 
-</th><th align="left" id="d40810e182">
+</th><th align="left" id="d46010e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40810e188">
+</th></tr></thead><tbody><tr><td id="d46010e188">
 
 **Revise a customer or service order**
 
@@ -73,7 +73,7 @@ When you revise an order, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d40810e252">
+</td></tr><tr><td id="d46010e252">
 
 **Revise a customer or service order line item**
 
@@ -93,7 +93,7 @@ When you revise an order line item, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d40810e322">
+</td></tr><tr><td id="d46010e322">
 
 **Request cancellation of an entire customer or service order**
 
@@ -111,7 +111,7 @@ When you request an order cancellation, the following actions take place:
 -   Notification messages appear if there are any conditions that are preventing cancellation of the order. A designated manager must approve the order cancellation.
 **Note:** To cancel an individual order line item, in the Order Line Item form, change the **State** field to Assess Cancellation.
 
-</td></tr><tr><td id="d40810e389">
+</td></tr><tr><td id="d46010e389">
 
 **Request cancellation of individual customer or service order line items**
 

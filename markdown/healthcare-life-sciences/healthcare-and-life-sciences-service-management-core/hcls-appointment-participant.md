@@ -23,7 +23,7 @@ The Appointment participant \[sn\_hcls\_appointment\_participant\] table stores 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 

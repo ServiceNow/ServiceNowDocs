@@ -16,7 +16,7 @@ Add more tables to the Query Generation semantic layer so that users can use Now
 
 ## Before you begin
 
-Adding a table to the semantic data layer 
+\[Omitted video\] Description: Adding a table to the semantic data layer
 
 Semantic table configuration supports regular tables, database views, and Workflow Data Fabric tables.
 

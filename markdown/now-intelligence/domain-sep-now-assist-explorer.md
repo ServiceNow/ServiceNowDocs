@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview of domain separation in AI Data Explorer
 
-The goal of AI Data Explorer is to provide shared spaces, called "[explorations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)," where collaborators can ask for and discuss AI-generated data visualizations with summaries. The AI also suggests follow-up questions. AI Data Explorer shows data only from domains that collaborators can access.
+The goal of AI Data Explorer is to provide shared spaces, called "[explorations]()," where collaborators can ask for and discuss AI-generated data visualizations with summaries. The AI also suggests follow-up questions. AI Data Explorer shows data only from domains that collaborators can access.
 
 ## How domain separation works in AI Data Explorer
 

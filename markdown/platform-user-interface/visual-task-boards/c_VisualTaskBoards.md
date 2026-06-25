@@ -18,7 +18,7 @@ Visual Task Boards \(VTB\) transform the navigation of lists and forms into an i
 
 ## Visual Task Boards Overview
 
-Overview of Visual Task Boards 
+\[Omitted video\] Description: Overview of Visual Task Boards
 
 **Note:** Core UI or Next Experience is required to use Visual Task Boards.
 

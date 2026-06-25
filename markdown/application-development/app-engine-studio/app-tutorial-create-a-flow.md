@@ -53,7 +53,7 @@ Phase 2
 
 Use the following tutorial to create a flow for the employee travel request application.
 
-Add logic and automation to your application. 
+\[Omitted video\] Description: Add logic and automation to your application.
 
 |Timestamp|Section|
 |---------|-------|

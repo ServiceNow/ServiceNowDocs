@@ -16,7 +16,7 @@ breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 
 The ServiceNow®Smart Assessment Engine \(SAE\) helps you reduce the manual burden and costs of your assessment processes through automation.
 
-Smart Assessmemnt Engine Overview 
+\[Omitted video\] Description: Smart Assessmemnt Engine Overview
 
 ## Smart Assessment Engine
 

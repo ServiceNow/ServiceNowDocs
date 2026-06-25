@@ -24,7 +24,7 @@ Role required: sn\_hs\_rm.risk\_manager or sn\_hs\_rm.risk\_data\_manager
 
 This video shows an example of how to set up a 3x3 risk matrix and explains its application in assessing risk levels during a risk assessment.
 
-Risk matrix configuration video. Approximately one minutes thirty four seconds long. 
+\[Omitted video\] Description: Risk matrix configuration video. Approximately one minutes thirty four seconds long.
 
 The pre-defined risk matrixes can be used by safety team members to create and conduct risk assessments in the Health and Safety Workspace. The selected matrix is used by the risk assessment to evaluate the level of risk. For more information, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
 

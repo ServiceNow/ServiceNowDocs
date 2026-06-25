@@ -22,9 +22,9 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-This video explains what Virtual Agent is and includes an example demonstration that shows how you can help your users address many common issues without an agent. 
+\[Omitted video\] Description: This video explains what Virtual Agent is and includes an example demonstration that shows how you can help your users address many common issues without an agent.
 
 ## Get started with ServiceNow AI Platform Virtual Agent
 
@@ -73,7 +73,7 @@ To explore Virtual Agent for IT Service Management, Customer Service Management,
 
 <table id="table_wlx_qdm_v4b" class="nav-card"><tbody><tr><td>
 
-Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.
+[Virtual Agent for IT Service Management \[Omitted image "bus-optimize-manage.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common IT-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -81,23 +81,23 @@ Virtual Agent for Customer Service Management \[Omitted image "bus-customer-serv
 
 </td><td>
 
-Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.
+[Virtual Agent for HR Service Delivery \[Omitted image "bus-partnering.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common HR-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-virtual-agent-conversations.md)
 
 </td><td>
 
-Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.
+[Virtual Agent for Workplace Service Delivery\[Omitted image "bus-meetings.svg"\] Alt text: Predefined Virtual Agent topics to help your employees complete common workplace-related tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/va-conversations-wsd.md)
 
 </td></tr><tr><td>
 
-Virtual Agent for Field Service Management \[Omitted image "bus-field-service-technician.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common field service management tasks.
+[Virtual Agent for Field Service Management \[Omitted image "bus-field-service-technician.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common field service management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/virtual-agent-fsm.md)
 
 </td><td>
 
-Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.
+[Virtual Agent for Project Portfolio Management \[Omitted image "bus-project.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common Project Portfolio Management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-va-overview.md)
 
 </td><td>
 
-Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.
+[Virtual Agent for Legal Service Delivery \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Predefined Virtual Agent topics to help your customers complete common legal-service tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md)
 
 </td><td>
 

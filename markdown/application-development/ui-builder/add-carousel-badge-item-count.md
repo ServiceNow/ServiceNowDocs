@@ -44,7 +44,7 @@ Carousel
 -   [UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/sn-carousel/uib-setup%23properties)
 
 </td></tr></tbody>
-</table>Add Carousel badge item count 
+</table>\[Omitted video\] Description: Add Carousel badge item count
 
 ## Procedure
 

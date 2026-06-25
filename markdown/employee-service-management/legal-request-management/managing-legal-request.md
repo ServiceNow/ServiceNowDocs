@@ -26,7 +26,7 @@ When a requester creates a legal request under the incorrect Practice Area and C
 
 Use the Legal Counsel Center to work on legal requests assigned to you.
 
--   **[Assign a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Assign a legal request]()**  
 Assign a legal request to yourself or to someone in your assignment group.
 -   **[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)**  
 Work on legal requests assigned to youor as a collaboratorto resolve issues or answer queries.

@@ -153,7 +153,7 @@ Data Condition
 
 </td><td>
 
-Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
+Use this [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
 
 </td></tr></tbody>
 </table>6.  If the **Advanced** box is checked, fill in the **Advanced Conditions** fields as necessary.

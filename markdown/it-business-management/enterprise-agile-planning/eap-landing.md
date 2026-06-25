@@ -16,7 +16,7 @@ breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 
 ServiceNow® Enterprise Agile Planning helps streamline communication and collaboration between teams, and drive coordination with diverse teams. Using an intuitive workspace, scale your Agile framework across the organization with flexible work and team structure configurations.
 
-Enterprise Agile Planning overview. Approximately five minutes long. 
+\[Omitted video\] Description: Enterprise Agile Planning overview. Approximately five minutes long.
 
 Enterprise Agile Planning \(EAP\) is available when you install the Strategic Planning application from ServiceNow Store using the SPM Pro license.
 

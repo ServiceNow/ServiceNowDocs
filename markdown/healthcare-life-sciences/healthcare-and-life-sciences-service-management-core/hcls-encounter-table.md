@@ -23,7 +23,7 @@ The Encounter \[sn\_hcls\_encounter\] table stores the information about an inte
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 
@@ -125,7 +125,7 @@ Alpha-numeric profile identifier of the encounter.
 
  The value is auto-generated and is incremented every time you add a new encounter to your ServiceNow instance. The initial value for the **Number** field is ENC00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Encounter \[sn\_hcls\_encounter\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Encounter \[sn\_hcls\_encounter\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 

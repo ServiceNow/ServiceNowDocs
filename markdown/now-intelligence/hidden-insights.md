@@ -14,7 +14,7 @@ breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, N
 
 Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 
-[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) involves aggregating the records related to a response in an [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
+[Extended analysis]() involves aggregating the records related to a response in an [exploration](). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
 
 The number of columns that extended analysis examines is set in the system property **sn\_query\_gen.hidden\_insights.groupby.min\_fields**. The default value is 5. If the number of eligible columns that are visible on the record list is lower than this value, the system searches for more fields on the table. The search stops when the total number of fields from both the list view and the table search reaches the value of the system property. If the system can’t find that many fields, it uses the fields it does find.
 

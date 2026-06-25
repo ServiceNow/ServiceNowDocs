@@ -32,7 +32,7 @@ The RCA record should have the following values set:
 |Application|Vaccination Status|
 |Target Type|Scope|
 
-For more information on creating caller access records, see [Set application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/scope-resource-access.md).
+For more information on creating caller access records, see [Set application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md).
 
 ## Configuration
 

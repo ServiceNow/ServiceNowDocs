@@ -61,15 +61,15 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d39954e241">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d51769e241">
 
 Page
 
-</th><th align="left" id="d39954e244">
+</th><th align="left" id="d51769e244">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d39954e250">
+</th></tr></thead><tbody><tr><td id="d51769e250">
 
 **Manager \(Grid view\)**
 
@@ -77,7 +77,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d39954e262">
+</td></tr><tr><td id="d51769e262">
 
 **Manager \(List view\)**
 
@@ -85,7 +85,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d39954e276">
+</td></tr><tr><td id="d51769e276">
 
 **Editor**
 

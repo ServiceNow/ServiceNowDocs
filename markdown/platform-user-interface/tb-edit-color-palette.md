@@ -23,7 +23,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 You can also watch a short video on how to create an alternate color palette.
 
-Create an alternate color palette 
+\[Omitted video\] Description: Create an alternate color palette
 
 ## Procedure
 

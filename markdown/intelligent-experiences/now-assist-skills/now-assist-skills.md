@@ -19,7 +19,7 @@ Now Assist products provide generative AI skills that are tailored to meet the n
 
 The following sections describe the available Now Assist skills.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
@@ -86,14 +86,14 @@ Technology
 
 </td><td>
 
-[Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-landing.md)
+Now Assist for Collaborative Work Management \(CWM\)
 
 </td><td>
 
--   [Acceptance criteria generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-acceptance-criteria-for-stories-in-cwm.md)
--   [Docs summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-doc-now-assist-cwm.md)
--   [Doc generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)
--   [Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)
+-   Acceptance criteria generation
+-   Docs summarization
+-   Doc generation
+-   Task generation
 
 </td></tr><tr><td>
 
@@ -132,13 +132,13 @@ Technology
 
 </td><td>
 
--   [ADR DOC summarization and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)
--   [Business application insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)
--   [Create diagram from image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
--   [Diagram change analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/compare-modeling-diagrams.md)
--   [Refine text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)
--   [Register a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/register-business-application-using-conversational-experience.md)
--   [Register a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/register-digital-integration-using-conv-exp.md)
+-   ADR DOC summarization and actions
+-   Business application insights
+-   Create diagram from image
+-   Diagram change analysis
+-   Refine text
+-   Register a business application
+-   Register a digital integration
 
 </td></tr><tr><td>
 
@@ -146,11 +146,11 @@ Technology
 
 </td><td>
 
-[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)
+Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
 
 </td><td>
 
-[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/extract-data-from-utility-invoices.md)
+
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Technology
 
 </td><td>
 
--   [Generate hardware asset insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)
+-   Generate hardware asset insights
 
 </td></tr><tr><td>
 
@@ -174,20 +174,20 @@ Technology
 
 </td><td>
 
--   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)
--   [Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)
--   [Generate recommendation for similar control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-recommendation-for-a-new-control-objective.md)
--   [Issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/summarize-an-issue.md)
--   [Recommendations for regulatory alert impacted areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-recommendation-for-a-new-control-objective.md)
--   [Regulatory alert summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Risk assessment summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)
--   [Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-risk-event-summary-in-the-risk-workspace.md)
--   [Risk event summarization in the classic UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-a-risk-event-summary.md)
+-   Common control objective creation
+-   Control objective impact analyzer
+-   
+-   Issue summarization
+-   Recommendations for regulatory alert impacted areas
+-   Recommendation of similar control objectives
+-   Regulatory alert summarization
+-   Regulatory alert impacted citations
+-   Regulatory alert impacted control objectives
+-   Regulatory alert impacted controls
+-   Regulatory alert impacted policies
+-   Risk assessment summarization
+-   Risk event summarization
+-   Risk event summarization in the classic UI
 
 
 </td></tr><tr><td>
@@ -214,30 +214,30 @@ Technology
 
 </td><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)
+
 
 </td><td>
 
--   [Catalog task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-risk-exp-now-assist.md)
--   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/summarize-change-now-assist.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-email-recommendation.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist.md)
--   [Incident sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sentiment-analysis-now-assist-itsm.md)
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/summarize-incident-now-assist.md)
--   [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)
--   [Investigate Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
--   [Release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-dpr-generate-release-notes.md)
--   [Request activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Requested item activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Requested item summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolve-incident-now-assist.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
--   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)
+-   Catalog task summarization
+-   Change request risk explanation
+-   Change request summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Email recommendation
+-   Incident assist
+-   Incident sentiment analysis
+-   Incident summarization
+-   Investigate boot time issues
+-   Investigate Zoom call quality issues
+-   KB generation
+-   Release notes generation
+-   Request activity response generation
+-   Request summarization
+-   Requested item activity response generation
+-   Requested item summarization
+-   Resolution notes generation
+-   Sidebar discussion summarization
+-   Suggested steps generation
 
 </td></tr><tr><td>
 
@@ -270,14 +270,14 @@ Technology
 
 </td><td>
 
-[Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-for-privacy-management.md)
+
 
 </td><td>
 
--   [Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)
--   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md)
--   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-generate-recommendation-for-a-new-control-objective.md)
--   [Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-generate-risk-assessment-summary.md)
+-   Control objective impact analyzer
+-   Common control objective creation
+-   Recommendation of similar control objectives
+-   Risk assessment summary
 
 </td></tr><tr><td>
 
@@ -309,15 +309,15 @@ Technology
 
 </td><td>
 
--   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
--   [Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/summarize-publisher-compliance-now-assist-sam.md)
--   [Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md)
--   [Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)
--   [Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/recommended-actions-now-assist-sam.md)
--   [Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)
--   [SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/automate-userresolution-saas-now-assist-sam.md)
+-   Contract entitlement data extraction
+-   Error log summarization
+-   Error resolution recommendation
+-   Publisher compliance summarization
+-   Product compliance summarization
+-   Product match reviewer
+-   Recommended actions
+-   Software normalization
+-   SaaS user resolution
 
 </td></tr><tr><td>
 
@@ -329,19 +329,19 @@ Technology
 
 </td><td>
 
--   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-creation-using-now-assist.md)
--   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)
--   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/identify-similar-demand-records.md)
--   [Demand summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-summarization-skill.md)
--   [Goal insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-insights-for-goal.md)
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/feedback-summary-sentiment-topics.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-documents-genai-skill-spw.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-doc-content-genai-skill-pw.md)
--   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/email-project-summary-skill-pw.md)
--   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
--   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-targets-for-goal.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+-   Create a demand
+-   EAP doc summarization
+-   Identify similar records
+-   Demand summarization
+-   Goal insights
+-   Multi feedback summarization
+-   Planning item doc summarization
+-   Project doc summarization
+-   Project insights generation
+-   Refine records
+-   Story generation
+-   Target generation
+-   Write planning item
 
 </td></tr><tr><td>
 
@@ -353,8 +353,8 @@ Technology
 
 </td><td>
 
--   [TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-summary-of-issue.md)
--   [TPRM issue management recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-tprm-issue.md)
+-   TPRM issue summarization
+-   TPRM issue management recommendation
 
 </td></tr><tr><td>
 
@@ -395,22 +395,22 @@ Customer
 
 </td><td>
 
--   [Activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-a-recommendation-to-respond-to-an-activity.md)
--   [Automated quality assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quality-assurance-management.md)
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-case.md)
--   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-chat-reply-recommendations.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
--   [Customer summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-summarization-in-now-assist-for-csm.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-email-reply-recommendations.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-generate-resolution.md)
--   [Sentiment analysis case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)
--   [Sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-sentiment-analysis-dashboard.md)
--   [Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sentiment-analysis-interaction.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/summarize-sidebar-conversations.md)
--   [Special handling notes summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-special-handling-notes-summarization-in-now-assist-for-csm.md)
--   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)
--   [Trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-trending-topics-dashboard.md)
+-   Activity response generation
+-   Automated quality assurance
+-   Case summarization
+-   Chat recommendation
+-   Chat summarization
+-   Customer summarization
+-   Email recommendation
+-   KB generation
+-   Resolution notes generation
+-   Sentiment analysis case
+-   Sentiment analysis dashboard
+-   Sentiment analysis for email interactions
+-   Sidebar summarization
+-   Special handling notes summarization
+-   Suggested steps generation
+-   Trending topics dashboard
 
 </td></tr><tr><td>
 
@@ -422,9 +422,9 @@ Customer
 
 </td><td>
 
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/na-fsm-generate-kb-article.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/generate-wot-summ-fsm.md)
+-   KB generation
+-   Sidebar summarization
+-   Work order task summarization
 
 </td></tr><tr><td>
 
@@ -436,12 +436,12 @@ Customer
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-case-using-now-assist-fso.md)
--   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/submit-dispute-case-disputes-intake-via-virtual-agent.md)
--   [Customer profile summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-customer-profile-fso.md)
--   [Customer interaction context summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-customer-context-fso.md)
--   [Insurance customer profile summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-profile.md)
--   [Insurance interaction context summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md)
+-   Case summarization
+-   Disputes intake via Virtual Agent
+-   Customer profile summarization
+-   Customer interaction context summary
+-   Insurance customer profile summarization
+-   Insurance interaction context summary
 
 </td></tr><tr><td>
 
@@ -477,8 +477,8 @@ Customer
 
 </td><td>
 
--   [Government case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-summarize-case.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-summarize-chat.md)
+-   Government case summarization
+-   Chat summarization
 
 </td></tr><tr><td>
 
@@ -522,13 +522,13 @@ Employee
 
 </td><td>
 
-[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assisit-employee-exp.md)
+
 
 </td><td>
 
--   [Requested item summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)
--   [Request summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)
--   [Case summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)
+-   Requested item summarization for approvals
+-   Request summarization for approvals
+-   Case summarization for approvals
 
 </td></tr><tr><td>
 
@@ -540,8 +540,8 @@ Employee
 
 </td><td>
 
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)
--   [H&amp;S Action Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md)
+-   Incident summarization
+-   H&amp;S Action Planner
 
 </td></tr><tr><td>
 
@@ -553,16 +553,16 @@ Employee
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd-summarize-case.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/chat-recommendations-nahr.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd-chat.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/email-recommendation-nahr.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/gen-kb-now-assisthr.md)
--   [Employee information summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-summary-lh.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd-res-note.md)
--   [Sentiment analysis for HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/analyze-sentiments-now-assist.md)
--   [Sentiment analysis for HR task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/tcase-now-assist-hr.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sidebar-discussion-nahr.md)
+-   Case summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Email recommendation
+-   KB generation
+-   Employee information summarization
+-   Resolution notes generation
+-   Sentiment analysis for HR case
+-   Sentiment analysis for HR task
+-   Sidebar discussion summarization
 
 </td></tr><tr><td>
 
@@ -574,12 +574,12 @@ Employee
 
 </td><td>
 
--   [Conversational intake for Conflict of Interest request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-config-converse-intake.md)
--   [Get category of the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/trans-legal-request-agent.md)
--   [Legal matter summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
--   [Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
--   [Triage legal request AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/trans-legal-request-agent.md)
--   [Triage legal request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/trans-legal-request-agent.md)
+-   Conversational intake for Conflict of Interest request
+-   Get category of the legal request
+-   Legal matter summarization
+-   Legal request summarization
+-   Triage legal request AI Search
+-   Triage legal request capability
 
 </td></tr><tr><td>
 
@@ -591,11 +591,11 @@ Employee
 
 </td><td>
 
--   [Contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-NA-review-land.md)
--   [Contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-extract-land.md)
--   [Contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
--   [Contracts query classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-conf-converse-skill.md)
--   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-conf-converse-skill.md)
+-   Contract analysis
+-   Contract metadata extraction
+-   Contract obligation extraction
+-   Contracts query classifier
+-   Conversational contract search and insights
 
 </td></tr><tr><td>
 
@@ -607,8 +607,8 @@ Employee
 
 </td><td>
 
--   [Reserve Space Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-reserve-a-space-now-assist-va.md)
--   [Workplace Case Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/summarize-workplace-case.md)
+-   Reserve Space Virtual Agent topic
+-   Workplace Case Summarization
 
 </td></tr><tr><td>
 
@@ -616,34 +616,34 @@ Creator
 
 </td><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md)
+
 
 </td><td>
 
--   [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-using-landing.md)
--   [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md)
+-   App generation
+-   
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)
--   [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/summarize-an-app-in-servicenow-studio.md)
--   [Summarize a client script using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/client-script-summarization-generation.md)
--   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
--   [Code Assist edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/edit-code-now-assist.md)
--   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
--   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-scripts-from-text.md)
--   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-an-event-handler-with-now-assist.md)
--   [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-ui.md)
--   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-generation-landing.md)
--   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-generation-with-images-landing.md)
--   [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-recommendations-landing.md)
--   [Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-summarization-landing.md)
+-   App summary generation
+-   
+-   Code Assist autocomplete
+-   Code Assist edit
+-   Code assist summarization
+-   Code Assist generation
+-   Event handler generation
+-   
+-   
+-   
+-   
+-   
 -   Mobile card generation
--   [Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-a-playbook-outline.md)
--   [Playbook generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-a-playbook-outline.md)
--   [Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-playbook-recommendations.md)
--   [Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-summarization.md)
+-   Playbook generation
+-   Playbook generation with images
+-   Playbook recommendations
+-   Playbook summarization
 -   [Process inefficiency highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/generate-highlights.md)
--   [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
--   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-spk-now-spk-gen.md)
--   [Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tg-implement.md)
+-   
+-   Spoke generation
+-   Test generation
 -   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/run-worknotes-analysis.md)
 
 </td></tr><tr><td>
@@ -659,7 +659,7 @@ Platform
 -   [Article optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-article-optimization.md)
 -   [Complete record generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
 -   [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md)
--   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/generate-document-summary-now-assist.md)
+-   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
 -   [Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dynamic-guidance.md)
 -   [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)
 -   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md)
@@ -759,11 +759,11 @@ App Engine
 
 </td><td>
 
-[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+
 
 </td><td>
 
-[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)
+Custom app record summarization
 
 </td></tr><tr><td>
 
@@ -800,12 +800,12 @@ Other
 
 </td><td>
 
-[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+
 
 </td><td>
 
--   [ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)
--   [ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-data-query.md)
+-   ERP data discovery
+-   ERP data query
 
 </td></tr></tbody>
 </table>

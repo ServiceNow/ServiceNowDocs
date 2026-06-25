@@ -42,7 +42,7 @@ Check the status of your IT tickets and support cases.
 -   status = Allowed
 -   source = Script Include: ITSMTopicsHelper
 
-See [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/requested-rca.md) for more information.
+See [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/requested-rca.md) for more information.
 
 </td></tr><tr><td>
 

@@ -18,13 +18,13 @@ Learn about the different types of reports that you can create, and when and how
 
 Watch this four-minute video to learn how to create and configure a report visualization.
 
-How to create, style, and share reports in Core UI 
+\[Omitted video\] Description: How to create, style, and share reports in Core UI
 
 You can generate the following types of reports, organized by category:
 
 -   [Bar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) enable you to compare scores across data dimensions.
 -   [Pie and Donut reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize the relationship between the parts and the whole of a data set using a single round shape.
--   [Time Series reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize data over time. In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series reports. For more information, see [MetricBase application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md).
+-   [Time Series reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize data over time. In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series reports. For more information, see MetricBase application.
 -   [Multidimensional reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize data across dimensions in a single table or graph.
 -   [Scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize single data points either across ranges or as a single value.
 -   [Statistical reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) visualize data with statistical values such as medians and means.

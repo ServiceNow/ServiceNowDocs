@@ -53,7 +53,7 @@ Generate summary from the work order task record.
 
 Role required: wm\_agent
 
-This video demonstrates how to summarize a record directly from a work order task record 
+\[Omitted video\] Description: This video demonstrates how to summarize a record directly from a work order task record
 
 ### Procedure
 

@@ -18,7 +18,7 @@ You can attach a process with defined conditions to the Change model states to e
 
 This process can be done by using one of the following methods:
 
--   ServiceNow® Workflow Studio: See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md)
+-   ServiceNow® Workflow Studio: See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 -   Business Rules: See [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
 
 Change flows for default Change models are available in Workflow Studio. For more information on default Change flows, see [Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-flows.md).

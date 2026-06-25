@@ -23,5 +23,5 @@ Several types of components are installed with the activation of the Human Resou
 -   **[Components installed with Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/components-installed-with-enterprise-onboarding-and-transitions.md)**  
 Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 
-**Parent Topic:**[Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Lifecycle Events]()
 

@@ -23,7 +23,7 @@ The Source system \[sn\_hcls\_source\_system\] table stores the source and desti
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_mbn_w11_ftb"><thead><tr><th>
 

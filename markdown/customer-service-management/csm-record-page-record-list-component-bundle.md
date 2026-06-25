@@ -55,7 +55,7 @@ This example uses the Customer Service Case Types application, which includes mu
     -   Source Component = Record List Header
     -   Controller = List Controller
     -   Target Event = Open modal
-    For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-a-ux-add-on-event-mapping.md).
+    For more information, see [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md).
 
 6.  Select **Submit**.
 

@@ -29,7 +29,7 @@ Connections to vendors use MCP when possible, otherwise they use an API connecti
 
 Before configuring the integration agents, you must do the following:
 
--   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+-   [Install Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate third-party alerts with Event Management](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2113973).
 -   Copy the connection requirements for the vendor as noted in the following tables. You will need these to create credentials and connections to the third-party vendor.
 

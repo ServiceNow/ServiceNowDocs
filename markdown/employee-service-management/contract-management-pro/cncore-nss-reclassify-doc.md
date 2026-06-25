@@ -41,5 +41,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use non-self-served contract request]()
 

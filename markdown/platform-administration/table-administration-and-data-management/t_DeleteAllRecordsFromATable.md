@@ -39,7 +39,7 @@ There are several methods for deleting table records. Depending on the number of
 
     2.  Select the table for which to delete records.
 
-        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/restricted-caller-access-privilege.md).
+        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md).
 
         \[Omitted image "tables\_and\_columns.png"\] Alt text: Tables and Columns
 

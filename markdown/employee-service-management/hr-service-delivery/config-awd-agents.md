@@ -44,7 +44,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 6.  Duplicate AI agents available for Workday to run them autonomously.
 
-    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-ai-agent.md).
+    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md).
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 

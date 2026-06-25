@@ -24,6 +24,6 @@ Role required: admin
     -   Now Assist in Conversational Catalog Request \(sn\_now\_assist\_cr\)
     -   Catalog Conversational CoverageApp id \(sn\_catalog\_con\_cov\)
 -   Confirm AI Search is enabled. For more information, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
--   Confirm the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+-   Confirm the Now Assist panel is turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Confirm Now Assist in Virtual Agent is configured. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 

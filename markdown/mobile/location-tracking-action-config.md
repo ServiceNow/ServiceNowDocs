@@ -16,7 +16,7 @@ Configure action-based tracking location properties. This tracking option starts
 
 ## Before you begin
 
-Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed.
 
@@ -43,15 +43,15 @@ Role required: admin
 
 5.  In the **Location tracking action** field, select one of the following options of the action item.
 
-<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d46564e154">
+<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d128849e154">
 
 Location tracking action
 
-</th><th align="left" id="d46564e157">
+</th><th align="left" id="d128849e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46564e163">
+</th></tr></thead><tbody><tr><td id="d128849e163">
 
 **None**
 
@@ -59,7 +59,7 @@ Description
 
 This option does not affect any location tracking functionality.
 
-</td></tr><tr><td id="d46564e172">
+</td></tr><tr><td id="d128849e172">
 
 **Stop**
 
@@ -67,7 +67,7 @@ This option does not affect any location tracking functionality.
 
 Ends a location tracking session.
 
-</td></tr><tr><td id="d46564e181">
+</td></tr><tr><td id="d128849e181">
 
 **Start**
 

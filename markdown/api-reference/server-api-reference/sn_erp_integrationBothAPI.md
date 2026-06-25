@@ -91,7 +91,7 @@ See also:
 
 |Name|Type|Description|
 |----|----|-----------|
-|encodedQuery|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).|
+|encodedQuery|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|

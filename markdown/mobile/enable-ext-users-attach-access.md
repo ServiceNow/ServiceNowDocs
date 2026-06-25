@@ -24,7 +24,7 @@ When you assign the snc\_external role to users who are external to your organiz
 
 You can use the mobile property **allow\_snc\_external\_attachment\_access** to remove restrictions on attachments for users assigned the snc\_external role. When the **allow\_snc\_external\_attachment\_access** mobile property is set `true`, external users can use the mobile offline mode and access attachments from the following components and locations:
 
--   [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_activity-streams.md)
+-   [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_activity-streams.md)
 -   [Legacy parameter screen \(UI parameters\), Quebec and earlier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md)
 -   [Input form screen \(sys\_sg\_parameter\_screen table\), Rome and later](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-input-screen.md)
 -   [Details screen using the Attachment list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-attachments.md)

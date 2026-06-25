@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 breadcrumb: [Integrating Now Assist in Virtual Agent with Microsoft Copilot, Use Now Assist in VA conversations with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ Use Now Assist plugins in Microsoft Copilot to connect with the Copilot by provi
 
 You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA support. In version 10.2 of the Microsoft Teams plugin, streaming is inactive by default and CEA is active by default.
 
-Demonstration of Now Assist and Microsoft Copilot capabilities.
+\[Omitted video\] Description: Demonstration of Now Assist and Microsoft Copilot capabilities.
 
 The Copilot integration doesn’t follow a conversational flow like the Virtual Agent. It uses a non-conversational flow and provides synchronous responses with Now Assist that are primarily built on AI Search. Therefore, any search term that you input is passed to AI Search and the results are returned from AI Search. You're then able to render the response and share it as a card in Message Extension.
 

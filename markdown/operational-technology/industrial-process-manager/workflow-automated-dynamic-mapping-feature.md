@@ -18,7 +18,7 @@ The Industrial Process Manager includes an automated flow for the automated mapp
 
 A predefined flows is included with this feature that you can use to schedule the assignment of OT devices to equipment model entities.
 
-By using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md), you can review and configure the predefined flow for your business needs.
+By using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md), you can review and configure the predefined flow for your business needs.
 
 ## Flow available for this feature
 

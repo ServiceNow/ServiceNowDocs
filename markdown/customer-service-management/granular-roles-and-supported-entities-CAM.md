@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/granular-roles-and-supported-entities-CAM.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Configure responsibility access, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

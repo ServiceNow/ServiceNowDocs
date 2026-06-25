@@ -21,11 +21,11 @@ As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 
 Microsoft Word add-in for ServiceNow Contracts will be installed when you install Contract Management Pro. You need to configure it to be available in the Microsoft Word as an add-in.
 
-The following video walks you through the process of configuring Microsoft Word add-in for ServiceNow Contracts on macOS.Video explaining the steps to configure Microsoft Word add-in for ServiceNow Contracts on macOS. 
+The following video walks you through the process of configuring Microsoft Word add-in for ServiceNow Contracts on macOS.\[Omitted video\] Description: Video explaining the steps to configure Microsoft Word add-in for ServiceNow Contracts on macOS.
 
 ## Before you begin
 
-Ensure that the Global application for the Content-Security-Policy response header is inactive and the Microsoft Word Add-in for ServiceNow Contracts application is active. For more information, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/configure-http-response-header.md).
+Ensure that the Global application for the Content-Security-Policy response header is inactive and the Microsoft Word Add-in for ServiceNow Contracts application is active. For more information, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-http-response-header.md).
 
 Role required: admin
 
@@ -64,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d71436e278">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d590287e278">
 
 System
 
-</th><th align="left" id="d71436e281">
+</th><th align="left" id="d590287e281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71436e287">
+</th></tr></thead><tbody><tr><td id="d590287e287">
 
 **macOS**
 
@@ -86,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d71436e352">
+</td></tr><tr><td id="d590287e352">
 
 **Windows**
 
@@ -103,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d71436e411">
+</td></tr><tr><td id="d590287e411">
 
 **Microsoft Word Online**
 

@@ -44,5 +44,5 @@ Follow these steps to ensure domain separation on reports if the MSP Extensions 
 **Related topics**  
 
 
-[Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md)
+[bundle-psec.t_ActivateDomainSeparation]
 

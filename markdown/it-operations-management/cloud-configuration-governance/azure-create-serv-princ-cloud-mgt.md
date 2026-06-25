@@ -175,5 +175,5 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 
 ## What to do next
 
-Cloud Provisioning and Governance only: Create a record of the service principal credentials on the ServiceNow instance so that Cloud Provisioning and Governance processes can access Microsoft Azure data. See [Store the Azure service principal credentials in the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Cloud Provisioning and Governance only: Create a record of the service principal credentials on the ServiceNow instance so that Cloud Provisioning and Governance processes can access Microsoft Azure data. See [Store the Azure service principal credentials in the instance]().
 

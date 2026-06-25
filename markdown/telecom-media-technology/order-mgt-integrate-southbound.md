@@ -27,7 +27,7 @@ Using this integration, a Communications Service Provider \(CSP\) can do the fol
 
 The integration process for Order Management with the external technical order management systems is as follows:
 
-1.  As the administrator, you activate the Service Order Open API to capture the service order from the customer orders. To learn more, see TMF641 Service Order Open API- POST.
+1.  As the administrator, you activate the Service Order Open API to capture the service order from the customer orders. To learn more, see [TMF641 Service Order Open API- POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
 2.  The integration now begins:
 
     1.  The order fulfillment manager selects the Create fulfillment request UI action in the domain order table.

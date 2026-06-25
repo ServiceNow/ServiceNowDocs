@@ -18,7 +18,7 @@ Employees can submit a complaint to report an incident of compliance violation t
 
 You can submit complaints through various channels.
 
--   **[Submit a complaint through Legal Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Submit a complaint through Legal Service Portal]()**  
 Submit a complaint through the Legal Service Portal to report a violation incident for investigation and resolution.
 -   **[Submit a complaint through Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/submit-complaint-employee-center.md)**  
 Submit a complaint through the Employee Center portal to report a compliance violation incident for investigation and resolution.

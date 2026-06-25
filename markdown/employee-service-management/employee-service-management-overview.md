@@ -172,7 +172,7 @@ The ServiceNow® Health and Safety Incident Management application is a solution
 
 </td></tr><tr><td>
 
-[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Journey designer]()
 
 </td><td>
 

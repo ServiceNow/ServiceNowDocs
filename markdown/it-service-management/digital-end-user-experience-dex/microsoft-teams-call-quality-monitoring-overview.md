@@ -18,7 +18,7 @@ Analyze user‑level call performance for Microsoft Teams. View call quality, ne
 
 ## Microsoft Teams call quality monitoring overview video
 
-Microsoft Teams call quality overview video 
+\[Omitted video\] Description: Microsoft Teams call quality overview video
 
 ## Benefits of monitoring Microsoft Teams call quality
 

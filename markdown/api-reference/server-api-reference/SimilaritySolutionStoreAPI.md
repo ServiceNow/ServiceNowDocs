@@ -177,7 +177,7 @@ String
 
 </td><td>
 
-Optional. Name of an [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md) for your solution object.
+Optional. Name of an [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) for your solution object.
 
 </td></tr></tbody>
 </table>|Type|Description|

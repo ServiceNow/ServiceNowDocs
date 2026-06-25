@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-func-arch.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -74,17 +74,17 @@ During this phase, Sales CRM for Telecommunications coordinates with Field Servi
 
 The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open APIs throughout its architecture, ensuring standards-based integration with third-party systems. Key API integrations include:
 
--   Product catalog management API: Manage product catalog information from external systems. See .
--   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See .
--   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See .
--   Service order API: Use when a customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager. Also use when the marketplace owner handles decomposition and orchestration and sends the order to Sales CRM for Telecommunications for fulfillment. See .
--   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See .
--   Quote management API: Based on the TMF 648 API. See .
+-   Product catalog management API: Manage product catalog information from external systems. See [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-open-api.md).
+-   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-inventory-open-api.md).
+-   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-catalog-open-api.md).
+-   Service order API: Use when a customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager. Also use when the marketplace owner handles decomposition and orchestration and sends the order to Sales CRM for Telecommunications for fulfillment. See [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
+-   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ts-qualification-api.md).
+-   Quote management API: Based on the TMF 648 API. See [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/quote-management-api.md).
 
 ## Non-TMF APIs
 
--   Entitlement API: Create and fetch entitlements. See .
--   Lead management API: Mapping and certification as per TMF 699. See .
--   Order API: See .
--   Sales agreement API: See .
+-   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/entitlement-api.md).
+-   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/lead-api.md).
+-   Order API: See [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/order_csm-api.md).
+-   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales_agreement-api.md).
 

@@ -18,7 +18,7 @@ Starting with Release 20.1.x, the Main node configurations, supported by the Dat
 
 The Data Relationships Framework \(sn\_grc\_rel\_config\) application provides the underlying framework to retrieve data from the CMDB. The Main node configurations in Operational Resilience support different business views in the CSDM model. The relationships defined in the Main node configuration align with the relationships specified in the CSDM model.
 
-An overview of on creating a main node configuration 
+\[Omitted video\] Description: An overview of on creating a main node configuration
 
 The video gives you an overview on creating a main node configuration to visualize incident relationships with affected configuration items and child incidents.
 

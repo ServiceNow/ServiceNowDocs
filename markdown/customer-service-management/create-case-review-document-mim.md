@@ -32,15 +32,15 @@ You can create a post case review document for a resolved major case if the **sn
 
 3.  Select one of the following options.
 
-<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d88624e87">
+<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d90301e87">
 
 Option
 
-</th><th align="left" id="d88624e90">
+</th><th align="left" id="d90301e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88624e96">
+</th></tr></thead><tbody><tr><td id="d90301e96">
 
 **Publish to Case**
 
@@ -63,7 +63,7 @@ The system performs the following actions:1.  Syncs the child case PCR record wi
 3.  Adds a link to the PCR document to the **Additional Comments** field on the child case form.
 
 
-</td></tr><tr><td id="d88624e160">
+</td></tr><tr><td id="d90301e160">
 
 **Copy to Child Cases**
 

@@ -17,9 +17,9 @@ breadcrumb: [Use agentic AI in IT Service Management, Now Assist for IT Service 
 
 Use the Voice AI agents to create and manage tickets for any IT service-related issues such as troubleshooting WiFi connections with voice calls.
 
-Here is an example of how Voice AI agents work.AI Voice Agent Overview 
+Here is an example of how Voice AI agents work.\[Omitted video\] Description: AI Voice Agent Overview
 
-The Request catalog item with Voice AI agent video is an example that shows how to use a demo Voice AI agent.Demo Request catalog item with Voice AI agent 
+The Request catalog item with Voice AI agent video is an example that shows how to use a demo Voice AI agent.\[Omitted video\] Description: Demo Request catalog item with Voice AI agent
 
 ## Managing IT-related issues using Voice AI agents
 
@@ -119,5 +119,5 @@ For Voice AI agents to search knowledge base articles:
 
 1.  Define the knowledge base articles.
 2.  Define the search profile in AI search to search the knowledge base articles. For information on AI search, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md)
-3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-retriever-ai-agent.md)
+3.  Create the search retrieval tool to use the search profile in the Voice AI agent. For information on search retrieval, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md)
 

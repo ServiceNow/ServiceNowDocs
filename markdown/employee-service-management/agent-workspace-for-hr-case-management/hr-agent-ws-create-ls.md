@@ -38,6 +38,6 @@ Role required: sn\_hr\_le.case\_writer
 
 7.  Select **Ready for Work**.
 
-    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and [HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-template-configuration.md).
+    The **State** changes to **Ready**. In the Details section, the **Assignment group** and **Assigned to** fields populate based on your case assignment rules or HR case template. For more information, see [Assignment and matching rules in HR]() and [HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-template-configuration.md).
 
 

@@ -32,15 +32,15 @@ As a fulfiller or matter owner, you can disable attorney client privilege on a l
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d677115e102">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d742862e102">
 
 Option
 
-</th><th align="left" id="d677115e105">
+</th><th align="left" id="d742862e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d677115e111">
+</th></tr></thead><tbody><tr><td id="d742862e111">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d677115e140">
+</td></tr><tr><td id="d742862e140">
 
 **As a collaborator**
 
@@ -82,5 +82,5 @@ The state of the legal matter updates to Work in Progress.
 -   In the Privileged Document Access tab, the document permissions is reset to Public.
 -   Stakeholders are notified of the change.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

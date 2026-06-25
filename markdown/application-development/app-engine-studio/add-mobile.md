@@ -122,7 +122,7 @@ Screen that displays an existing webpage, which you specify the URL for in the n
 
     2.  To make the table conditional, select **Set conditions for this table** and define the conditions that must be met for the data to appear using the condition builder.
 
-        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     3.  Select **Continue**.
 

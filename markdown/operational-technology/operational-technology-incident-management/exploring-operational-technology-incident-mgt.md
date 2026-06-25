@@ -18,7 +18,7 @@ Learn more about the Operational Technology Incident Management application.
 
 ## Operational Technology Incident Management overview
 
-Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Incident Management application.Operational Technology Service Management overview video 
+Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Incident Management application.\[Omitted video\] Description: Operational Technology Service Management overview video
 
 ## Key features
 

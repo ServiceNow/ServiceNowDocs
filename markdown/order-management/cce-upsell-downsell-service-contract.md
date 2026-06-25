@@ -23,7 +23,7 @@ Role required:
 
 ## About this task
 
-Modify quantity to upsell or downsell a customer contract line 
+\[Omitted video\] Description: Modify quantity to upsell or downsell a customer contract line
 
 ## Procedure
 

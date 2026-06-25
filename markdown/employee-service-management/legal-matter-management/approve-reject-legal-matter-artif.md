@@ -26,15 +26,15 @@ Role required: none
 
 1.  Open the approval record from the email notification, Legal Counsel Center, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d303972e60">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d332950e60">
 
 Options
 
-</th><th align="left" id="d303972e63">
+</th><th align="left" id="d332950e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d303972e69">
+</th></tr></thead><tbody><tr><td id="d332950e69">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d303972e78">
+</td></tr><tr><td id="d332950e78">
 
 **From Legal Counsel Center**
 
@@ -56,7 +56,7 @@ Click the link in the email to open the record that needs approval.
 4.  In the Items Pending Approval list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d303972e139">
+</td></tr><tr><td id="d332950e139">
 
 **From Self-Service**
 
@@ -66,7 +66,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d303972e169">
+</td></tr><tr><td id="d332950e169">
 
 **From Employee Center**
 
@@ -114,5 +114,5 @@ If the requested item was assigned to a user group for approval, then the state 
 -   Any approver who isn’t added to **Watch list** in the legal matter would lose access to the approved item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+</table>**Parent Topic:**[Work on a legal matter]()
 

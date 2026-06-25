@@ -68,9 +68,9 @@ Role required: admin for download, installation, and activation of all applicati
 
     For more information about downloading and installing applications from the ServiceNow Store:
 
-    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/optin-optout-prod.md).
-    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
-    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/entite-app.md).
+    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/optin-optout-prod.md).
+    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/entite-app.md).
 4.  After you have installed and activated the applications, assign users to the following Security Posture Control groups:
 
     These groups inherit all the roles necessary to read and edit SPC records.

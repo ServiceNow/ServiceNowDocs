@@ -808,7 +808,7 @@ String
 
 </td><td>
 
-Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
+Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

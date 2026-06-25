@@ -206,7 +206,7 @@ Role required: discovery\_admin
 
 ### Procedure
 
-1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+1.  Add the system property **sys\_property process.clustering.appfingerprint.enabled** as described in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  To disable, enter `false` in the **Value** field.
 

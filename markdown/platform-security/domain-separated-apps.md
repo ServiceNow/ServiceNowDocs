@@ -71,7 +71,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)|Basic|
 |ServiceNow Studio|No support|
 |[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)|Basic|
-|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/manage-app-development.md)|No support|
+|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-app-development.md)|No support|
 |[Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)|Standard|
 |Enterprise Resource Planning Integration|No support|
 |Enterprise Resource Planning Customization Mining|No support|
@@ -145,7 +145,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)|Public Sector Digital Services|Basic|
 |[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
 |Customer Service Problem Management|Basic|
-|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
+|[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
 |[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/domain-separation-assurance-workflows.md)|Standard|
 |[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
 |[Exploring Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)\).|
@@ -222,10 +222,10 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
 |[AI Search/Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
 |[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-domain-sep.md)|No support|
-|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/app-management-domain-separation.md)|No support|
-|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-assessments.md)|Standard|
+|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-management-domain-separation.md)|No support|
+|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-assessments.md)|Standard|
 |[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-auto-test-framework.md)|Standard\*|
-|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-voice.md)|Basic|
+|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-voice.md)|Basic|
 |[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)|No support|
 |[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-contextual-search.md)|Standard|
 |[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-cmdb.md)|Standard|
@@ -244,17 +244,17 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)|No support|
 |[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)|No support|
 |[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)|Basic support|
-|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/domain-separation-field-normalization.md)|No support|
+|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-field-normalization.md)|No support|
 |[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md)|Standard\*|
 |[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-guided-setup.md)|No support|
 |[Domain separation and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/domain-separation-integrationhub.md)|Standard\*|
-|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
+|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
 |[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-knowledge.md)|Standard|
 |Hermes Messaging Service|Basic|
 |[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-managed-documents.md)|No support|
 |[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-metricbase.md)|Basic|
 |[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic+Standard|
-|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/domain-separation-notifications.md)|Standard|
+|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-notifications.md)|Standard|
 |[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
 |[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-orchestration.md)|Standard\*|
 |[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-pwd-reset.md)|Standard|
@@ -270,9 +270,9 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-service-portal.md)|No support|
 |Service Graph Connectors|No support|
 |[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-domain-separation.md)|Standard|
-|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-state-flows.md)|No support|
+|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-state-flows.md)|No support|
 |Subscription Management|Basic\*|
-|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-surveys.md)|Basic\*|
+|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-surveys.md)|Basic\*|
 |Task Intelligence|No support|
 |[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-time-card.md)|Basic\*|
 |[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-domain-sep.md)|Standard|

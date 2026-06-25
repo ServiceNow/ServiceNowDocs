@@ -442,7 +442,7 @@ String
 
 </td><td>
 
-An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) to filter the check definition result list. Use null for an unfiltered list of check definitions in the system.
+An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) to filter the check definition result list. Use null for an unfiltered list of check definitions in the system.
 
 </td></tr><tr><td>
 

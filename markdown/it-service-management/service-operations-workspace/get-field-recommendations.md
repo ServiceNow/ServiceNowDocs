@@ -32,15 +32,15 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d231385e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d241093e103">
 
 Option
 
-</th><th align="left" id="d231385e106">
+</th><th align="left" id="d241093e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231385e112">
+</th></tr></thead><tbody><tr><td id="d241093e112">
 
 **From the List menu**
 
@@ -51,7 +51,7 @@ Description
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d231385e151">
+</td></tr><tr><td id="d241093e151">
 
 **From an incident list**
 
@@ -69,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d231385e191">
+</td></tr><tr><td id="d241093e191">
 
 **From an interaction**
 

@@ -16,7 +16,7 @@ breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer
 
 Configure email reply recommendation to help agents generate and refine efficient email responses based on conversation context.
 
-Configure email recommendation skill 
+\[Omitted video\] Description: Configure email recommendation skill
 
 ## Before you begin
 

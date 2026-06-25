@@ -36,7 +36,7 @@ Use the portals to provide information and support for your customers. The porta
 
 To activate the Consumer Service Portal, activate the Consumer Service plugin.
 
-Configure the Customer and Consumer Service Portals 
+\[Omitted video\] Description: Configure the Customer and Consumer Service Portals
 
 ## Procedure
 

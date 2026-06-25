@@ -82,7 +82,7 @@ As a reservation or space planner, you can perform the following actions:
 
     **Note:** Adding multiple spaces to a reservation isn’t supported in Event Planner. Select only a single space while creating a reservation.
 
-    For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For more information, see [Create a reservation]().
 
     While creating a reservation, space or reservation planners can bypass the start date or end date restrictions configured in the Reservable module:
 
@@ -160,7 +160,7 @@ As a reservation or space planner, you can perform the following actions:
         -   Requested for
         -   Reservation subject
         -   Additional message
-        For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+        For more information, see [Create a reservation]().
 
     3.  After making the required changes, select **Update reservation**.
 

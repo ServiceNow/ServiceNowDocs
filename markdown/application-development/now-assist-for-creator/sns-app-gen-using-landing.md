@@ -21,7 +21,7 @@ Starting with the Australia release, app generation is being prepared for future
 
 This video shows you how to perform the following procedure.
 
-Generate application with the Now Assist for Creator app generation skill in ServiceNow Studio. 
+\[Omitted video\] Description: Generate application with the Now Assist for Creator app generation skill in ServiceNow Studio.
 
 ## Before you begin
 

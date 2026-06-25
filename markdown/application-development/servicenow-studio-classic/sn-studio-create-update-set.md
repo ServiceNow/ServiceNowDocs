@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 Watch this short video on how to create an update set.
 
-Video on how to create an update set in ServiceNow Studio 
+\[Omitted video\] Description: Video on how to create an update set in ServiceNow Studio
 
 ## Procedure
 

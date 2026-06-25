@@ -54,7 +54,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
     3.  Request the license.
 
-        For additional information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/getting-apps-trials.md).
+        For additional information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md).
 
 4.  Navigate to **Admin** &gt; **Application Manager** &gt; **Available for you**.
 
@@ -70,7 +70,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-customizations-store-apps.md).
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
 
 9.  Include demo data if it's desired and available.
 
@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d37147e446">
+<table><thead><tr><th align="left" id="d81155e445">
 
 Installation option
 
-</th><th align="left" id="d37147e449">
+</th><th align="left" id="d81155e448">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d37147e455">
+</th></tr></thead><tbody><tr><td id="d81155e454">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d37147e479">
+</td></tr><tr><td id="d81155e478">
 
 **Install later**
 

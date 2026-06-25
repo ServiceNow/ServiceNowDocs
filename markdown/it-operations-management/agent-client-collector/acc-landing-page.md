@@ -18,7 +18,7 @@ The Agent Client Collector is an agent that is installed on infrastructure compo
 
 Watch this video for an overview of how the Agent Client Collector works.
 
-Agent Client Collector overview video 
+\[Omitted video\] Description: Agent Client Collector overview video
 
 <table id="id_pyq_vxt_x1c" class="nav-card"><tbody><tr><td>
 

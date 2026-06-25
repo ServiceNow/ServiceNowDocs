@@ -28,7 +28,7 @@ A problem can be associated with one or more incidents in the **Incidents** rela
 
 If the Problem Management team has a problem model process for dealing with certain problems, they can be added to the system with [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md) . Workflows standardize and automate a process.
 
-As a problem is updated, [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md) are sent to concerned parties. If inbound email actions are specified, the problem can be updated via email.
+As a problem is updated, [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md) are sent to concerned parties. If inbound email actions are specified, the problem can be updated via email.
 
 You can use the other active tasks icon next to **Configuration item** to look up active problem records. When you click the icon, it shows all active tasks linked to that configuration item.
 

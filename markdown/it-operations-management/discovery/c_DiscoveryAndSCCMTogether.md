@@ -33,7 +33,7 @@ Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into y
 The ServiceNow SCCM integrations are self-contained and can exist independently. They each use their own import set tables, data sources and transform maps. However, all SCCM integrations will transform data into the same tables within the ServiceNow CMDB. To avoid the data being overwritten by another source:
 
 -   Use one SCCM integration and disable all other SCCM scheduled imports.
--   Perform a [full import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/how-sccm-integration-works.md) to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
+-   Perform a [full import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-sccm-integration-works.md) to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
 
 ## Collect software data with either SCCM or Discovery
 

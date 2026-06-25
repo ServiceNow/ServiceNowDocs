@@ -14,7 +14,7 @@ breadcrumb: [Building mobile apps, Mobile Platform]
 
 Usage Insights helps you understand usage and adoption of your mobile applications.
 
-Video showing how to navigate and use Usage Insights 
+\[Omitted video\] Description: Video showing how to navigate and use Usage Insights
 
 This video shows you how to analyze the user experience within your applications using Usage Insights.
 

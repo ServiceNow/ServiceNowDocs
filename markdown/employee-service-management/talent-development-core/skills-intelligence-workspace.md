@@ -18,7 +18,7 @@ You can update and maintain skills and job architecture data from a single place
 
 ## Workspace users
 
-Access to the Skills Workspace requires the sn\_skills\_int\_ws.workspace\_user role or any role that contains it. For more information on roles in Skills Foundation, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Access to the Skills Workspace requires the sn\_skills\_int\_ws.workspace\_user role or any role that contains it. For more information on roles in Skills Foundation, see [Components installed with Skills Foundation]().
 
 ## Home page
 

@@ -37,7 +37,7 @@ The Healthcare code set \[sn\_hcls\_code\_set\] table stores the details of code
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_whb_q5s_mpb"><thead><tr><th>
 

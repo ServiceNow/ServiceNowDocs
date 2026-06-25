@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configurable-workspace-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]

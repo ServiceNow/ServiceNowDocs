@@ -14,7 +14,7 @@ breadcrumb: [Security Operations]
 
 Unified Security Exposure Management \(USEM\) is a comprehensive platform designed to transform how organizations manage security exposure across their digital estate. It consolidates multiple security exposure applications including Vulnerability Response, Configuration Compliance, Application Vulnerability Response, and Container Vulnerability Response into a single, cohesive architecture.
 
-USEM overview 
+\[Omitted video\] Description: USEM overview
 
 The video provides a walk through of the Security Exposure Management Workspace.
 

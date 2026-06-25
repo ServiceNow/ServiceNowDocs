@@ -1167,7 +1167,7 @@ Optional. Sys\_id of the target record to be used for further processing, such a
 </td></tr></tbody>
 </table>The following example shows how to invoke processInboundQueueRequest\(\) method.
 
-**Note:** This method is called during the flow using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md). In the following example, the Lead to Cash Core PrimitiveUtil [commitInstance\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md) method is used to provide the output.
+**Note:** This method is called during the flow using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). In the following example, the Lead to Cash Core PrimitiveUtil [commitInstance\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md) method is used to provide the output.
 
 ```
 var gr = new GlideRecord('sn_tmt_core_inbound_queue');

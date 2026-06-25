@@ -22,7 +22,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-Start data migration of SAFe to EAP. 
+\[Omitted video\] Description: Start data migration of SAFe to EAP.
 
 ## Procedure
 

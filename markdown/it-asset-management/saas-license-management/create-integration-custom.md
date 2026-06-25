@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d74081e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d257573e91">
 
 Interface
 
-</th><th align="left" id="d74081e94">
+</th><th align="left" id="d257573e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d74081e100">
+</th></tr></thead><tbody><tr><td id="d257573e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d74081e136">
+</td></tr><tr><td id="d257573e136">
 
 **Software Asset Workspace**
 

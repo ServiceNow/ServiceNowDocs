@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d108864e155">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d112314e155">
 
 Role
 
-</th><th align="left" id="d108864e158">
+</th><th align="left" id="d112314e158">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d108864e164">
+</th></tr></thead><tbody><tr><td id="d112314e164">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d108864e173">
+</td></tr><tr><td id="d112314e173">
 
 **Manager**
 

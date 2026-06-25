@@ -95,7 +95,7 @@ You can provide translations for workflow stage names so the names appear in the
 
 ### Before you begin
 
-The instance must already have language internationalization plugins installed. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+The instance must already have language internationalization plugins installed. For more information, see Activate a language.
 
 ### About this task
 

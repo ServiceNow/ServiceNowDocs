@@ -31,8 +31,8 @@ After submitting a self-serve contract request, a contract document is generated
 
 -   **[Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md)**  
 As a contract user, review a contract document and submit a change request to the contract fulfiller if changes are required in the contract document.
--   **[Work on a contract change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Work on a contract change request]()**  
 As a contract fulfiller, review the change request, update the contract document, and send it back to the contract user.
 
-**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use self-served contract request]()
 

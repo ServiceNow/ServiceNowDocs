@@ -26,7 +26,7 @@ Role required: admin, dex\_admin
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Services Operations Workspace** &gt; **DEX Administration**.
 
-    Create remedial action 
+    \[Omitted video\] Description: Create remedial action
 
 2.  Select **Create new** in the Create Remedial Actions section.
 

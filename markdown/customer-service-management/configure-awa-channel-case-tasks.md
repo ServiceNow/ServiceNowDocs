@@ -48,7 +48,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         |Field|Description|
         |-----|-----------|
         |Name|Name of the service channel that you are configuring. For example, Case Task.|
-        |Inbox order|Order in which channel items appear in the user inbox. The **Inbox Order** field is an integer [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md). This field can store whole numbers.|
+        |Inbox order|Order in which channel items appear in the user inbox. The **Inbox Order** field is an integer [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md). This field can store whole numbers.|
         |Application|Name of the application. For the Case Task channel, select Customer Service.|
         |Active|Option for activating the service channel. When you select this option, the associated queues for the service channel can start accepting work items.|
         |Short description|Brief description of the service channel.|

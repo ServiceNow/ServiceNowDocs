@@ -237,7 +237,7 @@ Indicates whether the supplier is active.
 
 11. Configure notifications sent through Email, Portal, and Workspace to users about submitted or assigned Source‑to‑Pay requests.
 
-    -   To create an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
+    -   To create an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
     -   To create Portal or Workspace notifications, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/notif-trigger-form.md).
     -   After configuring notifications, select **Mark as configured**.
 

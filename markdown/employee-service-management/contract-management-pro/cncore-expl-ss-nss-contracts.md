@@ -21,11 +21,11 @@ The main difference between self-served and non-self-served contract requests is
 
 ## Self-served contract requests
 
-Self-served contract requests are fulfilled using the contract templates that are based on the company's own paper. Using contract templates, you save time and the manual work of filling out contract documents or standard letters from again for each request. In addition, contract templates ensure that the company’s contract guidelines are followed maintaining consistency. For example, you can create a contract template for a non-disclosure agreement to generate a non-disclosure agreement contract document. For more information, see [Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Self-served contract requests are fulfilled using the contract templates that are based on the company's own paper. Using contract templates, you save time and the manual work of filling out contract documents or standard letters from again for each request. In addition, contract templates ensure that the company’s contract guidelines are followed maintaining consistency. For example, you can create a contract template for a non-disclosure agreement to generate a non-disclosure agreement contract document. For more information, see [Use self-served contract request]().
 
 ## Non-self-served contract requests
 
-Non-self-served contract requests don’t use contract templates to generate contract documents but you can submit third-party paper contract documents for review. You don't need to create and configure any contract templates for third-party paper contract requests. Non-self-served contract requests support review of multiple contract and supporting documents from a single request. For more information, see [Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Non-self-served contract requests don’t use contract templates to generate contract documents but you can submit third-party paper contract documents for review. You don't need to create and configure any contract templates for third-party paper contract requests. Non-self-served contract requests support review of multiple contract and supporting documents from a single request. For more information, see [Use non-self-served contract request]().
 
 ## Amendment requests
 

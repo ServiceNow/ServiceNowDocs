@@ -16,7 +16,7 @@ breadcrumb: [Playbook recommendations, Use generative AI, Now Assist for Creator
 
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 
-Generate a outline and get recommendations for placeholder activities 
+\[Omitted video\] Description: Generate a outline and get recommendations for placeholder activities
 
 ## Activation
 

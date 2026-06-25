@@ -32,7 +32,7 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 -   In Health and Safety Workspace, use the Health and Safety incident summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
-    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-standard.md).
+    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-standard.md).
 
 -   In the Core UI, select the **Summarize** button on the incident record to generate a summary.
 
@@ -50,15 +50,15 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 4.  When you're finished summarizing an incident, you can add it to the incident work notes, expand or collapse it, provide feedback, copy it, or view information about the incident.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d283525e232">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d309550e232">
 
 Option
 
-</th><th align="left" id="d283525e235">
+</th><th align="left" id="d309550e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d283525e241">
+</th></tr></thead><tbody><tr><td id="d309550e241">
 
 **Save the summary information by adding it to the work notes**
 
@@ -69,7 +69,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d283525e268">
+</td></tr><tr><td id="d309550e268">
 
 **Expand or collapse the summary**
 
@@ -77,7 +77,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d283525e289">
+</td></tr><tr><td id="d309550e289">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d283525e312">
+</td></tr><tr><td id="d309550e312">
 
 **Copy the case summary**
 
@@ -93,7 +93,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d283525e328">
+</td></tr><tr><td id="d309550e328">
 
 **Refresh the summary**
 
@@ -101,7 +101,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 Select the refresh icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh icon.\) to summarize the request again.
 
-</td></tr><tr><td id="d283525e343">
+</td></tr><tr><td id="d309550e343">
 
 **View the information about the case summary**
 
@@ -114,6 +114,6 @@ If you want to check details about the summary, select the more info icon \(\[Om
 
     The **Email** tab appears only when the following conditions are met:
 
-    -   The email client is enabled for the Health and Safety incident \[sn\_ohs\_im\_incident\] table on your ServiceNow instance. For more information, see [Enable the email client for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/enable-email-client.md).
-    -   The user sending the email has the Email composer \[email\_composer\] role. For more information, see [Email composer \[email\_composer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/email-client-roles-2.md).
+    -   The email client is enabled for the Health and Safety incident \[sn\_ohs\_im\_incident\] table on your ServiceNow instance. For more information, see [Enable the email client for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-client.md).
+    -   The user sending the email has the Email composer \[email\_composer\] role. For more information, see [Email composer \[email\_composer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-client-roles-2.md).
 

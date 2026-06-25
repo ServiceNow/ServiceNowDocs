@@ -28,7 +28,7 @@ The following conditions should be met:
 
 The following task is performed on a production instance only after the above conditions are met:
 
-Upload a batch update set in Now Assist for Setup 
+\[Omitted video\] Description: Upload a batch update set in Now Assist for Setup
 
 Role required: admin
 

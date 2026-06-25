@@ -14,7 +14,7 @@ breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Manageme
 
 You can schedule an auto-update of the dependencies in the business impact analysis based on the source data and relationships in the CMDB. You can receive an email notification with details of the BIA dependency updates from the BCM application.
 
-An overview of how to update dependencies 
+\[Omitted video\] Description: An overview of how to update dependencies
 
 The video shows how BCM Managers can use the CMDB as a source to update dependencies in a Business Impact Analysis \(BIA\). The same process applies to Business Continuity Plans \(BCPs\) and events.
 

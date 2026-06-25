@@ -308,5 +308,5 @@ N/A
 **Related topics**  
 
 
-[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_VisualTaskBoards.md)
+[bundle-platux.c_VisualTaskBoards]
 

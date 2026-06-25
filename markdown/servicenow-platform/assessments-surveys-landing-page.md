@@ -14,7 +14,7 @@ breadcrumb: [Exploring Service Administration, Service Administration, Manage se
 
 The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system.
 
-Overview of assessments, surveys, and quizzes 
+\[Omitted video\] Description: Overview of assessments, surveys, and quizzes
 
 ## Get started
 

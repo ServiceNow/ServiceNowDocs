@@ -16,7 +16,7 @@ breadcrumb: [Installing, Configure, App Engine Studio, Building low-code applica
 
 Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -237,7 +237,7 @@ Details about application files that a developer creates in App Engine Studio. T
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-new-clone-preserver.md).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
 
 **Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md)
 

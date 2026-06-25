@@ -13,7 +13,7 @@ reading_time_minutes: 2
 
 Access your instance from anywhere using the ServiceNow® Mobile Platform. The Mobile Platform enables you to create customized mobile experiences on the Now Mobile® and Mobile Agent® apps. Using these apps, your users access custom reports and can execute multiple tasks, enabling them to perform their work from anywhere, at any time.
 
-Introductory video to ServiceNow mobile apps. 
+\[Omitted video\] Description: Introductory video to ServiceNow mobile apps.
 
 This video highlights some of the capabilities of the 2 ServiceNow® mobile apps: Mobile Agent and Now Mobile. The video defines the purpose of each app, who uses them, and how they support your workflows and ServiceNow business applications. The Mobile Agent app is designed for field service technicians and engineers to support them while they are off-site. The Now Mobile app can be used by your entire organization. Using the Now Mobile app, employees can perform tasks such as viewing their work schedules, viewing a knowledge article, or reserving a conference room.
 

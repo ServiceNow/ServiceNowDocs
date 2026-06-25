@@ -19,7 +19,7 @@ Agents can save time and improve their productivity by enabling Now Assist to ge
 
 This feature is only available with select BU plugins and is currently available with [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md).
 
-This example shows a work order where Now Assist generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+This example shows a work order where Now Assist generated the closure notes about a printer replacement. Agents can edit or delete generated notes before submitting the resolution notes. For more information, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 \[Omitted image "resolution-notes.png"\] Alt text: Banner explaining that the displayed closure notes were created with Now Assist.
 

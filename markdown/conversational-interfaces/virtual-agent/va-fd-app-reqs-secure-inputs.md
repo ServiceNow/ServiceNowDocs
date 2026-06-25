@@ -33,7 +33,7 @@ The [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/Serv
     -   Active: **true**
     -   Result: **Track**
 -   A Workflow Studio action or subflow that accepts one or more password2 input fields
--   A Script step in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
+-   A [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/javascript-step-action-designer.md) in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
 
     ```
     var op = new 

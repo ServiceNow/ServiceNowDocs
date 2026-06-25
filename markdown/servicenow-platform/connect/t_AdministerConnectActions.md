@@ -20,7 +20,7 @@ You can create or modify Connect actions to provide custom functionality in Conn
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 If you want to customize the icon for a Connect action, navigate to **Collaborate** &gt; **Administration** &gt; **Action Icons** to view the available icons and their class names. Note the class name of the icon you want to use.
 

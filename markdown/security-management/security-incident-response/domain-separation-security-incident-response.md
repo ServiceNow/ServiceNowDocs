@@ -132,7 +132,7 @@ The following tasks must be configured:
     -   Set the email parsing inbox: [Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md)
     -   Set up email parsers for alert ingestion: [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md)
     -   Set up email matching rules for user-reported phishing: [Create rules to validate user-reported phishing attacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
-    -   Set up email inbound actions: [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_InboundEmailActions.md)
+    -   Set up email inbound actions: [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md)
 4.  Security incident playbook settings
     -   Review and set up runbook documents: [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
     -   Set up security incident workflows: [Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)

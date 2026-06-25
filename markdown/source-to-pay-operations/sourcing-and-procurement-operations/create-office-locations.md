@@ -18,7 +18,7 @@ Add all the office locations that your suppliers deliver to in your primary data
 
 ## About this task
 
-Shows how to add an office location. 
+\[Omitted video\] Description: Shows how to add an office location.
 
 ## Before you begin
 

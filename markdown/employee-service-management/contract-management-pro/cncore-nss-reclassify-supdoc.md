@@ -45,5 +45,5 @@ You can reclassify supporting documents only when the State is Work in progress.
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use non-self-served contract request]()
 

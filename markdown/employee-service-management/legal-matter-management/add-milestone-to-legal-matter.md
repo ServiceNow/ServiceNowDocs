@@ -34,15 +34,15 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d291139e113">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d645199e113">
 
 Option
 
-</th><th align="left" id="d291139e116">
+</th><th align="left" id="d645199e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291139e122">
+</th></tr></thead><tbody><tr><td id="d645199e122">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d291139e151">
+</td></tr><tr><td id="d645199e151">
 
 **As a collaborator**
 
@@ -78,5 +78,5 @@ The state of the legal matter updates to Work in Progress.
 
 A milestone with the specified due date is created.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

@@ -28,7 +28,7 @@ The Context variable provides information that can be used to fetch the required
 
 Creating a context variable is similar to creating a column on a table.
 
-To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for the target source type PA Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+To create a context variable for the target source type PA Indicator and the breakdown is of Choice list type, see [Create a context variable for the target source type PA Indicator]().
 
 ## Procedure
 
@@ -40,7 +40,7 @@ To create a context variable for the target source type PA Indicator and the bre
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Context Variable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For a description of the field values, see [Context Variable form]().
 
 5.  Click **Submit**.
 

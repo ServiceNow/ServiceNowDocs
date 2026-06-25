@@ -18,7 +18,7 @@ ServiceNow® Event Management is a robust application that helps keep your IT sy
 
 Event Management seamlessly integrates with various monitoring tools via connectors and listeners, enabling comprehensive data collection and correlation. Available as a separate subscription from the main ServiceNow platform, Event Management allows organizations to tailor their usage to specific needs, ensuring effective and efficient incident management without unnecessary overhead.
 
-This video explains how to install and configure Event Management so you can start using it.
+\[Omitted video\] Description: This video explains how to install and configure Event Management so you can start using it.
 
 ## Get started
 

@@ -32,7 +32,7 @@ Use the email notification layout and template that is shipped with the Employee
 
 3.  Click the notification name to view the details.
 
-    **Note:** To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_SubscriptionBasedNotifications.md).
+    **Note:** To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 
 **Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)

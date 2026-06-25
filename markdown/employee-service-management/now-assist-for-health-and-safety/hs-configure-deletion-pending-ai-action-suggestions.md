@@ -21,7 +21,7 @@ Configure how long the pending AI-generated action suggestions are retained befo
 Verify the following conditions:
 
 -   The Now Assist for Health and Safety application \(sn\_hs\_gen\_ai\) is installed. For more information, see [Install Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
--   The application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   The application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 

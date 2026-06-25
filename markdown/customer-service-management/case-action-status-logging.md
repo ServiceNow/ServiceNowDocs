@@ -33,6 +33,6 @@ The metrics include:
 
 To access the **Case Actor Duration** metric definition, navigate to **All** &gt; **Metrics** &gt; **Definitions** and select the definition from the list. For more information about metric definitions, see the following topics:
 
--   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MetricDefinitionSupport.md)
--   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-metric.md)
+-   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md)
+-   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md)
 

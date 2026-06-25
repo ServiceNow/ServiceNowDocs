@@ -20,7 +20,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 **Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/set-map-application-scope.md).
+Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
 
 Role required: sn\_hr\_wfo.admin
 

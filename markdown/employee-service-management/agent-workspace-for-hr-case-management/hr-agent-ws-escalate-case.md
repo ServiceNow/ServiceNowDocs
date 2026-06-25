@@ -20,7 +20,7 @@ Escalate an HR case when you are unable to resolve an issue and must amplify the
 
 Role required: sn\_hr\_core.case\_writer
 
-The matching rules you have implemented will determine the group and agent the case is escalated to. For more information, see [Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and [Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
+The matching rules you have implemented will determine the group and agent the case is escalated to. For more information, see [Assignment and matching rules in HR]() and [Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
 
 ## Procedure
 

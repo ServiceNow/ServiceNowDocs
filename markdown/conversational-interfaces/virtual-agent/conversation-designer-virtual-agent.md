@@ -19,7 +19,7 @@ The Virtual Agent Designer is a diagram tool for creating and managing assets, w
 
 Virtual Agent conversations are built using topics. When building an asset, there are various components \(controls\) that you can use to build the logic of a conversation, as well as the responses that the user sees.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 You can also view and manage the following in Assistant Designer:
 
@@ -28,7 +28,7 @@ You can also view and manage the following in Assistant Designer:
     Virtual Agent conversations can include subflows and actions if they were made conversational in Workflow Studio or topics that include subflows and actions through the Action utility node.
 
     -   Conversational subflows and actions are available in Assistant Designer only if Now Assist in Virtual Agent has been configured.
-    -   Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+    -   Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
     -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
     **Note:** Conversational subflows and actions are not applicable to the Virtual Agent Designer legacy topic cards page view.
 
@@ -61,7 +61,7 @@ In the Asset library, you can access and edit any of these assets, and create to
 
 \[Omitted image "vad-home-page.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Assistant Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+**Note:** Conversational subflows and actions are available in Assistant Designer if Now Assist in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
 

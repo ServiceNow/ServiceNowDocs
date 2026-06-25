@@ -148,7 +148,7 @@ Select a matching rule for the work configuration.
 
     4.  Add the desired conditions for the work configuration filter.
 
-        For information on adding conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+        For information on adding conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     5.  Select **Update**.
 

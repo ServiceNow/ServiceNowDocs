@@ -41,7 +41,7 @@ Role required: admin
 
 1.  Ensure that the application is set to Service Graph Connector Integration for Claroty CTD by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connector Claroty CTD** &gt; **Guided Setup**.
 
@@ -123,7 +123,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 

@@ -60,7 +60,7 @@ Alert
 -   [UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-alert/uib-setup%23properties)
 
 </td></tr></tbody>
-</table>Create and customize alert messages in UI Builder 
+</table>\[Omitted video\] Description: Create and customize alert messages in UI Builder
 
 ### Procedure
 
@@ -181,7 +181,7 @@ Alert
 -   [UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-alert/uib-setup%23properties)
 
 </td></tr></tbody>
-</table>Create and customize alerts in UI Builder 
+</table>\[Omitted video\] Description: Create and customize alerts in UI Builder
 
 ### Procedure
 

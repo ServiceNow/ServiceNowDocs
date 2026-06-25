@@ -52,7 +52,7 @@ The legal matter is assigned to the selected member of the user group. The state
 
 ## What to do next
 
-The assigned member can start [working on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+The assigned member can start [working on the legal matter]().
 
 **Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-use-landing.md)
 

@@ -109,11 +109,11 @@ Auto-generated parameters based on the name of the Amazon Connect instance.For e
 
         Steps to configure Amazon Connect components
 
-<table id="table_r2y_dsd_1nb"><thead><tr><th align="left" id="d93657e341">
+<table id="table_r2y_dsd_1nb"><thead><tr><th align="left" id="d148973e341">
 
 Guided setup step
 
-</th><th align="left" id="d93657e344">
+</th><th align="left" id="d148973e344">
 
 Description
 

@@ -69,7 +69,7 @@ Action Script
 
 </td><td>
 
-Create the script in the text box.See [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
+Create the script in the text box.See [Create a policy action script]() for details.
 
 </td></tr></tbody>
 </table>    |Field|Description|

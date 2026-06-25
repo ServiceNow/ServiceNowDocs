@@ -25,7 +25,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Communication channels and routing.
     -   Additional components and settings that are specific to HR Service Delivery.
     -   Forms in workspace. See [Customize fields in a form in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/form-builder-aws.md).
-    -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_set-up-configurable-workspace.md).
+    -   Workspace setup. See [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md).
 
 ## Roles installed
 

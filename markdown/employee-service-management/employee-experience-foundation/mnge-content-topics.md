@@ -56,7 +56,7 @@ For more information on the execution and modification of the scheduled job, see
 
 3.  Select the **Content type** in the pop-up window and select the category to link to the topic page.
 
-    Video describes the process to connect content categories to topic pages 
+    \[Omitted video\] Description: Video describes the process to connect content categories to topic pages
 
     All the content in the category is associated with the topic.
 

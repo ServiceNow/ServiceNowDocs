@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Management software suites, Exploring Software Asset
 
 Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
 
-This video explains the software inference feature and how the Software Asset Management application works with this feature. 
+\[Omitted video\] Description: This video explains the software inference feature and how the Software Asset Management application works with this feature.
 
 ## Suite inference flow
 

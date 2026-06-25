@@ -131,7 +131,7 @@ Administrators can specify the SOAP security policy an instance uses with the sy
 |-----|-----------|
 |Type|String|
 |Default value|Default Security Policy|
-|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table|
+|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table|
 
 ## WS-Security
 
@@ -171,7 +171,7 @@ The system property `glide.processor.debug.SOAPProcessor` enables \(true\) or di
 |-----|-----------|
 |Type|true \| false|
 |Default value|false|
-|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table|
+|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table|
 
 ## WSS X.509 Token Profile
 

@@ -24,7 +24,7 @@ If the Product offering or Category fulfillment tasks defined in the decision ta
 
 When a domain order is created, if a fulfillment process isn’t defined for that domain order specification category, a place order task is created. When this task is assigned to an agent, it triggers the order fulfillment AI agent for this domain order.
 
-To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
 

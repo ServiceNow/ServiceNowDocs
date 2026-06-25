@@ -20,7 +20,7 @@ The Web Embeddables homepage displays modules, components, and provides an overv
 
 ## Web Embeddables overview
 
-Web Embeddables overview video 
+\[Omitted video\] Description: Web Embeddables overview video
 
 You can configure and embed the following ServiceNow components on the third-party websites.
 

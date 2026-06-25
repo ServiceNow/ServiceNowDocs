@@ -46,7 +46,7 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Observability - AppDynamics application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **AppDynamics** &gt; **Setup**.
 

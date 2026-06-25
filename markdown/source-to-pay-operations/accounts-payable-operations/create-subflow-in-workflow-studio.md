@@ -21,7 +21,7 @@ Use subflows to configure conditions that are applied on the invoice and raise a
 
 Role required: admin
 
-This video shows you how to create subflow in workflow studio.The video shows you how to create subflows in workflow studio. 
+This video shows you how to create subflow in workflow studio.\[Omitted video\] Description: The video shows you how to create subflows in workflow studio.
 
 ## Procedure
 

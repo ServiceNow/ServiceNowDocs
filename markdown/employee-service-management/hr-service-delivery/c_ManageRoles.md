@@ -110,8 +110,8 @@ There are specific HR roles that allow users access to specific areas of the sys
 
         **Note:** Changing the user allows the scheduled jobs to run, but only a user with the System Admin role can view and run a scheduled job on demand.
 
-    -   Change the scope of the application to Human Resources: Core application. For information on changing the scope, see [Contextual development edit messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_WarningMessages.md).
-    -   Reveal the **Run as** field. For information on revealing hidden fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+    -   Change the scope of the application to Human Resources: Core application. For information on changing the scope, see [Contextual development edit messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_WarningMessages.md).
+    -   Reveal the **Run as** field. For information on revealing hidden fields on a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 -   Log out and log back in to ensure that the changes take effect.
 
     **Note:** Ensure that you have completed setup before removing the HR Administrator role.

@@ -22,7 +22,7 @@ ServiceNow® Proactive Engagement helps an organization in improving employee di
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-Proactive Engagement overview 
+\[Omitted video\] Description: Proactive Engagement overview
 
 ## Proactive Engagement Key features
 

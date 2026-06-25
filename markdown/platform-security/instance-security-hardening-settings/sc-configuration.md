@@ -22,7 +22,7 @@ Configure the Auto set content type options property on your instance to prevent
 Use the **glide.http.cache\_control** property to set the default cache-control value in the HTTP response headers that the ServiceNow AI Platform sends when requesting static content data for a page. Examples of static content include images, CSS, and JavaScript rendered from within, for a page.
 -   **[Enable HTTP response headers configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-http-response-headers-configuration.md)**  
 Reduce the risk of cookie/session-related hijacking of web apps using a system property.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-chat-server-debugging.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-chat-server-debugging.md)**  
 
 -   **[Disable legacy JQuery UI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-legacy-jquery-ui-usage.md)**  
 Avoid the introduction of unpatched vulnerabilities in the library by disabling legacy JQuery UI usage.

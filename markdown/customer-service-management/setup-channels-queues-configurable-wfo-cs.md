@@ -144,7 +144,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
 3.  In the **Reports** tab, select **Edit**.
 
-    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
 
 4.  Select and add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -199,15 +199,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  To add KPIs to a queue, do one of the following.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d226833e842">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d234003e842">
 
 To
 
-</th><th align="left" id="d226833e845">
+</th><th align="left" id="d234003e845">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d226833e851">
+</th></tr></thead><tbody><tr><td id="d234003e851">
 
 **Add from a service channel**
 
@@ -219,7 +219,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d226833e893">
+</td></tr><tr><td id="d234003e893">
 
 **Add from a queue**
 
@@ -232,7 +232,7 @@ Do This
 </td></tr></tbody>
 </table>2.  In the **Reports** tab, select **Edit**.
 
-    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) if you do not see the **Reports** tab.
 
 3.  Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -363,7 +363,7 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Select the **Supervisor Lists** tab.
 
-    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) if you do not see the **Supervisor Lists** tab.
+    **Note:** You must [add the Reports related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) if you do not see the **Supervisor Lists** tab.
 
 4.  Select **New**.\[Omitted image "supervisor-lists.png"\] Alt text: Service channel chat displaying supervisor lists. For information about the supervisor lists components, refer to the Supervisor Lists form table.
 

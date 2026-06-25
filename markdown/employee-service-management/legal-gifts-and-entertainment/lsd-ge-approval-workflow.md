@@ -26,7 +26,7 @@ Role required: sn\_lg\_gifts.gifts\_config
 
 Gifts and Entertainment Compliance uses the Gifts Approval flow to trigger multi-level approvals when an employee submits a gifts and entertainment disclosure request
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
 
 ## Procedure
 

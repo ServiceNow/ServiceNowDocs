@@ -145,7 +145,7 @@ User verification flow
 
 </td><td>
 
-The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md) .
+The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) .
 
  **Note:** To preview the **External User Verification** subflow in a new tab use the following shortcuts:
 

@@ -77,7 +77,7 @@ Select an image template that the profile should be mapped to. Click the referen
 
  **Important:** Do not create a new image template. Image templates must be discovered from the Cloud Accounts page on the Cloud Admin Portal \(**Manage** &gt; **Cloud Accounts**\).
 
- When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template. See [Add credentials to an image template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+ When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template. See [Add credentials to an image template]().
 
 </td></tr></tbody>
 </table>5.  Map the profile to a cloud script. In this procedure, you specify an existing script. See [Create cloud initialization script templates and a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.md).

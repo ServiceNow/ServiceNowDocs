@@ -16,7 +16,7 @@ breadcrumb: [Workflow Studio, Build workflows]
 
 Create and manage flows, subflows, and actions from Workflow Studio.
 
-Overview of flows in Workflow Studio 
+\[Omitted video\] Description: Overview of flows in Workflow Studio
 
 This video provides an overview of flows, which are automated workflows that run when a set of trigger conditions occur.
 

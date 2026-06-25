@@ -19,7 +19,7 @@ You can create smart assessment templates and add instructions, questions, and r
 ## Before you begin
 
 -   Smart assessments are built using the ServiceNow® Smart Assessment Engine \(SAE\) application. Familiarize yourself with the [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md).
--   Verify that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   Verify that the application scope is selected as Health and Safety Risk Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_hs\_rm.safety\_inspection\_manager or sn\_hs\_rm.safety\_audit\_manager
 

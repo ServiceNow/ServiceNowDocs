@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Create a theme variant 
+\[Omitted video\] Description: Create a theme variant
 
 ## Procedure
 

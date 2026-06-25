@@ -24,7 +24,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-Verify table, field, and choice mapping between EAP and SAFe. 
+\[Omitted video\] Description: Verify table, field, and choice mapping between EAP and SAFe.
 
 ## Procedure
 

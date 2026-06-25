@@ -23,7 +23,7 @@ The Pre-authorization item \[sn\_hcls\_pre\_auth\_item\] table stores the detail
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_awf_rm2_rvb"><thead><tr><th>
 

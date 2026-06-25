@@ -23,7 +23,7 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 
 ## About this task
 
-Configure scoring for assessment 
+\[Omitted video\] Description: Configure scoring for assessment
 
 -   Scoring can be configured at the assessment, section, subsection, and question levels. Configuring scoring at each level is optional, enable it at one or more levels based on your needs. Scoring levels are dependent on each other. For example, assessment scoring depends on section scores, which depend on subsection and question scores.
 -   Scoring can only be configured on a draft template. Once the template is published, you can no longer configure scoring for it.

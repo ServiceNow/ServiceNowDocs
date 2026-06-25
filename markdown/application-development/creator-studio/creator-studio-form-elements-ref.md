@@ -331,7 +331,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td><td>
 
