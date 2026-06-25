@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/onboarding-android-v9-0.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-22"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Now Support app version history, Mobile app version history for iOS and Android]
 ---
