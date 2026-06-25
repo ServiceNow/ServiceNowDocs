@@ -117,7 +117,7 @@ None.
 
 </td><td>
 
-For more information, see [Administer table and field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/admin-table-field-descriptions.md).
+For more information, see .
 
 </td></tr><tr><td>
 
