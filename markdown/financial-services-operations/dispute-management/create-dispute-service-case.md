@@ -32,15 +32,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d41031e109">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d41060e109">
 
 Option
 
-</th><th align="left" id="d41031e112">
+</th><th align="left" id="d41060e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41031e118">
+</th></tr></thead><tbody><tr><td id="d41060e118">
 
 **Dispute case from the dispute case list**
 
@@ -50,7 +50,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d41031e148">
+</td></tr><tr><td id="d41060e148">
 
 **Dispute case from an interaction record**
 

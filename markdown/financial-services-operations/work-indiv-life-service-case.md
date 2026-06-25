@@ -58,15 +58,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d95604e210">
+<table><thead><tr><th align="left" id="d95625e210">
 
 Policy task
 
-</th><th align="left" id="d95604e213">
+</th><th align="left" id="d95625e213">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95604e219">
+</th></tr></thead><tbody><tr><td id="d95625e219">
 
 **To verify a change or a document**
 
@@ -76,7 +76,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d95604e246">
+</td></tr><tr><td id="d95625e246">
 
 **To submit a review**
 

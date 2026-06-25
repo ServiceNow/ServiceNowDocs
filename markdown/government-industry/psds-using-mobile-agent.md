@@ -24,7 +24,7 @@ Use the Mobile Agent to review your case details and complete your case tasks. W
 
 The following video highlights some of the capabilities of the ServiceNow® Mobile Agent app.
 
-**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-mobile-agent-for-service-request-playbook.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/install-customer-service-mobile-app.md).
+**Note:** To use the Mobile Agent, the required plugins must be enabled by an administrator. If you're an administrator, see [Configure Mobile Agent for Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-mobile-agent-for-service-request-playbook.md) to get the information on configuring the Mobile Agent. For instructions on how to get started with the app after an administrator configures these settings, see .
 
 ## Mobile Agent homepage
 

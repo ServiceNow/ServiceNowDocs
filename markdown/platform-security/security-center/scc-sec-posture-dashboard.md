@@ -81,7 +81,7 @@ View the security posture of your non-production instances without leaving your 
 
 By default, the **All instances** tab displays information on the production instance you are logged into, and all non-production instances across all your production environments.
 
-You may add or remove instances that appear on this dashboard by modifying your trust configuration. Providing data visibility between instances allows them to appear within your dashboard. For details on this process, see .
+You may add or remove instances that appear on this dashboard by modifying your trust configuration. Providing data visibility between instances allows them to appear within your dashboard. For details on this process, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/grant-access-other-instances.md).
 
 ## Dashboard customization
 

@@ -49,15 +49,15 @@ Role required: df\_connection\_admin
 
 4.  Configure secure authentication by uploading a keystore file or by entering the keystore details manually.
 
-<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d364606e232">
+<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d364611e232">
 
 Option
 
-</th><th align="left" id="d364606e235">
+</th><th align="left" id="d364611e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d364606e241">
+</th></tr></thead><tbody><tr><td id="d364611e241">
 
 **Upload keystore file**
 
@@ -67,7 +67,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d364606e262">
+</td></tr><tr><td id="d364611e262">
 
 **Enter keystore contents manually**
 

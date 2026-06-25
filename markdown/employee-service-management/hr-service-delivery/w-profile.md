@@ -1,0 +1,34 @@
+---
+title: Synchronize worker profiles
+description: Pull worker profile data from Workday into ServiceNow. View worker profile details from Workday in ServiceNow HR Service Delivery.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/w-profile.html
+release: yokohama
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Configuring HR Service Delivery Integration with Workday, HR Service Delivery Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+---
+
+# Synchronize worker profiles
+
+Pull worker profile data from Workday into ServiceNow. View worker profile details from Workday in ServiceNow HR Service Delivery.
+
+The following sections explain how to set up the application, configure worker profile settings, activate and run the schedule flow to synchronise worker profiles.
+
+## Application setup
+
+First, you must activate the HR Service Delivery Integration with Workday application from ServiceNow Store. This automatically activates the Workday HR Spoke. Next, you must set up [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
+
+## Worker profile settings
+
+Store one-time configuration parameters for synchronizing data between Workday and ServiceNow. For more information, see [Configure worker profile settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/config-w-sync.md).
+
+**Note:** Even if you are not using Worker profile synchronization, ensure that you have configured the **Workday tenant time zone** field in the Workday Worker Profile Sync Configurations form. This field handles the time zones between the two systems, ServiceNow and Workday.
+
+## Schedule flow activation
+
+Activate and run the schedule flow that pulls Worker profile information into ServiceNow. For more information, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
+

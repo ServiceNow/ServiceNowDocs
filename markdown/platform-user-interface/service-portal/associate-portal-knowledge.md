@@ -40,5 +40,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
+[bundle-platcap.knowledge-management-service-portal]
 

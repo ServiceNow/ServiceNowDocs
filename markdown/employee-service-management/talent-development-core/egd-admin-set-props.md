@@ -1,0 +1,48 @@
+---
+title: Set Talent Development Properties
+description: Set properties to control manager skill approvals and activity completion flows.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-admin-set-props.html
+release: yokohama
+product: Talent Development Core
+classification: talent-development-core
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
+---
+
+# Set Talent Development Properties
+
+Set properties to control manager skill approvals and activity completion flows.
+
+## Before you begin
+
+Role required: sn\_egd\_core.admin or admin
+
+## About this task
+
+Set the following Talent properties:
+
+-   **Talent properties to control manager skill approvals**
+    -   **no**: Manager skill approvals are skipped.
+    -   **optional**: Manager skill approvals are automatically suggested, but not required.
+    -   **required**: Manager skill approvals are automatically created.
+-   **Set all activities to ready when Growth Plans are launched**
+
+    Set all activities to ready when **Growth Plans** are **Published**.
+
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Talent Development Core** &gt; **Administration** &gt; **Properties**.
+
+2.  Select the property settings.
+
+    For more information on Talent properties, read [Talent Properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-properties-reference.md).
+
+3.  Select **Save**.
+
+
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-administration.md)
+

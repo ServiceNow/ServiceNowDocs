@@ -48,15 +48,15 @@ Role required: df\_connection\_admin
 
 4.  Configure the metastore that you want to use with Delta Lake.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d280220e235">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d280217e235">
 
 Option
 
-</th><th align="left" id="d280220e238">
+</th><th align="left" id="d280217e238">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d280220e244">
+</th></tr></thead><tbody><tr><td id="d280217e244">
 
 **Hive Thrift**
 
@@ -72,7 +72,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d280220e279">
+</td></tr><tr><td id="d280217e279">
 
 **AWS Glue**
 

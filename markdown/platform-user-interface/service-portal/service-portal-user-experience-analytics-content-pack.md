@@ -33,5 +33,5 @@ The Usage Insights application provides views for monitoring usage analytics of 
 **Related topics**  
 
 
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/platform-analytics/content-packs-in-form-analytics.md)
+[bundle-par.content-packs-in-form-analytics]
 

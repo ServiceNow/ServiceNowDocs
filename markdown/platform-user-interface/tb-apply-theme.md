@@ -38,15 +38,15 @@ If you want to publish a theme to specific mobile applications, you can use [Mob
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d30921e118">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d30923e118">
 
 Option
 
-</th><th align="left" id="d30921e121">
+</th><th align="left" id="d30923e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d30921e127">
+</th></tr></thead><tbody><tr><td id="d30923e127">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -56,7 +56,7 @@ From the Unpublished section, select the More actions \(\[Omitted image "tb-more
 
 **Note:** A confirmation dialog box appears.\[Omitted image "tb-test-theme-dialog-box.png"\] Alt text: Publish the theme dialog box.
 
-</td></tr><tr><td id="d30921e155">
+</td></tr><tr><td id="d30923e155">
 
 **Publish using the List view drag-and-drop feature**
 

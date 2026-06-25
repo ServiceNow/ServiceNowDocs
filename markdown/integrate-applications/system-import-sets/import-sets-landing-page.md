@@ -45,7 +45,7 @@ Import sets enable administrators to import data from various data sources, and 
  -   [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/t_RunImport.md)
 -   [Importing Data into ServiceNow](https://developer.servicenow.com/dev.do#!/learn/courses/tokyo/app_store_learnv2_importingdata_tokyo_importing_data_into_servicenow)
 -   [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
--   Use the Import Set API
+-   [Use the Import Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/c_ImportSetAPI.md)
 -   [Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/easy-import/c_EasyImport.md)
 -   [Monitor scheduled data import executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/monitor-sched-import-executions.md)
 

@@ -192,7 +192,7 @@ Make sure that at least one of the **Triggers** is set to **onChange**.
 
 7.  Write the client script in the **Client script** field.
 
-    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see  and  in the API reference documentation.
+    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) and [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) in the API reference documentation.
 
     When writing the client script, be aware of the following points:
 

@@ -16,7 +16,7 @@ Configure preferences for the types of notifications you want to receive for occ
 
 ## Before you begin
 
-To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see Notifications in messaging applications.
+To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see [Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/messaging-integration.md).
 
 Role required: admin.
 
@@ -70,7 +70,7 @@ Impersonation
 
 </td><td>
 
-Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see Impersonate a user.
+Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -95,15 +95,15 @@ Send a weekly digest on the selected type of notification. It includes:-   A sum
 
     You can select multiple notification methods for each.
 
-<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d31714e215">
+<table id="choicetable_amb_lb4_mnb"><thead><tr><th align="left" id="d31722e215">
 
 Check box
 
-</th><th align="left" id="d31714e218">
+</th><th align="left" id="d31722e218">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31714e224">
+</th></tr></thead><tbody><tr><td id="d31722e224">
 
 **Email**
 
@@ -111,7 +111,7 @@ Description
 
 Send an email for this type of security event.
 
-</td></tr><tr><td id="d31714e233">
+</td></tr><tr><td id="d31722e233">
 
 **Slack**
 
@@ -119,7 +119,7 @@ Send an email for this type of security event.
 
 Send notifications for this type of security event through Slack. **Note:** This column appears only if you have set up Slack integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d31714e254">
+</td></tr><tr><td id="d31722e254">
 
 **Teams**
 
@@ -127,7 +127,7 @@ Send notifications for this type of security event through Slack. **Note:** This
 
 Send notifications for this security event through Microsoft Teams.**Note:** This column appears only if you have set up Microsoft Teams integration to the ServiceNow AI Platform.
 
-</td></tr><tr><td id="d31714e275">
+</td></tr><tr><td id="d31722e275">
 
 **Push**
 
@@ -135,7 +135,7 @@ Send notifications for this security event through Microsoft Teams.**Note:** Thi
 
 Send push notifications on Now Mobile for this type of security event. **Note:** This column appears only if you first log into Now Mobile.
 
-</td></tr><tr><td id="d31714e294">
+</td></tr><tr><td id="d31722e294">
 
 **Select All**
 

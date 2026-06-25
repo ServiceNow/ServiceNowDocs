@@ -16,7 +16,7 @@ Use Now Assist in Native Mobile Virtual Agent to deliver more direct, relevant, 
 
 \[Omitted image "na-mobile-va.png"\] Alt text: now assist for mobile virtual agent example responses
 
-Now Assist in Virtual Agent uses large language models \(LLM\)s and generative AI to improve deflection rates and make it easier for users to find relevant information. To learn more about what Now Assist in Virtual Agent can do, see .
+Now Assist in Virtual Agent uses large language models \(LLM\)s and generative AI to improve deflection rates and make it easier for users to find relevant information. To learn more about what Now Assist in Virtual Agent can do, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
 
 Now Assist in Virtual Agent can currently be configured as a chat widget experience. The chat widget enables you to access Now Assist from the Now Assist icon on your home page. Tapping on the icon opens a chat window that can be used to converse with a virtual agent.
 

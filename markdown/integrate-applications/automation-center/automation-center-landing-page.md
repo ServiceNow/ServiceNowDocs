@@ -42,7 +42,7 @@ Automation Center integrates with third-party vendors enabling you to get their 
 
 ## Automation Center API
 
-The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see .
+The Automation Center API enables you to create and update processes, robots, and execution jobs. For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/auto-api.md).
 
 ## Integration with Requirement Intake Diagram
 

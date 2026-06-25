@@ -29,7 +29,7 @@ For more information on support levels, see [Application support for domain sepa
 
 Domain separation enables you to create partitions in the application data and administrative processes. Because the generative AI tables are domain separated, Generative AI Controller supports domain separation for OneExtend capabilities. The capabilities are the basic building blocks for Virtual Agent Designer topics, components, flows, and scripts that use generative AI. With domain separation, you can isolate the data and control access so that users in one domain don’t have access to the capabilities of another domain.
 
-For more details on domain separation and Virtual Agent, check out the documentation.
+For more details on domain separation and Virtual Agent, [check out the documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md).
 
 ## How domain separation works in Generative AI Controller
 

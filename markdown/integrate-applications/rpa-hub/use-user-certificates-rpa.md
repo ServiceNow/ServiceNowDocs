@@ -95,15 +95,15 @@ Generate a code signing certificate for publishing an automation project from RP
 
 9.  Generate a user certificate.
 
-<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d163480e362">
+<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d163477e362">
 
 Certificate type
 
-</th><th align="left" id="d163480e365">
+</th><th align="left" id="d163477e365">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163480e371">
+</th></tr></thead><tbody><tr><td id="d163477e371">
 
 **mTLS authentication for client certificate**
 
@@ -125,7 +125,7 @@ Steps
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d163480e448">
+</td></tr><tr><td id="d163477e448">
 
 **Code signing certificate**
 

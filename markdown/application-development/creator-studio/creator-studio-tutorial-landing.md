@@ -7,7 +7,7 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 14
 breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---

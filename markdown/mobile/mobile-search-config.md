@@ -35,7 +35,7 @@ You can include a global search bar on your launcher screen. Use search to give 
 Create search criteria for your launcher screen to help your users find related information quickly. You can configure which sources the search uses, as well as options like search result limits. For details on configuring custom search criteria:
 
 -   For Zing search engine, see [Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-create-custom-search.md).
--   For AI Search search engine, see the Now Mobile documentation AI Search in mobile.
+-   For AI Search search engine, see the Now Mobile documentation [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
 
 **Note:** AI Search utilizes the data sources of catalog items, KB articles and users. Use AI Search, wherever possible, when using these data sources. Use Zing in the launcher screen if you utilize other data sources not associated with AI Search, for example user tasks or requests.
 

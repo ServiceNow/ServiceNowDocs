@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mob-playbk-crea
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure mobile web screens with Mobile App Bridge, Mobile App Bridge, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -38,7 +38,7 @@ You must create a Now Experience Framework page in [UI Builder](https://raw.gith
 
 5.  Select **Create from scratch instead**.
 
-    For information about working with templates or creating a page from scratch in UI Builder, see .
+    For information about working with templates or creating a page from scratch in UI Builder, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 6.  Name the page and select **Continue**.
 
@@ -80,7 +80,7 @@ You must create a Now Experience Framework page in [UI Builder](https://raw.gith
     5.  When you've finished configuring the event handler, select **Add** in the lower right corner of the dialog box.
 14. In the Now Experience Framework editor page, select **Save** in the upper right corner to save the page.
 
-    For information about configuring a playbook, see .
+    For information about configuring a playbook, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
     **Note:** The getTitle\(\) method in the GlideListProperties API isn't available in Mobile App Bridge to configure Next Experience \(Seismic\) pages.
 

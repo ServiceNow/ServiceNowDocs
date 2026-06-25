@@ -43,7 +43,7 @@ If adding pagination to a simple search source, set **Paginate results** on the 
     |Scope|Method|
     |-----|------|
     |Global|setLocation\(\) in [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|
-    |Scoped application|chooseWindow\(\) in GlideRecord - Scoped|
+    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|
 
     The following is an example data fetch script for a global search source that queries the incident table and paginates results.
 

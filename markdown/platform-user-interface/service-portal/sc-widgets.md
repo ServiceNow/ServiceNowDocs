@@ -67,5 +67,5 @@ Use this widget to add catalog items or record producers to the wish list so tha
 **Related topics**  
 
 
-[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
+[bundle-platcap.catalog-on-portal]
 

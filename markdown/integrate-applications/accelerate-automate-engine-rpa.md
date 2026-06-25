@@ -59,7 +59,7 @@ The workflow for this solution is
 6.  The extraction stage completes and the validation stage starts. An agent can view this process in the playbook.
 7.  By using Integration Hub, a third-party integration validates the extracted data from the check. The extracted values are sent through an API for validation using Integration Hub spoke actions. This flow is completed by using Workflow Studio with the power of the Integration Hub spokes. The flow hits an external end point, fetches the data, and compares this data against the system data to validate the bank details. On a successful validation, the direct deposit form is updated with any relevant notes.
 
-    For more information about Workflow Studio, see . For more information about Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integrationhub.md).
+    For more information about Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md). For more information about Integration Hub, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integrationhub.md).
 
 8.  The data validation stage completes and the payroll system update stage begins.
 9.  When the request arrives for a payroll update, the system initiates an unattended robot to process the employee's bank information into the legacy payroll system \(that doesn't have any API interface\) by using RPA Hub.
@@ -84,5 +84,5 @@ Your administrators can integrate the solution by doing the following actions:
 4.  Install the RPA Hub application. For more information, see [Install Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-rpa.md).
 5.  Install the Automation Center application. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/install-automation-center.md).
 6.  Activate a spoke. For more information, see [Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/spokes-list.md).
-7.  Build spokes using Spoke Generator. For more information, see .
+7.  Build spokes using Spoke Generator. For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/spoke-builder.md).
 

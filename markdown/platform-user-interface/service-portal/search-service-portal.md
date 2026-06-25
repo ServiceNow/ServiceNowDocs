@@ -33,7 +33,7 @@ Generate relevant search suggestions for your users and monitor search analytics
 
 -   **Generate suggestions from custom widgets**
 
-    By default, the Search Events \[sys\_search\_event\] and Search Source Events \[sys\_search\_source\_event\] tables collect search data from base system search widgets. To generate search analytics from custom Service Portal search widgets, use the GlideSPSearchAnalytics API. For more information, see GlideSPSearchAnalytics.
+    By default, the Search Events \[sys\_search\_event\] and Search Source Events \[sys\_search\_source\_event\] tables collect search data from base system search widgets. To generate search analytics from custom Service Portal search widgets, use the GlideSPSearchAnalytics API. For more information, see [GlideSPSearchAnalytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideSPSearchAnalyticsAPI.md).
 
 
 ## Performance recommendations

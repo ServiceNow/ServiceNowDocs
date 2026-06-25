@@ -22,5 +22,5 @@ To interact with Virtual Agent, simply click the chat window icon on the bottom 
 
 \[Omitted image "hcls-emr-help-virtual-agent.png"\] Alt text: Virtual Agent in EMR Help portal.
 
-For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/virtual-agent.md).
+For more information on Virtual Agent, see .
 

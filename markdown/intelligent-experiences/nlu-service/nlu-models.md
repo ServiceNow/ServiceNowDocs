@@ -63,7 +63,7 @@ Fewer functions and columns are displayed for IAR than for the other application
 -   The **Create new model** button is not displayed because the prebuilt model is used directly.
 -   The section **Boost your model performance** is not displayed.
 
-For more information on setting up IAR, see .
+For more information on setting up IAR, see [Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md).
 
 ## NLU Models for AI Search
 

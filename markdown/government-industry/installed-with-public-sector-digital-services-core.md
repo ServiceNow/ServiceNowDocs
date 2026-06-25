@@ -1813,7 +1813,7 @@ Provides users access to view reports Social Benefits Playbook.
 sn\_gsm.report\_viewer
 
 </td></tr></tbody>
-</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/business-stakeholder-for-csm.md).
+</table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under Business Stakeholder for Customer Service Management.
 
 ### Persona-based Roles in Public Sector Digital Services
 

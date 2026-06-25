@@ -91,7 +91,7 @@ The application scope where this automation is created.
 
     The requirement diagram is visible from the Workflow Studio.
 
-    For more information about editing or creating diagrams, see .
+    For more information about editing or creating diagrams, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
     At this point you must create a trigger to activate the automation.
 

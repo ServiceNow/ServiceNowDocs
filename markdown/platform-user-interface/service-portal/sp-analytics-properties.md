@@ -36,5 +36,5 @@ Use system properties to configure Usage Insights for Service Portal.
 
 [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
-[Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UniqueRecordIdentifier.md)
+[bundle-platadm.c_UniqueRecordIdentifier]
 

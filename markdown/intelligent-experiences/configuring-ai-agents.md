@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-ai-agents.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-06-24"
-reading_time_minutes: 5
+last_updated: "2026-06-25"
+reading_time_minutes: 6
 breadcrumb: [Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -73,9 +73,9 @@ When there are more than the ideal 8 to 10 AI agents available for an agentic wo
 
 ## Invoke Conversations with AI Agent Background Channel
 
-The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see .
+The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see [Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/create-provider-va-cccif.md).
 
-Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see .
+Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md).
 
 To start a conversation, trigger the flow using the sn\_aia.AiAgentRunttimeUtil\(\).startAiAgentConversation\(request\) API in the Script Include \(sys\_script\_include\) of the AIAgentBackgroundProvider and select **Run Script**. When the Script execution status indicates Success, the conversation begins in the order of utterances defined in the Script.
 

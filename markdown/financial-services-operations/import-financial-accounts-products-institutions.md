@@ -16,7 +16,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see Application picker.
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: sn\_bom.admin
 
@@ -40,7 +40,7 @@ Role required: sn\_bom.admin
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/system-import-sets/t_RunImport.md).
+    For more information, see Run an import.
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

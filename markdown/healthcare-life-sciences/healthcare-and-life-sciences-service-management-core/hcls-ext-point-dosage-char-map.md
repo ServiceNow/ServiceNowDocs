@@ -18,7 +18,7 @@ Use scripted extension points to decide which dosage characteristics are mapped 
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -69,7 +69,7 @@ Dosage - quantity
 Quantity
 
 </td></tr></tbody>
-</table>Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
+</table>Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 

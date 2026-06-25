@@ -48,15 +48,15 @@ Work with your data source admin to create a connection to Apache Iceberg. For a
 
 4.  Configure the object storage system that you want to use with Apache Iceberg.
 
-<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d475860e241">
+<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d475865e241">
 
 Option
 
-</th><th align="left" id="d475860e244">
+</th><th align="left" id="d475865e244">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d475860e250">
+</th></tr></thead><tbody><tr><td id="d475865e250">
 
 **Amazon S3**
 
@@ -68,7 +68,7 @@ Description
 4.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d475860e274">
+</td></tr><tr><td id="d475865e274">
 
 **Azure Data Lake Storage \(ADLS\)**
 
@@ -81,15 +81,15 @@ Enter the ADLS Access Key.
 
     **Note:** AWS Glue is only applicable when you select Amazon S3 as the object storage system.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d475860e298">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d475865e298">
 
 Option
 
-</th><th align="left" id="d475860e301">
+</th><th align="left" id="d475865e301">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d475860e307">
+</th></tr></thead><tbody><tr><td id="d475865e307">
 
 **Hive Thrift**
 
@@ -103,7 +103,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d475860e342">
+</td></tr><tr><td id="d475865e342">
 
 **AWS Glue**
 

@@ -34,7 +34,7 @@ To set up your integration, complete the following application setup actions.
 
 3.  Install the Financial Services Operations Integration with Guidewire application from the ServiceNow Store, which automatically activates the Guidewire spoke.
 
-    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/guidewire-spoke.md).
+    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see .
 
 
 **Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integration-with-guidewire-landing-page.md)

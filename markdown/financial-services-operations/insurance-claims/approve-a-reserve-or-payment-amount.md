@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d58078e89">
+<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d58105e89">
 
 Option
 
-</th><th align="left" id="d58078e92">
+</th><th align="left" id="d58105e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58078e98">
+</th></tr></thead><tbody><tr><td id="d58105e98">
 
 **From the landing page**
 
@@ -48,7 +48,7 @@ Description
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d58078e107">
+</td></tr><tr><td id="d58105e107">
 
 **From the Insurance claims approvals list**
 
@@ -64,15 +64,15 @@ Select the task from the My pending tasks list.
 </td></tr></tbody>
 </table>3.  Close the task from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d58078e159">
+<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d58105e159">
 
 Approval task
 
-</th><th align="left" id="d58078e162">
+</th><th align="left" id="d58105e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58078e168">
+</th></tr></thead><tbody><tr><td id="d58105e168">
 
 **Submit an approval**
 
@@ -80,7 +80,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d58078e180">
+</td></tr><tr><td id="d58105e180">
 
 **Submit a rejection**
 

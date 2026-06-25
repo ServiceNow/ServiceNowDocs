@@ -34,15 +34,15 @@ The following diagram shows the application flow for this use case scenario and 
 
 </td><td>
 
-1.  The agent enters the required information on the FSO form. Using this information, formulate the REST call /api/getTransactions using the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API and send it to the remote bank application to obtain the customer's financial transaction details.
+1.  The agent enters the required information on the FSO form. Using this information, formulate the REST call /api/getTransactions using the RESTMessageV2 API and send it to the remote bank application to obtain the customer's financial transaction details.
 2.  The remote bank application processes the request and returns the specified customer's financial transaction details.
-3.  The financial transaction details are cached on the ServiceNow instance in remote tables using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
+3.  The financial transaction details are cached on the ServiceNow instance in remote tables using the v\_table API.
 4.  The transaction details are then displayed on the FSO form.
 
 </td></tr></tbody>
 </table>## Example code
 
-The follow code example shows how to use the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API to create and execute the REST call to the external bank application. It then store the return results in a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md) using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/v_tableAPI.md) API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
+The follow code example shows how to use the RESTMessageV2 API to create and execute the REST call to the external bank application. It then store the return results in a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables/remote-tables.md) using the v\_table API. Before you can use the v\_table API you must activate the Remote Tables \(com.glide.script.vtable\) plugin.
 
 ```
 (function executeQuery (v_table, v_query) {

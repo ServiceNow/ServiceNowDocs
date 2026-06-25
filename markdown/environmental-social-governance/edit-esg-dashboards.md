@@ -34,15 +34,15 @@ The **More actions** menu includes the option to clear the edit lock. Use this o
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d22727e104">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d22729e104">
 
 Action
 
-</th><th align="left" id="d22727e107">
+</th><th align="left" id="d22729e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d22727e113">
+</th></tr></thead><tbody><tr><td id="d22729e113">
 
 **Edit dashboard details**
 
@@ -63,7 +63,7 @@ To edit the details of a dashboard created in the in-line editor:
 3.  Edit the details of the dashboard and then select **Exit editing mode**.
  For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/edit-esg-dashboard-details.md).
 
-</td></tr><tr><td id="d22727e187">
+</td></tr><tr><td id="d22729e187">
 
 **Configure the dashboard layout**
 
@@ -71,7 +71,7 @@ To edit the details of a dashboard created in the in-line editor:
 
 Select and drag an element's handlebars to resize it. Select and drag an entire element to move it around the dashboard layout. Elements include data visualizations, filters, and other dashboard content.
 
-</td></tr><tr><td id="d22727e196">
+</td></tr><tr><td id="d22729e196">
 
 **Add a tab to a dashboard**
 
@@ -79,7 +79,7 @@ Select and drag an element's handlebars to resize it. Select and drag an entire 
 
 Select **Add a tab**. A tab labeled `New Tab` is added next to any existing tabs. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus. Select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text: to rename the tab.
 
-</td></tr><tr><td id="d22727e219">
+</td></tr><tr><td id="d22729e219">
 
 **Reorder a dashboard tab**
 
@@ -92,7 +92,7 @@ You can reorder tabs by dragging and dropping them. You can also reorder dashboa
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d22727e253">
+</td></tr><tr><td id="d22729e253">
 
 **Duplicate a dashboard tab**
 
@@ -102,7 +102,7 @@ You can duplicate a tab on the current dashboard.1.  Select **Edit** to put the 
 2.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: next to the tab's name and choose **Duplicate**.
 A new tab with the same content as the duplicated tab opens with the name `New Tab`. Choose the pencil icon \[Omitted image "pencil-icon.png"\] Alt text: to rename the tab.
 
-</td></tr><tr><td id="d22727e291">
+</td></tr><tr><td id="d22729e291">
 
 **Delete a dashboard tab**
 
@@ -112,7 +112,7 @@ A new tab with the same content as the duplicated tab opens with the name `New T
 2.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: next to the tab's name and choose **Delete**.
  **Note:** There’s no confirmation message. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d22727e323">
+</td></tr><tr><td id="d22729e323">
 
 **Rename a tab**
 
@@ -130,7 +130,7 @@ If you rename a tab on a dashboard that has been translated, the translations ar
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d22727e362">
+</td></tr><tr><td id="d22729e362">
 
 **Configure the refresh settings**
 
@@ -143,7 +143,7 @@ Role required: admin.1.  Select **Edit** to put the dashboard into edit mode.
 
 The minimum refresh interval is 10 minutes.
 
-</td></tr><tr><td id="d22727e401">
+</td></tr><tr><td id="d22729e401">
 
 **Configure background colors**
 
@@ -156,13 +156,13 @@ The minimum refresh interval is 10 minutes.
 
 Specify Hex or RGBA values, or choose from the color picker.
 
-</td></tr><tr><td id="d22727e435">
+</td></tr><tr><td id="d22729e435">
 
 **Configure Insights**
 
 </td><td>
 
-Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
+Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see .
 
 </td></tr></tbody>
 </table>    **Note:** If you aren’t able to edit, either you don’t have permission to edit the dashboard, or it is in edit lock.

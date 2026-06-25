@@ -28,7 +28,7 @@ Using schedules, you can specify that the due date for a metric data task. For e
 
 2.  Select **New** and provide a unique and meaningful **Name** and **Description**, and then fill in the form.
 
-    For detailed information on Schedule form fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
+    For detailed information on Schedule form fields, see Schedule fields.
 
 
 **Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configuring-esg.md)
