@@ -90,7 +90,7 @@ On the Conversation intake skill card, verify that your AI conversational intake
 
 **Note:** The Platform AI conversational experience skills are active by default.
 
- For more information, see .
+ For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -118,15 +118,15 @@ Summarization for fulfillers
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d79731e426">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d79731e427">
 
 Option
 
-</th><th align="left" id="d79731e429">
+</th><th align="left" id="d79731e430">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79731e435">
+</th></tr></thead><tbody><tr><td id="d79731e436">
 
 **Skill is always available**
 
@@ -134,7 +134,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d79731e444">
+</td></tr><tr><td id="d79731e445">
 
 **Customize skill availability**
 
@@ -147,15 +147,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d79731e480">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d79731e481">
 
 Option
 
-</th><th align="left" id="d79731e483">
+</th><th align="left" id="d79731e484">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79731e489">
+</th></tr></thead><tbody><tr><td id="d79731e490">
 
 **In-product**
 
@@ -163,7 +163,7 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d79731e500">
+</td></tr><tr><td id="d79731e501">
 
 **Now Assist panel**
 

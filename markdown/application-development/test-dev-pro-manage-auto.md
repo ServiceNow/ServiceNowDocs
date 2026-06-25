@@ -20,11 +20,11 @@ Automate your ServiceNow apps.
 
 </td><td>
 
-Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.
+[Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md)
 
 </td><td>
 
-Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.
+[Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 
 </td></tr><tr><td>
 

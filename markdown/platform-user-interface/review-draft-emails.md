@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/review-draft-emails.html
 release: xanadu
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Compose emails from the full email composer, Communicating via email in Workspace, Responding to issues in an open record in Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

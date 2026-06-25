@@ -28,15 +28,15 @@ Users can manage knowledge subscriptions from the Knowledge application or from 
 
 1.  Navigate to the Notification Settings page.
 
-<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d179665e66">
+<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d179449e66">
 
 Location
 
-</th><th align="left" id="d179665e69">
+</th><th align="left" id="d179449e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179665e75">
+</th></tr></thead><tbody><tr><td id="d179449e75">
 
 **From the Knowledge application**
 
@@ -44,7 +44,7 @@ Description
 
 Click the **Notification Settings** module.**Note:** Activate Knowledge Management Core plugin \(com.glideapp.knowledge\).
 
-</td></tr><tr><td id="d179665e90">
+</td></tr><tr><td id="d179449e90">
 
 **From the Knowledge Management Service Portal**
 

@@ -66,7 +66,7 @@ Tables transform map link
 
 Table that the extracted data is cached and stored in.Select the table name to view the table on the ServiceNow AI Platform in a new browser tab.
 
-For more information on creating table transform maps, see .
+For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ ERP model used in the ETL extraction.Select the ERP model name to view the detai
 
 ## What to do next
 
-After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see .
+After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
 **Parent Topic:**[Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

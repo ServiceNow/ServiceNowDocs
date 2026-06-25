@@ -79,7 +79,7 @@ Result
 
 </td><td>
 
-Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see .
+Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see [Display field messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/useful-client-side-scripts.md).
 
 </td></tr><tr><td>
 

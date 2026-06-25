@@ -121,7 +121,7 @@ The Finance &amp; Supply Chain workflow supports purchase requisitions, sourcing
 -   Users can take advantage of Now Assist skills by using the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-panel-overview.md) on the instance.
 -   Use [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/now-assist-ais.md) to generate answers for AI Search.
 -   Use [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/mobile/mobile-platform/now-assist-mobile-landing.md) to run generative AI skills in a mobile environment.
--   Use [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) to create conversational catalog experiences and author topics that use LLM topic discovery.
+-   Use  to create conversational catalog experiences and author topics that use LLM topic discovery.
 -   Developers can use the [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/generative-ai-controller.md) to integrate generative AI features in custom flows and conversations by using your own third-party large language model \(LLM\) licenses.
 
 The following diagram shows what's available in the Now Assist framework.

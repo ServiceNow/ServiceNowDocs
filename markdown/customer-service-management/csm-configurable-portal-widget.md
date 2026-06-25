@@ -30,7 +30,7 @@ For more information on using configurable widgets in your customer portals, see
 
 ## Widget instances
 
-You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see .
+You can use widget instances to configure the location, properties, and CSS specific to that instance. For more information, see [Configure widget instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
 
 The following are Configurable Portal widgets that enable you to configure the portal homepage.
 

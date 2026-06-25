@@ -29,7 +29,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Click the number icon to see more information about the additional users.
 
-For more information about this feature, see .
+For more information about this feature, see [User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_UserPresence.md).
 
 ## Email templates feature
 
@@ -37,7 +37,7 @@ The CSM default record page includes the Email Templates feature. CSM Configurab
 
 These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
 
-Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see .
+Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 
 Agents can use this feature to do the following:
 

@@ -42,5 +42,5 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 **Related topics**  
 
 
-[bundle-platux.standard-ticket-page]
+[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/standard-ticket-page.md)
 

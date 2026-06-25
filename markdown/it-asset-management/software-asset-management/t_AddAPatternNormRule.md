@@ -7,7 +7,7 @@ release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Software discovery and normalization, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
 ---

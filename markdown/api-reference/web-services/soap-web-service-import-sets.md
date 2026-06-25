@@ -1,0 +1,35 @@
+---
+title: SOAP web service import sets
+description: Web service import sets complement direct web services and scripted SOAP web services by providing a web service interface to import sets tables.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/soap-web-service-import-sets.html
+release: xanadu
+product: Web Services
+classification: web-services
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+---
+
+# SOAP web service import sets
+
+Web service import sets complement direct web services and scripted SOAP web services by providing a web service interface to import sets tables.
+
+By default, this type of web service synchronously transforms the incoming data based on the associated transform maps. If the associated import set mode is set to Asynchronous, the behavior is to save the data for transformation at a later time. Web service import sets tables publish all default web service functions in the WSDL.
+
+You can access a web service import set WSDL by specifying the import set table name + ".do?WSDL" on the URL.
+
+For example:
+
+`http://<instance name>.service-now.com/imp_notification.do?WSDL`.
+
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_SOAPWebService.md)
+
+**Related topics**  
+
+
+[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+
+[Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
+

@@ -645,5 +645,5 @@ Defines dynamic variables for a model used in an application form.
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-data-model-tables.md), [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/r_TIWCustomerService.md), [Tables installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/asset-management/c_InstalledWithModelManagement.md), and .
+</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/csm-data-model-tables.md), [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/customer-service-management/r_TIWCustomerService.md), Tables installed with Model Management, and .
 

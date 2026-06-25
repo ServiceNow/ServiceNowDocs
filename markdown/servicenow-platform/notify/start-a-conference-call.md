@@ -50,7 +50,7 @@ Call participants can include:
 
 6.  To select ad-hoc participants,
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d156565e151">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d156349e151">
 
 **Click the reference lookup icon, and select the relevant user.**
 
@@ -58,7 +58,7 @@ Call participants can include:
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d156565e163">
+</td></tr><tr><td id="d156349e163">
 
 **Enter the participant's phone number**
 

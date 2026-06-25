@@ -16,7 +16,7 @@ breadcrumb: [Server-side scripting, Scripting, Building pro-code applications, D
 
 Using methods in the GlideRecord API, you can return all records from a table, return records from a table that satisfy specific conditions, or return records that include a string from a single table or from multiple tables in a text index group.
 
-Query tables using the GlideRecord API. For API reference, see GlideRecord - Scoped.
+Query tables using the GlideRecord API. For API reference, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## Return all records from a table
 
@@ -301,7 +301,7 @@ while (target.next()) {
 }
 ```
 
-For more information on the GlideRecord API and its available methods, see GlideRecord.
+For more information on the GlideRecord API and its available methods, see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 ## GlideRecord query examples
 
@@ -363,5 +363,5 @@ while(gr.next()) {
   gs.addInfoMessage(gr.request_item.number); }
 ```
 
-For additional information see GlideRecord.
+For additional information see [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 

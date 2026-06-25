@@ -68,7 +68,7 @@ Phone number of the consumer or customer contact. The phone number is in the E.1
 
  By default, the user profiles for consumers and customer contacts and the format of their phone numbers are validated for the SMS channel.
 
- If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see Phone number fields.
+ If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see [Phone number fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UsePhoneNumberFields.md).
 
 </td></tr><tr id="agent-init-message"><td>
 

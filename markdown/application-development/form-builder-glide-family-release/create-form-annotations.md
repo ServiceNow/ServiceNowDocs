@@ -57,15 +57,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select an option for **Annotation text**.
 
-<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d111212e311">
+<table id="choicetable_ttw_vx3_fsb"><thead><tr><th align="left" id="d111217e311">
 
 Annotation text option
 
-</th><th align="left" id="d111212e314">
+</th><th align="left" id="d111217e314">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111212e320">
+</th></tr></thead><tbody><tr><td id="d111217e320">
 
 **Plain text**
 
@@ -73,7 +73,7 @@ Description
 
 Text that is entered renders on the form as plain text.
 
-</td></tr><tr><td id="d111212e329">
+</td></tr><tr><td id="d111217e329">
 
 **Rich text**
 

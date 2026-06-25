@@ -116,7 +116,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/sec-center-v2.md).
 
 </td></tr><tr><td>
 
@@ -734,7 +734,7 @@ Data Certification manages scheduled and on-demand validations of the configurat
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See .
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280) to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
 </td></tr><tr><td>
 
@@ -946,7 +946,7 @@ The Knowledge Management v3 homepage will no longer be deployed or activated beg
 
 </td><td>
 
-Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in , and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
+Install and configure the Knowledge Management Service Portal plugin \(com.snc.knowledge\_serviceportal\) using the guidance in [Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md), and set the **sn\_km\_portal.glide.knowman.serviceportal.enable\_redirect** system property to true to activate redirection from the v3 homepage to the Portal.
 
 </td></tr><tr><td>
 

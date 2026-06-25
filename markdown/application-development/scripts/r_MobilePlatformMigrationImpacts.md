@@ -33,7 +33,7 @@ Use the new mobile methods
 
 </td><td>
 
-Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that are not valid on the mobile platform. For information on these new methods, refer to Mobile GlideForm\(\) API.
+Several new methods are available for modifying form fields instead of directly manipulating the HTML. These methods replace previous usages of g\_form.getControl\(\), which is deprecated for the mobile platform. In your existing scripts, ensure that the new methods are used in place of methods that are not valid on the mobile platform. For information on these new methods, refer to [Mobile GlideForm\(\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/c_MobileGlideForm_API.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Do not make synchronous Ajax calls
 
 </td><td>
 
-The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/p_AJAX.md). For information on the available GlideAjax methods, refer to the GlideAjax API.
+The mobile platform does not allow synchronous GlideAjax calls. Any use of getXMLWait\(\) in a GlideAjax call will not work on the mobile platform. Be sure that all GlideAjax calls are asynchronous. For more on synchronous versus asynchronous GlideAjax calls and getXMLWait\(\), see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/p_AJAX.md). For information on the available GlideAjax methods, refer to the [GlideAjax API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/c_GlideAjaxAPI.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Do not make synchronous GlideRecord calls
 
 </td><td>
 
-The mobile platform does not allow synchronous GlideRecord calls. Make sure that any existing GlideRecord calls include a callback. For example, the following script does not include a callback and is incompatible with the mobile platform:
+The mobile platform does not allow synchronous [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) calls. Make sure that any existing GlideRecord calls include a callback. For example, the following script does not include a callback and is incompatible with the mobile platform:
 
  ```
  var now_GR = new GlideRecord('incident');

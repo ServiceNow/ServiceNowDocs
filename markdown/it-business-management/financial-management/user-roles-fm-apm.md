@@ -22,7 +22,7 @@ If you are a new customer, the Read only roles for PPM Standard \(com.snc.pmo\_r
 
 ## Why read-only roles for FM
 
-Read only roles for Financial Management \(sn\_itfm\_read\) is available when Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) is activated. Users with this role can access dashboards and view reports in Financial Management for Application Portfolio Management. To assign user roles, including read-only roles, see assign a role to a user.
+Read only roles for Financial Management \(sn\_itfm\_read\) is available when Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) is activated. Users with this role can access dashboards and view reports in Financial Management for Application Portfolio Management. To assign user roles, including read-only roles, see [assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
 ## Dashboards accessible to users with FM read role
 

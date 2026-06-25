@@ -128,7 +128,7 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with Basic Authentication credentials**: Uses Enable basic authentication for outbound SOAP credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses OAuth 2.0 credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its OAuth 2.0 tutorial - create a REST message set to **OAuth 2.0** and its OAuth profiles and scopes configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its OAuth 2.0 tutorial - create a REST message set to **OAuth 2.0** and its OAuth profiles and scopes configured appropriately.
 
 
 </td></tr><tr><td id="d90184e330">
@@ -137,7 +137,7 @@ Determines what type of authentication is required for the endpoint. The options
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See Configure the MID Server for CyberArk for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td id="d90184e352">
 
@@ -554,7 +554,7 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with Basic Authentication credentials**: Uses Enable basic authentication for outbound SOAP credentials to override the credentials in the REST message definition. Basic authentication credentials must be provisioned before they are available for selection.
 -   **Override with Certificate Authentication credentials**: Uses a certificate, such as a private key, to override the credentials in the REST message definition.
 -   **Override with Both Basic and Certificate Authentication credentials**: Uses both basic authentication and certificate authentication to override the credentials in the REST message definition.
--   **Override with OAuth Authentication credentials**: Uses OAuth 2.0 credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its OAuth 2.0 tutorial - create a REST message set to **OAuth 2.0** and its OAuth profiles and scopes configured appropriately.
+-   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_OAuthApplications.md) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its OAuth 2.0 tutorial - create a REST message set to **OAuth 2.0** and its OAuth profiles and scopes configured appropriately.
 
 
 </td></tr><tr><td>
@@ -563,7 +563,7 @@ Credentials
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the Configure the MID Server for CyberArk defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td>
 

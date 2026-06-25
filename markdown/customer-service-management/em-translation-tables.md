@@ -40,7 +40,7 @@ Stores translations for configurable fields such as User Greeting and Search Mes
 -   **Table Name**: Name of the feature instance.
 -   **Value**: Translated text that the user sees.
 
- For details about translating text content into different languages, see Translated text table and Translating text fields.
+ For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/system-localization/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 

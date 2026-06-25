@@ -42,7 +42,7 @@ Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic 
 
     4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP S4 HANA IDoc admin.
 
-        For more information, see Synchronize a JAR file to MID Servers.
+        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
 
     **Note:** Ensure that the files are synchronised in the `<MID-Server-root-directory>/agent/extlib` directory. If the files aren't synchronised, restart the MID Server.
 

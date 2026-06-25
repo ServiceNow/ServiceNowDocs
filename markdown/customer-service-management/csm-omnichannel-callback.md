@@ -14,7 +14,7 @@ breadcrumb: [Customer communication, Using Customer Service Management, Customer
 
 The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
 
-For more information, see Omnichannel Callback.
+For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md).
 
 ## Callback flow
 

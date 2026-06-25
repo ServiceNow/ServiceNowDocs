@@ -22,7 +22,7 @@ Once you create a guided tour, you can specify a domain to which it applies. You
 
 ### Before you begin
 
-Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must [request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/t_ActivateDomainSeparation.md).
+Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must request domain separation.
 
 **Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/t_ActivateUI16.md).
 

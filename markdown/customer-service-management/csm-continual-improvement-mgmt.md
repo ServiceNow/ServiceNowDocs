@@ -23,16 +23,16 @@ See [Continual Improvement Management](https://raw.githubusercontent.com/Service
 
 ## Use CIM with Customer Service Management
 
-To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see Request Continual Improvement Management.
+To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see [Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/continual-improvement-management/request-cim.md).
 
 **Related topics**  
 
 
-[bundle-itsm.get-started-cim]
+[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
 
-[bundle-itsm.cim-roles]
+[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/continual-improvement-management/cim-roles.md)
 
-[bundle-itsm.cim-improvement-request]
+[Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/continual-improvement-management/cim-improvement-request.md)
 
-[bundle-itsm.cim-improvement-initiative-mgmt]
+[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 

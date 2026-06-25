@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/preview-sign-wo-csm-portal.html
 release: xanadu
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Managing work order tasks from the Customer or Consumer Service Portal, Using Field Service Management, Field Service Management]
 ---

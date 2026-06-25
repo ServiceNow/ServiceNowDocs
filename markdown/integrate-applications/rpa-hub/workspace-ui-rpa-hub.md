@@ -80,7 +80,7 @@ From the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon
 
 \[Omitted image "rpa-hub-lists.png"\] Alt text: Lists view.
 
-You can create your own filtered lists to monitor your digital workforce by configuring **My Lists**. These lists are only visible to you. For more information, see Create My Lists in workspace.
+You can create your own filtered lists to monitor your digital workforce by configuring **My Lists**. These lists are only visible to you. For more information, see [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-filtered-list-agent-workspace.md).
 
 ## Help center
 

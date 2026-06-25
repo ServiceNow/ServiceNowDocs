@@ -42,7 +42,7 @@ Walk-up Experience includes several base-system notifications that you can use o
     For more information, refer to the following topics:
 
     -   [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateANotification.md)
-    -   Create a push message
+    -   [Create a push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_CreateAPushMessage.md)
     For complete information regarding using the System Notification application, refer to [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/notifications.md).
 
 

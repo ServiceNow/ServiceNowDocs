@@ -7,7 +7,7 @@ release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Managing free-form roadmap views in Portfolio Planning, Create free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---

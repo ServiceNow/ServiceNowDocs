@@ -151,7 +151,7 @@ Higher \(production\) environment
 
 </td></tr><tr><td>
 
-12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see .
+12. If the instance connection is established with a required lower \(non-production\) instance, perform this import task.To establish an instance connection, create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/create-https-connection.md).
 
 Perform this task if you are automatically migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 

@@ -16,7 +16,7 @@ breadcrumb: [ERP Data Hub reference, ERP Data Hub, Building low-code application
 
 ERP Data Hub includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 
-You don't need to do anything to activate the flows, but you can customize them in Workflow Studio if you want. For example, to change the time that they run daily. For more information, see .
+You don't need to do anything to activate the flows, but you can customize them in Workflow Studio if you want. For example, to change the time that they run daily. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-edit.md).
 
 **Note:** ERP Data Hub appears as **ERP Integration** when you work with it in Workflow Studio.
 

@@ -150,7 +150,7 @@ Available with the following plugins:
 </td></tr></tbody>
 </table>## Certifying a dashboard
 
-Users with the admin role can certify a dashboard to indicate that it is company-approved and recommended for use. The default dashboards available from the Dashboard Overview landing page are certified and admins cannot change this setting. Admins can only certify new dashboards. For more information, see .
+Users with the admin role can certify a dashboard to indicate that it is company-approved and recommended for use. The default dashboards available from the Dashboard Overview landing page are certified and admins cannot change this setting. Admins can only certify new dashboards. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/certify-db-ac.md).
 
 ## Working with dashboards
 
@@ -227,7 +227,7 @@ Duplicate a dashboard
     -   Select **Open it** in the information message.
     -   Select the dashboard tile on the Dashboard Overview landing page.
 
- For more information, see .
+ For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/duplicate-db.md).
 
 </td></tr><tr><td>
 
@@ -253,7 +253,7 @@ Share a dashboard
 6.  The selected users, groups, or roles are added to the Manage Access section. From here, you can change the permissions.
 7.  Click **Confirm**.
 
- For more information, see .
+ For more information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/share-db-in-ac.md).
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Create a dashboard
 1.  From the Dashboard Overview landing page, select **Create new dashboard**.
 2.  From the New dashboard pop-up window, select **In-line editor**.
 3.  Provide a **Name** and a **Description** and select **Create new dashboard**. The new dashboard opens in the editing mode.
-4.  Add new elements to the dashboard. For more information about this step, see see .
+4.  Add new elements to the dashboard. For more information about this step, see see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/create-db-in-ac.md).
 
  When you create a dashboard with the in-line editor, several elements are available to help you organize and populate the information on your dashboard. For more information, see [Platform Analytics dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/ac-elements.md).
 
@@ -277,7 +277,7 @@ Print a dashboard
 1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
 2.  Select **Printer friendly**.
 
- For more information, see .
+ For more information, see [Print a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/printer-friendly-db-ac.md).
 
 </td></tr><tr><td>
 
@@ -288,7 +288,7 @@ Bookmark a dashboard
 1.  Select the More actions menu \(\[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actions icon\).
 2.  Select **Add to bookmarks**.
 
- For more information, see .
+ For more information, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/bookmark-dashboard-ac.md).
 
 </td></tr></tbody>
 </table>

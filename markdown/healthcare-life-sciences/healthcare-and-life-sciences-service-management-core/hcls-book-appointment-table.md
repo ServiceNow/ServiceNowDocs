@@ -63,7 +63,7 @@ Alpha-numeric profile identifier of the appointment booking task.
 
  The value is auto-generated and is incremented every time you add a new appointment booking task to your ServiceNow instance. The initial value for the **Number** field is APPTS00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Book appointment \[sn\_hcls\_book\_appt\_task\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Book appointment \[sn\_hcls\_book\_appt\_task\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr id="patient"><td>
 

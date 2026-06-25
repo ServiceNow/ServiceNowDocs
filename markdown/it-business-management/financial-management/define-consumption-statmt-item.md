@@ -7,7 +7,7 @@ release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 breadcrumb: [Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -94,7 +94,7 @@ Business Service
 
 </td><td>
 
-Business service that uses the statement item as a configured item.You can also define a service .
+Business service that uses the statement item as a configured item.You can also [define a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md) .
 
 </td></tr><tr><td>
 

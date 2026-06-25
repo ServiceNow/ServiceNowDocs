@@ -54,7 +54,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 6.  Click **Continue** to open the Execution Command form, then fill out the **Execution Command** step based on the corresponding execution templates:
 
-    -   Create a SOAP web service activity
+    -   [Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
     -   [Create a JDBC activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/t_CreateAJDBCActivity.md)
     -   [Create a JavaScript Probe activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/t_CreateAJavaScriptProbeActivity.md)
     -   [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/t_CreateAPowershellActivity.md)

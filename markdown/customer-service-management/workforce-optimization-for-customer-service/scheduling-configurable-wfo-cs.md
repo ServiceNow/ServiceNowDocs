@@ -8,7 +8,7 @@ product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 32
+reading_time_minutes: 33
 breadcrumb: [Using Workforce Optimization for Customer Service, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
@@ -28,7 +28,7 @@ With Scheduling, you can do the following:
 -   Analyze whether your team members are following the schedules. If you see a potential issue, you can easily alert your team so that they can take immediate action.
 -   Use historical adherence reports to analyze and recommend coaching opportunities for your agents.
 
-To delve into more information behind your key performance indicators, filters and sidebars, see Exploring indicators with KPI Details
+To delve into more information behind your key performance indicators, filters and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/kpi-details-components.md)
 
 **Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
@@ -58,15 +58,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d43145e222">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d43140e222">
 
 To
 
-</th><th align="left" id="d43145e225">
+</th><th align="left" id="d43140e225">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d43145e231">
+</th></tr></thead><tbody><tr><td id="d43140e231">
 
 **Create a work shift**
 
@@ -99,7 +99,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d43145e349">
+</td></tr><tr><td id="d43140e349">
 
 **Create an on-call shift**
 
@@ -317,15 +317,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d43145e1353">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d43140e1353">
 
 Option
 
-</th><th align="left" id="d43145e1356">
+</th><th align="left" id="d43140e1356">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43145e1362">
+</th></tr></thead><tbody><tr><td id="d43140e1362">
 
 **Does not repeat**
 
@@ -333,7 +333,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d43145e1371">
+</td></tr><tr><td id="d43140e1371">
 
 **Daily**
 
@@ -343,7 +343,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d43145e1395">
+</td></tr><tr><td id="d43140e1395">
 
 **Weekly**
 
@@ -354,7 +354,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d43145e1422">
+</td></tr><tr><td id="d43140e1422">
 
 **Monthly**
 
@@ -368,7 +368,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d43145e1470">
+</td></tr><tr><td id="d43140e1470">
 
 **Yearly**
 
@@ -474,7 +474,7 @@ Adherence and conformance calculations are based on the [defined configuration](
 
 **Note:** Your administrator can disable schedule adherence or change the configuration for adherence and conformance. For more information, see [Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-scheduling-configurable-wfo-cs.md).
 
-For information about schedule adherence, see the "Schedule adherence" section of .
+For information about schedule adherence, see the "Schedule adherence" section of [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/field-service-management/scheduling-wfo-fsm.md).
 
 ### Procedure
 
@@ -562,15 +562,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d43145e2117">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d43140e2118">
 
 To analyze staff alignment
 
-</th><th align="left" id="d43145e2120">
+</th><th align="left" id="d43140e2121">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d43145e2126">
+</th></tr></thead><tbody><tr><td id="d43140e2127">
 
 **For each day**
 
@@ -589,7 +589,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d43145e2210">
+</td></tr><tr><td id="d43140e2211">
 
 **For a given week**
 
@@ -640,15 +640,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d43145e2434">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d43140e2435">
 
 To
 
-</th><th align="left" id="d43145e2437">
+</th><th align="left" id="d43140e2438">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d43145e2443">
+</th></tr></thead><tbody><tr><td id="d43140e2444">
 
 **Create a meeting, training, or time-off request.**
 
@@ -673,7 +673,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d43145e2549">
+</td></tr><tr><td id="d43140e2550">
 
 **Create a work shift**
 
@@ -824,15 +824,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d43145e3108">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d43140e3109">
 
 To
 
-</th><th align="left" id="d43145e3111">
+</th><th align="left" id="d43140e3112">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d43145e3117">
+</th></tr></thead><tbody><tr><td id="d43140e3118">
 
 **Auto-assign agents**
 
@@ -840,7 +840,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d43145e3132">
+</td></tr><tr><td id="d43140e3133">
 
 **Assign agents manually**
 

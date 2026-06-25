@@ -18,7 +18,7 @@ Understand how you can monitor important metrics \(or key process indicators\) a
 
 **Important:** Starting with the Tokyo release, Legacy Workforce Optimization is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up Advanced Work Assignment as per the business requirement.
+The example employee manages Customer Service operations for a large organization and has 12 teams. Each team has anywhere from 8 through 15 agents. The employee must ensure that incoming work gets effectively routed to the right groups across all channels. This can be done by setting up [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md) as per the business requirement.
 
 Once the employee has configured Advanced Work Assignment \(AWA\) appropriately, they can add key performance indicators \(KPIs\) to the channels and queues, and monitor the operational performance of the teams in real time.
 

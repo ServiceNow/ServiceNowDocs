@@ -28,7 +28,7 @@ Guided Flow for Case Creation
 1.  Enter Your Details:
     -   Navigate to **Request Something** &gt; **Support** &gt; **Create case for a product \(Now Assist\)**.
 
-        **Note:** Ensure that AI search in portals is activated. For more info, see Enable and configure AI Search in Service Portal
+        **Note:** Ensure that AI search in portals is activated. For more info, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
 
     -   A single Subject field appears. Start typing your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 

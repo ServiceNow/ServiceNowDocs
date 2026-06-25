@@ -137,7 +137,7 @@ Create a record for a case type as the first step in a playbook by using a playb
 
 </td></tr><tr><td>
 
-
+[Set up email templates in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
 
 </td><td>
 

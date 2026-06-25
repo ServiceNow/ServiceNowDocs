@@ -39,7 +39,7 @@ A default rule blocks the use of the `update_synch` attribute on a table for whi
 -   Some core tables require special update handling because they represent information on multiple tables. When the `update_synch` attribute is added to these tables, duplicate update records are created, causing major conflicts that are difficult to troubleshoot and repair.
 -   Using the update\_synch attribute to migrate data records between instances can cause performance issues, because it is not intended for this purpose. To migrate data, use an instance-to-instance import.
 
-    See Import sets.
+    See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
 
 
 ## Special handlers

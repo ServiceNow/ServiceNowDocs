@@ -59,12 +59,12 @@ Remote table script definitions are domain separated. If users do not have acces
 
 The data within the remote table is not domain separated.
 
-For more information, see Domain separation and remote tables.
+For more information, see [Domain separation and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/remote-tables/domain-separation-remote-tables.md).
 
 ## Related documentation
 
 -   Authentication and credentials
-    -   Set up OAuth provider with JWT Bearer grant type
+    -   [Set up OAuth provider with JWT Bearer grant type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
     -   [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/r-credentials.md)
 -   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub.md)
 -   [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/flow-designer.md)

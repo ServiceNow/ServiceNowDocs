@@ -34,7 +34,7 @@ Role required: sn\_sre.admin
 
 2.  Run the solution definition models such as **Recommend similar skills for cases** or **Recommend skills from similar cases** to train the supervised and unsupervised solutions.
 
-    For more information on training a solution, refer to Create and train a similarity solution.
+    For more information on training a solution, refer to [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 3.  Run the **Start skill prediction** scheduled job everyday to start predicting skills for cases or agents.
 

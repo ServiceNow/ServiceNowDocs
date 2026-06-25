@@ -42,7 +42,7 @@ Role required: cost\_transparency\_admin or cost\_transparency\_analyst
 
     You can assign a bucket to a segment one at a time. Multiple-bucket selection doesn’t apply for segment assignment. If the bucket allocation is to a segment, then you must select the allocation method from the choice list.
 
-<table id="choicetable_lw3_zjd_yq"><tbody><tr><td id="d157973e152">
+<table id="choicetable_lw3_zjd_yq"><tbody><tr><td id="d157998e152">
 
 **__Equal__**
 
@@ -50,7 +50,7 @@ Role required: cost\_transparency\_admin or cost\_transparency\_analyst
 
 Expenses are assigned to the accounts by the same percentage.
 
-</td></tr><tr><td id="d157973e164">
+</td></tr><tr><td id="d157998e164">
 
 **__Manual__**
 
@@ -58,7 +58,7 @@ Expenses are assigned to the accounts by the same percentage.
 
 Expenses are assigned to the accounts by a specified percentage. Enter the amounts in the **Percentage** fields.
 
-</td></tr><tr><td id="d157973e179">
+</td></tr><tr><td id="d157998e179">
 
 **__Weighted__**
 

@@ -47,7 +47,7 @@ The following steps help to configure the Telecommunications API notification in
     To learn more about the functions to handle Event Notification Management Open API requests that are triggered by external trigger definitions to create, update, and delete events, see [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/event_open-api.md) and [TMFTopicEventAPIUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md).
 
 
-This workflow creates an event in the Event Management application. To learn more about using Event Management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/it-operations-management/event-management/c_EM.md).
+This workflow creates an event in the Event Management application. To learn more about using Event Management, see Event Management.
 
 -   **[Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.md)**  
 Create a topic and publish the incoming notifications from the external system to the topic. By creating the topics, subscribers can select the topics to which they want to subscribe.

@@ -7,7 +7,7 @@ release: xanadu
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reports, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ You can update the report settings like the aggregation type, request type, and 
 
     The following reports are displayed.
 
-<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d64074e78">
+<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d64086e78">
 
 Report
 
-</th><th align="left" id="d64074e81">
+</th><th align="left" id="d64086e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64074e87">
+</th></tr></thead><tbody><tr><td id="d64086e87">
 
 **Resource — Group Allocation Details — Monthly \(Hrs\)**
 
@@ -46,7 +46,7 @@ Description
 
 Stack bar chart shows the breakdown of allocated time and available time of a group.
 
-</td></tr><tr><td id="d64074e96">
+</td></tr><tr><td id="d64086e96">
 
 **Resource — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -56,7 +56,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d64074e111">
+</td></tr><tr><td id="d64086e111">
 
 **Resource — Group Member Allocation Details — Weekly \(Hrs\)**
 
@@ -66,7 +66,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d64074e126">
+</td></tr><tr><td id="d64086e126">
 
 **Resource — Project Member Allocation Details — Monthly \(Hrs\)**
 
@@ -74,7 +74,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
 Pivot report shows the list of users allocated to a project on a monthly scale. The report shows allocated and actual hours of every user. Select a project and run the report.
 
-</td></tr><tr><td id="d64074e139">
+</td></tr><tr><td id="d64086e139">
 
 **Resource — Task wise — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -86,7 +86,7 @@ Pivot report shows the following information for every member of the group:
 -   Allocated time and actual time spent by the member on the allocated tasks, on monthly basis, for the next two quarters.
 
 
-</td></tr><tr><td id="d64074e159">
+</td></tr><tr><td id="d64086e159">
 
 **Resource — Task wise — Group Member Allocation Details — Weekly \(Hrs\)**
 

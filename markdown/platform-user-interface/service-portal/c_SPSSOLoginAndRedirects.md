@@ -22,7 +22,7 @@ Only users who understand SSO, URL redirects, and the ServiceNow platform should
 
 To use single sign-on with Service Portal, you must enable the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 
-If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see Multiple-Provider single sign-on \(SSO\).
 
 **Note:** Service Portal has a known issue related to using Multi-Provider SSO and Okta. For more information about this issue and a workaround, see the [Service Portal: After enabling Multi SSO, end users are able to access navpage.do through OKTA if they are already logged in \[KB0687717\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0687717) article in the Now Support Knowledge Base.
 

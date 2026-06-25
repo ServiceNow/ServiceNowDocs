@@ -21,7 +21,7 @@ Request the contextual generative AI capabilities, such as a chat summary, case 
 
 Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 
-Make sure that AI search and [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.md) are enabled in the instance for the conversational subflows and actions to work.
+Make sure that [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/configuring-ais.md) and [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/turn-on-the-subflows-and-actions-skill.md) are enabled in the instance for the conversational subflows and actions to work.
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
@@ -29,7 +29,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM Configurable Workspace to request a chat, call or case summary, generate case resolution notes and knowledge article, ask a question about a case, Use AI agents to complete cases and use conversational subflows and actions.
 
-For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
+For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see . For information about act
 
 4.  After you request the generative AI capabilities, you can summarize a chat for an interaction, summarize a chat for a case created from an interaction, summarize a case, generate the resolution notes for a case, summarize a call, generate a knowledge article, ask questions about a case, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d32892e190">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d32883e192">
 
 Option
 
-</th><th align="left" id="d32892e193">
+</th><th align="left" id="d32883e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32892e199">
+</th></tr></thead><tbody><tr><td id="d32883e201">
 
 **Summarize the chat for an interaction**
 
@@ -62,7 +62,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d32892e235">
+</td></tr><tr><td id="d32883e237">
 
 **Summarize the chat for a case that is created from an interaction**
 
@@ -73,7 +73,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d32892e271">
+</td></tr><tr><td id="d32883e273">
 
 **Summarize a case**
 
@@ -84,7 +84,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d32892e307">
+</td></tr><tr><td id="d32883e309">
 
 **Generate case resolution notes**
 
@@ -95,7 +95,7 @@ Description
 3.  In the Now Assist panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d32892e344">
+</td></tr><tr><td id="d32883e346">
 
 **Summarize a call**
 
@@ -106,7 +106,7 @@ Description
 3.  In the Now Assist panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d32892e380">
+</td></tr><tr><td id="d32883e382">
 
 **Generate a knowledge article**
 
@@ -117,7 +117,7 @@ Description
 3.  In the Now Assist panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d32892e416">
+</td></tr><tr><td id="d32883e418">
 
 **Ask questions about a case**
 
@@ -128,7 +128,7 @@ Description
 3.  In the Now Assist panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d32892e449">
+</td></tr><tr><td id="d32883e451">
 
 **Use AI agents to complete cases**
 

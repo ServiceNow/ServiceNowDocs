@@ -42,7 +42,7 @@ Using the calendar, you can do the following:
 
     1.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to modify the schedule for.
 
-        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see [Custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/scripts/useful-server-side-scripts.md).
+        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see Custom queues to process events.
 
     2.  In the shift pop-up window, click the Edit icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Edit icon.\).
     3.  Modify the agent's shift time.

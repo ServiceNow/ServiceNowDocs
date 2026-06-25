@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -44,9 +44,9 @@ Using ERP Data Hub and ERP-CM together enables Solutions Integration consultants
         -   [Query a remote table using ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)
     5.  Work with ETL extraction tables to regularly scan the system of record and extract data to a staging table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
         -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
-        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see .
+        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
         -   Extraction processes are configured in the ServiceNow app that uses them. For example, Workflow Studio.
-        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see .
+        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 4.  Identify legacy ERP system customizations to modernize and replatform with ERP-CM.
 5.  Move the ERP Data Hub systems, ERP models, and tables to a production environment when they are ready. For more information, see [Managing ERP development pipelines in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/manage-erp-tables-pipelines.md).
     1.  Meet with a customer and agree to run an analysis with ERP Customization Mining on their ERP system of record.
@@ -64,10 +64,10 @@ Using ERP Data Hub and ERP-CM together enables Solutions Integration consultants
     8.  Return to ERP Data Hub to continue building data models with remote tables and extraction tables. Ensure that all the necessary data is available in the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md).
 6.  Use the ERP data that is now available as the data source when building apps on the ServiceNow AI Platform, such as:
     -   App Engine Studio: For more information, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/add-data.md).
-    -   Flows in Workflow Studio: For more information, see .
+    -   Flows in Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/configuring-flow-designer.md).
     -   Table Builder: For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/form-builder-glide-family-release/table-builder.md).
     -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/data-resources.md).
-    -   Workflow Studio: For more information, see .
+    -   Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/configuring-flow-designer.md).
     -   Workspace Builder: For more information, see [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/workspace-builder/configure-record-page-workspace.md).
 7.  Measure and monitor the performance of the new app using applicable metrics and parameters with your preferred analytic tools.
 
@@ -95,9 +95,9 @@ Get started with ERP Data Hub and ERP-CM by completing these tasks:
 2.  Install and configure ERP-CM. For more information, see [Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md).
 3.  Install and configure any additional ServiceNow AI Platform apps and builders that consume ERP data, such as the following:
     -   [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/install-aes.md)
-    -   Configuring Flows in Workflow Studio
+    -   [Configuring Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/configuring-flow-designer.md)
     -   [Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/form-builder-glide-family-release/exploring-fb.md)
-    -   Getting started with Playbooks
+    -   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/getting-started-process-automation.md)
     -   [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/ui-builder-quick-start.md)
     -   [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/workflow-studio.md)
     -   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/workspace-builder/using-workspace-builder.md)

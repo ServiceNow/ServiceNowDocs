@@ -185,7 +185,7 @@ Default value for this input.
 
 ## What to do next
 
-With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see .
+With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-logic-make-decision.md).
 
 **Parent Topic:**[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/decision-tables/decision-tables-classic-ui.md)
 

@@ -37,7 +37,7 @@ Role required: admin or evam\_admin
 
 4.  In the EVAM Datasource M2Ms related list, add a datasource.
 
-<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d333159e180">
+<table id="choicetable_s23_h4l_wnb"><tbody><tr><td id="d332193e180">
 
 **Create and Link**
 
@@ -45,7 +45,7 @@ Role required: admin or evam\_admin
 
 [You can define a new data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md) and then link this datasource to your EVAM definition.
 
-</td></tr><tr><td id="d333159e196">
+</td></tr><tr><td id="d332193e196">
 
 **Link Existing**
 
@@ -53,7 +53,7 @@ Role required: admin or evam\_admin
 
 You can add a pre-defined datasource to your EVAM definition.
 
-</td></tr><tr><td id="d333159e205">
+</td></tr><tr><td id="d332193e205">
 
 **Unlink Selected**
 
@@ -66,7 +66,7 @@ You can remove the selected datasource from your EVAM definition.
 
 6.  In the EVAM View Config Bundle M2Ms related list, add a configuration bundle.
 
-<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d333159e236">
+<table id="choicetable_lwc_h2h_xnb"><tbody><tr><td id="d332193e236">
 
 **Create and Link**
 
@@ -74,7 +74,7 @@ You can remove the selected datasource from your EVAM definition.
 
 [You can define a new configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md) and then link this bundle to your EVAM definition.
 
-</td></tr><tr><td id="d333159e252">
+</td></tr><tr><td id="d332193e252">
 
 **Link Existing**
 
@@ -82,7 +82,7 @@ You can remove the selected datasource from your EVAM definition.
 
 You can add a pre-defined configuration bundle to your EVAM definition.
 
-</td></tr><tr><td id="d333159e261">
+</td></tr><tr><td id="d332193e261">
 
 **Unlink Selected**
 

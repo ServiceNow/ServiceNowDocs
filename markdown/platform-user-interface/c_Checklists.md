@@ -22,7 +22,7 @@ Checklists are added to records after they are submitted. You cannot add a check
 
 ## Enabling checklists in forms
 
-To enable checklists, navigate to the form and add the **Checklist** formatter. For instructions, see [Add a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_FormDesign.md).
+To enable checklists, navigate to the form and add the **Checklist** formatter. For instructions, see Add a formatter.
 
 ## Using checklists
 

@@ -24,7 +24,7 @@ Role required: None
 
 You can use URL queries to generate filtered lists of records programmatically before exporting them. URL queries are useful for scripts that generate a list of records or when no user can manually add the filter from the UI.
 
-You must be familiar with the ServiceNow table and column names to export data directly from the URL. See Navigate to a record or a module using a URL.
+You must be familiar with the ServiceNow table and column names to export data directly from the URL. See [Navigate to a record or a module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/navigate-using-url.md).
 
 You can control whether to export the display value or raw value of fields and the field label or field name for headers using query parameters or system properties.
 

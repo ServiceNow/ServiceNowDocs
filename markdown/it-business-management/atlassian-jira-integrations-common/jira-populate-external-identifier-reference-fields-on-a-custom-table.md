@@ -55,7 +55,7 @@ Configure the form layout or personalize the list layout of your custom table to
 **Related topics**  
 
 
-[bundle-platux.t_PersonalizeAList]
+[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md)
 
 [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md)
 

@@ -18,9 +18,9 @@ Supplier owners and supplier managers can use the supplier onboarding playbook t
 
 ## Playbooks overview
 
-Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using Process Automation Designer.
+Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/process-automation-designer.md).
 
-A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see Interact with Playbook.
+A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/playbook-ui.md).
 
 When using a playbook, a supplier owner or supplier manager can:
 

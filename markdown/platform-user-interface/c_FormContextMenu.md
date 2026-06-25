@@ -29,15 +29,15 @@ The form context menu includes the following options.
 |Insert|Saves the data as a new record and returns to the previously viewed page..|
 |Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/t_EditingInForms.md).|
 |Configure|Provides administrative functions, such as configuring forms.|
-|Toggle Template Bar|\(UI15 only\) Shows or hides the template bar. For more information, see [Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ToggleTheTemplateBar.md).|
-|Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/c_ExportData.md).|
+|Toggle Template Bar|\(UI15 only\) Shows or hides the template bar. For more information, see Toggle the template bar.|
+|Export|Exports data to PDF. Administrators can also export to XML. For more information, see Export data.|
 |View|Changes fields to a predefined layout. Switching views submits the form, which saves all changes. Administrators can customize views.|
 |Create Favorite|\(Core UI only\) Adds the current record to your favorites list, represented by a star icon on the tab.|
 |Assign Tag|\(UI15 only\) Allows the user to assign a new or existing tag to a record, which provides quick access to frequently referenced or urgent information. When tag is assigned to a record, the record is displayed on the Tagged Documents page. For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/c_Tags.md).|
 |Copy URL|Copies to the clipboard the URL for the form view of the record. Follow browser instructions if browser security measures restrict this function.|
 |Copy sys\_id|Administrators only. Copies to the clipboard the sys\_id of the record. Follow browser instructions if browser security measures restrict this function.|
 |Show XML|Administrators only. Displays record data in XML format.|
-|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/t_EnableAuditingForATable.md).|
+|History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see Enable auditing for a table.|
 |Reload Form|Reloads information from the database to refresh the form view.|
 
 **Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/c_UsingForms.md)
@@ -45,5 +45,5 @@ The form context menu includes the following options.
 **Related topics**  
 
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UIActions.md)
+[bundle-platadm.c_UIActions]
 

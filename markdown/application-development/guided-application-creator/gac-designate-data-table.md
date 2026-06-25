@@ -38,15 +38,15 @@ Role required: sn\_g\_app\_creator.app\_creator or admin
 
     You can select existing tables or create custom tables.
 
-<table id="choicetable_phv_sxd_vhb"><thead><tr><th align="left" id="d41141e128">
+<table id="choicetable_phv_sxd_vhb"><thead><tr><th align="left" id="d41133e128">
 
 Option
 
-</th><th align="left" id="d41141e131">
+</th><th align="left" id="d41133e131">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41141e137">
+</th></tr></thead><tbody><tr><td id="d41133e137">
 
 **Select an existing table without creating a custom table**
 
@@ -57,7 +57,7 @@ Procedure
 3.  Select **Done with tables**.
 
 
-</td></tr><tr><td id="d41141e164">
+</td></tr><tr><td id="d41133e164">
 
 **Create a custom table without selecting an existing table**
 
@@ -71,7 +71,7 @@ Procedure
     -   [Create a table in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/gac-create-table-from-scratch.md)
 
 
-</td></tr><tr><td id="d41141e223">
+</td></tr><tr><td id="d41133e223">
 
 **Select an existing table and then create a custom table**
 

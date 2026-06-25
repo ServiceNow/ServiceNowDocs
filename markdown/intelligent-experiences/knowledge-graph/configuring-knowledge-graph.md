@@ -27,5 +27,5 @@ On activation, the following Knowledge Graph plugins are installed by default:
 
 To implement the Knowledge Graph adoption, you must configure Knowledge Graph for Virtual Agent.
 
-For OOTB integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for admin guided setup.
+For OOTB integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer  for admin guided setup.
 

@@ -115,7 +115,7 @@ Web service access only
 
 </td><td>
 
-It designates a user as a non-interactive user. This field is available with Non-Interactive Sessions.**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
+It designates a user as a non-interactive user. This field is available with [Non-Interactive Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
 
 </td></tr><tr><td>
 

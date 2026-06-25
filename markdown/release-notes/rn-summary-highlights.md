@@ -67,7 +67,7 @@ API
 -   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Access Management
 -   Enhance ACL security with a new default denial behavior.
 -   Identify and fix empty or misconfigured ACLs with new ACL creation rules.
 
-See  for more information.
+See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/access-control/access-control-rules.md) for more information.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Advanced Work Assignment
 -   Migrate the Advanced Work Assignment dashboards to Next Experience.
 -   Defined the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools\) with a simple external routing ATF-based test implementation.
 
-See  for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ App Engine Studio
 -   Test AEMC on a non-production instance to ensure everything works as expected before moving to production.
 -   As of Xanadu Store Release 2, open an application in ServiceNow Studio directly from App Engine Studio.
 
-See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/app-engine-studio/aes-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -249,7 +249,7 @@ Assessments and Surveys
 
 -   View the user responses only for active questions.
 
-See  for more information.
+See [Exploring Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/ai-platform-capabilities/assessments-and-surveys.md) for more information.
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Authentication
 
 -   Use the FIDO2 authenticator, passkeys, biometric authenticators, and hardware security keys as multi-factor authentication \(MFA\) factors without requiring an authenticator app setup.
 
-See Authentication for more information.
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/authentication/c_Authentication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -410,7 +410,7 @@ Configuration Management Database \(CMDB\)
 -   The CMDB Health Dashboard is now implemented with the Next Experience user interface in the CMDB Workspace.
 -   The ServiceNow® Now Assist for CMDB application brings generative AI to CMDB. Now Assist for CMDB is a new application in the Xanadu release. The ServiceNow® Now Assist for Service Graph Connectors \(SGC\) application brings in generative AI capabilities to resolve issues within Service Graph Connector. Now Assist for SGC is a new application in the Xanadu release..
 
-See  for more information.
+See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md) for more information.
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Creator Studio
 -   Automate sending emails in a process
 -   Add question sets curated by your admin to a form
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/creator-studio/creator-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -513,7 +513,7 @@ Data Privacy
 -   Discover and anonymize sensitive data as it's entered with the real-time anonymization policy.
 -   Anonymize and discover journal fields with expanded support and an increased data pattern regular expression limit of up to 1000 characters.
 
-See  for more information.
+See [Platform Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/privacy-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -651,7 +651,7 @@ Document Services
 -   Increase collaboration with management of Google Docs files on Google Drive.
 -   Control sensitive information with data redaction within a document.
 
-See  for more information.
+See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/document-management-services/document-services-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -687,7 +687,7 @@ Note the following highlights in Xanadu Patch 3:
 -   Re-trigger AI/ML execution on demand.
 -   See how implementing a recommendation can increase candidate potential.
 
-See [ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/erp-customization-mining/erp-customization-mining-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -724,7 +724,7 @@ Encryption Key Management
 -   Administer Column Level Encryption with new Column Level Encryption APIs, roles, and administration features. Column Level Encryption logging has been enhanced for improved readability.
 -   Download all encrypted attachments as a zip file by using the new **Download All** button.
 
-See  for more information.
+See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/servicenow-ai-platform-security/encryption.md) for more information.
 
 </td></tr><tr><td>
 
@@ -945,7 +945,7 @@ Hermes Messaging Service
 -   Effectively process spikes and bursts in message volume from external systems to minimize performance impacts on your instance.
 -   Manage the health and performance of message delivery using Hermes diagnostic tools.
 
-See  for more information.
+See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1041,7 +1041,7 @@ Identity
 -   Use the enhanced System for Cross-domain Identity Management \(SCIM\) API endpoints for CRUD operations.
 -   Access Analyzer extends support of Query operation \(Query Match &amp; Query range\) for Evaluate access, Compare user access, and Simulate access features.
 
-See Identity for more information.
+See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/identity/identity-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1154,7 +1154,7 @@ Knowledge Management
 -   Address concerns from related cases in a single article by using Now Assist in Knowledge Management to generate a knowledge base article from a selection of similar cases.
 -   Select content in a knowledge article and shorten or elaborate it using the generative AI capabilities of Now Assist.
 
-See  for more information.
+See [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/knowledge-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1202,7 +1202,7 @@ MID Server
 -   Run other applications without storing any credentials on the instance with the Azure Key vault.
 -   MID Server supports log file compression.
 
-See  for more information.
+See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1267,7 +1267,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Developer site Next Experience Components doc](https://developer.servicenow.com/dev.do#!/reference/next-experience/components%3Freleases%5B%5D=washingtondc%26query=%26order_by=nameAsc%26limit=120%26offset=0%26categories%5B%5D=uib_component%26categories%5B%5D=uib_macroponent-component%26categories%5B%5D=uib_facades).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component so the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -1304,7 +1304,7 @@ Notify
 
 Provides the flexibility to delete or retain Twilio messaging records when Twilio is disconnected from a ServiceNow instance.
 
-See  for more information.
+See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/notify/notify-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1776,7 +1776,7 @@ Password Reset
 
 Control the duration of the validity of the Password Reset URL provided in a notification email.
 
-See  for more information.
+See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2086,7 +2086,7 @@ Security Center
 -   ﻿﻿Schedule security scans with the updated Auditor Suite to monitor access control configurations in the Security Scanner tool.
 -   Use the improved Security Center version 2.0 hardening tool to minimize data exposure within your instance.
 
-See , , and , , and  for more information.
+See [Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/security-best-practices-manager.md), [Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/critical-updates.md), and [Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md), [Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/security-policies.md), and [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/security-center/data-classification-security-metrics.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2125,7 +2125,7 @@ Service Catalog
 -   Let users experience the support of Zero Trust Access \(ZTA\) security model for Service Catalog.
 -   Experience the faster loading of popular catalog items in the Popular Items widgets.
 
-See  for more information.
+See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/service-catalog.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2243,7 +2243,7 @@ ServiceNow IDE
 -   Collaborate with users of different skill sets across an instance and view changes in embedded ServiceNow AI Platform user interfaces.
 -   Manage applications in source control with common Git providers.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2253,7 +2253,7 @@ ServiceNow SDK
 
 Write source code to define the metadata that makes up applications with ServiceNow Fluent.
 
-See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2267,7 +2267,7 @@ ServiceNow Studio
 -   Create applications using Now Assist for app generation.
 -   Bookmark applications and application files for easy, fast access.
 
-See [Building applications with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2308,7 +2308,7 @@ Skills Management
 -   Analyze the skills dashboard by using the intuitive [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md).
 -   Use multi-lingual capabilities in Skills Management so that you can translate the skill names and their descriptions in your preferred language.
 
-See  for more information.
+See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/skills-management/skills-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2511,7 +2511,7 @@ UI Builder
 -   Design pages that look good and function well across a variety of form factors such as laptops, tablets, and mobile devices using responsive authoring.
 -   Fetch information from multiple data sources and more easily bind the data to components of your choice with a new multi-table data resource right from UI Builder.
 
-See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 

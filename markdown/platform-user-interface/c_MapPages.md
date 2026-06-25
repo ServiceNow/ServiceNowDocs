@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -26,7 +26,7 @@ Each level of this hierarchy contains a separate location record, with the next 
 
 \[Omitted image "LocationHierarchy1.png"\] Alt text: The Location hierarchy view
 
-The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
+The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see .
 
 \[Omitted image "LocationFullName.png"\] Alt text:
 

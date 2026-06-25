@@ -69,7 +69,7 @@ Use the Features section of the guided configuration to customize the messenger 
 
     \[Omitted image "em-config-feature.gif"\] Alt text: View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.
 
-    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see [Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## What to do next

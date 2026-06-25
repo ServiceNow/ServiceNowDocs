@@ -28,7 +28,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 -   Add fields that are not configured to appear on the form.
 -   Hide mandatory fields.
 
-**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md).
+**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must configure the form.
 
 ## Procedure
 
@@ -60,5 +60,5 @@ In contrast to configuring a form, personalizing a form does not enable users to
 **Related topics**  
 
 
-[Administering form personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_FormPersonalizationAdmin.md)
+[bundle-platadm.c_FormPersonalizationAdmin]
 

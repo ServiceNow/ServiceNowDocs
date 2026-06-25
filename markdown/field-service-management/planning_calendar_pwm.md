@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/planning\_calendar\_pwm.html
 release: xanadu
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Managing work orders for the planned work, Using Field Service Management, Field Service Management]
 ---

@@ -40,5 +40,5 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platux.create-delete-view]
+[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md)
 

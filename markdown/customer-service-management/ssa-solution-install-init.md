@@ -16,7 +16,7 @@ Activate the content pack plugins or ServiceNow Store application for the Platfo
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a sub-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a sub-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 **Note:** The data for the Communities and Virtual Agent tabs on the Self-Service Analytics dashboard are generated when the Communities plugin \(com.sn\_communities\) and Glide Virtual Agent plugin \(com.glide.cs.chatbot\) are activated respectively.
 

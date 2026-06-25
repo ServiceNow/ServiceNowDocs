@@ -16,7 +16,7 @@ Create a company record and associate it to an internal or an external business 
 
 |Task|Description|
 |----|-----------|
-||Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
+|[Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AddANewCompany.md)|Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
 |[Associate company records with a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/associate-company-with-bus-loc.md)|Associate company records with a business location to indicate that a business location is a company.|
 
 ## Associate company records with a business location

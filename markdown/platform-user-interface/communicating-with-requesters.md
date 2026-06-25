@@ -45,5 +45,5 @@ You can also view **Compose** and the Activity Stream side by side to enable you
 
 ## Writing Knowledge articles to share solutions
 
-To share a solution you've found with the community of workspace users, you can create and publish a knowledge article. The Knowledge Management Service Portal enables users to view knowledge base articles. It is available by default. For more information about creating, editing, and viewing articles, see [Knowledge article authoring in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/managing-knowledge-workspace.md).
+To share a solution you've found with the community of workspace users, you can create and publish a knowledge article. The Knowledge Management Service Portal enables users to view knowledge base articles. It is available by default. For more information about creating, editing, and viewing articles, see Knowledge article authoring in Workspace.
 
