@@ -18,7 +18,7 @@ The PDFGenerationAPI provides support for PDF conversion and handling PDF fields
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-Use the **glide.pdf.url.whitelist** property to add an extra layer of validation to ensure whether any external URL introduced should be included in the generated PDF. If the system property glide.pdf.url.whitelisting.enabled is set to true, the PDF does not process URL content unless it is listed in the Value field of the com.snc.pdf.whitelisted\_urls system property. These properties are listed in the System Properties \[sys\_properties\] table. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
+Use the **glide.pdf.url.whitelist** property to add an extra layer of validation to ensure whether any external URL introduced should be included in the generated PDF. If the system property glide.pdf.url.whitelisting.enabled is set to true, the PDF does not process URL content unless it is listed in the Value field of the com.snc.pdf.whitelisted\_urls system property. These properties are listed in the System Properties \[sys\_properties\] table. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 **Note:** The maximum PDF size is 50 MB.
 

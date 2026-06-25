@@ -58,7 +58,7 @@ The Now Assist in AI Search plugin is automatically installed when you install a
 
 1.  In Now Assist Admin, install one or more of the prerequisite feature plugins found in "About this task".
 
-    For Now Assist feature plugin installation instructions, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+    For Now Assist feature plugin installation instructions, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  Verify that Now Assist in AI Search is installed:
 

@@ -83,7 +83,7 @@ Email actions are preconfigured with Simplified ITSM.
 
 </td><td>
 
-Review the email actions available in the base system and update them based on the business process and requirement. For information about inbound email actions, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_InboundEmailActions.md).
+Review the email actions available in the base system and update them based on the business process and requirement. For information about inbound email actions, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ None
 
 </td><td>
 
-For information about integrating ServiceNow Voice with Amazon Connect, see [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/integrate-ccc-amazonconnect.md).For information about integrating ServiceNow voice assistant with Genesys, see [Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/integrate-voice-service-with-genesys.md).
+For information about integrating ServiceNow Voice with Amazon Connect, see [Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-amazonconnect.md).For information about integrating ServiceNow voice assistant with Genesys, see [Integrate ServiceNow voice assistant with Genesys Cloud service \(Audio Connector\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-genesys.md).
 
 </td></tr></tbody>
 </table>## Virtual Agent
@@ -156,7 +156,7 @@ Preconfigured employee satisfaction surveys to gather feedback post incident res
 
 </td><td>
 
-Create or edit an existing survey using Survey Designer. For information about configuring surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyDesigner.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Create or edit an existing survey using Survey Designer. For information about configuring surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure integrations and ITSM experiences in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-ai-native-itsm.md)

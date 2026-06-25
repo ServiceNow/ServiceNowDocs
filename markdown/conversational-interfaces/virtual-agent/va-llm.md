@@ -20,7 +20,7 @@ Large language models \(LLMs\) enable Virtual Agent to process user statements i
 
 Watch this video to learn about LLM topics in Virtual Agent Designer.
 
-Virtual Agent Designer LLM topic authoring video 
+\[Omitted video\] Description: Virtual Agent Designer LLM topic authoring video
 
 When you create a topic in Virtual Agent Designer, you can select LLM as the model type for your topic whenever Now Assist in Virtual Agent is turned on. Virtual Agent then uses LLM generative AI to discover topics that match the user's intent.
 

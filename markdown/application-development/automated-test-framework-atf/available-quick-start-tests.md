@@ -237,7 +237,7 @@ Assessments and Surveys quick start tests require activating the Automated Test 
 |Assessment: Scale and Template support|Create, publish, and assign the assessment. Then take the assessment.|Rome|
 |Assessment: Basic test flow|Verify the basic flow of an assessment.|Orlando|
 
-To learn more about Assessments and Surveys, see [Service administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_ServiceAdministration.md).
+To learn more about Assessments and Surveys, see [Service administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceAdministration.md).
 
 ## Change Management
 

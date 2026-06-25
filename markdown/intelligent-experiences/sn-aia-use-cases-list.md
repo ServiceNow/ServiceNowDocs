@@ -71,11 +71,11 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md)
+Build Agent
 
 </td><td>
 
-[Create in-app agents, skills, and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/create-custom-ai-agent.md)
+Create in-app agents, skills, and workflows
 
 </td></tr><tr><td>
 
@@ -93,8 +93,8 @@ Available agentic workflows
 
 </td><td>
 
--   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-conf-converse-skill.md)
--   [Manage contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
+-   Conversational contract search and insights
+-   Manage contract repository
 
 </td></tr><tr><td>
 
@@ -106,11 +106,11 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md)
+Now Assist for Creator
 
 </td><td>
 
-[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-theme-now-assist.md)
+[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -118,9 +118,9 @@ Available agentic workflows
 
 </td><td>
 
--   [Accelerate complaint case handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/accelerate-complaint-case-handling.md)
--   [Provide Customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
--   [Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-resolving-use-case.md)
+-   Accelerate complaint case handling
+-   Provide Customer 360 insights
+-   Triage cases
 
 </td></tr><tr><td>
 
@@ -128,16 +128,16 @@ Available agentic workflows
 
 </td><td>
 
-[Generate enterprise architecture diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
+Generate enterprise architecture diagram
 
 </td></tr><tr><td>
 
-[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md)
+Enterprise Asset Management
 
 </td><td>
 
--   [Help repair enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
--   [Help manage enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
+-   Help repair enterprise assets
+-   Help manage enterprise asset requests
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Available agentic workflows
 
 </td><td>
 
-[Generate carbon calculations for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/generate-carbon-calculcations-for-metrics.md)
+Generate carbon calculations for metrics
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Available agentic workflows
 
 </td><td>
 
-[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-work-order-now-assist-fsm.md)
+Create a work order
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Available agentic workflows
 
 </td><td>
 
-[Help resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/friendly-fraud-agentic-ai-workflow.md)
+Help resolve friendly fraud disputes
 
 </td></tr><tr><td>
 
@@ -177,8 +177,8 @@ Available agentic workflows
 
 </td><td>
 
--   [Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
--   [Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)
+-   Help manage hardware asset requests
+-   Help repair hardware assets
 
 </td></tr><tr><td>
 
@@ -186,9 +186,9 @@ Available agentic workflows
 
 </td><td>
 
--   [Create actions for safety incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-actions-safety-incidents.md)
--   [Help resolve health and safety cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/help-resolve-safety-cases-agentic-workflow.md)
--   [Health safety incident patterns assistant agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hs-incident-pattern-analysis-agentic-workflow.md)
+-   Create actions for safety incidents
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -196,14 +196,14 @@ Available agentic workflows
 
 </td><td>
 
--   [Help resolve tuition requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)
--   [Help resolve tuition reimbursement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/resolve-tuition-reimbursement-requests.md)
--   [Predict service and transfer HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/predict-transfer-hrcase.md)
--   [Resolve noncritical HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-issue-resolver-na.md)
--   [Resolve critical HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-issue-resolve-critical.md)
--   [Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)
--   [Recommend catalog and order guide tasks in Onboarding Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)
--   [Schedule interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)
+-   Help resolve tuition requests
+-   Help resolve tuition reimbursement requests
+-   Predict service and transfer HR cases
+-   Resolve noncritical HR cases
+-   Resolve critical HR cases
+-   Generate onboarding ramp-up plan
+-   Recommend catalog and order guide tasks in Onboarding Journey
+-   Schedule interviews
 
 </td></tr><tr><td>
 
@@ -211,10 +211,10 @@ Available agentic workflows
 
 </td><td>
 
--   [Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate_regulatory_action_plans.md)
--   [Get regulatory analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/get-rcm-reg-insight.md)
--   [Identify risks for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-risks-for-entity.md)
--   [Optimize issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)
+-   Generate regulatory action plans
+-   Get regulatory analysis
+-   Identify risks for an entity
+-   Optimize issue resolution
 
 </td></tr><tr><td>
 
@@ -230,27 +230,27 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)
+Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
 
--   [Assess conflicts for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-assess-conflicts-workflow.md)
--   [Assess quality of a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)
--   [Create outages for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-create-outages-for-a-change-request.md)
--   [Create standard change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-create-change-request-workflow.md)
--   [Create standard change template proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-create-standard-change-template-proposal.md)
--   [DEX issue diagnosis and resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-dex-diagnosis-resolution-workflow.md)
--   [Explain SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-explain-sla-workflow.md)
--   [Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)
--   [Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-mim-usecase.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist-workflow.md)
--   [Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-incident-resolver-workflow.md)
--   [Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
--   [Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-twilio-text-usecase.md)
--   [Schedule a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-schedule-change-agentic-workflow.md)
--   [Suggest configuration items for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)
--   [Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)
--   [Wrap-up and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-wrap-up-resolve-incident-aw.md)
+-   Assess conflicts for a change request
+-   Assess quality of a change request
+-   Create outages for a change request
+-   Create standard change request
+-   Create standard change template proposal
+-   DEX issue diagnosis and resolution
+-   Explain SLA
+-   Generate change request plans
+-   Generate post incident reviews
+-   Incident assist
+-   Investigate and resolve ITSM incidents
+-   Manage Microsoft 365 group members
+-   Notify users with Twilio
+-   Schedule a change
+-   Suggest configuration items for a change request
+-   Triage and categorize ITSM incidents
+-   Wrap-up and resolve ITSM incidents
 
 </td></tr><tr><td>
 
@@ -258,8 +258,8 @@ Available agentic workflows
 
 </td><td>
 
--   [Conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)
--   [Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/trans-legal-request-agent.md)
+-   Conversational contract search and insights
+-   Triage legal requests
 
 </td></tr><tr><td>
 
@@ -287,11 +287,11 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/now-assist-notifications.md)
+[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-notifications.md)
 
 </td><td>
 
-[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/email-agentic-workflow.md)
+[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)
 
 </td></tr><tr><td>
 
@@ -326,9 +326,9 @@ Help manage public information requests
 
 </td><td>
 
--   [Create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)
--   [Evaluate software removal candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)
--   [Help manage software asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-fulfill-sw-asset-requests-workflow.md)
+-   Create software reclamation rule
+-   Evaluate software removal candidate
+-   Help manage software asset requests
 
 </td></tr><tr><td>
 
@@ -336,8 +336,8 @@ Help manage public information requests
 
 </td><td>
 
--   [Generate Agile stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-agile-story-planning-items.md)
--   [Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/na-spm-task-monitoring-usecase.md)
+-   Generate Agile stories
+-   Monitor project tasks
 
 </td></tr><tr><td>
 
@@ -390,19 +390,19 @@ Help manage public information requests
 
 </td><td>
 
--   [Automate map updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/automate-map-updates-agent-ai.md)
--   [Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-workplace-reservations-agent-ai.md)
--   [Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/maintenance-meeting-room-agent-ai.md)
--   [Optimize cleaning activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/optimize-cleaning-activities-agent.md)
--   [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge-ai-agent.md)
+-   Automate map updates
+-   Help manage workplace reservations
+-   Manage temporary space closures
+-   Optimize cleaning activities
+-   Workplace Concierge
 
 </td></tr><tr><td>
 
-[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+Now Assist for Zero Copy Connector
 
 </td><td>
 
-[Explore ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+Explore ERP models
 
 </td></tr><tr><td>
 
@@ -418,7 +418,7 @@ Help manage public information requests
 -   [Help optimize team productivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/help-optimize-productivity.md)
 -   [Identify ways to improve services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/service-improvement.md)
 -   [Investigate IT problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/problem-investigation.md)
--   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/notification-creation-agent.md)
+-   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
 -   [Process images for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/images-tasks.md)
 -   [Suggest survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/survey-suggest.md)
 

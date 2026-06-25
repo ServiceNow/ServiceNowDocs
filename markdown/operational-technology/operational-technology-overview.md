@@ -15,7 +15,7 @@ Use ServiceNow® for Operational Technology \(OT\) to help your organization str
 
 ## Operational Technology overview
 
-Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
+Watch an overview about Operational Technology and the ServiceNow Operational Technology Management solution.\[Omitted video\] Description: Operational Technology Management solution overview that explains Operational Technology and ServiceNow's solution
 
 \[Omitted image "ot-benefits-landing.png"\] Alt text: Overview explanation of benefits in Operational Technology, Core Operations, and empowering factory workers.
 

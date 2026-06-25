@@ -149,7 +149,7 @@ Build the foundation
 
 </td><td>
 
-[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/assessments-surveys-landing-page.md)
+[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
 
 </td><td>
 
@@ -157,11 +157,11 @@ Use the Assessments and Surveys application to create, send, and collect respons
 
 </td><td>
 
-[Roles installed with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/r_SurveyManagementRoles.md)
+[Roles installed with Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementRoles.md)
 
 </td><td>
 
--   [Survey Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_SurveyServicePortal.md)
+-   [Survey Management limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyServicePortal.md)
 -   [Survey Management overview](https://www.servicenow.com/products/survey-assessment.html)
 
 </td></tr><tr><td>

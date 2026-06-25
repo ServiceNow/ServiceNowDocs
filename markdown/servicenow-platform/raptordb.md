@@ -14,7 +14,7 @@ breadcrumb: [Extend ServiceNow AI Platform capabilities]
 
 RaptorDB, the new ServiceNow database, optimizes ServiceNow AI Platform workloads, enabling your organization to support more users, workflows, and data on a single platform.
 
-Now Insights podcast episode with Will Johnson, VP of Data Platform Engineering, who shares the journey of integrating advanced columnar storage technology into the ServiceNow platform. 
+\[Omitted video\] Description: Now Insights podcast episode with Will Johnson, VP of Data Platform Engineering, who shares the journey of integrating advanced columnar storage technology into the ServiceNow platform.
 
 RaptorDB will underpin ServiceNow AI Platform core services, applications, and data.
 

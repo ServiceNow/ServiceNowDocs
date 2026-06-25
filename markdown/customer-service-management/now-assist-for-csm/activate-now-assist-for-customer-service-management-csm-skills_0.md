@@ -18,7 +18,7 @@ Enable Now Assist generative AI skills to provide AI-driven capabilities such as
 
 This video provides an overview of how you can set up skills and monitor and analyze usage via the Now Assist Admin console.
 
-Now Assist admin console 
+\[Omitted video\] Description: Now Assist admin console
 
 Each skill is configured separately, and tailored to support agents across various platforms. The following Now Assist skills are available to be configured for use within CSM.
 

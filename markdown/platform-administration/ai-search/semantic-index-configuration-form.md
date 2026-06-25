@@ -19,7 +19,7 @@ The Semantic Index Configuration form enables you to define semantic indexing se
 
 For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
-**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md) installed.
+**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) installed.
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 
@@ -48,7 +48,7 @@ List of embedding models to use for the semantic index configuration.-   Default
     -   **ServiceNow Embedding \(E5\)**: Use the E5 fine-tuned embedding model for content in the semantic index. The embedding model's encoder limit is 512 terms.
     -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
     -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
-    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see []().
+    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/creating-byom.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/creating-byom.md).
 
 </td></tr><tr><td>
 

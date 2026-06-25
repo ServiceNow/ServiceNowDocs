@@ -19,7 +19,7 @@ Build custom ServiceNow applications by describing your requirements in plain la
 
 You can watch a short video on how to create an application in Build Agent.
 
-Create an application in Build Agent 
+\[Omitted video\] Description: Create an application in Build Agent
 
 Install and enable Build Agent. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md).
 
@@ -47,15 +47,15 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d185344e233">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d247918e233">
 
 Scenario
 
-</th><th align="left" id="d185344e236">
+</th><th align="left" id="d247918e236">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d185344e242">
+</th></tr></thead><tbody><tr><td id="d247918e242">
 
 **Describe the app you want to create**
 
@@ -65,7 +65,7 @@ Describe the application that you want to create, and then select the Send icon\
 
 You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d185344e263">
+</td></tr><tr><td id="d247918e263">
 
 **Select a predetermined prompt**
 

@@ -80,7 +80,7 @@ MAC address
 
 </td><td>
 
-MAC address of the device.Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to add this field to the Wearables form.
+MAC address of the device.Follow the steps in [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add this field to the Wearables form.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

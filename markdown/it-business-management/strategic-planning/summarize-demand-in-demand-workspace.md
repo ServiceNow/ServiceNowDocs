@@ -17,7 +17,7 @@ breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strat
 
 Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 
-This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management. 
+\[Omitted video\] Description: This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ This video explains how you can summarize your demand records using Now Assist f
 
 Role required: it\_demand\_user, it\_demand\_manager, sn\_ppm\_read
 
-If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
+If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Procedure
 

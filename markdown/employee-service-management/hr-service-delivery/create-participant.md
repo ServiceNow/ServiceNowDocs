@@ -24,7 +24,7 @@ Define actions and the order of actions for participants. The type of action and
 
 ## About this task
 
-Creating participants and mapping signature blocks 
+\[Omitted video\] Description: Creating participants and mapping signature blocks
 
 ## Procedure
 

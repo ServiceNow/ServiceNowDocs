@@ -128,7 +128,7 @@ In portal search, workspace search, and Now Assist in Virtual Agent enhanced cha
 
 Selecting this link opens the Now Assist panel so you can ask follow-up questions in the context of the Genius Result answer.
 
-To learn about using the Now Assist panel conversational interface, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+To learn about using the Now Assist panel conversational interface, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Activating Now Assist Multi-Content Response Genius Results
 
@@ -151,7 +151,7 @@ For details on activating Now Assist Multi-Content Response Genius Results in gl
 
 By default, Now Assist Multi-Content Response Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
 
-With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/manage-large-language-models.md).
+With the admin role, you can use Now Assist Admin to select a different LLM to use as the AI service provider for Now Assist Multi-Content Response Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
 
 As a Now Assist skill, Now Assist Multi-Content Response Genius Results supports these LLMs:
 

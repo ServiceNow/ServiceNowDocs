@@ -32,7 +32,7 @@ Use the manage contract repository agentic workflow to improve productivity by e
 
     If you have customized the manage contract repository agentic workflow, make sure to update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+-   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 The manage contract repository agentic workflow uses an AI agent to do the following sequentially.
 

@@ -23,7 +23,7 @@ The Program relationship \[sn\_hcls\_program\_relationship\] table stores the as
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_uvk_nh1_drb"><thead><tr><th>
 

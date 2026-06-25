@@ -30,5 +30,5 @@ By default, the process flow formatter displays the following states:
 **Related topics**  
 
 
-[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_ProcessFlowFormatter.md)
+[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md)
 

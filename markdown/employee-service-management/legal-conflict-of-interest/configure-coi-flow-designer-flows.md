@@ -29,7 +29,7 @@ Legal Conflict of Interest uses the following flows:
 -   COI Approval flow: Triggers multi-level approvals when an employee submits a conflict of interest request
 -   Scheduled Flow to Deactivate COI: Triggers to validate and deactivate any existing conflict of interest disclosure record that has the end date before the current date. The flow triggers at a scheduled time.
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
 
 ## Procedure
 

@@ -60,7 +60,7 @@ A Journey type is a category used to identify the intention of the journey, such
 
 </td><td>
 
-Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Select a lifecycle event for the Journey configuration. Lifecycle Events are created and managed from the **Manage Lifecycle Event** form. Go to **All** &gt; **Lifecycle Events** &gt; **Manage Lifecycle Event** to add or manage lifecycle events. See, [Lifecycle Events]().
 
 </td></tr><tr><td>
 

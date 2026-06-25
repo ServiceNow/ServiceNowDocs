@@ -58,7 +58,7 @@ Several key attributes are preconfigured to be highlighted on a CI form when spe
 
 To see those preconfigured highlight records that are used in CI Form and in various other CMDB Workspace features, navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Highlighted Values**.
 
-For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/highlight-list-fields-platform.md).
+For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
 
 ## Summary
 

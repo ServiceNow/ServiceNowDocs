@@ -18,7 +18,7 @@ Microsoft Configuration Manager \(MCM\) monitoring provides estate-level visibil
 
 ## Watch: MCM overview video
 
-Watch this video for an overview of MCM monitoring capabilities.MCM monitoring overview 
+Watch this video for an overview of MCM monitoring capabilities.\[Omitted video\] Description: MCM monitoring overview
 
 ## Benefits of MCM monitoring
 

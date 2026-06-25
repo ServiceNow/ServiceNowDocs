@@ -166,7 +166,7 @@ To see the report, from the DevOps Change Workspace, navigate to **Administratio
 
 ## System health email notifications
 
-A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md).
+A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 **Note:**
 

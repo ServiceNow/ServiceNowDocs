@@ -14,7 +14,7 @@ breadcrumb: [Enable AI experiences]
 
 The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
-Now Assist AI agents overview video.
+\[Omitted video\] Description: Now Assist AI agents overview video.
 
 Learn more about the concepts behind AI agents and how they can help fit your specific business needs.
 

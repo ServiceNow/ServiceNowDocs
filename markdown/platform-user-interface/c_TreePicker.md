@@ -28,5 +28,5 @@ A limit of 1000 has been placed on the number of nodes returned to the tree pick
 **Related topics**  
 
 
-[Reference lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ReferenceLookup.md)
+[Reference lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceLookup.md)
 

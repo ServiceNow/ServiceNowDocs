@@ -65,7 +65,5 @@ By using this feature, you confirm that your use \(including use by your service
 **Related topics**  
 
 
-[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd-voice-ai-agents.md)
-
-[Agentic AI in the Voice application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-voice.md)
+[bundle-emplsm.now-assist-hrsd-voice-ai-agents]
 

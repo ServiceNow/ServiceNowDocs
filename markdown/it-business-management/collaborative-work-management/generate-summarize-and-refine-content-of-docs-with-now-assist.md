@@ -36,15 +36,15 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
 3.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d97728e129">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d296435e129">
 
 Choice
 
-</th><th align="left" id="d97728e132">
+</th><th align="left" id="d296435e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d97728e138">
+</th></tr></thead><tbody><tr><td id="d296435e138">
 
 **Work with content of the whole page**
 
@@ -60,7 +60,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d97728e186">
+</td></tr><tr><td id="d296435e186">
 
 **Refine, elaborate, or improve the existing content within the page**
 
@@ -76,7 +76,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d97728e234">
+</td></tr><tr><td id="d296435e234">
 
 **Take assistance on a blank page**
 
@@ -93,7 +93,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
 
-</td></tr><tr><td id="d97728e281">
+</td></tr><tr><td id="d296435e281">
 
 **Answer questions in the context of this Doc**
 

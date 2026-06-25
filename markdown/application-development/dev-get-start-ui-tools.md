@@ -36,19 +36,19 @@ For more information, see [Now Assist for Creator](https://raw.githubusercontent
 
 Configurable Workspace provides focused, role‑based UIs \(for example, Agent Workspace and Service Operations Workspace\). You open, modify, and customize these experiences in UI Builder, including record pages, tabs, side panels, and landing pages. Add standard or custom components to workspace record views and modals.
 
-For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md).
+For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md).
 
 ## Theme Builder
 
 Create and manage themes for the Next Experience UI. Style colors, typography, and imagery. Publish themes across web and mobile experiences.
 
-For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
+For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Next Experience components and UI Framework
 
 Prebuilt, reusable web components for user interfaces that you configure in UI Builder. For use cases not covered by the base system components, you can build custom components with the ServiceNow CLI and the Next Experience UI Framework.
 
-For more information, see [Exploring Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-ui.md).
+For more information, see [Exploring Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui.md).
 
 ## Service Portal Designer
 

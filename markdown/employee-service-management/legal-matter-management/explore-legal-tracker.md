@@ -20,7 +20,7 @@ Legal Tracker is a third-party application for legal operations including matter
 
 By integrating Legal Matter Management with Legal Tracker, you can engage with outside counsel by automatically creating a matter in Legal Tracker. You can also track the outside counsel engagement spends.
 
-Video providing an overview of Legal Matter Management with Legal Tracker integration that enables engagement with outside cousnel. Approximately two and half minutes long. 
+\[Omitted video\] Description: Video providing an overview of Legal Matter Management with Legal Tracker integration that enables engagement with outside cousnel. Approximately two and half minutes long.
 
 ## Benefits of integration with Legal Tracker
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-now-assist-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Retail Service Management \(RSM\), Retail]
 ---

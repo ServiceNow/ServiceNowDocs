@@ -86,7 +86,7 @@ Change the appearance of forms and display fields based on entered values or oth
 
 </td></tr><tr><td>
 
-[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md)
+[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md)
 
 </td><td>
 
@@ -98,7 +98,7 @@ Create reusable content for the subject line and message body of email notificat
 
 </td></tr><tr><td>
 
-[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/actions-inbound-email.md)
+[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/actions-inbound-email.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Script how the system responds to inbound emails.
 
 </td></tr><tr><td>
 
-[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_MapPages.md)
+[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
 
 </td><td>
 
@@ -137,7 +137,7 @@ Import data by defining mapping relationships between tables. Transform maps:
 
 </td></tr><tr><td>
 
-[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md)
+[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
 
 </td><td>
 
@@ -225,7 +225,7 @@ Contain the back-end data for the [System scheduler](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
-[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md)
+[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 
 </td><td>
 
@@ -261,7 +261,7 @@ Create and display forms, dialogs, lists, and other UI components.
 
 </td></tr><tr><td>
 
-[Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md)
+[Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
 
 </td><td>
 
@@ -292,7 +292,7 @@ Store client scripts for reuse. Run only when called from other scripts.
 
 </td></tr><tr><td>
 
-[UI style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_DefineFieldStyles.md)
+[UI style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md)
 
 </td><td>
 

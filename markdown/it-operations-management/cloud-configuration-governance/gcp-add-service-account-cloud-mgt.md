@@ -60,7 +60,7 @@ Discovery credentials
 
 </td><td>
 
-Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data]().
 
 </td></tr><tr><td>
 

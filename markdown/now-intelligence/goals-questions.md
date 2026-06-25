@@ -14,7 +14,7 @@ breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform A
 
 Help Now Assist understand your intent and what you hope to get from the data exploration by setting a goal for an exploration. The goal can improve the relevance of AI outputs.
 
-In the [goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown), explain the outcome you're trying to accomplish with your exploration. Clear goals guide the AI model to generate queries and write summaries that move you closer to that outcome.
+In the [goal](), explain the outcome you're trying to accomplish with your exploration. Clear goals guide the AI model to generate queries and write summaries that move you closer to that outcome.
 
 **Tip:**
 

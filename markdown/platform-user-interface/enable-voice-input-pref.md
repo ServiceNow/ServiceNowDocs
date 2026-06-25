@@ -20,11 +20,11 @@ Learn more about the Enable voice input for the Now Assist panel accessibility p
 
 The purpose of this preference is to provide an alternative input method.
 
-**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/enable-voice-input-for-now-assist-panel.md).
+**Note:** This preference appears only if your system administrator has enabled Now Assist voice input for your instance. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 
 Learn more about this preference from the following tutorial:
 
-Voice input for Now Assist 
+\[Omitted video\] Description: Voice input for Now Assist
 
 <table id="table_kgl_jgy_hgc"><thead><tr><th>
 

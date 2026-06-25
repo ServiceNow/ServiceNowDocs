@@ -61,7 +61,7 @@ The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Work
 
 13. In the Edit search retrieval window, add the previously created indexed source into **Search sources** and then specify what to search for in the **Fields returned** and **Semantic index fields**.
 
-    For a description of the field values, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-retriever-ai-agent.md).
+    For a description of the field values, see [Add a search retrieval to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md).
 
 14. Select **Save**.
 

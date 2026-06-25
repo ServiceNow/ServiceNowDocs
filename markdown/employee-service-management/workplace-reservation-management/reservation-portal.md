@@ -61,7 +61,7 @@ If a reservation occurrence conflicts with an existing reservation on a particul
 -   The employee can find an alternative space easily if no alternative space was found.
 -   The employee is notified when the application assigns an alternative space.
 
-For more information about automatically resolving recurring conflicts, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information about automatically resolving recurring conflicts, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Create a reservation]().
 
 If Workplace Reservation Management is unable to find a new workplace, date, and time, relevant messages are shown to the user so that the conflicted reservation can be manually resolved by selecting a different workplace item or by changing the time of the reservation.
 
@@ -79,7 +79,7 @@ If the reservation requires approvals, its status changes depending on what your
 -   If your approver rejects your reservation, the state of the reservation changes to **Rejected**.
 -   If your approver approves your reservation but the workplace item is not available for the selected date and time, the state of the reservation changes to **Conflicted**.
 
-    **Note:** If there are recurring conflicts, employees are expected to manually resolve the reservation conflicts by selecting a new workspace, time, and date. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    **Note:** If there are recurring conflicts, employees are expected to manually resolve the reservation conflicts by selecting a new workspace, time, and date. For more information, see [Create a reservation]().
 
 -   If you're reserving a workplace item for recurring days, the reservation gets confirmed for the days and times when the item is available. For the remaining days and time, the state of the reservation remains as **Conflicted**.
 

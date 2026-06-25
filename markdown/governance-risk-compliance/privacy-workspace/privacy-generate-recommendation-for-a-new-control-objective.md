@@ -54,5 +54,5 @@ Accept or dismiss the generated recommendations. For more information, see Act o
 
 **Note:**
 
-You can configure UI form actions in addition to "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. For more information about creating declarative actions and how to use them, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md).
+You can configure UI form actions in addition to "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. For more information about creating declarative actions and how to use them, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md).
 

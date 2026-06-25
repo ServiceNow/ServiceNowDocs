@@ -34,7 +34,7 @@ See also [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 |Type|Description|
 |----|-----------|
-|String|Returns an [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) for the given field.|
+|String|Returns an [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) for the given field.|
 
 The following example shows results for a field with an encoded query of `number=INC0001^active=true`.
 
@@ -53,7 +53,7 @@ number=INC0001
 
 Returns the query against a remote table as an encoded query string
 
-For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md).
+For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 See also [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 
@@ -136,7 +136,7 @@ Gets a text search query parameter.
 
 See also:
 
--   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)
+-   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
 -   [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md)
 -   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
@@ -216,7 +216,7 @@ Indicates if the query contains a text query parameter.
 
 See also:
 
--   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md)
+-   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
 -   [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md)
 -   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 

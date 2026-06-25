@@ -17,15 +17,15 @@ Choose one of these tiles to get started.
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.
+[Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md)
 
 </td><td>
 
-[Configure user experiences \[Omitted image "bus-management-console.svg"\] Alt text: Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_NavigationAndTheUserInterface.md)
+[Configure user experiences \[Omitted image "bus-management-console.svg"\] Alt text: Set up and customize user interfaces, like the Next Experience and Core UI, workspaces, the Service Catalog, conversational interfaces, and in-product assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NavigationAndTheUserInterface.md)
 
 </td><td>
 
-Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.
+[Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
 
 </td></tr><tr><td>
 
@@ -33,11 +33,11 @@ Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.sv
 
 </td><td>
 
-[Extend ServiceNow AI Platform capabilities \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/capabilities-bundle-landingpage.md)
+[Extend ServiceNow AI Platform capabilities \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/capabilities-bundle-landingpage.md)
 
 </td><td>
 
-Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.
+[Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)
 
 </td></tr><tr><td>
 

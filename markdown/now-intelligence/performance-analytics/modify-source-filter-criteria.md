@@ -50,5 +50,5 @@ The interactive analysis updates with the new source filter. The **Filter Info**
 **Related topics**  
 
 
-[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md)
+[bundle-platux.c_ConditionBuilder]
 

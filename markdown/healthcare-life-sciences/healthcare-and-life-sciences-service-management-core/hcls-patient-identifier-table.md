@@ -22,7 +22,7 @@ Stores the various patient identifiers associated with a patient in your healthc
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_rkd_g4t_mpb"><thead><tr><th>
 

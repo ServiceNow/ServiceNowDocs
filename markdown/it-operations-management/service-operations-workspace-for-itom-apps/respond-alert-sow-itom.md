@@ -69,15 +69,15 @@ For users familiar with the classic Event Management experience, this provides a
 
     \[Omitted image "respond-automation-actions.png"\] Alt text: Respond automation actions
 
-<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d147021e245">
+<table id="choicetable_cng_cfz_pbc"><thead><tr><th align="left" id="d541574e245">
 
 Action
 
-</th><th align="left" id="d147021e248">
+</th><th align="left" id="d541574e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147021e254">
+</th></tr></thead><tbody><tr><td id="d541574e254">
 
 **Create incident and other response actions**
 
@@ -120,7 +120,7 @@ You can define conditions that are evaluated after the wait period to determine 
 
 To add another response action, select **+ Add response action**.
 
-</td></tr><tr><td id="d147021e467">
+</td></tr><tr><td id="d541574e467">
 
 **Use outbound webhooks to send data to other systems**
 
@@ -143,7 +143,7 @@ Sends notifications to other systems using outbound webhooks. For example, this 
 
     \[Omitted image "respond-automation-details.png"\] Alt text: Respond automation details section
 
-    For information on the Automation details fields, see []().
+    For information on the Automation details fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/automation-details-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/automation-details-fields.md).
 
 10. Select **Save automation**.
 

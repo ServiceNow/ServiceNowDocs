@@ -73,7 +73,7 @@ If your company has created a custom portal and/or ticket page, and you want the
 -   Value: /escServiceNow?id= new\_ticket\_page&amp;sys\_id=\{\{data.sys\_id\}\}
 -   Application: Global
 
-**Note:** See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+**Note:** See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Natural Language Understanding \(NLU\) support
 
@@ -175,7 +175,7 @@ When an employee opens an HR case using Virtual Agent for HR Service Delivery, t
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 ## Configure Virtual Agent for HR

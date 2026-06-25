@@ -38,7 +38,7 @@ Choose one of the following tiles to learn more about the different applications
 
 </td><td>
 
-[Finance and Supply Chain applications\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Learn more about the finance and supply chain applications that enables employees and finance teams to manage finance-related requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/fsc-common-apps-landing.md)
+[Finance and Supply Chain applications\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Learn more about the finance and supply chain applications that enables employees and finance teams to manage finance-related requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/fsc-common-apps-landing.md)
 
 </td><td>
 
@@ -112,5 +112,5 @@ For more information on the procurement inquiry form, if you're an existing user
 ## Workflows and applications
 
 -   [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)
--   [Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/finance-supply-chain-landing.md)
+-   [Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-supply-chain-landing.md)
 

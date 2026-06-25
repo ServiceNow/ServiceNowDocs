@@ -130,7 +130,7 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
         2.  Select the form's question to use as the condition from the **Question** field.
         3.  Specify the condition **Operator** and the answer's **Value**.
         4.  Select **Apply** when you're done defining the condition.
-        For details on working with conditions, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-cond-state-using-cond-build.md).
+        For details on working with conditions, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 

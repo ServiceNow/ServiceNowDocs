@@ -25,7 +25,7 @@ Role required:
 
 ## Procedure
 
-1.  [Create a Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and open the text file that you created during the procedure.
+1.  [Create a Microsoft Azure service principal]() and open the text file that you created during the procedure.
 
 2.  In the Cloud Admin Portal, navigate to **Manage** &gt; **Credentials**.
 

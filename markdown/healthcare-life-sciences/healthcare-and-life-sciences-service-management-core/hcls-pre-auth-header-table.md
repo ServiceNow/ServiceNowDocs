@@ -24,7 +24,7 @@ The Pre-authorization request \[sn\_hcls\_pre\_auth\_header\] table stores the a
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_i41_xh3_npb"><thead><tr><th>
 

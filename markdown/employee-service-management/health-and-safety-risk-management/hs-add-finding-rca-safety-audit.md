@@ -38,15 +38,15 @@ Safety auditors create actions for specific questions while completing a smart a
 
 4.  Create a finding from the **Findings** tab or directly from within an item for review.
 
-<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d151027e131">
+<table id="choicetable_omn_fqz_l3c"><thead><tr><th align="left" id="d261613e131">
 
 Option
 
-</th><th align="left" id="d151027e134">
+</th><th align="left" id="d261613e134">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d151027e140">
+</th></tr></thead><tbody><tr><td id="d261613e140">
 
 **From the Findings tab**
 
@@ -54,7 +54,7 @@ Steps
 
 In the **Findings** tab of the audit, select **New**.
 
-</td></tr><tr><td id="d151027e155">
+</td></tr><tr><td id="d261613e155">
 
 **From within an item for review**
 

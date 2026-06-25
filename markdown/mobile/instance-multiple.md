@@ -30,15 +30,15 @@ Role required: user
 
     **Note:** You can't rename or remove preconfigured accounts. Preconfigured accounts are defined by your administrator and are identified by the following icon \(\[Omitted image "preconfigured-instance-icon.png"\] Alt text: Preconfigured account icon.\).
 
-<table id="choicetable_i2c_cbg_fwb"><thead><tr><th align="left" id="d46039e107">
+<table id="choicetable_i2c_cbg_fwb"><thead><tr><th align="left" id="d105079e107">
 
 Action
 
-</th><th align="left" id="d46039e110">
+</th><th align="left" id="d105079e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d46039e116">
+</th></tr></thead><tbody><tr><td id="d105079e116">
 
 **Adding a new account**
 
@@ -54,7 +54,7 @@ Procedure
 7.  Tap **Log in** to display the landing page of your account.
 
 
-</td></tr><tr><td id="d46039e175">
+</td></tr><tr><td id="d105079e175">
 
 **Logging in to an account**
 
@@ -69,7 +69,7 @@ For iOS, you can do one of the following:-   In the Accounts page, tap on the ac
 2.  From the bottom menu option, select **Log in**.
 
 
-</td></tr><tr><td id="d46039e225">
+</td></tr><tr><td id="d105079e225">
 
 **Logging out of an account**
 
@@ -83,7 +83,7 @@ For iOS:1.  In the Accounts page, swipe to the left on the account you want to l
 2.  From the bottom menu option, select **Log out**.
 
 
-</td></tr><tr><td id="d46039e266">
+</td></tr><tr><td id="d105079e266">
 
 **Removing or renaming an account**
 

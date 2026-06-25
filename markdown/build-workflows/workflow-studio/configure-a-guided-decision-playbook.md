@@ -113,15 +113,15 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d65896e533">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d71355e533">
 
 Type
 
-</th><th align="left" id="d65896e536">
+</th><th align="left" id="d71355e536">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d65896e542">
+</th></tr></thead><tbody><tr><td id="d71355e542">
 
 **Standalone**
 
@@ -132,7 +132,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d65896e569">
+</td></tr><tr><td id="d71355e569">
 
 **Record-driven**
 

@@ -55,15 +55,15 @@ You can use the case summarization skill in either Core UI or Workplace Central.
 
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d234915e211">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d254042e211">
 
 Option
 
-</th><th align="left" id="d234915e214">
+</th><th align="left" id="d254042e214">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d234915e220">
+</th></tr></thead><tbody><tr><td id="d254042e220">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -74,7 +74,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d234915e250">
+</td></tr><tr><td id="d254042e250">
 
 **Expand or collapse the summary**
 
@@ -82,7 +82,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d234915e265">
+</td></tr><tr><td id="d254042e265">
 
 **Provide feedback for the summary**
 
@@ -90,7 +90,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d234915e288">
+</td></tr><tr><td id="d254042e288">
 
 **Copy the case summary**
 
@@ -98,7 +98,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d234915e304">
+</td></tr><tr><td id="d254042e304">
 
 **View the information about the case summary**
 

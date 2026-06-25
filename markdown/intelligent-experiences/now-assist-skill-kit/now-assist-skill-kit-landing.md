@@ -16,7 +16,7 @@ breadcrumb: [Enable AI experiences]
 
 Use ServiceNow® Now Assist Skill Kit to create and publish custom prompts and skills for Now Assist. Creating custom skills and prompts enables you to have greater flexibility with Now Assist's generative AI capabilities.
 
-Now Assist Skill Kit video that shows how to build a custom skill. 
+\[Omitted video\] Description: Now Assist Skill Kit video that shows how to build a custom skill.
 
 ## Get started
 

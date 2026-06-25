@@ -18,7 +18,7 @@ Use the ServiceNow® Financial Services Operations \(FSO\) application to help c
 
 This video provides an overview of how you can use Financial Services Operations to automate core operations, allowing financial institutions to securely manage tasks with prebuilt applications and workflows, making everyday tasks easier and faster.
 
-A visual guide to Financial Services Operations applications.
+\[Omitted video\] Description: A visual guide to Financial Services Operations applications.
 
 ## Financial Services Operations features
 

@@ -29,7 +29,7 @@ Customer success managers can use the Support renewals and expansion agentic wor
 -   Generate renewal likelihood assessments and expansion potential at the engagement and contract level.
 -   Receive up to three recommended actions, each with a specific play type, target product, priority, and reasoning.
 
-**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md) for details.
+**Note:** The Support renewals and expansion agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) for details.
 
 ## Configure the Support renewals and expansion agentic workflow
 
@@ -63,7 +63,7 @@ For more details on configuring the data sources, see [Configure the Data contex
     -   Generic Prompt Vertex AI \(Google Cloud Chat Completion\)
     -   Generic Prompt \(Amazon Bedrock Chat Completions\)
 
-When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) and select one of the following scans:
+When a contract is due to expire in 90 days, the customer success manager receives a notification and the Support renewals and expansion workflow is automatically triggered. The customer success manager can monitor the progress in the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) and select one of the following scans:
 
 -   Value
 -   Health
@@ -91,7 +91,7 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Support renewals and expansion**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/test-aia-use-case.md).
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
 
 \[Omitted image "renewal-analysis.png"\] Alt text: Renewal analysis workflow
 

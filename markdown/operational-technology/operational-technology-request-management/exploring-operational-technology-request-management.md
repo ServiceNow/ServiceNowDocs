@@ -18,7 +18,7 @@ Operational Technology Request Management lets you access the Operational Techno
 
 ## Operational Technology Request Management overview
 
-Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Request Management.Operational Technology Service Management overview video 
+Watch an overview about the Operational Technology Service Management product suite to learn more about the Operational Technology Request Management.\[Omitted video\] Description: Operational Technology Service Management overview video
 
 ## Operational Technology Request Management benefits
 

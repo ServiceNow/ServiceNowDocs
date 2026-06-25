@@ -18,7 +18,7 @@ The Configuration Management Database \(CMDB\) application is a centralized sour
 
 ## Overview of CMDB
 
-CMDB Overview 
+\[Omitted video\] Description: CMDB Overview
 
 <table id="table_o1d_bfj_pwb" class="nav-card"><tbody><tr><td>
 

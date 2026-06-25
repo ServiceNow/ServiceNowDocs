@@ -1,0 +1,42 @@
+---
+title: Create application model form
+description: Add an application model to a value stream for better management of your application portfolios.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-application-model-from.html
+release: australia
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+---
+
+# Create application model form
+
+Add an application model to a value stream for better management of your application portfolios.
+
+|Field|Description|
+|-----|-----------|
+|Description|A description of the model as it appears in the product catalog.|
+|Manufacturer|The company that built the model.|
+|Model categories|The category to which the model is assigned.|
+|Name|The manufacturer-assigned name of the model.|
+|Short description|A brief description of the model.|
+|Comments|Information about the model that would be helpful for others to know.|
+
+|Field|Description|
+|-----|-----------|
+|Manufacturer|The company that built the model.|
+|Model categories|The category to which the model is assigned.|
+|Name|The manufacturer-assigned name of the model.|
+|Short description|A brief description of the model.|
+|Comments|Information about the model that would be helpful for others to know.|
+
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+
+**Related topics**  
+
+
+[Exploring value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-streams.md)
+
+[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
+

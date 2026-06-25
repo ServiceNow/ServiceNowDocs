@@ -112,15 +112,15 @@ To use an account without AWS credentials, you must first configure that account
 
 7.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d94102e584">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d136087e584">
 
 Trusted account type
 
-</th><th align="left" id="d94102e587">
+</th><th align="left" id="d136087e587">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94102e593">
+</th></tr></thead><tbody><tr><td id="d136087e593">
 
 **Management account**
 
@@ -165,7 +165,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d94102e710">
+</td></tr><tr><td id="d136087e710">
 
 **Member or discrete account**
 

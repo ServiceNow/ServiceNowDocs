@@ -16,7 +16,7 @@ breadcrumb: [Use, Virtual Agent API, Build and deploy, Virtual Agent, Conversati
 
 In bot-to-bot integrations \(Virtual Agent API\), abandoned conversations that are "idle" for more than an hour are automatically closed by the scheduled job, **Time Out Abandoned B2B Conversations**. This job runs hourly each day.
 
-The default timeout period for abandoned bot-to-bot conversations is one hour \(3600 seconds\). The **Time Out Abandoned B2B Conversations** job closes any bot-to-bot conversations that have been open longer than one hour \(3600 seconds\). You \(admins\) can change the default timeout period for idle bot-to-bot conversations by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) **com.glide.cs.b2b\_conversation\_idle\_timeout**.
+The default timeout period for abandoned bot-to-bot conversations is one hour \(3600 seconds\). The **Time Out Abandoned B2B Conversations** job closes any bot-to-bot conversations that have been open longer than one hour \(3600 seconds\). You \(admins\) can change the default timeout period for idle bot-to-bot conversations by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **com.glide.cs.b2b\_conversation\_idle\_timeout**.
 
 The timeout value that you specify in this property applies to all bot-to-bot conversations involving the Virtual Agent.
 

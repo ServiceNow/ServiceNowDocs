@@ -40,7 +40,7 @@ AI Agent Advisor
 -   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
-See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-advisor-landing-page.md) for more information.
+See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ AI Desktop Actions
 -   Added a **Delete** button to the image canvas to remove a screen.
 -   Enabled screen-level testing while designing desktop actions.
 
-See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/agentic-desktop-landing-page.md) for more information.
+See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -571,7 +571,7 @@ Clone Admin Console
 -   Access all clone functions from the Clone Admin Console menu navigation item.
 -   Submit additional clone requests to a target instance with an existing scheduled clone that is at least seven days apart.
 
-See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/system-clone-landing.md) for more information.
+See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -645,7 +645,7 @@ Configurable Workspace
 -   Edit or delete Activity stream posts, and add knowledge base links from recommended actions.
 -   Implement declarative actions without assuming page ownership, and override attributes without altering the base action.
 
-See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) for more information.
+See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1131,7 +1131,7 @@ Enterprise Service Management Foundation
 -   Deploy with AI-driven guided setup, preset configurations, and a centralized implementation console that eliminates the need for complex configuration procedures.
 -   Deliver cross-functional workflows that route employee queries across departments.
 
-See [Enterprise Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions/esm-foundation.md) for more information.
+See [Enterprise Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/esm-foundation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1668,7 +1668,7 @@ Knowledge Center
 -   Improve the quality and health of knowledge articles with article optimization scans.
 -   Merge duplicate knowledge articles with Now Assist to improve content quality, maintain source references, and keep your Knowledge Base clear and reliable.
 
-See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/knowledge-center.md) for more information.
+See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1750,7 +1750,7 @@ MCP Server Console
 -   Create MCP Server Console servers and tools based on various categories including Now Assist skills for different use cases.
 -   Connect to any MCP Server Console client using OAuth 2.0 authentication.
 
-See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/mcp-platform-manager-landing.md) for more information.
+See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-platform-manager-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1801,7 +1801,7 @@ Next Experience
 -   Manage the visibility of page alerts with a new accessibility user preference.
 -   Explore a modernized Coral theme with better contrast, rounded UI elements, improved dark mode, and AI-focused enhancements.
 
-See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md) for more information.
+See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1842,7 +1842,7 @@ Notifications
 -   Identify and process multiple intents in inbound emails, enabling multiple reply email actions.
 -   Handle missing inputs in inbound emails using configurable execution modes.
 
-See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/notifications.md) for more information.
+See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1897,7 +1897,7 @@ Now Assist AI Agents
 -   Run improved Platform agentic workflows, including Generate resolution plans, Generate my work plan, and Process images to tasks.
 -   Get more insights into agentic AI asset performance with issue tracing and suggested optimizations from results pages.
 
-See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) for more information.
+See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
 For the Platform Now Assist release notes, see [Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md).
 
@@ -1922,7 +1922,7 @@ Now Assist Center
 -   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
-See [Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-center-landing-page.md) for more information.
+See [Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2534,7 +2534,7 @@ Purchase Order Management
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -2552,7 +2552,7 @@ Australia Early Availability
 -   Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox.
 -   Analyze delivery gaps and view suggested edits to orders with alternative suppliers with the Define purchase order exception mitigation strategy agentic workflow
 
-See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/purchase-order-mgmt-landing-page.md) for more information.
+See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2892,7 +2892,7 @@ ServiceNow AI Platform core feature
 
 Control whether read-only fields can be updated through client scripts and server-side operations by configuring read-only options.
 
-See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/intro-now-platform-landing.md) for more information.
+See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md) for more information.
 
 Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 
@@ -2964,7 +2964,7 @@ Setup Hub
 -   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
-See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/ia-landing.md) for more information.
+See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3083,7 +3083,7 @@ Supplier Lifecycle Operations
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md)**
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -3176,7 +3176,7 @@ Theme Builder
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 
-See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md) for more information.
+See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md) for more information.
 
 </td></tr><tr><td>
 

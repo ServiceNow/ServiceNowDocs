@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/workspace-get-help.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ To get help with Configurable Workspace, your ServiceNow instance, plugins, perm
 
 The ServiceNow admin in your company can help you with things like activating plugins, kicking off upgrades, unlocking accounts, updating user permissions, and much more.
 
-How to get help from your admin 
+\[Omitted video\] Description: How to get help from your admin
 
 ## Helpful resources
 

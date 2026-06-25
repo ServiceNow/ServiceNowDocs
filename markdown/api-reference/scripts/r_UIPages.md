@@ -179,7 +179,7 @@ A common practical example of this might be retrieving a database record for dis
 
 An exception to be careful of, though, is the reserved variable name sys\_id. This variable always contains the ID of the UI page itself, regardless of what is specified in the URL. A common substitute variable name is sysparm\_id.
 
-Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can [add the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
+Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can [add the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
 
 ## Use access controls on UI pages
 

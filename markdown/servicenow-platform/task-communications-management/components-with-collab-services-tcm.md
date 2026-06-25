@@ -16,7 +16,7 @@ breadcrumb: [Install Collaboration Services for Task Communications Management, 
 
 Several types of components are installed with the Collaboration Services for Task Communications Management \(sn\_tcm\_collab\_hook\) plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Tables installed
 

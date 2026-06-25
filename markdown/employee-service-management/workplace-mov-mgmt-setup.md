@@ -35,7 +35,7 @@ And in the Workplace Core application, you can do the following:
 
 You can also group multiple move requests under a move project and track their progress at a time using the Workplace Central Move Management workspace. For more information, refer to [Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-mgmt.md).
 
--   **[Create a move request on behalf of an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Create a move request on behalf of an employee]()**  
 Create a move request on behalf of an employee from the application directly instead of using the Workplace Service Portal.
 -   **[Raise a move request for a space change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-desk-change.md)**  
 Create a move request to relocate to another space. Specify why you want to move and when you want to move. You can select a space that is located in your current building or at a different building. You can also select a desk directly on the floor map.

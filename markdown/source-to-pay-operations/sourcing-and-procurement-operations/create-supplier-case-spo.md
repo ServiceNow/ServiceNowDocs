@@ -16,7 +16,7 @@ breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Op
 
 As a procurement specialist, with an additional supplier role of sn\_slm.manager, create a supplier case from the list view of Source-to-Pay Workspace to address your supplier-related business needs.
 
-Demonstrates the procedure for creating a supplier case. 
+\[Omitted video\] Description: Demonstrates the procedure for creating a supplier case.
 
 ## Before you begin
 

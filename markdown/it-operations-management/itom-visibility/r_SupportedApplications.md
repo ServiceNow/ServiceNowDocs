@@ -6088,7 +6088,7 @@ Kubernetes
 
 </td></tr><tr><td>
 
-[Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Linux Server]()
 
 </td><td>
 

@@ -26,7 +26,7 @@ Role required: sn\_gf.goal\_admin
 
 2.  On the Goal Preferences form, configure the properties.
 
-    For properties information, see [Goal Preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For properties information, see [Goal Preferences form]().
 
 3.  Click **Save**.
 

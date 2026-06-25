@@ -30,7 +30,7 @@ Use a Telecommunications Network Inventory decision table to integrate the Telec
 Assign a record producer to a change request by using a decision table in the Telecommunications Network Inventory application.
 -   **[Assign a record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md)**  
 Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md)**  
 
 -   **[Customize the Validation of Revision CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-the-validation-of-revision-ci.md)**  
 Customize the validation process of a CI \(Configuration Item\) using the Telecommunications Network Inventory application. You can customize the validation process by providing adjustable parameters based on the script.

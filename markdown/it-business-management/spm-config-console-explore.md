@@ -54,5 +54,5 @@ To learn more about accessing and using Setup Hub \(SPM\), see:
 **Related topics**  
 
 
-[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/ia-landing.md)
+[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
 

@@ -99,7 +99,7 @@ The instance must already have language internationalization plugins installed. 
 
 ### About this task
 
-Language-specific text appears in [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md) displayed in a list, [workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md), and the Workflow Editor for users with that language selected. Language-specific text does not automatically appear when [displaying stages on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md). To translate stages on a form, add translated text to the workflow field choices.
+Language-specific text appears in [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md) displayed in a list, [workflow stage sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowStageSets.md), and the Workflow Editor for users with that language selected. Language-specific text does not automatically appear when [displaying stages on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflowStageField.md). To translate stages on a form, add translated text to the workflow field choices.
 
 You can add translated text for any language enabled on the instance. For example, to translate workflow stages into French:
 

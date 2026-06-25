@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the spaces based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d155829e101">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d320080e101">
 
 Action
 
-</th><th align="left" id="d155829e104">
+</th><th align="left" id="d320080e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155829e110">
+</th></tr></thead><tbody><tr><td id="d320080e110">
 
 **Create a space**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select **Save**.
  **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-space.md).
 
-</td></tr><tr><td id="d155829e156">
+</td></tr><tr><td id="d320080e156">
 
 **Edit spaces**
 
@@ -70,7 +70,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d155829e194">
+</td></tr><tr><td id="d320080e194">
 
 **Edit space allocations**
 
@@ -95,7 +95,7 @@ If you have Workplace Space Management, you can select the Cost Center, Departme
 6.  Select **Apply**.
 
 
-</td></tr><tr><td id="d155829e258">
+</td></tr><tr><td id="d320080e258">
 
 **Remove space allocations**
 
@@ -110,7 +110,7 @@ Allocation types are available only if you have the Workplace Space Management.
 4.  Review the current allocation details, then select **Save**.
 
 
-</td></tr><tr><td id="d155829e297">
+</td></tr><tr><td id="d320080e297">
 
 **Export space details**
 

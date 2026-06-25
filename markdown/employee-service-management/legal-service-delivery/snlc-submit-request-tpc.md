@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Access the third-party review intake form either from the Legal Service Portal or from Employee Center.
 
-<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d236352e60">
+<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d587253e60">
 
 Method
 
-</th><th align="left" id="d236352e63">
+</th><th align="left" id="d587253e63">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236352e69">
+</th></tr></thead><tbody><tr><td id="d587253e69">
 
 **Legal Service Portal**
 
@@ -43,7 +43,7 @@ Action
 3.  Search for and open the **Third-party review** request item.
 
 
-</td></tr><tr><td id="d236352e108">
+</td></tr><tr><td id="d587253e108">
 
 **Employee Center**
 
@@ -61,15 +61,15 @@ Action
 
 3.  Attach one or more contract and supporting documents for the legal department to review.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d236352e190">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d587253e190">
 
 Method
 
-</th><th align="left" id="d236352e193">
+</th><th align="left" id="d587253e193">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d236352e199">
+</th></tr></thead><tbody><tr><td id="d587253e199">
 
 **Choose the file**
 
@@ -79,7 +79,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d236352e223">
+</td></tr><tr><td id="d587253e223">
 
 **Drag the file**
 
@@ -90,15 +90,15 @@ Drag files from your local computer into your browser window to attach them to t
 </td></tr></tbody>
 </table>4.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d236352e241">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d587253e241">
 
 Classification
 
-</th><th align="left" id="d236352e244">
+</th><th align="left" id="d587253e244">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d236352e250">
+</th></tr></thead><tbody><tr><td id="d587253e250">
 
 **Contract document**
 
@@ -110,7 +110,7 @@ In the **Document type** list, select the contract type that is relevant to the 
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d236352e271">
+</td></tr><tr><td id="d587253e271">
 
 **Supporting document**
 
@@ -143,5 +143,5 @@ As a member of the legal department contract support team, work on the request t
 -   **[Resubmit third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.md)**  
 As a legal user, resubmit contract request in draft state.
 
-**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Third-party contract review requests]()
 

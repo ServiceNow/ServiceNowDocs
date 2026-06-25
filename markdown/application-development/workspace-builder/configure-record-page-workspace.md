@@ -116,12 +116,12 @@ Activity stream
 
 </td><td>
 
-Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_activity-streams.md).
+Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_activity-streams.md).
 
 </td></tr></tbody>
 </table>4.  Configure the related information in the Related information section of the configuration panel for the record page.
 
-    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md).
+    Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
 
     **Note:** You can't create a table for the related information in a record page. The table must exist in ServiceNow AI Platform.
 
@@ -313,7 +313,7 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d117232e925">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d242923e925">
 
 **Update the name of the record page**
 
@@ -330,7 +330,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d117232e960">
+</td></tr><tr><td id="d242923e960">
 
 **Preview the record page in a new browser tab**
 
@@ -338,7 +338,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d117232e981">
+</td></tr><tr><td id="d242923e981">
 
 **Delete a record page**
 

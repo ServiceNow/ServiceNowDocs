@@ -44,7 +44,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 5.  Fill in the playbook properties.
 
-<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d107860e215">
+<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d152603e215">
 
 **Label**
 
@@ -52,7 +52,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 Enter a unique, user-facing name for your playbook. This name appears during playbook runtime.
 
-</td></tr><tr><td id="d107860e230">
+</td></tr><tr><td id="d152603e230">
 
 **Application**
 
@@ -60,7 +60,7 @@ Enter a unique, user-facing name for your playbook. This name appears during pla
 
 Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
 
-</td></tr><tr><td id="d107860e252">
+</td></tr><tr><td id="d152603e252">
 
 **Description**
 
@@ -68,7 +68,7 @@ Choose an application scope that you want your playbook to run in. Selecting **G
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d107860e264">
+</td></tr><tr><td id="d152603e264">
 
 **Trigger type**
 
@@ -76,7 +76,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Specify what causes your trigger to fire.
 
-</td></tr><tr><td id="d107860e273">
+</td></tr><tr><td id="d152603e273">
 
 **Table**
 

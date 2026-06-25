@@ -7,7 +7,7 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -20,7 +20,7 @@ The system excludes certain tables from being tracked or rolled back:
 
 -   The [History \[sys\_history\_line\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 -   The [ECC Queue table \[ecc\_queue\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_DiscoveryStatusECCQueue.md).
--   The Email [\[sys\_email\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_SystemMailboxes.md) [Email Log \[sys\_email\_log\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_EmailLogs.md) tables
+-   The Email [\[sys\_email\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SystemMailboxes.md) [Email Log \[sys\_email\_log\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_EmailLogs.md) tables
 -   The [Report Executions \[report\_executions\] and ReportStats \[report\_stats\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-statistics.md) tables.
 -   The Execution Tracker \[sys\_execution\_tracker\] tables
 -   The Progress Worker \[sys\_progress\_worker\] table

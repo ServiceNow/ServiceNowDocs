@@ -24,7 +24,7 @@ Set your scope to EMR Help.
 
 ## About this task
 
-Video showing how to configure a record producer for a custom healthcare case type.
+\[Omitted video\] Description: Video showing how to configure a record producer for a custom healthcare case type.
 
 ## Procedure
 

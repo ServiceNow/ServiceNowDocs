@@ -445,5 +445,5 @@ Australia
 </table>**Related topics**  
 
 
-[bundle-cadev.quick-start-tests]
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
 

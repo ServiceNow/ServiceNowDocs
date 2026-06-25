@@ -31,7 +31,7 @@ This playbook is divided into four stages:
 
 Each stage has one or more than one activity that you need to perform. Activities are typically performed sequentially. You can go back to those activities to complete them later.
 
-creating a life cycle report using a guided experience 
+\[Omitted video\] Description: creating a life cycle report using a guided experience
 
 ## Procedure
 

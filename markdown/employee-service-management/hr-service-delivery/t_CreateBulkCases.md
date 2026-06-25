@@ -18,7 +18,7 @@ Use bulk case request to create the same type of HR case, for multiple employees
 
 ## Before you begin
 
-Create a bulk case request 
+\[Omitted video\] Description: Create a bulk case request
 
 Role required: sn\_hr\_core.admin
 

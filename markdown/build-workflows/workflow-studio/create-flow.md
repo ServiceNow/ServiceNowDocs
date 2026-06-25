@@ -16,7 +16,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Run a sequence of actions and flow logic when the trigger conditions occur.
 
-Create a flow with Workflow Studio 
+\[Omitted video\] Description: Create a flow with Workflow Studio
 
 ## Before you begin
 

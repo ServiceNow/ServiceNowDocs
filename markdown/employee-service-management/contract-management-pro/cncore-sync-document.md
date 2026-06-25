@@ -45,5 +45,5 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 A new contract document revision is created with the updated metadata and signatories. The changes made in the previous revision are retained.
 
-**Parent Topic:**[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Use self-served contract request]()
 

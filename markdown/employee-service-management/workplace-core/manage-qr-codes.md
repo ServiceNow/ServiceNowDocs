@@ -26,7 +26,7 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 2.  To generate a new QR code, click **New**.
 
-    For more information, refer to [Generate and print QR code for a space or room](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For more information, refer to [Generate and print QR code for a space or room]().
 
 3.  Select the QR code that you want to view or update.
 

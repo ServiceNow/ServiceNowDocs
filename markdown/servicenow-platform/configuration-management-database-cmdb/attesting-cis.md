@@ -59,7 +59,7 @@ Disables smart detection.
 -   Values:
     -   **true**: Disable smart detection.
     -   **false**: Enable smart detection.
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 -   Learn more: [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>

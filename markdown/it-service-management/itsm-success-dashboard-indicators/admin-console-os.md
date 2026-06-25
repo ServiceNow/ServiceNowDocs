@@ -28,7 +28,7 @@ Tabs and dashboards: Map a KPI category such as Incident, Problem, Change, Reque
 
 Review and configure the data visualization available in the base system for Incident, Problem, Change, Request, Interaction, Service catalog, Major Incident, Password Reset, and Walk-up Experience.
 
-Operational Success Overview 
+\[Omitted video\] Description: Operational Success Overview
 
 -   **[Create an operational success dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/create-operational-success-dashboard.md)**  
 Create a KPI category and map with the operational dashboard to view the performance of the ITSM processes in your organization.

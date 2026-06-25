@@ -27,7 +27,7 @@ To view the **Assistants** tab in Assistant Designer, verify that the Now Assist
 
 -   With the Now Assist for Platform plugin, you can see all Now Assist in Virtual Agent and Now Assist panel assistants.
 -   If you only have the Now Assist for Creator plugin installed, only the Now Assist panel - Developer assistant is shown.
--   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see .
+-   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see [Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-landing-page.md).
 
 |Default assistants|Activate|Deactivate|Edit|Test|Delete|
 |------------------|--------|----------|----|----|------|
@@ -59,7 +59,7 @@ Assistants are shown in card view and in map view.
         -   Activate/deactivate is inactive.
         -   Delete is inactive.
         -   Edit triggers the assistant edit flow, but all fields are read-only.
-    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md). If the domain plugin is installed, these options are available:
+    -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md). If the domain plugin is installed, these options are available:
         -   **Domain scope: Default** determines the domain that you are in.
         -   **Application scope: Global** determines the store app or plugin scope that you are in.
         -   **Update set: Default \[Global\]** determines where updates are made on the instance are saved.
@@ -70,7 +70,7 @@ Select the **View as cards** drop-down menu to toggle to the map view. The linka
 -   In the map view, primary assistants on the top row show secondary assistants that are linked to them.
 -   Green indicates that the assistant is turned on. Gray indicates that the assistant is turned off.
 
-The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
+The side panel shows where you left off, recent activity, and resources. The links that appear within the **Resources** section are hard-coded and can't be changed. If you select the **Manage model provider \(Now LLM\)** link, you will be redirected to Now Assist Admin console. For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 
 To change the LLM provider for all assistants on the instance, select **Customize** &gt; **Edit provider for a skill group** &gt; **AI agents**.
 

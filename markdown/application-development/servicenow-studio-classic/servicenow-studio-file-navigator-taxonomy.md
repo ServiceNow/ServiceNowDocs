@@ -52,7 +52,7 @@ Agentic Workflow
 
 Agentic workflows are a business problem that you want to solve. In AI Agent Studio, you must define an agentic workflow and connect it with an AI agent to get a resolution plan.
 
- For more information, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-use-case-ai-agents.md).
+ For more information, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
 
 </td><td>
 
@@ -70,7 +70,7 @@ AI Agent
 
 AI Agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
- For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
+ For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 </td><td>
 
@@ -217,7 +217,7 @@ Email Template
 
 Email templates enable administrators to create reusable content for the subject line and message body of email notifications. Admins can add rich text and other items, such as images, to email templates.
 
- For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md).
+ For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 
 </td><td>
 
@@ -269,7 +269,7 @@ Notification
 
 Notifications alert users when a record changes. For example, you could get a push notification when a request is rejected.
 
- For more information, see [System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/system-notifications-landing.md).
+ For more information, see [System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-notifications-landing.md).
 
 </td><td>
 
@@ -504,7 +504,7 @@ UI Policy
 
 UI policies dynamically change the behavior of information on a form and control custom process flows for tasks. For example, use UI policies to make the number field on a form read only, make the short description field required, and hide other fields.
 
- For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md).
+ For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md).
 
 </td><td>
 
@@ -561,7 +561,7 @@ Audio
 
 Use audio files to upload sounds and recordings that your app can use on the ServiceNow AI Platform.
 
- For more information, see [Manage audio files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_UploadAnAudioFile.md).
+ For more information, see [Manage audio files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UploadAnAudioFile.md).
 
 </td><td>
 
@@ -633,7 +633,7 @@ Images
 
 Upload and store images on the ServiceNow AI Platform to be used in apps and forms. Reference images from HTML fields by appending the name of the image to the URL of the instance.
 
- For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_StoringImagesInTheDatabase.md).
+ For more information, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td><td>
 
@@ -1556,7 +1556,7 @@ System Property
 
 System properties store important values for an application, such as settings or configurations, that scripts may need to reference. Storing values as system properties allows updates in one place without changing each script that references the values.
 
- For more information, see [What are application properties?](https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/new_to_servicenow/app_store_learnv2_automatingapps_xanadu_what_are_application_properties) and [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md).
+ For more information, see [What are application properties?](https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/new_to_servicenow/app_store_learnv2_automatingapps_xanadu_what_are_application_properties) and [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 </td><td>
 
@@ -1667,7 +1667,7 @@ Metric Definition
 
 Metric definitions measure and evaluate the effectiveness of an application process. For example, a metric could measure the effectiveness of the incident resolution process by calculating how long it takes to resolve an incident. Define metrics and create reports and dashboards using your metrics definitions.
 
- For more information, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MetricDefinitionSupport.md) and [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-metric.md).
+ For more information, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md) and [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md).
 
 </td><td>
 
@@ -1964,7 +1964,7 @@ Data Policy
 
 Data policies enforce data consistency by setting mandatory and read-only states for fields. Data policies are similar to UI policies, but UI policies only apply to data entered on a form through the standard browser. Data policies apply rules to all data entered into the system, including data brought in through import sets or web services and data entered through the mobile UI.
 
- For more information, see [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DataPolicy.md).
+ For more information, see [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
 
 </td><td>
 
@@ -2108,7 +2108,7 @@ UI Action
 
 UI actions define the behavior of buttons, links, or context menu items in your application, specifying how they interact with the server-side database.
 
- For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_UIActions.md) and [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
+ For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md) and [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 </td><td>
 
@@ -2253,7 +2253,7 @@ Application Menu
 
 Application menus are groupings of modules as they appear in the application navigator \(UI16\) or **All** menu \(Next Experience\). You can refer to an Application menu as simply an application.
 
- For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_EnDisableAppMenuOrMod.md).
+ For more information, see [Enable or disable an application menu or module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 
 </td><td>
 
@@ -2271,7 +2271,7 @@ Assessment Metric
 
 In the Assessments application, metrics are traits or values used to evaluate assessable records.
 
- For more information, see [Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/c_AssessmentMetrics.md).
+ For more information, see [Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md).
 
 </td><td>
 
@@ -2325,7 +2325,7 @@ Context Menu
 
 Context menus for forms provide controls for a list or form based on the table and user access rights.
 
- For more information, see [Form context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_FormContextMenu.md).
+ For more information, see [Form context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_FormContextMenu.md).
 
 </td><td>
 
@@ -2397,7 +2397,7 @@ List
 
 Lists display a set of records from a table, and can be filtered to refine the contents. For example, filter the Task list to show only Unassigned tasks. Each row in a list is a record, and each column is a field from the record.
 
- For more information, see [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md) and [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_ListAdministration.md).
+ For more information, see [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md) and [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_ListAdministration.md).
 
 </td><td>
 
@@ -2433,7 +2433,7 @@ Map Page
 
 Map pages display ServiceNow data graphically on a Google map page based on location data that you provide.
 
- For more information, see [Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_MapPages.md).
+ For more information, see [Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md).
 
 </td><td>
 
@@ -2505,7 +2505,7 @@ Related List
 
 Related lists appear on forms and show records in tables that have relationships to the current record.
 
- For more information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_RelatedLists.md).
+ For more information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
 
 </td><td>
 
@@ -2559,7 +2559,7 @@ Style
 
 Styles define properties such as font size, border, and alignment for text that appears in your app.
 
- For more information, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-next-experience-style.md) and [Style - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md).
+ For more information, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-next-experience-style.md) and [Style - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md).
 
 </td><td>
 
@@ -2577,7 +2577,7 @@ Template
 
 Templates create reusable content for administrators. For example, an email template could have a reusable subject line and message body for email notifications. Form templates simplify the process of submitting new records by populating fields automatically.
 
- For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md), [Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_Templates.md), and [Page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_PageTemplates.md).
+ For more information, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md), [Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md), and [Page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_PageTemplates.md).
 
 </td><td>
 
@@ -2595,7 +2595,7 @@ Theme
 
 Themes tailor the visual experience for users by updating the look and feel to match your brand.
 
- For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
+ For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 </td><td>
 
@@ -2631,7 +2631,7 @@ View Rule
 
 View rules force a specified view when users access a page or application.
 
- For more information, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreateAViewRule.md).
+ For more information, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
 
 </td><td>
 
@@ -2649,7 +2649,7 @@ Workspace
 
 Workspaces provide agents and managers with tools to answer customer questions and resolve customer problems. Workspaces are primarily used for request and fulfillment processes, such as a service desk to manage tickets.
 
- For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md) and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
+ For more information, see [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) and [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md).
 
 </td><td>
 

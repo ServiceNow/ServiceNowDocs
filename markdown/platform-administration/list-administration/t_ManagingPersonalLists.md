@@ -30,5 +30,5 @@ Role required: admin
 **Related topics**  
 
 
-[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md)
+[Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
 

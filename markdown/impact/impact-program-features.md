@@ -39,7 +39,7 @@ Use Quicklinks to access additional tools and benefits in your Impact Delivery I
 
 See the Impact overview video to get started with the Impact Store Application.
 
-ServiceNow Impact Store Application overview 
+\[Omitted video\] Description: ServiceNow Impact Store Application overview
 
 ## Impact Delivery Instance
 
@@ -48,7 +48,7 @@ ServiceNow Impact Store Application overview
 -   Existing data from the Impact IDI is migrated at setup to the Impact Store Application to ensure that critical information is integrated within your ServiceNow instance.
 -   Impact Store Application: The customer instance where the Impact Store Application is installed and is accessed in addition to the Impact Delivery Instance portal.
 
-    See the Impact overview video to get started with Impact.ServiceNow Impact overview 
+    See the Impact overview video to get started with Impact.\[Omitted video\] Description: ServiceNow Impact overview
 
 
 **Note:** Portions of Impact may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers \(except for their internal use\)

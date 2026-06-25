@@ -34,5 +34,5 @@ You can create a new report based on an existing report, but within the current 
 **Related topics**  
 
 
-[Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md)
+[Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
 

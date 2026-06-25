@@ -1001,7 +1001,7 @@ Too many comments could lead to resource exhaustion.
 
 </td></tr><tr><td>
 
-[]()
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-chat-server-debugging.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-chat-server-debugging.md)
 
 </td><td>
 

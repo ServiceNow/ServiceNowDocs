@@ -37,7 +37,7 @@ Other requirements: To schedule Outlook meetings from Journey Accelerator tasked
 
 Supported family releases:
 
-**Note:** Journey Accelerator Version 4.0.2 is the last family release that a standalone version of the app can be installed. The latest Journey Accelerator functionality is included with the [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) application.
+**Note:** Journey Accelerator Version 4.0.2 is the last family release that a standalone version of the app can be installed. The latest Journey Accelerator functionality is included with the [Journey designer]() application.
 
 -   Utah
 -   Tokyo

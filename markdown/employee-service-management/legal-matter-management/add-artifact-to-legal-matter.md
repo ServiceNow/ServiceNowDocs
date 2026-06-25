@@ -36,15 +36,15 @@ Apart from the matter owner, a collaborator or a task fulfiller can also add an 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d67319e107">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d770906e107">
 
 Option
 
-</th><th align="left" id="d67319e110">
+</th><th align="left" id="d770906e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67319e116">
+</th></tr></thead><tbody><tr><td id="d770906e116">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d67319e145">
+</td></tr><tr><td id="d770906e145">
 
 **As a collaborator**
 
@@ -121,5 +121,5 @@ Upload supporting documentation, such as documents, email copies, images, or any
 -   **[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/document-access-legal-matter.md)**  
 Documents attached to legal matters are uploaded to the configured external storage system when the external storage option is enabled on an intake form with All or matter type selected. The access permission of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

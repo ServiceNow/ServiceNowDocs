@@ -54,7 +54,7 @@ State of the subflow. Possible values are:-   completed: All steps are complete.
 -   failed: At least one step failed because of invalid configurations such as missing subflow or step configurations.
 
 </td></tr></tbody>
-</table>For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
+</table>For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 If your organization has processes to be run before or after the service fulfillment steps, create a flow and ensure that it is configured as a step-based service fulfillment flow.
 

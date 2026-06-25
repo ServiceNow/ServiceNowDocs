@@ -35,7 +35,7 @@ Starting with version 19.0.x, users who have the Now Assist for IRM application 
 
 **Important:** Be sure to check AI-generated summaries for accuracy. If no information is available, the generated summary displays “**No specific information available for penalty or fines and so on"**.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 ## Procedure
 
@@ -51,15 +51,15 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d163541e214">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d293650e214">
 
 Option
 
-</th><th align="left" id="d163541e217">
+</th><th align="left" id="d293650e217">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d163541e223">
+</th></tr></thead><tbody><tr><td id="d293650e223">
 
 **Share to additional comments**
 
@@ -67,7 +67,7 @@ Description
 
 Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d163541e238">
+</td></tr><tr><td id="d293650e238">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d163541e247">
+</td></tr><tr><td id="d293650e247">
 
 **View less**
 
@@ -83,7 +83,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d163541e256">
+</td></tr><tr><td id="d293650e256">
 
 **Provide feedback**
 
@@ -93,7 +93,7 @@ Select the helpful icon \[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc9371
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d163541e282">
+</td></tr><tr><td id="d293650e282">
 
 **Copy the summary**
 
@@ -101,7 +101,7 @@ Select the helpful icon \[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc9371
 
 Select the copy icon \[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d163541e299">
+</td></tr><tr><td id="d293650e299">
 
 **Regenerate the summary**
 

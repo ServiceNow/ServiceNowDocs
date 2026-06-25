@@ -18,7 +18,7 @@ Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windo
 
 ## Before you begin
 
-Installing ACC on user devices using Microsoft Intune 
+\[Omitted video\] Description: Installing ACC on user devices using Microsoft Intune
 
 -   Create an agent registration key. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
 

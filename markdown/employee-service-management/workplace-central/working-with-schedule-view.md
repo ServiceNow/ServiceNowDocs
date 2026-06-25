@@ -137,7 +137,7 @@ You can view reservations created in any campus, building, or floor of your orga
         -   To change the reservation and keep the services, edit the reservation first.
 14. To create a reservation on the selected campus, select **Create new reservation**.
 
-    For more information on how to make a reservation, refer to [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For more information on how to make a reservation, refer to [Create a reservation]().
 
 
 -   **[Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md)**  

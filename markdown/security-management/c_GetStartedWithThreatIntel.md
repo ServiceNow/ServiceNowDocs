@@ -55,7 +55,7 @@ The following roles are required for installation, configuration, and verificati
 
 Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -1294,15 +1294,15 @@ Role required: sn\_ti.admin
 
 5.  Fill in the fields in the **Collection Service Configuration** section, as appropriate.
 
-<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d71513e2716">
+<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d73484e2716">
 
 Field
 
-</th><th align="left" id="d71513e2719">
+</th><th align="left" id="d73484e2719">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d71513e2725">
+</th></tr></thead><tbody><tr><td id="d73484e2725">
 
 **Collection Info Service endpoint**
 
@@ -1310,7 +1310,7 @@ Description
 
 A TAXII Collection is an interface to a logical repository of CTI objects provided by a TAXII Server and is used by TAXII Clients to send information to the TAXII Server or request information from the TAXII Server. A TAXII Server can host multiple Collections per API Root, and Collections are used to exchange information in a request–response manner.
 
-</td></tr><tr><td id="d71513e2737">
+</td></tr><tr><td id="d73484e2737">
 
 **Use REST message**
 
@@ -1318,7 +1318,7 @@ A TAXII Collection is an interface to a logical repository of CTI objects provid
 
 Select this option if you require a REST message to access the TAXII profile. The **Collection Info Service REST message** and **Collection Info Service REST method** fields become required.
 
-</td></tr><tr><td id="d71513e2752">
+</td></tr><tr><td id="d73484e2752">
 
 **Collection Info Service REST message**
 
@@ -1326,7 +1326,7 @@ Select this option if you require a REST message to access the TAXII profile. Th
 
 Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.
 
-</td></tr><tr><td id="d71513e2764">
+</td></tr><tr><td id="d73484e2764">
 
 **Collection Info Service REST method**
 

@@ -335,7 +335,7 @@ false
 
 Returns the choice list for a specified field.
 
-The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ChoiceLists.md).
+The field for which to return the choice list is specified in the method call. For example: `var choices = glideRecord.urgency.getChoices();`. For information on choice list field types and their associated capabilities, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -427,7 +427,7 @@ The display value that is returned is dependent on the field type.
 -   Encrypted text: The database value is encrypted, while the displayed value is unencrypted based on the user's encryption context.
 -   Reference fields: The database value is sys\_id, but the display value is a display field of the referenced record.
 
-For more information on display values, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md).
+For more information on display values, see [Display values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -928,7 +928,7 @@ if (current.approver.getTableName() == "sysapproval_approver") {
 
 Returns the value of a specified field from a GlideRecord object.
 
-This method returns the internal value of the associated database field. To return the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
+This method returns the internal value of the associated database field. To return the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) of the field, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|

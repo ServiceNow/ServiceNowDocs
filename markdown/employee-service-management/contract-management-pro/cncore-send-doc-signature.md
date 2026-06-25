@@ -19,7 +19,7 @@ Send the document for signature after a contract document has been reviewed and 
 
 ## Before you begin
 
-The contract document must have been reviewed and finalized. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md) and [Work on a contract change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+The contract document must have been reviewed and finalized. For more information, see [Review a contract document in your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-request-changes-ss-cntr.md) and [Work on a contract change request]().
 
 If the contract request is linked to a parent contract request, the parent request must be in Contract signed or Closed complete state.
 

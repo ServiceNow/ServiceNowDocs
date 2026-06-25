@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d192799e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d620914e69">
 
 Method
 
-</th><th align="left" id="d192799e72">
+</th><th align="left" id="d620914e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192799e78">
+</th></tr></thead><tbody><tr><td id="d620914e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d192799e126">
+</td></tr><tr><td id="d620914e126">
 
 **Workspace used by your application**
 

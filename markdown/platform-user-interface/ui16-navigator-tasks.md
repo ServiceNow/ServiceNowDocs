@@ -36,7 +36,7 @@ Role required: none
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d115301e143">
+<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d122656e143">
 
 **Collapse or expand an application or application section**
 
@@ -44,7 +44,7 @@ Role required: none
 
 Click the application or application section label.
 
-</td></tr><tr><td id="d115301e152">
+</td></tr><tr><td id="d122656e152">
 
 **Collapse or expand all applications**
 
@@ -52,7 +52,7 @@ Click the application or application section label.
 
 Double-click the all applications tab icon \(\[Omitted image "IconUI16AllApplications.png"\] Alt text: All applications tab icon\).
 
-</td></tr><tr><td id="d115301e167">
+</td></tr><tr><td id="d122656e167">
 
 **Collapse or expand the application navigator**
 
@@ -84,7 +84,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 1.  Add a favorite in one of the following ways.
 
-<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d115301e289">
+<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d122656e289">
 
 **Add a module as a favorite**
 
@@ -92,7 +92,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 In the application navigator, click the star icon by a module.
 
-</td></tr><tr><td id="d115301e298">
+</td></tr><tr><td id="d122656e298">
 
 **Add all the modules under an application as favorites**
 
@@ -100,7 +100,7 @@ In the application navigator, click the star icon by a module.
 
 In the application navigator, click the star icon by an application.
 
-</td></tr><tr><td id="d115301e307">
+</td></tr><tr><td id="d122656e307">
 
 **Add a list as a favorite using the list context menu**
 
@@ -112,7 +112,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d115301e340">
+</td></tr><tr><td id="d122656e340">
 
 **Add a list as a favorite by dragging and dropping**
 
@@ -122,7 +122,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag a breadcrumb to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d115301e361">
+</td></tr><tr><td id="d122656e361">
 
 **Add a record as a favorite using the form context menu**
 
@@ -134,7 +134,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d115301e395">
+</td></tr><tr><td id="d122656e395">
 
 **Add a record as a favorite by dragging and dropping**
 
@@ -144,7 +144,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag the record title to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d115301e416">
+</td></tr><tr><td id="d122656e416">
 
 **Add a different type of link as a favorite**
 
@@ -155,7 +155,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 -   Reports
  **Note:** You may not be able to create bookmarks with other types of links.
 
-</td></tr><tr><td id="d115301e443">
+</td></tr><tr><td id="d122656e443">
 
 **Add a knowledge base article as a favorite**
 
@@ -174,7 +174,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 
 2.  To edit or delete a favorite, complete any of the following actions.
 
-<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d115301e491">
+<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d122656e491">
 
 **Reorder favorites in the list**
 
@@ -185,7 +185,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 3.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d115301e521">
+</td></tr><tr><td id="d122656e521">
 
 **Customize the name or icon for a favorite**
 
@@ -197,7 +197,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 4.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d115301e554">
+</td></tr><tr><td id="d122656e554">
 
 **Delete a favorite**
 

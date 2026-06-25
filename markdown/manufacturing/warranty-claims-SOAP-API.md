@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/warranty-claims-SOAP-API.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---

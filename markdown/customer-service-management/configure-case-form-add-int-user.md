@@ -38,5 +38,5 @@ With the Customer Service Management plugin \(com.sn\_customerservice\), agents 
 **Related topics**  
 
 
-[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md)
+[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md)
 

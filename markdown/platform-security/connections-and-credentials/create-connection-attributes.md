@@ -42,7 +42,7 @@ For more information about building custom Workflow Studio actions, see [Workflo
 
 4.  Define the attribute label and field type.
 
-    For a list of field types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
+    For a list of field types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 5.  Click the Advanced view related link to set advanced dictionary preferences for the attribute.
 

@@ -51,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d709843e125">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d779822e125">
 
 Choice
 
-</th><th align="left" id="d709843e128">
+</th><th align="left" id="d779822e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d709843e134">
+</th></tr></thead><tbody><tr><td id="d779822e134">
 
 **When internal storage is configured**
 
@@ -70,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d709843e155">
+</td></tr><tr><td id="d779822e155">
 
 **When external storage is configured**
 

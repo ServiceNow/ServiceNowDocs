@@ -103,7 +103,7 @@ Checklist
 
 </td><td>
 
-In the **Checklist** section, add the checklist items. For detailed information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreateAChecklist.md)
+In the **Checklist** section, add the checklist items. For detailed information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md)
 
 </td></tr><tr><td>
 

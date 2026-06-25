@@ -54,15 +54,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d119286e236">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d123040e236">
 
 If
 
-</th><th align="left" id="d119286e239">
+</th><th align="left" id="d123040e239">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d119286e245">
+</th></tr></thead><tbody><tr><td id="d123040e245">
 
 **You're using LEAP**
 
@@ -70,7 +70,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d119286e262">
+</td></tr><tr><td id="d123040e262">
 
 **You're using Suggested steps**
 

@@ -314,7 +314,7 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
 -   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
@@ -327,7 +327,7 @@ sysparm\_query
     -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
 -   &lt;value&gt;: Value to filter on.
 
-For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 

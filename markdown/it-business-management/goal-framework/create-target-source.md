@@ -24,7 +24,7 @@ Role required: sn\_gf.goal\_admin
 
 ## About this task
 
-The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source]().
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The context variable is required for target source types Assessment/Survey and P
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    For a description of the field values, see [Target Source form]().
 
 4.  Click **Submit**.
 

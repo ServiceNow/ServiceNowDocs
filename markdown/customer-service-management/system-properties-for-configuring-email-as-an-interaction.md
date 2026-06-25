@@ -126,5 +126,5 @@ Enable or disable agent notifications when a customer email reply is linked to t
 </table>**Related topics**  
 
 
-[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-last-viewed-timestamps-activity-stream.md)
+[Display the most recent reply in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-last-viewed-timestamps-activity-stream.md)
 

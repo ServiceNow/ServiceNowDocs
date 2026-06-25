@@ -20,7 +20,7 @@ Service Exchange helps providers, consumers, and partners connect their ServiceN
 
 Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance.
 
-Watch this short video for an introduction to the Service Exchange application.An overview of Service Exchange 
+Watch this short video for an introduction to the Service Exchange application.\[Omitted video\] Description: An overview of Service Exchange
 
 Service Exchange has two components or applications:
 

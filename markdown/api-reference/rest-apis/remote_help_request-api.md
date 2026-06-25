@@ -660,7 +660,7 @@ query
 
 </td><td>
 
-Required. [Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_EncodedQueryStrings.md) used to filter the result set.Data type: String
+Required. [Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|

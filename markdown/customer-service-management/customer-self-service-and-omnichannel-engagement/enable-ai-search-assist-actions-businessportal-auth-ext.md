@@ -26,7 +26,7 @@ Role required: web\_service\_admin
 
 ## About this task
 
-Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal 
+\[Omitted video\] Description: Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal
 
 ## Procedure
 

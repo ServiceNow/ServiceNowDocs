@@ -16,9 +16,9 @@ breadcrumb: [Contract Management Pro for Legal Service Delivery, Integration wit
 
 Use Contract Management Pro for Legal Service Delivery to submit legal requests for non-disclosure agreement \(NDA\) and third-party contracts.
 
--   **[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Non-disclosure agreement requests]()**  
 Employees can submit legal requests for creating non-disclosure agreement \(NDA\) contracts with third parties such as vendors, customers, and partners. The legal department can manage and process these requested changes from a centralized location.
--   **[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Third-party contract review requests]()**  
 Employees can submit legal requests for review of third-party contracts by the legal team.
 -   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)**  
 The contract amendment workflow enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with an audit trail.

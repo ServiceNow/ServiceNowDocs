@@ -16,7 +16,7 @@ You can review and complete data certification tasks to confirm that records mee
 
 ## Before you begin
 
-Video demonstrating how to review and certify data certification tasks in the Enterprise Architecture Workspace, including selecting certification status, reassigning tasks, and submitting completed reviews.        
+\[Omitted video\] Description: Video demonstrating how to review and certify data certification tasks in the Enterprise Architecture Workspace, including selecting certification status, reassigning tasks, and submitting completed reviews. \[Omitted video\] Description:
 
 You must be assigned a certification task as a user or as a member of an assigned user group.
 

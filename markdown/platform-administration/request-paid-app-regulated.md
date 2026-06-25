@@ -63,6 +63,6 @@ The application is available to install within two business days. If the applica
 
 Install the app on compatible production or non-production instances, based on whether you have a hosted or on-premise instance:
 
--   If your instance is in a hosted environment, install the app using the Application Manager. For more information, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   If your instance is in a hosted environment, install the app using the Application Manager. For more information, see [Install an application or plugin]().
 -   If your instance is in an on-premise environment, download the encrypted app file from your federal or regional instance of the ServiceNow Store and upload the file to your instance. For more information, see [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-on-prem.md)
 

@@ -20,7 +20,7 @@ Send periodic emails of KPI metrics to the DPM solution owners.
 
 Role required: sn\_dpm.dpm\_admin
 
-Let's review the Digital Portfolio Management Admin Center. 
+\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
 
 ## Procedure
 

@@ -159,7 +159,7 @@ Use automatically assigned tags to group high urgency incidents, overdue inciden
 **Related topics**  
 
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure notifications for tagged records
 

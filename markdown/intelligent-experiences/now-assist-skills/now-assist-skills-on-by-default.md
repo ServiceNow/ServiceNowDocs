@@ -46,13 +46,13 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 
 |Product|Type|Asset name|Effective date|
 |-------|----|----------|--------------|
-|[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management.md)|Agentic workflow|[Help repair enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)|April 9, 2026|
+||Agentic workflow|Help repair enterprise assets|April 9, 2026|
 |[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)|Skill|Outcome summarization|December 11, 2025|
 |[Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-apo.md)|Skill|[Invoice case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-summarize-apo.md)|December 11, 2025|
 |[Purchase order summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-fsc-summarize-po.md)|December 11, 2025|
-|[Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-cwm-landing.md)|Skill|[Acceptance criteria generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-acceptance-criteria-for-stories-in-cwm.md)|December 11, 2025|
-|[Doc generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)|December 11, 2025|
-|[Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)|December 11, 2025|
+||Skill|Acceptance criteria generation|December 11, 2025|
+|Doc generation|December 11, 2025|
+|Task generation|December 11, 2025|
 |[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-landing-cmdb.md)|Skill|[Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-agent-ci-summarizer.md)|December 11, 2025|
 |[Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-cmdb-mng-dupe-cis-skill.md)|December 11, 2025|
 |[Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-sgc-diagnose.md)|December 11, 2025|
@@ -69,45 +69,45 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |Skill|[Next Best Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)|April 9, 2026|
 |[Error Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)|April 9, 2026|
 |Agentic workflow|[AI agentic workflow for the CBS setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/using-ai-agent-workflows-na-cbs.md)|April 9, 2026|
-|[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md)|Skill|[Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-spk-now-spk-gen.md)|December 11, 2025|
-|[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-summarization.md)|June 11, 2026|
-|[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)|Agent|[AI voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/voice-ai-agent.md)|April 9, 2026|
-|[Update case AI voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/voice-ai-agent.md)|June 11, 2026|
-|[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assisit-employee-exp.md)|Skill|[Case summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)|April 9, 2026|
-|[Requested item summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)|April 9, 2026|
-|[Request summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-now-assist-for-emp-exp.md)|April 9, 2026|
-|[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)|Skill|[ADR DOC actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)|December 11, 2025|
-|[ADR DOC summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)|December 11, 2025|
-|[Business application insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md)|December 11, 2025|
-|[Create diagram from image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md)|June 11, 2026|
-|[Diagram change analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/compare-modeling-diagrams.md)|December 11, 2025|
-|[Refine text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)|December 11, 2025|
-|Agent|[Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)| |
-|[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)|Skill|[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/extract-data-from-utility-invoices.md)|December 11, 2025|
+||Skill|Spoke generation|December 11, 2025|
+|Playbook summarization|June 11, 2026|
+|[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)|Agent|AI voice|April 9, 2026|
+|Update case AI voice|June 11, 2026|
+||Skill|Case summarization for approvals|April 9, 2026|
+|Requested item summarization for approvals|April 9, 2026|
+|Request summarization for approvals|April 9, 2026|
+|[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)|Skill|ADR DOC actions|December 11, 2025|
+|ADR DOC summarization|December 11, 2025|
+|Business application insights|December 11, 2025|
+|Create diagram from image|June 11, 2026|
+|Diagram change analysis|December 11, 2025|
+|Refine text|December 11, 2025|
+|Agent|Enterprise Architecture query agent| |
+|Operational Sustainability Management \(formerly Environmental, Social, and Governance\)|Skill||December 11, 2025|
 |[Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham.md)|Agent|User resolution mapping agent|December 11, 2025|
-|Skill|[Generate hardware asset insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)|April 09, 2026|
-|Agentic workflow|[Help repair hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)|December 11, 2025|
-|[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-landing.md)|Skill|[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)|December 11, 2025|
-|[H&amp;S Action Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md)|June 11, 2026|
-|[Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-for-irm.md)|Skill|[Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)|December 11, 2025|
-|[Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)|December 11, 2025|
-|[Issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/summarize-an-issue.md)|December 11, 2025|
-|[Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-recommendation-for-a-new-control-objective.md)|December 11, 2025|
-|[Regulatory alert summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)|December 11, 2025|
-|[Regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)|December 11, 2025|
-|[Regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)|December 11, 2025|
-|[Regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)|December 11, 2025|
-|[Regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)|December 11, 2025|
-|[Risk assessment summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)|December 11, 2025|
-|[Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-risk-event-summary-in-the-risk-workspace.md)|December 11, 2025|
-|Agent|[Control objective change agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-impacted-control-objectives-AI.md)|December 11, 2025|
+|Skill|Generate hardware asset insights|April 09, 2026|
+|Agentic workflow|Help repair hardware assets|December 11, 2025|
+|[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hs-landing.md)|Skill|Incident summarization|December 11, 2025|
+|H&amp;S Action Planner|June 11, 2026|
+|[Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-for-irm.md)|Skill|Common control objective creation|December 11, 2025|
+|Control objective impact analyzer|December 11, 2025|
+|Issue summarization|December 11, 2025|
+|Recommendation of similar control objectives|December 11, 2025|
+|Regulatory alert summarization|December 11, 2025|
+|Regulatory alert impacted citations|December 11, 2025|
+|Regulatory alert impacted control objectives|December 11, 2025|
+|Regulatory alert impacted controls|December 11, 2025|
+|Regulatory alert impacted policies|December 11, 2025|
+|Risk assessment summarization|December 11, 2025|
+|Risk event summarization|December 11, 2025|
+|Agent|Control objective change agent|December 11, 2025|
 |Regulatory change task planning agent|December 11, 2025|
-|[Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-a-grc-issue.md)|June 11, 2026|
-|[Risk suggestion AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-risks-for-entity.md)|December 11, 2025|
-|Agentic workflow|[Get regulatory analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/get-rcm-reg-insight.md)|December 11, 2025|
-|[Generate regulatory action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate_regulatory_action_plans.md)|December 11, 2025|
-|[Suggest potential risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-risks-for-entity.md)|December 11, 2025|
-|[Optimize issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)|June 11, 2026|
+|Report an issue|June 11, 2026|
+|Risk suggestion AI agent|December 11, 2025|
+|Agentic workflow|Get regulatory analysis|December 11, 2025|
+|Generate regulatory action plans|December 11, 2025|
+|Suggest potential risks|December 11, 2025|
+|Optimize issue resolution|June 11, 2026|
 |[Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom.md)|Skill|[Analyze service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/analyze-service-health-in-service-observability.md)|March 12, 2026|
 |[Analyze service observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/analyze-a-dashboard-in-service-observability.md)|March 12, 2026|
 |[Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/alert-summarization-now-assist.md)|January 20, 2026|
@@ -124,19 +124,19 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |[Prometheus API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)|June 11, 2026|
 |[Splunk MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)|June 11, 2026|
 |[Service level objective \(SLO\) creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-slo-generation.md)|March 12, 2026|
-|[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)|Skill|[Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/summarize-change-now-assist.md)|December 11, 2025|
-|[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)|December 11, 2025|
-|[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/summarize-incident-now-assist.md)|December 11, 2025|
-|[KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)|April 09, 2026|
-|[Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/resolve-incident-now-assist.md)|April 09, 2026|
-|[Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)|April 09, 2026|
-|[Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)|April 09, 2026|
-|[Investigate Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)|April 09, 2026|
-|Agentic workflow|[Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-incident-assist-workflow.md)|April 09, 2026|
-|[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)|Skill|[Legal matter summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-summarize-case.md)|December 11, 2025|
-|[Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-summarize-case.md)|December 11, 2025|
-|[Conversational intake for Conflict of Interest request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-config-converse-intake.md)|March 12, 2026|
-|Agentic workflow|[Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lsd-agentic-config-BR.md)|December 11, 2025|
+||Skill|Change request summarization|December 11, 2025|
+|Chat summarization|December 11, 2025|
+|Incident summarization|December 11, 2025|
+|KB generation|April 09, 2026|
+|Resolution notes generation|April 09, 2026|
+|Chat reply recommendation|April 09, 2026|
+|Investigate boot time issues|April 09, 2026|
+|Investigate Zoom call quality issues|April 09, 2026|
+|Agentic workflow|Incident assist|April 09, 2026|
+|[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)|Skill|Legal matter summarization|December 11, 2025|
+|Legal request summarization|December 11, 2025|
+|Conversational intake for Conflict of Interest request|March 12, 2026|
+|Agentic workflow|Triage legal requests|December 11, 2025|
 |[Now Assist for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/now-assist-for-MCO.md)|Skill|[Enhance non conformance description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-an-issue_AI.md)|March 12, 2026|
 |Agent|[Plan and execute recall campaign phases and sub-phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)|March 12, 2026|
 |[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)|Skill|[Search for a related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.md)|December 11, 2025|
@@ -144,13 +144,13 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |[Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)|Skill|[OT incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)|March 12, 2026|
 |[OT resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)|March 12, 2026|
 |Agentic workflow|[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)|March 12, 2026|
-|[Now Assist for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-for-privacy-management.md)|Skill|[Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md)|December 11, 2025|
-|[Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)|December 11, 2025|
-|[Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-generate-recommendation-for-a-new-control-objective.md)|December 11, 2025|
-|[Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-generate-risk-assessment-summary.md)|December 11, 2025|
-|[Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-for-psds.md)|Agent|[Investigative Case Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)|March 12, 2026|
-|[Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/now-assist-for-purch-order-magmt.md)|Agentic workflow|[Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/mitigation-strategies-for-po-exceptions.md)|March 12, 2026|
-|[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/convert-emails-to-exceptions.md)|March 12, 2026|
+||Skill|Common control objective creation|December 11, 2025|
+|Control objective impact analyzer|December 11, 2025|
+|Recommendation of similar control objectives|December 11, 2025|
+|Risk assessment summary|December 11, 2025|
+|[Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-for-psds.md)|Agent|Investigative Case Management AI agents|March 12, 2026|
+|[Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)|Agentic workflow|[Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)|March 12, 2026|
+|[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)|March 12, 2026|
 |[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-security-incident-landing.md)|Skill|[Correlation insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generating-insights-for-now-assist-for-security.md)|December 11, 2025|
 |[Post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generate-pia-report-now-assist-security-incident.md)|December 11, 2025|
 |[Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generate-closure-notes-si-now-assist-sec-incident.md)|December 11, 2025|
@@ -161,29 +161,29 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |[Close security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-close-incident-usecase.md)|March 12, 2026|
 |[Generate SIR shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-incidents-shifthandover-ai-agent.md)|March 12, 2026|
 |[Resolve security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-resolve-incident-ai-workflow.md)|March 12, 2026|
-|[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam.md)|Skill|[Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/summarize-publisher-compliance-now-assist-sam.md)|December 11, 2025|
-|[Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md)|December 11, 2025|
-|[Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/recommended-actions-now-assist-sam.md)|December 11, 2025|
-|[SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/automate-userresolution-saas-now-assist-sam.md)|December 11, 2025|
-|[Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)|April 09, 2026|
-|[Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)|April 09, 2026|
-|[Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)|April 09, 2026|
-|[Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)|June 11, 2026|
-|[Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)|June 11, 2026|
-|Agentic workflow|[Reclamation rule creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)|December 11, 2025|
-|[Removal candidate evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)|December 11, 2025|
-|[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md)|Skill|[EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)|December 11, 2025|
-|[Feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/feedback-summary-sentiment-topics.md)|December 11, 2025|
-|[Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/identify-similar-demand-records.md)|December 11, 2025|
-|[Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/feedback-summary-sentiment-topics.md)|December 11, 2025|
-|[Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-documents-genai-skill-spw.md)|December 11, 2025|
-|[Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-doc-content-genai-skill-pw.md)|December 11, 2025|
-|[Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/email-project-summary-skill-pw.md)|December 11, 2025|
-|[Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)|December 11, 2025|
-|[Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-targets-for-goal.md)|December 11, 2025|
-|[Demand summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-summarization-skill.md)|March 12, 2026|
-|Agentic workflow|[Create stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-agile-story-planning-items.md)|December 11, 2025|
-|[Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/na-spm-task-monitoring-usecase.md)|December 11, 2025|
+|[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-sam.md)|Skill|Publisher compliance summarization|December 11, 2025|
+|Product compliance summarization|December 11, 2025|
+|Recommended actions|December 11, 2025|
+|SaaS user resolution|December 11, 2025|
+|Error log summarization|April 09, 2026|
+|Error resolution recommendation|April 09, 2026|
+|Contract entitlement data extraction|April 09, 2026|
+|Product match reviewer|June 11, 2026|
+|Software normalization|June 11, 2026|
+|Agentic workflow|Reclamation rule creation|December 11, 2025|
+|Removal candidate evaluation|December 11, 2025|
+|[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md)|Skill|EAP doc summarization|December 11, 2025|
+|Feedback summarization|December 11, 2025|
+|Identify similar records|December 11, 2025|
+|Multi feedback summarization|December 11, 2025|
+|Planning item doc summarization|December 11, 2025|
+|Project doc summarization|December 11, 2025|
+|Project insights generation|December 11, 2025|
+|Refine records|December 11, 2025|
+|Target generation|December 11, 2025|
+|Demand summarization|March 12, 2026|
+|Agentic workflow|Create stories|December 11, 2025|
+|Monitor project tasks|December 11, 2025|
 |[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo.md)|Skill|[Negotiation summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)|December 11, 2025|
 |[Procurement case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)|December 11, 2025|
 |[Purchase requisition summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)|December 11, 2025|
@@ -196,8 +196,8 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |[Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt-now-assist.md)|Agent|[Move order voice AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-move-order-somt.md)|March 12, 2026|
 |[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)|Agentic workflow|[Squad resource identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-squad-resource-identifier.md)|March 12, 2026|
 |[Product release email communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-product-release-email-communication.md)|March 12, 2026|
-|[Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-tprm.md)|Skill|[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-summary-of-issue.md)|December 11, 2025|
-|[TPRM issue recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-recommend-an-issue.md)|March 12, 2026|
+|[Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/now-assist-tprm.md)|Skill|TPRM issue summarization|December 11, 2025|
+|TPRM issue recommendation|March 12, 2026|
 |[Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)|Skill|[TISC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-case-summarization.md)|June 11, 2026|
 |[Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-vulnerability-response-landing.md)|Skill|Generate remediation assistance|December 11, 2025|
 |[Now Assist recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-recommendation-skill.md)|December 11, 2025|
@@ -209,10 +209,10 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
 |[Field encryption with Vault module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-field-encryption-module.md)|April 09, 2026|
 |[Securing custom apps with Vault agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-securing-custom-apps-agents.md)|April 09, 2026|
 |[Summarize access observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-access-observer-logs.md)|April 09, 2026|
-|[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-wsd-landing.md)|Skill|[Workplace case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/summarize-workplace-case.md)|March 12, 2026|
-|Agentic workflow|[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge-ai-agent.md)|April 09, 2026|
-|[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)|Skill|[ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)|December 11, 2025|
-|[ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-data-query.md)|December 11, 2025|
+|[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-wsd-landing.md)|Skill|Workplace case summarization|March 12, 2026|
+|Agentic workflow|Workplace Concierge|April 09, 2026|
+||Skill|ERP data discovery|December 11, 2025|
+|ERP data query|December 11, 2025|
 |[Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)|Skill|[Analytics follow-up generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md)|December 11, 2025|
 |[Analytics hidden insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md)|December 11, 2025|
 |[Analytics insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md)|December 11, 2025|

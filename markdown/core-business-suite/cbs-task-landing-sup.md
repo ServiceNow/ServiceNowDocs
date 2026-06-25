@@ -47,5 +47,5 @@ For more information, see [Raise an invoice request](https://raw.githubuserconte
 
 ## Workflows and applications
 
-[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/finance-supply-chain-landing.md)
+[Finance and Supply Chain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-supply-chain-landing.md)
 

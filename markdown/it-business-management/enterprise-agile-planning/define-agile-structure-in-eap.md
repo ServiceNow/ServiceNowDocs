@@ -26,7 +26,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-Define your Agile team structure in Enterprise Agile Planning. 
+\[Omitted video\] Description: Define your Agile team structure in Enterprise Agile Planning.
 
 Based on your configuration, add entities such as Portfolios, Solutions Trains, ARTs, and Agile Teams to different team levels of the configuration.
 

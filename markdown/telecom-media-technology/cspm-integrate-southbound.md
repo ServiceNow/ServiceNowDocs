@@ -31,7 +31,7 @@ The integration process for CSPM with the external service test management syste
 
 1.  As the administrator, you activate the Test Specification Open API to capture the test runs from the service problem case.
 
-    To learn more, see .
+    To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-test-management-api.md).
 
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.

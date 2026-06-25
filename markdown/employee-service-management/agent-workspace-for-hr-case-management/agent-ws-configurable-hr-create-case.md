@@ -18,7 +18,7 @@ Create a new HR case in Agent Workspace for HR Case Management.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.case\_writerCreate a case in Agent Workspace 
+Role required: sn\_hr\_core.case\_writer\[Omitted video\] Description: Create a case in Agent Workspace
 
 ## Procedure
 

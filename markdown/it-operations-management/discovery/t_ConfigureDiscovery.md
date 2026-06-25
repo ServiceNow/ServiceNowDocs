@@ -25,7 +25,7 @@ If you aren’t using Guided Setup, you must perform several configuration steps
 
 Role required: discovery\_admin
 
-Discovery installation and configuration 
+\[Omitted video\] Description: Discovery installation and configuration
 
 ## About this task
 

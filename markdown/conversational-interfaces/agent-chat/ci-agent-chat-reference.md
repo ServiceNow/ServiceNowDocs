@@ -78,7 +78,7 @@ Role required: admin
 
 2.  Create a new metric definition for Interaction "help requested" on the Metric Definition - New record screen by entering `Interaction` in the **Table** field and selecting **Help Requested** from the **Field** list.
 
-    For detailed steps on creating metric definitions, see [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/create-metric.md).
+    For detailed steps on creating metric definitions, see [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md).
 
 3.  Create a new chat as a requester.
 
@@ -94,7 +94,7 @@ Role required: admin
 
 9.  Navigate to **Metrics** &gt; **Instances** and observe that one instance record was created for help\_requested=true.
 
-    For more information about using the Metric Instance Table, see [Metric instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_MetricInstance.md).
+    For more information about using the Metric Instance Table, see [Metric instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricInstance.md).
 
 
 ## Agent Chat Interaction related records

@@ -86,5 +86,5 @@ Preview
 </table>5.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

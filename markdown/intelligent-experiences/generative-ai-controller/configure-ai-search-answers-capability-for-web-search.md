@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d35423e196">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d36612e196">
 
 Scenario
 
-</th><th align="left" id="d35423e199">
+</th><th align="left" id="d36612e199">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d35423e205">
+</th></tr></thead><tbody><tr><td id="d36612e205">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d35423e214">
+</td></tr><tr><td id="d36612e214">
 
 **Connection isn’t available and must be created**
 
@@ -138,9 +138,9 @@ For example, enter `https://api.openai.com` for Open AI.
 
 ## Result
 
-End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/web-search-requestor.md).
+End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see .
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md).
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see .
 

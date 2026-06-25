@@ -32,15 +32,15 @@ Employees can also submit JSAs from their mobile device using the ServiceNow® N
 
 3.  Create a JSA.
 
-<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d60705e100">
+<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d164241e100">
 
 Option
 
-</th><th align="left" id="d60705e103">
+</th><th align="left" id="d164241e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60705e109">
+</th></tr></thead><tbody><tr><td id="d164241e109">
 
 **From Health and Safety menu**
 
@@ -50,7 +50,7 @@ To start a JSA from scratch:1.  Under **Health and Safety** menu, select **Job s
 2.  Select **Submit a JSA**.
 An empty JSA form opens.
 
-</td></tr><tr><td id="d60705e137">
+</td></tr><tr><td id="d164241e137">
 
 **From a previously submitted JSA**
 

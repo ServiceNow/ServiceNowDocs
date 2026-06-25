@@ -137,7 +137,7 @@ Display
 
 </td><td>
 
-Check box to indicates that this decision input is the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) for reference fields.
+Check box to indicates that this decision input is the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for reference fields.
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Choice
 
 Select a method for users to see a list of suggested values:-   List menu without -- None --
 -   List menu with -- None --
--   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddingASuggestionField.md)
+-   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddingASuggestionField.md)
 If a choice is used, define your choices in the Choices related list at the bottom of the form.
 
 </td></tr><tr><td>

@@ -15,7 +15,7 @@ breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Custo
 
 Avoid duplicate case creation by associating an existing case with an email interaction.
 
-Associate an existing case with an email interaction 
+\[Omitted video\] Description: Associate an existing case with an email interaction
 
 ## Before you begin
 

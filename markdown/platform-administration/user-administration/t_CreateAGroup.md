@@ -28,7 +28,7 @@ Role required: user\_admin
 
 3.  On the form, fill in the fields.
 
-    Some fields appear after personalizing the form. [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md).
+    Some fields appear after personalizing the form. [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 <table id="table_flh_qwv_sbb"><thead><tr><th>
 
@@ -60,7 +60,7 @@ Type
 
 </td><td>
 
-Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md) for more information.You may need to [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_PersonalizeAForm.md) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
+Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md) for more information.You may need to [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
 
 **Note:** ITIL is added for groups with an empty group type. Also, the default reference qualifier for tasks enables these groups to assign tasks and other task types to the group.
 

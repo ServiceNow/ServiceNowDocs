@@ -18,7 +18,7 @@ Monitor engineering licenses and usage through OpenLM and Open iT to eliminate a
 
 Watch this short video for an introduction to engineering license management.
 
-Overview of Engineering license management 
+\[Omitted video\] Description: Overview of Engineering license management
 
 **Note:** Request the Software Asset Management Professional for Engineering Applications store app \(sn\_samp\_eng\_app\) to access the benefits of the Software Asset Management Professional for engineering applications. For more information, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 

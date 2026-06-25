@@ -61,5 +61,5 @@ By default, the maximum batch size of the environment variable for a data source
 |SG-GCP Subnet|sg\_gcp\_subnet\_batch\_size|
 |SG-GCP VM Instance|sg\_gcp\_vm\_instance\_batch\_size|
 
-**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

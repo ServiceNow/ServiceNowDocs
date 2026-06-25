@@ -117,7 +117,7 @@ Automatically assign supplier cases to agents based on availability and capacity
 
 </td></tr><tr><td>
 
-[Risk Assessments Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions/better-tprm-slo.md)
+[Risk Assessments Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/better-tprm-slo.md)
 
 </td><td>
 

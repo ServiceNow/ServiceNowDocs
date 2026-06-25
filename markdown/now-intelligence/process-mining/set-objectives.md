@@ -28,15 +28,15 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     **Note:** If you want to create a project using Agentic AI data, see [Create a project using Agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/playbook-project.md).
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d90544e104">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d94918e104">
 
 Field
 
-</th><th align="left" id="d90544e107">
+</th><th align="left" id="d94918e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90544e113">
+</th></tr></thead><tbody><tr><td id="d94918e113">
 
 **Select type**
 
@@ -44,7 +44,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d90544e122">
+</td></tr><tr><td id="d94918e122">
 
 **Template type**
 
@@ -58,7 +58,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d90544e161">
+</td></tr><tr><td id="d94918e161">
 
 **Name**
 
@@ -66,7 +66,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d90544e170">
+</td></tr><tr><td id="d94918e170">
 
 **Short description**
 
@@ -74,7 +74,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d90544e180">
+</td></tr><tr><td id="d94918e180">
 
 **Source Type**
 
@@ -88,7 +88,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Playbook: Select a table with playbook data.
 
 
-</td></tr><tr><td id="d90544e210">
+</td></tr><tr><td id="d94918e210">
 
 **Table__Note:__ This name changes based on the choice of source you want to analyze.
 
@@ -100,7 +100,7 @@ Select a source that you want to base your project on. This list varies dependin
 
  This field is auto-selected for Agentic AI.
 
-</td></tr><tr><td id="d90544e227">
+</td></tr><tr><td id="d94918e227">
 
 **Mark as restricted**
 
@@ -110,7 +110,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d90544e240">
+</td></tr><tr><td id="d94918e240">
 
 **Auto retire**
 
@@ -126,7 +126,7 @@ This field is available only if you choose the type as **Project**.
 
  The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d90544e280">
+</td></tr><tr><td id="d94918e280">
 
 **Add a KPI dashboard**
 

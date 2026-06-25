@@ -79,7 +79,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 

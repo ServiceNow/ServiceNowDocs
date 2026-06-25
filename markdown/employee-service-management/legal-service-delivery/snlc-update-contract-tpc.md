@@ -26,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d710839e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d781028e83">
 
 Method
 
-</th><th align="left" id="d710839e86">
+</th><th align="left" id="d781028e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d710839e92">
+</th></tr></thead><tbody><tr><td id="d781028e92">
 
 **Using Legal Service Portal**
 
@@ -47,7 +47,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d710839e141">
+</td></tr><tr><td id="d781028e141">
 
 **Employee Center**
 
@@ -72,5 +72,5 @@ Action
 3.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Third-party contract review requests]()
 

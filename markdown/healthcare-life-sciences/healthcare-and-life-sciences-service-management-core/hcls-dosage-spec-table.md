@@ -24,7 +24,7 @@ The Dosage specification \[sn\_hcls\_dosage\_specification\] table stores the in
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_jfm_xnv_gtb"><thead><tr><th>
 

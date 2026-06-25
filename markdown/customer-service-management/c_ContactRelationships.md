@@ -1,0 +1,29 @@
+---
+title: Contact relationships
+description: You can add a contact from one account to another account by using a contact relationship in the Customer Service Management \(CSM\) application. By using contact relationships, you can perform actions on behalf of the accounts that you established a contact relationship with.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_ContactRelationships.html
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+---
+
+# Contact relationships
+
+You can add a contact from one account to another account by using a contact relationship in the Customer Service Management \(CSM\) application. By using contact relationships, you can perform actions on behalf of the accounts that you established a contact relationship with.
+
+## Overview of contact relationship
+
+A contact is a user who serves as an employee of an account. To associate a contact with additional accounts, contact relationships are used. These contact relationships enable a contact with the customer role or customer administrator role to manage the account that you established a contact relationship with. These contacts can view the information and perform actions on behalf of the accounts, such as creating or updating cases from the customer portal.
+
+**Related topics**  
+
+
+[Configuring a contact relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-contact-relationship.md)
+
+[Create a contact relationship for an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAContactRelationship.md)
+
+[Contact Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contact-relationship-form.md)
+

@@ -15,7 +15,7 @@ breadcrumb: [Make a copy of a Now Assist skill, Using Now Assist Admin, Now Assi
 
 Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 
-Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies 
+\[Omitted video\] Description: Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies
 
 ## Before you begin
 

@@ -36,15 +36,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d267481e134">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d276225e134">
 
 To
 
-</th><th align="left" id="d267481e137">
+</th><th align="left" id="d276225e137">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d267481e143">
+</th></tr></thead><tbody><tr><td id="d276225e143">
 
 **Access your profile from a case record**
 
@@ -54,7 +54,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d267481e170">
+</td></tr><tr><td id="d276225e170">
 
 **Create your profile for centralized access**
 
@@ -69,7 +69,7 @@ The profile page appears. In that page, you can access all the information relat
 7.  Click **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
-For information on creating a list, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/administer-lists-configurable-workspace.md)
+For information on creating a list, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
 
 </td></tr></tbody>
 </table>

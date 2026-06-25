@@ -16,9 +16,9 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 
 While regular fields store a value in the database, a function field displays the results of a database query. The function field generates the value based on computations of other fields and constants. You can use these fields in reports and data visualizations as you would other fields.
 
-The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
+The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See Create a role.
 
-Learn about function fields here: [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
+Learn about function fields here: Function field.
 
 ## Function field operations
 

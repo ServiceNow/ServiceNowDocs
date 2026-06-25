@@ -22,7 +22,7 @@ Now Assist for App Engine enables you to use ServiceNow AI Platform tools such a
 
 -   **AI Agent Studio**
 
-    Use AI Agent Studio to build custom AI agents and agentic workflows. You define the agent's role, its step-by-step instructions, and the tools it has access to. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-agent-studio.md).
+    Use AI Agent Studio to build custom AI agents and agentic workflows. You define the agent's role, its step-by-step instructions, and the tools it has access to. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 
 -   **Now Assist Data Kit**
 

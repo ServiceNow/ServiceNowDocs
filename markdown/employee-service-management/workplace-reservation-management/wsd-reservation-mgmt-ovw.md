@@ -68,7 +68,7 @@ Employees can perform the following using Workplace Reservation Management:
 -   Set location privacy preferences on an organization or a building level.
 -   Integration of Workplace Reservation Management with Workplace Concierge provides employees with real-time insights to optimize their on-site presence in the workplace with their co-workers, improving team collaboration and learning. By using personalized suggestions, employees are guided to the best workspace when they plan to visit the office or travel to another office.
 
-For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Create a reservation]().
 
 ## Enhanced workplace monitoring, compliance, and visibility for workplace administrators and facility managers
 

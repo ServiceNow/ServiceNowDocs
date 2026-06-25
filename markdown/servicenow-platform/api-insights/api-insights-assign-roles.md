@@ -18,7 +18,7 @@ Assign roles to control access to features, capabilities, and data in the API In
 
 ## Before you begin
 
-Set the application scope to API Insights using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Set the application scope to API Insights using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: admin
 

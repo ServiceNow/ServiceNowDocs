@@ -21,7 +21,7 @@ ServiceNow workflows provide automated sequences of tasks that your applications
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
-[Build applications \[Omitted image "bus-application-development.svg"\] Alt text: Build new applications with low-code development tools. Turn business processes into digital workflows to deliver faster, smarter experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-applications.md)
+[Build applications \[Omitted image "bus-application-development.svg"\] Alt text: Build new applications with low-code development tools. Turn business processes into digital workflows to deliver faster, smarter experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md)
 
 </td><td>
 
@@ -41,7 +41,7 @@ The following table lists the products and features that you can use to develop 
 |[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|Build apps at scale with a low-code development environment and prebuilt templates.|
 |[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/monitor-requests-using-aemc.md)|Empower business and IT to collaborate, manage, and govern low-code app development.|
 |[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md)|Complete upgrades and innovate faster. Reduce risk and quickly remediate customization issues by automating slow manual testing.|
-|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md)|Use an autonomous AI agent to create, update, and test full-stack ServiceNow applications through conversational prompts.|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|Use an autonomous AI agent to create, update, and test full-stack ServiceNow applications through conversational prompts.|
 |[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md)|Empower citizen developers to create natively compliant request-based applications with a guided no-code end-to-end development, streamlining app dev stages from days to minutes.|
 |[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-landing.md)|Enable developers of any skill level to build apps for specific projects.|
 |[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sandboxes-landing.md)|Provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance.|

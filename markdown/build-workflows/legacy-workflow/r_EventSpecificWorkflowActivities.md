@@ -81,7 +81,7 @@ On the notification thread, outside of workflow
 
 </td></tr><tr><td>
 
-[Wait for WF Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_WaitForWFEvent.md)
+Wait for WF Event
 
 </td><td>
 

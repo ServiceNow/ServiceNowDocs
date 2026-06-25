@@ -16,7 +16,7 @@ breadcrumb: [IT Asset Management]
 
 The ServiceNow® Asset Audit Response application, which is part of ITAM for Financial Services, provides prescriptive workflows to manage and respond to your regulatory audits.
 
-Overview of the Asset Audit Response application.
+\[Omitted video\] Description: Overview of the Asset Audit Response application.
 
 Learn more about the Asset Audit Response application.
 

@@ -17,7 +17,7 @@ breadcrumb: [Search administration, Configure core features, Administer the Serv
 
 The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 
-AI Search Admin Console. 
+\[Omitted video\] Description: AI Search Admin Console.
 
 ## AI Search Admin console overview
 

@@ -109,5 +109,5 @@ This field should be left empty, as it’s no longer used.
 **Related topics**  
 
 
-[Add help to a field label on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_FieldLabelForm.md)
+[Add help to a field label on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_FieldLabelForm.md)
 

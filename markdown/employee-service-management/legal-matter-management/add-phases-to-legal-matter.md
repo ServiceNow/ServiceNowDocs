@@ -34,15 +34,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d291070e107">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d665744e107">
 
 Option
 
-</th><th align="left" id="d291070e110">
+</th><th align="left" id="d665744e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291070e116">
+</th></tr></thead><tbody><tr><td id="d665744e116">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d291070e145">
+</td></tr><tr><td id="d665744e145">
 
 **As a collaborator**
 
@@ -82,5 +82,5 @@ A phase is added to the matter.
 
 [Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to manage activities in the matter. If the task has to be done by a different user, assign it to them.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

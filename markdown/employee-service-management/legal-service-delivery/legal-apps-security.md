@@ -33,7 +33,7 @@ When you define cross-scope access to an application resource, use the following
     This setting is recommended for the production phase after development is complete.
 
 
-For more information, refer to [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/set-RCA-level.md).
+For more information, refer to [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-RCA-level.md).
 
 ## Encryption for Legal Service Delivery
 

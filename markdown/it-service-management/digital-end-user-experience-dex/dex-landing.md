@@ -20,7 +20,7 @@ ServiceNow® Digital End-User Experience \(DEX\) offers comprehensive monitoring
 
 ServiceNow DEX empowers you as IT professionals with proactive oversight of end-user applications, devices, and networks. The DEX capabilities enable your organization to improve the technology experience for its employees, make it simple for them to self-solve issues and engage with a knowledgeable IT team when extra support is needed.
 
-DEX Overview 
+\[Omitted video\] Description: DEX Overview
 
 DEX Application and Device Health collects and tracks user experience data and performance metrics, supporting application, user, and device management.
 

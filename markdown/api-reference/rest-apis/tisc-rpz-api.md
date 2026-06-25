@@ -197,7 +197,7 @@ observable\_filters.filters.operator
 
 </td><td>
 
-Operator to use for the filter.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/r_OpAvailableFiltersQueries.md).
+Operator to use for the filter.For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 The data type of the filter field determines the valid operators. The following operators are valid for each data type.
 

@@ -26,7 +26,7 @@ Create or edit a synthetic monitor to test the availability and performance of y
 Create synthetic monitors from incidents to proactively track endpoint failures and reduce repeat occurrences.
 -   **[Manage synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/manage-synthetic-monitors.md)**  
 Edit or delete synthetic monitors after creating them.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/resolve-incident-synthetic-creator-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/resolve-incident-synthetic-creator-agent.md)**  
 
 
 **Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)

@@ -52,7 +52,7 @@ Assigning a role to a flow doesn't guarantee that the flow can access a record o
 
 ## Flow roles override AI agent roles
 
-A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see .
+A flow always runs using the roles it has been configured to run with in Workflow Studio. Flow roles override any roles inherited by an AI agent from a dynamic user or a specific AI user. If you want a flow to only run with the roles inherited from a user, remove flow roles. For information about adding roles to an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 **Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 

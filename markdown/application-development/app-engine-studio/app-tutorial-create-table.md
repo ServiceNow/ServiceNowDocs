@@ -65,7 +65,7 @@ Phase 3
 
 Follow along to create a table for the employee travel request application.
 
-Third video in the app creation tutorial series. Create and configure a data table to capture the necessary data for your application. 
+\[Omitted video\] Description: Third video in the app creation tutorial series. Create and configure a data table to capture the necessary data for your application.
 
 |Timestamp|Section|
 |---------|-------|

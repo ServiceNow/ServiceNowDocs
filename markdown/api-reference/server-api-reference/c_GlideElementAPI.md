@@ -743,7 +743,7 @@ To use the getDisplayValueLang\(\) method in a scoped application, use the corre
 
 Returns a dynamic attribute definition for this GlideElement.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -774,7 +774,7 @@ if(gr_Inc.next()) {
 
 Returns a dynamic namespace object that is configured for the GlideElement.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -819,7 +819,7 @@ isTransient: false
 
 Gets the name of the dynamic namespace configured for the GlideElement.
 
-Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 See also:
 
@@ -1474,7 +1474,7 @@ Retrieves the display value for the associated field and escapes the HTML.
 
 |Type|Description|
 |----|-----------|
-|String|Escaped [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_DisplayValues.md) HTML for the associated field.|
+|String|Escaped [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) HTML for the associated field.|
 
 The following example retrieves the display value of a KB article.
 

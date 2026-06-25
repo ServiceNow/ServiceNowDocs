@@ -23,7 +23,7 @@ Use Quick edit to make limited changes to a published template which has an asse
 
 ## About this task
 
-Modify a publish template using quick edit 
+\[Omitted video\] Description: Modify a publish template using quick edit
 
 ## Procedure
 

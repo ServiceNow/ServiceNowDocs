@@ -18,7 +18,7 @@ Use the onboarding catalog items as a self-service approach to onboard your DevO
 
 ## Onboarding tools and apps
 
-**Note:** This content pertains to the Classic Environment, which refers to working in lists of records and on record forms directly, not in the [Configurable Workspace interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md). You can work in the Classic Environment with Next Experience active, or with it inactive, which is referred to as Core UI, \(formerly known as UI16\).
+**Note:** This content pertains to the Classic Environment, which refers to working in lists of records and on record forms directly, not in the [Configurable Workspace interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md). You can work in the Classic Environment with Next Experience active, or with it inactive, which is referred to as Core UI, \(formerly known as UI16\).
 
 Use the ServiceNow Service Catalog to request the onboarding of tools and apps. Fill out the onboarding form details for a tool or an app and submit the request. You can also import the DevOps data for the app that you are creating for swifter and easier onboarding.
 

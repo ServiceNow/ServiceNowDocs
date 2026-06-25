@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Watch this short video for an introduction to the Proactive Service Experience Workflows application.
 
-Proactive Service Experience Workflow overview 
+\[Omitted video\] Description: Proactive Service Experience Workflow overview
 
 Proactive Service Experience Workflows deliver end-to-end support, while understanding customer impact, and offering transparent communication to all parties involved in the support process. Telecommunications, media, or technology service providers can:
 

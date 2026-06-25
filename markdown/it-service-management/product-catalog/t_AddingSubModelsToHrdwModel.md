@@ -1,0 +1,63 @@
+---
+title: Add substitute models to a hardware model
+description: On a hardware model record, you can add substitutes to track what hardware models can be substituted for another hardware model.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_AddingSubModelsToHrdwModel.html
+release: australia
+product: Product Catalog
+classification: product-catalog
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Create hardware models, Models, Product Catalog, Asset Management, IT Service Management]
+---
+
+# Add substitute models to a hardware model
+
+On a hardware model record, you can add substitutes to track what hardware models can be substituted for another hardware model.
+
+## Before you begin
+
+Role required: model\_manager
+
+## About this task
+
+For example, a 19" monitor can be a valid substitute for a 17" monitor. Note that substitutions are directional so, in this case, a 17" monitor is not a substitution for a 19" monitor. Information about valid substitute models is useful when you select models while creating transfer orders.
+
+When you select substitute models, note the following conditions.
+
+-   Substitute models can be used with work management transfer orders. Substitute models are not used in procurement part sourcing.
+-   Hardware models included in bundled models cannot be added as substitutes.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Model** &gt; **Hardware Models**.
+
+2.  Click a hardware model **Name**.
+
+3.  Click **Add Substitution**.
+
+4.  In the **Collection** list on the left, double-click a hardware model.
+
+    The hardware model is added to the **List** on the right.
+
+5.  Click **Save**.
+
+    The model is listed in the **Substitutes** related list.
+
+
+**Parent Topic:**[Create hardware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreatingHardwareModels.md)
+
+**Related topics**  
+
+
+[Add compatible models to a hardware model]()
+
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
+
+[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_CreatingBundledModels.md)
+
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+
+[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
+

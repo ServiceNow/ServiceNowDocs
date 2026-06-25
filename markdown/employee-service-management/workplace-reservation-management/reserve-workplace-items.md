@@ -17,7 +17,7 @@ breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Emplo
 
 Make a reservation for a workplace location or any reservable item of your organization. Make a single, recurring or a group reservation using the Reservation portal.
 
--   **[Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Create a reservation]()**  
 Create reservations across multiple buildings, campuses, neighborhoods, or sites. Create a reservation spanning across multiple days. Add attendees or visitors to a reservation. Synchronize reservation details and resolve conflicts when scheduling recurring reservation events. Add workplace services \(room configurations, catering, and so on\) to your reservation.
 -   **[Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md)**  
 Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
@@ -33,7 +33,7 @@ Workplace users can now reserve a space covering multiple days. Employees can re
 Reserve multiple spaces spanning across multiple buildings in different timezone. Create multi-building reservations for the same date and time in a single reservation.
 -   **[Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md)**  
 Reserve neighborhood spaces using Advanced reservation.
--   **[Create reservation for multiple workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Create reservation for multiple workplace items]()**  
 Reserve multiple workplace items for the same date and time in a single reservation.
 -   **[Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/enable-shift-based-reservation.md)**  
 As an admin, enable employees to reserve a workplace item for a shift. Configure the spaces that can be reserved for a shift. Specify the users who can make shift-based reservation.

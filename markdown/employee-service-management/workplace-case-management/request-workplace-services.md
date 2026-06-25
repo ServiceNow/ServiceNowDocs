@@ -20,7 +20,7 @@ Raise a general enquiry or any workplace improvement-related services.
 
 **Note:** While submitting a request for a workplace service from Workplace Reservation Management to Workplace Case Management, user needs to allow the ''sys restricted caller access''.
 
--   **[Reconfigure an office space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Reconfigure an office space]()**  
 Provide details on how an office space should be reconfigured.
 -   **[Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md)**  
 Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.

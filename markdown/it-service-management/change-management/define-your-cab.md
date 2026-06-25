@@ -341,5 +341,5 @@ You can modify CAB meeting details and send meeting requests to attendees. You c
 **Related topics**  
 
 
-[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UsingORConditions.md)
+[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md)
 

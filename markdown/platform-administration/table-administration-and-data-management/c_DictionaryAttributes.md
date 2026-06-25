@@ -339,7 +339,7 @@ any table
 
 </td><td>
 
-Displays the value of the specified field as a [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UseLists.md) for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
+Displays the value of the specified field as a [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md) for each record in the list view. UI15 is required to use this attribute.**Note:** If different **detail\_row** attributes are defined for a parent table and a child table, the system uses the child table attribute.
 
 </td></tr><tr><td>
 

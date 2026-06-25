@@ -18,7 +18,7 @@ Use ServiceNow Studio to build, configure, and deploy custom ServiceNow apps fro
 
 ## What is ServiceNow Studio?
 
-Learn about ServiceNow Studio in this overview video. 
+\[Omitted video\] Description: Learn about ServiceNow Studio in this overview video.
 
 ## Get started
 

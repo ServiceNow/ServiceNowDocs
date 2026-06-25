@@ -54,7 +54,7 @@ This template helps customizing a use case model to configure the Knowledge Dema
 
 You can use a demand insights for knowledge gap analysis and create actionable knowledge articles for missing topics.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery]().
 
 ## What to do next
 

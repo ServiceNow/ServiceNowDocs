@@ -86,7 +86,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 </td></tr></tbody>
 </table>## Domain separation for the Employee Readiness Surveys application
 
-Surveys are configured and managed through the Survey Management application on your ServiceNow instance. For information about how domain separation is supported, see [Domain separation for Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-surveys.md).
+Surveys are configured and managed through the Survey Management application on your ServiceNow instance. For information about how domain separation is supported, see [Domain separation for Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-surveys.md).
 
 ## Notice regarding use by organizations
 

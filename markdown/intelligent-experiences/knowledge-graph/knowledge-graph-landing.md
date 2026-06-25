@@ -17,7 +17,7 @@ breadcrumb: [Enable AI experiences]
 
 The Knowledge Graph application, uses the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of Now Assist Virtual Agent, AI agents, and generative AI skills.
 
-Knowledge Graph overview video 
+\[Omitted video\] Description: Knowledge Graph overview video
 
 Learn more about Knowledge Graph and how it can help fit your specific business needs.
 

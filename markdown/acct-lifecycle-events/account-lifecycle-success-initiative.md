@@ -190,7 +190,7 @@ Clear the check box to make Blocked by capability work.
     -   Close notes: Provide a description on which this initiative is being closed.
 9.  Select **Mark Complete** to complete this task.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see .
 
 
 ## What to do next

@@ -22,7 +22,7 @@ Role required: admin or delegated\_developer
 
 Watch a short video on how to focus the Navigator panel on an app or app file.
 
-Video on how to focus the Navigator panel on an app or app file in ServiceNow Studio 
+\[Omitted video\] Description: Video on how to focus the Navigator panel on an app or app file in ServiceNow Studio
 
 ## Procedure
 

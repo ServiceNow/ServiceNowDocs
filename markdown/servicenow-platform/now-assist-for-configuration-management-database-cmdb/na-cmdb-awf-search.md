@@ -50,15 +50,15 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d75029e233">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d75245e233">
 
 Option
 
-</th><th align="left" id="d75029e236">
+</th><th align="left" id="d75245e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d75029e242">
+</th></tr></thead><tbody><tr><td id="d75245e242">
 
 **Provide feedback for the summary**
 
@@ -66,7 +66,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d75029e257">
+</td></tr><tr><td id="d75245e257">
 
 **Copy the summary**
 
@@ -74,7 +74,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d75029e268">
+</td></tr><tr><td id="d75245e268">
 
 **Refresh the summary**
 
@@ -88,7 +88,7 @@ If you think that data might have changed after you viewed the response, select 
 
 If fewer than five search results are returned, they are summarized. If more results are returned, they appear in a linked list \(limited to 100 records\).
 
-To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md).
+To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 **Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

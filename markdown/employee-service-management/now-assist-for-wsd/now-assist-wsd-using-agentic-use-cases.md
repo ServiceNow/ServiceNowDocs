@@ -109,7 +109,7 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 -   Activate all agents within the use case.
 -   Activate the trigger to invoke the use case automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md)**  
 This team of AI agents temporarily block a location when there’s an emergency workplace maintenance case is submitted.
@@ -123,7 +123,7 @@ This AI agent helps map admins configure the map during bulk updates to Indoor M
 Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 -   **[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)**  
 Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md)**  
 
 
 **Parent Topic:**[Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)

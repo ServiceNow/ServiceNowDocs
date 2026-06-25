@@ -16,7 +16,7 @@ Configure service definitions for the services in Financial Services Operations 
 
 ## Before you begin
 
-Ensure that the scope is selected for the application that you're configuring a service definition for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Ensure that the scope is selected for the application that you're configuring a service definition for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Roles required: When you enable application administration for a scoped application, the system automatically applies that application's ACL rules \(which control user access and permissions\). For example, in Financial Services Payment Operations, the sn\_bom\_payment.admin and admin roles are needed and applied automatically.
 

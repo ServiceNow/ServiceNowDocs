@@ -326,7 +326,7 @@ For example: **Browse all**,**Browse an area**, **Browse by neighborhood**.
 
 When editing a reservation, the context \(path\) is defaulted to **Browse all**. Employees can change the selected space or date and time of the reservation.
 
- For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+ For more information, see [Create a reservation]().
 
  **Note:** This option isn’t available on the Now Mobile app.
 
@@ -352,7 +352,7 @@ Max days in future
 
 </td><td>
 
-Option to specify the maximum number of the days in the future up to which the reservable module can be reserved. For example, if you set the max number of days in future to **90**, employees can make future reservations on this module only up to 90 days in advance. If this option is enabled, employees can’t select a date beyond the specified value in **Max days in future** while making a reservation. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Option to specify the maximum number of the days in the future up to which the reservable module can be reserved. For example, if you set the max number of days in future to **90**, employees can make future reservations on this module only up to 90 days in advance. If this option is enabled, employees can’t select a date beyond the specified value in **Max days in future** while making a reservation. For more information, see [Create a reservation]().
 
 On Now Mobile app, if you try to select a date too far in the future than what is specified in the **Max days in future**, no results are returned.
 
@@ -410,7 +410,7 @@ Max number of days for browse near a person
 
 </td><td>
 
-Option to specify the number of days employees can reserve a space near a colleague. Admins can configure the maximum number of days an employee would like to reserve a space near a colleague using this property.Default value is 7. Administrators can change this value to more than 7 days and enable employees to select the max number of days they would like to book a seat near a team member or a colleague. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Option to specify the number of days employees can reserve a space near a colleague. Admins can configure the maximum number of days an employee would like to reserve a space near a colleague using this property.Default value is 7. Administrators can change this value to more than 7 days and enable employees to select the max number of days they would like to book a seat near a team member or a colleague. For more information, see [Create a reservation]().
 
 **Note:** This field is displayed only when the **Enable browse near a person** Reservable module property is enabled on the Reservable Module.
 
@@ -454,7 +454,7 @@ Max days in future
 
 Option to specify the maximum number of the days in the future up to which the reservable module can be reserved. For example, if the Max number of days in future is set to 90, employees can make future reservations only up to 90 days in advance.
 
- If this option is enabled, users can’t select a date beyond the specified value in Max days in future while making a reservation. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+ If this option is enabled, users can’t select a date beyond the specified value in Max days in future while making a reservation. For more information, see [Create a reservation]().
 
  **Note:** **Max days in future** value indicates that the user can’t make a reservation beyond the number of days configured in this option. Max days in future is a reservation property and Max number of occurrences is a recurring reservation property. Max days in future value takes priority when both these options are used in a reservation.
 
@@ -518,7 +518,7 @@ Max number of days for browse near a person
 
 Option to specify the number of days employees can reserve a space near a colleague. Administrators can configure the maximum number of days an employee would like to reserve a space near a colleague using this property.
 
- Default value is 7. Administrators can change this value to more than 7 days and enable employees to select the max number of days to book a seat near a team member or a colleague. For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+ Default value is 7. Administrators can change this value to more than 7 days and enable employees to select the max number of days to book a seat near a team member or a colleague. For more information, see [Create a reservation]().
 
  **Note:** This field is displayed only when the **Enable browse near a person** Reservable module property is enabled on the Reservable Module.
 
@@ -640,7 +640,7 @@ Option to add notes to a meeting and attach images while making a reservation. T
 
 For Now Mobile app, the message is displayed on the summary page but employees can’t add or edit a message.
 
-For more information, see [Create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Create a reservation]().
 
 .
 

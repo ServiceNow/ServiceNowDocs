@@ -25,7 +25,7 @@ The Business Portal supports your business-to-business \(B2B\) customers, allowi
 -   List pages to browse, search, and filter through records of cases, products, orders, and others.
 -   Record view pages to view key information, related actions, related lists, and quick links of a record.
 
-**Note:** The Business Portal Store app is automatically installed when you install the Customer Service Portal store app. For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-consumer-portal.md).
+**Note:** The Business Portal Store app is automatically installed when you install the Customer Service Portal store app. For details, see .
 
 **Parent Topic:**[Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-som-using.md)
 

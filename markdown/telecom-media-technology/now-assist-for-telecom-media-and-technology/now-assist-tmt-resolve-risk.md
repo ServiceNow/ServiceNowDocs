@@ -33,7 +33,7 @@ You can trigger this workflow in two ways:
     1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
     2.  From the **Customer Success** menu, select **All Risks and issues** and open a risk signal record.
     3.  Select the **Recommend solutions** button in the risk record
-2.  Navigate to the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
+2.  Navigate to the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
 
 For information on how risks are generated, see [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
 

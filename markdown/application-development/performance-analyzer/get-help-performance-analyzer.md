@@ -7,7 +7,7 @@ release: australia
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Reference, Performance Analyzer, Testing and debugging applications, Building applications]
 ---
@@ -20,5 +20,5 @@ To get help with Performance Analyzer, your ServiceNow instance, plugins, permis
 
 The ServiceNow admin in your company can help you with things like activating plugins, kicking off upgrades, unlocking accounts, updating user permissions, and much more.
 
-How to get help from your admin 
+\[Omitted video\] Description: How to get help from your admin
 

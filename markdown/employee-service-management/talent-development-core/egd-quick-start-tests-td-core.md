@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---

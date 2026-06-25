@@ -24,7 +24,7 @@ The table lists the node attributes available in Link View with their icon and d
 The fields to be configured on the Respond page, when selecting an action to be triggered by an alert automation.
 -   **[Outbound webhook parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/outbound-webhook-parameters.md)**  
 The parameters to be configured when sending data to other systems using an outbound webhook.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/automation-details-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/automation-details-fields.md)**  
 
 -   **[Application service details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/app-service-details.md)**  
 Provides comprehensive information about an application service, including its name, business criticality, ownership, process and operational status, traffic-based discovery details, discovery status, and relevant comments. This enables thorough analysis of the application service's current state and usage, provides clarity on ownership and criticality, and aids in prioritizing resources and actions effectively.

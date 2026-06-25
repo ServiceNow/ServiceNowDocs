@@ -37,5 +37,5 @@ While these fields are visible from the task list, they must be edited from the 
 **Related topics**  
 
 
-[Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_UseTheListEditor.md)
+[Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md)
 

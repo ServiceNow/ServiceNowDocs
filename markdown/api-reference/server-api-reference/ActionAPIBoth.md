@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The action API provides methods to handle data for URLs in a UI action script.
 
-Use this API to configure UI actions with which users can interact. Use these scripts in the UI Action \[sys\_ui\_action\] table. For information, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
+Use this API to configure UI actions with which users can interact. Use these scripts in the UI Action \[sys\_ui\_action\] table. For information, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
 
 Methods for this API are referred to by the variable name 'action' in any server-side JavaScript. To learn more, see [Creating interactions with UI actions](https://developer.servicenow.com/blog.do?p=/post/training-ui-action-101/).
 
@@ -104,7 +104,7 @@ Opens a page with a GlideRecord in the user view.
 |----|-----------|
 |void| |
 
-The following example shows how to include the caller name and incident description created from an interaction record. For more details, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md).
+The following example shows how to include the caller name and incident description created from an interaction record. For more details, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md).
 
 ```
 if(current.update()){
@@ -242,7 +242,7 @@ Sets the return URI for this transaction after a UI action is complete. You can 
 |----|-----------|
 |void| |
 
-The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md).
+The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md).
 
 ```
 var change = new GlideRecord("change_request");

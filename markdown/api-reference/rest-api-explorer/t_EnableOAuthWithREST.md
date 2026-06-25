@@ -18,7 +18,7 @@ Using OAuth, you can pass a user ID and password once, and then use a token for 
 
 ## Before you begin
 
-The OAuth 2.0 plugin \(com.snc.platform.security.oauth.is.active\) must be active. For activation instructions, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+The OAuth 2.0 plugin \(com.snc.platform.security.oauth.is.active\) must be active. For activation instructions, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 

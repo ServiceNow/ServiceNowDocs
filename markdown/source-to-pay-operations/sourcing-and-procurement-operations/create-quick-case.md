@@ -16,7 +16,7 @@ breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Op
 
 As a procurement specialist, quickly create a procurement case from the plus icon on Source-to-Pay Workspace. With an additional supplier role of sn\_supplier.fulfiller, you can similarly create a supplier case.
 
-Describes the procedure for creating a quick case from the Source to Pay workspace. 
+\[Omitted video\] Description: Describes the procedure for creating a quick case from the Source to Pay workspace.
 
 ## Before you begin
 

@@ -38,7 +38,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Create an access control rule \(ACL\) to prevent the Needs review field from being modified after it has been set.
 
-7.  [Setting up form views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/form-configurable-workspace.md)
+7.  [Setting up form views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/form-configurable-workspace.md)
 
     Form views refer to the user interfaces or screens that allow users to input, edit, and view data related to tables.
 

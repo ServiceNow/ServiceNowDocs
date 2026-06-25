@@ -34,5 +34,5 @@ For more information on SLA notifications, refer [SLA notifications](https://raw
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

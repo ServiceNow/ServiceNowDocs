@@ -68,7 +68,7 @@ See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 </td></tr><tr><td>
 
-[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md)
+[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 </td><td>
 

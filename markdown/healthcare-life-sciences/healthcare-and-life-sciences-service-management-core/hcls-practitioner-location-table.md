@@ -23,7 +23,7 @@ The Practitioner location \[sn\_hcls\_practitioner\_facility\] table stores the 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_unw_q4t_mpb"><thead><tr><th>
 

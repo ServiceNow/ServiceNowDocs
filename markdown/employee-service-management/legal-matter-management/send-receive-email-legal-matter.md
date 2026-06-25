@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d601086e109">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d659652e109">
 
 Option
 
-</th><th align="left" id="d601086e112">
+</th><th align="left" id="d659652e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d601086e118">
+</th></tr></thead><tbody><tr><td id="d659652e118">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d601086e147">
+</td></tr><tr><td id="d659652e147">
 
 **As a collaborator**
 
@@ -78,5 +78,5 @@ After the email is sent, it is added to the activity stream on the legal matter 
 
 Legal matters marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

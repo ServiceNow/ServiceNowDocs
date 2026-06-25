@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planni
 
 Automate the actual value for your targets using the target automation feature.
 
-target actuals automation in strategic planning 
+\[Omitted video\] Description: target actuals automation in strategic planning
 
 Use the following steps as guidelines to enable actuals automation and configure a target source for a target using the target automation feature.
 

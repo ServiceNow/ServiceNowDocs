@@ -40,5 +40,5 @@ Product models provide dealers and manufacturers with a detail of the products b
 **Related topics**  
 
 
-[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
+[bundle-csm.product-data]
 

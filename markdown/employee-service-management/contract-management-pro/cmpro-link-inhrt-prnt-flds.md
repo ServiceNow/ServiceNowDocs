@@ -18,7 +18,7 @@ Link parent contracts during drafting and negotiation phases to establish hierar
 
 ## About this task
 
-The following video walks you through the process of linking a parent contract request and inheriting its fields.Video providing step-by-step instructions on linking parent contract request and inheriting its fields, approximately one and a half minutes long. 
+The following video walks you through the process of linking a parent contract request and inheriting its fields.\[Omitted video\] Description: Video providing step-by-step instructions on linking parent contract request and inheriting its fields, approximately one and a half minutes long.
 
 ## Before you begin
 
@@ -36,15 +36,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d70741e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d71359e86">
 
 Method
 
-</th><th align="left" id="d70741e89">
+</th><th align="left" id="d71359e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70741e95">
+</th></tr></thead><tbody><tr><td id="d71359e95">
 
 **Contract Workspace listing**
 
@@ -56,7 +56,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d70741e142">
+</td></tr><tr><td id="d71359e142">
 
 **Workspace used by your application**
 

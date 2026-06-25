@@ -103,7 +103,7 @@ Step 6
 
 Follow along with the tutorial to test the employee travel request application.
 
-Test your application before deploying it. 
+\[Omitted video\] Description: Test your application before deploying it.
 
 |Timestamp|Section|
 |---------|-------|

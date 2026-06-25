@@ -16,7 +16,7 @@ breadcrumb: [Configure UIs and portals, Configure user experiences]
 
 Service Portal allows you to build a mobile-friendly self-service portal experience for your employees or customers. Service Portal is a ServiceNow AI Platform feature that is active by default and interacts with parts of the platform so users can access platform features through portals.
 
-Using widgets with Service Portal 
+\[Omitted video\] Description: Using widgets with Service Portal
 
 Both beginner and expert developers can configure portals using Service Portal. Less technical users can make basic configuration changes to the UI using Branding Editor and other components of Service Portal. More advanced users can edit and extend portals, pages, and widgets. Expert users can use the Widget Editor tool to write scripts to power a portal, and even create rich web applications on the ServiceNow AI Platform.
 

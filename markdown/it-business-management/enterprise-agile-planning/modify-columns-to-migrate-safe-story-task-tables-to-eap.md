@@ -24,7 +24,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 ## About this task
 
-Modify columns of the SAFe Story and Scrum Task tables to migrate to EAP. 
+\[Omitted video\] Description: Modify columns of the SAFe Story and Scrum Task tables to migrate to EAP.
 
 ## Procedure
 

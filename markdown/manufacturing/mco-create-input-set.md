@@ -48,7 +48,7 @@ Application
 
 </td><td>
 
-Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationFiles.md).
+Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see .
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

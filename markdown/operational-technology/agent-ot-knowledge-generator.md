@@ -49,7 +49,7 @@ With the Generate OT KB articles agentic workflow, you can automatically generat
 
 The article is then automatically published and appears in the Attached Knowledge related list of the OT incident record in the Industrial Workspace. The KB Article Generation process isn't triggered if there's an article already attached to current OT incident.
 
-If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure you update all instructions accordingly.
 

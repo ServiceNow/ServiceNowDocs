@@ -25,5 +25,5 @@ This feature supports the following:
 -   Fetch the details of a work order
 -   Cancel a work order
 
-The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to support the external system to create and manage work orders for the field services. To learn more, see .
+The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to support the external system to create and manage work orders for the field services. To learn more, see [Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/work-order-mgmt-api.md).
 

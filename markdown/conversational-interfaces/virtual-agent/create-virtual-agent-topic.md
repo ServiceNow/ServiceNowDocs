@@ -19,7 +19,7 @@ Use Virtual Agent Designer to create and modify Virtual Agent topics \(conversat
 
 ## Before you begin
 
-Virtual Agent Designer LLM topic authoring video 
+\[Omitted video\] Description: Virtual Agent Designer LLM topic authoring video
 
 Do the following:
 

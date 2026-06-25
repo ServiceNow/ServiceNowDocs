@@ -24,7 +24,7 @@ Secure your ServiceNow apps.
 
 </td><td>
 
-[UI Policies \[Omitted image "icon-log.png"\] Alt text: UI Policies. Dynamically change the behavior of information on a form and control custom process flows for tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md)
+[UI Policies \[Omitted image "icon-log.png"\] Alt text: UI Policies. Dynamically change the behavior of information on a form and control custom process flows for tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
 
 </td></tr><tr><td>
 

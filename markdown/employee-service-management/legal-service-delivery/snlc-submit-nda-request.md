@@ -164,5 +164,5 @@ The default signature type is Electronic Signature.
 
 For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

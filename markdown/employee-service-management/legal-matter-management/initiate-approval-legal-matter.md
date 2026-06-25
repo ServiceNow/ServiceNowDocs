@@ -45,15 +45,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d301792e149">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d448361e149">
 
 Option
 
-</th><th align="left" id="d301792e152">
+</th><th align="left" id="d448361e152">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d301792e158">
+</th></tr></thead><tbody><tr><td id="d448361e158">
 
 **As an assignee**
 
@@ -65,7 +65,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d301792e187">
+</td></tr><tr><td id="d448361e187">
 
 **As a collaborator**
 
@@ -187,5 +187,5 @@ Approvers can review and [approve or reject the requested item](https://raw.gith
 -   **[Cancel an ad hoc approval for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/cancel-approval-legal-matter.md)**  
 Cancel an ad hoc approval for a legal matter if it no longer requires any action.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

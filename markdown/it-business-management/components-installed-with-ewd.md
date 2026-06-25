@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/components-installed-with-ewd.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

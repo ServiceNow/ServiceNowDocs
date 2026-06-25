@@ -54,7 +54,7 @@ You can add announcements for additional tables by defining additional data sour
 
     1.  Create a banner announcement configuration and the corresponding banner announcements.
 
-        For information on creating a banner announcement configuration, see [Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-banner-announcements.md).
+        For information on creating a banner announcement configuration, see [Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-banner-announcements.md).
 
     2.  Associate the banner announcement configuration with the **sn\_sow.banner\_announcements\_config\_id** property.
 

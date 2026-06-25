@@ -26,7 +26,7 @@ To access the DPM Admin Center, you must have the DPM Admin role \[sn\_dpm.dpm\_
 
 **Note:** Demo data users that come with the base system have been assigned the Admin role \[sn\_dpm.dpm\_admin\]. You can impersonate one of the demo data users to test the Admin Center.
 
-Let's review the Digital Portfolio Management Admin Center. 
+\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
 
 Navigate to **All** &gt; **Digital Portfolio Management** &gt; **DPM Admin Center**.
 

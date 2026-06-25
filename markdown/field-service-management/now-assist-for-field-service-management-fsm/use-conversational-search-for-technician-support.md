@@ -23,7 +23,7 @@ Role required: wm\_agent
 
 ## About this task
 
-This video demonstrates how to use conversational search for technician support 
+\[Omitted video\] Description: This video demonstrates how to use conversational search for technician support
 
 You can ask questions in your own words and receive responses from the Knowledge Base, including relevant details and step-by-step guidance to help you diagnose and resolve issues.
 

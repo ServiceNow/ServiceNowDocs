@@ -18,7 +18,7 @@ Create or modify request definitions to accept service requests from an EMR syst
 
 ## Before you begin
 
--   Set the application scope to EMR Help using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+-   Set the application scope to EMR Help using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 -   Ensure that request parameters and equivalent columns for all request parameters exist in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table. For more information, see [Configure request parameters for EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.md).
 
 Role required: sn\_ind\_rmt\_help.admin or admin

@@ -294,7 +294,7 @@ Each improvement needs at least one [approval](https://raw.githubusercontent.com
 
 The users in the Approvers related list belong to the **Approver Group** specified on the Improvement Initiative form. Once the improvement has been approved by an Approver Group member, approval from other members is no longer required to progress the improvement. However, other Approver Group members can still set their individual approval state.
 
-To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md).
+To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 ## Improvement process flow
 

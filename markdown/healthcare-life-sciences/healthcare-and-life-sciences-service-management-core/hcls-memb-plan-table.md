@@ -23,7 +23,7 @@ The Member Plan \[sn\_hcls\_member\_plan\] table stores the details of a health 
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_ikm_hwn_npb"><thead><tr><th>
 

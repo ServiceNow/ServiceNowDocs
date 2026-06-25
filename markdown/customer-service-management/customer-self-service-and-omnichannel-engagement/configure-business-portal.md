@@ -26,7 +26,7 @@ The Business and Consumer Portals are self-service web portals based on the Serv
 
 The Business Portal supports your business-to-business \(B2B\) customers and the Consumer Portal supports your business-to-consumer \(B2C\) customers.
 
-Configure Business and Consumer Portal 
+\[Omitted video\] Description: Configure Business and Consumer Portal
 
 Use the portals to provide information and support for your customers. The portals provides ready to use features that require minimal setup. These include:
 

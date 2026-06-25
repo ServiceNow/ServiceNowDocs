@@ -18,7 +18,7 @@ You can use response templates with HR Service Delivery to resolve cases faster 
 
 Response templates \(formerly known as templated snippets\) are reusable messages. You can copy these messages created from these templates to an HR case, task, email, or chat to provide quick and consistent messages to employees. For example, a response template for a payroll discrepancy case enables HR agents to use a standardized message when responding to that case type.
 
-**Note:** For more information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
+**Note:** For more information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 ## Response template channels
 
@@ -36,7 +36,7 @@ To create a universal response template that is available for all channels, assi
 
 ## Activation information
 
-The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/activate-templated-snippets.md).
+The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-templated-snippets.md).
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
@@ -70,7 +70,7 @@ For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omi
 
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

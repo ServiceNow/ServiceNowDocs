@@ -36,15 +36,15 @@ Role required: admin or sn\_lg\_ops.legal\_admin
 
 6.  Add a single variable or multiple variables to an intake form of the practice area.
 
-<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d213738e134">
+<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d230219e134">
 
 Option
 
-</th><th align="left" id="d213738e137">
+</th><th align="left" id="d230219e137">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d213738e143">
+</th></tr></thead><tbody><tr><td id="d230219e143">
 
 **Add a single variable**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the variable to add.
 
 
-</td></tr><tr><td id="d213738e170">
+</td></tr><tr><td id="d230219e170">
 
 **Add multiple variables**
 

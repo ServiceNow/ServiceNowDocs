@@ -1,0 +1,56 @@
+---
+title: Analyze sentiments in supplier cases
+description: Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.html
+release: australia
+product: Supplier Lifecycle Operations
+classification: supplier-lifecycle-operations
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use, Now Assist for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
+---
+
+# Analyze sentiments in supplier cases
+
+Use the Sentiment Analysis skill in Now Assist for Supplier Lifecycle Operations \(SLO\) to analyze a requester's response and determine the sentiment and sentiment trend associated with a supplier case. You can gauge the urgency of a supplier case and prioritize your responses based on the sentiment analysis.
+
+## Before you begin
+
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfiller
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
+
+2.  Select the list icon \[Omitted image "cases-list-icon.png"\] Alt text: List icon..
+
+3.  Go to **Cases** &gt; **Open**.
+
+4.  Select a supplier case.
+
+    The case detailed view appears.
+
+5.  Select the information icon \[Omitted image "icon-more-info.png"\] to view the reasoning behind the generated sentiment.
+
+    \[Omitted image "slo-analyze-sentiments-case.png"\] Alt text: Generated sentiment for a supplier case and the reasoning behind it.
+
+6.  Manually refresh the sentiment analysis.
+
+    1.  Selecting the information icon \[Omitted image "icon-more-info.png"\] Alt text:.
+
+    2.  View the updated sentiment analysis by selecting the refresh icon \[Omitted image "icon-refresh.png"\].
+
+
+**Related topics**  
+
+
+[Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-case.md)
+
+[Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/summarize-supp-perf.md)
+
+[Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.md)
+

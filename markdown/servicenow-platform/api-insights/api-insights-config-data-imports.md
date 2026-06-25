@@ -30,7 +30,7 @@ As a CMDB administrator with the sn\_cmdb\_admin role, you can set up data model
 
     Review and configure enterprise architect administrator settings for managing APIs. You can turn on the All settings option to access both CMDB administrator and enterprise architect administrator settings from the API Insights settings page.
 
-4.  Optional: [Automate creating tag-based relationship mapping within API Insights.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+4.  Optional: [Automate creating tag-based relationship mapping within API Insights.]()
 
     Configure and automate creating CMDB relationships between APIs and application services or business applications based on API tags.
 

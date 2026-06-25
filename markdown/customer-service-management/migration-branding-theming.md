@@ -19,6 +19,6 @@ Branding and theming enables you to customize your Configurable Workspace to you
 For more information about branding and theming, see the following topics:
 
 -   [View the brand and theme setting in your workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-view-theme-setting.md)
--   [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configuring-next-experience-with-theme-builder.md)
--   [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/config-next-experience-themes-prefs.md)
+-   [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md)
+-   [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

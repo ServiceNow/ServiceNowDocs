@@ -18,7 +18,7 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_lg\_cnt.contract\_fulfiller
 
@@ -30,7 +30,7 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Assign a legal request to yourself or to someone in your assignment group.
 
-    For more information, see [Assign a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+    For more information, see [Assign a legal request]()
 
 2.  Start working on a legal request.
 
@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d87353e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d559681e172">
 
 Option
 
-</th><th align="left" id="d87353e175">
+</th><th align="left" id="d559681e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87353e181">
+</th></tr></thead><tbody><tr><td id="d559681e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d87353e202">
+</td></tr><tr><td id="d559681e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d87353e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d559681e342">
 
 Option
 
-</th><th align="left" id="d87353e345">
+</th><th align="left" id="d559681e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87353e351">
+</th></tr></thead><tbody><tr><td id="d559681e351">
 
 **Internal**
 
@@ -125,7 +125,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d87353e392">
+</td></tr><tr><td id="d559681e392">
 
 **External**
 
@@ -232,5 +232,5 @@ Initiate an ad hoc approval for a contract document revision from a user or a us
 -   **[Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md)**  
 After a non-disclosure agreement contract document has been reviewed and finalized, send the document for signature.
 
-**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Non-disclosure agreement requests]()
 

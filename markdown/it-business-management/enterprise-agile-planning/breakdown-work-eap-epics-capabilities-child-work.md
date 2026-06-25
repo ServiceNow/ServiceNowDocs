@@ -22,7 +22,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 ## About this task
 
-Breakdown work into child work items. 
+\[Omitted video\] Description: Breakdown work into child work items.
 
 From the full details page of a work item, you can create all types of associated child work items. For example, based on the EAP configuration, the full details page of an Epic shows separate tabs for its child work items \(Capabilities, Features, or Stories\) and the full details page of a Capability shows separate tabs for Features and Stories.
 

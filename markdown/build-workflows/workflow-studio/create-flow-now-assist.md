@@ -17,7 +17,7 @@ breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow 
 
 Use generative AI to create a flow from text directionsand images.
 
-Create a flow with Now Assist 
+\[Omitted video\] Description: Create a flow with Now Assist
 
 ## Before you begin
 

@@ -26,7 +26,7 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user
 
 ## About this task
 
-Generate tasks from Docs using Now Assist for CWM 
+\[Omitted video\] Description: Generate tasks from Docs using Now Assist for CWM
 
 ## Procedure
 

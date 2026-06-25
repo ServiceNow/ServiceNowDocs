@@ -16,7 +16,7 @@ breadcrumb: [Enable AI experiences]
 
 Use ServiceNow®Now Assist Data Kit to add datasets to a data catalog. The curated data works with ServiceNow SDK to enable the AI skill development and evaluation.
 
-Now Assist Data Kit user journey 
+\[Omitted video\] Description: Now Assist Data Kit user journey
 
 ## Get started
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/review-overridden-record.html
 release: australia
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [View upgraded processes or records in the global domain, Setup and administration, Domain separation for service providers, Access Management]
 ---

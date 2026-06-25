@@ -75,7 +75,7 @@ This procedure outlines the high-level steps that you must follow to set up Web 
 
 The global and component codes are ready to be shared with the third-party admin to embed component instance on their third-party webpage.
 
-Configure the ServiceNow components instance 
+\[Omitted video\] Description: Configure the ServiceNow components instance
 
 ## What to do next
 

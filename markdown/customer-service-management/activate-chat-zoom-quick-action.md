@@ -16,7 +16,7 @@ Activate the Zoom quick action to initiate Zoom meetings using the quick action 
 
 ## Before you begin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
+Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: admin
 

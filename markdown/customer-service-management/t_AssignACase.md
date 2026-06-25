@@ -28,7 +28,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 2.  Assign the case.
 
-<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d79217e73">
+<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d305036e73">
 
 **Assign the case to yourself**
 
@@ -36,7 +36,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 Click **Assign to me**.
 
-</td></tr><tr><td id="d79217e85">
+</td></tr><tr><td id="d305036e85">
 
 **Assign the case to another agent**
 

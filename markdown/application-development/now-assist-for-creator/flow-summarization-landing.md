@@ -16,7 +16,7 @@ breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on t
 
 Summarize what a flow or subflow does by using generative AI.
 
-Summarize a flow with Now Assist 
+\[Omitted video\] Description: Summarize a flow with Now Assist
 
 ## Get started
 

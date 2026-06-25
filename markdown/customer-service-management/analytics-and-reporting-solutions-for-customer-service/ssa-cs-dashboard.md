@@ -26,7 +26,7 @@ Measure and track the effectiveness of self-service content through user activit
 
 \[Omitted image "self-service-dashboard-virtual-agent.png"\] Alt text: Virtual agent tab displaying different tab to analyse the engagements, success rates, and deflection activity.
 
-You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 **Note:**
 

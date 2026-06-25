@@ -24,7 +24,7 @@ With the Voice application, you can:
 -   Analyze the call transcripts and sentiments of users after an interaction is complete so that you can create assessments and provide feedback and training for agents.
 -   Synchronize agent presence within the queue.
 
-**Note:** You can integrate any third-party telephony service with the [ServiceNow Voice Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/cloud-call-center-overview.md). By default, the Voice provides you with the ability to integrate with the Amazon Connect application.
+**Note:** You can integrate any third-party telephony service with the [ServiceNow Voice Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md). By default, the Voice provides you with the ability to integrate with the Amazon Connect application.
 
 You can visualize the metrics from the Amazon Connect phone queues that are routed through Voice using the Channels application in Workforce Optimization for ITSM.The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) to report data from the Amazon Connect queues.
 

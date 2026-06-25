@@ -21,7 +21,7 @@ ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative
 
 Get an overview of the capabilities and a few use cases of ServiceNow AI Lens.
 
-Overview of the ServiceNow AI Lens capabilities and use cases 
+\[Omitted video\] Description: Overview of the ServiceNow AI Lens capabilities and use cases
 
 The ServiceNow AI Lens application extracts and analyzes data from screens or the screenshots of documents such as a scanned handwritten note or an email that you capture or files that you upload. ServiceNow AI Lens is integrated with the ServiceNow® forms so that you can create or update forms on the ServiceNow instance by auto-filling data.
 

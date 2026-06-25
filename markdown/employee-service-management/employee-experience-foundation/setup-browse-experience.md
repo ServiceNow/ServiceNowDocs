@@ -16,7 +16,7 @@ breadcrumb: [Configuring Employee Center, Employee Center, Unified Employee Expe
 
 Make it easy for employees to navigate the portal and discover content using the browse experience features in Employee Center.
 
-The video provides an overview of the browse experience cluster of features in Employee Center. 
+\[Omitted video\] Description: The video provides an overview of the browse experience cluster of features in Employee Center.
 
 Follow these steps to setup browse experience features:
 

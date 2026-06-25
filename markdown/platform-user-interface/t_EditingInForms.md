@@ -49,7 +49,7 @@ Role required: none
 
 ### About this task
 
-Administrators can enable the **Insert** function for task records. For more information, see [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/advanced-form-administration.md).
+Administrators can enable the **Insert** function for task records. For more information, see [Allow insert options on task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
 
 ### Procedure
 
@@ -59,7 +59,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 3.  Right-click the form header and select one of the following options.
 
-<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d53600e223">
+<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d140179e223">
 
 **Insert**
 
@@ -67,7 +67,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 Saves the item as a new record and returns to the previously viewed page.
 
-</td></tr><tr><td id="d53600e232">
+</td></tr><tr><td id="d140179e232">
 
 **Insert and Stay**
 
@@ -113,7 +113,7 @@ Role required: none
 **Related topics**  
 
 
-[Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ToggleTheTemplateBar.md)
+[Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ToggleTheTemplateBar.md)
 
 ## Cancel changes to a form
 

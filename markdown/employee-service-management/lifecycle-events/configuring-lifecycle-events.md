@@ -18,6 +18,6 @@ Plan and configure Lifecycle Events.
 
 ## Configuration overview
 
-1.  [Activate Lifecycle Events for Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+1.  [Activate Lifecycle Events for Enterprise]()
 2.  [Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 

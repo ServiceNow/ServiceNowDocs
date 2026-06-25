@@ -301,7 +301,7 @@ This email is sent to an employee if they don't complete a health verification b
 
     **Tip:** The image must be added before the mail script so that it appears at the top of the email.
 
-    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/upload-multiple-images.md).
+    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-multiple-images.md).
 
 6.  Click the **Show Notification Scripts** related link.
 

@@ -21,7 +21,7 @@ Configure the behavior of an interaction by determining the routine behavior for
 Configure each of the following interaction components to determine the behavior and life cycle.
 
 -   Lists: Configure the interaction list view. You can also extend the interaction table. For more information about configuring lists, see [Configuring lists on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ListConfiguration.md).
--   Forms: Configure the form view to tailor interactions for each application. For more information about configuring forms, see [Configuring forms on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/basic-form-administration.md).
+-   Forms: Configure the form view to tailor interactions for each application. For more information about configuring forms, see [Configuring forms on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/basic-form-administration.md).
 
 ## Interaction states
 

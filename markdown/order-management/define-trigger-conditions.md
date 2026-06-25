@@ -47,7 +47,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     To trigger the sequence when a new record is created in the Lead \[sn\_lead\_mgmt\_core\_lead\] table, you would set the condition **\[State\]****\[is\]****\[New\]**.
 
-    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).
+    For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 8.  Select **Save and close**.
 

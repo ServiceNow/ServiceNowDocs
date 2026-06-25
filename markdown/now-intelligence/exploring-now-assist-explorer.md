@@ -16,7 +16,7 @@ AI Data Explorer is your AI companion for instant insights and deep data explora
 
 ## AI Data Explorer overview
 
-The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) that serves as a centralized space for data-driven decision making.
+The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration]() that serves as a centralized space for data-driven decision making.
 
 \[Omitted image "explore-explorer.png"\] Alt text: An exploration in Now Assist explorer.
 

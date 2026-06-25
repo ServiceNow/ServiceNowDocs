@@ -51,7 +51,7 @@ Role required: admin
 
 1.  Verify that the application scope is set to the Service Graph Connector for Wiz application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Wiz** &gt; **Setup**.
 

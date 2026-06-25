@@ -26,9 +26,9 @@ All Workforce Optimization for ITSM Next Experience UI Builder pages and page va
 
 **Note:** After you copy and customize a page variant, any automatic updates applied to the original read-only page variant will not be applied to the page variant that you have customized.
 
-To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/open-your-configurable-workspace-experience-in-ui-builder.md)
+To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
-For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/list-of-workspaces.md).
+For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md).
 
 ## Procedure
 
@@ -64,5 +64,5 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 **Related topics**  
 
 
-[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-ui-admin.md)
+[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 

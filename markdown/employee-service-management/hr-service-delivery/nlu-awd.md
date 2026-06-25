@@ -1,0 +1,50 @@
+---
+title: Publish the VA topic template for legal name change
+description: Publish the Workday Legal Name Change Template which contains an NLU model that recognizes and processes employee utterances, intentions \(intents\), and objects of, or contexts for, an action \(entities\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/nlu-awd.html
+release: australia
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+---
+
+# Publish the VA topic template for legal name change
+
+Publish the Workday Legal Name Change Template which contains an NLU model that recognizes and processes employee utterances, intentions \(intents\), and objects of, or contexts for, an action \(entities\).
+
+## Before you begin
+
+Role required: sn\_hr\_workday.admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Collaboration** &gt; **Virtual Agent** &gt; **General Settings**.
+
+    **Note:** The **Enable NLU model** toggle switch must be enabled.
+
+2.  Navigate to **Collaboration** &gt; **Virtual Agent** &gt; **Designer**.
+
+3.  Select **Workday Legal Name Change Template**.
+
+4.  Click **Publish**.
+
+
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+
+**Related topics**  
+
+
+[Time off request to Workday]()
+
+[Change legal name through Virtual Agent]()
+
+[Report an issue with your payslip]()
+
+[Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday]()
+
+[Use HCM AI agents for HR Service Delivery Advanced Integration with Workday]()
+

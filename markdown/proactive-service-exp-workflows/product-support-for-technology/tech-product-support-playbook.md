@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_Tags.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see .
 
 </td></tr><tr><td>
 

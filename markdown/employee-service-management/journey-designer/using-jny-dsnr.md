@@ -29,5 +29,5 @@ Complete the Journey designer related tasks from Employee Center using the Now A
 -   **[Agentic workflows for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.md)**  
 Use agentic workflows and Now Assist for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 
-**Parent Topic:**[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Journey designer]()
 

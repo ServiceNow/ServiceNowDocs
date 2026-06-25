@@ -17,7 +17,7 @@ breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance an
 
 Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Overview of Now Assist for Sourcing and Procurement Operations \(SPO\)
 

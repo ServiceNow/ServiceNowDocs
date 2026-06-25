@@ -37,8 +37,8 @@ Action Assignment \[sys\_declarative\_action\_assignment\]
 </td></tr></tbody>
 </table>To migrate a declarative action, convert your custom declarative actions to new UXF Client Action type, and then define the corresponding add-on event mapping. For more information, see the following topics:
 
--   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-landing.md)
--   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/declarative-actions-glossary.md)
+-   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-landing.md)
+-   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/declarative-actions-glossary.md)
 
 **Related topics**  
 

@@ -22,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-This video demonstrates how to create a batch for Schedule Optimization 
+\[Omitted video\] Description: This video demonstrates how to create a batch for Schedule Optimization
 
 Key considerations for optimizing your schedules:
 

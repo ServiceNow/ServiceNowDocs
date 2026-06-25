@@ -56,7 +56,7 @@ Install the Order Management application from the ServiceNow Store.
 
 </td></tr><tr><td>
 
-[Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)\(Mandatory\)
+Service Model Foundation\(Mandatory\)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Install the Service Model Foundation application from the ServiceNow Store store
 
 </td></tr><tr><td>
 
-[Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md)\(Mandatory\)
+Install Base Management\(Mandatory\)
 
 </td><td>
 

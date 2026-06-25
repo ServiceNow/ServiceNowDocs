@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-using-employee-slate.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---

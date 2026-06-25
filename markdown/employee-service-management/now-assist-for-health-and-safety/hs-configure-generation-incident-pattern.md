@@ -18,7 +18,7 @@ Configure the scheduled jobs that generate the incident patterns from the safety
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_ohs\_im.admin
 

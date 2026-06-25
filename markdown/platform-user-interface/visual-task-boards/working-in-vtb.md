@@ -22,7 +22,7 @@ As a member of a Visual Task Board, you can view and share the board, customize 
 
 To find Visual Task Boards, navigate to **Self-Service** &gt; **Visual Task Boards**. If the application does not display after a general search, contact your admin.
 
-Video Visual Task Boards getting started
+\[Omitted video\] Description: Video Visual Task Boards getting started
 
 -   **[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)**  
 You can create, view, and edit freeform, flexible, and guided Visual Task Boards, and add users to these boards as members.

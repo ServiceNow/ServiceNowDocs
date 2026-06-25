@@ -40,5 +40,5 @@ The contextual side panel in CSM Configurable Workspace gives you access to info
 **Related topics**  
 
 
-[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md)
+[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md)
 

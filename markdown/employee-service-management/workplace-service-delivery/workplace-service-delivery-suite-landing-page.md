@@ -19,7 +19,7 @@ Provide employees with a single place to manage workplace tasks like reserving r
 
 Workplace Service Delivery \(WSD\) provides digitized workplace experiences to employees for managing their workplace activities. It provides flexible modern workplace solutions to drive employee productivity and workplace decisions.
 
-Workplace Service Delivery Overview Video 
+\[Omitted video\] Description: Workplace Service Delivery Overview Video
 
 ## Enhanced Employee Experience with digitized workplace services
 

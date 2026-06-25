@@ -60,7 +60,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d113238e215">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d115805e215">
 
 **Select a product to display more specific information**
 
@@ -68,7 +68,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d113238e224">
+</td></tr><tr><td id="d115805e224">
 
 **Select a link from one of the lists**
 
@@ -76,7 +76,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d113238e233">
+</td></tr><tr><td id="d115805e233">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

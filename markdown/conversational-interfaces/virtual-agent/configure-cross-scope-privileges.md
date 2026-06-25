@@ -29,7 +29,7 @@ Developers and topic authors may need to access [topic blocks](https://raw.githu
 
 1.  Activate the Virtual Agent conversation plugins for the applications that are the source and target scopes, for example the CSM \(com.sn\_csm.virtualagent\) or ITSM Virtual Agent \(com.snc.itsm.virtualagent\) plugins.
 
-2.  Set your application scope \(the Source scope requesting access\) using the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+2.  Set your application scope \(the Source scope requesting access\) using the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 3.  Navigate to **All** &gt; **System Applications** &gt; **Application Cross-Scope Access** and select **New**.
 

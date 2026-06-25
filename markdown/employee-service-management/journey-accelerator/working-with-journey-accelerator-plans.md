@@ -27,5 +27,5 @@ View, manage, and track your action plan progress from the Employee Center porta
 -   **[Mentor employees by using a Journey Accelerator plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-mentor-plan.md)**  
 Mentor employees that are assigned to you and view or edit employee plans depending on your permission type.
 
-**Parent Topic:**[Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Journey Accelerator]()
 

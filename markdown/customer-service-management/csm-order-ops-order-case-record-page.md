@@ -161,7 +161,7 @@ The contextual side panel component includes different tools that agents can use
 
  For more information about related lists, see the [Order case record page related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
- **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/create-modify-templated-snippet.md).
+ **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 </td></tr></tbody>
 </table>## Order case record page settings

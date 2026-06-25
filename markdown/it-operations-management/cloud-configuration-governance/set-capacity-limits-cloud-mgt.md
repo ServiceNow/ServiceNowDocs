@@ -25,7 +25,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-**Note:** You can also use quotas to set per-user and total capacity limitations on resources. See [Quotas and resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+**Note:** You can also use quotas to set per-user and total capacity limitations on resources. See [Quotas and resource order controls]().
 
 ## Procedure
 

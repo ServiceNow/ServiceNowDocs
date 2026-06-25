@@ -108,5 +108,5 @@ Script to define advanced matching rule functionality. Current.variable\_pool se
 4.  Reopen the case and check that the correct matching information was added.
 
 
-**Parent Topic:**[Assignment and matching rules in HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Assignment and matching rules in HR]()
 

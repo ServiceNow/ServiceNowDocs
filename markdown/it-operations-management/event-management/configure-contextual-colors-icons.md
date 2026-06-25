@@ -150,7 +150,7 @@ Accessible Icon
 
 </td><td>
 
-Icon that is displayed when the context includes an icon and when accessibility mode is enabled. To add your own icon, or to see a list of available icons, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/upload-multiple-images.md).
+Icon that is displayed when the context includes an icon and when accessibility mode is enabled. To add your own icon, or to see a list of available icons, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-multiple-images.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

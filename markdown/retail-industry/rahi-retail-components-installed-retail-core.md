@@ -14,7 +14,7 @@ breadcrumb: [Components installed with plugins, Reference, Retail]
 
 Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Tables installed with Retail Core
 

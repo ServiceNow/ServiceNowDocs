@@ -20,15 +20,15 @@ Employee Journey Management integrates HR Service Delivery features and applicat
 
 <table id="table_z3y_d1g_h2c" class="nav-card presentation"><tbody><tr><td>
 
-[Journey Designer\[Omitted image "bus-service-aware.svg"\] Alt text:Personalize employee journeys to enhance their experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Journey Designer\[Omitted image "bus-service-aware.svg"\] Alt text:Personalize employee journeys to enhance their experience.]()
 
 </td><td>
 
-[Journey Accelerator\[Omitted image "bus-rocketship.svg"\] Alt text:Use Journey Accelerator to create personalized journey plans for key employee transitions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Journey Accelerator\[Omitted image "bus-rocketship.svg"\] Alt text:Use Journey Accelerator to create personalized journey plans for key employee transitions.]()
 
 </td><td>
 
-[Lifecycle Events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Lifecycle Events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.]()
 
 </td></tr></tbody>
 </table>## Additional resources

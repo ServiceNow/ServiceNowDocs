@@ -19,7 +19,7 @@ Employee Center Pro is a modern, multi-department employee destination site to d
 
 ## Employee Center Pro overview
 
-Employee Center Pro overview 
+\[Omitted video\] Description: Employee Center Pro overview
 
 Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools including content publishing, campaigns, and employee communities.
 

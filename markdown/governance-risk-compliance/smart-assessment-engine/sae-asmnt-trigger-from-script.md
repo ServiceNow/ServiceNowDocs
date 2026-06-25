@@ -46,5 +46,5 @@ Specify the required and optional input settings for the action. The settings ar
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 

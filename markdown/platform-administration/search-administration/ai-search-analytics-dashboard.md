@@ -22,7 +22,7 @@ To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage In
 
 In the **Queries** section of the dashboard, you can view the query lists on their own page by selecting **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
-You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md).
+You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Required ServiceNow AI Platform roles
 

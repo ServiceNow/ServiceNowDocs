@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the non-disclosure agreement intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d213460e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d229941e71">
 
 Option
 
-</th><th align="left" id="d213460e74">
+</th><th align="left" id="d229941e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d213460e80">
+</th></tr></thead><tbody><tr><td id="d229941e80">
 
 **Using __Employee Center__**
 
@@ -43,7 +43,7 @@ Description
 3.  Search for and open the **Non-disclosure agreement** request item.
 
 
-</td></tr><tr><td id="d213460e123">
+</td></tr><tr><td id="d229941e123">
 
 **Using __Legal Service Portal__**
 

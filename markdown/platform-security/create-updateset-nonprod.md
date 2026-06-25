@@ -30,7 +30,7 @@ Trusted instance
 
 2.  Open the most recently created X.509 Certificate that was generated with the type **Trust Store Cert**.
 
-    You may need to add the **Created** field to the list to find the most recent record. See [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md).
+    You may need to add the **Created** field to the list to find the most recent record. See [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
 
 3.  Select **Export certificate to production**.
 

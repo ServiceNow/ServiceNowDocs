@@ -16,7 +16,7 @@ breadcrumb: [Search administration, Configure core features, Administer the Serv
 
 The ServiceNow® AI Search application provides a consumer-grade search engine for ServiceNow® Service Portal, ServiceNow® Now Mobile, and ServiceNow® Virtual Agent. Intelligent query features help you quickly find the answers you need.
 
-AI Search overview video, approximately three minutes and five seconds long. 
+\[Omitted video\] Description: AI Search overview video, approximately three minutes and five seconds long.
 
 Watch this short video to see how users can find answers using AI Search.
 

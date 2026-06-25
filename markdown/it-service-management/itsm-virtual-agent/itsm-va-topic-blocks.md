@@ -20,7 +20,7 @@ Use the **Type** list on the Topics page in Virtual Agent Designer to sort by **
 
 ITSM Virtual Agent provides the following pre-built topic blocks and templates.
 
-**Note:** Many of these topic blocks are available with the Service Management Virtual Agent Topic Blocks plugin \(com.glideapp.cs.sm\_topic\_blocks\). For more information about plugins, see [ServiceNow Plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ServiceNowPlugins.md)
+**Note:** Many of these topic blocks are available with the Service Management Virtual Agent Topic Blocks plugin \(com.glideapp.cs.sm\_topic\_blocks\). For more information about plugins, see [ServiceNow Plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ServiceNowPlugins.md)
 
 ## Contextual Search
 

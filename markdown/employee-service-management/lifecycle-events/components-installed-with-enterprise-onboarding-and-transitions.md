@@ -16,7 +16,7 @@ breadcrumb: [Lifecycle Events reference, Lifecycle Events, Employee Journey Mana
 
 Several types of components install with the activation of the Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\] plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature, and it’s used in some related example tasks.
 

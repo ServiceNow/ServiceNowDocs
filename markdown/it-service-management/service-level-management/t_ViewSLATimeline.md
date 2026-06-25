@@ -24,15 +24,15 @@ Role required: itil, sla\_admin, sla\_manager
 
 1.  Open an SLA timeline from the SLA definition form, Task form, or Task SLA form.
 
-<table id="choicetable_s31_gjj_35"><thead><tr><th align="left" id="d137066e63">
+<table id="choicetable_s31_gjj_35"><thead><tr><th align="left" id="d216309e63">
 
 Location
 
-</th><th align="left" id="d137066e66">
+</th><th align="left" id="d216309e66">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d137066e72">
+</th></tr></thead><tbody><tr><td id="d216309e72">
 
 **SLA definition**
 
@@ -40,7 +40,7 @@ Navigation
 
 Navigate to **Service Level Management** &gt; **SLA** &gt; **SLA Definitions**. Select the name of a SLA definition and then select the **Validate SLA Definition** link.
 
-</td></tr><tr><td id="d137066e96">
+</td></tr><tr><td id="d216309e96">
 
 **Task SLA record**
 
@@ -48,7 +48,7 @@ Navigate to **Service Level Management** &gt; **SLA** &gt; **SLA Definitions**. 
 
 Open a task SLA record from the task form. Select the **Show SLA Timeline** link to view the SLA timeline for that specific SLA.
 
-</td></tr><tr><td id="d137066e108">
+</td></tr><tr><td id="d216309e108">
 
 **Task form**
 

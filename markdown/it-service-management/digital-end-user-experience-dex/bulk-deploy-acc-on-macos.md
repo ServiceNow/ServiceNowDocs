@@ -18,7 +18,7 @@ Use Jamf to install Agent Client Collector \(ACC\) on multiple macOS devices at 
 
 ## Before you begin
 
-Installing ACC on user devices using Jamf 
+\[Omitted video\] Description: Installing ACC on user devices using Jamf
 
 -   Create an agent registration key and retrieve its value to use in the procedure. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
 -   Install ACC on your local machine. For more information, see [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).

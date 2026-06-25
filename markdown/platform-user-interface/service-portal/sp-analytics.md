@@ -16,7 +16,7 @@ breadcrumb: [Analytics and Reporting Solutions for Service Portal, Analyzing por
 
 The Usage Insights application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
 
-Video showing how to navigate and use Usage Insights 
+\[Omitted video\] Description: Video showing how to navigate and use Usage Insights
 
 You can view user analytics tracking for the portal in the Usage Insights application. For more information, see [Overview of the Usage Insights application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-dashboard.md).
 

@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Add or create a property to control system behavior.
 
-Add a system property 
+\[Omitted video\] Description: Add a system property
 
 ## Before you begin
 

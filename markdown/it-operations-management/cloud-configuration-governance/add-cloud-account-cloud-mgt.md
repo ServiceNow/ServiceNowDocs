@@ -56,8 +56,8 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
 
     The following lists appear:
 
-    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
-    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand]().
+    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources]().
     -   **Discovery Log**: The process creates a log record for each action associated with a discovery status.
 7.  Repeat the process to add as many service accounts as needed.
 

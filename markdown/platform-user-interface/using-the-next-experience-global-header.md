@@ -177,7 +177,7 @@ Now Assist
 
 </td><td>
 
-Enables you to address and resolve customer issues. The [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The Now Assist panel is configured using the Now Assist Admin console.
+Enables you to address and resolve customer issues. The [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) helps you generate summaries for records, chats, cases, or incidents, get help, and create resolution notes. Use the menu width button to toggle between standard and wide widths. Standard and wide widths are static values and the setting that you choose is retained.The Now Assist panel is configured using the Now Assist Admin console.
 
 </td></tr><tr><td>
 

@@ -1,0 +1,62 @@
+---
+title: Configure project insights generation skill in the Now Assist Admin console
+description: Define the triggers, inputs, and display location for project insights generation skill.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-project-insights-generation-skill.html
+release: australia
+product: Now Assist for Strategic Portfolio Management \(SPM\)
+classification: now-assist-for-strategic-portfolio-management-spm
+topic_type: task
+last_updated: "2026-04-15"
+reading_time_minutes: 1
+breadcrumb: [Activate a Now Assist skill, Use Now Assist Admin, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+---
+
+# Configure project insights generation skill in the Now Assist Admin console
+
+Define the triggers, inputs, and display location for project insights generation skill.
+
+## Before you begin
+
+Role required: admin
+
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+## Procedure
+
+1.  Navigate to **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+
+    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+
+2.  On the navigation panel, select **Technology** and select **SPM**.
+
+    Each workflow contains feature sets.
+
+3.  On the Project insights generation feature card, select **Turn on**.
+
+    \[Omitted image "edit-access-project-insights-generation.png"\] Alt text: Edit access screen for Project insights generation skill.
+
+4.  In Add users access section, specify the user or roles.
+
+5.  Review the role restrictions to skill and select **Turn on** to activate the skill.
+
+    Topics in project insights framework for reuse across portfolio insights, project insights, and status report contextual data.
+
+    -   Project delays: Identifies delay patterns across your project timeline and reports them in project insights.
+    -   Task dependency: Evaluates task relationships to highlight dependency risks and impacts.
+    -   Budget fluctuations: Monitors budget changes and highlights significant variances for review.
+    -   Scope creep: Detects insights of unplanned growth in a project by comparing the current project state against its first baseline. The insight flags deviations in task count, budget, and the existence of open change requests to help project managers identify potential scope expansion.
+
+## Result
+
+The skill is active on the instance.
+
+## What to do next
+
+Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+
+**Related topics**  
+
+
+[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md)
+

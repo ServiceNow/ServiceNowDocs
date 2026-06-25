@@ -16,7 +16,7 @@ breadcrumb: [Incident Management, IT Service Management]
 
 A major incident \(MI\) is an incident that results in significant disruption to the business. A major incident demands a response beyond the routine incident management process. Major incidents have a separate procedure with shorter timescales and higher priority, so that there is a faster resolution process for incidents with high business impact.
 
-Introduction to Major Incident Management 
+\[Omitted video\] Description: Introduction to Major Incident Management
 
 The definition of what constitutes a major incident must be determined and agreed on. For example, a major incident can be created if a critical business service is impacted or if there is a service outage that affects many users.
 

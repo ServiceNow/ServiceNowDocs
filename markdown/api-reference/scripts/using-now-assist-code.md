@@ -24,7 +24,7 @@ Learn to use ServiceNow®Now Assist for Code to generate, edit, explain and summ
 
     Use the Code autocomplete skill to get contextually relevant code suggestions or completions as you type in the script editor.
 
--   []()
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/edit-code-now-assist.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/edit-code-now-assist.md)
 
     Use the Code edit skill to quickly edit and refactor large code segments.
 

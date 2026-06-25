@@ -36,7 +36,7 @@ The ServiceNow® Legal Matter Management application enables you to complete leg
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract requests.]()
 
 </td><td>
 

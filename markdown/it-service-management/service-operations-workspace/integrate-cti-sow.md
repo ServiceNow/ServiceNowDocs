@@ -24,7 +24,7 @@ Enable the following plugins.
 -   com.snc.cti
 -   com.sn\_openframe
 
-For more information about installing and enabling a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+For more information about installing and enabling a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 Role required: admin
 

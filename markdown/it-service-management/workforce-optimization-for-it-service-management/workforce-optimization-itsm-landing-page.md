@@ -18,7 +18,7 @@ Manage and maintain the productivity of your workforce from a single location us
 
 ## Workforce Optimization for ITSM in action
 
-Here's how managers use Workforce Optimization for ITSM. Workforce Optimization for ITSM Overview
+Here's how managers use Workforce Optimization for ITSM. \[Omitted video\] Description: Workforce Optimization for ITSM Overview
 
 ## Get started
 

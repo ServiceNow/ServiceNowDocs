@@ -25,5 +25,5 @@ The to-do form contains fields that a manager uses to customize tasks for employ
 -   **[Components installed with Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)**  
 Several types of components install with the activation of the Journey Accelerator application, including user roles and tables. There are also dependencies on other features or apps.
 
-**Parent Topic:**[Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Journey Accelerator]()
 

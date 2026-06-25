@@ -14,7 +14,7 @@ breadcrumb: [Enterprise Architecture]
 
 The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive user interface to enable enterprise architects to stay up to date with their tasks, get insights, and monitor the health of the portfolio from a single location.
 
-Enterprise Architecture Workspace Overview 
+\[Omitted video\] Description: Enterprise Architecture Workspace Overview
 
 ## Get started
 

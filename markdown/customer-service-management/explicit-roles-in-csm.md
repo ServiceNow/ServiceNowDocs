@@ -59,7 +59,7 @@ The Customer Service plugin \(com.sn\_customerservice\) activates the Explicit R
     -   If CMS sites have the **Login page** configured, the snc\_internal role is automatically added to the **Read Roles** field on Pages \(content\_page\) if the field is empty.
 -   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) site access is also affected.
 
-    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_SpecifyingADefaultValue.md).
+    The snc\_internal role is not automatically added to sp\_page, sp\_widget or sp\_instance records. If desired, you can give new records the role by assigning snc\_internal as a default value in the **Roles** field for these records. For details on this process see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
 
 
 Do not move [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md) among instances with and without the Explicit Roles plugin enabled.

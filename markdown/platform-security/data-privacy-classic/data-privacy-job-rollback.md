@@ -22,7 +22,7 @@ Database changes are captured for actions like jobs and scripts so that the chan
     -   A rollback context from de-anonymization is saved for three days by default.
     -   The default expiry time can be set to a value greater than one by the data privacy administrator in the **RollbackContext** of the new **RollbackType** **REDACT.** Set the value in the Glide system property **glide.rollback.expiration\_days\_redact**. See [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/rollback-delete-recovery.md).
 
-        To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+        To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
         for additional information.
 

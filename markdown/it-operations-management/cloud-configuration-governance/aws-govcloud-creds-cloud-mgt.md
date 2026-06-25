@@ -134,6 +134,6 @@ The **Secret access key** that you generated on the AWS Management Console, such
 </td></tr></tbody>
 </table>10. Click **Submit**.
 
-    The instance records the credentials. Next, you [Create a service account for AWS GovCloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    The instance records the credentials. Next, you [Create a service account for AWS GovCloud]().
 
 

@@ -36,6 +36,6 @@ Role required: admin
 
 5.  Click **Submit**.
 
-    **Note:**To add a field to the extended child tables, refer to the [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreatingNewFields.md) in the ServiceNow platform documentation.
+    **Note:**To add a field to the extended child tables, refer to the [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md) in the ServiceNow platform documentation.
 
 

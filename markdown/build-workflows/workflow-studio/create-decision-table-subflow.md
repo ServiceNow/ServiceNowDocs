@@ -26,7 +26,7 @@ Creating a decision table in-line in a subflow only creates the structure of the
 
 This video shows the process of creating a decision in a subflow.
 
-This video describes the steps to create a decision table in a subflow. 
+\[Omitted video\] Description: This video describes the steps to create a decision table in a subflow.
 
 ## Procedure
 

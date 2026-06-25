@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d85640e104">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d573879e104">
 
 Option
 
-</th><th align="left" id="d85640e107">
+</th><th align="left" id="d573879e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85640e113">
+</th></tr></thead><tbody><tr><td id="d573879e113">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d85640e142">
+</td></tr><tr><td id="d573879e142">
 
 **As a collaborator**
 
@@ -123,5 +123,5 @@ As a matter owner, you can review and approve or reject matter tasks that are ma
 -   **[Cancel a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/cancel-matter-task.md)**  
 You can cancel a matter task if it no longer requires any action.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

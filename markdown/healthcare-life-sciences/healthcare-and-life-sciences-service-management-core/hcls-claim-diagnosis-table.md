@@ -23,7 +23,7 @@ The Claim diagnosis table \[sn\_hcls\_claim\_diagnosis\] stores diagnosis inform
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Healthcare and Life Sciences data model]().
 
 <table id="table_azg_z42_rvb"><thead><tr><th>
 

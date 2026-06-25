@@ -47,7 +47,7 @@ You can approve or reject requests from different channels, depending on how the
 
 You may also receive email reminders if your approval rule admin has set up email reminders for your approval configuration.
 
-**Note:** For more information on setting up your preferred notification channels, see [Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/preferences-landing.md).
+**Note:** For more information on setting up your preferred notification channels, see [Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/preferences-landing.md).
 
 ## Rejection workflow
 

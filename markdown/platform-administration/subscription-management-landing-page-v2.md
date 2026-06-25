@@ -14,7 +14,7 @@ breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
 
-Subscription Management overview video, approximately three minutes and thirty seconds long. 
+\[Omitted video\] Description: Subscription Management overview video, approximately three minutes and thirty seconds long.
 
 Watch this short video to see an overview of Subscription Management.
 

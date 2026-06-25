@@ -33,7 +33,7 @@ Use the v\_query.setLastErrorMessage\(message\) API to set the last error messag
 **Related topics**  
 
 
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 [Script Debugger and Session Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 

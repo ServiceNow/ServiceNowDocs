@@ -39,7 +39,7 @@ Get an overview of developing
 -   [What is ServiceNow](http://www.servicenow.com)?
 -   [Get a development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-dev-instance.md)
 -   [Demos](https://www.servicenow.com/lpdem/demonow-all.html?campid=99434&cid=p:all:dg:allterms:prsp:allmatch:GOOG_ALBU_PRSP_DemoNowALLDemoPages:ams:all&s_kwcid=AL!11692!3!579286898115!e!!g!!what%20is%20servicenow&ds_c=GOOG_AMS_All_EN_DEMANDGEN_ALBU_PRSP_Brand_EXA_Top&cmcid=71700000065323099&ds_ag=ServiceNow+What+Is_EXA&cmpid=58700005783665150&ds_kids=p63311635460&gclid=Cj0KCQiAn4SeBhCwARIsANeF9DLHaN8E-SrxM9UL14y_GRds_mudiBr6G2sCXdSZUfVKJhWaKYTkuacaAt9JEALw_wcB&gclsrc=aw.ds)
--   [How the ServiceNow AI Platform works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/how-now-platform-works.md)
+-   [How the ServiceNow AI Platform works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-now-platform-works.md)
 -   [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/licensing.md)
 -   [What is low-code development?](https://www.servicenow.com/workflows/creator-workflows/what-is-low-code.html)
 
@@ -53,7 +53,7 @@ Get help developing applications
 
 </td><td>
 
--   [Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/get-started-now-platform.md)
+-   [Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-started-now-platform.md)
 -   [ServiceNow developer community](https://www.servicenow.com/community/developer/ct-p/Developer)
 -   [Customer support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1000420)
 -   [Knowledge base](https://support.servicenow.com/kb?id=kb_home)
@@ -105,7 +105,7 @@ Create an application
 -   [ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
 -   [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_RESTAPI.md)
 -   [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/guided-application-creator/guided-app-creator.md)
--   [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/now-platform-forms-fields-lists.md)
+-   [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-platform-forms-fields-lists.md)
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Service Portals
 
 -   [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md)
 -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md)
--   [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/config-next-experience-themes-prefs.md)
+-   [Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 
 </td></tr><tr><td>
 
@@ -223,7 +223,7 @@ Coding and scripting, Core UI tech stack
 </td><td>
 
 -   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption.md)
--   [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md)
+-   [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
 -   [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md)
 -   [ServiceNow® access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md)
 -   [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md)
@@ -307,8 +307,8 @@ Maintain an application
 
 </td><td>
 
--   [Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)
--   [Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/maintain-monitor-now-platform.md)[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
+-   [Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
+-   [Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
 -   [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md)
 -   [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication.md)
 -   [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md)

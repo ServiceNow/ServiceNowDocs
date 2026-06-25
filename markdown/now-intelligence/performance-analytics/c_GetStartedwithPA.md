@@ -18,11 +18,11 @@ Review the use cases, components, and architecture for indicator data sources an
 
 Indicators drive business transformation by enabling businesses to set, track, and analyze progress against goals. They connect more people with better data in less time and help them focus on the things that really matter. Watch this five-minute video to learn how you could use Performance Analytics indicators to solve a sample business scenario.
 
-Explanation of Performance Analytics with an example of a business scenario. 
+\[Omitted video\] Description: Explanation of Performance Analytics with an example of a business scenario.
 
 **Note:** These days, Performance Analytics refers to the indicator data sources for Platform Analytics. Previously, Performance Analytics was its own independent product, with its own front end consisting of Performance Analytics widgets. That front end is deprecated, and instead indicators are shown in universal Platform Analytics data visualizations. The name Performance Analytics is retained for historical reasons.
 
-For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/success-dashboard-indicator-landing.md).
+For a video about how different dashboards with indicator data sources can help different personas in the ITSM department of your organization, see .
 
 Indicator data sources improve performance and accelerate continual service improvement by:
 

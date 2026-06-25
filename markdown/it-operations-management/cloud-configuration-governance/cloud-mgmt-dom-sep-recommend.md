@@ -80,7 +80,7 @@ Perform the following tasks to set up your domain-separated instance:
 
         **Important:** When you create a company for each domain, use a prefix with a unique identifier, such as "COMPANY\_" or "ORG\_".
 
-        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/t_CreateACompanyProfile.md).
+        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md).
 
 -   Create user groups and assign roles and domain to the users of each new company. You assign users to companies to associate them with domains. Associate a company with a user to map the user to a domain.
     1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)

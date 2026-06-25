@@ -50,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Analytics and reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.]()
+[Analytics and reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-analytics-reporting.md)
 
 </td><td>
 

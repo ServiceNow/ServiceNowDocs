@@ -16,7 +16,7 @@ MCP Server Console enables secure and governed access to functionality on a Serv
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows or AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-MCP Server Console overview 
+\[Omitted video\] Description: MCP Server Console overview
 
 In this video, learn about the Model Context Protocol and how to create and use MCP servers with MCP Server Console.
 

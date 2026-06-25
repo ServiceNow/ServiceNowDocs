@@ -130,7 +130,7 @@ Role required: discovery\_admin or admin
 
         For example, the PowerShell command **Register-PSConfiguration -name JEA\_DISCO\_V2 -path &lt;session\_configuration\_file&gt;** sets the endpoint name to JEA\_DISCO\_V2. In that case, **mid.powershell.jea.endpoint** must be updated to JEA\_DISCO\_V2.
 
-9.  Use the following [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) and [System property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) to troubleshoot issues:
+9.  Use the following [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) and [System property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to troubleshoot issues:
 
     1.  **mid.probe.collect\_debug\_info**: This is an optional MID Server property to collect debug information.
 

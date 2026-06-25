@@ -25,7 +25,7 @@ The digital integration represents the integration between two business applicat
     -   Defined by the providing business application.
     -   Outlines a business application model for interacting with another application \(frequently an API\).
 
-An overview video on Digital integration management in Enterprise Architecture Workspace 
+\[Omitted video\] Description: An overview video on Digital integration management in Enterprise Architecture Workspace
 
 **Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

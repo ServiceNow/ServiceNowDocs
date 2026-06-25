@@ -32,7 +32,7 @@ From the Company Job Architecture Staging \[sn\_skills\_int\_company\_job\_arch\
 -   Role Group Skills \[sn\_skills\_int\_role\_group\_skill\] table: The mapping of role groups and their skills.
 -   Role Level Skills \[sn\_skills\_int\_role\_level\_skill\] table: The mapping of role level and skills with the level of proficiencies for the role level.
 
-For more information about the tables in the Skills Foundation application, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information about the tables in the Skills Foundation application, see [Components installed with Skills Foundation]().
 
 **Note:**
 

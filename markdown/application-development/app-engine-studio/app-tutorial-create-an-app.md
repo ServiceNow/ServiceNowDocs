@@ -101,7 +101,7 @@ Step 6
 [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>Video in the app creation tutorial series. Create an application from scratch in App Engine Studio. 
+</table>\[Omitted video\] Description: Video in the app creation tutorial series. Create an application from scratch in App Engine Studio.
 
 |Timestamp|Section|
 |---------|-------|

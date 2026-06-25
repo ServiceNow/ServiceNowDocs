@@ -254,7 +254,7 @@ Enterprise Service Management Foundation
         -   Foundation: AI basics to deliver insights
         -   Advanced: AI to boost productivity across relevant use cases
         -   Prime: Act autonomously with all AI assets, and create your own
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 
 </td></tr><tr><td>

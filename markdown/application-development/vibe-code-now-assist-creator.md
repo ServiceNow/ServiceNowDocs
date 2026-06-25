@@ -51,7 +51,7 @@ Now Assist for Creator is the ServiceNow AI Platform toolkit for using AI to gen
 
 ## General Now Assist for Creator workflow
 
-1.  Enable the skills: Configure the triggers, settings, and display locations for Now Assist for Creator skills to enable generative AI capabilities across the ServiceNow AI Platform. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+1.  Enable the skills: Configure the triggers, settings, and display locations for Now Assist for Creator skills to enable generative AI capabilities across the ServiceNow AI Platform. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 2.  Describe the app: For example, you can request to “Create a cross-training app with instructor signup, session scheduling, approvals.” Then the application generation scaffolds tables, roles, and experiences.
 3.  Add process logic: Use flow generation for approvals and escalations and Flow recommendations to suggest next steps.
 4.  Add custom code logic: Prompt code generation for business rule and script include logic \(such as GlideRecord queries\), and then review and refactor as needed.

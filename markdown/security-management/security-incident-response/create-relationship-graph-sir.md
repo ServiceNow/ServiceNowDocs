@@ -73,7 +73,7 @@ For information about how to create a customized relationship graph rather than 
 
 ## Video showing how to edit a relationship graph to add category nodes and subnodes
 
-Video showing how to create a relationship node graph for an incident 
+\[Omitted video\] Description: Video showing how to create a relationship node graph for an incident
 
 **Parent Topic:**[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-relationship-graph.md)
 

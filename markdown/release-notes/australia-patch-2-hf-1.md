@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-2-hf-1.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 6
 breadcrumb: [Available patches and hotfixes, Learn about the Australia release, Australia release notes]
 ---

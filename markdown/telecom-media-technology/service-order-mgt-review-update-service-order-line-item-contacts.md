@@ -75,15 +75,15 @@ Email address for the customer contact.
 </td></tr></tbody>
 </table>4.  To add or delete a service order customer contact, perform one of the following actions.
 
-<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d44005e176">
+<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d44207e176">
 
 Action
 
-</th><th align="left" id="d44005e179">
+</th><th align="left" id="d44207e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44005e185">
+</th></tr></thead><tbody><tr><td id="d44207e185">
 
 **Add a service order customer contact**
 
@@ -94,7 +94,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d44005e212">
+</td></tr><tr><td id="d44207e212">
 
 **Delete a service order customer contact**
 

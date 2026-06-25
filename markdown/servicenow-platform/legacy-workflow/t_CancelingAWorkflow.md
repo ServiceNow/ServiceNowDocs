@@ -32,7 +32,7 @@ Canceling a workflow attempts to stop the workflow gracefully by injecting a can
 
 3.  Configure form layout to add **On-cancel script** field to form.
 
-    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md).
+    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Cancel** related link.
 

@@ -253,7 +253,7 @@ You can control certain aspects of the Run AI Search topic block:
 
     To use the default Virtual Agent configuration for AI Search, leave the **Search Application Configuration** field empty in the Topic Block Properties sheet when you're adding the Run AI Search topic block to a topic.
 
--   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
+-   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
 
 <table id="table_xdm_ryb_dxb"><thead><tr><th>
 

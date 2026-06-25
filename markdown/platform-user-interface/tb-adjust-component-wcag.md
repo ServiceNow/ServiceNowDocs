@@ -22,7 +22,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 You can also watch a short video on how to fix accessibility errors.
 
-Theme Builder Accessibility Inspector 
+\[Omitted video\] Description: Theme Builder Accessibility Inspector
 
 ## About this task
 
@@ -34,15 +34,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d108519e110">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d115466e110">
 
 Option
 
-</th><th align="left" id="d108519e113">
+</th><th align="left" id="d115466e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108519e119">
+</th></tr></thead><tbody><tr><td id="d115466e119">
 
 **From Accessibility inspector**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d108519e158">
+</td></tr><tr><td id="d115466e158">
 
 **From the Component styles menu**
 

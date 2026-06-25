@@ -18,7 +18,7 @@ Incident Management restores normal service operation while minimizing impact to
 
 ## Incident Management overview
 
-Introduction to incident management 
+\[Omitted video\] Description: Introduction to incident management
 
 ## Get started
 

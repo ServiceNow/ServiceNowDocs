@@ -16,7 +16,7 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 
 Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -634,7 +634,7 @@ Stores the details of a patient in your healthcare organization.
 
 </td></tr><tr><td>
 
-[Policy \[sn\_hcls\_policy\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Policy \[sn\_hcls\_policy\]]()
 
 </td><td>
 

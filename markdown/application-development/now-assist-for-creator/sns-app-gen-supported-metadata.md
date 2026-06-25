@@ -58,7 +58,7 @@ Flows automate a repeatable, multi-step process.
 
 </td></tr><tr><td>
 
-[Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_UsingForms.md)
+[Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 </td><td>
 

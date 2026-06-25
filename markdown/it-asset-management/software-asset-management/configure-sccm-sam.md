@@ -24,7 +24,7 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
 ## Procedure
 
-1.  [Activate the SCCM integration plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/activate-microsoft-sccm-plugin.md) for your version of SCCM.
+1.  [Activate the SCCM integration plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-microsoft-sccm-plugin.md) for your version of SCCM.
 
     -   Integration — Microsoft SCCM 2012 v2 \(com.snc.integration.sccm2012v2\)
     -   Integration — Microsoft SCCM 2016 \(com.snc.integration.sccm2016\)

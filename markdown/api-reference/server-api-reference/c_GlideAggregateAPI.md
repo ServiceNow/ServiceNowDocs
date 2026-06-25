@@ -22,7 +22,7 @@ When you use GlideAggregate methods on currency or price fields, you are working
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
@@ -83,9 +83,9 @@ Optional for field name. Name of the field, or path to an attribute within a dyn
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 Default: Null
 
@@ -471,9 +471,9 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -708,9 +708,9 @@ Name of the field, or path to an attribute within a dynamic schema, to get the a
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_vdy_sdk_ws" class="returns"><thead><tr><th>
@@ -916,7 +916,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_ph3_x1x_1bc" class="returns"><thead><tr><th>
@@ -1078,7 +1078,7 @@ Path to use to locate the desired dynamic attribute. Format of the attribute pat
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_oht_nbx_1bc" class="returns"><thead><tr><th>
@@ -1402,7 +1402,7 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1471,9 +1471,9 @@ Field name or path to an attribute within a dynamic attribute store.Format of th
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1546,11 +1546,11 @@ Field name, path to an attribute within a dynamic attribute store, or glidefunct
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/platform-support-functions.md).
+glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1644,9 +1644,9 @@ Name of the field or path to an attribute within a dynamic attribute store to ag
 Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

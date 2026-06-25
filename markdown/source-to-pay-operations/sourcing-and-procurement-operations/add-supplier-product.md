@@ -24,7 +24,7 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 
 ## About this task
 
-Shows how to add a supplier product. 
+\[Omitted video\] Description: Shows how to add a supplier product.
 
 You can add a supplier product and choose to publish it on the Shopping Hub portal. The products that you add, appear on the portal under various categories. You can add multiple products that are available with the suppliers.
 

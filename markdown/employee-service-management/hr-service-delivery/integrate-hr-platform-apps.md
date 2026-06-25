@@ -26,7 +26,7 @@ HR Service Delivery and Virtual Agent provide an automated chat with an employee
 HR Performance Analytics measures key performance indicators to track HR performance over time.
 -   **[User Experience for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/user-exp-hrser.md)**  
 Usage Insights dashboard provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on the Employee Service Portal.
--   **[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Machine learning solutions for HR Service Delivery]()**  
 Machine learning solutions for HR Service Delivery help in auto determining assignment groups and services for HR cases, auto creating cases from emails, and discovering knowledge articles that help in faster resolution of cases and tasks.
 -   **[HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-wb.md)**  
 The HR Predictive Intelligence Workbench application provides prebuilt use case templates and guides you through your predictive machine-learning implementation to create intelligent HR processes. Business process architects use prebuilt functionality, including pretrained models, to get started with machine learning use cases.

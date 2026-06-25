@@ -35,7 +35,7 @@ You can choose to create policies that label these definition findings as:
 
 4.  Set the following fields to configure the policy.
 
-<table id="choicetable_npc_csk_hhc"><tbody><tr><td id="d77327e123">
+<table id="choicetable_npc_csk_hhc"><tbody><tr><td id="d79221e123">
 
 **Number**
 
@@ -43,7 +43,7 @@ You can choose to create policies that label these definition findings as:
 
 Auto-generated ID for the policy.
 
-</td></tr><tr><td id="d77327e132">
+</td></tr><tr><td id="d79221e132">
 
 **Active**
 
@@ -51,7 +51,7 @@ Auto-generated ID for the policy.
 
 Enable the policy to display in the **Finding Policies** page \(**ALL &gt; Impact &gt; Platform Health &gt; Finding Policies**\).
 
-</td></tr><tr><td id="d77327e150">
+</td></tr><tr><td id="d79221e150">
 
 **Status**
 
@@ -62,7 +62,7 @@ Select one of the following: -   None
 -   Prioritize
 **Note:** **None** means the policy is defined but not currently affecting findings. Use **Acceptable as is** to exclude findings from metrics, or **Prioritize** to highlight them in dashboards. Inactive policies do not process at all.
 
-</td></tr><tr><td id="d77327e180">
+</td></tr><tr><td id="d79221e180">
 
 **Order**
 
@@ -70,7 +70,7 @@ Select one of the following: -   None
 
 Policies are evaluated in order \(lowest to highest\). The first policy that matches a finding is applied; subsequent policies are not evaluated for that finding. Lower order values have higher priority.
 
-</td></tr><tr><td id="d77327e189">
+</td></tr><tr><td id="d79221e189">
 
 **Reason for policy**
 

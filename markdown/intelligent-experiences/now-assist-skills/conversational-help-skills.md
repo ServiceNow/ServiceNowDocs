@@ -16,7 +16,7 @@ breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI a
 
 This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 
-Now Assist Conversational Help overview
+\[Omitted video\] Description: Now Assist Conversational Help overview
 
 **Important:** Starting with the Australia release, Conversational Help Skills is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base.
 

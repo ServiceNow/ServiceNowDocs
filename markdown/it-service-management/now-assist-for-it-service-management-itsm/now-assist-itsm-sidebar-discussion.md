@@ -19,8 +19,8 @@ Generate a summary of Sidebar discussions between agents, requesters, and subjec
 
 ## Before you begin
 
--   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-adoption-paths.md).
--   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+-   Next Experience must be enabled to summarize Sidebar discussions in Core UI. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   The Sidebar Chat Summarization skill must be enabled. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 Role required: itil
 
@@ -52,15 +52,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d423854e253">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d442760e253">
 
 Option
 
-</th><th align="left" id="d423854e256">
+</th><th align="left" id="d442760e256">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d423854e262">
+</th></tr></thead><tbody><tr><td id="d442760e262">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d423854e289">
+</td></tr><tr><td id="d442760e289">
 
 **Provide feedback for the summary**
 

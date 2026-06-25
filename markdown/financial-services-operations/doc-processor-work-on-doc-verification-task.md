@@ -48,15 +48,15 @@ Role required: sn\_doc\_processor.agent​
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d109941e209">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d137354e209">
 
 Task
 
-</th><th align="left" id="d109941e212">
+</th><th align="left" id="d137354e212">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d109941e218">
+</th></tr></thead><tbody><tr><td id="d137354e218">
 
 **Verify**
 
@@ -64,7 +64,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d109941e230">
+</td></tr><tr><td id="d137354e230">
 
 **Reject**
 

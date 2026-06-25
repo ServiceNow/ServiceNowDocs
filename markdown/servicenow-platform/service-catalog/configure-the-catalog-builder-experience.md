@@ -22,7 +22,7 @@ Role required: catalog\_admin
 
 ## About this task
 
-This video shows you how to add a step, section, or question to a catalog item wizard.This video shows you how to add a step, section, or question to a catalog item wizard.  
+This video shows you how to add a step, section, or question to a catalog item wizard.\[Omitted video\] Description: This video shows you how to add a step, section, or question to a catalog item wizard.
 
 ## Procedure
 
@@ -32,15 +32,15 @@ This video shows you how to add a step, section, or question to a catalog item w
 
 3.  Add steps, sections, or questions to the Catalog Builder wizard.
 
-<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d71981e97">
+<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d595386e97">
 
 Option
 
-</th><th align="left" id="d71981e100">
+</th><th align="left" id="d595386e100">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d71981e106">
+</th></tr></thead><tbody><tr><td id="d595386e106">
 
 **Create a step**
 
@@ -54,7 +54,7 @@ For a description of the field values, see [Fields in Service Catalog Wizard for
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d71981e144">
+</td></tr><tr><td id="d595386e144">
 
 **Create a section**
 

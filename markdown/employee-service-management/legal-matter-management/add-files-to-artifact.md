@@ -32,15 +32,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d291150e104">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d725827e104">
 
 Option
 
-</th><th align="left" id="d291150e107">
+</th><th align="left" id="d725827e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291150e113">
+</th></tr></thead><tbody><tr><td id="d725827e113">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d291150e142">
+</td></tr><tr><td id="d725827e142">
 
 **As a collaborator**
 
@@ -67,15 +67,15 @@ The state of the legal matter updates to Work in Progress.
 
 5.  Add or remove documents from the legal matter.
 
-<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d291150e181">
+<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d725827e181">
 
 Option
 
-</th><th align="left" id="d291150e184">
+</th><th align="left" id="d725827e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291150e190">
+</th></tr></thead><tbody><tr><td id="d725827e190">
 
 **Using the attachment icon**
 
@@ -94,7 +94,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached document, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d291150e270">
+</td></tr><tr><td id="d725827e270">
 
 **Using the Documents tab**
 

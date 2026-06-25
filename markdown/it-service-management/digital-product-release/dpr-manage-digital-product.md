@@ -24,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 Watch the following video to learn how release planning in Digital Product Release helps you define the scope of a release.
 
-Release planning in Digital Product Release.  
+\[Omitted video\] Description: Release planning in Digital Product Release.
 
 **Note:** When a Plan Version from the DevOps data model is mapped to a Software Model in DPR, any Work Items associated with that Plan Version get automatically listed in the Release scope page. If a work item is associated with a product enhancement, it shows as a child under that product enhancement in the list. You can track these work items on the Release scope page of the release.
 

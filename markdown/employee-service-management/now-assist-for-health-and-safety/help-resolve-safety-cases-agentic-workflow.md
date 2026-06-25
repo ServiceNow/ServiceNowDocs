@@ -18,7 +18,7 @@ Use the **Help resolve health and safety cases** agentic workflow to enable fast
 
 The **Help resolve health and safety cases** is a case analyzer agentic workflow designed to support safety teams in resolving cases more quickly and effectively. It reviews related historical cases, analyzes actions taken, and reviews available knowledge base articles to generate suitable action plans. You can select one or more preferred actions from the suggestions to apply to the current case. This process helps safety teams benefit from previous resolutions, reducing the time and effort required to close new cases.
 
-The **Help resolve health and safety cases** agentic workflow is not active by default. For more information to activate an agentic workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md).
+The **Help resolve health and safety cases** agentic workflow is not active by default. For more information to activate an agentic workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 To access the agentic workflow:
 
@@ -29,7 +29,7 @@ To access the agentic workflow:
 
 3.  Select **Continue** or select **Define trigger** to review the trigger factor for this agentic workflow.
 
-    **Note:** Confirm that the application scope is selected as **AI agents for Health and Safety** to enable the **Save** option when you change the trigger status to Active. For more information on changing the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    **Note:** Confirm that the application scope is selected as **AI agents for Health and Safety** to enable the **Save** option when you change the trigger status to Active. For more information on changing the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 4.  Enable the Now Assist panel from the **Select display** option.
 

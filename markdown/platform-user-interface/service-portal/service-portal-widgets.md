@@ -16,7 +16,7 @@ breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and porta
 
 Widgets are what define the content of your portal pages. You can use the base system widgets provided with Service Portal, clone and modify widgets, or develop custom widgets to fit your own needs.
 
-Using widgets with Service Portal 
+\[Omitted video\] Description: Using widgets with Service Portal
 
 When you create or update a page in the Service Portal Designer, add widgets by searching in the widget filter and dragging a widget onto the page. You can also access all widget records from the platform at **All** &gt; **Service Portal** &gt; **Widgets**.
 

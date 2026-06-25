@@ -26,7 +26,7 @@ Benefits
 
 </th></tr></thead><tbody><tr><td>
 
-[Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-landing-page.md)
+[Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
 
 </td><td>
 
@@ -37,11 +37,11 @@ Benefits
     -   Use the Favorites, History, and Workspaces menu items to navigate to and pin important resources.
     -   Easily switch between Core UI applications and configurable workspaces.
     -   Find your recently viewed items in a single menu.
-    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/configure-custom-menu.md).
+    -   Create custom menus for your end users. For more information, see [Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-custom-menu.md).
 
 </td></tr><tr><td>
 
-[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/workspace-landing-page.md)
+[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Keep informed of updates and surface important insights with a live activity fee
 
 </td></tr><tr><td>
 
-[Working in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/working-in-classic-lists-and-forms.md)
+[Working in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-classic-lists-and-forms.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ Create applications and develop with the full power of the ServiceNow AI Platfor
 
 </td></tr><tr><td>
 
-[Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/working-in-ui16-and-ui15.md)
+[Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
 
 </td><td>
 

@@ -165,6 +165,6 @@ You can also retain the details of the original case. For example, you can take 
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False \(default\), text from an email appears in the Work notes field when the employee is responding from a personal email account.
 
-    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailConfiguration.md).
+    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailConfiguration.md).
 
 

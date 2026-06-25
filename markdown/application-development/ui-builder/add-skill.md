@@ -62,7 +62,7 @@ In this example, you will:
 
     \[Omitted image "add-skill-select.png"\] Alt text: UI Builder editor with the Select a Now Assist skill dialog open.
 
-    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) and [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+    **Note:** Skills that are enabled in Now Assist Skill Kit but not activated in Now Assist Admin appear in the list, but aren't selectable. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) and [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
 6.  Select the **X** in the upper right to close the **Edit Generate Content** dialog.
 

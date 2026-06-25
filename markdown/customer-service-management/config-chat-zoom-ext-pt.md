@@ -18,7 +18,7 @@ Use scripted extension points to enable the copying of application-specific fiel
 
 Role required: admin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_InstallApplications.md).
+Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 ## About this task
 

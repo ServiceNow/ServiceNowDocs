@@ -36,7 +36,7 @@ Adding a model to an update set includes the following resources:
 
 For more information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
-If you want to add the model to a different update set, you must make that update set the current one. See [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
+If you want to add the model to a different update set, you must make that update set the current one. See .
 
 For optimum portability, add your NLU model to a new, dedicated update set rather than to a system Default update set. To do this, a new update set must be manually created in the model's scope. An error is displayed if the current update set is the scope's Default. This error contains a link for manually creating a new update set.
 
@@ -44,7 +44,7 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/us-hier-overview.md). The following video provides a demonstration of this process.
+For information about parent-child update sets, see . The following video provides a demonstration of this process.
 
 ## Procedure
 

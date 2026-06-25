@@ -20,7 +20,7 @@ Accelerate document insights with instant summaries, interactive Q&amp;A, and FA
 
 The Smart Documents skill provides a concise summary of the document associated with a workflow, along with interactive Q&amp;A and FAQs, enabling you to quickly understand the content, explore key insights and get answers to specific questions.
 
-You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/ask-questions-faqs-now-assist.md)
+You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
 
 The following diagram shows that by using the Smart Document skill, you can quickly get insights from a document, such as a white paper, report, policy, contract, or case file.
 
@@ -42,7 +42,7 @@ Technology
 
 </td><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)
+
 
 </td></tr><tr><td>
 

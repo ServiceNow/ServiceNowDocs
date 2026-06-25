@@ -59,7 +59,7 @@ Branding and theming
 </td><td>
 
 A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   [View the brand and theme setting in your workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-view-theme-setting.md)
--   [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/next-experience-theming.md)
+-   [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Forms
 
 </td><td>
 
-Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/administer-forms-configurable-workspace.md).
+Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Additional Forms Configuration
 
 </td><td>
 
-Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/administer-forms-configurable-workspace.md).
+Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Search
 
 </td><td>
 
-Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   [Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/using-search-next-experience.md)
+Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   [Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-search-next-experience.md)
 -   [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md)
 
 </td></tr><tr><td>

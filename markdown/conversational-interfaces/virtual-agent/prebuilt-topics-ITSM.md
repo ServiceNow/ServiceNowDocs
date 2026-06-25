@@ -38,11 +38,11 @@ Customer Service Virtual Agent conversations
 
 Plugin name: com.sn\_csm.virtualagent
 
- For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+ For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr><tr><td>
 
-Field Service Virtual Agent Conversations
+[Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-va-conversation.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Request the Field Service Virtual Agent Conversations and Field Service NLU Mode
 
 </td></tr><tr><td>
 
-Human Resources Virtual Agent conversations
+[Human Resources Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-virtual-agent-conversations.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Request the HR Service Delivery Virtual Agent Conversations app from the Service
 
 </td></tr><tr><td>
 
-ITSM Virtual Agent Conversations
+[ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Request ITSM Virtual Agent and the ITSM NLU Model for Virtual Agent Conversation
 
 </td></tr><tr><td>
 
-
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md)
 
 </td><td>
 
@@ -91,7 +91,7 @@ Virtual Agent Platform topics and topic blocks
 
 Plugin name: com.glide.cs.chatbot
 
- For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md).
+ For more information about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr></tbody>
 </table>**Note:** The plugins for the CSM, HR Service Delivery, and ITSM predefined conversations also install their prebuilt ServiceNow NLU models and topic blocks. The Glide Virtual Agent plugin installs the prebuilt NLU model for setup topics, as well as platform topic blocks.

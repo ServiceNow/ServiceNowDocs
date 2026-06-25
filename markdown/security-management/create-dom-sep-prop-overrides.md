@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-dom-sep-prop-overrides.html
 release: australia
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -16,7 +16,7 @@ When you use domain separation, you can create overrides to existing Security Op
 
 ## Before you begin
 
-Requires that [Domain Support - Domain Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/list-of-plugins.md) be activated. You can also learn about the [Domain Override Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-override-viewer.md).
+Requires that [Domain Support - Domain Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) be activated. You can also learn about the [Domain Override Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-override-viewer.md).
 
 Role required: admin
 
