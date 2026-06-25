@@ -61,15 +61,15 @@ Review the ruling from Mastercard and choose whether to resolve the dispute or t
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d37643e269">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d37635e269">
 
 Selection
 
-</th><th align="left" id="d37643e272">
+</th><th align="left" id="d37635e272">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d37643e278">
+</th></tr></thead><tbody><tr><td id="d37635e278">
 
 **Unresolved**
 
@@ -79,7 +79,7 @@ Select this option if you are not happy with the arbitration response from Maste
 
 For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d37643e303">
+</td></tr><tr><td id="d37635e303">
 
 **Resolved**
 

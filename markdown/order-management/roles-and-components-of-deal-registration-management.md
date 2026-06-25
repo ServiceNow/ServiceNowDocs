@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/roles-and-components-of-deal-registration-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 3
 breadcrumb: [Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

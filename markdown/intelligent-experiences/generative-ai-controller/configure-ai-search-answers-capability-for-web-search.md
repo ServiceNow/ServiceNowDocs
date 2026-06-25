@@ -138,9 +138,9 @@ For example, enter `https://api.openai.com` for Open AI.
 
 ## Result
 
-End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see .
+End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.md).
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see .
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 

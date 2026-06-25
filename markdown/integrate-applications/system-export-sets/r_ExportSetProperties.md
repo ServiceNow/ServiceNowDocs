@@ -34,7 +34,7 @@ For Excel files, option to format currency values to match the localization of t
 
  For example, say you've activated the I18N: French Canada Translations plugin on your instance, and you're exporting a currency value of 6300. If this property is set to true, the value will be correctly formatted as 6,300 €. If this property is set to false, the value will be formatted as € 6,300.
 
- For more information on localization, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/localization-framework-landing.md).
+ For more information on localization, see .
 
  -   Type: true \| false
 -   Default: false

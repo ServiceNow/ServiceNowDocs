@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-deal-registration-table.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Data model for Deal Registration Management, Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

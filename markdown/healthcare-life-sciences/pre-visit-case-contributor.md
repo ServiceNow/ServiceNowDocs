@@ -20,7 +20,7 @@ Starting with the Yokohama release, Pre-Visit Management is being prepared for f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-If the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\) is installed in addition to the Pre-Visit Management application, the **Create a procedure request case** record producer is available from the Case menu on the Consumer Service Portal page to create procedure request cases. To enable users with the [contributor roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-contributor-user-roles.md) for creating procedure request cases, you can use the default record producer or create your own record producer.
+If the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\) is installed in addition to the Pre-Visit Management application, the **Create a procedure request case** record producer is available from the Case menu on the Consumer Service Portal page to create procedure request cases. To enable users with the contributor roles in CSM for creating procedure request cases, you can use the default record producer or create your own record producer.
 
 As an administrator, you can include the record producer for creating procedure request cases in a service  catalog and display the service  catalog  as a module on the Consumer Service Portal page. Users with the contributor profile can then use the module to create procedure request cases.
 

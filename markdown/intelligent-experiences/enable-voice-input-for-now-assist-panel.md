@@ -16,7 +16,7 @@ Give users the option to use their voice when interacting with the Now Assist pa
 
 ## Before you begin
 
-**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in  and not with this option.
+**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md) and not with this option.
 
 You must have installed at least one Now Assist application with a skill that uses the Now Assist panel. See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-panel-overview.md) for more information about supported skills.
 

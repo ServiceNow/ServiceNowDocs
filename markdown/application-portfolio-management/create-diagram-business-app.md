@@ -31,7 +31,7 @@ For creating the diagram using the Lucidchart, you must activate the following S
 -   Lucidchart Diagramming Spoke
 -   Lucidchart Integration
 
-To establish a connection with Lucid, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+To establish a connection with Lucid, see Create OAuth 2.0 Client in Lucidchart and Create a connection and credential alias for the Lucidchart diagramming spoke.
 
 Role required: Member of the Enterprise Architect group
 

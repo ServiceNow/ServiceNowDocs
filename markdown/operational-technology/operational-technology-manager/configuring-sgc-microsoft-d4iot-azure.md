@@ -38,7 +38,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Microsoft Defender for IoT \(Azure\) application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see .
 
 2.  Navigate to **All** &gt; **Service Graph for MSFT D4IoT \(Azure\)** &gt; **Guided Setup**.
 

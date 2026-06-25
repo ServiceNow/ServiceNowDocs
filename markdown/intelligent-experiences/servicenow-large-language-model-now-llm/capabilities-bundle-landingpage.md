@@ -242,7 +242,7 @@ For more information about configuring sources for skill or AI agent use, see th
 
 |Skill|Reference|
 |-----|---------|
-|App generation||
+|App generation|[General guidelines for using Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/sns-app-gen-guidelines.md)|
 |Analytics generation|[Guidelines and example questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/example-questions-generating-dv.md)|
 |Catalog item generation|[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)|
 |Code generation|[General guidelines for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/general-guidelines-code-generation.md)|
@@ -250,8 +250,8 @@ For more information about configuring sources for skill or AI agent use, see th
 |LLM topic skill for Virtual Agent||
 |Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
 |RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)|
-|Test generation||
-|UI generation||
+|Test generation|[Design considerations for prompting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/test-generation/tg-prompt-design-considerations.md)|
+|UI generation|[General guidelines UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/general-guidelines-ui-generation.md)|
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

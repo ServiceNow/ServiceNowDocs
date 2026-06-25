@@ -77,7 +77,7 @@ Note the following restrictions:
         -   Name: User \[sys\_user\]
         For details on creating a record ACL rule, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
-    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_SelectTheDisplayValue.md).
+    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See .
     1.  Identify the column that represents the same records in both tables.
 
     2.  In the Type column, change the column type to **Reference**.

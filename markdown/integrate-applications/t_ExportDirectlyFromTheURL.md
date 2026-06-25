@@ -28,8 +28,8 @@ You must be familiar with the ServiceNow table and column names to export data d
 
 You can control whether to export the display value or raw value of fields and the field label or field name for headers using query parameters or system properties.
 
--   For details on using query parameters, see [Query parameters for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/query-parameters-display-value.md).
--   For details on using system properties, see [System properties for display value and header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/system-properties-display-value-header.md).
+-   For details on using query parameters, see .
+-   For details on using system properties, see .
 
 Query parameters, if present, override system properties.
 

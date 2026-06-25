@@ -64,24 +64,24 @@ Sometimes, a platform feature or application may effectively support SP use case
 
 |Product Suite|Application|Support level|
 |-------------|-----------|-------------|
-|[App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|App Engine Studio|No support|
-|Automation Center|Basic|
-|Robotic Process Automation \(RPA\) Hub|Basic|
+|[App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-overview.md)|No support|
+|[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/automation-center/automation-center-landing-page.md)|Basic|
+|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-main-landing-page.md)|Basic|
 |ServiceNow Studio|No support|
 |Workflow Data Fabric Hub / Zero Copy Connectors|No support|
-|Table Builder|Basic|
-|App Engine Management Center|No support|
+|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)|Basic|
+|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/manage-app-development.md)|No support|
 |[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/decision-designer-overview.md)|Standard|
 |Enterprise Resource Planning Integration|No support|
 |Enterprise Resource Planning Customization Mining|No support|
-|Next Experience UI Builder|Basic|
-|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)|Communities|No support|
-|Customer Service Management|Basic|
+|[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md)|Basic|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)|[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/communities/domain-separation-communities.md)|No support|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/domain-separation-customer-service.md)|Basic|
 |[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/release-management/domain-separation-release-management.md)|Basic\*|
 |Order Management for Customer Service Management|Basic|
 |Post-Sales Support|Basic|
-||Basic|
-|Now Assist for CSM|Basic|
+|[Domain separation in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/domain-separation-configurable-wfo-cs.md)|Basic|
+|[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/domain-separation-in-now-assist-for-csm.md)|Basic|
 |[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md)|[Domain separation and DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-change-velocity/devops-domain-separation.md)|No support|
 |[Domain separation and DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/devops-family/devops-config-domain-separation.md)|
 |[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/hr-domain-separation.md)|Basic\*|
@@ -130,7 +130,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
 |[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/domain-separation-assurance-workflows.md)|Standard|
 |[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
-|[Product Support for Technology application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-app.md)|Basic \(Inherited from Customer Service Management\).|
+|[Product Support for Technology application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-app.md)|Basic \(Inherited from [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/domain-separation-customer-service.md)\).|
 |Telecommunications Network Inventory|Basic|
 |[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/it-asset-management.md)|[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/cloud-cost-management/domain-separation-cloudin.md)|No support|
 |[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/hardware-asset-management/domain-separation-ham.md)|Enhanced|
@@ -201,10 +201,10 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[User Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_NavigationAndTheUserInterface.md)| |
 |[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-domain-separation.md)|Standard|
 |[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
-|App Engine Studio|No support|
-|Application Management|No support|
+|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-domain-sep.md)|No support|
+|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/app-management-domain-separation.md)|No support|
 |[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-assessments.md)|Standard|
-|Automated Test Framework|Standard\*|
+|[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/domain-separation-auto-test-framework.md)|Standard\*|
 |[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-voice.md)| |
 |[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/code-signing-landing.md)|Basic support|
 |[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/contextual-search/domain-separation-contextual-search.md)|Standard|
@@ -215,7 +215,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
 |Data Privacy|No support|
 |[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
-|Delegated Development|No support|
+|[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/domain-separation-delegated-development.md)|No support|
 |[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/dependency-views/domain-separation-dependency-views.md)|Basic|
 |[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/domain-separation-document-services.md)|No support|
 |[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md)|Basic|
@@ -227,7 +227,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/domain-separation-field-normalization.md)|No support|
 |[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md)|Standard\*|
 |[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/domain-separation-guided-setup.md)|No support|
-||Standard\*|
+|[Domain separation and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/domain-separation-integrationhub.md)|Standard\*|
 |[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
 |[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/domain-separation-knowledge.md)|Standard|
 |Hermes Messaging Service|No support|
@@ -255,7 +255,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/domain-separation-surveys.md)|Basic\*|
 |Task Intelligence|No support|
 |[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/time-card-management/domain-separation-time-card.md)|Basic\*|
-|UI Builder|Standard|
+|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/uib-domain-sep.md)|Standard|
 |[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md)|Basic|
 |[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/visual-task-boards/domain-separation-visual-task-boards.md)|Basic|
 |[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|

@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to Finding solutions using Agent assist.
+    For more detailed information about Agent assist, refer to [Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/agent-assist.md).
 
 

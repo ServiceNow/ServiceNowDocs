@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Confirm that the application scope for the custom model exists on the instance to which you're importing it.
 
-The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see [Restrict attachment file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_DisablingTheDragAndDropFeature.md).
+The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see .
 
 ## About this task
 

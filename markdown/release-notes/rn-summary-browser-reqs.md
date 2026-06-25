@@ -109,7 +109,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see .
 
 </td></tr><tr><td>
 

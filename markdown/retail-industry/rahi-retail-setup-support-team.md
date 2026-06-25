@@ -20,7 +20,7 @@ Role required: admin
 
 You can assign a role to a group to grant access to applications and modules to group members.
 
-Before assigning the sn\_retail.support\_agent role to a group of users, you must [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAGroup.md) and then [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+Before assigning the sn\_retail.support\_agent role to a group of users, you must Create a user group and then Add a user to a group.
 
 When you assign roles to groups rather than to individual users, members of the group inherit the role.
 

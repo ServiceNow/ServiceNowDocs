@@ -116,7 +116,7 @@ Manage scheduled and on-demand validations of the configuration management datab
 
 </td><td>
 
-Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+Install the CMDB Workspace v6.0+ application \(compatible with Washington D.C. and later\) from the ServiceNow Store to use the CMDB Data Manager feature. See .
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP.
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.md) documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ This table lists the existing plugins that were planned for deprecation in a fut
 |Sensitive Data Handling \[com.glide.sensitive\_data\_handling\]|Planned for deprecation in the B release|Detects and masks sensitive data shared by users of both conversational and non-conversational channels.|Install the Data Privacy application from the ServiceNow Store.|
 |Service Creator \[com.glide.service\_creator \]|Planned for deprecation in the B release|Service creator makes it easy for departments to create their own services in the catalog.|Install the Creator Studio application from the ServiceNow Store.|
 |Studio \[com.glide.dev-studio\]|Planned for deprecation in the B release|Provides an Integrated Development Environment \(IDE\)-like interface for application developers to work on custom applications in one centralized location.|Install the ServiceNow Studio application from the ServiceNow Store.|
-|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/password-reset/t_ConPassResetActiveDir.md) documentation.|
+|Password Reset Orchestration Add-on \[com.glideapp.password\_reset.addon.orchestration\]|Planned for deprecation in the A release|Password reset add-on to enable the use of ServiceNow Orchestration. Includes support for Active Directory and remote SOAP-based credential systems.|Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.|
 |Patient Support Services \[sn\_patientservice\]|Planned for deprecation November 2028 or contract term end date \(whichever is earlier\)|Streamlines the patient onboarding, education, and engagement for various patient support services such as discount plans, adherence programs, opioid, and diabetes management.|There is no replacement for this application.|
 |Performance Analytics - Content Pack - GRC: Audit Management \[sn\_audit\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Audit Management application.|Test the migrated GRC: Audit Management Core UI analytics assets in Platform Analytics.|
 |Performance Analytics - Content Pack - GRC: Policy and Compliance Management \[sn\_compliance\_pa\]|Planned for deprecation in the A release|Provides Performance Analytics reports for the GRC Policy and Compliance Management application.|Test the migrated GRC: Policy and Compliance Management Core UI analytics assets in Platform Analytics.|

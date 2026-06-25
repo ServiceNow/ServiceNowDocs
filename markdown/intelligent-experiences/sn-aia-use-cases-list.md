@@ -77,7 +77,7 @@ Available agentic workflows
 
 </td><td>
 
-Generate enterprise architecture diagram
+[Generate enterprise architecture diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-aiagents-ea-diagramming-usecase.md)
 
 </td></tr><tr><td>
 

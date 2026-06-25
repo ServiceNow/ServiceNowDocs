@@ -133,7 +133,7 @@ Option to use an external credential storage system.
 
  Select this option only if you’re using CyberArk to store your credential information.
 
- You may need to [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) to view this option.
+ You may need to configure the form layout to view this option.
 
 </td></tr><tr><td>
 

@@ -46,7 +46,7 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 
 8.  If you want to use assistants, you must activate them.
 
-    See  for information on activating assistants.
+    See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) for information on activating assistants.
 
 
 ## What to do next

@@ -169,7 +169,7 @@ The App Engine workflow supports App Engine products and offerings so that you c
 
 </td><td>
 
-
+[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 </td></tr><tr><td>
 

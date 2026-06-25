@@ -41,7 +41,7 @@ Role required: admin
 
 1.  Ensure that the application is set to Service Graph Connector Integration for Claroty CTD by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see .
 
 2.  Navigate to **All** &gt; **Service Graph Connector Claroty CTD** &gt; **Guided Setup**.
 

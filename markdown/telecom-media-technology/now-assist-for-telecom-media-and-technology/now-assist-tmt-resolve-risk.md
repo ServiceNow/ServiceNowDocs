@@ -38,8 +38,8 @@ Required role: sn\_acct\_lc.customer\_success\_agent
 
 Before you use the agentic workflow, do the following:
 
--   Activate the Recommend risk signal solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See  for details.
--   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See .
+-   Activate the Recommend risk signal solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-activate.md) for details.
+-   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/using-decision-builder.md).
 -   Ensure that the solution subflows contain the following mandatory inputs:
     -   Risk system ID: Type is string and default name is risk\_system\_id.
     -   Solution table: Type is table.
