@@ -16,7 +16,7 @@ Configure service definitions for the services in Financial Services Operations 
 
 ## Before you begin
 
-Ensure that the scope is selected for the application that you are configuring a service definition for. For more information, see Application picker.
+Ensure that the scope is selected for the application that you are configuring a service definition for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Roles required: When enabling application administration for a scoped application, the ACL rules for that application will be applied by default. For example, in Financial Services Payment Operations, the sn\_bom\_payment.admin and admin roles are needed.
 
@@ -42,7 +42,7 @@ Service definitions are configured for both cases and tasks for each service in 
     |Sys ID|System-generated unique identifier for the service definition.|
     |Task type|Table associated with the service definition. Select a case or task table based on the service.|
 
-    When you create a service definition, the Service Definition form displays information about the service definition configuration. This record stores the details of the service provided to customers. For more information about the other fields, see [Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/service-definition-form-fields.md).
+    When you create a service definition, the Service Definition form displays information about the service definition configuration. This record stores the details of the service provided to customers. For more information about the other fields, see .
 
 4.  Click **Submit** or **Update**.
 

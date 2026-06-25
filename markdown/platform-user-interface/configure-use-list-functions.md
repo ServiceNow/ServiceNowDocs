@@ -68,7 +68,7 @@ To sort a list, use one of the following methods:
 
 [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_ChoiceLists.md)
 
-[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_IntValsForDfltChoiceList.md)
+[bundle-platadm.c_IntValsForDfltChoiceList]
 
 ## Configure field status indicators
 

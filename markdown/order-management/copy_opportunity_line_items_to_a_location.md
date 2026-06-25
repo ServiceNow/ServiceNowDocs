@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---

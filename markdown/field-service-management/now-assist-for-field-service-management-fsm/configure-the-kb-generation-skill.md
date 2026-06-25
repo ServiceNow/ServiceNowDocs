@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Configure Now Assist for Field Service Management \(FSM\), Now Assist for Field Service Management \(FSM\)]
 ---

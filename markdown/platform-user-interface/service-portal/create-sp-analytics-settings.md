@@ -24,7 +24,7 @@ Role required: portal\_analytics\_admin
 
 By default, tracking is not enabled for portals. You need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
 
-Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/usage-insights/config-analytics-settings.md).
+Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see Configure User Experience Analytics Settings.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ Portals that have been configured for tracking are listed in the Usage Insights 
 
 ## Result
 
-You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**. For more information on using the Usage Insights application, see [Overview of the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/usage-insights/user-exp-analytics-dashboard.md).
+You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**. For more information on using the Usage Insights application, see Overview of the User Experience Analytics application.
 
 **Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 

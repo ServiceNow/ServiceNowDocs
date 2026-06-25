@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-partner-program-relationship-table.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Data model for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

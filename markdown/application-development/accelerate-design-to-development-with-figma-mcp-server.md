@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/accelerate-design-to-development-with-figma-mcp-server.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Explore, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---

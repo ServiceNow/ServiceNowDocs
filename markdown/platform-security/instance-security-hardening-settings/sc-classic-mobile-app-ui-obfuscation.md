@@ -109,7 +109,7 @@ Security risk
 \(Medium\) A compromised \(jailbroken\) device would enable an attacker to have full access to the file system, with access those files/snapshots with sensitive information embedded in them.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

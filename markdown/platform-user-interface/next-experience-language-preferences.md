@@ -59,7 +59,7 @@ Determines the time zone or returns to the default time zone for the current ses
 
 </td><td>
 
-Sets the language used for your instance when you have access to more than one language. This preference displays only if the language plugin is installed. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+Sets the language used for your instance when you have access to more than one language. This preference displays only if the language plugin is installed. For more information, see Activate a language.
 
 </td></tr></tbody>
 </table>

@@ -29,7 +29,7 @@ When appropriate, ServiceNow might leverage third-party endpoint services \(for 
 
 Further, to confirm quality of service, ServiceNow might use Azure-hosted GPUs for Now LLM Service capacity bursting in case of high customer demand. Data processed by third-party endpoints isn’t subject to use or access by third-party providers and are operated within the ServiceNow network boundary.
 
-To learn more about Data Sharing Programs, see : Data Sharing Programs.
+To learn more about Data Sharing Programs, see [Generate product compliance summaries by using Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-for-software-asset-management-sam/summarize-product-compliance-now-assist-sam.md): Data Sharing Programs.
 
 ## Mask sensitive data
 

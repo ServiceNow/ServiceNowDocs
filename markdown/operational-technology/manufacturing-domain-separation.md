@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Operational Technology domain separation overview
 
-Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see .
+Operational Technology inherits the domain separation features of the dependency applications. As each application can have its own domain separation relationship, there is no one specific support level to associate with Operational Technology. To learn more, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 
 The following table describes the domain separation support levels and use cases for each Operational Technology application.
 

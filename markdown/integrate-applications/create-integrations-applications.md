@@ -56,7 +56,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-App Engine Studio
+[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/aes-overview.md)
 
 </td><td>
 
@@ -185,7 +185,7 @@ Power AI agents and enrich workflows on the ServiceNow AI Platform with real-tim
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   ****
+-   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/workflow-studio.md)**
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 

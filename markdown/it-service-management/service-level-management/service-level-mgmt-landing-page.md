@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---

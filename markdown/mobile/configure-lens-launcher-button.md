@@ -42,15 +42,15 @@ If any Inputs in an input form screen have the **DisableAILensAutoFill** attribu
 
 5.  Select **New** under the function instance option that corresponds to where you want the button to appear, then complete the fields in the **Function instance** form.
 
-<table><thead><tr><th align="left" id="d35024e144">
+<table><thead><tr><th align="left" id="d35000e144">
 
 Option
 
-</th><th align="left" id="d35024e147">
+</th><th align="left" id="d35000e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d35024e153">
+</th></tr></thead><tbody><tr><td id="d35000e153">
 
 **__Top icon function instances__**
 
@@ -62,7 +62,7 @@ Creates a button in the top header. -   **Name** — Enter a name for the functi
 -   **Function** — Select **New** to display the function form.
 
 
-</td></tr><tr><td id="d35024e189">
+</td></tr><tr><td id="d35000e189">
 
 **__Top menu function instances__**
 

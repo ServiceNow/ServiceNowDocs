@@ -81,7 +81,7 @@ Top 10 applications used
 
 </td><td>
 
-This graph provides a vertical bar report of the top 10 business applications used. For more information on associating business applications to your automations, see .\[Omitted image "overview-top10.png"\] Alt text: Top 10 applications used
+This graph provides a vertical bar report of the top 10 business applications used. For more information on associating business applications to your automations, see [Business application relationship with CIs for application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/application-relations.md).\[Omitted image "overview-top10.png"\] Alt text: Top 10 applications used
 
 </td></tr></tbody>
 </table>## Spokes &amp; Transactions

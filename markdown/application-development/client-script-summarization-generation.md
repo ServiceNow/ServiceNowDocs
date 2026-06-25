@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/client-script-summarization-generation.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Using UI generation, UI generation, Builder library, Developing your application, Building applications]
 ---

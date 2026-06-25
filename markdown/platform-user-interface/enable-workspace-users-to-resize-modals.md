@@ -26,11 +26,11 @@ Role required: admin
 
     2.  Open an experience to work in or create an experience by selecting **+ Create**.
 
-        See  for more information on creating experiences.
+        See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
     3.  Open or create a record page in the experience.
 
-        For more information on creating a record page in UI Builder, see .
+        For more information on creating a record page in UI Builder, see [Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/learning-uib.md).
 
 2.  Enable resizing for a modal.
 

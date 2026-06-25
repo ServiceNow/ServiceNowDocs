@@ -16,7 +16,7 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Set the property to true to prevent bad actors from using internal port scanning in your network.
 
-If the **glide.update\_set.remote.check\_host** property is not set to the recommended value of **true**, then the  remote instance test feature will allow internal port scanning which is a method bad actors can use to discover vulnerabilities in a network. It is then possible to enumerate all open ports on a given host, and in some cases pull response data which could lead to information leakage or unauthorized data access.
+If the **glide.update\_set.remote.check\_host** property is not set to the recommended value of **true**, then the [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/team-development/c_TeamDevelopment.md) remote instance test feature will allow internal port scanning which is a method bad actors can use to discover vulnerabilities in a network. It is then possible to enumerate all open ports on a given host, and in some cases pull response data which could lead to information leakage or unauthorized data access.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -104,7 +104,7 @@ References
 
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0755132](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0755132)
 
- 
+ [Define a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/team-development/t_DefineARemoteInstance.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)

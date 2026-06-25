@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/share-an-esg-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -46,7 +46,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22739e118">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d22741e118">
 
 **Add as viewer**
 
@@ -54,7 +54,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d22739e127">
+</td></tr><tr><td id="d22741e127">
 
 **Add as editor**
 

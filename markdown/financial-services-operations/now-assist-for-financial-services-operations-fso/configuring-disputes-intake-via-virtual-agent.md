@@ -54,7 +54,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
     **Note:** Disputes intake via Virtual Agent requires Now Assist Topics to function. You may activate the other Conversational experience skills if desired.
 
-    In this setup, you can also define where the Virtual Agent is displayed, the chat window branding, chat experience, and so on. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    In this setup, you can also define where the Virtual Agent is displayed, the chat window branding, chat experience, and so on. For more information, see .
 
 7.  Return to the Banking browser window.
 

@@ -110,7 +110,7 @@ References
 
 </td><td>
 
-
+[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/c_EmailProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)

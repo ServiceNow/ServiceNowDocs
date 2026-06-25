@@ -40,7 +40,7 @@ Industrial Workspace
 
 The OT CMDB search feature leverages the following agentic workflow and skill:
 
-    -   Now Assist for CMDB's Search CMDB agentic workflow. For more information, see .
+    -   Now Assist for CMDB's Search CMDB agentic workflow. For more information, see [Use Now Assist to search the CMDB for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md).
 
 **Note:**
 

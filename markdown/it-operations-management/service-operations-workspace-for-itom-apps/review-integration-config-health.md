@@ -7,7 +7,7 @@ release: yokohama
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 6
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---

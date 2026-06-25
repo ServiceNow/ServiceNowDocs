@@ -47,7 +47,7 @@ The Technology workflow includes IT applications, such as IT services and operat
 
 </td><td>
 
--   
+-   [Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md)
 -   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
 -   [Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
@@ -88,7 +88,7 @@ The Employee workflow supports HR Service Delivery and Employee Experience featu
 
 </td><td>
 
--   
+-   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
@@ -110,7 +110,7 @@ The Creator workflow supports a variety of Platform tools and builders, includin
 
 </td><td>
 
-
+[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ The App Engine workflow supports App Engine products and offerings so that you c
 
 </td><td>
 
-
+[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 </td></tr></tbody>
 </table>Now Assist products include some or all of the following foundational platform tools for Now Assist. For more information, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md).
@@ -145,7 +145,7 @@ The App Engine workflow supports App Engine products and offerings so that you c
 -   Users can take advantage of Now Assist skills by using the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md) on the instance.
 -   Use [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/now-assist-ais.md) to generate answers for AI Search.
 -   Use [Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-platform/now-assist-mobile-landing.md) to run generative AI skills in a mobile environment.
--   Use  to create conversational catalog experiences and author topics that use LLM topic discovery.
+-   Use [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) to create conversational catalog experiences and author topics that use LLM topic discovery.
 -   Developers can use the [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/generative-ai-controller.md) to integrate generative AI features in custom flows and conversations by using your own third-party large language model \(LLM\) licenses.
 
 The following diagram shows what's available in the Now Assist framework.

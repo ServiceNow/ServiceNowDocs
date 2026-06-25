@@ -18,7 +18,7 @@ Enable or disable the self-registration feature on the Patient Portal by setting
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
 
 Role required: admin
 

@@ -70,7 +70,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 9.  Include demo data if it's desired and available.
 
@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d42839e445">
+<table><thead><tr><th align="left" id="d42835e446">
 
 Installation option
 
-</th><th align="left" id="d42839e448">
+</th><th align="left" id="d42835e449">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d42839e454">
+</th></tr></thead><tbody><tr><td id="d42835e455">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d42839e478">
+</td></tr><tr><td id="d42835e479">
 
 **Install later**
 

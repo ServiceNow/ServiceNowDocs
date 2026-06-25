@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/test-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 3
 breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

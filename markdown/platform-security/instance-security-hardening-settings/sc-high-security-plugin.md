@@ -121,7 +121,7 @@ References
  [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_HighSecuritySettings.md)
 
 </td></tr></tbody>
-</table>To learn more about activating a plugin, see 
+</table>To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md)
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

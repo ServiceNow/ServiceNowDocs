@@ -37,7 +37,7 @@ I can't find agent spokes
 
 </td><td>
 
-Install the Now Assist for Spokes application from the ServiceNow Store. For details, see .
+Install the Now Assist for Spokes application from the ServiceNow Store. For details, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Can't access skills in the Now Assist panel
 </td><td>
 
 -   Verify that the skill is configured to display in the Now Assist panel. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md).
--   If you are using Now Assist in Virtual Agent, verify that search sources were configured for the Now Assist panel. You can specify search sources for a Now Assist panel assistant when you set it up. Search sources are essential for the Now Assist panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see  and .
+-   If you are using Now Assist in Virtual Agent, verify that search sources were configured for the Now Assist panel. You can specify search sources for a Now Assist panel assistant when you set it up. Search sources are essential for the Now Assist panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 If Now Assist in Virtual Agent is not installed, the Now Assist panel uses default search sources.
 
@@ -276,7 +276,7 @@ Don't see code suggestions
 
 -   Verify that the skill is active. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
--   Verify that autocomplete is enabled. For details, see .
+-   Verify that autocomplete is enabled. For details, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
 </td></tr><tr><td>
 
@@ -326,8 +326,8 @@ Topic not returning as expected
 
 </td><td>
 
--   Verify that the Virtual Agent topic is in the Active state and is published. For details, see .
--   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using Now Assist in Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see .
+-   Verify that the Virtual Agent topic is in the Active state and is published. For details, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+-   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using Now Assist in Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md).
 
 </td></tr><tr><td>
 
@@ -339,7 +339,7 @@ Can't add topics to the portal
 
 </td><td>
 
-Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using Now Assist in Virtual Agent. You can migrate these topics to LLM, however. For details, see .
+Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using Now Assist in Virtual Agent. You can migrate these topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/llm-topic-migration.md).
 
 </td></tr><tr><td>
 
@@ -352,7 +352,7 @@ Configuration issues
 </td><td>
 
 1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
-2.  Follow the guided setup to install and configure it. For details, see .
+2.  Follow the guided setup to install and configure it. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -378,7 +378,7 @@ Chat is not showing search results
 
 -   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/t_InstallUpdates.md).
 -   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/configuring-ais.md) and [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/install-now-assist-ais.md).
--   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see  and .
+-   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
 </td></tr><tr><td>
 
@@ -390,7 +390,7 @@ Error when attempting to migrate Virtual Agent NLU conversations to LLM
 
 </td><td>
 
-Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see .
+Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)

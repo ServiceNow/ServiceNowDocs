@@ -33,7 +33,7 @@ To learn more about creating and using ESG Management dashboards, see:
 -   [Share an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/share-an-esg-dashboard.md)
 -   [Delete an Operational Sustainability Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/delete-an-esg-dashboard.md)
 
-For more information on dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-dashboards.md).
+For more information on dashboards, see .
 
 -   **[Create an Operational Sustainability Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-an-esg-dashboard.md)**  
 You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.

@@ -24,7 +24,7 @@ Role required:
 -   The connection\_admin or admin role is required to assign attribute values.
 -   The action\_designer or admin role is required to use attributes in a custom action.
 
-Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see Request an Integration Hub plugin.
+Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/request-integrationhub.md).
 
 ## About this task
 
@@ -42,11 +42,11 @@ For more information about building custom Workflow Studio actions, see [Workflo
 
 4.  Define the attribute label and field type.
 
-    For a list of field types, see field types.
+    For a list of field types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-platform-administration/r_FieldTypes.md).
 
 5.  Click the Advanced view related link to set advanced dictionary preferences for the attribute.
 
-    For example, to create an attribute with a dynamically calculated value. See .
+    For example, to create an attribute with a dynamically calculated value. See [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-administration-and-data-management/r_DictionaryEntryForm.md).
 
 6.  Click **Submit**.
 

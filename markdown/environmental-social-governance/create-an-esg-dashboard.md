@@ -32,13 +32,13 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-tech-db-in-ac.md).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/ui-builder-overview.md) and .
 
 5.  Select **Create new dashboard**.
 
 6.  Select **Add new element** to add content to the dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
+    See  for information about what you can add to a dashboard.
 
     When you add a data visualization, select **New data visualization** to create a new visualization or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without pre-configured data or **Saved filter** to reuse an existing filter.
 

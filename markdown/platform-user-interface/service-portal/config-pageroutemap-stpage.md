@@ -36,5 +36,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/configure-my-requests.md)
+[bundle-platcap.configure-my-requests]
 

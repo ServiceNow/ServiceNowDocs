@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-classification-for-install-base-management.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Management reference, Customer Service Management]
 ---

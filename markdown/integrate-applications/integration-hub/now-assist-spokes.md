@@ -50,8 +50,8 @@ The Now Assist for Integration Hub application requires these subscriptions:
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
 -   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) to learn about AI agents.
--   See  to learn more about configuring the conversational settings.
--   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/conversational-subflows.md) to learn more about configuring the conversational settings.
+-   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
 -   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents

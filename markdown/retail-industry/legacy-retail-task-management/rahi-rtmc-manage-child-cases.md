@@ -22,7 +22,7 @@ Role required: sn\_retail.manager​\_fulfiller
 
 Responsibility required: Store Manager – Fulfiller.
 
-For information on adding roles and responsibilities, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/retail-operations/rahi-retail-assign-roles-users.md).
+For information on adding roles and responsibilities, see [Assign roles to Retail users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-assign-roles-users.md).
 
 ## About this task
 

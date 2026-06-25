@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Configure access through the responsibility access configuration, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

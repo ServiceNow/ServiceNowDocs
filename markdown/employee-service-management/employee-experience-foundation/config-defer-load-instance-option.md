@@ -1,0 +1,61 @@
+---
+title: Modify defer load instance option
+description: Deferred loading helps delay the loading of a resource or widget to improve the overall usability of the page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/config-defer-load-instance-option.html
+release: yokohama
+product: Employee Experience Foundation
+classification: employee-experience-foundation
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Defer load in Employee Center, Portal performance optimization, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+---
+
+# Modify defer load instance option
+
+Deferred loading helps delay the loading of a resource or widget to improve the overall usability of the page.
+
+## Before you begin
+
+Ensure you understand the deferred load behavior. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) and .
+
+Role required: admin.
+
+## About this task
+
+The deferred load is available for the following widgets.
+
+-   Content Experience
+-   Quick Links
+-   News Feed
+-   Popular Topics
+-   Relevant for you
+-   App Launcher
+-   My active Items
+
+## Procedure
+
+1.  Follow one of the steps:
+
+    1.  Navigate to **All** &gt; **Service Portal** &gt; **Service Portal Configuration** &gt; **Widget Editor**.
+
+    2.  On the Employee Center home page, press and hold the control key, right-click the widget, and select **Page in Designer**.
+
+    The following page appears.
+
+    \[Omitted image "defer-load-widgets.png"\] Alt text: Defer load page on widgets
+
+2.  Click the **Defer load** icon.
+
+3.  Fill in the following fields as explained in .
+
+    \[Omitted image "defer-load-ec.png"\] Alt text: instance option defer widget
+
+4.  Click **Save**.
+
+
+## Result
+
+Defer loading of the widget is enabled.
+

@@ -55,6 +55,6 @@ Role required: agent
 
     4.  There is a new message on a conversation assigned to you.
 
-    For additional information, see .
+    For additional information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 

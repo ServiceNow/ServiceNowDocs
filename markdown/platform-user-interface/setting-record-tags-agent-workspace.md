@@ -54,7 +54,7 @@ After tagging records, you can use the tags to search for records in the [global
 
     \[Omitted image "edit-tag.png"\] Alt text: Edit tag view
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d51816e182">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d51818e182">
 
 **Me**
 
@@ -62,7 +62,7 @@ After tagging records, you can use the tags to search for records in the [global
 
 Tag is visible only to the person who created the tag. Only that person can use the tag to search for records. This setting is the default.
 
-</td></tr><tr><td id="d51816e191">
+</td></tr><tr><td id="d51818e191">
 
 **Groups and Users**
 
@@ -70,7 +70,7 @@ Tag is visible only to the person who created the tag. Only that person can use 
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d51816e200">
+</td></tr><tr><td id="d51818e200">
 
 **Everyone**
 

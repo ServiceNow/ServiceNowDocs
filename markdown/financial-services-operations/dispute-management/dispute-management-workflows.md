@@ -26,7 +26,7 @@ When a dispute agent initiates a case, the case begins in the Initiate stage. Di
 
 During this phase, you can identify the disputed transaction, add more transactions \(if the dispute category is Fraud\), select associated transactions, complete the dispute questionnaire, and upload any supporting documentation. Dispute cases created using Now Assist for FSO are populated with information collected and inferred from the customer's responses in the Virtual Agent chat.
 
-When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/ethoca-spoke.md) and [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/visa-spoke.md).
+When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as Ethoca Consumer Clarity and Order Insight Digital Management.
 
 The system evaluates decision rules and determines policy rules for each transaction in the case \(for example, which transaction qualifies for a provisional credit as opposed to a final credit\).
 

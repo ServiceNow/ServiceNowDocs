@@ -18,7 +18,7 @@ Use Mobile Card Builder to add card actions to a mobile card.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 

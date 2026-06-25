@@ -16,7 +16,7 @@ breadcrumb: [Configuring Telecommunications Network Inventory, Telecommunication
 
 You can configure decision tables to resolve complex tasks in the Telecommunications Network Inventory application. For example, you can create, review, or delete an entry for tasks in a decision table in Decision Builder.
 
-By using a decision table, you can add the required conditions to automate your tasks. Decision tables in Decision Builder embed business logic into a series of if-then decision rules. Decision tables read data from the inputs and evaluate the data according to the specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results. To learn more, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-tables/decision-table.md).
+By using a decision table, you can add the required conditions to automate your tasks. Decision tables in Decision Builder embed business logic into a series of if-then decision rules. Decision tables read data from the inputs and evaluate the data according to the specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results. To learn more, see .
 
 You can use the decision tables in the Telecommunications Network Inventory application to do the following tasks:
 

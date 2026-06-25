@@ -26,29 +26,29 @@ Role required: admin
 
 2.  Enable the CSM default record page under CSM/FSM Configurable Workspace.
 
-    For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+    For more information, see .
 
 3.  From the CSM default record page, set the page order.
 
 4.  Set the variant conditions on the following record pages.
 
-<table><thead><tr><th align="left" id="d36483e90">
+<table><thead><tr><th align="left" id="d36512e89">
 
 Claims page variant
 
-</th><th align="left" id="d36483e93">
+</th><th align="left" id="d36512e92">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d36483e99">
+</th></tr></thead><tbody><tr><td id="d36512e98">
 
 **Record page for the adjuster task**
 
 </td><td>
 
-To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see .
 
-</td></tr><tr><td id="d36483e126">
+</td></tr><tr><td id="d36512e124">
 
 **Claim workspace page**
 
@@ -56,7 +56,7 @@ To access the record page for the adjuster task, navigate to: **CSM Configurable
 
 To access the Claim workspace page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Claim workspace** &gt; **Claim Workspace Default**.
 
-</td></tr><tr><td id="d36483e147">
+</td></tr><tr><td id="d36512e145">
 
 **Fraud score page**
 
@@ -64,7 +64,7 @@ To access the Claim workspace page for updates, navigate to page collection: **C
 
 To access the Fraud score page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Fraud score** &gt; **Default**.
 
-</td></tr><tr><td id="d36483e168">
+</td></tr><tr><td id="d36512e166">
 
 **Claim Summary page**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summa
 release: yokohama
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 135
+reading_time_minutes: 134
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -97,7 +97,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -119,7 +119,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -133,7 +133,7 @@ Methods
 </td></tr></tbody>
 </table>|API|Endpoints|
 |---|---------|
-|[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/c_AttachmentAPI.md)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
+||POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 
 <table id="table_lcr_kmc_tcc"><thead><tr><th>
 
@@ -161,7 +161,7 @@ V1.4
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
+
 
 </td><td>
 
@@ -178,7 +178,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)
+
 
 </td><td>
 
@@ -211,7 +211,7 @@ v1.2
 
 </td><td>
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_openFrameAPI.md)
+
 
 </td><td>
 
@@ -228,7 +228,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)
+
 
 </td><td>
 
@@ -244,7 +244,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)
+
 
 </td><td>
 
@@ -260,7 +260,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -276,7 +276,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -285,7 +285,7 @@ Updated available web view UI color defaults.
 </td></tr></tbody>
 </table>|Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
+|ATF Test Generator and Cloud Runner|2.7.2||Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
 
 <table id="table_nbf_qmc_tcc"><thead><tr><th>
 
@@ -313,7 +313,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/ap-invoice-api.md)
+
 
 </td><td>
 
@@ -330,7 +330,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/cloudrunner-testgeneration-api.md)
+
 
 </td><td>
 
@@ -346,7 +346,7 @@ v11.3.0
 
 </td><td>
 
-[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md)
+
 
 </td><td>
 
@@ -365,7 +365,7 @@ v12.5.0
 
 </td><td>
 
-[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/product-inventory-open-api.md)
+
 
 </td><td>
 
@@ -383,7 +383,7 @@ v14.1.0
 
 </td><td>
 
-[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/rest-apis/product-catalog-open-api.md)
+
 
 </td><td>
 
@@ -507,26 +507,26 @@ Agent experience for CSM
 
 </td><td>
 
--   **[Form template enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspace-form-templates.md)**
+-   **Form template enhancements**
 
 Use the following form template enhancements to create or edit templates as needed:
 
     -   The **Templates** tab in the configurable side panel displays larger template cards with the template name and an expanded description. Users can view different lists of templates, mark their favorites, and sort templates either alphabetically or by last used.
     -   The template form displays template fields in a clearly labeled form section and displays the line numbers and headings for each template line to improve readability
     -   The template tab header displays "Edit template" when a user opens a template in edit mode.
--   **[Front-line case page integration with knowledge guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page.md)**
+-   **Front-line case page integration with knowledge guidance**
 
 Enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
 
--   **[Resurface special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_OnScreenAlerts.md)**
+-   **Resurface special handling notes**
 
 Display the special handling notes for a case at any time by selecting **Special handling notes** from the More actions menu on the case record action bar.
 
--   **[Customer Central application moved from family to store release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-central.md)**
+-   **Customer Central application moved from family to store release**
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
 
--   **[Customer Activity Guided Setup now accessible from a new location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-customer-activity.md)**
+-   **Customer Activity Guided Setup now accessible from a new location**
 
 Use the following updates in Guided Setup to enhance navigation and access customer history configurations:
 
@@ -534,35 +534,35 @@ Use the following updates in Guided Setup to enhance navigation and access custo
     -   View Activity Contexts, Activity Types, Activity Groups, and Activity Type Templates within Guided Setup. You can also access them in the menu by navigating to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
     -   Customer Activity has been renamed to Customer History, maintaining the same functionality.
     -   Access the Business Rule in the Activity Feed where it is now listed independently alongside Activity Types, Activity Groups, and Activity Type Templates for improved accessibility. Previously, it was nested under Activity Types.
--   **[Front-line case page lookup component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page.md#section_dnl_3f4_s1c)**
+-   **Front-line case page lookup component**
 
 The Front-line case page includes the following enhancements:
 
     -   Includes the Consumer lookup component.
     -   Uses advanced search to look up contacts and consumers.
     -   Contact and consumer record cards can be collapsed to display more record space.
--   **[Action bar layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page.md#section_imv_qhs_mbc)**
+-   **Action bar layout**
 
 The following interaction record pages include an action bar with a single action layout:
 
     -   CSM Interaction record page
     -   CSM voice interaction record page
--   **[Comment and Work note modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md#section_gzj_wlb_s2c)**
+-   **Comment and Work note modeless dialogs**
 
 Create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record. Automatically display a modeless dialog that includes the content from the form template and then post that content to the activity stream.
 
--   **[Front-line case page contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page.md#section_trg_ypr_m1c)**
+-   **Front-line case page contextual side panel**
 
 The Record Information tab in the contextual side panel includes the Overview and Active SLA cards. The contact card and timeline card have been removed to improve the page load time.
 
--   **[Recommended Actions AI search replaces Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-front-line-case-page.md#section_trg_ypr_m1c)**
+-   **Recommended Actions AI search replaces Agent Assist**
 
 Recommended Actions AI search replaces Agent Assist in the contextual side panel for the following record pages included with the CSM Configurable Workspace:
 
     -   CSM default record page
     -   Front-line case page
     -   CSM Interaction record page \(for type = Chat, Video, Walkup, Email\)
--   **[Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-history-component-features.md)**
+-   ****
 
 Use the following features to provide agents real-time updates and customer history details:
 
@@ -627,7 +627,7 @@ Use the process mining enhancements to improve processes as needed:
 
     -   Removed the viewer role from all records in the Process Mining Content Pack for Customer Service Management \(CSM\).
     -   Set process configurations as read-only templates, deletable only by a process mining administrator. You can enable customers to copy the template or import specific parts into their custom configuration.
--   **[Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-line-form.md)**
+-   **Case lines and workflows**
 
 The Case Line table \(sn\_case\_line\) includes the **Install base** and **Asset** reference fields. These fields display information based on the selected account and product.
 
@@ -883,15 +883,15 @@ Creator Studio
 
 </td><td>
 
--   **[Playbooks use only published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio/creator-studio-add-automation.md)**
+-   **Playbooks use only published forms**
 
 As of Creator Studio version 27.2.2, forms must now be published \(marked as ready\) before you can use them to create an automated playbook.
 
--   **[Hide the App Engine Studio template with a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio/creator-studio-components-installed.md)**
+-   **Hide the App Engine Studio template with a new system property**
 
 As of Creator Studio version 27.2.2, Creator Studio users who have both App Engine Studio \(AES\) and Creator Studio installed will no longer see the AES template when they create an app. Admins can choose to show the AES template using the new **com.glide.creator\_studio.template\_deny\_list** system property.
 
--   **[Form location removed from form creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio/creator-studio-edit-form-settings.md)**
+-   **Form location removed from form creation**
 
 Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
 
@@ -924,35 +924,35 @@ Data management for CSM
 
 </td><td>
 
--   **[Product Inventories configurations for Customer Life Cycle Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/product_inventory_configurations.md)**
+-   **Product Inventories configurations for Customer Life Cycle Management workflows**
 
 Perform the Modify, Suspend, Resume, and Disconnect operations on product inventory records directly from the Product Inventory related list on the Accounts page.
 
--   **[Grant write access to account relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_CreateAcctRelationshipRecord.md)**
+-   **Grant write access to account relationships**
 
 Enable administrators and customer service managers to update account relationship records.
 
--   **[Enable write access to contact relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_CreateAContactRelationship.md)**
+-   **Enable write access to contact relationships**
 
 Enable administrators and customer service managers to update the contact relationship records.
 
--   **[Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/migration-of-account-manager-responsibility-access.md)**
+-   ****
 
 Migrate the account manager responsibilities from the account team member relationships to the new responsibility access configurations. The updated framework enables you to manage access settings more efficiently.
 
--   **[Update roles within relationship agent and relationship contributor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)**
+-   **Update roles within relationship agent and relationship contributor**
 
 Modify the roles of the relationship agent and relationship contributor to include the new granular roles that can grant access by responsibilities.
 
--   **[Notification for case tasks at business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/manage-business-location-cases.md)**
+-   **Notification for case tasks at business locations**
 
 View the notifications for the case tasks that are associated with the business locations on the Business Location Service Portal \(BLSP\). This way, your location members can stay informed about their pending tasks.
 
--   **[Case resolution by location staff at other business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ebl-as-a-fulfiller.md)**
+-   **Case resolution by location staff at other business locations**
 
 Enable your location staff, whether at company-owned or third-party-owned organizations \(internal and external business locations\), to handle and resolve issues from other eligible business locations.
 
--   **[Inbound Request Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/inbound-request-configuration-table.md)**
+-   ****
 
 The Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table is renamed to Inbound Request table.
 
@@ -1086,7 +1086,7 @@ Dispute Rules Content Pack for Visa
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/visa-spoke.md#section_gsl_nw5_vyb)**
+-   **Visa Resolve Online \(VROL\) version 25.2 updates**
 
 Updated the dispute questionnaire provided through Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 25.2 revision changes.
 
@@ -1133,7 +1133,7 @@ ERP Semantic Mining
 
 [Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
 
--   **[Faster initialization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-customization-mining/how-erp-clean-core-inputs-data.md)**
+-   **Faster initialization**
 
 In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
 
@@ -2169,11 +2169,11 @@ The skills are automatically available to appropriate role users for the applica
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
--   **[More easily identify changes when previewing and updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**
+-   **More easily identify changes when previewing and updating applications**
 
 When previewing an application, any requested changes made by the Now Assist for app generation skill are listed when the preview pane loads.
 
--   **[Edit applications without having to change the scope manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/sns-app-gen-review-apps.md)**
+-   **Edit applications without having to change the scope manually**
 
 When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
 
@@ -2195,28 +2195,28 @@ Now Assist for Customer Service Management \(CSM\)
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
--   **[Triage cases agentic workflows enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)**
+-   **Triage cases agentic workflows enhancements**
 
 Added new standalone AI agents to check duplicate cases and split some existing standalone AI agents to focus on more specific tasks. The AI agents available are the Triage cases planner AI agent, Context validator and analyzer agent, Duplicate identifier AI agent, Informational queries AI agent, Transactional queries AI agent, Case creation AI agent, Entity extraction AI agent, Document verification AI agent, and Email response AI agent.
 
--   **[Now Assist in Portal case form enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)**
+-   **Now Assist in Portal case form enhancement**
 
 Added the new **Ask Now Assist** button that opens a contextual chat window so that a requester can carry the conversation forward. If no results are found or if the requester isn’t satisfied with the result, they can get further assistance by selecting the button to chat and get an answer, which helps to avoid case creation.
 
 
 Yokohama Early Availability
 
--   **[Email reply recommendations enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.md)**
+-   **Email reply recommendations enhancements**
 
 Refined the AI-generated reply recommendation to create the best response for users by applying tone changes in the Now Assist context menu. Additional tone options, including casual, formal, and sympathetic, are available.
 
--   **[Chat reply recommendation enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md)**
+-   **Chat reply recommendation enhancements**
 
 Added the chat reply recommendation enhancements to respond in a conversational tone and get feature parity in the Now Assist Admin console:
 
     -   Refined the AI-generated reply recommendation to create the best answer for your users by applying tone changes in the Now Assist context menu. Additional tone options, including casual, formal, and sympathetic, are available.
     -   Added parity with the chat summarization Now Assist Admin console capabilities. The Now Assist Admin console can specify the portal and channels for chat reply recommendations and assign additional support roles.
--   **[Case summarization enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)**
+-   **Case summarization enhancement**
 
 Detailed feedback option is now available for negative feedback \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: thumbs down icon in the generated case summary.
 
@@ -2820,7 +2820,7 @@ When you call Query Generation from AI Data Explorer or another application, you
 
 Query Generation supports related table conditions and dot-walking in queries.
 
--   **[Get insights and visualizations for Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/workflow-data-fabric/create-integrations-applications.md)**
+-   **Get insights and visualizations for Workflow Data Fabric tables**
 
 Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
 
@@ -2859,7 +2859,7 @@ The following Platform Now Assist skills are active by default and no longer vis
     -   Custom skills
     -   AI agents
 
--   **[Additional fallback options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)**
+-   **Additional fallback options**
 
 There are up to five fallback options that can be presented to end users:
 
@@ -2874,16 +2874,16 @@ There are up to five fallback options that can be presented to end users:
 **Note:** This option is only available to standard chat conversations.
 
     -   **Custom fallback option**: Presents a fallback Virtual Agent topic.
--   **[Web search mode enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/web-search-requestor.md)**
+-   **Web search mode enhancements**
 
 Manually enter into web search mode via the input bar for standard and enhanced chat conversations. Web search mode includes in-line citations and the associated sources. A web search mode banner appears in enhanced chat conversations that end users can use to end the mode.
 
--   **[Profanity recognition response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md)**
+-   **Profanity recognition response**
 
 If Now Assist Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
--   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md)**
+-   ****
 
 The existing Now Assist in Virtual Agent LLM conversational behavior received a terminology update and is now referred to as standard chat.
 
@@ -3294,15 +3294,15 @@ RPA Hub
 
 </td><td>
 
--   **[Changed fields for the Unattended Robot application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/set-up-rpa-runtime.md)**
+-   **Changed fields for the Unattended Robot application**
 
 In the Unattended Robot dialog box, the **RPA Hub** field name has been changed to **Instance URL**.
 
--   **[Embedded Task Automation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/embedded-task-auto-rpa.md)**
+-   ****
 
 Trigger attended bot processes \(attended automations\) from the ServiceNow forms in the Workspace experience apart from initiating them from a classic UI or the Attended Robot application.
 
--   **[Microsoft Software Installer \(MSI\) compatibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/download-installer-rpa.md)**
+-   **Microsoft Software Installer \(MSI\) compatibility**
 
 Older MSIs that are related to Attended Robot and RPA Desktop Design Studio from the RPA Hub store release versions 7.0.3 and 9.0.0 are compatible and can be used with the current store release version \(12.0.X\) of RPA Hub. For Unattended Robot, the latest MSI must be installed, as it is not backward compatible.
 
@@ -3312,7 +3312,7 @@ However, there are some limitations:
     -   Components of the same name with different parameters aren’t backward compatible.
 If robot machines use older MSIs than the current instance version, they won't have the new features from later versions. For example, features released after version 10.0 won't work in version 10.0 MSIs. Only features from version 10.0 are available in that version.
 
--   **[TerminateByName component behavior change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/use-sysprocess-terminatename.md)**
+-   **TerminateByName component behavior change**
 
 The TerminateByName component stops processes or applications only within the current user session.
 
@@ -3454,11 +3454,11 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-email-interaction-page.md)**
+-   ****
 
 Manage and view customer-related information and past conversations while interacting with customers via email.
 
--   **[Using the Now Assist in Virtual Agent enhanced chat in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/nass-portal.md)**
+-   ****
 
 Receive comprehensive and detailed answers with intelligent search and conversational experiences using Now Assist in Virtual Agent. The search results are synthesized from Knowledge Base articles, Virtual Agent articles, and catalog items with links to the sources. The agent retains conversation context across multi-turn questions, promoting continuity and relevance in responses.
 
@@ -3524,7 +3524,7 @@ Service Portal
 
 -   **[Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/widget-dev-guide.md)**
 
-Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
+Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see .
 
 -   **[Define roles for page route maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal/reroute-page.md)**
 
@@ -3624,31 +3624,31 @@ ServiceNow SDK
 
 </td><td>
 
--   **[Subcommands replaced with parameters on the auth command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md)**
+-   **Subcommands replaced with parameters on the auth command**
 
 Configure authentication credentials with the `--add`, `--delete`, `--list`, and `--use` parameters of the `now-sdk auth` command.
 
--   **[Dependencies command installs type definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md)**
+-   **Dependencies command installs type definitions**
 
 Download TypeScript type definitions for Glide APIs and script includes from a ServiceNow instance based on the scripts in your application.
 
--   **[Build command includes --frozenKeys parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md)**
+-   **Build command includes --frozenKeys parameter**
 
 Validate that the auto-generated `keys.ts` file is up to date for continuous integration \(CI\) builds by setting the `--frozenKeys` parameter to true with the `now-sdk build` command.
 
--   **[Deploy command renamed install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md)**
+-   **Deploy command renamed install**
 
 Install or update an application on a ServiceNow instance using the `now-sdk install` command.
 
--   **[Automated Test Framework Test API supports two-way synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/atf-test-now-ts.md)**
+-   **Automated Test Framework Test API supports two-way synchronization**
 
 Synchronize changes to Automated Test Framework tests made outside of source code into source code definitions and back to metadata.
 
--   **[Table API supports licensing configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/table-api-now-ts.md)**
+-   **Table API supports licensing configurations**
 
 Create a licensing configuration \[ua\_table\_licensing\_config\] to track subscription counts for a table with the licensing\_config object in the Table API.
 
--   **[Table API supports remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/table-api-now-ts.md)**
+-   **Table API supports remote tables**
 
 Create a remote table with the scriptable\_table property in a Table object.
 
@@ -3659,11 +3659,11 @@ ServiceNow Studio
 
 </td><td>
 
--   **[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/modify-an-apps-settings-in-servicenow-studio.md)**
+-   ****
 
 The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
--   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**
+-   ****
 
 As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
 
@@ -3814,7 +3814,7 @@ Virtual Agent
 
 </td><td>
 
--   **[Test assistant options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/test-llm-topics.md)**
+-   **Test assistant options**
 
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
@@ -3823,7 +3823,7 @@ The **Test** button in the Virtual Agent Designer canvas directly opens up the c
 
 For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
--   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/table-bot-response.md)**
+-   ****
 
 Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
@@ -3834,7 +3834,7 @@ Visa Spoke
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/visa-spoke.md#section_gsl_nw5_vyb)**
+-   **Visa Resolve Online \(VROL\) version 25.1 updates**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
 
@@ -3843,7 +3843,7 @@ Updated the following Visa Spoke actions to align with Visa Resolve Online \(VRO
     -   Look up Dispute Response Details Response Parser
     -   Look up Dispute Details Response Parser
     -   Submit Dispute Questionnaire
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/visa-spoke.md#section_gsl_nw5_vyb)**
+-   **Visa Resolve Online \(VROL\) version 25.2 updates**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -3929,11 +3929,11 @@ Zero Copy Connector for ERP
 
 [Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
 
--   **[View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-framework/view-erp-system-information.md)**
+-   ****
 
 From the Zero Copy Connector for ERP system form, view detailed system information including machine type, node name, supported database, and Unicode status.
 
--   **[Preview model entities before adding to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-framework/erp-canvas-preview-entity.md)**
+-   **Preview model entities before adding to a model**
 
 In the Model Manager, confirm you are adding the correct entity by examining and verifying read table entities before adding the entity to a model.
 

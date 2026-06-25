@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/edit-an-existing-application-using-build-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Use, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---

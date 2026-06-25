@@ -51,7 +51,7 @@ It is mandatory that you test the JDBC step before testing the action. Testing e
 
 ## Result
 
-When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see Complex data.
+When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/complex-data.md).
 
 ## What to do next
 

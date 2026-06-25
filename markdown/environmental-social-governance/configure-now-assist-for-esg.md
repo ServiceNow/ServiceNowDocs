@@ -17,13 +17,13 @@ If you have the admin role, you can configure the Now Assist for Operational Sus
 
 ## Now Assist for Operational Sustainability Configuration overview
 
-Use the Now Assist Admin console to configure Now Assist for Operational Sustainability. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/configuring-now-assist.md).
+Use the Now Assist Admin console to configure Now Assist for Operational Sustainability. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see Now Assist Admin console.
 
 You can access the **Document Intelligence for Utility Invoices** skill from the Now Assist Admin console.
 
 **Note:** Now LLM Service is the only provider for this Now Assist application's skills.
 
-For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager/application-manager.md) to upgrade it to a later version.
+For earlier versions, go to Application Manager to upgrade it to a later version.
 
 ## Now Assist for Operational Sustainability plugins
 
@@ -32,9 +32,9 @@ You can install the Now Assist for Operational Sustainability plugin \(com.sn\_e
 -   Now Assist Platform
 -   Environmental, Social, Governance Management
 
-For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+For information about the installation process, see Install Now Assist plugins.
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-ai-experiences/user-data-usage-policy-now-assist.md).
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see  and .
 
 -   **[Activate Now Assist skills in Now Assist for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/activate-now-assist-skills-for-esg.md)**  
 Activate a skill before you can use the generative AI capabilities for Now Assist for Operational Sustainability Management.

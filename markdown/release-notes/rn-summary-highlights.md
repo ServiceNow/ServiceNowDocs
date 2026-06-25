@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summa
 release: yokohama
 topic_type: reference
 last_updated: "2026-06-13"
-reading_time_minutes: 124
+reading_time_minutes: 123
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -121,7 +121,7 @@ API
 -   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -261,7 +261,7 @@ App Engine Studio
 
 Use the App Readiness and Compliance report in App Engine Management Center \(AEMC\) to check if apps are ready to go live.
 
-See [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-engine-studio/app-readiness-report.md) for more information.
+See App Readiness and Compliance Report for more information.
 
 </td></tr><tr><td>
 
@@ -369,7 +369,7 @@ Automated Test Framework
 -   Create and schedule test suites to organize and run tests in batches.
 -   Reduce test design time by copying quick start tests and test suites. You can also create custom test steps to expand test coverage.
 
-See [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework-atf/atf-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -438,7 +438,7 @@ Case management for CSM
 -   Create cases for invoice-related services such as invoice disputes or requested corrections with the Case management for Invoice Operations application.
 -   Use process mining to mine the configured base system project to investigate the causes of long resolution times.
 
-See [Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-case-management.md) for more information.
+See Case management for Customer Service Management for more information.
 
 </td></tr><tr><td>
 
@@ -629,7 +629,7 @@ Creator Studio
 -   Use answers to form questions to trigger an activity in playbooks.
 -   Switch seamlessly between no-code, mid-skill, and pro-code app development experiences for a more unified development platform with the new experience switcher.
 
-See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio/creator-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -643,7 +643,7 @@ Customer Contracts and Entitlements
 -   Calculate the price of future renewals of contracts with a markup or mark down percentage of the current contract price.
 -   Validate the contract end date to the product offering end date.
 
-See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/exploring-post-sales-support.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -706,7 +706,7 @@ Data management for CSM
 -   Track pricing and subscription information for products and services on the CSM Configurable Workspace by using the revenue metrics on the sold product form.
 -   Integrate Strategic Portfolio Management \(SPM\) project management with business locations to create and manage projects across your organization.
 
-See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-data-management.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -719,7 +719,7 @@ Decision Builder in Workflow Studio
 -   Use the pagination feature to switch between pages by selecting the page you'd like to see.
 -   Activate rows or Deactivate rows to include or exclude the logic in that row while executing the decision tables.
 
-See [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/decision-designer-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -847,7 +847,7 @@ ERP Semantic Mining
 -   View charts and graphs on the new ERP Semantic Mining home page dashboard.
 -   Take guided tours with interactive steps to learn about features and interactively complete tasks in ERP Semantic Mining.
 
-See [ERP Semantic Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-customization-mining/erp-customization-mining-overview.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1021,7 +1021,7 @@ Flows, subflows, and actions in Workflow Studio
 -   Run a published Now Assist skill from an action.
 -   Save flow triggers for reuse in other flows.
 
-See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/exploring-flows.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1267,7 +1267,7 @@ Integration Hub
 -   Use error evaluation with Data Stream actions to catch step errors and specify error behavior for each step.
 -   Edit, configure, and create connection aliases in the Action Properties section of actions in Workflow Studio.
 
-See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/integrationhub.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1280,7 +1280,7 @@ Intelligence for CSM
 -   Enabled Recommended Actions – AI search for CSM default record page and CSM interaction record pages for the video, chat, walk-up, and email channels.
 -   Automated the mapping configuration for search results along with default guidances.
 
-See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/intelligence-csm.md) for more information.
+See Intelligence for CSM for more information.
 
 </td></tr><tr><td>
 
@@ -1433,7 +1433,7 @@ Mastercard Spoke
 -   Use the Mastercard Spoke to manage card disputes using the Mastercom API Suite and Mastercom Extended APIs.
 -   Leverage Mastercard Spoke actions to manage disputes for cleared Single Message System original transactions with Mastercom Extended.
 
-See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/mastercard-spoke.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1481,7 +1481,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Developer site Next Experience Components doc](https://developer.servicenow.com/dev.do#!/reference/next-experience/components%3Freleases%5B%5D=washingtondc%26query=%26order_by=nameAsc%26limit=120%26offset=0%26categories%5B%5D=uib_component%26categories%5B%5D=uib_macroponent-component%26categories%5B%5D=uib_facades).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component so the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -1681,7 +1681,7 @@ Now Assist for App Engine
 -   Build custom AI agents and skills for the unique workflow of an application using Now Assist Skill Kit and AI Agent Studio.
 -   Leverage AI agents and skills created with Now Assist for App Engine in custom applications at runtime, helping improve efficiency.
 
-See [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1775,7 +1775,7 @@ Now Assist for Creator
 -   Now Assist for Code now supports both Now LLM Service and Azure OpenAI model providers. When you select the Azure OpenAI model provider, all requests for the Now Assist for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you get access to the Code Explain and Code Summarize features.
 -   Use the auto-complete feature of Now Assist for Code to get contextually relevant code suggestions while typing.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1815,7 +1815,7 @@ Yokohama Early Availability
 -   Help requesters find solutions by using Genius Results to reduce the number of cases created and decrease the effort needed by agents to close them.
 -   Use the Now Assist panel global skill search to ask questions and fetch answers from knowledge articles.
 
-See [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1836,7 +1836,7 @@ Yokohama Early Availability
 -   Generate a summary of Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace.
 -   Request a business application or a digital integration using Now Assist in ServiceNow® Virtual Agent.
 
-See [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2428,7 +2428,7 @@ Now Assist in Virtual Agent
 
 -   Stream responses for Now Assist LLM chat conversations.
 
-See [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2635,7 +2635,7 @@ Playbooks in Workflow Studio
 -   Generate a playbook via API in other ServiceNow applications such as IT Operations Management \(ITOM\).
 -   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
 
-See [Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/process-automation-designer.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2798,7 +2798,7 @@ RPA Hub
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 -   Enhanced access controls for RPA bot generation skill.
 
-See [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-main-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2939,7 +2939,7 @@ Self-service and omnichannel engagement for CSM
 -   Provide a consistent experience for agents handling omnichannel interactions through email interactions, which preserve the context for agents by associating the email conversation between the agent and the customer.
 -   Improve contact center efficiency by helping avoid the creation of duplicate cases through the use of the Email as an Interaction feature.
 
-See [Omnichannels for communicating with customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/omnichannels-communicating-customers.md), [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/self-service-options-csm-customers.md), and [Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/playbooks-for-portals.md) for more information.
+See , , and  for more information.
 
 </td></tr><tr><td>
 
@@ -3142,7 +3142,7 @@ ServiceNow IDE
 -   Use TypeScript in JavaScript modules.
 -   Install and use npm packages from private registries.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3153,7 +3153,7 @@ ServiceNow SDK
 -   Create and develop applications in source code using an upgraded ServiceNow SDK CLI workflow.
 -   Refer to content from a file from properties in ServiceNow Fluent APIs.
 
-See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3167,7 +3167,7 @@ ServiceNow Studio
 -   As of version 27.2.4, the file creation experience is now a full-page, guided process with built-in security checks. Admins see all application files, while delegated developers only see file types they have permission to create within the specified scope.
 -   As of version 27.2.4, users with Write permission for an application description can use Now Assist for app summary generation to generate an app summary. The Summarize button is disabled for users without access to edit the app description, preventing failures after clicking.
 
-See [Building applications with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3179,7 +3179,7 @@ Sidebar
 -   Create standalone Sidebar conversations that aren’t associated with a record.
 -   Create private discussions on a record that are accessible only to the participants within that discussion.
 
-See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/sidebar/sidebar-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3342,7 +3342,7 @@ Table Builder
 
 </td><td>
 
-See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3485,7 +3485,7 @@ Virtual Agent
 -   View people information in the synthesized response along with people citation when you search a person in Microsoft Teams chat.
 -   AI agent support for Virtual Agent.
 -   View AI agents and agentic workflows in Virtual Agent Designer.
--   Select AI agents to handle tasks in the AI Connector utility. See [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md), [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md) for more information.
+-   Select AI agents to handle tasks in the AI Connector utility. See , , and  for more information.
 
 [Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
 
@@ -3498,7 +3498,7 @@ Virtual Agent
 -   Generate synthesized responses in Microsoft Teams conversations with Now Assist.
 -   View custom skills in Virtual Agent Designer.
 
-See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3511,7 +3511,7 @@ Visa Spoke
 -   Download images from an endpoint using Visa Spoke actions.
 -   Handle card operations and dispute resolution services with Visa Spoke actions.
 
-See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-hub/visa-spoke.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3554,7 +3554,7 @@ Workforce Optimization for Customer Service CSM
 -   Enable managers to take prompt action with key alerts organized by priority.
 -   Provide real-time visibility into performance KPIs, work item status, and agent performance.
 
-See [Exploring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/workforce-optimization-for-customer-service/explore-configurable-wfo-cs.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3590,7 +3590,7 @@ Zero Copy Connector Hub
 -   Retrieve data from external sources in real time without copying any data to your instance using zero copy connections.
 -   Enrich AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 
-See [Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -3611,7 +3611,7 @@ Zero Copy Connector for ERP
 -   Enhance communication security between SAP systems and your ServiceNow instance by using the SAP Secure Network Communication \(SNC\) connection option.
 -   Manually name, edit, and maintain model manager fields.
 
-See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-framework/erp-integration-overview.md) for more information.
+See  for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)

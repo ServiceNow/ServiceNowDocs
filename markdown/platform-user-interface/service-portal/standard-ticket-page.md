@@ -56,7 +56,7 @@ If configured, this section displays the following types of tabs for a submitted
 
     -   If the current ticket is a universal request, then all requests associated \(through the **Parent** field on the task table\) with child tickets of the universal request are displayed.
     -   If the current ticket is not a universal request, then all requests associated \(through the **Parent** field on the task table\) with the current ticket are displayed.
-    For information on defining filters for the My Requests widget, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/configure-my-requests.md).
+    For information on defining filters for the My Requests widget, see Define filters for My Requests.
 
 -   Custom tab
 
@@ -98,7 +98,7 @@ If you have upgraded your instance, redirect the ticket page to standard\_ticket
 **Related topics**  
 
 
-[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog/stpage-req-item.md)
+[bundle-platcap.stpage-req-item]
 
-[Incident standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/incident-management/incident-stnd-ticket-page.md)
+[bundle-itsm.incident-stnd-ticket-page]
 

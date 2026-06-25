@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/planned\_work\_management\_sys\_properties.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management Components, Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
 ---

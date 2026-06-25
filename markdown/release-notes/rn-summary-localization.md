@@ -126,7 +126,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-hub/rpa-hub-international-language-support.md).
+RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
 
 </td></tr><tr><td>
 

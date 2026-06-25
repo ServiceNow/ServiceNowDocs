@@ -55,7 +55,7 @@ Available agentic workflows
 
 </td><td>
 
-Manage contract repository
+[Manage contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.md)
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Manage contract repository
 
 </td><td>
 
-Triage cases
+[Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Triage cases
 
 </td><td>
 
-Generate enterprise architecture diagram
+[Generate enterprise architecture diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/enterprise-architecture/now-assist-aiagents-ea-diagramming-usecase.md)
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Generate enterprise architecture diagram
 
 </td><td>
 
-Help resolve friendly fraud disputes
+[Help resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/friendly-fraud-agentic-ai-workflow.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Help resolve friendly fraud disputes
 
 </td><td>
 
-Help manage hardware asset requests
+[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Help manage hardware asset requests
 
 </td><td>
 
-Create actions for safety incidents
+[Create actions for safety incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-health-and-safety/create-actions-safety-incidents.md)
 
 </td></tr><tr><td>
 
@@ -103,8 +103,8 @@ Create actions for safety incidents
 
 </td><td>
 
--   Resolve noncritical HR cases
--   Resolve policy
+-   [Resolve noncritical HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.md)
+-   [Resolve policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Create actions for safety incidents
 
 </td><td>
 
-Optimize GRC issue resolution
+[Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-common-functions/generate-grc-issue-resolution.md)
 
 </td></tr><tr><td>
 
@@ -120,8 +120,8 @@ Optimize GRC issue resolution
 
 </td><td>
 
--   Analyze alert impact
--   Triage and analyze alerts
+-   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.md)
+-   [Triage and analyze alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-for-it-operations-management/itom-alert-triage-agentic-workflow.md)
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Optimize GRC issue resolution
 
 </td><td>
 
-Triage legal requests
+[Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-legal-service-delivery/trans-legal-request-agent.md)
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Triage legal requests
 
 </td><td>
 
-Monitor project tasks
+[Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/na-spm-task-monitoring-usecase.md)
 
 </td></tr><tr><td>
 
@@ -194,8 +194,8 @@ Monitor project tasks
 
 </td><td>
 
--   Manage temporary space closures
--   Help manage workplace reservations
+-   [Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-wsd/manage-temp-space-closure-agent-ai.md)
+-   [Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md)
 
 </td></tr><tr><td>
 

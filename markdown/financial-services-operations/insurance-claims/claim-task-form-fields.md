@@ -7,7 +7,7 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Managing Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---

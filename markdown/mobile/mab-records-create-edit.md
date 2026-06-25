@@ -18,7 +18,7 @@ Select existing records or create new records in the Mobile App Builder categori
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see .
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 

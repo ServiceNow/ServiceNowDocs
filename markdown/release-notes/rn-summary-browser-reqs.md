@@ -62,7 +62,7 @@ Automated Test Framework
 
 </td><td>
 
-Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see [Browser recommendations for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework-atf/browser-recommendations-atf.md).
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see .
 
 Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 

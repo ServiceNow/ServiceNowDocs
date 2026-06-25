@@ -29,7 +29,7 @@ There are two ways you can migrate your data from a lower environment to a highe
 
 For more information about the restructuring of the RPA Hub tables, see [Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/restructured-rpa-hub-tables-utah.md).
 
-For more information about update sets, see Get started with update sets.
+For more information about update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/get-started-update-sets.md).
 
 ## Functionality
 
@@ -61,7 +61,7 @@ Environment
 
 </th></tr></thead><tbody><tr><td>
 
-1. Create and select an update set as the current set.
+1. [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/create-select-update-set.md).
 
 </td><td>
 
@@ -85,7 +85,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-4. Mark your current update set complete.
+4. [Mark your current update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/t_CompleteUpdateSets.md).
 
 </td><td>
 
@@ -93,7 +93,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-5. Export to XML.
+5. [Export to XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 </td><td>
 
@@ -111,7 +111,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-7. Switch to higher instance. Retrieve an update set.
+7. Switch to higher instance. [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 </td><td>
 

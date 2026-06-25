@@ -16,7 +16,7 @@ Review the flows that are available with Financial Services Operations applicati
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are configuring a flow. For more information, see Application picker.
+Ensure that the scope is selected for the application for which you are configuring a flow. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 

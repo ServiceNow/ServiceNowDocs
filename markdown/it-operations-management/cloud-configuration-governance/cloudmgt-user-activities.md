@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---

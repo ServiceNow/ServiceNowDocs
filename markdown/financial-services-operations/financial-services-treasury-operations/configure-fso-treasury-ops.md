@@ -32,15 +32,15 @@ Role required: sn\_bom\_treasury.admin and admin
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d76049e107">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d76072e107">
 
 Task
 
-</th><th align="left" id="d76049e110">
+</th><th align="left" id="d76072e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76049e116">
+</th></tr></thead><tbody><tr><td id="d76072e116">
 
 **Configure service definitions**
 
@@ -48,7 +48,7 @@ Description
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for treasury service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d76049e138">
+</td></tr><tr><td id="d76072e138">
 
 **Edit or create flows**
 
@@ -56,7 +56,7 @@ Description
 
 [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d76049e160">
+</td></tr><tr><td id="d76072e160">
 
 **Configure playbook**
 
@@ -64,7 +64,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d76049e182">
+</td></tr><tr><td id="d76072e182">
 
 **Configure CSM Configurable Workspace**
 
@@ -72,7 +72,7 @@ Description
 
 [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d76049e210">
+</td></tr><tr><td id="d76072e210">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -80,7 +80,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for treasury service cases and tasks.
 
-</td></tr><tr><td id="d76049e229">
+</td></tr><tr><td id="d76072e229">
 
 **Configure user groups**
 
@@ -88,7 +88,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d76049e248">
+</td></tr><tr><td id="d76072e248">
 
 **Configure assignment rules**
 
@@ -96,7 +96,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d76049e264">
+</td></tr><tr><td id="d76072e264">
 
 **Configure Document Processor**
 

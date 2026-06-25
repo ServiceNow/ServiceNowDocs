@@ -50,15 +50,15 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 10. In the **Response outcome** field, either accept or appeal the decision.
 
-<table id="choicetable_lqj_tw4_mfc"><thead><tr><th align="left" id="d30980e192">
+<table id="choicetable_lqj_tw4_mfc"><thead><tr><th align="left" id="d31009e192">
 
 Option
 
-</th><th align="left" id="d30980e195">
+</th><th align="left" id="d31009e195">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d30980e201">
+</th></tr></thead><tbody><tr><td id="d31009e201">
 
 **Unresolved**
 
@@ -79,7 +79,7 @@ Either of the following scenarios appear:-   If the appeal amount is less than a
     2.  Select **Continue**.
 
 
-</td></tr><tr><td id="d30980e309">
+</td></tr><tr><td id="d31009e309">
 
 **Resolved**
 

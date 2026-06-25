@@ -18,13 +18,13 @@ Create a reusable action to process a stream of response data within a flow.
 
 ## Before you begin
 
--   Set up an application in Guided Application Creator to store Workflow Studio content.
+-   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-application-creator/set-up-app.md) to store Workflow Studio content.
 -   Disable any conflicting business rules or workflows before creating an action.
 -   Role required: action\_designer or admin
 
 ## About this task
 
-Creating a custom application to contain your Workflow Studio content enables you to deploy it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-applications/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 **Note:** Clearing an option in a configuration page removes the step from the Data Stream outline and deletes all data associated with the step.
 
@@ -62,7 +62,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
     1.  Select **Retrieve connection info** to add the Get Connection Info step as the first step in the action preprocessing.
 
-        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see .
+        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/get-connection-info-action-designer.md).
 
     2.  Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Preprocessing executes once per action, before the first API request.
 

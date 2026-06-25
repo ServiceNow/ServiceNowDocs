@@ -21,8 +21,8 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 -   Role required: integration\_hub\_admin
 -   This page is part of the [Stream Connect quick start guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-quick-start.md).
 -   This document shows you how to publish messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-connection-hermes.md) and [Testing the connection to Hermes through the ADCv2 gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-connection-hermes.md).
--   The first part of this page shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see .
--   The second part of this page shows you how to use the ProducerV2 API to publish messages. For more information, see ProducerV2 API.
+-   The first part of this page shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio/kafka-producer-action-designer.md).
+-   The second part of this page shows you how to use the ProducerV2 API to publish messages. For more information, see [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 -   To receive all the messages, you need to run two consumers for different datacenters. See [Consume test messages from a Hermes topic using the Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multi-instance-framework-hermes/consume-messages-hermes.md) for details.
 
 ## Procedure

@@ -20,7 +20,7 @@ Find more information about the OT extension classes and related applications.
 
 The extension classes help you understand how Operational Technology Management works with the Configuration Management Database \(CMDB\).
 
--   ****
+-   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)**
 
     The Configuration Management Database \(CMDB\) updates classes for OT.
 

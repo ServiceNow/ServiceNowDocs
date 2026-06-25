@@ -43,15 +43,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 4.  After you request the generative AI capabilities, summarize a case or use the Help resolve friendly fraud agentic workflow.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28018e225">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28047e225">
 
 Option
 
-</th><th align="left" id="d28018e228">
+</th><th align="left" id="d28047e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28018e234">
+</th></tr></thead><tbody><tr><td id="d28047e234">
 
 **Summarize a case**
 
@@ -62,7 +62,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d28018e270">
+</td></tr><tr><td id="d28047e270">
 
 **Use the Help resolve friendly fraud agentic workflow**
 
