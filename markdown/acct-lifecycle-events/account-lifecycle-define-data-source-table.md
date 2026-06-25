@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-define-data-source-table.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 3
 breadcrumb: [Define the data source, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
 ---

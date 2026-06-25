@@ -38,15 +38,15 @@ Zurich Patch 10 includes fixes for security-related problems that affected certa
 
 ## Changes in Zurich Patch 10
 
--   **[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/authentication-factors.md)**
+-   ****
 
     Authentication factors help identify and verify callers, allowing only authorized users to access AI voice agents on the ServiceNow AI Platform.
 
--   **[Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/explore-authentication-factors.md)**
+-   ****
 
     Email OTP delivers a temporary numeric code to the caller’s registered email address. It is easy to deploy and familiar to most users. Callers can enter the code via keypad or by speaking the digits. Email OTP is susceptible to email account compromise and phishing, and should not be used as a standalone factor for sensitive operations.
 
--   **[Configure authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/configuring-authentication-factors-for-ai-voice-agents.md)**
+-   ****
 
     To secure voice agent environments, configure authentication factors that first identify the caller, then authenticate them before granting access.
 

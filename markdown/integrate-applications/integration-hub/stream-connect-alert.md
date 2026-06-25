@@ -60,7 +60,7 @@ Administrators can configure notification settings based on alert types, user pr
 -   Stream Connect Alert - WARNING
 -   Stream Connect Alert - CRITICAL
 
-You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/notifications.md).
+You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see .
 
 Notifications are sent to users who are members of the Stream Connect Alert Notifications group. The Stream Connect Alert Notifications group members inherit the Stream Connect Alert Viewer role so that everyone who receives notifications can use the link in the notification to see the alert record.
 

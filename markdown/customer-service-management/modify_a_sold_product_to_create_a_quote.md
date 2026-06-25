@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/modify\_a\_sold\_product\_to\_create\_a\_quote.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Modify a sold product and hierarchy, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

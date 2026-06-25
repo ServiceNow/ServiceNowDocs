@@ -67,9 +67,9 @@ View a list of all the data fabric tables that data stewards have created on the
 
 -   **Analyzing data and generating AI-guided insights using AI Data Explorer**
 
-    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/now-assist-explorer.md).
+    Create visualizations and analyses of fetched data through a conversational interface in AI Data Explorer. For more information, see .
 
-    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/add-table-semantic-layer.md).
+    **Note:** You must first add the relevant data fabric tables to the Semantic Table Configuration \[sn\_query\_gen\_table\_config\] table in Query Generation. See .
 
 -   **Enhancing the performance of AI experiences using the Knowledge Graph**
 

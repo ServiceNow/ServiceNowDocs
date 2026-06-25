@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-configure-approval-rules-list-and-form-view.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---

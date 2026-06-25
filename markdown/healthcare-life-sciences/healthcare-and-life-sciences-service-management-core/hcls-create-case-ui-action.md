@@ -18,5 +18,5 @@ You can add a create case UI action to enable agents to create a healthcare-rela
 
 By default, a UI action to create a case from an interaction is not available. As an administrator, you can create a UI action for creating healthcare-related cases and add the UI action to the Interaction form. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
-**Note:** Agents use CSM Configurable Workspace for resolving healthcare cases. To use UI actions in CSM Configurable Workspace, each UI action must have a corresponding form action. For more information, see [Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/config-csm-config-ws-form-action.md).
+**Note:** Agents use CSM Configurable Workspace for resolving healthcare cases. To use UI actions in CSM Configurable Workspace, each UI action must have a corresponding form action. For more information, see Set up a form action in CSM Configurable Workspace.
 

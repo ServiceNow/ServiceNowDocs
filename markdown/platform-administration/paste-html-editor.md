@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/paste-html-editor.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Editing functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
 ---

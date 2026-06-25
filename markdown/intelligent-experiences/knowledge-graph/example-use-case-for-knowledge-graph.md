@@ -22,9 +22,9 @@ In this release, the available prebuilt integrations with Now Assist Virtual Age
 2.  Integration with Now Assist for Slot filling: Helps requesters and fulfillers in pre-filling the slots for LLM topics and skills execution using Natural Language Querying of Knowledge Graph.
 3.  Integration with Now Assist for Natural Language Query graph: Helps requesters and fulfillers with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
-**Note:** To enable Knowledge Graph for Now Assist Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See .
+**Note:** To enable Knowledge Graph for Now Assist Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
 
-For more information see .
+For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
 
 **Note:**
 

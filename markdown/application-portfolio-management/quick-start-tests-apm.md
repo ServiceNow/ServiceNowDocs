@@ -33,5 +33,5 @@ Enterprise Architecture quick start tests require enabling the Enterprise Archit
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

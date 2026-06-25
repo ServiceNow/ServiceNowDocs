@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/use\_location\_filter\_to\_add\_line\_items.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---

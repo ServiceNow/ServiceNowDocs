@@ -28,15 +28,15 @@ Role required: sn\_ins\_group\_life.admin or admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table><thead><tr><th align="left" id="d35858e103">
+<table><thead><tr><th align="left" id="d35850e103">
 
 Task
 
-</th><th align="left" id="d35858e106">
+</th><th align="left" id="d35850e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35858e115">
+</th></tr></thead><tbody><tr><td id="d35850e115">
 
 **Configure service definitions**
 
@@ -46,7 +46,7 @@ Description
 -   Group Life and Disability Underwriting
 
 
-</td></tr><tr><td id="d35858e147">
+</td></tr><tr><td id="d35850e147">
 
 **Configure record producers**
 
@@ -54,7 +54,7 @@ Description
 
 [Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d35858e167">
+</td></tr><tr><td id="d35850e167">
 
 **Create flows**
 
@@ -62,7 +62,7 @@ Description
 
 [Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d35858e189">
+</td></tr><tr><td id="d35850e189">
 
 **Configure playbooks**
 
@@ -70,7 +70,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d35858e211">
+</td></tr><tr><td id="d35850e211">
 
 **Configure CSM Configurable Workspace**
 
@@ -78,7 +78,7 @@ Description
 
 [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d35858e238">
+</td></tr><tr><td id="d35850e238">
 
 **Modify interceptors and workspace record type selectors**
 
@@ -86,7 +86,7 @@ Description
 
 [Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d35858e257">
+</td></tr><tr><td id="d35850e257">
 
 **Configure user groups**
 
@@ -94,7 +94,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d35858e276">
+</td></tr><tr><td id="d35850e276">
 
 **Configure assignment rules**
 
@@ -102,7 +102,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d35858e293">
+</td></tr><tr><td id="d35850e293">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -110,7 +110,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d35858e312">
+</td></tr><tr><td id="d35850e312">
 
 **Configure Document Processor**
 

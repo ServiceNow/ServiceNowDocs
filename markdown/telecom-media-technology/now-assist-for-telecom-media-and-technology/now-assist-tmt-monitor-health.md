@@ -35,7 +35,7 @@ Required role: sn\_acct\_lc.customer\_success\_agent
 
 ## Configure the monitor engagement health agentic workflow
 
--   To run the agentic workflow as a scheduled job, you must activate the Monitor engagement health flow. See  for details.
+-   To run the agentic workflow as a scheduled job, you must activate the Monitor engagement health flow. See [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-activate.md) for details.
 -   The agentic workflow monitors only the engagements for which **AI Health Monitor** flag has been enabled. Each customer success manager can enable a maximum of 10 engagements. For instructions on enabling this flag, see [Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-create-engage.md).
 -   By default, the health score of each individual metric is monitored. If you want to monitor only the overall health score across all engagements, you need to update the **sn\_cust\_succ\_ai\_agent\_enable\_health\_monitor\_metrics** system property by following these steps:
     -   Navigate to **All** and enter **sys\_properties.LIST** in the search field.

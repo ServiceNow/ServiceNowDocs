@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-glossary.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Customer Success Management]

@@ -53,7 +53,7 @@ Workflow Studio provides an intuitive interface to create and manage decision ta
 
 Decision tables embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.
 
-Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see Delegated development.
+Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see [Delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 Decision tables in Workflow Studio enable you to do the following:
 
@@ -88,7 +88,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-App Engine Studio
+[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/aes-overview.md)
 
 </td><td>
 
@@ -97,7 +97,7 @@ App Engine Studio
 
 </td><td>
 
-See Add a decision in App Engine Studio.
+See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-studio/add-automation.md) in App Engine Studio.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

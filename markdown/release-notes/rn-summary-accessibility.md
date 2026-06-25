@@ -399,11 +399,11 @@ Document Services
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[Guardrails for PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/guardrails-pdf-generation-accessibility.md)**
+-   ****
 
 Added static and dynamic guardrails for accessibility support for PDF document generation
 
--   **[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md)**
+-   ****
 
 Added support for PDF document generation with accessibility for regulated markets.
 

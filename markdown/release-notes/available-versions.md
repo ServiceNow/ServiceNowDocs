@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-24"
 reading_time_minutes: 7
 breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---
@@ -52,6 +52,22 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Zurich Patch 10 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-2.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/24
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Zurich Patch 10 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104098)
 
 </td><td>
@@ -83,6 +99,22 @@ Patch
 </td><td>
 
 Unavailable
+
+</td></tr><tr><td>
+
+[Zurich Patch 9 Hotfix 4](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3108427)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/24
+
+</td><td>
+
+Available
 
 </td></tr><tr><td>
 
@@ -842,6 +874,8 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
+-   **[Zurich Patch 10 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10-hf-2.md)**  
+The Zurich Patch 10 Hotfix 2 release contains fixes to these problems.
 -   **[Zurich Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-10.md)**  
 The Zurich Patch 10 release contains important problem fixes.
 -   **[Zurich Patch 9 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9-hf-2-PO.md)**  

@@ -54,7 +54,7 @@ Activate the remote tables plugin
 
 </td><td>
 
-The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see .
+The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Create a UI action to populate remote data
 
 </td><td>
 
-Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see .
+Create a UI action to populate remote data from the interaction into the case, or the respective objects in your workflow.For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
 </td></tr><tr><td>
 

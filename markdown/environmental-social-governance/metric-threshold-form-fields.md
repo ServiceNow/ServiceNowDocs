@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/metric-threshold-form-fields.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

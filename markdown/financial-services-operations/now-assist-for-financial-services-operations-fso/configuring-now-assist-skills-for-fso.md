@@ -45,7 +45,7 @@ You can enable security implementation on Now Assist for FSO skills, AI agents, 
 
 Configure and manage ACLs for agentic workflows and AI agents in the AI Agent Studio. See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md) for more details.
 
-See  for more information on configuring ACLs.
+See [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/access-control/t_CreateAnACLRule.md) for more information on configuring ACLs.
 
 **Related topics**  
 

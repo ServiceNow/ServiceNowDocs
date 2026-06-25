@@ -61,12 +61,12 @@ Technology
 
 </td><td>
 
--   ADR DOC summarization and actions
--   Business application insights
--   Diagram change analysis
--   Refine text
--   Register a business application
--   Register a digital integration
+-   [ADR DOC summarization and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/summarize-docs-genai-skill-ea.md)
+-   [Business application insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/generate-insights-into-ba.md)
+-   [Diagram change analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/compare-modeling-diagrams.md)
+-   [Refine text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/elaborate-or-shorten-content-form-fields.md)
+-   [Register a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/register-business-application-using-conversational-experience.md)
+-   [Register a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/register-digital-integration-using-conv-exp.md)
 
 </td></tr><tr><td>
 
@@ -504,17 +504,17 @@ Creator
 
 </td><td>
 
--   App generation
--   
+-   [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)
+-   [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/build-agent.md)
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
--   App summary generation
--   
+-   [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)
+-   [Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/client-script-summarization-generation.md)
 -   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
 -   [Code Assist edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/edit-code-now-assist.md)
 -   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
 -   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/generate-scripts-from-text.md)
--   Event handler generation
--   
+-   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
+-   [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/generate-ui.md)
 -   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-landing.md)
 -   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-generation-with-images-landing.md)
 -   [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/flow-recommendations-landing.md)
@@ -527,7 +527,7 @@ Creator
 -   [Process inefficiency highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/generate-highlights.md)
 -   [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/rpa-bot-generation.md)
 -   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-spk-now-spk-gen.md)
--   Test generation
+-   [Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/test-generation/tg-implement.md)
 -   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/run-worknotes-analysis.md)
 
 </td></tr><tr><td>
@@ -634,11 +634,11 @@ App Engine
 
 </td><td>
 
-
+[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
-Custom app record summarization
+[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md)
 
 </td></tr><tr><td>
 

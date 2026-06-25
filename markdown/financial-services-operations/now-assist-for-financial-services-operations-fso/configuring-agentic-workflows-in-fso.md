@@ -32,7 +32,7 @@ Agentic workflows in FSO are inactive by default. To activate a workflow:
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
-To modify an agentic workflow, you must first duplicate the agentic workflow, and then proceed with the following steps:
+To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate the agent within the agentic workflow.
@@ -40,13 +40,13 @@ To modify an agentic workflow, you must first duplicate the agentic workflow, an
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-For more information on activating agentic workflows, triggers, and agents, see  and .
+For more information on activating agentic workflows, triggers, and agents, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-aia-use-case.md) and [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/modify-ai-agent.md).
 
 For more information on agentic workflows in FSO, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 ## Choosing a language model service provider
 
-You can choose which service provider to use for AI agents and agentic workflows in the Now Assist Admin console.
+You can choose which service provider to use for AI agents and agentic workflows [in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
 
 ## Access control lists
 
@@ -68,7 +68,7 @@ See [Implement access control in Now Assist AI agents](https://raw.githubusercon
 
 Required roles: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to Resolve friendly fraud using Agentic AI.
 

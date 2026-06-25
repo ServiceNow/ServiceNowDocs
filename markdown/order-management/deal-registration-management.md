@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/deal-registration-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

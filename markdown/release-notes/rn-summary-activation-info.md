@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary
 release: zurich
 topic_type: reference
 last_updated: "2026-06-12"
-reading_time_minutes: 68
+reading_time_minutes: 65
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -38,7 +38,7 @@ AI Desktop Actions
 
 </td><td>
 
-AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-agentic-desktop.md).
+AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see .
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Advanced Work Assignment \(AWA\)
 
 </td><td>
 
-AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-activate.md).
+AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see .
 
 To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -154,7 +154,7 @@ Agent Chat
 
 </td><td>
 
-Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md).
+Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see .
 
 </td></tr><tr><td>
 
@@ -398,7 +398,7 @@ Code Signing
 
 </td><td>
 
-Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/config-code-signing.md).
+Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see .
 
 </td></tr><tr><td>
 
@@ -579,7 +579,7 @@ Data Management for CSM
 
 CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
+Additional CSM features are available with the activation of other plugins. For details, see .
 
 Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-exploring.md).
 
@@ -589,9 +589,9 @@ Starting in the Yokohama release, the following plugins are available on the Ser
 -   Install base characteristics \(com.snc.install\_base\_characteristics\)
 -   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
 
-For details, see [Configure Install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-install-base.md).
+For details, see .
 
-Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-business-location.md).
+Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see .
 
 </td></tr><tr><td>
 
@@ -599,7 +599,7 @@ Data Privacy
 
 </td><td>
 
-Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/dps-activate-data-privacy.md).
+Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see .
 
 </td></tr><tr><td>
 
@@ -663,7 +663,7 @@ Document Intelligence
 
 </td><td>
 
-Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
+Install Document Intelligence by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). The Document Intelligence application \(sn\_docintel\) depends on the Document Intelligence plugin \(com.glide.platform\_ml\_di\), the Predictive Intelligence plugin \(com.glide.platform\_ml\), and the Document Intelligence UIB component \(com.sn\_docintel\_iframe\). For more details, see Install Document Intelligence.
 
 </td></tr><tr><td>
 
@@ -673,7 +673,7 @@ Document Services
 
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
-Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.md).
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see .
 
 Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/mp-document-services-framework-landing.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
@@ -683,7 +683,7 @@ Domain Separation
 
 </td><td>
 
-Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-plugin.md).
+Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see .
 
 </td></tr><tr><td>
 
@@ -733,7 +733,7 @@ Encryption
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
-Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/platform-encryption/encryption-sku.md).
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the .
 
 </td></tr><tr><td>
 
@@ -743,7 +743,7 @@ Encryption Key Management
 
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
-Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/platform-encryption/encryption-sku.md).
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see Encryption and Key Management subscription bundle.
 
 </td></tr><tr><td>
 
@@ -751,7 +751,7 @@ Enterprise Architecture
 
 </td><td>
 
-Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/application-portfolio-management-landing-page.md).
+Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see Enterprise Architecture.
 
 </td></tr><tr><td>
 
@@ -774,7 +774,7 @@ Event Management
 
 </td><td>
 
-Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/event-management/t_EMActivatePlugin.md).
+Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see .
 
 </td></tr><tr><td>
 
@@ -840,7 +840,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see  and .
 
 </td></tr><tr><td>
 
@@ -896,7 +896,7 @@ Hermes Messaging Service
 
 </td><td>
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see .
 
 </td></tr><tr><td>
 
@@ -912,7 +912,7 @@ ITOM AIOps
 
 </td><td>
 
--   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see [Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/event-management/c_EMConfiguration.md).
+-   ITOM AIOps is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). You must purchase a more comprehensive ITOM AIOps package, ITOM Predictive AIOps, to enable working with Health Log Analytics. For details, see .
 -   Install Service Operations Workspace \(ITOM\) by installing the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 -   Install Health Log Analytics by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
@@ -922,7 +922,7 @@ ITOM Cloud Accelerate
 
 </td><td>
 
-The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md).
+The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see .
 
 </td></tr><tr><td>
 
@@ -930,7 +930,7 @@ ITOM Visibility
 
 </td><td>
 
-ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) and [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md). For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version-history release notes.
+ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see Request Discovery and Request Service Mapping. For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version-history release notes.
 
 </td></tr><tr><td>
 
@@ -975,7 +975,7 @@ Instance Data Replication
 
 </td><td>
 
-Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/instance-data-replication-idr/request-instance-data-replication.md).
+Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see .
 
 </td></tr><tr><td>
 
@@ -1103,7 +1103,7 @@ MCP Server Console
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -1189,27 +1189,27 @@ Now Assist
 
 </td><td>
 
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)**
+-   ****
 
 Now Assist features are available with activation of any Now Assist plugin from ServiceNow Store. The following plugins are available:
 
     -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
     -   
-    -   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
     -   
     -   
-    -   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+    -   
+    -   
     -   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
-    -   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+    -   
     -   [Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
     -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
     -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
     -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
     -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
     -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
-    -   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md)
-    -   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
-    -   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+    -   
+    -   
+    -   
     -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
     -   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
     -   [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
@@ -1220,12 +1220,12 @@ Now Assist features are available with activation of any Now Assist plugin from 
     -   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
     -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
     -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
-    -   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+    -   
     -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
-    -   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md)
+    -   
     -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
     -   [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
-    -   [Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.md)
+    -   
 
 </td></tr><tr><td>
 
@@ -1233,7 +1233,7 @@ Now Assist AI agents
 
 </td><td>
 
-Now Assist AI agents are available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist AI agents, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
+Now Assist AI agents are available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist AI agents, see .
 
 </td></tr><tr><td>
 
@@ -1245,21 +1245,21 @@ Now Assist features are available with activation of any Now Assist plugins from
 
 -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 -   
--   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   
 -   
--   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+-   
+-   
 -   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
--   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+-   
 -   [Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
 -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md)
--   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
--   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   
+-   
+-   
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 -   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
 -   [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
@@ -1270,12 +1270,12 @@ Now Assist features are available with activation of any Now Assist plugins from
 -   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   
 -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md)
+-   
 -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 -   [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
--   [Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.md)
+-   
 
 </td></tr><tr><td>
 
@@ -1291,7 +1291,7 @@ Now Assist for CMDB
 
 </td><td>
 
-Now Assist for CMDB is a ServiceNow AI Platform feature that is available with activation of plugins that you get from the ServiceNow Store. For details, see [Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md).
+Now Assist for CMDB is a ServiceNow AI Platform feature that is available with activation of plugins that you get from the ServiceNow Store. For details, see .
 
 </td></tr><tr><td>
 
@@ -1323,7 +1323,7 @@ Now Assist for Customer Service Management \(CSM\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for CSM plugin. For more information, see .
 
 Starting with Vancouver Patch 4, Now Assist for CSM is supported.
 
@@ -1335,7 +1335,7 @@ Now Assist for Enterprise Architecture \(EA\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1343,7 +1343,7 @@ Now Assist for FSM
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1399,7 +1399,7 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 </td><td>
 
-Now Assist features are available with activation of Now Assist for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of Now Assist for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1431,7 +1431,7 @@ Now Assist for Retail Service Management \(RSM\)
 
 </td><td>
 
-The Now Assist for RSM plugin is available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+The Now Assist for RSM plugin is available with activation of com.sn.now.platform plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1439,7 +1439,7 @@ Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1447,7 +1447,7 @@ Now Assist for Sales Force Automation \(SFA\)
 
 </td><td>
 
-Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1479,7 +1479,7 @@ Now Assist for Strategic Portfolio Management \(SPM\)
 
 </td><td>
 
-Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the  plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1487,7 +1487,7 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -1532,31 +1532,31 @@ Now Assist in AI Search
 Now Assist in AI Search is installed when you install any of the following licensed applications from the ServiceNow Store.
 
 -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
--   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
--   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+-   
+-   
+-   
 -   [Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
 -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
--   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
--   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   
+-   
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 -   [Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/public-sector-digital-services/now-assist-for-psds.md)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md)
+-   
 -   [Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 -   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   
 -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md)
+-   
 -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 -   [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
--   [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/conv-spokes-na.md)
--   [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -1576,21 +1576,21 @@ Now Assist features are available with activation of any Now Assist plugin from 
 
 -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 -   
--   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   
 -   
--   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+-   
+-   
 -   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
--   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+-   
 -   [Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
 -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md)
--   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
--   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   
+-   
+-   
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 -   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
 -   [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
@@ -1601,14 +1601,14 @@ Now Assist features are available with activation of any Now Assist plugin from 
 -   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   
 -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md)
+-   
 -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 -   [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
--   [Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.md)
+-   
 
-For more information, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -1622,7 +1622,7 @@ Query Generation, Analytics Generation, and the dashboard and data visualization
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-After installation, activate the relevant skills. For more information, see the relevant Configure topics under [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/platform-analytics/now-assist-platform-analytics.md).
+After installation, activate the relevant skills. For more information, see the relevant Configure topics under .
 
 </td></tr><tr><td>
 
@@ -1630,27 +1630,27 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-**Note:** When you upgrade to Zurich Patch 2 or later, agentic AI is the primary orchestration in Virtual Agent. For more information about agentic AI, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md).
+**Note:** When you upgrade to Zurich Patch 2 or later, agentic AI is the primary orchestration in Virtual Agent. For more information about agentic AI, see .
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following products are available:
 
 -   [Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 -   
--   [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   
 -   
--   [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+-   
+-   
 -   [Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
--   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/enterprise-architecture/now-assist-ea.md)
+-   
 -   [Now Assist for Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/environmental-social-governance/operational-sustainability-management/now-assist-for-esg.md)
 -   [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
 -   [Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 -   [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 -   [Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 -   [Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md)
--   [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
--   [Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+-   
+-   
+-   
 -   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 -   [Now Assist for Operational Technology Manager \(OTM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-otm-landing.md)
 -   [Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
@@ -1661,12 +1661,12 @@ Now Assist features are available with activation of any Now Assist plugin from 
 -   [Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 -   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
 -   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+-   
 -   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md)
+-   
 -   [Now Assist for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 -   [Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/now-assist-for-vulnerability-response-vr/now-assist-for-vulnerability-response-landing.md)
--   [Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-framework/now-assist-for-zero-copy-connector-for-erp.md)
+-   
 
 For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
@@ -1676,7 +1676,7 @@ On-Call Scheduling
 
 </td><td>
 
-On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/on-call-scheduling/t_ActivateOnCallScheduling.md). Activating this plugin activates the following third-party libraries:
+On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see . Activating this plugin activates the following third-party libraries:
 
 -   FullCalendar library
 -   DHTMLX scheduler
@@ -1847,7 +1847,7 @@ Process Mining
 
 </td><td>
 
-Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining/activating-process-mining.md).
+Process Mining is available by default. For details, see .
 
 </td></tr><tr><td>
 
@@ -1863,7 +1863,7 @@ Project Portfolio Management
 
 </td><td>
 
-Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see .
 
 Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
@@ -2085,7 +2085,7 @@ Service Portfolio Management
 
 </td><td>
 
-The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
+The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see .
 
 </td></tr><tr><td>
 
@@ -2101,7 +2101,7 @@ ServiceNow AI Lens
 
 </td><td>
 
-ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see .
 
 </td></tr><tr><td>
 
@@ -2149,7 +2149,7 @@ Sidebar
 
 </td><td>
 
-Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see [Installing Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar/install-sidebar.md).
+Sidebar is a ServiceNow AI Platform feature part of the Omni-Experience Standard Feature Set. For details, see .
 
 </td></tr><tr><td>
 
@@ -2357,7 +2357,7 @@ Walk-up Experience
 
 </td><td>
 
-Walk-up Experience is a ServiceNow AI Platform feature that is available with activation of the Walk-up Experience plugin \(com.snc.walkup\). For details, see [Activate Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/walk-up-experience/activate-walkup-experience.md).
+Walk-up Experience is a ServiceNow AI Platform feature that is available with activation of the Walk-up Experience plugin \(com.snc.walkup\). For details, see .
 
 </td></tr><tr><td>
 
@@ -2375,7 +2375,7 @@ Zero Copy Connector Hub
 
 Install Workflow Data Fabric Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric-hub/request-wdf.md).
+Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see .
 
 </td></tr><tr><td>
 

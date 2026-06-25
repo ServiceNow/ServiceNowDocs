@@ -22,7 +22,7 @@ Administrators assign roles to give team members permission to configure or use 
 
 For more on assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 <table id="table_u4j_ykv_cwb"><thead><tr><th>
 

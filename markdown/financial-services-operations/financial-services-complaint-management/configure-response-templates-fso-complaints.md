@@ -32,7 +32,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
 2.  Create a response template.
 
-    For more information, see Create or modify a response template.
+    For more information, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/create-modify-templated-snippet.md).
 
     The Channels related list appears.
 

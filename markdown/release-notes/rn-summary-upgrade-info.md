@@ -30,7 +30,7 @@ AI Desktop Actions
 
 </td><td>
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/download-agentic-desktop-installer.md).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see .
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Change Management
 
 </td><td>
 
-As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/change-management/c_ConflictDetection.md).
+As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see .
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-Due to the removal of the **Design** value for the operational status attribute in a CI, after an upgrade, you must review all CIs that have the discovery source attribute set to **Manual via IRE**. Review the operational status attribute of those CIs and set it to a supported value in CMDB for your environment. For example, you can set the attribute to **Non-Operational**. For more information about the operational status values, see [Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md).
+Due to the removal of the **Design** value for the operational status attribute in a CI, after an upgrade, you must review all CIs that have the discovery source attribute set to **Manual via IRE**. Review the operational status attribute of those CIs and set it to a supported value in CMDB for your environment. For example, you can set the attribute to **Non-Operational**. For more information about the operational status values, see .
 
 On an upgraded Zurich instance, to configure the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with the necessary permissions to perform some CMDB Workspace tasks, you must manually run the scheduled job **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**. This scheduled job modifies the user roles as follows:
 
@@ -285,7 +285,7 @@ Instance Data Replication
 
 </td><td>
 
--   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/instance-data-replication-idr/upgrading-legacy-replication-sets-v2.md).
+-   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see .
 -   Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
 </td></tr><tr><td>
@@ -294,21 +294,21 @@ MID Server
 
 </td><td>
 
-For the latest MID Server system requirements, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md). The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
+For the latest MID Server system requirements, see MID Server system requirements. The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
 
 If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
 -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
 -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
 
-All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md).
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages MID Server upgrades.
 
-Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-startup-fails.md) for more information.
+Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See MID Server fails to start for more information.
 
 For more information about MID Server upgrades, see the following topics:
 
--   [MID Server pre-upgrade check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md): Describes how to upgrade your MID Servers manually.
+-   MID Server pre-upgrade check: Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+-   Upgrade the MID Server manually: Describes how to upgrade your MID Servers manually.
 
 </td></tr><tr><td>
 
@@ -365,7 +365,7 @@ Now Assist for CMDB
 
 </td><td>
 
-The installation \(activation\) process has changed for the Now Assist for CMDB v2.1 plugin. See [Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md) for the new instructions.
+The installation \(activation\) process has changed for the Now Assist for CMDB v2.1 plugin. See  for the new instructions.
 
 </td></tr><tr><td>
 
@@ -387,7 +387,7 @@ Now Assist for IT Service Management \(ITSM\)
 
 When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
 
-The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-8.md) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md).
+The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-8.md) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see Incident assist skill.
 
 Starting with the [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-9.md), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
@@ -432,7 +432,7 @@ Agents
 -   Security incident wrap up generator AI agent
 -   Security metrics analysis AI agent
 
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md)
+For more information, see 
 
 **Note:** Upgrading the Now Assist plugins activates any designated skills that were previously untouched by the customer.
 
@@ -556,7 +556,7 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub/download-installer-rpa.md).
+For more information, see Download the RPA applications from RPA Hub.
 
 The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Zurich.
 
@@ -638,7 +638,7 @@ Ensure that the following applications have compatible upgraded versions:
 -   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
 -   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
 
-For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/sow-itsm-itom-version.md).
+For more information on compatible versions, see .
 
 </td></tr><tr><td>
 
@@ -686,11 +686,11 @@ ServiceNow Vault
 
 To install ServiceNow Vault, the following must be installed:
 
--   [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-discovery/data-discovery-landing.md)
--   [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/data-privacy-landing.md)
--   [Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)
--   [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/field-encryption.md)
--   [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/session-access.md)
+-   
+-   
+-   
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -741,7 +741,7 @@ Subscription Management
 
 </td><td>
 
-Subscription Management version 5.0 is active by default on all instances of the Zurich release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager/update-application-app-mgr.md).
+Subscription Management version 5.0 is active by default on all instances of the Zurich release. Update to Subscription Management version 6.1 or later to use the latest features. For more information about updating Subscription Management, see .
 
 </td></tr><tr><td>
 

@@ -36,7 +36,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -126,7 +126,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see .
 
 Next Experience UI Framework must be enabled before you can use the Now Assist panel.
 
@@ -184,7 +184,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
+ requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 

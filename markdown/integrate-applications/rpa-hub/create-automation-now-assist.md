@@ -83,9 +83,9 @@ Procedure
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
-</td></tr><tr><td id="d118021e373">
+</td></tr><tr><td id="d118021e372">
 
 **Clear**
 
@@ -93,7 +93,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by Now Assist and the instruction in Now Assist, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d118021e394">
+</td></tr><tr><td id="d118021e393">
 
 **Cancel**
 
@@ -101,7 +101,7 @@ If you want to clear the workflow that was created by Now Assist and the instruc
 
 If you want to stop creating an automation and return to the RPA Desktop Design Studio home page, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The generated automation workflows, if any, aren’t saved.
 
-</td></tr><tr><td id="d118021e414">
+</td></tr><tr><td id="d118021e413">
 
 **Next**
 
