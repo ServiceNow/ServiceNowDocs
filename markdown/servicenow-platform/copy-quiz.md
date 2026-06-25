@@ -30,15 +30,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d209135e84">
+<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d208919e84">
 
 Option
 
-</th><th align="left" id="d209135e87">
+</th><th align="left" id="d208919e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d209135e93">
+</th></tr></thead><tbody><tr><td id="d208919e93">
 
 **From Platform**
 
@@ -46,7 +46,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d209135e105">
+</td></tr><tr><td id="d208919e105">
 
 **From Platform**
 
@@ -54,7 +54,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d209135e117">
+</td></tr><tr><td id="d208919e117">
 
 **From quiz designer**
 

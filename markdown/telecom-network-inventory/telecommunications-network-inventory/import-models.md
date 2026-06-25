@@ -91,7 +91,7 @@ Select **Attach File** to attach the import model file.**Note:** Models import i
             -   Removes special characters from the **Manufacturer** name.
             -   The new value is replaced if it matches with five characters of the existing value.
             -   Downloads standard and variant company names.
-            -   Replaces company names with their standard equivalents. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/c_NormalizationOverview.md). To customize the normalization rules, see [Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/r_NormalizedCompanyNames.md).
+            -   Replaces company names with their standard equivalents. To learn more, see . To customize the normalization rules, see .
     -   The generation of a record triggers its automatic addition to the **Import Results**. From this tab, you can see the import status and can select the generated model.
     -   A dedicated inventory template is generated for every rack/cabinet equipment holders, equipment models, and card models. Moreover, the related templates are generated based on the defined model relationship.
 

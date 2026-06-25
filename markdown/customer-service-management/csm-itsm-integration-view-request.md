@@ -48,7 +48,7 @@ Customers can also view Known Error articles for a problem related to a case. Th
 
 3.  Define the views for the problem, change, and request records and select the fields that are visible to external customers.
 
-    For more information, see Create and delete views.
+    For more information, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md).
 
     **Note:** For the Consumer Service Portal, you can define views and select fields for problem and change records. Request records display a default set of fields in the Ticket Fields widget.
 

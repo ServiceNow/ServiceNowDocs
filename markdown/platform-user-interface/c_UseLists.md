@@ -38,7 +38,7 @@ Lists can have sublists in a hierarchy that can also be accessed in list view. T
 
 \[Omitted image "HierarchicalList.png"\] Alt text: Hierarchical list
 
-Administrators can enable hierarchical lists for a table. For more information, see [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-administration/t_EnableAHierarchicalList.md) .
+Administrators can enable hierarchical lists for a table. For more information, see Enable a hierarchical list .
 
 ## Detail rows
 
@@ -48,7 +48,7 @@ Detail rows, when enabled, appear below the field row for each record and displa
 
 \[Omitted image "400px-Detail\_rows.png"\] Alt text: Detail rows
 
-Administrators can enable detail rows and add them to lists. For more information, see [Administer detail rows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/list-administration/t_EnableDetailRows.md).
+Administrators can enable detail rows and add them to lists. For more information, see Administer detail rows.
 
 -   **[List fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/r_Fields.md)**  
 Fields display data and provide certain functions.

@@ -36,15 +36,15 @@ Currently, mobile instances can only accommodate one published theme at a time.
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d32633e104">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d32638e104">
 
 Option
 
-</th><th align="left" id="d32633e107">
+</th><th align="left" id="d32638e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32633e113">
+</th></tr></thead><tbody><tr><td id="d32638e113">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -55,7 +55,7 @@ Description
 
 **Note:** A confirmation dialog box appears.\[Omitted image "tb-test-theme-dialog-box.png"\] Alt text: Publish the theme dialog box.
 
-</td></tr><tr><td id="d32633e147">
+</td></tr><tr><td id="d32638e147">
 
 **Publish using the List view drag-and-drop feature \(available starting in Xanadu version 4.1\)**
 

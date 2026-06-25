@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/ai-agent-dashboard.html
 release: xanadu
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 14
 breadcrumb: [Now Assist AI agents reference, Now Assist AI agents, Enable AI experiences]
 ---

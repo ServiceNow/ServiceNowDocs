@@ -28,15 +28,15 @@ Role required: admin, app\_template\_author
 
 3.  Modify different aspects of the template to make them more useful to your needs.
 
-<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d211783e85">
+<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d211794e85">
 
 Choice
 
-</th><th align="left" id="d211783e88">
+</th><th align="left" id="d211794e88">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d211783e94">
+</th></tr></thead><tbody><tr><td id="d211794e94">
 
 **Update the template contents**
 
@@ -54,7 +54,7 @@ For more information, see the following topics:
 3.  Select **Save template**.
 
 
-</td></tr><tr><td id="d211783e187">
+</td></tr><tr><td id="d211794e187">
 
 **Update the template properties**
 
@@ -69,7 +69,7 @@ For more information, see the following topics:
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d211783e246">
+</td></tr><tr><td id="d211794e246">
 
 **Update template sharing settings**
 
@@ -82,7 +82,7 @@ For more information, see the following topics:
 3.  On the General tab, select **Save properties**.
 
 
-</td></tr><tr><td id="d211783e290">
+</td></tr><tr><td id="d211794e290">
 
 **Update content on the Template details page**
 
@@ -96,7 +96,7 @@ For more information, see the following topics:
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d211783e333">
+</td></tr><tr><td id="d211794e333">
 
 **Delete the custom template**
 

@@ -37,7 +37,7 @@ Notifications appear in the Notifications table, which you can access by navigat
 
 ## Flow that runs notifications
 
-The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You don't need to do anything to activate the flow, but you can customize it in Workflow Studio. For more information, see .
+The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You don't need to do anything to activate the flow, but you can customize it in Workflow Studio. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/flow-edit.md).
 
 **Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

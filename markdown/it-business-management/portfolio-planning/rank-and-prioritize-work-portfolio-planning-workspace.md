@@ -42,15 +42,15 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the **List** view, Rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d75357e142">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d75369e142">
 
 Choice
 
-</th><th align="left" id="d75357e145">
+</th><th align="left" id="d75369e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d75357e151">
+</th></tr></thead><tbody><tr><td id="d75369e151">
 
 **Reorder a single planning item**
 
@@ -60,7 +60,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 
  \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d75357e176">
+</td></tr><tr><td id="d75369e176">
 
 **Reorder multiple planning items at once**
 

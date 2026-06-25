@@ -17,7 +17,7 @@ Create a theme record for your web or mobile experiences by using the Home view 
 
 ## Before you begin
 
-Once you've downloaded Theme Builder from the ServiceNow Store, you must activate the plugin \(sn\_theme\_builder\). To activate the Theme Builder plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_ActivateAPlugin.md).
+Once you've downloaded Theme Builder from the ServiceNow Store, you must activate the plugin \(sn\_theme\_builder\). To activate the Theme Builder plugin, see .
 
 Role required: admin
 

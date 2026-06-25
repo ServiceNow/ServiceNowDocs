@@ -30,15 +30,15 @@ You can create up to four planning scenarios with different combinations of proj
 
 1.  Navigate to the Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d69061e81">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d69073e81">
 
 Location
 
-</th><th align="left" id="d69061e84">
+</th><th align="left" id="d69073e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d69061e90">
+</th></tr></thead><tbody><tr><td id="d69073e90">
 
 **From application navigator**
 
@@ -48,7 +48,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d69061e123">
+</td></tr><tr><td id="d69073e123">
 
 **From the portfolio list**
 

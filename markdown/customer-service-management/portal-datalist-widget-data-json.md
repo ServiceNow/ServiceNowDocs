@@ -62,7 +62,7 @@ list\_view
 
 </td><td>
 
-The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see .
+The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/create-delete-view.md).
 
 If no value is provided, all columns are shown.
 

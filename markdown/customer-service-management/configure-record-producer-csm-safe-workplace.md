@@ -28,7 +28,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see Creating variables.
+        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
 
     4.  Click **Submit**.
 

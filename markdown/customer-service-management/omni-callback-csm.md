@@ -14,5 +14,5 @@ breadcrumb: [Configuring Omnichannel Callback for Customer Service Management, E
 
 Omnichannel Callback for Customer Service Management enables a callback option to be provided for customers when there is a long wait time for a live agent.
 
-Omnichannel Callback for Customer Service Management offers an option for customer service agents to call customers back when the wait time for agents is long or agents are unavailable. For more information, see Omnichannel Callback.
+Omnichannel Callback for Customer Service Management offers an option for customer service agents to call customers back when the wait time for agents is long or agents are unavailable. For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/omnichannel-callback/omnichannel-callback.md).
 

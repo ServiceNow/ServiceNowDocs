@@ -18,11 +18,11 @@ Engage with your customers using ServiceNow apps.
 
 <table id="table_qfw_3zf_2vb" class="nav-card"><tbody><tr><td>
 
-Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.
+[Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 </td><td>
 
-Virtual Agent Dashboard \[Omitted image "icon-workspace-builder.png"\] Alt text: Virtual Agent Dashboard The Conversational Analytics Dashboard helps you improve Virtual Agent interactions with users by providing deep insights into conversational data.
+[Virtual Agent Dashboard \[Omitted image "icon-workspace-builder.png"\] Alt text: Virtual Agent Dashboard The Conversational Analytics Dashboard helps you improve Virtual Agent interactions with users by providing deep insights into conversational data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page.md)
 
 </td></tr></tbody>
 </table>## Artificial intelligence

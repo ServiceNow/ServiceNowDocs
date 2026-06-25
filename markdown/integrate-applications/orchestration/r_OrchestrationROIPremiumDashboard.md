@@ -18,7 +18,7 @@ The premium dashboard provides detailed reports on calculated savings over time.
 
 The ROI premium reports require the Orchestration - ROI Premium plugin and are built using Performance Analytics. The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md) plugin which requires a separate subscription.
 
-**Important:** You must activate the Performance Analytics scheduled collection job before Orchestration ROI premium can display data.
+**Important:** You must activate the Performance Analytics [scheduled collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/orchestration/r_OrchestrationROIPremiumDashboard.md) before Orchestration ROI premium can display data.
 
 To access the ROI premium dashboard, navigate to **Orchestration** &gt; **ROI Reports** &gt; **Premium Dashboard**.
 

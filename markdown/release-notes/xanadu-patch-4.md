@@ -38,7 +38,7 @@ Xanadu Patch 4 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 4
 
--   ****
+-   **[Upgrade legacy replication sets in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/instance-data-replication-idr/upgrade-legacy-replication-sets.md)**
 
     Complete the upgrade by activating the V2 consumer replication set with or without data integrity checks.
 

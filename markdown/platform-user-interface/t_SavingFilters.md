@@ -34,7 +34,7 @@ Role required: varies depending on action. See procedure.
 
 4.  Select one of the following visibility options.
 
-<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d50708e109">
+<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d50713e109">
 
 **Me**
 
@@ -42,7 +42,7 @@ Role required: varies depending on action. See procedure.
 
 Creates a personal filter, which only you can access. If you don’t have Write access to the User field, this option isn't available. See your administrator for more information.
 
-</td></tr><tr><td id="d50708e121">
+</td></tr><tr><td id="d50713e121">
 
 **Everyone**
 
@@ -50,7 +50,7 @@ Creates a personal filter, which only you can access. If you don’t have Write 
 
 Creates a global filter, which all users can access. This option is available to users with the filter\_global role.
 
-</td></tr><tr><td id="d50708e130">
+</td></tr><tr><td id="d50713e130">
 
 **Group**
 

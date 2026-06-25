@@ -18,7 +18,7 @@ Use Knowledge Management widgets to build a knowledge base for your portal.
 
 Knowledge Management widgets are included as part of the Service Portal - knowledge base plugin \[com.glide.service-portal.knowledge-base\], which is activated automatically with the Service Portal for Enterprise Service Management \[com.glide.service-portal.esm\] plugin.
 
-For more information on knowledge management, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
+For more information on knowledge management, see .
 
 -   **[KB also in Category widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/kb-also-in-category.md)**  
 List of articles also included within a particular category. You can use this base system widget as-is in your portal or clone it to suit your own business needs.

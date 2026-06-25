@@ -25,7 +25,7 @@ To generate code suggestions, you describe the goal of the code to generate in t
 
 Optionally, you can turn on code completion functionality to use code or single-shot prompts in script editors with Now Assist for code generation.
 
-Developers must be assigned the now.assist.creator role to use code generation. To get started developing with AI-generated code, see [Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/scripts/now-assist-code-landing.md).
+Developers must be assigned the now.assist.creator role to use code generation. To get started developing with AI-generated code, see .
 
 ## Availability
 

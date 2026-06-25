@@ -335,7 +335,7 @@ Criteria
 
 </td><td>
 
-List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see Add a knowledge article to featured content and Knowledge properties.
+List of criteria for the knowledge articles list. Select one of the following options:-   **Featured**: List of featured knowledge articles based on the keywords configured in the **glide.knowman.default\_keyword** property. For information about featured articles, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md) and [Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 -   **Most Viewed**: List of knowledge articles with the most views.
 
 

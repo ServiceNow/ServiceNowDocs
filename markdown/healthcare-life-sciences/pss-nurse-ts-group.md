@@ -26,11 +26,11 @@ In the Patient Support Services application, the sn\_patientservice.nurse\_educa
 
 -   Assign the sn\_patientservice.nurse\_educator role to the user who is conducting the training task.
 
-    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    For more information, see Assign a role to a user.
 
 -   Add the user who is conducting the training task to the Nurse Training Support assignment group.
 
-    For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    For more information, see Assign a role to a group.
 
 
 **Related topics**  

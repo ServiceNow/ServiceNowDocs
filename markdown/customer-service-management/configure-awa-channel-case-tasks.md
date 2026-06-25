@@ -18,7 +18,7 @@ Set up an Advanced Work Assignment \(AWA\) service channel that you can use to a
 
 Role required: admin
 
-You can use the Advanced Work Assignment \(AWA\) feature to automatically assign work items to users based on their availability and capacity.
+You can use the [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-overview.md) \(AWA\) feature to automatically assign work items to users based on their availability and capacity.
 
 AWA assigns work items using assignment groups so it's important that your users and groups are set up correctly.
 
@@ -64,7 +64,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
         The system adds the Case Task channel to the Service Channels list.
 
-    For more information about creating an AWA service channel, see Create a service channel.
+    For more information about creating an AWA service channel, see [Create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-service-channel.md).
 
 2.  Configure the layout for the case task inbox card.
 
@@ -79,7 +79,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         -   **Field 3**: Parent Number
     4.  Click **Update**.
 
-    For more information about configuring the card layout, see Create or modify an inbox layout.
+    For more information about configuring the card layout, see [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-modify-inbox-layout.md).
 
 3.  Create a queue for the case task service channel.
 
@@ -94,7 +94,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
     3.  Click **Submit**.
 
-    For more information about configuring a queue, see Create a work item queue.
+    For more information about configuring a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-queue.md).
 
 4.  Create an assignment rule for the Case Task Assignment queue.
 
@@ -111,7 +111,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
     3.  Click **Submit**.
 
-    For more information about creating an assignment rule, see Configure agent assignment rules.
+    For more information about creating an assignment rule, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-create-assignment-rule.md).
 
 5.  Create a group for the Case Task Assignment queue.
 
@@ -127,7 +127,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
         -   Case task agent \(sn\_customerservice.case\_task\_agent\)
         -   AWA agent \(awa\_agent\)
-    For more information about creating a group, see Create or modify groups for Advanced Work Assignment queues
+    For more information about creating a group, see [Create or modify groups for Advanced Work Assignment queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-groups.md)
 
 6.  Associate the assignment rule with the Case Task Assignment queue.
 
@@ -149,6 +149,6 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
     3.  Click **Update**.
 
-    Once the service channel is activated, you can use it to assign work items. For more information, see Service channels.
+    Once the service channel is activated, you can use it to assign work items. For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/awa-service-channels.md).
 
 

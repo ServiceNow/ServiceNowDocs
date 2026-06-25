@@ -68,7 +68,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
         **Note:** To assign this change request, select **Assign** &gt; **fill in the assignment group and assigned to** &gt; **Save**.
 
-    -   Set a schedule for this change request. To learn more, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+    -   Set a schedule for this change request. To learn more, see Schedules.
     -   Calculate the risks for this change request.
 
         When you select **Calculate Risk**, it analyzes an update in the **Risk** field on the **Details** tab.

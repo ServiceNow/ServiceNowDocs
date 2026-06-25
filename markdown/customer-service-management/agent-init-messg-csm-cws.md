@@ -57,7 +57,7 @@ Channel
 
 </td><td>
 
-Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the Conversational SMS service channel application.
+Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/servicenow-platform/advanced-work-assignment/install-conversational-sms.md) application.
 
  An administrator can configure whether a messaging channel is available for agent-initiated messages. For more information, see [Determine whether messaging channels are available for agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/agent-init-messg-channel-ext-pt.md).
 
@@ -67,11 +67,11 @@ To
 
 </td><td>
 
-Recipient ID of the consumer or customer contact, or when both are not available the recipient ID of the user for which the interaction was opened. The recipient ID is pre-populated from the User \[sys\_user\] table record of the consumer, customer contact, or opened for user.If the entered ID is a phone number, it must be an E.164-compliant phone number or is automatically converted to the E.164 format. For more information, see Phone number fields.
+Recipient ID of the consumer or customer contact, or when both are not available the recipient ID of the user for which the interaction was opened. The recipient ID is pre-populated from the User \[sys\_user\] table record of the consumer, customer contact, or opened for user.If the entered ID is a phone number, it must be an E.164-compliant phone number or is automatically converted to the E.164 format. For more information, see [Phone number fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UsePhoneNumberFields.md).
 
  An administrator can configure the format of the recipient ID based on the selected channel and associate user profiles with agent-initiated messages. For more information, see [Validate recipient IDs for agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/agent-init-messg-validate-recipient.md) and [Associate user profiles with agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/agent-init-messg-user-record-ext-pt.md).
 
- If you select **Other** from the To list, you can manually enter a ID of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see Phone number fields.
+ If you select **Other** from the To list, you can manually enter a ID of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see [Phone number fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/c_UsePhoneNumberFields.md).
 
 **Note:** The **Other** list value appears only when an administrator has configured the option to enter recipient ID manually for the messaging channel. For more information, see [Set up agent-initiated message interface for a messaging channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/agent-init-messg-setup.md).
 

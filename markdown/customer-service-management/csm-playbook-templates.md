@@ -189,7 +189,7 @@ The contextual side panel component includes different tools that agents can use
 -   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   Email Templates
+-   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
 -   Templates
 -   Record Information
 

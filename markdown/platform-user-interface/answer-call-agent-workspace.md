@@ -32,7 +32,7 @@ You can do the following with the Workspace phone:
 
 1.  Do one of the following.
 
-<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d76736e77">
+<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d76741e77">
 
 **Click the phone icon in the main navigation bar.**
 
@@ -40,7 +40,7 @@ You can do the following with the Workspace phone:
 
 Enter the phone number in the **Number** field and click **Call**.
 
-</td></tr><tr><td id="d76736e92">
+</td></tr><tr><td id="d76741e92">
 
 **Click the phone icon next to the __Contact__ or __Consumer__ fields on the form.**
 

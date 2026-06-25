@@ -36,7 +36,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d193749e117">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d193533e117">
 
 **Remove Item**
 
@@ -44,7 +44,7 @@ Role required: requester
 
 To remove an item from the wish list, click the Remove Item icon \( \[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
-</td></tr><tr><td id="d193749e132">
+</td></tr><tr><td id="d193533e132">
 
 **Clear Wish List**
 
@@ -52,7 +52,7 @@ To remove an item from the wish list, click the Remove Item icon \( \[Omitted im
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d193749e144">
+</td></tr><tr><td id="d193533e144">
 
 **View the Catalog**
 

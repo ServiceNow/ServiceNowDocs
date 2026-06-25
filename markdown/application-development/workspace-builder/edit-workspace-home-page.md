@@ -152,7 +152,7 @@ Table data that you can customize for the dashboard audience.
 
 5.  If needed, complete any additional changes to an element.
 
-<table id="choicetable_r4f_dmd_wxb"><tbody><tr><td id="d112505e467">
+<table id="choicetable_r4f_dmd_wxb"><tbody><tr><td id="d112510e467">
 
 **Edit an element**
 
@@ -175,7 +175,7 @@ For example, if you're editing a data visualization, you must specify the source
 4.  In the canvas header, select **Save**.
 
 
-</td></tr><tr><td id="d112505e531">
+</td></tr><tr><td id="d112510e531">
 
 **Copy an element to reuse on the home page**
 
@@ -183,7 +183,7 @@ For example, if you're editing a data visualization, you must specify the source
 
 Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] Alt text: Context menu icon to display options\) and select **Duplicate** to copy the element. You can then make additional changes to the copied element.
 
-</td></tr><tr><td id="d112505e549">
+</td></tr><tr><td id="d112510e549">
 
 **Add an element to the library for reuse**
 
@@ -191,7 +191,7 @@ Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] 
 
 Select the context menu icon \(\[Omitted image "context-menu-icon-purple.png"\] Alt text: Context menu icon to display options\) and select **Add to library** to include the element in your library to reuse on other dashboards.
 
-</td></tr><tr><td id="d112505e567">
+</td></tr><tr><td id="d112510e567">
 
 **Delete an element from the workspace dashboard**
 
@@ -210,7 +210,7 @@ A header appears with the name of the element type.
 </td></tr></tbody>
 </table>6.  If needed, complete any additional configuration changes to the dashboard.
 
-<table id="choicetable_uqm_zfr_dvb"><tbody><tr><td id="d112505e616">
+<table id="choicetable_uqm_zfr_dvb"><tbody><tr><td id="d112510e616">
 
 **Configure the dashboard layout**
 
@@ -218,7 +218,7 @@ A header appears with the name of the element type.
 
 Select and drag an entire element to move it around the dashboard layout.Resize an element by selecting and dragging the handlebars \(\[Omitted image "wb-element-handlebars-purple.png"\] Alt text: Element handlebars to drag and resize\) in the lower corners of the element.
 
-</td></tr><tr><td id="d112505e634">
+</td></tr><tr><td id="d112510e634">
 
 **Duplicate the dashboard**
 
@@ -230,7 +230,7 @@ To make a copy of the dashboard:-   Select the more options icon for the dashboa
 -   Select **Duplicate**.
 Access the duplicated dashboard by exiting out of editing mode and selecting the new dashboard from the dashboard name drop-down menu.\[Omitted image "wb-switch-dashboards.png"\] Alt text: Select the duplicated dashboard
 
-</td></tr><tr><td id="d112505e682">
+</td></tr><tr><td id="d112510e682">
 
 **Add tabs to the workspace and edit them as needed**
 
@@ -248,7 +248,7 @@ A tab labeled **untitled** is added next to any existing tabs.
 
 **Note:** No confirmation message appears. The tab disappears from the dashboard.
 
-</td></tr><tr><td id="d112505e738">
+</td></tr><tr><td id="d112510e738">
 
 **Preview a workspace and make in-line edits**
 
@@ -264,7 +264,7 @@ For more information, see [Edit Platform Analytics dashboards](https://raw.githu
 5.  Select **Exit Editing Mode** to stop editing in the In-line editor.
 
 
-</td></tr><tr><td id="d112505e790">
+</td></tr><tr><td id="d112510e790">
 
 **Open a printer-friendly version of the dashboard**
 
@@ -272,7 +272,7 @@ For more information, see [Edit Platform Analytics dashboards](https://raw.githu
 
 Select the more options icon for the dashboard \(\[Omitted image "wb-more-options-icon.png"\] Alt text: More options icon\) and select **Printer friendly** to display the workspace home page in a format suitable for printing.
 
-</td></tr><tr><td id="d112505e809">
+</td></tr><tr><td id="d112510e809">
 
 **Add a bookmark to Analytics Center**
 
@@ -280,7 +280,7 @@ Select the more options icon for the dashboard \(\[Omitted image "wb-more-option
 
 Select the more options icon for the dashboard \(\[Omitted image "wb-more-options-icon.png"\] Alt text: More options icon\) and select **Add to bookmarks** to include a bookmark for the workspace in the Analytics Center Bookmarks section.
 
-</td></tr><tr><td id="d112505e832">
+</td></tr><tr><td id="d112510e832">
 
 **Make additional or more advanced configurations to the home page**
 
@@ -288,7 +288,7 @@ Select the more options icon for the dashboard \(\[Omitted image "wb-more-option
 
 In the configuration panel, select **Open in UI Builder**.
 
-</td></tr><tr><td id="d112505e844">
+</td></tr><tr><td id="d112510e844">
 
 **Delete the dashboard**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/enable-aia-na-guardian.html
 release: xanadu
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
 ---

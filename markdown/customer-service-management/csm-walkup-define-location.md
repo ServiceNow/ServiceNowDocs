@@ -38,15 +38,15 @@ Administrators can configure the following for locations:
 
 3.  Complete the form.
 
-<table id="choicetable_zss_y2m_wlb"><thead><tr><th align="left" id="d106099e109">
+<table id="choicetable_zss_y2m_wlb"><thead><tr><th align="left" id="d106102e109">
 
 Fields
 
-</th><th align="left" id="d106099e112">
+</th><th align="left" id="d106102e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106099e118">
+</th></tr></thead><tbody><tr><td id="d106102e118">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Provide a detailed name for the location, such as the city or building it is located at.
 
-</td></tr><tr><td id="d106099e127">
+</td></tr><tr><td id="d106102e127">
 
 **Description**
 
@@ -62,7 +62,7 @@ Provide a detailed name for the location, such as the city or building it is loc
 
 Provide a description of the location, if desired.
 
-</td></tr><tr><td id="d106099e136">
+</td></tr><tr><td id="d106102e136">
 
 **Schedule**
 
@@ -70,7 +70,7 @@ Provide a description of the location, if desired.
 
 Select a schedule for operation days and hours.
 
-</td></tr><tr><td id="d106099e145">
+</td></tr><tr><td id="d106102e145">
 
 **Appointment Booking**
 
@@ -78,7 +78,7 @@ Select a schedule for operation days and hours.
 
 Add and configure an appointment booking schedule for the walk-up location.
 
-</td></tr><tr><td id="d106099e158">
+</td></tr><tr><td id="d106102e158">
 
 **Service Channel**
 
@@ -86,7 +86,7 @@ Add and configure an appointment booking schedule for the walk-up location.
 
 Search for and choose the **Walk-up** service channel.
 
-</td></tr><tr><td id="d106099e170">
+</td></tr><tr><td id="d106102e170">
 
 **Define condition here**
 
@@ -94,7 +94,7 @@ Search for and choose the **Walk-up** service channel.
 
 Select whether or not to automatically route work items to this queue using a condition.
 
-</td></tr><tr><td id="d106099e179">
+</td></tr><tr><td id="d106102e179">
 
 **Condition mode**
 
@@ -102,7 +102,7 @@ Select whether or not to automatically route work items to this queue using a co
 
 Choose either **Simple** mode or **Advanced** mode to automatically route work to the queue. Simple mode is the default. With simple mode you can select from pre-built conditions. For example, select **Location is X** \[search and select location\]. With advanced mode you can provide your own scripting and code.
 
-</td></tr><tr><td id="d106099e200">
+</td></tr><tr><td id="d106102e200">
 
 **Work item routing condition**
 
@@ -110,7 +110,7 @@ Choose either **Simple** mode or **Advanced** mode to automatically route work t
 
 Configure and specify who will provide customer support at a walk-up location. Location is determined by physical address.
 
-</td></tr><tr><td id="d106099e209">
+</td></tr><tr><td id="d106102e209">
 
 **Active**
 
@@ -118,7 +118,7 @@ Configure and specify who will provide customer support at a walk-up location. L
 
 Check to make this queue location active.
 
-</td></tr><tr><td id="d106099e218">
+</td></tr><tr><td id="d106102e218">
 
 **Enable away state**
 
@@ -126,7 +126,7 @@ Check to make this queue location active.
 
 Check to allow an away state.
 
-</td></tr><tr><td id="d106099e228">
+</td></tr><tr><td id="d106102e228">
 
 **Away message**
 
@@ -134,7 +134,7 @@ Check to allow an away state.
 
 Specify a display message for when the location is temporarily closed. This is for hours other than the scheduled closed times.
 
-</td></tr><tr><td id="d106099e237">
+</td></tr><tr><td id="d106102e237">
 
 **Stockroom**
 
@@ -142,7 +142,7 @@ Specify a display message for when the location is temporarily closed. This is f
 
 Select a stockroom to supply assets for the location.
 
-</td></tr><tr><td id="d106099e246">
+</td></tr><tr><td id="d106102e246">
 
 **Location**
 
@@ -150,15 +150,15 @@ Select a stockroom to supply assets for the location.
 
 Select the physical address of your location.
 
-</td></tr><tr><td id="d106099e255">
+</td></tr><tr><td id="d106102e255">
 
 **Location image**
 
 </td><td>
 
-Click to add an image of your location. For example, this can be an image of the city or building where the walk-up location is located.Image types include .gif, .jpg/.jpeg, or .png. For more information, see .
+Click to add an image of your location. For example, this can be an image of the city or building where the walk-up location is located.Image types include .gif, .jpg/.jpeg, or .png. For more information, see [Image field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/t_UsingImageFields.md).
 
-</td></tr><tr><td id="d106099e269">
+</td></tr><tr><td id="d106102e270">
 
 **Access Type**
 
@@ -169,15 +169,15 @@ Select external or both types of users so that the appropriate walk-up locations
 </td></tr></tbody>
 </table>4.  Click the **Management** tab to complete the Management form section.
 
-<table id="choicetable_xc1_xhm_wlb"><thead><tr><th align="left" id="d106099e290">
+<table id="choicetable_xc1_xhm_wlb"><thead><tr><th align="left" id="d106102e291">
 
 Fields
 
-</th><th align="left" id="d106099e293">
+</th><th align="left" id="d106102e294">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106099e299">
+</th></tr></thead><tbody><tr><td id="d106102e300">
 
 **Position notification**
 
@@ -185,7 +185,7 @@ Description
 
 Select the queue position that triggers a notification to visitors when they are close to being assisted at the location. For example, when a visitor is third in line to be assisted.
 
-</td></tr><tr><td id="d106099e308">
+</td></tr><tr><td id="d106102e309">
 
 **Last check-in**
 
@@ -193,7 +193,7 @@ Select the queue position that triggers a notification to visitors when they are
 
 Specify the last available check-in time in minutes. For example, 30 minutes before closing.
 
-</td></tr><tr><td id="d106099e317">
+</td></tr><tr><td id="d106102e318">
 
 **Enable online check-in**
 
@@ -201,7 +201,7 @@ Specify the last available check-in time in minutes. For example, 30 minutes bef
 
 Allow visitors to check in to the location remotely from a laptop or mobile phone.
 
-</td></tr><tr><td id="d106099e326">
+</td></tr><tr><td id="d106102e327">
 
 **Enable appointment delegation**
 
@@ -209,7 +209,7 @@ Allow visitors to check in to the location remotely from a laptop or mobile phon
 
 Enable users to book an appointment for someone else. **Note:** When you enable appointment delegation, the **Appointment delegation group** field appears. Select a group to allow appointment delegation. Add a new group of users if an appropriate group does not exist. Only users in this group will have the choice of scheduling for themselves or another user when they book an appointment.
 
-</td></tr><tr><td id="d106099e342">
+</td></tr><tr><td id="d106102e343">
 
 **Name configuration**
 
@@ -217,7 +217,7 @@ Enable users to book an appointment for someone else. **Note:** When you enable 
 
 Select a name configuration to display visitor information on the onsite queue TV monitor and online check-in screen. The first name will always display. However, you can show first and last name, first name with last name initial only, or first name only.
 
-</td></tr><tr><td id="d106099e351">
+</td></tr><tr><td id="d106102e352">
 
 **Appointment routing time**
 
@@ -225,7 +225,7 @@ Select a name configuration to display visitor information on the onsite queue T
 
 Specify the amount of time, in minutes, to route the work item to an agent prior to an appointment time.
 
-</td></tr><tr><td id="d106099e360">
+</td></tr><tr><td id="d106102e361">
 
 **Hold time**
 
@@ -233,7 +233,7 @@ Specify the amount of time, in minutes, to route the work item to an agent prior
 
 Enter an amount of time, in minutes, that you want to put an interaction on hold before attempting to route it again to a technician. For example, entering `5` will put the interaction on hold for 5 minutes before rerouting.
 
-</td></tr><tr><td id="d106099e372">
+</td></tr><tr><td id="d106102e373">
 
 **Show estimated wait time**
 
@@ -250,7 +250,7 @@ Estimated wait times display in the following places:
 -   **Status** widget on the Service Portal
 
 
-</td></tr><tr><td id="d106099e413">
+</td></tr><tr><td id="d106102e414">
 
 **Audio Playback**
 
@@ -258,7 +258,7 @@ Estimated wait times display in the following places:
 
 Specify when the audio confirmation will play, for example, when a requester checks into an onsite queue, when a requester checks in online, or both. The default mode is **None**.
 
-</td></tr><tr><td id="d106099e425">
+</td></tr><tr><td id="d106102e426">
 
 **Audio File**
 
@@ -271,15 +271,15 @@ You may need to provide additional browser permissions to use an audio file on t
 </td></tr></tbody>
 </table>5.  Click the **Administration** tab to complete the administration section of the form.
 
-<table id="choicetable_mts_y3m_wlb"><thead><tr><th align="left" id="d106099e451">
+<table id="choicetable_mts_y3m_wlb"><thead><tr><th align="left" id="d106102e452">
 
  
 
-</th><th align="left" id="d106099e453">
+</th><th align="left" id="d106102e454">
 
  
 
-</th></tr></thead><tbody><tr><td id="d106099e458">
+</th></tr></thead><tbody><tr><td id="d106102e459">
 
 **Queue time display**
 
@@ -287,7 +287,7 @@ You may need to provide additional browser permissions to use an audio file on t
 
 Chose from **None**, **Check-in time**, or **Time waited** to be displayed on the location wall monitor.
 
-</td></tr><tr><td id="d106099e476">
+</td></tr><tr><td id="d106102e477">
 
 **Queue message**
 
@@ -295,7 +295,7 @@ Chose from **None**, **Check-in time**, or **Time waited** to be displayed on th
 
 Specify a welcome message for your location wall monitor.
 
-</td></tr><tr><td id="d106099e485">
+</td></tr><tr><td id="d106102e486">
 
 **Check-in greeting**
 
@@ -303,7 +303,7 @@ Specify a welcome message for your location wall monitor.
 
 Create a check-in message to guide visitors to sign into the queue at the designated check-in monitor.
 
-</td></tr><tr><td id="d106099e494">
+</td></tr><tr><td id="d106102e495">
 
 **Closed message**
 
@@ -311,7 +311,7 @@ Create a check-in message to guide visitors to sign into the queue at the design
 
 Create a message to alert visitors that it is outside the hours of operation and the location is closed.
 
-</td></tr><tr><td id="d106099e504">
+</td></tr><tr><td id="d106102e505">
 
 **Closed phone number**
 
@@ -319,7 +319,7 @@ Create a message to alert visitors that it is outside the hours of operation and
 
 Select your country from the drop-down menu to display the Customer Support phone number.
 
-</td></tr><tr><td id="d106099e513">
+</td></tr><tr><td id="d106102e514">
 
 **Closed record producer**
 
@@ -327,7 +327,7 @@ Select your country from the drop-down menu to display the Customer Support phon
 
 Search for and select a record producer to display and link to during closed hours, such as **Create incident**.
 
-</td></tr><tr><td id="d106099e525">
+</td></tr><tr><td id="d106102e526">
 
 **Closed image**
 
@@ -335,7 +335,7 @@ Search for and select a record producer to display and link to during closed hou
 
 Click to add an image indicating the walk-up location is closed. The image displays on the wall monitor to alert walk-in visitors that the location is closed.
 
-</td></tr><tr><td id="d106099e534">
+</td></tr><tr><td id="d106102e535">
 
 **Max search results**
 
@@ -343,7 +343,7 @@ Click to add an image indicating the walk-up location is closed. The image displ
 
 Specify how many search results to provide for contextual searches.
 
-</td></tr><tr><td id="d106099e543">
+</td></tr><tr><td id="d106102e544">
 
 **Contextual search config**
 
@@ -351,7 +351,7 @@ Specify how many search results to provide for contextual searches.
 
 Configure which search context will provide results at the location.
 
-</td></tr><tr><td id="d106099e552">
+</td></tr><tr><td id="d106102e553">
 
 **Appointment type**
 
@@ -362,7 +362,7 @@ Option to set the type of appointment the requesters can book for the location. 
 -   Both
  **Note:** This field is not a default field. You can configure the form layout to add this field.
 
-</td></tr><tr><td id="d106099e577">
+</td></tr><tr><td id="d106102e578">
 
 **Enable unregistered user entry**
 
@@ -370,7 +370,7 @@ Option to set the type of appointment the requesters can book for the location. 
 
 Check to allow users who do not have a user name in the system to check in to the location for support. For example, guests visiting the location \(opposed to employees\).
 
-</td></tr><tr><td id="d106099e586">
+</td></tr><tr><td id="d106102e587">
 
 **Enable lookup user entry**
 
@@ -378,7 +378,7 @@ Check to allow users who do not have a user name in the system to check in to th
 
 Check so that when users begin typing their names they can quickly see and select their names from a list.
 
-</td></tr><tr><td id="d106099e595">
+</td></tr><tr><td id="d106102e596">
 
 **Enable technician info**
 
@@ -386,7 +386,7 @@ Check so that when users begin typing their names they can quickly see and selec
 
 Check to allow the display of available technician names on the location wall monitor.
 
-</td></tr><tr><td id="d106099e604">
+</td></tr><tr><td id="d106102e605">
 
 **Enable technician avatar**
 
@@ -394,7 +394,7 @@ Check to allow the display of available technician names on the location wall mo
 
 Check to allow the display of technician avatars on the location wall monitor.
 
-</td></tr><tr><td id="d106099e613">
+</td></tr><tr><td id="d106102e614">
 
 **Header logo**
 
@@ -402,7 +402,7 @@ Check to allow the display of technician avatars on the location wall monitor.
 
 Click to add a header logo. The header logo is location specific. If no logo is specified, by default, the Walk-up Portal logo is used.
 
-</td></tr><tr><td id="d106099e622">
+</td></tr><tr><td id="d106102e623">
 
 **Queue logo**
 

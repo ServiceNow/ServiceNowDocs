@@ -467,7 +467,7 @@ Credential tag
 
 </td><td>
 
-The Credential aliases for Orchestration activities to use when running the command.
+The [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) to use when running the command.
 
 </td></tr><tr><td>
 

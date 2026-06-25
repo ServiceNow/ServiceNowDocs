@@ -30,7 +30,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d77634e87">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d77639e87">
 
 **Name**
 
@@ -38,7 +38,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d77634e96">
+</td></tr><tr><td id="d77639e96">
 
 **Applies to table**
 
@@ -46,7 +46,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d77634e105">
+</td></tr><tr><td id="d77639e105">
 
 **Queries from table**
 
@@ -54,7 +54,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d77634e114">
+</td></tr><tr><td id="d77639e114">
 
 **Queries with**
 
@@ -97,5 +97,5 @@ Notes and limitations:
 **Related topics**  
 
 
-[Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.t_AddARelatedList]
 

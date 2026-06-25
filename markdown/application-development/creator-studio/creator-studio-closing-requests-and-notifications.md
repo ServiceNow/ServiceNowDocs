@@ -35,7 +35,7 @@ Apps created in Creator Studio send the following notifications by default.
 
 \*Remember, request records must be manually closed.
 
-For more information on notifications from the ServiceNow AI Platform, see .
+For more information on notifications from the ServiceNow AI Platform, see [Receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/approvals/c_ReceiveNotifications.md).
 
 ## Notifications Creator Studio sends about building apps
 

@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up CM Pro.
 
-    For more information on setting up Contract Management Pro, see .
+    For more information on setting up Contract Management Pro, see [Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md).
 
 
 **Parent Topic:**[Source-to-Pay Operations integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/integration-spo-cmpro.md)

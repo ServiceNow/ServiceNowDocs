@@ -52,7 +52,7 @@ You can run Virtual Agent bot conversations for PPM using third-party messaging 
 
 Use the Virtual Agent integration app to configure the messaging apps for your instance.
 
-For more information, see Virtual Agent integration with messaging apps.
+For more information, see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-For more information on integrating with Slack or Microsoft Teams, see Setting up Virtual Agent notifications.
+For more information on integrating with Slack or Microsoft Teams, see [Setting up Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 

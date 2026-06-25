@@ -217,15 +217,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 3.  Enter the following information for your new field column.
 
-<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d206485e1146">
+<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d206496e1146">
 
 Field
 
-</th><th align="left" id="d206485e1149">
+</th><th align="left" id="d206496e1149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206485e1155">
+</th></tr></thead><tbody><tr><td id="d206496e1155">
 
 **Column label**
 
@@ -233,7 +233,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d206485e1164">
+</td></tr><tr><td id="d206496e1164">
 
 **Column name**
 
@@ -241,7 +241,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d206485e1173">
+</td></tr><tr><td id="d206496e1173">
 
 **Type**
 
@@ -256,15 +256,15 @@ Type of information that the column contains. For example, to contain plain text
 </td></tr></tbody>
 </table>4.  Select **Advanced settings** to expand it and enter any additional properties for your new field column.
 
-<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d206485e1216">
+<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d206496e1216">
 
 Field
 
-</th><th align="left" id="d206485e1219">
+</th><th align="left" id="d206496e1219">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206485e1225">
+</th></tr></thead><tbody><tr><td id="d206496e1225">
 
 **Function field**
 
@@ -272,7 +272,7 @@ Description
 
 A function field generates a value based on simple computations of other fields and constants. The **Function definition** field then displays, where you define a function.
 
-</td></tr><tr><td id="d206485e1240">
+</td></tr><tr><td id="d206496e1240">
 
 **Mandatory**
 
@@ -280,7 +280,7 @@ A function field generates a value based on simple computations of other fields 
 
 Option that you can select so that the data that your users enter in the field is required before they can save their changes to the form.
 
-</td></tr><tr><td id="d206485e1252">
+</td></tr><tr><td id="d206496e1252">
 
 **Read only**
 
@@ -288,7 +288,7 @@ Option that you can select so that the data that your users enter in the field i
 
 Option that you can select so that the field is not editable by the form users.
 
-</td></tr><tr><td id="d206485e1264">
+</td></tr><tr><td id="d206496e1264">
 
 **Default value**
 
@@ -370,15 +370,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options.
 
-<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d206485e1680">
+<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d206496e1680">
 
 Action
 
-</th><th align="left" id="d206485e1683">
+</th><th align="left" id="d206496e1683">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d206485e1689">
+</th></tr></thead><tbody><tr><td id="d206496e1689">
 
 **Hide a column**
 
@@ -394,7 +394,7 @@ Using the **Manage columns** button:
 2.  Select **Hide** from the menu to hide the column from view.
 
 
-</td></tr><tr><td id="d206485e1738">
+</td></tr><tr><td id="d206496e1738">
 
 **Unhide a column**
 
@@ -426,15 +426,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options to pin or unpin a field column.
 
-<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d206485e1873">
+<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d206496e1873">
 
 Action
 
-</th><th align="left" id="d206485e1876">
+</th><th align="left" id="d206496e1876">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d206485e1882">
+</th></tr></thead><tbody><tr><td id="d206496e1882">
 
 **Pin a column**
 
@@ -444,7 +444,7 @@ Steps
 2.  Select **Pin** from the menu to pin the column to the left side of your view.
 
 
-</td></tr><tr><td id="d206485e1913">
+</td></tr><tr><td id="d206496e1913">
 
 **Unpin a column**
 

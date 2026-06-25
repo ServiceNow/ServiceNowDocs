@@ -63,7 +63,7 @@ Available agentic workflows
 
 </td><td>
 
-[Generate enterprise architecture diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-portfolio-management/enterprise-architecture/now-assist-aiagents-ea-diagramming-usecase.md)
+Generate enterprise architecture diagram
 
 </td></tr><tr><td>
 

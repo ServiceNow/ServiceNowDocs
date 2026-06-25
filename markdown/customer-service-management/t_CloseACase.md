@@ -30,15 +30,15 @@ An agent or agent manager can close a case at any time, except when it is in the
 
 2.  Depending on the user interface, navigate to the correct form section.
 
-<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d65670e88">
+<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d65669e88">
 
 Interface
 
-</th><th align="left" id="d65670e91">
+</th><th align="left" id="d65669e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65670e97">
+</th></tr></thead><tbody><tr><td id="d65669e97">
 
 **CSM Configurable Workspace
 
@@ -51,7 +51,7 @@ Steps
 3.  Select **Closure Information**.
 
 
-</td></tr><tr><td id="d65670e134">
+</td></tr><tr><td id="d65669e134">
 
 **Platform interface**
 

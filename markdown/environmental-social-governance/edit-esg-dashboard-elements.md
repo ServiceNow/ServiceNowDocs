@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/xanadu/environmental-social-governance/edit-esg-dashboard-elements.html
 release: xanadu
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configuring ESG Management, Environmental, Social, and Governance Management]
 ---

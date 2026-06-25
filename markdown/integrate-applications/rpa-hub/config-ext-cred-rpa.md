@@ -159,7 +159,7 @@ For reference, see the sample **Demo CyberArk** external credential vault in you
 
 </td></tr><tr><td>
 
-3\) Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see . While configuring the connection record, verify to align with your organizational security requirements.
+3\) Establish a connection with an external credential vault by using the ServiceNow Connections and Credentials. For more information about creating an active connection, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-security/connections-and-credentials/create-https-connection.md). While configuring the connection record, verify to align with your organizational security requirements.
 
 </td><td>
 

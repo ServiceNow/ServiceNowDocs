@@ -58,5 +58,5 @@ The system creates a list of all the widgets on each page in your instance. You 
 
 ### What to do next
 
-Export the list as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade. For more information on exporting list data, see [List export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/table-administration-and-data-management/export-list-data.md).
+Export the list as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade. For more information on exporting list data, see List export.
 

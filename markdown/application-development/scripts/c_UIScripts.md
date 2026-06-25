@@ -144,7 +144,7 @@ To run a UI script from HTML code, use the `<script>` tag and specify the `src=`
 
 ### Call a UI script from client-side code
 
-Access UI scripts from within client-side code using the g\_ui\_scripts global object. For more information, see GlideUIScripts - Client.
+Access UI scripts from within client-side code using the g\_ui\_scripts global object. For more information, see [GlideUIScripts - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/GUIScriptsAPI.md).
 
 **Note:** This class does not support UI scripts with the **Global** field set to true.
 

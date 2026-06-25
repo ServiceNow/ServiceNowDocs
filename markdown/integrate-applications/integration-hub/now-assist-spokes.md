@@ -49,10 +49,10 @@ The Now Assist for Integration Hub application requires these subscriptions:
 
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
--   See  to learn about AI agents.
+-   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/na-ai-agents.md) to learn about AI agents.
 -   See  to learn more about configuring the conversational settings.
 -   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in  to learn more about conversation experience and skills.
+-   See [Now Assist conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-platform-conv-experience.md) in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/intelligent-experiences/enable-ai-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents
 

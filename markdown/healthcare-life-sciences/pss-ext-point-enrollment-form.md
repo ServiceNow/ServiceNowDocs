@@ -16,7 +16,7 @@ Use scripted extension points to decide what records are created or updated afte
 
 ## Before you begin
 
-Set the application scope to Patient Support Services using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/building-applications/c_ApplicationPicker.md).
+Set the application scope to Patient Support Services using the application picker. For more information, see Application picker.
 
 Role required: admin
 

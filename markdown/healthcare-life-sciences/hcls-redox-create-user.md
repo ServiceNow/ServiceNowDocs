@@ -46,5 +46,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/user-administration/t_CreateAUser.md)
+[bundle-platadm.t_CreateAUser]
 

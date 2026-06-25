@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -102,7 +102,7 @@ Create an application
 
 -   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 -   [ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/vs-code.md)
--   REST APIs
+-   [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
 -   [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/guided-application-creator/guided-app-creator.md)
 -   [ServiceNow AI Platform forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/now-platform-forms-fields-lists.md)
 
@@ -172,7 +172,7 @@ Add automation
 
 -   [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/automation-discovery.md)
 -   [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/workflow-studio.md)
--   
+-   [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
 -   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/process-automation-designer.md)
 -   [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/journey-designer/jny-dsgnr-landing-page.md)
 -   [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/business-rules-classic/c_BusinessRules.md)
@@ -188,7 +188,7 @@ Automation and flows
 </td><td>
 
 -   [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/integrationhub.md)
--   Flows in Workflow Studio
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/exploring-flows.md)
 
 </td></tr><tr><td>
 
@@ -196,12 +196,12 @@ APIs
 
 </td><td>
 
--   
--   
--   
--   
+-   [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/rest-apis/api-rest.md)
+-   [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/server-api-reference/api-server.md)
+-   [Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/api-client.md)
+-   [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/api-reference/api-product-type.md)
 -   [Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/build-workflows/workflow-studio/actions.md)
--   Integration Hub Remote Process Sync
+-   [Integration Hub Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -237,8 +237,8 @@ Customize chat bot dialogs
 
 </td><td>
 
--   Getting started with Virtual Agent Designer
--   Conversational Analytics Dashboard
+-   [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+-   [Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -326,7 +326,7 @@ Create reports
 -   [Analyze and optimize business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md) - Performance Analytic Reports
 -   [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 -   [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/now-intelligence/analytics-center.md)
--   Conversational Analytics Dashboard
+-   [Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page.md)
 
 </td></tr><tr><td>
 

@@ -72,7 +72,7 @@ In addition to configuring these fields for Engagement Messenger, you must confi
 
 For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure_search_csp_guestuser.md).
 
-For more information of AI Search configuration, see Configuring AI Search.
+For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/ai-search/configuring-ais.md).
 
 For more information on the availability of AI Search in your instance, see the [AI Search Availability \[KB0867751\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867751) article.
 

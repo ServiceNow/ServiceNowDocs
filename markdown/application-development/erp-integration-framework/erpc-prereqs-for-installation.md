@@ -102,7 +102,7 @@ For required spokes, contact the admin of your SAP ECC RFC account to obtain the
 
 The MID Server restarts multiple times during this process.
 
-For more information on spoke integration, see .
+For more information on spoke integration, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
 
 ## SAP configuration
 

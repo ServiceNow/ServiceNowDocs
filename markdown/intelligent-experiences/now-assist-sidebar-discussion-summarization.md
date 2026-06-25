@@ -17,7 +17,7 @@ Generate a summary of Sidebar discussions between agents, requesters, and subjec
 
 You can use Sidebar discussion summarization for any task table you've enabled Sidebar on.
 
-Summarizing Sidebar chats integrated with Microsoft Teams is also supported. For more information, see [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/sidebar/sidebar-teams-overview.md).
+Summarizing Sidebar chats integrated with Microsoft Teams is also supported. For more information, see .
 
 \[Omitted image "now-assist-itsm-sidebar-discuss.png"\] Alt text: A discussion summary in the Sidebar window.
 

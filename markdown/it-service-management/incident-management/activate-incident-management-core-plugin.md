@@ -7,7 +7,7 @@ release: xanadu
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---

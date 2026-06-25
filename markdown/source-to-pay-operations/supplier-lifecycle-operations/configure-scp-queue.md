@@ -40,7 +40,7 @@ Role required: admin
 
 6.  In the Max Wait Time field, enter the maximum amount of time within which all available agents have to accept or reject a chat request.
 
-    After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in Agent Chat settings.
+    After time runs out, the requester receives the value in either the **Max wait time message** field or the **No Agents Available Message** field defined in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
     **Note:** The **Max Wait Time** field is available after you associate the queue to the chat service channel.
 

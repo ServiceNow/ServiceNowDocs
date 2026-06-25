@@ -19,7 +19,7 @@ Users can request an item, such as a mobile phone. The user can then provide mor
 
 \[Omitted image "create-new-email-in-chat.png"\] Alt text: User asks for a new email. Virtual Agent matches this request with a catalog item and presents it to the user.
 
-For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
+For more information, see .
 
 **Parent Topic:**[Now Assist conversational experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-platform-conv-experience.md)
 

@@ -17,7 +17,7 @@ App generation enables developers to kick start application building through con
 
 The app generation skill lets your developers begin creating applications through a natural conversation with generative AI. They can describe their business process and engage in a back-and-forth conversation with Now Assist to develop an application for your organization. With this feature, your organization can expedite the initial development of a basic app that can then be customized.
 
-**Note:** Your administrators and developers must be assigned with the admin and now.assist.creator roles to use app generation. For more information about using app generation, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md) \(Xanadu Store Release 2\) or [Generate apps with Now Assist for Creator for use with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/app-engine-studio/generate-apps-from-prompts.md) \(Xanadu Store Release 1\).
+**Note:** Your administrators and developers must be assigned with the admin and now.assist.creator roles to use app generation. For more information about using app generation, see  \(Xanadu Store Release 2\) or  \(Xanadu Store Release 1\).
 
 \[Omitted image "app-generation-explore-beginning.png"\] Alt text: App generation conversation beginning in the Now Assist panel.
 
@@ -38,7 +38,7 @@ The app generation skill lets your developers begin creating applications throug
     Developers verify everything that is generated in ServiceNow Studio. The developer can modify the app to make it suit your organization's needs. For example, the application's functionality can be extended by adding flows and automation, script includes, business rules, and other features.
 
 
-For more information, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
+For more information, see .
 
 In Xanadu Store Release 1, there are three distinct phases to building apps with Now Assist for Creator using the app generation skill and a fourth phase to verify the app in App Engine Studio.
 
@@ -61,7 +61,7 @@ In Xanadu Store Release 1, there are three distinct phases to building apps with
     Developers verify everything that is generated in App Engine Studio. The developer can modify the app to make it suit your organization's needs. For example, the application's functionality can be extended by adding flows and automation, script includes, business rules, and other features.
 
 
-For more information, see [Now Assist for app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/application-development/app-engine-studio/now-assist-app-landing.md).
+For more information, see .
 
 ## Availability
 

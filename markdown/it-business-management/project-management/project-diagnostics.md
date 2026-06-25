@@ -7,7 +7,7 @@ release: xanadu
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Project Diagnostics can also detect whether date calculations in a project appea
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d101295e55">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d101307e55">
 
 Scope
 
-</th><th align="left" id="d101295e58">
+</th><th align="left" id="d101307e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101295e64">
+</th></tr></thead><tbody><tr><td id="d101307e64">
 
 **All Projects**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d101295e85">
+</td></tr><tr><td id="d101307e85">
 
 **Single Project**
 
@@ -62,15 +62,15 @@ Navigate to **Project Administration** &gt; **Project Diagnostics**.
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d101295e145">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d101307e145">
 
 Task
 
-</th><th align="left" id="d101295e148">
+</th><th align="left" id="d101307e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101295e154">
+</th></tr></thead><tbody><tr><td id="d101307e154">
 
 **Run multiple diagnostic scans**
 
@@ -80,7 +80,7 @@ Steps
 2.  Click **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d101295e175">
+</td></tr><tr><td id="d101307e175">
 
 **Run a specific diagnostic scan**
 

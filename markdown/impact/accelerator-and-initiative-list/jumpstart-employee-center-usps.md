@@ -18,7 +18,7 @@ This accelerator includes a demonstration of the possibilities and capabilities 
 
 ## Overview
 
-The Jumpstart Your Employee Center Accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+The Jumpstart Your Employee Center Accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

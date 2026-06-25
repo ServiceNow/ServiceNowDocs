@@ -40,7 +40,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 4.  You can perform the following additional actions on this read-only screen.
 
-<table id="choicetable_a2c_l1c_wvb"><tbody><tr><td id="d206543e178">
+<table id="choicetable_a2c_l1c_wvb"><tbody><tr><td id="d206554e178">
 
 **Navigation overview controls**
 
@@ -51,7 +51,7 @@ Select the **Overview toggle** icon \(\[Omitted image "icn-us2-schemaview-overvi
 -   Select the **Zoom out** icon \( \[Omitted image "icn-us2-schemaview-zout.png"\] Alt text: Zoom out icon.\) to zoom out.
 
 
-</td></tr><tr><td id="d206543e225">
+</td></tr><tr><td id="d206554e225">
 
 **Show / hide table fields**
 
@@ -59,7 +59,7 @@ Select the **Overview toggle** icon \(\[Omitted image "icn-us2-schemaview-overvi
 
 The **Expand tables** toggle is toggled on by default to show all the fields within the displayed schema tables. To hide the fields within the displayed schema tables, select **Expand tables** to toggle it off.
 
-</td></tr><tr><td id="d206543e240">
+</td></tr><tr><td id="d206554e240">
 
 **Show / hide tables**
 
@@ -67,7 +67,7 @@ The **Expand tables** toggle is toggled on by default to show all the fields wit
 
 Use the **Items selected** menu to view a list of application and non-application tables that are displayed in the schema diagram. You can select the table name to remove the selection checkmark, which hides the table from displaying in the diagram. To show the table, select the table name again to toggle the checkmark back on.
 
-</td></tr><tr><td id="d206543e252">
+</td></tr><tr><td id="d206554e252">
 
 **Set field options**
 
@@ -77,7 +77,7 @@ Use the **Field options** menu to control how fields display in the schema diagr
 -   Select **Field type** to show the type of field for each field displayed in the schema tables.
 
 
-</td></tr><tr><td id="d206543e278">
+</td></tr><tr><td id="d206554e278">
 
 **Group fields**
 
@@ -89,7 +89,7 @@ Use the **Group fields by** menu to group fields within the displayed tables \(e
 -   Type
 
 
-</td></tr><tr><td id="d206543e305">
+</td></tr><tr><td id="d206554e305">
 
 **Sort fields**
 
@@ -99,7 +99,7 @@ Use the **Sort fields** menu to sort fields within the displayed tables. Choose 
 -   Alphabetically \(Z to A\)
 
 
-</td></tr><tr><td id="d206543e325">
+</td></tr><tr><td id="d206554e325">
 
 **View legends**
 
@@ -107,7 +107,7 @@ Use the **Sort fields** menu to sort fields within the displayed tables. Choose 
 
 Select **View legends** to view information for interpreting the displayed schema diagram.
 
-</td></tr><tr><td id="d206543e337">
+</td></tr><tr><td id="d206554e337">
 
 **Table-specific options**
 
@@ -115,7 +115,7 @@ Select **View legends** to view information for interpreting the displayed schem
 
 Select the **Additional options** icon \(\[Omitted image "icn-us2-schemaview-addloption.png"\] Alt text: Additional options icon.\) for a table to control how fields in the selected table are displayed, grouped, and/or sorted similar to the top-level options described above.
 
-</td></tr><tr><td id="d206543e355">
+</td></tr><tr><td id="d206554e355">
 
 **View in Table Builder**
 

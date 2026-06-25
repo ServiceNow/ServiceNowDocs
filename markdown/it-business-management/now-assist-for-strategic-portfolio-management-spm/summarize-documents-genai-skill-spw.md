@@ -33,15 +33,15 @@ Minimize the time that you spend reading documents, meeting notes, project repor
 
 2.  From the **Docs** tab, perform one of these actions according to your requirements.
 
-<table id="choicetable_iwk_4nw_1dc"><thead><tr><th align="left" id="d79393e104">
+<table id="choicetable_iwk_4nw_1dc"><thead><tr><th align="left" id="d79405e104">
 
 Gen AI actions
 
-</th><th align="left" id="d79393e107">
+</th><th align="left" id="d79405e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d79393e113">
+</th></tr></thead><tbody><tr><td id="d79405e113">
 
 **Summarize**
 
@@ -57,7 +57,7 @@ Summarize the selected text from the **Docs** tab:
 2.  Select **Done**.
 
 
-</td></tr><tr><td id="d79393e162">
+</td></tr><tr><td id="d79405e162">
 
 **Elaborate**
 
@@ -65,7 +65,7 @@ Summarize the selected text from the **Docs** tab:
 
 Elaborate the selected text by selecting **Elaborate**.
 
-</td></tr><tr><td id="d79393e174">
+</td></tr><tr><td id="d79405e174">
 
 **Shorten**
 
@@ -73,7 +73,7 @@ Elaborate the selected text by selecting **Elaborate**.
 
 Shorten the selected text by selecting **Shorten**.
 
-</td></tr><tr><td id="d79393e186">
+</td></tr><tr><td id="d79405e186">
 
 **Insert below**
 
@@ -86,15 +86,15 @@ Add the generated summary after the selected content by selecting **Insert below
 
 3.  When you're finished summarizing the content in Docs, you can provide feedback, copy, or view information about it.
 
-<table id="choicetable_q5t_p5h_1dc"><thead><tr><th align="left" id="d79393e213">
+<table id="choicetable_q5t_p5h_1dc"><thead><tr><th align="left" id="d79405e213">
 
 Option
 
-</th><th align="left" id="d79393e216">
+</th><th align="left" id="d79405e216">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d79393e222">
+</th></tr></thead><tbody><tr><td id="d79405e222">
 
 **Provide feedback for the summary**
 
@@ -102,7 +102,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d79393e245">
+</td></tr><tr><td id="d79405e245">
 
 **More information on summary**
 
@@ -110,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d79393e260">
+</td></tr><tr><td id="d79405e260">
 
 **Copy the Docs summary**
 

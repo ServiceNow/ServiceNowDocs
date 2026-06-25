@@ -55,5 +55,5 @@ If the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) has been installe
 **Related topics**  
 
 
-[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/platform-administration/r_AvailableSystemProperties.md)
 

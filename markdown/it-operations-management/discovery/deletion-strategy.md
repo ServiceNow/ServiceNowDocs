@@ -7,7 +7,7 @@ release: xanadu
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
 ---

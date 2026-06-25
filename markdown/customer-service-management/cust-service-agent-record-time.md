@@ -28,7 +28,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 1.  To record time worked from a Case form or Case Task form.
 
-<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d95422e84">
+<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d95425e84">
 
 **Platform interface**
 
@@ -36,7 +36,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 Navigate to a case or task and click **Record Time**.
 
-</td></tr><tr><td id="d95422e96">
+</td></tr><tr><td id="d95425e96">
 
 **Agent Workspace**
 
@@ -65,7 +65,7 @@ Navigate to a case or task, click the more UI actions icon \(\[Omitted image "ag
 
 7.  Click one of the following actions.
 
-<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d95422e214">
+<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d95425e214">
 
 **Platform interface**
 
@@ -73,7 +73,7 @@ Navigate to a case or task, click the more UI actions icon \(\[Omitted image "ag
 
 Click **Submit**.
 
-</td></tr><tr><td id="d95422e226">
+</td></tr><tr><td id="d95425e226">
 
 **Agent Workspace**
 
