@@ -1,6 +1,6 @@
 ---
-title: Create an AI connection for Copilot Studio
-description: Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+title: Create an AI connection for Copilot Studio \(v2.3\)
+description: Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.3\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-copilot.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Create an AI connection for Copilot Studio
+# Create an AI connection for Copilot Studio \(v2.3\)
 
-Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+Create an AI connection for Copilot in AI Control Tower using the  AI Service Graph Connector for Microsoft \(version 2.3\).
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 2.  Click **Add**.
 
-3.  Select **AI connector for Microsoft** from all the available connectors.
+3.  Select **AI connector for Microsoft** from the available connectors.
 
 4.  Click **Create connection**.
 
@@ -44,9 +44,9 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     1.  Enter the **Connection name**
 
-    2.  Enter the **Environment IDs**
+    2.  Enter the **Environment URLs** \(example: https://org55f16a5d.crm.dynamics.com\)
 
-        **Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
+        **Note:** You can obtain the Environment URL from Settings &gt; Session details &gt; Instance URL in your environment.
 
     3.  Enter the **OAuth client ID**
 
@@ -62,13 +62,13 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped base system inactive
 
-        Ensure to execute the Discovery-scheduled job first.
+        **Note:** Ensure to execute the Discovery-scheduled job first.
 
     2.  Set the run frequency.
 
-    3.  To run frequency by demand, select Execute now to run
-
         **Note:** This is an optional step as the schedule imports run according to the schedule.
+
+    3.  To run frequency by demand, select Execute now to run
 
     4.  Select **Continue**
 
@@ -76,6 +76,8 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Copilot Studio is created and configured.
 

@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Migrate NLU topics to LLM topics
@@ -105,17 +105,17 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
 9.  Choose one of the following scenarios.
 
-    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
-<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d126399e504">
+<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d126824e504">
 
 Option
 
-</th><th align="left" id="d126399e507">
+</th><th align="left" id="d126824e507">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126399e513">
+</th></tr></thead><tbody><tr><td id="d126824e513">
 
 **Edit topic description**
 
@@ -130,7 +130,7 @@ All topic descriptions, either migrated from the existing NLU topic description 
 4.  Repeat this process until all topic descriptions are reviewed and edited.
 
 
-</td></tr><tr><td id="d126399e545">
+</td></tr><tr><td id="d126824e545">
 
 **Edit topic description and test utterances**
 

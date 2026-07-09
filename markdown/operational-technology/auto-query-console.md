@@ -56,16 +56,13 @@ The **Actions** button is a drop-down menu that includes the following options.
     -   Exec Time
 -   **Select Multiple**: Opens check boxes by each query in the list. You can check a box and the **Delete Selected** option is activated. This option deletes the selected queries. To turn off this option, select the **Actions** button again and select **Cancel Select Multiple**.
 
-    \[Omitted image "cancel-multiples-action-menu.png"\] Alt text: Cancel multiple deletion
+    \[Omitted image "cancel-multiples-action-menu.png"\] Alt text: Cancel Select Multiples
 
 -   **Create Default Auto Queries**: There are 5 default queries to choose from. Selecting this option opens the Create Auto Queries window. Select from the following default auto queries:
-
     -   **Console Hostname Lookup**: Reverses the DNS look up performed by Console.
     -   **Asset ICS Discovery**: Finds the ICS assets based on common open ports and queries using native protocols.
     -   **Location Set**: Sets a label and a location field using the Site name.
     -   **SNMP**: Queries to discover SNMP service. This tries only the SNMP port.
     -   **OS Detection**: Use with caution, especially in production environments. This query can disrupt or crash poorly configured or sensitive assets. Queries Linux / Windows endpoint for any discoverable services.
-    \[Omitted image "default-auto-queries-new.png"\] Alt text: Create default auto queries
-
 -   **Quick Scans**: When selected, this selection displays a list of any current Quick Scans. You can create a Quick Scan by selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:. Set the parameters of the Quick Scan in the Create Quick Scan page. Quick Scans are meant to run quickly and only once. Quick Scan targets can be assets selected by their URLs, IP Addresses, or IP ranges. See [Create a Quick Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-quick-scan.md) for more information on Quick Scans.
 

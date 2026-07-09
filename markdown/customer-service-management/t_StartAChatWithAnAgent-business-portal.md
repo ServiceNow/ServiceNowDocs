@@ -33,3 +33,10 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the business portal. To display the case list, select **Requests** &gt; **View submitted requests** &gt; **View cases &amp; tasks**.
 
+**Related topics**  
+
+
+[Get help using virtual agent conversations from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-portal-virtual-agent-conversation.md)
+
+[Create a product case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFrom-businessportal.md)
+

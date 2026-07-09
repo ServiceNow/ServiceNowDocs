@@ -60,16 +60,19 @@ For more information about extending a class and how attributes are derived from
 
         -   **Suggested Relationships**: Shows a diagram of all suggested relationships for the class, and lets you delete or add suggested relationships for the class. Use the navigation tools to increase or decrease the diagram, and to move the diagram on the page. Use the filter to show specific relationship types. See [Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md) for more information.
 
-            Role required: sn\_cmdb\_editor or itil.
+            Role required: sn\_cmdb\_editor or itil for reading, and sn\_cmdb\_admin or itil\_admin for writing
 
     -   **All Relationship Rules**: Shows a combined diagram of all suggested relationships and all dependent relationships for the class. Use the navigation tools to zoom in or out, and to move or center the diagram on the page. Use the filter to show specific relationship categories.
+
+        Role required: itil, itil\_admin, sn\_cmdb\_editor, or sn\_cmdb\_admin have reading access.
+
     -   **Health**: Lets you review and configure CMDB Health-related system properties, scorecards, and rules and settings for all CMDB health KPI and metrics, at the class level. See [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md) for information about enabling and configuring CMDB Health, and showing health reports.
 
         Role required: sn\_cmdb\_editor or itil for reading, and sn\_cmdb\_admin or itil\_admin \(on top\) for writing.
 
     -   **CI List**: Shows the CIs of the selected class. Lets you create CIs of the selected class and perform other operations such as delete.
 
-        Role required: sn\_cmdb\_editor or Itil for reading. Writing requirements follow the selected table settings.
+        Role required: itil, itil\_admin, sn\_cmdb\_editor, or sn\_cmdb\_admin can add new CIs.
 
 
 **Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
@@ -89,7 +92,7 @@ For more information about extending a class and how attributes are derived from
 
 [Delete CIs]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 
 [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIcons.md)
 

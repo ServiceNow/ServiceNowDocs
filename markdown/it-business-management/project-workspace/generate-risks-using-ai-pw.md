@@ -1,5 +1,5 @@
 ---
-title: Generate, accept, and reject risks using risk generation skill
+title: Generate, accept, and reject risks
 description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-risks-using-ai-pw.html
@@ -9,10 +9,10 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-04-20"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate, accept, and reject risks using risk generation skill
+# Generate, accept, and reject risks
 
 Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 
@@ -38,12 +38,12 @@ If no risks are identified during generation or regeneration, the AI Identified 
 
 2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
 
-3.  Select **AI Identified Risks** from the navigation menu.
+3.  Navigate to **RIDAC** &gt; **AI-Identified Risks**from the navigation menu.
 
 4.  Review the AI-suggested risks in the list and perform one of these actions:
 
     -   Regenerate: When you select regenerate option, the risk is generated again and added to the AI identified risks list. AI-generated risks appear in AI draft state.
-    -   Accept: When you accept a risk, the approved risk appear in the RIDAC list and its state moves from AI Draft to Pending.
+    -   Accept: When you accept a risk, the approved risk appear in the All RIDAC page and its state moves from AI Draft to Pending.
     -   Reject: When you reject a risk, the rejected risk is removed or hided from the AI identified risks list and its state moves to Closed skipped.
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 
@@ -52,5 +52,5 @@ If no risks are identified during generation or regeneration, the AI Identified 
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks to navigate directly to the related record.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
 

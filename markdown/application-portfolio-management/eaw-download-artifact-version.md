@@ -60,7 +60,7 @@ Downloading and storing different versions of architectural artifacts helps in m
 
 [eaw-add-an-architectural-artifact-version]
 
-[Request approval for an architectural artifact of type URL or Attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
+[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
 
 [Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)
 

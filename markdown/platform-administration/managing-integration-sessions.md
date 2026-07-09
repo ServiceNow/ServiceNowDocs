@@ -30,6 +30,8 @@ Role required: admin
 
 By default, sessions expire only after a period of inactivity. Enforcing a maximum active session time ends sessions regardless of if an integration has been active recently. The active session timeout should be greater than the value configured for the inactive session timeout. For example, if sessions are configured to time out after 30 minutes of inactivity, the active session timeout should be greater than 30 minutes.
 
+**Note:** Sharing a single service account across integrations and applications can prevent the system from enforcing maximum active session times. To resolve issues that keep sessions active, see the [Resolving Extended Session Duration and Performance Issues with Shared Service Accounts \[KB1770913\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1770913) article in the Now Support Knowledge Base.
+
 ### Procedure
 
 1.  In the navigation filter, enter `sys_properties.list`.

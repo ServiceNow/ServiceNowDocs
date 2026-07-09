@@ -9,18 +9,18 @@ classification: authentication
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Authorization code grant
 
 The OAuth authorization code grant is a secure and widely used flow for web, mobile, or desktop apps that access user data with user consent. It supports both private clients \(using a client secret\), and public clients \(using PKCE\).
 
-In this flow, ServiceNow functions as both the authorization server \(handling user authentication and token issuance\) and the resource server \(hosting the APIs\). If SSO is enabled, ServiceNow redirects the user to the configured Identity Provider \(IdP\) for authentication. After the IdP successfully authenticates the user, control returns to ServiceNow, which then issues the authorization code. This process ensures that even with external authentication, ServiceNow remains the authority for issuing tokens and managing API access.
+In this flow, ServiceNow functions as both the authorization server \(handling user authentication and token issuance\) and the resource server \(hosting the APIs\). If SSO is enabled, ServiceNow redirects the user to the configured Identity Provider \(IdP\) for authentication. After the IdP successfully authenticates the user, control returns to ServiceNow, which then issues the authorization code. This process verifies that even with external authentication, ServiceNow remains the authority for issuing tokens and managing API access.
 
 -   **Ideal for:**
 
-    Applications that need to access user data on behalf of user with the user’s consent.
+    Applications that needs access to user's data on behalf of user with their consent.
 
 -   **How it works:**
 

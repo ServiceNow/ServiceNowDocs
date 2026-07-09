@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
@@ -17,6 +17,10 @@ Create a case about a question or issue on a product from the business portal.
 ## Before you begin
 
 Role required: sn\_customerservice.customer, sn\_customerservice.partner, sn\_customerservice.customer\_admin, or sn\_customerservice.partner\_admin, sn\_acct\_consumer.consumer
+
+## About this task
+
+Use the Business Portal to submit a product case when you need support from a customer service agent. The portal guides you through a structured form that captures the details needed to route the case correctly. If you start entering a subject, the portal searches configured knowledge bases and displays related content that may resolve your issue before submission.
 
 ## Procedure
 
@@ -113,4 +117,11 @@ A detailed description of the customer question, issue, or problem.
 ## Result
 
 The case is created, assigned a case number, and added to the creator's case list. To view this list, navigate to **Requests** &gt; **View Submitted requests** &gt; **View Cases and tasks** tab on the business portal header and select **All Cases** in the left pane.
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+
+[Chat with an agent from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_StartAChatWithAnAgent-business-portal.md)
 

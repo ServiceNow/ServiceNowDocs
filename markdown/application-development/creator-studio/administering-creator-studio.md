@@ -17,6 +17,8 @@ breadcrumb: [Creator Studio, Building no-code applications, Developing your appl
 
 Admins have special privileges to approve and update tasks in Creator Studio that regular users can't.
 
+As a Creator Studio administrator, you manage the processes that keep app development running smoothly on your instance. Admin tasks include approving app creation requests, managing collaborators, configuring forms and activities, and deploying apps to production.
+
 Some of the things that admins can do for Creator Studio include the following:
 
 -   Create apps for people who don't have permission.

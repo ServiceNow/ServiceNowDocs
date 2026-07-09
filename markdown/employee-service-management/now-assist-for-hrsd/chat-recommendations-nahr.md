@@ -31,7 +31,7 @@ You can do these actions by using the Now Assist icon:
 
 **Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin. To learn how to activate this skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -47,15 +47,15 @@ You can do these actions by using the Now Assist icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d403821e189">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d404882e186">
 
 Chat message window
 
-</th><th align="left" id="d403821e192">
+</th><th align="left" id="d404882e189">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d403821e200">
+</th></tr></thead><tbody><tr><td id="d404882e197">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d403821e220">
+</td></tr><tr><td id="d404882e217">
 
 **Left blank**
 

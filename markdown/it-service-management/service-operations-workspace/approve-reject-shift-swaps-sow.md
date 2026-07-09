@@ -1,6 +1,6 @@
 ---
 title: Approve or reject a shift-swap in Service Operations Workspace
-description: You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
+description: You can approve a shift swap requested by your peer if you're available to work for that time period. You can reject it if you're unable to work then.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/approve-reject-shift-swaps-sow.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization f
 
 # Approve or reject a shift-swap in Service Operations Workspace
 
-You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
+You can approve a shift swap requested by your peer if you're available to work for that time period. You can reject it if you're unable to work then.
 
 ## Before you begin
 
@@ -24,16 +24,16 @@ Role required: sn\_shift\_planning.agent
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Schedule icon.
+2.  Select the **Schedule** \(\[Omitted image "sow-schedule-icon.png"\]\) icon.
 
-3.  Click the **Shift Approvals** tab.
+3.  Select the **Shift Approvals** tab.
 
 4.  Select the request you want to approve or reject.
 
 5.  Review the details of the shift swap request and do one of the following:
 
-    -   To approve the request, click **Approve**.
-    -   To reject the request, click **Reject**.
+    -   To approve the request, select **Approve**.
+    -   To reject the request, select **Reject**.
     If you approve a shift-swap, the application moves the request to your manager's approval queue. For more information, go to [Track and manage your teams' schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-time-off-shift-swaps-wfo-itsm.md).
 
 

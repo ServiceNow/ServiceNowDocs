@@ -5,7 +5,7 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-dashboards.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Use, Customer Success Management]
 ---
@@ -17,7 +17,7 @@ Monitor engagement health, portfolio performance, and risk trends using the cust
 Customer success dashboards provide visibility into your engagement portfolio. Use the available dashboards to track key metrics, identify accounts that need attention, and analyze trends across your customer base.
 
 -   **[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report-overview.md)**  
-The success report dashboard enables customer success managers to oversee and manage the overall customer portfolio.
+The success report dashboard helps customer success managers manage the overall customer portfolio.
 -   **[Success portfolio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-landing.md)**  
 Get an overall view of your success portfolio including your engagements, account status, escalations, and risks.
 -   **[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)**  

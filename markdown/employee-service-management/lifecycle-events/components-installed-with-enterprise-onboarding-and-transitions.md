@@ -193,7 +193,7 @@ Details of an activity field mapping that pass information from the parent life 
 
 </td></tr><tr><td>
 
-Activity Set\[sn\_hr\_le\_activity set\]
+Activity Set\[sn\_hr\_le\_activity\_set\]
 
 </td><td>
 

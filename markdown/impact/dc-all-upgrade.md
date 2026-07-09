@@ -19,3 +19,5 @@ Since users might change artifacts within this app \(for example, indicator, ind
 -   Accept the customizations.
 -   Revert the customizations back to the base system, and then reapply them.
 
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+

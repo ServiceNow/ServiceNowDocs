@@ -1,5 +1,5 @@
 ---
-title: Add business application lifecycle data using the bubble chart
+title: Add business application lifecycle data using bubble chart
 description: Create or edit the life cycle of a business application to manage the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-application-lifecycle-data.html
@@ -10,13 +10,13 @@ reading_time_minutes: 2
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add business application lifecycle data using the bubble chart
+# Add business application lifecycle data using bubble chart
 
 Create or edit the life cycle of a business application to manage the business application.
 
 ## Before you begin
 
-The application model \(field name: Model ID\) is required to create an application model lifecycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Run a scheduled job to generate an application model for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-gen-model-id-ba.md).
+The application model \(field name: Model ID\) is required to create an application model lifecycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Generate an application model for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-gen-model-id-ba.md).
 
 Role required: sn\_apm.apm\_analyst
 
@@ -30,15 +30,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the bubble for the relevant application that you want to add business application life-cycle data for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d76802e111">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d77075e111">
 
 Bubble type
 
-</th><th align="left" id="d76802e114">
+</th><th align="left" id="d77075e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d76802e120">
+</th></tr></thead><tbody><tr><td id="d77075e120">
 
 **Single bubble**
 
@@ -49,7 +49,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-add-lifecycle-data.png"\] Alt text: Add lifecycle data button highlighted.
 
-</td></tr><tr><td id="d76802e158">
+</td></tr><tr><td id="d77075e158">
 
 **Grouped bubble**
 

@@ -1,6 +1,6 @@
 ---
-title: Request Accelerators and Initiatives for Impact Store Application
-description: From Impact Store application, request a designated number of concurrent Impact Accelerators according to your subscription and complete the setup.
+title: Request an Accelerator
+description: You can request a designated number of concurrent Impact Accelerators according to your subscription and complete the setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/accelerators.html
 release: australia
@@ -9,22 +9,22 @@ classification: accelerator-and-initiative-list
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Accelerator request, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Request Accelerators and Initiatives for Impact Store Application
+# Request an Accelerator
 
-From Impact Store application, request a designated number of concurrent Impact Accelerators according to your subscription and complete the setup.
+You can request a designated number of concurrent Impact Accelerators according to your subscription and complete the setup.
 
 ## Before you begin
 
 For details on available Accelerators, refer to the [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md).
 
-Role required: impact app admin, or impact platform owner, or impact portfolio owner
+Role required: Impact app admin, or Impact platform owner, or Impact portfolio owner
 
 ## About this task
 
-Both the Accelerators and the Initiatives in the Impact Store App follow a similar procedure for requesting and monitoring the progress.
+Accelerators and Initiatives follow a similar procedure for requesting and monitoring the progress.
 
 ## Procedure
 
@@ -40,9 +40,9 @@ Both the Accelerators and the Initiatives in the Impact Store App follow a simil
 
 5.  Select **View terms and conditions for this Accelerator** to understand the terms in the **Consent Provided** section.
 
-    If you have granted consent for an Accelerator once, the terms and conditions for the Accelerator appears as accepted.
+    If you have granted consent for an Accelerator once, the terms and conditions for the Accelerator appear as accepted.
 
-    If you have not granted consent for an Accelerator so far, you need to accept the terms and conditions from the **Manage Permissions** menu in the Impact IDE. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/grant-ide-permissions.md) for more information.
+    If you have not granted consent for an Accelerator, you need to accept the terms and conditions from the **Manage Permissions** menu in the Impact IDE. See [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/grant-ide-permissions.md) for more information.
 
     If you need time to decide, select **Revoke**. Your request doesn’t move forward.
 
@@ -88,7 +88,7 @@ Both the Accelerators and the Initiatives in the Impact Store App follow a simil
 
 ## What to do next
 
-You might want to request an initiative by following similar on-screen guidance.
+You can request an Initiative following similar on-screen guidance.
 
-If you use IDI, see [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/request-accelerator.md) to request an Accelerator.
+If you use IDI, see [Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/request-accelerator.md) to request an Accelerator.
 

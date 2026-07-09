@@ -14,7 +14,7 @@ breadcrumb: [Governing the Data Catalog, Data Catalog, Workflow Data Fabric]
 
 Create tags that can be applied to data assets for classification and categorization.
 
-Create and manage catalog tags 
+\[Omitted video\] Description: Create and manage catalog tags
 
 ## Before you begin
 

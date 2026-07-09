@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/data-model-for-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Data model for Partner Relationship Management
@@ -81,7 +81,7 @@ Create records in the program segment criteria \(sn\_prm\_program\_segment\_crit
 -   **[Configure Program Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-program-criteria.md)**  
 Establish a mapping between the partner program \(sn\_prm\_partner\_program\_relationship\) table and the entity criteria \(sn\_req\_criteria\_customer\_condition\) table.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

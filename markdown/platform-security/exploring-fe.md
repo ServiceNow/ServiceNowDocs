@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-fe.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-17"
-reading_time_minutes: 3
+last_updated: "2026-06-26"
+reading_time_minutes: 4
 breadcrumb: [Field Encryption, Encryption]
 ---
 
@@ -261,6 +261,14 @@ Changes to fields encrypted with Field Encryption are not tracked in the activit
 ## Encryption on system tables
 
 Field Encryption currently doesn’t support the encryption of fields and attachments of system tables \(tables that begin with sys\_\).
+
+## Cloning considerations
+
+When you clone an instance that uses Field Encryption, the encrypted field data and encryption modules are copied to the target instance. Because encryption keys are re-encrypted with a secondary key that is unique to the source instance, the target instance can't decrypt the field data after cloning.
+
+Until a key exchange is performed, encrypted fields on the cloned instance appear empty or unreadable. This is expected behavior and does not indicate data corruption or loss.
+
+To restore access to encrypted fields on the target instance, complete a key exchange from the source instance. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-exchange.md).
 
 ## What to explore next
 

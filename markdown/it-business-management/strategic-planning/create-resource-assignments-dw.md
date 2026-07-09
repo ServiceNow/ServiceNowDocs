@@ -1,5 +1,5 @@
 ---
-title: Create and manage resource assignments
+title: Create resource assignments
 description: Create and manage resource assignments for a demand to find the availability of the resources and allocate them to the demand tasks. Effective resource assignment ensures that demands are adequately staffed and helps demand managers track resource availability and utilization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-resource-assignments-dw.html
@@ -9,10 +9,10 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create and manage resource assignments
+# Create resource assignments
 
 Create and manage resource assignments for a demand to find the availability of the resources and allocate them to the demand tasks. Effective resource assignment ensures that demands are adequately staffed and helps demand managers track resource availability and utilization.
 
@@ -45,16 +45,14 @@ Role required: it\_demand\_manager
     **Note:**
 
     -   To delete a resource assignment record, select the record and select **Delete** from the More Actions option.
-    -   Alternatively, you can create, edit, or delete resource assignment records using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+    -   Alternatively, you can create, edit, or delete resource assignment records using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
     After completing your work on the resource assignment record, use the breadcrumb navigation to return to the **Resource Assignments** tab.
 
 
 **Related topics**  
 
 
-[Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
 [Create resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-resource-assignment-form-dw.md)
 

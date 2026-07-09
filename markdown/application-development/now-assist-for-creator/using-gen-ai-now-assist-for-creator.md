@@ -52,7 +52,7 @@ Select the next component in your flow from a list of AI-generated recommendatio
 -   **[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-summarization-landing.md)**  
 Summarize what a flow or subflow does by using generative AI.
 -   **[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)**  
-Use Now Assist to generate a playbook from text or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 -   **[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations-landing.md)**  
 Get AI-generated placeholder activities based on an activity's name and description.
 -   **[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)**  

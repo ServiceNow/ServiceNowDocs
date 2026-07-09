@@ -26,7 +26,7 @@ Time to complete this task: 5 minutes.
 
 ## Procedure
 
-1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(\[Omitted image "grc-filter-image.png"\] Alt text: Filter icon.\).
+1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\).
 
 2.  With the Filters screen displayed, tap a field to expand it.
 

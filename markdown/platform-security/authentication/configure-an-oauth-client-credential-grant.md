@@ -8,8 +8,8 @@ product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Client Credentials Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+reading_time_minutes: 1
+breadcrumb: [Client Credentials Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth Client credential grant
@@ -22,9 +22,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 ## Procedure
 
-1.  Navigate to **Machine Identity Console** &gt; **** &gt; **Inbound integrations** &gt; **** &gt; **New integration** &gt; **OAuth Client credential grant**.
-
-    The OAuth Client credential configuration page appears.
+1.  Navigate to **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration** &gt; **OAuth - Client credential grant**.
 
 2.  Update the text fields in the Details form with the appropriate information.
 
@@ -68,22 +66,36 @@ The unique ID assigned to identify the application.
 
 The secret key that only the application and the authorization server can identify. The application uses this key to authenticate and obtain access tokens.
 
+</td></tr><tr><td>
+
+**Comments**
+
+</td><td>
+
+Add any notes about this configuration.
+
+</td></tr><tr><td>
+
+**Active**
+
+</td><td>
+
+Select to use for authentication and authorization requests; when unselected, the record is saved but remains inactive and will not process any requests.
+
 </td></tr></tbody>
-</table>    Select the **Active** check box.
+</table>3.  Perform the following steps to add auth scope to the configuration:
 
-3.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
+    1.  Select **Create auth scope** if you want to define a new scope.
 
-4.  Update the text fields in the **Auth scope \(optional\)** form with the appropriate information.
+    2.  Select a scope from the **Auth scope** drop-down.
 
-    The authentication scope defines the level of access an application has to a resource. Select the authentication scope for the specific REST APIs you want to access.
+    3.  Enter API names in **Limit authorization to the following APIs** to narrow access.
 
-    |Field|Description|
-    |-----|-----------|
-    |**Auth scope**|The level of access an application has to a resource. The authentication scope restricts the actions that an access token can perform on APIs or data.|
-    |**Limit authorization**|The names of the APIs for which you want to restrict authorization.|
-    |**Allow access only to APIs in selected scope**|Enable the option for the integration to only access APIs that are explicitly listed in the selected scopes.|
+    4.  Use **+ Add another row** to assign additional scopes to your configuration.
 
-    1.  Select **Create new auth scope** to add a new auth scope.
+4.  Select **Allow access only to APIs in selected scope** in the Scope validation settings to restricts access to listed scopes only.
+
+    **Note:** You can choose not to select **Set Allow access only to APIs in selected scope** for broader access permitted by user controls and API policies.
 
 5.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
 
@@ -97,7 +109,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enforce token restriction
+**Enforce token restriction**
 
 </td><td>
 
@@ -105,7 +117,7 @@ The Enforce token restriction option limits the client to accessing only the API
 
 </td></tr><tr><td>
 
-Token Format
+**Token Format**
 
 </td><td>
 
@@ -114,7 +126,7 @@ Format of token to generate. Options: -   JWT
 **Note:**
 
 -   The jwks url is available in the location: `api/now/oauth/jwks`.
--   The rotated \(inactive keys\) from jwks response after is removed after 105 days default.
+-   The rotated \(inactive keys\) from jwks response is removed after 105 days default.
 
 
 </td></tr><tr><td>
@@ -129,7 +141,5 @@ Duration \(in seconds\) for which the OAuth access token remains valid before it
 </table>6.  Select **Save**.
 
     A new OAuth Client credential grant is created.
-
-7.  Go to **All** &gt; **Inbound integrations** &gt; **Application Registries** to view the newly created client credential grant.
 
 

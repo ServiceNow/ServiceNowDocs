@@ -26,8 +26,6 @@ You can select the Assessments list option in the Control attestations list of t
 
     The home page for the compliance manager is updated with the Attestations widget. The existing attestation widget has been renamed as Classic attestations that has the data of the completed attestations for the control when the attestation method was Classic attestation.
 
-    \[Omitted image "smart-assessments-comp-manager.png"\] Alt text: Compliance home page for the compliance manager.
-
 -   **Compliance Home page for the compliance analyst**
 
     Similarly, the home page for the compliance analyst is updated with the Attestations widget. The existing attestation widget has been renamed as Classic attestations and has the data of the completed attestations for the control when its attestation method was Classic attestation.

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-04-21"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Product Catalog Management and Pricing Management release notes
@@ -14,6 +14,7 @@ The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog
 
 ## Product Catalog Management and Pricing Management highlights for the Australia release
 
+-   Use the Product Catalog Search API to enable external integrations to query the product catalog.
 -   In the Sales CRM Pricing API, support pricing requests using custom external IDs or codes for objects such as product offerings, price lists, and unit of measure instead of ServiceNow sys\_ids.
 -   Support pricing calculations for renewals of products with price and quantity ramps.
 -   Provide visibility into how the final price for a derived product is determined using adjustment records.
@@ -27,9 +28,15 @@ See [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/Se
 
 ## Important information for upgrading Product Catalog Management and Pricing Management to Australia
 
-Pricing Management v16.0.0 provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to Pricing Management v16.0.0, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+Pricing Management provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to a new version of Pricing Management, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+
+If you've been using AI Search for product catalog in a previous release, after upgrading to Product Catalog Management Core v.19.0.0, republish the stop word dictionary, search profiles, and index tables used by AI Search. To republish, run the **Scheduled job to publish stop words dictionary, search profiles and index tables**. Republishing includes the changes for multilingual support of product catalog entities introduced in the v.19.0.0 release.
 
 ## New in the Australia release
+
+-   ****
+
+    Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
 
 -   **[Multilingual support for product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-multilingual-support.md)**
 
@@ -69,6 +76,10 @@ Pricing Management v16.0.0 provides a default pricing plan that includes changes
 
 ## Changed in this release
 
+-   **Domain separation support**
+
+    Starting with Product Catalog Management Core v19.1.0, all product catalog tables support the basic level of domain separation.
+
 -   **[Product catalog interface enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)**
 
     Quickly identify products with derived pricing through product tiles that display a message stating that the product price varies. Pricing is calculated and updated automatically based on selections made.
@@ -103,11 +114,11 @@ The Product Catalog Management and Pricing Management features are included with
 
 ## Related ServiceNow applications and features
 
--   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
+-   **[ServiceNow CPQ Configurator - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions such as quotes and orders.
 
--   **[Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md)**
+-   ****
 
     The Quote Management application enables sales teams to create, configure, and manage customer quotes so that they accurately reflect products, pricing, and discounts throughout the sales cycle.
 

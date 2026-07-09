@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Standard change catalog, Configure, Change Management, IT Service M
 Configure the standard change catalog through the standard change properties.
 
 ## Before you begin
-
-The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated.
 
 Role required: admin
 

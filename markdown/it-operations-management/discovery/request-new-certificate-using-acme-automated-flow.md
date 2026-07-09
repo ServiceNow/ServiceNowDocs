@@ -1,5 +1,5 @@
 ---
-title: Request new certificate using ACME manual flow of DNS challenge
+title: Request certificates using ACME manual DNS challenge flow
 description: Request a new certificate and automatically retrieve the certificates for an application using ACME manual flow of DNS challenge.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Using ACME, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Request new certificate using ACME manual flow of DNS challenge
+# Request certificates using ACME manual DNS challenge flow
 
 Request a new certificate and automatically retrieve the certificates for an application using ACME manual flow of DNS challenge.
 

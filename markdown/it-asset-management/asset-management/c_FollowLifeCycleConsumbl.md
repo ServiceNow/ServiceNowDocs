@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Consumables life cycle
@@ -53,8 +53,6 @@ Dispose of those consumable assets that are no longer required in your stockroom
 
 **Related topics**  
 
-
-[Mobile app for Hardware Asset Management]()
 
 [Work with Asset and CI]()
 

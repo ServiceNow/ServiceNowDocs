@@ -177,5 +177,5 @@ Metric monitoring \(monitored\)
 Indicates whether the application is monitored for metrics. Read-only.Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

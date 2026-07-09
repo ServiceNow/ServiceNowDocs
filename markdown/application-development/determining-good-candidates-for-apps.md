@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Determining good candidates for apps in ServiceNow
@@ -38,5 +38,5 @@ Instead of customizing an existing application, you can create apps with App Eng
 -   Misaligned intent: You have a use case that could be built by customizing an OOTB app. However, it doesn’t align with the app intent.
 -   Separate group workflow: ​Your process is unique, proprietary, or spans multiple departments.
 
-**Parent Topic:**[Overview of building apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
 

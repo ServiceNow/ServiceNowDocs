@@ -8,8 +8,8 @@ product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+reading_time_minutes: 1
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review participating merchant alerts for Visa disputes
@@ -40,17 +40,17 @@ During the investigation stage of a transaction dispute, this task alerts the me
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the open task tab, select the dispute transaction.
 
-6.  Select the **Review participating merchant alerts** activity under the **Investigation** playbook stage.
+    The transaction opens in the **Dispute workspace**.
 
-7.  On the form, fill in the required fields and any other related information.
+6.  Select the **Review participating merchant alerts** from the **Dispute workspace**.
 
-    In the **Merchant response** field, select one of the following options:
+7.  Fill in the required fields in the form, and any other related information that you have gathered.
 
-    -   **Accepted Dispute**- Merchant chose to resolve the dispute with the customer.
-    -   **Declined Dispute**- Merchant declines to resolve the dispute with the customer.
-8.  In the  **Remarks** field, enter any comments.
+8.  In the **Remarks** field, enter any comments.
+
+    This step is optional.
 
 9.  Select one of the following actions.
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 8
 breadcrumb: [Create a manual metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -274,7 +274,7 @@ Direction that you want to see the metric in. The choices are as follows:-   **N
 -   **Maximize**: If the desired metric direction is upward or ascending, select this option. For example, you want to maximize the number of critical controls.
 -   **Milestone**: Option to select when the metric direction is not applicable, but the metric is tracked against a milestone. For example, if your organization has a goal to complete all the risk assessments for an entity by the end of the month, the upcoming date for the goal is considered as a milestone.
 
-**Note:** Thresholds can be set for all directions excluding **Milestone**. For more information on creating thresholds, see [Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md).
+**Note:** Thresholds can be set for all directions. For more information on creating thresholds, see [Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md).
 
 </td></tr><tr><td>
 

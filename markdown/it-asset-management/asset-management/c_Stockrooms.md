@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Stockrooms
@@ -27,8 +27,6 @@ Stock rules are defined criteria stating that when the inventory of a particular
 
 **Related topics**  
 
-
-[Mobile app for Hardware Asset Management]()
 
 [Work with Asset and CI]()
 

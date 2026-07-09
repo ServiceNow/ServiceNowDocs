@@ -31,7 +31,7 @@ Select the none batch import method if you do not want to use the pagination met
 
 Select the offset-based batch import method \(pagination method\) if you want to import data using a specific start point \(offset\) and a batch size \(limit\).
 
-Setting the offset-based batch import method 
+\[Omitted video\] Description: Setting the offset-based batch import method
 
 -   **Offset**: The starting point for importing data.
 -   **Total items**: The total number of records that you want to import.
@@ -66,7 +66,7 @@ For example: If you set the offset to 20, total items to 200, and limit to 10, t
 
 Select the time-based batch import method if you want to import data for a specific date range.
 
-Setting a time-based batch import method 
+\[Omitted video\] Description: Setting a time-based batch import method
 
 **Steps to configure**
 
@@ -98,7 +98,7 @@ Setting a time-based batch import method
 
 Select the token-based batch import method if you want to import data using a continuation token.
 
-Setting the token-based batch import method 
+\[Omitted video\] Description: Setting the token-based batch import method
 
 When you select the token-based batch import method on the **Configure batch import** page, you must provide a name for the token. This token represents the continuation value returned by your action \(such as, next\_url, next\_token, or next\). Ensure that the token name matches exactly as it is returned from the action, including spelling and capitalization.
 

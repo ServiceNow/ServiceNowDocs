@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Exploring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Business hours

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Spend Detection Overview dashboard

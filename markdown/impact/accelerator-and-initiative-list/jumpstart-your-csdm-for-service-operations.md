@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your CSDM for Service Operations
-description: This accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [CSDM, Service Operations, CMDB, Common Service Data Model]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your CSDM for Service Operations
 
-This accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
+This Accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
 
 ## Accelerator Overview
 

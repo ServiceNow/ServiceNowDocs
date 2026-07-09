@@ -26,22 +26,6 @@ Role required: admin
 
 2.  Create the page route map from **hrm\_ticket\_page** to **standard\_ticket**.
 
-    **Note:** **hrm\_ticket\_page** is available only when you have the Employee Center \[com.sn\_hr\_service\_portal\] plugin.
-
-    \[Omitted image "enable-page-route-hr.png"\] Alt text: Page route mapping
-
-3.  Create the page route map from **hrsp\_ticket** to **standard\_ticket**.
-
-    **Note:** **hrsp\_ticket** is available only when you have Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin, without the Employee Service Center \[com.sn\_hr\_service\_portal\] plugin.
-
-    \[Omitted image "enable-page-route-hr2.png"\] Alt text: Page route mapping
-
-4.  Create the page route map from **ticket** to **standard\_ticket**.
-
-    **Note:** **ticket** is available only Non-HR catalog items.
-
-    \[Omitted image "enable-page-route-hr3.png"\] Alt text: Page route mapping
-
 
 **Parent Topic:**[Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md)
 

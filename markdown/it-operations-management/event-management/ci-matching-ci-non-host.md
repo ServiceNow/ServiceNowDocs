@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 If no match is found using the **Node** field, the system looks at the **Additional information** field of the alert. When you select a CI type, such as File System, the system automatically searches for a matching record in the \[cmdb\_ci\_file\_system\] table. It uses the details provided in event rule record, specifically in the **Additional information** field, to refine the search. For example, if the **Additional information** field contains values like `{"mount_point": "/snap/amazon-ssm-agent/9565", "name": "/dev/loop0"}`, the system looks for a record in the \[cmdb\_ci\_file\_system\] table that matches these values. If a match is found, the system binds the CI to the alert, ensuring accurate identification and association. Similarly, if the **CI type** is **Network Adapter**, the system searches in the \[cmdb\_ci\_network\_adapter\] table.
 
-There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field matching and handling column name differences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-manual-field.md).
+There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field and column matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-manual-field.md).
 
 ## Procedure
 

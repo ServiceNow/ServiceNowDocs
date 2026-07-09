@@ -76,6 +76,18 @@ For more information, see [Download ServiceNow Fluent application dependencies](
 
 </td></tr><tr><td>
 
+excludeFilePatterns
+
+</td><td>
+
+Array
+
+</td><td>
+
+A list of file patterns to exclude when transforming metadata XML to ServiceNow Fluent code or downloading dependencies. Files that match are discarded and not written to the metadata directory.
+
+</td></tr><tr><td>
+
 fluentDir
 
 </td><td>

@@ -88,7 +88,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Simplify the use of Enterprise Resource Planning \(ERP\) data from the system of record, such as SAP.
 
--   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md)**
+-   **Flows in Workflow Studio**
 
     Edit the flows that you create in AES.
 
@@ -104,7 +104,7 @@ Install App Engine Studio by requesting it from the ServiceNow Store. Visit the 
 
     Enhance custom applications with AI agents and skills that application users can leverage at runtime.
 
--   **[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)**
+-   **Playbooks in Workflow Studio**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 

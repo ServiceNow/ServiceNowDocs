@@ -55,7 +55,7 @@ Requesters raising a PDR request from this jurisdiction now see only the data su
 ## What to do next
 
 -   Activate the location configuration where you added these data subject types. See [Configure jurisdictions for the external-facing Personal Data Rights form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-location.md).
--   Map request types to each active data subject type. See [Map request types to configured data subjects for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.md).
+-   Map request types to each active data subject type. See [Map request types to data subjects for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.md).
 
 **Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
 

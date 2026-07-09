@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-06"
 reading_time_minutes: 3
 keywords: [LLM, Topic, Testing, Virtual Agent, Large Language Model]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Testing LLM topics
@@ -67,5 +67,5 @@ When you're done testing your topic, close the test chat window. If necessary, u
 -   **[Test details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-llm-details.md)**  
 The chat test window displays adjoining tabs that provide details about your topic as you test it.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

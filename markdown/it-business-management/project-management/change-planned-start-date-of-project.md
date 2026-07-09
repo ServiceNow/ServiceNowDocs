@@ -38,15 +38,15 @@ Changing the planned start date of a project to a new date also moves all its ta
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d316696e114">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d316221e114">
 
 Option
 
-</th><th align="left" id="d316696e117">
+</th><th align="left" id="d316221e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d316696e123">
+</th></tr></thead><tbody><tr><td id="d316221e123">
 
 **From the Planning console**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d316696e168">
+</td></tr><tr><td id="d316221e168">
 
 **From the Project form**
 

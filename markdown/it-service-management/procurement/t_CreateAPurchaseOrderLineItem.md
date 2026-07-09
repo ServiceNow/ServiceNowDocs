@@ -9,7 +9,7 @@ classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a purchase order line item

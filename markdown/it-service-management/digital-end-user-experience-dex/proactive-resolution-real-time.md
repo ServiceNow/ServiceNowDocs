@@ -30,8 +30,8 @@ When a metric rule detects that a device or application metric has breached a th
 \[Omitted image "dex-alert-generation-flow.svg"\] Alt text: DEX alert generation flow
 
 1.  DEX evaluates metric rules against incoming metric data for each device.
-2.  For each device that breaches a threshold, DEX creates one event in the `em_event` table.
-3.  DEX generates one alert per device in the `em_alert` table \(device alerts\) or one alert per application and metric rule combination \(application alerts\).
+2.  For each device that breaches a threshold, DEX creates an event in the `em_event` table.
+3.  DEX generates an alert per device in the `em_alert` table \(device alerts\) or one alert per application and metric rule combination \(application alerts\).
 4.  DEX groups device alerts using the alert correlation rule available with the base system, which consolidates all device alerts for the same metric rule combination within a configurable time window. The default window is one hour and is controlled by the system property `sn_dex.alert.correlation_rule.device_period`.
 5.  For application alerts, subsequent evaluations for the same application and metric rule update the same `dex_alert_metadata` record with the new event ID and impacted devices. All new events for the same application and metric rule map to the same alert number until the alert is closed.
 6.  Impacted users and devices are recorded in the `dex_alert_impacted_users` table. Additional details are recorded in `dex_alert_metadata`.
@@ -61,7 +61,7 @@ When a resolution is defined in the metric rule, DEX generates an experience iss
 
 -   **Fallback configuration**
 
-    If the user does not respond or confirms that the issue is not resolved, a fallback action runs. Fallback options include doing nothing, creating an incident, or connecting the user to a live agent.
+    If the user does not respond or confirms that the issue is not resolved, a fallback action runs. Fallback options include no action, creating an incident, or connecting the user to a live agent.
 
 
 When all devices are removed from the impacted device list, DEX closes the alert automatically. For device alerts, the experience issue is also closed. For application alerts, the alert closes when no devices remain in the impacted list.

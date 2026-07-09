@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure fields, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable Markdown in text fields
@@ -20,7 +20,7 @@ Role required: Admin
 
 ## About this task
 
-CPQ text fields support Markdown, a widely used, lightweight markup language for formatting text using plain-text syntax.
+ServiceNow CPQ text fields support Markdown, a widely used, lightweight markup language for formatting text using plain-text syntax.
 
 ## Procedure
 

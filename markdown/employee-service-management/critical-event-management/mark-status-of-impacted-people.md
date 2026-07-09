@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing impacted people, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Mark the status of impacted people as an agent
@@ -39,7 +39,7 @@ Role required: sn\_critical.agent
 7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted More Actions icon \(\[Omitted image "arrow.png"\] Alt text: Accounted More Actions icon\) and choosing a different status.
 
 
-**Parent Topic:**[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

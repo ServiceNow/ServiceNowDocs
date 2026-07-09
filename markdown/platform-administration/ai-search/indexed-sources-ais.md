@@ -7,8 +7,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-07-02"
+reading_time_minutes: 7
 breadcrumb: [Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -37,9 +37,40 @@ AI Search supports the following indexed source types.
 
 **Note:** AI Search doesn't index Unicode characters from the High Surrogate Area \(code units in the range U+D800 to U+DBFF\). Characters from this range are replaced with spaces during indexing.
 
+## Indexing and search performance
+
+Search performance for AI Search is affected by several customer-controlled factors related to content indexing. Changes to these factors can impact search performance as follows.
+
+-   **Index size**
+
+    Indexing more content produces a larger index, which takes more time to search. Avoid indexing content that isn't needed for search.
+
+    Indexing large source tables, such as the Task \[task\] table and tables that extend it, can add significant numbers of records to the AI Search index.
+
+-   **Number of indexed sources**
+
+    An index with more indexed sources takes longer to search than one with fewer indexed sources. This is true even if the two indexes are the same size.
+
+-   **Number of indexed fields**
+
+    Increasing the number of fields you index across your indexed sources makes the system take longer to find search results. This effect is independent of index size and number of indexed sources.
+
+-   **Indexing frequency**
+
+    The more often your indexed content is synchronized and updated, the more often search will compete with indexing for compute resources, increasing search response time. This is especially pertinent for indexed sources with frequently modified fields.
+
+
 ## Indexed source retention policies and filter conditions
 
-Indexing large source tables, such as the Task \[task\] table and tables that extend it, can add large numbers of records to the AI Search index. To limit the set of records indexed from a source table, you can configure retention policies and filter conditions for your indexed sources. AI Search also uses these settings to automatically purge stale records from the index. For more information on retention policies and filter conditions, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
+To limit the size of your index and the frequency of index updates, you can define retention policies and filter conditions for your indexed sources.
+
+As an example, you can define a retention policy for an indexed source to exclude records that are more than two years old. This policy keeps your search results more current and reduces the size of your index. Changes made to the excluded records don't trigger index updates, so this policy also reduces indexing frequency.
+
+Similarly, you can define a filter condition for an indexed source that excludes source table records with a specific status, such as Open. This filter condition reduces the number of records indexed from the source table, which in turn reduces the total amount of data you index. Excluding open records that have frequent updates also reduces indexing frequency.
+
+AI Search also uses your retention policy and filter condition settings to automatically purge stale records from the index, reducing its size.
+
+To learn more about creating retention policies and filter conditions for your indexed sources, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
 **Note:** Retention policies are required for indexed sources that index records from the Task \[task\] table or tables that extend it. They are optional for other indexed sources.
 
@@ -66,7 +97,7 @@ You can't create more than one indexed source for a single ServiceNow AI Platfor
 -   **[Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md)**  
 Define an indexed source to make content and metadata from ServiceNow AI Platform® table records searchable using AI Search.
 -   **[Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md)**  
-AI Search uses settings to automatically purge stale records from the index and optimize search performance. To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources.
+To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources. AI Search also uses these settings to automatically purge stale records from the index, optimizing search performance.
 -   **[Indexed source guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-guardrails-ais.md)**  
 Reduce index size and increase search performance with guardrails that limit the number of task and alert source records indexed from indexed sources.
 -   **[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md)**  

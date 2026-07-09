@@ -49,5 +49,5 @@ Role required: evt\_mgmt\_operator
     The incident page opens, showing the Overview tab.
 
 
-**Parent Topic:**[Speed up alert resolution with a Now Assist analysis of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.md)
+**Parent Topic:**[Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.md)
 

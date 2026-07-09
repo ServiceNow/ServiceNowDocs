@@ -31,3 +31,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_irm.png"\] Alt text: Example with empty Oct 2024 cell selected.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-irm.md)
+

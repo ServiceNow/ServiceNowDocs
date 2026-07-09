@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-aia-use-cases-list.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-07"
+last_updated: "2026-07-05"
 reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
@@ -83,9 +83,9 @@ Create in-app agents, skills, and workflows
 
 </td><td>
 
--   [Create configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-ci-creator.md)
--   [Provide advice on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-governance.md)
--   [Search CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-search.md)
+-   Create configuration item
+-   Provide advice on CMDB governance
+-   Search CMDB
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Now Assist for Creator
 
 </td><td>
 
-[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)
+
 
 </td></tr><tr><td>
 
@@ -222,15 +222,15 @@ Help resolve friendly fraud disputes
 
 </td><td>
 
--   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
--   [Agent Client Collector \(ACC\) diagnostic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-acc-diagnostic-workflow.md)
--   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Manage alerts autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-autonomous-operator-workflow.md)
+-   Analyze alert impact
+-   Agent Client Collector \(ACC\) diagnostic workflow
+-   Analyze potential impact
+-   Manage alerts autonomously
 -   Triage and analyze alerts
 
 </td></tr><tr><td>
 
-Now Assist for IT Service Management \(ITSM\)
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)
 
 </td><td>
 
@@ -287,11 +287,11 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td></tr><tr><td>
 
-[Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-notifications.md)
+Now Assist in Notifications
 
 </td><td>
 
-[Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)
+Email Intent to Action
 
 </td></tr><tr><td>
 
@@ -300,6 +300,15 @@ Now Assist for IT Service Management \(ITSM\)
 </td><td>
 
 Help manage public information requests
+
+</td></tr><tr><td>
+
+[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-landing-page.md)
+
+</td><td>
+
+-   [Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)
+-   [Email Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)
 
 </td></tr><tr><td>
 
@@ -315,10 +324,10 @@ Help manage public information requests
 
 </td><td>
 
--   [Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-soc-efficiency-usecase.md)
--   [Close security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-close-incident-usecase.md)
--   [Generate SIR shift handover report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-incidents-shifthandover-ai-agent.md)
--   [Resolve security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-resolve-incident-ai-workflow.md)
+-   Analyze security operations metrics
+-   Close security incident
+-   Generate SIR shift handover report
+-   Resolve security incident
 
 </td></tr><tr><td>
 
@@ -353,36 +362,37 @@ Help manage public information requests
 
 </td><td>
 
--   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/billissue-remediation-usecase.md)
 -   [Analyze network incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/network-incident-analysis-usecase.md)
 -   [Customer voice quality issue resolutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-customer-voice.md)
+-   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/billissue-remediation-usecase.md)
 -   [Monitor engagement health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-monitor-health.md)
 -   [Recommend risk signal solutions agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-resolve-risk.md)
--   [Trigger risk mitigation touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-touchpoint-meeting-scheduler.md)
--   [Support renewals and expansions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-renewal-analyzer.md)
 -   [Service Exchange onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-register-consumer-users-sb.md)
+-   [Service Exchange Knowledge Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-service-exchange-assistant-se.md)
+-   [Support renewals and expansions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-renewal-analyzer.md)
+-   [Trigger risk mitigation touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-touchpoint-meeting-scheduler.md)
 
 </td></tr><tr><td>
 
-[Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)
+Now Assist for Vault
 
 </td><td>
 
--   [Access observer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-access-observer-config.md)
--   [Field encryption with Vault module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-field-encryption-module.md)
--   [Securing custom apps with Vault agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-securing-custom-apps-agents.md)
--   [Summarize access observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-access-observer-logs.md)
+-   Access observer configuration
+-   Field encryption with Vault module
+-   Securing custom apps with Vault agents
+-   Summarize access observer logs
 
 </td></tr><tr><td>
 
-[Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
+Now Assist for Vulnerability Response
 
 </td><td>
 
--   [Retrieve Vulnerability and exposure data with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/retrieve-vr-data.md)
--   [Assess your exposure to vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/assess-exposure-vr-aiagent.md)
--   [Analyze vulnerability remediation status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sla-targets-vr-aiagent.md)
--   [Security Exposure 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)
+-   
+-   Assess your exposure to vulnerabilities
+-   Analyze vulnerability remediation status
+-   Security Exposure 360
 
 </td></tr><tr><td>
 
@@ -412,13 +422,13 @@ Explore ERP models
 
 -   [Analyze incident trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/incident-trends.md)
 -   [Classify tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/classify-tasks.md)
--   [Error Analysis and Remediation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/error-framework-daw.md)
+-   Error Analysis and Remediation workflow
 -   [Generate my work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generate-work-plan.md)
 -   [Generate resolution plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/resolve-requests.md)
 -   [Help optimize team productivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/help-optimize-productivity.md)
 -   [Identify ways to improve services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/service-improvement.md)
 -   [Investigate IT problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/problem-investigation.md)
--   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
+-   Notification agent
 -   [Process images for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/images-tasks.md)
 -   [Suggest survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/survey-suggest.md)
 

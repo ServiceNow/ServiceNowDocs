@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
 4.  Select the Now Assist \(\[Omitted image "ai-icon-now-assist.png"\] Alt text: Now Assist panel for AI agent icon.\) icon.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d301512e143">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d303550e143">
 
 Option
 
-</th><th align="left" id="d301512e146">
+</th><th align="left" id="d303550e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301512e152">
+</th></tr></thead><tbody><tr><td id="d303550e152">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the Now Assist panel, select **Generate resolution notes**.
 
  See [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d301512e189">
+</td></tr><tr><td id="d303550e189">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the Now Assist panel, select **Summarize a record**.
 
  See [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d301512e223">
+</td></tr><tr><td id="d303550e223">
 
 **Generate correlation insights**
 

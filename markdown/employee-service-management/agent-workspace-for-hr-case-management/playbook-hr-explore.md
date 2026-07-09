@@ -8,7 +8,7 @@ product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
@@ -28,7 +28,7 @@ When Playbook is activated with HR Service Delivery Agent Workspace, the **Playb
 
 -   **Stage panel**
 
-    Along the left side of the Playbook form, you will see the stage panel that shows the lifecycle event and each activity set. Below each activity set shows a the number of activities completed and a status circle. A check inside the circle indicates a completed activity set.
+    Along the left side of the Playbook form, you will see the stage panel that shows the lifecycle event and each activity set. Following each activity set shows a the number of activities completed and a status circle. A check inside the circle indicates a completed activity set.
 
     A check mark inside the Playbook Header indicates that the activity set is complete.
 
@@ -39,7 +39,7 @@ When Playbook is activated with HR Service Delivery Agent Workspace, the **Playb
 
 -   **Activity stream**
 
-    Click on an activity set in the stage panel to view all activities within the activity set.
+    Select on an activity set in the stage panel to view all activities within the activity set.
 
 -   **HR card**
 
@@ -49,20 +49,18 @@ When Playbook is activated with HR Service Delivery Agent Workspace, the **Playb
 
 -   **HR card details**
 
-    Click the activity and the **Assigned to**, **HR service**, **Opened for**, **Subject person**, **State**, and attachments appear.
+    Select the activity and the **Assigned to**, **HR service**, **Opened for**, **Subject person**, **State**, and attachments appear.
 
     At the top, right of an HR Playbook card are a series of icons.
 
     The first icon on the left provides the state of the HR case or task. Hovering over shows details of the SLA.
 
-    Click the **Add note or comment** \(\[Omitted image "playbook-hr-comment-icon.png"\] Alt text: HR Playbook - Add note or comment icon\) icon to add comments or notes related to the activity.
+    Select the **Add note or comment** \(\[Omitted image "playbook-hr-comment-icon.png"\] Alt text: HR Playbook - Add note or comment icon\) icon to add comments or notes related to the activity.
 
     To view comments or notes, click the **See activity** button.
 
-    Click the Open task \(\[Omitted image "playbook-hr-open-task-icon.png"\] Alt text: HR Playbook - Open task icon\) icon to view the details of the HR case or task. A new tab with the HR case or tab opens.
+    Select the Open task \(\[Omitted image "playbook-hr-open-task-icon.png"\] Alt text: HR Playbook - Open task icon\) icon to view the details of the HR case or task. A new tab with the HR case or tab opens.
 
-    Click the Minimize task \(\[Omitted image "playbook-hr-minimize-task-icon.png"\] Alt text: HR Playbook - Minimize task icon\) icon to close the details of the HR case or task.
+    Select the Minimize task \(\[Omitted image "playbook-hr-minimize-task-icon.png"\] Alt text: HR Playbook - Minimize task icon\) icon to close the details of the HR case or task.
 
-
-The other areas of Playbook are covered in .
 

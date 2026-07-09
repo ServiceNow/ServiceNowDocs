@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-sales-common.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Sales Common
@@ -23,7 +23,7 @@ The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of
 |sn\_prm\_sales\_partner\_sales\_manager|This role is assigned to external channel partner organizational staff to manage the entire sales lead to cash life cycle for B2B and B2C customers.| |
 |sn\_prm\_sales\_partner\_sales\_relationship\_manager|This role is assigned to enterprise personnel to manage the entire sales lead to cash life cycle for the hierarchy of their channel partners.| |
 
-**Parent Topic:**[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-sales-common-for-partner-relationship-management.md)
+**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 

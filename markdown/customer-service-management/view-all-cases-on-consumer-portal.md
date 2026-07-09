@@ -42,3 +42,10 @@ Selecting a case opens a form with the following sections:
     Your message becomes part of the case conversation. All responses from the agent are also included in the conversation.
 
 
+**Related topics**  
+
+
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+
+[Accept or reject a case solution from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-on-consumer-portal.md)
+

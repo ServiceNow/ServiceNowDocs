@@ -1,5 +1,5 @@
 ---
-title: Create a self-health monitor to use custom health monitor script
+title: Create a self-health monitor with a custom script
 description: You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/custom-configure-threshold-monitoring.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Create a self-health monitor to use custom health monitor script
+# Create a self-health monitor with a custom script
 
 You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 

@@ -33,7 +33,7 @@ In Virtual Agent, the following variables are available for use in scripts that 
 
 -   **ServiceNow record variables**
 
-    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see Querying tables in script.
+    If you create a script for a topic that queries a ServiceNow table, then the record object \(GlideRecord\) returned is automatically available for use in the topic. The variable syntax is `vaInputs.myvar` where `myvar` is the record object. For details on querying ServiceNow tables to return a record object, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
     Use dot-walking in variables that contain a ServiceNow record to specify a particular field in the table. The syntax is `vaInputs.myvar.field`. For details on dot-walking within a script, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
 

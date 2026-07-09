@@ -26,7 +26,7 @@ Map a field of your preference for a Jira project.
 Create a custom workflow state map of your preference for a Jira project.
 -   **[Apply custom map configuration to multiple Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/apply-custom-field-map-to-all-jira-projects.md)**  
 Add a custom table or field, which is applicable to all your Jira projects of a specific type, to the map configuration template in Agile Development 2.0.
--   **[Create a business rule to apply a custom Agile Development 2.0 table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.md)**  
+-   **[Apply custom table map configuration for Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.md)**  
 Create a business rule to enable export from your new custom Agile Development 2.0 table map configuration to your Jira projects.
 -   **[Allow import and export of attachments on a custom Agile Development 2.0 table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/jira-allow-import-and-export-of-attachments-on-custom-table-maps.md)**  
 Enable import and export of attachments between Jira and Agile Development 2.0 for a custom Agile 2.0 table that you added to the map configuration.

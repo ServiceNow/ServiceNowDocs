@@ -40,3 +40,10 @@ Role required: sn\_poem\_core.operational\_buyer
 
 **Parent Topic:**[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-mgmt-ws.md)
 
+**Related topics**  
+
+
+[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
+
+[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form-tabs.md)
+

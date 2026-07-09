@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publish a custom integration profile
@@ -53,5 +53,5 @@ Reclamation rules and stale user reclamation candidates are created automaticall
 
 It's important that you review all automatically generated reclamation rules to ensure that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
-Create software entitlements for the automatically generated software models to track software used against software owned. For more information, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+Create software entitlements for the automatically generated software models to track software used against software owned. For more information, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 

@@ -30,7 +30,7 @@ For example, if the CMD specifies a precision of 2 decimal places, the formula t
 
 As shown in the following examples, if you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that must be corrected.
 
-**Note:** If a value is missing for any operand in a CMD formula, you can use the Calculated Metric Definition Settings table to define a default value for that operand. The system will automatically retrieve and apply the specified default value, ensuring the formula executes without interruption. Users can customize these default values or add new records as needed to suit their calculation requirements. For more information, refer to .
+**Note:** If a value is missing for any operand in a CMD formula, you can use the Calculated Metric Definition Settings table to define a default value for that operand. The system will automatically retrieve and apply the specified default value, ensuring the formula executes without interruption. Users can customize these default values or add new records as needed to suit their calculation requirements. For more information, see [Activate default values for CMD calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-default-values-for-cmd-calculations.md).
 
 \[Omitted image "formula-tree-empty.png"\] Alt text: Viewing an empty page. For the text description, refer to the text that preceded this example.
 

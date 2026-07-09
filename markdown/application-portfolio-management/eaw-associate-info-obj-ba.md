@@ -1,5 +1,5 @@
 ---
-title: Manage information objects of a business application in EA Workspace
+title: Manage information objects in EA Workspace
 description: Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object, which can be used to leverage the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-associate-info-obj-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage information objects of a business application in EA Workspace
+# Manage information objects in EA Workspace
 
 Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object, which can be used to leverage the business application.
 

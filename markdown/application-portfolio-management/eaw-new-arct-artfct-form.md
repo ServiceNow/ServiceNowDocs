@@ -71,7 +71,7 @@ This field is displayed when the File Type is selected as **URL**.
 **Related topics**  
 
 
-[Create an architectural artifact and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
 
 [Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-architectural-artifact.md)
 

@@ -9,7 +9,7 @@ classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create hardware models, Models, Product Catalog, IT Asset Management]
+breadcrumb: [Create hardware models, Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Add compatible models to a hardware model

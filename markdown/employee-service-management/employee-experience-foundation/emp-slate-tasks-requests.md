@@ -8,9 +8,9 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-06-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [configure AI preferences, usage limits, insights, summaries]
-breadcrumb: [Employee Slate for Now Assist, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure tasks and requests
@@ -29,7 +29,7 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
 -   **AI assist** represents a single background execution of an AI feature that automatically generates insights, card summaries, or smart task sorting across your organization.
 -   **Task insight** analyzes the tasks against policy criteria to identify compliance and optimization opportunities.
--   **Request summary** generates a concise summary of request details with useful info and efficiency.
+-   **Request summary** generates a concise summary of request details with relevant information.
 
 ## Procedure
 
@@ -39,13 +39,13 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
     \[Omitted image "es-tasks-admin.png"\] Alt text: Tasks list and details
 
-    **Note:** For additional information, select **Configure tasks** to go to tasks full-list or go to a specific task configuration by clicking external link icon. For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
+    **Note:** For additional information, select **Configure tasks** to go to tasks full-list or go to a specific task configuration by selecting external link icon. For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
 
 3.  Expand the **Tasks and requests** section and select **Requests** to view the read-only list with request types, table, conditions, search, and configure requests.
 
     \[Omitted image "es-requests-admin.png"\] Alt text: Request details
 
-    **Note:** For additional information, select **Configure request** to go to requests full-list or go to a specific request configuration by clicking external link icon. For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
+    **Note:** For additional information, select **Configure request** to go to requests full-list or go to a specific request configuration by selecting external link icon. For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
 
 4.  Expand the **Tasks and requests** section and select **AI preferences** to manage usage limits and insight and summaries.
 
@@ -57,14 +57,16 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
         -   Use default limit of 3000 assists per day.
         -   Adjust the range from 0 to 100,000 assists per day to suit your needs.
-        -   Set the value to 0 to disable the smart prioritization and revert to the due date-based sorting.
+        -   Set the value to 0 to turn off the smart prioritization and revert to the due date-based sorting.
     2.  Configure the **Insights and summaries** modes for approval insights and request summaries.
 
         -   For task insights, select **Auto-generate** to create insights automatically when task detail page loads or select **On-demand** to manually trigger from the **Summarize** button.
-        -   For request summaries, select **Auto-generate** to create summaries automatically when request detail page loads or select **On-demand** to manually trigger from the **Summarize** button
+        -   For request summaries, select **Auto-generate** to create summaries automatically when request detail page loads or select **On-demand** to manually trigger from the **Summarize** button.
+        **Note:** You can bring your own skills and configure the insights and summaries based on the task type. For more information on building a custom skill, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).
+
     3.  Save the AI preferences configuration.
 
-        Your preferences are to task and request processing.
+        Your preferences are applied to task and request processing.
 
 5.  Select **Mark as configured** for each completed configuration section in the Admin Console.
 

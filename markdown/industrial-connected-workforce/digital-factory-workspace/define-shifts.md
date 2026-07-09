@@ -22,7 +22,7 @@ Role required: sn\_icw.application\_admin or sn\_icw.admin
 
 ## About this task
 
-Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
+Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see .
 
 ## Procedure
 
@@ -66,11 +66,7 @@ Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule ent
         -   Set the end time to one second before the start of the next shift to avoid overlap.
         -   The value between **When** and **To** is smaller than 24 hours.
         -   Always select a value for the **Repeats** field. If no value is selected, the shift occurs only once.
-        \[Omitted image "morning-shift.png"\] Alt text: Morning shift configured
-
     8.  Select **Submit**.
-
-        \[Omitted image "afternoon-shift.png"\] Alt text: Afternoon shift configured
 
 7.  Link functional locations to a schedule:
 

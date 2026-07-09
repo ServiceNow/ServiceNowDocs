@@ -28,7 +28,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 3.  Select the **Settings** tab.
 
-    \[Omitted image "settings\_tab\_uibuilder.png"\] Alt text: Settings tab
+    \[Omitted image "settings\_tab\_uibuilder.png"\] Alt text: Settings tab in UI Builder showing landing page configuration options and duplicate action
 
 4.  Select **Duplicate**.
 

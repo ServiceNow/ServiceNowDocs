@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/dc-itsm-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
@@ -56,4 +56,6 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
         There are two tabs: Monthly - ITSM and Quarterly - ITSM. To validate historical data for any specific indicator, select the widget on the dashboard.
 
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itsm.md)
 

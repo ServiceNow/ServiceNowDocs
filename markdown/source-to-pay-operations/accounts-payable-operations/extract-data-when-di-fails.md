@@ -31,7 +31,7 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 

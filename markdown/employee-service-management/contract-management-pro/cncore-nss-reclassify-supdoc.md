@@ -18,7 +18,7 @@ As a contract fulfiller, reclassify the supporting documents submitted in the co
 
 ## Before you begin
 
-Ensure that the contract request type is Multiple contracts.
+Verify that the contract request type is Multiple contracts.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 

@@ -1,5 +1,5 @@
 ---
-title: Create a resource assignment for a group in Project Workspace
+title: Create group resource assignment in Project Workspace
 description: Use Project Workspace to create a group and associate it to your resource assignment. You can associate a set of users who share a common purpose to a group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-group-resource-assignment.html
@@ -9,10 +9,10 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create a resource assignment for a group in Project Workspace
+# Create group resource assignment in Project Workspace
 
 Use Project Workspace to create a group and associate it to your resource assignment. You can associate a set of users who share a common purpose to a group.
 

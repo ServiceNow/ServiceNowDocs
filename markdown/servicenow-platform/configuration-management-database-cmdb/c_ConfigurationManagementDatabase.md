@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -32,13 +32,15 @@ For more background information about the CMDB, see the ServiceNow Community pos
 
 ## Key class categories
 
-The following items are class categories that are typically key in organizations. You can for example, use this list as a general guideline for designating classes as Principal Class so you can track health and pay attention to the most important classes in your CMDB. For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md):
+The following items are class categories that are typically key in organizations. You can for example, use this list as a general guideline for designating classes as Principal Class so you can track health and pay attention to the most important classes in your CMDB:
 
 -   Servers \(physical and virtual\): Classes that are typically well-understood, relatively stable, and which form the backbone of most infrastructure.
 -   Databases: Classes of high business impact, critical for incident triage, and relatively straightforward to discover and maintain.
 -   Network devices \(core infrastructure\): Classes such as routers, switches, firewalls, and load balancers—hardware that connects everything. If setting as Principal Class, then as a general guideline, prioritize core and critical devices over access switches.
 -   Application servers.
 -   Storage.
+
+For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 ## Key CMDB classes
 

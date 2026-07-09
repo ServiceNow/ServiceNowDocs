@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -49,6 +49,8 @@ The table will be indexed. For more information on how to search for a keyword i
 [Configure signature pause duration when modifying signatories]()
 
 [Auto-populate the start date and end date for contract requests]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

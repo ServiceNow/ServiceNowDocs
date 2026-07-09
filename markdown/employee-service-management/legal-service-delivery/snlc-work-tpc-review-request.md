@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -48,15 +48,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d717053e170">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d719223e170">
 
 Option
 
-</th><th align="left" id="d717053e173">
+</th><th align="left" id="d719223e173">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d717053e179">
+</th></tr></thead><tbody><tr><td id="d719223e179">
 
 **As an assignee**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d717053e200">
+</td></tr><tr><td id="d719223e200">
 
 **As a collaborator**
 
@@ -85,7 +85,7 @@ Steps
 
 5.  Reclassify the contract or supporting documents submitted for review.
 
-    For more information, see [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md) and [Modify supporting documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md).
+    For more information, see [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md) and [Modify supporting documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md).
 
 6.  If you have opened contract request from the **Legal requests** listing, select **Contract request** tab.
 
@@ -157,15 +157,15 @@ Steps
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d717053e596">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d719223e587">
 
 Option
 
-</th><th align="left" id="d717053e599">
+</th><th align="left" id="d719223e590">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d717053e605">
+</th></tr></thead><tbody><tr><td id="d719223e596">
 
 **Internal**
 
@@ -173,9 +173,15 @@ Steps
 
 1.  In the **Internal Signer** field, enter the name of the signer. The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
 2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
+3.  In the **Signatory Role** field, select the role for the signatory.
 
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
 
-</td></tr><tr><td id="d717053e638">
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+</td></tr><tr><td id="d719223e680">
 
 **External**
 
@@ -185,7 +191,13 @@ Steps
 2.  In the **Signatory** field, enter the internal signer's title.
 3.  In the **Signatory email** field, enter the internal signer's email address.
 4.  In the **Order** field, enter the order in which the contract should be sent to signers for signature. The order value should be unique.
+5.  In the **Signatory Role** field, select the role for the signatory.
 
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr></tbody>
 </table>13. When all stakeholders have agreed on a contract document revision, select **Prepare for Signature** to prepare and send the document to the signatories for signature.
@@ -232,7 +244,7 @@ Steps
 
 -   **[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)**  
 As a legal fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
--   **[Modify supporting documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md)**  
+-   **[Modify supporting documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.md)**  
 As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
 -   **[Cancel the wet signature process from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-cancel-wet-signature.md)**  
 Cancel a wet signature process for a Non-disclosure agreement legal requests from the Employee Center.

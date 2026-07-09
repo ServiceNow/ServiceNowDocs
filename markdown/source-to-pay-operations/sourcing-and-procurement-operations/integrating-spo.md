@@ -83,8 +83,8 @@ Sourcing and Procurement Operations \(SPO\) supports the following integrations:
     **Note:** This application is owned by the Field Service Management team.
 
 
--   **[Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)**  
-The Asset Management Integration for Sourcing and Procurement Operations plugin \(sn\_spend\_asset\) provides an integration between IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\) applications, enhancing operational efficiency.
+-   **[Sourcing and Procurement Operations integration with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)**  
+The Asset Management Integration for Sourcing and Procurement Operations plugin \(sn\_spend\_asset\) provides an integration between Asset Management \(Asset Management\) and Sourcing and Procurement Operations \(SPO\) applications, enhancing operational efficiency.
 -   **[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)**  
 As an employee, shopper, or requester, you can view all procurement case types available to you, knowledge articles, open to-dos and purchasing tasks assigned to you, track your requests, and even access your purchases on the Employee Center \(EC\) portal by integrating Sourcing and Procurement Operations with Employee Center.
 -   **[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)**  

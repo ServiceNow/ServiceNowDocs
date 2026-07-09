@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Install Sourcing and Procurement Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Install Finance Common, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Application plugin installation sequence in Sourcing and Procurement Operations

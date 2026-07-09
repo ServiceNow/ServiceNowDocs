@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring KPI monitoring settings, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring KPI monitoring settings, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Opt in to model categories to track performance KPIs for enterprise assets

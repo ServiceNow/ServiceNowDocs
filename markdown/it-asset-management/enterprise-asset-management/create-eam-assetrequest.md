@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Manually fulfill enterprise asset requests by using the enterprise asset request flow

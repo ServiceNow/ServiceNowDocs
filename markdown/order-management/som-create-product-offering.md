@@ -92,7 +92,7 @@ Configurable
 
 </td><td>
 
-Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md).
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md).
 
 </td></tr><tr><td>
 

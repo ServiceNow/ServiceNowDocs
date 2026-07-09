@@ -53,6 +53,8 @@ In Rome and later families, the migration strategy utilized during upgrade is co
 
 During this migration process, a backup of the original and upgrade TrustStores are made and stored in the agent’s work directory: `…\agent\work\truststore_migration\<time epoch seconds>\`. The original TrustStore is renamed to `cacerts_before` and the upgrade TrustStore is renamed to `cacerts_from_upgrade`.
 
+When switching to an external TrustStore, import all certificates from the bundled TrustStore into it. The MID Server might fail to start if a required certificate is missing from the new TrustStore.
+
 ## Procedure
 
 1.  Open a command prompt and navigate to the folder containing the JRE [keytool](https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html).
@@ -65,7 +67,11 @@ During this migration process, a backup of the original and upgrade TrustStores 
 
     For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
-    **Note:** The keytool prompts you for a certificate password. If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
+    **Note:**
+
+    The keytool utility prompts you for the TrustStore password. The default password for the MID Server bundled JRE TrustStore `cacerts` is `changeit`. If the default password has been changed, enter the current password. Don't change the TrustStore password unless your security policy requires it.
+
+    If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
 
 3.  Display a list of the current certificates by running the command: `keytool.exe -list -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 

@@ -33,3 +33,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_spm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score value of 5,000.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-spm.md)
+

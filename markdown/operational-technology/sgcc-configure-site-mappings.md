@@ -16,7 +16,7 @@ Importing the site data must be complete before you can move onto configure site
 
 ## About this task
 
-Before proceeding, review and configure imported ServiceNow OT discovery site mapping records and verify that the site data has been fully imported via the site scheduled data import. The site mapping records will not be available unit the import is complete.
+Before proceeding, review and configure imported ServiceNow OT Discovery site mapping records and verify that the site data has been fully imported via the site scheduled data import. The site mapping records will not be available unit the import is complete.
 
 ## Before you begin
 

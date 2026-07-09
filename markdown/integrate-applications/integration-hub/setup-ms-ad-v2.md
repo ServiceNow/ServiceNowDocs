@@ -16,7 +16,7 @@ breadcrumb: [Microsoft Active Directory v2 Spoke, Integration Hub spokes, Build 
 
 Integrate the ServiceNow instance and the Microsoft Active Directory v2 spoke by using the Windows credentials to authenticate ServiceNow requests.
 
-Demonstrates setting up the Microsoft Active Directory v2 spoke. 
+\[Omitted video\] Description: Demonstrates setting up the Microsoft Active Directory v2 spoke.
 
 ## Before you begin
 

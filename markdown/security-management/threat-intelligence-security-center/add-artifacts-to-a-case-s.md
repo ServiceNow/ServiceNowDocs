@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -300,13 +300,17 @@ Displays all the associated techniques of a case on the MITRE ATT&amp;CK framewo
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
 [Run Enrichment Actions within a case]()
 
-[View Case Reports]()
+[Generate a Case Report using generative AI]()
+
+[Generate a Case Report using a template]()
 
 [Create a security incident from a TISC case]()
 

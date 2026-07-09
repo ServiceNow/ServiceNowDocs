@@ -32,15 +32,15 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d176110e162">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d180038e162">
 
 Field
 
-</th><th align="left" id="d176110e165">
+</th><th align="left" id="d180038e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d176110e171">
+</th></tr></thead><tbody><tr><td id="d180038e171">
 
 **Label**
 
@@ -50,17 +50,17 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d176110e198">
+</td></tr><tr><td id="d180038e198">
 
 **Table**
 
 </td><td>
 
-Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See Dot-walking to data in related tables.
+Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d176110e242">
+</td></tr><tr><td id="d180038e242">
 
 **Description**
 
@@ -68,7 +68,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d176110e251">
+</td></tr><tr><td id="d180038e251">
 
 **Accessible From**
 
@@ -78,7 +78,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d176110e280">
+</td></tr><tr><td id="d180038e280">
 
 **Required Roles**
 

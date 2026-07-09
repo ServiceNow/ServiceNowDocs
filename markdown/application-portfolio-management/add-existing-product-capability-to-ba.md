@@ -50,9 +50,9 @@ The existing product capability is added to the business application.
 
 [Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)
 
-[View product capabilities associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
+[View product capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.md)
 
-[Create a product capability and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+[Associate a product capability with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
 
-[Remove product capabilities associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-associated-with-ba.md)
+[Remove product capabilities from a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-associated-with-ba.md)
 

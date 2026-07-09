@@ -20,7 +20,7 @@ If you are using the DocuSign integration, configure an HR PDF document template
 
 Create the DocuSign template that you want to make available for signing through the DocuSign system. See the [DocuSign eSignature User Guide](https://support.docusign.com/en/guides/ndse-user-guide) for more information. You must also synchronize your accounts to bring the DocuSign template \(and any other new or updated templates\) into the ServiceNow system. See [Synchronize Docusign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sync-docusign-servicenow.md) for more information.
 
-**Note:** Each DocuSign template must have one associated document. Multiple documents per template are not supported.
+**Note:** Each DocuSign template must have one associated document. Multiple documents per template aren't supported.
 
 Role required: sn\_hr\_core.admin
 
@@ -34,7 +34,7 @@ You must map each signature field from the DocuSign template to an appropriate u
 
 2.  Click **New** or open a record.
 
-    **Note:** If you are creating a new record, make sure to select **PDF Document Template**.
+    **Note:** If you're creating a new record, make sure to select **PDF Document Template**.
 
 3.  On the PDF Document Template form, set the **Template type** field to `DocuSign Template`.
 
@@ -111,9 +111,9 @@ Defines the conditions that the subject person of an HR case must meet for an HR
 
     The **Get template fields status** field, **Get Template Fields** related link, and PDF Template Mappings section displays.
 
-6.  Click the **Get Template Fields** related link.
+6.  Select the **Get Template Fields** related link.
 
-    **Note:** If any changes are made to the signature or document fields on the DocuSign template, you must click the **Get Template Fields** related link to synchronize those changes. Existing mappings are not affected.
+    **Note:** If any changes are made to the signature or document fields on the DocuSign template, you must select the **Get Template Fields** related link to synchronize those changes. Existing mappings aren't affected.
 
     \[Omitted image "hr-pdf-doc-template-docusign-get-template-fields.png"\] Alt text: Click the Get Template Fields related link.
 
@@ -143,7 +143,7 @@ Defines the conditions that the subject person of an HR case must meet for an HR
         -   Note
         -   Approve
         -   Decline
-10. Click **Update**.
+10. Select **Update**.
 
 
 **Parent Topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)

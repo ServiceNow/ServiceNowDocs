@@ -24,7 +24,7 @@ Use the Shopping Hub module to request pricing or place an order for products an
 The ServiceNow Shopping Hub Mobile app enables you to engage with procurement organizations from a mobile device.
 -   **[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)**  
 With the Procurement Case Management application, you can enable your employees to submit procurement cases and access your organization's knowledge base.
--   **[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)**  
+-   **[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)**  
 Playbooks provide a streamlined and consistent way of accomplishing various tasks, such as editing a purchase order, editing a purchase requisition, approving or rejecting cancellation requests, and so on.
 -   **[Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md)**  
 Use Spend and Savings Management to import and manage your organization's category taxonomy.

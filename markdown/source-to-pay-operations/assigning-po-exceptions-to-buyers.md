@@ -15,7 +15,7 @@ breadcrumb: [Configure, Purchase Order Management, Source-to-Pay Operations, Fin
 
 Use queues in Advanced Work Assignment to assign purchase order exceptions to the appropriate buyer.
 
-You can leverage the following default queues:
+You can use the following default queues:
 
 -   **Critical priority purchase order exceptions**
 -   **Moderate priority purchase order exceptions**
@@ -34,4 +34,6 @@ Modify these existing queues or create a queue by selecting the purchase order e
 [Assigning priority to a purchase order]()
 
 [Domain separation and Purchase Order Management]()
+
+[Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md)
 

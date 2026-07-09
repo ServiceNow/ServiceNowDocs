@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generative AI powered Root cause analysis, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Use the Root cause analysis history
@@ -45,5 +45,5 @@ Role required: admin
     The table contains information on the alerts.
 
 
-**Parent Topic:**[Generative AI powered Root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/generative-ai-root-cause-anal.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

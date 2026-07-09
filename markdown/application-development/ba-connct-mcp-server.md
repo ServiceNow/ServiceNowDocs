@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-connct-mcp-server.html
 release: australia
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-07-02"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -25,6 +25,8 @@ The end-to-end flow for making an MCP server available is:
 2.  The administrator approves the server as an AI asset in AI Control Tower.
 3.  You authenticate the connection in Personal Integrations.
 4.  You enable the MCP server in Build Agent settings.
+
+**Note:** An allowlist process is required to connect the Build Agent MCP client to the Figma MCP server. Contact Now Support to initiate the process.
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
@@ -67,5 +69,5 @@ Role required: admin
 
 After Build Agent authenticates the connection, you can chat with it to ask questions related to the MCP server.
 
-**Parent Topic:**[Configure Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
 

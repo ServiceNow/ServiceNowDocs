@@ -14,8 +14,6 @@ breadcrumb: [Data Catalog, Workflow Data Fabric]
 
 A metadata collector run harvests technical metadata from the connected data platform and updates the Data Catalog. Collectors can run on demand or on a defined schedule. Runtime logs record the status and details of each run.
 
-A metadata collector run harvests technical metadata from the connected data platform and updates the Data Catalog. Collectors can run on demand or on a defined schedule. Runtime logs record the status and details of each run.
-
 Collectors support two run modes:
 
 -   Manual: An immediate, on-demand run. Use this after initial setup to verify that the collector connects and collects expected metadata

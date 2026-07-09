@@ -8,7 +8,7 @@ product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
@@ -21,6 +21,8 @@ Natural Language Query support in Knowledge Graph and Enterprise Graph allows us
 ## Supported Queries
 
 Knowledge Graph and Enterprise Graph, understand and process queries that reference specific tables, columns, choice values, and conditions. It also handles queries involving system-generated identifiers \(sys-ids\), person names, dates, and contextual pronouns. Additionally, it supports aggregate and sorting queries, enabling users to perform simple statistical analysis and order results.
+
+Knowledge Graph also supports queries with Glidelist References.
 
 Here are some examples of the supported query types:
 
@@ -41,6 +43,8 @@ Here are some example queries and description of how they works in Knowledge Gra
 |Find Configuration items where manufacturer = Lenovo.|Configuration item is reference to cmdb\_ci table, manufacturer is column, and the exact name of manufacturer is specified.|
 |Show me assets assigned to &lt;Person Name&gt;.|Assets refer to asset table, assigned to is column and person name is well specified.|
 |Find details of CI associated with P1 priority incident.|CI refers to look at configuration table and P1 indicated the choice value of the priority column.|
+|Show me incidents that have at least one user on the watch list.|Incident refers to the incident table and watch\_list refers to the glidelist field containing user references, and the condition checks for non-empty values to identify actively monitored incidents.|
+|Show me all incidents and their work\_notes\_list users|Incident refers to the incident table, work\_notes\_list refers to the glidelist field containing user references who have added work notes, and returns paired incident and sys\_user records.|
 
 ## Queries with Sys-IDs, Person Names, and Date References
 
@@ -65,6 +69,9 @@ Here are some example queries and description of how they works in Knowledge Gra
 |Show my open incidents.|Uses Incident table and 'my' reference is the person asking the query.|
 |What is the status of my request?|Uses request table and 'my' reference is the person asking the query.|
 |What are their pending approvals?|Uses `sysapproval_approver` table and 'their' reference is the person who was referred to in previous turn of conversation.|
+|Give me the watchlist for incident INC0009009.|INC0009009 is the sys-id referring to the incident table, and watch\_list refers to the glidelist field that contains related sys\_user records associated with that incident.|
+|Show watchlist users associated with incident INC0009009.|INC0009009 is the sys-id referring to the incident table and watch\_list refers to the glidelist field containing user references. Returns all sys\_user records linked to that incident.|
+|Show me incidents where abel.tuter is added in watchlist.|Abel.tuter is a username and watch\_list refers to the glidelist field in the incident table. Returns all incident records where this user is listed as a watcher.|
 
 ## Aggregate or Sorting Queries
 
@@ -101,7 +108,7 @@ Here are a few examples of unsupported queries that will work if rephrased, as s
 
 ## Queries on Journal Fields or Document IDs
 
-Queries involving journal entries, document IDs, or glidelist references are not supported.
+Queries involving journal entries, and document ID references aren't supported.
 
 Here are a few examples of unsupported queries:
 

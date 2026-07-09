@@ -66,7 +66,7 @@ In this procedure, the method to request evidence from the **My Evidence** modul
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
+2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: List icon from the sidebar.
 
 3.  Navigate to **Evidence requests** &gt; **My request**.
 

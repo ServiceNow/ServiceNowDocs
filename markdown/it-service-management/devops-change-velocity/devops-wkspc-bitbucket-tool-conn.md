@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Bitbucket.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d413187e96">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d414164e96">
 
 Option
 
-</th><th align="left" id="d413187e99">
+</th><th align="left" id="d414164e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d413187e105">
+</th></tr></thead><tbody><tr><td id="d414164e105">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d413187e132">
+</td></tr><tr><td id="d414164e132">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d413187e184">
+</td></tr><tr><td id="d414164e184">
 
 **Tools module**
 
@@ -77,15 +77,15 @@ Steps
 
 3.  On the Bitbucket instance details playbook activity, enter the following details.
 
-<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d413187e272">
+<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d414164e272">
 
 Tool
 
-</th><th align="left" id="d413187e275">
+</th><th align="left" id="d414164e275">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d413187e281">
+</th></tr></thead><tbody><tr><td id="d414164e281">
 
 **Bitbucket Server**
 
@@ -96,7 +96,7 @@ Steps
 3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
 \[Omitted image "bitbucket-connect-server.png"\] Alt text: Enter Bitbucket instance details page for Bitbucket Server
 
-</td></tr><tr><td id="d413187e318">
+</td></tr><tr><td id="d414164e318">
 
 **Bitbucket Cloud**
 

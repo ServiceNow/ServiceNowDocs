@@ -1,6 +1,6 @@
 ---
 title: Strategy Accelerators
-description: Use Strategy Accelerators to go deeper on organizational and governance best practices with the ServiceNow platform and upskill your team to maintain business performance and drive success.
+description: Use Strategy Accelerators to go deeper on organizational and governance general guidelines with the ServiceNow platform and upskill your team to maintain business performance and drive success.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/strategy-accelerators.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Strategy Accelerators
 
-Use Strategy Accelerators to go deeper on organizational and governance best practices with the ServiceNow platform and upskill your team to maintain business performance and drive success.
+Use Strategy Accelerators to go deeper on organizational and governance general guidelines with the ServiceNow platform and upskill your team to maintain business performance and drive success.
 
 ## Accelerators available in each package
 
@@ -53,5 +53,5 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |[Success Readiness Assessment \(SRA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/success-readiness-assessment.md)| |✓|✓|✓|✓| |
 |[Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md)| |✓|✓|✓|✓| |
 
-**Note:** The On-demand accelerators are also available for Guided customers.
+**Note:** The On-demand Accelerators are also available for Guided customers.
 

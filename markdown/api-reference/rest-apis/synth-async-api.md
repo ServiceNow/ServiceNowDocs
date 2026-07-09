@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-04-20"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -18,7 +18,7 @@ The SyntheticsAsyncBulkCreate API provides endpoints to manage asynchronous synt
 
 Use this API to create up to 5,000 monitors per request. Monitors can be created using data in JSON or CSV format. For more information about using JSON or CSV files with Postman or Terminal, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
-This API requires the [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md) application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md). Additionally, configuration items \(CIs\) for the endpoints being monitored must exist in the [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ITILConfigurationManagement.md).
+This API requires the [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md) application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
@@ -455,6 +455,8 @@ Creates multiple synthetic monitors in a single asynchronous operation.
 
 This endpoint supports creating up to 5,000 monitors per request, with a maximum payload size of 10MB. Calling this endpoint submits a job to asynchronously create the monitors in batches of 500. Check the job status by calling the endpoint [GET /sn\_sow\_synthetics/v1/synthetics\_async\_bulk\_create/\{job\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md).
 
+Uploaded data is checked for uniqueness against existing monitors on the fields **name**, **url**, **location**, **valid\_http\_code**, and **valid\_http\_code\_type** to avoid creating duplicates.
+
 To call this endpoint, the user must have the x\_snc\_sow\_synthetics.synthetics\_editor role.
 
 ### URL format
@@ -629,7 +631,9 @@ checks.cmdb\_ci
 
 </td><td>
 
-Required. Sys\_id of the CMDB endpoint configuration item \(CI\).Table: HTTP Endpoint \[cmdb\_ci\_endpoint\_http\]
+Required. Sys\_id of the CMDB endpoint configuration item \(CI\) or endpoint URL.If a URL is provided that matches an existing endpoint CI, that CI is used for the monitor. If a URL is provided that doesn't match an existing endpoint CI, a CI is created and used for the monitor.
+
+Table: HTTP Endpoint \[cmdb\_ci\_endpoint\_http\]
 
 Data type: String
 
@@ -772,7 +776,7 @@ checks.parent\_service\_sys\_id
 
 </td><td>
 
-Required. Sys\_id of the business service this endpoint supports. Used for service-level reporting and impact analysis.Table: Business Service \[cmdb\_ci\_service\]
+Required unless the endpoint has a parent service relationship in the CI Relationship \[cmdb\_rel\_ci\] table. Sys\_id of the business service this endpoint supports. Used for service-level reporting and impact analysis.Table: Business Service \[cmdb\_ci\_service\]
 
 Data type: String
 
@@ -819,7 +823,7 @@ checks.support\_group\_sys\_id
 
 </td><td>
 
-Required. Sys\_id of the support group responsible for this endpoint. Used for alert routing and assignment.Table: Group \[sys\_user\_group\]
+Required unless the endpoint has a parent service relationship in the CI Relationship \[cmdb\_rel\_ci\] table. Sys\_id of the support group responsible for this endpoint. Used for alert routing and assignment.Table: Group \[sys\_user\_group\]
 
 Data type: String
 
@@ -1251,6 +1255,47 @@ Response body - rate limit error.
       "remaining_per_hour": 5,
       "remaining_per_day": 100
     }
+  }
+}
+```
+
+### cURL request
+
+This example submits a job to create a monitor for an API endpoint that has a parent service relationship in the CI Relationship \[cmdb\_rel\_ci\] table.
+
+```
+curl "https://instance.service-now.com/api/sn_sow_synthetics/v1/synthetics_async_bulk_create" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+  "checks": [
+    {
+      "cmdb_ci": "https://user-mgmt.example.com/api/v2/notifications",
+      "name": "existing_url_check",
+      "method": "GET",
+      "interval": 1,
+      "locations": [
+        "335c38f5534332308e4dedeefa7b1314"
+      ],
+      "valid_http_code_type": "equals",
+      "valid_http_code": "200"
+    }
+  ]
+}" \
+--user 'username':'password'
+```
+
+Response body - job successfully created.
+
+```
+{
+  "result": {
+    "job_id": "BCJ-1809789123456-a1b2c3d5",
+    "job_sys_id": "abc123def456abc123def456",
+    "status": "pending",
+    "message": "Job created successfully. File uploaded. Processing will begin shortly.",
+    "status_check_url": "/api/sn_sow_synthetics/v1/synthetics_async_bulk_create/BCJ-1809789123456-a1b2c3d5"
   }
 }
 ```

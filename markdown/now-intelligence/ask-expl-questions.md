@@ -18,7 +18,8 @@ To ask a question in an exploration, launch AI Data Explorer from a data visuali
 
 **Note:**
 
--   The question you ask has to be about data in one of the tables listed in the Query Generation Semantic Table Configuration table. These tables can include database views or Workflow Data Fabric tables. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+-   The question you ask has to be about either an indicator ordata in one of the tables listed in the Query Generation Semantic Table Configuration table. These tables can include database views or Workflow Data Fabric tables. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+-   The system first looks for a relevant indicator to be the data source. If it does not find one, it falls back on table data sources.
 -   If the data is from a protected application scope, access to that scope must be configured for AI Data Explorer. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md).
 -   When you have submitted a question, you cannot submit another question or do other work in the exploration until your question is processed. You can cancel the processing of your question.
 
@@ -26,7 +27,7 @@ When you write a question in an exploration, the AI converts the question to a d
 
 \[Omitted image "nowass-expl-response.png"\] Alt text: The response returned from a question to AI Data Explorer, showing the summary, data visualization, and suggested follow-up questions.
 
--   \[Omitted image "callout-1.png"\] Alt text: Area 1 An expandable set of actions to take on the response. For more information, see [Duplicate, delete, copy to another exploration, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md).
+-   \[Omitted image "callout-1.png"\] Alt text: Area 1 An expandable set of actions to take on the response. For more information, see [Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md).
 -   \[Omitted image "callout-2.png"\] Alt text: Area 2 Your original question. You can edit this question to generate new output.
 -   \[Omitted image "callout-3.png"\] Alt text: Area 3 The title of the response and a summarization of the AI findings.
 -   \[Omitted image "callout-4.png"\] Alt text: Area 4 If extended analysis is enabled, you get additional insights after the title and summary. For more information, see [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md).
@@ -39,12 +40,14 @@ When you write a question in an exploration, the AI converts the question to a d
 
 ## Viewing the response source
 
-After you receive a response from the ServiceNow AI Platform, point at the response to see the technical details of the response. The source details include the following information:
+After you receive a response from the ServiceNow AI Platform, point at the response to see the technical details of the response. The source details for a table sourceinclude the following information:
 
 -   The source table
 -   The filter conditions
 -   The metric
 -   Any grouping criteria
+
+For an indicator source, the details include the time series aggregation and the collection date.
 
 If the exploration is too narrow on the screen, select **View source** instead of pointing at the response.
 
@@ -74,7 +77,7 @@ The goal of AI Data Explorer is to understand your prompts in your own words, de
 
 -   **Edit and refine queries**
 
-    If the generated query isn't quite right, you can manually edit the filter conditions. The AI model will learn from your edits and apply them to future questions in the same document. For more information, see [Change the parameters for a data source in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/change-parms-exploration-source.md)
+    If the generated query isn't quite right, you can manually edit the filter conditions. The AI model will learn from your edits and apply them to future questions in the same document. For more information, see [Regenerate a response in an AI Data Explorer exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/change-parms-exploration-source.md)
 
     Example: You ask "Show me critical incidents from the network team" but are not satisfied with the response. Instead of asking repeated variations of the same question, hoping for a better result, edit the filter to find records where Assignment Group is ‘Network Operations’ and Priority is ‘1 - Critical’. Then ask "Show me the inflow trend for these incidents over time”.
 
@@ -91,6 +94,8 @@ The goal of AI Data Explorer is to understand your prompts in your own words, de
 
 Once you have a productive exploration going, with a lot of context, you may find that you can ask more abstract questions and get useful answers. However, these tips might help you get started.
 
+-   **[Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/indicator-vs-table-data-source-selection.md)**  
+After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
 -   **[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md)**  
 Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 -   **[Add a data visualization from an exploration to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-data-viz-from-expl-to-dboard.md)**  
@@ -99,9 +104,9 @@ Put the visualization contained in a response from AI Data Explorer on a new or 
 Look at the age of the response to a question in an AI Data Explorer exploration. Then regenerate the response with fresh data.
 -   **[Change the question in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/change-exploration-question.md)**  
 Edit a question in an AI Data Explorer exploration and submit it to overwrite the original response.
--   **[Change the parameters for a data source in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/change-parms-exploration-source.md)**  
-In an AI Data Explorer exploration, change the filter conditions for a table source. Then regenerate a response with updated data.
--   **[Duplicate, delete, copy to another exploration, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)**  
+-   **[Regenerate a response in an AI Data Explorer exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/change-parms-exploration-source.md)**  
+Change the filter conditions for a table sourceor data visualization parameters for an indicator source. Then regenerate a response with updated visualizations.
+-   **[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)**  
 Duplicate, delete or reorder an individual question and response from inside an exploration. Yiou can also copy a response to another exploration.
 
 **Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-now-assist-explorer.md)

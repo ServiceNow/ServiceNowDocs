@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-11-05"
 reading_time_minutes: 1
-breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using generative AI skills for Now Assist for Hardware Asset Management \(HAM\)

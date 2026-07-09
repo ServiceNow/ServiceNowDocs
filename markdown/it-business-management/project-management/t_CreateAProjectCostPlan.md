@@ -44,7 +44,7 @@ To use multiple currencies, create a new cost plan for another currency.
 
     For field information, see [Cost Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-form-project-management.md).
 
-    **Note:** When you change the planned start date of a project, the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
+    **Note:** When you [change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md), the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
 
 5.  Select **Submit**.
 

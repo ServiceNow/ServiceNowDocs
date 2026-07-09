@@ -1,5 +1,5 @@
 ---
-title: Generate employee profiles for resources to work with capacity planning
+title: Generate employee profiles for resources
 description: Generate employee profiles for the resources to map against primary attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure capacity planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Generate employee profiles for resources to work with capacity planning
+# Generate employee profiles for resources
 
 Generate employee profiles for the resources to map against primary attributes.
 

@@ -46,8 +46,6 @@ Sequence generated for order guides with only record producers as rule base item
 
     You can change the default name of the first lane, Lane 1, by selecting **Lane actions &gt; Configure lane** and modifying the name.
 
-    \[Omitted image "SequencePad.png"\] Alt text: Process Automation Designer page for sequencing
-
 6.  In the lane, select an activity card for the item you want to configure.
 
 7.  Configure the activity's properties.

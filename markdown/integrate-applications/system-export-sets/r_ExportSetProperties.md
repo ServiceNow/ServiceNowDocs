@@ -34,7 +34,7 @@ For Excel files, option to format currency values to match the localization of t
 
  For example, say you've activated the I18N: French Canada Translations plugin on your instance, and you're exporting a currency value of 6300. If this property is set to true, the value will be correctly formatted as 6,300 €. If this property is set to false, the value will be formatted as € 6,300.
 
- For more information on localization, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework-landing.md).
+ For more information on localization, see .
 
  -   Type: true \| false
 -   Default: false
@@ -90,7 +90,7 @@ Minimum number of rows required for parallel export. The default value is 50000.
 
 If an export has fewer rows than this threshold, the system uses standard export processing.
 
-**Note:** To add this property and customize the threshold, navigate to **All** &gt; **System Properties** &gt; **System Properties**.
+**Note:** To add this property and customize the threshold, navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
 </td></tr></tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Manage Capabilities Maps for the Impact Store Application
+title: Manage capabilities maps
 description: Explore and manage the usage status for the capabilities you are entitled to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/manage-capability-maps.html
@@ -9,10 +9,10 @@ classification: impact-product-adoption-roadmap
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Capabilities maps, Product Adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
 ---
 
-# Manage Capabilities Maps for the Impact Store Application
+# Manage capabilities maps
 
 Explore and manage the usage status for the capabilities you are entitled to use.
 

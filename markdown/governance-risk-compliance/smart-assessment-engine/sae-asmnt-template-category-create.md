@@ -112,7 +112,7 @@ Embedded assessment parent table
 
 Table of the parent record from which assessments inherit read access. The trigger configuration for assessments in this category must pass the sys\_id of a record in this table when the assessment is created.
 
- This field appears only when **Embedded assessment parent table** field is selected.
+ This field appears only when **Inherit read access for embedded assessment** is selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -161,4 +161,8 @@ Default normalization strategy for an assessment assigned with this category. Th
 
     The system generates the assessment template category and adds it to the list of categories that can be specified when designing an assessment template. Active categories are only available for use while categorizing templates.
 
+
+## Result
+
+The assessment template category is created and available for use when designing assessment templates.
 

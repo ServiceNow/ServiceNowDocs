@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-07-07"
 reading_time_minutes: 6
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -69,6 +69,15 @@ If you only need to track work items at a single level \(for example, just stori
     -   A new child item appears under its parent when that parent is expanded in your current view.
     -   If the parent is collapsed or isn't loaded in your current view, the new item isn't displayed until you expand that parent.
     -   If a filter is active and the new item doesn't match the filter, the item isn't displayed in your current view. A confirmation message provides a link to open the new item directly.
+-   **Refresh with state preservation**
+
+    Selecting **Refresh** reloads the data in the Hierarchy grid without collapsing your expanded rows or losing your scroll position.
+
+    -   Rows that were deleted since your last refresh are removed without an error.
+    -   New child items that were added since your last refresh appear under their expanded parent.
+    -   Expanded rows stay expanded when you switch tabs or switch teams and return to the Hierarchy tab.
+    -   Applying or removing a filter collapses all expanded rows. Refreshing while a filter is applied retains the expansion state.
+    -   If the grid displays more than 100 non-root items or more than 100 stories, selecting Refresh shows a confirmation dialog before collapsing all rows. Select **Cancel** to keep your current view unchanged.
 -   **Interactive filters**
 
     Filter the hierarchy by work item type using the Filters option. Filtering enables you to focus on the work items that you need and are relevant for you.

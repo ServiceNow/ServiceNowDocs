@@ -8,7 +8,7 @@ product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
 topic_type: concept
 last_updated: "2026-06-09"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Discovery, agentic workflow, Now Assist, pattern diagnostic, missing attribute, CMDB, data quality]
 breadcrumb: [Use agentic AI, Now Assist for ITOM, IT Operations Management]
 ---
@@ -24,6 +24,12 @@ When Discovery runs, it populates CI attributes in the CMDB using both probe-bas
 Now Assist for IT Operations Management \(ITOM\) must be installed on your instance. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: discovery\_admin.
+
+## Required property configuration
+
+The **glide.discovery.save\_pattern\_log** property controls whether pattern logs are saved after successful pattern execution. By default, this property is set to true, which saves all pattern logs.
+
+If this property is set to false, successful pattern logs are not saved. This can prevent the Pattern diagnostic agentic workflow from performing missing attribute analysis in cases where the attribute is not failing the pattern. Verify that this property is set to true to enable complete analysis. For information about configuring this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
 
 ## Pattern diagnostic agentic workflow overview
 

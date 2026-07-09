@@ -61,7 +61,7 @@ Start
 
 </td><td>
 
-Start date and time for the business calendar period. It uses the time zone that you specified in the business calendar record that you associate with it. For example, if you’re defining a fiscal period for the month of January, the starting date time is January 31, 2020 12:00
+Start date and time for the business calendar period. It uses the time zone that you specified in the business calendar record that you associate with it. For example, if you’re defining a fiscal period for the month of January, the starting date time is January 1, 2020 00:00
 
 </td></tr><tr><td>
 

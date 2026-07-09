@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an insight trigger
@@ -57,5 +57,5 @@ Map an insight rule to a new scheduled script to define the type of insight trig
 -   **[Map an insight rule to an existing scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-existing-scheduled-job-trigger.md)**  
 Map an insight rule to an existing scheduled job to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
 
-**Parent Topic:**[Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-rule.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-insights.md)
 

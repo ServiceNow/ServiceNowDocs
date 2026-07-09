@@ -35,8 +35,10 @@ Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\),
 Install Zero Copy Connector for ERP from the ServiceNow Store, so that you can connect to SAP and other ERP systems and start building models on the ServiceNow AI Platform.
 -   **[Connect to a system of record from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md)**  
 Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to a system of record, such as SAP, directly or using a load balancer to enable access to the ERP system.
--   **[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)**  
-Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables. OData connects to SAP via HTTP.
+-   **[Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)**  
+Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
+-   **[Connect Zero Copy Connector for ERP to SAP using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)**  
+Extract data securely from ERP with REST for use in remote tables and extraction tables.
 -   **[Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)**  
 Use Secure Network Communication \(SNC\) for data communications between ServiceNow MID Server and SAP systems.
 -   **[Zero Copy Connector for ERP roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-roles.md)**  

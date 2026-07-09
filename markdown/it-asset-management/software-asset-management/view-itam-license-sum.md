@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View license report for the IT Asset Management application

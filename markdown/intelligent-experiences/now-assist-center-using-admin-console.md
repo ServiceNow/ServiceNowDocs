@@ -26,8 +26,6 @@ Access Now Assist Admin console features in the Now Assist Center workspace.
 
 -   **[Configure Now Assist settings in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-configure-admin-settings.md)**  
 Use Now Assist Admin console configuration features on the Now Assist Admin page in the Now Assist Center workspace.
--   **[Activate a Now Assist skill in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-activate-now-assist-skill.md)**  
-Activate a Now Assist skill in Now Assist Center.
 
 **Parent Topic:**[Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)
 

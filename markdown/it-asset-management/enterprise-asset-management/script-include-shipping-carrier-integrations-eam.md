@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Script include for third-party shipping carrier integrations

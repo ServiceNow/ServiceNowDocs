@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your External Content Connectors
-description: This accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
+description: This Accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your External Content Connectors
 
-This accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
+This Accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
 
 ## Accelerator Overview
 
-Jumpstart Your External Content Connectors \(XCC\) provides Impact customers with an overview and applied demonstration of External Content Connectors included as part of Workflow Data Fabric. It helps customers understand leveraging this new capability to configure their ServiceNow AI Search and search external systems such as SharePoint, Confluence, and more. Additionally, this accelerator includes key resources and leading practice guides to help customers get started in their own instance stack.
+Jumpstart Your External Content Connectors \(XCC\) provides Impact customers with an overview and applied demonstration of External Content Connectors included as part of Workflow Data Fabric. It helps customers understand leveraging this new capability to configure their ServiceNow AI Search and search external systems such as SharePoint, Confluence, and more. Additionally, this Accelerator includes key resources and leading practice guides to help customers get started in their own instance stack.
 
 ## Package Availability
 

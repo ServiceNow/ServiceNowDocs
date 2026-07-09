@@ -1,5 +1,5 @@
 ---
-title: Configure budget attribute at instance-level to allocate budget
+title: Configure budget attribute at instance-level
 description: Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your planning items using Strategic Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Enable financial budget allocation for planning items in Strategic Planning, Configure financials for planning items Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure budget attribute at instance-level to allocate budget
+# Configure budget attribute at instance-level
 
 Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your planning items using Strategic Planning.
 
@@ -33,7 +33,7 @@ Configure the budget attribute by expense type or cost type as an instance-level
 
     -   **cost\_type** - view financials by cost types such as Hardware Opex, External labor Capex, Software Capex, Software Opex.
 
-        **Note:** It's suggested to limit the number of cost types to four.
+        **Note:** Its suggested to have number of cost types to around 4 when you're choosing cost type as the budget attribute. Having higher number of cost types would have performance challenges when loading the financials data in the portfolio financials or scenario planning financials pages.
 
     -   **expense\_type** - view financials by expense types such as Capex and Opex.
 4.  Select **Update**.

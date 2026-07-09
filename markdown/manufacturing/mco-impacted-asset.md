@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create an impacted asset
@@ -36,6 +36,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
 

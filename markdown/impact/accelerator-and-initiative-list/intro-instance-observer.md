@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Introduction to Instance Observer-Guided
@@ -18,7 +18,7 @@ The Introduction to Instance Observer Accelerator provides guidance on understan
 
 ## Accelerator overview
 
-Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) for more information on the feature.
+Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) for more information on the feature.
 
 ## Package Availability
 

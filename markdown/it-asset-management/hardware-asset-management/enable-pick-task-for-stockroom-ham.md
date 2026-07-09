@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Pick assets in the Hardware Asset Workspace, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Pick assets in the Hardware Asset Workspace, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Enable the Asset pick task for your stockroom in the Hardware Asset Workspace

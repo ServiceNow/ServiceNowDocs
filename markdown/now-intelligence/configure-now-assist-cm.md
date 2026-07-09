@@ -15,7 +15,7 @@ breadcrumb: [Dashboard Summary, Now Assist in Platform Analytics, Platform Analy
 
 Activate the Dashboard Summary skills.
 
-The Dashboard Summary skill is a Generative AI capability that automatically produces a concise, structured summary of a Platform Analytics experience dashboard based only on data that is already visible to the user, using a Now Assist skill.
+The Dashboard Summary skill is a generative AI capability that automatically produces a concise, structured summary of a Platform Analytics experience dashboard based only on data that is already visible to the user, using a Now Assist skill.
 
 When triggered, the skill analyzes the dashboard's visual elements, such as tables, indicators, and charts, along with the active filters and time range, and generates:
 

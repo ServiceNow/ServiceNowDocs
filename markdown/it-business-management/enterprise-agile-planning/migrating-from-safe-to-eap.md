@@ -36,7 +36,7 @@ The following tasks are included in the guided setup.
 
     Verify that the tables, columns, choice fields, and custom tables of your SAFe application are correctly mapped to those in EAP.
 
-    **Note:** By default, all columns of SAFe Story \[sn\_safe\_story\] and SAFe Scrum Task \[sn\_safe\_scrum\_task\] tables are migrated to the Story \[rm\_story\] and Scrum Task \[rm\_scrum\_task\] tables. To include or exclude any columns, see [Modify columns to migrate from SAFe story and SAFe Scrum task tables to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/modify-columns-to-migrate-safe-story-task-tables-to-eap.md).
+    **Note:** By default, all columns of SAFe Story \[sn\_safe\_story\] and SAFe Scrum Task \[sn\_safe\_scrum\_task\] tables are migrated to the Story \[rm\_story\] and Scrum Task \[rm\_scrum\_task\] tables. To include or exclude any columns, see [Modify columns to migrate from SAFe story tables to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/modify-columns-to-migrate-safe-story-task-tables-to-eap.md).
 
 3.  [Start migration of SAFe data to EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/migrate-safe-data-to-eap.md).
 4.  Add **Agile Team** as the type for existing SAFe groups. See [Add Agile Team type to SAFe groups for EAP migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/change-safe-groups-type-to-agile-team.md).

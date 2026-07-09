@@ -1,18 +1,18 @@
 ---
 title: Number field properties in layouts
-description: Control how number fields behave and display in CPQ layouts using the step and precision properties. Define valid input intervals, enforce decimal formatting, and ensure consistent numeric entry for use cases like quantities and currency values.
+description: Control how number fields behave and display in ServiceNow CPQ layouts using the step and precision properties. Define valid input intervals, enforce decimal formatting, and ensure consistent numeric entry for use cases like quantities and currency values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-number-field-properties-in-layouts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Number field properties in layouts
 
-Control how number fields behave and display in CPQ layouts using the step and precision properties. Define valid input intervals, enforce decimal formatting, and ensure consistent numeric entry for use cases like quantities and currency values.
+Control how number fields behave and display in ServiceNow CPQ layouts using the step and precision properties. Define valid input intervals, enforce decimal formatting, and ensure consistent numeric entry for use cases like quantities and currency values.
 
 When the input parameters of a number field are defined in the layout editor, either the step property or the precision property can be set.
 

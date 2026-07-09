@@ -18,8 +18,6 @@ Access knowledge articles from anywhere using the Information applet on the Now 
 
 To access articles from the Information applet on the Now Mobile app, you must first download the ServiceNow mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-\[Omitted image "km-articles.png"\] Alt text: Now Mobile Information applet
-
 Make sure your administrator has activated the Now Mobile app. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md).
 
 After you access an article, you can view the author, published date, number of views, and the overall rating details of the article. In addition, you can respond to and evaluate articles and view related items, related articles, and attachments.

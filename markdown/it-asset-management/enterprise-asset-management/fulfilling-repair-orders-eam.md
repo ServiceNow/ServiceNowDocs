@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 1
-breadcrumb: [Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Fulfilling repair orders in the Enterprise Asset Workspace

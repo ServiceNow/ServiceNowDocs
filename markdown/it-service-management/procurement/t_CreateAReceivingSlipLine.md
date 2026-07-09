@@ -9,7 +9,7 @@ classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Receive assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Receive assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a receiving slip line

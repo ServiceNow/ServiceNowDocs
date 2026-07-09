@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Allocation management on Software Asset Management
@@ -112,4 +112,9 @@ When allocating software licenses, follow the licensing rules supported by the p
 -   When the **Allocated not in use** column value is greater than zero, the **Remove Allocations** remediation option is automatically created for each unique license metric in the software model.
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+
+**Related topics**  
+
+
+[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
 

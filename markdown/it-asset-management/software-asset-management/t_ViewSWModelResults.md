@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 11
-breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Software license usage, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View software model results

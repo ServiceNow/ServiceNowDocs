@@ -40,7 +40,7 @@ As a sourcing manager, you can create a pipeline project directly from an expiri
 
 [Using Procurement Case Management]()
 
-[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace]()
+[Working with SPO playbooks in the Source-to-Pay Workspace]()
 
 [Using Spend and Savings Management]()
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Pause a hardware asset repair task using the Mobile Agent application

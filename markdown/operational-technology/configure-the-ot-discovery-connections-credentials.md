@@ -1,6 +1,6 @@
 ---
 title: Configure the OT Discovery connections &amp; credentials
-description: Configure the Service Graph Connector authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
+description: Configure the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/configure-the-ot-discovery-connections-credentials.html
 release: australia
@@ -12,17 +12,17 @@ breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\
 
 # Configure the OT Discovery connections &amp; credentials
 
-Configure the Service Graph Connector authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
+Configure the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery authentication credentials and configuration used to connect to the ServiceNow OT Discovery devices.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** It's recommended that you switch to the application scope to Service Graph Connector for ServiceNow OT Discovery.
+**Note:** It's recommended that you switch to the application scope toService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery.
 
 ## Procedure
 
-1.  Confirm that the application scope is set to **Service Graph Connector for OT Discovery** by using the application picker.
+1.  Confirm that the application scope is set to the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery by using the application picker.
 
 2.  Under **Configure the connection** section only configuring the MID Server is optional.
 

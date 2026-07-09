@@ -34,9 +34,7 @@ Each row in Table Builder represents a column from your table. Previewing the ta
 
 1.  On the **Data** tab, select **Preview**.
 
-2.  From the new tab, review the table preview as shown in the following example.
-
-    \[Omitted image "example-table-preview.png"\] Alt text: Example table preview.
+2.  From the new tab, review the table preview.
 
 
 ## What to do next

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-04-16"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Data Catalog release notes
@@ -48,6 +48,26 @@ See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 
 ## New in the release
+
+-   ****
+
+    Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   ****
+
+    Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **Data quality for data assets**
+
+    Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **Classifier field for columns**
+
+    View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **Email notifications for owner and steward assignments for data assets**
+
+    When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
 
 -   **[Clone metadata collector connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
 

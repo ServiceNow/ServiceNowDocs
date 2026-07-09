@@ -52,7 +52,7 @@ Role required: sn\_apm.apm\_analyst
 
 [Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
 
-[Manage architectural artifacts of a digital interface in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
+[Manage architectural artifacts of a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
 
 [Relate credentials to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-credential.md)
 

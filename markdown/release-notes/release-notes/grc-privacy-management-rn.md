@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Privacy Management release notes
@@ -20,19 +20,20 @@ The ServiceNow® Privacy Management application enables you to manage your organ
 -   Automatically generate an AI-recommended privacy case summary from varied compliance case data, reducing investigation time and enabling faster, more consistent decision-making.
 -   Anonymously report compliance violations through a secure portal that maintains complete identity protection while enabling organizational trust and regulatory compliance.
 
-See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-management.md) for more information.
+See  for more information.
 
 **Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   ****
-    -   Starting from version 22.3.x of Personal Data Rights, privacy administrators can navigate to **External form configuration** to tailor the public-facing PDR form for their organization. They can map jurisdictions to data subject types and request types, and specify whether an authorized agent can submit a request on behalf of a data subject for each jurisdiction.
+-   **External-facing PDR form configuration**
+    -   Starting from version 22.3.x of Personal Data Rights \(PDR\), privacy administrators can navigate to **External form configuration** to tailor the public-facing PDR form for their organization. They can map jurisdictions to data subject types and request types, and specify whether an authorized agent can submit a request on behalf of a data subject for each jurisdiction.
     -   For each jurisdiction, administrators can add terms and conditions, disclaimers, and guidance text that requesters see when they submit a request from that jurisdiction.
     -   Administrators can also show or hide form fields based on the combination of jurisdiction, data subject type, and request type that a requester selects. The form collects only the information needed, therefore, requesters see only the fields that apply to their request.
--   ****
-    -   Starting from version 22.3.x of Privacy Management, privacy analysts can add any user, including users without privacy roles, as a key stakeholder on a processing activity. Such users are set to **No privilege to respond to assessments** by default, and therefore, can only view the record if they are granted the business user role.
-    -   Key stakeholders with the appropriate business user role can select **Request edit access** to ask the privacy analyst for editing rights to a processing activity.
+-   **Enable key stakeholders to edit processing activities**
+    -   Starting from version 22.3.x of Privacy Management, privacy analysts can add any user, including users without privacy roles, as a key stakeholder on a processing activity. Such users are set to **No privilege to respond to assessments** by default and therefore, can only view the record if they are granted the business user role.
+    -   Key stakeholders with the appropriate business user role can access and view the related lists of a processing activity directly from the Employee Center.
+    -   After they review the processing activity and find that it needs updating, they can select **Request edit access** to ask for editing rights to a processing activity.
 -   **New privacy content in Privacy Management Content**
     -   Starting from version 22.3.x of Privacy Management Content, privacy managers can extend their regulatory library with new ready-to-use authority documents, Digital Personal Data Protection Act 2023 \(DPDPA\), Virginia Consumer Data Protection Act, and Colorado Privacy Act. When activating an authority document, they can select which citations to add to the library, and then select from the AI-generated control objectives already mapped to those citations.
     -   Privacy Management Content also ships an updated version of privacy risk statement that carries forward the AI-generated risk statements from the previous version and adds new ones. Reinstalling the already existing risk statements after the update may overwrite certain changes made to them.
@@ -41,11 +42,11 @@ See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     Starting from version 22.3.x of Privacy Management and Privacy Case Management, you can create a version of an existing privacy assessment template to revise the questionnaire, response options, or automations without disrupting assessments that are already in progress. New privacy assessments use the latest published version of the template.
 
 
--   **[GRC case summarization skill for privacy cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-case-summarization-skill.md)**
+-   ****
 
     Privacy analysts can now use the Now Assist case summarization feature to quickly understand a privacy case without manually reviewing every field or related list. Now Assist analyzes key case attributes, such as timelines, impacted areas, evidence, and actions, and generates a structured summary directly inside the privacy case. This feature solves a common problem: case data is often lengthy, scattered across multiple related lists, and difficult for analysts to digest efficiently. Analysts can also save and edit summaries as case data evolves, ensuring the record stays current.
 
--   **[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-privacy-case-anonymously.md)**
+-   ****
 
     Employees can now use the Anonymous Reporting Center to report privacy violations such as data breaches or exposure, unauthorized data use, privacy law violations \(GDPR, CCPA\), or other privacy-by-design lapses without revealing their identity or location.
 
@@ -58,16 +59,21 @@ See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     -   All interactions maintain reporter anonymity at every step; no identity or location data is ever captured or linked
     This enhancement enables organizations to build trust, mitigate risks before escalation, and ensures regulatory compliance with whistleblower protection requirements.
 
--   **[Hierarchy and lineage enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/hierarchy-tab.md)**
+-   **Hierarchy and lineage enhancements**
 
     The Hierarchy and lineage enhancements enables privacy teams to identify which systems, vendors, and applications belong to a specific processing activity by marking relationships as “part of a processing activity.” This ability differentiates scoped components from global or shared connections. Users can toggle between a processing‑activity‑scoped view and a full lineage view, helping them understand data flows in the appropriate context.
 
--   **[Privacy content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-content-accelerator.md)**
+-   ****
 
     The privacy regulatory content through Unified Content Management provides pre‑built authority documents, citations, control objectives, and risk statements aligned with major privacy frameworks, including GDPR, CCPA, LGPD, and the NIST Privacy Framework 1.0. These resources are available for download directly from the Privacy Workspace, enabling teams to readily access standardized regulatory content.
 
 
 ## Changed in this release
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -75,8 +81,8 @@ See [Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information

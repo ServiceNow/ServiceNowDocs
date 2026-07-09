@@ -1,18 +1,18 @@
 ---
 title: Sets
-description: Learn how sets organize repeatable field groups, simplify complex configurations, and enable data aggregation across repeated elements in CPQ.
+description: Learn how sets organize repeatable field groups, simplify complex configurations, and enable data aggregation across repeated elements in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-sets.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [The CPQ Configurator, CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Sets
 
-Learn how sets organize repeatable field groups, simplify complex configurations, and enable data aggregation across repeated elements in CPQ.
+Learn how sets organize repeatable field groups, simplify complex configurations, and enable data aggregation across repeated elements in ServiceNow CPQ.
 
 A set is a reusable, repeatable collection of fields that lets administrators define multiple instances of similar configuration data—such as multiple products, components, or options—in a single blueprint.
 

@@ -18,8 +18,6 @@ Policies ensure compliance and reduce exposure to risks. A policy can be of any 
 
 When you create a policy, it is in a Draft state, and all the required information about the policy are defined and captured in the record. The required information that you capture are the attributes that drive the process flow of the policy.
 
-\[Omitted image "process-flow-infograph-pol-comp.png"\] Alt text: Process flow diagram of Policy and Compliance Management.
-
 The life cycle of a policy record passes through different states. This is designed to understand where the record currently resides and to display its progress. Each state has a specific set of related activities before it moves to the next state. A policy may also move to the previous state, if required, which is configured and identified according to the current state.
 
 -   **Draft**

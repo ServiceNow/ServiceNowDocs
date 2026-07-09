@@ -8,7 +8,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
@@ -45,6 +45,8 @@ Telecommunications Discovery Patterns are executed through Horizontal Discovery 
 4.  Sends results to IRE for reconciliation and insertion into the CMDB and TNI.
 
 The discovery logic follows the TNI data model, which restructures complex CI relationships \(e.g., card-on-card scenarios\) to align with telecom modeling best practices. For example, If a child card is discovered inside a parent card, Telecom Discovery synthesizes a subslot to insert the child, avoiding an invalid card-on-card configuration.
+
+For every discovered network interface, both logical \(such as VLANs\) and physical \(such as Gigabit Ethernet ports\), Telecom Discovery sets the Equipment reference field to the parent equipment \(the network device\), even when the underlying port resides on a card or on a card within a card. The interface's relationship to that card is captured separately in the CI relationship hierarchy, so the Equipment reference field consistently resolves to the parent equipment, in alignment with the TNI data model.
 
 ## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
 

@@ -25,7 +25,7 @@ Use an efficient single-line command script to install Agent Client Collector on
 -   Ensure that you have the `openssl` and `dgst` \(for RHEL/Centos/SUSE installation\) packages available, to be used by the install script.
 -   Ensure that you have the `gpg` package available for validation \(for Ubuntu/Debian installation\).
 -   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
--   When performing single-line installation on more than one agent, download the agent package to your local machine. Place the package on your `ftp` server, using an Ansible script. For details on mass deployment of agents, see [Incorporating the Agent Client Collector into a custom base image for mass deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
+-   When performing single-line installation on more than one agent, download the agent package to your local machine. Place the package on your `ftp` server, using an Ansible script. For details on mass deployment of agents, see [Deploy the Agent Client Collector using a custom base image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-virtual-deployment.md).
 -   In order for the Agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for “dmidecode” and “ss” is required on Linux systems.
 
 Role required: agent\_client\_collector\_admin

@@ -1,6 +1,6 @@
 ---
-title: Getting started with Virtual Agent Designer
-description: The Virtual Agent Designer is a diagram tool for creating and managing assets, which are blueprints for conversations between a Virtual Agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+title: Getting started with the Asset library in Assistant Designer
+description: The Assistant Designer Asset library includes a diagram tool for creating and managing assets, which are blueprints for conversations between a Virtual Agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.html
 release: australia
@@ -13,11 +13,11 @@ keywords: [virtual agent, designer, topic, controls]
 breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Getting started with Virtual Agent Designer
+# Getting started with the Asset library in Assistant Designer
 
-The Virtual Agent Designer is a diagram tool for creating and managing assets, which are blueprints for conversations between a Virtual Agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+The Assistant Designer Asset library includes a diagram tool for creating and managing assets, which are blueprints for conversations between a Virtual Agent and a user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 
-Virtual Agent conversations are built using topics. When building an asset, there are various components \(controls\) that you can use to build the logic of a conversation, as well as the responses that the user sees.
+Virtual Agent conversations are built using topics. When building an asset, there are various components \(controls\) that you can use to build the logic of a conversation, and the responses that the user sees.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -30,7 +30,7 @@ You can also view and manage the following in Assistant Designer:
     -   Conversational subflows and actions are available in Assistant Designer only if Now Assist in Virtual Agent has been configured.
     -   Conversational subflows and actions are also shown in Assistant Designer if the Now Assist Panel is available. For more information on the Now Assist Panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
     -   Conversational subflows and actions only appear to users during a conversation if the Subflows and actions skill is turned on in Now Assist Admin. For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
-    **Note:** Conversational subflows and actions are not applicable to the Virtual Agent Designer legacy topic cards page view.
+    **Note:** Conversational subflows and actions aren't applicable to the Virtual Agent Designer legacy topic cards page view.
 
 -   Custom skills
 
@@ -43,7 +43,7 @@ You can also view and manage the following in Assistant Designer:
 
 Virtual Agent can use either large language model \(LLM\) or Natural Language Understanding \(NLU\) to match the user's request with the appropriate conversation or topic.
 
-With LLM topic discovery, you can use generative AI through Now Assist in Virtual Agent to match the user's request with the desired conversation or topic. With Now Assist in Virtual Agent, you can test and publish your models from within Virtual Agent Designer. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates and reduce the amount of time-consuming work that Natural Language Understanding \(NLU\) topic discovery requires. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
+With LLM topic discovery, you can use generative AI through Now Assist in Virtual Agent to match the user's request with the desired conversation or topic. With Now Assist in Virtual Agent, you can test and publish your models from within Assistant Designer. Now Assist in Virtual Agent uses LLMs and generative AI skills to improve deflection rates. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm.md).
 
 With NLU/keyword topic discovery, the topic author associates the topic with an intent within an NLU model. An intent describes what the user wants to achieve. User utterances are matched with intents to determine the most appropriate topic for the user. Associating a topic with a model and intent is called mapping.
 

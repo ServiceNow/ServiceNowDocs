@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-11"
 reading_time_minutes: 1
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,9 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## About this task
 
-You can export only questionnaires in the received or returned state.
-
-**Note:** This is available when you’re using the Classic assessment engine.
+You can export only questionnaires in the **Responses received**
 
 ## Procedure
 
@@ -47,7 +45,7 @@ You can export only questionnaires in the received or returned state.
         1.  Select **Export All**.
         2.  A pop-up lists the questionnaires to be exported.
         3.  Select **Export**.
-        **Note:** Questionnaires in the received or returned state are available for exporting.
+        **Note:** Questionnaires in the **Responses received** or **Returned** state are available for exporting. These are Classic assessment engine states.
 
     The system generates a compressed file that contains a separate Excel file for each questionnaire. Exported files use the following file naming convention: `<assessmentName> - <questionnaireName>.xlsx`.
 

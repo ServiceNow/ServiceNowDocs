@@ -134,7 +134,7 @@ The timestamp of when this connection last changed.
 
 [Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md)
 
-[Add or remove CIs for single application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
+[Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
 
-[Add or remove CIs for multiple application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
+[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
 

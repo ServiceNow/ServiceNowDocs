@@ -8,8 +8,8 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+reading_time_minutes: 5
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset Attestation
@@ -51,8 +51,11 @@ If you plan to audit your assets by using Asset Attestation, then consider the f
 -   Serialized hardware assets that belong to the opted-in resource categories can only be attested. Excluded hardware assets can't be attested.
 -   Consumables, bundles, and pallets can't be attested.
 -   Attestation supports assets that belong to resource categories of HAM solutions only if they’re opted-in.
+
     -   Hardware Asset Management integration with Telecommunications Network Inventory- Only assets of Server, Network gear, and Telecom Network Inventory \(TNI\) resource categories can be attested.
     -   Hardware Asset Management integration with Zero Touch Mobility- Only assets of Mobile Device resource category can be attested.
+    HAM licensing groups hardware into resource categories, such as servers, end user computers, mobile devices, and network gear. Asset attestation includes only the assets that belong to the opted-in resource categories. If an asset doesn't appear in an attestation cycle, check whether its resource category is opted in. For information about resource categories and how to opt in or out, see [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-licensing.md) and [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+
 
 ## Asset Attestation workflow
 

@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ACL configuration watcher, ACL debugging tools, Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [ACL configuration watcher, ACL debugging tools, Advanced ACL configuration, Access Control Lists, Access Management]
 ---
 
 # Show ACL execution plan

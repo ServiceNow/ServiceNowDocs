@@ -19,7 +19,7 @@ Use AI-generated overviews of a playbook's stages, activities, triggers, and inp
 
 Playbooks can grow complex over time, with multiple stages and activities that make it difficult for users unfamiliar with a playbook to understand quickly its purpose and flow. The playbook summarization feature lets you generate a structured summary of a playbook's contents without manually reading through each activity.
 
-Summaries are generated using Now Assist and are based on the playbook's stages, activities, triggers, and inputs. You can choose from three summary formats:
+Summaries are generated using AI and are based on the playbook's stages, activities, triggers, and inputs. You can choose from three summary formats:
 
 -   **Standard**
 
@@ -40,7 +40,7 @@ After you generate a summary, it is stored and reused across sessions. If a summ
 
 ## Refining a summary
 
-After a summary is generated, you can refine it using preset options or a custom instruction. Preset options let you elaborate or shorten the summary, or change the tone to casual or formal. You can also enter a free-text instruction that Now Assist uses to refine the existing summary.
+After a summary is generated, you can refine it using preset options or a custom instruction. Preset options let you elaborate or shorten the summary, or change the tone to casual or formal. You can also enter a free-text instruction that AI uses to refine the existing summary.
 
 ## Detecting playbook changes
 

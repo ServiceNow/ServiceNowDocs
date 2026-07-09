@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # ServiceNow metadata in applications
@@ -72,5 +72,5 @@ Metadata is used in applications in several different ways.
     When you install applications from the ServiceNow Store, you import a package of metadata that gets installed into your instance.
 
 
-**Parent Topic:**[Overview of building apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
 

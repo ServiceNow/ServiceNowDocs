@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [asset put away task, put away asset]
-breadcrumb: [Manage asset put away using the ServiceNow Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away using the ServiceNow Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Put away assets using the ServiceNow Agent application

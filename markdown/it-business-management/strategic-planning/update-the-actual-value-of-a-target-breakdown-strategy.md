@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Target breakdowns, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ Updating the actual value of a target breakdown automatically updates the actual
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d89874e82">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d89629e82">
 
 Option
 
-</th><th align="left" id="d89874e85">
+</th><th align="left" id="d89629e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89874e91">
+</th></tr></thead><tbody><tr><td id="d89629e91">
 
 **From the Goals page**
 
@@ -54,7 +54,7 @@ From the goals and targets list, select the target record that you want to updat
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d89874e119">
+</td></tr><tr><td id="d89629e119">
 
 **From the Strategy page**
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a work order
@@ -48,6 +48,4 @@ Role required: Quality Issue Management Admin, product non-conformance submitter
 ## Result
 
 The work order is created and awaits for qualification to create a work order task.
-
-**Parent Topic:**[Product Non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 

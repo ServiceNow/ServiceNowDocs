@@ -1,6 +1,6 @@
 ---
 title: Playbook generation
-description: Use Now Assist to generate a playbook from text or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+description: Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/playbook-assist-landing.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on t
 
 # Playbook generation
 
-Use Now Assist to generate a playbook from text or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 
 ## Get started
 
@@ -28,7 +28,7 @@ Use Now Assist to generate a playbook from text or image inputs. For example, yo
 
 </td><td>
 
-[Generate playbooks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate playbook outlines with placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)
+[Generate playbooks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -53,12 +53,12 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md)**  
-Use Now Assist to generate a playbook from text or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+-   **[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md)**  
+Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 -   **[Turn on the playbook generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-generation-skill.md)**  
 Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbook outlines.
--   **[Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)**  
-Generate a playbook with Now Assist by providing text directions or image.
+-   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)**  
+Generate a playbook using AI by providing text directions or an image.
 -   **[Roles in Now Assist for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-roles.md)**  
 The following roles are installed for use with the Now Assist for Creator playbook generation skill.
 

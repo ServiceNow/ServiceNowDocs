@@ -60,7 +60,7 @@ Name
 
 </td><td>
 
-&lt;Name for the HR condition&gt;
+Name for the HR condition.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Active
 
 </td><td>
 
-Selected
+Option to activate the HR condition for use.
 
 </td></tr><tr><td>
 

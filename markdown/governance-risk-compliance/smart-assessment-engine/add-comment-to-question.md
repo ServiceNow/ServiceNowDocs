@@ -1,6 +1,6 @@
 ---
 title: Add a comment or work note to a question
-description: Post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
+description: In SAE, post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance
 
 # Add a comment or work note to a question
 
-Post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
+In SAE, post a comment or a private work note on a specific question in an assessment so that reviewers and contributors can discuss the question.
 
 ## Before you begin
 
@@ -39,7 +39,7 @@ Use question-level comments to discuss a specific question with other collaborat
     2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
-2.  Select the assessment in which you want to comment the questions.
+2.  Select the assessment that contains the question you want to comment on.
 
 3.  Open the question that you want to comment on.
 
@@ -58,6 +58,10 @@ Use question-level comments to discuss a specific question with other collaborat
     The entry appears in the thread for that question, and the comment count on the question card updates to reflect the total number of comments and work notes on the question.
 
 
+## Result
+
+The comment or work note is posted and visible to all collaborators on that question.
+
 ## What to do next
 
 To find all questions on the assessment that have comments, use the **With comments** filter from the filter list. For details on the available filters and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
@@ -69,5 +73,5 @@ To find all questions on the assessment that have comments, use the **With comme
 
 [Flag or resolve a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/flag-a-question.md)
 
-[Adding comments to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.md)
+[Add comments to an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.md)
 

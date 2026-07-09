@@ -57,7 +57,7 @@ Ad hoc document flow
 </td><td>
 
 1.  Create a managed document that you want to make available for signing. See [Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ManagedDocuments.md) for more information.
-2.  [Configure an HR PDF document template for an ad hoc document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)
+2.  [Configure an ad hoc PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)
 3.  [Configure an HR service for the DocuSign integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service-for-docusign-integration.md)
 
 </td></tr><tr><td>
@@ -81,7 +81,7 @@ Once the integration setup is complete, HR agents from your organization can req
 
 For more information, see [Request an electronic signature through the Docusign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-e-signature-through-docusign-service.md).
 
--   **[Configure an HR PDF document template for an ad hoc document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)**  
+-   **[Configure an ad hoc PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.md)**  
 If you are using the DocuSign integration, configure an HR PDF document template for each ad hoc document that you want to make available for signing.
 -   **[Configure an HR PDF document template for a DocuSign template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-docusign-template-for-hr-document-template.md)**  
 If you are using the DocuSign integration, configure an HR PDF document template for each DocuSign template that you want to make available for signing.

@@ -24,3 +24,8 @@ The following roles and tasks are associated with this Solution:
 -   Performance Analytics administrator \(pa\_admin\): Review the indicators, breakdowns, widgets, and dashboards. Set up and start data collection. Share the dashboards with appropriate stakeholders.
 -   HR Service Delivery Employee Relations case reader \(sn\_hr\_er.case\_reader\): Grants access to read all HR ER cases and the Employee Relations Executive Overview.
 
+**Related topics**  
+
+
+[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/content-packs-in-form-analytics-published.md)
+

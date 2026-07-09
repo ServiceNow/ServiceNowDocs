@@ -1,5 +1,5 @@
 ---
-title: Set up authentication credentials for the Cribl integration in Health Log Analytics
+title: Set up Cribl integration authentication credentials
 description: Configure credentials for the authentication method used by the Cribl integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-setup-cribl-credentials.html
@@ -13,7 +13,7 @@ keywords: [Health Log Analytics, Cribl, integration, authentication, credentials
 breadcrumb: [Cribl, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Set up authentication credentials for the Cribl integration in Health Log Analytics
+# Set up Cribl integration authentication credentials
 
 Configure credentials for the authentication method used by the Cribl integration.
 

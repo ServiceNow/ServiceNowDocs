@@ -48,5 +48,5 @@ Use additional features on the Log Viewer to refine your search or define alerts
 **Related topics**  
 
 
-[Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
+[Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
 

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/io-schedulers-perf-metri
 release: australia
 topic_type: reference
 last_updated: "2026-05-20"
-reading_time_minutes: 5
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+reading_time_minutes: 4
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Scheduler performance metrics
@@ -46,12 +46,10 @@ If multiple nodes see similar issues it may indicate either all nodes are having
 -   Check scheduled jobs executing on application nodes to determine type or source.
 -   Address performance or scheduling of jobs as necessary to prevent them overloading worker threads.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

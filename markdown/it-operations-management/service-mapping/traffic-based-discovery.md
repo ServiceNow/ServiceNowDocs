@@ -9,7 +9,7 @@ classification: service-mapping
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Choose method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Traffic-based discovery in Service Mapping
@@ -79,9 +79,9 @@ Traffic-based discovery using commands is available in Service Mapping for use a
 
 [Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md)
 
-[Add or remove CIs for multiple application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
+[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)
 
-[Add or remove CIs for single application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
+[Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md)
 
 [Remove CIs not belonging to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/remove-cis-not-belonging-business-services.md)
 

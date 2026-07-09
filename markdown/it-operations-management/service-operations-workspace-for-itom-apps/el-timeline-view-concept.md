@@ -1,5 +1,5 @@
 ---
-title: Exploring chronological data on the alerts in an alert group in Express List
+title: Chronological alert data in an alert group
 description: Visualize the chronological sequence of events within an alert group in Express List using the Timeline view. This feature provides a comprehensive overview of when the alerts occurred, their severity changes, and other pertinent data for efficient triage and Mean Time to Resolution \(MTTR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/el-timeline-view-concept.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Exploring chronological data on the alerts in an alert group in Express List
+# Chronological alert data in an alert group
 
 Visualize the chronological sequence of events within an alert group in Express List using the Timeline view. This feature provides a comprehensive overview of when the alerts occurred, their severity changes, and other pertinent data for efficient triage and Mean Time to Resolution \(MTTR\).
 

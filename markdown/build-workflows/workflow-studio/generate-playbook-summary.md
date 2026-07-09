@@ -19,6 +19,14 @@ Generate an AI-generated summary of the stages, activities, triggers, and inputs
 
 ## Before you begin
 
+Verify that the Now Assist for Creator plugin is installed and the **Playbook Summarization** skill is active.
+
+**Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
+
+\[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
+
+For information about installing Now Assist for Creator, see 
+
 The playbook must have at least one stage and activity before a summary can be generated.
 
 Role required: pd\_author

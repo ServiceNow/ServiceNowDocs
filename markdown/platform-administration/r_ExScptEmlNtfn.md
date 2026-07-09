@@ -92,7 +92,7 @@ if(!current.watch_list.nil()){
 **Related topics**  
 
 
-[Use mail scripts in email notifications]()
+[Include mail scripts in email notifications]()
 
 [Mail script variables]()
 

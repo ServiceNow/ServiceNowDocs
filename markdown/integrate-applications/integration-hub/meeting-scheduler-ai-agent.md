@@ -1,6 +1,6 @@
 ---
 title: Meeting scheduler AI agent
-description: Now Assist for Integration Hub application provides standalone AI agent that mimics human-like intelligence to perform tasks in your ServiceNow instance. Meeting scheduler AI agent that can be used to organize Zoom or Teams meetings and create regular calendar events.
+description: ServiceNow Otto for Integration Hub application provides standalone AI agent that mimics human-like intelligence to perform tasks in your ServiceNow instance. Meeting scheduler AI agent that can be used to organize Zoom or Teams meetings and create regular calendar events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/meeting-scheduler-ai-agent.html
 release: australia
@@ -9,12 +9,12 @@ classification: integration-hub
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Available AI agents for Integration Hub, Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Available AI agents for Integration Hub, ServiceNow Otto for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Meeting scheduler AI agent
 
-Now Assist for Integration Hub application provides standalone AI agent that mimics human-like intelligence to perform tasks in your ServiceNow instance. Meeting scheduler AI agent that can be used to organize Zoom or Teams meetings and create regular calendar events.
+ServiceNow Otto for Integration Hub application provides standalone AI agent that mimics human-like intelligence to perform tasks in your ServiceNow instance. Meeting scheduler AI agent that can be used to organize Zoom or Teams meetings and create regular calendar events.
 
 This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting. The logged-in user who runs the AI agent is marked as the meeting's organiser or host. This AI agent can create 3 types of events:
 
@@ -24,7 +24,7 @@ This AI agent retrieves details of available rooms, details of the relevant user
 
 **Important:** To use this AI agent, ensure that you have activated the [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) and configured the client credential alias. To generate Zoom URL for the meeting, you must activate and configure the [Zoom Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md).
 
-In this example, Manish \(the logged-in user\) uses the Meeting scheduler AI agent from Now Assist panel to schedule a meeting with Vivek and provides details about the date, place, and meeting agenda. In this case, the AI agent schedules the meeting with most relevant user \(based on collaboration and organizational context\) named Vivek. If the AI agent is not able to retrieve details of the most relevant user from Microsoft Exchange Online, details of all users whose names match Vivek are retrieved from the ServiceNow User table \[sys\_user\] and displayed, and logged-in user Manish can choose the required user.
+In this example, Manish \(the logged-in user\) uses the Meeting scheduler AI agent from Otto panel to schedule a meeting with Vivek and provides details about the date, place, and meeting agenda. In this case, the AI agent schedules the meeting with most relevant user \(based on collaboration and organizational context\) named Vivek. If the AI agent is not able to retrieve details of the most relevant user from Microsoft Exchange Online, details of all users whose names match Vivek are retrieved from the ServiceNow User table \[sys\_user\] and displayed, and logged-in user Manish can choose the required user.
 
 AI agent then displays the list of available time slots. Manish can select the feasible time slot. You can also view the AI steps. If a time slot at the mentioned time is unavailable, AI agents expands the search window to 2 days and displays the list of available slots.
 
@@ -46,12 +46,11 @@ Using AI agent, Manish can also modify the meeting by adding room of the require
 
 \[Omitted image "na-meeting-scheduler-ai-agent5.jpg"\] Alt text: Event details on Outlook.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

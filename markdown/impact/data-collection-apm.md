@@ -23,3 +23,14 @@ Perform the steps in the following order:
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md).
 
+-   **[Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-config.md)**  
+Configure Data Collection for APM.
+-   **[Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-activate.md)**  
+Activate the Data Collection Pack for APM after you enable and configure it.
+-   **[Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-installation-artifacts.md)**  
+The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset pick tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset pick tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Locate and pick the hardware assets in your stockroom using the Mobile Agent application

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [License calculations with the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [License calculations with the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a custom license type for the legacy Software Asset Management plugin

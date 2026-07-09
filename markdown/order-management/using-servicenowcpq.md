@@ -1,6 +1,6 @@
 ---
-title: Using the CPQ Configurator
-description: Agents and customers use the CPQ Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
+title: Using the ServiceNow CPQ Configurator
+description: Agents and customers use the Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-servicenowcpq.html
 release: australia
@@ -11,15 +11,13 @@ keywords: [use]
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Using the CPQ Configurator
+# Using the ServiceNow CPQ Configurator
 
-Agents and customers use the CPQ Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
+Agents and customers use the Configurator to customize configurable products in Sales Customer Relationship Management transactions such as opportunities, quotes, and orders.
 
-## CPQ Configurator overview
+## ServiceNow CPQ Configurator overview
 
-With the CPQ Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CSM Configurable Workspace, while customers use the configurator in the Business Portal for self-service transactions.
-
-**Note:** The CPQ Configurator is available if it's been implemented in your organization. Otherwise, the [legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md) is available for customizing configurable products.
+With the Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CSM Configurable Workspace, while customers use the configurator in the Business Portal for self-service transactions.
 
 \[Omitted image "cpq-config-workspace-portal.png"\] Alt text: Example product bundle displayed in the CSM Configurable Workspace and the Business Portal.
 
@@ -27,7 +25,7 @@ When adding products to Sales Customer Relationship Management transactions, age
 
 \[Omitted image "cpq-config-interface-agent.png"\] Alt text: Sections in the CPQ Configurator interface, described in the following table.
 
-The CPQ Configurator interface has the following features:
+The ServiceNow CPQ Configurator interface has the following features:
 
 <table id="table_ftl_n4q_ygc"><thead><tr><th>
 
@@ -84,13 +82,15 @@ Icons that indicate the state of the configuration:-   Checkmark \[Omitted image
 -   Attention \[Omitted image "icon-attention.png"\] Alt text: icon: Indicates that a required entry must be made. Select the icon for a description of the option or entry to be completed. To locate the required entry, review the selections for all the products in the bundle. The required entry is identified by an alert \[Omitted image "icon-alert-triangle.png"\] Alt text: icon and message.
 
 </td></tr></tbody>
-</table>-   **[Add customizable products using CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-products-with-cpq-config.md)**  
-Use the CPQ Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
+</table>-   **[Add customizable products using ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-products-with-cpq-config.md)**  
+Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
+-   **[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)**  
+Use ServiceNow CPQ to configure complex products, apply dynamic rules, and generate accurate quotes with speed and precision. You can understand how the CPQ experience works end-to-end—from guided configuration and real-time pricing to document generation and seamless integration with the rules engine.
 
 **Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-cpq.md)
 
 **Related topics**  
 
 
-[Add customizable products using CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-products-with-cpq-config.md)
+[Add customizable products using ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-products-with-cpq-config.md)
 

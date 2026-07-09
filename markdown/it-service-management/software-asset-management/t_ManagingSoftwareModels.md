@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Manage software models using the legacy Software Asset Management plugin

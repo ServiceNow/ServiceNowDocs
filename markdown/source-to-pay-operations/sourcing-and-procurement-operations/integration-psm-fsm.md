@@ -42,7 +42,7 @@ Place an order for a part that you require to complete a particular work order t
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

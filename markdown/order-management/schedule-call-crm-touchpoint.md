@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-call-crm-touchpoint.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Plan and track customer calls to organize and manage follow-ups and outreach and
 
 ## Before you begin
 
-The Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) application must be installed to enable the click-to-call feature so agents can call customers from the touchpoint record. For more information, see [Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md).
+The Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\) application must be installed with CRM Touchpoints to enable the click-to-call feature so agents can call customers from the touchpoint record.
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
@@ -53,4 +53,6 @@ The call is scheduled and can be tracked from the touchpoint's **Scheduled calls
 [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
 
 [Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+
+[Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md)
 

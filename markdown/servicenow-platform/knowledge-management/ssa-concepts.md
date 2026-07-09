@@ -52,10 +52,6 @@ Self-service analytics is based on the activity pattern associated with a deflec
     A logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. For more information, see [Pattern element group components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
 
 
-The following figure illustrates the components of the activity pattern Contacts: Case: Confirmed Deflection.
-
-\[Omitted image "activity-pattern.png"\] Alt text: Components of the activity pattern Contacts: Case: Confirmed Deflection
-
 ## Pattern element group components
 
 -   **Pattern element group**
@@ -96,10 +92,6 @@ The following figure illustrates the components of the activity pattern Contacts
     Example: The activity type Viewed knowledge article occurs when a user views a knowledge article.
 
 
-The following figure illustrates the components of the pattern element group Knowledge engagements once.
-
-\[Omitted image "pattern-element.png"\] Alt text: Components of the pattern element group Article content actions
-
 ## Activity context components
 
 -   **Activity context**
@@ -118,10 +110,6 @@ The following figure illustrates the components of the pattern element group Kno
 
     An activity group that has been added to a context.
 
-
-The following figure illustrates the components of the activity context Contact.
-
-\[Omitted image "activity-context.png"\] Alt text: Components of the activity context Contact.
 
 ## Deflection outcome components
 

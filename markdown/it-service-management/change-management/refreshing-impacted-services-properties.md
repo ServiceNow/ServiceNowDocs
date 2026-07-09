@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Refresh impacted services and CIs for Change, Process a change request, Use, Change Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-com.snc.change\_request.refresh\_impacted.include\_affected\_cis
+`com.snc.change_request.refresh_impacted.include_affected_cis`
 
 </td><td>
 
@@ -47,7 +47,7 @@ com.snc.change\_request.refresh\_impacted.include\_affected\_cis
 
 </td></tr><tr><td>
 
-change.conflict.populateimpactedcis
+`change.conflict.populateimpactedcis`
 
 </td><td>
 
@@ -55,7 +55,7 @@ If this property is set to true, then the `ChangeCollisionHelper` script include
 
 </td></tr><tr><td>
 
-com.snc.change\_request.refresh\_impacted.event
+`com.snc.change_request.refresh_impacted.event`
 
 </td><td>
 
@@ -64,16 +64,15 @@ com.snc.change\_request.refresh\_impacted.event
 
 </td></tr><tr><td>
 
-com.snc.change\_request.populate\_service\_offering
+`com.snc.change_request.populate_service_offering`
 
 </td><td>
 
--   When true, the Service Offerings related list is populated from the Impacted Services/CIs related list.
 -   When false, the related list is not populated or amended in any way.
 
 </td></tr><tr><td>
 
-com.snc.change\_request.populate\_business\_application
+`com.snc.change_request.populate_business_application`
 
 </td><td>
 
@@ -82,7 +81,7 @@ com.snc.change\_request.populate\_business\_application
 
 </td></tr><tr><td>
 
-com.snc.change\_request.refresh\_impacted\_services.message.show
+`com.snc.change_request.refresh_impacted_services.message.show`
 
 </td><td>
 

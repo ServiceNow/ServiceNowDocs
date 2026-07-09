@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Resolve and close an Enterprise Asset Management incident

@@ -36,9 +36,9 @@ Role required: agent\_workspace\_user
 
     **Note:** The Language list is populated based on the available translated versions of the article.
 
-5.  Copy the link to the knowledge article to your clipboard by clicking the more actions icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More actions icon\) and then clicking **Copy link**.
+5.  Copy the link to the knowledge article to your clipboard by clicking the more actions icon and then clicking **Copy link**.
 
-6.  Download the article as a Microsoft Word document to your computer by selecting the more actions icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More actions icon.\) and then selecting **Download as Word**.
+6.  Download the article as a Microsoft Word document to your computer by selecting the more actions icon and then selecting **Download as Word**.
 
     **Note:** This option appears only when the article was originally created using Microsoft Word and the administrator has enabled the **sn\_km\_word.glide.knowman.enable\_document\_download** property.
 

@@ -24,15 +24,13 @@ Role required: sn\_ppt\_export.ppt\_user
 
 ## Procedure
 
-1.  To download your status report for Enterprise Architecture \(formerlyApplication Portfolio Management\), see .
+1.  To download your status report for Project Workspace, see [Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md).
 
-2.  To download your status report for Project Workspace, see [Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md).
+2.  To download your project from Project Workspace, see [Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md).
 
-3.  To download your project from Project Workspace, see [Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md).
+3.  To download your status report for Strategic Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.md).
 
-4.  To download your status report for Strategic Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/export-a-portfolio-plan-to-powerpoint-strategic-planning.md).
-
-5.  To download your status report for Portfolio Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md).
+4.  To download your status report for Portfolio Planning, see [Export the portfolio plan status or roadmap to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md).
 
 
 ## Result

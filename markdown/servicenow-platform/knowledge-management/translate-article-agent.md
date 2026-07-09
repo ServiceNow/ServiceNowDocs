@@ -51,8 +51,6 @@ A translation task is created for a knowledge article when a request for transla
 
     The Original language and Translated language sections appear side by side for easy viewing, as shown in the following figure. By default, the Translated language section includes the original language content.
 
-    \[Omitted image "translate-to-from-agent.png"\] Alt text: Translate knowledge article
-
 5.  Provide the translation in the Translated language section.
 
     -   If dynamic translation is enabled, click **Machine translate** to automatically replace the draft content in the Translated language section with machine-translated content in the targeted language.

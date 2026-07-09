@@ -18,6 +18,10 @@ As a user with the consumer role, you can create cases from the Consumer Service
 
 Role required: sn\_customerservice.consumer
 
+## About this task
+
+Creating a case logs your issue with the support team so an agent can track and resolve it. You can create a case for a specific product or order, and attach supporting files to help the agent understand the issue.
+
 ## Procedure
 
 1.  Log in to the Consumer Service Portal.
@@ -44,4 +48,11 @@ Role required: sn\_customerservice.consumer
 ## Result
 
 The new case is created and added to the Cases list. To view the case, select the link in the case creation message or select **Cases** in the portal header, and then select the case number.
+
+**Related topics**  
+
+
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-consumer-portal.md)
 

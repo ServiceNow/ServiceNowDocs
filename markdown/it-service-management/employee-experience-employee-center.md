@@ -1,20 +1,20 @@
 ---
-title: Employee experience using Employee Center
+title: Employee experience in Employee Center
 description: Simplify meeting employee needs by leveraging the automated self-service and browsing experience in the Employee Center portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-employee-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
-# Employee experience using Employee Center
+# Employee experience in Employee Center
 
 Simplify meeting employee needs by leveraging the automated self-service and browsing experience in the Employee Center portal.
 
-## Overview and key features of the Employee Center portal
+## Key features
 
 From the Employee Center portal, an employee can perform the following actions:
 
@@ -34,7 +34,11 @@ From the Employee Center portal, an employee can perform the following actions:
 -   Review notifications
 -   Get support
 
-**Note:** The Employee Center portal experience is integrated and available in Microsoft Teams and Slack chat.
+**Important:** The Employee Center portal experience can be integrated with the following platforms and applications:
+
+-   Moveworks. For information about conversational support with this integration, see [Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md).
+-   Microsoft Teams
+-   Slack chat.
 
 \[Omitted image "AINativeemployeePortal.png"\] Alt text: AI-native Employee portal
 

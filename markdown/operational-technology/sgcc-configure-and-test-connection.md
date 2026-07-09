@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  From **Setup** section, select **Configure and test connections**.
+1.  From the **Setup** section, select **Configure and test connections**.
 
     After you select the **Create connection** button, a guided playbook experience launches automatically. The playbook walks you through each required configuration step for the Operational Technology Discovery connector.
 
@@ -62,7 +62,7 @@ Connection URL
 
 </td><td>
 
-Navigate to the Console and copy its URL and paste it into the Connection URL field. For example: https://OTDiscoveryConsole.net:8443/
+Navigate to the Discovery Console for OT and copy its URL and paste it into the Connection URL field. For example: https://OTDiscoveryConsole.net:8443/
 
 This field is mandatory.
 

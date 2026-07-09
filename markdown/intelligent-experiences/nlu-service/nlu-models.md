@@ -74,7 +74,7 @@ For more information on setting up IAR, see .
 
 For an introduction to managing AI Search in the NLU Workbench, watch the following video.
 
-For more information, see the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) landing page.
+For more information, see the  landing page.
 
 ## What you can do next
 

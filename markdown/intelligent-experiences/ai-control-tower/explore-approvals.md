@@ -30,3 +30,7 @@ The approvals page has two features to set up governance of your approvals for A
 
 \[Omitted image "approvals-aict-config.png"\] Alt text:
 
+**Note:**
+
+The controls on Approvals are specific to ServiceNow. They govern which models and MCP servers can be used within Agent Studio / NASK, etc. At this stage, there is only limited control over blocking deployments and the activation of skills and agents. Now Assist has it on its backlog to enforce governance.
+

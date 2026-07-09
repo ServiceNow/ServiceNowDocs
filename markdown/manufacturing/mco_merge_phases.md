@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Merge two or more phases
@@ -40,6 +40,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 ## Result
 
 The current phase or sub-phase state is canceled, and all associated assets are transferred to the target phase.
-
-**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-management.md)
 

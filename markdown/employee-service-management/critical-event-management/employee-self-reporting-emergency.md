@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reporting critical events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Self-report your status
@@ -24,15 +24,15 @@ Role required: sn\_critical.user
 
 1.  Open the email or SMS notification and respond.
 
-<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d751102e57">
+<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d753331e57">
 
 Notification
 
-</th><th align="left" id="d751102e60">
+</th><th align="left" id="d753331e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d751102e66">
+</th></tr></thead><tbody><tr><td id="d753331e66">
 
 **Email**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select **Send**.
 
 
-</td></tr><tr><td id="d751102e90">
+</td></tr><tr><td id="d753331e90">
 
 **SMS**
 

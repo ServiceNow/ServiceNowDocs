@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Service Mapping, ITOM, CMDB, Configuration item, service map, unified service, Keystone, service instance, service\_mapping\_admin]
-breadcrumb: [Choose method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Multi-source service mapping
@@ -112,5 +112,5 @@ To use multi-source service mapping, your ServiceNow instance must have the foll
 
 -   At least Australia family version installed.
 -   Service Mapping Plus installed and updated to the latest version.
--   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
+-   At least two existing services to unify, or at least two sources of data that are actively updated. If there are no existing services on your instance, choose a method to create the services. For more information, see: [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
 

@@ -54,7 +54,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
     3.  Request the license.
 
-        For additional information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-trials.md).
+        For additional information, see .
 
 4.  Navigate to **Admin** &gt; **Application Manager** &gt; **Available for you**.
 
@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d81155e445">
+<table><thead><tr><th align="left" id="d83402e444">
 
 Installation option
 
-</th><th align="left" id="d81155e448">
+</th><th align="left" id="d83402e447">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d81155e454">
+</th></tr></thead><tbody><tr><td id="d83402e453">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d81155e478">
+</td></tr><tr><td id="d83402e477">
 
 **Install later**
 

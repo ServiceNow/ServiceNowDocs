@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-20"
 reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # ECC Queue performance metrics
@@ -49,12 +49,10 @@ The MID Server status is not an indication of whether the MID Server service is 
 -   The communication from the MID Server to the instance is being blocked, which could be due to a proxy or a firewall.
 -   The MID Server service is not running, which could be caused by a manual stop or a crash of the MID Server service.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

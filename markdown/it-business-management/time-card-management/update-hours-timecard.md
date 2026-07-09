@@ -39,5 +39,5 @@ You can update the hour field for a specified day for a particular time card. Th
 6.  Save the changes using your device's keyboard.
 
 
-**Parent Topic:**[Add a time card and log time through the Mobile Time Sheets application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-timecard-mobile.md)
+**Parent Topic:**[Add and log time through the Mobile Time Sheets application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-timecard-mobile.md)
 

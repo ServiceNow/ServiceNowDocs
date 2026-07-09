@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-05-13"
-reading_time_minutes: 22
+reading_time_minutes: 23
 ---
 
 # Enterprise Architecture release notes
@@ -13,6 +13,12 @@ reading_time_minutes: 22
 The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
 
 ## Enterprise Architecture Workspace highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Support added for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+-   Third-party AI models are the default models for all Now Assist for EA skills.
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -56,6 +62,13 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
 
 ## New in the Australia release
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **Now Assist for Enterprise Architecture \(EA\) enhancements**
+
+    Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
 -   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
@@ -84,7 +97,7 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
     -   Replace an existing shape or entity in a modeling diagram with a different shape type. Existing connections and relationship lines associated with the shape are preserved after the replacement. For information, see [Replace a shape in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-replace-shape.md).
     -   Upload an image of an existing process diagram to generate a new, editable business process map \(BPM\) diagram in Enterprise Modeling and Visualization, using the ServiceNow AI Lens Now Assist skill. AI Lens identifies shapes, pools, lanes, gateways, and connections from the image, maps recognized shapes to existing records where matching records exist, and stages new records for shapes with no match.
 
-        The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review and accept a Now Assist-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+        The generated diagram opens in review state on a split canvas: the upper pane displays the generated diagram and the lower pane displays the source image for reference. Shapes identified with a confidence score below 50% are marked with an orange border on the canvas and listed in the Shapes with low confidence scores drop-down in the canvas banner. For information, see [Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-bpm-diag-from-image.md) and [Review a AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 
 -   **[Sync TRM product names with software product names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**
 
@@ -145,8 +158,8 @@ See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/Servic
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 -   **[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-explore-arch-analyzer.md)Architecture Analyzer**
@@ -267,7 +280,7 @@ Australia Early Availability
 Australia Early Availability
 
 -   Added the Publishing center section in the Setup page.
--   Changed the label of Publisher to Manufacturer in the TRM page.
+-   Changed the label of Publisher to Company in the TRM page.
 -   Added the Business process and Business capability related lists to the Value stream and Value stream stage records.
 -   Added the Value stream stage as a related list to the Business Capability and Business Process records.
 -   Added the following two menu options in the More actions menu of the Diagrams page in the Enterprise Modeling and Visualization:
@@ -284,6 +297,9 @@ Australia Early Availability
 
 ## Changed in this release
 
+-   **[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**
+    -   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+    -   Changed the default LLM model for all Now Assist for Enterprise Architecture \(EA\) is to Azure OpenAI.
 -   **[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)**
 
     Added the granular level admin role \(sn\_apm.apm\_admin\) to the following system properties in the Enterprise Architecture:

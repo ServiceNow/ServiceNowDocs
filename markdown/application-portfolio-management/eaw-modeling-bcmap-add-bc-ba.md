@@ -1,5 +1,5 @@
 ---
-title: Add a business capability or business application to the capability map
+title: Add capabilities or applications to a capability map
 description: Add a new or existing business capability or business application to the capability map using the Enterprise Modeling and Visualization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Working with business capability map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add a business capability or business application to the capability map
+# Add capabilities or applications to a capability map
 
 Add a new or existing business capability or business application to the capability map using the Enterprise Modeling and Visualization.
 

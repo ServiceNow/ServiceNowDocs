@@ -22,7 +22,7 @@ The Now Assist for SAE application uses generative AI to streamline key Smart As
 The following generative AI capabilities are available in Now Assist for Smart Assessment Engine:
 
 -   Simplify and speed up routine SAE tasks with AI-powered assistance embedded in your records.
--   Reduces time spent on repetitive tasks.
+-   Reduce time spent on repetitive tasks.
 -   Maintain full control over AI suggestions, with the ability to accept, edit, or discard them.
 -   Eliminate the need to start from scratch, as AI provides an immediate head start and reduces manual effort.
 

@@ -17,11 +17,11 @@ breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified E
 
 Employees can discover, access, and manage all their business applications from a single location.
 
-The featured apps serves as a central hub where employees can discover, access, and manage all their work applications from a single location.
+The featured apps serve as a central hub where employees can discover, access, and manage all their work applications from a single location.
 
-**Note:** To use featured application, you must install Employee Slate Advanced.
+**Note:** To use featured applications, you must install Employee Slate Advanced.
 
-\[Omitted image "es-featured-applications.png"\] Alt text: featured applications
+\[Omitted image "es-featured-applications.png"\] Alt text: Featured applications widget showing the app launcher with categorized business application tiles
 
 With the Featured applications, you can:
 
@@ -29,18 +29,20 @@ With the Featured applications, you can:
 -   Search for specific applications quickly.
 -   Access recently opened applications for faster navigation to frequently used tools.
 -   Sort applications alphabetically for systematic organization.
--   Sign in seamlessly with single sign-on \(SSO\) integration.
--   Review application descriptions and metadata to know more about the app.
+-   Log in with single sign-on \(SSO\) integration.
+-   Review application descriptions and metadata to access details about the application.
+
+For more information on how to configure applications, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md).
 
 ## Quick access to applications
 
-The app launcher enhances employee productivity by:
+The app launcher reduces friction and supports faster access to applications by:
 
 -   Reducing time spent searching for applications across different systems
 -   Providing a consistent user experience across all business applications
 -   Eliminating the need to bookmark or memorize multiple application URLs
--   Supporting quick discovery of new applications as they become available
--   Maintaining application usage history for improved workflow efficiency
+-   Supporting quick discovery of new applications based on their availability
+-   Retaining application usage history for faster access to frequently used applications
 
 ## Supported application types
 
@@ -55,5 +57,5 @@ The app launcher supports various types of business applications that you use in
 -   Procurement and business management tools \(Coupa, Smartrecruiters\)
 -   Volunteer and community engagement applications \(Benevity\)
 
-**Note:** Application availability depends on your organization subscriptions and SSO configuration. Contact your system administrator if you can't access a required application.
+**Note:** Application availability depends on your organization subscriptions and SSO configuration. Contact your administrator if you can't access a required application.
 

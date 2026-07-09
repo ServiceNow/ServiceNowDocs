@@ -96,3 +96,12 @@ The following tables are installed with Purchase Order Management.
 
 **Parent Topic:**[Install Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/install-purch-order-mgmt.md)
 
+**Related topics**  
+
+
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
+
+[Assigning purchase order exceptions to buyers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-po-exceptions-to-buyers.md)
+

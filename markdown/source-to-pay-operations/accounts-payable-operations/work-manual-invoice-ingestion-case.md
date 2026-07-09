@@ -45,7 +45,7 @@ For a description of the field values and information about the available tabs o
 
     Typically, the state of the newly created invoice processing case is New and the status of the invoice associated with this case is either Draft or Received, depending on how it was processed by the Accounts Payable Operations integration with Document Intelligence application.
 
-    For more information about invoice statuses, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+    For more information about invoice statuses, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 5.  In the **Assigned to** field, specify a user that you want to assign the invoice processing case to.
 

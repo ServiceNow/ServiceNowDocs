@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-06-17"
 reading_time_minutes: 2
 keywords: [role-based productivity, productivity tiers, specialized assistants, role-based canvas, manager productivity]
 breadcrumb: [Employee Slate introduction, Employee Slate, Unified Employee Experience, Employee Service Management]
@@ -19,11 +19,13 @@ Employee Slate provides tailored experiences for everyday employees, content man
 
 Employee Slate serves different categories of employees with experiences that match their work routines.
 
+**Important:** AI-generated content may be inaccurate. Verify AI-suggested content before publishing or acting on it.
+
 ## Admin key responsibilities
 
 Plan implementation, install Moveworks or Now Assist Chat, and configure branding and data sources from the admin console. Extend the canvas with AI-built widgets, track adoption in analytics, and expand the experience to Microsoft Teams, Slack, and mobile.
 
-\[Omitted image "admin-journey-es.png"\] Alt text: admin-use-cases
+\[Omitted image "admin-journey-es.png"\] Alt text: Diagram showing administrator use cases for Employee Slate
 
 |Action|Responsibility|
 |------|--------------|
@@ -38,9 +40,9 @@ For more information on configuration, see [Get started with Employee Slate](htt
 
 ## Employee key use cases
 
-From the moment you sign in to the moment the task is done, everything runs from one AI front door. This tier provides a conversation-first interface for everyday tasks such as service requests, knowledge search, research, and integration-powered actions.
+From the moment you log in to the moment the task is done, everything runs from one AI front door. This tier provides a conversation-first interface for everyday tasks such as service requests, knowledge search, research, and integration-powered actions.
 
-\[Omitted image "employee-journey-es.png"\] Alt text: employee-use-cases
+\[Omitted image "employee-journey-es.png"\] Alt text: Diagram showing everyday employee use cases for Employee Slate
 
 |Action|ResponsibilityEmployee Slate|
 |------|----------------------------|
@@ -56,14 +58,14 @@ For more information, see [Employee Slate capabilities](https://raw.githubuserco
 
 Draft announcements with conversational AI and target the right employees by role, location, or group. Publish across portal, mobile, Microsoft Teams, and Slack. Then track engagement and refine the next message with sharper targeting.
 
-\[Omitted image "content-manager-journey-es.png"\] Alt text: content-manager-use cases
+\[Omitted image "content-manager-journey-es.png"\] Alt text: Diagram showing content manager use cases for Employee Slate
 
 |Action|Responsibility|
 |------|--------------|
 |Author|Draft announcements with conversational AI assistance.|
 |Target|Segment audiences by role, location, or group.|
 |Publish|Deliver across web, mobile, Microsoft Teams, and Slack at once.|
-|Engage|Let AI field follow-up questions inline with the message.|
+|Engage|AI responds to follow-up questions inline with the message.|
 |Measure|Review the reach, reads, and sentiment from communications analytics.|
 |Refine|Tune targeting and cadence for the next announcement.|
 

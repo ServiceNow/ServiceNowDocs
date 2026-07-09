@@ -32,7 +32,7 @@ By using an extension point, you can add more conditions for agents to qualify a
 
 3.  To create an extension point script that defines the agent criteria for your service, click **Create Implementations** in the related link.
 
-    To know more about extension points, see .
+    To know more about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 4.  Specify the criteria for an agent to have access to the parent table.
 

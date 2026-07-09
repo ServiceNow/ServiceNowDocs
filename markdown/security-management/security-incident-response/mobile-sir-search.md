@@ -32,8 +32,6 @@ Time to complete this task: 5-10 minutes.
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent at any time to return to the last screen you had displayed.
 
-    \[Omitted image "mobile\_SIR\_search\_si.jpg"\] Alt text: Search Incidents applet highlighted.
-
 3.  To limit the number of search results that are returned, you may prefer to fill out as many fields on the form as you can.
 
     To add search criteria, refer to the following table. Follow the instructions after the table to edit existing search criteria, clear search criteria, or submit a search.
@@ -141,15 +139,15 @@ Select one from the list or tap the search icon and type an entry in the search 
 </td></tr></tbody>
 </table>    For Android devices, with the Search Incidents screen displayed and all your criteria entered, choose one to continue.
 
-<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d356115e318">
+<table id="choicetable_qrd_xjz_23b"><thead><tr><th align="left" id="d358325e309">
 
 Option
 
-</th><th align="left" id="d356115e321">
+</th><th align="left" id="d358325e312">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d356115e327">
+</th></tr></thead><tbody><tr><td id="d358325e318">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -160,7 +158,7 @@ To clear all entered criteria, with the Search Incidents screen displayed, tap t
 -   Tap the check mark icon to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d356115e357">
+</td></tr><tr><td id="d358325e348">
 
 **Submit a search**
 
@@ -171,15 +169,15 @@ With the Search Incidents screen displayed with your entered search criteria, ta
 </td></tr></tbody>
 </table>4.  For iOS devices, with the Search Incidents screen displayed, choose one to continue.
 
-<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d356115e387">
+<table id="choicetable_cjx_wkz_23b"><thead><tr><th align="left" id="d358325e378">
 
 Option
 
-</th><th align="left" id="d356115e390">
+</th><th align="left" id="d358325e381">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d356115e396">
+</th></tr></thead><tbody><tr><td id="d358325e387">
 
 **Clear or modify search criteria prior to executing a search**
 
@@ -190,7 +188,7 @@ To clear all criteria and return to the landing screen, tap the close icon \(X\)
 -   Tap **Done** to save the changes and return to the Search Incidents screen.
 
 
-</td></tr><tr><td id="d356115e426">
+</td></tr><tr><td id="d358325e417">
 
 **Submit a search**
 

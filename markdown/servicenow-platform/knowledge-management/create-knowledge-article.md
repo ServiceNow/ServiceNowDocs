@@ -34,7 +34,7 @@ Some knowledge bases may allow only certain users to contribute. For example, a 
 
     -   Navigate to **Self-Service** &gt; **Knowledge** and select the Create an Article icon.
     -   Navigate to **Knowledge** &gt; **Articles** &gt; **Create New**.
-    -   From the Knowledge Management homepage, select the more icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More icon\) and then select **Create Article**.
+    -   From the Knowledge Management homepage, select the more icon and then select **Create Article**.
 2.  On the Create new article page, select a knowledge base.
 
     The list of article templates to select in the next step is filtered according to the article templates available for the selected knowledge base.
@@ -219,7 +219,7 @@ Meta
 
 </td><td>
 
-Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).**Note:** If AI Search is enabled for the Knowledge Management Service Portal, the tags you add to the **Meta** field aren't indexed. To fine-tune AI Search results, your administrator can configure result improvement rules. For more information, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/ai-search.md).
 
 </td></tr></tbody>
 </table>    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing KCS article states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/managing-kcs-article-states.md).
@@ -282,7 +282,7 @@ After you create and publish a knowledge article, you can perform the following 
 -   Request translations for the knowledge article. For more information, see [Request missing translations for available languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/request-translations-missing-languages.md).
 -   Retire the knowledge article. Select **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
 -   Translate the knowledge article directly from the knowledge article. For more information, see [Translate a knowledge article from a translation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translate-knowledge-article.md).
--   Delete the published knowledge article. Select **Delete**. If the **Delete** button isn't displayed, select the more actions icon \(\[Omitted image "more.png"\] Alt text: More actions icon\), and then select **Delete**.
+-   Delete the published knowledge article. Select **Delete**. If the **Delete** button isn't displayed, select the more actions icon, and then select **Delete**.
 
     **Note:** Only users with the admin role can delete a published knowledge article.
 

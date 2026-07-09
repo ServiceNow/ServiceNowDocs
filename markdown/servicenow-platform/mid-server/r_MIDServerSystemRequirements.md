@@ -69,13 +69,15 @@ In order to connect, the MID Server requires access to:
 -   http://ocsp.entrust.net
 -   http://ocsp.digicert.com \(or other CA OCSP Responder\)
 
+**Note:** OCSP responder URLs use HTTP by design, not HTTPS. Allow outbound HTTP traffic to these addresses so the MID Server can reach OCSP responder endpoints.
+
 While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires \(for example, if its associated private key may have been compromised\). Therefore, the current validity of a website’s certificate must always be checked by clients regardless of its expiry date.
 
 Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP Entrust and DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
-## PowerShell requirements
+## PowerShell requirements \(Windows only\)
 
-The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1, plus PowerShell 7. PowerShell 6 is not supported. In most cases, manually disable the PowerShell 7 Compatibility Mode. See Microsoft's documentation for more information about PowerShell requirements.
+On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1, plus PowerShell 7. PowerShell 6 is not supported. In most cases, manually disable the PowerShell 7 Compatibility Mode. See Microsoft's documentation for more information about PowerShell requirements.
 
 To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
 

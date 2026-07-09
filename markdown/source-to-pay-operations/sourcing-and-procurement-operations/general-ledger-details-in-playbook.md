@@ -21,7 +21,7 @@ If a shopper checks out multiple products from a single supplier, multiple purch
 -   **[Review and update missing general ledger details in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/playbook-review-missing-general-ledger-details.md)**  
 Review and update missing General Ledger \(GL\) accounting details through the procurement playbook. If a shopper checks out multiple products from a single supplier, multiple Purchase Requisition Lines \(PRLs\) are generated, some of which could potentially contain missing GL accounting details.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

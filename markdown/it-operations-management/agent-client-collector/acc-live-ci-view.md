@@ -110,5 +110,5 @@ Users logged in to the CI. Whether this data is visible depends on your OS privi
 
 [View live CI data logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-live-ci-view-logs.md)
 
-[Assign a problematic CI to its incident to view live CI data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-live-ci-view-assign-ci.md)
+[Assign a CI to an incident to view live CI data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-live-ci-view-assign-ci.md)
 

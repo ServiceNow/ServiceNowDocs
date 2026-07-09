@@ -1,22 +1,24 @@
 ---
-title: Configure exception reasons for Scan Engine
+title: Configure exception approval and behavior
 description: Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-exception-reasons-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-04-13"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---
 
-# Configure exception reasons for Scan Engine
+# Configure exception approval and behavior
 
 Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
 
 ## Before you begin
 
-When real-time enforcement is on, Warning and Error level findings require an approved exception reason before the form can be saved. Recommend and Review level findings do not block form submission.
+When real-time enforcement is on, Act and Recommend level findings require an approved exception reason before the form can be saved. Suggest and Review level findings do not block form submission.
+
+See [Real-time prevention monitoring for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring-combined.md) for additional information on finding levels.
 
 Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 

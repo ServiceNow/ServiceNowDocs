@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create scripts
 
 Learn how to create advanced functions using the scripting interface.
 
-Some use cases require an advanced condition or action. Other times, the administrator may prefer script versus leveraging simple rules. For these occasions, CPQ offers the ability to write scripts in key areas.
+Some use cases require an advanced condition or action. Other times, the administrator may prefer script versus leveraging simple rules. For these occasions, ServiceNow CPQ offers the ability to write scripts in key areas.
 
 Scripting is available in rule actions and conditions, behind the Advanced menu choice or toggle.
 
@@ -61,7 +61,7 @@ Also see the following sample scripts:
 **Related topics**  
 
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-sample-scripts.md)
 

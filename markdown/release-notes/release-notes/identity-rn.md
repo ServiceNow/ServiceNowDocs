@@ -14,6 +14,15 @@ The ServiceNow® Identity application supports mechanisms that let you validate 
 
 ## Identity highlights for the Australia release
 
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   **[Role Masking enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/role-masking.md)**
+
+    Dynamic role addition: Add multiple roles to an AI agent's role masking configuration as individual records, rather than as a single delimited list. Each role you add through the embedded list on the Agent Access Role Configuration form creates a record in the Agent Access Role Mapping table.
+
+
+Australia
+
 -   Use the granular roles to complete administrative configuration tasks for Identity without requiring the full admin role.
 -   Configure AI Agents or AI users by selecting the `AI` option from the Identity type drop-down menu.
 -   Use the ai\_user\_admin role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.

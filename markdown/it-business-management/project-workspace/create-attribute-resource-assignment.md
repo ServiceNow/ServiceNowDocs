@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create an attribute-based resource assignment
@@ -30,7 +30,7 @@ Role required: pps\_admin or it\_project\_manager
 
 3.  Create an employee profile.
 
-    For more information, see [Activate Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-employee-profile.md).
+    For more information, see [Activate employee profile](https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-employee-profile.html).
 
 4.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
@@ -40,7 +40,7 @@ Role required: pps\_admin or it\_project\_manager
 
 6.  From the resource assignee list, select a user or group and press **Enter**.
 
-    You can create new custom attributes, such as location, in addition to group, skill, and role, and can also leverage these custom attributes to create resource assignments.
+    You can create custom attributes, such as location, in addition to group, skill, and role, and can also use these custom attributes to create resource assignments.
 
 
 ## Result

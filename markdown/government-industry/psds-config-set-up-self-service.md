@@ -16,7 +16,7 @@ Creating a self-service portal such as the Government Service Portal helps const
 
 <table id="table_gg4_j41_l1c" class="nav-card"><tbody><tr><td>
 
-[Government Service PortalGovernment Service Portal\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up the Government Service Portals to provide information and support to your constituents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/customize-government-service-portal.md)
+[Government Service Portal Government Service Portal\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up the Government Service Portals to provide information and support to your constituents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/customize-government-service-portal.md)
 
 </td><td>
 

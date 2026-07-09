@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/io-cluster-details.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-27"
-reading_time_minutes: 3
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Cluster details performance metrics
@@ -24,14 +24,12 @@ Diagnostic events information can be viewed by node, which can help troubleshoot
 
 **Encryption status** lists the status of the encryption service that has been availed and deployed for the db associated with the instance.
 
-**Note:** Encryption status is not available in the Regulated Market.
+**Important:** Encryption status is not available in the Regulated Market.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

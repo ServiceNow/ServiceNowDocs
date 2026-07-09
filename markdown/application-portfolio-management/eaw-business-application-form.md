@@ -459,5 +459,5 @@ Status of the application that it meets requirements or complies with the polici
 
 [Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-app.md)
 
-[Create a business application and associate it with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-ba-and-assoc-with-trm-product.md)
+[Create a business application and associate with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-ba-and-assoc-with-trm-product.md)
 

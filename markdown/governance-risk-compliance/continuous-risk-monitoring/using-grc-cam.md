@@ -1,5 +1,5 @@
 ---
-title: Using CAM
+title: Use
 description: To provide CAM services, you implement the seven steps defined by the NIST Risk Management Framework \(RMF\), implement controls and assessment objectives, and perform continuous authorization and monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/using-grc-cam.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Using CAM
+# Use
 
 To provide CAM services, you implement the seven steps defined by the NIST Risk Management Framework \(RMF\), implement controls and assessment objectives, and perform continuous authorization and monitoring.
 
@@ -36,7 +36,7 @@ To provide CAM services, you implement the seven steps defined by the NIST Risk 
 
     After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 
-6.  [Implementing controls and assessment objectives in CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
+6.  [Implement controls and assessment objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.md)
 
     NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
 

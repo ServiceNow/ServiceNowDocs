@@ -18,8 +18,8 @@ Set up and get started with IT Service Management \(ITSM\) on your instance.
 
 Role required: admin
 
--   Request for the entitlement of the Setup Hub application \(sn\_ia\) from  and install it. See [Set up Now Assist with Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md) and [Understand the Configuration page flow in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).
--   If none of the following ITSM applications are auto-installed, request for an entitlement from  based on your subscription.
+-   Request for the entitlement of the Setup Hub application \(sn\_ia\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See [Set up Now Assist with Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md) and [Understand the Configuration page flow in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).
+-   If none of the following ITSM applications are auto-installed, request for an entitlement from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) based on your subscription.
     -   IT Service Management \(sn\_ai\_itsm\_cont\)
     -   IT Service Management Advanced \(sn\_itsm\_adv\_cont\)
 

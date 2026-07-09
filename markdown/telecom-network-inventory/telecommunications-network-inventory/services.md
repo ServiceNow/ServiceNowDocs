@@ -29,5 +29,5 @@ Create a network function record in the Telecommunications Network Inventory app
 -   **[Update or delete a service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update_or_delete_a_service_record.md)**  
 Review, update, or delete a service record by using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 

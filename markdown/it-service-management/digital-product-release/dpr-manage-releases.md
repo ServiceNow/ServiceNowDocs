@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-07"
 reading_time_minutes: 2
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -19,6 +19,10 @@ Track the progress of your releases, and work on them to release products and se
 ## Before you begin
 
 Role required: sn\_dpr\_model.release\_coordinator, sn\_dpr\_model.product\_manager, or sn\_dpr\_model.release\_admin
+
+## About this task
+
+Watch the following video to learn how to create, track, and manage releases for digital products using the Digital Product Release, including working with release phases, tasks, and monitoring release progress.\[Omitted video\] Description: Video showing how to track and manage digital product releases, including phases, tasks, and progress monitoring in the Digital Product Release Workspace.
 
 ## Procedure
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist skill, Now Assist, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)
@@ -35,15 +35,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d115326e125">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d114524e125">
 
 Choice
 
-</th><th align="left" id="d115326e128">
+</th><th align="left" id="d114524e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115326e134">
+</th></tr></thead><tbody><tr><td id="d114524e134">
 
 **Work with content of the whole page**
 
@@ -59,7 +59,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d115326e182">
+</td></tr><tr><td id="d114524e182">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
@@ -75,7 +75,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Sample of a Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d115326e227">
+</td></tr><tr><td id="d114524e227">
 
 **Take assistance on a blank page.**
 
@@ -92,7 +92,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Sample of creating first draft for a page using Now Assist.
 
-</td></tr><tr><td id="d115326e274">
+</td></tr><tr><td id="d114524e274">
 
 **Answer questions in the context of this Doc.**
 
@@ -112,5 +112,5 @@ Whether the content in the Doc is added manually or generated using Now Assist, 
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

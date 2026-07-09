@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-
 release: australia
 topic_type: task
 last_updated: "2026-06-08"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Create tool for MCP server]
 breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -67,6 +67,19 @@ Each server must include at least one tool.
 ## What to do next
 
 Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+
+-   **[Create a tool from Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-subflow-tool.md)**  
+Create a tool from Subflow to expose it to Model Context \(MCP\) clients from an MCP Server. Subflows and actions empower agents to complete tasks seamlessly —from submitting requests to routing for approval and confirming outcomes across workflows, without leaving the client interface.
+-   **[Create a tool from Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-action-tool.md)**  
+Create a tool from Action to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+-   **[Create a tool from REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-rest-api.md)**  
+Create a tool from REST APIs to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+-   **[Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  
+Create a tool from Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server. Knowledge Graph provides agents with accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships.
+-   **[Create a tool from Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)**  
+Create a tool from Now Assist skills to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 
 **Related topics**  
 

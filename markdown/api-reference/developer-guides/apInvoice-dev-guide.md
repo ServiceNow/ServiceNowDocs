@@ -29,7 +29,9 @@ You can apply a filter condition for invoice lines containing multiple ERPs. For
 See also:
 
 -   [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/acc-pay-invoice-processing.md)
--   [AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ap-invoice-api.md)
+-   [AP Invoice API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ap-invoice-api.md)
+
+**Note:** The AP Invoice API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) and Source-to-Pay Integration Framework \(sn\_spend\_intg\) applications, which are available on the ServiceNow Store.
 
 ## Add custom fields for invoice import
 
@@ -147,7 +149,7 @@ Role required: admin
 
 Identify the payload source system listed in the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_field\_mapping\] table.
 
-See also [AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ap-invoice-api.md).
+See also [AP Invoice – POST /sn\_spend\_intg/ap\_invoice/cxml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ap-invoice-api.md).
 
 ### Procedure
 

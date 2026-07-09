@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [audit inventory, inventory audit, hardware asset inventory audit]
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Audit hardware asset inventory

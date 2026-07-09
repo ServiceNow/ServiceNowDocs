@@ -1,20 +1,20 @@
 ---
-title: Transaction Manager use case: Calculate prices for line-level fields
-description: Transaction Manager can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
+title: ServiceNow Quote Experience use case: Calculate prices for line-level fields
+description: ServiceNow Quote Experience can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-calculate-prices-for-line-level-fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Transaction Manager: Use cases, Transaction Manager, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager use case: Calculate prices for line-level fields
+# ServiceNow Quote Experience use case: Calculate prices for line-level fields
 
-Transaction Manager can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
+ServiceNow Quote Experience can apply rules to line-level fields that dynamically calculate prices according to changes to the field, such as when products are added or removed.
 
-In the Transaction Manager, we can apply rules on line-level fields to cover various price calculations relevant to selected products. These calculations adapt dynamically to changes, such as the addition or removal of products. This article outlines a use case involving three types of price calculations and the steps required to configure them.
+In the ServiceNow Quote Experience, we can apply rules on line-level fields to cover various price calculations relevant to selected products. These calculations adapt dynamically to changes, such as the addition or removal of products. This article outlines a use case involving three types of price calculations and the steps required to configure them.
 
 The use case involves three types of price calculations:
 
@@ -24,8 +24,8 @@ The use case involves three types of price calculations:
 
 ## Step 1: Create Custom Fields
 
--   Navigate to CPQ Admin &gt; Transaction &gt; Associated Fields.
--   Create all the custom fields required for your use case. For the detailed steps on how to create fields, see [Transaction Manager: Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-fields.md).
+-   Navigate to ServiceNow CPQ Admin &gt; Transaction &gt; Associated Fields.
+-   Create all the custom fields required for your use case. For the detailed steps on how to create fields, see [Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md).
 
 In this example, we intend to use the following fields:
 
@@ -39,7 +39,7 @@ In this example, we intend to use the following fields:
 
 -   **Subscription Term \(Months\)**
 
-    Custom header \(Number type\) field that calculates the difference between the start date and end date, displaying the subscription term. For the detailed steps on how to do DateTime field calculations, see [Transaction Manager: Date and time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-date-and-time-fields.md).
+    Custom header \(Number type\) field that calculates the difference between the start date and end date, displaying the subscription term. For the detailed steps on how to do DateTime field calculations, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md).
 
 -   **Target Line Item Discount**
 
@@ -74,7 +74,7 @@ In this example, we intend to use the following fields:
 
 ## Step 2: Add fields to layout
 
-Map the configured fields into the appropriate layout for visibility. For the detailed steps, see [Transaction Manager: Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-layouts.md).
+Map the configured fields into the appropriate layout for visibility. For the detailed steps, see [Set up layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_csv_101.md).
 
 ## Step 3: Create the rules
 
@@ -141,5 +141,5 @@ Below is an example of the final implementation:
 
 [Final output](https://api.media.atlassian.com/file/0b8f679f-9b7c-4588-945d-7175d097d500/artifact/video_1280.mp4/binary/cdn?client=71a95134-cb5f-4d3c-a7e7-bf5197602cec&collection=contentId-1923481616&max-age=2592000&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3MWE5NTEzNC1jYjVmLTRkM2MtYTdlNy1iZjUxOTc2MDJjZWMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xOTIzNDgxNjE2IjpbInJlYWQiXX0sImV4cCI6MTc2MzQwMjI3MiwibmJmIjoxNzYzMzk5MzkyLCJhYUlkIjoiNzEyMDIwOmE3MmMwNDYwLWM0OWEtNDAyZS1iNWJjLWE5NWIxZjk4ZjMxNCJ9.j9CHqPDPWPN-towOqICAF484FBEZOzgkFg9upnWT7js)
 
-**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
 

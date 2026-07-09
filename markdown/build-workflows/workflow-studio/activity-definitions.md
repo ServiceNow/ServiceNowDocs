@@ -91,17 +91,17 @@ Each activity definition has an automation plan. The automation plan for an acti
 
 Activity designers can configure the visibility of each activity input.
 
--   **Include in standard modal**
+-   **Always show**
 
-    Hides the input from the properties panel. Playbook designers can only see the input from the standard modal when they select the **Show advanced properties** option.
+    Displays the input in the properties panel.
 
--   **Include in standard modal and configuration panel**
+-   **Show as additional property**
 
-    Displays the input in the properties panel. Playbook designers can also see the input from the standard modal when they select the **Show advanced properties** option.
+    Displays the input in the properties panel only when playbook authors select **Show additional options**.
 
--   **Admin visibility only**
+-   **Show as additional property for Playbook admins only**
 
-    Hides the input from users who do not have the admin or playbook.admin roles.
+    Displays the input in the properties panel when users with the playbook.admin role select **Show additional option**. The input is hidden for any other users.
 
 
 ## Activity experience

@@ -16,8 +16,6 @@ breadcrumb: [Explore, Policy and Compliance Management, Governance, Risk, and Co
 
 The structural overview of Policy and Compliance Management enables you to understand how the different modules that make up the Policy and Compliance Management application of ServiceNow integrate and interact with one another.
 
-\[Omitted image "p-c-process-flow-comp-updte-ovrv.png"\] Alt text: Infographic for structural process flow of the modules in Policy and Compliance. For text description refer to the steps in the process flow.
-
 -   **Authority document**
 
     Policy and Compliance Management application begins by identifying authority documents. These documents are external regulations that include laws, regulations, and standards that your organization need to be compliant with, which depend on the type of business that your organization does and its location. Regulatory requirements are usually published by regulatory agencies that provide requirements outlined by law or a certain industry. These requirements might come from federal or state regulations such as Health Insurance Portability and Accountability Act \(HIPAA\), international regulations such as General Data Protection Regulation \(GDPR\), or industry regulations such as Payment Card Industry \(PCI\). Each of these documents such as HIPAA, GDPR, and PCI is an authority document.

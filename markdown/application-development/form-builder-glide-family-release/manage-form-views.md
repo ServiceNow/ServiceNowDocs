@@ -32,13 +32,9 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     The "Default view" is selected.
 
-    \[Omitted image "fb-select-view-ts2.png"\] Alt text: View list.
-
 2.  You can modify the default view selected by using the View list or select another view.
 
     You can also add a view or choose one the other form view actions from the Additional actions menu.
-
-    \[Omitted image "form-views-ts2.png"\] Alt text: Additional actions menu.
 
     -   Add a new view to customize by clicking **Add new form view** from the view list or by selecting an option from the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu.
     -   Duplicate an existing view to customize by selecting a view and then choosing **Duplicate this form view** from the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu. menu.

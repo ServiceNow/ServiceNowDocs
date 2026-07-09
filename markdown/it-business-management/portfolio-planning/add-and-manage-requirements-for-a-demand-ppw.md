@@ -1,6 +1,6 @@
 ---
-title: Add and manage requirements
-description: Define and manage requirements for a demand to capture the functional and technical specifications needed for its fulfillment. Keeping requirements up to date within the demand record ensures clarity for stakeholders and reduces ambiguity during the demand evaluation and approval process.
+title: Add requirements for a demand
+description: Define and manage requirements for a demand to capture its functional and technical specifications. Demand managers can associate planned tasks with the requirement, and assign an owner responsible for verifying that requirements are met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-and-manage-requirements-for-a-demand-ppw.html
 release: australia
@@ -9,47 +9,37 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Add and manage requirements
+# Add requirements for a demand
 
-Define and manage requirements for a demand to capture the functional and technical specifications needed for its fulfillment. Keeping requirements up to date within the demand record ensures clarity for stakeholders and reduces ambiguity during the demand evaluation and approval process.
+Define and manage requirements for a demand to capture its functional and technical specifications. Demand managers can associate planned tasks with the requirement, and assign an owner responsible for verifying that requirements are met.
 
 ## Before you begin
 
-Role required: it\_demand\_user, it\_demand\_manager
-
-## About this task
-
-Typically, the stakeholders associated with a demand request have insights into what the requirements are for a demand request to be completed. The demand manager can create requirements from their inputs.
-
-Demand managers use the Requirement form to describe the requirement and assign an owner who is responsible for making sure that the requirement is met. When a requirement is complex, demand managers can associate planned tasks, such as project tasks, with the requirement. The demand manager assigns and tracks the tasks until they’re complete.
+Role required: it\_demand\_manager
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
+2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the All Demands list.
 
-3.  Select **Requirements**.\[Omitted image "demand-requirements.png"\] Alt text: Use the Requirements tab to add or edit demand requirements.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the **Requirements** tab isn’t visible, select **More** and then select **Requirements**.
+5.  Select the **Requirements** tab.
 
-4.  Add or edit a requirement record from the **Requirements** tab:
+    **Note:** If the **Requirements** tab isn't visible, select **More** &gt; **Requirements**.
 
-    -   To add a requirement, select **New**.
-    -   To update the details of an existing requirement record, select the record.
-5.  On the Create New Requirement form, fill in the fields.
+6.  Select **New**.
 
-    For a description of the field names, see [Create requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
+7.  On the Requirement form, fill in the fields.
 
-6.  Select **Save**.
+    For a description of the field values, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-requirement-form-ppw.md).
 
-    **Note:** To delete a requirement record, select the record and select **Delete** from the More Actions option.
-
-    After completing your work on the requirement record, use the breadcrumb navigation to return to the **Requirements** tab.
+8.  Select **Save**.
 
 

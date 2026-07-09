@@ -1,6 +1,6 @@
 ---
 title: Using push-based Discovery and SAM together
-description: Agent Client Collector for Visibility - Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
+description: Agent Client Collector for Visibility Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client C
 
 # Using push-based Discovery and SAM together
 
-Agent Client Collector for Visibility - Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
+Agent Client Collector for Visibility Content \(ACC-VC\) collects installed software data for use cases for Software Asset Management \(SAM\), when the SAM plugin is installed. Using push-based Discovery and SAM together can help optimize software data collection with SAM basic metering and SAM total usage metrics.
 
 ACC-VC can capture the last accessed time for the software or applications that are installed on the target via push-based Discovery. This information along with the target CI reference, is added to the Software Update \[samp\_sw\_usage\] table.
 
@@ -37,6 +37,7 @@ The software usage records are domain separated. The records are populated with 
 
     -   SAM plugin \(com.snc.samp\) enabled
     -   System property \[**sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**\] set to true. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
+    -   Write permissions enabled for the log folder in the ACC install directory.
     For details on SAM metering setup with the Agent Client Collector, see the Knowledge Base article [KB1642676](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642676).
 
 -   **Software edition information**
@@ -82,7 +83,7 @@ SAM total usage metrics allows you to measure total usage time and total usage c
 
 Osquery provides a daemon executable which can run as a service, called Osqueryd. Osqueryd needs to be manually deployed for SAM total usage metrics to work properly. Each Osqueryd deployment requires the osquery.conf file, optional external packs, and initialization flags \(configured in osquery.flags file\) provided when starting the service. In return, the daemon service runs scheduled queries on the host and logs it into a local file system.
 
-**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation.
+**Note:** Osquery supports filesystem-based logging by default. This configuration is provided in the osquery.conf file on any fresh Osquery installation. Osquery is not needed from an implementation or configuration viewpoint for basic metering. Total Usage metrics requires osqueryd to be installed separately.
 
 Domain information can be collected during the data collection. This can help large organizations with multiple employee directories map software to the correct user. Currently, this is supported for Windows only. To map the software usage/assigned\_to with the correct user in a domain separated environment, use the system property \[sn\_acc\_vis\_content.column\_name\_for\_user\_mapping\] with a valid field name. By default, the value of this system property is empty which means it only validates the username and not the domain. You can use either of the following formats to validate username and domain: username@domain or domain\\username.
 
@@ -158,8 +159,8 @@ Optionally, you can enhance efficiency by using non-osqueryd data collection whe
 To perform non-osqueryd data collection:
 
 1.  Ensure that the following permissions are configured for the relevant OS:
-    -   Windows: Either NT AUTHORITY\\SYSTEM or admin
-    -   Linux and macOS: root
+    -   Windows: The ACC service must run as the Local System account. Set the ACC service's Log On As value to **Local System**.
+    -   macOS: The `servicenow` user must be able to run osqueryi without a password. For information about `servicenow` user permissions for osqueryi, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/config-sudoers-file.md).
 2.  On the System Properties page \(**All** &gt; **System properties** &gt; **All properties**\), set the **sn\_acc\_vis\_content.enable\_sam\_collection\_without\_osqueryd** property to **true**.
 
     **Note:** Enable this property only when all agents are version 4.1.0 or later.

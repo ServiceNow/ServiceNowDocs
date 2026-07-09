@@ -1,5 +1,5 @@
 ---
-title: Collaborate with your project teams using PPM Collaboration application
+title: PPM Collaboration for project teams
 description: Collaborate with your project team on a common enterprise messaging platform such as Slack or Microsoft Teams using the PPM Collaboration application. Facilitate active and timely communication about the project among the project's team members, be involved in critical discussions on your project, and receive real-time updates on the project's status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-collab-overview.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Collaborate with your project teams using PPM Collaboration application
+# PPM Collaboration for project teams
 
 Collaborate with your project team on a common enterprise messaging platform such as Slack or Microsoft Teams using the PPM Collaboration application. Facilitate active and timely communication about the project among the project's team members, be involved in critical discussions on your project, and receive real-time updates on the project's status.
 

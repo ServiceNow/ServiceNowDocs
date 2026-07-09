@@ -181,7 +181,7 @@ Upload from this device
 
     4.  Use the conditions to select certain fields as specific triggers for the integration.
 
-        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md).
+        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see .
 
     5.  Select the **Create Flow** option to create a flow for this integration in Workflow Studio.
 

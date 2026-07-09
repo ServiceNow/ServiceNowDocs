@@ -16,7 +16,7 @@ The ServiceNow® Employee Center Pro application provides a central hub for depa
 
 Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
-See [Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-pro-landing.md) for more information.
+See  for more information.
 
 **Important:** Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -26,15 +26,15 @@ The Australia release introduces enhanced protections for read‑only fields acr
 
 ## New in the Australia release
 
--   **[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ex-fdback-ovrvw.md)**
+-   ****
 
     Add granular admin roles to the Integrated experience and service feedback functionality to decentralize administrative task management.
 
--   **[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/moveworks-for-employeecenter.md)**
+-   ****
 
     Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
--   **[Quick start tests for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/quick-start-tests-employee-center-pro.md)**
+-   ****
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center Pro works as expected. If you customized Employee Center Pro, copy the quick start tests and configure them for your customizations.
 
@@ -45,13 +45,13 @@ Install Employee Center Pro by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)**
+-   ****
 
     Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
 
     Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
 
--   **[Now Assist for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/na-ec-pro-landing.md)**
+-   ****
 
     Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and delivery across channels to meet modern employee productivity requirements.
 

@@ -103,7 +103,7 @@ Server script
 
 </td><td>
 
-A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the GlideSPScriptable API.
+A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 

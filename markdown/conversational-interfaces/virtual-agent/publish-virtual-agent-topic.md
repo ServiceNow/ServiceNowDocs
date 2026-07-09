@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Publish a Virtual Agent topic
@@ -52,7 +52,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 4.  Verify that your topics work as expected by opening them in a test conversation window in one of the following ways.
 
-<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d97103e216">
+<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d97533e216">
 
 **Topic properties tab**
 
@@ -62,7 +62,7 @@ You can also publish topic blocks and custom controls to make them available for
 -   For LLM topics, select **Test** or open the drop-down menu and select **Preview in Now Assist panel**.
 
 
-</td></tr><tr><td id="d97103e246">
+</td></tr><tr><td id="d97533e246">
 
 **LLM home page**
 
@@ -70,7 +70,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 Under the **Select assistant** drop-down menu, choose the assistant associated with your topic, then select **Test assistant**.
 
-</td></tr><tr><td id="d97103e261">
+</td></tr><tr><td id="d97533e261">
 
 **NLU/keyword home page**
 
@@ -88,5 +88,5 @@ The topic blocks and custom controls are published and are available for use in 
 
 **Note:** Active topics, including setup topics and small talk topics, can also be available for use after the topics are published. For more information, see [Control topic discovery and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-topics-task.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

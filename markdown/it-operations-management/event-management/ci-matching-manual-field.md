@@ -1,5 +1,5 @@
 ---
-title: Bind CIs using CI field matching and handling column name differences
+title: Bind CIs using CI field and column matching
 description: Bind CIs by matching event Additional information fields with CI attributes. If column names differ, manually create an additional key-value pair to align with the CI table, ensuring accurate CI association.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-matching-manual-field.html
@@ -7,12 +7,12 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Bind CIs using CI field matching and handling column name differences
+# Bind CIs using CI field and column matching
 
 Bind CIs by matching event **Additional information** fields with CI attributes. If column names differ, manually create an additional key-value pair to align with the CI table, ensuring accurate CI association.
 

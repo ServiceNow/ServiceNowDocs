@@ -25,7 +25,7 @@ You must have already added the read, write, or create operation before you can 
 
 This video was recorded in the Zurich release.
 
-Video that shows how to add and delete a model operation entity in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to add and delete a model operation entity in Zero Copy Connector for ERP.
 
 ## Procedure
 

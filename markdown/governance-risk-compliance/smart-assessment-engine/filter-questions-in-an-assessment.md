@@ -1,6 +1,6 @@
 ---
 title: Filter questions in an assessment
-description: Narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
+description: In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/filter-questions-in-an-assessment.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Filtering questions in an assessment, Respond to assessments, Manag
 
 # Filter questions in an assessment
 
-Narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
+In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Combine filters to focus on questions that match every selected criterion.
 
 ## Before you begin
 
@@ -33,18 +33,22 @@ Role required: sn\_smart\_asmt.actor
     4.  The smart assessments list is displayed.
 2.  Open the assessment in which you want to filter the question list.
 
-3.  Select the **All questions** filter drop- down list.
+3.  Select the **All questions** filter drop-down list.
 
-4.  Select one or more filters from the drop- down list to narrow the question list.
+4.  Select one or more filters from the drop-down list to narrow the question list.
 
     The list updates immediately to show only questions that match every selected filter. For a description of each filter, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
 
-5.  To deselect a single filter without removing the others, reopen the drop- down list and clear that filter.
+5.  To deselect a single filter without removing the others, reopen the drop-down list and clear that filter.
 
     The remaining selected filters stay active and the question list is recalculated to match.
 
 6.  To remove all filters and return to the full question list, select **Clear** from the drop-down, or change the drop-down back to **All questions**.
 
+
+## Result
+
+The question list updates to show only questions matching the selected filters.
 
 **Related topics**  
 

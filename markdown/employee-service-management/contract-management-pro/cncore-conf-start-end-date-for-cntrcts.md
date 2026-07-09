@@ -59,6 +59,8 @@ For more information on initiating a contract request, see [Initiating a contrac
 
 [Configure signature pause duration when modifying signatories]()
 
+[Enable signatory roles]()
+
 [Activate a system property to generate a certificate of completion]()
 
 [Enable users to view email details in activity stream]()

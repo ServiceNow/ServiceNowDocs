@@ -38,7 +38,7 @@ Role required: sn\_hr\_core.case\_writer\[Omitted video\] Description: Create a 
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
+    For more information, see [Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
 
 6.  Select **Create case**.
 

@@ -38,6 +38,13 @@ See [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Customize dashboards or pages for Platform Analytics directly in Usage Insights.
 
 
+## Deprecations
+
+-   **[Usage Insights in Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
+
+    Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights.
+
+
 ## Activation information
 
 Usage Insights is a ServiceNow AI Platform feature that is active by default.

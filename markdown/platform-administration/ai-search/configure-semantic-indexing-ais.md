@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,7 +48,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
     The Semantic Index Configuration form reloads and displays your selected field values and the Semantic Index Fields related list.
 
-6.  In the Semantic Index Fields related list, create a new record for each field with content that you want to include in the semantic index for the specified indexed source.
+6.  In the Semantic Index Fields related list, create a record for each field with content that you want to include in the semantic index for the specified indexed source.
 
     1.  Select **New**.
 
@@ -63,9 +63,9 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 ## What to do next
 
-After changing the semantic index configuration settings for an indexed source, you need to reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
+After changing the semantic index configuration settings for an indexed source, you must reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
-**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you've defined a semantic index configuration for it.
+**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you have defined a semantic index configuration for it.
 
 **Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill a Zero Touch Refresh Fulfillment Request

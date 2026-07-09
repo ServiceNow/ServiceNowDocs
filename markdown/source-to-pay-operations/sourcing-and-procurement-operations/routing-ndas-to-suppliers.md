@@ -59,7 +59,7 @@ As a procurement specialist, you can easily define your Non-Disclosure Agreement
 -   **[Send NDA to suppliers for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/prepare-nda-send-to-signers.md)**  
 As a procurement specialist, you can use playbooks to prepare a Non-Disclosure Agreement \(NDA\) and send it for signing to the suppliers and third parties and review the signed and completed NDA.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

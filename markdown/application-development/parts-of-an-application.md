@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Parts of an application in ServiceNow
@@ -47,5 +47,5 @@ It's similar to a system dictionary record for a table or column in that it stor
 -   View the run-time resource to which the application has been granted access
 -   View the design-time resources to which the application has been granted access
 
-**Parent Topic:**[Overview of building apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
 

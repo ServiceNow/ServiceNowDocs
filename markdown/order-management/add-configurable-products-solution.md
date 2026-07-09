@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [add configurable product, child configuration, solution, buyer]
-breadcrumb: [Using CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add configurable products to a solution
@@ -41,7 +41,7 @@ After adding a configurable product:
 -   To move to the new child configuration and complete its configuration, see [Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md).
 -   To remove a child configuration that is no longer needed, see [Remove a configurable product from a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/remove-child-configuration.md).
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
 
 **Related topics**  
 

@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the total time worked on all tasks related to a hardware asset

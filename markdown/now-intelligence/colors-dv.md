@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/colors-dv.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -20,7 +20,7 @@ By default, the data visualization uses the colors that are set in the UX Theme 
 -   A default color palette
 -   A default spectrum of shades for a color range
 
-You can create a theme and select it either for a specific user or set it as the default theme for an instance. For more information, see .
+You can create a theme and select it either for a specific user or set it as the default theme for an instance. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 In a specific visualization, you can override the colors set in the UX theme. Set colors in the Colors subsection of the Presentation section in the visualization's configuration panel. The available options are described in the "Create a..." topic for each visualization type.
 
@@ -76,7 +76,7 @@ If you group by a value in a visualization based on a Table data source, you hav
 **Related topics**  
 
 
-[bundle-platux.next-experience-theming]
+[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
 
 ## Create coloring rules for data visualizations
 

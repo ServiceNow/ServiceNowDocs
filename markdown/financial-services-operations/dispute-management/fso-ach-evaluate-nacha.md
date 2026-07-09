@@ -69,3 +69,8 @@ Dispute agents may use the KB article to manually evaluate whether an ACH transa
 
 **Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 
+**Related topics**  
+
+
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+

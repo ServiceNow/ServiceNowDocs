@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [windows registry keys, registry monitoring, registry management, track registry keys, registry key path]
 breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Service Management]
 ---
 

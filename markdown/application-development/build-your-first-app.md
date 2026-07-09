@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/build-y
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Getting Started guide for developers, Building applications]
+reading_time_minutes: 7
+breadcrumb: [Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Build your first application
@@ -48,10 +48,24 @@ ServiceNow Studio is the best option to get started creating apps fast. However,
     For more information about developing using classic lists and forms, see [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-platform-forms-fields-lists.md).
 
 
+-   **[Parts of an application in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/parts-of-an-application.md)**  
+Applications in ServiceNow have tables, UI elements, application files, integrations, and dependencies, all with a layer of security through the entire app.
 -   **[Tables and data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tables-and-data-models.md)**  
 Tables are the foundation of ServiceNow applications, as they define what data you're storing and how it's structured. Each table consists of fields \(columns\) that hold specific data types such as strings, dates, numbers, and references to other tables.
 -   **[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-a-data-model.md)**  
 Plan your data model carefully before building an application on the ServiceNow AI Platform. It defines what information you're managing, how it connects, and ultimately determines what your application can do.
+-   **[Automation basics for apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automation-basics-for-apps.md)**  
+Automation is central to ServiceNow application development and is a core strength of the ServiceNow AI Platform. Automation enables developers to build applications that reduce manual work, enforce consistency, and respond intelligently to business events.
+-   **[Dependencies for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationDependencies.md)**  
+Every custom application record includes a related list identifying its dependencies on other applications. Dependencies are references from your custom application to functionality provided by other applications or plugins installed on the instance.
+-   **[Forms and list layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/forms-and-list-layouts.md)**  
+Forms and list layouts control how an app's data appears to users. A form displays a single record so users can view or edit it. A list displays multiple records so users can browse, filter, and find the data they need.
+-   **[Adding business logic to apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/adding-business-logic-to-apps.md)**  
+Business logic lets your app respond automatically to data changes, enforce rules, and perform calculations without requiring user intervention.
+-   **[Building workflows and automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-workflows-and-automations.md)**  
+Workflows and automation let your app take action automatically in response to events, record changes, or schedules. Rather than relying on users to manually move work forward, you define the logic once and let the platform execute it consistently.
+-   **[Advanced scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/advanced-scripting.md)**  
+As an app grows in complexity, it may reach the limits of what business rules, script includes, and Flow Designer actions can accomplish through configuration alone. Advanced scripting means writing directly against ServiceNow's server-side JavaScript APIs to handle logic that requires more precision or flexibility than low-code tools provide.
 
-**Parent Topic:**[Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting-started-landing-page.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Export hierarchy of models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -24,10 +24,10 @@ The Export Hierarchy action produces a JSON file containing the selected record 
 
 A JSON export packages the selected model or template along with everything it depends on:
 
--   -   Dependent reference data: Any records the model or template references, such as manufacturer details, product information, model classifications, and currency or pricing data.
+-   Dependent reference data: Any records the model or template references, such as manufacturer details, product information, model classifications, and currency or pricing data.
 -   Inventory templates and their referenced models: When you export a template, the models the template depends on are included automatically
 
-The dependent reference data is included because the models and templates can't function on the target instance without their references intact. For example, an exported equipment model for a Cisco router includes the Cisco manufacturer record. This ensures the imported model on the target instance keeps its manufacturer link.
+The dependent reference data is included because the models and templates can't function on the target instance without their references intact. For example, an exported equipment model for a Cisco router includes the Cisco manufacturer record. This verifies the imported model on the target instance keeps its manufacturer link.
 
 ## Roles required for Export Hierarchy
 

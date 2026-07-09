@@ -20,6 +20,8 @@ The Information applet on the Now Mobile app enables you to access knowledge art
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
 
+Role required: none
+
 ## Procedure
 
 1.  Access your instance using the mobile application.

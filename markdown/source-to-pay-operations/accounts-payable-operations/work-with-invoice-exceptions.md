@@ -532,11 +532,11 @@ Create invoice exception definitions to flag PO, Non-PO, and credit memo invoice
 **Related topics**  
 
 
-[Invoice ingestion using Application programming interface \(API\)]()
+[Invoice ingestion using the AP Invoice API]()
 
 [Rules based engine]()
 
-[Work with invoices]()
+[Invoice processing overview]()
 
 [Invoice processing cases]()
 

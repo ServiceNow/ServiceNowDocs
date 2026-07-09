@@ -9,14 +9,14 @@ classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Allocation dispute workflow
 
 In the allocation workflow, dispute agents work to resolve fraud and authorization disputes. Acquirers can choose to initiate pre-arbitration and arbitration, and issuers can respond. This is a part of the allocation dispute workflow for the Chargeback stage.
 
-The transaction playbook helps dispute agents in handling **Fraud** and **Authorization** within the Visa allocation workflow. The playbook includes key activities such as initiating chargebacks, reviewing dispute responses, and managing pre-arbitration and arbitration tasks. The following table outlines the use case steps in this process.
+The transaction **Dispute Workspace** helps dispute agents in handling **Fraud** and **Authorization** within the Visa allocation workflow. The workspace includes key information such as case number, status, customer details, amount, transaction details, open and closed tasks, SLA and merchant details. The following table outlines the use case steps in this process.
 
 <table id="table_kbh_msz_m2c"><thead><tr><th>
 
@@ -58,7 +58,7 @@ Initiates the chargeback process and submits the dispute questionnaire to Visa.
 
 </td></tr><tr><td>
 
-[Review the case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)
+[Review a case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)
 
 </td><td>
 
@@ -82,14 +82,14 @@ Converts provisional credit to final credit if applicable and closes the task.
 Reverses the provisional credit only for Imediate Provisional Credit, provided **Reverse** is selected in the previous task, and then closes the task.
 
 </td></tr></tbody>
-</table>-   **[Initiate chargeback and fill merchant response- Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-responseallocation_0.md)**  
+</table>-   **[Initiate chargeback and fill merchant response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-responseallocation_0.md)**  
 This is a part of the allocation dispute workflow for the **Chargeback** stage. Initiate a chargeback request for the card network issuer to credit the card holder with the card network, and await a response from the merchant.
 -   **[Review and respond to a pre-arbitration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-respond-to-pre-arbitration.md)**  
 Review and respond to the pre-arbitration request created by the acquirer.
 -   **[Review incoming case filing and appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-incoming-case-filing-and-appeal.md)**  
 Review the incoming case filing created by the acquirer and create an appeal if required.
--   **[Review the case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)**  
-Review the appeal and get an acknowledgment from Visa for the appeal.
+-   **[Review a case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-case-filing-appeal.md)**  
+ Review a case filing appeal and obtain an acknowledgment from Visa.
 
 **Parent Topic:**[Chargeback stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/chargeback-stage.md)
 

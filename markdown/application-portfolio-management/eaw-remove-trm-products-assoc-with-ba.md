@@ -1,5 +1,5 @@
 ---
-title: Remove Technology Reference Model products associated with a business application
+title: Remove TRM products from a business application
 description: You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-trm-products-assoc-with-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Remove Technology Reference Model products associated with a business application
+# Remove TRM products from a business application
 
 You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
 

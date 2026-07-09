@@ -26,16 +26,16 @@ You can associate customizations of the contexts navigation hierarchy with the c
 
 ## Before you begin
 
-The Service Graph Workspace - Content store app and its dependent app, Data Model Navigator, must be installed to enable the **Explore by contexts** option. To add or modify contexts, you must use the following tables:
+The Service Graph Workspace - Content store app and its dependent app, Data Model Navigator, must be installed to enable the **Explore by contexts** option. To add or modify contexts, use the following tables:
 
--   Model Context \[sn\_data\_model\_nav\_model\_context\]
--   Model Context to Model Contexts \[sn\_data\_model\_nav\_model\_context\_to\_context\]
--   Model Tables \[sn\_data\_model\_nav\_model\_table\]
--   Model Table To Model Contexts \[sn\_data\_model\_nav\_model\_table\_to\_context\]
--   Workspace Configuration to Model Context Mapping \[sn\_cmdb\_ws\_config\_model\_context\_m2m\]
--   Model Table Field Mapping \[sn\_cmdb\_ws\_model\_table\_field\_mapping\]
+-   Model Context \[sn\_data\_model\_nav\_model\_context\]: Create a context or child context record.
+-   Model Context to Model Contexts \[sn\_data\_model\_nav\_model\_context\_to\_context\]: Define parent/child relationships between contexts.
+-   Model Tables \[sn\_data\_model\_nav\_model\_table\]: Register individual tables \(CI classes\).
+-   Model Table To Model Contexts \[sn\_data\_model\_nav\_model\_table\_to\_context\]: Associate a registered table with its leaf-context. This mapping determines which tables appear under which context node in the hierarchy.
+-   Workspace Configuration to Model Context Mapping \[sn\_cmdb\_ws\_config\_model\_context\_m2m\]: Control which top-level contexts are visible. Define the icon, display order, and associate the context with a Config Identifier \(default or workspace-specific\).
+-   Model Table Field Mapping \[sn\_cmdb\_ws\_model\_table\_field\_mapping\]: Define every table that should appear in the Explore and Search view and configure the filter condition to apply to the table \(such as Operational Status != Retired\) and specify which filter fields appear for that table.
 
-The Data Model Navigator store app tables \(\[sn\_data\_model\_nav\*\]\) define the hierarchical structure of contexts and tables, and the CMDB Workspace tables \(\[sn\_cmdb\_ws\*\]\) control visibility, filtering, and appearance behavior within the Explore tab. For more information about the Data Model Navigator store app, see [Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-model-navigator-app-ref.md).
+The Data Model Navigator store app tables \(\[sn\_data\_model\_nav\*\]\) define the hierarchical structure of contexts and tables, and the CMDB Workspace tables \(\[sn\_cmdb\_ws\*\]\) control visibility, filtering, and appearance behavior within the Explore tab.
 
 Role required: sn\_data\_model\_nav.data\_model\_navigator\_write \(write access to the Data Model Navigator store app tables\), and sn\_cmdb\_ws.config\_editor or sn\_cmdb\_admin \(write access to the CMDB Workspace tables\)
 

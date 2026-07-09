@@ -9,7 +9,7 @@ classification: mid-server
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install multiple MID Servers on a single system

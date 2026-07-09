@@ -7,7 +7,7 @@ release: australia
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-23"
 reading_time_minutes: 3
 breadcrumb: [Configure, Coaching, IT Service Management]
 ---
@@ -28,15 +28,15 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d407218e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d408195e68">
 
 To create using
 
-</th><th align="left" id="d407218e71">
+</th><th align="left" id="d408195e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d407218e77">
+</th></tr></thead><tbody><tr><td id="d408195e77">
 
 **Guided setup**
 
@@ -46,7 +46,7 @@ Do this
 2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d407218e113">
+</td></tr><tr><td id="d408195e113">
 
 **The Application navigator**
 
@@ -87,7 +87,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
         If you reduce the random sample size, you can avoid certain trainees from being excluded by specifying **Users who should be coached on every opportunity**. For example, you may want new employees to be coached every time.
 
-    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Complete** state.
+    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Incomplete** state.
 
         You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
 

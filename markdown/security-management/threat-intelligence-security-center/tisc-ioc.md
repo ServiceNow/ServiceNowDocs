@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Library Repository
@@ -39,7 +39,7 @@ The application uses automated correlation to establish potentially possible rel
 -   **[Vulnerability relationship mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-vul-relationship-map.md)**  
 Use many-to-many \(M2M\) relationship records to map connections between vulnerabilities and other entities.
 
-**Parent Topic:**[Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

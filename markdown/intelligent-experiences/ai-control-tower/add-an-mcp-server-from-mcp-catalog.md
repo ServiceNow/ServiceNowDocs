@@ -1,5 +1,5 @@
 ---
-title: Add an MCP server from the MCP Catalog
+title: Add an MCP Server from MCP Catalog
 description: Add an MCP server from the Model Context Protocol \(MCP\) Catalog in the AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-from-mcp-catalog.html
@@ -9,10 +9,10 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Process flow of MCP Servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from the MCP Catalog
+# Add an MCP Server from MCP Catalog
 
 Add an MCP server from the Model Context Protocol \(MCP\) Catalog in the AI Control Tower.
 

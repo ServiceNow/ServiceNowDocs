@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Platform Analytics
@@ -37,7 +37,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
     -   Platform Analytics overview and demonstration
     -   Review Platform Analytics architecture
-    -   Leading and lagging indicator best practices
+    -   Leading and lagging indicator general guidelines
     -   Discuss differences between reporting and Performance Analytics
     -   Thirty days of access to the temporary instance
 -   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**

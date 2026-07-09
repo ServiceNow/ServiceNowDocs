@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Legacy Software Asset Management plugin
@@ -47,5 +47,5 @@ A software contract is a binding agreement between the owner of a software produ
 -   **[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)**  
 The legacy Oracle process pack is an add-on to the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin that provides the ability to manage software licensed under the Oracle licensing model.
 
-**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-sam.md)
 

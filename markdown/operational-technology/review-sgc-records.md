@@ -24,9 +24,9 @@ These are optional tasks.
 
 ## Procedure
 
-1.  On your dashboard, navigate to the **All &gt; Service Graph Connector &gt; ServiceNow OT Discovery** menu.
+1.  On your dashboard, navigate to **All &gt; Service Graph Connector &gt; ServiceNow OT Discovery**.
 
-2.  In the ServiceNow OT Discovery menu, you can review extended information about and settings for the Service Graph Connector for ServiceNow OT Discovery
+2.  In the ServiceNow OT Discovery menu, you can review extended information about and settings for the Service Graph Connector for ServiceNow OT Discovery.
 
 3.  Scroll the topics under **ServiceNow OT Discovery** until you find **All Unknown OT Devices Missing Model &amp; Manufacturer**.
 

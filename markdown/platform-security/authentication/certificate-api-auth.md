@@ -21,3 +21,10 @@ Certificate-based authentication lets you mutually authenticate inbound API requ
     Authenticate inbound requests to ServiceNow SOAP and REST APIs. To set up mutual authentication for inbound web services, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
 
+**Note:**
+
+-   Certificate Based Authentication is not supported on the On-Prem and edge encryption enabled instance.
+-   To enable Certificate Based Authentication on self-hosted instance, review this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1272738) and follow the instructions available in the **Native Certificate-Based Authentication** row within the table.
+
+.
+

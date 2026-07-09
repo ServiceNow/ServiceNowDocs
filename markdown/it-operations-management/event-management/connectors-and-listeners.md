@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 

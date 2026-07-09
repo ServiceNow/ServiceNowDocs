@@ -9,7 +9,7 @@ classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate Procurement, Procurement, IT Asset Management]
+breadcrumb: [Activate Procurement, Procurement, Common applications, Asset Management]
 ---
 
 # Components installed with Procurement

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Flow execution analysis, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -30,7 +30,7 @@ Enable flow execution analysis to gain these benefits.
 
 ## Supported LLMs
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Flow analysis
 
@@ -42,13 +42,13 @@ You can generate and view a flow execution analysis from the Workflow Studio sid
 
 From the Analysis sidebar, you can generate an analysis of the flow execution details. A flow that has never been analyzed displays a **Analyze flow** button.
 
-\[Omitted image "flow-execution-analysis-02.png"\] Alt text: Analyze flow option.
+\[Omitted image "example-flow-execution-analysis-01.png"\] Alt text: Flow execution analysis sidebar option
 
 An existing flow analysis lists its creation date.
 
-\[Omitted image "flow-execution-analysis-03.png"\] Alt text: A summary of the Change - Standard flow, which also lists a creation date.
+\[Omitted image "example-flow-execution-analysis-02.png"\] Alt text: Flow analysis containing Root Cause Analysis and Potential Fixes sections
 
-You can regenerate a flow execution analysis from the Analysis sidebar.
+The **Root Cause Analysis** and **Potential Fixes** sections contain information and suggestions to potentially improve your flow.
 
 ## Flow reporting requirements
 

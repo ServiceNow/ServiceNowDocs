@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Common error messages and causes
@@ -16,7 +16,7 @@ Look here for information and troubleshooting steps when you receive an error me
 
 ## Unable to roll back to previous state
 
-This error is often related to a table lookup. Check to ensure that any tables in a lookup exist in your CPQ environment. Check the syntax of your lookup to ensure that the table column headers exactly match your query script. Capitalization or spelling could be off, causing a table lookup to fail, resulting in this error.
+This error is often related to a table lookup. Check to ensure that any tables in a lookup exist in your ServiceNow CPQ environment. Check the syntax of your lookup to ensure that the table column headers exactly match your query script. Capitalization or spelling could be off, causing a table lookup to fail, resulting in this error.
 
 This could also involve circular logic being triggered by a field change, such as the condition and action of a rule both including the same field. If this error is seen right after selecting a field option, check the rules related to the field \(by last modified date\) to help isolate the cause.
 
@@ -42,9 +42,9 @@ Null checks on arrays are always a good idea.
 
 ## Cannot read properties of undefined \(reading 'map'\)
 
-This error occurs on the buyside when the user opens CPQ config.
+This error occurs on the buyside when the user opens ServiceNow CPQ config.
 
 Review the layout file. Make sure that references to set the variable names are accurate.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

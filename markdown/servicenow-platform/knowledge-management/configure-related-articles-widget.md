@@ -34,7 +34,7 @@ The knowledge article view page displays the Related Articles section when an ar
 
 3.  On the article page, press Control+right-click and select **Page in Designer**.
 
-4.  In the Service Portal Designer page, click the edit icon \(\[Omitted image "Edit.png"\] Alt text: edit\) on **Knowledge Related Articles** widget to add the related articles.
+4.  In the Service Portal Designer page, click the edit icon on **Knowledge Related Articles** widget to add the related articles.
 
     **Note:** You can also add **Knowledge Related Articles** widget using **Widgets** search field and drag-and-drop the widget to the blank field.
 

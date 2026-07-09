@@ -79,7 +79,7 @@ Service Portal search widgets work in different locations, such as the portal ho
 
 ## Example widgets
 
-Service Portal example widgets help show what you can do in theGDS Service Portal. These widgets demonstrate how common portal features work and what information you can access directly from a portal page, serving as example code for how scripts are used in a widget.
+Service Portal example widgets help show what you can do in the GDS Service Portal. These widgets demonstrate how common portal features work and what information you can access directly from a portal page, serving as example code for how scripts are used in a widget.
 
 Example widgets help users to do the following:
 
@@ -93,13 +93,4 @@ These widgets appear as ready‑to‑use components in the GDS Service Portal co
 As an admin, you can use the example widgets to see how to use HTML, CSS, or client and server scripts in the GDS Service Portal, and clone and extend each widget to suit your needs. For a list of example Widgets available by default in the GDS Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
 
 For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
-
--   **[Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md)**  
-You can use base system widgets as-is in the GDS Service Portal, or you may clone them to suit your needs.
--   **[Add Widgets to GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-add.md)**  
-Add widgets to your portal pages and modify its data, presentation, and behavior. You can use base system widgets as-is in the GDS Service Portal, or you may clone them to suit your needs.
--   **[Configure Widgets Instances for GDS Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md)**  
-You can use widget instances to configure the location, properties, and CSS specific to that instance of the widget. Create unique instances of widgets by configuring the options for each instance.
-
-**Parent Topic:**[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
 

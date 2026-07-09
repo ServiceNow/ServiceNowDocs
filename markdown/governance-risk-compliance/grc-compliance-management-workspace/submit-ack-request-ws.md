@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
+2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: List from the sidebar.
 
 3.  Navigate to **Policy acknowledgements** &gt; **All campaigns**.
 

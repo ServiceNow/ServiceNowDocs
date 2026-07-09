@@ -118,7 +118,7 @@ The authentication method used by the Cribl integration. This field is required.
 
 Both of these authentication methods use the default credential alias: Cribl\_Credential\_Alias.
 
-For information about setting up credentials for the authentication method used by the Cribl integration, see [Set up authentication credentials for the Cribl integration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-setup-cribl-credentials.md).
+For information about setting up credentials for the authentication method used by the Cribl integration, see [Set up Cribl integration authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-setup-cribl-credentials.md).
 
 **Important:** Verify that only one active credential record of each credentials type exists under the credential alias.
 

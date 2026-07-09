@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect to MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Connecting to MCP Servers, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Connecting with AI Agent Studio Via AI Gateway

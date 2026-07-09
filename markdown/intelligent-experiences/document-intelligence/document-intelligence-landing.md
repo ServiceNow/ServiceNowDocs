@@ -7,7 +7,7 @@ release: australia
 product: Document Intelligence
 classification: document-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Enable AI experiences]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [Enable AI experiences]
 
 Document Intelligence \(DocIntel\) is an AI solution that enables any organization to automate and accelerate the process of extracting data from documents. That data can easily be integrated into larger automation workflows to save time and resources.
 
-**Important:**
-
-This product has been deprecated and replaced by [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) \(NADI\) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Request apps on the Store
 
@@ -65,7 +63,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   Learn more about what's new and changed in the [Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md).
+-   Learn more about what's new and changed in the .
 -   [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
 -   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence/ct-p/ai-intelligence).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).

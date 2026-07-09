@@ -25,8 +25,8 @@ To install the app otherwise, use the following directions.
 To install the app otherwise, use the following directions.
 
 -   [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   Set up Microsoft Teams Graph spoke.
--   .
+-   [Set up Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
+-   [Set up Microsoft Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-ad.md).
 
 Roles required:
 

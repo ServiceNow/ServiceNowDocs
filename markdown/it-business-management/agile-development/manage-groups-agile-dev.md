@@ -38,7 +38,7 @@ For each group member, a default number of story points can be defined. At the g
 
 -   **[Create an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-an-agile-group.md)**  
 Create an assignment group of the type Agile Team so that you can assign these groups to a product or a release.
--   **[Convert a release team to a group \(only for existing customers having release teams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/convert-release-team-to-group.md)**  
+-   **[Convert a release team to a group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/convert-release-team-to-group.md)**  
 Convert an existing release team to an assignment group of type Agile Team so that you can assign them to a product or a release.
 -   **[Add members to an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-group-members-to-group.md)**  
 Add members who would work on the scrum stories and tasks.

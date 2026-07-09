@@ -32,16 +32,16 @@ Role required: admin, questionnaire\_admin
 
 Ensure the following plugins and store applications are activated before you install Smart Assessment for Field Service Questionnaire.
 
--   Field Service Management \(field\_service\_management\)
--   Field Service- Questionnaire
--   Field Service Mobile
--   Smart Assessment for Mobile
--   Smart Assessment Dependencies
--   Basic Scoring for Smart Assessment
--   Smart Assessment Core
--   Smart Assessment Designer
--   Smart Assessment Connected
--   Smart Assessment Migration Tools
+-   Field Service Management \(com.snc.work\_management\)
+-   Field Service- Questionnaire \(com.snc.wm\_questionnaire\)
+-   Field Service Mobile \(sn\_fsm\_mobile\)
+-   Smart Assessment for Mobile \(sn\_smart\_asmt\_mob\)
+-   Smart Assessment Dependencies \(com.snc.smart\_asmt\_dep\)
+-   Basic Scoring for Smart Assessment \(sn\_smart\_scoring\)
+-   Smart Assessment Core \(sn\_smart\_asmt\)
+-   Smart Assessment Designer \(sn\_smart\_asmt\_desg\)
+-   Smart Assessment Connected \(sn\_smart\_asmt\_conn\)
+-   Smart Assessment Migration Tools \(sn\_smart\_asmt\_mig\)
 
 ## About this task
 

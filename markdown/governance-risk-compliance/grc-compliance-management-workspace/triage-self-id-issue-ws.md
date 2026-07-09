@@ -35,8 +35,6 @@ The assigned triage teams identify whether the self-identified issues are actual
 
 The end-to-end flow of the issue triage life cycle is illustrated and described here.
 
-
-
 <table id="table_exh_nm3_b4b"><thead><tr><th>
 
 Stage

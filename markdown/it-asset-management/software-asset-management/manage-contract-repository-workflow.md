@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [manage contract repository workflow in the Software Asset Workspace, Initiate contract extraction]
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Use manage contract repository agentic workflow in the Software Asset Workspace

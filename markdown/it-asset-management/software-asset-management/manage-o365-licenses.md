@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Microsoft 365 SaaS License Management success guide

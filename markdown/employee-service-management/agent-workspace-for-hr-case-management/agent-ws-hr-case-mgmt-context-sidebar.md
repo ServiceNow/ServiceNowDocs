@@ -18,7 +18,7 @@ The contextual side panel in Agent Workspace for HR Case Management provides inf
 
 The contextual side panel provides a column of icons that provides you with information. Use the information when you interact with your employees or to complete the case.
 
-\[Omitted image "contextual-sidebar-1.png"\] Alt text: HR Agent Workspace Contextual side panel
+\[Omitted image "contextual-sidebar-1.png"\] Alt text: Contextual side panel in Agent Workspace showing column of icons for case information and employee interaction
 
 The icons that appear depend on the type of HR case you are looking at.
 
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "agent-ws-hr-at-a-glance-icon.png"\] Alt text: Click the At a Glance icon to show the At a Glance panel
+\[Omitted image "agent-ws-hr-at-a-glance-icon.png"\] Alt text:
 
 </td><td>
 
@@ -40,7 +40,7 @@ At a Glance: Provides key HR profile details for fast recall. Having this inform
 
 </td></tr><tr><td>
 
-\[Omitted image "knowledge-base-icon.png"\] Alt text: Agent Assist icon
+\[Omitted image "knowledge-base-icon.png"\] Alt text:
 
 </td><td>
 
@@ -48,7 +48,7 @@ Agent Assist: Provides relevant knowledge articles about the case. You can also 
 
 </td></tr><tr><td>
 
-\[Omitted image "employee-docs-icon.png"\] Alt text: Employee Documents icon
+\[Omitted image "employee-docs-icon.png"\] Alt text:
 
 </td><td>
 
@@ -56,21 +56,21 @@ Employee Documents: Lists documents related to the case you are on. Select the d
 
 </td></tr><tr><td>
 
-\[Omitted image "attach-icon.png"\] Alt text: Attachment icon
+\[Omitted image "attach-icon.png"\] Alt text:
 
 </td><td>
 
-Attachments: Documents relevant or related to the HR case are displayed as attachments. These documents can be moved to Employee Document Management \(EDM\) for archival and historical purposes. For example, receipts for tuition reimbursement are attachments to an HR case. After you move attachments to Employee Document Management, they will be employee documents. See .-   To add attachments to a case, click **Select File**.
--   To download all attachments at one time, select \[Omitted image "select-icon.png"\] and select **Download all**.
--   To download only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\], and select **Download**.
--   To delete all attachments at one time, select \[Omitted image "select-icon.png"\] and select **Delete all**.
--   To delete only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\], and select **Delete**.
+Attachments: Documents relevant or related to the HR case are displayed as attachments. These documents can be moved to Employee Document Management \(EDM\) for archival and historical purposes. For example, receipts for tuition reimbursement are attachments to an HR case. After you move attachments to Employee Document Management, they will be employee documents.-   To add attachments to a case, click **Select File**.
+-   To download all attachments at one time, select \[Omitted image "select-icon.png"\] Alt text: and select **Download all**.
+-   To download only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\] Alt text:, and select **Download**.
+-   To delete all attachments at one time, select \[Omitted image "select-icon.png"\] Alt text: and select **Delete all**.
+-   To delete only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\] Alt text:, and select **Delete**.
 
-**Note:** A small green dot indicates there are attachments \[Omitted image "agent-ws-hr-attach-icon.png"\] Alt text: HR Agent WS - Attachment icon.
+**Note:** A small green dot indicates there are attachments \[Omitted image "agent-ws-hr-attach-icon.png"\] Alt text:.
 
 </td></tr><tr><td>
 
-\[Omitted image "templates-aws.png"\] Alt text: Templates icon
+\[Omitted image "templates-aws.png"\] Alt text:
 
 </td><td>
 
@@ -78,7 +78,7 @@ Templates: Displays reusable templates that you can use to auto-fill certain fie
 
 </td></tr><tr><td>
 
-\[Omitted image "response-template-icon.png"\] Alt text: Response Template icon
+\[Omitted image "response-template-icon.png"\] Alt text:
 
 </td><td>
 
@@ -90,7 +90,7 @@ Response Templates: Displays reusable messages that you can use when responding 
 
 </td></tr><tr><td>
 
-\[Omitted image "fulfill-insts-icon.png"\] Alt text: Fulfillment instructions icon
+\[Omitted image "fulfill-insts-icon.png"\] Alt text:
 
 </td><td>
 
@@ -100,7 +100,7 @@ Fulfillment Instructions: Provides you with focused and targeted information on 
 
 </td></tr><tr><td>
 
-\[Omitted image "checklist-icon.png"\] Alt text: Checklist icon
+\[Omitted image "checklist-icon.png"\] Alt text:
 
 </td><td>
 
@@ -108,7 +108,7 @@ Checklist: Provides you with a list of things that need to be checked or done. C
 
 </td></tr><tr><td>
 
-\[Omitted image "personal-notes.png"\] Alt text: Personal notes
+\[Omitted image "personal-notes.png"\] Alt text:
 
 </td><td>
 

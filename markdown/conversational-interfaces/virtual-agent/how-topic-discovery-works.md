@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [NLU, Virtual agent]
-breadcrumb: [Debug a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Debug a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Natural Language Understanding topic discovery logic in Virtual Agent

@@ -1,6 +1,6 @@
 ---
 title: Search the Service Graph database using natural language
-description: Now Assist for CMDB uses the analyze the search request skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the Now Assist panel.
+description: Now Assist for CMDB uses the search result classifier skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use generative AI skills, Now Assist for Configuration Management D
 
 # Search the Service Graph database using natural language
 
-Now Assist for CMDB uses the analyze the search request skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the Now Assist panel.
+Now Assist for CMDB uses the search result classifier skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the Now Assist panel.
 
 ## Before you begin
 
@@ -44,23 +44,23 @@ Role required: sn\_cmdb\_user and now\_assist\_panel\_user
 
 4.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d285102e188">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d288016e188">
 
 Option
 
-</th><th align="left" id="d285102e191">
+</th><th align="left" id="d288016e191">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d285102e197">
+</th></tr></thead><tbody><tr><td id="d288016e197">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d285102e212">
+</td></tr><tr><td id="d288016e212">
 
 **Copy the summary**
 
@@ -68,7 +68,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d285102e223">
+</td></tr><tr><td id="d288016e223">
 
 **Refresh the summary**
 

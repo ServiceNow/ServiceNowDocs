@@ -68,12 +68,6 @@ The SOX Compliance Dashboard displays an overview of all controls, attestations,
     -   Issues Closure Rate
     -   Control Issues by Policy
 
-
-
-
-
-
-
 ## SOX Risk Dashboard
 
 The SOX Risk Dashboard displays an overview of all risks, assessments, and risk issues. Navigate to **SOX** &gt; **SOX Risk Dashboard**. The following reports are available:
@@ -114,12 +108,6 @@ The SOX Risk Dashboard displays an overview of all risks, assessments, and risk 
     -   Issues Closure Rate
     -   Risks Issues by Policy
 
-
-
-
-
-
-
 ## SOX Audit Dashboard
 
 The SOX Audit Dashboard displays an overview of all audits and audit issues. Navigate to **SOX** &gt; **SOX Audit Dashboard**. The following reports are available:
@@ -144,8 +132,6 @@ The SOX Audit Dashboard displays an overview of all audits and audit issues. Nav
     -   Issues by profile
     -   Issues by Owner
     -   Pending Issues by Entity
-
-
 
 \[Omitted image "SOX-issue-overview.png"\] Alt text: Issue Overview
 

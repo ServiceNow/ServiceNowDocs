@@ -1,6 +1,6 @@
 ---
-title: Asset Management
-description: The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+title: Base Asset Management
+description: The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/am-landing-page.html
 release: australia
@@ -9,12 +9,12 @@ classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
-# Asset Management
+# Base Asset Management
 
-The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 
 ## Get started
 

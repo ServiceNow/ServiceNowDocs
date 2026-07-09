@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create an applicable product
@@ -34,6 +34,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md)
 

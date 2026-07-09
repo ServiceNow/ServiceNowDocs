@@ -28,10 +28,8 @@ Role required: sn\_poem\_core.collaborator
     -   The Review your work section on the home page.
 2.  Select a task.
 
+    The purchase order exception task record is displayed.
 
-## Result
-
-The purchase order exception task record is displayed.
 
 ## What to do next
 
@@ -40,4 +38,13 @@ Review the task, add comments and attachments as needed, and then mark the task 
 **Note:** For tasks of the Upload Documents action type, the **Mark Complete** button is not available until a file is attached.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-on-a-purchase-order-exception.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

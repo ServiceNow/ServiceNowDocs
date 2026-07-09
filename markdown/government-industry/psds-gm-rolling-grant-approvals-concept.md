@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-rol
 release: australia
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Grants Management, Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -29,16 +29,20 @@ A Funding Allocation Request is a record type that acts as an approval packet gr
 
 Multiple funding requests can exist simultaneously for the same grant program, and each progresses through its own lifecycle independently.
 
-## Related information
+**Related topics**  
 
--   
--   
 
--   
--   
+[Use Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gm-rolling-grant-approvals-concept.md)
 
--   
+[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-mark-proposals-task.md)
 
--   [Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-proposal-funding-status-ref.md)
+[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-rolling-grants-submit-fr-task.md)
 
+[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-review-fr-task.md)
+
+[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-release-result-notices-task.md)
+
+[Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-proposal-funding-status-ref.md)
+
+[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
 

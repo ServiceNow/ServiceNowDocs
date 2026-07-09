@@ -1,6 +1,6 @@
 ---
-title: Create sourcing request from the ITAM Workspace
-description: As an asset manager, use SPO’s sourcing flow from the ITAM Workspace to complete checkout when the requested item doesn’t have contractual pricing.
+title: Create sourcing request from the Asset Management Workspace
+description: As an asset manager, use SPO's sourcing flow from the Asset Management Workspace to complete checkout when the requested item doesn't have contractual pricing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.html
 release: australia
@@ -9,12 +9,12 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create SR or PR via ITAM Workspace, Sourcing Procurement Operations integration Asset, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Create SR or PR from Asset Management Workspace, Sourcing and Procurement Operations and Asset Management integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Create sourcing request from the ITAM Workspace
+# Create sourcing request from the Asset Management Workspace
 
-As an asset manager, use SPO’s sourcing flow from the ITAM Workspace to complete checkout when the requested item doesn’t have contractual pricing.
+As an asset manager, use SPO's sourcing flow from the Asset Management Workspace to complete checkout when the requested item doesn't have contractual pricing.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: sn\_spend\_asset.spo\_shopper
 
 This task describes the options you need to select and the information you need to provide after you select **Request items and checkout** when the requested item does not have an associated price.
 
-During checkout, asset managers interact with a user interface that is similar to Shopping Hub’s "I need a product" record producer to provide key details about the product to be sourced.
+During checkout, asset managers interact with a user interface that is similar to Shopping Hub's "I need a product" record producer to provide key details about the product to be sourced.
 
 ## Procedure
 
-1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
+1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
 
 2.  On the Select the preferred supplier for the following items page, select **Request items and checkout**.
 
@@ -113,5 +113,5 @@ Select **+Add file** to add any attachments you would like to upload.
 
 The Procurement Specialist accesses the SR in the Source-to-Pay Workspace and initiates the sourcing process.
 
-**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)
+**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Performance insights in user-configurable dashboard
+title: Performance insights
 description: The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-performance-insights.html
@@ -8,10 +8,10 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Performance insights, User configurable dashboard]
-breadcrumb: [User configurable dashboard, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User configurable dashboard, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Performance insights in user-configurable dashboard
+# Performance insights
 
 The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 
@@ -88,5 +88,5 @@ The root cause report opens in a separate page with the **Root cause summary and
 
 Select the instance name in the Instance column that opens a slider page displaying the instance name, instance type, and instance status. If the instance performance status is Optimal, then you wouldn't see any data fetched from the back end. The columns in the slider page are sortable and filterable, and selecting the links in the **Metrics Affected** column takes you to the respective performance page. The trend in data is displayed in the **Trend** column.
 
-**Parent Topic:**[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
+**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
 

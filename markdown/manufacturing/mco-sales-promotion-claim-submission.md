@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sales-promoti
 release: australia
 topic_type: concept
 last_updated: "2026-03-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sales promotion, MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
@@ -14,48 +14,42 @@ breadcrumb: [Sales promotion, MCO core, Explore, Manufacturing Commercial Operat
 
 Use case scenarios demonstrate when and how to use the Dealer portal application to submit a sales promotion claim. It provides practical examples of common sales promotion management situations.
 
-## Use case: Dealer sales promotion claim submission
-
-Scenario
+## Scenario
 
 Sophie, a dealer sales agent, must submit sales promotion claims for vehicles sold at the dealership. The claims include a Senior Citizen Promotion \($1,500\) and a Trade-In Promotion \($2,500\). Dealers submitting sales promotion claims might encounter some of the following challenges:
 
--   Disconnected systems and manual processes cause delays and errors
--   Single vehicles qualifying for multiple promotions creates complexity
--   Data quality issues lead to claim rejections
--   Identifying eligible incentives is difficult
--   Inconsistent pricing across systems causes errors
--   Missing information leads to rejections
--   Required documents are scattered across systems
--   Limited claim status visibility after submission
+-   Manual processes: Disconnected systems and scattered documentation cause delays and errors.
+-   Claim complexity: Single vehicles qualifying for multiple promotions requires careful tracking.
+-   Data quality: Missing or incorrect information leads to rejections and resubmissions.
+-   Lack of visibility: Limited access to claim status after submission.
 
-Solution
+## Solution
 
 Sophie uses the Manufacturing Commercial Operations \(MCO\) Dealer Portal to submit sales promotion claims efficiently:
 
-1.  Uploads bulk claims via excel using the predefined template with promotion ID, external ID, sale price, currency, and asset serial number.
-2.  Selects a draft claim with auto-filled dealer information based on dealer login.
-3.  Enters vehicle sale price.
-4.  Reviews auto-filtered eligible promotions.
-5.  Selects Senior Citizen Promotion and Trade-In Promotion.
-6.  Enters claim amounts within defined ranges: $2,500 for trade-in and $1,500 for senior citizen discount.
-7.  Completes structured questionnaires with customer age and SSN for Senior Citizen Promotion, and vehicle details \(serial number, make, model, year, trim\) for Trade-In Promotion using preconfigured drop-downs.
-8.  Uploads required documents such as vehicle title.
-9.  Submits the claim and tracks status, views OEM comments, or cancels if needed.
+1.  Access: Opens the Dealer Portal and navigates to Sales Promotion Claims.
+2.  Upload: Downloads the bulk upload template \(promotion ID, external ID, sale price, currency, asset serial number\) and completes it with both vehicle details.
+3.  Review: Submits the file and reviews auto-filtered eligible promotions for each vehicle.
+4.  Select: Chooses Senior Citizen Promotion and Trade-In Promotion from eligible options.
+5.  Configure: Enters claim amounts within defined ranges \($2,500 for trade-in, $1,500 for senior citizen\).
+6.  Complete: Fills structured questionnaires with auto-populated dealer information and required details using preconfigured drop-downs. Example: customer age and SSN for Senior Citizen; vehicle serial number, make, model, year, trim for Trade-In.
+7.  Document: Uploads required supporting documents \(vehicle title\) within the claim form.
+8.  Track: Submits the claim and monitors status in real-time, views OEM comments, or cancels if needed.
 
-The [Dealer management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) reduces manual effort and improves accuracy.
+The [Using dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md) reduces manual effort and improves accuracy.
 
-Benefits
+## Benefits
 
--   Faster submissions: Bulk upload via excel significantly reduces intake time for multiple claims.
--   Improved accuracy: Predefined templates and drop-down ensure data quality and consistency.
--   Reduced complexity: Automatic filtering displays only eligible promotions.
--   Lower rejection rates: Structured questionnaires verify complete information capture.
--   Centralized documentation: Upload all required files within the claim.
--   Real-time visibility: Track claim status and view OEM comments.
--   Fewer errors: Value range validation avoid overages and manual mistakes.
+|Without MCO|With MCO Sales Promotion|
+|-----------|------------------------|
+|Manual claim submission for each vehicle|Bulk upload submits multiple claims in one action.|
+|Uncertainty about eligible promotions|Auto-filtered promotions display only valid options.|
+|Incomplete information causes rejections|Structured questionnaires and validation ensure complete data.|
+|No visibility into claim status|Real-time tracking shows claim progress and OEM feedback.|
+|Scattered documentation across systems|Centralized file uploads keep all documents with the claim.|
+|Range and validation errors|Value-range validation prevents overages and data inconsistencies.|
 
-Outcome
+## Outcome
 
 Sophie submits a complete claim with two incentives. Bulk upload, automated filtering, and structured questionnaires reduce preparation time and rejection risk, enabling faster processing and reimbursement.
 

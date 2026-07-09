@@ -20,11 +20,11 @@ DEX supports two proactive resolution strategies depending on how quickly an iss
 
 -   [Real-time proactive resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/proactive-resolution-real-time.md)
 
-    Detect and remediate device and application issues within minutes using metric rules, alerts, and automated or manual remediation actions. Use this approach for time-sensitive issues such as device crashes, disk usage thresholds, or application crashes.
+    Detect and remediate device and application issues using metric rules, alerts, and automated or manual remediation actions. Address time-sensitive issues such as device crashes, high disk usage, or application crashes.
 
 -   [Non-real-time proactive resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/proactive-resolution-non-real-time.md)
 
-    Detect and remediate issues that require periodic review of aggregated or configuration data. Use this approach for issues such as system compliance, battery health, system performance, and DEX Score trends.
+    Monitor and remediate conditions that require periodic data review, such as system compliance, battery health, system performance, and DEX Score trends.
 
 
 ## Detection and remediation methods
@@ -39,7 +39,7 @@ Each proactive resolution strategy uses different detection and remediation meth
 
 ## Other DEX resolution methods
 
-Proactive resolution is one of several ways DEX helps resolve device and application issues. Depending on the role and the workflow, you can also use the following methods, many of which work together with the real-time and non-real-time strategies.
+Proactive resolution is a way DEX helps you resolve device and application issues. Based on the role and the workflow, you can use the following methods, many of which work together with the real-time and non-real-time strategies.
 
 -   **Custom insights reports and bulk remediation**
 

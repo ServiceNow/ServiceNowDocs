@@ -31,7 +31,7 @@ More detailed information on tasks and procedures for analyzing and resolving Lo
 
     Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
--   [Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)
+-   [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)
 
     Review the log lines surrounding the anomaly for clues about the state of faulting systems. This information can help you narrow down the root cause of the alert.
 
@@ -40,7 +40,7 @@ More detailed information on tasks and procedures for analyzing and resolving Lo
     Identify relationships between alerts to help you determine whether an alert is part of a larger issue.
 
 -   Navigate to the [Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/express-list.md) and select an alert from the Alerts list.Use Now Assist to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
--   [Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
+-   [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)
 
     For further investigation you can navigate to the **Log Viewer** to browse the alert logs by timestamp or time range, and visualize anomaly frequency within a time period for a comprehensive view of log data over a specified time range.
 

@@ -45,11 +45,11 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations.md)**  
+-   **[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations.md)**  
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 -   **[Turn on Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-recommendations.md)**  
 Turn on the playbook recommendations skill to get recommendations for the activity definition to use in your placeholder activities with AI Search.
--   **[Generate playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md)**  
+-   **[Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md)**  
 Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity’s name and description.
 
 **Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)

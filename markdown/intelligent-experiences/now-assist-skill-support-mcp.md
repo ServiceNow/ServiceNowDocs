@@ -51,7 +51,6 @@ In addition, you can create tools from the following Now Assist skills or from c
 -   Resume Skill Extraction
 -   Skill keyword extractor
 -   Spoke Generation
--   Subflows and actions
 -   Supplier recommendation
 -   Survey Filler Answer Suggestion skill
 -   Text2Test Sentinel

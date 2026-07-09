@@ -42,5 +42,5 @@ Role required: now\_assist\_explorer\_user and ownership of the exploration. Use
 **Related topics**  
 
 
-[Duplicate, delete, copy to another exploration, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)
+[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)
 

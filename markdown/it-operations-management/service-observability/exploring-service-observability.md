@@ -7,8 +7,8 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-06-12"
+reading_time_minutes: 6
 breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -34,6 +34,8 @@ Service Observability supports the following observability vendors:
 -   SolarWinds on-premise
 -   Splunk Observability and logs from Splunk Enterprise
 -   Zabbix on-premise
+
+Service Observability also supports MetricBase as a data source. For setup instructions, see [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md).
 
 Service Observability supports the following databases:
 

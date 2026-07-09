@@ -64,7 +64,7 @@ After a successful submission, a link to the newly created Lucid diagram appears
 
 [Add or edit a business capability from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-capability.md)
 
-[Manage architectural artifacts of a business capability in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
+[Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bc.md)
 
 [Create a sub-capability from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-sub-capability-from-the-portfolio-page.md)
 

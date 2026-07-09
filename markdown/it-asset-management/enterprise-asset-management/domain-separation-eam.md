@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Domain separation and Enterprise Asset Management

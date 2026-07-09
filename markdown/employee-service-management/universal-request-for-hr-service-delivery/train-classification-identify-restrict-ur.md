@@ -22,7 +22,7 @@ Role required: admin
 
 Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\) and Predictive Intelligence for \(com.snc.universal\_request.ml\) plugins are activated.
 
-Set the **Enable to auto-restrict requests with sensitive information** property to true by navigating to **Universal Request** &gt; **Administration** &gt; **Properties**. Enabling this property enables the application to use the **Universal Request Classification solution** for UR.
+Set the Enable to auto-restrict requests with sensitive information \(sn\_uni\_req\_ml.sensitive\_detection\) property to true by navigating to **Universal Request** &gt; **Administration** &gt; **Properties**. Enabling this property enables the application to use the **Universal Request Classification solution** for UR.
 
 **Note:** A minimum of ten thousand records are needed to train the classifications.
 

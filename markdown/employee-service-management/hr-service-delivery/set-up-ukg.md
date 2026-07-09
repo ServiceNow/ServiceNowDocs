@@ -24,7 +24,7 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 -   Glide Virtual Agent \[com.glide.cs.chatbot\]
 -   Human Resources Scoped App: Core \[com.sn\_hr\_core\]
--   Employee Service Center \[com.sn\_hr\_service\_portal\]
+-   Employee Service Center \[com.sn\_ex\_employee\_center\_pro\]
 -   Virtual Agent Service Portal Widgets \[com.glide.va.sp\_widgets\]
 -   NLU Workbench \[com.snc.nlu\_studio\]
 -   Predictive Intelligence \[com.glide.platform\_ml\]
@@ -34,7 +34,7 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 1.  Integrate your Ultimate Kronos Group application with your ServiceNow instance.
 
-    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see Set up the UKG spoke.
+    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-connection-ukg-spoke.md).
 
 2.  Complete the one time set up of loading accrual codes from the Ultimate Kronos Group application into ServiceNow.
 

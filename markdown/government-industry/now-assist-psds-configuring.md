@@ -66,5 +66,5 @@ Search
 </td></tr></tbody>
 </table>**Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 

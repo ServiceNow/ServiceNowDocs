@@ -8,7 +8,7 @@ product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Now Assist for CWM, Strategic Portfolio Management]
 ---
 
@@ -27,16 +27,6 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
     You can review and edit AI-generated tasks before adding them to your story. There is no limit on the number of tasks generated, giving you flexibility to capture all necessary work breakdown items. This capability reduces the time spent on repetitive task creation and helps teams establish a consistent starting point for sprint execution.
 
     \[Omitted image "na-cwm-scrum-tasks-generated.png"\] Alt text: Generated scrum tasks for a user story displayed in Now Assist for CWM.
-
--   **[Generate formulas from natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-formula-cwm-board-now-assist.md)**
-
-    Create formula columns faster by describing your calculation in natural language and letting Now Assist generate the formula for you.
-
-    Instead of manually building complex formulas, type what you want to calculate in the Formula Builder panel. For example, enter descriptions like `days between start date and end date` or `total estimated hours for all subtasks`. Now Assist analyzes your description and generates a valid formula using the available columns in your List view.
-
-    Review the generated formula to verify that it matches your intent. Insert the formula into the editor with a single click, then make any adjustments if needed. This capability removes the need to memorize formula syntax, making calculated columns accessible to team members of all technical skill levels.
-
-    \[Omitted image "na-cwm-formula-instruction-side-panel.png"\] Alt text: Formula Builder panel in Now Assist for CWM showing a natural language description used to generate a formula.
 
 -   **[Generate acceptance criteria for stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**
 
@@ -112,7 +102,7 @@ Learn more about the generative AI capabilities of Now Assist for CWM and how th
     -   Remove initial roadblocks to create tasks for a CWM Board.
     -   Save time and increase productivity by automating the task creation process.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Now Assist Admin console
 
@@ -128,5 +118,4 @@ To learn more about configuring and using Now Assist for CWM, see:
 
 -   [Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 -   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md)
--   
 

@@ -8,7 +8,7 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Telecommunications Network Inventory]
 ---
 
@@ -56,6 +56,12 @@ The Create Logical Connection form enables you to review, create, and modify the
 The Create Physical Connection form enables you to review, create, and modify the connection details for a physical connection change request.
 -   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
+-   **[Data center infra allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-rack-allocation.md)**  
+Data center infra allocation change request reserves rack unit using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
+-   **[Data center infrastructure allocation placement policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
+Data center policies and rack policies are stored in the Knowledge Base and are applied to racks during the data center infrastructure allocation process.
+-   **[Data center infrastructure allocation failure cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-failure-cases.md)**  
+Allocation failures occur when devices, rack constraints, or CMDB records don't meet the requirements for placement.
 -   **[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)**  
 The Default Template form enables you to create, review and modify a default template and schedule generation of a template.
 -   **[Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)**  
@@ -85,13 +91,11 @@ The inventory number allocation fields enables you to describe the details for L
 -   **[Inventory Numbers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-numbers-form.md)**  
 The Inventory Numbers form enables you to create, review, and modify the inventory details for a network inventory.
 -   **[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)**  
-The IP Address Block form defines a top-level IP address range using CIDR notation. The fields on this form are listed below.
+The IP Address Block form defines a top-level IP address range using CIDR notation. Use this reference to understand the available fields and their behavior.
 -   **[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)**  
-The IP Address form represents the active CMDB record for an address, created either from an allocated IP slot or at the subnetwork level. The fields on this form are listed below.
--   **[IP address inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data_model_of_ip_address_inventory_management.md)**  
-By using the IP address inventory management data model, you can understand how the tables that are used for the IP pools, IP subnetworks, allocated IP addresses, and IP addresses all relate to each other.
+The IP Address form is the active CMDB record for an IP address, created from an allocated IP slot or at the subnetwork level.
 -   **[IP Subnetwork form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.md)**  
-The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork. The fields on this form are listed below.
+The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork.
 -   **[Import model Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.md)**  
 Learn about the fields and structure of the Excel template used to define network element models and their hierarchical relationships for bulk import.
 -   **[Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)**  
@@ -105,7 +109,9 @@ The Logical connection modification request form enables you to modify endpoints
 -   **[Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md)**  
 The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
 -   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
-Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
+The naming convention for associated templates defines how names are generated automatically when you create an equipment or interface card template.
+-   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)**  
+A naming pattern is a JavaScript expression that defines how a CI \(configuration item\) is named when it is created from an inventory template.
 -   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
 The Change Request form enables you to create and modify the change activities for the Telecom Inventory change models in the Design and Assign function.
 -   **[Network inventory facility classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.md)**  
@@ -144,6 +150,8 @@ The Service Instance form enables you to create, review, and modify the details 
 The Strand form enables you to describe the details for a strand in the cable.
 -   **[Strand model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/strand-model-form.md)**  
 The Strand Model form enables you to describe the details for a strand model record.
+-   **[TNI Data Model Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-model-navigator.md)**  
+A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI \(Telecommunications Network Inventory\) context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 -   **[Task attributes in Add Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-card-form.md)**  
 The Task attributes in Add Card form enables you to add a card to an equipment record in the Telecommunications Network Inventory application.
 -   **[Task attributes in Add Equipment to Rack or Cabinet form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-equipment-rack-cabinet-form.md)**  
@@ -162,8 +170,6 @@ The Telco Equipment form enables you to create, review, and modify the network a
 By using the Telecommunications Network Inventory function catalog, you can access the functions that help you to automate the network inventory's Design and Assign process.
 -   **[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)**  
 You can use Workflow Studio subflows in the Telecommunications Network Inventory application to automate the network inventory's Design and Assign process.
--   **[Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md)**  
-By using the telephone number inventory management data model, you can understand how the tables of a telephone block, telephone number allocation, and telephone number relate to each other.
 -   **[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)**  
 Use time series metrics to calculate the operational details of network assets in the Telecommunications Network Inventory application.
 -   **[TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md)**  

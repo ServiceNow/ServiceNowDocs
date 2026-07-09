@@ -52,11 +52,11 @@ The resource plan moves back to the Planning state and has the form fields enabl
 
 [Confirm and allocate a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete a resource plan]()
+[Complete an allocated resource plan]()
 
 [Cancel a resource plan]()
 

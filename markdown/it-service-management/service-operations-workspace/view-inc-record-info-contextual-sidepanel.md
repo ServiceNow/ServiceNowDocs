@@ -101,7 +101,7 @@ You can view a list of five collaborators on a page at a time.
 
 [Create an incident in Service Operations Workspace]()
 
-[View and update incident information on the Overview tab in SOW]()
+[View and update incident information on the Overview tab]()
 
 [Work on an incident list page in Service Operations Workspace]()
 

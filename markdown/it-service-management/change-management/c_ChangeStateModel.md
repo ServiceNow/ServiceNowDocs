@@ -171,7 +171,7 @@ By default, there are two attributes to manage a change request:
 
 -   **[Legacy: Add a state to the state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddANewState.md)**  
 You can add a new state to the existing state model for different change types based on the requirements of your organization.
--   **[Legacy: Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigStateModelTransit.md)**  
+-   **[Configure state model transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigStateModelTransit.md)**  
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)

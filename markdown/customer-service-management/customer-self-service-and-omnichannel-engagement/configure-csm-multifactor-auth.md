@@ -80,3 +80,10 @@ Add the following external roles to the multi-factor roles:
 
 Users with these roles are required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_RequireMultifactorAuthForAUser.md).
 
+**Related topics**  
+
+
+[Multi-factor authentication for Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.md)
+
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
+

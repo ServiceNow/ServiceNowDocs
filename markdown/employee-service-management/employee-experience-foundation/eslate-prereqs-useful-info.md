@@ -1,6 +1,6 @@
 ---
 title: Before you start with Employee Slate
-description: Verify the prerequisites, plugins, roles, licenses, and assets that Employee Slate needs.
+description: Verify the prerequisites, plugins, roles, licenses, and assets that Employee Slate requires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-prereqs-useful-info.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Em
 
 # Before you start with Employee Slate
 
-Verify the prerequisites, plugins, roles, licenses, and assets that Employee Slate needs.
+Verify the prerequisites, plugins, roles, licenses, and assets that Employee Slate requires.
 
 Employee Slate has distinct prerequisites for the administrator who configures the deployment and for the employee who uses it. Review the lists that apply to your role before you begin.
 
@@ -24,19 +24,19 @@ Employee Slate has distinct prerequisites for the administrator who configures t
 Before you install and configure Employee Slate, verify the following prerequisites:
 
 -   The ServiceNow instance runs a platform version with the Employee Slate release.
--   Verify that you have the System administrator role or an equivalent role.
+-   Verify that you have the administrator role or an equivalent role.
 -   Determine the deployment path with Employee Slate for Moveworks or Employee Slate for Now Assist. Verify that you have all the entitlements.
 -   Verify that the Employee Slate plugin for your deployment is available.
 -   Install the Employee Slate Advanced plugin if your deployment requires the advanced experience.
 -   Verify that you have tools and licenses to build widgets with the AI-powered Widget Builder.
 -   Keep the branding assets such as logo file, favicon, primary color hex code, accent color hex code, and a URL suffix ready.
--   Verify you configure the AI-driven capabilities — AI summaries, prioritization, conversational filters, and chat-driven actions — Moveworks or Now Assist.
+-   Verify that you configure the AI-driven capabilities — AI summaries, prioritization, conversational filters, and chat-driven actions — Moveworks or Now Assist.
 
 ## Employee prerequisites
 
 Before you use Employee Slate, verify the following prerequisites:
 
--   You can sign in to Employee Slate with your ServiceNow identity.
+-   You can log in to Employee Slate with your ServiceNow identity.
 -   You use a supported desktop browser or a mobile browser.
 -   Use the admin configured AI-driven capabilities — AI summaries, prioritization, conversational filters, and chat-driven actions — Moveworks or Now Assist that are active on the instance.
 

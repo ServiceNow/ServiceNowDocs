@@ -22,10 +22,10 @@ Field descriptions for the Edit assignment rule form, used to define when and ho
 |Set to active|When selected, the assignment rule is active and applied to incoming tasks.|
 |When to assign|
 |Table|Table that the assignment rule applies to. For example, `HR Case`.|
-|Show labels|When enabled, displays field labels in the condition builder.|
+|Show labels|Displays field labels in the condition builder when enabled.|
 |Field|Field on the selected table used to evaluate the assignment condition. For example, `Assigned to`.|
 |Operator|Comparison operator applied to the selected field. For example, `Is empty`.|
-|AND/OR|Toggle that controls how multiple conditions are combined. Select **AND** to require all conditions to be met, or **OR** to require any one condition to be met.|
+|AND/OR|Determines how multiple conditions are combined. Select **AND** to require all conditions to be met, or **OR** to require any one condition to be met.|
 |Who to assign|
 |Group|Group to assign the task to when the assignment conditions are met. For example, `HR Request managers`.|
 |User|User to assign the task to when the assignment conditions are met. Can be used with or without a group assignment.|

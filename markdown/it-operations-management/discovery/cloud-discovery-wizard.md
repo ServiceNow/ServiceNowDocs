@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-17"
 reading_time_minutes: 9
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 # Discovery for cloud environment
 
 ITOM Visibility cloud discovery solutions enable you to collect detailed information about your cloud-based infrastructure and your resources in major cloud service providers: Amazon Web Services \(AWS\), Microsoft Azure, Google Cloud Platform \(GCP\), IBM Cloud Platform, Oracle Cloud Infrastructure \(OCI\), and Alibaba Cloud.
+
+\[Omitted video\] Description: Cloud discovery overview
 
 ITOM Visibility cloud discovery can be understood through the layers at which discovery operates and the methods used to perform discovery. Different methods or combination of methods at the different layers support various business outcomes, giving you the flexibility to customize your discovery approach to your organization's specific needs.
 
@@ -48,7 +50,7 @@ These layers can be discovered through the different cloud discovery methods and
 ITOM Visibility supports several methods for cloud discovery, depending on the layer. Different discovery methods address different organizational needs and constraints.
 
 -   Cloud metadata layer: Pattern-based Cloud Discovery and Service Graph Connectors
--   OS layer: IP-based Horizontal Discovery, Agent Client Collector for Visibility - Content, and Service Graph Connectors
+-   OS layer: IP-based Horizontal Discovery, Agent Client Collector for Visibility Content, and Service Graph Connectors
 
 **Note:** The pattern-based Cloud Discovery and IP-based Horizontal Discovery methods operate at different layers but both use the Discovery and Service Mapping Patterns application.
 
@@ -62,7 +64,7 @@ ITOM Visibility supports several methods for cloud discovery, depending on the l
     -   Supports continuous visibility for AWS, Azure, and GCP
     For more information, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
--   **Agent Client Collector for Visibility - Content**
+-   **Agent Client Collector for Visibility Content**
 
     An agent-based, push-based cloud discovery that provides near real-time discovery and supports OS layer discovery. Key characteristics include:
 
@@ -123,8 +125,8 @@ Cloud metadata layer discovery methods support the following business outcomes:
 
 OS layer discovery methods support the following business outcomes:
 
-|Business outcomes|IP-based Horizontal Discovery|Agent Client Collector for Visibility - Content|Service Graph Connectors|
-|-----------------|-----------------------------|-----------------------------------------------|------------------------|
+|Business outcomes|IP-based Horizontal Discovery|Agent Client Collector for Visibility Content|Service Graph Connectors|
+|-----------------|-----------------------------|---------------------------------------------|------------------------|
 |Regulatory compliance|Full|Full|Limited|
 |SAM|Enterprise|Enterprise|Basic|
 |FinOps|Yes|Yes|No|

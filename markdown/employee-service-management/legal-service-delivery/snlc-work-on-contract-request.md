@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d559681e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d561270e172">
 
 Option
 
-</th><th align="left" id="d559681e175">
+</th><th align="left" id="d561270e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d559681e181">
+</th></tr></thead><tbody><tr><td id="d561270e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d559681e202">
+</td></tr><tr><td id="d561270e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d559681e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d561270e342">
 
 Option
 
-</th><th align="left" id="d559681e345">
+</th><th align="left" id="d561270e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d559681e351">
+</th></tr></thead><tbody><tr><td id="d561270e351">
 
 **Internal**
 
@@ -122,10 +122,18 @@ Steps
 The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
 
 2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique
-3.  Select **Add**.
+3.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+4.  Select **Add**.
 
 
-</td></tr><tr><td id="d559681e392">
+</td></tr><tr><td id="d561270e445">
 
 **External**
 
@@ -135,7 +143,15 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
 4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value should be unique.
-5.  Select **Add**.
+5.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+6.  Select **Add**.
 
 
 </td></tr></tbody>

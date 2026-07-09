@@ -213,7 +213,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for different time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/display-settings-ts-charts.md).
+Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/display-settings-ts-charts.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -370,7 +370,7 @@ Set color type
 
 Type of color scheme to apply to the component. Options include:
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 -   Color palette: List of color palettes to select from predefined system palettes in the Chart Color Scheme \[pa\_chart\_color\_schemes\] table. For grouped or stacked data, the colors apply in order from highest value to lowest. For multiple data sources, palette colors apply in the order of data sources. For example, the first color of a palette applies to the first data source, and the second palette color applies to the second source. All visualizations that use the same color palette show the same colors, regardless of what data they display.
 -   Fixed element color: Use a specific color from the Chart Colors table \[sys\_report\_chart\_color\] for each element. All data visualizations that use fixed element colors show the same element, such as critical incidents in the Global scope, in the same color.
 
@@ -435,7 +435,7 @@ The following Data configuration options are available for all time series type 
 The following Data configuration options are available for all time series type visualizations of Usage Insights data.
 -   **[MetricBase data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-mb-data.md)**  
 The following data options are available for all time series type visualizations of MetricBase data.
--   **[Display settings for different time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/display-settings-ts-charts.md)**  
+-   **[Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/display-settings-ts-charts.md)**  
 Each time series visualization type has a different set of display settings.
 -   **[Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md)**  
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.

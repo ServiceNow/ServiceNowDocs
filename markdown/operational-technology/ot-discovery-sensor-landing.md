@@ -22,7 +22,7 @@ Use the links to explore and configure the Discovery Sensor for OT.
 
 Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
- [Explore the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-sensor.md)
+ [Explore the Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-ot-sensor.md)
 
 </td><td>
 
@@ -31,11 +31,11 @@ Configure\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
  [Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Log files
 
-**Log files**
+To review files on your Sensor and access logs for troubleshooting purposes, you can SSH from another machine that has network access to the Sensor. If you have to authenticate, use the default credentials. Refer to [Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md) for the credentials.
 
-To review files on your Sensor and access logs for troubleshooting purposes, you can SSH from another machine that has network access to the Sensor. If you have to authenticate, use the default credentials. Refer to  for the credentials.
+## Troubleshoot and get help
 
 If you have any errors or difficulties while using the Discovery Sensor for OT, contact [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 

@@ -26,11 +26,11 @@ Role required: content\_manager or content\_admin
 You can create announcements from scratch or from existing knowledge articles and catalog items in one of the following ways.
 
 -   Manual creation: Create announcements from scratch by entering all content manually in the editor view.
--   Conversational authoring: Prompt, chat, and generate announcements from existing knowledge articles or catalog items. For more information, see [Create an announcement using chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md).
+-   Conversational authoring: Prompt, chat, and generate announcements from existing knowledge articles or catalog items. For more information, see [Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md).
 
 ## Procedure
 
-1.  Navigate to your profile menu and select **Communications**.
+1.  Go to your profile menu and select **Communications**.
 
     **Note:** The Communications link appears only for users with the content manager or content administrator role.
 
@@ -46,7 +46,7 @@ You can create announcements from scratch or from existing knowledge articles an
 
     3.  Add an image by selecting **Choose file** and uploading a thumbnail image.
 
-    4.  After uploading, adjust the focal point of the image by clicking and dragging within the image preview.
+    4.  After uploading, adjust the focal point of the image by selecting and dragging within the image preview.
 
         **Note:** The selected target area of the image is visible as the focal point of the image. Verify the focal point positioning to confirm the image render on different widget aspect ratios.
 
@@ -66,11 +66,11 @@ You can create announcements from scratch or from existing knowledge articles an
 
     Priority combines with content freshness to determine the display order in the carousel. Higher priority values boost an announcement, but newer content with lower priority can still appear ahead of older high-priority content.
 
-5.  Set the start date and time and end date and to configure the **Publishing** schedule.
+5.  Set the start date and time and the end date and time to configure the **Publishing** schedule.
 
     The announcement is visible only during this schedule.
 
-6.  Configure **Add audience** targeting if you need precise control beyond the user criteria from linked content.
+6.  Configure **Add audience** targeting to target a specific audience beyond the user criteria of the linked content.
 
     **Note:** When you don't set any audience, the user criteria of the linked knowledge article or catalog item is applicable.
 
@@ -91,14 +91,14 @@ You can create announcements from scratch or from existing knowledge articles an
 
 The announcement is now visible to employees who match the targeting criteria during the specified publishing window. If the content manager enables the chat promotion, the announcement also appears on the configured chat channels.
 
-**Note:** When creating from existing content, the system inherits user criteria from the original knowledge article or catalog item.
+**Note:** When you create from existing content, the system inherits user criteria from the original knowledge article or catalog item.
 
-You can also create an announcement from an existing knowledge article or catalog item by selecting Create from article or Create from catalog item.
+You can also create an announcement from an existing knowledge article or catalog item by selecting **Create from article** or **Create from catalog item**.
 
 **Related topics**  
 
 
-[Create an announcement using chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)
+[Create an announcement using Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-create-announcement-with-now-assist.md)
 
 [Conversational authoring for announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-conversational-authoring-announcements.md)
 

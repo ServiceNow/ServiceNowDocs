@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-in-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -41,6 +41,8 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
     To share the dashboard with roles, you need read access to the Roles \[sys\_user\_role\] table.
 
+    To share the dashboard with all authenticated users, share it to the dashboard\_user role. Users who are allowed to use dashboards \(those who have at least one role\) will be able to see the dashboard.
+
 5.  To allow the people you share the dashboard with to share the dashboard as well, select **Allow recipients to add, edit, or delete sharing permissions associated with this dashboard**.
 
     When you add a user, group, or role as a viewer, they can only share the dashboard as a viewer. When you add a user, group, or role as an editor, they can share the dashboard as a viewer or as an editor.
@@ -49,7 +51,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38664e166">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38757e168">
 
 **Add as viewer**
 
@@ -57,7 +59,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 Grant only viewing rights to the users, groups, or roles you are sharing the dashboard with. They cannot edit it.
 
-</td></tr><tr><td id="d38664e175">
+</td></tr><tr><td id="d38757e177">
 
 **Add as editor**
 

@@ -1,5 +1,5 @@
 ---
-title: Submit new Invoice
+title: Submit Invoice
 description: Submit a new PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.html
@@ -13,11 +13,13 @@ keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoi
 breadcrumb: [Working with Supplier Catalog, Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
-# Submit new Invoice
+# Submit Invoice
 
 Submit a new PO or Non-PO invoice through the Supplier Collaboration Portal to request payment from the accounts payable team.
 
 ## Before you begin
+
+\[Omitted video\] Description: Submit new invoice lets a supplier or requester enter invoice details and attach supporting documents, creating a record that enables Accounts Payable Operations for processing and payment.
 
 Role required: Supplier
 
@@ -25,23 +27,23 @@ Role required: Supplier
 
 1.  Navigate to **Supplier Catalog** &gt; **Invoices** &gt; **Submit new invoice**.
 
-2.  On the **Submit new invoice** form, enter the following details.
+2.  On the **Submit new invoice** form, enter– the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d84871e96">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d146469e103">
 
 Question
 
-</th><th align="left" id="d84871e99">
+</th><th align="left" id="d146469e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84871e105">
+</th></tr></thead><tbody><tr><td id="d146469e112">
 
 **What type of invoice are you submitting?**
 
 </td><td>
 
-Invoice type- Choose the invoice type for processing from the drop-down list. The options are:-   PO invoice- The **Purchase order** drop-down appears. Choose the purchase order from the drop-down that you would like to associate with the invoice.
+Invoice typeChoose the invoice type for processing from the drop-down list. The options are:-   PO invoice- The **Purchase order** list appears. Choose the purchase order from the drop-down that you would like to associate with the invoice.
 -   Non-PO invoice- Browse and attach the invoice for the Accounts Payable Operations team to create an invoice processing case.
 
 **Note:**
@@ -50,15 +52,17 @@ Invoice type- Choose the invoice type for processing from the drop-down list. Th
     -   If you select Invoice type as PO invoice and enter purchase order number but Doc Intel is unable to extract the purchase order details, then the purchase order that you selected from the **Purchase order** drop-down list will be considered and processed.
 For more information on invoice case, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
-Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company**tab. The **Purchase order** drop-down lists the details associated with the selected supplier.
+Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company** tab. The **Purchase order** drop-down lists the details associated with the selected supplier.
 
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>3.  Select **Submit**.
 
     A pop-up alert message appears as "**Your invoice is submitted and we will send updates about any issues. You can review details here: &lt;&lt;Invoice case number&gt;&gt;**.
 
-    Invoice is created.
 
+## Result
+
+An invoice is created.
 
 **Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

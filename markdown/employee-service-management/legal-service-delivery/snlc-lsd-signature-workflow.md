@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -125,7 +125,9 @@ For contract request fulfilled by the contract user: A contract user can submit 
  For contract request fulfilled by contract fulfiller: The contract fulfiller creates a document revision manually or by using regenerate option and resends the document for signature.
 
 </td></tr></tbody>
-</table>    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
+</table>    **Note:** When signatory roles are enabled, each signatory participates in the electronic signature workflow according to their assigned role. For information about available roles and how to enable them, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
 
 
 ## Wet signature workflow
@@ -180,6 +182,8 @@ All the signatories have signed the document
 
 </td></tr></tbody>
 </table>
+**Note:** In the wet signature workflow, only signatories with the Signer role participate. Signatories with Viewer, Receiver, or Approver roles are not included. For more information, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
 ## Offline signature workflow
 
 Use the offline signature workflow when the contract is signed outside Contract Management Pro — for example, the parties physically sign the contract document or through a third-party application, and you want to record the signed document against the contract request.

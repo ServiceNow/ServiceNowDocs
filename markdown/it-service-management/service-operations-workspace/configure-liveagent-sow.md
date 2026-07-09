@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -41,7 +41,7 @@ For more information about Live Agent chat integration, see [Move from Connect S
 
 [Add a user-specific quick link on the ITSM landing page]()
 
-[Create a list in Service Operations Workspace]()
+[]()
 
 [Interaction Management in Service Operations Workspace]()
 

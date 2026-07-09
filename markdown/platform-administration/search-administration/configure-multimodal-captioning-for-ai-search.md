@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-06-16"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -19,7 +19,7 @@ Use the AI Search Admin console to select the visual language model \(VLM\) prov
 
 ## Before you begin
 
--   The Platform Multimodal Service plugin \(`com.glide.platform_mm_service`\) must be installed on your instance. If the plugin is not installed, multimodal captioning options will not appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+-   The Platform Multimodal Service plugin \(com.glide.platform\_mm\_service\) must be installed on your instance. If the plugin is not installed, multimodal captioning options will not appear in the AI Search Admin console. For more information, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
 -   Role required: ais\_admin
 
 

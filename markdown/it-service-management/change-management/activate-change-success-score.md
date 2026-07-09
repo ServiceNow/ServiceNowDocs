@@ -72,7 +72,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

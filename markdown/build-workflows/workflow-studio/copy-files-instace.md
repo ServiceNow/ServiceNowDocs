@@ -81,7 +81,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **Define Connection Inline** is selected from the Source Connection list.

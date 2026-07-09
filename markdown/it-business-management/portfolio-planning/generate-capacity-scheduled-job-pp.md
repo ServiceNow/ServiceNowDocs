@@ -1,5 +1,5 @@
 ---
-title: Activate a scheduled job to automatically generate resource capacity
+title: Scheduled job to automatically generate resource capacity
 description: Activate the scheduled job to auto-generate the resource capacity at required cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.html
@@ -13,7 +13,7 @@ keywords: [capacity planning scheduled job, generate capacity, generate resource
 breadcrumb: [Configure capacity planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Activate a scheduled job to automatically generate resource capacity
+# Scheduled job to automatically generate resource capacity
 
 Activate the scheduled job to auto-generate the resource capacity at required cadence.
 

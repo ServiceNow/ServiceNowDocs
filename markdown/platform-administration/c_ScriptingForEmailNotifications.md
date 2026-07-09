@@ -17,8 +17,8 @@ Use mail scripts to add business rule-like scripting to outbound email messages.
 
 Mail scripts enable you to dynamically change the email output of your system based on different criteria. You can use them for simple tasks, such as displaying incident data, and for complex ones, such as running advanced database queries.
 
--   **[Use mail scripts in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-mail-scripts-email-notifications.md)**  
-Add dynamic content and custom logic to email notifications using mail scripts.
+-   **[Include mail scripts in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-mail-scripts-email-notifications.md)**  
+Include mail scripts to customize email notifications, which enable you to apply conditional logic and insert dynamic record data in your notifications.
 -   **[Mail script variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MailScriptAPI.md)**  
 Certain variables are available when processing mail\_script scripts.
 -   **[Example scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExScptEmlNtfn.md)**  

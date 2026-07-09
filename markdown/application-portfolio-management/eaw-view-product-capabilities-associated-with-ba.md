@@ -1,5 +1,5 @@
 ---
-title: View product capabilities associated with a business application
+title: View product capabilities for a business application
 description: You can view the list of product capabilities associated with business applications, in the Enterprise Architecture Workspace \(EA Workspace\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View product capabilities associated with a business application
+# View product capabilities for a business application
 
 You can view the list of product capabilities associated with business applications, in the Enterprise Architecture Workspace \(EA Workspace\).
 
@@ -48,7 +48,7 @@ A list of product capabilities associated with the business application is displ
 
 [Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)
 
-[Create a product capability and associate it with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
+[Associate a product capability with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-product-capability-and-assoc-with-ba.md)
 
 [Add an existing product capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-existing-product-capability-to-ba.md)
 

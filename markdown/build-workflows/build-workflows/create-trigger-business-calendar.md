@@ -16,7 +16,7 @@ Schedule a recurring trigger to run based on a business calendar, so your automa
 
 When you create a scheduled recurring trigger, the trigger runs based on the specified calendar dates. The schedule does not consider if the scheduled date falls on a weekend or a public holiday. This can cause errors, missed tasks, unwanted notifications, and broken integrations. To address this problem, you can use an existing business calendar to schedule the trigger so that the automation run only during business hours.
 
-**Note:** The trigger does not create a business calendar, it only refers an existing business calendar. To learn about business calendars, see .
+**Note:** The trigger does not create a business calendar, it only refers an existing business calendar. To learn about business calendars, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
 
 ## Before you begin
 

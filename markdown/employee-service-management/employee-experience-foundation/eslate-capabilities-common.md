@@ -1,6 +1,6 @@
 ---
 title: Employee Slate capabilities
-description: You can access essential workplace tools and information through Employee Slate core capabilities. Use Tasks and requests, canvas, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks efficiently.
+description: You can access essential workplace tools and information through Employee Slate core capabilities. Use Tasks and requests, Canvas, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-capabilities-common.html
 release: australia
@@ -15,25 +15,25 @@ breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Manag
 
 # Employee Slate capabilities
 
-You can access essential workplace tools and information through Employee Slate core capabilities. Use Tasks and requests, canvas, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks efficiently.
+You can access essential workplace tools and information through Employee Slate core capabilities. Use **Tasks and requests**, **Canvas**, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
 
 Employee Slate provides a unified workspace where you can access all your essential work tools from one location. Use these features from both Employee Slate for Now Assist and Employee Slate for Moveworks.
 
 ## Tasks and requests
 
-You can view and manage all your work items in Tasks and requests. Tasks and requests consolidates tasks, approvals, and notifications from across systems.
+You can view and manage all your work items such as tasks, approvals, and notifications from across systems.
 
 Access pending requests, review items that need your attention, and track the status of your submitted requests without switching between different applications. For more information, see [Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-inbox.md).
 
 ## Canvas
 
-You can create personalized dashboard views with widgets that display the information most relevant to your role. The canvas adapts to your workflow and priorities.
+You can create personalized dashboard views with widgets that display the information most relevant to your role. The **Canvas** adapts to your workflow and priorities.
 
 Customize your workspace with widgets for quick access to frequently used tools, recent documents, team updates, and key performance indicators. For more information, see [Personalized canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-personalized-canvas.md).
 
 ## Notifications
 
-You can stay informed about important updates through the integrated notification system. Notifications appear in real-time and provide context for immediate action.
+You can stay informed about important updates through the integrated notification system. Notifications appear in real time and provide context for immediate action.
 
 Receive alerts for new assignments, approval requests, system updates, and team communications directly within your Employee Slate interface. For more information, see [Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
 
@@ -41,7 +41,7 @@ Receive alerts for new assignments, approval requests, system updates, and team 
 
 You can explore your organization structure and find contact information for colleagues across departments. The org chart provides visual representation of reporting relationships.
 
-Search for team members, view reporting hierarchies, and access contact details to facilitate collaboration and communication within your organization. For more information, see [Employee Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-orgchart.md).
+Search for team members, view reporting hierarchies, and access contact details to facilitate collaboration and communication within your organization. For more information, see [Employee org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-orgchart.md).
 
 ## Profile
 

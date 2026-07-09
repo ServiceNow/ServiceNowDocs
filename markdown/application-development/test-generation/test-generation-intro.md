@@ -18,6 +18,8 @@ Simplify your automated test authoring by leveraging the power of ServiceNow's T
 
 Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
+**Note:**  is not affected by this deprecation. Only the Test Generation application is planned for future deprecation.
+
 **Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md) documentation for further details.
 
 The Test generation skill is available only for Next Experience UI users.

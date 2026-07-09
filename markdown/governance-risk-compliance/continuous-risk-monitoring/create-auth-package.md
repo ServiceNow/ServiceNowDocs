@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [RMF step 0 - Prepare the authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 0 - Prepare the authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create an authorization package

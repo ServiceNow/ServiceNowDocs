@@ -22,6 +22,9 @@ The ServiceNow® IT Service Management application provides simplified and autom
     -   Configure Change Management, Employee Slate, and configuration items through a guided experience.
     -   Navigate to Service Operations Workspace Admin Center to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
     -   Enable a conversation-first experience for employees with Employee Slate. It has a unified Activity Hub showing open incidents and requested items, fulfillment progress, and a simplified request experience.
+-   Starting in version 3.1, following capabilities are available:
+    -   Enable the Employee Slate experience when redirected from incident and request notifications.
+    -   Configure the inbound email setup for Google alongside the ServiceNow account option.
 
 See [Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md) for more information.
 
@@ -45,6 +48,7 @@ See [Simplified IT Service Management](https://raw.githubusercontent.com/Service
     -   A canvas that can be customized for quick reference of employee tasks.
     -   Chat history of active and closed conversations.
     -   Notifications for employee tasks.
+    -   Starting in version 3.1, Employee Slate as primary engagement experience for incident and request notifications.
 -   **[Simplified fulfiller experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)**
 
     Provide an efficient IT support experience for incident and request management by leveraging AI recommendations for the following:
@@ -70,6 +74,7 @@ See [Simplified IT Service Management](https://raw.githubusercontent.com/Service
             -   Configuration items
             -   Core setup areas required to make Change Management operational. See [Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md).
         -   Starting in version 3.0, redirection to Service Operations Workspace Admin Center is available to configure advanced ITSM workflows such as Problem Management, Major Incident Management, On-Call Scheduling, and Walk-up Experience.
+        -   Starting in version 3.1, a guided experience is available for Gmail inbound email configuration.
     -   AI agents to configure ITSM workflows from a single admin UI page using natural language. See [Conversational AI Agents for configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 ## Activation information

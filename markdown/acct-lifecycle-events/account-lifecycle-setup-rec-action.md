@@ -22,19 +22,19 @@ Role required: sn\_acct\_lc.agent
 
 1.  Create a rule in Recommended Actions for Customer Success Management.
 
-    For more information, see [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules-create.md).
+    For more information, see .
 
 2.  Create a recommendation.
 
-    For more information, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md).
+    For more information, see .
 
 3.  Create a resource generator.
 
-    For more information, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators-create.md).
+    For more information, see .
 
 4.  Create guidance and field recommendations.
 
-    For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-config-recommendations.md).
+    For more information, see .
 
 
 **Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)

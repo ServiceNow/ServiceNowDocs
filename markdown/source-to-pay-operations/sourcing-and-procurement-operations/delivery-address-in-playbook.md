@@ -23,7 +23,7 @@ The activity stream, which tracks the interactions between a shopper and an agen
 -   **[Review delivery address in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/playbook-review-delivery-address.md)**  
 Verify a delivery address presented through the playbook by evaluating the address against supplier addresses and indicating whether it’s valid.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

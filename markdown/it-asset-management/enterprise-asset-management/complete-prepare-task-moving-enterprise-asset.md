@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Completing an enterprise asset move order, Managing enterprise asset move orders, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Completing an enterprise asset move order, Managing enterprise asset move orders, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the Prepare task for a moving enterprise asset

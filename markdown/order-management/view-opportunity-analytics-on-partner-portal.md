@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-opportunity-analytics-on-partner-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_prm\_opptym.oppty.parnter\_ui
 **Related topics**  
 
 
-[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
 
 [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
 

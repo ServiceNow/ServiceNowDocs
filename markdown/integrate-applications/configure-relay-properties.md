@@ -1,6 +1,6 @@
 ---
 title: Configure relay behavior
-description: Configure relay behavior by setting properties either in the config.yaml file or in the relay properties table on your instance.
+description: Configure relay behavior by setting properties either in the config.yaml file or in the Relay Property \[sn\_zc\_tunnel\_relay\_prop\] table on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-relay-properties.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Configure, Reverse Tunnel, Workflow Data Fabric]
 
 # Configure relay behavior
 
-Configure relay behavior by setting properties either in the `config.yaml` file or in the relay properties table on your instance.
+Configure relay behavior by setting properties either in the `config.yaml` file or in the `Relay Property [sn_zc_tunnel_relay_prop]` table on your instance.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ The private relay supports two configuration sources:
 
 -   **Relay properties table \(ServiceNow instance\)**
 
-    Properties configured in the relay properties table on your ServiceNow instance are retrieved dynamically during the relay configuration polling cycle. Changes are applied without restarting the relay. Use the relay properties table for most configuration changes to avoid relay restarts.
+    Properties configured in the `Relay Property [sn_zc_tunnel_relay_prop]` table on your ServiceNow instance are retrieved dynamically during the relay configuration polling cycle. Changes are applied without restarting the relay. Use the `Relay Property [sn_zc_tunnel_relay_prop]` table for most configuration changes to avoid relay restarts.
 
 
 |Property|Default|Description|

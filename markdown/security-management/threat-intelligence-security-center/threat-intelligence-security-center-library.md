@@ -1,5 +1,5 @@
 ---
-title: Threat Intelligence Security Center Library
+title: Threat Intel Library
 description: A threat library is defined as a group of organized objects and entities that serve the organizations with structured and unstructured security threat information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Threat Intelligence Security Center Library
+# Threat Intel Library
 
 A threat library is defined as a group of organized objects and entities that serve the organizations with structured and unstructured security threat information.
 

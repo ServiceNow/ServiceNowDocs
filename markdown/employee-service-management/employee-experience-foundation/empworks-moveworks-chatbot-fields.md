@@ -34,10 +34,10 @@ Field reference for the Moveworks web chatbot record and the internal setup reco
 
 |Field|Description|
 |-----|-----------|
-|Chatbot|Selects the chatbot record that this internal setup applies to.|
+|Chatbot|The chatbot record that this internal setup applies to.|
 |User Inbox|Turn on this control to activate the notifications experience for the chatbot.|
 |Connector|Select the ServiceNow connector that replicates ServiceNow users into the Moveworks identity roster. The default label is **snow**.|
-|Trusted issuer|Enter the ServiceNow instance URL. The trusted issuer lets Employee Slate and the Moveworks assistant authenticate seamlessly. Add multiple trusted issuers if you deploy the same chatbot across multiple ServiceNow instances.|
+|Trusted issuer|Enter the ServiceNow instance URL. The trusted issuer lets Employee Slate and the Moveworks assistant authenticate. Add multiple trusted issuers if you deploy the same chatbot across multiple ServiceNow instances.|
 |Universal Assistance suggested prompts|Enter up to four suggested prompts on the Employee Slate home page. The Moveworks Setup application enforces a character limit on each prompt.|
 
 **Related topics**  

@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -65,6 +65,14 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 -   **Mapped servers**
 
     The number of servers currently linked to an application service. Select to view information such as operational status and owner. The **Mapped servers** tile is replaced with Now Assist metrics, once Now Assist is installed.
+
+-   **Maps created by Now Assist**
+
+    The number of service maps created by Now Assist Select to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md). This tile is available only when Now Assist is installed.
+
+-   **Business app linked to service instance**
+
+    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md)This tile is available only when Now Assist is installed.
 
 
 ## Service Mapping AI Agents

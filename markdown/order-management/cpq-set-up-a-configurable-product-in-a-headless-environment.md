@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [configurable product, headless environment, blueprint, CPQ]
-breadcrumb: [Setting up configurable products, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a headless environment
@@ -21,11 +21,11 @@ Role required: admin
 
 ## About this task
 
-In headless use cases, the configurable product links the blueprint that you created in CPQ to the configuration that launches for end users when they select the product.
+In headless use cases, the configurable product links the blueprint that you created in ServiceNow CPQ to the configuration that launches for end users when they select the product.
 
 ## Procedure
 
-1.  Navigate to the Products tab in the Utilities section of the CPQ navigation pane.
+1.  Navigate to the Products tab in the Utilities section of the ServiceNow CPQ navigation pane.
 
     \[Omitted image "cpq-products-tab.png"\] Alt text: Products tab in the Utilities section of the navigation pane
 
@@ -37,6 +37,6 @@ In headless use cases, the configurable product links the blueprint that you cre
 
     \[Omitted image "cpq-configurable-product-csv.png"\] Alt text: CSV file headers for configurable products
 
-    If **configurable** is set to **TRUE**, the configurable product is automatically created in the CPQ environment.
+    If **configurable** is set to **TRUE**, the configurable product is automatically created in the ServiceNow CPQ environment.
 
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Validate subscription, installation, and usage data

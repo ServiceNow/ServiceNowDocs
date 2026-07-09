@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Expanded Model and Asset Classes, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Expanded Model and Asset Classes, Enterprise Asset Management, Asset Management]
 ---
 
 # Create interoperability mappings between assets and models

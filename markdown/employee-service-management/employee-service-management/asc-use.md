@@ -17,7 +17,7 @@ As an external user, sign up using a personal email address and other details to
 -   **[Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-job-preferences.md)**  
 Set your preferences for tailored job opportunities. Jobs that best match your profile are recommended based on these preferences.
 -   **[Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/add-other-emp-details.md)**  
-Update the alumni profile with additional employment details to ensure an accurate career history and provide tailored job opportunities.
+Update the alumni profile with additional employment details to confirm an accurate career history and provide tailored job opportunities.
 -   **[Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/edit-personal-details.md)**  
 Review your personal details and edit them if necessary.
 

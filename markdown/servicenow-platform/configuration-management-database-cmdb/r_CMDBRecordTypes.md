@@ -60,5 +60,5 @@ A defined relationship between a CI and either another CI, a user, or a group. R
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 

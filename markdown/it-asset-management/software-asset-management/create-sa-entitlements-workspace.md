@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Create entitlements in workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Microsoft Software Assurance entitlements in workspace
@@ -36,7 +36,7 @@ Role required: sam\_user or sam\_admin
 
     You must enter the number of rights to be granted for the SA entitlement in the **Active rights** field.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 
     **Note:** You can't add user or device allocations for SA entitlements.
 

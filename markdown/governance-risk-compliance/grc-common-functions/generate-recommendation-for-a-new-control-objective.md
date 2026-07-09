@@ -32,7 +32,7 @@ The recommendations are suggested based on the similarity parameters configured 
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select \[Omitted image "list-icon.png"\].
+2.  Select \[Omitted image "list-icon.png"\]from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **Control objectives**.
 
@@ -113,5 +113,5 @@ Accept or dismiss the generated recommendations. For more information, see [Act 
 
 **Note:**
 
-You can configure UI form actions in addition to "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. Declarative actions help you to modify the list actions and related list actions. For more information about creating declarative actions and how to use them, see.
+You can configure "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. Declarative actions help you to modify the list actions and related list actions. For more information about creating declarative actions and how to use them, see.
 

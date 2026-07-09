@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # Capturing data from a configuration when amending a subscription contract
@@ -21,5 +21,5 @@ When amending a pre-existing subscription contract, you may want to capture data
 **Related topics**  
 
 
-[CPQ integration with Salesforce B2B Commerce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_integration_with_salesforce_b2b_commerce.md)
+[ServiceNow CPQ integration with Salesforce B2B Commerce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_integration_with_salesforce_b2b_commerce.md)
 

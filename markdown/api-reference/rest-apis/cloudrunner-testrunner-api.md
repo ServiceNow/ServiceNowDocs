@@ -1,6 +1,6 @@
 ---
 title: Cloud Runner Test Runner REST API
-description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Sets the test runner job to complete status and cancels the root trackers of any generated tests that are running.Inserts a test runner job into the BOQ \[sn\_atf\_tg\_sn\_boq\] table for given test or test suite, which is then run on the cloud runner.
+description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Sets the test runner job to complete status and cancels any generated tests that are running.Inserts a test runner job into the Browser Orchestration Queue \(BOQ\) table record for given test or test suite, which is then run on the cloud runner. Optionally choose to wait to insert the record before processing a response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cloudrunner-testrunner-api.html
 release: australia
@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 11
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -58,9 +58,21 @@ snboqId
 
 </td><td>
 
-Required. The BOQ record sys\_id of the test runner job to get the progress of.Data type: String
+Required if **rootTrackerId** isn't passed.
 
-Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
+ Sys\_id of the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] record associated with the test runner job to retrieve.
+
+ Data type: String
+
+</td></tr><tr><td>
+
+rootTrackerId
+
+</td><td>
+
+Required if **snboqId** isn't passed. Sys\_id of the top-level record in the Execution Tracker \[sys\_execution\_tracker\] table that represents the test run to retrieve.
+
+Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -171,7 +183,7 @@ result.message
 
 </td><td>
 
-Error message detailing why the test runner progress cannot be retrieved. The message parameter is not returned in a successful response.Data type: String
+Error message detailing why the test runner progress can't be retrieved. The message parameter isn't returned in a successful response.Data type: String
 
 </td></tr><tr><td>
 
@@ -189,24 +201,24 @@ result.state
 
 Current status of the BOQ record. Possible values:
 
--   Browsers requested: A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
--   Completed: The test task is complete.
--   Failed state: The test task failed.
--   Pending: The requested test activity has been created and waiting to be executed.
--   Processing: The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
--   Running: The cloud infrastructure browsers find and execute pending tests.
+-   `Browsers requested`: A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
+-   `Completed`: The test task is complete.
+-   `Failed state`: The test task failed.
+-   `Pending`: The requested test activity has been created and waiting to be executed.
+-   `Processing`: The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
+-   `Running`: The cloud infrastructure browsers find and execute pending tests.
 
 Data type: String
 
 </td></tr></tbody>
-</table>### cURL request
+</table>### Retrieve test progress using snboqId
 
-The following request retrieves the test runner job progress of the BOQ record.
+The following request retrieves the test runner job progress of the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] record.
 
 ```
-curl "http://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress?snboqId=<sys_id of SNBOQ record>" \ 
---request GET \ 
---header "Accept:application/json" \ 
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress?snboqId=f6e5d4c3b2a1908070605040302010ab" \
+--request GET \
+--header "Accept:application/json" \
 --user "username:password"
 ```
 
@@ -221,47 +233,55 @@ The response indicates that the test is 100% complete.
 }
 ```
 
-The following example returns a 400 error message when no BOQ ID is passed.
+### Retrieve test progress using rootTrackerId
+
+The following request retrieves the test runner job progress of the Execution Tracker \[sys\_execution\_tracker\] record.
 
 ```
-curl "http://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress" \
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress?rootTrackerId=0a1b2c3d4e5f67890a1b2c3d4e5f6789" \
 --request GET \
 --header "Accept:application/json" \
 --user "username:password"
-```
-
-Response:
 
 ```
-{
-  "result": {
-    "message": "No SNBOQ ID passed in, add snboqId to request body"
-  }
+
+The response indicates that the test is 45% complete.
+
+```
+{ 
+  "result": { 
+    "progress": 45, 
+    "state": "running" 
+    "message": "Test execution in progress.",
+  } 
 }
 ```
 
-The following example returns a 400 error message when an invalid BOQ ID is passed.
+### Invalid or missing rootTrackerId or snboqId value
+
+The following example demonstrates the response if the request has a missing or invalid rootTrackerId or snboqId value.
 
 ```
-curl "http://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress?snboqId=invalid_sys_id" \
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner_progress" \
 --request GET \
 --header "Accept:application/json" \
 --user "username:password"
 ```
 
-Response:
+Response body \(400 Bad Request\):
 
 ```
 {
-  "result": {
-    "message": "Invalid SNBOQ sys_id passed in"
+  "error": {
+    "message": "Invalid request. Either snboqId or rootTrackerId must be provided.",
+    "status": "failure"
   }
 }
 ```
 
 ## Cloud Runner Test Runner - POST /now/sn\_atf\_tg/cancel\_test\_runner
 
-Sets the test runner job to complete status and cancels the root trackers of any generated tests that are running.
+Sets the test runner job to complete status and cancels any generated tests that are running.
 
 ### URL format
 
@@ -291,9 +311,21 @@ snboqId
 
 </td><td>
 
-Sys\_id of the Browser Orchestration Queue \(BOQ\) record \(sn\_atf\_tg\_sn\_boq\) associated with the test runner job to cancel.Data type: String
+Required if **rootTrackerId** isn't passed.
 
-Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
+ Sys\_id of the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] record associated with the test runner job to cancel.
+
+ Data type: String
+
+</td></tr><tr><td>
+
+rootTrackerId
+
+</td><td>
+
+Required if **snboqId** isn't passed. Sys\_id of the top-level record in the Execution Tracker \[sys\_execution\_tracker\] table that represents the test run to cancel.
+
+Data type: String
 
 </td></tr></tbody>
 </table>### Headers
@@ -383,14 +415,22 @@ result
 
 </td><td>
 
-Object containing the results of the request.```
+Object containing the results of the request.Data type: Object
+
+```
 
   "result": { 
     "message": String
   }
 ```
 
-Data type: Object
+</td></tr><tr><td>
+
+result.status
+
+</td><td>
+
+Success status of the cancellation.Data type: String
 
 </td></tr><tr><td>
 
@@ -401,32 +441,85 @@ result.message
 Message detailing whether the test cancellation was successful.Data type: String
 
 </td></tr></tbody>
-</table>### cURL request
+</table>### Cancel the test runner job using snboqId
 
-The following example shows how to form a cancel test runner request according to the sys\_id of the BOQ record.
+The following example shows how to cancel a test runner request using the sys\_id of the BOQ \[sn\_atf\_tg\_sn\_boq\] record.
 
 ```
-curl "https://instance.service-now.com/api/now/sn_atf_tg/cancel_test_runner" \ 
---request POST \ 
---header "Accept:application/json" \ 
---header "Content-Type:application/json" \ 
---data "{\"snboqId\":\"<sys_id of BOQ record>\"}" \ 
---user "username:password"
+curl "https://instance.service-now.com/api/now/sn_atf_tg/cancel_test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{
+  "snboqId": "f6e5d4c3b2a1908070605040302010ab"
+}'
 ```
 
 The response message indicating that the test runner is successfully canceled.
 
 ```
-{ 
-  "result": { 
-    "message": "success" 
-  } 
-} 
+{
+  "result": {
+    "status": "success",
+    "message": "Test run cancelled successfully."
+  }
+}
+```
+
+### Cancel the test runner job using rootTrackerId
+
+The following example shows how to cancel a test runner request according to the sys\_id of the Execution Tracker \[sys\_execution\_tracker\] record.
+
+```
+curl "https://instance.service-now.com/api/now/sn_atf_tg/cancel_test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{
+  "rootTrackerId": "0a1b2c3d4e5f67890a1b2c3d4e5f6789"
+}'
+```
+
+Successful response body \(200\):
+
+```
+{
+  "result": {
+    "status": "success",
+    "message": "Test run cancelled successfully."
+  }
+}
+```
+
+### Error when neither rootTrackerId or snboqId is passed
+
+The following example shows the response message that's returned when neither **rootTrackerId** or **snboqId** are provided in the request.
+
+```
+curl "https://instance.service-now.com/api/now/sn_atf_tg/cancel_test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{}'
+```
+
+Response body \(400 Bad Request\):
+
+```
+{
+  "error": {
+    "message": "Invalid request. Either snboqId or rootTrackerId must be provided.",
+    "status": "failure"
+  }
+}
 ```
 
 ## Cloud Runner Test Runner - POST /now/sn\_atf\_tg/test\_runner
 
-Inserts a test runner job into the BOQ \[sn\_atf\_tg\_sn\_boq\] table for given test or test suite, which is then run on the cloud runner.
+Inserts a test runner job into the Browser Orchestration Queue \(BOQ\) table record for given test or test suite, which is then run on the cloud runner. Optionally choose to wait to insert the record before processing a response.
 
 ### URL format
 
@@ -442,11 +535,37 @@ Default URL: POST `api/now/sn_atf_tg/test_runner`
 |----|-----------|
 |None| |
 
-|Name|Description|
-|----|-----------|
-|testId|Sys\_id of the test \[sys\_atf\_test\] or test suite \[sys\_atf\_test\_suite\] to run on the cloud runner.|
+<table class="rest_api_request_body"><thead><tr><th>
 
-### Headers
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+testId
+
+</td><td>
+
+Sys\_id of the test \[sys\_atf\_test\] or test suite \[sys\_atf\_test\_suite\] to run on the cloud runner.
+
+</td></tr><tr><td>
+
+sync
+
+</td><td>
+
+Optional. Flag that indicates whether to wait to process the job before the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] record is inserted.Valid values:
+
+-   true: Wait for the record to be inserted before responding. Returns the **snboqId** value in the response.
+-   false: Return a response immediately without waiting for the insertion. Returns the **rootTrackerId** \(sys\_id of the entire test\) value in the response.
+
+Default: true
+
+</td></tr></tbody>
+</table>### Headers
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
@@ -498,6 +617,14 @@ Description
 </td><td>
 
 Successfully inserted a test runner BOQ job.
+
+</td></tr><tr><td>
+
+202
+
+</td><td>
+
+If the BOQ record doesn't get inserted in time due to a timeout issue, the test continues running. In other words, the BOQ job accepted but not yet confirmed.
 
 </td></tr><tr><td>
 
@@ -554,21 +681,29 @@ Or:
 
 </td></tr><tr><td>
 
+result.message
+
+</td><td>
+
+Error message detailing why the test runner can't be started.Data type: String
+
+</td></tr><tr><td>
+
 result.snboqId
 
 </td><td>
 
-Sys\_id of the BOQ record that is inserted when test runner starts.Data type: String
+Returned when `sync=true` \(or defaulted\) in the request. Sys\_id of the BOQ record that is inserted when test runner starts.Data type: String
 
 Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
 
 </td></tr><tr><td>
 
-result.message
+result.rootTrackerId
 
 </td><td>
 
-Error message detailing why the test runner cannot be started.Data type: String
+Returned when `sync=false` in the request. Sys\_id of the Execution Tracker \[sys\_execution\_tracker\] record for the entire test run.
 
 </td></tr></tbody>
 </table>### cURL request
@@ -591,6 +726,86 @@ The response body returns the sys\_id of the test runner job that was successful
   "result": { 
     "snboqId": "<sys_id of newly inserted SNBOQ record>" 
   } 
+}
+```
+
+Synchronous request \(`sync=true`\)
+
+```
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{
+  "testId": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+  "browser": "Chrome",
+  "sync": true
+}'
+```
+
+Successful response \(200\):
+
+```
+{
+  "result": {
+    "snboqId": "f6e5d4c3b2a1908070605040302010ab",
+    "status": "success",
+    "message": "Test run started successfully."
+  }
+}
+```
+
+Asynchronous request \(`sync=false`\)
+
+```
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{
+  "testId": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+  "browser": "Chrome",
+  "sync": false
+}'
+```
+
+Successful response \(200\):
+
+```
+{
+  "result": {
+    "rootTrackerId": "0a1b2c3d4e5f67890a1b2c3d4e5f6789",
+    "status": "success",
+    "message": "Test run started successfully."
+  }
+}
+```
+
+Synchronous request where the SNBOQ record doesn't insert in time.
+
+```
+curl "https://instance.service-now.com/api/now/sn_atf_tg/test_runner" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--user "username:password" \
+--data '{
+  "testId": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+  "browser": "Chrome"
+}'
+```
+
+Response \(202 Accepted\):
+
+```
+{
+  "result": {
+    "rootTrackerId": "0a1b2c3d4e5f67890a1b2c3d4e5f6789",
+    "status": "accepted",
+    "message": "The test run has been initiated but the Browser Orchestration Queue record was not inserted in time. The test will most likely continue to run."
+  }
 }
 ```
 

@@ -32,7 +32,7 @@ Role required: sn\_aia\_admin
         -   Now Assist for ITSM
         -   Now Assist for HRSD
         -   Now Assist for CSM
-        -   Now Assist for Security Operations
+        -   Now Assist for Security Incident Response
     -   Generative AI Controller plugin \(minimum version 11.0.0\)
     **Note:** Select **Load demo data** during installation to access preconfigured examples.
 

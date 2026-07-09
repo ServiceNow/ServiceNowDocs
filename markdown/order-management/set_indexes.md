@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure sets, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure sets, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using set indexes
@@ -20,7 +20,7 @@ Sets automatically create a set index field \(`set.{{setName}}.index`\). Using t
 
 The following video demonstrates set indexes and how to use them to drive a product rule.
 
-[Set indexes in CPQ](https://www.youtube.com/watch?v=QmkQUIXguK8)
+[Set indexes in ServiceNow CPQ](https://www.youtube.com/watch?v=QmkQUIXguK8)
 
 **Related topics**  
 

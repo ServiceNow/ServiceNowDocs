@@ -1,22 +1,22 @@
 ---
 title: Matrix Loader: CSV table upload
-description: Use the Matrix Loader to import and manage table data in CPQ. Define table schemas, prepare matching CSV files, and upload them to populate or update tables for use in rules, lookups, and configurations, with no redeployment required for data updates.
+description: Use the Matrix Loader to import and manage table data in ServiceNow CPQ. Define table schemas, prepare matching CSV files, and upload them to populate or update tables for use in rules, lookups, and configurations, with no redeployment required for data updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-matrix-loader-csv-table-upload.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Matrix Loader, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader: CSV table upload
 
-Use the Matrix Loader to import and manage table data in CPQ. Define table schemas, prepare matching CSV files, and upload them to populate or update tables for use in rules, lookups, and configurations, with no redeployment required for data updates.
+Use the Matrix Loader to import and manage table data in ServiceNow CPQ. Define table schemas, prepare matching CSV files, and upload them to populate or update tables for use in rules, lookups, and configurations, with no redeployment required for data updates.
 
 ## Before you begin
 
-**Note:** All table data can be added to CPQ via the Matrix Loader. This section assumes that the reader will work in a spreadsheet file \(Google Sheets, Microsoft Excel, or similar\), then download or export the result to a CSV file for upload to the Matrix Loader.
+**Note:** All table data can be added to ServiceNow CPQ via the Matrix Loader. This section assumes that the reader will work in a spreadsheet file \(Google Sheets, Microsoft Excel, or similar\), then download or export the result to a CSV file for upload to the Matrix Loader.
 
 In order to upload data to a table, you must first manually define the schema for the table by creating columns. Columns include a name, data type \(either number or text\), and a description \(optional\).
 
@@ -50,7 +50,7 @@ Role required: Admin
 
     Name the columns exactly as named in the table that was created in the previous steps, and save the data in CSV format. Note that the name of the CSV file must exactly match the name of the table you created in order for the data to be correctly mapped to the table.
 
-7.  In CPQ Admin, click **Matrix Loader** in the navigation pane.
+7.  In ServiceNow CPQ Admin, click **Matrix Loader** in the navigation pane.
 
     \[Omitted image "cpq-matrix-loader.png"\] Alt text: Matrixloader menu
 

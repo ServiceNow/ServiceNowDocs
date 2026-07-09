@@ -35,7 +35,7 @@ Discovery identifies and classifies information about Mac \(OS/X\) computers.
 -   **[Solaris discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoSolarisComputers.md)**  
 Discovery identifies and classifies information about Solaris computers.
 -   **[Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)**  
-Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for disocvery in VMware vCenter.
+Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 -   **[Discovery for VMware virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_VMwareVirtualMachines.md)**  
 Discovery gathers information about virtual machines managed by VMware vCenter.
 -   **[Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md)**  

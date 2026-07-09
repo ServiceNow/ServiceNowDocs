@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review a case filing response and appeal the decision
@@ -38,35 +38,33 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review case filing appeal** activity.
 
-8.  Select the **Review case filing appeal** activity.
-
-9.  Retrieve the decision letter from Visa by selecting **Get case filing response**.
+7.  Retrieve the decision letter from Visa by selecting **Get case filing response**.
 
     The letter can also be viewed in the activity stream.
 
-10. In the **Response outcome** field, either accept or appeal the decision.
+8.  In the **Response outcome** field, either accept or appeal the decision.
 
     -   To accept the outcome, select **Resolved**.
     -   To appeal the outcome, select **Unresolved**.
-11. In the **Create appeal** drop-down list, select **Yes**.
+9.  In the **Create appeal** drop-down list, select **Yes**.
 
-    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-workflow.md).
+    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-workflow.md).
 
-12. In the **Appeal amount** field, enter the amount for the appeal.
+10. In the **Appeal amount** field, enter the amount for the appeal.
 
-13. In the **Reason for appeal** field, explain why you want to appeal the decision.
+11. In the **Reason for appeal** field, explain why you want to appeal the decision.
 
-14. In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
+12. In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
 
-15. Select **Continue**.
+13. Select **Continue**.
 
-16. Select **Create appeal**.
+14. Select **Create appeal**.
 
 
 ## Result

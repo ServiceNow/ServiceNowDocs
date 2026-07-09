@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review the pre-arbitration response and create a case filing
@@ -38,31 +38,29 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review pre arbitration response and create case filing** activity.
 
-8.  Select the **Review pre arbitration response and create case filing** activity.
-
-9.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
+7.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
 
     You can also view the merchant response as an attachment in the activity stream.
 
     **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
-10. In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
+8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127884e236">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d128365e218">
 
 Selection
 
-</th><th align="left" id="d127884e239">
+</th><th align="left" id="d128365e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d127884e245">
+</th></tr></thead><tbody><tr><td id="d128365e227">
 
 **Unresolved**
 
@@ -75,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d127884e291">
+</td></tr><tr><td id="d128365e273">
 
 **Resolved**
 

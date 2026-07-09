@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart your Service Operations Workspace
@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your Service Operations Workspace provides Impact customers with a comprehensive overview of Service Operations Workspace, showcasing how to unify day-to-day IT Service Management \(ITSM\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
+Jumpstart Your Service Operations Workspace provides Impact customers with a comprehensive overview of Service Operations Workspace, showcasing how to unify day-to-day IT Service Management \(ITSM\) and IT Operations Management \(ITOM\) activities in a single, streamlined experience.This Accelerator also equips customers with key resources and leading practices to help them get started quickly and drive adoption with confidence.
 
 ## Package Availability
 

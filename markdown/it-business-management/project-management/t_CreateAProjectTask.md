@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -71,6 +71,8 @@ You can create a project task using any of the following options.
 [Types of external dependencies]()
 
 [Project and portfolio funding]()
+
+[Project scheduling in Project Management]()
 
 [Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

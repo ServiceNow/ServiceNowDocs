@@ -40,6 +40,7 @@ State
 
 Current state of the risk. All new risks are created in the Pending state.The available states are:
 
+-   AI Draft
 -   Pending
 -   Open
 -   Work in Progress

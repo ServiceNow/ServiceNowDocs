@@ -54,6 +54,8 @@ For more information, see [App Launcher](https://raw.githubusercontent.com/Servi
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

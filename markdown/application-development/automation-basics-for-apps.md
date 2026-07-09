@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Automation basics for apps
@@ -80,7 +80,7 @@ AI-Powered RPA Bot Generation
 
 </td><td>
 
-Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
+Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
 
 </td></tr><tr><td>
 
@@ -123,5 +123,5 @@ Predictive Intelligence and AIOps
 Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Overview of building apps in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
+</table>**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
 

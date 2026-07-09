@@ -1,6 +1,6 @@
 ---
-title: Service Graph Connector for Google Console
-description: Use the Service Graph Connector for Google Console to import device details from Chromebooks into the Configuration Management Database \(CMDB\).
+title: Service Graph Connector for Google Chromebooks
+description: Use the Service Graph Connector for Google Chromebooks to import device details from Chromebooks into the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-google-console.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Graph Connector for Google Console
+# Service Graph Connector for Google Chromebooks
 
-Use the Service Graph Connector for Google Console to import device details from Chromebooks into the Configuration Management Database \(CMDB\).
+Use the Service Graph Connector for Google Chromebooks to import device details from Chromebooks into the Configuration Management Database \(CMDB\).
 
 ## Request apps on the Store
 
@@ -50,11 +50,11 @@ Last tested on July 05, 2024
 </td></tr></tbody>
 </table>## Use cases
 
-You can use the Service Graph Connector for Google Console to get visibility into Google ChromeOS devices, enabling administrators to centrally manage enrollment, configuration, and monitoring these devices.
+You can use the Service Graph Connector for Google Chromebooks to get visibility into Google ChromeOS devices, enabling administrators to centrally manage enrollment, configuration, and monitoring these devices.
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector for Google Console provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for Google Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-google-console-integ.md).
+The guided setup for the Service Graph Connector for Google Chromebooks provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure Service Graph Connector for Google Chromebooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-google-console-integ.md).
 
 ## CMDB integrations dashboard
 
@@ -66,7 +66,7 @@ Data from the Google Console data source is mapped and transformed into the Serv
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from the Google Console application.
 
-**Note:** For any discovered resources that were deleted later, the Service Graph Connector for Google Console automatically marks the corresponding records as no longer active or valid in CMDB.
+**Note:** For any discovered resources that were deleted later, the Service Graph Connector for Google Chromebooks automatically marks the corresponding records as no longer active or valid in CMDB.
 
 The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes as where data is stored for a Chromebook device within Google Console.
 
@@ -115,7 +115,7 @@ When the SAM application, the SAM Foundation application, or both are installed:
 Chrome OS devices
 
 </td></tr></tbody>
-</table>For more information on where data is saved when pulling data from a Chromebook device, see [CMDB classes targeted in Service Graph Connector for Google Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-google-console-classes.md).
+</table>For more information on where data is saved when pulling data from a Chromebook device, see [CMDB classes targeted in Service Graph Connector for Google Chromebooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-google-console-classes.md).
 
 You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

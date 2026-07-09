@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create checklist items for a project task
@@ -24,7 +24,7 @@ Role required: it\_project\_user, it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Navigate to a project task.
 

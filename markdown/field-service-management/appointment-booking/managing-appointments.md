@@ -23,11 +23,13 @@ Agents and dispatchers can also book appointments on behalf of customers. Bookin
 **Note:**
 
 -   Work order tasks are scheduled according to the dependencies set in the template.
--   The predecessor task must be assigned first. You cannot book an appointment for a successor task until the predecessor task is assigned.
+-   The predecessor task must be assigned first. You can't book an appointment for a successor task until the predecessor task is assigned.
 -   The start and end times for successor tasks are automatically adjusted according to when the predecessor task is completed.
     -   If the predecessor task ends at 11:00 AM on a given day, the appointment for a successor task is scheduled only after 11:00 AM on that day.
     -   When a minimum lag time is defined between tasks, the window start of the successor task is calculated as per the specified lag time. For example, if the predecessor task ends on 12 May, 1.00 p.m, and the lag time is 3 days, the appointment for the successor task is scheduled only after 1.00 p.m on 15 May.
     -   If a maximum lag time is specified in the predecessor task, the successor task must be completed within that window. For example, if the appointment for the successor task is scheduled on May 15 and the maximum lag time specified is 3 days, the successor task must be scheduled and completed by May 18.
+
+When Dynamic Scheduling is enabled and availability method is set to Scripted, Appointment Booking checks whether suitable technicians are available during the requested appointment slot. The system displays appointment availability only if suitable technicians can work during that time period.
 
 When Capacity and Reservations Management is installed, the system factors in capacity and reservation rules from the Capacity Management module as it presents available slots for booking new appointments or rescheduling existing ones. For more information, see [Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-management.md).
 
@@ -50,4 +52,8 @@ Managing appointments includes one of the following activities.
 [Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking.md)
 
 [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md)
+
+[Learn about task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-config-overview.md)
+
+[Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-task-assignment.md)
 

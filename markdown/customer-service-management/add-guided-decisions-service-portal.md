@@ -32,15 +32,15 @@ These steps are intended for users with little to no coding experience.
 
 3.  From the Service Portal Designer, either select an existing page or add a new page.
 
-<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d188000e111">
+<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d189124e111">
 
 Option
 
-</th><th align="left" id="d188000e114">
+</th><th align="left" id="d189124e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188000e120">
+</th></tr></thead><tbody><tr><td id="d189124e120">
 
 **Use an existing page**
 
@@ -48,7 +48,7 @@ Action
 
 Select the page.
 
-</td></tr><tr><td id="d188000e129">
+</td></tr><tr><td id="d189124e129">
 
 **Add a page**
 

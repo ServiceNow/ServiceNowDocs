@@ -19,7 +19,7 @@ Summarize supplier-related cases to learn more about their status, progress, and
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller
 
@@ -55,15 +55,15 @@ You can use the supplier case summarization skill in either Core UI or Source-to
     -   **Next steps**: Lists the actions that the supplier managers must take next.
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39177e235">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d123586e232">
 
 Option
 
-</th><th align="left" id="d39177e238">
+</th><th align="left" id="d123586e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39177e244">
+</th></tr></thead><tbody><tr><td id="d123586e241">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -74,7 +74,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d39177e271">
+</td></tr><tr><td id="d123586e268">
 
 **Expand or collapse the summary**
 
@@ -82,7 +82,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d39177e292">
+</td></tr><tr><td id="d123586e289">
 
 **Provide feedback for the summary**
 
@@ -90,7 +90,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d39177e315">
+</td></tr><tr><td id="d123586e312">
 
 **Copy the record summary**
 
@@ -98,7 +98,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d39177e331">
+</td></tr><tr><td id="d123586e328">
 
 **View the information about the record summary**
 
@@ -106,7 +106,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d39177e346">
+</td></tr><tr><td id="d123586e343">
 
 **Refresh the record summary**
 

@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -27,13 +27,20 @@ This is the processing flow for classifying Common Information Model \(CIM\) sto
 5.  The wbem port probe appends the SLP data it carries to the CIM Classify probes.
 6.  The CIM Classify probe uses that information to explore the CIM servers.
 
+    \[Omitted image "CIMShazzamProcessingDiagram.png"\] Alt text: CIM Shazzam Processing Diagram
+
+
 ## The wbem port Probe
 
 The **wbem** probe stores the data it retrieves in the CIM Classification `[discovery_classy_cim]` table. To view the wbem port probe, navigate to **Discovery Definition** &gt; **Port Probes**.
 
+\[Omitted image "wbemPortProbe.png"\] Alt text: wbem port probe record
+
 ## SLP query
 
 The SLP query detects the wbem service \(service:wbem\) on an SLP server and gathers the attributes of the service. To view the SLP Query record, open the wbem port probe record and select **SLP Query** from the **Service Registry Queries** related list.
+
+\[Omitted image "SLPQuery.png"\] Alt text: SLP Query record
 
 ## CIM - Classify probe
 
@@ -51,6 +58,8 @@ The mid.cim.interop.namespace system property defines four default storage names
 -   pg\_interop
 
 If you’re using multiple storage vendors with custom namespaces not specified as one of the defaults, add the new namespaces to the comma-separated list in this property. If you intend to continue using any of the default namespaces, make sure to include them in the property.
+
+\[Omitted image "CIMClassifyProbe.png"\] Alt text: CIM - Classify probe record
 
 ## SMI-S and CIM probes and sensors
 

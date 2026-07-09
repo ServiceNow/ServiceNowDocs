@@ -1,5 +1,5 @@
 ---
-title: Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+title: Integration architecture and external systems connection
 description: The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-integration-architecture.html
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+# Integration architecture and external systems connection
 
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 

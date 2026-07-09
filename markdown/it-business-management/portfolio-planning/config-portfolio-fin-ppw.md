@@ -32,10 +32,10 @@ Role required: admin
 
 3.  Enable the roll up system property to true to view financials.
 
-    For more information, see [Activate rollup property for projects to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-activate-system-rollup-prop-ppw.md).
+    For more information, see [Rollup property to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-activate-system-rollup-prop-ppw.md).
 
 4.  Activate the data generation scheduled job to view portfolio financials.
 
-    For more information, see [Activate a scheduled job to generate data to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.md).
+    For more information, see [Scheduled job to generate data to view portfolio financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-data-generation-scheduled-job-ppw.md).
 
 

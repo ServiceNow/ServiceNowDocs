@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring risk, Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring risk, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create configuration values for risk scores
@@ -30,15 +30,15 @@ Role required: sn\_eam.enterprise\_admin
 
 3.  Fill in the form details.
 
-<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d166399e89">
+<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d167004e89">
 
 Field
 
-</th><th align="left" id="d166399e92">
+</th><th align="left" id="d167004e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166399e98">
+</th></tr></thead><tbody><tr><td id="d167004e98">
 
 **Start**
 
@@ -46,7 +46,7 @@ Description
 
 Start value of the risk score band.
 
-</td></tr><tr><td id="d166399e107">
+</td></tr><tr><td id="d167004e107">
 
 **End**
 
@@ -54,7 +54,7 @@ Start value of the risk score band.
 
 End value of the risk score band. The value is automatically populated using the maximum likelihood and impact configuration values.
 
-</td></tr><tr><td id="d166399e116">
+</td></tr><tr><td id="d167004e116">
 
 **Label**
 
@@ -62,7 +62,7 @@ End value of the risk score band. The value is automatically populated using the
 
 Label of the risk score band.
 
-</td></tr><tr><td id="d166399e125">
+</td></tr><tr><td id="d167004e125">
 
 **Color**
 

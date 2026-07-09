@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Engineering license management, Software Asset Management, IT Asset Management]
+breadcrumb: [Engineering license management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Tables installed with engineering applications

@@ -1,5 +1,5 @@
 ---
-title: Sections and cards on the Overview tab for a Component-based alert in Health Log Analytics
+title: Overview tab sections for Component-based alerts
 description: The alert Overview tab in Health Log Analytics helps you understand Component-based alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-ovrvw-tab-comp-based-alerts-sow.html
@@ -13,7 +13,7 @@ keywords: [Overview tab, Component-based alerts, identified issue, anomaly card,
 breadcrumb: [Information on the alert Overview tab, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Sections and cards on the Overview tab for a Component-based alert in Health Log Analytics
+# Overview tab sections for Component-based alerts
 
 The alert **Overview** tab in Health Log Analytics helps you understand Component-based alerts.
 

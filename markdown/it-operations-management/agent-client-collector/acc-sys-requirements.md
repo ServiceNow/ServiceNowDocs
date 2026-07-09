@@ -52,7 +52,7 @@ ACC-VC
 
 </td><td>
 
--   Agent Client Collector for Visibility - Content
+-   Agent Client Collector for Visibility Content
 -   Agent Client Collector Framework
 -   Discovery \[com.snc.discovery\] plugin
 
@@ -129,7 +129,7 @@ Agent Client Collector Monitoring
 
 </td></tr><tr><td>
 
-Agent Client Collector for Visibility - Content
+Agent Client Collector for Visibility Content
 
 </td><td>
 

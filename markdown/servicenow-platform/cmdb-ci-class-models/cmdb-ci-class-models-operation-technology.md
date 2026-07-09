@@ -7,7 +7,7 @@ release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-06-18"
 reading_time_minutes: 30
 breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,31 +22,34 @@ See the release notes for all CMDB CI class models.
 
 ## Operational Technology \(OT\) data model
 
-The Operational Technology \(OT\) data model was created to enable management of “OT Device” data. Operational Technology that controls industrial equipment can be based on IT class hardware \(computers, servers, network gear, and so on\), or on specific hardware profiles not included in the ServiceNow IT class model \(PLCs, HMIs, Engineering Workstations, Historians, and so on\). Therefore, a single OT Device in the OT data model includes two primary components:
+The Operational Technology \(OT\) data model helps manage OT device data. Operational Technology that controls industrial equipment can be based on IT class hardware \(computers, servers, network gear, and so on\), or on specific hardware profiles not included in the ServiceNow IT class model \(PLCs, HMIs, Engineering Workstations, Historians, and so on\). Therefore, a single OT device in the OT data model includes two primary components:
 
 1.  A CI class record. This can be an IT or an OT class CI.
-2.  An OT Device details record. This describes the OT Device type \(function\) and other OT-specific attributes.
+2.  An OT device details record. This describes the OT device type \(function\) and other OT-specific attributes.
 
-    Each OT Device in the CMDB can be distinguished as having an “OT Device Details” reference \[cmdb\_ot\_entity reference field\] to a specific OT Device details \[cmdb\_ot\_entity table\] record. This is a bi-directional reference; the ot\_device reference on the cmdb\_ot\_entity table references the CI record. If the cmdb\_ot\_entity reference of a given CI record is **not** empty, the CI is considered to be an OT Device. A record in any Cl class can be designated as an OT Device. All OT Device records include a record in the OT Entity table \[cmdb\_ot\_entity\] to store OT-specific metadata.
+Each OT device in the Configuration Management Database \(CMDB\) can be distinguished as having an **OT Device Details** \[cmdb\_ot\_entity\] reference to an OT device details \[cmdb\_ot\_entity table\] record. This is a bi-directional reference. The ot\_device reference on the cmdb\_ot\_entity table references the CI record. If the cmdb\_ot\_entity reference of a given CI record isn't empty, the CI is considered to be an OT device. A record in any CI class can be designated as an OT device.
 
-    In the following example, HMI might be software installed on an IT class Cl or might be a proprietary appliance similar to a POS device.
+All OT device records include a record in the OT Entity \[cmdb\_ot\_entity\] table to store OT metadata.
 
-    -   An HMI CI with an OT Device detail record describing its “OT Device type” also as HMI.
-    -   A computer CI with an OT Device detail record describing its “OT Device type” as HMI.
+In the following example, HMI might be software installed on an IT class CI or might be a proprietary appliance similar to a POS device.
+
+-   An HMI CI with an OT Device detail record describing its **OT Device type** also as HMI.
+-   A computer CI with an OT Device detail record describing its **OT Device type** as HMI.
 
 \[Omitted image "ot-asset-ci-class.png"\] Alt text: OT Device records include a record in the cmdb\_ot\_entity table.
 
-In this way, a list of HMIs can be derived and a list of all computers in an enterprise can also be derived.
+You can use this to derive a list of HMIs and a list of all computers in an enterprise. For more information about the OT data model, see [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-use-case-product-view.md).
 
-For more details on the OT data model, see [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-use-case-product-view.md).
+You can use the added classes as any other CMDB class. Products and applications such as Discovery for OT and Service Graph Connector for Microsoft Excel use these class extensions to populate CIs and discover various technologies and software. To learn more, see the following:
 
-You can use the added classes as any other CMDB class. Applications such as Discovery for Operational Technology, and Service Graph Connector for Operational Technology \(Excel\) use these class extensions to populate CIs and discover various technologies and software. To learn more, see [Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/service-graph-connector-for-OT-excel.md).
+-   [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-landing.md)
+-   [Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/service-graph-connector-for-OT-excel.md)
 
-**Note:** In Operational Technology, CIs used on an OT network to automate an industrial process are often referred to as  OT Devices. This term shouldn’t be confused with an Device record commonly used in the practice of Asset Management.
+**Note:** CIs used on an OT network to automate an industrial process are often referred to as  OT devices. This term shouldn’t be confused with a device record commonly used in Asset Management.
 
 ## Operational Technology \(OT\) schema structure​
 
-\[Omitted image "ClassOperationTechnology.png"\] Alt text: Relationships and references in the OT schema.
+\[Omitted image "ClassOperationTechnology.png"\] Alt text: Relationships and references in Operational Technology schema.
 
 ## Classes
 
@@ -109,14 +112,14 @@ CMDB CI Class Models adds the following classes for OT.
 |EWS \[cmdb\_ci\_ot\_ews\]|cmdb\_ci\_ot\_supervisory|Engineering Workstation. A computing platform for configuration, maintenance, and diagnostics of ICS applications and other control system equipment.|
 |Historian \[cmdb\_ci\_ot\_historian\]|cmdb\_ci\_ot\_supervisory|Data Historian. A centralized database supporting data analysis for industrial processes.|
 |HMI \[cmdb\_ci\_ot\_hmi\]|cmdb\_ci\_ot\_supervisory|Human-Machine Interface. Hardware or software through which an operator interacts with a controller.|
-|IED \[cmdb\_ci\_ot\_ied\]|cmdb\_ci\_ot\_control|Intelligent Electronic Device. Receives or sends data/control from or to an external source for power grids.|
-|Industrial Actuator \[cmdb\_ci\_ot\_industrial\_actuator\]|cmdb\_ci\_ot\_field\_device|Component of a machine that is responsible for moving and controlling a mechanism, such as opening a valve.|
+|IED \[cmdb\_ci\_ot\_ied\]|cmdb\_ci\_ot\_control|Intelligent Electronic Device. Receives or sends data or control from or to an external source for power grids.|
+|Industrial Actuator \[cmdb\_ci\_ot\_industrial\_actuator\]|cmdb\_ci\_ot\_field\_device|Component of a machine that moves and controls a mechanism, such as opening a valve.|
 |Industrial Drive \[cmdb\_ci\_ot\_industrial\_drive\]|cmdb\_ci\_ot\_field\_device|Equipment used to control the speed of machinery. It can be a mechanical electromechanical, hydraulic, or electronic device.|
 |Industrial 3D Printer \[cmdb\_ci\_ot\_industrial\_3d\_printer\]|cmdb\_ci\_ot\_control|Device used in additive manufacturing for the construction of a three-dimensional object from a CAD model, or a digital 3D model.|
 |Industrial Robot \[cmdb\_ci\_ot\_industrial\_robot\]|cmdb\_ci\_ot\_field\_device|Robotic system used for manufacturing.|
-|Industrial Sensor \[cmdb\_ci\_ot\_industrial\_sensor\]|cmdb\_ci\_ot\_field\_device|Sensor device used to monitor the health of equipment|
-|Network Gear \[cmdb\_ci\_netgear\]|cmdb\_ci\_hardware|Network gear is an electronic device which is required for communication and interaction between devices on a computer network.|
-|Operations Technology \[cmdb\_ci\_ot\]|cmdb\_ci\_hardware|Base class for Operational Technology, used for industrial control. For instance, in manufacturing.|
+|Industrial Sensor \[cmdb\_ci\_ot\_industrial\_sensor\]|cmdb\_ci\_ot\_field\_device|Sensor device used to monitor the health of equipment.|
+|Network Gear \[cmdb\_ci\_netgear\]|cmdb\_ci\_hardware|Network gear is an electronic device that is required for communication and interaction between devices on a computer network.|
+|Operations Technology \[cmdb\_ci\_ot\]|cmdb\_ci\_hardware|Base class for Operational Technology, used for industrial control. For example, in manufacturing.|
 |OPC Client \[cmdb\_ci\_ot\_opc\_client\]|cmdb\_ci\_ot\_supervisory|Software module that enables applications to acquire data from an OPC Server or conduct supervisory control using an OPC Server.|
 |OPC Server \[cmdb\_ci\_ot\_opc\_server\]|cmdb\_ci\_ot\_control|Software module that enables applications to provide their data to the outside world using OPC.|
 |OT Control Module \[cmdb\_ci\_ot\_control\_module\]|cmdb\_ci\_ot\_control|Module such as a PLC or DCS connected to an OT Control System.|
@@ -124,7 +127,7 @@ CMDB CI Class Models adds the following classes for OT.
 |OT Supervisory System \[cmdb\_ci\_ot\_supervisory\]|cmdb\_ci\_ot|Base class for supervisory systems, usually at Purdue Model Level 2 or 3.|
 |PLC \[cmdb\_ci\_ot\_plc\]|cmdb\_ci\_ot\_control|Programmable Logic Controller. Used to control OT Devices.|
 |Protocol Converter \[cmdb\_ci\_protocol\_converter\]|cmdb\_ci\_hardware\_network\_gear|Device used to convert standard or proprietary protocol of one device to the protocol suitable for the other device or tools to achieve the interoperability.|
-|RTU \[cmdb\_ci\_ot\_rtu\]|cmdb\_ci\_ot\_control|Remote Terminal Unit. Special purpose data acquisition and control unit supports DCS and SCADA remote stations|
+|RTU \[cmdb\_ci\_ot\_rtu\]|cmdb\_ci\_ot\_control|Remote Terminal Unit. Special purpose data acquisition and control unit that supports DCS and SCADA remote stations.|
 |SCADA Client \[cmdb\_ci\_ot\_scada\_client\]|cmdb\_ci\_ot\_supervisory|Supervisory Control and Data Acquisition. Client that enables an operator to manage a SCADA server.|
 |SCADA Server \[cmdb\_ci\_ot\_scada\_server\]|cmdb\_ci\_ot\_control|Supervisory Control and Data Acquisition. System capable of gathering and processing data and applying operational controls over long distance.|
 
@@ -139,7 +142,7 @@ CMDB CI Class Models adds the following columns to the respective classes.
 
 |Added columns|Description|
 |-------------|-----------|
-|has\_module|​true/false value describing if the system has modules, such as chassis / blade architecture.|
+|has\_module|​True or false value describing if the system has modules, such as chassis / blade architecture.|
 |backplane\_name|System-reported string name or number for the backplane.|
 |backplane\_id|System-reported unique ID for the backplane|
 
@@ -159,7 +162,7 @@ CMDB CI Class Models adds the following columns to the respective classes.
 
 ## Form view
 
-All Operational Technology \(OT\) extension classes have a "Default view" form view that includes the OT Device Details attribute at the top of the form. The following table lists the other classes that have the **Operational Technology \(OT\)** view on their form context menu. This is the default form view for users with the cmdb\_ot\_viewer role for the following classes.
+All OT extension classes have a default form view that includes the **OT Device Details** attribute at the top of the form. The following table lists the other classes that have the **Operational Technology \(OT\)** view on their form context menu. This is the default form view for users with the cmdb\_ot\_viewer role for the following classes.
 
 |Class|Description|
 |-----|-----------|
@@ -168,13 +171,13 @@ All Operational Technology \(OT\) extension classes have a "Default view" form v
 |base server \[cmdb\_ci\_server\]|Base class for all types of servers.|
 |linux server \[cmdb\_ci\_linux\_server\]|Server running Linux software.|
 |windows server \[cmdb\_ci\_win\_server\]|A server running Microsoft Windows Server operating system.|
-|IoT Device base class \[cmdb\_ci\_iot\]|Parent table that contains Internet of Things device types.|
+|IoT Device base class \[cmdb\_ci\_iot\]|Parent table that contains Internet of Things \(IoT\) device types.|
 |IP Firewall and extended classes \[cmdb\_ci\_ip\_firewall\]|Contains all network firewalls.|
 |IP Router \[cmdb\_ci\_ip\_router\]|Specialization of the Network Gear \[cmdb\_ci\_netgear\] table.|
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Specialization of the Network Gear \[cmdb\_ci\_netgear\] table.|
 |Protocol Converter \[cmdb\_ci\_protocol\_converter\]|Device used to convert standard or proprietary protocol of one device to the protocol suitable for the other device or tools to achieve the interoperability.|
 
-Classes not included in the table do not have the Operational Technology \(OT\) view by default. For any additional classes required, you can add the Operational Technology \(OT\) view to the form context menu. For more information about form context menu options, see [Form context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_FormContextMenu.md).
+Classes not included in the table don't have the OT view by default. For any additional classes required, you can add the Operational Technology \(OT\) view to the form context menu. For more information about form context menu options, see [Form context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_FormContextMenu.md).
 
 ## Roles and Access Control Logic \(ACLs\)
 
@@ -182,31 +185,31 @@ The following roles are associated with the OT \[cmdb\_ci\_ot\] classes and asso
 
 -   **Admin \(cmdb\_ot\_admin\)**
 
-    Can create, read, update, and delete OT records. Can edit the OT Device Type on the OT Device form and manage specific configurations on the OT entity tables. Cannot edit or delete IT CI records in related tables \(for example, IP Address or Network Adapter\).
+    Can create, read, update, and delete OT records. Can edit the OT Device Type on the OT Device form and manage specific configurations on the OT entity tables. Can't edit or delete IT CI records in related tables \(for example, IP Address or Network Adapter\).
 
 -   **Editor \(cmdb\_ot\_editor\)**
-    -   Can create, read, update, and delete OT Device records. Cannot edit or delete IT CI records in related tables \(for example, IP Address or Network Adapter\).
-    -   When the OT Enhanced Access Control plugin is enabled, edit or delete access to OT devices for the cmdb\_ot\_editor role should be granted only if the user meets the Can Edit Equipment Model User Criteria for the site referenced by the device.
+    -   Can create, read, update, and delete OT device records. Cannot edit or delete IT CI records in related tables. For example, IP Address or Network Adapter.
+    -   When the OT Enhanced Access Control plugin is enabled, edit or delete access to OT devices. The cmdb\_ot\_editor role should be granted only if the user meets the Can Edit Equipment Model User Criteria for the site referenced by the device.
     -   Can create, update, or delete cmdb\_rel\_ci records only if they have access to either the record’s parent reference CI or its child reference CI.
 -   **Viewer \(cmdb\_ot\_viewer\)**
 
-    Can read OT Device records.
+    Can read OT device records.
 
 
 **Note:** For the cmdb\_ci\_ot and cmdb\_ot\_entity tables:
 
--   A user must have one of these three OT roles to view OT Devices.
--   IT users with an assigned itil role are restricted from viewing OT Devices in the cmdb\_ci\_ot table, and records in the cmdb\_ot\_entity table. IT users are still able to see IT asset classes, such as Computer, Installed Software.
+-   OT users must have one of these three OT roles to view OT devices.
+-   IT users with an assigned itil role are restricted from viewing OT devices in the cmdb\_ci\_ot table, and records in the cmdb\_ot\_entity table. IT users are still able to see IT asset classes, such as Computer, Installed Software.
 
-OT customers may want to restrict access to OT Devices from users with an IT \(itil\) only role, for both a viewer and an admin role.
+OT users can restrict access to OT devices from users with an IT \(itil\) only role, including both a viewer role and an admin role.
 
 ## Key relationship structures
 
-Use the following key relationships as important guidelines when creating Operational Technology \(OT\) CIs:
+Use the following key relationships when creating OT CIs:
 
 **OT Entity**
 
-Since any CI class may be found on an OT network, the OT Entity table \[cmdb\_ot\_entity\] captures additional attributes required in an OT Environment:
+Since any CI class may be found on an OT network, the OT Entity \[cmdb\_ot\_entity\] table captures additional attributes required in an OT environment:
 
 <table id="table_wmf_f32_s4b"><thead><tr><th>
 
@@ -255,7 +258,7 @@ Zone
 
 </td><td>
 
-Zone assigned to the OT Device, usually used in the context of a zone/conduit model.
+Zone assigned to the OT Device, usually used in the context of a zone or conduit model.
 
 </td></tr><tr><td>
 
@@ -270,7 +273,7 @@ Acts as a criterion attribute for an OT entity-related entry.
 
 **OT Entity Type**
 
-The OT Entity Type \[cmdb\_ot\_entity\_type\] table tracks the type of OT Device that an OT or non-OT CI is performing the function of. It serves as a necessary part of the Purdue level data model, and extends the Application File \[sys\_metadata\] table.
+The OT Entity Type \[cmdb\_ot\_entity\_type\] table tracks the type of OT Device that an OT or non-OT CI is performing the function of. It is a necessary part of the Purdue level data model and extends the Application File \[sys\_metadata\] table.
 
 The ServiceNow AI Platform includes records representing common OT Device types of OT Device CIs. The OT Entity Type table attributes include:
 
@@ -283,7 +286,7 @@ The ServiceNow AI Platform includes records representing common OT Device types 
 
 **OT Class Mapping Template**
 
-The OT Class Mapping Template \[ot\_class\_mapping\_template\] table extends the Application File \[sys\_metadata\] and is used by OT Service Graph Connectors \(SGCs\) to classify a device into the correct CI class based on the source data.
+The OT Class Mapping Template \[ot\_class\_mapping\_template\] table extends the Application File \[sys\_metadata\]. It's used by OT Service Graph Connectors \(SGCs\) to classify a device into the correct CI class based on the source data.
 
 Each SGC can extend the OT Class Mapping Template table and create a child class in the SGC application. Doing so defines the device classification details that are specific to SGC. For example, the Excel SGC Class Mapping \[excel\_sgc\_class\_mapping\] table is a child of the OT Class Mapping Template created in the Service Graph Connector for Microsoft Excel application scope, which stores the classification details specific for the Service Graph Connector for Microsoft Excel.
 
@@ -338,7 +341,7 @@ Allow OS classification
 
 </td><td>
 
-When set to **True**, if an operating system is found on the CI, the target is switched away from this table's target class to a ServiceNow class that matches its OS.For example, if Historian is the target class but Windows Server OS is found in the payload, the CI is classified as a Windows Server CI and its OT device type is set to Historian.
+When set to **True**, if an operating system is found on the CI, the target is switched away from this table's target class to a ServiceNow class that matches its OS.For example, if Historian is the target class but Windows Server OS is found in the payload, the CI is classified as a Windows Server CI. And its OT device type is set to Historian.
 
 </td></tr><tr><td>
 
@@ -346,7 +349,7 @@ Active
 
 </td><td>
 
-When checked, the class mapping is set to **Active** and considered during device classification.
+When selected, the class mapping is set to **Active** and considered during device classification.
 
 </td></tr><tr><td>
 
@@ -362,7 +365,7 @@ Device Naming Strategy
 
 </td><td>
 
-Helps define and choose the method that should be used to generate unique device names when the **Allow Custom Device Naming** field is enabled.
+Defines the method used to generate unique device names when the **Allow Custom Device Naming** field is enabled.
 
 </td></tr></tbody>
 </table>**Serial number**
@@ -396,9 +399,8 @@ Use the IP Address \[cmdb\_ci\_ip\_address\] class to store IP addresses.
 3.  Set the Network Partition Identifier attribute.
 4.  Set the Name attribute in the Network Adapter class to be the same as the MAC Address.
 5.  In the CI Relationship \[cmdb\_rel\_ci\] table, create an Owned By::Owns relationship to the associated Hardware CI.
-6.  In the CI Relationship \[cmdb\_rel\_ci\] table, create an Owned By::Owns relationship to the associated Hardware CI.
-7.  For the IP address, specify a reference to the Network Adapter \[cmdb\_ci\_network\_adapter\] table, using the CI with a reference to the associated Hardware CI.
-8.  To promote that base-system identification rules work properly, also store the IP address in the associated Network Adapter class.
+6.  For the IP address, specify a reference to the Network Adapter \[cmdb\_ci\_network\_adapter\] table, using the CI with a reference to the associated Hardware CI.
+7.  To promote that base-system identification rules work properly, also store the IP address in the associated Network Adapter class.
 
 **Network adapter and IP address**
 
@@ -407,7 +409,7 @@ Use the IP Address \[cmdb\_ci\_ip\_address\] class to store IP addresses.
 1.  Store the MAC address of the network adapter installed on a server, in the Network Adapter \[cmdb\_ci\_network\_adapter\] class.
 2.  Store the IP address in the IP Address \[cmdb\_ci\_ip\_address\] class.
 
-    **Note:** Do not store the MAC address or the IP address in the Operational Technology \(OT\) \[cmdb\_ci\_ot\] table. The default Operational Technology \(OT\) form is configured to display the IP address from the Network Adapter table.
+    **Note:** Don't store the MAC address or the IP address in the Operational Technology \(OT\) \[cmdb\_ci\_ot\] table. The default Operational Technology \(OT\) form is configured to display the IP address from the Network Adapter table.
 
 
 **Backup Storage Information**
@@ -446,7 +448,7 @@ For more information, see [Operational Technology Backup Management data model](
 
 ## Key reference structures
 
-Use the following key references are important guidelines when creating Operational Technology \(OT\) records:
+Use the following key references when creating Operational Technology \(OT\) records:
 
 -   When creating computer or server records for OT Devices that are running on computers or servers, see the following topics:
     -   [Computer \[cmdb\_ci\_computer\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/class-computer.md)
@@ -470,8 +472,8 @@ The ServiceNow AI Platform contains a predefined identification rule for the Ope
     Optional conditions to filter the records during identification and reconciliation.
 
 4.  Identifier entry for the Name attribute.
-    -   If Serial Number and MAC Address are not available, then the Name \(which is usually the system reported hostname\) attribute is used.
-    -   If both Serial Number and Name are not available, and only MAC Address is available, use MAC Address as the name of the CI. Using the MAC Address as the name of the CI ensures that you don't create an empty CI.
+    -   If Serial Number and MAC Address aren't available, then the Name \(which is usually the system reported hostname\) attribute is used.
+    -   If both Serial Number and Name aren't available, and only MAC Address is available, use MAC Address as the name of the CI. Using the MAC Address as the name of the CI helps to ensure that you don't create an empty CI.
 5.  Identifier entry that uses a product instance identifier \(PID\) on the CI.
 
 **Note:** To learn more, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
@@ -492,7 +494,7 @@ Beginning with the Xanadu release, you can create a Network Adapter identifier o
     4.  Select **Mac Address** from the **Criterion Attributes** drop-down list.
     5.  Select **Save**.
 
-**Note:** IT devices on an OT network are not reclassified automatically. If you want to automatically reclassify IT devices to OT, you must upgrade to Xanadu or the latest ServiceNow AI Platform version with the latest CMDB CI Class Models.
+**Note:** IT devices on an OT network aren't reclassified automatically. If you want to automatically reclassify IT devices to OT, you must upgrade to Xanadu or the latest ServiceNow AI Platform version with the latest CMDB CI Class Models.
 
 ## Related entries
 
@@ -515,13 +517,13 @@ The OT Control Module \[cmdb\_ci\_ot\_control\_module\] rule contains the follow
 
 ## OT Device Network Connection data model
 
-The OT Device Network Connection data model leverages the OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table to identify source CIs and destination CIs. Identifying this data allows you to identify the device-to-device connections in your OT environment.
+The OT Device Network Connection data model uses the OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table to identify source CIs and destination CIs. Identifying this data allows you to identify the device-to-device connections in your OT environment.
 
 **Note:** The OT Device Network Connection table is available with the Industrial Core plugin. For more information about the Industrial Core plugin, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-core-plugin.md).
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table with the Connects to :: Connected by relationship type. The device-to-device connections in CI relationships and the metadata of how the source and destination communicate are stored.
 
-**Note:** This data is populated with the available OT integrations and cannot be manually created.
+**Note:** This data is populated with the available OT integrations and can't be manually created.
 
 The OT Device Network Connection table is populated using data from the following CMDB tables.
 
@@ -642,7 +644,7 @@ The query for getting the associated username and its associated user account sy
 
 </td></tr><tr><td>
 
-The MID Server sys\_id is missing from the input, so validation cannot proceed.
+The MID Server sys\_id is missing from the input, so validation can't proceed.
 
 </td><td>
 

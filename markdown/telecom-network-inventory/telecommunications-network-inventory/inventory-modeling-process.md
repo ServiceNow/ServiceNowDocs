@@ -29,7 +29,7 @@ When you create inventory models for your equipment inventory in the Telecommuni
 
 The following diagram shows a top-to-bottom approach for the inventory modeling process.
 
-\[Omitted image "inventory-modeling-process.png"\] Alt text: Top down inventory modeling
+\[Omitted image "top-down-inventory-model.png"\] Alt text: Top down inventory modeling
 
 The steps for top-to-bottom modeling of an inventory are as follows:
 

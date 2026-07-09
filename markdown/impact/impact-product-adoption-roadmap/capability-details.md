@@ -1,5 +1,5 @@
 ---
-title: Capability Details Page
+title: Capability details
 description: View the various details for a capability using the Capability details page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/capability-details.html
@@ -9,28 +9,24 @@ classification: impact-product-adoption-roadmap
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Capabilities maps, Product Adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
 ---
 
-# Capability Details Page
+# Capability details
 
 View the various details for a capability using the Capability details page.
 
 <table id="table_ah3_3rr_tzb"><thead><tr><th>
 
-Capability details
+Capability
 
 </th><th>
 
 Description
 
-</th></tr></thead><tbody><tr><td colspan="2">
+</th></tr></thead><tbody><tr><td>
 
-**About**
-
-</td></tr><tr><td>
-
-**Workflow**
+Workflow
 
 </td><td>
 
@@ -38,7 +34,7 @@ View the workflow for the selected capability.
 
 </td></tr><tr><td>
 
-**Product**
+Product
 
 </td><td>
 
@@ -46,7 +42,7 @@ View the product for the selected capability.
 
 </td></tr><tr><td>
 
-**Entitled**
+Entitled
 
 </td><td>
 
@@ -54,7 +50,7 @@ View if the selected capability is entitled to a subscription.
 
 </td></tr><tr><td>
 
-**Usage Status**
+Usage Status
 
 </td><td>
 
@@ -62,7 +58,7 @@ View the current usage status of the selected capability.**Note:** You can edit 
 
 </td></tr><tr><td>
 
-**About this capability**
+About this capability
 
 </td><td>
 
@@ -70,7 +66,7 @@ View a Now Assist generated summary of description, features, benefits, and rela
 
 </td></tr><tr><td>
 
-**Capability Notes**
+Capability Notes
 
 </td><td>
 
@@ -78,7 +74,7 @@ View and edit additional information specific to a capability. You can view thes
 
 </td></tr><tr><td>
 
-**Included with these subscriptions**
+Included with these subscriptions
 
 </td><td>
 
@@ -86,7 +82,7 @@ View which subscriptions provide entitlement to an entitled capability.
 
 </td></tr><tr><td>
 
-**Guidelines for phase \(Phase name\)**
+Guidelines for phase \(Phase name\)
 
 </td><td>
 
@@ -94,7 +90,7 @@ View and edit notes specific to the phase for adoption guidance related to the c
 
 </td></tr><tr><td>
 
-**Support these business objectives**
+Support these business objectives
 
 </td><td>
 
@@ -102,7 +98,7 @@ View and edit the business objectives related to a capability. Select **Add busi
 
 </td></tr><tr><td>
 
-**Accelerators from the catalog**
+Accelerators from the catalog
 
 </td><td>
 
@@ -114,7 +110,7 @@ View the accelerators currently associated with the selected capability. Select 
 
 </td></tr><tr><td>
 
-**Requested Accelerators**
+Requested Accelerators
 
 </td><td>
 

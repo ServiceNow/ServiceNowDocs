@@ -45,3 +45,8 @@ The business portal Case form displays contextual search results based on text e
 6.  Select **Submit**.
 
 
+**Related topics**  
+
+
+[Search the knowledge base on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-businessPortal.md)
+

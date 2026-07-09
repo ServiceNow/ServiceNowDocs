@@ -16,7 +16,7 @@ Copy a data fabric table from one instance to another through an update set.
 
 You can capture a data fabric table configuration, including the table identification information and column mapping, and then copy it to another instance using an update set. A connection admin must reestablish the connection on the target instance after importing the update set.
 
-For details on using update sets, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
+For details on using update sets, see .
 
 **Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
 

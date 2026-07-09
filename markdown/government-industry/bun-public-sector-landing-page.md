@@ -53,8 +53,8 @@ Use the ServiceNow®Public Sector Digital Services \(PSDS\) application to deliv
 </table>## Additional resources
 
 -   To learn more about what's new and what's changed, see the [Public Sector Digital Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/public-sector-digital-services-rn.md).
--   Work with an implementation specialist to streamline your setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).
--   Sign up for the [ServiceNow Public Sector fundamentals training program and certification](https://www.servicenow.com/services/training-and-certification.html) to learn about core functionality and release-specific features.
--   Visit [Now Community](https://www.servicenow.com/community/) to share knowledge and connect with others.
 -   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Work with an implementation specialist to streamline your setup process. To learn more, see [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=2495500147ee3d9050593369126d4348&s=1&ssa=3).
+-   Visit [Now Community](https://www.servicenow.com/community/public-sector-digital-services/ct-p/public-sector-digital-services) to share knowledge and connect with others.
 

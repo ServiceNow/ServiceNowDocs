@@ -43,3 +43,8 @@ The **Publications** link on the Consumer Portal displays a list of current publ
 7.  Select the return arrow at the top of the publication to return to the Publications list.
 
 
+**Related topics**  
+
+
+[Search the Knowledge Base on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management publisher pack for Citrix, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Citrix, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Publisher Analytics dashboard for Citrix in Software Asset Management classic

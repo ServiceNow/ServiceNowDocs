@@ -62,9 +62,8 @@ To get started with Grants Management, see the following topics:
 
 -   [Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-grants-management.md)
 
--   
-
--   [Create a grant program using Grants Management program setup for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md)
+-   [Create a funding program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-funding-program-dita.md)
+-   [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md)
 -   [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md)
 
 -   [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md)

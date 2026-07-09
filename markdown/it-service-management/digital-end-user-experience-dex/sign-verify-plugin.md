@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-09"
 reading_time_minutes: 1
+keywords: [sign acc plugin, verify plugin signature, self signed certificate, openssl, plugin validation, sign and verify plugin]
 breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -97,7 +98,7 @@ Role required: admin
     -   Distribute the certificate to agent devices using a device management utility such as Jamf or Microsoft Intune.
 11. Add the certificate to the agent trust store.
 
-    For more information, see [Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/add-certificate-trust-store.md).
+    For more information, see [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/add-certificate-trust-store.md).
 
 12. Upload the signed ACC plugin to the ServiceNow instance.
 

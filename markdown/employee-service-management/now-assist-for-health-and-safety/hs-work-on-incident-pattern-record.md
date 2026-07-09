@@ -34,7 +34,7 @@ Role required: sn\_ohs\_im.manager and sn\_ohs\_im.agent
 
     1.  Review the **Details** tab to analyze factors such as, urgency, confidence score, and the AI generated pattern summary.
 
-        For more information on the fields of the **Details** tab, see [Incident pattern record details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.md).
+        For more information on the fields of the **Details** tab, see [Incident pattern form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-record-details-tab.md).
 
     2.  Create actions in the **Health and safety actions** tab based on the analysis.
 

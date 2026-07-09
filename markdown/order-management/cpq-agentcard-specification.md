@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-13"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # AgentCard specification
@@ -25,7 +25,7 @@ AgentCard(
                      Converse using A2A protocol to configure products based on
                      context provided by other agents. Provides industry-standard
                       A2A protocol interface with JSON-RPC transport.",
-   url             = <base_url>,           # your Logik tenant base URL
+   url             = <base_url>,           # your cpq tenant base URL
    version         = "1.0.0",
    protocol_version= "0.3.0",
    preferred_transport = TransportProtocol.jsonrpc,

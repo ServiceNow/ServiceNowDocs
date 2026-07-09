@@ -100,5 +100,7 @@ Project states can also roll down. If you change the state of a project to close
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [Create a parent-child relationship on the Project Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateParentChildRelationship.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-manageability.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 26
 breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
@@ -432,7 +432,7 @@ Use **g\_form.showFieldMsg**\(\) or **g\_form.hideFieldMsg**\(\) functions in pl
 
 </td><td>
 
-[Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
+Documentation
 
 </td></tr><tr><td>
 

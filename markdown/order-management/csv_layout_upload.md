@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # CSV layout upload
@@ -22,7 +22,7 @@ Layouts are defined via CSV file that contains all instructions for the layout. 
 
 Access a layout from its corresponding blueprint administration page.
 
-1.  In the CPQ Admin navigation pane, click **Blueprints** \(2\).
+1.  In the ServiceNow CPQ Admin navigation pane, click **Blueprints** \(2\).
 2.  Click the Layouts tab \(3\).
 3.  Click the name of the blueprint you want to access.
 
@@ -188,7 +188,7 @@ MultiSelectExtended picklist
 </td></tr></tbody>
 </table>`columnorder` is relevant for components in a column set. Used to provide the sort order of the Fields based on screen resolution in the responsive UI.
 
-`classname` is used to reference predefined classes available in CPQ. For example, when placing an image, a class can define the flow of fields around that image. Add these class names to the layout CSV file in the className column. As max-height and grid controls interact with the width of the browser, we recommend you experiment with each class distinctly, exploring how the class responds to a variety of browser sizes.
+`classname` is used to reference predefined classes available in ServiceNow CPQ. For example, when placing an image, a class can define the flow of fields around that image. Add these class names to the layout CSV file in the className column. As max-height and grid controls interact with the width of the browser, we recommend you experiment with each class distinctly, exploring how the class responds to a variety of browser sizes.
 
 <table id="table_z23_xkb_nhc"><thead><tr><th>
 

@@ -45,3 +45,10 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 5.  Select **Save**.
 
 
+**Related topics**  
+
+
+[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm.md)
+
+[Set email notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustServNotifPref.md)
+

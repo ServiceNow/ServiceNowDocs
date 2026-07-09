@@ -30,7 +30,7 @@ Create the parent external form configuration record that anchors all location, 
 Configure the jurisdictions, authorized agent option, and per-location URLs for the external-facing Personal Data Rights \(PDR\) form. These settings determine what requesters in each jurisdiction see based on their local privacy rules.
 -   **[Configure the data subject types for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ds-types.md)**  
 Specify which data subject types the external-facing Personal Data Rights \(PDR\) form offers in each location, so the form presents only the data subject types that local regulation supports.
--   **[Map request types to configured data subjects for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.md)**  
+-   **[Map request types to data subjects for a jurisdiction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.md)**  
 Configure the request types available to each data subject type within a jurisdiction. Hide any requester or agent fields that don't apply on the external-facing Personal Data Rights \(PDR\) form.
 
 **Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)

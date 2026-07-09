@@ -108,7 +108,7 @@ DEX Application\[dex\_application\]
 
 </td><td>
 
-Parent table that stores a list of all the applications configured for monitoring on the **Administration** &gt; **Applications** page. The table extends the parent table sn\_acc\_vis\_content\_application in the Agent Client Collector for Visibility - Content scoped app.
+Parent table that stores a list of all the applications configured for monitoring on the **Administration** &gt; **Applications** page. The table extends the parent table sn\_acc\_vis\_content\_application in the Agent Client Collector for Visibility Content scoped app.
 
 </td></tr><tr><td>
 

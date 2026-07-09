@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a remediation action plan
@@ -30,9 +30,4 @@ Role required: admin
 
 4.  Select **Save**.
 
-
--   **[Related list for remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-list-for-remediation-action-plan.md)**  
-In the workspace, you can use the remediation action-related list to log the information.
-
-**Parent Topic:**[Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-remediation-action-plans.md)
 

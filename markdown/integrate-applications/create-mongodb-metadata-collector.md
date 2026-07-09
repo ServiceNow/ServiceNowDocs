@@ -55,9 +55,16 @@ Before you begin, verify the following:
 
 8.  Enter the MongoDB configuration details.
 
-<table id="table_nyc_qqp_c3c"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Included Databases|Databases to collect. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are collected.|
+    |Excluded Databases|Databases to exclude from collection. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are excluded. Included databases take precedence over excluded databases.|
 
-Field
+9.  Configure the advanced options.
+
+<table id="table_oxn_jh5_rjc"><thead><tr><th>
+
+Name
 
 </th><th>
 
@@ -65,30 +72,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Included Databases
-
-</td><td>
-
-Databases to collect. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are collected.
-
-</td></tr><tr><td>
-
-Excluded Databases
-
-</td><td>
-
-Databases to exclude from collection. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are excluded. Included databases take precedence over excluded databases.
-
-</td></tr><tr><td>
-
-Analysis Samples Count
+Analysis samples count
 
 </td><td>
 
 Number of documents sampled from each collection for [field type analysis](https://www.mongodb.com/docs/manual/reference/operator/aggregation/sample/). This field must be a non-negative integer.Default: 1000.
 
 </td></tr></tbody>
-</table>9.  Select **Save**.
+</table>10. Select **Save**.
 
 
 ## Result

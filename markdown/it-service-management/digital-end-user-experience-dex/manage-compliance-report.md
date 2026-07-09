@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [compliance report, manage compliance, device compliance report, compliance policy, metric rules]
 breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -32,15 +33,15 @@ Role required: admin
 
 4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d179810e101">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d180198e112">
 
 Option
 
-</th><th align="left" id="d179810e104">
+</th><th align="left" id="d180198e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d179810e110">
+</th></tr></thead><tbody><tr><td id="d180198e121">
 
 **Manage compliance policy**
 
@@ -50,7 +51,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d179810e134">
+</td></tr><tr><td id="d180198e145">
 
 **Manage applications**
 
@@ -60,7 +61,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
  **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-new-application.md) or [New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d179810e175">
+</td></tr><tr><td id="d180198e186">
 
 **Manage metric rules**
 

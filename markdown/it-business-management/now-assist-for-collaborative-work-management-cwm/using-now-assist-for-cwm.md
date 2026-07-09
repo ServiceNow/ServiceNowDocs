@@ -18,7 +18,7 @@ Save time, reduce manual effort, and improve overall efficiency by using the gen
 
 The following tasks provide guidance on using Now Assist skills within the CWM workspace. Navigate to the task that suits your use case.
 
--   [Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md).
+-   [Refine content of a Doc page in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.md).
 -   [Generate and improve Docs content with Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md).
 -   [Generate tasks from Docs in Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-docs-now-assist.md).
 -   [Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md).

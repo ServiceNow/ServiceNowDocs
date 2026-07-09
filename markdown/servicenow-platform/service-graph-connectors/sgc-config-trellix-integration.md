@@ -76,7 +76,7 @@ Name
 
 </td><td>
 
-Name to identify the Trellix connection record. For example, `SGTrellix`.Don’t modify the name for the default connection `SGTrellix`.
+Name to identify the Trellix connection record. For example, `SGTrellix`.Don’t modify the name for the default `SGTrellix` connection.
 
 </td></tr><tr><td>
 

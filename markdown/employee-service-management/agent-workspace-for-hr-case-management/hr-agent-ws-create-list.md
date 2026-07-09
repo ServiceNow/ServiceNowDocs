@@ -8,7 +8,7 @@ product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Lists in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **My Lists**.
 

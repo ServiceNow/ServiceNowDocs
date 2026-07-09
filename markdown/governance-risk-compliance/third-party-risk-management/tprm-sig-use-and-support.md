@@ -44,3 +44,12 @@ Your third party might run into the following issues when using a SIG:
 
 For instructions that you can send to third-party contacts, see [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
 
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md)
+

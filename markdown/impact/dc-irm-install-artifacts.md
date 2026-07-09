@@ -68,3 +68,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Outsourced risk mgmt. spend as % of avg. risk mgmt. spend|
 |Manual|Legacy IRM and privacy systems annual run-rate|
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-irm.md)
+

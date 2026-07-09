@@ -19,7 +19,7 @@ Generate summaries, frequently asked questions \(FAQs\), or ask questions to ret
 
 ## Before you begin
 
--   The smart documents skill must be activated. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+-   The smart documents skill must be activated. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 -   Your role and relevant tables must be configured to use this feature. For more information, see [Configuring contract summarization for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.md).
 -   The Now Assist panel must be enabled. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Role required: sn\_cm\_core.contract\_fulfiller

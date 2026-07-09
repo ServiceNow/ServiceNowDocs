@@ -37,3 +37,10 @@ You can view all cases and the service status from the last 30 days as well as a
 4.  To create a case directly from the install base details, select **Create Case**.
 
 
+**Related topics**  
+
+
+[Create a case for install base from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-install-base-business-portal.md)
+
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-business-portal.md)
+

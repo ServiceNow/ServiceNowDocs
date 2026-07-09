@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-22"
 reading_time_minutes: 4
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -53,9 +53,9 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 
     2.  Set **Protocol** to: **https**.
 
-    3.  In the ServiceNow instance, create a user account or identify an existing ServiceNow user for this integration.
+    3.  In the ServiceNow instance, create a non-interactive user account or identify an existing non-interactive ServiceNow user for this integration.
 
-        Also ensure the relevant ServiceNow sys\_user is assigned the evt\_mgmt\_integration role. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
+        Assign the user only the `evt_mgmt_integration` role. Configure the password according to the password policy for your ServiceNow instance.
 
     4.  Set **Endpoint** to: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=aws`
 

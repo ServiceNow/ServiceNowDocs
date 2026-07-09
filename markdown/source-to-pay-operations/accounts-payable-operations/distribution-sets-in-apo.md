@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice management, distribution set, invoice automation]
-breadcrumb: [Invoice cost allocation, Create an invoice manually, Work with invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
+breadcrumb: [Invoice cost allocation, Create an invoice manually, Invoice processing overview, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Distribution set in Accounts Payable Operations

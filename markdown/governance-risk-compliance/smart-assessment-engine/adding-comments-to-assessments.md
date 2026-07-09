@@ -1,6 +1,6 @@
 ---
-title: Adding comments to assessments
-description: Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
+title: Add comments to an assessment
+description: In SAE, add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
-# Adding comments to assessments
+# Add comments to an assessment
 
-Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
+In SAE, add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ Add comments and work notes to an assessment to clarify questions or other aspec
     2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
-2.  Select the assessments in which you want to add a comment.
+2.  Open the assessment to which you want to add a comment.
 
 3.  From the contextual sidebar, select the **Comment** icon \[Omitted image "adding-comments.png"\] Alt text:.
 
@@ -45,4 +45,8 @@ Add comments and work notes to an assessment to clarify questions or other aspec
 
     The comment appears in the comment list.
 
+
+## Result
+
+The comment or work note appears in the comment list and is visible to all participants on the assessment.
 

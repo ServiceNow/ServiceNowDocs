@@ -38,7 +38,7 @@ A useful way to think about it:
     Provides the answers.
 
 
-Scope items aren't configured on a template or template category. Scope is assigned at the time the assessment is created — typically through an assessment trigger, a Flow Designer action, or a public API call. Once an assessment is created, responders, reviewers, and administrators can view its scope items but can't add, change, or remove them from the responder experience.
+Scope items aren't configured on a template or template category. Scope is assigned at the time the assessment is created — typically through an assessment trigger, a Flow Designer action, or a public API call. After an assessment is created, responders, reviewers, and administrators can view its scope items but can't add, change, or remove them from the responder experience.
 
 ## Where scope items appear in the assessment
 
@@ -69,7 +69,7 @@ In the assessment header, navigation panel, and section viewer, no more than thr
 
 ## Setting scope items on an assessment
 
-Scope items are set when the assessment instance is created. The supported entry point is Assessment trigger or Flow Designer action. This pass scope items as an input parameter when triggering the assessment.
+Scope items are set when the assessment instance is created. The supported entry point is Assessment trigger or Flow Designer action. These pass scope items as an input parameter when triggering the assessment.
 
 Each scope item is an object with a **table** value \(the source table name\) and a **record** value \(the sys ID of the source record\). Scope items are cascade-deleted when the assessment instance is deleted.
 

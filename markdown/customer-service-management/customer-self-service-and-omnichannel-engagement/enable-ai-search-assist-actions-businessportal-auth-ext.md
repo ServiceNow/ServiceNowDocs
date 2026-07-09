@@ -59,3 +59,8 @@ Role required: web\_service\_admin
 
 **Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-business-portal-auth-external.md)
 
+**Related topics**  
+
+
+[Configure AI Search Assist for authenticated external users in the Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-portal-auth-external-businessportal.md)
+

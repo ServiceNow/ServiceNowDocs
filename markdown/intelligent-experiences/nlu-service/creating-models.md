@@ -7,7 +7,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
 ---
@@ -24,9 +24,9 @@ To start creating models, set your scope to the application scope you want for y
 
 \[Omitted image "creating-models1V.png"\] Alt text: In the Virtual Agent tab of the NLU Homepage, the Create new model button is highlighted.
 
-## New model creation
+## Model creation
 
-When you select the **Create new model** button, a modal opens to display your model creation options. Start by selecting one of the icons:
+When you select the **Create new model** button, a modal opens to display your model creation options. Start by selecting one of the icons \(Use prebuilt model, Import data from a CSV, Start from blank\):
 
 -   [Create an NLU model using a pre-built model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-prebuilt.md): Copy a prebuilt model and its contents as a starting point for your new model.
 -   [Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md): Upload a CSV file containing a list of intents and corresponding utterances.

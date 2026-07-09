@@ -88,7 +88,7 @@ Update System Fields
 
 </td><td>
 
-Select if you want to automatically update system fields such as **Updated by**.
+Select if you want to automatically update [system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) such as **Updated by**.
 
 </td></tr><tr><td>
 

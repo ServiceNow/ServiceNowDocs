@@ -212,7 +212,7 @@ The map displays a service instance as a tree.
 
  \[Omitted image "MapAddOptionsSpanningTreeOn.png"\] Alt text: Map showing an service instance in the spanning tree view.
 
- To view actual connections, point to a CI. For more information on viewing connections, see [View CI connection attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
+ To view actual connections, point to a CI. For more information on viewing connections, see [View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
 
 </td><td>
 

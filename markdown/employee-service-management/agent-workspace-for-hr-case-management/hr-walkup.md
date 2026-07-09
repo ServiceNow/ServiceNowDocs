@@ -1,6 +1,6 @@
 ---
 title: HR Walk-up
-description: The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.Use HR walk-up to support HR requests raised by deskless workers.
+description: HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.Use HR walk-up to support HR requests raised by deskless workers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-walkup.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # HR Walk-up
 
-The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.
+HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.
 
 **Note:** The HR Walk-up feature is available when the Walk-up Experience \(com.snc.walkup\) and Employee Center Pro \(sn\_ex\_sp\_pro\) plugins are installed.
 

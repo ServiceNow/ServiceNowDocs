@@ -18,7 +18,7 @@ The customer data model for B2B2C supports complex business models with multi-le
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-## Overview of B2B2C data model
+## Overview of data models
 
 Organizations have complex business models with multi-level relationships. These complex structures often exist between an organization and the end consumers. In the B2B model, while organizations do business directly with other organizations \(business customers\), the users of the service provided can be different. A user can be a direct customer \(B2C\), or a business customers' customer \(B2B2C\), or a business customer's employee \(B2B2E\).
 

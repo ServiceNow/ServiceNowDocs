@@ -17,9 +17,10 @@ Query Generation explicitly does not support some field types.
 ## Unsupported field types
 
 -   Variables
--   Glide List
 -   Tags
 -   Domain Path
+
+Reference fields are supported, but the referenced table must be included in the semantic layer. For example, a user query on caller\_id.department succeeds only if the Department table is in the semantic layer.
 
 **Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
 

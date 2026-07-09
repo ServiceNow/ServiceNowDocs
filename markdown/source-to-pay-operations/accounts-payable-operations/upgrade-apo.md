@@ -50,6 +50,8 @@ functionalignParentUseCaseSysIds(oldReadOnlyUseCaseSysId,newReadOnlyUseCaseSysId
 
     -   Use cases configured for Invoice processing flow in Accounts Payable Operations integration with Document Intelligence scope `[sn_ap_ic]` only will get upgraded.
     -   Use cases will be upgraded if there is at least one trained task that are manually trained by the user from Document Intelligence Workspace.
-    Use cases are upgraded with latest model.
 
+## Result
+
+Use cases are upgraded with latest model.
 

@@ -1,18 +1,18 @@
 ---
 title: Manage Impact Delivery Instance users
-description: Impact admins can create, view, and manage their users with Impact User Management.
+description: Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/ide-user-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Setup for the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Impact Delivery Instance users
 
-Impact admins can create, view, and manage their users with Impact User Management.
+Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: Impact admin
 
 1.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
-2.  Select **Add new user**.\[Omitted image "add-new-user.png"\] Alt text: Displays the Impact role designation screen.
+2.  Select **Add new user**.
 
 3.  Enter the relevant information including:
 
@@ -37,15 +37,27 @@ Role required: Impact admin
 
     The new user is created.
 
+5.  Edit or remove user permissions
+6.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
--   **[Edit a role for an Impact user in the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/edit-impact-user.md)**  
-Update a role for an Impact user role after the initial assignment in the Impact Delivery Instance.
--   **[Remove Impact user permissions in the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/remove-impact-user-permissions.md)**  
-Remove permissions that you've assigned to an Impact user if that user should no longer have access to the Impact Delivery Instance.
+7.  Select **View all users**.
 
-**Parent Topic:**[Configure the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+8.  Enter the users name into the **Search users** field.
 
-**Previous topic:**[Configure the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+9.  Select **Actions** &gt; **Edit role\(s\)**.
 
-**Next topic:**[Edit a role for an Impact user in the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/edit-impact-user.md)
+10. Edit the user role and access accordingly.
+
+    Set the user role to **None** to remove IDI access.
+
+11. Select **Confirm**.
+
+    -   A confirmation message displays then you are returned to the company users page.
+    -   An email will be sent to the user with information on how to log in to Impact.
+
+**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+
+**Previous topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-idi.md)
+
+**Next topic:**[Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/idi-roles.md)
 

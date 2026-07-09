@@ -42,7 +42,7 @@ You can relate your physical locations to your network sites in TNI so that you 
 
     You can view the sites that you manage by going to **Sites** &gt; **My Sites**.
 
-    **Note:** You can also access the Total Sites list by clicking the **Total sites** or **In maintenance sites** counts in the Network sites overview widget in the Network Inventory Workspace landing page. To learn more, see [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
+    **Note:** You can also access the Total Sites list by clicking the **Total sites** or **In maintenance sites** counts in the Network sites overview widget in the Network Inventory Workspace landing page. To learn more, see [Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
 
 3.  Click **New**.
 

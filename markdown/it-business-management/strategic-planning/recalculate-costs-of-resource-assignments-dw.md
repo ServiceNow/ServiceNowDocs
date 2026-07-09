@@ -9,7 +9,7 @@ classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create and manage resource assignments, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Recalculate costs of resource assignments of a demand
@@ -68,7 +68,7 @@ End date of the time period for which the costs are recalculated.By default, the
 </td></tr></tbody>
 </table>7.  Select **OK**.
 
-    **Note:** Alternatively, you can recalculate the resource costs using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+    **Note:** Alternatively, you can recalculate the resource costs using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 
 ## Result
@@ -80,9 +80,7 @@ End date of the time period for which the costs are recalculated.By default, the
 **Related topics**  
 
 
-[Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
 [Create resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-resource-assignment-form-dw.md)
 

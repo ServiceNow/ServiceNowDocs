@@ -20,27 +20,27 @@ The ServiceNow® Critical Event Management \(CEM\) application enables streamlin
 
 <table id="table_rjp_2pz_zcc" class="nav-card presentation"><tbody><tr><td>
 
-[Exploring Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/explore-critical-event-management.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn how agents, on-site responders, and employees use the Critical Event Management application.
+[Exploring Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/explore-critical-event-management.md)Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how agents, on-site responders, and employees use the Critical Event Management application.
 
 </td><td>
 
-[Configuring Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Critical Event Management workspace.
+[Configuring Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management.md)Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Critical Event Management workspace.
 
 </td><td>
 
-[Reporting critical events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/reporting-critical-event.md)\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Report critical events as an agent or an employee.
+[Report critical events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/reporting-critical-event.md)Report\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Report critical events as an agent or an employee.
 
 </td></tr><tr><td>
 
-[Sending notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/notify-impacted-people.md)\[Omitted image "bus-email.svg"\] Alt text:Send critical event notification to impacted people and on-site responders.
+[Send notifications during a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/notify-impacted-people.md)Notifications\[Omitted image "bus-email.svg"\] Alt text:Send critical event notification to impacted people and on-site responders.
 
 </td><td>
 
-[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Manage impacted people, view or update their status.
+[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)Impacted people\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Manage impacted people, view or update their status.
 
 </td><td>
 
-[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-related-records.md)\[Omitted image "bus-log-store.svg"\] Alt text:Manage critical event tasks, create Health and Safety incidents, and relate child critical events.
+[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-related-records.md)Related records\[Omitted image "bus-log-store.svg"\] Alt text:Manage critical event tasks, create Health and Safety incidents, and relate child critical events.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ The ServiceNow® Critical Event Management \(CEM\) application enables streamlin
 
 </td><td>
 
-[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)Get detailed description of the forms used in critical event management.
+[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed description of the forms used in critical event management.
 
 </td><td>
 

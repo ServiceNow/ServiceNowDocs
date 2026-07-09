@@ -39,3 +39,10 @@ You can view all cases and the service status from the last 30 days as well as a
 4.  You can also create a case directly from the install base details.
 
 
+**Related topics**  
+
+
+[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-install-base.md)
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewAssetAndProductInformation.md)
+

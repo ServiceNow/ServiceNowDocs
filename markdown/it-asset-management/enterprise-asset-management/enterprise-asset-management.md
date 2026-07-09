@@ -9,18 +9,16 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Asset Management]
 ---
 
 # Enterprise Asset Management
 
 Enterprise Asset Management is a business application that manages the entire life cycle of your enterprise connected and non connected assets.
 
-Watch this short video for an introduction to the Enterprise Asset Management application.
-
 The Enterprise Asset Management application provides a comprehensive and end to end solution for maintaining your assets, minimizing costly downtime, and maximizing the asset usable life.
 
-You can also listen to the Enterprise Asset Management TechBytes podcast on the [ServiceNow Community](https://www.servicenow.com/community/community-resources/servicenow-techbytes-podcasts/ta-p/2305455).
+For additional information on the Enterprise Asset Management application, you can listen to the ServiceNow Insights Podcasts in the [ServiceNow Community](https://www.servicenow.com/community/community-resources/servicenow-techbytes-podcasts/ta-p/2305455).
 
 ## Get started
 

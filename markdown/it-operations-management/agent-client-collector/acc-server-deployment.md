@@ -18,7 +18,7 @@ When deploying the Agent Client Collector, perform deployment and management tas
 
 Server deployment uses MID Servers to connect your agents to a ServiceNow instance. Agents deployed on data center servers open WebSocket connections to your MID Servers, which relay data to your instance. You manage the sizing, certificates, and load balancing of the MID Server.
 
-Use server deployment when your agents are in controlled environments such as data centers, where you are already running MID Servers and want to keep traffic on your network. Agent Client Collector Monitoring \(ACC-M\) and Agent Client Collector Log Analytics \(ACC-L\) require server deployment, and you can deploy Agent Client Collector for Visibility - Content \(ACC-VC\) with servers as well.
+Use server deployment when your agents are in controlled environments such as data centers, where you are already running MID Servers and want to keep traffic on your network. Agent Client Collector Monitoring \(ACC-M\) and Agent Client Collector Log Analytics \(ACC-L\) require server deployment, and you can deploy Agent Client Collector for Visibility Content \(ACC-VC\) with servers as well.
 
 -   **[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)**  
 Configure the Agent Client Collector with a MID Server to enable communication between network servers and the ServiceNow instance.
@@ -51,11 +51,11 @@ Activate the Azure policies that come with the Agent Client Collector base syste
 -   **[Use the Agent Client Collector Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-health-dashboard.md)**  
 The Agent Client Collector Health Dashboard enables you to monitor the status of the agents in your system.
 -   **[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)**  
-Discover CIs in your environment by using Agent Client Collector for Visibility - Content \(ACC-VC\) Discovery. ACC-VC works with both horizontal IP-based Discovery, and you can also use push-based Discovery.
+Discover CIs in your environment by using Agent Client Collector for Visibility Content \(ACC-VC\) Discovery. ACC-VC works with both horizontal IP-based Discovery, and you can also use push-based Discovery.
 -   **[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-setup.md)**  
 Configure Agent Client Collector Log Analytics on your ServiceNow instance either with or without using guided setup.
--   **[Collect web usage data using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md)**  
-Track website visits across your organization and gain visibility into web applications your users access using Agent Client Collector for Visibility - Content \(ACC-VC\).
+-   **[Collect web usage data using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md)**  
+Track website visits across your organization and gain visibility into web applications your users access using Agent Client Collector for Visibility Content \(ACC-VC\).
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md)
 

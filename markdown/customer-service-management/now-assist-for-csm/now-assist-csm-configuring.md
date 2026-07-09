@@ -75,10 +75,9 @@ Call summarization
 </td></tr></tbody>
 </table>**Note:**
 
--   Now LLM Service is currently the only provider for this Now Assist application's skills.
-
+-   Learn how to select an LLM provider to configure all Now Assist skills at once. Your choice controls the intelligence layer for the entire capability. For more info, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)and [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 -   The minimum version of the workspace required to support Now Assist for CSM features:
-    -   CSM and FSM Configurable Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
+    -   CSM Configurable Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
 
     -   CSM Configurable Workspace \(sn\_csm\_wrkspc\): 24.2.0.
 

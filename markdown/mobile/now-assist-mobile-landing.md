@@ -29,7 +29,7 @@ Use ServiceNow® Now Assist for Mobile platform to summarize case information, g
 [Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 
 </td></tr></tbody>
-</table>**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+</table>**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 

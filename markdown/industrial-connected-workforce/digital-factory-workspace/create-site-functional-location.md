@@ -1,6 +1,6 @@
 ---
-title: Create a functional location of the type site
-description: Create a location for your user to be able to work with the Industrial Connected Workforce \(ICW\).
+title: Create a site functional location
+description: Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Prerequisites, Configure, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
-# Create a functional location of the type site
+# Create a site functional location
 
-Create a location for your user to be able to work with the Industrial Connected Workforce \(ICW\).
+Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_icw.application\_admin
 
 ## About this task
 
-The location is the site. Every user must set their location in the user profile to be able to work with ICW. In addition, the filter on task forms works based on the location.
+The location is the site. Users must set their location in the user profile to be able to work with ICW. In addition, the filter on task forms works based on the location.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ The location is the site. Every user must set their location in the user profile
 
     3.  On the Equipment Model Entity form, enter the details.
 
-        Make sure that you select [ISA 95 Default Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-templates.md) for the template and Site for the level.
+        Select [ISA 95 Default Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-templates.md) for the template and Site for the level.
 
     4.  Select **Save**.
 
@@ -52,9 +52,9 @@ The location is the site. Every user must set their location in the user profile
 
     1.  Navigate to the location record associated with the site of the functional location.
 
-    2.  In the **Timezone** field, select the timezone that corresponds to the factory's physical location.
+    2.  In the **Timezone** field, select the timezone that corresponds to the physical location of the factory.
 
-    3.  Save the location record.
+    3.  Select **Save**.
 
 
 ## Result

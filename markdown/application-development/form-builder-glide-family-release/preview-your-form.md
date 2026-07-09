@@ -43,10 +43,6 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 6.  Select **Preview** to review your saved changes.
 
-    The Preview window displays a record for your form. The Workspace form view is shown in the example.
-
-    \[Omitted image "fb-preview-form.png"\] Alt text: Preview of Workspace form view.
-
 7.  You can perform any of the following actions as you review your changes to better understand how your form will display for users.
 
     -   When previewing a form, you can search for a new record to populate your form with by clicking the New record icon \(\[Omitted image "fb-new-record.png"\] Alt text: New record icon.\). This will also let you add a new record if none exist so you can really see what the form will look like.

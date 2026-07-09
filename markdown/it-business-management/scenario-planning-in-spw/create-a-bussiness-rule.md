@@ -1,5 +1,5 @@
 ---
-title: Create a business rule to apply a custom table map configuration
+title: Create a business rule for custom table map configuration
 description: Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Create a table map, Create custom mapping configurations, Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a business rule to apply a custom table map configuration
+# Create a business rule for custom table map configuration
 
 Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
 

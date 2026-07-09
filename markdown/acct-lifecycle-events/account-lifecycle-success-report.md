@@ -38,8 +38,6 @@ The Success report page contains the following tabs:
 -   [Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Provides details on customer progress on onboarding and product adoption.
 -   [Renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown): Lists key metrics related to revenue growth opportunities and contract renewals.
 
-\[Omitted image "account-lifecycle-success-report.png"\] Alt text: success report landing page.
-
 ## Overview \(Success report\)
 
 This tab provides a high-level overview of the success portfolio. You can select any of the sections in this page to drill down to the Details page. It includes the following details:

@@ -24,7 +24,7 @@ Role required: admin
 
 Use the Now Assist Admin console to configure Now Assist for EA. While all Now Assist for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -36,7 +36,7 @@ The following table lists the features and skills that you can access from the N
 |Form fields associated with business applications, business capabilities, business processes, value stream stages, and information objects|Refine text \(Enterprise Architecture Workspace\)|
 |Business process map diagrams|Create diagram from image \(Enterprise Architecture Workspace\)|
 
-**Note:** Now LLM Service is the default provider for this Now Assist application's skills.
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 The Now Assist for Enterprise Architecture \(EA\) system requirements are as follows:
 
@@ -59,15 +59,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d35139e351">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d35204e353">
 
 Skill
 
-</th><th align="left" id="d35139e354">
+</th><th align="left" id="d35204e356">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d35139e360">
+</th></tr></thead><tbody><tr><td id="d35204e362">
 
 **ADR Doc Summarization and Actions**
 
@@ -78,7 +78,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d35139e391">
+</td></tr><tr><td id="d35204e393">
 
 **Business application insights**
 
@@ -125,7 +125,7 @@ The You are making a copy of a skill dialog box appears.
     6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d35139e605">
+</td></tr><tr><td id="d35204e607">
 
 **Diagram change analysis**
 
@@ -150,7 +150,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d35139e694">
+</td></tr><tr><td id="d35204e696">
 
 **Refine text**
 
@@ -160,7 +160,7 @@ The diagram change analysis skill is activated.
 2.  Select **Define access** and go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d35139e719">
+</td></tr><tr><td id="d35204e721">
 
 **Create diagram from image**
 

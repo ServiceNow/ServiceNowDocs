@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -20,13 +20,19 @@ You can create a standard change request from the published standard change cata
 
 Role required: itil, admin, or sn\_change\_write
 
+## About this task
+
+A standard change is a repeatable, pre-approved template in the standard change catalog. Change requests created from the standard change template do not require change approval.
+
+To create a change request from a pre-approved template, follow the procedure below.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Standard Change** &gt; **Standard Change Catalog**.
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d280359e73">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d281140e82">
 
 **Network Standard Changes**
 
@@ -34,7 +40,7 @@ Role required: itil, admin, or sn\_change\_write
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d280359e82">
+</td></tr><tr><td id="d281140e91">
 
 **Server Standard Changes**
 

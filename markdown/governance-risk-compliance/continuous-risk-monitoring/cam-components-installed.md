@@ -9,14 +9,14 @@ classification: continuous-risk-monitoring
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Components installed with Continuous Authorization and Monitoring
 
 Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.
 
-**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 
 ## Continuous Authorization and Monitoring system properties
 

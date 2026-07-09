@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Use the Scratchpad to complete your request fulfillment tasks

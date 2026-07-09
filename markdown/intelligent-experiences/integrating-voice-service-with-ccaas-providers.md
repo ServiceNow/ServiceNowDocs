@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -76,11 +76,31 @@ Genesys uses the Audio Connector integration and the WebSocket channel type. Aft
 |Client ID|Read-only. Generated client ID to authenticate requests from 3CLogic to the voice assistant. Copy this value to your 3CLogic account.|
 |Client Secret|Read-only. Generated client secret to authenticate requests from 3CLogic to the voice assistant. Copy this value to your 3CLogic account.|
 
-## Web Real-Time Communication \(WebRTC\)
+## Five9 \(SIP\)
 
-The **Web Real-Time Communication \(WebRTC\)** tab connects the voice assistant to mobile applications.
+|Field|Description|
+|-----|-----------|
+|Transfer method|Read-only. Set to **BYE** for Five9.|
+|ServiceNow SIP Trunk information|Read-only. The ServiceNow SIP fully qualified domain name \(FQDN\) for your region, used to route calls from Five9 to the voice assistant. For configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).|
+|x-snc-param|Read-only. Generated token to send to your Five9 account to authenticate requests to the voice assistant.|
 
-For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
+## NICE CXone \(SIP\)
+
+NICE CXone uses the SIP channel type. Enter the NICE API credentials from your CXone account, then use the generated ServiceNow SIP Trunk information to configure the SIP trunk in CXone.
+
+|Field|Description|
+|-----|-----------|
+|API endpoint|The CXone API base URL. Must be a valid NICE domain, such as `https://cxone.niceincontact.com` or `https://cxone-gov.niceincontact.com`.|
+|Token endpoint|The CXone OAuth token URL used to generate authentication tokens. Must be a valid NICE domain.|
+|Client ID|The OAuth client ID from your CXone account.|
+|Client Secret|The OAuth client secret from your CXone account.|
+
+|Field|Description|
+|-----|-----------|
+|Transfer number/address|SIP URI or phone number to transfer the call to your CXone service. Use the format `user@domain`.|
+|Transfer method|Read-only. Set to **REFER** for CXone.|
+|ServiceNow SIP FQDN|Read-only. The ServiceNow SIP fully qualified domain name \(FQDN\) for your region, used to route calls from CXone to the voice assistant. For configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).|
+|x-snc-param|Read-only. Generated token to send to your CXone account to authenticate requests to the voice assistant.|
 
 -   **[Integrate ServiceNow voice assistant with Twilio voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-twilio.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow AI voice assistant with the Twilio voice service.
@@ -94,6 +114,8 @@ Enable users to get support from AI voice agents by integrating a ServiceNow AI 
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Amazon Connect.
 -   **[Integrate ServiceNow voice assistant with Five9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-five9.md)**  
 Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Five9 voice service.
+-   **[Integrate ServiceNow voice assistant with NICE CXone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-service-with-nice.md)**  
+Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with NICE CXone.
 
 **Parent Topic:**[Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md)
 

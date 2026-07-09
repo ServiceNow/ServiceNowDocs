@@ -8,8 +8,8 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 3
+breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create and manage enterprise assets
@@ -74,6 +74,4 @@ View the hierarchy details of a multi-component asset in a tree-like format in t
 Use the Asset task time summary report to see the details of the time spent on all tasks for an asset and its child assets, grouped by task category.
 -   **[Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md)**  
 Gain insights into the overall operational efficiency of your organization's enterprise assets by using the asset performance reports available in the Asset analytics view.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Sending an email in Agent Workspace for HR Case Management
-description: Send any communication related to HR cases with attached documents using the Send email feature. Minimise typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
+description: Send any communication related to HR cases with attached documents using the Send email feature. Minimize typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/send-email-aws.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # Sending an email in Agent Workspace for HR Case Management
 
-Send any communication related to HR cases with attached documents using the Send email feature. Minimise typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
+Send any communication related to HR cases with attached documents using the Send email feature. Minimize typing errors by auto-populating the email address of the subject person \(of the case\) in the email.
 
 ## Before you begin
 
@@ -26,13 +26,13 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Select a case for which you want to send an email.
 
-    **Note:** If you want to directly send the document in a case as an email, click the **Send Email** button on the case tab.
+    **Note:** If you want to directly send the document in a case as an email, select the **Send Email** button on the case tab.
 
-3.  Click the \[Omitted image "more-icon.png"\] Alt text: More Actions icon icon at the top right hand corner of the tab.
+3.  Select the \[Omitted image "more-icon.png"\] Alt text: More Actions icon icon at the top right hand corner of the tab.
 
     -   For the **Verification of Employment service** HR service, fill in the **Document template category**, **Document template**, **Subject person** fields.
     -   For the **Employee Verification Letter** HR service, fill in the **Document type**, **PDF template**, **Subject person** fields.
-    Click **Preview document**. In the window, click **Generate**. A document is generated and added as an attachment to the case.
+    Select **Preview document**. In the window, select **Generate**. A document is generated and added as an attachment to the case.
 
 4.  Select **Compose Email**.
 
@@ -46,10 +46,10 @@ Role required: sn\_hr\_core.case\_writer
 
     You can use Response template for the content on the email.
 
-7.  Click **Send Email**.
+7.  Select **Send Email**.
 
     An email with the generated document is sent to the intended recipient.
 
-    Click **Save as draft**, if you are not ready to send the email yet.
+    Select **Save as draft**, if you aren't ready to send the email yet.
 
 

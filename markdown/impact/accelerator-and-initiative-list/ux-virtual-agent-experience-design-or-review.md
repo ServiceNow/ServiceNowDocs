@@ -1,6 +1,6 @@
 ---
 title: UX: Virtual Agent Experience Design or Review
-description: This accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+description: This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Virtual Agent, UX Design, Conversation Design, Now Assist, User Experience]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Virtual Agent Experience Design or Review
 
-This accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
 
 ## Accelerator Overview
 

@@ -1,6 +1,6 @@
 ---
 title: Audit purchase lines automatically when predictive fields change
-description: Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a service request or purchase requisition, flagging inconsistencies without automatically updating category fields.
+description: Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a sourcing request or purchase requisition, flagging inconsistencies without automatically updating category fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.html
 release: australia
@@ -9,16 +9,16 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Automatically assign categories, Explore, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Automatically assign categories, Explore, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Audit purchase lines automatically when predictive fields change
 
-Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a service request or purchase requisition, flagging inconsistencies without automatically updating category fields.
+Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a sourcing request or purchase requisition, flagging inconsistencies without automatically updating category fields.
 
-When key predictive fields in a service request \(SR\) or purchase requisition \(PR\) are updated, the Spend categorization agent runs an automated audit to compare the existing categories with the latest AI prediction. Key predictive fields include Product name, Supplier, Supplier product, Purchase reason, and Short description.
+When key predictive fields in a sourcing request \(SR\) or purchase requisition \(PR\) are updated, the Spend categorization agent runs an automated audit to compare the existing categories with the latest AI prediction. Key predictive fields include Product name, Supplier, Supplier product, Purchase reason, and Short description.
 
-When key predictive fields are updated in a Service Request \(SR\) or Purchase Request \(PR\), the Spend category and Product category fields are automatically populated with AI‑predicted values. A warning message appears on the PRL form informing users to review the AI‑predicted values for accuracy before saving them.
+When key predictive fields are updated in a sourcing request \(SR\) or purchase requisition \(PR\), the Spend category and Product category fields are automatically populated with AI‑predicted values. A warning message appears on the PRL form informing users to review the AI‑predicted values for accuracy before saving them.
 
 \[Omitted image "spend-product-category-notifications.png"\] Alt text: Purchase request form showing AI prediction warning message and Spend category field populated with "Servers".
 

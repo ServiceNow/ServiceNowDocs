@@ -70,8 +70,9 @@ Node type
 
 </td><td>
 
-Select either of the following options as a node type: -   Image node container
--   Image node container with connectors
+Select the node type that defines how the shape behaves on the canvas: -   **Image node container** — Use for standalone visual shapes with no entity data.
+-   **Image node container with connectors** — Use for standalone visual shapes that support connector lines.
+-   **CI Item** — Use when you want the shape to display a properties side panel showing data from a platform entity. Requires an entity configuration to be mapped to the shape library element.
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Customize the planning item display preferences for Prioritization and Roadmap
+title: Customize planning item display preferences for roadmaps
 description: Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Customize the planning item display preferences for Prioritization and Roadmap
+# Customize planning item display preferences for roadmaps
 
 Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
 

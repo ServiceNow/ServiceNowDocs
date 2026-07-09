@@ -228,7 +228,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Use one of the following methods to move an event.
 
-<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d76047e628">
+<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d76300e628">
 
 **Click an event and drag it to a new day or time**
 
@@ -236,7 +236,7 @@ Role required: agent\_schedule\_user
 
 The **When** and **To** fields in the event record are updated with the new information.
 
-</td></tr><tr><td id="d76047e643">
+</td></tr><tr><td id="d76300e643">
 
 **Double-click an event to open the event record**
 

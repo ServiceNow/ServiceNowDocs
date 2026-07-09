@@ -24,8 +24,8 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 **Note:**
@@ -40,8 +40,8 @@ ServiceNow® Activity Management helps customer-focused teams to plan, execute, 
 The ServiceNow® Advanced Approval Management application enables you to define workflows for approving Sales Customer Relationship Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
 -   **[Buying Group release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/buying-group-rn.md)**  
 The ServiceNow® Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
--   **[CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cpq-transaction-manager-rn.md)**  
-CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
+-   **[ServiceNow CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/cpq-transaction-manager-rn.md)**  
+ServiceNow CPQ is a configuration engine that acts as the "C" in Configure, Price, Quote. It uses an attribute-based approach to simplify complex product logic. The engine delivers dynamic blueprints, real-time user interfaces, and a Commerce Logic Engine that generates accurate outputs like bills of materials.
 -   **[Customer Engagement Sequences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-engagement-sequences-rn.md)**  
 The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities to engage customers throughout the time they're associated with your business. Customer Engagement Sequences was enhanced and updated in the Australia release.
 -   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-self-service-som-rn.md)**  
@@ -49,7 +49,7 @@ The ServiceNow® Business Portal application enables your B2B customers to place
 -   **[Lead Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lead-management-rn.md)**  
 The ServiceNow® Lead Management application enables your sales agents and sales development representatives to create leads and nurture them into opportunities. Lead Management was enhanced and updated in the Australia release.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/opportunity-management-rn.md)**  
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. Opportunity Management was enhanced and updated in the Australia release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
 -   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/order-management-rn.md)**  
 The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Order Management was enhanced and updated in the Australia release.
 -   **[Quote Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/quote-management-rn.md)**  

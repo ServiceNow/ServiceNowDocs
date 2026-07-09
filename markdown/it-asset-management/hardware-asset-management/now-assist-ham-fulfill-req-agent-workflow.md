@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Now Assist for Hardware Asset Management \(HAM\) AI agent collection Help manage hardware asset requests agentic workflow

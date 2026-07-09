@@ -29,7 +29,7 @@ Supplier can choose to view the following Virtual agent flows.
 
 ## Check invoice status
 
-The supplier provides an invoice number and the virtual agent displays the status of the invoice. The invoice status is a clickable link, which navigates suppliers to view invoice case details. For more details about the invoice, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
+The supplier provides an invoice number and the virtual agent displays the status of the invoice. The invoice status is a clickable link, which navigates suppliers to view invoice case details. For more details about the invoice, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 The chatbot prompts the supplier to perform the following.
 
@@ -50,7 +50,7 @@ The supplier provides an invoice number and the virtual agent displays the statu
 
 The supplier can choose to create an inquiry case related to the invoice using the **Create inquiry** link. The **Create inquiry** link enables suppliers to choose the type of inquiry case. Suppliers use **Add new comment** to add comments related to the inquiry.
 
-For more information on creating inquiry case, see [Submit Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).
+For more information on creating inquiry case, see [Submit an Invoice Inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.md).
 
 ## Prechat Survey
 

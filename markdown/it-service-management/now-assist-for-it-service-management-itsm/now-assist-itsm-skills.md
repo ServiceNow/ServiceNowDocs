@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 14
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -21,7 +21,7 @@ Get a quick overview of the skill inputs and triggers for Now Assist for IT Serv
 
 Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an incident summary. A trigger initiates an action, such as when the system generates a chat summary.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Incident sentiment analysis skill
 
@@ -831,6 +831,60 @@ Input fields
 -   Model type
 -   Similar change requests and the incidents caused by those changes
 -   Risk condition that was met
+
+</td></tr></tbody>
+</table>## Change risk assessment answer generator skill
+
+The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
+
+You can customize this skill's input data sources and the change request fields it reads. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+
+The following table lists the triggers for the change risk assessment answer generator skill.
+
+|Trigger|Description|
+|-------|-----------|
+|Generate Answers|Selected in the **Generate Risk Assessment Using Now Assist** dialog. Open the dialog by selecting **Risk Assessment** under **Related Links** in Core UI, or by selecting **Assess Risk** in the **Risk Evaluation** section in Service Operations Workspace for ITSM \(version 9.2 or later\).|
+
+The following table lists the inputs for the change risk assessment answer generator skill.
+
+<table id="table_change_risk_answer_generator_inputs"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+change\_request
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+A fixed set of fields from the change request record. To view or change which fields are included, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+
+</td></tr><tr><td>
+
+Related data sources
+
+</td><td>
+
+Records from the following default **AI Risk Data Sources**: -   Related Affected CIs for change request
+-   Related Impacted Services for change request
+-   Related Impacted Business Applications for change request
+-   Related Service Offerings for change request
+-   Active change tasks linked to change request
+-   Outages linked to change request
+
+ You can create, modify, or deactivate data sources. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
 
 </td></tr></tbody>
 </table>## Request summarization skill

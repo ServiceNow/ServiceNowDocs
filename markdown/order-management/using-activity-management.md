@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-activity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 keywords: [use]
 breadcrumb: [Lead and opportunity apps, Use, Sales Customer Relationship Management]
@@ -30,6 +30,10 @@ Activity Management enables you to log and track every customer interaction acro
 -   **Capture email interactions without leaving Outlook**
 
     CRM data stays current without requiring agents to switch between applications. If your team works in Microsoft Outlook, use the ServiceNow CRM for Outlook add-in to associate inbound emails and create new leads and contacts directly from your inbox.
+
+-   **Auto-associate sales emails**
+
+    An agentic AI workflow analyzes inbound emails, identifies sales intent, and finds an existing CRM record to associate the email, all as a background process, reducing manual effort. Sales representatives use the ServiceNow CRM for Outlook add-in only when an email they expected to be linked is not auto-associated or when they want to create a record.
 
 
 -   **[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint.md)**  

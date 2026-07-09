@@ -1,34 +1,34 @@
 ---
 title: Explore Access Control Lists
-description: Explore Access Control Lists \(ACLs\).
+description: Explore access control lists \(ACLs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-23"
 reading_time_minutes: 10
-breadcrumb: [Access Control List Rules, Access Management]
+breadcrumb: [Access Control Lists, Access Management]
 ---
 
 # Explore Access Control Lists
 
-Explore Access Control Lists \(ACLs\).
+Explore access control lists \(ACLs\).
 
-All access control list rules specify:
+All access control lists specify:
 
 -   The decision type, rule type and operation which defines the ACL
 -   The object being secured
 -   The conditions required to access the object
 
-## Components of ACL
+## Components of an ACL
 
-The decision type defines whether users are allowed to access the object if conditions are met or denies access the object unless conditions are met.
+The decision type defines whether users are allowed to access the object if conditions are met, or denies access to the object unless conditions are met.
 
 |Decision type|Description|
 |-------------|-----------|
-|Deny-Unless|Restrict access to resource by explicitly denying access unless conditions are passed. See [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.|
+|Deny-Unless|Restrict access to resource by explicitly denying access unless conditions are passed. See [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) for more information.|
 |Allow-If|Allow access to resource if conditions are passed.|
 
 The object is the target to which access needs to be controlled. Each object consists of a type and name that uniquely identifies a particular table, field, or record. With the Applies-to field users have granular control over which specific records this ACL will apply to.
@@ -109,7 +109,7 @@ For example, all these entries specify an operation:
 The conditions specify when someone can access the named object and operation. Security administrators can specify condition requirements by adding:
 
 -   One or more user roles to the **Requires role** list.
--   One or more security attributes need to be evaluated to be true.
+-   One or more security attributes must be evaluated to be true.
 -   One or more data conditions.
 -   A script that evaluates to true or false or sets the `answer` variable to true or false.
 
@@ -152,30 +152,30 @@ If the system detects the user creating an ACL it will prompt the user to select
 
 ## ACL evaluation process
 
-An ACL rule only grants a user access to an object if the user meets all conditions required by the matching ACL rule.
+An ACL only grants a user access to an object if the user meets all conditions required by the matching ACL.
 
 -   The condition must evaluate to true.
 -   The script must evaluate to true or return an answer variable with the value of true.
 -   The user must have one of the roles in the required roles list. If the list is empty, this condition evaluates to true.
--   \[Record ACL rules only\] The matching table-level and field-level ACL rules must both evaluate to true.
+-   \[Record ACLs only\] The matching table-level and field-level ACLs must both evaluate to true.
 
 \[Omitted image "AclEvaluatePermissions2.png"\] Alt text: ACL evaluate conditions
 
-Whenever a session requests data, the system searches for access control rules that match the requested object and operation. If there’s a matching access control rule, then the system evaluates if the user has the conditions required to access the object and operation. If an access control rule specifies more than one condition, then the user must meet all conditions to gain access to the object and operation. Failing any one condition check prevents the user from accessing the matching object and operation.
+Whenever a session requests data, the system searches for access control lists that match the requested object and operation. If there’s a matching access control list, then the system evaluates if the user has the conditions required to access the object and operation. If an access control list specifies more than one condition, then the user must meet all conditions to gain access to the object and operation. Failing any one condition check prevents the user from accessing the matching object and operation.
 
-If a user does not meet the conditions of the first matching rule, the system evaluates the conditions of the next matching access control rule as specified by the access control processing order. If the user fails to meet the conditions of any matching access control rule, the system denies access to the requested object and operation.
+If a user does not meet the conditions of the first matching ACL, the system evaluates the conditions of the next matching ACL as specified by the access control processing order. If the user fails to meet the conditions of any matching ACL, the system denies access to the requested object and operation.
 
-**Note:** If there are no matching access control rules for the requested object and operation, then the system grants the user access to it. In practice, it is rare for the system to find no matching rules because the system has a set of default access control rules that protect all record operations.
+**Note:** If there are no matching ACLs for the requested object and operation, then the system grants the user access to it. In practice, it is rare for the system to find no matching ACLs because the system has a set of default ACLs that protect all record operations.
 
-The effects of being denied access to an object depend on the ACL rule that the user failed. For example, failing a read operation ACL rule prevents the user from seeing the object. Depending on the object secured, the ACL rule hides a field on a form, hides rows from a list, or prevents a user from accessing a UI page. The following table contains a complete list of results of failing an ACL rule for a given operation and object type.
+The effects of being denied access to an object depend on the ACL that the user failed. For example, failing a read operation ACL prevents the user from seeing the object. Depending on the object secured, the ACL hides a field on a form, hides rows from a list, or prevents a user from accessing a UI page. The following table contains a complete list of results of failing an ACL for a given operation and object type.
 
 ## Pre and post query ACL checks
 
-Your instance checks ACL rules both before and after a user makes a query. Because different information is available before and after a query, results can be different.
+Your instance checks ACLs both before and after a user makes a query. Because different information is available before and after a query, results can be different.
 
 -   **Pre-query ACL check**
 
-    Before your instance runs a database query, it checks the ACL rules for each field in the queried table to determine which fields a user may access. This check only looks at the user's roles, and checks to see if these roles allow access to fields. Because this check runs before the query, the ACL doesn't have access to the records on the table, so it can’t take that data into account. Scripts and conditions that rely on knowing the contents of a record aren’t evaluated.
+    Before your instance runs a database query, it checks the ACLs for each field in the queried table to determine which fields a user may access. This check only looks at the user's roles, and checks to see if these roles allow access to fields. Because this check runs before the query, the ACL doesn't have access to the records on the table, so it can’t take that data into account. Scripts and conditions that rely on knowing the contents of a record aren’t evaluated.
 
     If the user doesn't have read access at this point, the value for the field isn’t shown to the user.
 
@@ -190,7 +190,7 @@ Operation
 
 </th><th>
 
-Results of failing an ACL rule on object
+Results of failing an ACL on object
 
 </th></tr></thead><tbody><tr><td>
 
@@ -305,11 +305,11 @@ Object Type
 
 </th><th>
 
-Matching ACL Rules Required to Access Object
+Matching ACLs Required to Access Object
 
 </th><th>
 
-Existing wild-card ACL Rules
+Existing wild-card ACLs
 
 </th></tr></thead><tbody><tr><td>
 
@@ -317,12 +317,12 @@ Client-callable script includes
 
 </td><td rowspan="2">
 
-Users must meet the conditions of two ACL rules:1.  All wild-card ACL rules for the object \(if any ACL rule exists for the operation\).
-2.  The first ACL rule that matches the object's name \(if any ACL rule exists for the operation\).
+Users must meet the conditions of two ACLs:1.  All wild-card ACLs for the object \(if any ACL exists for the operation\).
+2.  The first ACL that matches the object's name \(if any ACL exists for the operation\).
 
 </td><td rowspan="2">
 
-By default, there are no wild-card \(\*\) rules for these object types. If you create a wild-card ACL rule for one of these objects, then the ACL rule applies to all objects of this type.
+By default, there are no wild-card \(\*\) rules for these object types. If you create a wild-card ACL for one of these objects, then the ACL applies to all objects of this type.
 
 </td></tr><tr><td>
 
@@ -334,41 +334,41 @@ UI pages
 
 </td><td rowspan="2">
 
-Users must meet the conditions of two ACL rules:1.  The first ACL rule that matches the record's field \(if any ACL rule exists for the operation\).
-2.  The first ACL rule that matches the record's table \(if any ACL rule exists for the operation\).
+Users must meet the conditions of two ACLs:1.  The first ACL that matches the record's field \(if any ACL exists for the operation\).
+2.  The first ACL that matches the record's table \(if any ACL exists for the operation\).
 
 </td><td rowspan="2">
 
-By default, there are wild-card table rules \(\*\) for the create, read, write, and delete operations and wild-card field rules \(\*.\*\) for the personalize\_choices, create, and save\_as\_template operations. When you create a table, create ACL rules for the table unless you want to use the provided wild-card ACL rules.
+By default, there are wild-card table rules \(\*\) for the create, read, write, and delete operations and wild-card field rules \(\*.\*\) for the personalize\_choices, create, and save\_as\_template operations. When you create a table, create ACLs for the table unless you want to use the provided wild-card ACLs.
 
 </td></tr><tr><td>
 
 Record
 
 </td></tr></tbody>
-</table>**Note:** The Security manager default behavior \(glide.sm.default\_mode\) property determines whether users can access objects that only match against wild-card table ACL rules. When this property is set to Deny access, only administrators can access objects that match the wild-card table ACL rules.
+</table>**Note:** The Security manager default behavior \(glide.sm.default\_mode\) property determines whether users can access objects that only match against wild-card table ACLs. When this property is set to Deny access, only administrators can access objects that match the wild-card table ACLs.
 
-**Note:** The wild-card field ACL rule \(\*.\*\) for the create operation reuses the same conditions as the write operation. This means that the create conditions are the same as the write conditions unless you define an explicit create operation ACL rule.
+**Note:** The wild-card field ACL \(\*.\*\) for the create operation reuses the same conditions as the write operation. This means that the create conditions are the same as the write conditions unless you define an explicit create operation ACL.
 
-## Multiple ACL rules at the same point in the processing order
+## Multiple ACLs at the same point in the processing order
 
-If two or more rules match at the same point in the processing order, the user must pass any one of the ACL rules conditions to access the object. For example, if you create two field ACL rules for **incident.number**, then a user who passes one rule has access to the number field regardless of whether the user failed any other field ACL rule at the same point in the processing order.
+If two or more ACLs match at the same point in the processing order, the user must pass any one of the ACL conditions to access the object. For example, if you create two field ACLs for **incident.number**, then a user who passes one ACL has access to the number field regardless of whether the user failed any other field ACL at the same point in the processing order.
 
 ## Required role
 
-Normal admin users can view and debug access control rules. However, to create or update existing access control rules, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
+Normal admin users can view and debug access control lists. However, to create or update existing access control lists, administrators must elevate privileges to the security\_admin role. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) for instructions.
 
-## ACL rules in scoped applications
+## ACLs in scoped applications
 
-You can create ACL rules for objects in the same scope as the ACL rule. You can also create ACL rules for tables with at least one field that is in the same scope as the ACL rule.
+You can create ACLs for objects in the same scope as the ACL. You can also create ACLs for tables with at least one field that is in the same scope as the ACL.
 
-For tables that are in a different scope than the ACL rule record, the types of rules are limited.
+For tables that are in a different scope than the ACL record, the types of rules are limited.
 
--   You can create an ACL rule for any table, UI page, or other object that is in the same scope as the ACL rule.
--   You can create an ACL for a field that is in the same scope as the ACL rule.
+-   You can create an ACL for any table, UI page, or other object that is in the same scope as the ACL.
+-   You can create an ACL for a field that is in the same scope as the ACL.
     -   If the table is in the same scope, you can use a script to evaluate conditions.
     -   If the table is in a different scope, you can’t use a script to evaluate conditions.
--   You can’t create or modify ACL rules for objects that are in a different scope than the application you’ve selected in the application picker, including adding a role to an ACL in a different scope.
+-   You can’t create or modify ACLs for objects that are in a different scope than the application you’ve selected in the application picker, including adding a role to an ACL in a different scope.
 -   You can create wild-card table rules \(\*\) only in the global scope.
--   You can create wild-card field rules \(\*\) only for tables in the same scope as the ACL rule.
+-   You can create wild-card field rules \(\*\) only for tables in the same scope as the ACL.
 

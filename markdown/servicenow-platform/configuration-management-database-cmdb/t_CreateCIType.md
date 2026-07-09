@@ -160,7 +160,7 @@ Denotes whether this class is included in the [Principal Class filter](https://r
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 
 [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

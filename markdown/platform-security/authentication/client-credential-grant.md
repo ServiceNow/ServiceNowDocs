@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Client credentials grant

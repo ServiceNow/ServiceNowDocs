@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Run your first scan, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Full and delta instance scans
@@ -69,5 +69,5 @@ Scan initiation capabilities are determined by user roles:
 **Related topics**  
 
 
-[Initiating parallel scans]()
+[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-manage-scan-engine.md)
 

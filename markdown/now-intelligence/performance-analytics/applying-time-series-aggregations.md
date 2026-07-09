@@ -16,17 +16,21 @@ breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sour
 
 You can aggregate changes in indicators into discrete time intervals. These aggregations can make trends more easily visible, or help track progress against a target.
 
-A time series aggregation consists of a math function, such as AVG or SUM, combined with a time formula, such as By quarter. In Platform Analytics, you can select an aggregation when exploring an indicator in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md) or when creating a data visualization for an indicator data source, such as a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-ind-data.md). In the Core UI, you can select an aggregation either in the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md) or when creating a Performance Analytics widget such as a [score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-latest-score-widget.md).
+A time series aggregation consists of a math function, such as AVG or SUM, combined with a time formula, such as By quarter. You can select an aggregation in the following circumstances:
 
-To understand time series aggregations, first consider a watch, phone, or fitness tracker that keeps tabs on how many steps they walked each day. These devices all collect and save your measurements on a minute by minute basis. However, the apps and reports are often designed to show how your activity is progressing compared to last week, last month, or last year. It’s one thing to see if you were more active at noon versus 10 am. What you really want to know, however, is whether you’re continuing to improve over time. Aggregating your steps into weekly, monthly, and yearly scores gives you an easier way to identify trends in your activity.
+-   When exploring an indicator in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md)
+-   When creating a Platform Analytics data visualization for an indicator data source, such as a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-time-series-ind-data.md)
+-   When creating a Core UI Performance Analytics widget.
 
-While daily indicator scores are foundational and almost always desired, sometimes you also want to have the scores available by week, month, or quarter. In other cases, you want to have a month/quarter/year-to-date number that shows cumulative progress up until the current point. Instead of defining multiple indicator sources and indicators to track each interval, Performance Analytics natively allows you to capture the data once and then adjust the view. Use a time series aggregation for any of these scenarios:
+To understand time series aggregations, first consider a watch, phone, or fitness tracker that keeps tabs on how many steps they walked each day. These devices all collect and save your measurements on a minute by minute basis. However, the apps and reports are often designed to show how your activity is progressing compared to last week, last month, or last year. It’s one thing to see if you were more active at noon vs. 10 am. What you really want to know, however, is whether you’re continuing to improve over time. Aggregating your steps into weekly, monthly, and yearly scores gives you an easier way to identify trends in your activity.
+
+While daily indicator scores are foundational, sometimes you also want to have the scores available by week, month, or quarter. In other cases, you want to have a month/quarter/year-to-date number that shows cumulative progress up until the current point. Instead of defining multiple indicator sources and indicators to track each interval, Performance Analytics natively allows you to capture the data once and then adjust the view. Use a time series aggregation for any of these scenarios:
 
 -   Aggregate the data to a less frequent period with a Period time series.
 -   Smooth out spikes in the data to reveal trends with a Running time series.
 -   Determine a period-to-date cumulative score with a To date time series.
 
-**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget or Analytics Hub entry for an indicator that uses such a calendar.
+**Note:** Business and fiscal calendars don't support time series aggregations. You can't set a time series aggregation for an indicator that uses such a calendar.
 
 For examples and a deeper exploration of using time series aggregations with indicators, see this Performance Analytics Academy video, [Leveraging Time Series with Performance Analytics](https://youtu.be/aM6JtUndRYk).
 
@@ -60,7 +64,7 @@ Some time series aggregations, while technically allowed, are not helpful to app
 
 ## Displaying time series aggregations with a date range selector
 
-If on a widget you combine a time series aggregation such as By month SUM with a date range selector, you may show one more time period than you expect. The reason is that when a period such as 3m is selected in the date range selector, the instance interprets that as 0-3 months and shows four months of scores.
+If you combine a time series aggregation such as By month SUM with a date range selector, you might show one more time period than you expect. The reason is that when a period such as 3m is selected in the date range selector, the instance interprets that as 0-3 months and shows four months of scores.
 
 **Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

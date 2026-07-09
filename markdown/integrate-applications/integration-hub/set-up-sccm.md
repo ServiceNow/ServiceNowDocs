@@ -21,7 +21,7 @@ Integrate the ServiceNow instance and SCCM using Windows credentials to authenti
 -   Request an Integration Hub subscription.
 -   Activate the Microsoft SCCM spoke.
 -   Role required: admin.
--   [Configure the MID Server for SCCM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigMIDServerForSCCMActivities.md).
+-   Configure the MID Server for SCCM activities.
 
 **Note:** Ensure that user must be able to establish remote PowerShell sessions with the Microsoft SCCM server. The spoke scripts use **Microsoft.PowerShell32** configuration for creating sessions. For user permissions, see [User permissions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_requirements?view=powershell-7.4#user-permissions) in [Microsoft Learn](https://learn.microsoft.com/en-us/).
 
@@ -33,7 +33,7 @@ Create a Credential record to the SCCM server. The SCCM spoke connection and cre
 
 -   Request Integration Hub subscription
 -   Role required: admin
--   [Configure the MID Server for SCCM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigMIDServerForSCCMActivities.md)
+-   Configure the MID Server for SCCM activities
 
 ### Procedure
 

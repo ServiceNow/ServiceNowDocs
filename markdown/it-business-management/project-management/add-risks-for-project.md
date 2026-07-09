@@ -8,8 +8,8 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+reading_time_minutes: 2
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add risks for a project
@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 5.  On the Risk form, fill in the fields.
 
-    For more information, see [Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-forms.md).
 
     **Note:** The Risk Assessment Summary section only appears when the **Enable Advanced Risk PPM Integration** property is enabled.
 
@@ -52,17 +52,17 @@ A risk is any uncertain event that can potentially impact the success or outcome
 ## What to do next
 
 -   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/assess-project-risk-using-ara.md)
--   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md).
--   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md).
+-   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md).
+-   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md).
 
 **Related topics**  
 
 
-[Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
 
 [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/risk-value-lookup-project.md)
 
-[Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md)
+[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/convert-ridac-for-project.md)
 
-[Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
+[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
 

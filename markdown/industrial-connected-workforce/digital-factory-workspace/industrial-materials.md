@@ -7,8 +7,8 @@ release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-07-01"
+reading_time_minutes: 2
 breadcrumb: [Industrial Data Models, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
@@ -20,11 +20,11 @@ Use Industrial Materials to manage the materials used for the Industrial Connect
 
 The Industrial Materials feature provides a hierarchical view of all material classes defined in your system. It helps you manage and navigate through material classifications. Classes represent types, and materials are the actual products within each level of the tree.
 
-You can access the Industrial Materials feature by selecting the **Material model** icon \(\[Omitted image "material-model-icon.png"\] Alt text: Material model icon\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
+You can access the Industrial Materials feature by selecting the **Material model** icon \(\[Omitted image "icw-material-model-icon.png"\] Alt text:\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
 
 When you select a material class, a form loads displaying detailed information about the selected class. If you have sufficient permissions, you can edit the details. When you create classes and materials using the forms, the new entries appear at the configured level within the tree. The system supports inheritance behavior, which enables materials and classes to be configured at different levels.
 
-The feature includes a list showing all classes defined below the selected material class. You can open any class from this list in a new tab, providing an easy way to explore and manage different material classes. Also, you can search within the tree, and the system highlights the relevant node, which helps you find specific material classes.
+The feature includes a list showing all classes defined under the selected material class. You can open any class from this list in a new tab, providing an easy way to explore and manage different material classes. Also, you can search within the tree, and the system highlights the relevant node, which helps you find specific material classes.
 
 You can help improve collaboration among team members by sharing the URL for a material class. When your colleagues access it, the system loads and highlights the item you selected.
 
@@ -36,6 +36,12 @@ The Industrial Materials feature has the following benefits.
 -   Simplifies navigation through complex material classifications.
 -   Helps explore and manage different material classes with related lists and search functionality.
 -   Enables collaboration among team members through URL sharing.
+
+## Material compatibility with equipment
+
+When you create a task in the Digital Factory Workspace, the materials available for selection are scoped to what's compatible with the task's operational equipment, asset, or ISA-95 functional location. This scoping is based on interoperability mappings that relate materials to specific product models. According to the interoperability mappings configured by an admin, the material list for a task reflects only the materials relevant to that piece of equipment or location, instead of every material defined in your instance.
+
+An admin configures these interoperability mappings outside of the Digital Factory Workspace. For more information, see [Create interoperability mappings between assets and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-interoperability-mappings-assets-models.md).
 
 **Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

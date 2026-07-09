@@ -24,6 +24,8 @@ If you have the system admin role, you can install the Service Observability app
 Connect Service Observability to an external observability system. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that observability instance.
 -   **[Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)**  
 Map your services to the data from a connected external observability vendor instance, and view it in charts for the service.
+-   **[Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md)**  
+Map your services to metrics from MetricBase, and view them in charts for the service.
 -   **[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)**  
 You can customize the Service Observability dashboards on both the Overview and Observability tabs of the Service Details page. You can change or add metrics and related data to fit your business needs.
 

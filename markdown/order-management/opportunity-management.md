@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-10"
-reading_time_minutes: 4
+last_updated: "2026-07-05"
+reading_time_minutes: 5
 breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
 ---
 
@@ -32,6 +32,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+[Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-guided-selling-opportunity.md)
+
+</td><td>
+
+Summary of key deal information including account, stage, amount, AI-generated opportunity insights and probability score, and guided selling actions such as stage exit criteria and playbook activities.
+
+</td></tr><tr><td>
+
 [Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md)
 
 </td><td>
@@ -40,7 +48,7 @@ Add basic information for the opportunity.
 
 </td></tr><tr><td>
 
-Catalog tab
+[Catalog tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opp-mgmt-use-needs-analysis.md)
 
 </td><td>
 
@@ -64,35 +72,11 @@ Add different line items to an opportunity.
 
 </td></tr><tr><td>
 
-[Allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
+[Quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote.md)
 
 </td><td>
 
-Distribute sales credit across multiple contributors on a single opportunity.
-
-</td></tr><tr><td>
-
-[Competitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)
-
-</td><td>
-
-Record competitor information.
-
-</td></tr><tr><td>
-
-[Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
-
-</td><td>
-
-Create opportunity tasks.
-
-</td></tr><tr><td>
-
-[Team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity-team-member.md)
-
-</td><td>
-
-Create opportunity team members.
+Create quotes directly from opportunities.
 
 </td></tr><tr><td>
 
@@ -104,6 +88,22 @@ Create opportunity associated contacts.
 
 </td></tr><tr><td>
 
+[Team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-opportunity-team-member.md)
+
+</td><td>
+
+Create opportunity team members.
+
+</td></tr><tr><td>
+
+[Competitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)
+
+</td><td>
+
+Record competitor information.
+
+</td></tr><tr><td>
+
 [Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-emails-tab.md)
 
 </td><td>
@@ -112,11 +112,35 @@ Create emails to send to the required stakeholders.
 
 </td></tr><tr><td>
 
-[Quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote.md)
+[Allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
 
 </td><td>
 
-Create quotes directly from opportunities.
+Distribute sales credit across multiple contributors on a single opportunity.
+
+</td></tr><tr><td>
+
+[Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
+
+</td><td>
+
+Create opportunity tasks.
+
+</td></tr><tr><td>
+
+[Meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-opportunity.md)
+
+</td><td>
+
+Related list of all meetings scheduled and associated with the opportunity.
+
+</td></tr><tr><td>
+
+[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)
+
+</td><td>
+
+Related list of customer interaction records \(calls, emails, engagement activities\) logged against the opportunity.
 
 </td></tr><tr><td>
 

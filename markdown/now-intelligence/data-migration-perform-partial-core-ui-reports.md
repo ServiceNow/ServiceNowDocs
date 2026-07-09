@@ -44,5 +44,5 @@ If you change a Core UI report and migrate it again from `sys_report.list`, thes
 
 ## What to do next
 
-Verify that the migrated visualizations have all the features of the Core UI reports. For more information, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-mig-unmigrated-content.md).
+Verify that the migrated visualizations have all the features of the Core UI reports. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-mig-unmigrated-content.md).
 

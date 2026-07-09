@@ -34,7 +34,7 @@ You can configure multiple change Risk Assessment definitions each with one Metr
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Risk Assessments**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Complete the form, as appropriate.
 
@@ -79,13 +79,13 @@ Condition
 Conditions which determines if a risk assessment is attached to the change. Typically, the first attachment that matches the conditions gets attached during evaluation. Therefore, ensure that the conditions result in the correct assessments being attached especially when defining multiple questionnaires. **Note:** Ensure that the conditions are simple and mutually exclusive so that the assessment conditions are easy to understand and maintain.
 
 </td></tr></tbody>
-</table>4.  Click the form context menu and select **Save**.
+</table>4.  Select the form context menu and select **Save**.
 
     The page refreshes with the **Assessment Categories** and **Assessment Thresholds** related lists. The **Assessment Categories** related list enables you to define the questions that the end user answers to assess the risk of a change request.
 
 5.  Complete the following steps to create an assessment question.
 
-    1.  In the **Assessment Categories** related list, click **New**.
+    1.  In the **Assessment Categories** related list, select **New**.
 
     2.  Complete the form, as appropriate.
 
@@ -97,11 +97,11 @@ Conditions which determines if a risk assessment is attached to the change. Typi
         |Filter|Only assessable records that meet filter conditions are evaluated by metrics in this category.|
         |Description|Description of the assessment category.|
 
-    3.  Click **Submit**.
+    3.  Select **Submit**.
 
     4.  Open the assessment category.
 
-    5.  In the related list, click **Assessment Metrics**.
+    5.  In the related list, select **Assessment Metrics**.
 
     6.  Complete the form, as appropriate.
 
@@ -218,9 +218,9 @@ Data type
 The data type of the answer that is given by a user for a question. **Note:** Depending on the data type that you select, additional fields may appear.
 
 </td></tr></tbody>
-</table>    7.  Click **Submit**.
+</table>    7.  Select **Submit**.
 
-    8.  In the **Assessment Threshold** related list, click **New**.
+    8.  In the **Assessment Threshold** related list, select **New**.
 
     9.  Complete the form, as appropriate.
 
@@ -265,7 +265,7 @@ Score greater than
 The threshold against which the composite score is compared and evaluated.
 
 </td></tr></tbody>
-</table>    10. Click **Submit**.
+</table>    10. Select **Submit**.
 
     **Note:** You can create or edit the assessment questionnaire through the Assessment Designer module or by clicking **Edit in Assessment Designer** related link.
 

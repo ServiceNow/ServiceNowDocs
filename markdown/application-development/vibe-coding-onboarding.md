@@ -25,7 +25,7 @@ The following checklist helps to ensure your environment is properly configured,
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md)
 
-        **Note:** You can also connect a Figma MCP server to Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [Connect Build Agent to a Figma MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/connect-figma-mcp-server-to-build-agent.md).
+        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
 
     -   [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).

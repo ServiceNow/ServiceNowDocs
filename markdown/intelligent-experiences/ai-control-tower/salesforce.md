@@ -55,7 +55,7 @@ To enable data source creation:
 
 1.  Select Global from the application picker
 2.  Navigate to Application Access
-3.  Select the Can create, Can update, and Can delete checkboxes.
+3.  Select the Can create, Can update, and Can delete check boxes.
 4.  Select Update
 5.  Switch to the connector application scope
 

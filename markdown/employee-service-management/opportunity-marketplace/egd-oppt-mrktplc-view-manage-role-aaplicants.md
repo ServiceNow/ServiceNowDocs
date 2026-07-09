@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-The names of the applicants links to their **Employee Profile**, see [Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/employee-profile.md).
+The names of the applicants links to their **Employee Profile**, see [Use Employee Profile with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile.md).
 
 </td></tr><tr><td>
 

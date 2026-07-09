@@ -16,6 +16,8 @@ breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instanc
 
 MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 
+To access the **Certificate Check Policies** table, navigate to **All** &gt; **Mid Server** &gt; **MID Security Policy**.
+
 <table id="table_m2t_cv4_nhb"><tbody><tr><td>
 
 ![Set-up indicator for security phase](../image/ProgressBarSecure.png)

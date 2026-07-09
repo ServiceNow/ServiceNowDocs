@@ -22,7 +22,7 @@ Conversational SMS Integration with Twilio enables users to initiate conversatio
 
 If a bot transfers the conversation to a live agent, the agent can respond to SMS messages in Agent Workspace.
 
-After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information about using the tool, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information about using the tool, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## Capturing information from a user in an SMS chat conversation
 

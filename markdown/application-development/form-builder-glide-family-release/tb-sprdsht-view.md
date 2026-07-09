@@ -48,8 +48,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Select the **Add new record** icon \(\[Omitted image "icn-us2-add-data-record.png"\] Alt text: Add new record icon.\).
 
-    \[Omitted image "scr-us2-add-record.png"\] Alt text: Add new record.
-
 3.  Make your changes to the data record.
 
 4.  Select **Save**.
@@ -72,8 +70,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
 2.  Click into any editable data record field to launch the data for editing.
-
-    \[Omitted image "edit-data-record-tb.png"\] Alt text: Edit a field on the record
 
 3.  Make your changes to the data.
 
@@ -102,8 +98,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     -   Sort A to Z or Sort Oldest to Newest \(ascending order\)
     -   Sort Z to A or Sort Newest to Oldest \(descending order\)
-    \[Omitted image "scr-us2-sort-data.png"\] Alt text: Sort by a to z.
-
     The list of records will then display in the order you chose.
 
 
@@ -122,8 +116,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
 2.  Select and hold \(or right-click\) the data record in a cell to create a filtered list of records that contain the matching data, \(e.g., show all records where **Short description** is "Can't read email".\).
-
-    \[Omitted image "scr-vs2-show-matching.png"\] Alt text: Show matching data records.
 
     A filtered list of records with matching data displays and a new filter query is added and accessible when you click the **Filter** button at the top of the grid.
 
@@ -151,8 +143,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** When a number appears to the right of the **Filter** button, it means that there are existing filters set for the view.
 
     The Filter window displays \(along with any filter criteria that has already been set\). In this case, an existing filter is set to display records where **Age** is 35.
-
-    \[Omitted image "scr-us2-filter-data.png"\] Alt text: Filter data.
 
 3.  Enter your filtering query to specify which data records you want to display.
 
@@ -183,8 +173,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 3.  Select **Column properties**.
 
     The Properties pane displays for the selected field column.
-
-    \[Omitted image "scr-us2-field-properties-pane.png"\] Alt text: Column properties displayed
 
 4.  Edit the desired field property for the column.
 
@@ -217,15 +205,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 3.  Enter the following information for your new field column.
 
-<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d263143e1148">
+<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d263598e1066">
 
 Field
 
-</th><th align="left" id="d263143e1151">
+</th><th align="left" id="d263598e1069">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d263143e1157">
+</th></tr></thead><tbody><tr><td id="d263598e1075">
 
 **Column label**
 
@@ -233,7 +221,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d263143e1166">
+</td></tr><tr><td id="d263598e1084">
 
 **Column name**
 
@@ -241,7 +229,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d263143e1175">
+</td></tr><tr><td id="d263598e1093">
 
 **Type**
 
@@ -256,15 +244,15 @@ Type of information that the column contains. For example, to contain plain text
 </td></tr></tbody>
 </table>4.  Select **Advanced settings** to expand it and enter any additional properties for your new field column.
 
-<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d263143e1218">
+<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d263598e1136">
 
 Field
 
-</th><th align="left" id="d263143e1221">
+</th><th align="left" id="d263598e1139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d263143e1227">
+</th></tr></thead><tbody><tr><td id="d263598e1145">
 
 **Function field**
 
@@ -272,7 +260,7 @@ Description
 
 A function field generates a value based on simple computations of other fields and constants. The **Function definition** field then displays, where you define a function.
 
-</td></tr><tr><td id="d263143e1242">
+</td></tr><tr><td id="d263598e1160">
 
 **Mandatory**
 
@@ -280,7 +268,7 @@ A function field generates a value based on simple computations of other fields 
 
 Option that you can select so that the data that your users enter in the field is required before they can save their changes to the form.
 
-</td></tr><tr><td id="d263143e1254">
+</td></tr><tr><td id="d263598e1172">
 
 **Read only**
 
@@ -288,7 +276,7 @@ Option that you can select so that the data that your users enter in the field i
 
 Option that you can select so that the field is not editable by the form users.
 
-</td></tr><tr><td id="d263143e1266">
+</td></tr><tr><td id="d263598e1184">
 
 **Default value**
 
@@ -316,11 +304,9 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Hover over the header for the column to duplicate, and then select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions.
 
-3.  Select **Duplicate column**from the menu.
+3.  Select **Duplicate column** from the menu.
 
     The text "copy" is automatically appended to the existing column label.
-
-    \[Omitted image "scr-us2-duplicate-column.png"\] Alt text: Duplicate column.
 
 4.  Edit the **Column label** to the desired display name for the duplicated field column.
 
@@ -349,8 +335,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Click to select the **Column handle** icon \(\[Omitted image "icn-us2-column-handle.png"\] Alt text: Column handle icon.\) for a column and then drag the column to the desired locations in the table.
 
-    \[Omitted image "scr-us2-drag-column.png"\] Alt text: Drag and drop column.
-
     **Note:** If your table contains many table columns, select the **Manage columns** menu to view a compact list of column names, and then visually drag and drop within this list to order your table columns.
 
 
@@ -370,15 +354,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options.
 
-<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d263143e1682">
+<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d263598e1577">
 
 Action
 
-</th><th align="left" id="d263143e1685">
+</th><th align="left" id="d263598e1580">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d263143e1691">
+</th></tr></thead><tbody><tr><td id="d263598e1586">
 
 **Hide a column**
 
@@ -394,7 +378,7 @@ Using the **Manage columns** button:
 2.  Select **Hide** from the menu to hide the column from view.
 
 
-</td></tr><tr><td id="d263143e1740">
+</td></tr><tr><td id="d263598e1635">
 
 **Unhide a column**
 
@@ -426,15 +410,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options to pin or unpin a field column.
 
-<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d263143e1875">
+<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d263598e1770">
 
 Action
 
-</th><th align="left" id="d263143e1878">
+</th><th align="left" id="d263598e1773">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d263143e1884">
+</th></tr></thead><tbody><tr><td id="d263598e1779">
 
 **Pin a column**
 
@@ -444,7 +428,7 @@ Steps
 2.  Select **Pin** from the menu to pin the column to the left side of your view.
 
 
-</td></tr><tr><td id="d263143e1915">
+</td></tr><tr><td id="d263598e1810">
 
 **Unpin a column**
 

@@ -82,7 +82,7 @@ Third parties can use the Shared Assessments Standardized Information Gathering 
 
 **Note:** Third-party contacts can reassign a questionnaire to another team member by selecting the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and selecting **Reassign**. After reassigning the questionnaire, they lose access to the questionnaire.
 
-Vendor contacts can only reassign to other vendor contacts for the same vendor. Vendor assessors can reassign to other vendor assessors or vendor contacts for the third party being assessed.
+Third-party contacts can only reassign to other Third-party contacts for the same third party or engagement. TPR assessors can reassign to other TPR assessors or Third-party contacts for the third party being assessed.
 
 ## Launching the portal
 
@@ -129,7 +129,7 @@ External assessments are always assigned to primary contacts. When multiple prim
     -   Other primary contacts can respond to questions but can’t submit unless ownership is reassigned.
     **Note:** If needed, the owner can reassign the questionnaire using the **Reassign** option in the questionnaire’s more actions menu. After reassignment, the previous owner loses access.
 
-    Vendor contacts can only reassign to other vendor contacts for the same vendor. Vendor assessors can reassign to other vendor assessors or vendor contacts for the third party being assessed.
+    Third-party contacts can only reassign to other Third-party contacts for the same third party or engagement. TPR assessors can reassign to other TPR assessors or Third-party contacts for the third party being assessed.
 
 
 **Related topics**  

@@ -1,6 +1,6 @@
 ---
 title: Generate AI-driven draft responses for smart assessment
-description: Use generative AI to create draft responses for assessment questions by analyzing context and leveraging previously answered similar questions.
+description: In Smart Assessment Engine, use generative AI to create draft responses for assessment questions by analyzing context and using previously answered similar questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/generate-ai-driven-draft-responses-for-smart-assessment.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use generative AI skills, Now Assist, Smart Assessment Engine, Gove
 
 # Generate AI-driven draft responses for smart assessment
 
-Use generative AI to create draft responses for assessment questions by analyzing context and leveraging previously answered similar questions.
+In Smart Assessment Engine, use generative AI to create draft responses for assessment questions by analyzing context and using previously answered similar questions.
 
 ## Before you begin
 
@@ -28,16 +28,16 @@ When you’re assigned to a task to respond to an assessment, you submit your re
 
 ## Procedure
 
-1.  Navigate to your workspace.
-
-2.  Navigate to your list of assigned assessments and select an assessment.
+1.  Navigate to your workspace and then to your list of assessments.
 
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
     2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
-    3.  Select the Control attestations on the left panel.
-    4.  In the My pending tasks related list, the assessments are displayed.
+    3.  Select the **Control attestations** on the left panel.
+    4.  In the **My pending tasks** related list, the assessments are displayed.
+2.  Navigate to your list of assigned assessments and select an assessment.
+
 3.  On the assessment, select **Draft responses with AI**.
 
 4.  On the **Draft responses with AI** dialog box, select what you want the skill to analyze:
@@ -59,27 +59,31 @@ When you’re assigned to a task to respond to an assessment, you submit your re
     -   To use a document that is not in the list, upload it as an attachment to the assessment and it will appear as an available option.
     -   You can select up to 5 documents per assessment. Each document must be in PDF, DOCX, JPEG, or PNG format and can be up to 20 MB and 200 pages.
     -   For supported document types and file size limits, see [Limitations in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-document-intelligence-limitations.md).
-    -   The sources you select are final. Once you generate draft responses, you can't change the selected sources or run the AI feature again for this assessment. Review your selections carefully before continuing.
-5.  Once the responses are ready, you can select the **View AI summary** button to view the consolidated AI response details.
+    -   The sources you select are final. After you generate draft responses, you can't change the selected sources or run the AI feature again for this assessment. Review your selections carefully before continuing.
+5.  Review the AI‑generated suggestions and select **View sources** to view the source details
 
-    The AI summary shows how many responses have been generated. If you manually update any of the responses, the count of applied AI-generated answers decreases accordingly. The summary also shows the percentage of the assessment that has AI-suggested answers. This percentage is calculated by dividing the number of questions with at least one suggestion by the total number of questions, then multiplying by 100.
+    \[Omitted image "suggestion\_source\_details.png"\] Alt text: Source details for an AI-generated suggestion.
 
-6.  Review the AI‑generated suggestions and select **View sources** to view the source details.\[Omitted image "suggestion-source-details.jpg"\] Alt text: Displays the source details from where the suggestion is populated
+6.  After reviewing the suggestion and its sources, select **Apply** to accept a suggestion or **Discard** to remove it.
 
-7.  After reviewing the suggestion and its sources, select **Apply** to accept a suggestion or **Discard** to remove it.
+    If you did not turn on **Auto-apply top suggestions** when you started the skill, suggestions aren't applied automatically. Each suggestion is displayed as a card for you to review. When multiple similar answers exist, up to three AI suggestion cards may appear, each with “Apply” and “Discard” options.
 
-    If you did not turn on **Auto-apply top suggestions** when you started the skill, suggestions aren't applied automatically. Each suggestion is displayed as a card for you to review. When multiple similar answers exist, up to three AI suggestion cards may appear, each with “Apply” and “Discard” options.\[Omitted image "AI-suggestion-card.jpg"\] Alt text: AI suggestion card
+    \[Omitted image "AI\_suggestion\_card.png"\] Alt text: An AI suggestion card showing Apply and Discard options.
 
-8.  If the AI summary indicates that some suggestions could not be generated, select **Retry** to regenerate the failed suggestions.
+7.  If the AI summary indicates that some suggestions could not be generated, select **Retry** to regenerate the failed suggestions.
 
     If the skill could not find any relevant information in the selected sources, the assessment displays a message stating that no suggestions were generated. In that case, you respond to the questions manually.
 
-9.  Complete all required questions and select **Submit**.
+8.  Complete all required questions and select **Submit**.
 
-10. On the **Submit** dialog box, select the check box to confirm you have reviewed all answers and understand that no further changes can be made once submitted.
+9.  On the **Submit** dialog box, select the check box to confirm you have reviewed all answers and understand that no further changes can be made after you submit.
 
     Before submitting, review the AI summary in the Submit dialog box to understand and verify all AI-generated contribution.
 
-11. Select **Submit**.
+10. Select **Submit**.
 
+
+## Result
+
+The assessment is submitted with your reviewed AI-assisted responses.
 

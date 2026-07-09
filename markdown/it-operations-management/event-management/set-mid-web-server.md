@@ -1,5 +1,5 @@
 ---
-title: Install the .pem file in the MID unified keystore and set up the MID Web Server
+title: Set up the MID Web Server with a .pem file
 description: Install the .pem file into the MID unified keystore and set up the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/set-mid-web-server.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Install the .pem file in the MID unified keystore and set up the MID Web Server
+# Set up the MID Web Server with a .pem file
 
 Install the .pem file into the MID unified keystore and set up the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 

@@ -33,7 +33,7 @@ The subflow properties specify the subflow name, application, category, descript
 
 Subflow inputs specify the data available to the subflow when it starts. Each input you define for a subflow becomes a configuration option in the Workflow Studio interface. To use the subflow in a flow, you must define a value for each mandatory input. The more inputs a subflow has, the more data you must define and the more familiar you must be with the underlying data model to use the subflow effectively.
 
-Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see field types.
+Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
 
 ## Subflow outputs
 
@@ -102,7 +102,7 @@ For Each
 
 </td><td>
 
-Applies actions to each record in a list of records. Flow designers must specify the list of records from the subflow data. **Note:** You can nest a **For Each** flow logic block inside of another flow logic block to repeat an action over a series of records. However, avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see Transaction quotas.
+Applies actions to each record in a list of records. Flow designers must specify the list of records from the subflow data. **Note:** You can nest a **For Each** flow logic block inside of another flow logic block to repeat an action over a series of records. However, avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
 
 </td></tr><tr><td>
 

@@ -43,7 +43,7 @@ From the asset inventory, asset types are created by opening their respective ap
 
 -   Create catalog items with Catalog Builder.
 
-    For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
+    For more information, see .
 
 -   Create knowledge graphs with Knowledge Graph Designer.
 
@@ -166,7 +166,7 @@ Opens the Catalog Builder.
 
  A catalog item is used to publish a service to users in the Service Catalog.
 
- For more information on creating a catalog item in Catalog Builder, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
+ For more information on creating a catalog item in Catalog Builder, see .
 
 </td></tr><tr><td>
 

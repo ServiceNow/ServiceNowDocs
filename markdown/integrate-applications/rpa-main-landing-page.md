@@ -15,17 +15,19 @@ breadcrumb: [Workflow Data Fabric]
 
 Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions and element-based automations that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
-Watch this video to learn about the overview of RPA Hub.
-
-Watch this video to learn how to set up a workflow using automation components in the RPA Desktop Design Studio.
-
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-## Now Assist for RPA Hub
+## What you can do with AI
 
-Use the Now Assist for RPA Hub application to transform your automation development process. You can create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+Use Now Assist for RPA Hub to accelerate automation development with AI. Instead of writing code or configuring workflows manually, you can describe what you need in natural language and Now Assist generates automations, activities, and logic rules. You can preview generated code before deploying, ensuring it meets your requirements. For more information, see [Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-now-assist-studio.md).
+
+The following generative AI capabilities are available:
+
+-   Build simple, brand-new automations quickly and efficiently.
+-   Easily add new activities to existing automations, ensuring modularity and scalability.
+-   Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one.
 
 ## Helpful resources
 

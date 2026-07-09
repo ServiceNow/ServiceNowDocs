@@ -149,7 +149,7 @@ Analyze, review, and define tags in your organization for successful mapping.
 
 [Application service analysis and maintenance using classic Service Mapping]()
 
-[Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)
+[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)
 
 [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

@@ -63,7 +63,7 @@ Determine what the Event Management - Insert Health Monitor scheduled job is to 
 Use domain separation to enable self-health to display Event Management health issues that are based on data, rules, and settings from the logged in user domain. The selected domain must not contain any child domains.
 -   **[Configure a self-health monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-threshold-monitoring.md)**  
 You can configure a self-health monitor to track Event Management components and see that they do not exceed the specified threshold.
--   **[Create a self-health monitor to use custom health monitor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md)**  
+-   **[Create a self-health monitor with a custom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md)**  
 You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 -   **[View the Event Management self-health application services map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-self-health-manual-service.md)**  
 You can view Event Management application services maps to have a visualization of the data on configuration items \(CIs\) that comprise this service, and the relations and connections between these CIs.

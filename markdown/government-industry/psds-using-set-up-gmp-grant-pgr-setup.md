@@ -24,11 +24,6 @@ Grants Management is a packaged application, with playbooks and workflows built 
 
 The workflows for a type of case and the activities that you must complete to resolve these cases are outlined in the playbook. By using a playbook, you can visualize the entire life cycle of the Grants Management setup workflow.
 
-|Task|Description|
-|----|-----------|
-|Intake|Define key details regarding the grant program. Applicants submit required forms and eligibility is verified.|
-|Screen|Build the program announcement. Acts as a checkpoint for eligibility verification and provides you with an opportunity to review the grant details.|
-
 A grant announcement is a formal solicitation issued by a funding organization. It details the objectives, eligibility criteria, funding amounts, and application procedures for a specific funding opportunity. Grants Management Program Setup Playbook walks grants program managers through the process of creating and building out a grant program announcement.
 
 Grants Management Program Set Up allows you to set up and manage grant programs with guided steps to create, publish, and, manage different grant programs under your agency, making sure to protect sensitive information with role-based access management.

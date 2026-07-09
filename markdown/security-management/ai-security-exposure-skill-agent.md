@@ -30,6 +30,8 @@ See [Use the AI guardrails helper skill](https://raw.githubusercontent.com/Servi
 Use the AI agent to ask about the guardrails that were identified by the AI skill component in the AI Guardrails Helper, automatically defer findings with existing mitigations in the form of guardrails, or create exception rules to auto-defer future findings.
 -   **[Use the AI guardrails helper skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-use-aiskill.md)**  
 This AI skill can help you identify finding types, understand the guardrails that might be already mapped to findings, and see why they were selected by the skill to map to specific findings. This information can help you determine which findings might be already mitigated or deferred for later review or remediation.
+-   **[Components installed with AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/installed-with-aisecmanagement.md)**  
+Components installed with the AI Security Exposure Management application.
 
 **Parent Topic:**[Exploring AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-06-29"
 reading_time_minutes: 2
 keywords: [Show me everything button, Virtual Agent, LLM, Large Language Model, Now Assist, greeting Setup topic, Asset]
 breadcrumb: [Working with setup topics, Customizing a chat experience, Configure, Virtual Agent, Conversational Interfaces]
@@ -29,23 +29,25 @@ The greeting topic of a Virtual Agent includes a **Show me everything** button b
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the Asset Library, open the greeting Setup topic you've duplicated.
+2.  Select the **Asset library** tab.
+
+3.  Open the greeting Setup topic you've duplicated.
 
     The topic opens in Virtual Agent Designer.
 
-3.  In the Flow tab, select the **Send skill picker** node.\[Omitted image "sme-button-greeting-topic-flow.png"\] Alt text: Topic flow tab with Send skill picker node highlighted on canvas.
+4.  In the Flow tab, select the **Send skill picker** node.\[Omitted image "sme-button-greeting-topic-flow.png"\] Alt text: Topic flow tab with Send skill picker node highlighted on canvas.
 
     The **Script action utility** control for the **Send skill picker** node opens in the property sheet.
 
-4.  In the property sheet, select the **Script that defines the operation of the node** button \[Omitted image "icon-script.png"\] Alt text:.
+5.  In the property sheet, select the **Script that defines the operation of the node** button \[Omitted image "icon-script.png"\] Alt text:.
 
     The **Action expression** script window opens.
 
-5.  In Line 3 of the script, set the `"hideShowMeEverything"` value from `false` to true.\[Omitted image "sme-button-action-expression-window.png"\] Alt text: Send skill picker node Action Expression window with hideShowMeEverything value set to true.
+6.  In Line 3 of the script, set the `"hideShowMeEverything"` value from `false` to true.\[Omitted image "sme-button-action-expression-window.png"\] Alt text: Send skill picker node Action Expression window with hideShowMeEverything value set to true.
 
-6.  Select **Save**, then select **Publish**.
+7.  Select **Save**, then select **Publish**.
 
     The greeting Setup topic activates, and the **Show me everything** button disappears from the Virtual Agent chat where the topic is used.
 

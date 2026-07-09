@@ -1,6 +1,6 @@
 ---
 title: Introduction to CMDB: Ingestion
-description: This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/introduction-to-cmdb-ingestion.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Introduction to CMDB: Ingestion
 
-This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
+This Accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
 
 ## Accelerator Overview
 

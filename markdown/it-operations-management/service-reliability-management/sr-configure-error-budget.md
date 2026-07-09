@@ -33,7 +33,7 @@ Role required: srm\_admin or admin
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Customize team approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
+**Previous topic:**[Customize team approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
 
 **Next topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-approve-change-req.md)
 

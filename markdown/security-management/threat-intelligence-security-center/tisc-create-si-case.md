@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -80,6 +80,8 @@ Role required: sn\_si\_basic
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -88,7 +90,9 @@ Role required: sn\_si\_basic
 
 [Run Enrichment Actions within a case]()
 
-[View Case Reports]()
+[Generate a Case Report using generative AI]()
+
+[Generate a Case Report using a template]()
 
 [Upload Secure File Attachments]()
 

@@ -21,6 +21,8 @@ Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function 
 
 A model represents the logical structure and organization of data coming from the ERP system. Models define the entities, attributes, read/update operations, and table join relationships that capture and represent business processes and data elements in the ERP system.When you first open Zero Copy Connector for ERP, you view a list of the models for your instance.
 
+\[Omitted image "MMASSET0021842-erp-data-model-Horizontal.svg"\] Alt text: Infographic showing the relationship between models, model operations, ERP systems, and applications.
+
 There are two types of models:
 
 -   Platform model: Model with input and output fields mapped to an already existing platform table. These models standardize ERP data by mapping it to ServiceNow standardized platform tables.

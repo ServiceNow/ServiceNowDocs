@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, oauth, odata, configure, code, provider]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure OAuth authorization code flow to use in Zero Copy Connector for ERP
@@ -84,22 +84,24 @@ Consult with your SAP administrator:
 
     6.  Select **Submit**.
 
-4.  Add a connection to the **Zero Copy Connector for ERP HTTP** alias by navigating to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
+4.  Add a connection to the correct alias, for example, the following steps use the **Zero Copy Connector for ERP HTTP** alias.
 
-    1.  In **Name**, search for and select **Zero Copy Connector for ERP HTTP**.
+    1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
 
-    2.  On the **Connections** tab, select **New**.
+    2.  In **Name**, search for and select **Zero Copy Connector for ERP HTTP**.
+
+    3.  On the **Connections** tab, select **New**.
 
         For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
 
-    3.  Enter a **Name**.
+    4.  Enter a **Name**.
 
-    4.  In **Credential**, specify the OAuth credential you created in step 3.
+    5.  In **Credential**, specify the OAuth credential you created in step 3.
 
-    5.  Enter the **Connection URL**.
+    6.  Enter the **Connection URL**.
 
-    6.  Select **Submit**.
+    7.  Select **Submit**.
 
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

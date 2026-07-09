@@ -18,7 +18,7 @@ Create a field recommendation that you can select when configuring a recommended
 
 Use the CSM default record page or the CSM Interaction record page to display field recommendations in CSM Configurable Workspace. For setting the CSM default record page or the CSM Interaction record page as default page, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
-Role required: sn\_nb\_action.next\_best\_action\_author, admin
+Role required: sn\_nb\_action.next\_best\_action\_author, or admin
 
 ## About this task
 

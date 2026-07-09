@@ -14,6 +14,7 @@ The ServiceNow® Threat Intelligence Security Center application is a threat int
 
 ## Threat Intelligence Security Center highlights for the Australia release
 
+-   Introduced AI-generated threat intelligence reports from case data with analyst-guided instructions.
 -   Introduced Now Assist Case Summarization skill that analysts can use to generate concise, AI-based case summaries.
 -   Added playbooks support in Case Management, giving analysts a guided, stage-based workflow for investigations.
 -   Added historical data ingestion and flexible expiration handling to TISC Add-on for Splunk Enterprise. 
@@ -35,8 +36,13 @@ See [Threat Intelligence Security Center](https://raw.githubusercontent.com/Serv
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+-   **[Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/na-tisc-generate-ai-reports.md)**
+
+    Introduced Now Assist Report Authoring skill to generate analyst‑grade threat intelligence reports from threat cases. Supports configurable styling and analyst-defined instructions for content and focus.
 
 
 -   **[Summarize a Case with Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-case-summarization.md)**

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -30,15 +30,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d135334e99">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d143335e99">
 
 Option
 
-</th><th align="left" id="d135334e102">
+</th><th align="left" id="d143335e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135334e108">
+</th></tr></thead><tbody><tr><td id="d143335e108">
 
 **Keep original location**
 
@@ -46,7 +46,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d135334e117">
+</td></tr><tr><td id="d143335e117">
 
 **Choose new location**
 

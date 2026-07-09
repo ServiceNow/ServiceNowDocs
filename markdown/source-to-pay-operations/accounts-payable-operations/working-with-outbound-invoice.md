@@ -29,6 +29,8 @@ Role required: sn\_spend\_intg\_admin or sn\_spend\_intg\_procurement\_integrato
 
 2.  Set the **Integration status** to **Processed**.
 
-    The invoice **Status** is automatically set to **Pending payment**. The invoice is extracted for payment, and the invoice status is set to **Paid**.
 
+## Result
+
+The invoice **Status** is automatically set to **Pending payment**. The invoice is extracted for payment, and the invoice status is set to **Paid**.
 

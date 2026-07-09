@@ -363,7 +363,7 @@ Resource Managers can use this information to plan the resources and manage assi
 
 -   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
--   **[Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md)**  
+-   **[Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md)**  
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 -   **[Copy a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/copy-ra-rmw.md)**  
 Copy an existing resource assignment to create one with inherited values, then adjust the fields before submitting. This reduces repetitive data entry when similar assignments recur across plans.

@@ -79,5 +79,5 @@ Use Channel Management to keep a track of the real-time performance of work done
 
 [Setting up service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-channels-queues-configurable-wfo-cs.md)
 
-[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)
+[Using Channel Management in WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)
 

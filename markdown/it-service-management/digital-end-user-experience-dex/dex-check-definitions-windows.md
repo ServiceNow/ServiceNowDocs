@@ -568,6 +568,14 @@ os.win.check-system-gpu-usage-details
 
 Monitor GPU \(Graphics Processing Unit\) and VRAM \(Video Random Access Memory\) usage on the **Device** page to assess graphics performance and identify bottlenecks.
 
+</td></tr><tr><td>
+
+os.win.action-kill-zombie-orphan-process
+
+</td><td>
+
+Takes an app name as input, identifies orphan processes for that app using the app\_process\_data.ps1 script, and kills them. Returns output in the format \{isSuccess: true/false, message: "success/failure message", output: \{"killedProcessPids": \[array of pids\]\}\}
+
 </td></tr></tbody>
 </table>## Check definitions — Diagnostic Actions
 

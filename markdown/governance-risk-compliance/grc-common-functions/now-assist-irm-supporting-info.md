@@ -24,6 +24,12 @@ Now Assist for IRM is supported starting from the Yokohama Patch 3 release.
 -   GRC: Regulatory Change Management application: version 20.1.2
 -   Now Assist for IRM application: version 20.1.1
 
+## Supported language models
+
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model providers for supported Now Assist capabilities. Model availability depends on the feature and your Now Assist subscription. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+
+As of version 22.4.0, Now Assist for IRM supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the issue summarization skill is Azure OpenAI gpt-5.4-mini.
+
 ## Supported user interfaces
 
 The Now Assist for IRM application includes the skills and agentic workflows that are listed in the following table.
@@ -89,9 +95,9 @@ Activate the Now Assist for IRM store app \(sn\_irm\_gen\_ai\) to use the skills
 This store app has the following dependencies:
 
 -   Now Assist Platform.
--   GRC Common Generative AI.
--   GRC Shared Generative AI.
--   GRC Compliance Generative AI.
+-   GRC Common generative AI.
+-   GRC Shared generative AI.
+-   GRC Compliance generative AI.
 -   Recommendation Template.
 
 For more information, see [Configure Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).

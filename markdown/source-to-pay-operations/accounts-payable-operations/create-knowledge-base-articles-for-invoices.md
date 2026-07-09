@@ -59,7 +59,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 -   Track the progress of your article from **My Knowledge Articles**.
 -   Manage the article workflows, such as reviewing, publishing, updating, or retiring the article.
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

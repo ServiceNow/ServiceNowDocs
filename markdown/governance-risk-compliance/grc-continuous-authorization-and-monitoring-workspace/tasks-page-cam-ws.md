@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Monitor and manage CAM tasks
@@ -34,9 +34,11 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
+1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  Navigate to the appropriate tab.
+2.  Select\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
+
+3.  Navigate to the appropriate tab.
 
     **Note:** When a user or user group doesn’t have pending or associated tasks, the `All your tasks are done` message appears for the tab.
 

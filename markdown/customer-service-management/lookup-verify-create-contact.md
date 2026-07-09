@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-verify-create-contact.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -31,21 +31,21 @@ If an agent can't find a contact or consumer, they can create a record for that 
 
 1.  Open CSM Configurable Workspace.
 
-2.  From a saved interaction record, click one of the following icons in the Contextual side panel to access the Lookup and verify feature.
+2.  From a saved interaction record, select one of the following icons in the Contextual side panel to access the Lookup and verify feature.
 
-    -   Verify Contact icon \(\[Omitted image "config-ws-lookup-verify-contact.png"\] Alt text: Verify contact icon.\)
-    -   Verify Consumer icon \(\[Omitted image "config-ws-lookup-verify-consumer.png"\] Alt text: Verify consumer icon.\)
+    -   Verify Contact
+    -   Verify Consumer
 3.  Enter user information in one of the following fields: **Verify Contact** or **Verify Consumer**.
 
     This information can include the first few letters of a first or last name or the first few digits of a phone or case number.
 
-4.  If you cannot locate the contact or consumer and choose to create a record, click **Create Contact** or **Create Consumer**.
+4.  If you can't locate the contact or consumer and choose to create a record, select **Create Contact** or **Create Consumer**.
 
     The system displays the Create Contact or Create Consumer form in the Contextual side panel.
 
-    If the **Account** field on the Interaction record is populated when you click **Create Contact**, the **Account** field on the Create contact form is populated with the same information.
+    If the **Account** field on the Interaction record is populated when you select **Create Contact**, the **Account** field on the Create contact form is populated with the same information.
 
-5.  Add information to the fields on the form and click **Create**.
+5.  Add information to the fields on the form and select **Create**.
 
     The system performs the following actions:
 

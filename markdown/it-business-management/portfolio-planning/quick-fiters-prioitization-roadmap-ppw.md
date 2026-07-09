@@ -32,8 +32,6 @@ Quick filters help you filter the data shown in the List and Hierarchy views of 
 
 3.  Based on the tab you want to work in, select **Prioritization**, **Roadmap**, or **Capacity Planning**.
 
-    By default, the data in the Roadmap tab is filtered with the Planning state of **Prioritized** and you see only prioritized items.
-
 4.  From the portfolio plan header, select **Filter** and add conditions.
 
     You can add filters for only those fields that are of the choice or reference type, within the tab.

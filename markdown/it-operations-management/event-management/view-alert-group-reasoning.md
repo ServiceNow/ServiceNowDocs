@@ -1,5 +1,5 @@
 ---
-title: Configure work notes to capture alert grouping justifications
+title: Configure work notes for alert grouping justifications
 description: As alerts are added to a group, a message is recorded in the alert’s Work notes field to explain why the alert was included in the group. Define alert types for creating these worknotes related to alert group reasoning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-alert-group-reasoning.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure work notes to capture alert grouping justifications
+# Configure work notes for alert grouping justifications
 
 As alerts are added to a group, a message is recorded in the alert’s Work notes field to explain why the alert was included in the group. Define alert types for creating these worknotes related to alert group reasoning.
 

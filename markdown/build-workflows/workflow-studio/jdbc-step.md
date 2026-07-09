@@ -57,7 +57,7 @@ By default, you can run the following SQL operations.
 -   SHOW
 -   DESCRIBE
 
-To enable only some of these SQL operations that the JDBC step can perform, create a MID Server property, **mid.property.jdbc\_operations** and enter the SQL operations, separated by comma. To learn more about MID Server properties, see MID Server properties.
+To enable only some of these SQL operations that the JDBC step can perform, create a MID Server property, **mid.property.jdbc\_operations** and enter the SQL operations, separated by comma. To learn more about MID Server properties, see [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md).
 
 **Note:** Multiple SQL statements are not allowed. Stored procedures with output parameters are not supported.
 
@@ -112,7 +112,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list.

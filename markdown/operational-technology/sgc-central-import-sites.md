@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Before importing assets, you must import sites.
+1.  In the SGC Central setup process, you must import sites before importing assets.
 
     \[Omitted image "sgc-central-import-sites.png"\] Alt text: Import sites
 

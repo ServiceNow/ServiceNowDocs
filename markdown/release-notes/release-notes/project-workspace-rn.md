@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 ---
 
 # Project Workspace release notes
@@ -13,6 +13,12 @@ reading_time_minutes: 9
 The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Australia release.
 
 ## Project Workspace highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Support added for third-party AI models: GPT-5.4 mini and Gemini 3.5 Flash
+-   Third-party AI models are the default models for all Now Assist for SPM skills.
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
@@ -28,6 +34,16 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 **Important:** Project Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Now assist for SPM enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md)**
+
+    Added support for third-party LLM models: GPT-5.4 mini and Gemini 3.5 Flash
+
+-   **[RIDAC enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-ridac-pw.md)**
+    -   The RIDAC menu provides access to AI-Identified Risks, RIDAC by Type \(Risks, Issues, Decisions, Actions, Change Requests tabs\), and All RIDAC.
+    -   Access Risks, Issues, Decisions, Actions, and Change Requests \(RIDAC\) through tabs \(presentation list\) in the RIDAC by Type page.
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
@@ -51,7 +67,7 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Export RIDAC data from Project Workspace in CSV, Microsoft Excel, or XML format using the Export RIDAC option in the more actions menu. Select a file type from the export modal to download the data currently visible in the RIDAC grid. Records not visible in the grid aren't included in the export.
 
--   **[Project types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-types-in-pw.md)**
+-   **[Project types and project enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-types-in-pw.md)**
 
     Configure project types with custom fields and tailored form views across different types of projects.
 
@@ -103,8 +119,8 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[AI-generated project status reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-a-status-report-in-project-workspace.md)**
 
@@ -138,6 +154,13 @@ See [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 ## UI changes
 
+-   **[RIDAC enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-ridac-pw.md)**
+
+    New RIDAC menu is added on the L2 menu. These three pages are added under RIDAC menu:
+
+    -   AI-Identified Risks
+    -   RIDAC by Type
+    -   All RIDAC
 -   **[Inline comments changes in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-project-planning-with-docs.md)**
     -   The Add comments icon appears in the inline toolbar.
     -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.

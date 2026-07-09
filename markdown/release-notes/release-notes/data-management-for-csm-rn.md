@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 ---
 
 # Data Management for CSM release notes
@@ -81,6 +81,18 @@ See [Data management for Customer Service Management](https://raw.githubusercont
 -   **[Hierarchy-scoped access for business organization members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)**
 
     Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+
+-   **[Create Return Merchandise Authorization case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-return-merchandise-authorization-case-lines.md)**
+
+    Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+
+-   **[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)**
+
+    Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+
+-   **[How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md)**
+
+    Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
 
 
 ## Changed in this release

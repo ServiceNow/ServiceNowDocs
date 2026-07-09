@@ -23,6 +23,7 @@ Configure the ServiceNow Add-in for Microsoft 365 and map the email fields to ca
 -   The add-in can be used in Microsoft 365 applications, but field mapping is only available for emails and can only be used in Microsoft Outlook.
 -   ServiceNow Add-in for Microsoft 365 is only supported for Microsoft Outlook 2019 or later versions.
 -   Actions that require the **admin** role, can also be performed with the **sn\_outlook\_addin.outlook\_addin\_setup** role.
+-   When using the ServiceNow Add-in for Microsoft Word, SharePoint or PowerPoint, you must configure the Content Security Policy header in Response headers for your custom SharePoint, PowerPoint or Word URLs in your ServiceNow instance to prevent a blank Add-in login page. Navigate to **All**&gt; **System Definition**&gt; **Response Headers**.
 
 -   **[Install the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-sn-addin-for-ms365.md)**  
 You can install the ServiceNow Add-in for Microsoft 365 application \(sn\_outlook\_addin\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.

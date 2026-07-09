@@ -9,6 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [create job requisition, chat window requisition, duplicate requisition, ai requisition creation]
 breadcrumb: [Create job requisition, Use, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -34,15 +35,15 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager, sn\_ta\_hiring\_core.recrui
     -   Enter a request in the chat to open a new job requisition.
 4.  Select one of the following options and follow the Virtual Agent prompts.
 
-<table id="choicetable_qsl_dmg_21c"><thead><tr><th align="left" id="d420416e147">
+<table id="choicetable_qsl_dmg_21c"><thead><tr><th align="left" id="d421554e160">
 
 Option
 
-</th><th align="left" id="d420416e150">
+</th><th align="left" id="d421554e163">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d420416e156">
+</th></tr></thead><tbody><tr><td id="d421554e169">
 
 **Create a new job requisition**
 
@@ -50,7 +51,7 @@ Action
 
 Create a job requisition by answering the prompts, which are used to fill the Job requisition form.For a description of the field values, see [Job requisition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/new-job-form.md).
 
-</td></tr><tr><td id="d420416e174">
+</td></tr><tr><td id="d421554e187">
 
 **Duplicate a job requisition**
 

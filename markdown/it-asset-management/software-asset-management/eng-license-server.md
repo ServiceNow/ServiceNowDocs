@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Engineering license servers
@@ -19,6 +19,8 @@ View the list of all the license management servers that OpenLM or Open iT conne
 You can view information about all the license management servers by navigating to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Engineering License Server**.
 
 Information such as the name of the server, the current status of the server, and the last connection time is displayed in the Engineering Application License Servers form layout.
+
+For more information, see [Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/concurrent-licenses.md) and [Engineering License overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/engineering-license-dashboard-workspace.md).
 
 **Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

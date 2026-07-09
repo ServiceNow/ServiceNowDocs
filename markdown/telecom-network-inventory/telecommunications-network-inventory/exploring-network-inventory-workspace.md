@@ -49,5 +49,5 @@ You use the Lists view to access the inventory classes and functions to perform 
 **Related topics**  
 
 
-[Exploring Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui.md)
+[bundle-platux.next-experience-ui]
 

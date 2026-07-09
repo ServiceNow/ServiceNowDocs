@@ -43,3 +43,10 @@ An account can have multiple contacts but a contact can be associated with only 
 -   You can create accounts and contacts using the Customer Service Management application.
 
 
+**Related topics**  
+
+
+[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-create-csm-accounts.md)
+
+[Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_AccountHierarchy.md)
+

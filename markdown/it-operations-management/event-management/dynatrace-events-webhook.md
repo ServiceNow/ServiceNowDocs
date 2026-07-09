@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -58,11 +58,10 @@ Configure the Event Management environment for the collection of events from Dyn
 
         **Note:** Ensure the evt\_mgmt\_integration role is assigned to the selected user. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
 
-    4.  In the Custom payload section, add in the following payload structure for the events that will be generated.
+    4.  In the Custom payload section, add in the following payload structure for the events that will be generated, ensuring that ImpactedEntities and ProblemDetailsJSONv2 are passed as JSON objects, not strings.
 
         ```
         { 
-          "connectionId": <connections_alias_sys_id>,
           "ImpactedEntities": {ImpactedEntities}, 
           "ImpactedEntity": "{ImpactedEntity}", 
           "PID": "{PID}", 
@@ -71,25 +70,14 @@ Configure the Event Management environment for the collection of events from Dyn
           "ProblemDetailsMarkdown": "{ProblemDetailsMarkdown}", 
           "ProblemDetailsText": "{ProblemDetailsText}", 
           "ProblemID": "{ProblemID}", 
-          "ProblemImpact": "{ProblemImpact}", 
-          "ProblemSeverity": "{ProblemSeverity}", 
-          "ProblemTitle": "{ProblemTitle}", 
-          "ProblemURL": "{ProblemURL}", 
-          "State": "{State}", 
-          "Tags": "{Tags}" 
+          "ProblemImpact": "{ProblemImpact}",
+          "ProblemSeverity": "{ProblemSeverity}",
+          "ProblemTitle": "{ProblemTitle}",
+          "ProblemURL": "{ProblemURL}",
+          "State": "{State}",
+          "Tags": "{Tags}"
         }
         ```
-
-        **Note:** For the &lt;connections\_alias\_sys\_id&gt;:
-
-        1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Connection &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-        2.  Select to open the connector for which you want to get the &lt;connections\_alias\_sys\_id&gt;.
-
-            \[Omitted image "dynatrace-connection-aliases.png"\] Alt text: Dynatrace connection aliases list.
-
-        3.  Right-click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: menu icon\) and then select **Copy sys\_id**.
-
-            \[Omitted image "dynatrace-static-sys-id.png"\] Alt text: sys\_id of the connection.
 
 
 ## Result

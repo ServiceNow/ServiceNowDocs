@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/developing-applications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 7
 breadcrumb: [Building applications]
 ---
@@ -16,7 +16,7 @@ Build a custom application to meet the business needs of your organization. Choo
 
 <table id="table_y5t_rg5_gbc" class="nav-card"><tbody><tr><td>
 
-[Vibe coding and AI app development \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development, enhance custom applications with AI, and vibe code using the generative and agentic AI capabilities available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md)
+[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with AI using the generative and agentic AI capabilities available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md)
 
 </td><td>
 
@@ -106,11 +106,11 @@ Source code developers
 Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md).
 
 </td></tr></tbody>
-</table>## Vibe coding and AI app development on the ServiceNow AI Platform
+</table>## Agentic development on the ServiceNow AI Platform
 
--   **[Vibe code full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)**
+-   **[Agentic development of full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)**
 
-    Vibe code on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with Now Assist for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
+    Use agentic development on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with Now Assist for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
 
 -   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-using-landing.md)**
 

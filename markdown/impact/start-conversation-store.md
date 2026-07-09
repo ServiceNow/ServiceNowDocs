@@ -1,18 +1,18 @@
 ---
 title: Start a conversation
-description: You can start a message thread with the Impact Experts.
+description: You can start a message thread with Impact Experts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/start-conversation-store.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Impact Conversations, Using Impact, Impact]
 ---
 
 # Start a conversation
 
-You can start a message thread with the Impact Experts.
+You can start a message thread with Impact Experts.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: Impact user or Impact executive
 
 ## About this task
 
-When you need support from the Impact Squad while you're on pages such as Initiatives, Accelerators, Value management, or Platform health on Impact, you can start a conversation.
+When you need support from the Impact Squad while you're on pages such as Initiatives, Accelerators, value management, or platform health, you can start a conversation.
 
 ## Procedure
 
@@ -32,23 +32,28 @@ When you need support from the Impact Squad while you're on pages such as Initia
 
 2.  In the **New conversation** dialog, enter a brief subject in the **Subject** field.
 
-3.  In the **Category** list, select **General**, **Health**, **Business Category**, **Business Outcomes**, or **Future needs and upgrades** depending on the category that best fits your conversation.
+3.  In the **Category** list, select one of the following:
 
+    -   **General**
+    -   **Health**
+    -   **Business Category**
+    -   **Business Outcomes**
+    -   **Future needs and upgrades**
     The next field appears in context with the **Category** you select. For example, if you selected Business objectives as **Category**, the next field is a list of business objectives applicable for that instance.
 
-4.  Search for and select one or more recipients in **Send to** field.
+4.  Search for and select one or more recipients in the **Send to** field.
 
 5.  Enter your message in **How can we help?**
 
 6.  Attach supporting files by dragging them into the upload area or selecting **+ Add file**.
 
-    **Note:** Supported file types are `.jpg`, `.pdf`.pdf, `.xml`.xml, `.png` , and `.docx`.
+    **Note:** Supported file types are JPG, PDF, XML, PNG, and DOCX.
 
 7.  Select **Start Conversation**.
 
     The conversation is created and appears in the Impact Conversation workspace.
 
-8.  If you want to discard the conversation, select **Cancel**.
+8.  To discard the conversation, select **Cancel**.
 
 
 ## What to do next

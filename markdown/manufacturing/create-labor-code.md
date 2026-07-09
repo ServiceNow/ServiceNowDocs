@@ -1,5 +1,5 @@
 ---
-title: Create a labor code
+title: Create labor code
 description: Define a labor code for the different tasks or work performed by the service agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/create-labor-code.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up Manufacturing Commercial Operations, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
 
-# Create a labor code
+# Create labor code
 
 Define a labor code for the different tasks or work performed by the service agents.
 
@@ -20,11 +20,15 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **MCO Setup** &gt; **Labor code**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **MCO Setup** &gt; **Labor code**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -32,6 +36,10 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |Active|Option to indicate if the labor code is active or not.|
     |Description|Description for the labor code.|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
+
+## Result
+
+The labor code is generated.
 

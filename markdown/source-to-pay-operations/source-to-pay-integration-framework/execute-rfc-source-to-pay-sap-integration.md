@@ -28,6 +28,8 @@ Step 4 - Create ERP Source is an ERP source configuration table.
 
 Step 5 - Create a Service, add flow and give the necessary inputs in the fields.
 
+\[Omitted image "rfc-execution.svg"\] Alt text: Flowchart of 4 SAP setup steps in ServiceNow: Create Credential Alias, Connection Alias, Connection, and ERP Source Configuration.
+
 **Name**: ZSN\_BAPI\_GET\_DATA
 
 <table id="table_owl_24z_lxb"><thead><tr><th>
@@ -123,14 +125,14 @@ Error Message
 Reason for error. Populated only when an error occurs. Error returned from SAP in the RETURN parameter.No or empty response received from SAP
 
 </td></tr></tbody>
-</table>-   \[Omitted image "function-builder-initial-screen.png"\] Alt text: Function Builder Initial Screen
+</table>-   \[Omitted image "function-builder-initial-screen.png"\] Alt text: SAP Function Builder initial screen for the ZSN\_BAPI\_GET\_DATA function module.
 
--   \[Omitted image "test-function-module.png"\] Alt text: IMPORT, CHANGING, and TABLES parameters
+-   \[Omitted image "test-function-module.png"\] Alt text: Function module test screen for entering the IMPORT, CHANGING, and TABLES parameters.
 
--   \[Omitted image "test-function-module-result-screen.png"\] Alt text: Results data
+-   \[Omitted image "test-function-module-result-screen.png"\] Alt text: Results data returned after executing the test function module.
 
--   \[Omitted image "structure-editor.png"\] Alt text: Results data
+-   \[Omitted image "structure-editor.png"\] Alt text: Structure editor showing the results data structure.
 
-    \[Omitted image "structure-editor-display-it.png"\] Alt text: Results Data
+    \[Omitted image "structure-editor-display-it.png"\] Alt text: Structure editor displaying the results data output.
 
 

@@ -1,16 +1,16 @@
 ---
-title: Operational Technology Discovery deployment scenarios
+title: OT Discovery deployment scenarios
 description: Deployment scenarios for OT Discovery vary based on a network's architecture. Use these scenarios to help determine how to deploy the OT Discovery components in your OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/deployment-scenarios.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
-reading_time_minutes: 5
+reading_time_minutes: 3
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Operational Technology Discovery deployment scenarios
+# OT Discovery deployment scenarios
 
 Deployment scenarios for OT Discovery vary based on a network's architecture. Use these scenarios to help determine how to deploy the OT Discovery components in your OT environment.
 
@@ -18,7 +18,7 @@ Deployment scenarios for OT Discovery vary based on a network's architecture. Us
 
 ## General recommendations
 
-General recommendations and guidance are listed in each scenario in these sections. Not all networks are the same. The requirements in this section are a generalization for the scenario. Consider factors such as segmentation level, communication pathways, network traffic, redundancy, and environmental conditions. For resource recommendations for the Operational Technology Discovery components see the [Resources for OT Discovery System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) section.
+General recommendations and guidance are listed in each scenario in these sections. Not all networks are the same. The requirements in this section are a generalization for the scenario. Consider factors such as segmentation level, communication pathways, network traffic, redundancy, and environmental conditions. For resource recommendations for the OT Discovery components see, [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md).
 
 ## Flat network architecture across multiple sites
 
@@ -68,86 +68,3 @@ A segmented site architecture with multiple networks is a network design that ha
 
 \[Omitted image "seg-site-multi.png"\] Alt text: Micro-segmented site with multiple networks
 
-## Resources for OT Discovery System
-
-The requirements in this section are a generalization. Consider factors such as segmentation level, communication pathways, network traffic, redundancy, and environmental conditions. Also account for physical constraints when determining network requirements. The following tables provide resource estimates for each OT Discovery component. Review your system requirements beyond these minimums.
-
-<table id="table_i5f_kpx_vgc"><thead><tr><th>
-
-Component
-
-</th><th>
-
-Minimum System Requirements
-
-</th></tr></thead><tbody><tr><td>
-
-Discovery Console for OT
-
-</td><td>
-
--   16 GB RAM
--   100 GB Hard drive
--   2 CPUs
-
-</td></tr></tbody>
-</table>For additional requirements for the Console, see [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reqs-ot-console-installation.md) and [Install the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-discovery-console-ot.md).
-
-<table id="table_sensor_requirements"><thead><tr><th>
-
-Component
-
-</th><th>
-
-Minimum System Requirements
-
-</th></tr></thead><tbody><tr><td>
-
-Discovery Sensor for OT
-
-</td><td>
-
--   2 GB RAM\*
--   100 GB Hard drive
--   2 CPUs
--   2 virtual NIC cards
-
-\*8 GB of RAM is recommend for all queries.
-
-</td></tr></tbody>
-</table>For additional requirements for the Sensor, see .
-
-**Collector minimum system requirements**
-
-The OT Discovery Collector can be installed and run on either a Windows OS or a Linux OS.
-
-<table id="table_collector"><thead><tr><th>
-
-Component Operating System
-
-</th><th>
-
-Minimum System Requirements
-
-</th></tr></thead><tbody><tr><td>
-
-Windows
-
-</td><td>
-
-The OT Discovery Collector installation is compatible with Windows 10 or Windows 11 systems.
-
- The required Windows \(10 or 11\) environment for the OT Discovery Collector is x86\_64. ARM or Apple Silicon devices are not supported.
-
- See [Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/installing-collector-on-windows.md).
-
-</td></tr><tr><td>
-
-Linux
-
-</td><td>
-
-See [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/linux-install-ot-discovery-collector.md) for specific information.
-
-</td></tr></tbody>
-</table>

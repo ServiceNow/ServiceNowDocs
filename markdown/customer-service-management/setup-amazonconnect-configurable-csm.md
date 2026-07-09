@@ -1,5 +1,5 @@
 ---
-title: Associate Amazon Connect queues for CSM to a ServiceNow instance
+title: Associate Amazon Connect queues with CSM
 description: Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-amazonconnect-configurable-csm.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Using Voice, Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Associate Amazon Connect queues for CSM to a ServiceNow instance
+# Associate Amazon Connect queues with CSM
 
 Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
 

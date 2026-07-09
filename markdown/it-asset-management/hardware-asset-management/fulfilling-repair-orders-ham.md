@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 1
-breadcrumb: [Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Repair order fulfillment in the Hardware Asset Workspace

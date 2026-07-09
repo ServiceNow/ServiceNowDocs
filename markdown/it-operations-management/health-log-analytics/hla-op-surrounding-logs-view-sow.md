@@ -19,7 +19,7 @@ Review the log lines around an anomaly to help you identify the root cause of a 
 
 ## Before you begin
 
-For background information, see [Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md).
+For background information, see [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 

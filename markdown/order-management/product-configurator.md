@@ -1,6 +1,6 @@
 ---
-title: Legacy product configurator
-description: The legacy product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
+title: ServiceNow CPQ Configurator - Basic
+description: The product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/product-configurator.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
-# Legacy product configurator
+# ServiceNow CPQ Configurator - Basic
 
-The legacy product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
+The product configurator is a user interface that is embedded in various Sales Customer Relationship Management applications, such as the Opportunity, Quote, and Order Management applications, enabling agents to configure complex products or services dynamically according to customer requirements.
 
 **Note:** Check your entitlements to determine if you have access to this feature.
 
@@ -24,5 +24,5 @@ The interface consists of three main sections:
 
 As an admin, you can use product configurator extension points and methods provided with the Open state management framework to customize the product configurator interface. To learn more about the framework, see [Open state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-open-state-management-model.md).
 
-\[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: The image shows the legacy product configurator UI with the Product Hierarchy, Option Selection, and Current Selection sections highlighted.
+\[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: The image shows the configurator UI with the Product Hierarchy, Option Selection, and Current Selection sections highlighted.
 

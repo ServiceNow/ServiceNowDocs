@@ -127,7 +127,7 @@ If you want to create application services only from several candidates
 
 ## What to do next
 
--   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Add or remove CIs for multiple application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md).
+-   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md).
 -   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
 -   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
 -   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
@@ -140,9 +140,9 @@ If you want to create application services only from several candidates
     -   If you use customized discovery patterns and mapping results in very large service instances, modify the patterns so that they don't map irrelevant CIs.
     -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
 
--   **[Add or remove CIs for multiple application services using connection suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)**  
+-   **[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)**  
 If the discovery based on Predictive Intelligence is enabled, the newly mapped application services include only CIs and CI connections added by discovery patterns. Use connection suggestions to decide which configuration items \(CIs\) to include or exclude globally. Service Mapping then updates all relevant discovered application services to reflect your decisions.
--   **[Add CIs to multiple application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)**  
+-   **[Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)**  
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 
 **Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)

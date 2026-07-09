@@ -20,7 +20,7 @@ To access Change Schedules, navigate to **Change** &gt; **Schedule** &gt; **Chan
 
 **Note:** To view the Change Schedules page, you must activate Change Management - Change Schedule plugin \(com.snc.change\_management.soc\).
 
-\[Omitted image "image.change\_schedules"\] Alt text: Change schedules landing page
+\[Omitted image "change\_schedules.png"\] Alt text: Change schedules landing page
 
 You can find schedules arranged under three categories as follows:
 

@@ -177,7 +177,7 @@ Assignment Group
 **Related topics**  
 
 
-[Create custom field mapping for Microsoft Project file import]()
+[Create custom field mapping for Microsoft Project import]()
 
 [Project import from Microsoft Project]()
 

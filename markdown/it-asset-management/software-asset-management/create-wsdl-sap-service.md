@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-12"
 reading_time_minutes: 2
 keywords: [SAP WSDL, service definition, SOA Manager, SAP integration]
-breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a WSDL for the SAP service definition

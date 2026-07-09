@@ -1,18 +1,18 @@
 ---
 title: Set a custom message for zero-priced and null-priced items
-description: Customize how zero-priced and null-priced items appear in CPQ layouts. Replace $0.00 or missing prices with custom messages—such as “Included,” “Pending,” or “Price TBD”—across product pickers, picklist extensions, and shopping cart components for clearer user communication.
+description: Customize how zero-priced and null-priced items appear in ServiceNow CPQ layouts. Replace $0.00 or missing prices with custom messages—such as “Included,” “Pending,” or “Price TBD”—across product pickers, picklist extensions, and shopping cart components for clearer user communication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-set-a-custom-message-for-zero-priced-and-null-priced-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up pricing display, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up pricing display, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set a custom message for zero-priced and null-priced items
 
-Customize how zero-priced and null-priced items appear in CPQ layouts. Replace $0.00 or missing prices with custom messages—such as “Included,” “Pending,” or “Price TBD”—across product pickers, picklist extensions, and shopping cart components for clearer user communication.
+Customize how zero-priced and null-priced items appear in ServiceNow CPQ layouts. Replace $0.00 or missing prices with custom messages—such as “Included,” “Pending,” or “Price TBD”—across product pickers, picklist extensions, and shopping cart components for clearer user communication.
 
 ## Before you begin
 

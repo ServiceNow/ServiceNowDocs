@@ -1,18 +1,18 @@
 ---
-title: Set up a ServiceNow instance for CPQ integration
-description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to Logik.ai.
+title: Set up instance for ServiceNow CPQ integration
+description: Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-integration-create-certificates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up a ServiceNow instance for CPQ integration
+# Set up instance for ServiceNow CPQ integration
 
-Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to Logik.ai.
+Set up a ServiceNow instance, generate a JSON Web Token \(JWT\), and authenticate API calls to ServiceNow CPQ.
 
 ## Before you begin
 
@@ -20,11 +20,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Validate that the CPQ Integration application is installed on your ServiceNow instance by doing the following:
+1.  Validate that the ServiceNow CPQ Integration application is installed on your ServiceNow instance by doing the following:
 
     1.  Navigate to https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
 
-    2.  Check that the Logik.AI Admin UI Application Registry exists with a ClientID and secret.
+    2.  Check that the ServiceNow CPQ.AI Admin UI Application Registry exists with a ClientID and secret.
 
         This information is used later.
 
@@ -68,7 +68,7 @@ Role required: admin
 
         Set the **Value** to true, then select **Submit**.
 
-        **Note:** Step 3 must be repeated whenever CPQ integration is reinstalled.
+        **Note:** Repeat step 3 each time CPQ Integration is reinstalled.
 
 4.  Set up API authentication by creating the integration user roles included with the Sales Customer Relationship Management applications:
 
@@ -96,19 +96,19 @@ Role required: admin
 
     Use the **Update Personalized List** icon.
 
-    1.  In the list view, double-click the **OAuth Application User** field to edit it.
+    1.  In the list view, double-select the **OAuth Application User** field to edit it.
 
-    2.  Set the user created in Step 4a as the OAuth Application User in the Logik.ai API record.
+    2.  Set the user created in Step 4a as the OAuth Application User in the ServiceNow CPQ.ai API record.
 
         If you can't modify this field, verify that you're in the correct scope \(CPQ Integration\).
 
-    3.  Open this Logik.ai API record.
+    3.  Open this ServiceNow CPQ.ai API record.
 
     4.  Select **Active** and save the record.
 
     5.  Switch to the global scope.
 
-    6.  Create a new system property.
+    6.  Create system property.
 
         -   In the navigation filter, enter `sys_properties.list`.
         -   Select **New**.
@@ -116,4 +116,8 @@ Role required: admin
         -   Select the edit icons for Read Roles and Write Roles and select admin for each.
         -   Set the **Value** to true.
         -   Select **Update**.
+
+## What to do next
+
+[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
 

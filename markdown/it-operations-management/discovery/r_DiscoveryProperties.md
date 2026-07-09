@@ -16,7 +16,7 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 
 Discovery properties allow you to control several aspects of the horizontal discovery process.
 
-For information about the Discovery properties that Agent Client Collector uses, see [Using push-based Discovery and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
+For information about the Discovery properties that Agent Client Collector uses, see [Using push-based and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
 
 Edit the following Discovery properties by navigating to **Discovery Definition** &gt; **Properties**.
 

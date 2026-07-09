@@ -9,7 +9,7 @@ classification: health-and-safety-incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Manage anonymous safety concerns, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage anonymous safety concerns, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Work on an anonymous safety concern

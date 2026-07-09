@@ -26,7 +26,7 @@ The Automated Test Framework \(ATF\) can be used to create automated tests to co
 Restart a playbook from the beginning, an activity, or a stage.
 -   **[Cancel a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/cancel-playbook.md)**  
 Cancel a playbook to stop a business workflow when no longer valid.
--   **[Open full lists within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/full-list-playbook.md)**  
+-   **[Open full lists within playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/full-list-playbook.md)**  
 Open a full list within playbook cards to view and update list items.
 -   **[Using activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
 Use activity stream within a playbook to add comments or notes, and view communication and task history for the parent or associated record.

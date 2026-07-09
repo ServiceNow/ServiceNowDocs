@@ -35,7 +35,7 @@ To enable AI agents in Virtual Agent:
     The configuration consists of the following:
 
     -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
     \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
 2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).

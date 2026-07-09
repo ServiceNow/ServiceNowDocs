@@ -49,6 +49,8 @@ For more information, see [Recommended for you](https://raw.githubusercontent.co
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

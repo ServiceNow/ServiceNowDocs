@@ -90,3 +90,10 @@ A more detailed description of the customer question, issue, or problem.
     The case is created, assigned a case number, and added to the user's case list. Click **My Cases** at the top of the customer portal to view the Cases list.
 
 
+**Related topics**  
+
+
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-info.md)
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+

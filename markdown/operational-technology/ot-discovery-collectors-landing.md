@@ -22,7 +22,7 @@ Use the links to explore, configure, and use the OT Discovery Collector.
 
 Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
- [Explore the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ot-collectors.md)
+ [Explore the Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ot-collectors.md)
 
 </td><td>
 

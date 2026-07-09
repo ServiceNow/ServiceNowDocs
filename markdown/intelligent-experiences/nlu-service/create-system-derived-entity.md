@@ -7,7 +7,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---

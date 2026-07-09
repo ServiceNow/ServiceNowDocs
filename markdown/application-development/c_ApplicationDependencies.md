@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-02"
 reading_time_minutes: 1
-breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Dependencies for custom applications
@@ -30,4 +30,6 @@ The platform determines dependencies based on the components your application re
 To remove a dependency, navigate to the application record and locate the Dependencies related list. Before deleting a dependency record, confirm that the application no longer references any components from that application or plugin. Removing a required dependency causes errors on instances where the supporting component is not installed.
 
 \[Omitted image "app-dependencies.png"\] Alt text: Remove dependencies from the custom app record by accessing the Dependencies related list.
+
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
 

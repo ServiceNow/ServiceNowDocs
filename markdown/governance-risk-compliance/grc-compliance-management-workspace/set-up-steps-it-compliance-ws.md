@@ -44,7 +44,5 @@ For more information on the tables used for IT compliance workspace, see [Compon
 
 The IT compliance manager is the user who can access the IT risk and compliance data in the Compliance Workspace. In the List view of the Compliance Workspace, there is a filter that restricts the display of all audit and compliance data but refines to display only the IT risk and compliance data. The filter uses the Functional domain field in the all the audit and compliance related base forms to filter and display the IT related data in the Compliance Workspace List modules.
 
-\[Omitted image "FilterITRelatedData.png"\] Alt text: IT risk and compliance data filter.
-
 **Note:** An admin or any user with both corporate compliance manager and IT compliance manager roles can view two list modules with the same name.
 

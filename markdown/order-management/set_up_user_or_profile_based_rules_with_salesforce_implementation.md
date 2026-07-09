@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up user-based or profile-based rules with Salesforce implementation
@@ -18,7 +18,7 @@ Sometimes, system administrators donʼt want to allow every sales representative
 
 ## Step 1
 
-First, youʼll want to create a new field on your Quote object in SFDC. This field should be of type “Formula,” and the Formula Return Type should be “Text.” Make sure to append the “LGK” suffix to the end of the field name, as this field is going to be twinned into CPQ.
+First, youʼll want to create a new field on your Quote object in SFDC. This field should be of type “Formula,” and the Formula Return Type should be “Text.” Make sure to append the “LGK” suffix to the end of the field name, as this field is going to be twinned into ServiceNow CPQ.
 
 ## Step 2
 
@@ -34,7 +34,7 @@ Add the formula field to the ReferencedFields field data set as you normally wou
 
 ## Step 4
 
-Write the rule in CPQ. For example, if you wanted a rule to fire on the System Admin profile, and the System Admin profileʼs ID is 00e8c000002qrLx, you might condition your rule like this:
+Write the rule in ServiceNow CPQ. For example, if you wanted a rule to fire on the System Admin profile, and the System Admin profileʼs ID is 00e8c000002qrLx, you might condition your rule like this:
 
 \[Omitted image "cpq-salesforce-new-custom-field-formula.png"\] Alt text: Set Up User or Profile Based Rules with Salesforce Implementation
 

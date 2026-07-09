@@ -41,8 +41,6 @@ An administrator must set a default LLM provider before the skill can be used. T
 
 -   Azure OpenAI
 -   AWS Claude
--   Now LLM Service
--   Now LLM Service LTS
 -   Google Gemini
 
 To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).

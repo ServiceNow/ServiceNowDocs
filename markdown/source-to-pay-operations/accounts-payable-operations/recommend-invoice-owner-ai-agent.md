@@ -1,6 +1,6 @@
 ---
 title: Recommend invoice owner AI agent
-description: The Recommend Invoice Owner AI agent identifies business owners for Non-purchase order \(PO\) invoices and credit memos when a missing or invalid owner exception occurs using semantic matching or task-based resolution. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supports Amazon Claude, Google Gemini, Now LLM, and GPT models.
+description: The Recommend invoice owner AI agent identifies missing business owners for Non-PO invoices and credit memos through semantic matching. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supportsAWS Claude, Google Gemini, Now LLM, and GPT models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/recommend-invoice-owner-ai-agent.html
 release: australia
@@ -15,5 +15,7 @@ breadcrumb: [Using AI agents in Now Assist for Accounts Payable Operations, Now 
 
 # Recommend invoice owner AI agent
 
-The Recommend Invoice Owner AI agent identifies business owners for Non-purchase order \(PO\) invoices and credit memos when a missing or invalid owner exception occurs using semantic matching or task-based resolution. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supports Amazon Claude, Google Gemini, Now LLM, and GPT models.
+The Recommend invoice owner AI agent identifies missing business owners for Non-PO invoices and credit memos through semantic matching. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supportsAWS Claude, Google Gemini, Now LLM, and GPT models.
+
+s
 

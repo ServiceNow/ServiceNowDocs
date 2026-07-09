@@ -16,7 +16,7 @@ breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Ident
 
 Inbound Integrations in the machine identity console allows you to configure and manage external applications to access ServiceNow APIs.
 
-The Inbound integrations within the ServiceNow's Machine Identity Console helps you manage and configure integrations and applications that connect with the ServiceNow platform. It acts as a central hub for storing application settings and API credentials, ensuring secure communication between ServiceNow and external systems. To know more, see [New Inbound integrations experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/new-inbound-integrations.md).
+The Inbound integrations within the ServiceNow's Machine Identity Console helps you manage and configure integrations and applications that connect with the ServiceNow platform. It acts as a central hub for storing application settings and API credentials, ensuring secure communication between ServiceNow and external systems. To know more, see [New Inbound Integrations experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/new-inbound-integrations.md).
 
 Connections types:
 
@@ -29,7 +29,7 @@ Connections types:
     **Note:** For authorization code flow, user must complete the Authentication by local login, SSO or MFA and then provide consent.
 
 
-To learn more, see [New Inbound integrations experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/new-inbound-integrations.md).
+To learn more, see [New Inbound Integrations experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/new-inbound-integrations.md).
 
 **Related topics**  
 

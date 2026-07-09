@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create My campaign phases
@@ -34,6 +34,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 5.  Select **Save**.
 
-
-**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-management.md)
 

@@ -61,6 +61,8 @@ The users with the assigned role that has been added to the system property can 
 
 [Auto-populate the start date and end date for contract requests]()
 
+[Enable signatory roles]()
+
 [Activate a system property to generate a certificate of completion]()
 
 [Enable keyword search for contract templates]()

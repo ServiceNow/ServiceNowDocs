@@ -33,6 +33,10 @@ See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
     Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
 
+-   **[Updated authentication model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-target-instance.md)**
+
+    Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
+
 
 ## Deprecated Features
 

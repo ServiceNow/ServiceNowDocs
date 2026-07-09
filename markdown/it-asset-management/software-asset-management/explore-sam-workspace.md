@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Exploring Software Asset Management
@@ -36,7 +36,7 @@ To continue using the classic Software Asset Management application, you need to
 
 If you later decide to use the Software Asset Workspace, you need to activate theSoftware Asset Workspace \(sn\_sam\_workspace\) store application.
 
-For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
+For detailed information on configuring and using the classic Software Asset Management application, refer to [Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md) and [Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md).
 
 ## Menus that continue to reside in Software Asset Management classic
 

@@ -57,3 +57,5 @@ In a soft dependency, any changes made in the predecessor project trigger a noti
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+

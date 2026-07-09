@@ -1,31 +1,22 @@
 ---
 title: Sales promotion claim management
-description: To be updated
+description: Sales promotion claim management covers the tasks for creating, viewing, and approving sales promotion claim cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sls-pro-clm-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Sales promotion claim management
 
-To be updated
+Sales promotion claim management covers the tasks for creating, viewing, and approving sales promotion claim cases.
 
 |Tasks|Description|
 |-----|-----------|
 |[Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-sls-pro-claim-case.md)|Create a sales promotion claim case.|
 |[View sales promotion claim cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/all-cases.md)|View all the sales promotion claim cases.|
 |[Approve all claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-approve-sp-claim.md)|Different types of approval.|
-
--   **[Create a sales promotion claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-sls-pro-claim-case.md)**  
-Create a sales promotion claim case.
--   **[View sales promotion claim cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/all-cases.md)**  
-View the sales promotion claim cases.
--   **[Reviewing and approving the sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-approve-sales-promotion-claims.md)**  
-Agents workspace enables a claims agent to review and approve the sales promotion claims submitted by the dealer.
-
-**Parent Topic:**[Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion.md)
 

@@ -41,6 +41,11 @@ To enable dependent CIs management:
 
 Cascade-cleanup operations apply only from when you enable the dependent CIs management feature. To apply cascade-cleanup to orphan dependent CIs that already existed in the CMDB before enabling the feature, see [Cascade-cleanup existing orphan dependent CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
+To turn off the dependent CIs management feature:
+
+-   Fully: Set both properties, **cmdb.dependent.ci.cascade.retire.enabled** and **cmdb.dependent.ci.cascade.op.enabled**, to **false**.
+-   Only stop the task creation: Set the **cmdb.dependent.ci.cascade.op.enabled** property to **false**.
+
 ## Use of CMDB Data Manager to perform cascade-cleanup operations
 
 Dependent CIs management processes use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to process the life cycle updates for the dependent CIs in the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table in the following ways:
@@ -183,5 +188,5 @@ For monitoring purposes, check the system logs for cleanup activity. Log message
 
 [View and edit class definitions and metadata]()
 
-[Update the list of classes in the Principal Class filter]()
+[Principal Class]()
 

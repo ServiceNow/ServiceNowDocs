@@ -19,7 +19,7 @@ Learn how you can use the Operational Technology Manager application to create t
 The Operational Technology Manager supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform.
 
 -   **[Operational Technology Manager \(OT\) configuration item extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-configuration-item-extension-classes.md)**  
-Operational Technology Manager uses Operational Technology \(OT\) configuration item \(CI\) extension classes that extend the CMDB class hierarchy.
+Operational Technology Manager uses Operational Technology \(OT\) configuration item \(CI\) extension classes that extend the CMDB class hierarchy as shown in the following figure.
 -   **[CMDB CI classes for Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/cmdb_ci_classes_operational_technology_manager.md)**  
 Operational Technology Manager adds these Configuration Management Database \(CMDB\) configuration item \(CI\) classes that are part of the CMDB CI Class Models application.
 -   **[OT device data import and discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-asset-data-import-discovery.md)**  

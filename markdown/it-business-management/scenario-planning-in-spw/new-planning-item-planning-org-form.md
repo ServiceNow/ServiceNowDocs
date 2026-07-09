@@ -72,5 +72,5 @@ If this new table is a type of planning item, select **Planning Item**.
 **Related topics**  
 
 
-[Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
+[Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
 

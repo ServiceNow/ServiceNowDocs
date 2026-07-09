@@ -1,6 +1,6 @@
 ---
 title: Add reference information to an assessment template
-description: Add reference information to an assessment template to help ensure that assessors can access to the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
+description: Add reference information to an assessment template so that assessors can access the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Create an assessment template, Use template designer, Manage, Smart
 
 # Add reference information to an assessment template
 
-Add reference information to an assessment template to help ensure that assessors can access to the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
+Add reference information to an assessment template so that assessors can access the information they need while responding to assessments by using the Smart Assessment Engine. With an assessment template, you can minimize the need for external references and can improve the efficiency of the assessment process.
 
 ## Before you begin
 
@@ -41,10 +41,14 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
     This table is referenced when populating the reference card with information. You can select fields that are available within the current assessment target \(application scope\) or dot walk to access fields from the assessment target's related tables. The **Assessment target** field is automatically filled in if only one **Assessment target** was selected for the template.
 
-5.  In the Available columns section, select the fields that you want to be used to fill in the reference card.
+5.  In the **Available columns** section, select the fields that you want to be used to fill in the reference card.
 
-    You can drag the field selections into any order in the Select columns section. The information appears in the same order in the reference card.
+    You can drag the field selections into any order in the **Select columns** section. The information appears in the same order in the reference card.
 
 6.  Select **Add** and then **Save**.
 
+
+## Result
+
+The reference card is saved and available to assessors in the reference panel when they respond to the assessment.
 

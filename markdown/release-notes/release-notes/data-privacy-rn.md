@@ -64,6 +64,11 @@ See [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     -   [Optional condition filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-create-anonymization-job.md) when running anonymization jobs to fine tune the scope of data to be anonymized.
     -   [Specific anonymization policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-create-anonymization-policies.md) for catalog variables to anonymize sensitive data in catalog requests.
 
+-   **Key word matching**
+
+    As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
+
+
 ## Activation information
 
 Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-activate-data-privacy.md).

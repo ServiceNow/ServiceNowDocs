@@ -18,7 +18,7 @@ Create consistent recurring documents by developing templates using Document Tem
 
 Use templates for communication letters to employees like verification letters or offer letters. Associating templates with an HR case and moving it to an appropriate working status, like Work in progress, retrieves the data from the case and integrates it with the template. For more information on how to configure and use a document template, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md).
 
-Agents can use templates to generate document tasks and get signoffs from the stakeholders. After all the participants sign the template, the signed document is generated. For more information, see .
+Agents can use templates to generate document tasks and get sign-offs from the stakeholders. After all the participants sign the template, the signed document is generated.
 
 **Note:** Install the Document Templates plugin to use this feature.
 

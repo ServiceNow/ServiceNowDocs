@@ -89,6 +89,13 @@ ServiceNow Vault is a bundle of the following products:
     Autoclassify and protect the occurrences of sensitive data within your custom applications using guided setup for Vault. This flow helps you to quickly start using Vault capabilities in your own applications.
 
 
+## Changed in this release
+
+-   **[Default model provider for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in Now Assist for Vault.
+
+
 ## Activation information
 
 Install Vault Console, Now Assist for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).

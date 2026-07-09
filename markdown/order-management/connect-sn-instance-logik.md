@@ -1,18 +1,18 @@
 ---
-title: Set up a ServiceNow instance connection with a Logik.ai instance
-description: Set up the connections between the ServiceNow instance and the Logik.ai instance.
+title: Connect your instance with ServiceNow CPQ instance
+description: Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/connect-sn-instance-logik.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up a ServiceNow instance connection with a Logik.ai instance
+# Connect your instance with ServiceNow CPQ instance
 
-Set up the connections between the ServiceNow instance and the Logik.ai instance.
+Set up the connections between the ServiceNow instance and the ServiceNow CPQ instance.
 
 ## Before you begin
 
@@ -26,29 +26,29 @@ Role required: admin
 
 2.  Navigate to `https://<service_instance_url>/oauth_entity.do?sys_id=3b119df83b566210a0c0989e53e45a15`.
 
-    1.  Update the Redirect URL to `https://<logik-tenant-url>/login/oauth2/code/<logik-tenant-name>-login`.
+    1.  Update the Redirect URL to `https://<tenant-url>/login/oauth2/code/<tenant-name>-login`.
 
-        -   The logik-tenant-name is the name of the logik site \(for example, logiksite-som\). The logik-tenant-url is the full URL of the site \(for example, logiksite-som.test.logik.io\)
+        -   The tenant-name is the name of the ServiceNow CPQ site. The tenant-url is the full URL of the site \(for example, cpq-som.test.logik.io\)
         -   Example: `https://logiksite-som.test.logik.io/login/oauth2/code/logiksite-som-login`
     2.  Select the **Activate** property.
 
     3.  Select **Update**.
 
-3.  In the filter, enter ``.
+3.  In the filter, enter `sys_properties.list`.
 
     1.  Open the **sn\_cpq\_intg.tenant\_url** system property.
 
-    2.  Set the **Value** to `https://<logik-tenant-url>.logik.io`
+    2.  Set the **Value** to `https://<tenant-url>.cpq`
 
     3.  Select **Update**.
 
-4.  Validate that the connection to the CPQ site is valid by navigating to **All** &gt; **CPQ Administration** and open the CPQ site \(listing no blueprints by default\).
+4.  Validate that the connection to the ServiceNow CPQ site is valid by navigating to **All** &gt; **CPQ Administration** and open the ServiceNow CPQ site \(listing no blueprints by default\).
 
     If this fails to open, check the previous steps for typos and trailing slashes.
 
-5.  Generate the admin API key in CPQ.
+5.  Generate the admin API key in ServiceNow CPQ.
 
-    1.  In CPQ, login as admin user and navigate to **Select Utilities** &gt; **Admin API Keys**.
+    1.  In ServiceNow CPQ, login as admin user and navigate to **Select Utilities** &gt; **Admin API Keys**.
 
     2.  Specify a name and user ID \(with the same name: by default, "admin"\).
 
@@ -70,19 +70,23 @@ Role required: admin
 
     3.  Open the CPQ–sync connection.
 
-        -   Set the connection URL to `https://<logik-tenant-url>.logik.io`.
+        -   Set the connection URL to `https://<tenant-url>.cpq`.
         -   Ensure that there is no ending slash.
         -   Make the connection active, if it is not already.
-        -   Click **Save**.
+        -   Select **Save**.
     4.  From the CPQ–sync connection, select the CPQ–sync token in the Credential column.
 
-    5.  Set the API key to `Bearer {admintoken}` and add the value of the token that you copied in step 5e, and then click **Save**.
+    5.  Set the API key to `Bearer {admintoken}` and add the value of the token that you copied in step 5e, and then select **Save**.
 
         Example: `Bearer _53eT_sxJHJ5rcfgXe8-8LDEK3Of1zHpQ`
 
 
+## What to do next
+
+[Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md)
+
 **Related topics**  
 
 
-[Provision a Logik.ai instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
+[Request a ServiceNow CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
 

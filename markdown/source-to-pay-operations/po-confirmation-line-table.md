@@ -1,18 +1,19 @@
 ---
 title: Purchase Order Confirmation Line table
-description: A purchase order confirmation line is a line-level response from a supplier that acknowledges a specific purchase order line or a portion of it. It confirms whether the order can be delivered under the requested terms.
+description: A purchase order \(PO\) confirmation line is a supplier's line-level response acknowledging whether a purchase order line can be delivered under the requested terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/po-confirmation-line-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-08"
 reading_time_minutes: 1
+keywords: [PO confirmation, Confirmation table, purchase order confirmation]
 breadcrumb: [Master data tables for Purchase Order Management, Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Purchase Order Confirmation Line table
 
-A purchase order confirmation line is a line-level response from a supplier that acknowledges a specific purchase order line or a portion of it. It confirms whether the order can be delivered under the requested terms.
+A purchase order \(PO\) confirmation line is a supplier's line-level response acknowledging whether a purchase order line can be delivered under the requested terms.
 
 ## sn\_poem\_po\_confirmation\_line table
 
@@ -20,22 +21,28 @@ The Purchase Order Confirmation Line \[sn\_poem\_po\_confirmation\_line\] table 
 
 |Field|Data type|Description|
 |-----|---------|-----------|
-|ERP number|String|The ID of this PO confirmation in external systems \(e.g. ERP \).|
-|Purchase order line|Reference|The ID of the purchase order line to which this PO confirmation line refers.|
+|ERP number|String|PO confirmation ID in external enterprise resource planning \(ERP\) systems.|
+|Purchase order line|Reference|PO line ID that this confirmation line acknowledges.|
 |Additional comments|Journal Input|Free text for the supplier to enter any comments relevant to the entire order confirmation line.|
-|Created|Date/Time|Date and time on which this PO Confirmation was created.|
-|Purchase order confirmation|Reference|The ServiceNow ID of this PO confirmation line.|
-|Quantity|Decimal|The quantity for which supplier is confirming, which may be a subtotal of the order line quantity.|
-|Confirmed supplier part number|String|The supplier part the supplier commits to deliver. Applicable only if the Confirmation status is set to Changes requested.|
-|Confirmed amount|FX Currency|The confirmed total monetary amount for the confirmation line quantity.|
+|Created|Date/Time|Date and time on which this PO confirmation was created.|
+|Purchase order confirmation|Reference|ServiceNow ID of this PO confirmation line.|
+|Quantity|Decimal|Quantity for which supplier is confirming, which may be a subtotal of the order line quantity.|
+|Confirmed supplier part number|String|Supplier part the supplier commits to deliver.|
+|Confirmed amount|FX Currency|Confirmed total monetary amount for the confirmation line quantity.|
 |Updated|Date/Time|Date and time when this record was last modified.|
-|Confirmed unit price|FX Currency|The unit price for which the supplier commits to deliver. Applicable only if the Confirmation status is set to Changes requested.|
-|Updated by|String|The user who last modified this record.|
-|Confirmed delivery date|Date|The delivery date for which the supplier commits to deliver. Applicable only if the Confirmation status is set to Changes requested.|
-|Created by|String|The supplier contact who created this purchase order confirmation.|
-|Confirmation status|Choice|The Confirmation status provided by the supplier for this order line and quantity. Status can be Confirmed, Rejected, Changes requested.|
+|Confirmed unit price|FX Currency|Unit price for which the supplier commits to deliver.|
+|Updated by|String|User who last modified this record.|
+|Confirmed delivery date|Date|Delivery date for which the supplier commits to deliver.|
+|Created by|String|Supplier contact who created this purchase order confirmation.|
+|Confirmation status|Choice|Confirmation status provided by the supplier for this order line and quantity.|
+|Sequence number|String|An identifier used to define sequence order when multiple confirmation segments for the same purchase order line are present.|
 |Updates|Integer|Number of fields edited every time the record is updated.|
-|Unit|Reference|The unit of measure of this confirmation line.|
+|Unit|Reference|Unit of measure of this confirmation line.|
 
 **Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+
+**Related topics**  
+
+
+[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)
 

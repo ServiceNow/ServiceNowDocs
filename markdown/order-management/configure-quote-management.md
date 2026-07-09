@@ -1,5 +1,5 @@
 ---
-title: Configuring Quote Management
+title: Configuring Quote Management - Basic
 description: Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-quote-management.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Configuring Quote Management
+# Configuring Quote Management - Basic
 
 Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 
@@ -128,7 +128,7 @@ Optionally, configure [Configuring Advanced Approval Management](https://raw.git
 **Related topics**  
 
 
-[Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md)
+[Quote Experience in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md)
 
 [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

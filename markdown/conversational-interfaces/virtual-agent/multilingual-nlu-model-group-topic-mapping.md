@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Creating a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic mapping to a multilingual NLU model group

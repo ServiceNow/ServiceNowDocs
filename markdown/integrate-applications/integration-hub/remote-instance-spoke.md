@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-02"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -348,6 +348,10 @@ Updates the required record in the remote instance.
 
 </td></tr></tbody>
 </table>**Note:** The **Company** field is required to import or export records using the default transform maps. However, users can modify the transform maps as per their requirement. Also, use the import sets when working with integration involving data transfer.
+
+## Spoke user role
+
+The ServiceNow Remote Instance spoke provides the Remote Instance Admin \(sn\_now\_remote\_spk.Remote Instance Admin\) role that provides administrative rights for all tables that are avaiable with the ServiceNow Remote Instance spoke.
 
 ## Spoke transform maps
 

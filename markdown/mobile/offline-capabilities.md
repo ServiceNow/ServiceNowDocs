@@ -1,6 +1,6 @@
 ---
-title: Mobile experience capabilities available in offline mode
-description: Use the table to view the various capabilities and features that are either fully, partially or not supported in offline mode.
+title: Mobile experience components available in offline mode
+description: Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/offline-capabilities.html
 release: australia
@@ -10,17 +10,17 @@ reading_time_minutes: 6
 breadcrumb: [Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Mobile experience capabilities available in offline mode
+# Mobile experience components available in offline mode
 
-Use the table to view the various capabilities and features that are either fully, partially or not supported in offline mode.
+Use the tables to view the various components and features that are either fully, partially or not supported in offline mode.
 
-The column Offline support contains the following entries:
+The three table listed are categorized as follows:
 
--   Yes: Fully supported, and the behavior is the same for both online and offline.
--   Partial: Supported in offline but with certain limitations.
--   No: Not supported in offline.
+-   Component is fully supported, and the behavior is the same for both online and offline.
+-   Component is partially supported in offline with certain limitations.
+-   Component is not supported in offline.
 
-## Mobile offline support reference
+## Supported offline components
 
 <table id="table_fwk_jf5_njc"><thead><tr><th>
 
@@ -29,10 +29,6 @@ Component
 </th><th>
 
 Sub-component
-
-</th><th>
-
-Offline support \(Yes/Partial/No\)
 
 </th><th>
 
@@ -57,10 +53,6 @@ Mobile application
 </td><td>
 
 Now Mobile app, Mobile Agent app, Custom app, and Mobile Publishing
-
-</td><td>
-
-Yes
 
 </td><td>
 
@@ -90,10 +82,6 @@ Launcher screen / screen
 
 </td><td>
 
-Yes
-
-</td><td>
-
 The launcher screen or screen configured for the tab must be set as available offline.
 
 </td><td>
@@ -114,39 +102,7 @@ UI section
 
 </td><td>
 
-Analytics section
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-KPI dashboards
-
-</td></tr><tr><td>
-
-UI section
-
-</td><td>
-
 Record UI section, icon UI section, legacy UI icon section, content UI section
-
-</td><td>
-
-Yes
 
 </td><td>
 
@@ -166,71 +122,11 @@ My tasks, recent records, quick navigation tiles.
 
 </td></tr><tr><td>
 
-UI section
-
-</td><td>
-
-Media UI section
-
-</td><td>
-
-Partial
-
-</td><td>
-
-Media assets must be available locally.n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Remote media assets, for example YouTube videos, aren't available offline.
-
-</td><td>
-
-Campaigns with banners and images.
-
-</td></tr><tr><td>
-
-Screen
-
-</td><td>
-
-Record screen
-
-</td><td>
-
-Partial
-
-</td><td>
-
-Record must exist in cache.Screen must be set as available offline.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Not all record screen segments are supported. For a list, see [Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/screens-offline.md).
-
-</td><td>
-
-Work order details.
-
-</td></tr><tr><td>
-
 Record screen
 
 </td><td>
 
 Related list segment, record sections segment, activity stream segment
-
-</td><td>
-
-Yes
 
 </td><td>
 
@@ -250,15 +146,328 @@ Child records, task history.
 
 </td></tr><tr><td>
 
+Screen
+
+</td><td>
+
+List screen, calendar screen
+
+</td><td>
+
+Screen must be set as available offline.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+Limited to 1000 records.
+
+</td><td>
+
+Scheduled tasks
+
+</td></tr><tr><td>
+
+Mobile cards
+
+</td><td>
+
+UI rules
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td></tr><tr><td>
+
+Execution
+
+</td><td>
+
+Function instance
+
+</td><td>
+
+n/a
+
+</td><td>
+
+By default, all button instance locations are available offline; a specific location can be inactive.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+The location of the button within the screen, for example the footer area, top menu, or a specific field.
+
+</td></tr><tr><td>
+
+Execution of operations on records while offline
+
+</td><td>
+
+Action items such as write-back actions and write-back action steps
+
+</td><td>
+
+n/a
+
+</td><td>
+
+-   An offline step must be configured to support offline local database modifications that affect button conditions, displayed list records, or similar logic.
+-   If an offline step is configured, an online step must also be configured to apply local database changes to the instance once the device returns online.
+
+</td><td>
+
+-   Scripted write-back action step is not supported.
+-   The offline step supports declarative configuration only and can modify only the record currently used as context by the write-back action.
+
+</td><td>
+
+When a user performs an action offline, changes are marked for later sync with the instance. To confirm these changes are immediately reflected in app workflows such as list filtering and conditional button visibility, the admin must define logic for handling insert, update, or delete operations, keeping the local database consistent with the expected flow.
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Data source
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+Enables the download of input form data for elements such as descriptive fields, input values, and values of input actions such as comments and attachments.
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Input actions
+
+</td><td>
+
+Scripted write-back action required.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+Add attachments, add a comment, navigate to another screen in the context of the input.
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Descriptive element
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+Used to provide instructions to the user on how to respond to a question when completing questionnaires.
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+String input, number input, Boolean input, date/datetime input, barcode input
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Attachment input
+
+</td><td>
+
+Scripted write-back action required.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Auto-fill inputs and input actions
+
+</td><td>
+
+Dependent data cached.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+May fail if reference data is missing.
+
+</td><td>
+
+Forms pre-populated with data downloaded from the instance.
+
+</td></tr><tr><td>
+
+Input form
+
+</td><td>
+
+Save progress
+
+</td><td>
+
+Local save write-back action step is required.
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+n/a
+
+</td></tr></tbody>
+</table>## Partially supported offline components
+
+<table id="table_lx5_nnj_rjc"><thead><tr><th>
+
+Component
+
+</th><th>
+
+Sub-component
+
+</th><th>
+
+Conditions requited for offline flows to work
+
+</th><th>
+
+Optional dedicated offline configuration
+
+</th><th>
+
+Design considerations
+
+</th><th>
+
+Use case
+
+</th></tr></thead><tbody><tr><td>
+
+UI section
+
+</td><td>
+
+Media UI section
+
+</td><td>
+
+Media assets must be available locally.n/a
+
+</td><td>
+
+n/a
+
+</td><td>
+
+Remote media assets, for example YouTube videos, aren't available offline.
+
+</td><td>
+
+Campaigns with banners and images.
+
+</td></tr><tr><td>
+
 Record screen
 
 </td><td>
 
 Details segment
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -280,43 +489,11 @@ Fields that represent the record, such as description, assignment group, and att
 
 </td></tr><tr><td>
 
-Launcher screen
-
-</td><td>
-
-Search bar
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
 Screen
 
 </td><td>
 
 Map screen
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -342,67 +519,7 @@ Screen
 
 </td><td>
 
-List screen, calendar screen
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Screen must be set as available offline.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Limited to 1000 records.
-
-</td><td>
-
-Scheduled tasks
-
-</td></tr><tr><td>
-
-Screen
-
-</td><td>
-
-Chart screen, mobile web screen
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Performance analytics and embedded web content such as catalog items or knowledge articles aren't supported. Use a record screen with HTML content instead.
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
-Screen
-
-</td><td>
-
 Input forms
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -427,10 +544,6 @@ Screen
 </td><td>
 
 Data item
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -460,10 +573,6 @@ Mobile cards
 
 </td><td>
 
-Partial
-
-</td><td>
-
 n/a
 
 </td><td>
@@ -480,43 +589,11 @@ UI components used to display a compact summary of a record or information block
 
 </td></tr><tr><td>
 
-Mobile cards
-
-</td><td>
-
-UI rules
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
 Execution
 
 </td><td>
 
 Function
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -536,101 +613,11 @@ Used across different screens to define the action performed when the button is 
 
 </td></tr><tr><td>
 
-Execution
-
-</td><td>
-
-Function instance
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
-By default, all button instance locations are available offline; a specific location can be inactive.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-The location of the button within the screen, for example the footer area, top menu, or a specific field.
-
-</td></tr><tr><td>
-
-Execution of operations on records while offline
-
-</td><td>
-
-Action items such as write-back actions and write-back action steps
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
--   An offline step must be configured to support offline local database modifications that affect button conditions, displayed list records, or similar logic.
--   If an offline step is configured, an online step must also be configured to apply local database changes to the instance once the device returns online.
-
-</td><td>
-
--   Scripted write-back action step is not supported.
--   The offline step supports declarative configuration only and can modify only the record currently used as context by the write-back action.
-
-</td><td>
-
-When a user performs an action offline, changes are marked for later sync with the instance. To confirm these changes are immediately reflected in app workflows such as list filtering and conditional button visibility, the admin must define logic for handling insert, update, or delete operations, keeping the local database consistent with the expected flow.
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Data source
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Enables the download of mobile form data for elements such as descriptive fields, input values, and values of input actions such as comments and attachments.
-
-</td></tr><tr><td>
-
-Mobile form
+Input form
 
 </td><td>
 
 UI rules
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -650,155 +637,11 @@ n/a
 
 </td></tr><tr><td>
 
-Mobile form
-
-</td><td>
-
-Input actions
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Scripted write-back action required.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Add attachments, add a comment, navigate to another screen in the context of the input.
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Descriptive element
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Used to provide instructions to the user on how to respond to a question when completing questionnaires.
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-String input, number input, Boolean input, date/datetime input, barcode input
-
-</td><td>
-
-Yes
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Signature input type, screen input type, custom map input type
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Attachment input
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Scripted write-back action required.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
-Mobile form
+Input form
 
 </td><td>
 
 Reference input
-
-</td><td>
-
-Partial
 
 </td><td>
 
@@ -816,174 +659,19 @@ Specific offline attributes for the control can be configured.
 
 Assign a user to a task.
 
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-AI summarization
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-AI capabilities not supported offline.
-
-</td><td>
-
-AI text summarization for resolution notes.
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Auto-fill inputs and input actions
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Dependent data cached.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-May fail if reference data is missing.
-
-</td><td>
-
-Forms pre-populated with data downloaded from the instance.
-
-</td></tr><tr><td>
-
-Mobile form
-
-</td><td>
-
-Save progress
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Local save write-back action step is required.
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td></tr><tr><td>
-
-Action dialog
-
-</td><td>
-
-Mobile pop-ups
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Warning message that prompts the user to choose whether to proceed with the flow or cancel it. For example, notifying the user that their shift is about to end when they attempt to accept a task.
-
-</td></tr><tr><td>
-
-Chat
-
-</td><td>
-
-Virtual agent \(VA\)
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-Self-service chat for employees or customers.
-
-</td></tr><tr><td>
-
-Chat
-
-</td><td>
-
-Sidebar
-
-</td><td>
-
-No
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-n/a
-
-</td><td>
-
-ServiceNow Sidebar is a real-time, record-based collaboration tool that allows agents to privately chat and share knowledge with subject matter experts to quickly resolve tasks, cases, and incidents.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md)
+</table>## Non-supported offline components
+
+|Component|Sub-component|Conditions requited for offline flows to work|Optional dedicated offline configuration|Design considerations|Use case|
+|---------|-------------|---------------------------------------------|----------------------------------------|---------------------|--------|
+|UI section|Analytics section|n/a|n/a|n/a|KPI dashboards|
+|Launcher screen|Search bar|n/a|n/a|n/a|n/a|
+|Screen|Chart screen, mobile web screen|n/a|n/a|Performance analytics and embedded web content such as catalog items or knowledge articles aren't supported. Use a record screen with HTML content instead.|n/a|
+|Input form|Signature input type, screen input type, custom map input type|n/a|n/a|n/a|n/a|
+|Input form|AI summarization|n/a|n/a|AI capabilities not supported offline.|AI text summarization for resolution notes.|
+|Action dialog|Mobile pop-ups|n/a|n/a|n/a|Warning message that prompts the user to choose whether to proceed with the flow or cancel it. For example, notifying the user that their shift is about to end when they attempt to accept a task.|
+|Chat|Virtual agent \(VA\)|n/a|n/a|n/a|Self-service chat for employees or customers.|
+|Chat|Sidebar|n/a|n/a|n/a|ServiceNow Sidebar is a real-time, record-based collaboration tool that allows agents to privately chat and share knowledge with subject matter experts to quickly resolve tasks, cases, and incidents.|
+
+**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md)
 

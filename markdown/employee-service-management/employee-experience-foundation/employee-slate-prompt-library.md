@@ -86,7 +86,7 @@ For more information, see [Employee Slate for Now Assist](https://raw.githubuser
 |Enterprise search with citations|"Search the company knowledge base for laptop refresh policy." / "Find documents tagged with FY26 roadmap." / "Filter results to PDFs from the last 30 days."|
 |Switch assistants|"Switch to the Calendar Management assistant." / "Use the Research assistant for this question."|
 
-## AI-powered Widget Builder
+## AI-powered widget builder
 
 |Category|Example prompts|
 |--------|---------------|
@@ -123,5 +123,5 @@ The following patterns work across multiple features. Use them when you don't kn
 -   Include the object ID, such as `request`, `approval`, `article`, or `meeting`.
 -   Add a filter when the result set could be large, such as `today`, `this week`, `by team`, or `by priority`.
 -   Reference the page you're on for contextual actions, such as "approve this" or "update this ticket".
--   Ask follow-up questions in the same chat to refine results. The assistant retains conversation context across turns.
+-   Ask follow-up questions in the same chat to refine results. The assistant stores conversation context across turns.
 

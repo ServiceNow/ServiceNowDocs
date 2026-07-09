@@ -18,6 +18,8 @@ Impact calculation shows the magnitude of an outage on CIs, services, alerts, an
 
 Impact calculations are available for application services alert groups. The following factors are used to calculate the overall impact of an outage.
 
+**Note:** Impact calculation is supported only for services of type Service Instance \[cmdb\_ci\_service\_auto\] and services that extend this class. Impact is not calculated for Technology Management Service \[cmdb\_ci\_service\_technical\] or Business Service \[cmdb\_ci\_service\_business\] classes.
+
 -   Impact rules.
 -   Number of related active alerts.
 -   Past history of the affected CI.

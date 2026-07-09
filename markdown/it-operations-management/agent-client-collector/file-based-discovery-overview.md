@@ -70,7 +70,7 @@ For each file found inside an archive, the agent applies the same filtering rule
 For filtering rules and performance safeguards, see [Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md).
 
 -   **[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)**  
-Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility - Content agent to detect software running outside of standard configured scan directories.
+Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
 
 **Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

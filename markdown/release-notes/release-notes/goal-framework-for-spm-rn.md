@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Goal Framework for SPM release notes
@@ -26,6 +26,9 @@ See [Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/Servic
 
     Define targets across multiple organizational levels with the **Assigned entity type** and **Assigned entity** fields in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
 
+-   **Status rollup for goals and targets**
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from target breakdowns to the target for targets set to cumulative distribution.
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from targets and subgoals to the goal.
 
 ## UI changes
 

@@ -1,20 +1,20 @@
 ---
 title: The calendar display component
-description: Use the calendar display component in CPQ to present time-based configuration options in a monthly view. Configure sets, fields, and selection settings to let users view, select, and manage date-specific records directly in the configuration interface.
+description: Use the calendar display component in ServiceNow CPQ to present time-based configuration options in a monthly view. Configure sets, fields, and selection settings to let users view, select, and manage date-specific records directly in the configuration interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_calendar\_display\_component.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The calendar display component
 
-Use the calendar display component in CPQ to present time-based configuration options in a monthly view. Configure sets, fields, and selection settings to let users view, select, and manage date-specific records directly in the configuration interface.
+Use the calendar display component in ServiceNow CPQ to present time-based configuration options in a monthly view. Configure sets, fields, and selection settings to let users view, select, and manage date-specific records directly in the configuration interface.
 
-CPQ native UI allows the administrator to present a calendar display component to the user to aid in time-based configurations. The calendar displays in the context of a month. The data underlying the calendar display is a set, with each calendar day represented by one record in the set.
+ServiceNow CPQ native UI allows the administrator to present a calendar display component to the user to aid in time-based configurations. The calendar displays in the context of a month. The data underlying the calendar display is a set, with each calendar day represented by one record in the set.
 
 The example below shows a set with 30 records, one for each day, represented as a calendar display component.
 

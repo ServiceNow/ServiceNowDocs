@@ -20,6 +20,10 @@ Install Customer Service Install Base Management \(com.snc.install\_base\) app f
 
 Role required: none
 
+## About this task
+
+Install base items are the devices or services registered to your account. Viewing them from the Consumer Portal lets you check details such as household and consumer associations, and access related cases for each item.
+
 ## Procedure
 
 1.  Log in to the Consumer Portal.
@@ -34,4 +38,11 @@ Role required: none
 
 3.  From the list, open an install base record to see all the details and cases for that install base item.
 
+
+**Related topics**  
+
+
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+
+[Register a product from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/register-product-on-consumer-portal.md)
 

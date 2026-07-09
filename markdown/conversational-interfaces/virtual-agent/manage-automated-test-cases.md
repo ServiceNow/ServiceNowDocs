@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Automated testing for Virtual Agent topics that use NLU topic discovery, Testing NLU/Keyword topics, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Automated testing for Virtual Agent topics that use NLU topic discovery, Testing NLU/Keyword topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Manage and run automated test cases in Virtual Agent Designer
@@ -85,7 +85,7 @@ Result
 
 </td><td>
 
-Displays either **Failed** or **Passed**. Pointing to the linked result displays a brief explanation of either the passing or failing step details. Selecting the linked result opens a new window and directs you to that test's **Test Results** in the Automated Test Framework where you can view more specific step fail or pass details. If the test case has passed, no changes happened between the latest published topic and its saved test case. If the test case has failed, a change happened between the latest published topic and its saved test case. For more information, see View test results.**Tip:** You can view the test suite of all topics created and tested through Virtual Agent Designer by navigating to **Automated Test Framework \(ATF\)** &gt; **Suites**, and then selecting **Virtual Agent Topics**. For more information, see Run an automated test suite.
+Displays either **Failed** or **Passed**. Pointing to the linked result displays a brief explanation of either the passing or failing step details. Selecting the linked result opens a new window and directs you to that test's **Test Results** in the Automated Test Framework where you can view more specific step fail or pass details. If the test case has passed, no changes happened between the latest published topic and its saved test case. If the test case has failed, a change happened between the latest published topic and its saved test case. For more information, see [View test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-view-results-consolidated.md).**Tip:** You can view the test suite of all topics created and tested through Virtual Agent Designer by navigating to **Automated Test Framework \(ATF\)** &gt; **Suites**, and then selecting **Virtual Agent Topics**. For more information, see [Run an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-suite.md).
 
 </td></tr><tr><td>
 

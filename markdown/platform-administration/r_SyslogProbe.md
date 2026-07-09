@@ -27,8 +27,6 @@ The syslog probe is launched by a ServiceNow [Script includes](https://raw.githu
 
 The Acme Corporation wants to send a log message from their ServiceNow instance to an ArcSight syslog server inside their corporate firewall each time a user login fails. The system administrator uses the login.failed event to trigger a business rule that invokes the Syslog Script Include each time a login fails. Acme's MID Server checks the ECC Queue for work and picks up the syslog probe, which contains the log entry. The MID Server then sends the log message to the ArcSight server, which gathers log messages from all the machine in the internal network.
 
-\[Omitted image "SyslogProbeDiagram.png"\] Alt text: Syslog probe diagram
-
 ## Code sample
 
 The following code sample, included in an event or a business rule, directly calls the Syslog Script Include and sends a syslog message to a designated syslog server:

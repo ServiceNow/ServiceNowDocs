@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Jira.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d364519e100">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d365431e100">
 
 Option
 
-</th><th align="left" id="d364519e103">
+</th><th align="left" id="d365431e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d364519e109">
+</th></tr></thead><tbody><tr><td id="d365431e109">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d364519e136">
+</td></tr><tr><td id="d365431e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d364519e188">
+</td></tr><tr><td id="d365431e188">
 
 **Tools module**
 
@@ -149,7 +149,7 @@ Jira Cloud
 https://api.atlassian.com/ex/jira/<Cloud-ID>
     ```
 
-For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-jira-serv-mgmt.md).
+For information on obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-jira-spk-opt2.md).
 
 2.  Select the credential type as **Basic Auth** or **OAuth 2.0 with 3LO**.
 

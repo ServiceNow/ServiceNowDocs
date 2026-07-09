@@ -37,3 +37,8 @@ If a case has one or more related records, a Related Records widget is displayed
 5.  Click the **X** in the upper corner to close the details window.
 
 
+**Related topics**  
+
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+

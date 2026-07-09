@@ -60,5 +60,5 @@ Consider the following steps to determine the schedule adherence and conformance
 
 [Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)
 
-[Analyze adherence and conformance from the time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
+[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
 

@@ -28,7 +28,7 @@ You can use the decision tables in the Telecommunications Network Inventory appl
 Use a Telecommunications Network Inventory decision table to integrate the Telecommunications Network Inventory and Order Management for Telecommunications applications.
 -   **[Assign a record producer form to a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_record_producer_form_for_a_change_request.md)**  
 Assign a record producer to a change request by using a decision table in the Telecommunications Network Inventory application.
--   **[Assign a record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md)**  
+-   **[Assign a record producer form to a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md)**  
 Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/clone-and-revise-a-ci.md)**  
 

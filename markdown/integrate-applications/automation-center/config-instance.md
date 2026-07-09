@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from UiPath to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Configure an instance for migration

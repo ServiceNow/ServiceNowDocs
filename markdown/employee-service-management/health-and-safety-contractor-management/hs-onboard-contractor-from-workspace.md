@@ -32,15 +32,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Add a contractor.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d561265e103">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d562916e103">
 
 Option
 
-</th><th align="left" id="d561265e106">
+</th><th align="left" id="d562916e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d561265e112">
+</th></tr></thead><tbody><tr><td id="d562916e112">
 
 **From a contractor company record**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select the check box for one or more contractors to add to the contractor company and select **Add**.
 
 
-</td></tr><tr><td id="d561265e171">
+</td></tr><tr><td id="d562916e171">
 
 **From Health and Safety user profile list**
 

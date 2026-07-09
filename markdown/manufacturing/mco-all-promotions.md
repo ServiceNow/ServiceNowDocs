@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View all promotions
@@ -38,6 +38,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
     **Note:** **Copy** enables you to copy the sales promotion details.
 
-
-**Parent Topic:**[Sales promotion management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-pro-mgmt.md)
 

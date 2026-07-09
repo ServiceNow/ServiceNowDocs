@@ -21,7 +21,7 @@ The migrated configuration includes mapping and all other relevant settings, exc
 
 This feature is supported in the Health Log Analytics application, Version 25.0.17 - November 2022 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-Starting with Health Log Analytics Version 38.0.17 - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see [Export source types to an update set by log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md).
+Starting with Health Log Analytics Version 38.0.17 - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see [Export source types by log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md).
 
 For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
@@ -31,8 +31,8 @@ Export the configuration of a Health Log Analytics data input with or without th
 Import a data input configuration that you've exported from another instance as an update set.
 -   **[Export source types to an update set in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-types-migrate.md)**  
 Export source types to an update set separate from the Health Log Analytics data input configuration. You can then import the update set to the target environment.
--   **[Export source types to an update set by log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md)**  
-Export all source types related to one or more selected log sources to an update set together. You can then import the update set to the target environment.
+-   **[Export source types by log source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-export-sourcetypes-by-source.md)**  
+Export all source types related to one or more selected log sources to an update set together in Health Log Analytics. You can then import the update set to the target environment.
 -   **[Import Health Log Analytics source types to a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-types-import.md)**  
 Import source types that you've exported separate from the Health Log Analytics data input configuration.
 

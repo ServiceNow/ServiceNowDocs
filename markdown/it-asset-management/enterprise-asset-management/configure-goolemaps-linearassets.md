@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Configure Google Maps to integrate with linear assets

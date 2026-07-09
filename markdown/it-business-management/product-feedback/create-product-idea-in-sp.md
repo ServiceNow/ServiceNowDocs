@@ -43,6 +43,6 @@ User-created product ideas help in identifying focus areas of a product. These p
 
 -   [Update Feedback or Product idea records from the list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/update-feedback-or-idea.md)
 -   [Associate a product idea with feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-product-idea-with-feedback.md)
--   [Associate a feedback or a product idea record with a non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+-   [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 -   [Associate a product idea with a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-product-idea-with-goals.md)
 

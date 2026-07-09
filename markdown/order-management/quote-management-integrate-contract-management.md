@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Quote Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Integrate with Contract Management Pro
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for Contract Management for Sales and Order Management \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
+2.  Search for Contract Management for Sales CRM \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
 
     **Note:** To activate this plugin, there’s a dependency on the Contracts core plugin \(com.sn\_cm\_core\). Verify that it’s installed to use the contract creation workflow from a quote.
 

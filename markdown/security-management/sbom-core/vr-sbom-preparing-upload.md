@@ -7,9 +7,9 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 5
-breadcrumb: [Use, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Uploading Software Bill of Materials files using a REST API
@@ -37,7 +37,33 @@ API URL: &lt;host\_name&gt;/api/sbom/core/upload
 
 **Note:** &lt;host\_name&gt; is your ServiceNow instance name.
 
-All below request parameters are optional; the request body is the SBOM file content. If you are using DevOps as part of your development process, the value of 'requestedBy' should be 'devops'. See [Uploading Software Bill of Materials for DevOps SBOM files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-uploading-devops.md) for more general information about DevOps. If the value for 'requestedby' is "devops" \(devlopment operations\), these parameters are mandatory:
+Request headers.
+
+The Content-Type header is required when calling the Upload API. Set the Content-Type value to match the SBOM file content submitted in the request body. Supported values include:
+
+-   Content-Type: text/xml
+-   Content-Type: application/json
+-   Content-Type: application/xml
+
+If the Content-Type header is missing, the API rejects the request with a `HTTP 400` error and returns the following code:
+
+```
+{
+  "status": "failure",
+  "message": "Content-Type header is missing"
+}
+```
+
+If the Content-Type header is unsupported, the API rejects the request with an HTTP 400 error and returns the following code:
+
+```
+{
+  "status": "error",
+  "message": "Unsupported Content-Type. BOM data must be in JSON or XML."
+}
+```
+
+All the following request parameters are optional; the request body is the SBOM file content. If you're using DevOps as part of your development process, the value of 'requestedBy' should be 'devops'. See [Uploading Software Bill of Materials for DevOps SBOM files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-uploading-devops.md) for more general information about DevOps. If the value for 'requestedby' is "devops" \(devlopment operations\), these parameters are mandatory:
 
 -   buildId
 -   lifecycleStage

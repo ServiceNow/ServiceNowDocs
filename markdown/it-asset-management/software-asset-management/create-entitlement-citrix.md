@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management publisher pack for Citrix, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Citrix, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create entitlements for Citrix
@@ -34,7 +34,7 @@ Manage available software and tie software installations \(software being used\)
 
 1.  Navigate to **All** &gt; **Asset** &gt; **Portfolios** &gt; **Software Entitlement** and select **New**.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 
     |Field|Description|
     |-----|-----------|
@@ -42,7 +42,7 @@ Manage available software and tie software installations \(software being used\)
 
 2.  To set upgrade or downgrade entitlements, select the new software entitlement record from the Software Entitlements list.
 
-    For a detailed description on how to complete additional configurations for software entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description on how to complete additional configurations for software entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 
 3.  Select **Submit**.
 

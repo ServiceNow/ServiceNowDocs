@@ -66,9 +66,9 @@ Cost from resource plan will be interfaced to the unit\_cost field on the Cost P
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
-[Complete a resource plan]()
+[Complete an allocated resource plan]()
 
 [Cancel a resource plan]()
 

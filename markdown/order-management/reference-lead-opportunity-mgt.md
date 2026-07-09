@@ -20,6 +20,8 @@ Reference topics provide additional information about the Lead Management applic
 Reference topics provide additional information about the Opportunity Management application.
 -   **[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)**  
 Reference topics provide additional information about the Customer Engagement Sequences application.
+-   **[Components installed with Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-buying-group.md)**  
+Several types of components are installed with activation of the Buying Group\[var.buying-group\] plugin, including user roles and tables.
 -   **[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)**  
 Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
 -   **[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)**  

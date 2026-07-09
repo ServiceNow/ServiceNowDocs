@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Linking parent-child contracts, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -18,17 +18,19 @@ Link parent contracts during drafting and negotiation phases to establish hierar
 
 ## About this task
 
+This task links a parent contract request without copying any fields from it. If you also want to inherit configured fields from the parent into the child contract request, use [Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md) instead.
+
 The following video walks you through the process of linking a parent contract request.\[Omitted video\] Description: Video providing step-by-step instructions on linking parent contract request, approximately one minute long.
 
 ## Before you begin
 
-Ensure that the contract request is in Draft, Work in progress, Awaiting review, or Contract signed state.
+Verify that the contract request is in Draft, Work in progress, Awaiting review, or Contract signed state.
 
 **Note:** If the contract request is in Contract signed state, the parent contract request must be in Contract signed or Closed complete state.
 
 You must be either assigned to the contract request or a group manager or a collaborator.
 
-Ensure that the parent contract is a single contract type using own paper or third-party paper.
+Verify that the parent contract is a single contract type using own paper or third-party paper.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -36,15 +38,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d365505e78">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d366396e88">
 
 Method
 
-</th><th align="left" id="d365505e81">
+</th><th align="left" id="d366396e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d365505e87">
+</th></tr></thead><tbody><tr><td id="d366396e97">
 
 **Contract Workspace listing**
 
@@ -56,7 +58,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d365505e134">
+</td></tr><tr><td id="d366396e144">
 
 **Workspace used by your application**
 

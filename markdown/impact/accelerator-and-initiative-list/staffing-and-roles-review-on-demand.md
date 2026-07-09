@@ -1,6 +1,6 @@
 ---
 title: Staffing and Roles Review-On Demand
-description: This accelerator provides Impact customers with a guided, self-service experience to assess their ServiceNow platform staffing model, identify capability gaps, and build a prioritized action plan to strengthen their team.
+description: This Accelerator provides Impact customers with a guided, self-service experience to assess their ServiceNow platform staffing model, identify capability gaps, and build a prioritized action plan to strengthen their team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-05-06"
 reading_time_minutes: 2
 keywords: [Staffing, Roles, On Demand, Platform Team, Capability Gaps, Action Plan, Operational Maturity]
-breadcrumb: [Staffing and Roles Review, Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Staffing and Roles Review, Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Staffing and Roles Review-On Demand
 
-This accelerator provides Impact customers with a guided, self-service experience to assess their ServiceNow platform staffing model, identify capability gaps, and build a prioritized action plan to strengthen their team.
+This Accelerator provides Impact customers with a guided, self-service experience to assess their ServiceNow platform staffing model, identify capability gaps, and build a prioritized action plan to strengthen their team.
 
 ## Accelerator Overview
 
@@ -23,7 +23,7 @@ This accelerator provides Impact customers with a guided, self-service experienc
 
 ## Package Availability
 
-**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
+**Note:** This accelerator is available for Impact Guided, Impact Guided + \(Strategic Value\), and Total packages.
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ This accelerator provides Impact customers with a guided, self-service experienc
 
 ## Requested Customer Resources
 
-The following are recommended resources suggested to participate and contribute to the outcome of this accelerator. The same personnel may fulfill multiple responsibilities.
+The following are recommended resources suggested to participate and contribute to the outcome of this Accelerator. The same personnel may fulfill multiple responsibilities.
 
 |Customer Resource|Responsibilities|Required|Recommended|
 |:----------------|:---------------|:------:|:---------:|

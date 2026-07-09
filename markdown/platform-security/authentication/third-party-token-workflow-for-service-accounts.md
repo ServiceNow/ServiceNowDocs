@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Third party token workflow for service accounts
@@ -34,7 +34,7 @@ Create a corresponding `sys_user` account in ServiceNow for your service account
 
 2.  Create a `sys-user` account in ServiceNow to represent your service account identity.
 
-    Ensure that the token claim value matches with that of the value in the mapped user field \(such as user\_name or email\) in the user record. Example: user\_name, email.
+    Verify that the token claim value matches with that of the value in the mapped user field \(such as user\_name or email\) in the user record. Example: `user_name`, `email`, etc.
 
     1.  Select the Web service access only option to restrict the account to API access.
 

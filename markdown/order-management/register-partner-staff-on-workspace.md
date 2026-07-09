@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/register-partner-staff-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Create Channel Partner record, Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create Channel Partner record, Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
 
 # Register Partner Staff on workspace

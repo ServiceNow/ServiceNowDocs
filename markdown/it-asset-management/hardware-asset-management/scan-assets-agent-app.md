@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete a single scan inventory audit using the ServiceNow Agent app

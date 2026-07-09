@@ -25,9 +25,11 @@ Devices managed under the OT data model exist in Levels 0 to 3.5 of the Purdue M
 
 **Note:** For more information about the OT data model and extension classes, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).
 
+The following graphic depicts these differences.
 
+\[Omitted image "ot-assets-alignment-cmdb.svg"\] Alt text:
 
-**Note:** To learn more about Purdue levels, see [https://subscription.packtpub.com/book/networking\_and\_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
+**Note:** To learn more about Purdue levels, see [Industrial Control Systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 
 **Parent Topic:**[Exploring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/exploring-operational-technology-manager.md)
 

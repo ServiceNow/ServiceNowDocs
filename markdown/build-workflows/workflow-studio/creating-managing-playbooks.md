@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -90,6 +90,14 @@ Refer to these design considerations when working with playbooks:
 
 -   **[Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md)**  
 Create a playbook to set up an automated business process. Use Playbook builder in Workflow Studio to add stages, activities, triggers, and runtime permissions, then activate the playbook to make it available to agents and fulfillers.
+-   **[Playbook generation from text prompt or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-assist.md)**  
+Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
+-   **[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)**  
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+-   **[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-recommendations.md)**  
+Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
+-   **[Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/preview-playbook-runtime-ui.md)**  
+See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance in real-time, and adjust its configuration before publishing the playbook.
 -   **[Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md)**  
 Verify that your playbook works as expected by running the playbook with test trigger data. Identify and resolve all errors before activating your playbook.
 -   **[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart.md)**  

@@ -4,8 +4,8 @@ description: The ServiceNow External Content Connectors application enables AI S
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-31"
-reading_time_minutes: 3
+last_updated: "2026-06-26"
+reading_time_minutes: 4
 ---
 
 # External Content Connectors release notes
@@ -13,6 +13,10 @@ reading_time_minutes: 3
 The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
 
 ## External Content Connectors highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -32,6 +36,11 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 **Important:** External Content Connectors is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/filter-content-label-google-drive-external-content-connector.md)**
+
+    Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
+
 
 -   **[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sap-successfactors-external-content-connector.md)**
 

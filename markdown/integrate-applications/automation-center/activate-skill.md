@@ -30,8 +30,8 @@ Role required: sn\_generative\_ai.nsa\_admin
 
     The skill is activated on your instance.
 
-    -   User Task Summarization skill: Creates automation requests from the Task Mining Workspace
-    -   Saving Estimator skill: Explores and discovers automations from your ServiceNow® instance.
+    -   User task step summarization skill: Creates automation requests from the Task Mining Workspace
+    -   Saving Estimator skill: Explores and discovers automations from your ServiceNow instance.
 
 **Parent Topic:**[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-na-ac.md)
 

@@ -14,6 +14,13 @@ breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer 
 
 Create and update customer contacts, assign roles to contacts, and enable or disable contact logins from the customer portal.
 
+**Related topics**  
+
+
+[Manage customer registration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests.md)
+
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFromCustomerPortal.md)
+
 ## Create a customer contact
 
 Use the **Create Contact** catalog item to create a contact from the customer portal.
@@ -71,6 +78,13 @@ By selecting the **Create Contact** catalog item, you can add the details for a 
 7.  Click **Save** to update the record.
 
 
+**Related topics**  
+
+
+[Update contact information for a user]()
+
+[Enable or disable the login for a contact]()
+
 ## Update contact information for a user
 
 Update the contact information for a user from the customer portal.
@@ -104,6 +118,13 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 4.  Click **Save**.
 
 
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign a user role to a contact]()
+
 ## Enable or disable the login for a contact
 
 Enable or disable the login for a contact from the customer portal.
@@ -120,15 +141,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 3.  In the Actions list, select one of the following links.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d241419e734">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d242994e797">
 
 Choice
 
-</th><th align="left" id="d241419e737">
+</th><th align="left" id="d242994e800">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d241419e743">
+</th></tr></thead><tbody><tr><td id="d242994e806">
 
 **Disable login**
 
@@ -136,7 +157,7 @@ Description
 
 Disables the login for this contact. When the login is disabled, the contact can’t access the customer portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d241419e755">
+</td></tr><tr><td id="d242994e818">
 
 **Enable login**
 
@@ -146,6 +167,13 @@ Enables the login for this contact.This link is displayed if the login is disabl
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign a user role to a contact]()
+
 ## Assign a user role to a contact
 
 Assign one or more user roles to a contact from the customer portal.

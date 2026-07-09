@@ -100,7 +100,7 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
             \[Omitted image "ap-agents.png"\] Alt text: AP Agents view inquiry case
 
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

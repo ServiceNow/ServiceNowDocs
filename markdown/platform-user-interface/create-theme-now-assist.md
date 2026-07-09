@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -18,7 +18,7 @@ Use Now Assist to generate themes from your brand image or brand guidelines. Thi
 
 This feature requires:
 
--   Now Assist for Creator installed. See 
+-   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
 -   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
 -   Now Assist panel turned on. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

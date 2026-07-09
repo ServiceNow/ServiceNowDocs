@@ -337,7 +337,7 @@ Business Applications by AI System Association
 
 </td><td>
 
-Pie chart \[Omitted image "inline-data-vis-pie.png"\] Alt text: Pie chart.
+Donut \[Omitted image "inline-data-vis-donut.png"\] Alt text: Donut
 
 </td></tr><tr><td>
 
@@ -349,7 +349,7 @@ AI Systems by Business Application Association
 
 </td><td>
 
-Pie chart \[Omitted image "inline-data-vis-pie.png"\] Alt text: Pie chart.
+Donut \[Omitted image "inline-data-vis-donut.png"\] Alt text: Donut
 
 </td></tr></tbody>
 </table>**Note:**
@@ -362,7 +362,7 @@ If both the Technology Portfolio Management \(sn\_apm\_tpm\) and Enterprise Arch
 
     The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed will be USD.
 
--   The duration of a fiscal period displayed on the widgets is determined from the **com.glide.fiscal\_calendar.fiscal.unit** property. To set the fiscal period duration, see [Set the duration of a fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md).
+-   The duration of a fiscal period displayed on the widgets is determined from the **com.glide.fiscal\_calendar.fiscal.unit** property. To set the fiscal period duration, see [Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-property-tco-dashboards.md).
 
 You can hover over or select the visualizations to see more data.
 

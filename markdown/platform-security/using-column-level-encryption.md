@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/using-column-level-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 3
 breadcrumb: [Field Encryption, Encryption]
 ---

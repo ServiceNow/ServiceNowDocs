@@ -80,6 +80,8 @@ The contract expiration reminders will trigger based on the defined conditions f
 
 [Auto-populate the start date and end date for contract requests]()
 
+[Enable signatory roles]()
+
 [Activate a system property to generate a certificate of completion]()
 
 [Enable users to view email details in activity stream]()

@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ You can add user criteria to custom or default [Configuring search in a portal](
 
 ## Procedure
 
-1.  In the Service Portal Configuration page \(**Service Portal** &gt; **Service Portal Configuration**\), navigate to **Portal Tables** &gt; **Search Source** in the header menu.
+1.  In the Service Portal Configuration page \(**Service Portal** &gt; **Service Portal Configuration**\), navigate to **Portal Tables** &gt; **Search Source** in the header menu as shown below\[Omitted image "port-table-search-source.png"\] Alt text: Port Table Search Source example.
 
 2.  Open the search source record that you would like to modify.
 

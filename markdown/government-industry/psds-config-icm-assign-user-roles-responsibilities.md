@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: australia
 topic_type: concept
 last_updated: "2026-03-13"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Foundation, Investigative Case Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -78,3 +78,130 @@ The following is a list of all responsibility definitions that are provided with
 |Special Agent in Charge| |
 |Supervisory Agent| |
 
+## Configure Case Access for Office and Assignment Groups
+
+Use the x\_snc\_icm.case\_write\_access and x\_snc\_icm.case\_read\_access system properties to extend write access and restrict read access to cases based on Assigned Office, Assignment Group, or both, to allow automatic case access alignment with organizational units without manual Teams tab management, preserving existing access pathways and role-based permissions.
+
+<table id="table_i2l_xhj_vjc"><tbody><tr><td>
+
+Value
+
+</td><td>
+
+Label
+
+</td><td>
+
+Behavior
+
+</td></tr><tr><td>
+
+0
+
+</td><td>
+
+Default
+
+</td><td>
+
+No change. Case write access remains governed by existing access pathways.
+
+</td></tr><tr><td>
+
+1
+
+</td><td>
+
+Assignment Group
+
+</td><td>
+
+Extends write access to members of the case's Assignment Group.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+Assigned Office
+
+</td><td>
+
+Extends write access to users that match the case's Assigned Office.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Assignment Group &amp; Assigned Office
+
+</td><td>
+
+Extends write access to users that match either condition.
+
+</td></tr></tbody>
+</table><table id="table_j2l_xhj_vjc"><tbody><tr><td>
+
+Value
+
+</td><td>
+
+Label
+
+</td><td>
+
+Behavior
+
+</td></tr><tr><td>
+
+0
+
+</td><td>
+
+Default
+
+</td><td>
+
+No change. Case read access remains open to all users with the appropriate platform roles.
+
+</td></tr><tr><td>
+
+1
+
+</td><td>
+
+Assignment Group
+
+</td><td>
+
+Restricts case read access to members of the case's Assignment Group.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+Assigned Office
+
+</td><td>
+
+Restricts case read access to users that match the case's Assigned Office.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Assignment Group &amp; Assigned Office
+
+</td><td>
+
+Restricts case read access to users that match either condition.
+
+</td></tr></tbody>
+</table>

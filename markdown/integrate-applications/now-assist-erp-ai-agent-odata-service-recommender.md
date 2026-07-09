@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assi
 release: australia
 topic_type: concept
 last_updated: "2026-04-28"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Use agentic AI, Now Assist for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -54,13 +54,13 @@ Users with the sn\_aia\_admin role can access the workflow.
 
     \[Omitted image "erp-odata-services-workflow-listing.jpg"\] Alt text: OData Service Recommender page with information about the workflow.
 
-4.  Review the description, role, and steps. For more information, see [Define key requirements for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-key-requirements.md).
-5.  Select **Continue** and review the tools that the OData Service Recommender AI agent uses. For more information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md).
+4.  Review the description, role, and steps. For more information, see .
+5.  Select **Continue** and review the tools that the OData Service Recommender AI agent uses. For more information, see .
 6.  Select **Continue** and view the user access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 7.  Select **Continue** and view the data access options. For more information, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
-8.  Select **Continue** and view the trigger options. For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
-9.  Select **Continue** and view the channel and status options. For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
-10. Select **Save and test** to test the workflow. For more information, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+8.  Select **Continue** and view the trigger options. For more information, see .
+9.  Select **Continue** and view the channel and status options. For more information, see .
+10. Select **Save and test** to test the workflow. For more information, see .
 
 ## Using the OData Service Recommender agentic workflow
 

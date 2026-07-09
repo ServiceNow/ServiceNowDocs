@@ -22,7 +22,7 @@ Channel management lets you monitor important metrics across different channels 
 Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.
 -   **[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)**  
 By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
--   **[Managing user criteria for event types in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/und-user-criteria-event-types.md)**  
+-   **[Managing user criteria for event types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/und-user-criteria-event-types.md)**  
 Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 -   **[Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-teams-configurable-wfo-cs.md)**  
 Teams lets you organize each of your teams into assignment groups, define a set of key performance indicators \(KPIs\) to analyze the performance of all groups within a team, drill into the metrics for a group, an agent, or an incident from a central location, and manage your teams effectively from a single location.

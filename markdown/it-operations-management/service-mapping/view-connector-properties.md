@@ -1,6 +1,6 @@
 ---
-title: View CI connection attributes in an application service map in classic Service Mapping
-description: You can view attributes of connections between configuration items \(CIs\).
+title: View CI connection attributes in Service Mapping
+description: You can view attributes of connections between configuration items \(CIs\) in application service maps in classic Service Mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-connector-properties.html
 release: australia
@@ -8,13 +8,13 @@ product: Service Mapping
 classification: service-mapping
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Application service analysis and maintenance using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# View CI connection attributes in an application service map in classic Service Mapping
+# View CI connection attributes in Service Mapping
 
-You can view attributes of connections between configuration items \(CIs\).
+You can view attributes of connections between configuration items \(CIs\) in application service maps in classic Service Mapping.
 
 ## Before you begin
 

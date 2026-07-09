@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring security for a project in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring security for a project in Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Activate the Project Advanced Security plugin

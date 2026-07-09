@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Data Model
@@ -18,7 +18,7 @@ The data model and architecture of threat intelligence security center module is
 
 The data model has the data structures which are represented as objects in the Threat intelligence repository.
 
-**Parent Topic:**[Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

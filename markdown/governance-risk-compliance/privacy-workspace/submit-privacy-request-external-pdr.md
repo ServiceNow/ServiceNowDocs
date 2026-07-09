@@ -1,5 +1,5 @@
 ---
-title: Submit a privacy request using the external-facing PDR form
+title: Submit privacy requests using external-facing PDR form
 description: Submit a privacy request through your organization's external-facing Personal Data Rights \(PDR\) form, either for yourself or as an authorized agent acting on behalf of someone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Submit a privacy request using the external-facing PDR form
+# Submit privacy requests using external-facing PDR form
 
 Submit a privacy request through your organization's external-facing Personal Data Rights \(PDR\) form, either for yourself or as an authorized agent acting on behalf of someone.
 

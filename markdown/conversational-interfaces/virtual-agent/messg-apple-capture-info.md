@@ -16,7 +16,7 @@ breadcrumb: [Use, Conversational Integration with Apple Messages for Business, I
 
 Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user.
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from a requester in a Apple Messages for Business chat conversation. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 For more information about displaying images along with external links, see [Using link unfurling in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-link-unfurling.md).
 

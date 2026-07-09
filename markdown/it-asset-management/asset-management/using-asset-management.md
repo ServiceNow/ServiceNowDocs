@@ -9,15 +9,13 @@ classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Asset Management]
+breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
 
 # Using Asset Management
 
 Use the Asset Management application to manage your assets efficiently.
 
--   **[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/mobile-my-asset.md)**  
-Use the ServiceNow Mobile and ServiceNow Agent apps to manage your assets.
 -   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)**  
 Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
 -   **[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)**  
@@ -34,6 +32,4 @@ Manage pre-allocated assets, which are the assets that the vendor still owns, bu
 Manage the asset movement from one stockroom to the other using transfer order.
 -   **[Use Organization Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/org-mgmt.md)**  
 The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.
-
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/am-landing-page.md)
 

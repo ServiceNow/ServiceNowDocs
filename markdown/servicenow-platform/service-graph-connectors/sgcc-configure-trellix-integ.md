@@ -18,7 +18,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Trellix version 1.0.0 from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install Service Graph Connector for Trellix from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Role required: admin
 

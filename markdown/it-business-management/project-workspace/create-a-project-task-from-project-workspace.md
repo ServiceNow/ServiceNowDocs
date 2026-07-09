@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create and assign project tasks from Project Workspace
@@ -24,13 +24,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task below icon.\). This action adds a new task right after the task that you selected.
+    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task icon.\). This action adds a new task right after the task that you selected.
 
 3.  Edit the details of the task.
 

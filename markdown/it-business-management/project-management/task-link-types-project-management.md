@@ -26,5 +26,7 @@ Task links define the dependency relationship between tasks. Linking tasks creat
 **Related topics**  
 
 
-[schedule-a-project-pm]
+[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UseAProjectSchedule.md)
+
+[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-schedules-tasks.md)
 

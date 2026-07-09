@@ -51,7 +51,7 @@ Retrieval status
 
 When the system is first set up and connects to the SAP system, metadata is retrieved.-   BAPI/RFC: For BAPI, a list of functions available to call on the system are collected. For RFC, a check is done to determine the tables available on the database.
 -   Table: The tables from the database are retrieved.
--   Odata: The models available on the HTTP protocol are retrieved.
+-   Odata: The models are retrieved.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)

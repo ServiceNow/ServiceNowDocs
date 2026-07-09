@@ -17,7 +17,7 @@ The Advanced Approval Management application enables you to define workflows for
 
 ## Advanced Approval Management overview
 
-Sales agents use workflows created by approval admins in Advanced Approval Management to preview and submit approval requests for entities such as quotes. Authorized approvers review approval requests to verify that the items meet legal guidelines and company pricing policies. They can either approve or requests. These workflows provide oversight of the approval process, which helps prevent financial errors and delays in approvals, particularly for high-value or high-risk deals. During the approval process, sales agents and approvers receive notifications informing them of the approval status and approval tasks.
+Sales agents use workflows created by approval admins in Advanced Approval Management to preview and submit approval requests for entities such as quotes. Authorized approvers review approval requests to verify that the items meet legal guidelines and company pricing policies. They can either approve or reject requests. These workflows provide oversight of the approval process, which helps prevent financial errors and delays in approvals, particularly for high-value or high-risk deals. During the approval process, sales agents and approvers receive notifications informing them of the approval status and approval tasks.
 
 ## Advanced Approval Management users
 
@@ -94,8 +94,9 @@ This section describes the tasks involved in configuring and using Advanced Appr
 |-------|-------|-----|
 |Build and automate workflows that can handle sequential or parallel approvals or a combination of both|[Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md) and [Create approval chains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-chain.md)|Approval admins|
 |Enforce financial and legal guidelines particularly for high-value deals to reduce financial and legal risk|[Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-approval-trigger-conditions.md)|Approval admins and approvers|
-|Preview the rules, steps, and approvers before submitting a request|[Submitting approval requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-approval-requests.md)|Requesters|
+|Preview the rules, steps, and approvers before submitting a request|[Working with approval requests as a requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-approval-requests.md)|Requesters|
 |Monitor approval workflow and status|[Tracking approval status and history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/tracking-approval-status.md)|Requesters, approvers, and business stakeholders|
+|Approve or reject approval requests|[Working with approval requests as an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approving-approval-requests.md)|Approvers|
 
 ## What to explore next
 

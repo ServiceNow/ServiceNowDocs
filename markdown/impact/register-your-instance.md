@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Register your instance
@@ -103,5 +103,5 @@ Validate the connection between registered instances to confirm that authenticat
 -   **[Recover from account lockout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/recover-from-account-lockout.md)**  
 Unlock the integration user account and clear the password reset flag after repeated failed validation attempts trigger the account lockout policy.
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

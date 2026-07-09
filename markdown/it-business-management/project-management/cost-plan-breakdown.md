@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -59,6 +59,8 @@ A cost plan breakdown captures the estimated cost and actual cost for every fisc
 [Types of external dependencies]()
 
 [Project and portfolio funding]()
+
+[Project scheduling in Project Management]()
 
 ## System-generated cost plans
 

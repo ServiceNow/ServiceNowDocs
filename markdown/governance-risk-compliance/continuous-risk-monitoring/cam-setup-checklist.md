@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Checklist for Continuous Authorization and Monitoring setup
@@ -18,7 +18,7 @@ The checklist includes the tasks that you must complete to prepare the base syst
 
 ## Before you begin
 
-Role required: admin, sn\_irm\_cont\_auth.admin
+Role required: sn\_irm\_cont\_auth.admin
 
 ## Procedure
 

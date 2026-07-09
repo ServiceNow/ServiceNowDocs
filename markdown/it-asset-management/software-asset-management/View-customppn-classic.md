@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View publisher part number \(PPN\) suggestions in Software Asset Management classic
@@ -35,5 +35,5 @@ Role required: sam\_admin
     -   **Accept**: The Content Service PPN and DMAP replace the custom PPN and DMAP. In the impacted entitlement, the content service PPN is replaced. Similarly, the content service DMAP is replaced on the software model.
     -   **Reject**: The status of this record changes to rejected and you continue to use the custom PPN.
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

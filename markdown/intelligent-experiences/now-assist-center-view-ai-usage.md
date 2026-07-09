@@ -191,7 +191,9 @@ Security
 The Security dashboard page displays metrics and status information related to security controls for AI agents and agentic workflows.
 
 </td></tr></tbody>
-</table>    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see .
+</table>    To ask natural-language questions about Now Assist Analytics dashboards and metrics, use the AI Analytics Q and A agent from the Now Assist panel. For more information, see .
+
+    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see .
 
 <table id="table_hph_t5z_x3c"><thead><tr><th>
 

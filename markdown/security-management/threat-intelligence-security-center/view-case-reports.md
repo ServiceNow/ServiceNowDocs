@@ -1,6 +1,6 @@
 ---
-title: View Case Reports
-description: Use the case reports feature to generate reports related to the cases. These reports include post investigation report or an executive summary report.
+title: Generate a Case Report using a template
+description: Use a predefined report template to generate case reports. These reports include post investigation report or an executive summary report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-case-reports.html
 release: australia
@@ -12,76 +12,50 @@ reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# View Case Reports
+# Generate a Case Report using a template
 
-Use the case reports feature to generate reports related to the cases. These reports include post investigation report or an executive summary report.
+Use a predefined report template to generate case reports. These reports include post investigation report or an executive summary report.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.analyst
 
+## About this task
+
+Generate case reports using predefined templates.
+
+For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click **Threat Analyst Workbench** icon.
+2.  Select **Threat Analyst Workbench**.
 
-3.  Go to **Case Management** &gt; **All Cases**.
+3.  In **Case Management**, open the case to generate the report.
 
-    All the cases are displayed.
-
-4.  Select any case.
-
-5.  Go to **Case Reports**.
-
-    \[Omitted image "tisc-case-reports.png"\] Alt text: Case Reports
+4.  Select the **Case Reports** tab.
 
     **Note:** You can delete the reports from the list, create a duplicate copy of the existing reports and customize your own report.
 
-6.  Click **New**.
+5.  Select **New with Template** as the report generation method.
 
-    The report templates that are published and enabled in the base system are displayed.\[Omitted image "tisc-new-report.png"\] Alt text: New report template
+    For information about generating a report using AI, see [Generate a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/na-tisc-generate-ai-reports.md).
 
-7.  Select the desired Report Template.
+6.  Select a report template from the list.
 
-    The selected report template for the report type is generated. Also, here once the report is published, that means that larger group of users can view it but if the report is in a draft state then that report is hidden from the users. As an analyst you can only view the published reports but not the reports in the draft state.
+    The selected report template for the report type is generated. In the draft stage, the report viewing is restricted. As an analyst you can view the published reports but not the draft.
 
-    **Note:**
+7.  Use the report editor to build the report content.
 
-    -   In case if you want to add more fields then select the fields and add it directly within your case report.
-    -   If you want to add related list, for example a list of observables then select Observables. All the observables associated for that particular case will be listed, select one or more observables ans click **Add**. You can also filter out the required observable and add it to your case.
-8.  Click **Save Content** to save the contents of your report.
+    -   Select the \[Omitted image "icon-tisc-report-edit.png"\] Alt text: Edit report details icon**Edit report details** icon to edit the report name and description.
+    -   Select the \[Omitted image "icon-tisc-report-expand.png"\] Alt text: Expand icon**Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
+    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
+    -   Select **Save Content** to save your changes and enable **Publish**.
+    -   Select **Preview** to generate a PDF preview of the current content.
+8.  When your edits are complete, select **Publish**.
 
-9.  Click **Preview** to preview the report.
-
-    **Note:** You can do the following:
-
-    -   **Maximize** the report window.
-    -   **Download** the report using **Download** icon.
-    -   Pop out the report in a new tab in case if the height or size of the report to have better viewing experience.
-    -   **Edit** the Report Name and Report description.
-    -   **Publish** the report.
-10. Click **Edit Content** button to republish the report.
-
-    **Note:** A warning message is displayed for you to share the report:
-
-    You must republish the report after you make changes, for you to download or share the report. Do you want to still continue editing?
-
-11. Click **Edit**.
-
-    If you want to edit the report, then you can continue editing the report as explained or you can publish the report. Once it is published, the report will be read-only.
-
-12. Click on **Share Report in Email** to share the report.
-
-    While sharing the report, the PDF report that was generated is attached as an attachment to the Email.\[Omitted image "tisc-share-email.png"\] Alt text: Share report in email
-
-13. Add the required email fields such as To \(whom you want to share the report\), CC, and BCC
-
-14. Mark the email as important, if required.
-
-15. Click **Send**.
-
-    The report will be shared with the larger group of users.
+    After publishing, download the report as a PDF or share it with stakeholders by email.
 
 
 **Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
@@ -93,6 +67,8 @@ Role required: sn\_sec\_tisc.analyst
 
 [Creating cases using Threat Analyst Workbench]()
 
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
+
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -100,6 +76,8 @@ Role required: sn\_sec\_tisc.analyst
 [Add artifacts to case\(s\) or case task\(s\)]()
 
 [Run Enrichment Actions within a case]()
+
+[Generate a Case Report using generative AI]()
 
 [Create a security incident from a TISC case]()
 

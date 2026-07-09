@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-06-03"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Order Management release notes
@@ -17,6 +17,7 @@ The ServiceNow® Order Management application enables you to capture, manage, an
 -   Enable agents and customers to make faster, more confident decisions on orders by instantly seeing the impact of price and quantity changes, ensuring clarity on what's owed for every update.
 -   Improve order approval accuracy by validating contract start and end dates and terms for recurring and entitlement orders, while preventing contract dates from being set on one-time orders. This helps orders process correctly the first and contract obligations to be properly tracked.
 -   Enhance the Order management \(OM\) integration with Strategic Portfolio Management \(SPM\) for in-flight orders to support projects for site and maintain program project and sub-project hierarchy.
+-   Improve pricing accuracy on orders by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
 -   Enable visibility into all entities involved in a deal by viewing billing, shipping, entitlement, and partner details on the customer order.
 -   Enable order agents to create, track, and complete order-level tasks at the order header and top order line item level, with support for dependent task chains that automatically sequence work across submission, post-approval, and post-fulfillment stages.
 
@@ -50,6 +51,15 @@ See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     Create and track tasks at the order and top order line level, independent of order line items, across all stages of the order lifecycle from pre-decomposition through post-fulfillment to support operational tasks such as customer onboarding, compliance review, approval tracking, customer notifications, and post-activation follow-up.
 
 
+-   **Derived pricing on order line items**
+
+    Improve pricing accuracy by letting the system automatically manage derived order lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing and copying on system-generated lines to preserve pricing integrity.
+
 ## Changed in this release
 
 -   **[Managing inflight order for site projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-offering-somt.md)**
@@ -63,7 +73,7 @@ Install Order Management by requesting it from the ServiceNow Store. Visit the [
 
 ## Related ServiceNow applications and features
 
--   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
+-   **[ServiceNow CPQ Configurator - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 

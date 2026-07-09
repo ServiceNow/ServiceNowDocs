@@ -7,20 +7,20 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [API overview and resources, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Intro to runtime API calls
 
 Runtime, or buyside, APIs are used to create, update, and save configurations.
 
-CPQ APIs are divided into two categories: runtime APIs and admin APIs. In this article, we introduce the runtime APIs.
+ServiceNow CPQ APIs are divided into two categories: runtime APIs and admin APIs. In this article, we introduce the runtime APIs.
 
-Runtime APIs are used to create, read, update, and delete configurations, and are the same APIs that are used in the CPQ End User Configurator. They are also commonly referred to as the “buyside“ APIs.
+Runtime APIs are used to create, read, update, and delete configurations, and are the same APIs that are used in the ServiceNow CPQ End User Configurator. They are also commonly referred to as the “buyside“ APIs.
 
 **Note:** For the most updated information on sample codes and other details, see [API Documentation](https://api-docs.logik.io/#introduction).
 
-All API calls follow this base URL format: `https://<yourTenant>.<sector>.logik.io/api/`. In this URL, yourTenant represents your unique listed CPQ tenant name, and sector is the sector where your CPQ environment is located.
+All API calls follow this base URL format: `https://<yourTenant>.<sector>.cpq/api/`. In this URL, yourTenant represents your unique listed ServiceNow CPQ tenant name, and sector is the sector where your ServiceNow CPQ environment is located.
 
 If you are a Salesforce user, you can find your tenant URL by clicking **Setup** in your Salesforce account. In the Quick Find box, search for or click **Custom Settings**, and then click **Manage**. Your tenant URL will be displayed.
 
@@ -28,7 +28,7 @@ If you are a Salesforce user, you can find your tenant URL by clicking **Setup**
 
 All runtime API calls require bearer token authentication using a unique token that is available in the runtime client. They also require that the origin URL configured in the runtime client appears in the request header.
 
-To authenticate, collect the bearer token and the origin URL from CPQ Admin → Utilities → Runtime Client. For each API call in a Postman, add the following header:
+To authenticate, collect the bearer token and the origin URL from ServiceNow CPQ Admin → Utilities → Runtime Client. For each API call in a Postman, add the following header:
 
 ```
 Key: Origin
@@ -37,7 +37,7 @@ Value: <yourOrigin>
 
 \[Omitted image "cpq-apis-runtime-origin.png"\] Alt text: Runtime API Calls
 
-In the Authorization tab of Postman or your API tool, select **Bearer Token**, and then input the unique token you copied from CPQ Admin.
+In the Authorization tab of Postman or your API tool, select **Bearer Token**, and then input the unique token you copied from ServiceNow CPQ Admin.
 
 \[Omitted image "cpq-apis-runtime-bearer-token.png"\] Alt text: Runtime API Calls
 
@@ -144,7 +144,7 @@ In the Authorization tab of Postman or your API tool, select **Bearer Token**, a
     }
     ```
 
--   The save call saves the configuration in CPQ. This ensures that the configuration UUID can be used and reconfigured in the future.
+-   The save call saves the configuration in ServiceNow CPQ. This ensures that the configuration UUID can be used and reconfigured in the future.
 
     This process asynchronously populates our custom objects, configuration field data sets, and configuration line items in Salesforce.
 
@@ -270,7 +270,7 @@ raw: '{{logik}}' host:
 - '{{logik}}' response: []
 ```
 
-For more information about CPQ APIs, see the following eight-slide presentation:
+For more information about ServiceNow CPQ APIs, see the following eight-slide presentation:
 
-[Logik.io APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
+[CPQ APIs](https://docs.google.com/presentation/d/1dN5rfpk4jjS__GkBcarieNUEfyVY6bAvrhxkkm9DagI/edit?slide=id.g18313200e09_0_207#slide=id.g18313200e09_0_207).
 

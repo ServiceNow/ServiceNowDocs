@@ -1,27 +1,35 @@
 ---
-title: Generate a playbook
-description: Generate a playbook with Now Assist by providing text directions or image.
+title: Generate a playbook from text or image
+description: Generate a playbook using AI by providing text directions or an image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/generate-a-playbook-outline.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-06-25"
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Generate a playbook
+# Generate a playbook from text or image
 
-Generate a playbook with Now Assist by providing text directions or image.
+Generate a playbook using AI by providing text directions or an image.
 
 \[Omitted video\] Description: Generate a playbook outline and get recommendations for placeholder activities
 
 ## Before you begin
 
-Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts and reviewing playbook outlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md).
+Verify that the Now Assist for Creator plugin is installed and the **Playbook generation** and **Playbook generation with images** skills are active.
+
+**Note:** Skills are available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
+
+\[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
+
+For information about installing Now Assist for Creator, see [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+
+Learn how to write prompts to generate better playbooks. For more information, see [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md).
 
 Role required:
 
@@ -29,7 +37,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  From the **New** drop-down menu, select **Playbook**.
 
@@ -37,7 +45,7 @@ Role required:
 
     \[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
 
-<table id="table_ubj_vbf_dbc"><thead><tr><th>
+<table id="id_pyq_lnx_rjc"><thead><tr><th>
 
 Field
 
@@ -75,7 +83,15 @@ Application scope that you want your playbook to run in. Selecting **Global** le
 
 </td><td>
 
-Directions for the playbook that you want to create.-   **Instructions only**
+Directions for the playbook that you want to create.-   **Image**
+
+Attach a high quality, clear image of the process. You can compliment the image with text instructions as well. For example, if you attach an image of a flow chart, you can add additional information about the process as text directions.
+
+-   **Knowledge Article**
+
+Select a knowledge article based on which you want to generate a playbook. Additionally, you can add **Now Assist instructions** to compliment the knowledge base article.
+
+-   **Instructions only**
 
 Provide only text instructions to generate the playbook.
 
@@ -84,10 +100,6 @@ Provide only text instructions to generate the playbook.
     -   Specify the order that stages and activities run in.
 
     -   Specify if any stages or activities run at the same time.
-
--   **Image**
-
-Attach a high quality, clear image of the process. You can compliment the image with text instructions as well. For example, if you attach an image of a flow chart, you can add additional information about the process as text directions.
 
 </td></tr><tr><td>
 
@@ -122,31 +134,31 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 </td></tr></tbody>
 </table>4.  Select **Generate playbook preview**.
 
-    Based on your instructions, Now Assist generates a preview of the playbook with all the elements and displays the preview in the diagramming view. Now Assist adds a placeholder activity wherever it's unable to find a relevant activity.
+    Based on your instructions, Now Assist generates a preview of the playbook with all the elements and displays the preview in the diagramming view. Now Assist adds a placeholder activity wherever a relevant activity is not found.
 
 5.  Review the generated playbook preview for accuracy.
 
-    If the generated playbook doesn’t meet your requirements, try rephrasing your prompt according to [Writing prompts and reviewing playbook outlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md), and select **Regenerate preview**.
+    If the generated playbook doesn't meet your requirements, try rephrasing your prompt according to [Writing prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist.md), and select **Regenerate preview**.
 
-6.  If you're ready to generate your playbook, select **Save and edit playbook**.
+6.  Select **Save and edit playbook**.
 
 7.  Configure your trigger.
 
     For more information about triggers, see [Configure your trigger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-trigger.md)
 
-8.  Configure placeholder activities by manually selecting the placeholder activity.
+8.  If the playbook contains placeholder activities, configure the placeholder activities manually.
 
-    **Tip:** To generate recommendations for activity definitions from Now Assist instead, see [Generate playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md).
+    **Tip:** To generate recommendations for activity definitions from Now Assist instead, see [Generate recommendations for placeholder activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md).
 
     1.  Select a placeholder activity that you want to configure \( \[Omitted image "placeholder-activity-icon.png"\] Alt text: Placeholder activity icon.\).
 
-        You can also hover over the placeholder activity and select the **replace activity** icon \(\[Omitted image "replace-activity-icon.png"\] Alt text: Icon for replacing an activity in the mini-picker to directly open the activity picker.
+        You can also select the **replace activity** icon \(\[Omitted image "replace-activity-icon.png"\] Alt text: Icon for replacing an activity\) in the mini-picker to directly open the activity picker.
 
     2.  Update the **Label** and **Description**, if needed.
 
     3.  Under the **Activity definition** field, select the edit button \(\[Omitted image "playbook-edit-button.png"\] Alt text: Edit icon in the playbook builder.\).
 
-        The activity picker is displayed.
+        The activity picker opens.
 
     4.  In the activity picker, search for the activity, subflow, or action to add.
 
@@ -173,7 +185,7 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 ## Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/design-automated-process.md).
+When the trigger conditions of your playbook are met, playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/design-automated-process.md).
 
 ## What to do next
 

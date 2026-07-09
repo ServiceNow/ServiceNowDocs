@@ -18,19 +18,9 @@ With Table Builder, you can modify the table properties and manage the fields th
 
 Table Builder is a tool for editing data tables. You edit a table on the **Data** tab by editing the columns of the table.
 
-\[Omitted image "tb-edit-field3.gif"\] Alt text: User interface for Table Builder.
-
-In Table Builder, each table column is represented as a row. For example, "Art title," "Image," and "Available" appear as column headers on the actual table. However, when you edit the columns in Table Builder, they appear as rows.
-
-\[Omitted image "example-columns.png"\] Alt text: Example columns.
-
-\[Omitted image "example-table.png"\] Alt text: Example table.
-
-To easily find a specific table column to edit in the default Fields view, type the column name into the search box at the top right. As you type, the list of columns below is filtered to match the entered keyword.
+To easily find a specific table column to edit in the default Fields view, type the column name into the search box at the top right. As you type, the list of columns following is filtered to match the entered keyword.
 
 **Note:** Use the **Filter options** list to show inactive fields or to hide extended fields from the list \(if a table has been extended from an existing table\).
-
-\[Omitted image "tb-search-table-column.png"\] Alt text: Search for a table column.
 
 As you edit the table columns in Table Builder, think of each row as a field on a form. For example, if you change a column label, use a label that describes the data that you expect the user to enter in the form field. Change the column type to support this kind of form entry.
 

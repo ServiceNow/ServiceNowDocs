@@ -14,7 +14,7 @@ breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
 
 Use the prominent action button to quickly access your Now Assist agent chat no matter where you're in the app.
 
-\[Omitted image "image.na-pab"\] Alt text: prominent action button highlighted in the menu bar
+\[Omitted image "na-pab.png"\] Alt text: prominent action button highlighted in the menu bar
 
 Tap the button to open a new Now Assist chat. If you open the chat while you have a record open, Now Assist automatically incorporates the information from that record into its responses.
 

@@ -72,9 +72,7 @@ Maximize efficient assignments
 
 </td><td>
 
-Incentive to assign tasks to technicians based on efficiency, with rewards for quicker completion and penalties for slower completion compared to planned durations.
-
-**Note:** The Field Service Agent Efficiency \(com.snc.fsm\_agent\_efficiency\) plugin must be installed to use this feature.
+Incentive to assign tasks to technicians based on efficiency, with rewards for quicker completion and penalties for slower completion compared to planned durations.**Note:** The Field Service Agent Efficiency \(com.snc.fsm\_agent\_efficiency\) plugin must be installed to use this feature.
 
 </td><td>
 

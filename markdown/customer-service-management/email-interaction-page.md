@@ -254,7 +254,7 @@ Response Template
 
 </td><td>
 
-Displays the response template required to respond to the customer. For more information, see [Use a response template to compose an email or a work note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/composing-email-work-note.md).
+Displays the response template required to respond to the customer. For more information, see [Compose emails and work notes using response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/composing-email-work-note.md).
 
 </td></tr><tr><td>
 

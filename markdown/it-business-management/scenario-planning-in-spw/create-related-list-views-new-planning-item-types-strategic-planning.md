@@ -1,5 +1,5 @@
 ---
-title: Create related list views for new planning item types in Strategic Planning
+title: Create related list views for planning item types in Strategic Planning
 description: For every new planning item table that you create, you must create the necessary related list views. You can also customize the related list views for existing planning items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.html
@@ -9,16 +9,16 @@ classification: scenario-planning-in-spw
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Define a new planning item type in Strategic Planning, Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Define a planning item type in Strategic Planning, Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create related list views for new planning item types in Strategic Planning
+# Create related list views for planning item types in Strategic Planning
 
 For every new planning item table that you create, you must create the necessary related list views. You can also customize the related list views for existing planning items.
 
 ## Before you begin
 
--   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
+-   [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 -   Ensure that the application scope in your instance is set to Portfolio Planning.
 
 Role required: admin
@@ -54,5 +54,5 @@ Every Related list that you add to your planning item tables must be in the APW 
 
 ## What to do next
 
-[Create workspace view rules for new planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
+[Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
 

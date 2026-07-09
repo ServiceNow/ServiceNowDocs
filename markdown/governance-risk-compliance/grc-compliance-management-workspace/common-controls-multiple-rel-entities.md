@@ -1,5 +1,5 @@
 ---
-title: Testing common control and implementing results on multiple reliant entities
+title: Testing common control and implementing results
 description: Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.html
@@ -12,13 +12,11 @@ reading_time_minutes: 2
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Testing common control and implementing results on multiple reliant entities
+# Testing common control and implementing results
 
 Instead of generating controls for individual entities and testing each entity separately with an individual control, you can use a common control and associate a primary entity to it.
 
 Test the common control for control tests, indicators, attestations, issues, and policy exceptions. Use the test results that are inheritable and implement them on all the reliant entities associated to the common control.
-
-\[Omitted image "CommonControlOverview.png"\] Alt text: Multiple entities linked to a common control.
 
 Using common controls gives you the ability to:
 

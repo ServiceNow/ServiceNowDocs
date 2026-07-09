@@ -113,11 +113,4 @@ Register the Sensor
 Register the Sensor with the DMI and Console. This confirms that the Console and Sensor can communicate with each other. See [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md) for more information.
 
 </td></tr></tbody>
-</table>## What to do next
-
-To complete installation and configuration of the Discovery Sensor for OT:
-
-1.  
-2.  
-3.  
-
+</table>

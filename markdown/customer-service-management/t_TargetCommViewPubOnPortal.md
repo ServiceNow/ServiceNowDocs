@@ -28,18 +28,23 @@ The **Publications** link on the customer service portal displays a list of curr
 
 1.  Navigate to the customer service portal.
 
-2.  Click **Support** &gt; **Publications** in the portal header.
+2.  Select **Support** &gt; **Publications** in the portal header.
 
     This displays a list of current publications. The information displayed for each publication includes the title, publish date, expiration date, and a brief description.
 
 3.  If desired, search the Publications list by entering the search term in the search field at the top of the list.
 
-4.  Click a publication name to open.
+4.  Select a publication name to open.
 
 5.  If the publication has attachments, select the attachments to download from the pop-up window.
 
 6.  Close the pop-up window.
 
-7.  Click the return arrow at the top of the publication to return to the Publications list.
+7.  Select the return arrow at the top of the publication to return to the Publications list.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

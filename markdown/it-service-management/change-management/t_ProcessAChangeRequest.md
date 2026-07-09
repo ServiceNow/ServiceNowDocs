@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
@@ -26,49 +26,49 @@ As part of processing a change request, ensure that you have [detected any chang
 
 1.  Navigate to **All** &gt; **Change** &gt; **Open**.
 
-2.  Select a change request you like to work upon.
+2.  Select a change request you like to work on.
 
 3.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d151260e105">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d151653e105">
 
 **Approve or reject a change request**
 
 </td><td>
 
-Open the approval record and click **Approve** to approve the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
+ 
 
-</td></tr><tr><td id="d151260e129">
+</td></tr><tr><td id="d151653e113">
 
 **Implement a change request**
 
 </td><td>
 
-Click **Implement** to put the change request into action.The change request state changes to **Implement**. The workflow creates two change tasks: **Implement** and **Post-implementation testing**. Review the change tasks and assign them to a user or group, as appropriate.
+ 
 
-</td></tr><tr><td id="d151260e153">
+</td></tr><tr><td id="d151653e121">
 
 **Review a change request**
 
 </td><td>
 
-Click **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
+Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d151260e174">
+</td></tr><tr><td id="d151653e142">
 
 **Close a change request**
 
 </td><td>
 
-Click **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
+Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d151260e198">
+</td></tr><tr><td id="d151653e166">
 
 **Cancel a change request**
 
 </td><td>
 
-From the context menu, click **Cancel Change**. Provide a reason for canceling the change and click **Save**.The change request is canceled and the reason for canceling the change is added to the **Work Notes** field.
+From the context menu, Select **Cancel Change**. Provide a reason for canceling the change and select **Save**.The change request is canceled and the reason for canceling the change is added to the **Work Notes** field.
 
 </td></tr></tbody>
 </table>    **Note:** Manually created change tasks are not automatically closed or cancelled when state is changed from Implement to Review. You must first close the change tasks and to close the change request.

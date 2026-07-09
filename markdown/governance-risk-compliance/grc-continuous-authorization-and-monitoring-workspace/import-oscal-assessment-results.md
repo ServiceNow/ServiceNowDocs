@@ -1,6 +1,6 @@
 ---
 title: Import OSCAL Assessment Results \(AR\)
-description: Import an OSCAL Assessment Results \(AR\) package from another instance or external tool to create an engagement.
+description: Import OSCAL Assessment Results \(AR\) from similar NIST RMF frameworks to create an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-assessment-results.html
 release: australia
@@ -8,13 +8,13 @@ product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-05-26"
-reading_time_minutes: 4
-breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+reading_time_minutes: 5
+breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Import OSCAL Assessment Results \(AR\)
 
-Import an OSCAL Assessment Results \(AR\) package from another instance or external tool to create an engagement.
+Import OSCAL Assessment Results \(AR\) from similar NIST RMF frameworks to create an engagement.
 
 ## Before you begin
 
@@ -64,7 +64,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Provide the attachments \*
+Provide the attachments\*
 
 </td><td>
 
@@ -83,7 +83,7 @@ Upload an overlay JSON file if applicable. This section is optional.
 
 </td></tr><tr><td>
 
-Assessment plan attachments \*
+Assessment plan attachments\*
 
 </td><td>
 
@@ -91,7 +91,7 @@ Upload the AP JSON file linked to the AR that you are importing. The maximum fil
 
 </td></tr><tr><td>
 
-Assessment results attachments \*
+Assessment results attachments\*
 
 </td><td>
 
@@ -127,7 +127,10 @@ User mapping
 Map the users listed in the OSCAL file to the corresponding ServiceNow users in your instance. Each row in the table shows three columns:
 
  -   OSCAL User: The user name as it appears in the OSCAL file.
--   ServiceNow User: The corresponding ServiceNow user. Users are mapped automatically when a ServiceNow user with a matching username is found. If no match is found, this field is empty and must be mapped manually.
+-   ServiceNow User: The corresponding ServiceNow user. Users are mapped automatically when a ServiceNow user with a matching username is found.
+
+If no match is found, this field is empty and must be mapped manually. Similarly, when multiple users match the same name, the ServiceNow user field is left empty.
+
 -   Listed as: The roles the user is assigned to in the import. A user can be listed under multiple roles. For example, System Owner, Owner \(Control\), Attestation Respondents \(Control\), Assigned To \(POA&amp;M\), SCA, Assigned To \(Engagement\), ISSM, ISSO, Authorizing Official, AODR, Approver, Information Owner, System User, Issue Manager, Auditors, or Watchlist \(POA&amp;M\).
 
 For OSCAL users without a corresponding ServiceNow user, select the appropriate ServiceNow user from the ServiceNow User field. You can also update any auto-mapped user if needed.
@@ -140,7 +143,9 @@ Group mapping
 
 </td><td>
 
-Map the groups listed in the OSCAL file to the corresponding ServiceNow groups in your instance. Each row shows the OSCAL group, the corresponding ServiceNow group, and the role the group is listed as. For example, Issue Manager Group. Groups are mapped automatically when a matching ServiceNow group is found. If no match is found, select the appropriate ServiceNow group manually. \[Omitted image "oscal-ar-group-mapping.png"\] Alt text: Group mapping
+Map the groups listed in the OSCAL file to the corresponding ServiceNow groups in your instance. Each row shows the OSCAL group, the corresponding ServiceNow group, and the role the group is listed as. For example, Issue Manager Group.Groups are mapped automatically when a matching ServiceNow group is found. If no match is found, this field is empty and must be mapped manually. Similarly, when multiple groups match the same name, the ServiceNow user field is left empty.
+
+\[Omitted image "oscal-ar-group-mapping.png"\] Alt text: Group mapping
 
 </td></tr><tr><td>
 
@@ -163,9 +168,29 @@ Assign users to the authorization package roles for the imported files. The role
 
     The preview table shows the record types and their counts across three columns: **Will be created**, **Will be skipped**, and **Overridden**.
 
-    **Note:** Existing control objectives from the same source and reference are skipped automatically, and new entries are created for any new sources.
+    **Note:** Existing control objectives from the same source and reference are skipped automatically, and new entries are created for any new source.
 
-    1.  If the engagement items from this package already exist on the instance, choose whether to skip or override them.
+    The preview displays objects that will be created, overridden, or skipped based on whether the package exists in the target instance.
+
+    **For new packages:**
+
+    All objects display as "Create New":
+
+    -   SSP-related objects: Baseline controls, inherited controls, hybrid controls, information type definitions
+    -   AP-related objects: Engagements, control tests, test plans, entity to engagement mappings
+    On import, all objects are created.
+
+    **For existing packages:**
+
+    All SSP, AR, and AP related objects display as "Override" by default. If you skip the package, all related objects are skipped automatically, including baseline controls, information type definitions, inherited controls, hybrid controls, engagements, test plans, control tests, and entity to engagement mappings.
+
+    Objects that skip automatically:
+
+    -   Information type definitions already in the library
+    -   Policies already existing in the instance
+    Information type definitions and policies skip because they exist independently of packages and are not tightly coupled with authorization boundaries.
+
+    1.  If the package already exists on the instance, choose whether to skip or override them.
 
     2.  To skip specific object types, select the object from the **Select the ones you would wish to override** list, select **Skip**, select the records, and then select the **Override** button.
 

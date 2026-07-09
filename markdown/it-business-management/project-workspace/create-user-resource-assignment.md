@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a resource assignment for a user in Project Workspace

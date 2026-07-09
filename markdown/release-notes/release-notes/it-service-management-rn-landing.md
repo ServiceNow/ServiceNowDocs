@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # IT Service Management release notes
@@ -28,6 +28,8 @@ The ServiceNow® Now Assist for IT Service Management \(ITSM\) application bring
 The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Australia release.
 -   **[Service Operations Workspace for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/service-operations-workspace-itsm-rn.md)**  
 The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Australia release.
+-   **[Workforce Optimization for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/workforce-optimization-for-itsm-rn.md)**  
+The ServiceNow® Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Australia release, but it will be deprecated in a future release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Add a software client access record in Software Asset Management classic
+title: Add a software client access record in Software Asset Management Core UI
 description: Add a client access record to track and manage the users or devices that are accessing a particular version of your server software using a client access license \(CAL\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_AddAClientAccessRec.html
@@ -7,12 +7,12 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 9
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Add a software client access record in Software Asset Management classic
+# Add a software client access record in Software Asset Management Core UI
 
 Add a client access record to track and manage the users or devices that are accessing a particular version of your server software using a client access license \(CAL\).
 
@@ -313,5 +313,5 @@ You can remediate non-compliance for your server software using the following re
 -   **Create Allocations**: Allocates rights to unlicensed users or devices that have been added to the client access records for the specified server software.
 -   **Remove Allocations**: Removes rights from licensed users or devices when sufficient rights are unavailable.
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

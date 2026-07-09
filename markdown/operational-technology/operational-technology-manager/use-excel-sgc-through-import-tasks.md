@@ -22,7 +22,7 @@ Users assigned the OT Excel Import User \[ot\_excel\_import\_user\] role can cre
 
 -   Upload the populated Microsoft Excel spreadsheet into staging table.
 -   Validate the staging records created from the Microsoft Excel spreadsheet.
--   Import the valid staging records into the CMDB.
+-   Import the valid staging records into the CMDB from the Industrial Workspace.
 -   Optionally, create remediation tasks for invalid staging records.
 
 -   **[Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)**  

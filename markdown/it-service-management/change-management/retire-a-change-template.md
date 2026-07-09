@@ -37,7 +37,7 @@ Before retiring a template, you can analyze the template usage by viewing the **
 
 3.  Retire and discontinue the template or retire it and create a copy you can modify.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d167141e101">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d167524e101">
 
 **Retire and discontinue a change template**
 
@@ -47,7 +47,7 @@ Select **Retire**.The retirement request is sent for approval. The template move
 
 After approval, the template moves to the **Retired** state, and is unavailable for use. If rejected, the state of the template changes to **Published**.
 
-</td></tr><tr><td id="d167141e123">
+</td></tr><tr><td id="d167524e123">
 
 **Copy and retire the parent template**
 

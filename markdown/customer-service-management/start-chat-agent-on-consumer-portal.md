@@ -37,3 +37,10 @@ Role required: sn\_customerservice.consumer
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the Consumer Portal by selecting **Requests** &gt; **View Submitted Requests** &gt; **View cases and tasks**.
 
+**Related topics**  
+
+
+[Chat anonymously with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.md)
+
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+

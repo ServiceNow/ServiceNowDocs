@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-touchpoint-opportunity.html
 release: australia
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-06-12"
 reading_time_minutes: 1
 breadcrumb: [Manage touchpoints, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -57,4 +57,13 @@ The touchpoint is created and linked to the opportunity. It appears in the **Tou
 To view all touchpoints for the opportunity, select the **Touchpoints** tab.
 
 **Parent Topic:**[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)
+
+**Related topics**  
+
+
+[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-lead.md)
+
+[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint-form.md)
+
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-crm-touchpoints.md)
 

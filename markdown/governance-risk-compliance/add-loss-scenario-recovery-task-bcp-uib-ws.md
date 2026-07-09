@@ -30,9 +30,7 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
 3.  Select the **Loss scenarios** tab and select **Add**.
 
-    You can add a loss scenario to the business continuity plan. In the example, you can select the Loss of Datacenters loss scenario and add it to the business continuity plan.
-
-    \[Omitted image "loss-scenarios-list.png"\] Alt text: Add a loss scenario.
+    You can add a loss scenario to the business continuity plan. For example, you can add the "Loss of Datacenters" loss scenario to a business continuity plan.
 
     The loss of scenario record is displayed as shown in the example.
 

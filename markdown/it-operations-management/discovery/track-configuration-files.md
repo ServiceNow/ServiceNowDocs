@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -37,17 +37,17 @@ The system tracks configuration files for CI types with process classifiers that
 
 1.  Navigate to **All** &gt; **Pattern Designer** &gt; **Discovery Patterns**.
 
-2.  Click the pattern for the relevant CI.
+2.  Select the pattern for the relevant CI.
 
     **Important:** Enabling configuration file tracking does not modify the contents of a pattern.
 
-3.  Click the **Tracked Files** tab.
+3.  Select the **Tracked Files** tab.
 
     One or more tracked file definitions appear by default for Discovery [patterns that support configuration file tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-config-files.md).
 
-    If you do not see the Tracked Files tab, verify that the pattern is specified process classier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+    If you don't see the Tracked Files tab, verify that the pattern is specified process classier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
-4.  Click **Edit** to modify an existing definition or click **New** to create a new one.
+4.  Select **Edit** to modify an existing definition or select **New** to create one.
 
 5.  Fill out or modify the form fields \(see table\):
 
@@ -58,7 +58,7 @@ The system tracks configuration files for CI types with process classifiers that
     |**Save Content**|Select this check box to make this file available for viewing and comparing directly the ServiceNow instance.|
     |**Active**|Select this check box to enable tracking of this configuration file.|
 
-6.  Click **Done**.
+6.  Select **Done**.
 
 7.  If necessary, set the tracked files deletion strategy as described in [Set the deletion strategy for tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-config-file-deletion-strategy.md)
 
@@ -67,7 +67,7 @@ The system tracks configuration files for CI types with process classifiers that
 
 Run discovery on the hosts that are running the applications you want to discover with patterns, open the application CI record, and check the Tracked Configuration Files related list.
 
-If you are using Service Mapping, verify that it started collecting information about changes to configuration files:
+If you're using Service Mapping, verify that it started collecting information about changes to configuration files:
 
 1.  Navigate to the service instance map containing the CIs.
 2.  On the Changes tab, check that the list includes a record of the change you made. For example, that the configuration file was added, modified or deleted.

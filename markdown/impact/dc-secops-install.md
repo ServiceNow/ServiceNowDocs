@@ -35,3 +35,5 @@ Role required: Impact users
     If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-install-plugins.md).
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+

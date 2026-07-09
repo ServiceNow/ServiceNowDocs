@@ -33,7 +33,7 @@ Schedule interview with applicants on a job requisition to get started with the 
 -   **[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/manage-interviews-recruiter.md)**  
 Manage interviews as a recruiter or recruitment coordinator. Update interviews as needed.
 -   **[Tracking interview health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/tracking-interview-health.md)**  
-Recruiters and coordinators need to proactively monitor interview health, look at interviews that need attention, and reduce reactive coordination effort. The Interview health tracker gives recruiters and coordinators a unified list view to centrally monitor interview health and surface support needs early and in priority order, so they can address them proactively.
+The Interview health tracker gives recruiters and coordinators a unified view to monitor interview health and address support needs proactively, reducing reactive coordination effort.
 -   **[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/provide-interview-feedback-recruiter.md)**  
 As a recruiter or recruitment coordinator, provide feedback for interviews that you're part of.
 -   **[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/share-availability-interviewer.md)**  

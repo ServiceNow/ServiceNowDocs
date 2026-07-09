@@ -34,7 +34,7 @@ Convert a savings opportunity into a pipeline project, or dismiss it with a reas
 
 [Using Procurement Case Management]()
 
-[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace]()
+[Working with SPO playbooks in the Source-to-Pay Workspace]()
 
 [Using Sourcing Pipeline Management]()
 

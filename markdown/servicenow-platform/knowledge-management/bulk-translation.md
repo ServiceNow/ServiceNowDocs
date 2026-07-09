@@ -20,7 +20,7 @@ The Bulk Translations feature extends the localization service in Knowledge Mana
 
 ## Translation workflow
 
-You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/workflow-localization-framework.md) .
+You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/workflow-localization-framework.md).
 
 ## Preferences configuration
 

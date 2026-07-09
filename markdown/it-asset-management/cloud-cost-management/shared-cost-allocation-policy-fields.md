@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # List of Shared cost allocation policy fields

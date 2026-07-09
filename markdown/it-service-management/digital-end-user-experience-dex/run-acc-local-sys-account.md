@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [run acc local system account, local system account, acc service account, run agent client collector as user, playbook content data]
 breadcrumb: [Install ACC on Windows, Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 

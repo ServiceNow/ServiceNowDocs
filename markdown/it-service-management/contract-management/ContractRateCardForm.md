@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Contract Rate Card form

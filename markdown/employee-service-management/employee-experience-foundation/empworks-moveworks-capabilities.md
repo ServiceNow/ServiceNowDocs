@@ -21,7 +21,7 @@ When your organization uses Moveworks with Employee Slate, you get AI-powered he
 
 ## AI assistant reasoning engine
 
-You can ask for complex things in plain English, and the AI assistant figures out all the steps needed to complete your request. Here's how it works behind the scenes:
+You can ask for complex things in plain English, and the AI assistant determines all the steps needed to complete your request. Here's how it works behind the scenes:
 
 -   **Plan**
 
@@ -71,7 +71,7 @@ You can use this to:
 
 ## Specialized assistants
 
-You can access specialized assistants designed for particular types of work. These appear in the left panel of Employee Slate based on what your organization makes available to you. Each assistant comes ready to help with its specific domain, so you don't need to explain the context.
+You can access specialized assistants that support particular types of work . These appear in the left panel of Employee Slate based on what your organization makes available to you. Each assistant comes ready to help with its specific domain, so you don't need to explain the context.
 
 Each specialized assistant includes:
 
@@ -95,7 +95,7 @@ You can work with:
 Here's how it works to submit a request:
 
 1.  You ask the AI assistant for something, for example, request to work remotely.
-2.  The assistant tells you about any relevant policies, like needing manager approval for extended periods.
+2.  The assistant displays any relevant policies, like needing manager approval for extended periods.
 3.  The request form opens in the side panel next to your conversation.
 4.  You review, fill out, and submit the form without leaving the AI assistant.
 5.  Your request goes to the right approver with all policy checks and requirements handled automatically.
@@ -134,7 +134,7 @@ You can request services and items from the catalog of your company in two ways:
     You can tell the AI assistant what you need in natural language. It asks for the required information through the conversation and submits your request when you've provided everything needed.
 
 
-For a full-list of features, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
+For a full list of features, see [Employee Slate capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-capabilities-common.md).
 
 **Related topics**  
 

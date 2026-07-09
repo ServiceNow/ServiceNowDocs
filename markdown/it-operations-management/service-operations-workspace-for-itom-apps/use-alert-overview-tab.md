@@ -1,6 +1,6 @@
 ---
-title: View details about the impact and cause of an alert in Express List
-description: View information about an alert on the alert's Overview tab in the Express List.
+title: View alert details in Express List
+description: View information about different aspects of an alert in the Express List.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/use-alert-overview-tab.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# View details about the impact and cause of an alert in Express List
+# View alert details in Express List
 
-View information about an alert on the alert's Overview tab in the Express List.
+View information about different aspects of an alert in the Express List.
 
 ## Before you begin
 
@@ -30,23 +30,35 @@ Role required: evt\_mgmt\_operator
 
     The alert opens in a separate tab, displaying the **Overview** tab.
 
-4.  View alert information on the **Overview** tab.
+4.  View different aspects of the alert under each tab.
 
 <table id="table_vs2_prb_5tb"><thead><tr><th>
 
-Section
+Tab
 
 </th><th>
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Overview tab
+
+</td></tr><tr><td>
 
 Summary
 
 </td><td>
 
 Contains a description of the selected alert, describing why it is considered an issue.
+
+</td></tr><tr><td>
+
+Identified issue
+
+</td><td>
+
+Contains a description of the identified issue, including the affected connector and the underlying error that caused it.
 
 </td></tr><tr><td>
 
@@ -67,6 +79,30 @@ Cause
 </td><td>
 
 Lists the log properties with information contributing the alert issue, as well as probable root causes for the alert.
+
+</td></tr><tr><td colspan="2">
+
+ 
+
+</td></tr><tr><td>
+
+Details tab
+
+</td><td>
+
+Shows the alert's core attributes, including its number, configuration item, class, resource, type, severity, state, and full description of the identified issue. Alongside are assignment fields \(assigned to, assignment group, task, parent\) plus the work notes and a chronological Activity log tracking state changes and system events.
+
+</td></tr><tr><td colspan="2">
+
+ 
+
+</td></tr><tr><td>
+
+Related Records tab
+
+</td><td>
+
+Displays lists of records associated with the alert, organized into categories such as events, impacted services, service offerings, related changes, configuration items, remediation tasks, incidents on CI, repeated alerts, and similar alerts.
 
 </td></tr></tbody>
 </table>

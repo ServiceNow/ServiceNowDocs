@@ -26,7 +26,7 @@ You can also create your own application indicators to analyze business applicat
 
 **Note:**
 
--   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
+-   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
 -   If the created indicator isn’t displayed in the list, verify that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
 
 All the indicator scores are displayed according to the latest fiscal period, by default. You can also select a different fiscal period from the Scores for fiscal period list. Your fiscal period preferences are saved and applied the next time you visit the page.

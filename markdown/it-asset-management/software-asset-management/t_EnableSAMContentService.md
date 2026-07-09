@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Enable sharing information with Software Asset Management content service
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-**Note:** If you are managing a National Security Cloud \(NSC\) Department of Defense \(DOD\) Impact Level 5 \(IL5\) deployment, you cannot share any unnormalized software installation data with ServiceNow even if you opt to participate in the Software Asset Management Content Service. If a software product does not exist in the Software Asset Management Content Library, you can create a software content request for it manually. For detailed instructions, see [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-itam-content-request.md).
+**Note:** If you are managing a National Security Cloud \(NSC\) Department of Defense \(DOD\) Impact Level 5 \(IL5\) deployment, you cannot share any unnormalized software installation data with ServiceNow even if you opt to participate in the Software Asset Management Content Service. If a software product does not exist in the Software Asset Management Content Library, you can create a software content request for it manually. For detailed instructions, see [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-itam-content-request.md).
 
 **Important:** If you're using the Software Asset Management application on-premise, you can set up your ServiceNow instance to connect directly to the Content Service. For detailed instructions, see the knowledge base article [KB1585263](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585263).
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [ILMT, BigFix Inventory, transform map]
-breadcrumb: [Integrating using v1 APIs, ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating using v1 APIs, ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v1 APIs

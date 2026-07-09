@@ -1,5 +1,5 @@
 ---
-title: Configure Key Alerts
+title: Configure key alerts
 description: Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configuring-io-alerts.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Configure Key Alerts
+# Configure key alerts
 
 Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
 
@@ -63,5 +63,5 @@ After the request submission, all six alerts will be enabled automatically, no m
 
 [Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-io-alerts.md)
 
-**Parent Topic:**[Key alerts – activation and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
 

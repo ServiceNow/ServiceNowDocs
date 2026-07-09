@@ -1,6 +1,6 @@
 ---
-title: Activate Best Practice - Change Risk Calculator
-description: The Best Practice - Change Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+title: Activate Change Management - Risk Calculator
+description: The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-risk-calculator.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Activate Best Practice - Change Risk Calculator
+# Activate Change Management - Risk Calculator
 
-The Best Practice - Change Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -39,8 +39,8 @@ Role required: admin
 
 You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
 
--   **[Installed with Best Practice - Change Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-risk-calc.md)**  
-Several types of components are installed with the Best Practice- Change Risk Calculator.
+-   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-risk-calc.md)**  
+Several types of components are installed with the Change Management - Risk Calculator.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
 

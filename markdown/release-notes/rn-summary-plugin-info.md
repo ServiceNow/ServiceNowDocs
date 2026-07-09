@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin
 release: australia
 topic_type: reference
 last_updated: "2026-06-12"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -65,6 +65,7 @@ Activity Management
 
 </td><td>
 
+-   AI sales activity association \(com.sn\_act\_assoc\_agent\): Automatically associates inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching, reducing manual association effort for sales representatives.
 -   CRM Outlook Add-in \(com.sn\_crm\_outlook\): Enables sales agents to associate emails and create CRM records directly from Microsoft Outlook.
 -   CRM Touchpoints \(com.sn\_crm\_touchpoint\): Enables sales and service teams to capture, track, and act on various touchpoints and activities throughout the customer's association with your business.
 
@@ -178,7 +179,8 @@ Customer Success Management
 
 </td><td>
 
-Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for customer success
+-   Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for customer success
+-   Customer Discovery Hub\(`sn_cust_disc_hb`\): Captures customer business context during the sales process and makes that context available to customer success teams at the post-sale handoff.
 
 </td></tr><tr><td>
 
@@ -402,13 +404,6 @@ Reverse Tunnel
 
 </td><td>
 
--   **New plugins**
-
-The following plugin was added in the Australia release:
-
-Zero Copy Reverse Tunnel \(`sn_zc_tunnel`\): Provides the interface to manage private relays, service endpoints, and relay properties for private connectivity through the Reverse Tunnel gateway.
-
-
 Zero Copy Reverse Tunnel \(`sn_zc_tunnel`\): Provides the interface to manage private relays, service endpoints, and relay properties for private connectivity through the Reverse Tunnel gateway.
 
 </td></tr><tr><td>
@@ -477,7 +472,8 @@ Telecommunications Network Inventory
 
 </td><td>
 
-Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
+-   Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
+-   Racks Allocation Workflow \(sn\_genai\_platform 12.1.0\): Enables rack allocation via the Rack placement AI agent in the Telecommunication Network Inventory Workspace and Service Operation Workspace. The agent reserves the racks that meet the capacity requirements, based on the physical and logical constraints specified in the change request.
 
 </td></tr><tr><td>
 
@@ -493,7 +489,7 @@ Zero Copy Connectors
 
 </td><td>
 
-Zero Copy Connectors Primary \(sn\_zcc\_primary\): New plugin that includes primary connectors only.
+ 
 
 </td></tr></tbody>
 </table>## Deprecated plugins in Australia
@@ -693,7 +689,7 @@ Legal Virtual Agent Conversations
 
 </td><td>
 
-[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
+ \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
 
 </td></tr><tr><td>
 
@@ -726,7 +722,7 @@ Predictive intelligence for Legal Service Delivery
 
 </td><td>
 
- \(sn\_lg\_pi\): Planned for deprecation in C release. There is no replacement for this plugin.
+ 
 
 </td></tr><tr><td>
 
@@ -811,7 +807,7 @@ Zero Copy Connectors
 </td><td>
 
 -   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
--   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now contains primary and community connectors. Previously contained all connectors in a single package.
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now available as two separate installation options — Zero Copy Connectors Primary \(sn\_zcc\_primary\) for primary connectors only, or Zero Copy Connectors \(sn\_data\_fabric\_zcc\) for both primary and community connectors.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

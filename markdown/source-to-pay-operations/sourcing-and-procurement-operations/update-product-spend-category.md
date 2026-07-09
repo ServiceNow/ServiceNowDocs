@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Update the product category or spend category in the Now Assist panel

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure sets, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure sets, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Hiding the set grid and field grid indexes
@@ -20,7 +20,7 @@ By default, the index column is displayed in a set grid or a field grid. This in
 
 ## Hide the index by using the layout wizard
 
-Navigate to the layout in question in the CPQ Admin. Then click the gear icon next to the set or field grid. Then select the General Settings expandable section. Set the Show Index toggle to false, save the layout, and deploy. The index will no longer be displayed.
+Navigate to the layout in question in the ServiceNow CPQ Admin. Then click the gear icon next to the set or field grid. Then select the General Settings expandable section. Set the Show Index toggle to false, save the layout, and deploy. The index will no longer be displayed.
 
 **Note:** the Show Index setting is available for field grids as well.
 

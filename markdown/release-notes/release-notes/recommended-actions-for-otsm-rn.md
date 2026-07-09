@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Recommended Actions for Operational Technology Service Management \(OTSM\) release notes
@@ -14,6 +14,12 @@ The ServiceNow® Recommended Actions for Operational Technology Service Manageme
 
 ## Recommended Actions for OTSM highlights for the Australia release
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+Australia Early Availability
+
 -   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
 See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm.md) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ai-enhanced-ra-otsm-landing.md) for more information.
@@ -21,6 +27,11 @@ See [Recommended Actions for Operational Technology Service Management \(OTSM\)]
 **Important:** Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)**
 

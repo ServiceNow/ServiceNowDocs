@@ -18,8 +18,6 @@ View the details of a knowledge block in Agent Workspace.
 
 The knowledge block view page in Agent Workspace provides several details about a displayed block.
 
-\[Omitted image "block-view-page-workspace.png"\] Alt text: Knowledge block view page in Agent Workspace
-
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 
 Details

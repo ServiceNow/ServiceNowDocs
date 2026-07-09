@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [mcm client health, microsoft configuration manager, mcm metrics, mcm versions, configuration manager \(mcm\)]
 breadcrumb: [MCM monitoring overview, Monitor, Digital End-User Experience, IT Service Management]
 ---
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [View normalization suggestions in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [View normalization suggestions in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manually normalize a software discovery model in Software Asset Management classic
@@ -43,5 +43,5 @@ If the information automatically added to the software discovery model is incomp
     Fields are reset to their original values, and any rules associated with the software discovery model are deactivated.
 
 
-**Parent Topic:**[View normalization suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
+**Parent Topic:**[View normalization suggestions in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
 

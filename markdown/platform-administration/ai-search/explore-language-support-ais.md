@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-07-01"
 reading_time_minutes: 8
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ For full details on language support in AI Search search features, see [Internat
 
 ## Search features
 
-The following table displays the set of AI Search search features available for specific ServiceNow AI Platform languages.
+The following table lists the AI Search search features available for specific ServiceNow AI Platform languages.
 
 <table id="table_pbc_qnw_rqb"><thead><tr><th>
 
@@ -111,7 +111,7 @@ All other ServiceNow AI Platform languages activated in your instance
 </td></tr></tbody>
 </table>## Translated content search
 
-By default, AI Search only returns results for records with translated content, such as knowledge articles, that are in the user's ServiceNow AI Platform session language. You can modify this default behavior in several ways:
+By default, AI Search only returns results for records with translated content, such as knowledge articles, that are in the user's ServiceNow AI Platform session language. You can modify this default behavior in the following ways:
 
 -   **[Assign Knowledge article search languages by country](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/assign-kb-srch-langs-country-ais.md)**
 

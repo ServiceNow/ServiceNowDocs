@@ -30,7 +30,7 @@ Manage your instance data by configuring data management policies to archive and
 
 </td></tr><tr><td>
 
-Manage data growth\[Omitted image "bus-database.svg"\] Alt text:Manage the growth of data on your instance.
+[Manage data growth\[Omitted image "bus-database.svg"\] Alt text:Manage the growth of data on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-data-growth.md)
 
 </td><td>
 

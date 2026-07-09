@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Definitions integration
@@ -33,5 +33,5 @@ The following definition states can be synchronized:
 -   **[Sync definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/sync-new-customized-overridden-defs.md)**  
 Enable definition synchronization and push new, customized, or overridden definitions from a development instance to production.
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

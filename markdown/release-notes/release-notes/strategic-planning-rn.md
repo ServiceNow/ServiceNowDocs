@@ -4,8 +4,8 @@ description: The ServiceNow Strategic Planning application helps you accomplish 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 14
+last_updated: "2026-07-07"
+reading_time_minutes: 15
 ---
 
 # Strategic Planning release notes
@@ -34,6 +34,8 @@ See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 -   **[AI-generated insights for portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/view-portfolio-insights.md)**
 
     Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays.View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
+
+    The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
 
     Users with the sn\_align\_core.apw\_admin role assigned can configure severity thresholds and scoring factors for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
@@ -85,6 +87,7 @@ See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 -   **[Portfolio plan goals enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-goals-in-alignment-planner-workspace.md)**
     -   Owners and contributors are notified when they’re mentioned in a goal, target, or when comments are added.
     -   Define targets across multiple organizational levels with the Assigned entity field in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
+    -   Status — **Green**, **Yellow**, **Red**, or **None** — rolls up automatically from target breakdowns to the target for targets set to cumulative distribution, and from targets and subgoals to the goal.
 -   **[Portfolio plan enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-portfolio-plans-in-alignment-planner-workspace.md)**
     -   Visualize planning items in lanes with the new Kanban tab in the Planning page and access the Hierarchy tab directly from the same location. These tabs replace the previous access point in the Prioritization tab, offering a more streamlined way to view and manage planning items.
     -   Save filter views specific to the Kanban tab and the Hierarchy tab without affecting views in the Prioritization tab.
@@ -126,6 +129,18 @@ See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
     Admins can change these settings for either sections using two new system properties: `sn_apw_advanced.show_inactive_items_in_backlog_list` for the Backlog section and `sn_apw_advanced.show_inactive_items_in_iteration` for iteration sections.
 
+-   **[Refresh without losing your place in the EAP Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/eap-hierarchy-tab.md)**
+
+    Selecting Refresh in the Hierarchy tab now reloads your data without collapsing the rows you've already expanded or resetting your scroll position. Rows deleted by someone else are removed silently, and new child items appear under their expanded parent. If the grid displays more than 100 non-root items or 100 stories, you're asked to confirm before all rows are collapsed.
+
+-   **[View or delete a dependency directly from the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/work-item-dependencies-in-eap.md)**
+
+    Select a dependency line on the Planning board to open the dependency record in a side panel, without navigating to the work item's full details page. Review the dependent and prerequisite items, or select **Delete** to remove the dependency directly from the panel.
+
+-   **[Backlog and Hierarchy access for CWM connected teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/integrate-eap-with-collaborative-work-management.md)**
+
+    Teams connected to CWM can now access the Backlog and Hierarchy tabs in EAP. Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams.
+
 -   **[Admin role enhancements in Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/components-installed-with-product-feedback.md)**
 
     The read role sn\_align\_core.pf\_read and write role sn\_align\_core.apw\_admin are added to the following system properties in Feedback and Product idea:
@@ -145,7 +160,7 @@ See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 ## UI changes
 
 -   **[Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-workspace.md)**
-    -   The Demands icon \[Omitted image "demands-icon.png"\] Alt text: has been added to the Strategic Planning L1 menu to open the All Demands home page.
+    -   The Demands icon has been added to the Strategic Planning L1 menu to open the All Demands home page.
     -   The **State** field on the **All Demands** page has been color-coded for each state value.
     -   The **Playbook**, **Details**, and **Docs** tabs have been added to the L2 menu of each demand to clearly and consistently group information.
         -   The **Details** tab has been added to add and manage demand information such as financials and resource assignments.
@@ -181,7 +196,11 @@ See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Changed in this release
 
-[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 -   **[Demand summarization skill enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-summary-demand-classic.md)**
 

@@ -21,8 +21,8 @@ Configure Employee Slate for Moveworks from the Product Configuration console. S
 
 Before you configure Employee Slate for Moveworks, verify the following prerequisites:
 
--   You have the System administrator role.
--   The Employee Slate for Moveworks foundational plugin is installed from the Product Hub page.
+-   You have the administrator role.
+-   The Employee Slate for Moveworks foundational plugin is installed from the **Product Hub** page.
 -   The Employee Slate Advanced plugin is installed if the deployment requires the advanced experience.
 -   The Moveworks AI Assistant instance URL is available.
 
@@ -30,13 +30,13 @@ Role required: Admin
 
 ## About this task
 
-The Product Configuration console organizes the configuration work into modules and displays progress in the configuration summary. You can leave and resume the configuration at any time. For the Moveworks chat bot connection step in detail, see [Configure the Moveworks chat bot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
+The Product Configuration console organizes the configuration work into modules and displays progress in the configuration summary. You can leave and resume the configuration at any time. For the Moveworks chatbot connection step in detail, see [Configure the Moveworks chat bot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
 
 ## Procedure
 
 1.  From the platform administrator home page, select **View product overview** on the Employee Slate for Moveworks card.
 
-    The Product Hub page opens and lists the plugins associated with Employee Slate for Moveworks.
+    The **Product Hub** page opens and lists the plugins associated with Employee Slate for Moveworks.
 
 2.  Upload a prepared update set with the **Upload Batch** option.
 
@@ -54,19 +54,26 @@ The Product Configuration console organizes the configuration work into modules 
 
 5.  In the **Conversational Assistant** module, enter the Moveworks AI Assistant instance URL and save the configuration.
 
-    The page also offers a redirection to the Moveworks setup experience so you can further configure AI Assistant sources and behaviors. For the chat bot procedure, see [Configure the Moveworks chatbot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
+    The page also offers a redirection to the Moveworks setup experience so you can further configure AI Assistant sources and behaviors. For the chatbot procedure, see [Configure the Moveworks chatbot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md).
 
 6.  In the **Canvas** module, configure the default canvas view and the widget library.
 
     Select **Canvas Editor** to configure the default canvas dashboard. Use the widget library to toggle the visibility of widgets that employees can add to their personal canvas. You can also edit or create widgets from the library. For the full procedure, see [Configure the default canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-canvas.md).
 
-7.  In the **Documentation** module, review the links to Employee Slate documentation for home page, Tasks and requests, org chart, notifications, and employee profile.
+7.  In the **Notifications** module, review notifications in the **Needs update** tab and select **Update to Employee Slate** so that those notifications redirect an employee to the Employee Slate experience.
+
+    Following notifications are available in each tab:
+
+    -   Needs update: Notifications in the base system that are not customized
+    -   Updated: Notifications that are updated for Employee Slate experience
+    -   Custom: Notifications that are created or customized by the administrator
+8.  In the **Documentation** module, review the links to Employee Slate documentation for home page, Tasks and requests, org chart, notifications, and employee profile.
 
     Links open the ServiceNow documentation site in a new tab. Use the documentation to complete feature-specific configurations that aren't part of the Product Configuration console.
 
-8.  Select **Package and download** to export the configuration changes as an XML update set.
+9.  Select **Package and download** to export the configuration changes as an XML update set.
 
-    Upload the exported file from the Product Hub page of another environment with the **Upload Batch** option. Use this export to promote configurations from a lower environment to production.
+    Upload the exported file from the **Product Hub** page of another environment with the **Upload Batch** option. Use this export to promote configurations from a lower environment to production.
 
 
 ## Result

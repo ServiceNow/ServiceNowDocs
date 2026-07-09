@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Downgrade a license using the legacy Software Asset Management plugin, License upgrade and downgrade with the legacy Software Asset Management plugin, Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Downgrade a license using the legacy Software Asset Management plugin, License upgrade and downgrade with the legacy Software Asset Management plugin, Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Identify a downgrade child from a software license record using the legacy Software Asset Management plugin

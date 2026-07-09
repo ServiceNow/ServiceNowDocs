@@ -49,7 +49,7 @@ You can publish an asset to the hardware catalog to make it available as a catal
 
 A catalog item is created for your asset.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 

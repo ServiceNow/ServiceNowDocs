@@ -48,5 +48,14 @@ Users with this role can:
 -   View and use templates associated with the category
 -   Create and manage templates within the category, based on additional permissions
 
+## Prerequisite Plugins for Questionnaire Authoring
+
+To use the questionnaire feature released in June as part of the authoring experience, ensure that the following plugins are installed:
+
+-   Retail Playbook for Store Plan
+-   Retail In‑Store Operations
+-   Smart Assessment for Field Service Questionnaire
+-   Smart Assessment for CSM
+
 **Parent Topic:**[Retail questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-create-a-questionnaire-template.md)
 

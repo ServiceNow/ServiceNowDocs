@@ -20,7 +20,7 @@ View the list of all your digital interfaces in the Enterprise Architecture Work
 Add or edit a digital interface for an integration to describe how business applications can interact.
 -   **[Connect a digital interface with the CMDB API in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relate-dig-interface-api.md)**  
 Create a relationship between a digital interface and a CMDB API. The relationship helps you find out which digital integration uses which API, which APIs are built out of the design specs of the digital interface, and what environments are deployed. The relationship helps to group the deployed APIs.
--   **[Manage architectural artifacts of a digital interface in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)**  
+-   **[Manage architectural artifacts of a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)**  
 You can create new, add, or remove the architectural artifacts that are associated with a digital interface.
 -   **[Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)**  
 Associate an SDLC component to a digital interface in the Enterprise Architecture Workspace. The SDLC components represent the artifacts or configurations that are used to implement an Interface.

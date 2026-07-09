@@ -86,7 +86,7 @@ A detailed explanation of the LLM topic's purpose, which differentiates it from 
 
 A weak example would be: `Help users see how many vacation days they have left.` A stronger example would be `This topic is about a holiday calendar for employees in a company. Users can ask for the holiday list or company holiday for a specific year, specific date, inquire about a specific holiday, or ask if they have a day off for a particular holiday. The topic also covers the availability of a holiday calendar and specific holidays like Freedom Day and wellbeing Day.`
 
-For more information, see[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 </td></tr><tr><td>
 

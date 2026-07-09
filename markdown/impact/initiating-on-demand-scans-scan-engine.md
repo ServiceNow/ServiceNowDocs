@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Running on-demand scans, Run your first scan, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run on-demand scans, Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Initiate application scans
@@ -30,5 +30,5 @@ Role required:
 3.  Select **Scan This Application**.
 
 
-**Parent Topic:**[Running on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)
 

@@ -41,15 +41,15 @@ Adding an article to featured content requires associating an article to specifi
 
 5.  On the Knowledge keyword form, in the Knowledge field, search for and select the article.
 
-6.  In the Keywords field, click the unlock keywords icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon.\).
+6.  In the Keywords field, click the unlock keywords icon .
 
-7.  Select the lookup icon \(\[Omitted image "search-icon.png"\] Alt text: look-up icon\) to open the **Knowledge keywords** list.
+7.  Select the lookup iconto open the **Knowledge keywords** list.
 
 8.  Select the keyword to add for this article.
 
     **Note:** If you're creating a new keyword, it must be a single word and cannot contain spaces.
 
-9.  Select the unlock keywords icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon.\) to add the keywords to the article.
+9.  Select the unlock keywords icon \( to add the keywords to the article.
 
 10. Select **Submit**.
 

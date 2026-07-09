@@ -20,7 +20,7 @@ ServiceNow® Now Assist for Code is a generative AI-powered tool that assists yo
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
-**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 

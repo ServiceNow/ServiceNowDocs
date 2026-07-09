@@ -9,7 +9,7 @@ classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Bundled models, Models, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Bundled models, Models, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Publish bundled models to product catalog

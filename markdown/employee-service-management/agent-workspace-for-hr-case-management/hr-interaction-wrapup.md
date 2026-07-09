@@ -20,7 +20,7 @@ Interaction wrap up feature is available for interaction type: **Phone**. When e
 
 **Note:** You can view the wrap up record within the Wrap up sub-list inside the Interaction list.
 
-\[Omitted image "nav-ws.png"\] Alt text: Interaction wrap up
+\[Omitted image "nav-ws.png"\] Alt text: Interaction list showing Wrap up sub-list with interaction records in Wrap Up state
 
 ## Configuring interaction wrap up
 

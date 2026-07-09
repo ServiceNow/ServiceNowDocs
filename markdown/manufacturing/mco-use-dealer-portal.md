@@ -1,5 +1,5 @@
 ---
-title: Dealer management
+title: Using dealer portal
 description: The dealer portal enables you to manage the repair, recall, and sales promotion claims.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-dealer-portal.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Manufacturing Commercial Operations]
 ---
 
-# Dealer management
+# Using dealer portal
 
 The dealer portal enables you to manage the repair, recall, and sales promotion claims.
 

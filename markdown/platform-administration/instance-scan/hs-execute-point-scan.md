@@ -60,7 +60,7 @@ For example, if you execute a point scan against a business rule, only the check
 A scan of all applicable checks against only a single record is executed.
 
 -   **[Execute an update set scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-update-set-scan.md)**  
-Use update set scan to execute applicable checks against records that are affected by the update set.
+Use an update set scan to run applicable checks against the current versions of records that have updates in the update set. If a record has been modified since it was added to the update set, the scan reflects those later changes. Issues that exist only in the update set version of a record aren't detected.
 -   **[Execute an app scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-app-scan.md)**  
 Scan the installed files of an application as well as the application record itself with applicable checks by executing an application scan.
 

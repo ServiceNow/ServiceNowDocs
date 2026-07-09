@@ -41,6 +41,8 @@ The Expiring Contracts Condition form is used to create a rule or update an exis
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()

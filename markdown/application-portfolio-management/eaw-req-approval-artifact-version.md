@@ -1,5 +1,5 @@
 ---
-title: Request approval for an architectural artifact of type URL or Attachment
+title: Request approval for an architectural artifact
 description: You can request approval for architectural artifacts of the type URL or Attachment from users who are part of the Enterprise Architect user group. The user reviews and approves the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-req-approval-artifact-version.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage architectural artifacts, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Request approval for an architectural artifact of type URL or Attachment
+# Request approval for an architectural artifact
 
 You can request approval for architectural artifacts of the type **URL** or **Attachment** from users who are part of the Enterprise Architect user group. The user reviews and approves the request.
 
@@ -66,5 +66,5 @@ The record version is submitted for the approval to an Enterprise Architect. An 
 
 [View all architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-architectural-artifacts.md)
 
-[Request approval for an architectural artifact version of type Architectural Decision Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
 

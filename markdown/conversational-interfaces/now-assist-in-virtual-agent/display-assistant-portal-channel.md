@@ -1,5 +1,5 @@
 ---
-title: Display your chat assistant on a portal, channel, or mobile app
+title: Display your assistant on a portal, channel, or mobile app
 description: Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile app. To activate an assistant, at least one display experience must be configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.html
@@ -12,7 +12,7 @@ reading_time_minutes: 11
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
-# Display your chat assistant on a portal, channel, or mobile app
+# Display your assistant on a portal, channel, or mobile app
 
 Select a display experience for your chat assistant. Display experiences are the different places where a user can find and interact with an assistant. Select from a list of portals, messaging channels, and mobile app. To activate an assistant, at least one display experience must be configured.
 
@@ -45,7 +45,7 @@ If your instance doesn’t meet the requirements for premium chat, you can conti
 
 Premium chat is not available for instances in regulated markets \(Government Cloud Community\), instances that use domain separation, or regional data routing.
 
-In premium chat, catalog items have improved fluidity, but some will no longer be conversational. They’ll open in a catalog form instead. For more information, see .
+In premium chat, catalog items have improved fluidity, but some will no longer be conversational. They’ll open in a catalog form instead. For more information, see Request for catalog items: conversation or form.
 
 ## Procedure
 
@@ -63,7 +63,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
     1.  Choose between the standard/enhanced or premium chat experience, and then select **Add**. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
-        \[Omitted image "NAinVA-display-premium-062026.png"\] Alt text: Opt into premium chat for your portal.
+        \[Omitted image "NAinVA-add-chat-exp-072026.png"\] Alt text: Opt into premium chat for your portal.
 
         When adding a new assistant into a portal, the chat experience options are:
 
@@ -204,8 +204,9 @@ Currently on standard chat, your options are enhanced chat full-page experience 
 
 </td><td>
 
--   Enhanced chat with full-page experience.
--   Premium chat option is not available.
+For new custom app widgets, -   Enhanced chat with full-page experience.
+-   Premium chat with full-page experience.
+-   Standard chat is not available.
 
 
 </td><td>
@@ -220,9 +221,9 @@ Not applicable
 
         The **Add chat experience** pop-up window appears.
 
-        \[Omitted image "NAinVA-display-mobile-premium-062026.png"\] Alt text: Choose a chat experience. \[Omitted image ""\] Alt text: Select a chat experience and mobile search configuration.
+        \[Omitted image "NAinVA-edit-chat-mobile-072026.png"\] Alt text: Select a chat experience and mobile search configuration.
 
-        Select a chat experience and a mobile search configuration. Select**Add**.
+        Select a chat experience and a mobile search configuration. Select **Add**.
 
         The search widget configuration is added to the search widget name list.
 
@@ -244,7 +245,7 @@ Not applicable
 
     5.  The **Custom apps section** is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 
-        The **Add custom app** pop-up window appears. Select standard chat or enhanced chat.
+        The **Add custom app** pop-up window appears. Select enhanced chat or premium chat.
 
 4.  Select the ellipsis to remove a mobile app or edit settings to toggle between the enhanced chat and standard chat experience, if standard chat is available to you.
 

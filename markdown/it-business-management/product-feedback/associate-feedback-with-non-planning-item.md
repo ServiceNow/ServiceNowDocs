@@ -1,5 +1,5 @@
 ---
-title: Associate a feedback or a product idea record with a non-planning item
+title: Associate feedback or product ideas with non-planning items
 description: Link a feedback record or product idea record with a non-planning item. By doing this association, you can address customer concerns promptly in a central location and ensure that every input is considered when making decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/associate-feedback-with-non-planning-item.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Managing Feedback application in Strategic Planning, Feedback application in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Associate a feedback or a product idea record with a non-planning item
+# Associate feedback or product ideas with non-planning items
 
 Link a feedback record or product idea record with a non-planning item. By doing this association, you can address customer concerns promptly in a central location and ensure that every input is considered when making decisions.
 
 ## Before you begin
 
-Ensure to [Configure non-planning items for feedback or product ideas records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/config-items-sp.md).
+Ensure to [Configure non-planning items for feedback or product ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/config-items-sp.md).
 
 Role required: pf\_user
 

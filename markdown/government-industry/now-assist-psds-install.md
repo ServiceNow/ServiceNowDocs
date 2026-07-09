@@ -30,7 +30,7 @@ The following plug-ins and store apps are required for use of Now Assist for Pub
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md), as well as the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 

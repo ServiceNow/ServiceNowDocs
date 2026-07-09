@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
 keywords: [Virtual Agent, designer, design, topic, control, node, Now Assist, NLU, LLM, conversation]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Designing a Virtual Agent topic
@@ -58,13 +58,13 @@ Use Virtual Agent Designer controls and reusable conversational elements to crea
 
     You can also review the pre-built setup topics, conversation topics, and topic blocks \(reusable subflows that perform certain design steps and logic\). Determine whether you can use these pre-built items and consider customizing them as needed.
 
--   **Understand the design process in Virtual Agent Designer**
+-   **Understand the design process in Assistant Designer**
 
-    When you create a topic in Virtual Agent Designer, the design process involves these basic steps:
+    When you create a topic in Assistant Designer Asset library, the design process involves these basic steps:
 
     1.  Decide what use case the topic will address.
     2.  Create the topic and set properties that define the scope, what portal it will be published in \(what assistant will be used\), and a thorough topic description that will be used for discovery.
-    3.  Build the conversation flow in Virtual Agent Designer.
+    3.  Build the conversation flow in Assistant Designer's Asset library topic flow tab.
     4.  Test and fine-tune the conversation flow.
     5.  Publish your topic.
     The topic properties determine the different ways in which a topic is designed and used. For example, you can control who uses the topic and any conditions that affect how or when the topic is used. You can associate your topic with an LLM assistant to make the topic available to that assistant. You can also improve topic discovery for your LLM topic by using as much relevant detail as possible in the topic's description.
@@ -92,7 +92,7 @@ With this goal in mind, the topic needs the following elements:
 -   A prompt for the user to enter a comment
 -   A utility control to add the user input as a comment in the incident
 
-There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
+There are extra considerations when creating topics for LLM conversations. For more information, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md) and [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
 
 ## Build the conversation flow with Virtual Agent controls
 
@@ -104,9 +104,9 @@ The conversation will look similar to the following dialogue flow.
 
 ## Configure controls within the conversation
 
-This example begins with defining the conversation flow in Virtual Agent Designer, after the topic properties have been set. The conversation begins with a Start node and finishes with an End node.
+This example begins with defining the conversation flow in Assistant Designer Asset library, after the topic properties have been set. The conversation begins with a Start node and finishes with an End node.
 
-1.  In your Virtual Agent Designer topic, add a **Dynamic Choice** control node to the conversation flow. This control is used to select the incident.
+1.  In your Virtual Agent topic, add a **Dynamic Choice** control node to the conversation flow. This control is used to select the incident.
     1.  Enter `Choose an incident` for the **Node name** property. The variable name `choose_an_incident` is automatically generated for the control.
     2.  In the **Prompt** property, enter the text the user sees before selecting an incident. For example, `Please choose an incident record`.
     3.  In the **Populate choices by** property, select Record.
@@ -166,5 +166,5 @@ This example begins with defining the conversation flow in Virtual Agent Designe
 
 Use the **Test** button to test the flow of the conversation. Preview topics often throughout the design process to find errors or unexpected behavior quickly. For further information on identifying and resolving issues with topics, see [Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md).
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Explore, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Explore, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Automatically assign categories during SR and PR creation
@@ -21,6 +21,8 @@ AI-driven category prediction automatically assigns product and spend categories
 When working with sourcing requests \(SRs\), purchase requisitions \(PRs\), purchase orders \(POs\), or invoices, you must classify line-level items into product and spend categories. The Spend categorization agent enables this process by generating and validating AI-driven predictions for line-level items. The **Product category** and **Spend category** fields are updated only when they are empty. This process ensures accurate reporting, consistent procurement processes, and efficient downstream automation while reducing manual effort.
 
 View the Spend categorization agent by navigating to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **Spend categorization agent**.
+
+For more information about enabling and configuring this agent, see [Activate the Spend categorization agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-spend-categorization-agent.md).
 
 ## Classification solutions used for predictions
 
@@ -115,7 +117,7 @@ Any user-selected overrides are captured and used to improve future model accura
 The prediction model also analyzes information in documents attached to the SR or PR, such as the product name and product description, to predict the product and spend categories.
 
 -   **[Audit purchase lines automatically when predictive fields change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/audit-prls-predictive-fields.md)**  
-Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a service request or purchase requisition, flagging inconsistencies without automatically updating category fields.
+Automated audit compares existing categories with the latest AI prediction when key predictive fields are updated in a sourcing request or purchase requisition, flagging inconsistencies without automatically updating category fields.
 -   **[Predict categories for PRLs and POLs imported through integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/predict-categories-integrations.md)**  
 Automatically predict and assign product and spend categories for imported purchase requisition lines and purchase order lines using scheduled on-demand scripts.
 -   **[Ensure consistent invoice spend categories during PO matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/invoice-po-spend-categories.md)**  

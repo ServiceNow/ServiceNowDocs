@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/architec
 release: australia
 topic_type: concept
 last_updated: "2026-05-08"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -20,7 +20,7 @@ Today's industrial environments are made up of hundreds — sometimes thousands 
 
 The following describes the software architecture underlying the ServiceNow Operational Technology Discovery platform.
 
-## How discovery works
+## How Discovery works
 
 At its core, Operational Technology Discovery actively reaches out to devices on your network using the same protocol language those devices already speak. Each device receives a query in its native protocol and responds with identifying information. A Modbus device gets a Modbus query. An EtherNet/IP device gets an EtherNet/IP query. This approach avoids aggressive network scanning that can disrupt sensitive industrial equipment.
 
@@ -28,7 +28,17 @@ The result is an updated inventory of your OT environment, visible through a sin
 
 **Note:** The user sets the protocol parameters for the query from the Discovery Console for OT.
 
-## The discovery components
+## Active Discovery approach
+
+Before exploring how the discovery components work in detail, it helps to understand the Operational Technology Discovery uses an active discovery approach.
+
+The **Active** discovery initiates communication directly with devices using their native industrial protocol language — sending the same kinds of queries an engineering workstation or HMI would send to a PLC. These queries are indistinguishable from normal operations. Devices can't distinguish these queries from regular engineering traffic, making properly implemented active discovery safe for operational networks.
+
+Active discovery is easier to setup and start because it can require a Console and a single Sensor or Collector rather than a distributed set of SPAN ports and collection devices.
+
+The key advantage of active discovery is coverage. Because it reaches out to devices rather than waiting for them to communicate, it can detect silent and dormant assets that passive monitoring would never see. It also retrieves granular details — firmware versions, serial numbers, configurations — that may never appear in normal network traffic.
+
+## The Discovery components
 
 The architecture is built around three components that work together. It is important to understand each component's distinct role and responsibilities.
 
@@ -47,7 +57,7 @@ The OT Discovery Collector extends the Sensor's reach into parts of your network
 -   The Collector is a \(small\) application that can be installed on exiting systems \(for example, HMIs\) to extend discovery.
 -   Combined with the Sensor, it offers flexible deployment options to assist with maximum coverage of the OT network.
 
-## The discovery workflow
+## The Discovery workflow
 
 It is easier to understand how the three components work together when you follow a discovery job from start to finish. The following covers that process — from building a query in the Console through to a fully populated device inventory in the ServiceNow instance.
 
@@ -74,42 +84,17 @@ You can also select specific Sensors and Collectors the query should use. Becaus
 
 Once configured and launched, the query drives everything. Each Sensor and Collector executes the query within its part of the network, reaching out to devices using the protocols and parameters the user defined. A Sensor handles discovery in the zones it can directly access. A Collector does the same in the deeper or more restricted zones where it has been positioned.
 
-Because both Sensors and Collectors are independently deployed and selectable, a single query can span multiple zones simultaneously. A Sensor handles one part of the network and a Collector handles another, all driven by the same query configuration.
+Because both Sensors and Collectors are independently deployed and selectable, a single query can span multiple zones simultaneously. The Sensor handles one part of the network and the Collector handles another, all driven by the same query configuration.
 
 **Step 4: Results upload to ServiceNow**.
 
 As devices respond, their details are collected and returned to the Console. These include device type, vendor, model, firmware version, network address, zone, Purdue level, and where applicable, photographic data. From the Console, the data is uploaded to the ServiceNow instance.
 
-**Note:** It should be noted that depending your network structure, there are additional OT components used to reach the ServiceNow instance, if needed. For further information on OT Discovery connections, see the [Operational Technology Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) or the [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md).
+**Note:** It should be noted that depending on your network structure, there are additional OT components used to reach the ServiceNow instance, if needed. For further information on OT Discovery connections, see the [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) or the [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md).
 
 Within the ServiceNow instance, discovered devices are mapped to configuration items predefined in the CMDB. These configuration items are based on industry and operational device types, reflecting the OT world your team works in every day. They can be edited and adjusted to fit the data retrieved, giving your team flexibility to tailor the inventory to your environment.
 
 The result is an accurate, up-to-date inventory of your OT environment — built through the discovery components your company has positioned in the network. It is visible through a single interface and integrated directly to ServiceNow without manual surveys or spreadsheets.
-
-## Active and passive discovery approaches
-
-Before exploring how the discovery components work in detail, it helps to understand the two broad approaches to OT discovery and where each one fits. Both are used across the industry, and many operational environments already have some form of network monitoring in place. The difference between them also explains some of the design decisions behind the system described in this topic.
-
-**Passive** discovery works by listening to network traffic rather than initiating communication with devices. Traffic is captured through one of two methods: SPAN ports or network TAPs. SPAN ports are software-based configurations on a network switch that mirror traffic to a monitoring point. Network TAPs are dedicated hardware devices that create exact copies of network traffic at wire speed.
-
-After traffic is captured, Deep Packet Inspection \(DPI\) examines industrial protocol content. It identifies device vendors, models, firmware versions, and communication patterns without sending a query to a device. This makes passive discovery completely non-intrusive — devices are unaware they are being observed.
-
-However, passive discovery has a fundamental limitation: it can only detect devices that are actively communicating during the observation window. Silent devices, dormant assets, or systems that communicate only within local sub-nets that don't cross a monitoring point remain entirely invisible. SPAN ports introduce an additional concern — because SPAN traffic receives the lowest priority on a switch, packets can be dropped even at low network utilization levels. Network TAPs avoid this by capturing 100% of traffic at wire speed but require physical hardware installation.
-
-**Active** discovery initiates communication directly with devices using their native industrial protocol language — sending the same kinds of queries an engineering workstation or HMI would send to a PLC. These queries are indistinguishable from normal operations. Devices cannot distinguish these queries from regular engineering traffic, making properly implemented active discovery safe for operational networks.
-
-Active discovery is easier to setup and start because it can require a Console and a single Sensor or Collector rather than a distributed set of SPAN ports and collection devices.
-
-The key advantage of active discovery is coverage. Because it reaches out to devices rather than waiting for them to communicate, it can detect silent and dormant assets that passive monitoring would never see. It also retrieves granular details — firmware versions, serial numbers, configurations — that may never appear in normal network traffic.
-
-|Interactions|Passive \(SPAN/TAP\)|Active \(Native Protocol\)|
-|------------|--------------------|--------------------------|
-|Device interaction|None — listens only|Direct query using native protocol|
-|Silent device detection|No|Yes|
-|Network impact|None|Minimal — read-only, rate-limited|
-|Hardware required|TAP requires hardware; SPAN does not|No additional hardware|
-|Data captured|Traffic observed during window only|On demand, scheduled, or continuous|
-|Packet loss risk|Yes \(SPAN ports\)|Not applicable|
 
 ## Wrapping up
 

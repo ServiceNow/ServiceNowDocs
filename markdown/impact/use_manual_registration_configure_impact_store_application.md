@@ -16,7 +16,7 @@ Manual registration is generally used by advanced users or to obtain configurati
 
 ## Before you begin
 
-Refer to [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for prerequisite configuration steps.
+Refer to [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for prerequisite configuration steps.
 
 **Important:**
 

@@ -1,25 +1,25 @@
 ---
-title: CPQ integration with Salesforce B2B Commerce
-description: Learn how to configure CPQ to work with Salesforce B2B Commerce.
+title: ServiceNow CPQ integration with Salesforce B2B Commerce
+description: Learn how to configure ServiceNow CPQ to work with Salesforce B2B Commerce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_integration\_with\_salesforce\_b2b\_commerce.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# CPQ integration with Salesforce B2B Commerce
+# ServiceNow CPQ integration with Salesforce B2B Commerce
 
-Learn how to configure CPQ to work with Salesforce B2B Commerce.
+Learn how to configure ServiceNow CPQ to work with Salesforce B2B Commerce.
 
 ## Prerequisites
 
 This guide assumes the following:
 
 -   Commerce is enabled in Salesforce
--   The CPQ Base Managed Package is installed
+-   The ServiceNow CPQ Base Managed Package is installed
 -   System Administrator or similar access is available in order to perform the steps listed
 
 ## Install files to Salesforce
@@ -28,14 +28,14 @@ This guide assumes the following:
 
     [Install Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
 
-2.  Download and extract the logik-b2b.zip file, which contains the components used for the B2B integration, from [github.com](https://github.com/logikioopensource/b2b-accelerator/tree/main).
+2.  Download and extract the cpq-b2b.zip file, which contains the components used for the B2B integration, from [github.com](https://github.com/logikioopensource/b2b-accelerator/tree/main).
 
     -   On Mac, double-click the file. Its contents will be extracted automatically in the same location.
     -   On Windows, right-click and select Extract All". Follow the prompts that appear on screen.
     a. refer the following:
 
 3.  Start Terminal \(Mac or Linux\) or Powershell \(Windows\).
-4.  Navigate to the directory containing the extracted files. For example, if the files were extracted in the Downloads folder, type and enter the command `cd Downloads/logik-b2b`.
+4.  Navigate to the directory containing the extracted files. For example, if the files were extracted in the Downloads folder, type and enter the command `cd Downloads/cpq-b2b`.
 5.  Run the `ls` command to see a list of files and folders in that directory.
 
     You should see `src` and `sfdx-project.json`, as well as a plain text copy of this guide.
@@ -48,7 +48,7 @@ This guide assumes the following:
     sfdx auth:web:login --setalias myOrg -r https://example-dev-ed.my .salesforce.com
     ```
 
-    -   Replace the URL following `-r` with the one that the Logik-B2B integration will be set up on.
+    -   Replace the URL following `-r` with the one that the CPQ-B2B integration will be set up on.
     -   The text following `--setalias` is a nickname that is used to identify and reference the correct Salesforce org. The example `myOrg` will be used for the purposes of this guide. Be sure to use your own alias in the following steps.
     The URL specified in the previous login command will be opened in the default browser.
 
@@ -86,7 +86,7 @@ Setting Field Level Security:
 A similar set of steps need to be followed for a Product2 field.
 
 1.  From Object Manager, search for and open Product \(Product2\).
-2.  Go to Fields &amp; Relationships. Open the field CPQ Enabled \(LGK\_\_IsConfigurable\_\_c\).
+2.  Go to Fields &amp; Relationships. Open the field ServiceNow CPQ Enabled \(LGK\_\_IsConfigurable\_\_c\).
 3.  Click “Set Field-Level Security”. Make sure the Visible option is selected for any shopper profiles. Read-Only can either be enabled or disabled.
 4.  Save.
 
@@ -108,12 +108,12 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 
 ## Obtaining and applying the runtime token
 
-1.  In Logik, create a Runtime Client, with an Origin matching the Logik base URL. Click **Copy** to get the client token.
+1.  In ServiceNow CPQ, create a Runtime Client, with an Origin matching the ServiceNow CPQ base URL. Click **Copy** to get the client token.
 
     \[Omitted image "cpq-integration-SFB2B-runtime-client-origin.png"\] Alt text: Edit runtime client
 
 2.  In Salesforce, from Setup home, go to Custom Code &gt; Custom Settings.
-3.  For Logik Tenant, click `Manage`.
+3.  For ServiceNow CPQ Tenant, click `Manage`.
 
     \[Omitted image "cpq-integration-SFB2B-SF-options-manage.png"\] Alt text: Custom settings screen
 
@@ -121,7 +121,7 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 
     \[Omitted image "cpq-integration-SFB2B-SF-custom-setting-edit.png"\] Alt text: Tenant details
 
-5.  For the Runtime Client Token field, paste the copied token for the runtime client. Make sure the URL field\(s\) are set to the same URL as one of the runtime clientʼs Origins in CPQ Admin.
+5.  For the Runtime Client Token field, paste the copied token for the runtime client. Make sure the URL field\(s\) are set to the same URL as one of the runtime clientʼs Origins in ServiceNow CPQ Admin.
 
     \[Omitted image "cpq-integration-SFB2B-SF-custom-settings-2.png"\] Alt text: Edit tenant screen
 
@@ -147,7 +147,7 @@ In addition, the following CartItem fields will need to be set to Visible \(Read
 ## Configuring the Experience Builder
 
 1.  From the Commerce home page, open Experience Builder.
-2.  Click **Home** on the top left to open the list of pages. Search or navigate to Product and click **Product Detail**. Either add the custom Logik button to the existing Product Detail page, or use the packaged page as a variation.
+2.  Click **Home** on the top left to open the list of pages. Search or navigate to Product and click **Product Detail**. Either add the custom ServiceNow CPQ button to the existing Product Detail page, or use the packaged page as a variation.
 
     \[Omitted image "cpq-integration-SFB2B-experience-builder-1.png"\] Alt text: Product details
 
@@ -349,9 +349,9 @@ Example response:
 **Related topics**  
 
 
-[CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_base_package_overview.md)
+[ServiceNow CPQ and Salesforce base package overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_base_package_overview.md)
 
-[Salesforce amendments and CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/salesforce_amendments_and_logik_io.md)
+[Salesforce amendments and ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/salesforce_amendments_and_logik_io.md)
 
-[CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_managed_packages.md)
+[ServiceNow CPQ and Salesforce managed packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io-salesforce_managed_packages.md)
 

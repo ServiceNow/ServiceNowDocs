@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Flightpath
@@ -31,22 +31,22 @@ The following video demonstrates the Flightpath feature tracking rules engine re
 
 -   Salesforce-integrated use cases:
 
-    CPQ environment Explorer 07.22 or later.
+    ServiceNow CPQ environment Explorer 07.22 or later.
 
-    Salesforce Logik.io Managed Package version 1.2 or greater. Navigation in Salesforce: Admin Setup &gt; Apps &gt; Packaging &gt; Installed Packages &gt; CPQ Managed Package
+    Salesforce ServiceNow CPQ.io Managed Package version 1.2 or greater. Navigation in Salesforce: Admin Setup &gt; Apps &gt; Packaging &gt; Installed Packages &gt; ServiceNow CPQ Managed Package
 
     The Salesforce administrator must add the `LGK FlightPath_c` field to the Quote Line Editor field set \(Salesforce: Admin Setup &gt; Object Manager &gt; Quote &gt; Field Sets &gt; Line Editor\). Place the Flightpath field in the field set. Limit its visibility to the appropriate administrator roles.
 
 -   Headless/eCommerce use cases:
 
-    Your CPQ environment must be Explorer 07.22 or later.
+    Your ServiceNow CPQ environment must be Explorer 07.22 or later.
 
-    Append the following text to your configure API call to CPQ: `?logExecution= <value>`. Example: `https://<siteURL>.<sector>.logik.io/c?logExecution=<value>`
+    Append the following text to your configure API call to ServiceNow CPQ: `?logExecution= <value>`. Example: `https://<siteURL>.<sector>.ServiceNow CPQ.io/c?logExecution=<value>`
 
     Valid values for &lt;value&gt; are:
 
-    -   true: CPQ configuration returns Flightpath controls. Should be shown only to administrative users.
-    -   false: CPQ returns no Flightpath controls. Suitable for non-administrative users such as partners, customers, and direct sales.
+    -   true: ServiceNow CPQ configuration returns Flightpath controls. Should be shown only to administrative users.
+    -   false: ServiceNow CPQ returns no Flightpath controls. Suitable for non-administrative users such as partners, customers, and direct sales.
 -   End-user UI:
 
     Append the following to your configure URL: `&log=<value>`
@@ -56,13 +56,13 @@ The following video demonstrates the Flightpath feature tracking rules engine re
     -   Configurator:
 
         ```
-        https://<siteURL>.<sector>.logik/ui/configure/<product id>?v=1&<other parameters>&log=<value>
+        https://<siteURL>.<sector>.ServiceNow CPQ/ui/configure/<product id>?v=1&<other parameters>&log=<value>
         ```
 
     -   Transaction management:
 
         ```
-        https://<siteURL>.<sector>.logik.io/ui/transact/<transaction id>?v=1&log=active
+        https://<siteURL>.<sector>.ServiceNow CPQ.io/ui/transact/<transaction id>?v=1&log=active
         ```
 
         For transaction management, valid values include:

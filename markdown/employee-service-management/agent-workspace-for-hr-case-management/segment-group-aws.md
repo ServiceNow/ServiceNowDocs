@@ -1,5 +1,5 @@
 ---
-title: Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management
+title: Specify user segment groups for bulk case requests
 description: Create a user segment group to specify in a bulk case request the users for whom a case will be created. You can specify values for a group of users or specify multiple segments with different values for different groups of users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
-# Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management
+# Specify user segment groups for bulk case requests
 
 Create a user segment group to specify in a bulk case request the users for whom a case will be created. You can specify values for a group of users or specify multiple segments with different values for different groups of users.
 
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core\_admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **Bulk case requests**.
 
@@ -71,15 +71,15 @@ Further details about the user segment.
 
 8.  Indicate how you will indicate which users the bulk case request will create cases for in the **Filter by** field.
 
-<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d439875e192">
+<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d441463e185">
 
 Data source
 
-</th><th align="left" id="d439875e195">
+</th><th align="left" id="d441463e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d439875e201">
+</th></tr></thead><tbody><tr><td id="d441463e194">
 
 **File**
 
@@ -93,7 +93,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 4.  Select **Process file**.
 
 
-</td></tr><tr><td id="d439875e252">
+</td></tr><tr><td id="d441463e245">
 
 **HR criteria**
 
@@ -101,7 +101,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 
 Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables.
 
-</td></tr><tr><td id="d439875e261">
+</td></tr><tr><td id="d441463e254">
 
 **User criteria**
 
@@ -109,7 +109,7 @@ Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\]
 
 Criteria based on role, department, group, location, or company.
 
-</td></tr><tr><td id="d439875e270">
+</td></tr><tr><td id="d441463e263">
 
 **HR profile**
 
@@ -117,7 +117,7 @@ Criteria based on role, department, group, location, or company.
 
 Condition based on the HR profile \[sn\_hr\_core\_profile\] table.
 
-</td></tr><tr><td id="d439875e280">
+</td></tr><tr><td id="d441463e273">
 
 **Users**
 

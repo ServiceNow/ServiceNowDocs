@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Now Assist for SPO skills, Customize a Now Assist for Sourcing and Procurement Operations skill]
-breadcrumb: [Configure, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
@@ -201,4 +201,6 @@ Requester SR closed
 
 
 [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)]()
+
+[Activate the Spend categorization agent]()
 

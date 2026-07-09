@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [blueprint, product model, configuration, template]
-breadcrumb: [Set up blueprints, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a blueprint
@@ -25,7 +25,7 @@ Blueprints serve as reusable templates that streamline product creation and ensu
 
 ## Procedure
 
-1.  In the CPQ Admin navigation pane, select **Blueprints**.
+1.  In the ServiceNow CPQ Admin navigation pane, select **Blueprints**.
 
     \[Omitted image "cpq-blueprints.png"\] Alt text: Blueprints option in the Admin navigation pane
 

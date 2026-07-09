@@ -168,5 +168,5 @@ Option to enable the floor for the Default Indoor Mapping feature. You must fill
 
 **Previous topic:**[Enhanced Sync Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/enhanced-sync-properties.md)
 
-**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
+**Next topic:**[Resolving cloning issues in Indoor Mapping instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/troubleshooting-clone-issues.md)
 

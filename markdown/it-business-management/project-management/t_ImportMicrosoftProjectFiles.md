@@ -25,7 +25,7 @@ Role required: it\_project\_manager
 Before importing a Microsoft Project file into the ServiceNow instance, consider the following information.
 
 -   Microsoft Project project imported into a teamspace is only available to users who can access the teamspace.
--   To import custom fields in your Microsoft project, create those custom fields in your ServiceNow instance first, and then create mapping between these fields before importing the project. For more information, see [Create custom field mapping for Microsoft Project file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/map-custom-fields-msp-project.md).
+-   To import custom fields in your Microsoft project, create those custom fields in your ServiceNow instance first, and then create mapping between these fields before importing the project. For more information, see [Create custom field mapping for Microsoft Project import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/map-custom-fields-msp-project.md).
 
     **Note:** You can also use the Scripted Extension Points for importing custom fields without creating and mapping the custom fields manually. Use the MSProjectImportTaskFormatter Extension Point to create a script include and map custom fields in Microsoft Project and ServiceNow. You can also use this Extension Point to modify the data while importing a project.
 

@@ -21,7 +21,7 @@ Role required: sn\_cbs.admin
 
 ## About this task
 
-Assignment rules are available by default for all business units. The default setting is inactive. Mark the default configuration as **Active** for the business units you require.
+Assignment rules are available by default for all business units. The default setting is inactive. Set the default configuration as **Active** for the business units you require.
 
 ## Procedure
 
@@ -29,11 +29,11 @@ Assignment rules are available by default for all business units. The default se
 
 2.  In the **Configuration Summary** section, go to the **Assignment Rules** section of the business unit you want to configure, such as Human Resources.
 
-3.  In the **Active** list, set the default assignment rules you plan to use for that business unit to **true**.
+3.  In the **Active** list, select **true** for the default assignment rules you plan to use for that business unit.
 
 4.  Select a default assignment rule to open and edit it.
 
-5.  On the Edit assignment rule form, fill in the fields and select **Save**.
+5.  On the Edit assignment rule form, complete the fields and select **Save**.
 
     For a description of the field values, see [Assignment rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/assignment-rules-cbs.md).
 

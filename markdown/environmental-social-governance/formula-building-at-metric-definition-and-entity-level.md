@@ -45,6 +45,8 @@ Specify the formula context, the tables, and the identifiers before you can buil
 Directly import any formula that is stored in Microsoft Excel spreadsheets into a calculated metric definition. This import helps in quickly building your formula for performing calculations.
 -   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-formula.md)**  
 Build your own formula using either entities or metric definitions.
+-   **[Activate default values for CMD calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-default-values-for-cmd-calculations.md)**  
+Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
 -   **[Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-a-calculated-metric-definition-formula.md)**  
 Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 

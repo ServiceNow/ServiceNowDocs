@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 16
-breadcrumb: [Agent Client Collector Monitoring default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Windows default checks and policies
@@ -405,7 +405,7 @@ User Name and Status
 
 </td></tr><tr><td>
 
-os.windows.check-windows-service
+util.windows.check-windows-service
 
 </td><td>
 

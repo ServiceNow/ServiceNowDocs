@@ -142,7 +142,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 </td></tr></tbody>
 </table>## Printing flows
 
-Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see Browser support.
+Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
 
 ## Roles
 

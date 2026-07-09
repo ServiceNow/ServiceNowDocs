@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Now Assist for Creator
@@ -18,7 +18,7 @@ The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration o
 
 ## Accelerator overview
 
-Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
+Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This Accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
 
 ## Package Availability
 

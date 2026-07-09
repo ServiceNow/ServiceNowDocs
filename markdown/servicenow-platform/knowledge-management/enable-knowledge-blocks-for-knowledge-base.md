@@ -32,8 +32,6 @@ Role required: knowledge\_admin or knowledge\_manager
 
     **Note:** If the **Enable blocks** check box is not visible, you can add the field to the form by right-clicking the form header and navigating to **Configure** &gt; **Form Layout**.
 
-    \[Omitted image "knowledge-blocks-enable-blocks-for-kb.png"\] Alt text: Enable knowledge blocks feature for knowledge base.
-
 4.  Click **Update**.
 
     **Note:** If you decide to later disable the knowledge blocks feature, all knowledge blocks within the knowledge base must be deleted before you can clear the box.

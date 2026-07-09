@@ -154,6 +154,8 @@ Demo data is provided with this plugin.
 
 Matching skills of contractorsDistance between task and contractors
 
+Matching mandatory skills of contractors
+
 </td><td>
 
 Eligible for marketplace assignment.

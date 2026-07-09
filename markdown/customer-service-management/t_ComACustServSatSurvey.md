@@ -29,3 +29,8 @@ To complete the survey:
 2.  Click **Submit**.
 
 
+**Related topics**  
+
+
+[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-close-case-from-portal.md)
+

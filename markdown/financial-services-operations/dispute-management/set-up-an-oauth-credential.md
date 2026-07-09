@@ -1,6 +1,6 @@
 ---
-title: Set up an OAuth Credential
-description: Create an OAuth 2.0 credential to enable secure authentication for Card Data Security integrations. This credential uses an existing OAuth Provider to establish authenticated connections with external systems.
+title: Set up a credential
+description: Create a credential to enable secure authentication for Card Data Security integrations. This credential authenticates your ServiceNow instance with the tokenizer service gateway.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-an-oauth-credential.html
 release: australia
@@ -13,15 +13,17 @@ keywords: [set up oauth credential, oauth 2.0 credentials, create oauth credenti
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Set up an OAuth Credential
+# Set up a credential
 
-Create an OAuth 2.0 credential to enable secure authentication for Card Data Security integrations. This credential uses an existing OAuth Provider to establish authenticated connections with external systems.
+Create a credential to enable secure authentication for Card Data Security integrations. This credential authenticates your ServiceNow instance with the tokenizer service gateway.
 
 ## Before you begin
 
 Role required: admin
 
-This task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
+For card network integrations \(Visa, Mastercard\), this task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
+
+For Verifi integration, this task requires the unique API key provided by the tokenizer service during connection setup.
 
 ## Procedure
 
@@ -29,23 +31,33 @@ This task requires an OAuth Provider created for Card Data Security. See [Set up
 
 2.  Select **New**.
 
-3.  Select **OAuth 2.0 Credentials**.
+3.  Select the credential type.
 
-4.  Enter the following field values.
+    -   For card network integration, select **OAuth 2.0 Credentials**.
+    -   For Verifi integration, select **API Key Credentials**.
+4.  For card network integration, enter the following field values.
 
     |Field|Value|
     |-----|-----|
     |**Name**|&lt;Name of the OAuth 2.0 credential&gt;|
     |**OAuth Entity Profile**|&lt;The default profile from the OAuth Provider created for Card Data Security&gt;|
 
+    For Verifi integration, enter the following field values.
+
+    |Field|Value|
+    |-----|-----|
+    |**API Key**|&lt;The unique API key provided by the tokenizer service during connection setup&gt;|
+
 5.  Select **Submit**.
 
 
 ## Result
 
-The OAuth credential record is created.
+The credential record is created.
 
 ## What to do next
 
-[Set up the OAuth Vault API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md).
+For Verifi integration, see .
+
+For card network integration, see [Set up the API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md).
 

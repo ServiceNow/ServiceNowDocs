@@ -1,5 +1,5 @@
 ---
-title: Customizing highlighted fields on prioritization tab of Portfolio Planning workspace
+title: Highlighted fields on the Prioritization tab
 description: Customize the fields to be highlighted on the Prioritization tab of a portfolio plan according to your planning manager's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Customizing highlighted fields on prioritization tab of Portfolio Planning workspace
+# Highlighted fields on the Prioritization tab
 
 Customize the fields to be highlighted on the Prioritization tab of a portfolio plan according to your planning manager's needs.
 
@@ -24,7 +24,7 @@ By default, the Prioritization and Hierarchy tabs of a portfolio plan highlight 
 
 -   **[Modify Script Includes for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.md)**  
 Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
--   **[Create new highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)**  
+-   **[Create highlighted values for Prioritization columns in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.md)**  
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
 **Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)

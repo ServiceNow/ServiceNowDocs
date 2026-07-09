@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # General guidelines for scripting
 
 Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 
-This guide will walk you through the general guidelines for writing efficient and reliable scripts in CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
+This guide will walk you through the general guidelines for writing efficient and reliable scripts in ServiceNow CPQ using a JavaScript-like language. Following these guidelines will help you create maintainable, readable, and well-performing code.
 
 ## Quick summary
 
@@ -121,7 +121,7 @@ Choose names that are meaningful and describe the purpose of the variable or fun
 
 ## Name variables consistently
 
-Consistent naming conventions enhance code readability and maintainability. Choose either camelCase or snake\_case and stick to it. Logik field variable names use camelCase, so most organizations stay with this convention for readability.
+Consistent naming conventions enhance code readability and maintainability. Choose either camelCase or snake\_case and stick to it. ServiceNow CPQ field variable names use camelCase, so most organizations stay with this convention for readability.
 
 ```
 1 // camelCase
@@ -180,5 +180,5 @@ To learn about general guideliines for using the `lookup` function, see [Minimiz
 
 [Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/scripting.md)
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

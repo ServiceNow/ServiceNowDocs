@@ -9,7 +9,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ShoppingHub configuration, Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [ShoppingHub configuration, Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Purchase modification configuration
@@ -21,5 +21,5 @@ The **Appearance conditions** condition builder for each purchase modification r
 -   **[Configure purchase modification record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-purchase-modification.md)**  
 Configure the conditions to make the purchase modification records available for the shopper to edit or cancel. You can leverage the condition builder to set specific conditions from the ShoppingHub Configuration table.
 
-**Parent Topic:**[ShoppingHub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
+**Parent Topic:**[ShoppingHub configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

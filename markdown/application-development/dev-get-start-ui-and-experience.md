@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Getting Started guide for developers, Building applications]
+breadcrumb: [Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # User interface and experiences
@@ -23,5 +23,5 @@ Learn about personas and how to analyze personas before creating an application 
 -   **[Tools for building user interfaces in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-ui-tools.md)**  
 Learn about the tools available on the ServiceNow AI Platform for building user interfaces in applications.
 
-**Parent Topic:**[Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting-started-landing-page.md)
+**Parent Topic:**[Standard app development in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/overview-building-apps-in-servicenow.md)
 

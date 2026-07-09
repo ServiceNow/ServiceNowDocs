@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [SAP Solution Manager setup configurations, Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,12 +31,14 @@ Download the following .psm files and import them into the SAP Solution Manager 
 
     |SAP Parameter|Value|
     |-------------|-----|
-    |RFC Destination|MID\_EVENT\_COLLECTOR2|
+    |RFC Destination|`MID_EVENT_COLLECTOR2`. Enter this value exactly because the custom SAP BADI `Z_ALRT_REACTION_IMPL` calls this RFC destination by name.|
     |Target Host|Name of the MID Server.|
     |Service No|Listener port on the MID Server|
     |Path Prefix|The URL of the MID Server transform script: `/api/mid/em/inbound_event?Transform=TransformEvents_SAPSolman`|
 
     \[Omitted image "sap-solman-event-collector.png"\] Alt text: SAP Event Collector form
+
+    **Note:** The **RFC Destination** field value must be `MID_EVENT_COLLECTOR2`.
 
 2.  On the **Logon &amp; Security** tab, select **Basic Authentication** and enter your Event Management logon credentials in the **User** and **Password** fields.
 

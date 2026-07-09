@@ -26,6 +26,6 @@ Role required: sn\_hr\_ws.admin
 
 2.  Enter or edit the form fields.
 
-3.  After editing or creating, click **Update** or **Submit**.
+3.  After editing or creating, select **Update** or **Submit**.
 
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/exploring-ai-security-exposure.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-07-07"
 reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
@@ -23,7 +23,7 @@ AI Security Exposure Management can help your organization efficiently manage AI
 
 Use the [Guardrails Detector skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md) to identify existing guardrails that can mitigate some of the AI validation findings that indicate risky behavior of the AI application or model.
 
-Use an [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-use-agent.md)AI to automate the deferral of findings that have mitigations or guardrails and create exception rules to auto-defer future findings.
+Use an [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-use-agent.md) to automate the deferral of findings that have mitigations or guardrails and create exception rules to auto-defer future findings.
 
 With AI Security Exposure Management, vulnerability managers can prioritize high risk exposures and defer low risk exposures that might have mitigations or guardrails already in place. This prioritization ultimately helps vulnerability management teams optimize remediation workflows to help them reduce the meantime to remediate their high risk exposures.
 
@@ -73,7 +73,7 @@ As an example, consider a vulnerability analyst and a vulnerability team that is
 
 |User|Description|
 |----|-----------|
-|Vulnerability analysts, vulnerability managers, and Chief Information Security Officers \(CISO\)|Monitors the organization’s overall risk posture across integrated environments, ensuring accurate asset discovery and classification for AI exposures correlation. These roles serve as an escalation point for remediation teams, assigns remediation tasks based on asset ownership and severity, and organizes AI exposure information into dynamic remediation tasks to streamline prioritization. Additionally, the role delivers actionable dashboards and reports to track remediation progress, highlight critical AI exposures, and communicate the current risk posture to stakeholders.|
+|Vulnerability analysts, vulnerability managers, and Chief Information Security Officers \(CISO\)|Monitor the organization’s overall risk posture across integrated environments, ensuring accurate asset discovery and classification for AI exposures correlation. These roles serve as an escalation point for remediation teams. They assign remediation tasks based on asset ownership and severity, and organize AI exposure information into dynamic remediation tasks to streamline prioritization. Additionally, these roles deliver actionable dashboards and reports to track remediation progress, highlight critical AI exposures, and communicate the current risk posture to stakeholders.|
 
 ## AI Security Exposure Management benefits
 
@@ -88,6 +88,7 @@ To learn more about configuring and using AI Security Exposure Management, see:
 -   [Viewing AI Exposures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-home.md)
 -   [Install and configure AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-install-config.md)
 -   [Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)
+-   [Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md)
 
 -   **[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ai-security-exposure-skill-agent.md)**  
 You have the option to use a generative AI skill and agentic workflow to help you understand what type of findings you have, understand the guardrails associated with findings, and see why the skill to mapped guardrails to particular findings.

@@ -91,7 +91,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
-
+Work Plan\[wm\_planned\_work\_plan\]
 
 </td><td>
 
@@ -107,7 +107,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Work Plan\[wm\_planned\_work\_plan\]
 
 </td><td>
 
@@ -123,7 +123,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -139,7 +139,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Schedule Occurrence\[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
@@ -155,7 +155,7 @@ Line and Stacked bar chart
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -171,7 +171,7 @@ Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -187,7 +187,7 @@ List
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 

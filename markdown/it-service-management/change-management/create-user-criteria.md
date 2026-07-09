@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
@@ -20,13 +20,19 @@ Create a user criteria record to control user access to widgets.
 
 Role required: admin
 
+## About this task
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Change Models** &gt; **User Criteria**.
+1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Models**.
 
-2.  Select **New** to open a new record.
+2.  Select a change model.
 
-3.  On the form, fill the fields.
+3.  Select **Advanced Security**.
+
+4.  In the related list at the bottom of the record, select **Available For** to manage access to the widgets.
+
+5.  On the form, fill the fields.
 
 <table id="table_ryj_1mj_bwb"><thead><tr><th>
 
@@ -125,7 +131,7 @@ Script
 Defines any additional criteria, and returns true or false. This field is available only if **Advanced** is selected.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>6.  Select **Submit**.
 
 
 **Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md)

@@ -1,18 +1,18 @@
 ---
-title: Transaction Manager: Integrate Salesforce approvals
-description: Integrate Salesforce approvals into Transaction Manager.
+title: ServiceNow Quote Experience Integrate Salesforce approvals
+description: Integrate Salesforce approvals into ServiceNow Quote ExperienceServiceNow Quote Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrate-salesforce-approvals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Transaction Manager, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager: Integrate Salesforce approvals
+# ServiceNow Quote Experience Integrate Salesforce approvals
 
-Integrate Salesforce approvals into Transaction Manager.
+Integrate Salesforce approvals into ServiceNow Quote ExperienceServiceNow Quote Experience.
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-1.png"\] Alt text: Menu
 
@@ -86,9 +86,9 @@ This streamlines the approval process and ensures consistency.
     \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-sf-setup-12.png"\] Alt text: Security
 
 
-## Transaction Manager setup: integrations
+## ServiceNow Quote Experience setup integrations
 
-Create two integrations for an event that will be used to submit the record for approval through Transaction Manager.
+Create two integrations for an event that will be used to submit the record for approval through ServiceNow Quote Experience.
 
 **Note:** If you want to test these calls in Postman, the endpoint is the my Salesforce URL: `<https://logik-1e-dev-ed.develop.my.salesforce.com/>`.
 
@@ -158,7 +158,7 @@ Make sure that the transform template has these values correctly:
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-integrations-3.png"\] Alt text: Code
 
-## Transaction Manager setup: creating events
+## ServiceNow Quote Experience setup creating events
 
 Slack Approvals Integration is implemented through headless event API calls. In this approach, we’ll use these headless API calls in a record-triggered flow and perform the callout through Apex actions.
 
@@ -172,7 +172,7 @@ Create two additional events that will move the stage either forward for approva
 
 \[Omitted image "cpq-txn-mgr-integrate-SF-approvals-create-events-3.png"\] Alt text: Decline
 
-## Transaction Manager setup: adding the Submit for Approval button to the layout
+## Add the Submit for approval option to ServiceNow Quote Experience
 
 The button events can be added to the default\_draft layout using the following JSON format:
 
@@ -225,11 +225,11 @@ To set up the VS code environment, install the VS Code extensions from this docu
 
 Although this Apex Class was deployed through VS code, it could also be deployed in Salesforce. The first step is the create a new Project with manifest.
 
-\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-1.png"\] Alt text: Manu
+\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-1.png"\] Alt text: Menu
 
 Next, create an Apex class \(in the blue box\) as well as a manifest.xml file \(in the green box\) to go into the respective files in the project directory.
 
-\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-2.png"\] Alt text: Transaction Manager
+\[Omitted image "cpq-txn-mgr-integrate-SF-approvals-apex-code-2.png"\] Alt text: Package.xml option in the menu
 
 Apex code:
 
@@ -318,7 +318,7 @@ Finally, activate the flow and test.
 
 ## Testing
 
-After the record-triggered flow and the Transaction Manager blueprint are created, you may find this SOQL query helpful for debugging your approvals process in Salesforce.
+After the record-triggered flow and the ServiceNow Quote Experience blueprint are created, you may find this SOQL query helpful for debugging your approvals process in Salesforce.
 
 Receiving Salesforce Approval Status \(getting the state of most recent process\)
 

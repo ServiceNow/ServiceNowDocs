@@ -40,7 +40,7 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
     2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
 
-    3.  Select the Save icon \(\[Omitted image "save-km.png"\] Alt text: Save icon\).
+    3.  Select the **Save** icon .
 
 4.  Select **Update**.
 

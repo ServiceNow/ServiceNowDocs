@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-02-04"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, Now Assist for CSM, Customer Service Management]
 ---
@@ -53,7 +53,11 @@ The automated quality assurance widget serves as an entry point to access the qu
     You can perform the following actions on the dashboard.
 
     -   View individual agent quality scores and evaluations.
-    -   Filter reports by date range, agent, or quality parameters.
+    -   Filter reports and cases by date range, agent, quality parameters, or by assignment groups. When the **Assignment** filter is applied the trends, breakdowns, list of agents and cases are all impacted and the dashboard is refreshed to show values based on the assignment group that is selected along with the date range.
+
+        **Note:** You can set filters for both the assignment group and the date.
+
+    -   Select **Clear all** to remove all the filters that are set.
     -   Analyze trends in quality performance over time.
     -   Identify coaching opportunities based on quality assessment results.
     -   Export reports for further analysis or documentation.
@@ -65,7 +69,11 @@ The automated quality assurance widget serves as an entry point to access the qu
 
 From the quality assurance dashboard, you can monitor team performance, review quality metrics, and manage quality assurance processes.
 
-The Agent's table presents average Auto QA scores and category scores for each agent. Each category score represents the average of all parameters within that category.
+Select any date on the **Trends** graph on the dashboard to view case information in more detail.To learn more about the trends and reviewed cases, see [Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md).
+
+The Agent and Case tables present average Auto QA scores, category scores, and case information for each agent. Each category score represents the average of all parameters within that category.
+
+The Auto QA dashboard displays quality assurance cases and associated agents as a sortable list component. To reorganize agent or case data select the column header and arrange them in ascending or descending order to organize them by the number of reviewed cases, performance score, caseload or other metrics. A new tab with more information opens when you select an agent or case from the list.
 
 You can use the following features to manage data:
 

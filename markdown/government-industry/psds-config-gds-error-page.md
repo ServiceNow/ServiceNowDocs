@@ -1,16 +1,16 @@
 ---
-title: Configure the Error Pages for GOV.UK Developer Toolkit GDS Service Portal
+title: Configure the GOV.UK Design System Service Portal Error Pages
 description: Use Portal Widgets to configure and customize the error page that is shown when a user encounters errors such as broken links, service issues, or downtime \(404, 500, 503\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-error-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Error Pages for GOV.UK Developer Toolkit GDS Service Portal
+# Configure the GOV.UK Design System Service Portal Error Pages
 
 Use Portal Widgets to configure and customize the error page that is shown when a user encounters errors such as broken links, service issues, or downtime \(404, 500, 503\).
 
@@ -44,6 +44,4 @@ Role required: admin
 
 3.  In the Default 404 page for Service Portals, type the page ID found in the ID field of the page form and select **Save**.
 
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

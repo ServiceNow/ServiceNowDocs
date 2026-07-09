@@ -9,6 +9,7 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [analytics dashboard, service delivery overview, SLA performance, account metrics, account 360]
 breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
@@ -16,7 +17,7 @@ breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experie
 
 Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 
-Service delivery overview displays the Analytics dashboards of the customer accounts. These dashboards contains diagrams, charts, and summary data on metrics such as proactive cases, account escalations, Service Level Agreements \(SLAs\), Core Key Performance Index \(KPI\), and so on.
+Service delivery overview displays the Analytics dashboards of the customer accounts. This dashboard contains diagrams, charts, and summary data on metrics such as proactive cases, account escalations, Service Level Agreements \(SLAs\), Core Key Performance Index \(KPI\), and so on.
 
 The Service delivery overview contains the following tabs for each dashboard.
 
@@ -81,8 +82,8 @@ The SLA performance tab displays metrics that provide you with a summary of the 
 
 The Service management tab provides metrics that deliver actionable insights, enabling you to track and enhance the efficiency and quality of your services.
 
-| | |
-|---|---|
+|Indicator|Description|
+|---------|-----------|
 |Items not updated in last 5 days|Gauge chart grouping of requests marked as New, In Progress, or On Hold, that haven’t received any updates or modifications within the past five days.|
 |Items not updated for 7+ days|Gauge chart grouping of requests that aren’t updated for more than seven days.|
 |Incident reopen rate|Percentage of incidents that were initially marked as resolved but later required reopening due to unresolved issues or the emergence of related problems.|

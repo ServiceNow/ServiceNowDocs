@@ -1,18 +1,18 @@
 ---
 title: Displaying a picklist extension on a layout
-description: Learn how to display a picklist extension \(PLE\) on a layout using either the CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
+description: Learn how to display a picklist extension \(PLE\) on a layout using either the ServiceNow CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/csv\_layouts\_how\_do\_i\_display\_a\_picklist\_extension.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure picklist extensions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure picklist extensions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Displaying a picklist extension on a layout
 
-Learn how to display a picklist extension \(PLE\) on a layout using either the CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
+Learn how to display a picklist extension \(PLE\) on a layout using either the ServiceNow CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
 
 In this article, we show a simple picklist extension \(PLE\) as it appears to an end user and how to display it in the layout, either by adding it using the admin UI or by uploading a CSV file.
 
@@ -45,9 +45,9 @@ In the dogBreed multi-select picklist field, extension information is mapped as 
 
 Observe the extended info columns, marked with yellow circles. Later, in the CSV layout, we will map these as fieldExtensions to the foundational dogBreed picklist field. \(See the picklist extension CSV layout section.\)
 
-## Adding a picklist extension to the layout using the CPQ Admin UI
+## Adding a picklist extension to the layout using the ServiceNow CPQ Admin UI
 
-CPQ supports the ability to easily add a picklist extension to the layout using the CPQ Admin UI. Navigate to the layout from the Blueprint and add the picklist extension field as you normally would any other field. We’ve added a picklist extension field, “Motherboard” to our layout.
+ServiceNow CPQ supports the ability to easily add a picklist extension to the layout using the ServiceNow CPQ Admin UI. Navigate to the layout from the Blueprint and add the picklist extension field as you normally would any other field. We’ve added a picklist extension field, “Motherboard” to our layout.
 
 \[Omitted image "cpq-picklist-extensions-motherboard.png"\] Alt text: Motherboard
 
@@ -67,7 +67,7 @@ In the rows highlighted yellow \(rows 10 through 17\), we reference the columns 
 
 -   The type in A10:A17 is 'fieldExtension', the child type to a field whose Component display type is \[Multi\|Single\]Select picklistGrid \(F9\).
 -   The path in B10:B17, /layout/tiers/doggo1/CS2/dogBreed, references the parent foundational picklist field, dogBreed \(E9\).
--   Row 10 instructs CPQ to show the labels \('label' in E10\) of the foundational picklist options. This is optional, but highly recommended. The first fieldExtension row \(A10\), this is the left most column of the PLE displayed.
+-   Row 10 instructs ServiceNow CPQ to show the labels \('label' in E10\) of the foundational picklist options. This is optional, but highly recommended. The first fieldExtension row \(A10\), this is the left most column of the PLE displayed.
 -   The remaining fieldExtension rows lay out the remaining columns, from left to right, in the PLE display table.
 
 The setup above would result in the following layout:

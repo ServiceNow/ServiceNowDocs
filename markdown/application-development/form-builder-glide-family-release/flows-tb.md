@@ -46,9 +46,7 @@ Role required: personalize\_forms, personalize\_dictionary, and flow\_designer p
 
     The flows triggered by the selected table are listed as flow cards.
 
-3.  \[Omitted image "flows-list-tb.png"\] Alt text: Flows list.
-
-4.  Filter or search the list of flow cards as needed to find the desired flow.
+3.  4.  Filter or search the list of flow cards as needed to find the desired flow.
 
 <table id="table_zkp_3zn_15b"><thead><tr><th>
 
@@ -172,7 +170,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d80018e753">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d79513e740">
 
 **When the record is created**
 
@@ -180,7 +178,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d80018e762">
+</td></tr><tr><td id="d79513e749">
 
 **When the record is updated**
 
@@ -188,7 +186,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d80018e771">
+</td></tr><tr><td id="d79513e758">
 
 **When the record is created or updated**
 
@@ -257,9 +255,7 @@ Test your flow until you're ready to activate it. For more information on testin
 
 **Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
-To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
-
-\[Omitted image "return-to-flow-list.png"\] Alt text: All flows.
+To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows**.
 
 ## Modify a record-based flow
 
@@ -306,9 +302,7 @@ Test your flow until you're ready to activate it. For more information on testin
 
 **Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md).
 
-To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
-
-\[Omitted image "return-to-flow-list.png"\] Alt text: All flows.
+To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows**.
 
 ## Delete a record-based flow
 

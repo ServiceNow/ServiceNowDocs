@@ -45,7 +45,7 @@ This task enables you to update, and delete a record of an item of any inventory
 
     To delete a record, after selecting a record, follow the following steps.
 
-    1.  Select options \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\[Omitted image ""\]\) icon.
+    1.  Select options \(\[Omitted image "options-icon.png"\] Alt text:\)\[Omitted image ""\] Alt text: more icon
     2.  Select **Delete**.
 
         **Note:** The warning window shows the list of the topics that are affected due to this deletion.

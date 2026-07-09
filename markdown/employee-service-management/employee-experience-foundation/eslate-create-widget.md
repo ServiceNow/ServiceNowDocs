@@ -25,11 +25,11 @@ Before you create a widget, verify the following prerequisites:
 -   You have Now Assist Creator license.
 -   The target scope for the widget is selected.
 
-Role required: System administrator.
+Role required: administrator.
 
 ## About this task
 
-The Widget Builder generates, validates, and compiles the widget behind the scenes. Generation can take 15 to 20 seconds for the initial prompt and for each refinement prompt.
+The Widget Builder generates, validates, and compiles the widget automatically. Generation can take 15 to 20 seconds for the initial prompt and for each refinement prompt.
 
 ## Procedure
 
@@ -39,9 +39,9 @@ The Widget Builder generates, validates, and compiles the widget behind the scen
 
 2.  In the chat panel, enter a description of the widget that you want to build.
 
-    Include the widget purpose, the inputs tables data, and any visual behaviors that you expect. For example: `Create a widget that renders a one-time password entry page with a 60 second countdown.`
+    Include the widget purpose, the input table data, and any visual behaviors that you expect. For example: `Create a widget that renders a one-time password entry page with a 60 second countdown.`
 
-    **Note:** When your prompt is clear and detailed, the generated widget can be more effective.
+    **Note:** When your prompt is clear and detailed, the Widget Builder can generate a widget that more closely matches your requirements.
 
 3.  Wait for the widget to generate.
 

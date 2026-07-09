@@ -59,5 +59,5 @@ The minimum role needed to duplicate an agentic workflow is the **sn\_aia.admin*
 
 The OT knowledge generator AI agent is used to generate a KB article related for a resolved OT incident.
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

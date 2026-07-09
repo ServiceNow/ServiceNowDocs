@@ -36,7 +36,7 @@ Role required: admin
     -   Write ATF tests in the global scope by authoring tests from simple prompts, such as validating that all mandatory fields are completed before submitting the Incident form.
     -   Execute existing ATF tests.
 
-        **Note:** If you want to execute an existing ATF test using Test Agent, you're expected to create the ATF test before this process. You can now use Now Assist to create an ATF test. Select the **Create with Now Assist** button on the ATF tests list page. If you have Build Agent installed on your instance, you are redirected to the ServiceNow IDE interface. You will see the following message if you don't have Build Agent installed on your instance.
+        **Note:** If you want to execute an existing ATF test using Test Agent, you're expected to create the ATF test before this process. You can now use Now Assist to create an ATF test. Select the **Create with Otto** button on the ATF tests list page. If you have Build Agent installed on your instance, you are redirected to the ServiceNow IDE interface. You will see the following message if you don't have Build Agent installed on your instance.
 
         \[Omitted image "ta-ba-install.png"\] Alt text: Screenshot showing the banner message
 

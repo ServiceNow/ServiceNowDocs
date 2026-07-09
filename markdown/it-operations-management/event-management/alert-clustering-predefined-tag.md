@@ -1,5 +1,5 @@
 ---
-title: Attach a predefined tag to a tag-based alert grouping definition
+title: Attach a predefined tag to an alert grouping definition
 description: Get started faster with alert clustering by attaching a predefined alert clustering tag to a tag-based alert clustering definition in Event Management. By associating a predefined tag, you ensure that alerts meeting the specified criteria are grouped effectively, facilitating quicker identification and response to related incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-tag.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Attach a predefined tag to a tag-based alert grouping definition
+# Attach a predefined tag to an alert grouping definition
 
 Get started faster with alert clustering by attaching a predefined alert clustering tag to a tag-based alert clustering definition in Event Management. By associating a predefined tag, you ensure that alerts meeting the specified criteria are grouped effectively, facilitating quicker identification and response to related incidents.
 

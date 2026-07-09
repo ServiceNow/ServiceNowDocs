@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The On BOM Response enrichment
@@ -16,7 +16,7 @@ You can use this enrichment to work with ProductList items whenever there is an 
 
 The On BOM Response enrichment is enabled by default in environments and can be used to manipulate items in the ProductList whenever there is an update to the bill of materials \(BOM\).
 
-**Note:** The CPQ environment must include rules with product actions, or there will be nothing for the enrichment to loop through.
+**Note:** The ServiceNow CPQ environment must include rules with product actions, or there will be nothing for the enrichment to loop through.
 
 \[Omitted image "cpq-enrichments-on-bom-response.png"\] Alt text: BOM response
 

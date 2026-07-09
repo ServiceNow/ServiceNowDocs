@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Linear assets in Enterprise Asset Management

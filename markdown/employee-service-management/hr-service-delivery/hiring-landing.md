@@ -9,6 +9,7 @@ classification: hr-service-delivery
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [hiring tab, hiring manager portal, manager hub hiring, hiring process overview, job requisition tracking]
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

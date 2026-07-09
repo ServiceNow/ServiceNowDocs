@@ -24,15 +24,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d22235e99">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d22253e99">
 
 Option
 
-</th><th align="left" id="d22235e102">
+</th><th align="left" id="d22253e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d22235e108">
+</th></tr></thead><tbody><tr><td id="d22253e108">
 
 **To add a campus manually**
 
@@ -41,7 +41,7 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d22235e126">
+</td></tr><tr><td id="d22253e126">
 
 **To add a campus using a map set**
 
@@ -50,7 +50,7 @@ Action
 -   [Process GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ProcessMapFiles.md)
 
 
-</td></tr><tr><td id="d22235e146">
+</td></tr><tr><td id="d22253e146">
 
 **To edit the details of the campus**
 
@@ -79,15 +79,15 @@ Action
 
 4.  Continue with one of the following options.
 
-<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d22235e330">
+<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d22253e330">
 
 Option
 
-</th><th align="left" id="d22235e333">
+</th><th align="left" id="d22253e333">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d22235e339">
+</th></tr></thead><tbody><tr><td id="d22253e339">
 
 **To add the campus**
 
@@ -96,7 +96,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d22235e357">
+</td></tr><tr><td id="d22253e357">
 
 **To update the campus details**
 

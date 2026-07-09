@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-
 release: australia
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Using grants management, setup grants, configure grants]
 breadcrumb: [Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -70,7 +70,7 @@ Using the Grants Management Screening feature, managers can:
 
 \[Omitted image "psds-gmp-rev-prop-details.png"\] Alt text: Enter Applicant information view
 
-For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal application in the Grants Management Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md).
+For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-gmp-grant-proposal-screen.md).
 
 ## Grants Management Application Evaluation
 

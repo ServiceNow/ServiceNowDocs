@@ -21,6 +21,11 @@ Email notification preferences are set to control email notifications that are s
 -   Provides a resolution for a customer's case
 -   Closes a customer's case
 
+**Related topics**  
+
+
+[Set email notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustServNotifPref.md)
+
 ## Set email notification preferences
 
 Customers can set preferences for email notifications that are sent when customer service agents perform different actions on cases.
@@ -51,4 +56,11 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
     -   Case assigned to a new group
     -   Case opened for customer
     -   Case resolved for customer
+
+**Related topics**  
+
+
+[Customer notification preferences]()
+
+[View or update customer contact information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_UpdateCustProfileInfo.md)
 

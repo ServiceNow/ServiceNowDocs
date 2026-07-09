@@ -7,21 +7,21 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Admin APIs: Authentication using a Salesforce-connected app
 
 We recommend that you use admin API keys to authenticate admin API calls. An older method is documented here.
 
-CPQ administration APIs are useful to facilitate new product introduction, data transfer, test-to-production operations, and so on. For use cases in which CPQ leverages Salesforce for user authentication, this article walks you through the steps required to build a Salesforce connected app and retrieve a JSON web token \[JWT\] that can be used to authenticate calls to CPQ administration APIs.
+ServiceNow CPQ administration APIs are useful to facilitate new product introduction, data transfer, test-to-production operations, and so on. For use cases in which ServiceNow CPQ leverages Salesforce for user authentication, this article walks you through the steps required to build a Salesforce connected app and retrieve a JSON web token \[JWT\] that can be used to authenticate calls to ServiceNow CPQ administration APIs.
 
 **Note:**
 
 -   The release of admin API Keys has made this setup unnecessary and is now the recommended method of authentication of admin API calls. See [Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md).
 -   The JWT method that was recommended before February 2025 has been deprecated by Salesforce. Instead, follow the updated steps in this article.
 
-The JWT can be used as a bearer token to authenticate CPQ administration APIs to manipulate managed tables, write rules, deploy blueprints, and more.
+The JWT can be used as a bearer token to authenticate ServiceNow CPQ administration APIs to manipulate managed tables, write rules, deploy blueprints, and more.
 
 ## Creating or updating a connected app for JWT authentication
 
@@ -53,5 +53,5 @@ For in-depth instructions, see:
 
 You can find the client ID and secret by viewing the Consumer Key and Secret → Manage Consumer Details field in the connected app you created above.
 
-Note that a single call to Salesforce generates a token. Based on the **Issue JSON Web Token \(JWT\)-based access tokens for named users** setting in your connected app, the access token returned here is a JWT that you can use as a bearer token for CPQ APIs.
+Note that a single call to Salesforce generates a token. Based on the **Issue JSON Web Token \(JWT\)-based access tokens for named users** setting in your connected app, the access token returned here is a JWT that you can use as a bearer token for ServiceNow CPQ APIs.
 

@@ -28,7 +28,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Reference**
 
-    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see .
+    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 -   **Support User**
 

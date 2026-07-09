@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the Auto-generate Tests feature using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d218513e53">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d218893e53">
 
 Option
 
-</th><th align="left" id="d218513e56">
+</th><th align="left" id="d218893e56">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d218513e62">
+</th></tr></thead><tbody><tr><td id="d218893e62">
 
 **Using Auto-generate Tests module**
 
@@ -46,7 +46,7 @@ Steps
 
 **Note:** The ATF Test Generator and Cloud Runner store app page shows up.
 
-</td></tr><tr><td id="d218513e99">
+</td></tr><tr><td id="d218893e99">
 
 **Using Tests or Suites module**
 

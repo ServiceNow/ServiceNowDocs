@@ -16,7 +16,7 @@ Use the **enable\_ai\_search\_in\_catalog** property to enable AI Search in the 
 
 ## Before you begin
 
-Role required: Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: Role required: admin
 
 ## About this task
 

@@ -145,7 +145,7 @@ Name of the MID Server used by the connector.This field appears only when the **
              }
             ```
 
-        **Note:** The normalized sensor name \(in the **SG-Tanium-Endpoints Sensors** table\) is used to look up the sensor's data in the endpoint JSON payload. This name is derived from the sensor name by removing whitespaces and replacing special characters with underscores. Use this value when configuring Robust Transform Engine \(RTE\) mappings or for any downstream lookup that references the sensor by its JSON key.
+        **Note:** The normalized sensor name \(in the SG-Tanium-Endpoints Sensors table\) is used to look up the sensor's data in the endpoint JSON payload. This name is derived from the sensor name by removing whitespaces and replacing special characters with underscores. Use this value when configuring Robust Transform Engine \(RTE\) mappings or for any downstream lookup that references the sensor by its JSON key.
 
     5.  Select **Mark as complete**.
 

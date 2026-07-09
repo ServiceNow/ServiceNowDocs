@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View All campaigns
@@ -26,6 +26,4 @@ Role required: admin
 
 3.  For information on how to create recall campaigns, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md).
 
-
-**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-management.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Customize Activity stream in Agent Workspace for HR Case Management
-description: Customize the Activity stream to reduce agent effort in understanding the case context.
+description: Configure which activities appear in the Activity stream and set their display order for HR cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/activity-stream-aws.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # Customize Activity stream in Agent Workspace for HR Case Management
 
-Customize the Activity stream to reduce agent effort in understanding the case context.
+Configure which activities appear in the Activity stream and set their display order for HR cases.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ Role required: admin
 
 2.  Select a case to customize Activity stream for.
 
-3.  Select the activity stream icon \[Omitted image "List\_ActivityStreamIcon.png"\] Alt text: Activity stream icon.
+3.  Select the activity stream icon \(\[Omitted image "List\_ActivityStreamIcon.png"\]\).
 
-4.  Select the filter activity icon \[Omitted image "playbook-filter.png"\] Alt text: Filter activity icon.
+4.  Select the filter activity icon \(\[Omitted image "playbook-filter.png"\] Alt text: playbook header filter icon\).
 
 5.  Select the required activities and the desired order.
 

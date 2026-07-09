@@ -16,7 +16,7 @@ Email templates provide a list of the fields from database tables that are avail
 
 An email template can include a **mailto** automatic response link, which enables the email recipient to simply choose a link that sends a preformatted response back to the instance. An example is the email template used for notification that an approval is required. The following example shows the base email:
 
-\[Omitted image "approval-request-notification.png"\] Alt text: The Approval Request notification uses the change.itil.approve.role email template
+\[Omitted image "approval-request-notification.png"\] Alt text: Screenshot of the Approval Request Notification form showing configuration fields, along with email template selected under the What it will contain tab
 
 In this case, when a change request approval is requested, an update is made to the `sysapproval_approval` table. The "approval events" business rule is then executed, which creates the "approval.inserted" event. The "Approval Request" email event is defined to process the approval.inserted event, and this email event is defined to use the following change.itil.approve.role email template. Notice that this template has two mailto: items specified. One for "mailto.approval" and one for "mailto.rejection." This email template builds an automatic response that lets the email receiver simply click a link in the email to either approve or reject the change request.
 

@@ -32,15 +32,15 @@ Setting the planned disposition of a business application results in better data
 
 4.  Select the bubble for the relevant application that you want to set the planned disposition for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d46116e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d46208e92">
 
 Bubble type
 
-</th><th align="left" id="d46116e95">
+</th><th align="left" id="d46208e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d46116e101">
+</th></tr></thead><tbody><tr><td id="d46208e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-set-planned-disposition.png"\] Alt text: Set planned disposition button highlighted.
 
-</td></tr><tr><td id="d46116e139">
+</td></tr><tr><td id="d46208e139">
 
 **Grouped bubble**
 
@@ -130,5 +130,5 @@ Retire
 
 [Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
 
-[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Add existing Technology Reference Model products to business applications
+title: Add TRM products to business applications
 description: You can add existing Technology Reference Model \(TRM\) product to business applications in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-existing-trm-products-to-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add existing Technology Reference Model products to business applications
+# Add TRM products to business applications
 
 You can add existing Technology Reference Model \(TRM\) product to business applications in the Enterprise Architecture Workspace.
 

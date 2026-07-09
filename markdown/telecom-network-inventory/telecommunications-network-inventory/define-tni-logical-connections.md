@@ -34,7 +34,7 @@ The **Overview** tab in the logical connection record displays a consolidated de
 
 2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then select **Inventory** &gt; **Logical Connections**.
 
-    **Note:** You can also access the logical connection list by selecting the **Logical connection** count in the Network entities. Logical connection count is under the categories widget of the Network Inventory Workspace landing page. To learn more, see [Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
+    **Note:** You can also access the logical connection list by selecting the **Logical connection** count in the Network entities. Logical connection count is under the categories widget of the Network Inventory Workspace landing page. To learn more, see [Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md).
 
 3.  Select **New**.
 

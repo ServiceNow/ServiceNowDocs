@@ -14,15 +14,9 @@ breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up s
 
 Use the Branding Editor to give the GDS Service Portal its own look and feel.
 
-By default, the GOV.UK Design System Service Portal theme looks like:
-
-\[Omitted image "image.psds\_gds\_default\_theme"\] Alt text: GDS Portal Default Theme.
-
 You can customize the default GDS Service Portal theme to suit your needs using the Branding Editor. To access the Branding Editor, navigate to **Service Portal** &gt; **Service Portal Configuration**, then select **Branding Editor**.
 
 From the portal list, select **UK Government Portal**, and use the options on the Quick Setup and Theme Colors tabs to customize the portal.
-
-Branding Editor
 
 \[Omitted image "psds\_gds\_branding\_editor.png"\] Alt text: GDS Portal Branding Editor.
 
@@ -137,6 +131,4 @@ For information on creating and customizing the header/footer menu, see [Create 
 ## Customizing the Portal CSS
 
 Changes made in the Branding Editor or to specific components of the portal \(such as a widget or a page container\) override any customizations made to the theme. If your portal needs more customization than Branding Editor can provide, you can edit the CSS of the existing theme. For information on how to customize the portal theme using CSS, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gds-content-pack-gsp.md)
 

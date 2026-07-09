@@ -1,6 +1,6 @@
 ---
 title: Adopt AI Governance
-description: This accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
+description: This Accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/adopt-ai-governance.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Adopt AI Governance
 
-This accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
+This Accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
 
 ## Accelerator Overview
 
-Adopt AI Governance builds on the Foundations of AI Governance accelerator by providing Impact customers with ready-made AIMS materials and collaborating with them to tailor these assets to their specific requirements. This offering focuses on helping customers make AI governance practices operational, in alignment with ISO/IEC 42001, removing common barriers to compliance through expert guidance. By the end of the engagement, customers have a customized, actionable governance framework to help them successfully adopt AI governance.
+Adopt AI Governance builds on the Foundations of AI Governance Accelerator by providing Impact customers with ready-made AIMS materials and collaborating with them to tailor these assets to their specific requirements. This offering focuses on helping customers make AI governance practices operational, in alignment with ISO/IEC 42001, removing common barriers to compliance through expert guidance. By the end of the engagement, customers have a customized, actionable governance framework to help them successfully adopt AI governance.
 
 ## Package Availability
 

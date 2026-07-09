@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for Snowflake
-description: Create an AI connection for Snowflake in AI Control Tower using the  AI Service Graph Connector for Snowflake.
+description: Create an AI connection for Snowflake in AI Control Tower using the  AI Service Graph Connector for Snowflake \(Version 2.0.5\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-snowflake.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Snowflake, Service Graph Connectors for AI Control Tower, AI connec
 
 # Create an AI connection for Snowflake
 
-Create an AI connection for Snowflake in AI Control Tower using the  AI Service Graph Connector for Snowflake.
+Create an AI connection for Snowflake in AI Control Tower using the  AI Service Graph Connector for Snowflake \(Version 2.0.5\).
 
 ## Before you begin
 
@@ -26,19 +26,21 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 2.  Click **Add**.
 
-3.  Select **AI Connector for Snowflake** from all the available connectors.
+3.  Select **AI Connector for Snowflake** from the available connectors.
 
 4.  Click **Create connection**.
 
-    Review setup instructions page displays the prerequisites for setting up Snowflake Keypair connection.
+5.  Review setup instructions page displays the prerequisites for setting up Snowflake Keypair connection.
 
-5.  Verify to follow all the prerequisite steps.
+    **Note:** Verify to follow all the prerequisite steps.
 
-6.  Select **Next**.
+6.  Verify to follow all the prerequisite steps.
 
-7.  Enter the connection details:
+7.  Select **Next**.
 
-8.  | | |
+8.  Enter the connection details:
+
+9.  | | |
 |---|---|
 |Connection name|A unique identifier for this connection. For example: SGC\_Snowflake\_KeyPair\_Connection|
 |Connection URL|Your Snowflake account URL in account\_locator format. For example: https://&lt;account\_locator&gt;.snowflakecomputing.com|
@@ -50,35 +52,39 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     **Note:** For detailed instructions on configuring JWT key-pair authentication, see the [Configuring Keystore for Snowflake Keypair authentication \[KB2834688\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB2834688) article in the Now Support Knowledge Base.
 
-9.  Create and test connection.
+10. Create and test connection.
 
     1.  Click Create and Test Connection to validate connectivity.
     2.  If the test succeeds, the connection is created and you can proceed to schedule imports.
     3.  If validation fails, verify your Snowflake credentials, network policies, and key-pair configuration.
-10. Configure import schedule
+11. Configure import schedule
 
     **Note:** After creating a connection, enable and configure scheduled imports.
 
-11. Enable Scheduled Jobs
+12. Enable Scheduled Jobs
 
     **Note:** Two parent scheduled jobs are created by default but are inactive:
 
     -   Discovery \(Agents\) – Discovers AI agents and assets.
     -   Execution \(Usage\) – Collects usage and observability data.
-12. To enable imports, select the Active check box for both scheduled jobs.
+13. To enable imports, select the Active check box for both scheduled jobs.
 
     **Note:** Configure the run frequency for each scheduled job based on your organizational needs. For example, run discovery daily to capture new assets and run execution hourly to monitor usage.
 
-13. Execute on Demand
+14. Execute on Demand
 
     1.  To import data immediately without waiting for the scheduled time, click Execute Now next to the scheduled job.
 
     2.  Once configured, scheduled jobs run automatically according to their schedule.
 
-14. Select **View all connections** to view the newly created connection
+    3.  Select **Continue**
+
+15. Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Snowflake is created and configured.
 

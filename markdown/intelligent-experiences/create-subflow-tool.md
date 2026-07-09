@@ -64,6 +64,14 @@ An internal name for the tool.
 
 </td></tr><tr><td>
 
+MCP app
+
+</td><td>
+
+An active MCP app linked to this subflow.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -87,4 +95,6 @@ One or more servers you want to add your tool to.
 ## What to do next
 
 Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution.
+
+**Parent Topic:**[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)
 

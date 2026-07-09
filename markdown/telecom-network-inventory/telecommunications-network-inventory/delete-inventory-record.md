@@ -43,5 +43,5 @@ When you delete a configuration item \(CI\) record, the child elements associate
 
 The CI record is deleted and no longer available in the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 

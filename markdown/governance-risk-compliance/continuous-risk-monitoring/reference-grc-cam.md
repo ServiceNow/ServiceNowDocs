@@ -1,5 +1,5 @@
 ---
-title: CAM reference
+title: Reference
 description: Reference topics provide the detailed descriptions of tables, properties, forms, and roles that are installed with the CAM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# CAM reference
+# Reference
 
 Reference topics provide the detailed descriptions of tables, properties, forms, and roles that are installed with the CAM application.
 

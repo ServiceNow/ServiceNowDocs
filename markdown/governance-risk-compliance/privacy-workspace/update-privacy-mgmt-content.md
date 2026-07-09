@@ -1,5 +1,5 @@
 ---
-title: Update privacy content
+title: Update content in the privacy library
 description: Update an installed authority document or risk statement version to add newer citations, control objectives, and risk statements to your privacy library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.html
@@ -13,7 +13,7 @@ keywords: [activate risk statements, privacy risk statements, risk statement cat
 breadcrumb: [Privacy content accelerator, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Update privacy content
+# Update content in the privacy library
 
 Update an installed authority document or risk statement version to add newer citations, control objectives, and risk statements to your privacy library.
 
@@ -31,66 +31,43 @@ Role required: sn\_privacy.manager
 
 ## Procedure
 
-1.  In the Privacy Workspace, select the Privacy content icon.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace**.
 
-2.  Select the **Privacy Frameworks** tab or the **Risk Statements** tab depending on the content you want to update.
+2.  Select the Privacy content icon \[Omitted image "unified-content-mgmt-icon.png"\].
 
-3.  On the **Active** sub-tab, locate the activated authority document or risk statement version update, and select **Update**.
+3.  Depending on the scope for the content you want to update, select either the **Privacy Frameworks** tab or the **Risk Statements** tab.
 
-4.  Review the disclaimer, and select **Agree**.
+4.  Select **Active**.
 
-    The installation wizard opens, showing records associated with the selected authority document or risk statement version.
+5.  In the authority document or risk statement entry, select **Update**.
 
-    **Important:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
+6.  In the Disclaimer message, select **Agree**.
 
-5.  Select the records to install, and select **Next**.
+    The installation wizard shows records associated with the selected authority document or risk statement version. Records not yet added to your library have the installation state Ready. Records already installed from this version have the installation state Installed.
 
-    Records not yet added to your library appear as **Ready**. Records already installed from this version appear as **Installed**.
+    **Note:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams might use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
 
-<table id="table_cbp_2fn_kjc"><thead><tr><th>
+7.  Review the records available to install.
 
-Record type
+    -   The Authority Document page lists the following document types:
+        -   Citations associated with the selected authority document. To view the source regulatory text related to the citations, add **Supplemental guidance** as a column using the **Personalize fields** option of the **More Actions** menu.
 
-</th><th>
+            **Note:** Citation descriptions are AI-generated. The source regulatory text in supplemental guidance is formatted using AI. Review all content for accuracy.
 
-Description
+        -   Control objectives mapped to the selected citations.
+    -   The Risk Statement page lists the privacy risk statements available with the selection version.
+8.  Select the records to install.
 
-</th></tr></thead><tbody><tr><td>
+9.  Select **Next**.
 
-**Citation**
+10. Review the number of selected records and select **Submit**.
 
-</td><td>
+    The status changes to Updating while installation is in progress.
 
-Citations associated with the selected authority document. To view the source regulatory text related to the citations, add **Supplemental guidance** as a column using the **Personalize fields** option.**Note:** Citation descriptions are AI-generated. Supplemental guidance is formatted by AI. Review all content for accuracy.
-
-</td></tr><tr><td>
-
-**Control objective**
-
-</td><td>
-
-Control objectives mapped to the selected citations. If no control objectives are mapped to the selected citations, proceed to the next step.
-
-</td></tr></tbody>
-</table>    |Record type|Description|
-    |-----------|-----------|
-    |**Risk statement**|Privacy risk statements available with the selected version.|
-
-6.  Review the number of selected records, and select **Submit**.
-
-    The status changes to **Updating** while installation is in progress.
-
-7.  Refresh the page to verify that installation is complete.
+11. Refresh the page to verify that installation is complete.
 
 
 ## Result
 
 The installed records are available in the List view of the Privacy Workspace.
-
-**Related topics**  
-
-
-[Privacy content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md)
-
-[Activate privacy content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-privacy-content.md)
 

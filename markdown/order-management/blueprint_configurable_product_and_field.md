@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Blueprint, configurable product, and field UI
@@ -28,7 +28,7 @@ Support for creating sets in the New Field dialog.
 
 ## Updated blueprint UI
 
-The relationship between the CPQ items and the blueprint can now be easily accessed via the tiles in the left column and the number of associated items is visible at a glance.
+The relationship between the ServiceNow CPQ items and the blueprint can now be easily accessed via the tiles in the left column and the number of associated items is visible at a glance.
 
 Each tile displays the appropriate UI for its object on the right of the screen.
 

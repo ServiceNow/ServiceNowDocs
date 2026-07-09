@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring access to CI data on your Microsoft Azure account, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configuring access to CI data on your Microsoft Azure account, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Proxy server configuration for your Cloud Cost Management MID Server

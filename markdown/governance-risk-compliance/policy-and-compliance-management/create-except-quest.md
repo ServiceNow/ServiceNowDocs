@@ -24,11 +24,9 @@ Role required: sn\_compliance.attestation\_creator
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Exceptions** &gt; **Exception Questionnaire**.
 
-2.  Click **New**.
+2.  Select **New**.
 
-    \[Omitted image "exception-quest-new.png"\] Alt text: New exception questionnaire
-
-    **Note:** Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
+    Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
 
 3.  On the form, fill in the fields.
 

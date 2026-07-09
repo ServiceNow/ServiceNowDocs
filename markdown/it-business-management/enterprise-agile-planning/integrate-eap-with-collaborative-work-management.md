@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-07-07"
+reading_time_minutes: 4
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -47,6 +47,12 @@ New sprints for the team must be created in EAP. After creating new sprints in E
 **Note:** Sprints for EAP teams are not created directly at the Agile team level. Sprints are created automatically when a Planning Interval \(PI\) is defined for the parent Agile Release Train \(ART\) in EAP and sync to CWM automatically.
 
 \[Omitted image "eap-cwm-sprints.png"\] Alt text: Sprint planning view for EAP teams in CWM.
+
+## Backlog and Hierarchy tabs for connected teams
+
+The Backlog and Hierarchy tabs in EAP remain available for teams connected to CWM, so you can continue to view and manage the team's work items in EAP.
+
+Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
 
 **Related topics**  
 

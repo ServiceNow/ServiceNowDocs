@@ -43,3 +43,10 @@ After a registration request is approved, the customer contact receives an email
 8.  Select **Submit**.
 
 
+**Related topics**  
+
+
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_Submit-businessPortal-SelfRegRequest.md)
+
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset-businessportal.md)
+

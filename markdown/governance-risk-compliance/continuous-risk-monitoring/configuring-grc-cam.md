@@ -1,5 +1,5 @@
 ---
-title: Configuring CAM
+title: Configure
 description: Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Configuring CAM
+# Configure
 
 Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.
 

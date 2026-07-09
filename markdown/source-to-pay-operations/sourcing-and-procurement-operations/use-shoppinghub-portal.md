@@ -85,7 +85,7 @@ To ensure that your customers receive the focused Shopping Hub email notificatio
 
 [Using Procurement Case Management]()
 
-[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace]()
+[Working with SPO playbooks in the Source-to-Pay Workspace]()
 
 [Using Spend and Savings Management]()
 

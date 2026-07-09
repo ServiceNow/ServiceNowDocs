@@ -1,6 +1,6 @@
 ---
 title: Using Telecommunications Service Operations Management
-description: Leverage Telecommunications Service Operations Management \(TSOM\) to proactively monitor telecom services, validate data integrity, and reconcile discrepancies across network inventory and discovery sources. TSOM enables operations teams to maintain an accurate telecom-aware CMDB and act on real-time network insights.
+description: Use Telecommunications Service Operations Management \(TSOM\) to proactively monitor telecom services, validate data integrity, and reconcile discrepancies across network inventory and discovery sources. TSOM enables operations teams to maintain an accurate telecom-aware CMDB and act on real-time network insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/using-tsom.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Telecommunications Service Operations Management]
 
 # Using Telecommunications Service Operations Management
 
-Leverage Telecommunications Service Operations Management \(TSOM\) to proactively monitor telecom services, validate data integrity, and reconcile discrepancies across network inventory and discovery sources. TSOM enables operations teams to maintain an accurate telecom-aware CMDB and act on real-time network insights.
+Use Telecommunications Service Operations Management \(TSOM\) to proactively monitor telecom services, validate data integrity, and reconcile discrepancies across network inventory and discovery sources. TSOM enables operations teams to maintain an accurate telecom-aware CMDB and act on real-time network insights.
 
 ## Common operational tasks of TSOM
 
@@ -25,7 +25,7 @@ Once TSOM is configured, you can use its capabilities to:
 -   Use Telecom Discovery Patterns: Apply Telecom Discovery Patterns to accurately discover and populate telecom-specific Configuration Items \(CIs\) and their relationships.
 -   Run and verify import jobs from service graph connectors: Manually trigger import schedules \(e.g., for the Nokia Altiplano connector\) to verify that topology and device data is successfully imported into the CMDB and mapped to the correct CI classes.
 
-These tasks help ensure that your telecom network is continuously synchronized, accurate, and operationally visible within ServiceNow.
+These tasks help verify that your telecom network is continuously synchronized, accurate, and operationally visible within ServiceNow.
 
 -   **[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)**  
 Use Telecom Discovery patterns to identify and classify network functions \(xNFs\) from vendor devices such as Cisco, Juniper, routers, or switches. Leverage pattern-based discovery to map telecom resources into the CMDB.

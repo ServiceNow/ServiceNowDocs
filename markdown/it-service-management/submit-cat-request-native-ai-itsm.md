@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience using Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience in Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Submit a catalog item request in Employee Center
@@ -33,5 +33,5 @@ Role required: none
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Employee experience using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
 

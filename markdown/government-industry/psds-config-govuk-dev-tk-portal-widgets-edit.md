@@ -61,5 +61,3 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 
 The cloned widget is created and can be added to any page that has been created in the portal. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
 
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets.md)
-

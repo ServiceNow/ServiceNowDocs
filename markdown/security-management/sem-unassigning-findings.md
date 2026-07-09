@@ -24,13 +24,13 @@ Use the **Unassign** option when a finding or remediation task is not relevant t
 
 ## Unassigning from findings and remediation tasks
 
-You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the More options menu \(\[Omitted image "more-actions-icon.png"\] Alt text: Vertical dots\).
+You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the **More** options menu.
 
 **Supported Records**:
 
 -   **Remediation tasks**: When a remediation task is unassigned, all associated findings with the same assignment group are also unassigned.
 
-    **Note:** Items with a different assignment group than their remediation task are not unassigned, as they are likely manually assigned.
+    **Note:** Items with a different assignment group than their remediation task aren't unassigned, as they are likely manually assigned.
 
 -   **Findings**: Records unassigned manually or via UI appear under the **Unassigned** module.
 
@@ -77,10 +77,6 @@ To view reassignment counts:
 5.  Use the gear icon to add both reassignment columns to the list view.
 
 Each reassigned record retains a reference to its original assignment rule. The list view displays reassignment counts for each assignment rule, helping you identify rules that may need adjustment.
-
-The following example shows reassignment counts for two assignment rules.
-
-\[Omitted image "vr-reassignment-counts.png"\] Alt text: Reassignment counts for two assignment rules for Vulnerability Response VITs.
 
 **Parent Topic:**[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md)
 

@@ -27,7 +27,7 @@ You can disable header properties detection for a data input. In this case, the 
 -   The header contains information needed for structuring the log.
 -   The data input forwards the logs fully parsed.
 
-For the procedure to disable header properties detection, see [Map raw log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+For the procedure to disable header properties detection, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 **Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

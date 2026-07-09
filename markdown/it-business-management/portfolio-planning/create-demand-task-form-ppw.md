@@ -1,6 +1,6 @@
 ---
-title: Create demand task form
-description: The demand task form information is used to create a demand task for the demand.
+title: Demand task form
+description: The Demand Task form enables you to create or modify a demand task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-demand-task-form-ppw.html
 release: australia
@@ -9,12 +9,12 @@ classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create demand task form
+# Demand task form
 
-The demand task form information is used to create a demand task for the demand.
+The Demand Task form enables you to create or modify a demand task.
 
 <table id="demand_task_form_fields"><thead><tr><th>
 
@@ -26,15 +26,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Short description
+**Short description**
 
 </td><td>
 
-A brief summary of the task, which helps quickly identify the purpose or nature of the work.
+Brief summary of the task.
 
 </td></tr><tr><td>
 
-Assignment group
+**Assignment group**
 
 </td><td>
 
@@ -42,7 +42,7 @@ Team or group responsible for handling the task.
 
 </td></tr><tr><td>
 
-Number
+**Number**
 
 </td><td>
 
@@ -50,38 +50,37 @@ System-generated ID number with a configurable prefix.
 
 </td></tr><tr><td>
 
-Assigned to
+**Assigned to**
 
 </td><td>
 
-Primary resource responsible for executing or progressing the task. The following conditions apply:-   If an assignment group is defined, users in the assignment group are listed.
+Resource responsible for executing or progressing the task. The following conditions apply:-   If an assignment group is defined, users in the assignment group are listed.
 -   If skills are defined, users with those skills are listed.
--   If no assignment groups or skills are defined, users with one of the Project Management application user roles are listed.
 -   Users with the timecard\_user role are also listed.
 
 </td></tr><tr><td>
 
-Priority
+**Priority**
 
 </td><td>
 
-Indicates the urgency and importance of the task. Determines how quickly it should be addressed.
+Urgency and importance of the task such as high, moderate, or low.
 
 </td></tr><tr><td>
 
-Additional assignee list
+**Additional assignee list**
 
 </td><td>
 
-Users assigned to the demand task in addition to the single primary resource defined in the **Assigned to** field.
+Users assigned to the demand task and the single primary resource defined in the **Assigned to** field.
 
 </td></tr><tr><td>
 
-State
+**State**
 
 </td><td>
 
-Current state of the demand task. All new demand task records are created in the Open state.The states include:
+Current state of the demand task. All new demand task records are created in the **Open** state.The available values are:
 
 -   Pending
 -   Open
@@ -92,11 +91,11 @@ Current state of the demand task. All new demand task records are created in the
 
 </td></tr><tr><td>
 
-Category
+**Category**
 
 </td><td>
 
-Category of the demand task.The categories include:
+Category of the demand task.The available values are:
 
 -   Initial review
 -   Effort estimate
@@ -106,31 +105,31 @@ Category of the demand task.The categories include:
 
 </td></tr><tr><td>
 
-Due date
+**Due date**
 
 </td><td>
 
-The expected completion date and time for the task.
+Expected completion date and time for the task.
 
 </td></tr><tr><td>
 
-Actual effort
+**Actual effort**
 
 </td><td>
 
-The actual time spent working on the demand task, which is derived from the approved time card for this demand task.You must add this field by personalizing the Create New Demand Task form as this field doesn’t appear by default on the form.
+Actual time spent on the demand task, derived from the approved time card.If this field doesn't appear by default, you need to customize the Demand Task form.
 
 </td></tr><tr><td>
 
-Actual cost
+**Actual cost**
 
 </td><td>
 
-The actual cost of the demand task derived from the number of hours worked and hourly rate of the resource as defined in the rate card. In the absence of a rate card, the hourly rate is derived from the default labor rate card or default system property.
+Actual cost of the demand task, derived from hours worked and the hourly rate defined in the rate card. If no rate card is defined, the hourly rate comes from the default labor rate card or default system property.
 
 </td></tr><tr><td>
 
-Description
+**Description**
 
 </td><td>
 
@@ -138,11 +137,11 @@ Brief description of the demand task.
 
 </td></tr><tr><td>
 
-Work notes
+**Work notes**
 
 </td><td>
 
-Information about the demand task. Work notes are added throughout the demand management life cycle to communicate with other users associated with the demand.
+Information about the demand task.
 
 </td></tr></tbody>
 </table>

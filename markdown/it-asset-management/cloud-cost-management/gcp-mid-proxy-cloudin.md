@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring access to CI data on your Google Cloud account, Configure Cloud Cost Management for Google Cloud, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configuring access to CI data on your Google Cloud account, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Proxy server configuration for Cloud Cost Management MID Server

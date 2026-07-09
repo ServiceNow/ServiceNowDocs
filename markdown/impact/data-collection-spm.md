@@ -23,3 +23,12 @@ Perform the steps in the following order:
 
 You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md).
 
+-   **[Install the Data Collection Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-spm-install.md)**  
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+-   **[Configure Data Collection for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-spm-config.md)**  
+Configure Data Collection for SPM.
+-   **[Activate Data Collection for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-spm-activate.md)**  
+Activate the Data Collection Pack for SPM after you enable and configure it.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+

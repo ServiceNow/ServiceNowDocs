@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-func-arch.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -86,5 +86,5 @@ The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open
 -   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/entitlement-api.md).
 -   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/lead-api.md).
 -   Order API: See [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/order_csm-api.md).
--   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales_agreement-api.md).
+-   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales_agreement-api.md)
 

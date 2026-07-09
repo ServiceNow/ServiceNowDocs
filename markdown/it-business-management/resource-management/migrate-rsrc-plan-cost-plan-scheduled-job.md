@@ -1,5 +1,5 @@
 ---
-title: Activate a scheduled job to migrate resource plans and cost plans
+title: Scheduled job to migrate resource plans and cost plans
 description: Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Activate a scheduled job to migrate resource plans and cost plans
+# Scheduled job to migrate resource plans and cost plans
 
 Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands to resource assignments and attribute-based cost plans.
 
@@ -37,5 +37,5 @@ Role required: admin
     Alternatively, you can [migrate resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md) and [migrate operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-operational-rsrc-plans.md) for required projects and demands.
 
 
-**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

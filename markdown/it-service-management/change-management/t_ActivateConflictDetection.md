@@ -51,7 +51,7 @@ Several types of components are installed with Change Management - Collision Det
 
 [Activate Change Management - State Model]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

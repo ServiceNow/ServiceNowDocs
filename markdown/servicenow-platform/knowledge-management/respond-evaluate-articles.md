@@ -20,6 +20,8 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
 
+Role required: none
+
 ## Procedure
 
 1.  On the Now Mobile app, tap **Information**.
@@ -50,7 +52,7 @@ Mark an article as helpful or unhelpful
 
 </td><td>
 
-Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon\).
+Tap the helpful icon or the not helpful icon.
 
 </td></tr><tr><td>
 
@@ -74,7 +76,7 @@ Like a comment on the article
 
 </td><td>
 
-Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon\).
+Underneath a comment, tap the like icon
 
 </td></tr><tr><td>
 
@@ -82,7 +84,7 @@ Reply to a comment on the article
 
 </td><td>
 
-Underneath a comment, tap the reply icon \(\[Omitted image "reply-comment-now-mobile.png"\] Alt text: Reply icon\), enter your comment in the text box that appears, and then tap **Submit**.
+Underneath a comment, tap the reply icon , enter your comment in the text box that appears, and then tap **Submit**.
 
 </td></tr><tr><td>
 
@@ -90,7 +92,7 @@ Delete any previous comments or replies you posted earlier
 
 </td><td>
 
-Go to a comment or reply, and then tap the delete icon \(\[Omitted image "delete-comment-now-mobile.png"\] Alt text: Delete icon\). If a message appears, tap **OK**. Only users who have posted the comment, knowledge administrators, and knowledge owners can delete a comment.
+Go to a comment or reply, and then tap the delete icon . If a message appears, tap **OK**. Only users who have posted the comment, knowledge administrators, and knowledge owners can delete a comment.
 
 </td></tr><tr><td>
 

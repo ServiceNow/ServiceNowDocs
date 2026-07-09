@@ -65,5 +65,5 @@ Your MID Server supports the Certificate Inventory and Management and GenerateCS
 
 ## What to do next
 
-[Configure System Properties for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md), to complete the configuration for automatic certificate renewal.
+[Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md), to complete the configuration for automatic certificate renewal.
 

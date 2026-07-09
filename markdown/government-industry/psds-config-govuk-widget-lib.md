@@ -1,159 +1,28 @@
 ---
-title: GOV.UK Developer Toolkit GDS Service Portal Widget Library
+title: GOV.UK Design System Service Portal Widget Library
 description: Configurable Portal widgets provide you with the ability to configure the behavior, content, and layout of the GDS Service Portal by configuring widget settings and instance options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-widget-lib.html
 release: australia
 topic_type: concept
 last_updated: "2026-06-01"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [GOV.UK Developer Toolkit reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# GOV.UK Developer Toolkit GDS Service Portal Widget Library
+# GOV.UK Design System Service Portal Widget Library
 
 Configurable Portal widgets provide you with the ability to configure the behavior, content, and layout of the GDS Service Portal by configuring widget settings and instance options.
 
-Service Portal uses widgets for configuration. When you configure a page or a widget for a portal in the Service Portal Configuration page, you use Service Portal widgets to do so.
+Service Portal uses widgets for configuration. When you configure a page or a widget for a portal on the Service Portal Configuration page, you use Service Portal widgets to do so. The following is a list of base-system widgets that are included with the toolkit that enable you to configure various pages within the GDS Service Portal, and their instance options.
 
-**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/widget-dev-guide.md).
-
-The following is a list of base-system widgets that are included with the toolkit that enable you to configure various pages within the GDS Service Portal, and their instance options.
-
-## Widget Name
-
-Description.
-
-Instance Options per widget.
-
-Page to configure.
-
-<table id="table_tll_jp2_5y"><thead><tr><th>
-
-Widget
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
- 
-
-</td><td>
-
-Display access key features and pages from any place in portal. It shows logo, search, profile, and others on level 1 of the header, and menu items on level 2 of the header.The appearance of menu items in level 2 of the header is determined by the Portal Mega Menu widget selected.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-The menu on the header of the portal home page to navigate to different pages. It displays topics in a menu format organized hierarchically.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Display taxonomy topics along with the articles and catalog items related to them.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Banner to display the announcements, new product or feature highlights, and important information on the top of the page.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays multiple banners in a carousel to display information on multiple announcements, features, and products.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Display different links for quick access including links to a knowledge article, a catalog item, a custom page, or an external URL. You can also select different layouts for quick links cards.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Display a list of articles for quick access. Articles can be selected based on featured articles, most viewed articles and more criteria or can be selected manually.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays catalog items for important request items based on the criteria.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays case records according to the filter criteria. You can display case details such as state, update, date, and more in a card format.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays a list of cases, appointments, work orders, or other records from any ServiceNow table in list or card format.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays a list of frequently asked articles from a selected knowledge table that are categorized based on knowledge article category or related product.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Display important information at the bottom of each page. The information includes company information and logo, site links, external links, and social media links.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Display key information of a record from the tables available on ServiceNow® table. Your users can also take related actions on the selected record.
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Displays topics as cards on your portal page enabling your users to access knowledge articles and catalog items related to a topic displayed on your portal in a Portal Browse Taxonomy widget.
-
-</td></tr></tbody>
-</table>You can use these widgets as is, or you can duplicate and edit them to suit your needs. For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
+You can use these widgets as is, or you can duplicate and edit them to suit your needs. For information on how to clone and edit a default GDS Service Portal widget, see [Customize Widgets for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.md).
 
 For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
 
-There are ? main categories of widgets available for use with the GDS Service Portal.
+**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/widget-dev-guide.md).
+
+There are five main categories of widgets available for use with the GDS Service Portal.
 
 ## Service Catalog widgets
 
@@ -240,5 +109,5 @@ Adding a widget to a page creates a new Widget Instance, as well as a record on 
 
 You can use widget instances to configure the location, properties, and CSS specific to that instance of the widget.
 
-For more information on configuring widget instances, see [Configure Widgets Instances for GDS Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
+For more information on configuring widget instances, see [Configure Widgets Instance Options for GOV.UK Design System Service Portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-widgets-instances.md).
 

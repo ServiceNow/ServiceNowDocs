@@ -18,7 +18,7 @@ In the navigation menu, you can select the Assets and Sensors pages to reveal su
 
 The Console opens to the Home page.
 
-\[Omitted image "image.homepage1"\] Alt text: Console Home page
+\[Omitted image "homepage1.png"\] Alt text: Console Home page
 
 The **Home** page is made up of a left-hand, expandable navigation menu and a main area; that is, the Assets Dashboard. The dashboard is divided into the following sections.
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [IT Asset Management]
+breadcrumb: [IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management
@@ -59,8 +59,8 @@ The Software Asset Management application's user interface is enhanced to make i
 Configure the various aspects of the Software Asset Management application based on the needs of your organization.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.
--   **[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)**  
-Use the classic Software Asset Management framework to manage your licenses, compliance, and optimization.
+-   **[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)**  
+Use the Software Asset Management Core UI framework to manage your licenses, compliance, and optimization.
 -   **[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-subscription.md)**  
 The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
 -   **[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-publisher-packs.md)**  
@@ -79,6 +79,4 @@ This Platform Analytics Solution contains preconfigured dashboards. These dashbo
 Use the descriptions provided to help you fill in the Software Asset Management forms.
 -   **[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
 Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

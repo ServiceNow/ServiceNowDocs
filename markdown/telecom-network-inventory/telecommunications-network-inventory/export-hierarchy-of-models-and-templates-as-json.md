@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ The Export Hierarchy feature downloads a selected inventory model or template wi
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(☰\) and select a model or inventory template category.
+2.  Select the list icon and select a model or inventory template category.
 
 3.  From the list, select the inventory model or template you want to export.
 
@@ -38,12 +38,12 @@ The Export Hierarchy feature downloads a selected inventory model or template wi
 
     The Export request record opens and displays the export status. When the **Status** field shows Completed, the exported JSON file is available as an attachment. If the attachment is not visible even though the status shows Completed, refresh the page.
 
-6.  On the right sidebar, select the attachment icon \(📎\) a download the exported JSON file.
+6.  On the right sidebar, select the attachment icon \[Omitted image "attachments-icon.png"\] Alt text: attachment icon a download the exported JSON file.
 
 
 ## Result
 
-The JSON file containing the selected model or template and all its related records is downloaded to your local system. You can import the JSON fileinto a target instance.
+The JSON file containing the selected model or template and all its related records is downloaded to your local system. You can import the JSON file into a target instance.
 
 **Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

@@ -39,8 +39,8 @@ Along with observability data, you can also add charts for data from ServiceNow 
 
 When you customize a template, a copy of the original is saved so that you can reimplement it if needed. Default dashboards display a `Certified` tag.
 
--   **[Edit observability data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/edit-service-observability-dashboards.md)**  
-Edit Service Observability dashboard templates to view different observability vendor metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
+-   **[Edit data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/edit-service-observability-dashboards.md)**  
+Edit Service Observability dashboard templates to view different observability metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
 -   **[Edit ServiceNow data on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/edit-sn-based-charts.md)**  
 Edit Service Observability dashboard templates to view data from problem and business app records on the Overview or Observability dashboards.
 -   **[Add MetricBase charts to Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/add-metric-base-charts.md)**  

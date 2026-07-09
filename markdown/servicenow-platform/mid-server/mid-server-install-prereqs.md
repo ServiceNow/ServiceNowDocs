@@ -9,7 +9,7 @@ classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 21
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install a MID Server on Windows
@@ -283,8 +283,10 @@ Modify this field if necessary. It is populated automatically by prefixing `Serv
 
     Select **Start MID Server after installation** if you want to start the MID Server immediately after installation. If you want to make additional configuration changes, before starting the MID server, leave this box unchecked. If mutual authentication was selected, the MID Server username and password fields are removed.
 
-    **Note:** If the MID Server fails to start, the cause might be a duplicate name or multiple services that point to the same executable path. This can happen when you have MID servers previously not installed through the installer. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-startup-fails.md) for details.
+    **Note:**
 
+    -   If the MID Server fails to start, the cause might be a duplicate name or multiple services that point to the same executable path. This can happen when you have MID servers previously not installed through the installer. See [MID Server fails to start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-startup-fails.md) for details.
+    -   MID Server installations require a minimum of 36 GB of RAM.
 11. Select **Mid Servers List Page**.
 
     The installer opens the MID Server list from your instance.

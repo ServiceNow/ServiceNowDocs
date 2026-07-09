@@ -24,7 +24,7 @@ Role required: admin
 
 **Important:** This agentic workflow is active by default. All fields are read-only. To modify other fields, clone the workflow. Currently, you can't edit agent prompts or provide feedback for training.
 
-Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] rolec will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
+Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfiller \[sn\_poem\_gen\_ai.now\_assist\_fulfiller\] role will get mitigation strategies using the Define PO exception mitigation strategy agentic workflow in the Now Assist panel.
 
 This workflow uses the Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
 

@@ -21,7 +21,7 @@ Before configuring mTLS authentication on the agent, you must run a series of co
 Ensure that you have performed the following tasks:
 
 1.  [Create keys and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-keys-and-certificates.md)
-2.  [Install the .pem file in the MID unified keystore and set up the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-mid-web-server.md)
+2.  [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-mid-web-server.md)
 3.  [Connect the agent to the MID Web Server using TLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/agent-mid-connect.md)
 4.  [Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md)
 5.  [Connect the agent to the MID Server using mTLS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enable-tls-agent.md)

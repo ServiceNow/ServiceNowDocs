@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Authorized SAM Provider \(ASP\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Verify the meta data for your IBM hosts
@@ -49,5 +49,5 @@ Role required: sam\_admin or sam\_user
         The meta data field updates with the correct value.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
+**Parent Topic:**[Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

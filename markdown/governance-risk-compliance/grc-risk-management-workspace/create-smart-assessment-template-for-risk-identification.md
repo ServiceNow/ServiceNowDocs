@@ -89,3 +89,5 @@ The table records selected to be assessed, otherwise known as the assessment sco
 
 [Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
 
+[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
+

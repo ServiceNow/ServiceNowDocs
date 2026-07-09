@@ -20,5 +20,5 @@ Perform the following tasks to customize Lists and manage access to the newly cr
 
 -   Add the **New** button to the APW List Menu Configuration page. For more information, see [Enable adding custom tables to the Lists menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-adding-custom-tables-to-the-lists-menu.md).
 -   Add custom tables to the Lists menu. For more information, see [Customize Lists in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customize-lists-strategic-planning-workspace.md).
--   Manage who can view the newly created categories and lists in the Lists page. For more information, see [Define audience for new lists in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/define-audience-for-new-lists-strategic-planning.md).
+-   Manage who can view the newly created categories and lists in the Lists page. For more information, see [Define audience for lists in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/define-audience-for-new-lists-strategic-planning.md).
 

@@ -41,3 +41,8 @@ Role required: sn\_customerservice.consumer
 6.  Fill in the fields on the Change Password pop-up window and select **Update**.
 
 
+**Related topics**  
+
+
+[Change your password from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/change-password-consumer-portal.md)
+

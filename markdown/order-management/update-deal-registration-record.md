@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/update-deal-registration-record.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
 
 # Update deal registration record
@@ -61,7 +61,7 @@ After a deal is created on the Partner portal and is in the **Submitted** state,
     All line items from the deal registration form are transferred to opportunity line items with the help of Primitives. To learn more about Primitives, see [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md).
 
 
-**Parent Topic:**[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 
 **Related topics**  
 

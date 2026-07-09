@@ -1,25 +1,25 @@
 ---
 title: Service Mapping MCP tools
-description: The Service Mapping tools, delivered as part of the Now Assist CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology and mapping gaps in natural language.
+description: The Service Mapping tools, delivered as part of the CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology, identify mapping gaps, and create new application services in natural language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-mcp-server.html
 release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-05-20"
-reading_time_minutes: 6
+last_updated: "2026-06-29"
+reading_time_minutes: 8
 keywords: [MCP Server, Service Mapping, Claude, Model Context Protocol, AI assistant, application service topology, MCP Server Console, CMDB MCP Server]
 breadcrumb: [AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping MCP tools
 
-The Service Mapping tools, delivered as part of the Now Assist CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology and mapping gaps in natural language.
+The Service Mapping tools, delivered as part of the CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology, identify mapping gaps, and create new application services in natural language.
 
-The Service Mapping MCP tools provide query-based processes for investigating and visualizing service topology, by implementing the Model Context Protocol \(MCP\) on the ServiceNow AI Platform. The MCP gives AI clients structured, secured, tool-based access to your data in the ServiceNow® instance.
+The Service Mapping MCP tools provide query and create processes for investigating, visualizing, and building service topology, by implementing the Model Context Protocol \(MCP\) on the ServiceNow AI Platform. The MCP gives AI clients structured, secured, tool-based access to your data in the ServiceNow® instance.
 
-The admin sets up the Now Assist CMDB MCP Server in the MCP admin console, then users can connect Claude Desktop, and use it to query in natural language. Claude selects the appropriate tool, retrieves live data directly from the ServiceNow® instance over OAuth 2.0 and JWT authentication, and presents the results in several visualizations.
+The admin sets up the CMDB MCP Server, then users can connect Claude Desktop, and use it to query in natural language and create services. Claude selects the appropriate tool, retrieves live data or creates records directly from the ServiceNow® instance over OAuth 2.0 and JWT authentication, and presents the results in several visualizations or confirmations.
 
 ## Benefits
 
@@ -35,22 +35,26 @@ The admin sets up the Now Assist CMDB MCP Server in the MCP admin console, then 
 
     CIs that have Configuration Management Database \(CMDB\) relationships or TCP traffic signals but have not yet been pulled into a service map are invisible to operators until something breaks. The MCP tools surface these CIs so admins can prioritize mapping work proactively.
 
+-   **Service creation at scale**
+
+    The Create Top Down Service tool enables bulk onboarding of applications without manual efforts. An admin can prompt "create 50 services from this list" and the tool creates application service records, detects entry point types \(HTTP vs TCP\), and triggers discovery.
+
 -   **Secure, role-controlled access**
 
     The MCP tools enforce the same ACLs and role permissions that govern standard ServiceNow REST API calls. Each request is executed under the authenticated user's session using caller-scoped data access \(GlideRecordSecure\). OAuth 2.0 with JWT tokens is used to authenticate the AI client connection.
 
 -   **No additional scripting required**
 
-    The five Service Mapping tools ship as part of the CMDB MCP Server scoped application. Once the server is activated and the AI client is connected, the tools are available immediately. All tools return structured, consistent responses and degrade gracefully when CMDB data is incomplete, returning partial results with a warning flag rather than a hard failure.
+    The six Service Mapping tools ship as part of the CMDB MCP Server scoped application. Once the server is activated and the AI client is connected, the tools are available immediately. All tools return structured, consistent responses and degrade gracefully when CMDB data is incomplete, returning partial results with a warning flag rather than a hard failure.
 
 
 ## How the Service Mapping MCP tools work
 
 The Service Mapping MCP tools are built on the following technical stack:
 
--   **Five scripted REST API tools**
+-   **Six scripted REST API tools**
 
-    Each tool maps to a scripted REST API endpoint under `/api/sn_sm_gen_ai/` on the ServiceNow instance. The tools are registered as REST API type tools in the MCP Server Console.
+    Five tools map to read-only scripted REST API endpoints under /api/sn\_sm\_gen\_ai/ on the ServiceNow instance. One tool, Create Top Down Service, maps to a write-enabled endpoint that creates \[cmdb\_ci\_service\_discovered\] records and triggers asynchronous Service Mapping discovery. All tools are registered as REST API type tools in the MCP Server Console.
 
 -   **MCP Framework integration**
 
@@ -62,7 +66,11 @@ The Service Mapping MCP tools are built on the following technical stack:
 
 -   **Caller-scoped data access**
 
-    Business logic is executed by the Service Mapping MCP tools, ensuring data is returned only for CIs and services the authenticated user is permitted to access. The data sources are CMDB Services tables, CMDB relationships, and TCP Traffic.
+    Business logic is executed by the Service Mapping MCP tools, ensuring data is returned only for CIs and services the authenticated user is permitted to access, and ensuring that write operations \(service creation\) are performed under the authenticated user's permissions. The data sources are CMDB Services tables, CMDB relationships, TCP Traffic, and service record creation tables.
+
+-   **Asynchronous discovery on write**
+
+    When Create Top Down Service creates a new service record, Service Mapping discovery job is initiated from the provided entry point. Discovery runs asynchronously in the background and does not block the tool response. The tool returns immediately to the AI client with the new service system ID, allowing Claude to continue with topology queries or other operations without waiting for discovery to complete.
 
 
 ## Scale limits
@@ -86,11 +94,9 @@ For application services that approach these limits, request summary data rather
 
 ## Available tools
 
-The Now Assist CMDB MCP Server provides five read-only tools. All tools are read-only and do not create, update, or delete records.
+The CMDB MCP Server provides six tools: five read-only query tools and one write tool for service creation. All tools are consumable by Claude via the MCP protocol without additional transformation.
 
-The AI client selects the appropriate tool based on the user's natural-language input and passes the required parameters. All five tools are consumable by Claude via the MCP protocol without additional transformation. The tool schemas include input and output field descriptions suitable for AI tool-calling.
-
-Access to each tool is controlled by the same ACLs that apply to the corresponding ServiceNow REST API. If the authenticated user does not have the required role, the tool returns an authorization error.
+Access to each tool is controlled by the same ACLs that apply to the corresponding ServiceNow REST API. If the authenticated user does not have the required role, the tool returns an authorization error. For detailed role requirements, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
 For detailed input and output specifications and example queries, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
 
@@ -130,21 +136,25 @@ For detailed input and output specifications and example queries, see [Service M
 
     \[Omitted image "sm-mcp-impact-vs-unmapped.png"\] Alt text: Side-by-side comparison: on the left, get\_server\_impact\_graph showing 35 CMDB-modeled edges and 25 CIs; on the right, get\_unmapped\_topology showing 0 traffic-only edges for the same server, confirming full CMDB coverage.
 
+-   **createTopDownService**
+
+    Creates a new application service from a single entry point \(HTTP URL or TCP host and port\). Automatically detects entry point type, validates inputs, and triggers Service Mapping discovery asynchronously. Use this tool to onboard applications in bulk, stand up services on demand, or automate service creation workflows. For detailed information, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md).
+
 
 ## Setting up the Service Mapping MCP tools
 
 Setting up the Service Mapping MCP tools involves sequential tasks performed by a system administrator, followed by a connection step performed by each Service Mapping user.
 
-\[Omitted image "mcp-server-flow.png"\] Alt text: Setup flow diagram: the admin installs the plugin, configures the role hierarchy, activates the Now Assist CMDB MCP Server. The user connects Claude Desktop and call the MCP tools.
+\[Omitted image "mcp-server-flow.png"\] Alt text: Setup flow diagram: the admin installs the plugin, configures the role hierarchy, activates the CMDB MCP Server. The user connects Claude Desktop and calls the MCP tools.
 
 -   **[Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md)**  
-Configure the role containment chain and assign the required roles to users so they can connect to the Now Assist CMDB MCP Server and call the Service Mapping MCP tools.
--   **[Activate the Now Assist CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)**  
-Activate the Now Assist CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow® instance and query application service data.
+Configure the role containment chain and assign the required roles to users so they can connect to the CMDB MCP Server and call the Service Mapping MCP tools.
+-   **[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)**  
+Activate the CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow® instance and query application service data.
 -   **[Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)**  
 Add the Service Mapping MCP Server as a custom connector in Claude Desktop so you can query application service data from your ServiceNow® instance in natural language.
 -   **[Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)**  
-Reference information for the five Service Mapping MCP tools provided by the Now Assist CMDB MCP Server, including their inputs, outputs, and example natural-language queries for use with Claude.
+Reference information for the six Service Mapping MCP tools provided by the CMDB MCP Server, including their inputs, outputs, and example natural-language queries for use with Claude, and service creation workflows.
 
 **Parent Topic:**[AI capabilities in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

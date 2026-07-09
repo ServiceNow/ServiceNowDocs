@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Manage asset-centric work tasks using work order plans
@@ -43,6 +43,4 @@ The work order plan workflow involves the following stages:
 Create a reusable work order plan template to use when creating work order plans.
 -   **[Create a work order plan for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.md)**  
 Create and manage a work order plan to organize, assign, schedule, and track complex asset tasks for enterprise assets and asset groups.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

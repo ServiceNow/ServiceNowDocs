@@ -1,5 +1,5 @@
 ---
-title: Assign a record producer form for a request type of a change task
+title: Assign a record producer form to a change task
 description: Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/assign\_record\_producer\_form\_for\_a\_change\_task\_of\_a\_change\_request.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Decision tables, Configure, Telecommunications Network Inventory]
 ---
 
-# Assign a record producer form for a request type of a change task
+# Assign a record producer form to a change task
 
 Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 

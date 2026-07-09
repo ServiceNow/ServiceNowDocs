@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Move an automation request to the In progress state
@@ -41,5 +41,5 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 Update the **Automation** field in the automation request form. This field is visible only when the state of the automation request is **In progress**. For more information, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
 

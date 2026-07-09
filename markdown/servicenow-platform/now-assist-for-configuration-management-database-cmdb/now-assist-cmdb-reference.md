@@ -18,6 +18,8 @@ Reference topics provide additional information about the property settings that
 
 -   **[Property settings for Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md)**  
 List of system properties for the agents used by Now Assist for CMDB agents.
+-   **[Analyze impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-impact-analysis-ref.md)**  
+Reference information for the analyze impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
 
 **Parent Topic:**[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 

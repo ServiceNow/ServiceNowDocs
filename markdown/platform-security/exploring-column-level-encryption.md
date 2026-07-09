@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-column-level-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-06-26"
+reading_time_minutes: 4
 breadcrumb: [Column Level Encryption, Encryption]
 ---
 
@@ -206,7 +206,15 @@ Updated `getDisplayValue()` and `setDisplayValue()` APIs
 security admin, developer
 
 </td></tr></tbody>
-</table>-   **[Column Level Encryption Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cle-tour.md)**  
+</table>## Cloning considerations
+
+When you clone an instance that uses Column Level Encryption, the encrypted field data and encryption modules are copied to the target instance. Because encryption keys are re-encrypted with a secondary key that is unique to the source instance, the target instance can't decrypt the field data after cloning.
+
+Until a key exchange is performed, encrypted fields on the cloned instance appear empty or unreadable. This is expected behavior and does not indicate data corruption or loss.
+
+To restore access to encrypted fields on the target instance, complete a key exchange from the source instance. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-exchange.md).
+
+-   **[Column Level Encryption Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cle-tour.md)**  
 The tour gives a brief overview of the Column Level Encryption setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Overview course.​
 -   **[Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-platform-encryption-2.md)**  
 Column Level Encryption Enterprise uses the Key Management Framework \(KMF\) to enable you to customize and manage how fields and attachments are encrypted and decrypted on your instance. A subscription is required to use Column Level Encryption Enterprise.

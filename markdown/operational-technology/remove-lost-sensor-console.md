@@ -38,13 +38,13 @@ Role required: admin
 
 6.  If the select Sensor is associated to a Site, a warning prompt opens.
 
-    \[Omitted image "image.remove-sensor-warning1"\] Alt text: Warning
+    \[Omitted image "remove-sensor-warning1.png"\] Alt text: Warning
 
     Removing a Sensor that is associated to a Site can't be undone.
 
 7.  If you still intend to remove the Sensor, select **Continue**.
 
-    \[Omitted image "image.remove-second-warning2"\] Alt text: Remove the Sensor
+    \[Omitted image "remove-second-warning2.png"\] Alt text: Remove the Sensor
 
 8.  Select the **Remove Sensor** button to complete the removal.
 

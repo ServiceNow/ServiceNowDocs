@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-crm-entity-outlook.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [ServiceNow CRM for Outlook, create lead, create contact, create and associate]
 breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]

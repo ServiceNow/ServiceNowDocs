@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-conversations\_store.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -29,9 +29,7 @@ The Conversations feature in ServiceNow Impact provides a structured, human-assi
 
 This channel gives users direct access to expert guidance on platform health, business goals, and future planning.
 
-**Note:**
-
-Messages flow between the Impact Store Application and the *Impact Delivery Instance* via Service Bridge, so users and squad members see the same conversation regardless of where they send messages.
+**Note:** Messages flow between the Impact Store Application and the *Impact Delivery Instance* via Service Bridge, so users and squad members see the same conversation regardless of where they send messages.
 
 **Related topics**  
 

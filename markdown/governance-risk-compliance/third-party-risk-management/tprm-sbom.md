@@ -52,7 +52,7 @@ The following constraints apply to SBOM collection:
 
 Availability of SBOM- related functionality depends on activated applications and configuration. The core due diligence workflow operates independently of SBOM processing.
 
-SBOM collection capabilities are available separately. Check your entitlements to determine whether you have access to SBOM collection capabilities. All required applications are available from the ServiceNow Store and must be installed individually.
+SBOM collection capabilities are procured separately from Third-party Risk Management. All required applications are available from the ServiceNow Store and must be installed individually.
 
 The following applications are required to collect and process SBOM files:
 
@@ -75,7 +75,7 @@ The following additional applications are required to view vulnerability details
 
 [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md)
 
-[Review a software bill of materials submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
+[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
 
 [SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
 

@@ -56,7 +56,7 @@ Each business application or an application service you interact with provides a
 
 [Connect a digital interface with the CMDB API in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relate-dig-interface-api.md)
 
-[Manage architectural artifacts of a digital interface in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
+[Manage architectural artifacts of a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
 
 [Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
 

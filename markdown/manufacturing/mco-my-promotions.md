@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # My promotions
@@ -40,9 +40,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 7.  To reuse the sales promotion details, select **Copy**.
 
-
--   **[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md)**  
-Agents workspace enables the manufacturer to create a checklist for verification.
-
-**Parent Topic:**[Sales promotion management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sls-pro-mgmt.md)
 

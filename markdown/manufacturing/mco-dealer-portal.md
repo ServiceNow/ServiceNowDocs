@@ -1,5 +1,5 @@
 ---
-title: Dealer portal
+title: Dealer landing page
 description: The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-dealer-portal.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
 
-# Dealer portal
+# Dealer landing page
 
 The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
 
@@ -120,10 +120,11 @@ User Profile
 Display user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/user-profile-widget.md).
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>## What to explore next
 
+To learn more about configuring and using dealer portal, see:
 
-[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/dealer-data-model-overview.md)
-
-[Dealer management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md)
+-   [Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/dealer-data-model-overview.md)
+-   [Configure dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-configure-dealer-portal.md)
+-   [Using dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-use-dealer-portal.md)
 

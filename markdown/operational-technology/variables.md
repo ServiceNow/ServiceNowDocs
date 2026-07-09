@@ -62,7 +62,7 @@ You can import or export variable sets. You can select either the JSON or CSV fo
 
 \[Omitted image "action-button-variable-sets.png"\] Alt text: Action button
 
-When you export Variable sets in either JSON or CSV format, you are prompted to include encrypted password variables. If you select yes, the values are exported as plain text. If you select no, the export excludes encrypted password variables.
+When you export Variable sets in either JSON or CSV format, you're prompted to include encrypted password variables. If you select yes, the values are exported as plain text. If you select no, the export excludes encrypted password variables.
 
 \[Omitted image "export-variable-sets.png"\] Alt text: Export prompt
 
@@ -71,4 +71,6 @@ If the encrypted password is exported as plain text, it is no longer hidden and 
 **Note:** Encrypted Variable values in Variable Sets are obscured. Encrypted values display as dots when set to encrypted.
 
 \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
+
+**Note:** For information on creating a Site-specific Variable set, refer to [Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/creating-site-specific-variable-set.md).
 

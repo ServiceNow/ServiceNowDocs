@@ -23,11 +23,11 @@ Role required: sn\_sec\_gen\_ai.qa\_reviewer
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Security Incident Response Workspace**.
 
 2.  Open a security incident that is assigned to you.
 

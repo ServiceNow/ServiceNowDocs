@@ -1,6 +1,6 @@
 ---
-title: Map raw log data in Health Log Analytics
-description: Mapping raw log data that streams into your instance determines how the data is handled. Health Log Analytics automatically structures logs, creates metrics for anomaly detection, and presents alerts based on how your data is tagged.
+title: Map raw log data manually
+description: Mapping raw log data that streams into your ServiceNow instance determines how Health Log Analytics processes the data. If HLA doesn't discover properties automatically, you can map data input sources manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-mapping.html
 release: australia
@@ -8,14 +8,14 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
-keywords: [ServiceNow, Health Log Analytics, HLA, logs, mapping, auto-map, data input, source type, JavaScript]
+reading_time_minutes: 9
+keywords: [ServiceNow, Health Log Analytics, HLA, logs, manual mapping, auto-mapping, data input, source type, JavaScript function]
 breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Map raw log data in Health Log Analytics
+# Map raw log data manually
 
-Mapping raw log data that streams into your instance determines how the data is handled. Health Log Analytics automatically structures logs, creates metrics for anomaly detection, and presents alerts based on how your data is tagged.
+Mapping raw log data that streams into your ServiceNow instance determines how Health Log Analytics processes the data. If HLA doesn't discover properties automatically, you can map data input sources manually.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-By default, Health Log Analytics tries to [auto-map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md) every incoming log line to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function.
+Health Log Analytics structures logs, creates metrics for anomaly detection, and presents alerts based on how your data is tagged. By default, HLA tries to [auto-map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md) every incoming log line to the correct tag. To manually map data input sources when the system doesn't automatically discover properties, create a JavaScript function.
 
 In the JavaScript function, you're required to map only the service instance \(here called application service\). Mapping the component and the source type is optional: Health Log Analytics tries to extract their values from the log data automatically. If the attempt fails, it assigns the default values. If you map the component but not the source type or vice versa, the system tries to extract the missing value from the log data. If it fails, it assigns the component value to the source type or vice versa, depending on which one you have mapped. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
@@ -67,7 +67,7 @@ In the JavaScript function, you're required to map only the service instance \(h
 
     **Note:**
 
-    -   Automatic log context mapping can only be configured in the Service Operations Workspace. For more information about this feature, see [Map logs to service instances, components, and source types for contextual alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+    -   Automatic log context mapping can only be configured in the Service Operations Workspace. For more information about this feature, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
     -   If a manually-defined mapping script exists, automatic log context mapping overwrites it.
     -   To be able to define a JavaScript function manually in the current form, the **Enable auto map from log field** check box must be clear.
 8.  Define a JavaScript function that maps your data input sources to the correct service instance \(here called application service\), component, and source type.
@@ -125,7 +125,7 @@ Object that contains: -   Event Stream: Access via: &lt;metadata value&gt;. For 
 
         -   Return type and structure
 
-            **Note:** The JavaScript function returns a map of two entries. Do not change this return structure.
+            **Note:** The JavaScript function returns a map of two entries. Don't change this return structure.
 
 <table id="table_z3g_fs1_24b"><thead><tr><th>
 
@@ -192,7 +192,7 @@ The new script is automatically added to the list of JS function templates from 
 
 ## What to do next
 
--   \(Optional\) [Edit your raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics maps and structures it. If you want to perform this task immediately, click the **Go to Preprocessor** related link to proceed to the **Data Input Preprocessor** page.
+-   \(Optional\) [Edit your raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics maps and structures it. If you want to perform this task immediately, select the **Go to Preprocessor** related link to proceed to the **Data Input Preprocessor** page.
 -   \(Optional\) Fine-tune how the system reads your log data by [refining the Source Type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md). This step enables you to reclassify auto-classified properties and change auto-mapped labels.
 
 **Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
@@ -202,7 +202,7 @@ The new script is automatically added to the list of JS function templates from 
 
 [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 
-[View the relationships between source types and log sources in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)
+[Source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)
 
 [Header properties detection in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-header-detection.md)
 

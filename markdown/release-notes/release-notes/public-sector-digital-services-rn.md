@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 9
 ---
 
 # Public Sector Digital Services release notes
@@ -14,6 +14,9 @@ The ServiceNow® Public Sector Digital Services application enables government a
 
 ## Public Sector Digital Services highlights for the Australia release
 
+-   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
+-   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
+-   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
 -   Enable other governments to launch citizen-facing services using the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow UK GDS guidelines, enabling ServiceNow developers to build compliant service portals for UK government customers.
 
 -   Submit funding and decline recommendations, as a Grant Program Manager for any scored subset of proposals as a Funding Allocation Request, enabling incremental funding decisions without waiting for the entire portfolio to complete review. The Grant Program Director can approve or reject each request, with rejected proposals returning to the working queue for future consideration.
@@ -64,6 +67,10 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
     Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
 
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
+
+    Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
+
 -   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
 
     Several new granular admin roles enable admins to complete administrative configuration tasks on the Public Sector Digital Services platform without requiring the full admin role. These granular access roles enable a high-level administrator to define and assign custom roles that contain only the specific permissions a user needs, decreasing the number of users with full administrative power over the instance. For more information on granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
@@ -84,8 +91,30 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
     UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update verifies backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, and better filtering across service flows.
 
+-   **[Enhancements to Investigative Case Management Configurable Case role-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)**
+
+    Extend write access and restrict read access to cases based on Assigned Office, Assignment Group, or both to allow automatic case access alignment with organizational units without managing the Teams tab manually.
+
+-   **[Enhancements to Document Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skill-doc-screening.md)**
+
+    Applicants can select a specific document type from a pre-configured, category-scoped list during upload, stored on the document record and displayed read-only to internal agents in both portal and Workspace views.
+
 
 ## Changed in this release
+
+-   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Grants Management Program Budget activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Grants Management Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Grants Management Screen activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -93,8 +122,8 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information

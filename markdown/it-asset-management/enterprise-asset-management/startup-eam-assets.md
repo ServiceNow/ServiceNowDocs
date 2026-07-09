@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Startup work type, Start up work order task]
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Start up enterprise assets after maintenance activities

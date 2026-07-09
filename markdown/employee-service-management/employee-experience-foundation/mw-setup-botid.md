@@ -42,7 +42,7 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
 
     \[Omitted image "mw-embed-ai-botid.png"\] Alt text: Example for illustration purpose only, Embedded AI Assistant setup for Moveworks
 
-    You can configure initialization options according to your requirement. For example, for custom width and height,
+    You can configure initialization options, for example, To adjust width and height
 
     ```
     
@@ -55,11 +55,11 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     
     ```
 
-    For complete configuration with branding,
+    For complete configuration with branding
 
     ```
     
-    {
+    {"integrationId":"securitytest5"
     "styles": {
        "bottom": "30px",
        "right": "30px",
@@ -71,6 +71,10 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     }
     }
     ```
+
+    **Note:**
+
+    The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
 
 4.  Select **Save configuration**.
 

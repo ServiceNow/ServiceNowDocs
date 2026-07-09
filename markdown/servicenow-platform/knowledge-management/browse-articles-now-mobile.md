@@ -20,6 +20,8 @@ You can browse articles within a category in the Now Mobile Information applet t
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
 
+Role required: none
+
 ## Procedure
 
 1.  Access your instance using the mobile application.
@@ -33,8 +35,6 @@ You can specify user criteria for an article to control which users can read the
 4.  Tap further categories until you view the articles list associated with the desired category.
 
     The articles associated with a parent category are grouped under a dummy child category labeled as **Other**.
-
-    \[Omitted image "knowledge-other-category.png"\] Alt text: Other category
 
 5.  To view an article, tap the article in the articles list.
 

@@ -8,8 +8,8 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 23
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+reading_time_minutes: 24
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Salesforce CRM
@@ -30,9 +30,11 @@ The supported Salesforce CRM services include
 -   Salesforce Company Community
 -   Salesforce Chatter
 
+**Note:** For Experience Cloud login-based licenses such as Customer Community and Partner Community, the integration imports Daily Unique Logins \(once per user per day\) as consumption. This metric aligns with the Salesforce contractual licensing model used for compliance calculations and overage determinations. The total login event count shown in Salesforce isn't imported, as it isn't used for licensing compliance calculations.
+
 Both Salesforce Classic and Salesforce Lightning organizations are supported.
 
-**Note:** You can track entitlements for other services that you pay for but aren’t user subscription based by using custom license metrics. See [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md) for more details on how to create a custom license metric.
+**Note:** You can use custom license metrics to track entitlements for services that aren’t based on user subscriptions. For more details on how to create a custom license metric, see [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md).
 
 The Salesforce account that you use to connect the integration requires a Salesforce user license and the following user access permissions.
 
@@ -376,15 +378,15 @@ If you’re using Software Asset Workspace, use SaaS Playbook for integrating yo
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189037e1204">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189641e1214">
 
 Interface
 
-</th><th align="left" id="d189037e1207">
+</th><th align="left" id="d189641e1217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189037e1213">
+</th></tr></thead><tbody><tr><td id="d189641e1223">
 
 **Core UI**
 
@@ -395,7 +397,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d189037e1256">
+</td></tr><tr><td id="d189641e1266">
 
 **Software Asset Workspace**
 
@@ -594,7 +596,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
@@ -623,15 +625,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189037e2135">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d189641e2148">
 
 Interface
 
-</th><th align="left" id="d189037e2138">
+</th><th align="left" id="d189641e2151">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189037e2144">
+</th></tr></thead><tbody><tr><td id="d189641e2157">
 
 **Core UI**
 
@@ -642,7 +644,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d189037e2187">
+</td></tr><tr><td id="d189641e2200">
 
 **Software Asset Workspace**
 
@@ -859,7 +861,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

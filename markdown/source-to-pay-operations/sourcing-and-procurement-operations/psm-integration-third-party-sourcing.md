@@ -67,7 +67,7 @@ Requesters can view and manage third-party Request for anything \(RFx\) tasks in
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

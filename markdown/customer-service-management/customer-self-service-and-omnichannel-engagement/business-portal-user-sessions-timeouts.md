@@ -8,7 +8,7 @@ product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
@@ -53,4 +53,9 @@ A user logs in and continues the session past midnight:
 |2|User logs in|No|
 |3|User session continues past midnight|**Yes**|
 |4|User logs out|No|
+
+**Related topics**  
+
+
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

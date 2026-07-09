@@ -8,8 +8,8 @@ product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [JWT Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+reading_time_minutes: 3
+breadcrumb: [JWT Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth JSON web token bearer grant
@@ -18,13 +18,13 @@ Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based aut
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: `oauth_admin, mi_admin, oauth_admin`
 
 The supported algorithms for JSON Web Token \(JWT\): RS256, RS384, RS512, ES256, ES384, ES512, HS256, HS384, and HS512.
 
 ## Procedure
 
-1.  Navigate to **Machine Identity Console** &gt; **** &gt; **Inbound integrations** &gt; **** &gt; **New integration** &gt; **JWT bearer grant**.
+1.  Navigate to **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration** &gt; **OAuth - JWT bearer grant**.
 
 2.  Update the text fields in the Details form with the appropriate information.
 
@@ -88,14 +88,6 @@ Select to require a new token every token exchange.Default: Selected.
 
 </td></tr><tr><td>
 
-**JWKS URL**
-
-</td><td>
-
-The JSON Web key set URL. Its is a collection of public keys in JSON format. Identity providers publish a JWKS at a well-known URL so that client applications and services can retrieve the keys and validate the signatures of JSON Web Tokens \(JWTs\).
-
-</td></tr><tr><td>
-
 **JTI claim**
 
 </td><td>
@@ -104,11 +96,11 @@ Unique identifier for each token. ServiceNow uses this claim to detect and preve
 
 </td></tr><tr><td>
 
-**Comments**
+**JWKS URL**
 
 </td><td>
 
-Add relevant comments.
+The JSON Web key set URL. Its is a collection of public keys in JSON format. Identity providers publish a JWKS at a well-known URL so that client applications and services can retrieve the keys and validate the signatures of JSON Web Tokens \(JWTs\).
 
 </td></tr><tr><td>
 
@@ -116,7 +108,7 @@ Add relevant comments.
 
 </td><td>
 
-Specify the identity provider, the verification method \(such as a JWKS URL or certificate\), and the mapping of JWT claims to ServiceNow user fields. Click on the Plus icon to add or edit the maps. Provide the following details in the **JWT verifier map** page:
+Specify the identity provider, the verification method \(such as a JWKS URL or certificate\), and the mapping of JWT claims to ServiceNow user fields. Select the Plus icon to add or edit the maps. Provide the following details in the **JWT verifier map** page:
 
 -   Name- The unique name of the JWT verifier map configuration.
 -   Application - The application where the verifier map is used.
@@ -127,77 +119,38 @@ Specify the identity provider, the verification method \(such as a JWKS URL or c
 
 </td></tr><tr><td>
 
+**Comments**
+
+</td><td>
+
+Add any notes about this configuration.
+
+</td></tr><tr><td>
+
 **Active**
 
 </td><td>
 
-Select the check box to make the OAuth application active.
+Select to use for authentication and authorization requests; when unselected, the record is saved but remains inactive and will not process any requests.
 
 </td></tr></tbody>
-</table>3.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
+</table>3.  Perform the following steps to add auth scope to the configuration:
 
-<table id="table_ckp_jp4_jgc"><thead><tr><th>
+    1.  Select **Create auth scope** if you want to define a new scope.
 
-Field
+    2.  Select a scope from the **Auth scope** drop-down.
 
-</th><th>
+    3.  Enter API names in **Limit authorization to the following APIs** to narrow access.
 
-Description
+    4.  Use **+ Add another row** to assign additional scopes to your configuration.
 
-</th></tr></thead><tbody><tr><td>
+4.  Select **Allow access only to APIs in selected scope** in the Scope validation settings to restricts access to listed scopes only.
 
-**Enforce token restriction**
-
-</td><td>
-
-Select to only enable tokens to be used with APIs set to enable the authentication profile. You can set grant access using an API access policy.Default: Unselected.
-
-</td></tr><tr><td>
-
-**JWKS cache lifespan**
-
-</td><td>
-
-The duration \(in minutes\) for which ServiceNow caches the JSON Web Key Set \(JWKS\) from the identity provider.
-
-</td></tr><tr><td>
-
-**Access token lifespan**
-
-</td><td>
-
-The duration \(in seconds\) for which the access token remains valid before it expires.
-
-</td></tr><tr><td>
-
-**Clock skew**
-
-</td><td>
-
-Small differences in the system clocks of servers or devices involved in generating and validating a token can lead to issues when validating time-sensitive claims. Adjust the time above. Default value is: 0 seconds.
-
-</td></tr></tbody>
-</table>4.  Update the text fields in the Auth scope \(optional\) form with the appropriate information.
-
-    **Note:** When you select an **Auth scope**, all the associated APIs are automatically populated in the **Limit authorization** text box.
-
-    |Field|Description|
-    |-----|-----------|
-    |**Auth scope**|Access level of an application. The authentication scope restricts the actions that an access token can perform on APIs or data.|
-    |**Limit authorization**|Names of the APIs for which you want to restrict authorization.|
-    |**Allow access only to APIs in selected scope**|Enable the option for the integration to only access APIs that are explicitly listed in the selected scopes.|
-
-    1.  Select **Add another row** to add auth scopes.
-
-    2.  Select **Create new auth scope** to add a new auth scope.
-
-        Enter the name of the Auth scope in the **Scope field** text box to select the newly created Auth scope. You can manually add and edit the APIs that needs to be associated with the new Auth scope.
-
-        **Note:** Adding or editing APIs from the **Auth scope** menu affects all OAuth entities that are associated with the same authorization scope.
+    **Note:** You can choose not to select **Set Allow access only to APIs in selected scope** for broader access permitted by user controls and API policies.
 
 5.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
 
-<table id="table_ckp_jp4_jgc"><thead><tr><th>
+<table id="table_ckp_jp4_jgk"><thead><tr><th>
 
 Field
 
@@ -227,7 +180,7 @@ The duration \(in minutes\) for which ServiceNow caches the JSON Web Key Set \(J
 
 </td><td>
 
-The duration \(in seconds\) for which the access token remains valid before it expires.
+The duration \(in seconds\) for which the access token remains valid before it expires. Default value is: 1800 seconds \(30 minutes\).
 
 </td></tr><tr><td>
 
@@ -235,7 +188,7 @@ The duration \(in seconds\) for which the access token remains valid before it e
 
 </td><td>
 
-Small differences in the system clocks of servers or devices involved in generating and validating a token can lead to issues when validating time-sensitive claims. Adjust the time above. Default value is: 0 seconds.
+Small differences in the system clocks of servers or devices involved in generating and validating a token can lead to issues when validating time-sensitive claims. Adjust the time above. Default value is: 300 seconds.
 
 </td></tr><tr><td>
 
@@ -248,14 +201,12 @@ Format of token to generate. Options: -   JWT
 **Note:**
 
 -   The jwks url is available in the location: `api/now/oauth/jwks`.
--   The rotated \(inactive keys\) from jwks response after is removed after 105 days default.
+-   The rotated \(inactive keys\) from jwks response is removed after 105 days default.
 
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
     A new OAuth JSON Web Token bearer grant is created.
-
-7.  Go to **All** &gt; **Inbound integrations** &gt; **Application Registries** to view the newly created JWT bearer grant.
 
 

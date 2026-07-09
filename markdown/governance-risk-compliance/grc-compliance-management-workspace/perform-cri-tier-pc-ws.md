@@ -47,7 +47,7 @@ The CRI assessment is done in two steps:
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the lists \(\[Omitted image "ws-list-icon.png"\] Alt text: List icon.\) icon.
+2.  Select \[Omitted image "ws-list-icon.png"\] Alt text: List icon. from the sidebar.
 
 3.  From the Compliance library of Authority documents list on the left pane, select an authority document based on CRI Profile v2.0.
 
@@ -75,7 +75,7 @@ The CRI assessment is done in two steps:
 
     -   The Entity form in [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md).
     -   The Related lists in the [Entities section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
-11. Select the \[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: More actions icon. icon and click the **Initiate CRI tiering questionnaire** option.
+11. Select the More icon and click the **Initiate CRI tiering questionnaire** option.
 
 12. Enter a message in the **Message** field and select the **Initiate tiering questionnaire** button in the CRI tiering questionnaire pop-up.
 

@@ -70,7 +70,7 @@ Starting with the Zurich release, two assessment templates, **Privacy Screening 
 
 **Note:** Only published templates are available for assessments.
 
-You can publish a new version of a smart assessment template when its questionnaire, response options, or automations must change. Each version keeps a complete change history. Only one version is published at a time, so new assessments stay consistent. New assessments use the latest published version, while in-progress assessments finish against the version they were created with. For more information, see [Create a version of a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+You can publish a new version of a smart assessment template when its questionnaire, response options, or automations must change. Each version keeps a complete change history. Only one version is published at a time, so new assessments stay consistent. New assessments use the latest published version, while in-progress assessments finish against the version they were created with. For more information, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 ## Review of an assessment
 

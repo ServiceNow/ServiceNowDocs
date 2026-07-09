@@ -1,6 +1,6 @@
 ---
 title: Configure post-assessment actions
-description: The post-assessment actions feature in Smart Assessment Engine enables you to automate actions based on assessment responses. The template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
+description: Automate actions based on assessment responses in Smart Assessment Engine. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.html
 release: australia
@@ -14,12 +14,12 @@ breadcrumb: [Post-assessment automations, Use template designer, Manage, Smart A
 
 # Configure post-assessment actions
 
-The post-assessment actions feature in Smart Assessment Engine enables you to automate actions based on assessment responses. The template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
+Automate actions based on assessment responses in Smart Assessment Engine. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
 
 ## Before you begin
 
--   A subflow must be available and mapped to the assessment template category for which you want to configure post-assessment actions. For more information about how to create and build subflows, refer to [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
--   To make actions available in post-assessment workflows, link the subflow to the appropriate template category. For more information, refer to [Link subflow to template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/link-subflow-to-action-set.md).
+-   A subflow must be available and mapped to the assessment template category for which you want to configure post-assessment actions. For more information about how to create and build subflows, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+-   To make actions available in post-assessment workflows, link the subflow to the appropriate template category. For more information, see [Link subflow to template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/link-subflow-to-action-set.md).
 -   The Reusable Impact Framework plugin \(sn\_impact\_fwk\) and Post Assessment Actions for Smart Assessments plugin \(sn\_smart\_imp\_auto\) must be installed.
 
 Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_smart\_imp\_auto.automation\_creator
@@ -44,15 +44,15 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 6.  Add either a conditional action set or a standalone action set.
 
-<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d295533e151">
+<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d292842e151">
 
 Option
 
-</th><th align="left" id="d295533e154">
+</th><th align="left" id="d292842e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295533e160">
+</th></tr></thead><tbody><tr><td id="d292842e160">
 
 **Choose a conditional action set**
 
@@ -64,7 +64,7 @@ Description
 4.  Select **Save**.
  **Note:** You can select **+New condition set** to add multiple conditions.
 
-</td></tr><tr><td id="d295533e206">
+</td></tr><tr><td id="d292842e206">
 
 **Choose a standalone action set**
 
@@ -73,11 +73,11 @@ Description
 Select **Add a standalone action set**.
 
 </td></tr></tbody>
-</table>7.  If the conditional action set is selected, to set condition select **If**.
+</table>7.  To set a condition for the conditional action set, select **If**.
 
 8.  In the **Set actions** dialog box, fill in the fields as appropriate.
 
-9.  If a standalone action set is selected, to set an action by selecting **then**.
+9.  To set an action for the standalone action set, select **then**.
 
 10. Select an option for the **Action type** list.
 
@@ -85,7 +85,7 @@ Select **Add a standalone action set**.
 
     The options displayed in the **Action type** field are subflows linked to the chosen template's categories. For more information on automated actions, see [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
 
-    **Note:** Responses from dropdown, check box, radio, and attachment question types cannot be passed as action parameters because they are not supported.
+    **Note:** Responses from dropdown, check box, radio, and attachment question types cannot be passed as action parameters because they return structured or binary data that action parameters cannot accept.
 
 11. Select **Activate**.
 
@@ -93,6 +93,10 @@ Select **Add a standalone action set**.
 
     The automation is now activated, and a confirmation message is displayed. When the assessor submits the assessment, the automation you set up is executed.
 
+
+## Result
+
+The automation is activated and will execute when the assessor submits an assessment that matches the configured conditions.
 
 **Related topics**  
 

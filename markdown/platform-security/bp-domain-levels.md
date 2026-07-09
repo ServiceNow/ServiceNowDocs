@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-levels.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---

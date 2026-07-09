@@ -20,26 +20,55 @@ The CRM Outlook Add-in application packages the ServiceNow CRM for Outlook add-i
 
 ## CRM Outlook Add-in users
 
-|User|Description|
-|----|-----------|
-|Sales representative|Searches for CRM records, associates emails to track engagement, and creates leads or contacts directly from Outlook.|
-|Sales manager|Gains visibility into customer engagement and deal progression through consistently logged email interactions.|
-|CRM administrator|Configures the CRM Outlook Add-in plugin, manages user roles, and sets up email redirect rules.|
+<table id="table_sam_users"><thead><tr><th>
 
-## CRM Outlook Add-in workflow
+User
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Sales representative
+
+</td><td>
+
+Searches for CRM records, associates emails to track engagement, and creates leads or contacts directly from Outlook.
+
+</td></tr><tr><td>
+
+Sales manager
+
+</td><td>
+
+Gains visibility into customer engagement and deal progression through consistently logged email interactions.
+
+</td></tr><tr><td>
+
+CRM administrator
+
+</td><td>
+
+Configures the CRM Outlook Add-in and AI sales activity association plugins, manages user roles, and sets up email promotion rules.
+
+</td></tr></tbody>
+</table>## CRM Outlook Add-in workflow
 
 The following workflow illustration shows how a sales representative captures an inbound inquiry using the CRM Outlook Add-in.
 
 \[Omitted image "crm-outlook-add-in.svg"\] Alt text: Infographic showing how sales representatives use the CRM Outlook add-in to search CRM records, associate emails, and create new leads or contacts. For details, refer to the following description.
 
-1.  As an admin, install the CRM Outlook Add-in.
+1.  As an admin, install the CRM Outlook Add-in application.
 2.  Deploy the ServiceNow CRM for Outlook add-in using the manifest file.
-3.  Configure email promotion so that emails associated with CRM records through the ServiceNow CRM for Outlook add‑in are promoted from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.
-4.  A prospect submits an inquiry through the company website or sends an email directly to a sales representative.
-5.  The sales representative receives the email in their Outlook inbox and opens the ServiceNow CRM for Outlook add-in.
-6.  The representative searches for existing CRM records matching the sender's name, email, company, or other identifying information.
+3.  Install the User Mailbox Integration plugin.
+4.  Configure email promotion so that emails associated with CRM records through the ServiceNow CRM for Outlook add‑in are promoted from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.
+5.  A prospect submits an inquiry through the company website or sends an email directly to a sales representative.
+6.  The sales representative receives the email in their Outlook inbox and opens the ServiceNow CRM for Outlook add-in.
+7.  The representative searches for existing CRM records matching the sender's name, email, company, or other identifying information.
     -   If a matching record exists, the representative associates the email to the lead, contact, opportunity, or account.
     -   If no matching record exists, the representative creates a lead or contact record and associates the email to that record in one action.
+8.  Sales teams can view the associated email on the CSM/FSM Configurable Workspace.
 
 ## CRM Outlook Add-in benefits
 
@@ -47,8 +76,8 @@ The following workflow illustration shows how a sales representative captures an
 |--------|-------|-----|
 |Locate CRM records such as leads, opportunities, accounts, or contacts, and link emails without leaving Outlook.|[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)|Sales representative, Sales manager|
 |Capture new prospects immediately from inbound inquiries with auto-populated sender information and associate emails in a single action.|[Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)|Sales representative|
-|Promote emails from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.|[Make emails associated through the CRM Outlook Add-in visible to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)|CRM administrator|
-|View associated emails from the CRM entity records.|[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)|CRM administrator|
+|Promote emails from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.|[Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)|CRM administrator|
+|View associated emails from the CRM entity records.|[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)|Sales representative|
 
 ## What to explore next
 

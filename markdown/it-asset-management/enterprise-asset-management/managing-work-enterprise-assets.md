@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing work for your enterprise assets
@@ -28,6 +28,4 @@ Close an assigned work order by completing all work that is required for the ass
 Close multiple work order tasks in one go.
 -   **[Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md)**  
 Remediate a failed enterprise asset calibration event by initiating a new work order and corresponding work order tasks for that event.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

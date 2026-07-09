@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a root cause analysis
@@ -34,15 +34,10 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see .
+    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md).
 
 6.  Select **Save**.
 
-
--   **[Associating a task cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-task-cause-associations.md)**  
-Associate a cause to a RCA for the root cause analysis of the product non-conformance.
-
-**Parent Topic:**[Product Non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

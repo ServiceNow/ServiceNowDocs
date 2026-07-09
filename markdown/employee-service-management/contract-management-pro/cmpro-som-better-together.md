@@ -26,8 +26,8 @@ The integration provides the following benefits:
 -   Boost legal team productivity: Utilize common contract processes like review and signature to boost productivity.
 -   Reduce manual review work by using generative AI: Use AI to identify missing and non-standard clauses for reducing manual review work
 
-|Feature|Sales and order management|Contract management pro|All applications together|
-|-------|--------------------------|-----------------------|-------------------------|
+|Feature|Sales CRM|Contract management pro|All applications together|
+|-------|---------|-----------------------|-------------------------|
 |Product Catalog Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Pricing Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Lead Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
@@ -49,7 +49,7 @@ The integration provides the following benefits:
 
 The following figure shows an example workflow of how an sales agent, sales operation specialist, and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the lead-to-cash workflow. It also provides sales operation professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-\[Omitted image "mmassest0021242-SOM-CMPro-workflow.png"\] Alt text: SOM - CM Pro workflow
+\[Omitted image "mmassest0021242-SOM-CMPro-workflow.png"\] Alt text: Sales CRM - Contract Management Pro workflow
 
 In this workflow:
 

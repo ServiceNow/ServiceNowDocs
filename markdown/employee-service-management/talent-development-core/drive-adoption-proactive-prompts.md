@@ -27,7 +27,7 @@ In the example, the employee receives a prompt to update the suggestions that th
 With this feature, the managers in your organization don't have to follow up or encourage their employees to take action at the right time. Skills recommendations can help your employees keep their skills profiles up to date without constant reminders from their managers. For more information, see [Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proactive-prompts-skills.md).
 
 -   **[Pre-seeding employee skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/pre-seeded-skills.md)**  
-The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up to date.
+The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up-to-date.
 -   **[Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proactive-prompts-skills.md)**  
 Recommend roles, skills, and missing proficiencies to the employees and get approval from managers in their flow of work using Proactive Prompts.
 

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Explore, Change Management, IT Service Management]
 
 Each change request model progresses through a number of state values in a specific order.
 
-To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).
+To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md).'
+
+## State transition triggers
 
 <table id="table_bls_cnj_11b"><thead><tr><th>
 
@@ -48,7 +50,7 @@ Yes
 
 </td><td rowspan="7" align="center">
 
-\[Omitted image "NormalChangeStateModel-updated.png"\] Alt text: Normal state change model
+\[Omitted image "NormalChangeStateModel2.png"\] Alt text: Normal change state model
 
 </td></tr><tr><td>
 
@@ -153,11 +155,11 @@ Yes
 
 </td><td rowspan="5" align="center">
 
-\[Omitted image "StandardChangeStateModel\_Updated.png"\] Alt text: Standard change state model
+\[Omitted image "StandardChangeStateModel2.png"\] Alt text: Standard change state model
 
 </td></tr><tr><td>
 
-tandard chan2.
+2.
 
 </td><td>
 
@@ -234,7 +236,7 @@ Yes
 
 </td><td rowspan="6" align="center">
 
-\[Omitted image "emergency\_change\_state\_model-updated.png"\] Alt text: Emergency change state model
+\[Omitted image "EmergencyChangeStateModel2.png"\] Alt text: Emergency change state model
 
 </td></tr><tr><td>
 

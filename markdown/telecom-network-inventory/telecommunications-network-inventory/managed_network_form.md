@@ -574,5 +574,5 @@ Configuration \(CI\) that you can select to create the Telecommunications Networ
 **Related topics**  
 
 
-[Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 

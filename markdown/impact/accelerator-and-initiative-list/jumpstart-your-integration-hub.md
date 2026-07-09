@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Integration Hub
-description: This accelerator provides a demonstration of the possibilities and capabilities of Integration Hub, a part of Workflow Data Fabric.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Integration Hub, a part of Workflow Data Fabric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-integration-hub.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Integration Hub, Workflow Data Fabric, Spokes, External Triggers]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Integration Hub
 
-This accelerator provides a demonstration of the possibilities and capabilities of Integration Hub, a part of Workflow Data Fabric.
+This Accelerator provides a demonstration of the possibilities and capabilities of Integration Hub, a part of Workflow Data Fabric.
 
 ## Accelerator Overview
 

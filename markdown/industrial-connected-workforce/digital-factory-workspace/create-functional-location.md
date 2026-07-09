@@ -22,7 +22,7 @@ Role required: sn\_icw.admin
 
 ## Procedure
 
-1.  Navigate to **Equipment model**.
+1.  Navigate to **Equipment model view** \(\[Omitted image "icw-equipment-model-icon.png"\] Alt text:\).
 
 2.  From the tree, select the location that you want to be the parent of the functional location.
 
@@ -33,10 +33,6 @@ Role required: sn\_icw.admin
     For a description of the field values, see [Functional location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-form.md).
 
 5.  Select **Save**.
-
-    The following image shows an example of the form for creating a functional location.
-
-    \[Omitted image "functional-location-form.png"\] Alt text: New functional location form
 
 
 ## Result

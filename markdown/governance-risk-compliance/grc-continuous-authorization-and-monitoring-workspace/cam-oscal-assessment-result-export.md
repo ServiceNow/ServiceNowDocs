@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 2
-breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Export in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Export OSCAL Assessment Results
@@ -67,12 +67,29 @@ Roles required:
     -   Assessment Plan \(AP\) JSON file \(one per engagement\)
     -   Assessment Results \(AR\) JSON file \(one per engagement\)
     -   POA&amp;M JSON file \(included if POA&amp;M items exist\)
+    The exported OSCAL AR JSON file contains the following structure:
+
+    -   Reviewed controls: Control selections with control IDs and statement IDs from completed control tests
+    -   Control objective IDs: References to test templates associated with the engagement
+    -   Findings: Array of issues linked to control tests that failed assessment
+        -   UUID corresponds to the issue or POAM record
+        -   Target contains control test reference and UUID
+        -   State is "not satisfied" when findings exist
+        -   Description and title provide issue details
+    -   Attestations: Objects for all completed controls including:
+        -   Responsible parties \(control test owner and UUID\)
+        -   Control test title and UUID
+        -   Operational effectiveness rating from the control test
+        -   Assessment procedures linked to the control test with their operational effectiveness ratings
+    -   Metadata and Local Definitions
+        -   Metadata: Responsible parties, roles, and all engagement fields
+        -   Local definitions: Related controls with control IDs, control objectives, and assessment procedure labels
 
 ## What to do next
 
 Validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
 
-For information about the OSCAL fields exported in the AR file and their corresponding ServiceNow CAM fields, see [OSCAL Assessment Results field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-ar-field-mapping.md).
+For information about the OSCAL fields exported in the AR file and their corresponding ServiceNow CAM fields, see .
 
 **Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

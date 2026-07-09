@@ -9,7 +9,7 @@ classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a request change
@@ -30,18 +30,18 @@ Role required: it\_project\_manager
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Risk, issues, decisions, actions, and request change \(RIDAC\) form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-forms.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
--   Associate the request change with your existing risk, issue, decision, and action records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md).
+-   Associate the request change with your existing risk, issue, decision, and action records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md).
 -   Create tasks for working on the change request. For more information see, [Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateTaskIntPrblmChange.md).
 
 **Related topics**  
 
 
-[Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
 

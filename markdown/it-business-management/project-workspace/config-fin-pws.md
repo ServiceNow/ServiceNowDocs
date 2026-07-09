@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure financials for Project Workspace
@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Define the budget allocation attribute to allocate budget by cost type or expense type.
 
-    For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
+    For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md).
 
 5.  Enable the expense type attribute for resource assignments to capture relevant expenses for the work.
 
@@ -78,7 +78,7 @@ Enable and associate a widget to view financial summary of your projects at high
 -   **[Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/customize-fin-left-pane-prj-wrkspc.md)**  
 Customize the left pane for financials to view custom field information.
 -   **[Customise cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/customise-cost-plan-form-fin-prj-wrkspc.md)**  
-Manage the fields required on the new cost plan form as per your organization needs.
+Manage the fields required on the new cost plan form according to your organization needs.
 -   **[Change the default expense type for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-expense-type-pws.md)**  
 Configure the default expense type to create or edit cost plans for your projects.
 -   **[Create a custom prefix for baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-baseline-prefix-pws.md)**  

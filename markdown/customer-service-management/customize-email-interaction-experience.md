@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-email-interaction-experience.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
@@ -33,7 +33,7 @@ For more information on UI Builder, see [UI Builder](https://raw.githubuserconte
 
 4.  Navigate to **Pages and variants** &gt; **Record** &gt; **Email Interaction Page**.
 
-5.  Select the Open menu icon \(\[Omitted image "Open\_menu\_icon\_EaaI.png"\] Alt text: Open menu icon\).
+5.  Select the Open menu icon.
 
 6.  Select **Duplicate variant**.
 

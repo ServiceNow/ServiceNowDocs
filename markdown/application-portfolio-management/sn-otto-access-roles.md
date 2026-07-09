@@ -1937,7 +1937,7 @@ No role required.
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-access-roles.md)
 
-[Enterprise Architecture AI agent generate enterprise architecture diagram agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
+[Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
 
 [Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)
 

@@ -21,13 +21,13 @@ Set up the RPA Desktop Design Studio application and add the ServiceNow instance
 
 To access the Now Assist for RPA Hub feature in RPA Desktop Design Studio, perform the following steps:
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
+-   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Install Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
 -   Turn on the RPA bot generation skill to use the generative AI capability. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
 -   After activating the RPA bot generation skill, relaunch the RPA Desktop Design Studio application to apply the modified settings.
 
 If you skip these steps, the Now Assist for RPA Hub feature doesn’t appear in RPA Desktop Design Studio.
 
-Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
+Familiarize yourself with the RPA bot generation skill concepts. For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer or sn\_rpa\_fdn.rpa\_admin
 
@@ -41,7 +41,7 @@ Each activity contains two components by default: Start and End. These component
 
 You can reuse each activity multiple times within the same automation project by dragging the activity to the Design surface. You can also import activities in different automation projects.
 
-To create an activity manually, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
+To create an activity manually, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     **Note:**
 
-    For more information on example instructions and general guidelines for writing Now Assist instructions, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md).
+    For more information on example instructions and general guidelines for writing Now Assist instructions, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md). For more information about the limitations of the RPA bot generation skill, see [Limitations of Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/limitations-rpa-bot-gen-skill.md).
 
 4.  Select **Generate preview**.
 
@@ -79,23 +79,23 @@ To create an activity manually, see [Create and use an activity in RPA Desktop D
 
     \[Omitted image "new-activity-options.png"\] Alt text: New activity window displays the options to regenerate a preview, clear a workflow, cancel an automation, or add an activity.
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d122878e358">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d363155e358">
 
 Option
 
-</th><th align="left" id="d122878e361">
+</th><th align="left" id="d363155e361">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d122878e367">
+</th></tr></thead><tbody><tr><td id="d363155e367">
 
 **Regenerate preview**
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
-</td></tr><tr><td id="d122878e394">
+</td></tr><tr><td id="d363155e393">
 
 **Clear**
 
@@ -103,7 +103,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by the Now Assist instructions, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d122878e412">
+</td></tr><tr><td id="d363155e411">
 
 **Cancel**
 
@@ -111,7 +111,7 @@ If you want to clear the workflow that was created by the Now Assist instruction
 
 If you want to stop creating an automation and return to the design surface, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The added content isn’t saved.
 
-</td></tr><tr><td id="d122878e429">
+</td></tr><tr><td id="d363155e428">
 
 **Add activity**
 
@@ -131,5 +131,7 @@ The automation flow is added as a New Activity in Activities.
 
 ## What to do next
 
-For more actions on the activity, see [Create and use an activity in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
+For more actions on the activity, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
+
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
 

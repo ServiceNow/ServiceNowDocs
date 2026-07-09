@@ -35,7 +35,7 @@ This task requires a credentials JSON file from the Card Data Security tokenizer
 
 5.  Convert the `.pem` file to a JKS file.
 
-    When converting the file, you will need to provide the key store password and the key alias—make a note of these.
+    When converting the file, you will provide the key store password and the key alias—make a note of these.
 
 
 ## Result

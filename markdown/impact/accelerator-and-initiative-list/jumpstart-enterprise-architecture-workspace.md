@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Enterprise Architecture Workspace
-description: This accelerator provides a demonstration of the possibilities and capabilities of Enterprise Architecture Workspace.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-enterprise-architecture-workspace.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: reference
 last_updated: "2026-05-06"
 reading_time_minutes: 2
 keywords: [Enterprise Architecture, EA Workspace, Application Portfolio Management, CSDM, Digital Portfolio Management, Service Portfolio Management]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Enterprise Architecture Workspace
 
-This accelerator provides a demonstration of the possibilities and capabilities of Enterprise Architecture Workspace.
+This Accelerator provides a demonstration of the possibilities and capabilities of Enterprise Architecture Workspace.
 
 ## Accelerator Overview
 
-Jumpstart Your Enterprise Architecture Workspace helps ServiceNow Enterprise Architects build a strong foundation in Enterprise Architecture \(EA\) Workspace through a comprehensive overview and applied demonstration. This accelerator highlights the value and functionality of the workspace, guides you through the setup process, and equips you with success resources to drive adoption and maximize usage.
+Jumpstart Your Enterprise Architecture Workspace helps ServiceNow Enterprise Architects build a strong foundation in Enterprise Architecture \(EA\) Workspace through a comprehensive overview and applied demonstration. This Accelerator highlights the value and functionality of the workspace, guides you through the setup process, and equips you with success resources to drive adoption and maximize usage.
 
-**Note:** This accelerator does not detail the creation of the underlying data that the workspace surfaces.
+**Note:** This Accelerator does not detail the creation of the underlying data that the workspace surfaces.
 
 ## Package Availability
 

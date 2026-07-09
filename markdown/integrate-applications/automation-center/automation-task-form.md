@@ -71,11 +71,11 @@ Description of the automation task.
 
 </td></tr><tr><td>
 
-Active
+Due date
 
 </td><td>
 
-Option for ensuring the use of the automation task.
+Date when the task is due.
 
 </td></tr><tr><td>
 

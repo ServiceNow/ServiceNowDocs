@@ -19,7 +19,7 @@ Allocate, manage, and approve budget for your planning items. Lean budgeting ena
 ## Before you begin
 
 -   As an Admin, enable the property to work on budgeting. For more information, see [Enable financial budget allocation for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-fin-budget-ppw.md).
--   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
+-   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
 -   Role required: it\_portfolio\_manager
 
 ## Procedure

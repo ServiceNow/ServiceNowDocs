@@ -1,6 +1,6 @@
 ---
 title: Investigate stage
-description: The Investigate stage of the card dispute playbook, perform tasks such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
+description: The Investigate stage of the card dispute includes activities such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/investigate-stage.html
 release: australia
@@ -9,14 +9,15 @@ classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+keywords: [card disputes]
+breadcrumb: [Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Investigate stage
 
-The **Investigate** stage of the card dispute playbook, perform tasks such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
+The **Investigate** stage of the card dispute includes activities such as issuing provisional credit, reviewing participating merchant alerts, and investigating the transaction.
 
-The dispute agent manages disputed transactions through various activities in the transaction playbook. The **Investigate** stage of the card dispute playbook includes the following key activities:
+The dispute agent manages disputed transactions through various activities in the **Dispute Workspace**. The **Investigate** stage of the card dispute includes the following key activities:
 
 |Activity|Description|
 |--------|-----------|
@@ -27,7 +28,7 @@ The dispute agent manages disputed transactions through various activities in th
 |[Review participating merchant alerts for Visa disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/alert-merchant-regarding-dispute-visa.md)|Merchant alerts and options **Declined dispute** to proceed or **Accepted dispute** to end the life cycle and move to closure.|
 |[Investigate Visa transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manually-investigate-disputed-transaction-visa.md)|Transaction investigation and options to pursue chargeback or end the life cycle for the transaction.|
 
-If the chargeback eligibility rules are evaluated as ineligible and **Pursue chargeback** is set to **Yes**, the system triggers an approval request for the dispute manager. The manager reviews the approval task and can select **Approve** to proceed further or select **Reject** to return to the investigation task. After the manager approves, the dispute agent proceeds with the dispute case.
+If the chargeback eligibility rules are evaluated as ineligible and **Pursue chargeback** is set to **Yes**, the system triggers an approval request for the dispute manager. The manager reviews the approval task and can select **Approve** to proceed further or select **Reject** to return to the investigation task. When the manager approves, the dispute agent proceeds with the dispute case.
 
 -   **[Issue provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/issue-provisional-credit-visa.md)**  
 Initiate temporary provisional credit to the Visa card holder.
@@ -40,7 +41,7 @@ Alert the merchant about a Visa card transaction dispute.
 -   **[Investigate Visa transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manually-investigate-disputed-transaction-visa.md)**  
 If a merchant refuses a transaction dispute, the case may move to the manual investigation task.
 
-**Parent Topic:**[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)
+**Parent Topic:**[Processing a Visa card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-a-dispute-case.md)
 
 **Related topics**  
 

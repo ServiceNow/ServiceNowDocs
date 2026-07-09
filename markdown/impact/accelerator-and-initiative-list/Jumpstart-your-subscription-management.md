@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Subscription Management
-description: This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
+description: This Accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/Jumpstart-your-subscription-management.html
 release: australia
@@ -9,12 +9,12 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Subscription Management
 
-This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
+This Accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
 
 ## Accelerator Overview
 

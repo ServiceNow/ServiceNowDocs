@@ -53,7 +53,7 @@ Role required: sn\_icw.action\_user or sn\_icw.action\_expert
 
 ## Result
 
-The new action is displayed in the **Tasks** list of the parent task. The parent task cannot be closed until all child tasks in the **Tasks** list are closed.
+The new action is displayed in the **Tasks** list of the parent task. The parent task can't be closed until all child tasks in the **Tasks** list are closed.
 
 **Parent Topic:**[Action Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.md)
 

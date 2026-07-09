@@ -60,7 +60,7 @@ See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercon
     -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
     -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
     -   Generic parsing errors have been rewritten into specific, categorized messages.
--   **Data snapshots automatically installed on eligible instances**
+-   **[Data snapshots automatically installed on eligible instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/limitations-mlb.md)**
 
     If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
 

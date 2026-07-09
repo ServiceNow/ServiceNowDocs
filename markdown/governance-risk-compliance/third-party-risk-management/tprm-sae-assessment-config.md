@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-05-12"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -186,6 +186,8 @@ The following template purposes \(classifications\) are available.-   TPRM exter
 -   TPRM external questionnaire
 -   TPRM internal IRQ
 -   TPRM internal tiering questionnaire
+
+**Note:** Only use the available template purposes. Creating custom purposes \(categories or classifications\) will cause SAE assessments to fail during m2m linkage processing. When creating or migrating SAE questionnaire templates, make sure the Purpose field is set to one of the supported categories only.
 
 For more information, see [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 

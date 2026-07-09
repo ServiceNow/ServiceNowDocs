@@ -9,7 +9,7 @@ classification: cloud-cost-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud Cost Management reference
@@ -44,6 +44,4 @@ Supported CI class types for AWS enable assigning cost and usage data correctly 
 Supported CI class types for Microsoft Azure enable assigning cost and usage data correctly using the CI placement process. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
 -   **[Supported CI class types for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.md)**  
 Supported CI class types for Google Cloud enable assigning cost and usage data correctly using the CI placement process. Some CI class types are placed immediately. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

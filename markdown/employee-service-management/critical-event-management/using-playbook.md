@@ -1,5 +1,5 @@
 ---
-title: Using a critical event playbook
+title: Use a critical event playbook
 description: A critical event playbook in Critical Event Management provides a step-by-step guide to help you manage a critical event from initiation to resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/using-playbook.html
@@ -9,10 +9,10 @@ classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Report as an agent, Reporting critical events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Report as an agent, Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
-# Using a critical event playbook
+# Use a critical event playbook
 
 A critical event playbook in Critical Event Management provides a step-by-step guide to help you manage a critical event from initiation to resolution.
 
@@ -40,7 +40,7 @@ Role required: sn\_critical.agent
 
         If the critical event is the only one for active emergency, select **Skip** instead.
 
-    3.  On the Assign critical event form, fill out the fields and select **Move to Work in Progress**.
+    3.  On the Assign critical event form, fill in the fields and select **Move to Work in Progress**.
 
     4.  Mark the event as active by selecting **Activate Critical Event**.
 

@@ -26,7 +26,7 @@ The following flows are installed with the Human Resources: Core application. Th
 
     The trigger is based on the employee's start date in the HR Profile Table \[sn\_hr\_core\_profile\]. If the employment start date is at or after today, the flow creates an HR Onboarding case. This flow runs every time an HR profile is created or updated.
 
-    For more information about the HR Profile, see [Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/employee-profile.md) and [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
+    For more information about the HR Profile, see [Use Employee Profile with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile.md) and [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
 
 -   **New Hire on Boarding Case Trigger Job**
 

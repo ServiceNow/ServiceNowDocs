@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Virtual Agent, delete, topic, designer, confirm]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Delete a Virtual Agent topic
@@ -39,15 +39,15 @@ If you want to remove a topic from your Virtual Agent clients but don't want to 
 
 2.  Use one of the following methods based on either a record on the home page or the header inside a topic.
 
-<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d139230e149">
+<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d139908e149">
 
 Method
 
-</th><th align="left" id="d139230e152">
+</th><th align="left" id="d139908e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139230e158">
+</th></tr></thead><tbody><tr><td id="d139908e158">
 
 **Asset library - single topic**
 
@@ -55,7 +55,7 @@ Description
 
 Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon. on the row for the topic that you want to delete, then select **Delete**.
 
-</td></tr><tr><td id="d139230e176">
+</td></tr><tr><td id="d139908e176">
 
 **Asset library - multiple topics**
 
@@ -65,7 +65,7 @@ Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt
 2.  Select **Delete**.
  **Note:** If one or more of the selected assets are subflows or actions, the delete option is disabled.
 
-</td></tr><tr><td id="d139230e200">
+</td></tr><tr><td id="d139908e200">
 
 **Topic header bar**
 
@@ -87,5 +87,5 @@ A toast message also appears for 4 seconds, confirming the topic has been delete
 
 If the topic was active and is no longer listed in the home page, the topic is immediately removed from Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

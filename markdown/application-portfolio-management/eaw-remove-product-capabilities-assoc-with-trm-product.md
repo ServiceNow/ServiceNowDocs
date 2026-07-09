@@ -1,5 +1,5 @@
 ---
-title: Remove product capabilities associated with a Technology Reference Model product
+title: Remove product capabilities from a TRM product
 description: You can remove the product capabilities associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current product capabilities are associated with the TRM products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Remove product capabilities associated with a Technology Reference Model product
+# Remove product capabilities from a TRM product
 
 You can remove the product capabilities associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current product capabilities are associated with the TRM products.
 

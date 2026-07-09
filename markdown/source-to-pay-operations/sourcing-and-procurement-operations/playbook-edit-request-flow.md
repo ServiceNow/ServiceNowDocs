@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 4
 breadcrumb: [Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -23,6 +23,8 @@ Role required: sn\_spend\_psd.psd\_admin, agents, fulfillers
 ## About this task
 
 As an agent, you can view the requests, complete tasks across multiple workflow activities, and manage complex operations from a unified playbook. The playbook provides agents an automated way to visualize the overall process in a task-oriented format.
+
+\[Omitted image "pb-edit-request-flow.png"\] Alt text: Process an edit request in playbook
 
 ## Procedure
 
@@ -148,7 +150,7 @@ After the PR has been updated, the request to edit a PR is automatically closed.
 
 The request updates the purchase requisition or line item with revised quantity or location. A new card of revision type is also created for the shopper and approvers to communicate on, which can be viewed by the shopper from **My purchases**.
 
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 

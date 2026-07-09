@@ -24,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the settings icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon\).
+2.  Select the settings icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text:\).
 
-3.  Personalize your page configurations\[Omitted image "page-config-aws.png"\] Alt text: Page configurations.
+3.  Personalize your page configurations\[Omitted image "page-config-aws.png"\] Alt text: Page configurations dialog showing customization options for Agent Workspace for HR Case Management.
 
     For a description of the fields, see [Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md).
 

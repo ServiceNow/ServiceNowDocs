@@ -41,3 +41,10 @@ Customers and consumers can make requests from the Customer and Consumer Service
     The system processes the request, creates the request and any other related records, and displays the details in the Related Records widget on the case view page.
 
 
+**Related topics**  
+
+
+[View the status of a request, change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-request-status-cust-portal.md)
+
+[Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-request-from-cust-portal.md)
+

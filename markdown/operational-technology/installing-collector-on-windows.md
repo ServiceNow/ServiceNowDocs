@@ -20,6 +20,8 @@ The required Windows \(10 or 11\) environment for the OT Discovery Collector is 
 
 Role required: admin
 
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information on installing a containerized package, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+
 ## Procedure
 
 1.  On your instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page.

@@ -1,5 +1,5 @@
 ---
-title: Speed up alert resolution with a Now Assist analysis of past related incidents
+title: Accelerate alert resolution with past incident analysis
 description: Use Now Assist to investigate relevant past incidents and present effective strategies used to resolve them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.html
@@ -13,7 +13,7 @@ keywords: [AI, Now Assist, similar incidents, historical, resolution]
 breadcrumb: [Use generative AI, Now Assist for ITOM, IT Operations Management]
 ---
 
-# Speed up alert resolution with a Now Assist analysis of past related incidents
+# Accelerate alert resolution with past incident analysis
 
 Use Now Assist to investigate relevant past incidents and present effective strategies used to resolve them.
 

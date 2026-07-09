@@ -14,7 +14,7 @@ breadcrumb: [Channel Management, Workforce Optimization for Customer Service, Ag
 
 Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 
--   **[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)**  
+-   **[Using Channel Management in WFO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-channels-configurable-wfo-cs.md)**  
 Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.
 -   **[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-servicenow-voice-cs.md)**  
 Use Voice to deflect cases away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of case resolutions.

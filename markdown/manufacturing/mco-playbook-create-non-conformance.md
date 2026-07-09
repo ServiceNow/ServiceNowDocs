@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a product non-conformance case using playbook
@@ -233,8 +233,6 @@ Planned cost will be auto calculated based on the `quantity * unit cost * unit` 
 
     The PNCC case is submitted for review.
 
-
-**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformances.md)
 
 ## Create a product non-conformance case as resolver
 

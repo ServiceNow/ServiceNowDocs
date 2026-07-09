@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 3
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Indoor maps in Enterprise Asset Management

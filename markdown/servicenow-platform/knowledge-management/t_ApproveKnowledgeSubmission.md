@@ -34,7 +34,7 @@ Depending on the value of the **glide.knowman.submission.workflow** property, kn
 
 2.  Select the **Knowledge** check box on the form.
 
-    You may need to configure the form to include the **Languages** field. Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: context menu icon\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
+    You may need to configure the form to include the **Languages** field. Click the form context menu icon and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
 
 3.  Close the incident or problem.
 

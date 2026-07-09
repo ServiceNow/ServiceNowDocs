@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-advanced-approval-management-for-sales.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-21"
-reading_time_minutes: 1
+last_updated: "2026-07-05"
+reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
@@ -91,6 +91,18 @@ Creates and views approval requests.
 
 </td></tr><tr><td>
 
+Approval request submitter\[sn\_adv\_appr\_mgmt.approval\_request\_submitter\]
+
+</td><td>
+
+Submit only requests for approval. Requesters with this role can submit approval requests but can't change or recall the request, nor view the approval workflow interface.
+
+</td><td>
+
+\[sn\_adv\_appr\_mgmt.approval\_rule\_viewer\]
+
+</td></tr><tr><td>
+
 Approval request viewer\[sn\_adv\_appr\_mgmt.approval\_request\_viewer\]
 
 </td><td>
@@ -153,7 +165,8 @@ Approval Rules\[sn\_adv\_appr\_mgmt\_approval\_rule\]
 
 </td><td>
 
-One or more approval rules associated to an approval trigger condition. Rules define steps in an approval process. A rule can have multiple users or groups as approvers, as well as dynamic approvers.
+One or more approval rules associated to an approval trigger condition. Rules define steps in an approval process. A rule can have:-   Multiple users or groups
+-   Dynamic approvers: Approvers determined at runtime from the approval request, based on approval rules that reference fields in the approval record or custom logic.
 
 </td></tr><tr><td>
 

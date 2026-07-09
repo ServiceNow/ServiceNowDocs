@@ -84,7 +84,7 @@ Order number for when the activity set appears in the lifecycle event builder an
 
 -   The order number has no relation to when the activity set is triggered.
 -   If no order number is provided, then the activity set will appear after all of the numbered activity sets.
--   The HR ticket page is where users can view the details of an HR case in the Employee Service Center. See  for more information.
+-   The HR ticket page is where users can view the details of an HR case in the Employee Service Center. See [Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md) for more information.
 
 
 </td></tr><tr><td>

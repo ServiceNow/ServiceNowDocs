@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Revert normalization of hardware and consumable models
@@ -30,15 +30,15 @@ Hardware and consumable models with a status of **Fully Normalized**, **Partiall
 
 1.  Navigate to a normalized hardware or consumable record.
 
-<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d288001e98">
+<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d288735e98">
 
 Interface
 
-</th><th align="left" id="d288001e101">
+</th><th align="left" id="d288735e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d288001e107">
+</th></tr></thead><tbody><tr><td id="d288735e107">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 -   For consumable models, navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Consumable models**.
 
 
-</td></tr><tr><td id="d288001e155">
+</td></tr><tr><td id="d288735e155">
 
 **Hardware Asset Workspace**
 

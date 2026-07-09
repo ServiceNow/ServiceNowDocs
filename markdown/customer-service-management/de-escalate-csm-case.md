@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/de-escalate-csm-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
 ---
@@ -32,8 +32,6 @@ sn\_customerservice.deescalation\_requester
 2.  Select **De-escalate** in the form header.
 
     This opens the De-escalate Case pop-up window.
-
-    \[Omitted image "escalated-case-form.png"\] Alt text: Escalated case form with De-escalate UI action in the form header
 
 3.  Enter the necessary information in the **De-escalation Justification** field.
 

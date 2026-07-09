@@ -9,7 +9,7 @@ classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Procurement workflows

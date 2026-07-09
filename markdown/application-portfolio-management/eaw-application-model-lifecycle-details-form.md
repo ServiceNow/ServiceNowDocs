@@ -113,7 +113,7 @@ Option to activate the life cycle.
 **Related topics**  
 
 
-[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 
 [Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)
 

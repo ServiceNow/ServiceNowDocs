@@ -1,5 +1,5 @@
 ---
-title: Populating users based on type for Agent Client Collector for Visibility - Content
+title: Populating users based on type for Agent Client Collector for Visibility Content
 description: You can persist the type of users that populate the CMDB depending on your particular interests. Currently, local and system are supported for Windows, Linux, and macOS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/filter-list-of-users-for-acc-v.html
@@ -13,7 +13,7 @@ keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC fo
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Populating users based on type for Agent Client Collector for Visibility - Content
+# Populating users based on type for Agent Client Collector for Visibility Content
 
 You can persist the type of users that populate the CMDB depending on your particular interests. Currently, local and system are supported for Windows, Linux, and macOS.
 

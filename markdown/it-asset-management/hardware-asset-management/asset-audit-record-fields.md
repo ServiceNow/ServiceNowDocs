@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [asset audit, inventory audit, audit record fields]
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset audit fields

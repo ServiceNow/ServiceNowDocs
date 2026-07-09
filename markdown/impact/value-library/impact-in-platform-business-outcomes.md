@@ -8,7 +8,7 @@ product: Value Library
 classification: value-library
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Impact, Impact]
 ---
 
@@ -46,5 +46,5 @@ For more information on data collection toolkit, see [Enable data collection for
 
 The Value report evaluates the impact of improvements in key success metrics over time and translates them into operational and monetary value. These metrics align with the target objectives and outcomes you have been working toward. If you are a guided or advanced customer, your squad will collaborate with you to validate results, confirm key assumptions and inputs, and quantify the realized value in financial terms.
 
-For more information on value reports in Impact, see .
+For more information on value reports in Impact, see [Track your business ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/business-value-reports.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 5
 ---
 
 # Telecommunications Network Inventory Release Notes
@@ -24,6 +24,11 @@ Australia Early Availability
 -   Create IP addresses directly within an IP subnetwork.
 -   Define reusable naming patterns using the new TNI CI Naming application with real-time validation, hierarchical name construction, and interactive preview before applying to the inventory.
 -   Access control update — TNI table permissions
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Reserves rack unit space in a datacenter with rack allocation agentic workflow
+-   TNI Data Model Navigator, a CMDB framework that presents a curated, domain-specific view of telecom
 
 See [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-network-inventory.md) for more information.
 
@@ -50,12 +55,11 @@ Australia Early Availability
     Multi-layer nested IP Subnetworks with CIDR validation: You can now create IP Subnetworks within IP Subnetworks, supporting recursive nesting for both IPv4 and IPv6. When creating a subnetwork at any level, the system validates that the CIDR is correctly formatted, falls within the parent's range, is more specific than the parent, and is unique within the parent.
 
 
--   **[Naming patterns in inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/naming-patterns-in-inventory-templates.md)**
+-   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/naming-patterns-in-inventory-templates.md)**
 
     Author patterns from a variable library with real-time validation, verify resolved names across the full template hierarchy from a new Overview tab at design time, and add custom validation rules.
 
-
--   **[Assign user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-inventory-roles.md)**
+-   **[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-inventory-roles.md)**
 
     Standard ServiceNow platform roles no longer have read access to specific TNI tables. This change affects both new installations and upgrades.
 
@@ -66,8 +70,20 @@ Australia Early Availability
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   **[Rack allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/rack-allocation-workflow.md)**
+
+    The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
+
+
+-   **[TNI Data Model Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/data-model-navigator.md)**
+
+    A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
 
 ## UI changes
@@ -86,6 +102,13 @@ Australia Early Availability
     The IP Pool menu and records are now labeled as IP Address Block throughout the Network Inventory Workspace and Service Operations Workspace.
 
 
+## Changed in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 ## Activation information
 
 Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/installing-telecommunications-network-inventory.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
@@ -96,8 +119,8 @@ Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from 
 
     The following plugins are new in Australia:
 
-    Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
-
+    -   Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
+    -   Racks Allocation Workflow \(sn\_genai\_platform 12.1.0\): Enables rack allocation via the Rack placement AI agent in the Telecommunication Network Inventory Workspace and Service Operation Workspace. The agent reserves the racks that meet the capacity requirements, based on the physical and logical constraints specified in the change request.
 
 ## Additional requirements
 
@@ -116,6 +139,11 @@ Improved overall accessibility across Network Inventory application, focusing on
 -   **[Request an item or service from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-request-from-portal.md)**
 
     Browse the catalog and create a request from the Customer or Consumer Service Portals.
+
+
+-   **[Hardware Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hardware-asset-management-rn.md)**
+
+    Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Australia release.
 
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)

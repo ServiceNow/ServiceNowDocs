@@ -1,5 +1,5 @@
 ---
-title: Customizing CPQ with themes
+title: Customizing ServiceNow CPQ with themes
 description: Custom themes let you customize your layout. You can enable custom themes by submitting a feature enablement request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customizing-cpq-with-themes.html
@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Customizing CPQ with themes
+# Customizing ServiceNow CPQ with themes
 
 Custom themes let you customize your layout. You can enable custom themes by submitting a feature enablement request.
 
-CPQ admin users can edit a custom theme to customize the look and feel of their layout.
+ServiceNow CPQ admin users can edit a custom theme to customize the look and feel of their layout.
 
-To access the custom theme options in the layout editor, submit a CPQ Feature Enablement Request to enable themes.
+To access the custom theme options in the layout editor, submit a ServiceNow CPQ Feature Enablement Request to enable themes.
 
 ## Getting started
 
@@ -34,7 +34,7 @@ When this option is turned on, you see the full Theme Editor screen.
 
 ## The visual editor
 
-The visual editor includes five sets of options and an interactive preview. The standard CPQ theme is applied by default, but you can modify any fields to start customizing your theme.
+The visual editor includes five sets of options and an interactive preview. The standard ServiceNow CPQ theme is applied by default, but you can modify any fields to start customizing your theme.
 
 \[Omitted image "cpq-themes-visual-editor.png"\] Alt text: Visual editor showing default options on the interactive preview screen
 
@@ -64,7 +64,7 @@ By default, the values for the current theme are shown, but a user can manually 
 
 \[Omitted image "cpq-themes-json-editor-default-theme.png"\] Alt text: Theme details
 
-A toggle hides or shows the standard CPQ theme as a reference for fields you may want to revert without discarding the entire theme.
+A toggle hides or shows the standard ServiceNow CPQ theme as a reference for fields you may want to revert without discarding the entire theme.
 
 If you want to overwrite a layout element that is not included in the sample data, you can inspect the layout to determine the field to change. Fields that begin with `--lgk-` are customizable in a theme.
 

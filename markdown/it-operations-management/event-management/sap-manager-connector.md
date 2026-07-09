@@ -1,5 +1,5 @@
 ---
-title: SAP configurations enabling the SAP Solution Manager connector
+title: SAP configurations for the SAP Solution Manager connector
 description: Configure your SAP environment to work with the ServiceNow Event Management platform so you can use the SAP Solution Manager connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sap-manager-connector.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# SAP configurations enabling the SAP Solution Manager connector
+# SAP configurations for the SAP Solution Manager connector
 
 Configure your SAP environment to work with the ServiceNow Event Management platform so you can use the SAP Solution Manager connector.
 

@@ -1,5 +1,5 @@
 ---
-title: Set an alert to monitor the average response time of applications
+title: Monitor the average response time of applications
 description: Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-app-monitor-alert-card.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Alerts in Instance Observer, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Set an alert to monitor the average response time of applications
+# Monitor the average response time of applications
 
 Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
 
@@ -48,8 +48,8 @@ Role required: admin
 
 10. Select **Set Notification**.
 
-    To set notification, see the [Set notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md) of [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    To set notification, see the [Set notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md) of [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 
-**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

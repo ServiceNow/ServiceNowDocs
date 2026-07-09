@@ -17,7 +17,7 @@ Add or update the service endpoints assigned to a private relay to control which
 
 ## Before you begin
 
-The private relay must be deployed, registered, and connected. The registration status in the relay \[sn\_zc\_tunnel\_relay\] table must be Successful.
+The private relay must be deployed, registered, and connected. The registration status in the Relay \[sn\_zc\_tunnel\_relay\] table must be Successful.
 
 Role required: sn\_zc\_tunnel.relay\_manager
 

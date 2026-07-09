@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [ECC queue, MID Server security, security considerations]
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -176,7 +176,7 @@ Role required: admin, mid\_server
 
 1.  Send remote commands through a MID Server to a hosting device directly from the ECC Queue without running Discovery.
 
-    1.  Navigate to the ECC Queue and click **New**.
+    1.  Navigate to the ECC Queue and select **New**.
 
     2.  Create a message with these settings:
 
@@ -195,7 +195,7 @@ Role required: admin, mid\_server
 
     1.  Open a MID Server record.
 
-    2.  Under **Related Links**, click **Grab MID logs, files and thread dump**.
+    2.  Under **Related Links**, select **Grab MID logs, files and thread dump**.
 
         ECC queue records appear in the list using the following filter:
 
@@ -204,13 +204,15 @@ Role required: admin, mid\_server
         -   \[Agent\] \[is\] \[your MID Server\]
         Only **agent0.log.0** and **wrapper.log** entries appear. These logs are also accessible in the `~\agent\logs\` file path.
 
-    3.  To open a log entry, click the link under the **Created** column.
+        **Note:** agent0.log.0 is the most recent log, and agent0.log.9 is the oldest log.
+
+    3.  To open a log entry, select the link under the **Created** column.
 
 3.  Access the **queue.stats** topic for useful information about individual MID Servers, such as memory and CPU usage data.
 
     1.  Open a MID Server record.
 
-    2.  Under **Related Links**, click **MID Statistics**.
+    2.  Under **Related Links**, select **MID Statistics**.
 
         ECC queue records appear in the list using the following filter:
 

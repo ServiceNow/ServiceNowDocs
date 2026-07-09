@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a status report template in Project Workspace
@@ -24,7 +24,7 @@ Role required: it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Doc Templates\[Omitted image "icon-doc-template.png"\] Alt text: Doc Templates icon**.
 
@@ -32,7 +32,7 @@ Role required: it\_project\_manager
 
 4.  On the Create new document template form, fill in the fields.
 
-    For a description of the field values, see [Create new document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-new-document-template-form.md).
+    For a description of the field values, see [Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-new-document-template-form.md).
 
     \[Omitted image "create-status-report-template.png"\] Alt text: Create status report template
 

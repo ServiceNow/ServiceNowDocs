@@ -1,6 +1,6 @@
 ---
-title: Create stakeholder form
-description: The stakeholder form information is used to create a stakeholder record for the demand.
+title: Demand stakeholder form
+description: The Demand stakeholder form enables you to create a stakeholder record for a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-stakeholder-form-ppw.html
 release: australia
@@ -9,21 +9,21 @@ classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create stakeholder form
+# Demand stakeholder form
 
-The stakeholder form information is used to create a stakeholder record for the demand.
+The Demand stakeholder form enables you to create a stakeholder record for a demand.
 
 |Field|Description|
 |-----|-----------|
 |Stakeholder|Name of the stakeholder being added to the demand.|
 |Demand|Demand to which the stakeholder is assigned.|
-|Level of Interest|Level of interest that the stakeholder has in pursuing the demand.|
-|Assessment recipient|Indication of whether the stakeholder is authorized to receive assessment questionnaires for a demand.|
-|Approver|Indication of whether the stakeholder has authority to approve demands.|
-|Influence|Level of influence the stakeholder has over the group assessing the demand.|
-|Engagement|Indication of the way the stakeholder is engaged with the demand.|
-|Function|Function of the stakeholder in the demand process.|
+|Level of Interest|Level of interest that the stakeholder has in pursuing the demand. The available values are High, Medium, and Low.|
+|Assessment recipient|Option that indicate whether the user is authorized to receive assessment questionnaires for a demand.|
+|Approver|Option that indicates whether the user has authority to approve demands.|
+|Influence|Level of influence the user has over the group assessing the demand. The available values are High, Medium, and Low.|
+|Engagement|How the user is engaged with the demand. The available values are Supportive, Resistant, Neutral, and Leading.|
+|Function|Optional description of the role or position of the stakeholder in the organization, such as portfolio manager, executive sponsor, or director of finance.|
 

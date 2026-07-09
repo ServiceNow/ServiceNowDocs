@@ -40,6 +40,10 @@ Before you begin, verify the following:
 
 5.  Search for the source table in the Data Catalog and add tables to your selection. \[Omitted image "wdf-data-interface-union-select-table.png"\] Alt text: Select source tables
 
+    **Note:** The following platform table types are not supported as source tables:
+
+    -   Tables with names that begin with `sys_`
+    -   Child tables
 6.  Review the list of tables and select **Continue**.
 
     The wizard advances to the combination method step.

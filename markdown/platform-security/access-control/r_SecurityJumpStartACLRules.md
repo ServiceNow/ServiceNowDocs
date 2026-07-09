@@ -9,7 +9,7 @@ classification: access-control
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists, Access Management]
 ---
 
 # Security jump-start - ACL rules plugin

@@ -9,7 +9,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [ATO artifacts for an authorization package, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [ATO artifacts for an authorization package, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Generate ATO artifacts
@@ -41,7 +41,7 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select the \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.icon.
+2.  To navigate to the Lists page, select \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record for which you want to generate the reports.
 
@@ -99,8 +99,6 @@ Authorize or Monitor
     -   To generate an SAP report for the package, select **Generate SAP**.
     -   To generate an ATO letter report for the package, select **Generate ATO Letter**.
     -   To generate an Executive Summary report for the package, select **Generate Executive Summary**.
-    \[Omitted image "cam-ato-artifacts.png"\] Alt text: Generate ATO artifact UI actions.
-
 6.  Select **Proceed**.
 
     After the Microsoft Word file is generated, a banner message states that the report has been generated successfully.

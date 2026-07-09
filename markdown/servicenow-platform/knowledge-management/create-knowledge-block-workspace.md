@@ -45,7 +45,7 @@ You can also create blocks when accessing an article panel. For more information
             -   Pending retirement
             -   Retired
             -   Outdated
-        -   Click the show filter panel icon \(\[Omitted image "show-filter-panel.png"\] Alt text: Show filter panel icon\), and click **Advanced view**. In the Advanced view dialog box, specify conditions in the **All of these conditions must be met** field and click **Update**.
+        -   Click the show filter panel icon , and click **Advanced view**. In the Advanced view dialog box, specify conditions in the **All of these conditions must be met** field and click **Update**.
 3.  Click **New** in a Knowledge Blocks list.
 
 4.  On the Knowledge Block form, fill in the fields.

@@ -1,5 +1,5 @@
 ---
-title: Configure Quick Links widgets
+title: Manage quick links widgets
 description: Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [quick links, homepage widget, canvas widget, sys\_id, background script, Employee Slate]
-breadcrumb: [Quick Links widgets, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure quick links widget, Quick Links widgets, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure Quick Links widgets
+# Manage quick links widgets
 
 Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
 
@@ -98,13 +98,13 @@ Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp
 11. Section 3: Configure the Canvas Quick Links widget
 12. Go to **AIUX** &gt; **Dashboards** and open the Canvas record.
 
-13. In the AIX Dashboard Items related list at the bottom of the record, locate and open the Quick Links widget instance.
+13. In the **AIX Dashboard Items** related list at the bottom of the record, locate and open the Quick Links widget instance.
 
-14. In the Widget Properties field, locate the **value** property.
+14. In the **Widget Properties** field, locate the **value** property.
 
 15. Enter your comma-separated list of Quick Link sys\_ids in the **value** field.
 
-    For example: `sys_id1,sys_id2,sys_id3`
+    For example: `sys_id1,sys_id2,sys_id3`.
 
 16. Select **Save**.
 
@@ -114,5 +114,5 @@ Both widgets use sys\_ids from the Employee Center Quick Links table \(`sn_ex_sp
 **Related topics**  
 
 
-[Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
+[Quick links widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-quick-links.md)
 

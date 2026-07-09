@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Software Asset Management software suites, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management software suites, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software suites inference

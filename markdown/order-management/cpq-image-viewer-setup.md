@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting up the Image Viewer
 
 You can use the Image Viewer to add images to fields for viewing in a media carousel.
 
-The image viewer allows a Logik Admin to add featured images to supported fields that can be viewed in a media carousel. This article covers how to set up the Image Viewer in the Logik Admin and how it displays on your layout.
+The image viewer allows a ServiceNow CPQ Admin to add featured images to supported fields that can be viewed in a media carousel. This article covers how to set up the Image Viewer in the ServiceNow CPQ Admin and how it displays on your layout.
 
 ## Supported field display types
 

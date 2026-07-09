@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an asset attestation schedule

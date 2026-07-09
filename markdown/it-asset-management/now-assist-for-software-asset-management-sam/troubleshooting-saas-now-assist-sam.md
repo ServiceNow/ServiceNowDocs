@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Generate troubleshooting guidance for SaaS and SSO integrations by using Now Assist for SAM
@@ -22,6 +22,10 @@ Role required: sam\_integrator
 
 ## About this task
 
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Error resolution recommendation and Error log summarization generative AI skill.
+
 Now Assist for SAM generates the troubleshooting guidance for all SaaS and SSO integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both current and new SaaS integrations.
 
 ## Procedure
@@ -32,15 +36,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS and SSO i
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d337716e106">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d338691e127">
 
 Integration
 
-</th><th align="left" id="d337716e109">
+</th><th align="left" id="d338691e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d337716e115">
+</th></tr></thead><tbody><tr><td id="d338691e136">
 
 **Existing**
 
@@ -54,7 +58,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d337716e143">
+</td></tr><tr><td id="d338691e164">
 
 **New**
 

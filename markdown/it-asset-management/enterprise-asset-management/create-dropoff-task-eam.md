@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a Drop off task for enterprise assets

@@ -54,7 +54,7 @@ This spoke has no flows and subflows.
 
 ## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [ServiceNow Otto for Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Description|
 |----------------------|-----------|

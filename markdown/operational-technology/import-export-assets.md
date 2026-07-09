@@ -1,6 +1,6 @@
 ---
 title: Import &amp; export assets
-description: You can import or export assets, as well as ignored assets, to either CSV or JSON formats.
+description: You can import or export assets, and ignored assets, to either CSV or JSON formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/import-export-assets.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Assets page, Use the Console pages, Discovery Console for Operation
 
 # Import &amp; export assets
 
-You can import or export assets, as well as ignored assets, to either CSV or JSON formats.
+You can import or export assets, and ignored assets, to either CSV or JSON formats.
 
 ## Before you begin
 
@@ -30,11 +30,11 @@ Role required: admin
 
 3.  Once you have the list of Assets you want, select the **Actions** button.
 
-    \[Omitted image "image.action-button-list-new"\] Alt text: Action menu
+    \[Omitted image "action-button-list-new.png"\] Alt text: Action menu
 
 4.  Select Import Assets and the Import Assets window opens.
 
-    \[Omitted image "image.import-assets-prompt"\] Alt text: Import Assets
+    \[Omitted image "import-assets-prompt.png"\] Alt text: Import Assets
 
     The window lists the format you can import to the Console. You can also adjust the available settings in the window:
 
@@ -42,7 +42,7 @@ Role required: admin
     -   Keep Existing Assets
 5.  When you select Import Ignore Assets, the prompt window opens and lists the required information needed.
 
-    \[Omitted image "image.import-ignored-assets-prompt"\] Alt text: Import Ignored Asset
+    \[Omitted image "import-ignored-assets-prompt.png"\] Alt text: Import Ignored Asset
 
     The assets file must be in CSV format to upload to the Console.
 

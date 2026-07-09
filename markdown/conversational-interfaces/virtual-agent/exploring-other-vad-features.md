@@ -83,6 +83,8 @@ Virtual Agent supports link unfurling on the chat widget, mobile devices, and va
 Virtual Agent uses the ServiceNow AI Platform® AI Search application to return search results in bot conversations as a fallback when there are no relevant topics to display to end users. Virtual Agent also provides a Run AI Search topic block that topic authors can use to generate search results in a topic.
 -   **[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)**  
 The workflows of ServiceNow® Workflow Studio can be integrated within ServiceNow Virtual Agent topics. You can then use these workflows in Virtual Agent conversations.
+-   **[Authenticate guest users to initiate and import chat from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/authenticate-guest-start-import-chat.md)**  
+Assign permissions to guest users to initiate and import chat conversations with employees from Microsoft Teams to a ServiceNow® instance for a self-configured app.
 
 **Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

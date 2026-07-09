@@ -28,6 +28,8 @@ Define your greeting, closing messages, and fallback options.
 
 Depending on your configuration, different options may appear. Legacy messages \(chat messages\) and legacy fallbacks \(chat fallbacks\) are shown when at least one display experience has standard chat or enhanced chat. Premium messages and premium fallbacks are shown when at least one display experience has premium chat.
 
+**Note:** If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to verify that everything was prefilled correctly. Adding or editing a premium fallback may take a few minutes to take effect after saving.
+
 A standard chat preview pane is shown for the default greeting topic and the default closing topic. Selecting custom topics won't show a preview pane.
 
 Fallbacks appear in the preview pane when you toggle individual or all fallbacks on.
@@ -141,15 +143,15 @@ Closing topic
 
 </td><td>
 
-The closing topic is only applicable for the standard chat experience.Now Assist - Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
+Now Assist - Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
 
 </td><td>
 
-Yes \(only for standard chat\)
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
@@ -169,11 +171,11 @@ Closing message
 
 </td><td>
 
-Yes \(only for standard chat\)
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
@@ -189,7 +191,7 @@ Error topic
 
 </td><td>
 
-Now Assist - Error is the default topic for Now Assist in Virtual Agent assistants.Now Assist Panel - Error is the default topic for Now Assist panel assistants.
+Now Assist - Error is the default topic for Now Assist in Virtual Agent assistants.Now Assist panel - Error is the default topic for Now Assist panel assistants.
 
 To replace the default topic, select a custom topic from the drop-down menu.
 
@@ -243,11 +245,11 @@ Survey
 
 You can optionally select a custom topic to use it as a survey topic. If you don't select any topic, the default survey experience is applied.
 
- Feedback surveys are supported in both the standard and enhanced chat experiences. When enhanced chat is enabled, the survey is automatically triggered when the user indicates that they are finished chatting, based on the assistant's survey configuration.
+ Post chat feedback surveys are supported in standard, enhanced, and premium chat experiences. When premium chat is enabled, the survey is automatically triggered when the user indicates that they are finished chatting, based on the assistant's survey configuration.
 
 </td><td>
 
-Yes
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
@@ -255,7 +257,7 @@ No
 
 </td><td>
 
-Yes
+No
 
 </td><td>
 
@@ -264,11 +266,11 @@ No
 </td></tr></tbody>
 </table>3.  In the **Legacy fallbacks** or **Premium fallbacks** sections, activate one or more fallback options.
 
-    **Note:** For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
-
     \[Omitted image "NAinVA-chat-experience-legacy-fallbacks-0426.png"\] Alt text: Activate fallback options.
 
     \[Omitted image "NAinVA-manage-premium-fallbacks.png"\] Alt text: Activate fallback options.
+
+    For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
 
     **Note:** For Now Assist panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
 
@@ -280,8 +282,6 @@ No
     -   To end a conversation while creating an incident report.
     -   To use a custom topic while having the live agent transfer option.
     For premium chat, you can select a topic for fallback options.
-
-    **Note:** If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to verify that everything was prefilled correctly. Adding or editing a premium fallback may take a few minutes to take effect after saving.
 
     1.  Route the user to an available agent by turning on **Live agent**. Selecting the **Live agent topic** field displays a drop-down for topics, and the text input is used for the fallback button in the assistant. The default **Live agent topic** is **Now Assist Live Agent**.The default button label is **Request a live chat**.
 

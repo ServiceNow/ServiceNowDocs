@@ -32,21 +32,13 @@ The base system provides various departments. You can create or edit existing de
 
 3.  Click **New** to create a department.
 
-4.  Use the ID field to enter a company-specific department number.
+4.  Fill in the fields, and click **Save** to stay on the **Departments** form.
 
-5.  Click **Save** to stay on the **Departments** form.
+    The **Users** tabs appear.
 
-    The **Expense Allocations** and **Users** tabs appear.
+5.  Click **New** to create a new user associated with the department.
 
-6.  Click **Expense Allocations** to view all expense allocations associated with the department.
-
-7.  Click **New** to create a new expense allocation associated with the department.
-
-8.  Click **Users** to view all users associated with the department.
-
-9.  Click **New** to create a new user associated with the department.
-
-10. Click **Save** to stay on the **Departments** form or Update to return to the **Departments** list.
+6.  Click **Save** to stay on the **Departments** form or Update to return to the **Departments** list.
 
 
 **Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)

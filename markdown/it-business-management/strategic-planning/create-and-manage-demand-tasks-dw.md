@@ -1,6 +1,6 @@
 ---
-title: Create and manage demand tasks
-description: Create tasks for a demand to delegate cost, effort, risk, and benefit assessment activities. Assign a resource or group to the demand task to track the actual time and effort spent on performing the specified activities.
+title: Create demand tasks
+description: Create tasks for a demand to delegate cost, effort, risk, and benefit assessment activities. Assign a resource or group to the demand task to track the time and effort spent performing the specified activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-and-manage-demand-tasks-dw.html
 release: australia
@@ -8,13 +8,13 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 2
+breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create and manage demand tasks
+# Create demand tasks
 
-Create tasks for a demand to delegate cost, effort, risk, and benefit assessment activities. Assign a resource or group to the demand task to track the actual time and effort spent on performing the specified activities.
+Create tasks for a demand to delegate cost, effort, risk, and benefit assessment activities. Assign a resource or group to the demand task to track the time and effort spent performing the specified activities.
 
 ## Before you begin
 
@@ -22,49 +22,36 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-You create demand tasks to plan the work for demands rather than for the target work entity such as a project, change, defect, or enhancement. The resources assigned to a demand task can submit the time spent on it using a time card.
+Create demand tasks to plan work for demands rather than for a target work entity such as a project, change, defect, or enhancement. Resources assigned to a demand task can submit time spent on the task using a time card. For more information, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-tasks.md).
 
-**Note:** If you’re creating a demand task with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, additional fields are available. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
+To create, edit, or delete demand tasks, you can also use the **Add demand tasks** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
-For more information about demand tasks, see [Demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-tasks-dw.md).
+**Note:** If you're creating a demand task with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and Demand Currency view enabled, additional fields are available. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency in Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/multicurrency-in-dw-reference.md).
 
 ## Procedure
 
-1.  Open a demand from the home page of Next Experience for Demand Management.
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
-    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
+2.  Select the Demands icon\[Omitted image "demands-icon.png"\].
 
-2.  Select **Details** from the L-2 \(level 2\) navigation menu.
+3.  Open a demand from the All Demands list.
 
-3.  Select **Demand Tasks**.\[Omitted image "demand-tasks.png"\] Alt text: Demand tasks tab to add or edit demand tasks.
+4.  Select **Details** from the navigation menu.
 
-    **Note:** If the **Demand Tasks** tab isn’t visible, select **More** and then select **Demand Tasks**.
+5.  Select the **Demand Tasks** tab.
 
-4.  Add or edit a demand task from the **Demand Tasks** tab:
+    **Note:** If the Demand Tasks tab isn't visible, select **More** and then select **Demand Tasks**.
 
-    -   To add a demand task, select **New**.
-    -   To update the details of an existing demand task, select the record.
-5.  On the Create New Demand Task form, fill in the fields.
+6.  Select **New**.
 
-    For a description of the field names, see [Create demand task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-task-form-dw.md).
+7.  On the Demand Task form, fill in the fields.
 
-6.  Select **Save**.
+    For a description of the field values, see [Demand task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-task-form-dw.md).
 
-    **Note:**
-
-    -   To delete a demand task, select the record and select **Delete** from the More Actions option.
-    -   Alternatively, you can create, edit, or delete demand tasks using the **Add demand tasks** playbook activity. For more information, see [Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
-    After completing your work on the demand task, use the breadcrumb navigation to return to the **Demand Tasks** tab.
-
-    **Note:** Team members can access demand tasks assigned to them from Collaborative Work Management. For more information, see [Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md).
+8.  Select **Save**.
 
 
-**Related topics**  
+## Result
 
-
-[Use Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-default-playbook-stages.md)
-
-[Create demand task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-task-form-dw.md)
+The demand task is created and is accessible on the **Demand Tasks** tab. Team members can access demand tasks assigned to them from Collaborative Work Management. For more information, see [Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md).
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Configure Azure DevOps story integration

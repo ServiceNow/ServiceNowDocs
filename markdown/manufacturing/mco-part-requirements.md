@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Corrective actions, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Generate a part requirement
@@ -83,9 +83,4 @@ Unit of measure. Available options are:-   Box
 </td></tr></tbody>
 </table>    **Note:** When corrective action status changes to Draft, part details in part requirements are reset to 0.
 
-
--   **[Create a part availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-part-availability.md)**  
-Track current part availability and expected availability dates for required parts.
-
-**Parent Topic:**[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-actions.md)
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-20"
 reading_time_minutes: 3
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Job details performance metrics
@@ -33,12 +33,10 @@ The metrics provide the job details performance snapshot within the ServiceNow A
     Tabular representation of the top 50 jobs that have been executed multiple times, including their respective counts. This data is available for the past 6 months.
 
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

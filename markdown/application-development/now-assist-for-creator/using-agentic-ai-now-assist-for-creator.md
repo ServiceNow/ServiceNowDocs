@@ -17,7 +17,7 @@ breadcrumb: [Now Assist for Creator, Agentic development on the ServiceNow AI Pl
 
 Use the AI agents and agentic workflows available with Now Assist for Creator to help you build on the ServiceNow AI Platform more efficiently.
 
-Now Assist for Creator contains agentic AI assets, such as AI agents and agentic workflows, that empower you to build more efficiently on the ServiceNow AI Platform. The agentic AI assets available with Now Assist for Creator are embedded in products across the ServiceNow AI Platform, enabling you to leverage agentic AI at every stage of your development process. For example, with Now Assist for Creator, you can vibe code entire full-stuck applications in conversation with Build Agent, or troubleshoot ATF test failures with the ATF troubleshooting agent. The following table highlights the agentic AI assets available with Now Assist for Creator and the products that the AI assets work in.
+Now Assist for Creator contains agentic AI assets, such as AI agents and agentic workflows, that empower you to build more efficiently on the ServiceNow AI Platform. The agentic AI assets available with Now Assist for Creator are embedded in products across the ServiceNow AI Platform, enabling you to leverage agentic AI at every stage of your development process. For example, with Now Assist for Creator, you can develop entire full-stuck applications in conversation with Build Agent, or troubleshoot ATF test failures with the ATF troubleshooting agent. The following table highlights the agentic AI assets available with Now Assist for Creator and the products that the AI assets work in.
 
 <table id="table_qp5_f2m_yhc"><thead><tr><th>
 

@@ -95,15 +95,15 @@ State of the status reports. The status reports can be in one of the following s
 
 7.  On the Executive Email Status Report template, fill the sections with the details of the status report.
 
-<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d312676e245">
+<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d314721e245">
 
 Report section
 
-</th><th align="left" id="d312676e248">
+</th><th align="left" id="d314721e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d312676e254">
+</th></tr></thead><tbody><tr><td id="d314721e254">
 
 **Updates**
 
@@ -113,7 +113,7 @@ Provide a summary of the status update. This section contains the following:-   
 -   **Append text from last report shared**: Select this option to append the text from the last report shared.
 
 
-</td></tr><tr><td id="d312676e276">
+</td></tr><tr><td id="d314721e276">
 
 **Explanation**
 
@@ -125,7 +125,7 @@ Add an explanation on what has changed since the last status update was done. Th
 -   **Filter elements**: Select the report elements to be included in the report. For example, Key Updates or Next Updates.
 
 
-</td></tr><tr><td id="d312676e308">
+</td></tr><tr><td id="d314721e308">
 
 **Additional Information**
 
@@ -133,7 +133,7 @@ Add an explanation on what has changed since the last status update was done. Th
 
 Provide specific details relevant to the status update.
 
-</td></tr><tr><td id="d312676e317">
+</td></tr><tr><td id="d314721e317">
 
 **Visualizations**
 
@@ -143,7 +143,7 @@ Select the visualizations that best help communicate the status update. -   **In
 -   **Filter elements**: Select the report elements to be included in the report. For example, Incident Impact.
 
 
-</td></tr><tr><td id="d312676e340">
+</td></tr><tr><td id="d314721e340">
 
 **Lists**
 

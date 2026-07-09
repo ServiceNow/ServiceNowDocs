@@ -7,7 +7,7 @@ release: australia
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-03"
 reading_time_minutes: 5
 breadcrumb: [Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -54,6 +54,8 @@ Instance Scan uses the following records, components and scan types.
 
     Execute a test scan to verify if the check works as expected. The test scan enables you to test a single check instead of a full scan by selecting a single check and selecting **Test Check** on the Check form.
 
+
+**Note:** Instance Scan can scan tables that are extended by sys\_metadata.
 
 ## Instance Scan users
 

@@ -52,7 +52,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 

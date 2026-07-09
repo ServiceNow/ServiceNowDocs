@@ -30,6 +30,8 @@ Secure your Kafka topics by generating a ServiceNow® instance-signed certificat
 Revoke a ServiceNow® instance-signed certificate so that it can't be used in secure connections to the Hermes Messaging Service.
 -   **[Restricting access to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.md)**  
 Restrict access to Hermes by IP address.
+-   **[Enable encryption at rest for a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.md)**  
+Enable encryption at rest on a Hermes topic to help protect message data stored on broker disks from unauthorized access.
 
 **Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-services.md)
 

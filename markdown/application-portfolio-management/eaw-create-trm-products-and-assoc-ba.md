@@ -1,5 +1,5 @@
 ---
-title: Create Technology Reference Model products and associate it with business applications
+title: Create and associate TRM products with business applications
 description: You can create a Technology Reference Model \(TRM\) products and associate it with business applications in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-products-and-assoc-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create Technology Reference Model products and associate it with business applications
+# Create and associate TRM products with business applications
 
 You can create a Technology Reference Model \(TRM\) products and associate it with business applications in the Enterprise Architecture Workspace.
 

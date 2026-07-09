@@ -34,6 +34,8 @@ With the Service Graph Connector for Microsoft Excel, add a custom field to the 
 Customize the base system classification of an device based on the type, os\_version, and firmware\_version.
 -   **[Add a custom validation for devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-validation-for-devices.md)**  
 Customize the validation for your OT devices.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)**  
+
 -   **[Test the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.md)**  
 The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 -   **[View script includes used by the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-script-includes-used-by-service-graph-connector.md)**  

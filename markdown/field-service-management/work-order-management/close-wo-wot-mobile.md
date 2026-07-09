@@ -38,15 +38,15 @@ Role required: wm\_agent
 
 5.  Either close the task after work is complete or close it with a follow-on task pending.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d72762e163">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d73001e163">
 
 To
 
-</th><th align="left" id="d72762e166">
+</th><th align="left" id="d73001e166">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d72762e172">
+</th></tr></thead><tbody><tr><td id="d73001e172">
 
 **Close a work order task after work has been completed**
 
@@ -59,7 +59,7 @@ Do this
 5.  Automatically create and route a new work order task when the current task is closed as complete by turning on the **Has follow-on task** option.
  **Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
 
-</td></tr><tr><td id="d72762e223">
+</td></tr><tr><td id="d73001e223">
 
 **Close a work order task as incomplete**
 
@@ -85,7 +85,7 @@ A clone of the work order task set to **Draft** state is created and the origina
 </td></tr></tbody>
 </table>6.  Generate a signed PDF summary for the work order task by tapping **Preview Work Summary**.
 
-    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/enable-pdf-summary.md).
+    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/enable-pdf-summary.md). For more information on assessment scoring, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md)
 
 
 ### Result
@@ -209,15 +209,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d72762e904">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d73001e907">
 
 To
 
-</th><th align="left" id="d72762e907">
+</th><th align="left" id="d73001e910">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d72762e913">
+</th></tr></thead><tbody><tr><td id="d73001e916">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -228,7 +228,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d72762e943">
+</td></tr><tr><td id="d73001e946">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 

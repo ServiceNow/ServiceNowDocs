@@ -275,7 +275,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side JavaScript debug window.
+\(Administrators only\) Opens the client-side [JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JavaScriptDebugWindow.md).
 
 </td></tr><tr><td>
 

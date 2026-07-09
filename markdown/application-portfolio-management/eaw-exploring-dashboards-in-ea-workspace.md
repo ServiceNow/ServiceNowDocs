@@ -34,7 +34,7 @@ The Application 360 dashboard performs as a reporting tool and uses Performance 
 **Related topics**  
 
 
-[View the performance of applications using the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
+[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
 
 [Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

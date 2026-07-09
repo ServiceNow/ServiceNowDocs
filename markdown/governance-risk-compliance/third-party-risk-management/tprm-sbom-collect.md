@@ -45,15 +45,15 @@ The engagement-level external assessment is the mechanism through which SBOM inf
 
 1.  Turn on SBOM collection for the engagement.
 
-<table><thead><tr><th align="left" id="d78076e196">
+<table><thead><tr><th align="left" id="d78267e196">
 
 Option
 
-</th><th align="left" id="d78076e199">
+</th><th align="left" id="d78267e199">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78076e205">
+</th></tr></thead><tbody><tr><td id="d78267e205">
 
 **New due diligence request**
 
@@ -64,7 +64,7 @@ Steps
 3.  Complete the request.
  For details, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
-</td></tr><tr><td id="d78076e240">
+</td></tr><tr><td id="d78267e240">
 
 **Existing due diligence request**
 
@@ -89,7 +89,7 @@ Steps
 
 ## What to do next
 
-After the external assessment is submitted, review the submission outcome. For details, see [Review a software bill of materials submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md).
+After the external assessment is submitted, review the submission outcome. For details, see [Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md).
 
 **Related topics**  
 
@@ -100,7 +100,7 @@ After the external assessment is submitted, review the submission outcome. For d
 
 [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-activate.md)
 
-[Review a software bill of materials submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
+[Review an SBOM submission from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/sbom-review.md)
 
 [SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)
 

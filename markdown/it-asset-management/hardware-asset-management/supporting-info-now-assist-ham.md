@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Supporting information for Now Assist for Hardware Asset Management \(HAM\)

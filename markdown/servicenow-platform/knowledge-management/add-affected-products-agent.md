@@ -38,7 +38,7 @@ This task provides steps to add affected products to a knowledge article in Agen
 
 4.  On the Knowledge form, in the Affected Products related list, click **New**.
 
-5.  On the Knowledge Related to Products form, in the **Configuration item** field, click the search for record icon \(\[Omitted image "lookup-icon.png"\] Alt text: Search for Record icon\).
+5.  On the Knowledge Related to Products form, in the **Configuration item** field, click the search for record icon .
 
 6.  In the Configuration item dialog box, click the related product.
 

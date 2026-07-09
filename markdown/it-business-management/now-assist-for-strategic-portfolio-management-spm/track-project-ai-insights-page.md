@@ -9,7 +9,7 @@ classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Generate and track project details from AI insights page
@@ -26,7 +26,7 @@ Role required: it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open AI insights page by selecting **AI insights** from the list.
 
@@ -41,10 +41,10 @@ Role required: it\_project\_manager
     -   Project insights
     -   Executive summary
     -   Overall project health
-    -   RAG
+    -   RAG status \(These appear as widgets on the AI insights page\).
+    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, as well as budget and cost status to verify that financials remain within limits.
 
-
-    The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits.
+    The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits. For more information on In-App insights, see [AI Project Insights](https://www.servicenow.com/community/spm-articles/enhancements-to-ai-powered-project-insights/ta-p/3485806).
 
 
 ## Result
@@ -66,5 +66,5 @@ The project insights are generated from the AI insights page with access to curr
     -   From the AI insights page, select **Regenerate** icon.
     -   Now Assist generates updated project insights.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

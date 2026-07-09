@@ -266,7 +266,7 @@ Override the default field mappings for an external content connector's user per
 -   **[Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/connect-external-content-connector-search-profile.md)**  
 Make results from an external content connector searchable in your portals and search applications by connecting its search sources to your existing search profiles.
 -   **[Add an external content search source to Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-ext-cont-srch-src-na-va.md)**  
-Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent conversations.
+Include searchable content retrieved by an external content connector in your Now Assist in Virtual Agent chats.
 -   **[Verify your connection settings and source system permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/verify-connection-settings-ext-cont-connector.md)**  
 Check that connection settings and source system permissions are correctly specified for your external content connector. Perform this task to verify whether permission changes or revocations affect the connector's ongoing or scheduled crawls.
 

@@ -30,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d285477e69">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d287504e69">
 
 Option
 
-</th><th align="left" id="d285477e72">
+</th><th align="left" id="d287504e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d285477e78">
+</th></tr></thead><tbody><tr><td id="d287504e78">
 
 **Tables &amp; Columns module**
 
@@ -49,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d285477e111">
+</td></tr><tr><td id="d287504e111">
 
 **Database Indexes related list**
 

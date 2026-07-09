@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 This video was recorded in the Zurich release.
 
-Video that shows how to add an operation to a model in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to add an operation to a model in Zero Copy Connector for ERP.
 
 -   Read operations retrieve ERP data by reading a table or using a BAPI, RFC, OData, or REST.
 -   Update operations use a BAPI, RFC, OData, IDoc, or REST to write updates to the ERP system.

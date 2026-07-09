@@ -32,7 +32,7 @@ Role required: admin
 
 5.  On the Guided Setup page, select **Get started**.
 
-    This opens the page with each task for downloading the OT devices as well as steps to configure connections, integrations, and imports for the Service Graph Connector.
+    This opens the page with each task for downloading the OT devices and steps to configure connections, integrations, and imports for the Service Graph Connector.
 
 6.  In the first section, select **Download &amp; Deploy OT Discovery**.
 

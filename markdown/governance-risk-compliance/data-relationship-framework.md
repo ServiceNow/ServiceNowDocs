@@ -14,6 +14,10 @@ breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Co
 
 The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 
+\[Omitted video\] Description: An overview of the Data Relationships Framework.
+
+The video gives you an overview of the Data Relationships Framework such as how it is used to fetch the dependencies in the BIAs, plans, and events from different sources.
+
 ## Framework for fetching the dependencies
 
 The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables the users to configure the source \(main node\) for the dependency updates, configure its relationship with the child nodes, and fetch the dependencies for the selected object.

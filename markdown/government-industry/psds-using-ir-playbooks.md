@@ -51,7 +51,7 @@ The process-based playbook layout shows the following features:
 
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-\[Omitted image "information-request-process-based-layout.png.png"\] Alt text: Playbook layout, shown in process-based experience view. For the text description, refer to the table in Playbook components.
+\[Omitted image "information-request-process-based-layout.png"\] Alt text: Playbook layout, shown in process-based experience view. For the text description, refer to the table in Playbook components.
 
 The following table shows the components that you can see in the Information Request Playbook workspace.
 

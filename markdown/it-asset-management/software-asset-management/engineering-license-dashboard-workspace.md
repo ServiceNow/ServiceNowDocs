@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Engineering License overview dashboard in workspace
@@ -24,7 +24,7 @@ To narrow your results based on products or publishers across all tabs, use the 
 
 All the reports are updated daily or whenever a new reconciliation result is available.
 
-You can access the Engineering license overview dashboard by navigating to **Software asset** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Engineering license overview**.
+Access the Engineering license overview dashboard by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Engineering license overview**.
 
 \[Omitted image "engineering-dboard-workspace.png"\] Alt text: Engineering Overview dashboard in workspace
 
@@ -52,7 +52,7 @@ Product Result
 
 </td><td>
 
-Total cost of all entitlements for all products.
+Total cost of entitlements for products on a concurrent license metric group that includes token, float, or network-based licenses.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Removal Candidate \[samp\_sw\_reclamation\_candidate\]
 
 </td><td>
 
-Cost saved if removal candidates are reclaimed.
+Potential cost savings if license rights flagged as removal candidates are reclaimed.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Engineering Application Denial \[samp\_eng\_app\_denial\]
 
 </td><td>
 
-Top products that are denied to users as these products have reached their peak concurrent usage.
+Products with the highest number of access denials. These denials occur when peak concurrent usage reaches the product's licensed user limit or peak usage.
 
 </td></tr><tr><td>
 
@@ -88,12 +88,12 @@ Engineering Application Utilization and User Ratio \[samp\_eng\_utilization\_use
 
 </td><td>
 
-Ratio of license utilization, for normalized products and publishers, to the number of users using those licenses.
+Ratio of license utilization, for normalized products and publishers, to the number of users using those licenses. The **Utilization and user ratio** report contains the following metrics:
 
+-   License utilization: Percentage of peak consumption for a product against the number of rights available. For example, a product has 100 rights. If the highest number of users accessing the product is 90, the license utilization is 90%. If over a 90-day period, 200 distinct users accessed it, then the license utilization is 200%.
+-   License to user ratio: Ratio of rights using this license to users of this product over 90 days period. For example, a product has 100 license rights, but over a 90-day period, 200 distinct users accessed it. The license to user ratio is 100:200, or 50%.
 -   Normalized publisher
 -   Normalized product
--   License utilization: Percentage of peak consumption of the product against number of rights.
--   License to user ratio: Ratio of rights using this license to users using this product over the period of 90 days rights.
 
 </td></tr><tr><td>
 
@@ -109,11 +109,11 @@ Engineering Application License \[samp\_eng\_app\_license\]
 
 </td><td>
 
-The total number or quantity of all available licenses; not just the active products but all the products.
+Trend of daily concurrent usage over time.
 
--   The blue line represents the total number of licenses allocated to a product or a publisher
--   The green line indicates the concurrent usage of the licenses.
--   The red line indicates denials or if and when the concurrent usage peaks.
+-   The blue line indicates the user limit set in the license server configuration, which may differ from the entitlement count in Software Asset Management.
+-   The green line indicates the peak concurrent usage of licenses.
+-   The red line, where applicable, indicates denials or if and when the concurrent usage reaches the peak.
 
 </td></tr><tr><td>
 
@@ -125,9 +125,9 @@ Engineering Application Usage Summary \[samp\_eng\_app\_usage\_summary\]
 
 </td><td>
 
-Duration of time spent by users \(idle vs active\) on products. Only the top 5 users with more idle duration appear on the report.
+Duration of time that users spend \(idle vs active\) on products. Only the top 5 users with more idle duration appear on the report.
 
-**Note:** Idle is the aggregate sum on Total idle duration column and Active is the aggregate sum on Total session duration column.
+**Note:** Idle is the sum of the Total idle duration column. Active is the sum of the Total session duration column.
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Engineering Application Denial \[samp\_eng\_app\_denial\]
 
 </td><td>
 
-Top users that are denied licenses to products.
+Users with the highest number of access denials for products.
 
 </td></tr></tbody>
 </table>

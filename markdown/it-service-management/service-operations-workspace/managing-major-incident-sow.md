@@ -42,7 +42,7 @@ After an incident is promoted to a major incident, each tab on a Major Incident 
     -   Resolution – Incident resolution-related information, such as resolution code and resolution notes, once the incident is resolved.
     On the Activity section, you can view all comments, work notes, actions taken, and composed emails. This section also includes user activities, such as a change in the state and the assignment group. In the Compose section, you can add comments, work notes, and actions taken, as well as compose emails.
 
-    For more information on the **Overview** tab, see [View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+    For more information on the **Overview** tab, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 
 -   **Details tab**
 

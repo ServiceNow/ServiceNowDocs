@@ -40,6 +40,10 @@ Role required: sn\_fcms\_intg.integration\_user
 4.  Select **Submit**.
 
 
+## Result
+
+The Integration Service record is created.
+
 ## What to do next
 
 In the ERP Source configuration, Run jobs for active entities.

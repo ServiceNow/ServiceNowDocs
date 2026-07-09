@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [import product catalog item]
-breadcrumb: [Product catalog items, Product Catalog, IT Asset Management]
+breadcrumb: [Product catalog items, Product Catalog, Common applications, Asset Management]
 ---
 
 # Import a Product Catalog item
@@ -31,15 +31,15 @@ To import hardware or software product catalog items from one ServiceNow instanc
 
 1.  In the source ServiceNow instance, export the hardware or software product model record XML file.
 
-<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d110778e110">
+<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d111634e110">
 
 Option
 
-</th><th align="left" id="d110778e113">
+</th><th align="left" id="d111634e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110778e119">
+</th></tr></thead><tbody><tr><td id="d111634e119">
 
 **To export hardware product model record XML file**
 
@@ -51,7 +51,7 @@ Description
 4.  Save the exported hardware model XML file on your local system.
 
 
-</td></tr><tr><td id="d110778e167">
+</td></tr><tr><td id="d111634e167">
 
 **To export software product model record XML file**
 
@@ -72,15 +72,15 @@ Description
     4.  Save the exported update set XML file on your local system.
 3.  In the target ServiceNow instance, import the hardware or software product model record XML file.
 
-<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d110778e281">
+<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d111634e281">
 
 Option
 
-</th><th align="left" id="d110778e284">
+</th><th align="left" id="d111634e284">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110778e290">
+</th></tr></thead><tbody><tr><td id="d111634e290">
 
 **To import hardware model record XML file**
 
@@ -93,7 +93,7 @@ Description
 5.  Select **Upload**.
 
 
-</td></tr><tr><td id="d110778e353">
+</td></tr><tr><td id="d111634e353">
 
 **To import software model record XML file**
 

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/run-scan-engine.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Run your first scan with the Scan Engine
@@ -46,7 +46,7 @@ Role required: impact app admin or admin
 
 4.  Integrate with your other environments running Impact and utilize Scan Engine diagnostics.
 
-    You can connect your instances with a one-time configuration, available in both OAuth 2.0 and Basic Auth. Refer to [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md) for details.
+    You can connect your instances with a one-time configuration, available in both OAuth 2.0 and Basic Auth. Refer to [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md) for details.
 
 5.  **Mark as Complete** to progress to the next step in Guided Setup.
 
@@ -59,14 +59,10 @@ See [Use automated registration to connect to the Impact Delivery Instance](http
 The full and delta instance scan feature enables ServiceNow administrators and developers to initiate, monitor, and manage instance scans directly from the Scan Results list view.
 -   **[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-manage-scan-engine.md)**  
 Use the Scan Results list view to initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
--   **[Running on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)**  
+-   **[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md)**  
 You can initiate some scan types on-demand to run whenever they are required.
 -   **[Scan blocking and override behavior scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understanding-scan-blocking-override-behavior.md)**  
 The Scan Engine blocks concurrent scans to protect instance performance. Understanding these rules helps you plan scan execution efficiently and how the system handles concurrent scan requests and when Force Full Scan override is necessary.
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties.md)
-
-**Next topic:**[Full and delta instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-parallel-processing.md)
+**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

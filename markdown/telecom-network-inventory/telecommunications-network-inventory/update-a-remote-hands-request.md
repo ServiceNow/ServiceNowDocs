@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -48,10 +48,6 @@ The following procedure enables Remote Hands Agents to review the submitted case
     The case record fields are automatically populated with values submitted by the customers through the Remote Hands request form in the Customer Service Management \(CSM\) portal.
 
 6.  Select **Summarize**
-
-    To learn more see [Generate summary for remote hands case record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/generate-summary-for-remote-hands-case-record.md)
-
-    You can further modify case fields. Add Work Notes for customers to view, update the state and close the case.
 
 
 **Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)

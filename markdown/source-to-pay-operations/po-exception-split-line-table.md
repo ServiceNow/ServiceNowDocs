@@ -20,15 +20,22 @@ The Purchase Order Exception Split Line \[sn\_poem\_exception\_split\_line\] tab
 
 |Field|Data type|Description|
 |-----|---------|-----------|
-|Proposed delivery date|Date|The revised delivery date proposed for this split line as part of the exception resolution.|
-|Updated|Date/Time|The revised delivery quantity proposed for this split line.|
+|Proposed delivery date|Date|Revised delivery date proposed for this split line as part of the exception resolution.|
+|Updated|Date/Time|Revised delivery quantity proposed for this split line.|
 |Notes|String|Additional comments related to this split line.|
 |Created|Date/Time|Date and time when this split line record was created.|
 |Updates|Integer|Number of fields edited every time the record is updated.|
 |Parent exception|Reference|Reference to the purchase order exception record that this split line belongs to.|
-|Updated by|String|The user who last modified this split line record.|
+|Updated by|String|User who last modified this split line record.|
 |Proposed delivery quantity|Decimal|Revised delivery quantity proposed by the supplier.|
-|Created by|String|The user who created this split line record.|
+|Created by|String|User who created this split line record.|
 
 **Parent Topic:**[Master data tables for Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)
+
+**Related topics**  
+
+
+[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
+
+[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md)
 

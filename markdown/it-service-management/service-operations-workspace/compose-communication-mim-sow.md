@@ -193,7 +193,7 @@ Content of the notification message.
 
     -   Depending on the channel selected on the communication task, options such as email or SMS are displayed.
     -   SMS communication is sent to the recipient only if the recipient has a phone number linked to the recipient record.
-    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
 5.  Select **Send**.
 
 

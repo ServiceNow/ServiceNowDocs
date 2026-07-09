@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for remediation action plan, Create a remediation action plan, Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Related list for remediation action plan, Create a remediation action plan, Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a CoPQ financial request
@@ -30,11 +30,6 @@ Role required: admin
 
 4.  Select **Save**.
 
-
--   **[Create a CoPQ planned line charge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-planned-line-charge.md)**  
-Create a CoPQ planned line charge for CoPQ financial request.
-
-**Parent Topic:**[Related list for remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-list-for-remediation-action-plan.md)
 
 **Related topics**  
 

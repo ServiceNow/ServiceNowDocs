@@ -18,7 +18,7 @@ Insert signatures in an HTML document template by selecting participants from th
 
 ## Before you begin
 
-Role required: sn\_hr\_core.admin
+Role required: sn\_doc.admin
 
 ## Procedure
 

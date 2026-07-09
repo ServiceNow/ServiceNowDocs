@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Implementing controls and assessment objectives in CAM, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Control requirement generation and upgrade steps

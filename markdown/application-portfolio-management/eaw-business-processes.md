@@ -52,5 +52,5 @@ Use business processes to model internal workflows and relate them to supporting
 
 [Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bp.md)
 
-[Add or remove a business process from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 

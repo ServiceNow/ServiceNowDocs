@@ -39,3 +39,10 @@ From the Business Portal home page, you can access and use the following feature
 |Most popular services|Request items and services from the catalog.|
 |Footer|Contains important links, contact information, and legal details for easy access.|
 
+**Related topics**  
+
+
+[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
+
+[Guest users experience on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-business-portal.md)
+

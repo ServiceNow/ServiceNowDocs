@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a pre-authorization request, Pre-authorization requests, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a pre-authorization request, Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Review and approve a pre-authorization request
@@ -37,6 +37,4 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 5.  Select **Confirm**.
 
-
-**Parent Topic:**[Create a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-agents-create-pre-auth-request.md)
 

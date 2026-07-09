@@ -9,7 +9,7 @@ classification: access-control
 topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 1
-breadcrumb: [Contextual Security Manager, Access Control List Rules, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists, Access Management]
 ---
 
 # Enable role auditing with Contextual Security: Role Management V2

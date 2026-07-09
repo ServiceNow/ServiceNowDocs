@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Manage enterprise asset repair tasks using the Mobile Agent application
@@ -22,8 +22,6 @@ Indicate in the Mobile Agent application when you start work on a repair task as
 Manage and record time worked on Troubleshoot asset, Repair asset, and Evaluate asset tasks using the Mobile Agent application. After you start working on a task, you can pause and resume work. You can also record the time worked manually.
 -   **[Close an enterprise asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-repair-task-mobile-app-eam.md)**  
 Complete an assigned enterprise asset repair task and mark the task as closed using the Mobile Agent application.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 
 **Related topics**  
 

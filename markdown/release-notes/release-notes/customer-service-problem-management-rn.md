@@ -67,6 +67,13 @@ Australia Early Availability
     Generates a deadlock letter details for a customer dispute in the ADR case record. You can generate the deadlock letter when the customer rejects the complaint resolution and opt for legal procedures.
 
 
+## Changed in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 ## UI changes
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)

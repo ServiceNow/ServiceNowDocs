@@ -43,15 +43,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  Install demo data based on your entitlements.
 
-<table id="choicetable_tsz_f2h_jjc"><thead><tr><th align="left" id="d125770e148">
+<table id="choicetable_tsz_f2h_jjc"><thead><tr><th align="left" id="d133691e148">
 
 Demo data install task
 
-</th><th align="left" id="d125770e151">
+</th><th align="left" id="d133691e151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125770e157">
+</th></tr></thead><tbody><tr><td id="d133691e157">
 
 **If demo data is available and you want to install it**
 
@@ -61,7 +61,7 @@ Description
 2.  Select **Install**.
  **Warning:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d125770e184">
+</td></tr><tr><td id="d133691e184">
 
 **If the Load Demo Data option isn't available but you want demo data**
 

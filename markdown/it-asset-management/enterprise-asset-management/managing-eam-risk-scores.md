@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing risks scores in Enterprise Asset Management
@@ -41,6 +41,4 @@ Use the Risk Likelihood module to create configuration values for the likelihood
 Use the Risk Impact module to create configuration values for the impact vector.
 -   **[Create configuration values for risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/risk-score-config.md)**  
 Use the Risk Score module to create configuration values for risk score bands.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

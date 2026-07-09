@@ -1,6 +1,6 @@
 ---
 title: Configure roles for the Service Mapping MCP tools
-description: Configure the role containment chain and assign the required roles to users so they can connect to the Now Assist CMDB MCP Server and call the Service Mapping MCP tools.
+description: Configure the role containment chain and assign the required roles to users so they can connect to the CMDB MCP Server and call the Service Mapping MCP tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.html
 release: australia
@@ -15,15 +15,15 @@ breadcrumb: [Service Mapping MCP tools, AI capabilities in Service Mapping, Usin
 
 # Configure roles for the Service Mapping MCP tools
 
-Configure the role containment chain and assign the required roles to users so they can connect to the Now Assist CMDB MCP Server and call the Service Mapping MCP tools.
+Configure the role containment chain and assign the required roles to users so they can connect to the CMDB MCP Server and call the Service Mapping MCP tools.
 
 ## Before you begin
 
-Before activating the Now Assist CMDB MCP Server, confirm the following requirements are met.
+Before activating the CMDB MCP Server, confirm the following requirements are met.
 
 -   Verify that Australia Patch 3 is installed.
 -   You have the MCP Platform Manager version 1.4.0 \(or later\) plugin activated.
--   You have the Now Assist CMDB MCP Server \(sn\_cmdb\_gen\_ai.now\_assist\_cmdb\_mcp\_server\) application installed.
+-   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.0.0, application installed.
 
 Role required: admin
 
@@ -85,7 +85,7 @@ The role hierarchy is configured and users are assigned the required roles. User
 
 ## What to do next
 
-[Activate the Now Assist CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+[Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
 
 **Parent Topic:**[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

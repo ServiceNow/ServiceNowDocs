@@ -35,6 +35,8 @@ Role required: Integration admin
 
     For more information on scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
 
-    System-related integration error tasks are closed and invoices are auto-synchronized to outbound tables.
 
+## Result
+
+System-related integration error tasks are closed and invoices are auto-synchronized to outbound tables.
 

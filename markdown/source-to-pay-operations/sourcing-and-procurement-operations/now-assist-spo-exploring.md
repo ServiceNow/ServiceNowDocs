@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Explore Now Assist for Sourcing and Procurement Operations]
-breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Explore Now Assist for Sourcing and Procurement Operations \(SPO\)

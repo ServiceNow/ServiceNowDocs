@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Library Objects form view
@@ -192,7 +192,7 @@ Use this search function to search for the source records across multiple source
 -   Once the records are filtered and listed, you can click on the list view which will take you to the respective record in a new tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
+</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 

@@ -119,6 +119,7 @@ Business stakeholder\[business\_stakeholder\]
 -   Can add notes, comments, or attachments to portfolio plans and roadmaps that are shared with them.
 -   Can personalize the roadmaps.
 -   Can view generated resource capacity for planning items in the Capacity Planning screen.
+-   Can fill out the assessments for scoring and reviews demands before they are approved.
 -   Can view goals defined for the portfolio plan.
 -   In Enterprise Agile Planning, can view EAP planning items and stories across teams and iterations in the Backlog, planning board, hierarchy tabs, dashboard widgets on the Home tab, and team-level Docs.
 

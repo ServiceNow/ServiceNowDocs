@@ -24,7 +24,7 @@ Review the following architecture diagram for more insight on the contact center
 
 See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-csm-integration.md).
 
-\[Omitted image "contact-center-integration-flow.png"\] Alt text: Contact center integration with ServiceNow architecture
+\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration architecture flow
 
 ## External routing with contact centers
 

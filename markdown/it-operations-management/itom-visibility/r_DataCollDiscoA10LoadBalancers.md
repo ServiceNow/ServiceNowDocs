@@ -595,7 +595,5 @@ Source NAT IP Pool \[cmdb\_ci\_snat\_ip\_pool\]
 
 Service Mapping discovers the connections between the A10 load balancers and applications in the deployment.
 
-\[Omitted image "A10LoadBalancerServiceWatchMap.png"\] Alt text: A10 load balancer application service map
-
 **Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

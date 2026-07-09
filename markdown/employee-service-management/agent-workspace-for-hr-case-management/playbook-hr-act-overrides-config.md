@@ -32,8 +32,6 @@ You can also access Playbook Activity Overrides from Playbook Experiences. See [
 
 2.  Select an activity override or **New**.
 
-    For information on the form fields, see Set up playbook activity overrides.
-
-3.  After editing or creating, click **Update** or **Submit**.
+3.  After editing or creating, select **Update** or **Submit**.
 
 

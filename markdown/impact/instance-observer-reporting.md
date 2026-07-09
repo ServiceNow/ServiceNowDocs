@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Reports, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Instance performance telemetry reports
@@ -45,7 +45,7 @@ Some Instance Observer reporting features vary between the Impact package that y
 |Data retention|45 days|6 months|6 months|
 |Self Service Alerts|X|✓|✓|
 
-**Note:** For more information on subscription support, see .
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md).
 
 ## Daily Performance Metrics Report
 
@@ -171,5 +171,12 @@ There are several database growth reports that are available that show how the i
 |Database by Size \(Including Shards\)|Various metrics on how the database has either grown or decreased over the selected, including shards. Total DBI Size align with primary shards, this is calculated every 4 hours and can be used to visualize database growth over time.|
 |Top 20 Tables \(By Size\)|Lists table name, size \(GB\), 1 day growth and rate, and the 7 day growth rate.|
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+## Encryption Report
+
+**Important:** This report is not available in the Regulated market.
+
+-   **DBI encryption status**: ServiceNow offers three types of encryption to the dbi's which is a paid service. They are Disk Encryption, Table Space Encryption \(TSE\), and Cloud Encryption.
+-   With this report you can check the status of encryption service that you have subscribed for the dbi's associated with the instances.
+
+**Parent Topic:**[IO reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/i-o-reports.md)
 

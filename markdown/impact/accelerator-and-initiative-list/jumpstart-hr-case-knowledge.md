@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your HR Case and Knowledge
-description: This accelerator provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-05-06"
 reading_time_minutes: 2
 keywords: [HRSD, HR Case, Knowledge, Human Resources Service Delivery, Now Assist, Agent Workspace]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your HR Case and Knowledge
 
-This accelerator provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
+This Accelerator provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
 
 ## Accelerator Overview
 

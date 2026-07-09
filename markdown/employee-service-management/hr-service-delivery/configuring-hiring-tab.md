@@ -9,6 +9,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [configure hiring tab, set up hiring, install hiring tab, hiring tab setup]
 breadcrumb: [Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

@@ -24,15 +24,15 @@ In Agent Workspace for HR Case Management, the child tab **Approvers** lists all
 
 ## Multiple approvers
 
-HR services can also have multiple approvers. When configuring an HR service, an optional configuration allows you to select approvers from the fields on the HR case. For example, manager of the Subject person can be selected as an approver. Using fields from a case provides maximum flexibility when assigning an approver. . For example:
+HR services can have multiple approvers. When configuring an HR service, you can select approvers from fields on the HR case. For example, the subject person's manager can be selected as an approver. Using case fields provides maximum flexibility when assigning approvers.
 
-When an approver is assigned from the case, it is possible that the approver may not be found. Following are a few circumstances under which the approver may be missing:
+When an approver is assigned from a case field, the approver may not be found in the following circumstances:
 
--   the subject person manager is the approver.
--   the Subject person's HR profile does not contain a manager.
--   the Subject person's manager recently left the company.
+-   The subject person's HR profile does not contain a manager
+-   The subject person's manager recently left the company
+-   The manager field is empty or invalid
 
-When an approver is missing, the following message appears:
+When an approver is missing, a warning message appears on the Approvers tab:
 
-\[Omitted image "agent-ws-hr-missing-approvers.png"\] Alt text: HR Agent Workspace - Missing approvers message
+\[Omitted image "agent-ws-hr-missing-approvers.png"\] Alt text: Approvers tab showing warning message that approver is missing with option to select different approver
 

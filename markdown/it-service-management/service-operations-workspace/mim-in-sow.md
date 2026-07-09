@@ -20,7 +20,7 @@ Create and manage major incidents in Service Operations Workspace.
 
 \[Omitted video\] Description: Introduction to Major Incident Management
 
-\[Omitted image "mim\_sow\_record\_page\_new.png.png"\] Alt text: Major incident record
+\[Omitted image "mim\_sow\_record\_page\_new.png"\] Alt text: Major incident record
 
 A major incident \(MI\) is created when an issue occurs that results in significant disruption to the business and demands a response beyond the normal incident management process.
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 11
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Product life cycles
@@ -34,7 +34,7 @@ View the Software Product Lifecycle report to be informed about the products nea
 
 The Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table calculates the current and upcoming lifecycle phases from the lifecycle phases mentioned in the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table.
 
-For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb-sam-sw-install\] table. The software installation records are linked to lifecycles via the **Installs associated to lifecycle** column in the Software Installation \[cmdb-sam-sw-install\] table.
+For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb\_sam\_sw\_install\] table. The software installation records are linked to lifecycles via the **Installs associated to lifecycle** column in the Software Installation \[cmdb\_sam\_sw\_install\] table.
 
 For better visibility into all life-cycle phases, the following columns have been added to the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table:
 
@@ -63,9 +63,9 @@ Life cycle code columns can also be added to the Software Lifecycle Report for e
 
 To further improve life cycle coverages, even after approximated life cycles have been considered, EOS, EOES, and EOL life-cycle dates can be calculated based on software life cycle averages, measured in months, from the GA dates.
 
-Software life cycle averages can be defined at the product level, publisher level, or industry level. For details on specifying software life cycle averages in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md) and for specifying software life cycle averages in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md)
+Software life cycle averages can be defined at the product level, publisher level, or industry level. For details on specifying software life cycle averages in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md) and for specifying software life cycle averages in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md)
 
-You can override the GA date provided by ServiceNow by creating a custom GA date. The custom GA date always takes priority over the GA date provided by ServiceNow. The life cycles are calculated based on the product or publisher values that you specified. Life cycle dates are defined only at the generic version and not the full version. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md).
+You can override the GA date provided by ServiceNow by creating a custom GA date. The custom GA date always takes priority over the GA date provided by ServiceNow. The life cycles are calculated based on the product or publisher values that you specified. Life cycle dates are defined only at the generic version and not the full version. For details on specifying custom values in the Software Asset Workspace, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md), and for specifying values in the Software Asset Management classic application, see [Create averages for product life cycles in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecycle-averages-classic.md).
 
 Software life cycle averages are stored in the Software Lifecycle Averages \[samp\_sw\_lifecycle\_averages\] table. Lifecycle records created using these averages have their source column defined as calculated.
 

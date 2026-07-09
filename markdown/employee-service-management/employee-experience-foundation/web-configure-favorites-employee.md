@@ -85,6 +85,8 @@ You can add the frequently used content to your favorites list. Click the favori
 
 [View employee profile]()
 
+[Use Employee Profile with HR Service Delivery]()
+
 [Use Personalized Answers]()
 
 [Employee Profile org chart widget]()

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-23"
 reading_time_minutes: 2
-breadcrumb: [CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Config Converse
@@ -20,20 +20,20 @@ The new Config Converse feature can make creating new configurations easier and 
 
 To enable Config Converse, follow these steps:
 
-1.  Submit a support request to enable AI features for CPQ.
+1.  Submit a support request to enable AI features for ServiceNow CPQ.
 
-    To submit a support request, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+    To submit a support request, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
     You’ll receive a message confirming that the features have been enabled. When the features are enabled, continue to step 2.
 
-2.  In CPQ Admin, click **Utilities**.
+2.  In ServiceNow CPQ Admin, click **Utilities**.
 3.  On the Utilities page, open the settings.
 4.  Click to set **Enable Smart Predict**.
 5.  Click to set **Enable Config Converse**.
 
 When Config Converse has been enabled, follow these steps to enable the feature on a layout that’s part of a blueprint:
 
-1.  In CPQ Admin, click to open a blueprint.
+1.  In ServiceNow CPQ Admin, click to open a blueprint.
 2.  Click to open a layout for editing, and then access the layout properties by clicking the gear icon.
 3.  In the Layout Properties window, scroll down to the Config Converse section and click to set **Enable Config Converse**.
 4.  If you want to create a default landing page for Config Converse in this layout, click **Use Landing Layout**.

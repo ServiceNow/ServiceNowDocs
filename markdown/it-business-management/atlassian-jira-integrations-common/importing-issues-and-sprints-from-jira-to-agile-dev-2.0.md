@@ -44,7 +44,7 @@ Associating a Jira board to an assignment group allows the following:
 
 To understand the workflow of the import and export of issues between Agile Development 2.0 and Jira, see [Importing and exporting issues between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira-workflow.md).
 
--   **[Associate a Jira project and board with an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md)**  
+-   **[Associate Jira projects with assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/project-integration-settings.md)**  
 Associate your Jira projects and boards with assignment groups in Agile Development 2.0 to enable import and export of all available issues between the associated project and assignment group.
 -   **[Import issues from a Jira project to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira.md)**  
 Import available issues from a Jira project, with or without the team integration settings for this project, so that you can update existing records of Jira from Agile Development 2.0.

@@ -9,7 +9,7 @@ classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create an asset and reserve it for the requester

@@ -1,6 +1,6 @@
 ---
-title: Activate Now Assist skills in Now Assist for Impact
-description: Activate a skill before you can use the generative AI capabilities for Now Assist for Impact.
+title: Activate Now Assist skills for Impact
+description: Activate a Now Assist skill before you can use the generative AI capabilities for Impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/activate-now-assist-skills-in-now-assist-for-impact.html
 release: australia
@@ -10,13 +10,13 @@ reading_time_minutes: 1
 breadcrumb: [Configuring Impact, Impact]
 ---
 
-# Activate Now Assist skills in Now Assist for Impact
+# Activate Now Assist skills for Impact
 
-Activate a skill before you can use the generative AI capabilities for Now Assist for Impact.
+Activate a Now Assist skill before you can use the generative AI capabilities for Impact.
 
 ## Before you begin
 
-**Important:** The outcome summarization Now Assist skill is now turned on by default. The skill will be automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that are needed to use the skill. The new default behavior works as follows:
+**Important:** The outcome summarization Now Assist skill is turned on by default and is automatically available to assigned role users for the application. The skill is activated and does not affect roles that are needed to use the skill. The default behavior works as follows:
 
 -   **New customers**
 
@@ -24,7 +24,7 @@ Activate a skill before you can use the generative AI capabilities for Now Assis
 
 -   **Existing customers who are upgrading \(starting with Zurich Patch 4\)**
 
-    Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\).
+    Any previously unconfigured skill is turned on automatically.
 
     There is no change to Now Assist skills that are currently enabled and customized.
 
@@ -47,4 +47,10 @@ Role required: Impact Platform owner, Impact Admin, Impact Portfolio Owner
 
     Your skill is configured.
 
+
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/hop-access-impact-squad.md)
+
+**Next topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
 

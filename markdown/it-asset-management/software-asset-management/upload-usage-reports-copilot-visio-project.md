@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Upload the Microsoft 365 Copilot, Visio Online, and Project Online usage reports to your ServiceNow instance
@@ -50,15 +50,15 @@ You can export the usage reports for Microsoft Copilot, Visio Online, and Projec
 
 6.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d162732e211">
+<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d163337e211">
 
 Interface
 
-</th><th align="left" id="d162732e214">
+</th><th align="left" id="d163337e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d162732e220">
+</th></tr></thead><tbody><tr><td id="d163337e220">
 
 **Core UI**
 
@@ -66,7 +66,7 @@ Action
 
 Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integration profiles open in the list view.
 
-</td></tr><tr><td id="d162732e232">
+</td></tr><tr><td id="d163337e232">
 
 **Software Asset Workspace**
 
@@ -79,15 +79,15 @@ Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integrat
 </td></tr></tbody>
 </table>7.  Apply filters to open integration profiles for a specific Tenant id for which you want to upload the usage reports.
 
-<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d162732e278">
+<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d163337e278">
 
 Interface
 
-</th><th align="left" id="d162732e281">
+</th><th align="left" id="d163337e281">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d162732e287">
+</th></tr></thead><tbody><tr><td id="d163337e287">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Run**.
 
 
-</td></tr><tr><td id="d162732e315">
+</td></tr><tr><td id="d163337e315">
 
 **Software Asset Workspace**
 
@@ -114,15 +114,15 @@ Action
 </td></tr></tbody>
 </table>8.  Add the usage reports to an integration profile.
 
-<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d162732e367">
+<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d163337e367">
 
 Interface
 
-</th><th align="left" id="d162732e370">
+</th><th align="left" id="d163337e370">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d162732e376">
+</th></tr></thead><tbody><tr><td id="d163337e376">
 
 **Core UI**
 
@@ -136,7 +136,7 @@ Action
 6.  The uploaded CSV files appear next to the Manage Attachments icon.
 
 
-</td></tr><tr><td id="d162732e413">
+</td></tr><tr><td id="d163337e413">
 
 **Software Asset Workspace**
 

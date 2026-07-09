@@ -8,8 +8,8 @@ product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [OAuth Code Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+reading_time_minutes: 2
+breadcrumb: [Auth Code Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth authorization code grant
@@ -22,9 +22,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 ## Procedure
 
-1.  Navigate to **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration** &gt; **** &gt; **OAuth authorization code grant**.
-
-    The New Record page appears.
+1.  Navigate to **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration** &gt; **OAuth - Authorization code grant**.
 
 2.  Update the text fields in the Details form with the appropriate information.
 
@@ -76,18 +74,46 @@ Unique ID assigned to identify the application.
 
 The secret key that only the application and the authorization server can identify. The application uses this key to authenticate and obtain access tokens.
 
+</td></tr><tr><td>
+
+**Comments**
+
+</td><td>
+
+Add any notes about this configuration.
+
+</td></tr><tr><td>
+
+**Active**
+
+</td><td>
+
+Select to use for authentication and authorization requests; when unselected, the record is saved but remains inactive and will not process any requests.
+
+</td></tr><tr><td>
+
+**This is a public client check box**
+
+</td><td>
+
+Select the if the application can’t securely store credentials, and doesn’t require a secret key to prove its identity during authorization. The client secret information is processed for public clients.
+
 </td></tr></tbody>
-</table>    Select the **This is a public client check box** if the application can’t securely store credentials, and doesn’t require a secret key to prove its identity during authorization. The client secret information is processed for public clients.
+</table>3.  Perform the following steps to add auth scope to the configuration:
 
-3.  Update the text fields in the **Auth scope** form with the appropriate information. The authentication scope defines the level of access an application has to a resource. Select the authentication scope for the specific REST APIs you want to access.
+    1.  Select **Create auth scope** if you want to define a new scope.
 
-    |Field|Description|
-    |-----|-----------|
-    |**Auth scope**|The level of access an application has to a resource. The authentication scope restricts the actions that an access token can perform on APIs or data.|
-    |**Limit authorization**|The names of the APIs for which you want to restrict authorization.|
-    |**Allow access only to APIs in selected scope**|Enable the option for the integration to only access APIs that are explicitly listed in the selected scopes.|
+    2.  Select a scope from the **Auth scope** drop-down.
 
-4.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
+    3.  Enter API names in **Limit authorization to the following APIs** to narrow access.
+
+    4.  Use **+ Add another row** to assign additional scopes to your configuration.
+
+4.  Select **Allow access only to APIs in selected scope** in the Scope validation settings to restricts access to listed scopes only.
+
+    **Note:** You can choose not to select **Set Allow access only to APIs in selected scope** for broader access permitted by user controls and API policies.
+
+5.  Update the text fields in the Advanced options \(optional\) form with the appropriate information.
 
 <table id="table_qdq_bw2_s2c"><thead><tr><th>
 
@@ -116,7 +142,7 @@ Format of token to generate. Options: -   JWT
 **Note:**
 
 -   The jwks url is available in the location: `api/now/oauth/jwks`.
--   The rotated \(inactive keys\) from jwks response after is removed after 105 days default.
+-   The rotated \(inactive keys\) from jwks response is removed after 105 days default.
 
 
 </td></tr><tr><td>
@@ -154,12 +180,8 @@ Web address of an image that represents the application during the authenticatio
 </td></tr></tbody>
 </table>    Enforcing token restriction applies limitations on how an OAuth access token can be used, enhancing security by verifying that tokens are valid only under specific conditions. Enable the **Enforce token restriction** check box to limit OAuth access tokens to specific APIs defined in the API access policy. If the Enforce token restriction is turned off, the token can be used across other REST APIs.
 
-5.  Select **Create new auth scope** to add a new auth scope.
-
 6.  Select **Save**.
 
     A new OAuth authorization code grant is created.
-
-7.  Go to **All** &gt; **Inbound integrations** &gt; **Application Registries** to view the newly created OAuth authorization code grant.
 
 

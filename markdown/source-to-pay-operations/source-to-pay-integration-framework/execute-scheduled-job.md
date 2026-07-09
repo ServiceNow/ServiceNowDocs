@@ -35,6 +35,8 @@ Executes on-demand scheduled jobs on true entities of an ERP source target and f
 
     The fetch services run automatically as scheduled.
 
-    Entity inbound tables are populated with primary data.
 
+## Result
+
+Entity inbound tables are populated with primary data.
 

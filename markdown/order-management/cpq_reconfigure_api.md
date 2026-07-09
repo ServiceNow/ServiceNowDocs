@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [API overview and resources, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The CPQ Reconfigure API
@@ -18,11 +18,11 @@ The CPQ Reconfigure API is a custom Salesforce API that invokes CPQ services hea
 
 ## Prerequisites
 
-The Runtime Client Token must be set in the Admin Custom Settings page in Salesforce. The token must include an origin that matches the CPQ URL, which cannot include a trailing slash \(/\) character.
+The Runtime Client Token must be set in the Admin Custom Settings page in Salesforce. The token must include an origin that matches the ServiceNow CPQ URL, which cannot include a trailing slash \(/\) character.
 
 The Runtime Configuration URL must also be set in the Admin Custom Settings page. In most cases, this should match the administration URL on the same page.
 
-In Salesforce Setup, go to Security, and then to Remote Site Settings. Add a new remote site with your CPQ domain as the URL.
+In Salesforce Setup, go to Security, and then to Remote Site Settings. Add a new remote site with your ServiceNow CPQ domain as the URL.
 
 \[Omitted image "cpq-salesforce-remote-site-settings.png"\] Alt text: Remote sites list
 
@@ -126,5 +126,5 @@ The response is a JSON formatted string representing the quote object, similar t
 
 ## Custom field mapping
 
-If a field on the Quote Line object in Salesforce has a name that matches, custom values can be written from the `extended` or `pricing` information in a CPQ product.
+If a field on the Quote Line object in Salesforce has a name that matches, custom values can be written from the `extended` or `pricing` information in a ServiceNow CPQ product.
 

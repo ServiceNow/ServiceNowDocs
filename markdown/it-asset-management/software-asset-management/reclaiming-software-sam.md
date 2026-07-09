@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim software
@@ -80,4 +80,9 @@ Starting from the Australia release, the reclamation workflow can also be comple
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
 

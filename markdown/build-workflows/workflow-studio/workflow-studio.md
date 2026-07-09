@@ -36,11 +36,11 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 </td></tr><tr><td>
 
-Flow Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using Now Assist
+Flow generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using AI
 
 </td><td>
 
-Playbook Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using Now Assist
+Playbook generation\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using AI
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

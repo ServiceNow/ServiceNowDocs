@@ -64,7 +64,7 @@ Related knowledge article
 
 </td><td>
 
-Knowledge article that contains related information.You can click the search for record icon \(\[Omitted image "lookup-icon.png"\] Alt text: Search for Record icon\), to access the list of available knowledge articles.
+Knowledge article that contains related information.You can click the search for record icon , to access the list of available knowledge articles.
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Now Assist for CSM, Customer Service Management]
 ---
@@ -37,8 +37,8 @@ Generate a summary of the Virtual Agent chat history and the chat conversation b
 Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
 -   **[Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md)**  
 Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
--   **[Summarize a case by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md)**  
-Generate a summary from the fields that you selected on the case record and quickly understand the case context by using the case summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
+-   **[Summarize case insights by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md)**  
+Use Now Assist for Customer Service Management \(CSM\) to generate a consolidated view of case insights directly from the case record. The **Case Insights** section surfaces a summary of the case alongside key contextual information to help service reps understand and act on cases quickly.
 -   **[Generate an email response by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.md)**  
 Generate an email response that is based on the case and email context by using the Now Assist icon. With email response, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 -   **[Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)**  
@@ -50,7 +50,7 @@ Generate a summary of the call conversation between a live agent and a customer 
 -   **[Using conversational search in Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.md)**  
 Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 -   **[Using scheduling assistant via GenAI in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/using-scheduling-assistant-via-genai-in-virtual-agent.md)**  
-Book, reschedule, and cancel appointments with Virtual Agent conversations using Now Assist. Set up a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
+Book, reschedule, and cancel appointments with Virtual Agent conversations using Now Assist. Setup a new appointment, modify an existing one, or cancel an appointment with a streamlined and user-friendly flow.
 -   **[Suggested steps generation in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)**  
 Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the Now Assist for Customer Service Management \(CSM\) application.
 -   **[Analyze sentiments in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.md)**  

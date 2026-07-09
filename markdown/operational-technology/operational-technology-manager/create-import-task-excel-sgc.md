@@ -24,6 +24,8 @@ Role required: ot\_excel\_import\_user
 
 Watch this short video to learn how to create an import task in the Industrial Workspace.
 
+**Note:** The import task is supported only from the Industrial Workspace. The option to perform the import task from the Application Navigator \(**All** menu\) is no longer available.
+
 \[Omitted video\] Description: Create an import task in the Industrial Workspace
 
 ## Procedure

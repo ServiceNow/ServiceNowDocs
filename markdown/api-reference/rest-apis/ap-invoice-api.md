@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) and Source-to-Pay Integration Framework \(sn\_spend\_intg\) applications, which are available on the ServiceNow Store. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).
 
 Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
@@ -40,7 +40,7 @@ You can apply a filter condition for invoice lines containing multiple ERPs. For
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/cxml
 
 Processes an automated invoice in commerce XML \(cXML\) format.
 
@@ -813,7 +813,7 @@ The following result shows that the request is successful and the invoice data i
 }
 ```
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/json
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/json
 
 Processes an automated invoice in JSON format.
 
@@ -2913,7 +2913,7 @@ The following result shows that the request is successful and the invoice data i
 }
 ```
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/xml
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/xml
 
 Processes an automated invoice in XML format.
 

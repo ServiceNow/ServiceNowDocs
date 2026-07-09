@@ -19,7 +19,7 @@ You can export data records to CSV format. Exporting user and session lists, and
 **Note:**
 
 -   When you download raw data, keep in mind that the internal schema structure that Usage Insights uses can vary between product versions.
--   You cannot export data from visualizations that do not have the download icon. Use the Export data button on most Events pages to export data from the entire page in CSV format.
+-   You can't export data from visualizations that don't have the download icon. Use the Export data button on most Events pages to export data from the entire page in CSV format.
 
 The Overview, Retention, Users, Sessions, Events, and Pages modules all contain visualizations with exportable data. Export of data from tables is limited to 10,000 records.
 

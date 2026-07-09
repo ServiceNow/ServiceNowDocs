@@ -36,8 +36,6 @@ To track the different revisions, the article versioning feature introduces vers
 
 With the article versioning feature, the knowledge article number also includes the version number. All references to knowledge articles use this number format. For example, KB0010003 v2.0. To access all the versions of knowledge article, navigate to **All** &gt; **Knowledge** &gt; **Articles** &gt; **All** and open article with multiple versions. In the Related list, you can access all the versions.
 
-\[Omitted image "versioning-control.png"\] Alt text: multiple versions of article
-
 Define minor fields so users can make some edits without triggering a new version. First, set the **glide.knowman.versioning.enable\_minor\_edits** property to true. Then, in the **glide.knowman.versioning.minor\_edit\_fields** property, specify the fields to define as minor. For example, set **Valid To** and **Meta** as fields that can be edited without creating a new version.
 
 ## Activation information

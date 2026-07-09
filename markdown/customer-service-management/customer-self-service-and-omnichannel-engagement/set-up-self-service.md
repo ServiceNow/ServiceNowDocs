@@ -61,7 +61,7 @@ Create a self-service portal to help customers resolve issues independently and 
 
     Use Web Embeddables to embed ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform through dedicated APIs that enable real-time data exchange without requiring users to directly access the ServiceNow instance.
 
--   **Engagement Messenger**
+-   **[Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md)**
 
     With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they’re located outside of the ServiceNow environment.
 

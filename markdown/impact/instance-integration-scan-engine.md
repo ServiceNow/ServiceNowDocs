@@ -1,5 +1,5 @@
 ---
-title: Scan Engine integrations
+title: Configure Scan Engine integrations
 description: Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-integration-scan-engine.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
-# Scan Engine integrations
+# Configure Scan Engine integrations
 
 Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 
@@ -116,7 +116,7 @@ The AES/AEMC and Update set integrations control how custom app deployments are 
 -   **[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md)**  
 Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
 **Previous topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-migration-idi.md)
 

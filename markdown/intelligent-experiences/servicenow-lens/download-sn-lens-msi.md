@@ -28,8 +28,6 @@ Role required: admin
 
     -   Select the download icon \(\[Omitted image "rpa-hub-download-icon.png"\] Alt text: Download icon.\).
     -   Select the copy link \(\[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text: Copy Link icon.\). In a browser, right-click and select the **paste and go** option.
-    PORT TO AUSTRALIA
-
     \[Omitted image "sn-lens-download-msi.png"\] Alt text: Installers on ServiceNow AI Lens Downloads page.
 
     A dialog box might prompt you to save or open the file.

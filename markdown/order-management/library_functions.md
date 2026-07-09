@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Library functions
@@ -26,7 +26,7 @@ Configurable parameters: Define input parameters with data types and default val
 
 Customized output: Specify return types.
 
-Callable across modules: Library functions are callable in both the configurator and Transaction Manager.
+Callable across modules: Library functions are callable in both the configurator and ServiceNow Quote Experience.
 
 Managed table queries: Library functions support managed table lookups.
 
@@ -34,7 +34,7 @@ Managed table queries: Library functions support managed table lookups.
 
 Submit a support ticket to enable library functions.
 
-**Note:** Submit a support ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+**Note:** Submit a support ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 Once library functions are enabled, turn on the new UI by navigating to **Utilities** &gt; **Settings** &gt; **Admin Version** &gt; **New**, and clicking **Save**.
 
@@ -77,7 +77,7 @@ Calling the function:
 -   Recursive calls are not supported.
 -   External API calls and async operations are not supported.
 -   Parameters are passed by copy, not by reference.
--   Functions must be free of side effects, external calls, and Logik field references.
+-   Functions must be free of side effects, external calls, and ServiceNow CPQ field references.
 
 ## General guidelines
 

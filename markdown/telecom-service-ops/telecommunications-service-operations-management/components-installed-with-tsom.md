@@ -8,7 +8,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Telecommunications Service Operations Management]
 ---
 
@@ -32,4 +32,12 @@ The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data 
 The Service Graph Connector for Meraki integrates Cisco Meraki Dashboard API data into ServiceNow AI Platform®Configuration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 -   **[MPN Formulas table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.md)**  
 Reference for the MPN Formulas \[sn\_tsom\_em\_conns\_kpi\_definitions\] table and the automatic processing that occurs when a record is inserted or updated.
+-   **[Examples of Retrieving Data from Nokia Altiplano via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/retrieving-data-nokia-altiplano-API.md)**  
+Examples of Retrieving Data from Nokia Altiplano via REST API.
+-   **[Page limits for Meraki pull connector endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.md)**  
+The Meraki pull connector paginates API requests so that all records are retrieved for large organizations. The page size is set per endpoint to match each endpoint's maximum supported value in the Meraki API v1.
+-   **[Pull connector granularity constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/pull-connector-granularity-constraints.md)**  
+Each connector type enforces minimum and maximum values for the granularity and metrics collection schedule fields on the connector instance form. The connector instance form rejects values outside the supported range.
+-   **[Metric aggregation configuration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/metric-aggregation-configuration-reference.md)**  
+The configuration object passed to the metric aggregation scripted extension point defines what to aggregate, how to aggregate it, and where to publish the result. The parameters that apply depend on the aggregation mode.
 

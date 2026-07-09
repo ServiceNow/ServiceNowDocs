@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use AI to build apps faster, Getting Started guide for developers, Building applications]
+breadcrumb: [AI-native app development, Getting Started guide for developers, Building applications]
 ---
 
 # Contextual assistance
@@ -22,5 +22,5 @@ In addition to the app generation skill, Now Assist for Creator contains AI asse
 
 For more information, see [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
-**Parent Topic:**[Use AI to build apps faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
+**Parent Topic:**[AI-native app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-use-ai-to-build-faster.md)
 

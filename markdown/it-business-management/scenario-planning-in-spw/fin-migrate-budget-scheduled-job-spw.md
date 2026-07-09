@@ -1,5 +1,5 @@
 ---
-title: Activate a scheduled job to migrate budget of your planning items
+title: Activate a scheduled job to migrate budget to Next Experience
 description: Activate the Migrate budget for active demands and projects scheduled job to migrate budget of active planning items from Classic UI to Next Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure financials for planning items Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Activate a scheduled job to migrate budget of your planning items
+# Activate a scheduled job to migrate budget to Next Experience
 
 Activate the **Migrate budget for active demands and projects** scheduled job to migrate budget of active planning items from Classic UI to Next Experience.
 

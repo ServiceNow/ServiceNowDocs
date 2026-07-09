@@ -1,16 +1,16 @@
 ---
 title: Opportunity Management release notes
-description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. Opportunity Management was enhanced and updated in the Australia release.
+description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-06-04"
+last_updated: "2026-07-07"
 reading_time_minutes: 3
 ---
 
 # Opportunity Management release notes
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities identify and track potential sales based on identified customer needs. Opportunity Management was enhanced and updated in the Australia release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. These opportunities track potential sales based on customer needs. Opportunity Management was enhanced and updated in the Australia release.
 
 ## Opportunity Management highlights for the Australia release
 
@@ -19,9 +19,11 @@ The ServiceNow® Opportunity Management application enables your sales agents an
 -   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
 -   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
 -   Create touchpoints and schedule meetings directly from an opportunity record for a consolidated view of all customer interactions.
--   Prioritize deals with an AI/ML-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
--   Create, view, update, and delete opportunity records and related entities using natural language from the Now Assist panel or any MCP client.
+-   Prioritize deals with an AI-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
+-   Create, view, and update opportunity records and related entities using natural language from the MCP client.
 -   Summarize an opportunity with Now Assist for a quick snapshot of status, risks, and recent engagement.
+-   Configure a guided selling playbook to enforce mandatory stage activities, surface stage-specific guidance to sales agents, and consolidate all deal-related actions in a unified opportunity workspace.
+-   Manage opportunity line items, competitor details, and touchpoint information conversationally within the conversational interface without navigating to individual records.
 
 See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md) for more information.
 
@@ -35,7 +37,7 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
 
 -   **[Add competitors to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-competitors-tab.md)**
 
-    Identify and store competitor information for product offerings/product family within an opportunity.​
+    Identify and store competitor information for product offerings and product family within an opportunity.​
 
 
 -   **Support for opportunity allocation**
@@ -50,23 +52,31 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
 
 -   **[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-touchpoints-opportunity.md)**
 
-    Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity is available providing full visibility into customer engagement throughout the sales cycle.
+    Create touchpoints, log interaction activities, and schedule meetings directly from an opportunity record. A consolidated view of all touchpoints and meetings on an opportunity provides full visibility into customer engagement throughout the sales cycle.
 
 
 -   **[Opportunity probability score and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)**
 
-    Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI/ML-powered probability score \(0–100%\) with qualitative ratings, explainability, and trend visibility. The score is integrated into the opportunity workspace and landing page and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
+    Enable sales representatives, managers, and revenue operations teams to prioritize deals using an AI-powered probability score \(0–100%\) with qualitative ratings. The score is integrated into the opportunity workspace and includes an opportunity summary covering stage, annual contract value \(ACV\), forecast category, close date, engagement history, and the most recent notes.
 
 
--   **[Manage opportunities in the Now Assist chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**
+-   **[Manage opportunities in the MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)**
 
-    Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items by typing a request in the Now Assist chat panel or from any MCP client, without navigating to individual record forms.
+    Create, retrieve, update, and delete opportunity records and related entities including contacts, competitors, tasks, touchpoints, and line items from any MCP client, without navigating to individual record forms.
 
 
 -   **[AI summarization for opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-som-summarize-opportunity.md)**
 
     Generate AI-powered summaries of opportunity data including emails, tasks, meetings, and notes for a snapshot of current status, identify potential risks early, and reduce ramp-up time when transitioning ownership of an opportunity.
 
+
+-   **Guided selling on opportunity**
+
+    Guided selling on opportunity helps enforce process compliance and manage all deal-related actions from a unified workspace by letting you:
+
+    -   Configure mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+    -   Guide sellers with stage-contextual playbook activities, progress indicators, and inline compact playbook views all without leaving the opportunity **Overview** tab.
+    -   Consolidate all deal-related tasks, meetings, touchpoints, and stage guidance into a single Action Center panel that updates in real time.
 
 ## Removed in this release
 

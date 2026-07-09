@@ -44,15 +44,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d728098e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d730353e127">
 
 Action
 
-</th><th align="left" id="d728098e130">
+</th><th align="left" id="d730353e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728098e136">
+</th></tr></thead><tbody><tr><td id="d730353e136">
 
 **Enter your own message.**
 
@@ -60,7 +60,7 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d728098e145">
+</td></tr><tr><td id="d730353e145">
 
 **Use Response templates to insert predefined content into the email body**
 
@@ -72,7 +72,7 @@ Enter your message in the text box.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d728098e178">
+</td></tr><tr><td id="d730353e178">
 
 **Use Email templates to use predefined template**
 
@@ -87,15 +87,15 @@ Enter your message in the text box.
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d728098e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d730353e225">
 
 Action
 
-</th><th align="left" id="d728098e228">
+</th><th align="left" id="d730353e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728098e234">
+</th></tr></thead><tbody><tr><td id="d730353e234">
 
 **Send the email immediately**
 
@@ -103,19 +103,19 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d728098e246">
+</td></tr><tr><td id="d730353e246">
 
 **Send the email later**
 
 </td><td>
 
--   In the New Email Draft form, select the More Actions \[Omitted image "more-button-icon.png"\] Alt text: More actions button icon. icon To view draft emails, select **View drafts**
+-   In the New Email Draft form, select the More Actions icon \[Omitted image "more-button-icon.png"\] Alt text: More actions icon, select **View drafts**
 -   Select a draft email from the list to load it.
 -   If a newer document revision has been posted, you will have to substitute that revision for the document you attached.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d728098e278">
+</td></tr><tr><td id="d730353e280">
 
 **Discard the email**
 

@@ -38,7 +38,7 @@ Role required: sn\_apm.apm\_user
 
 [Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-scoring-profile.md)
 
-[Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)
+[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)
 
 [Regenerate scoring profile indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-scoring-profile-indicator-scores-in-eaw.md)
 

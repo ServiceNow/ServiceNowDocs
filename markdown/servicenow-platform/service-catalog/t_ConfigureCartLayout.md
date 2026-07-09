@@ -138,8 +138,6 @@ You can configure these macros to alter the display order of elements, or hide e
 
 2.  Click the order number entry of a macro to edit its display order, or to activate or deactivate it.
 
-    \[Omitted image "Service\_Catalog\_Cart\_Layout\_Widget\_Macro-Editable-Details.png"\] Alt text: Configure widgets and column macros.
-
 3.  Click **Update**.
 
 4.  Click the **Widget / View Macro** entry of a macro to view its functionality settings.

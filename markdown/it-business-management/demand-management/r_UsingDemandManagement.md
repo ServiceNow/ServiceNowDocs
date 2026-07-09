@@ -172,7 +172,7 @@ Create demands to capture your strategic and operational requirements and centra
 You can view existing demands at any time.
 -   **[Add details to demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_EnhancingDemands.md)**  
 The demand manager typically works with a business relationship manager to identify stakeholders and elicit requirements, risks, and other important information.
--   **[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)**  
+-   **[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)**  
 RIDAC is an acronym for Risk, Issue, Decision, Action, and Request Changes records. Create a risk for your demand that you can convert to other records during the demand life cycle. Track issues and avoid manual copying of relevant details in related records.
 -   **[Reset a demand to Draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reset-demand-to-draft-state.md)**  
 A demand can be moved back to the Draft state, if necessary.

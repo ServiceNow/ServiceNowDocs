@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Remove a shipping carrier from an integration profile

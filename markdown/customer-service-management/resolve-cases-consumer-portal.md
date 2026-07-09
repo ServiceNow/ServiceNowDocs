@@ -34,7 +34,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d113626e118">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d114429e118">
 
 **Accept Solution**
 
@@ -42,7 +42,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d113626e130">
+</td></tr><tr><td id="d114429e130">
 
 **Reject Solution**
 
@@ -52,3 +52,8 @@ Rejects the solution proposed by the agent after entering the reason for rejecti
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+

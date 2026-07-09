@@ -28,3 +28,12 @@ Create a Model Context Protocol \(MCP\) server and configure the tools and input
 
 After configuring a server, the AI administrator creates an OAuth inbound integration for each client and configures clients to connect to the server using the server and authentication details. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
+-   **[Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-mcp-server.md)**  
+Create a Model Context Protocol \(MCP\) server and configure which tools it exposes to MCP clients.
+-   **[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)**  
+Create a tool from various tool categories, to expose it to Model Context Protocol \(MCP\) clients from an MCP server.
+-   **[Create an MCP app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-mcp-app.md)**  
+Build, register, and display user interfaces along with your tool's logic with MCP apps. This allows you to implement and manage interactive interfaces for your tools that can be displayed by MCP clients.
+
+**Parent Topic:**[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+

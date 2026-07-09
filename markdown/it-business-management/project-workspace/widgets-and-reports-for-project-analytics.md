@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Analyze project analytics from Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Analyze project analytics from Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Widgets and reports for project analytics

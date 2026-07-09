@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create AI systems
@@ -41,6 +41,6 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+-   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

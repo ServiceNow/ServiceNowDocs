@@ -140,6 +140,8 @@ The External Content Ingestion API provides endpoints that enable ingestion of c
 Enables external Contact Center as a Service \(CCaaS\) platforms to store and retrieve routing identifiers for ServiceNow records.
 -   **[Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/help-request-api.md)**  
 The Help Request API provides an endpoint to track supervisor help actions.
+-   **[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/hl7-inbound-api.md)**  
+The HL7 Inbound API receives inbound HL7 v2.x ADT messages from EHR systems over HTTP and returns standard HL7 acknowledgment responses. It implements the HAPI HL7-over-HTTP convention, accepting raw pipe-delimited ER7 message bodies and processing them against configured parser profiles.
 -   **[HR REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/hr-core-api.md)**  
 The HR REST API provides endpoints that return information about employees that work or live in the United States.
 -   **[Identification and Reconciliation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_IdentifyReconcileAPI.md)**  
@@ -168,6 +170,8 @@ The Predictive Intelligence API provides endpoints that predict a field value ba
 The Proactive Engagement API provides an endpoint for creating digital experience issues.
 -   **[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-open-api.md)**  
 The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.
+-   **[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-catalog-search-api.md)**  
+The Product Catalog Search API searches the product catalog and returns matching catalog items with optional pricing. Supports searching across multiple catalog types. Results are paginated and sortable.
 -   **[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/product-inventory-open-api.md)**  
 The Product Inventory Open API provides endpoints to create and retrieve product inventories.
 -   **[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md)**  
@@ -230,6 +234,8 @@ Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server
 The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
 -   **[User Role Inheritance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/user-role-inheritance-api.md)**  
 The User Role Inheritance API provides endpoints that allow you to see the roles that a specific user inherited.
+-   **[UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/usage-insight-data-exp-api.md)**  
+The UXA Data Export Service API provides an endpoint to asynchronously export user experience analytics \(UXA\) data. The data export result is delivered in batches to a dedicated Hermes topic for your ServiceNow instance.
 -   **[Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/verifyentitlements-api.md)**  
 The Verify Entitlements API provides endpoints that enable you to obtain a list of valid entitlements, details about the characteristics of entitlements, and an entitlement's latest usage information.
 -   **[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-horizontal-stages.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-26"
 reading_time_minutes: 8
 breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -135,9 +135,9 @@ The Case playbook: horizontal stages page variant includes a horizontal stage pi
 
 The stages in the stage picker include icons that indicate the stage status:
 
--   A check mark \[Omitted image "circle-check-outline-24.svg"\] Alt text: Check mark image. indicates that the stage is complete.
--   A pen icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Pen image. indicates the current stage.
--   A lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock image. indicates that a stage is locked and can’t be started until the previous stage is complete.
+-   A check mark indicates that the stage is complete.
+-   A pen icon indicates the current stage.
+-   A lock icon indicates that a stage is locked and can’t be started until the previous stage is complete.
 
 </td></tr><tr><td>
 

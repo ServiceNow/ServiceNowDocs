@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Viewing SSO subscription information

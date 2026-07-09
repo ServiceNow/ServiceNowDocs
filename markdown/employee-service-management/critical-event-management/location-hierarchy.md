@@ -9,7 +9,7 @@ classification: critical-event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Location hierarchy and child locations

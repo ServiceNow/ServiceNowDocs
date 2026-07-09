@@ -48,7 +48,7 @@ Configure Advanced Work Assignment queues to automatically route supplier commun
 -   **[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)**  
 Configure agent chat settings in Accounts Payable Operations to enable AP agents to interact with suppliers through live chat.
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

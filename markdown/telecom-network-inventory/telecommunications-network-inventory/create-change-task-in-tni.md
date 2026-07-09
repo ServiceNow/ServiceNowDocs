@@ -30,7 +30,7 @@ Create a change task after you create a change request in the Telecommunications
 
 ## About this task
 
-Based on the details in the change request form, a change task is created automatically. You can view, create, update, or close the change tasks from the **Overview** tab or from the **Change Tasks** tab of a change request. You can also assign a record producer form to a change task. To learn more, see [Assign a record producer form for a request type of a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md).
+Based on the details in the change request form, a change task is created automatically. You can view, create, update, or close the change tasks from the **Overview** tab or from the **Change Tasks** tab of a change request. You can also assign a record producer form to a change task. To learn more, see [Assign a record producer form to a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/assign_record_producer_form_for_a_change_task_of_a_change_request.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ Based on the details in the change request form, a change task is created automa
 
     To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
-    **Note:** For the design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group using design and assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
+    **Note:** For the design assign link aggregation group and GPON broadband service, see [Create a Link Aggregation Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md) and [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
 
 12. Select **Submit**.
 

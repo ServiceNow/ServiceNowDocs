@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Open state management

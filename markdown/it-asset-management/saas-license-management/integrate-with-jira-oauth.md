@@ -8,8 +8,8 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Integrating with Jira Software Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+reading_time_minutes: 12
+breadcrumb: [Integrating with Jira Software Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrate with Jira Software Cloud using OAuth 2.0
@@ -40,9 +40,17 @@ Permission to access Jira
 
 </td><td>
 
+Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 17.4.1.
+
 -   read:application-role:jira
 -   read:group:jira
 -   read:user:jira
+-   read:avatar:jira
+
+ Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.1 or later.
+
+-   read:user:jira
+-   read:group:jira
 -   read:avatar:jira
 
 </td></tr><tr><td>
@@ -59,12 +67,20 @@ If issue-level security is configured, issue-level security permission to view t
 
 </td><td>
 
+Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 17.4.1.
+
 -   read:user:jira
 -   read:issue-details:jira
 -   read:audit-log:jira
 -   read:avatar:jira
 -   read:field-configuration:jira
 -   read:issue-meta:jira
+
+ Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.1 or later.
+
+-   read:jira-user
+-   read:audit-log:jira
+-   read:jira-work
 
 </td></tr><tr><td>
 
@@ -76,8 +92,15 @@ Site administration, that is, member of the site-admin group
 
 </td><td>
 
+Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version earlier than 17.4.1.
+
 -   read:group:jira
 -   write:group:jira
+
+ Applicable for Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.1 or later.
+
+-   read:group:jira
+-   manage:jira-configuration
 
 </td></tr></tbody>
 </table>## Create an OAuth 2.0 integration in Jira account
@@ -85,6 +108,8 @@ Site administration, that is, member of the site-admin group
 Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.
 
 ### Before you begin
+
+**Important:** This procedure is applicable for the Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.0 or earlier. If you're on version 17.4.1 or later, skip this task and proceed directly to [Obtain the Cloud ID value of Jira instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-jira-oauth.md).
 
 Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-jira-oauth.md) table.
 
@@ -177,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d124430e690">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d124791e814">
 
 Interface
 
-</th><th align="left" id="d124430e693">
+</th><th align="left" id="d124791e817">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d124430e699">
+</th></tr></thead><tbody><tr><td id="d124791e823">
 
 **Core UI**
 
@@ -196,7 +221,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d124430e741">
+</td></tr><tr><td id="d124791e865">
 
 **Software Asset Workspace**
 
@@ -289,7 +314,7 @@ Jira Subscription. This field is automatically populated.
 
 7.  In the dialog box, fill in the fields.
 
-<table id="table_ujr_ps1_wmb"><thead><tr><th>
+<table id="table_ujr_ps1_wmb_legacy"><thead><tr><th>
 
 Field
 
@@ -312,6 +337,10 @@ Connection URL
 </td><td>
 
 Base URL for the Jira API. This field is automatically set to `https://api.atlassian.com/ex/jira/<Cloud-ID>`.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+The following fields are applicable for the Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.0 or earlier. If you're on version 17.4.1 or later, these fields won't appear.
 
 </td></tr><tr><td>
 
@@ -340,7 +369,13 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-9.  On your ServiceNow instance, specify the groups that have access to Jira products.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-jira-oauth.md) table.
+
+9.  When the dialog box appears, grant permission to the Jira application.
+
+    The dialog box closes and you automatically return to the Connection &amp; Credential Aliases form.
+
+10. On your ServiceNow instance, specify the groups that have access to Jira products.
 
     By specifying these groups on your ServiceNow instance, you can retrieve data and manage licenses for only the users within these groups.
 
@@ -364,21 +399,23 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
         The Add Jira Groups dialog box opens.
 
-    9.  In the Available list, select the groups that have access to Jira products.
+    9.  Select the Connection &amp; Credential that was set on the integration profile.
+
+    10. In the Available list, select the groups that have access to Jira products.
 
         **Tip:** The Available list includes all groups that are associated with your Atlassian account. Select only the groups that have access to Jira products.
 
-    10. Select the right arrow button to move the groups from the Available list to the Selected list.
+    11. Select the right arrow button to move the groups from the Available list to the Selected list.
 
-    11. Select **OK**.
+    12. Select **OK**.
 
-10. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+11. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
     Validating the connection verifies the Download Subscriptions and Calculate Activity APIs, but not the Reclaim Subscriptions APIs.
 
-11. After the connection is verified, select **Publish**.
+12. After the connection is verified, select **Publish**.
 
-12. In the Publish Confirmation dialog box, select **OK**.
+13. In the Publish Confirmation dialog box, select **OK**.
 
     **Note:** If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections and then republish the integration profile because the following events occur:
 
@@ -408,7 +445,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

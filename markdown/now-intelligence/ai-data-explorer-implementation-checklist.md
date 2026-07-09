@@ -29,9 +29,10 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 
 1.  Navigate to **AI Data Explorer** from the main menu.
 2.  Try a simple question such as "Open incidents" to verify end-to-end functionality.
-3.  Verify that tables you want to use are added to the semantic layer and that semantic generation is turned on for them. Task extended tables and some base tables are added by default, but custom tables that are not task-based might have to be added manually.
-4.  To check if a table is already in the semantic layer, navigate to **Query generation** &gt; **Entities**. If the table is in the list and marked as active, it is already configured.
-5.  If you want to access data in a protected scope, configure ACLs and Restricted Caller Access \(RCA\) records to grant access to the scope to AI Data Explorer.
+3.  Force indicator or table selection with a few questions, such as "What do indicators show us about the number of open incidents for the last 60 days" or "What is the current number of incidents?"
+4.  Verify that tables you want to use are added to the semantic layer and that semantic generation is turned on for them. Task extended tables and some base tables are added by default, but custom tables that are not task-based might have to be added manually.
+5.  To check if a table is already in the semantic layer, navigate to **Query generation** &gt; **Entities**. If the table is in the list and marked as active, it is already configured.
+6.  If you want to access data in a protected scope, configure ACLs and Restricted Caller Access \(RCA\) records to grant access to the scope to AI Data Explorer.
 
 ## User access
 

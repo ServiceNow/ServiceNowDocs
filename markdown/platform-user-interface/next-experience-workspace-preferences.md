@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-workspace-preferences.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [workspace preference]
 breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]

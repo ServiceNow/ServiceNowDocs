@@ -31,3 +31,5 @@ Role required: Impact users
     -   **Impact VM - ITSM - Monthly Data Collection**
     -   **Impact VM - ITSM - Historical Data Collection**
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itsm.md)
+

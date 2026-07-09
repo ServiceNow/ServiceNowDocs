@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workspa
 release: australia
 topic_type: concept
 last_updated: "2026-05-20"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -276,8 +276,10 @@ Libraries
 
 Consists of the following lists:-   **CVEs \(NVD\)**: List of all the Common Vulnerability and Exposures \(CVEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 
-**Note:** Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
+**Note:**
 
+    -   Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
+    -   The Armis Early Warning integration adds two new columns to the list - Armis Early Warning displays early warning signals, while Armis Early Warning CVD Attributes shows detailed context for each signal. For more information, see [Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
 -   **TPEs**: List of imported third-party vulnerabilities in your instance. Contains a list of related references, vulnerable items, exploits, and CVEs.
 -   **CWEs**: List of all the Common Weakness Enumerations \(CWEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 -   **Vulnerable Software**: List of all the software vulnerable entries.

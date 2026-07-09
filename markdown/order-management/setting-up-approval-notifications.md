@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-06"
 reading_time_minutes: 5
-breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Notifications in Advanced Approval Management
@@ -29,11 +29,11 @@ The notification framework handles various approval scenarios in the approval pr
 
     The Advanced Approval Request notification informs approvers when an approval request has been submitted by a sales agent \(requester\). There are two types of approval request notifications: simple and consolidated.
 
-    \[Omitted image "image.approval-notif-simple-consol"\] Alt text: Simple and consolidated email notifications sent to approvers, from which they can accept or reject approval requests.
+    \[Omitted image "approval-notif-simple-consol.png"\] Alt text: Simple and consolidated email notifications sent to approvers, from which they can accept or reject approval requests.
 
     -   Simple approvals: A notification is sent to each approver when an approval request is submitted, as shown in the following example. The approver can approve or reject the approval request from the notification.
 
-        **Note:** Ad-hoc approvers receive a simple approval notification and can approve or reject the request from the notification. Ad-hoc approvers can also approve or reject a request from a step in the General chain in the approval workflow interface. For more information on configuring ad-hoc approvers, see [Add approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+        **Note:** Ad-hoc approvers receive a simple approval notification and can approve or reject the request from the notification. Ad-hoc approvers can also approve or reject a request from a step in the General chain in the approval workflow interface. For more information on configuring ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
 
     -   Consolidated approvals: When an approver receives multiple approval requests for approvals within the same set of approvals, the system can consolidate those requests into a single notification email, if your approval rules admin has turned on the email consolidation feature in your approval configuration.
 
@@ -41,7 +41,7 @@ The notification framework handles various approval scenarios in the approval pr
 
     Both simple and consolidated approval emails are handled through a single notification definition, with different rendering logic used to generate the appropriate message format. These approval request emails can be delivered as mobile push notifications, if approvers are using the ServiceNow Mobile app, and Advanced Approval push notifications is set as a push notification channel in their notification preferences.
 
-    **Note:** Ad-hoc approvers receive a simple approval notification. Or they can approve or reject a request from a step in the General chain in the approval workflow interface. For more information on ad-hoc approvers, see [Add approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
+    **Note:** Ad-hoc approvers receive a simple approval notification. Or they can approve or reject a request from a step in the General chain in the approval workflow interface. For more information on ad-hoc approvers, see [Add ad-hoc approvers to an approval request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-approver.md).
 
 -   **Approval Reminder**
 

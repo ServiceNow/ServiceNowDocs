@@ -18,6 +18,10 @@ Users with the consumer role can register their products from the Consumer Servi
 
 Role required: sn\_customerservice.consumer
 
+## About this task
+
+Registering a product associates it with your account so that support agents can view your product details when you submit a case. Registered products appear in your My Products list and can be referenced when creating or updating cases.
+
 ## Procedure
 
 1.  Log in to the Consumer Service Portal.
@@ -34,4 +38,11 @@ Role required: sn\_customerservice.consumer
 
     After the product is successfully registered, it appears in the My Products list, which includes the products registered to the current user.
 
+
+**Related topics**  
+
+
+[View a list of products from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-list-consumer-portal.md)
+
+[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
 

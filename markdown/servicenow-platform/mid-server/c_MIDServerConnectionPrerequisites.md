@@ -134,5 +134,5 @@ Additionally, for the MID Server to access your ServiceNow instance, satisfy the
 
 ### What to do next
 
-After the network is prepared, proceed to [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+After the network is prepared, proceed to [Installing the MID Server with manual or guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
 

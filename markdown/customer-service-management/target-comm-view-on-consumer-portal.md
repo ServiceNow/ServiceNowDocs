@@ -50,3 +50,8 @@ After a publication reaches its **Expiry Date**, it is automatically removed fro
 9.  Click the return arrow at the top of the publication to return to the Publications list.
 
 
+**Related topics**  
+
+
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+

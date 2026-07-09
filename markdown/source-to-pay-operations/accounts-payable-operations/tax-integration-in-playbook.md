@@ -30,7 +30,7 @@ Role required: AP specialist, tax specialist
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
+    You can create an invoice manually. For more information on invoices, see [Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md). Invoices can be entered manually or extracted using DocIntel. For more information on invoice extraction, see [Configure data extraction modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.md).
 
 4.  Select **View Invoice processing case**.
 

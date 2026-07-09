@@ -32,8 +32,8 @@ When a purchase line is created for a purchase requisition on the ShoppingHub po
 Set conditions to control the visibility of supplier products for an employee or a department who visits the Shopping Hub portal. Shopping Hub administrators can manage access to products based on categories, suppliers, or any attribute related to a supplier product.​
 -   **[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)**  
 Configure your employees as delegates to shop on behalf of someone else. For these employees, the **Shopping as** option is available on the Shopping Hub homepage to shop as a delegate.
--   **[ShoppingHub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)**  
-As an admin, you can create and modify ShoppingHub configurations to offer a standardized experience.
+-   **[ShoppingHub configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)**  
+ShoppingHub configurations control the shopper experience for procurement workflows, including request modifications and sourcing checkouts.
 -   **[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)**  
 As a ShoppingHub or Procurement administrator, you can configure checkouts for sourcing requests to collect information that is relevant to the product, product model, or category. Your teams can automate the sourcing processes, share more information, and improve operational efficiency.
 -   **[Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md)**  

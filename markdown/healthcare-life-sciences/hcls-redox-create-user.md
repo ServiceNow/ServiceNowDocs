@@ -52,5 +52,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)
+[bundle-platadm.t_CreateAUser]
 

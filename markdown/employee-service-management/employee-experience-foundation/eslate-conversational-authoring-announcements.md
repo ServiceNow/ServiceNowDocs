@@ -26,13 +26,13 @@ Conversational authoring with Now Assist Chat streamlines the announcement creat
 The conversational authoring process follows a structured flow that guides content managers from initial prompt to published announcement:
 
 -   The content manager provides a natural language prompt to Now Assist Chat, including an article ID, link, or context from an open knowledge article or catalog item.
--   The AI assistant analyzes the referenced content and generates an announcement draft using text and images from the source material.
--   The assistant prompts the content manager for additional details such as target audience and scheduling preferences.
+-   The AI assistant processes the referenced content and generates an announcement draft using text and images from the source material.
+-   The assistant requests additional details from the content manager, such as target audience and scheduling preferences.
 -   The content manager enters the authoring edit mode to review, adjust, and finalize the announcement before publishing.
 
 ## AI content generation
 
-When creating announcements from existing content, the AI assistant automatically extracts and adapts relevant information:
+When creating announcements from existing content, the AI assistant automatically extracts and transforms relevant information:
 
 -   **Headlines**: Generated from the source article title or catalog item name
 -   **Body text**: Summarized from the first paragraph or description of the source content

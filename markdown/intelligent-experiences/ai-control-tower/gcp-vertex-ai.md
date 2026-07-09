@@ -55,7 +55,7 @@ To enable data source creation:
 
 1.  Select Global from the application picker.
 2.  Navigate to Application Access.
-3.  Select the Can create, Can update, and Can delete checkboxes.
+3.  Select the Can create, Can update, and Can delete check boxes.
 4.  Select Update.
 5.  Switch to the connector application scope.
 
@@ -86,11 +86,21 @@ To clear the cache:
 
 Follow the setup instructions to create a service account, assign roles, bind roles to the service account, and enable APIs. To create a JKS file, a JSON file is required. If a JSON file is available, skip the JKS file creation step. After completing setup, register the connector in your ServiceNow instance. For setup instructions and API details, see the [Service Graph connector for GCP Vertex AI- Setup Instructions \[KB2731256\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2731256) KB article.
 
-## Enable Cloud Tracing
+**Note:** If Cloud trace service is not turned on, you will only be able to view the reasoning engine name, which is the top-level agent.
 
--   If cloud tracing is not turned on, we will only be able to view the reasoning engine name, which is the top-level agent.
--   Cloud tracing must be enabled to capture details such as prompts, tools, model, and sub-agents. These details are identified only after they have been executed at least once.
--   Agent tracing is currently inactive. We need to enable tracing and redeploy the agents to properly discover AI agents, tools, model, and sub-agents
+Cloud trace service is required to capture details like prompts, tools, models, and sub-agents. These are discovered only after they have been executed at least once.
+
+If Cloud trace service is not enabled. You must enable cloud trace service and redeploy the agents to properly discover AI agents, tools, models, prompts and sub-agents.
+
+## Service Account and Role Configuration
+
+Create a dedicated GCP service account with least-privilege access. The connector requires permissions to query Vertex AI agents and observability data.
+
+The service account requires the following:
+
+-   A service account created in your GCP project with the appropriate Vertex AI roles.
+-   Roles bound to the service account at the project or organization level.
+-   Required APIs are enabled in your GCP project.
 
 ## Data Mapping
 

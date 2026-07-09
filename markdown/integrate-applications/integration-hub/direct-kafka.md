@@ -1,6 +1,6 @@
 ---
 title: Direct Kafka
-description: Integrate your on-premise ServiceNow instance with your local Kafka environment with Direct Kafka. Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.Configure a Direct Kafka Cluster for your local Kafka topics.
+description: Integrate your ServiceNow instance with your local Kafka environment with Direct Kafka. Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.Configure a Direct Kafka Cluster for your local Kafka topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/direct-kafka.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Inte
 
 # Direct Kafka
 
-Integrate your on-premise ServiceNow instance with your local Kafka environment with Direct Kafka. Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
+Integrate your ServiceNow instance with your local Kafka environment with Direct Kafka. Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
 
-With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your on-premise instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
+With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
 
 ## Direct Kafka Clusters
 

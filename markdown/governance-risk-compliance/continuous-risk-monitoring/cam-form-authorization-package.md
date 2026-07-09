@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Fields on the Authorization Package form
@@ -45,5 +45,5 @@ CAM roles that are required for particular tasks are listed in [CAM user roles](
 |Information owners|The individuals responsible for statutory, management, and operational authority.|
 |System users|The users responsible for performing the actual work on the system.|
 
-**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

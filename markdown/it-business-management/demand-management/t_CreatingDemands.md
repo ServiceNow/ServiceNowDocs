@@ -92,7 +92,7 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 [Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand]()
+[RIDACs records for a demand]()
 
 [Reset a demand to Draft state]()
 

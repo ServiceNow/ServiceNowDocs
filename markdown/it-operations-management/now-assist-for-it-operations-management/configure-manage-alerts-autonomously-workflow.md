@@ -33,7 +33,7 @@ Configure the autonomous workflow alert management rule to operate the manage al
 
 When the workflow operates automatically, alerts are addressed as theyâ€™re created and AI insight information is displayed in Express List.
 
-When the workflow operates manually, users must manually generate AI insights. For more information, see [Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
+When the workflow operates manually, users must manually generate AI insights. For more information, see [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
 
 For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
 
@@ -70,7 +70,7 @@ If you change the alert management rule for the manage alert autonomously workï¬
 
 ## What to do next
 
-To learn more about generating AI insights with the manage alerts autonomously agentic workflow, see [Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
+To learn more about generating AI insights with the manage alerts autonomously agentic workflow, see [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
 
 -   **[Configure the Dynatrace analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-config-dynatrace.md)**  
 Configure the Dynatrace analysis AI agent for the analyze alert impact agentic workflow. This configuration also supports the Dynatrace observability skill in the manage alerts autonomously agentic workflow.After you configure the agent, the workflows can surface information from Dynatrace to help you investigate alerts.

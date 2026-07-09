@@ -29,5 +29,5 @@ Employee Slate Advanced provides the following capabilities:
 -   AI-powered communications authoring for drafting and publishing announcements conversationally \(Now Assist only\)
 -   Communications analytics to track audience engagement including impressions and click-through rates
 -   Quick access to SSO apps \(Okta and Entra\)
--   Upcoming meetings with direct join functionality displayed on My Calendar widget in Canvas.
+-   Upcoming meetings with direct join functionality displayed on **My Calendar** widget in Canvas
 

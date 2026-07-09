@@ -56,17 +56,17 @@ The architectural decision record is created and added to the artifacts list. Yo
 
 [eaw-add-an-architectural-artifact-version]
 
-[Request approval for an architectural artifact of type URL or Attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
+[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
 
 [Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
 
-[Create and manage pages and subpages for architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
 
 [Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
 
-[Enable referencing additional records in architectural decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
+[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
 
 [Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-adr-version.md)
 
-[Request approval for an architectural artifact version of type Architectural Decision Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-approval-adr.md)
 

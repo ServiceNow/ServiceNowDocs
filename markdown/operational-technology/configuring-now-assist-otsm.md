@@ -24,7 +24,7 @@ Use the Now Assist Admin console to configure Now Assist for OTSM. This console 
 
 **Note:** You can also set up AI Enhanced Recommended Actions for OTSM to use with Now Assist for OTSM. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/set-up-ai-enhanced-ra-otsm.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 

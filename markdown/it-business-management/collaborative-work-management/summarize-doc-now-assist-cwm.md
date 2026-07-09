@@ -1,5 +1,5 @@
 ---
-title: Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)
+title: Refine content of a Doc page in Collaborative Work Management \(CWM\)
 description: Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/summarize-doc-now-assist-cwm.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
-# Summarize and refine content of a Doc page in Collaborative Work Management \(CWM\)
+# Refine content of a Doc page in Collaborative Work Management \(CWM\)
 
 Gain insights into the page content by summarizing it or improve content quality by refining it in CWM Docs.
 
@@ -20,7 +20,7 @@ Gain insights into the page content by summarizing it or improve content quality
 
 [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 

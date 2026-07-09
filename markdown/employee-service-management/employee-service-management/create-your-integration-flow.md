@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [integration flow, ATS integration, Integration Hub, job requisition data, create integration flow]
 ---
 
 # Create integration flow for ATS

@@ -112,7 +112,7 @@ Once the application is routed to the Grant Program Manager, the intake stage an
 
     \[Omitted image "psds-gmp-prop-sign-submit.png"\] Alt text: Enter Applicant information view
 
-    Allows the applicant to review, authorize, and finalize their submission. Captures the applicant’s signature and completes the application submission. The Terms and Conditions displayed in this activity are retrieved from the Point in Time Content \(sn\_svc\_appl\_info\_pitc\) table. For more information on configuring terms and conditions, disclaimers, and other point-in-time content for a grant program, see .
+    Allows the applicant to review, authorize, and finalize their submission. Captures the applicant’s signature and completes the application submission. The Terms and Conditions displayed in this activity are retrieved from the Point in Time Content \(sn\_svc\_appl\_info\_pitc\) table. For more information on configuring terms and conditions, disclaimers, and other point-in-time content for a grant program, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-point-in-time-content.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-point-in-time-content.md).
 
 
 ## Proposal Screening

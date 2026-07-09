@@ -16,7 +16,7 @@ Establish a connection between the Attended Robot and the ServiceNow RPA Hub ins
 
 Watch this video to learn about the configuration of Attended Robot.
 
-Setup of Attended Robot application 
+\[Omitted video\] Description: Setup of Attended Robot application
 
 ## Before you begin
 

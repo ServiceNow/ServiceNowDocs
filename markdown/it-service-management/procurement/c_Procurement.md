@@ -9,7 +9,7 @@ classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Service Management]
+breadcrumb: [Asset Management common applications, IT Service Management]
 ---
 
 # Procurement
@@ -40,5 +40,5 @@ Assets can be received and added to the system when they are delivered to a stoc
 -   **[Domain separation and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/domain-separation-procurement.md)**  
 Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management-core.md)
 

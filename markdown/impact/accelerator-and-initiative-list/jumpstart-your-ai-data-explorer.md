@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your AI Data Explorer
-description: This accelerator helps customers get started with ServiceNow's AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
+description: This Accelerator helps customers get started with ServiceNow's AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-data-explorer.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-04-27"
 reading_time_minutes: 2
 keywords: [AI Data Explorer, Platform Analytics, Natural Language, Data Exploration]
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your AI Data Explorer
 
-This accelerator helps customers get started with ServiceNow's AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
+This Accelerator helps customers get started with ServiceNow's AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
 
 ## Accelerator Overview
 

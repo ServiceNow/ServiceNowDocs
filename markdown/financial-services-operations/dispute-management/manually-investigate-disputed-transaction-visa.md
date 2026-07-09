@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Investigate Visa transactions
@@ -36,27 +36,27 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook to open the **Dispute Workspace** of the transaction.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+6.  Select the **Investigate transactions** activity under the **Dispute Workspace**.
 
-7.  Select the **Investigate transactions** activity under the Investigation playbook stage.
-
-8.  Select whether to create a chargeback request in the **Pursue chargeback** drop-down list.
+7.  Select whether to create a chargeback request in the **Pursue chargeback** drop-down list.
 
     -   `Yes` - Pursue a chargeback from the merchant.
     -   `No` - Do not pursue chargeback from the merchant.
-9.  On the form, fill in the required fields and any other related information that you have gathered.
+8.  Fill in the required fields in the form, and any other related information that you have gathered.
 
-10. In the  **Remarks** field, enter any comments.
+9.  In the **Remarks** field, enter any comments.
 
-11. Select **Update** to save your changes.
+    This step is optional.
 
-12. Select **Continue**.
+10. Select **Update** to save your changes.
+
+11. Select **Continue**.
 
     The case is submitted to the dispute manager for review and approval when the chargeback eligibility is `No` and the agent sets the **Pursue Chargeback** value to `Yes`. After the manager approves the task, the user agent can continue with the dispute.
 
-13. Select **Initiate dispute**.
+12. Select **Initiate dispute**.
 
 
 ## Result

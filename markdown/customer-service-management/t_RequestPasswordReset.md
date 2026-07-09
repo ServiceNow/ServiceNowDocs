@@ -37,3 +37,10 @@ Role required: none
 8.  Click **Submit**.
 
 
+**Related topics**  
+
+
+[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ChangePasswordFromUserForm.md)
+
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInToPortalFirstTime.md)
+

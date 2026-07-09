@@ -107,7 +107,7 @@ When a purchase order associated to a demand or project is created, updated, or 
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

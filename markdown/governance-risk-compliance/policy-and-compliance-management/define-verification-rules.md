@@ -49,8 +49,6 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
     The Approver Levels related list appears. This related list allows you to define multiple approver levels for a rule. One or more users, or a group of users can be selected as approvers for each level. Approvers must be assigned the survey\_reader role. You can make it mandatory for all selected users to approve the exception or optionally allow a single user to approve on behalf of all approvers.
 
-    \[Omitted image "approval-levels.png"\] Alt text: Approver levels
-
 5.  Click **Submit**.
 
     When the policy exception record transitions to the Pending Verification state, the designated approvers are notified that their approval is required. If any fields in the policy exception request were not filled in by the requester \(for example, the Policy or Control Objective\), those fields become mandatory for the approvers. When the approvers have reviewed, completed, and approved the request, it transitions to the Analyze state and is assigned to the compliance manager for further analysis and approval.

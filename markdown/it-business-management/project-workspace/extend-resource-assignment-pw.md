@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Extend a resource assignment
@@ -32,15 +32,15 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 2.  Extend the resource assignment using one of the following options.
 
-<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d283349e77">
+<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d282665e77">
 
 Option
 
-</th><th align="left" id="d283349e80">
+</th><th align="left" id="d282665e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d283349e86">
+</th></tr></thead><tbody><tr><td id="d282665e86">
 
 **From resource assignment pane**
 
@@ -51,7 +51,7 @@ Procedure
 3.  Select **Extend** to extend the resource assignment.
 
 
-</td></tr><tr><td id="d283349e127">
+</td></tr><tr><td id="d282665e127">
 
 **From resource assignment form**
 

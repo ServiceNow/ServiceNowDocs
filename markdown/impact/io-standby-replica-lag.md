@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-27"
 reading_time_minutes: 2
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Standby replication Lag
@@ -18,12 +18,10 @@ Technical Support will see alert incidents created for database replication lag 
 
 **Note:** The cause will be DELETE or UPDATE statements. In the rare case, the cause is INSERT statements.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

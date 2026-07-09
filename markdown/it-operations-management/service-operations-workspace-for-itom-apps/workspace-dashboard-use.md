@@ -41,7 +41,7 @@ Reorder lists to prioritize information and enhance workflow organization.
 Delete a list to efficiently manage data sets, declutter your workspace, and maintain organized information.
 -   **[View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/view-impact-tree.md)**  
 Visualize relationships between Configuration Items \(CIs\) and alerts with real-time updates and detailed impact paths. Enhance troubleshooting and proactive management by quickly identifying root causes and dependencies for both discovered services and application services.
--   **[Enable and disable live updates for alert lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-list-autofresh-settings.md)**  
+-   **[Configure live updates for alert lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-list-autofresh-settings.md)**  
 Choose live updates for alert lists to receive real-time updates, or disable live updates and refresh the alert list manually.
 -   **[Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.md)**  
 Configure the metrics you want to be visible for Service Operations Workspace alerts or use the metrics configured with the base system to focus on relevant data for faster troubleshooting.

@@ -1,20 +1,20 @@
 ---
-title: Transaction Manager use case: Calculate the total of line-level prices
-description: Transaction Manager can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
+title: ServiceNow Quote Experience use case: Calculate the total of line-level prices
+description: ServiceNow Quote Experience can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-calculate-the-total-of-line-level-prices.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Transaction Manager: Use cases, Transaction Manager, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager use case: Calculate the total of line-level prices
+# ServiceNow Quote Experience use case: Calculate the total of line-level prices
 
-Transaction Manager can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
+ServiceNow Quote Experience can include a determination rule that calculates the sum of line-level net prices so that it can be stored in a header-level field.
 
-In CPQ Transaction Manager, you can use a determination rule to calculate the sum of line-level total net prices and store the result in a header-level field. This is particularly useful when multiple fields need to be aggregated from line items to the transaction header.
+In ServiceNow CPQ ServiceNow Quote Experience, you can use a determination rule to calculate the sum of line-level total net prices and store the result in a header-level field. This is particularly useful when multiple fields need to be aggregated from line items to the transaction header.
 
 ## Example Rule Configuration
 
@@ -34,7 +34,7 @@ In CPQ Transaction Manager, you can use a determination rule to calculate the su
 
     For example, calculate the sum aggregate of the list price of every line item. To calculate the total list price, we use the `sumField` function to calculate all the line-level list prices into a single field.
 
-    \[Omitted image "cpq-txn-mgr-use-case-calc-total-1.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-1.png"\] Alt text: ServiceNow Quote Experience Use Case: Calculate the Total of Line-Level Prices
 
 5.  Save and activate the rule so it applies in real time during the transaction life cycle.
 6.  To test the rule, create a transaction and add line items with varying net prices.
@@ -52,7 +52,7 @@ Here are two more examples of line-level calculations stored in a header-level f
 
     `return txn.line.functions.sumField(txn.line.custom.listUnitPrice) - txn.line.functions.sumField(txn.line.pricing.extendedNet);`
 
-    \[Omitted image "cpq-txn-mgr-use-case-calc-total-2.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-2.png"\] Alt text: ServiceNow Quote Experience Use Case: Calculate the Total of Line-Level Prices
 
 -   Total Net
 
@@ -60,8 +60,8 @@ Here are two more examples of line-level calculations stored in a header-level f
 
     `return txn.line.functions.sumField(txn.line.pricing.extendedNet);`
 
-    \[Omitted image "cpq-txn-mgr-use-case-calc-total-3.png"\] Alt text: Transaction Manager Use Case: Calculate the Total of Line-Level Prices
+    \[Omitted image "cpq-txn-mgr-use-case-calc-total-3.png"\] Alt text: ServiceNow Quote Experience Use Case: Calculate the Total of Line-Level Prices
 
 
-**Parent Topic:**[Transaction Manager: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
 

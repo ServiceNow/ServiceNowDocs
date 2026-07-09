@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -51,6 +51,8 @@ While topic managers control the topic level decisions, the contributors manage 
 [Use Employee Center from Zoom]()
 
 [View employee profile]()
+
+[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

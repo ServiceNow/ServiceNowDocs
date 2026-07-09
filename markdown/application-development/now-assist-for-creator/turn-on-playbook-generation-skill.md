@@ -50,7 +50,7 @@ Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to 
 **Related topics**  
 
 
-[Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-a-playbook-outline.md)
 
 [Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/change-default-llm-playbook-generation.md)
 

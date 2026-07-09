@@ -9,7 +9,7 @@ classification: product-catalog
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
 # Product Catalog
@@ -38,8 +38,6 @@ Product catalog items are hardware and software that you can track and offer in 
 Model categories associate CI classes with asset classes. Model categories are part of the Product Catalog application.
 -   **[Domain separation and Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/domain-separation-product-catalog.md)**  
 Domain separation is supported in the Product Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 
 **Related topics**  
 

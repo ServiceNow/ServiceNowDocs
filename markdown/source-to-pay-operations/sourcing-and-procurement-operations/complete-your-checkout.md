@@ -54,6 +54,8 @@ Role required: sn\_shop.shopper
 
 -   **[Select a delivery location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-location.md)**  
 You can select either a single delivery location or multiple delivery locations for the various products in your cart.
+-   **[Shipping methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shipping-methods.md)**  
+Shipping methods define how goods are transported from suppliers to delivery destinations. Administrators can create shipping methods and associate them with suppliers and delivery locations.
 -   **[Select a delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-date.md)**  
 You can select a single delivery date or multiple delivery dates for the various products in your cart. If you're unsure of a delivery date, you can provide an estimated time frame which then creates a blanket order.
 -   **[Select a payment method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-payment-method.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 3
 breadcrumb: [Explore, Industrial Process Manager, Operational Technology]
 ---

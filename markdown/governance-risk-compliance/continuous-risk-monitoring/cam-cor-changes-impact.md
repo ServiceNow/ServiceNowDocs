@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Compliance impact on control requirements
@@ -94,5 +94,5 @@ For more information on attestation flow scenarios, see the [Attestation workflo
 
 **Note:** For more information, see the [Operational changes and their impact on the process flow of control and its requirements \[KB1587264\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1587264) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

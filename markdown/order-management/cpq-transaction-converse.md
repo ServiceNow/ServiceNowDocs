@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Transaction Converse
 
 With Transaction Converse, you can use natural language to manage line items in transactions and quotes. Add, update, and delete items quickly and intuitively with conversational commands, even in complex transactions with many line items.
 
-The new Transaction Converse feature in Transaction Manager simplifies and accelerates the way users manage line items in transactions and quotes. Using natural language to interact add, delete, and update line items makes dealing with complex transactions with numerous line items easier.
+The new Transaction Converse feature in ServiceNow Quote Experience simplifies and accelerates the way users manage line items in transactions and quotes. Using natural language to interact add, delete, and update line items makes dealing with complex transactions with numerous line items easier.
 
 ## Key features
 
@@ -45,9 +45,9 @@ The new Transaction Converse feature in Transaction Manager simplifies and accel
 
 -   Easy activation
 
-    Transaction Converse can be enabled on request for customers using Transaction Manager. Interested customers can file a support ticket, and the team will assist with activation and collect feedback to guide future enhancements.
+    Transaction Converse can be enabled on request for customers using ServiceNow Quote Experience Interested customers can file a support ticket, and the team will assist with activation and collect feedback to guide future enhancements.
 
-    **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+    **Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 
 ## Takeaways
@@ -58,5 +58,5 @@ The new Transaction Converse feature in Transaction Manager simplifies and accel
 -   The system adapts and improves over time, learning from user interactions and organizational language.
 -   Customers can request activation and contribute to the ongoing development of Transaction Converse.
 
-Using Transaction Converse, Transaction Manager customers can transform how they manage transaction data, making the process faster, more intuitive, and increasingly tailored to their needs.
+Using Transaction Converse, ServiceNow Quote Experience customers can transform how they manage transaction data, making the process faster, more intuitive, and increasingly tailored to their needs.
 

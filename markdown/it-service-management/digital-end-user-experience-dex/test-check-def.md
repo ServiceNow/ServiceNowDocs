@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
+keywords: [test check definition, check definition, acc plugin test, powershell remedial action, verify remedial action]
 breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 

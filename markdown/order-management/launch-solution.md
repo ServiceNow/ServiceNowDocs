@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [launch solution, solution root, buyer, quoting application]
-breadcrumb: [Using CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Launch a solution
@@ -39,7 +39,7 @@ After launching a solution:
 -   To trigger a configurable product action and add a child configuration, see [Add configurable products to a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-configurable-products-solution.md) .
 -   To move between configurations once child configurations are added, see [Navigate within a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/navigate-solution.md).
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
 
 **Related topics**  
 

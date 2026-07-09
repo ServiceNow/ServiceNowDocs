@@ -54,5 +54,5 @@ The existing product capability is added to the TRM product.
 
 [Create product capabilities and associate it with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-product-capability-and-assoc-trm-product.md)
 
-[Remove product capabilities associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.md)
+[Remove product capabilities from a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.md)
 

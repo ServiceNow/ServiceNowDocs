@@ -61,15 +61,15 @@ Role required: None
 
 6.  Do any of the following options for a desired action.
 
-<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d150829e258">
+<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d153943e258">
 
 Option
 
-</th><th align="left" id="d150829e261">
+</th><th align="left" id="d153943e261">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d150829e267">
+</th></tr></thead><tbody><tr><td id="d153943e267">
 
 **Highlight the parent of an element**
 
@@ -79,7 +79,7 @@ Select the Highlight parent element icon \(\[Omitted image "hightlight-parent.pn
 
 \[Omitted image "highligh-parent-element.gif"\] Alt text: When the parent table is highlighted, the Highlight parent element option for a button in a toolbar.
 
-</td></tr><tr><td id="d150829e301">
+</td></tr><tr><td id="d153943e301">
 
 **Pause the recording**
 
@@ -87,7 +87,7 @@ Select the Highlight parent element icon \(\[Omitted image "hightlight-parent.pn
 
 Select the Pause recording icon \(\[Omitted image "pause-recording.png"\] Alt text: Pause recording icon.\).
 
-</td></tr><tr><td id="d150829e316">
+</td></tr><tr><td id="d153943e316">
 
 **View the Recorded actions pane**
 
@@ -95,7 +95,7 @@ Select the Pause recording icon \(\[Omitted image "pause-recording.png"\] Alt te
 
 Select the Show recorded steps icon \(\[Omitted image "show-recorded-steps.png"\] Alt text: Show recorded steps icon.\).You can verify the actions that you performed on the application elements from here.
 
-</td></tr><tr><td id="d150829e333">
+</td></tr><tr><td id="d153943e333">
 
 **Know more about the recorder feature**
 
@@ -103,7 +103,7 @@ Select the Show recorded steps icon \(\[Omitted image "show-recorded-steps.png"\
 
 Select the Help icon \(\[Omitted image "help-recorder-rpa-icon.png"\] Alt text: Help icon.\) that navigates to the product documentation web page.
 
-</td></tr><tr><td id="d150829e349">
+</td></tr><tr><td id="d153943e349">
 
 **Delete a recorded action**
 
@@ -111,7 +111,7 @@ Select the Help icon \(\[Omitted image "help-recorder-rpa-icon.png"\] Alt text: 
 
 Point to the action and select the Delete action icon \(\[Omitted image "delete-action-icon.png"\] Alt text: Delete action icon.\).
 
-</td></tr><tr><td id="d150829e364">
+</td></tr><tr><td id="d153943e364">
 
 **Delete all the recorded actions from the Recorded actions pane**
 
@@ -119,7 +119,7 @@ Point to the action and select the Delete action icon \(\[Omitted image "delete-
 
 Select **Delete all**.
 
-</td></tr><tr><td id="d150829e376">
+</td></tr><tr><td id="d153943e376">
 
 **Edit the recorded action or element details**
 

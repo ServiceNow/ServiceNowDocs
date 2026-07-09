@@ -55,3 +55,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         There are two tabs: Monthly - ITOM and Quarterly - ITOM. To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itom.md)
+

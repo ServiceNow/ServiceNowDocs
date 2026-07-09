@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 6
 keywords: [custom hardware lifecycle, custom consumable lifecycle, internal hardware lifecycle, internal consumable lifecycle]
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an internal lifecycle in the Hardware Asset Workspace
@@ -31,15 +31,15 @@ Beyond approximated and calculated lifecycles, Hardware Asset Management support
 
 2.  Open the create lifecycle form for the hardware model or consumable model record.
 
-<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d164958e95">
+<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d165563e95">
 
 Option
 
-</th><th align="left" id="d164958e98">
+</th><th align="left" id="d165563e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d164958e104">
+</th></tr></thead><tbody><tr><td id="d165563e104">
 
 **Open the __Hardware Model Lifecycles__ tab**
 
@@ -52,7 +52,7 @@ Description
 
 The Create New Hardware Model Lifecycle form is displayed.
 
-</td></tr><tr><td id="d164958e142">
+</td></tr><tr><td id="d165563e142">
 
 **Open the __Consumable Lifecycles__ tab**
 

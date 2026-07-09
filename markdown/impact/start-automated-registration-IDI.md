@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Use automated registration to connect to the Impact Delivery Instance
@@ -39,7 +39,7 @@ Role required: impact app admin and impact admin \(IDI\)
 
 3.  Select **Learn about registering your instance** to read an overview of these steps.
 
-    See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for a summary of the configuration steps.
+    See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for a summary of the configuration steps.
 
 4.  **Mark as Complete** to continue.
 
@@ -163,9 +163,5 @@ Inbound status \(read-only\)
 
 [Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md)
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Scan blocking and override behavior scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understanding-scan-blocking-override-behavior.md)
-
-**Next topic:**[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md)
+**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

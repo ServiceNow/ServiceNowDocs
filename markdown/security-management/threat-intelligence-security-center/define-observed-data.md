@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Observed Data, Threat Entities, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observed Data, Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define Observed Data

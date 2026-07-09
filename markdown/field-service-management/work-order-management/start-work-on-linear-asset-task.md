@@ -49,7 +49,7 @@ Role required: wm\_agent
 
 9.  Provide additional information about the affected linear asset by tapping **Take questionnaire**.
 
-    For more information, see [Complete a questionnaire for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
+    For more information, see [Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
 10. If you identify an issue for a linear asset when inspecting a segment, create a new work order.
 

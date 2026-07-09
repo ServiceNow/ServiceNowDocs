@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Control Requirement Details View
@@ -509,5 +509,5 @@ Activities
 Message logs of control requirement's state change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

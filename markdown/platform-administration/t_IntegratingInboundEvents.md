@@ -48,7 +48,7 @@ The following example steps assume you have your own demonstration instance.
 
     \[Omitted image "RESTRequest.png"\] Alt text: The REST JSON request
 
-5.  Click **Send**.
+5.  Select **Send**.
 
 6.  Navigate to **Response** &gt; **Response Body \(Raw\)**.
 
@@ -56,13 +56,13 @@ The following example steps assume you have your own demonstration instance.
 
     \[Omitted image "RESTResponse.png"\] Alt text: The REST response
 
-8.  Login to your development instance.
+8.  Log in to your development instance.
 
 9.  In Navigation filter, enter `imp_notification.list`.
 
 10. Verify that the import set table has an event matching your JSON request.
 
-    \[Omitted image "RESTImportSetTable.png"\] Alt text: REST import set table
+    \[Omitted image "rest-import-set-table.png"\] Alt text: Import set table showing an event record that matches the JSON request data
 
 
 **Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)

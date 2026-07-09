@@ -1,6 +1,6 @@
 ---
 title: Flag or resolve a question
-description: Flag a question on an assessment to indicate that it needs attention. After the response is updated, mark the question as resolved or remove the flag.
+description: In SAE, flag a question on an assessment to indicate that it needs attention. After the response is updated, mark the question as resolved or remove the flag.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/flag-a-question.html
 release: australia
@@ -8,13 +8,13 @@ product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
 last_updated: "2026-06-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Flag or resolve a question
 
-Flag a question on an assessment to indicate that it needs attention. After the response is updated, mark the question as resolved or remove the flag.
+In SAE, flag a question on an assessment to indicate that it needs attention. After the response is updated, mark the question as resolved or remove the flag.
 
 ## Before you begin
 
@@ -55,13 +55,17 @@ For more information, see [Collaboration in assessments](https://raw.githubuserc
 
 3.  Open the question that you want to flag, resolve, or unflag.
 
-4.  Select the flag icon at the bottom of the question card.
+4.  Select the flag icon at the bottom of the question card to cycle the question state: **Unflagged** → **Flagged** → **Resolved** → **Unflagged**.
 
     The flag icon cycles the question through three states each time you select it: **Unflagged**, **Flagged**, and **Resolved**. The icon and tooltip update to reflect the current state.
 
     -   From **Unflagged**, the icon appears as an outline flag \[Omitted image "question-flag.png"\] Alt text:. Selecting it sets the question to **Flagged**.
     -   From **Flagged**, the icon appears as a filled flag \[Omitted image "question-flagged.png"\] Alt text:. Selecting it sets the question to **Resolved**.
     -   From **Resolved**, the icon appears as a check mark \[Omitted image "question-flag-resolved.png"\] Alt text:. Selecting it returns the question to **Unflagged**.
+
+## Result
+
+The question flag state is updated and visible to all collaborators on the assessment.
 
 ## What to do next
 

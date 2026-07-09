@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-06-03"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Configure, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Now Assist for Software Asset Management \(SAM\)

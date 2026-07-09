@@ -23,7 +23,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     1.  [Download the add-in manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-manifest-export-to-ppt.md) from your ServiceNow instance.
     2.  Contact your Microsoft Office 365 administrator to deploy the manifest using the Microsoft 365 admin center \(**Settings** &gt; **Integrated apps** &gt; **Upload custom apps**\).
     3.  After deployment, restart Microsoft PowerPoint and verify the ServiceNow add-in icon appears on the Home tab.
--   For the Export to PowerPoint plugin configuration on your instance, see Configure the Export to PPT plugin.
+-   For the Export to PowerPoint plugin configuration on your instance, see [Configure the Export to PowerPoint add-in for Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-ppt-addin.md).
 
 **Tip:**
 

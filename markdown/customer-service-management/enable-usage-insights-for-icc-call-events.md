@@ -1,5 +1,5 @@
 ---
-title: Enable Usage Insights for Interaction Controls Component \(ICC\) enabled call events
+title: Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events
 description: Configure Usage Insights to enable tracking of call events that are captured for agents. Admins and managers can view agent call events, inspect event payloads, and diagnose issues directly within the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-usage-insights-for-icc-call-events.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-05-04"
 reading_time_minutes: 2
-breadcrumb: [Usage insights for call events enabled using Interaction Controls Component \(ICC\), ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
+breadcrumb: [Usage insights for ICC call events, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
-# Enable Usage Insights for Interaction Controls Component \(ICC\) enabled call events
+# Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events
 
 Configure **Usage Insights** to enable tracking of call events that are captured for agents. Admins and managers can view agent call events, inspect event payloads, and diagnose issues directly within the ServiceNow instance.
 
@@ -35,7 +35,7 @@ Confirm the following prerequisites before you begin configuration:
 
 -   **ICC configuration**
 
-    The agents you're enabling must assigned to the instance enabled via ICC.
+    The agents you're enabling must be assigned to the instance enabled via ICC.
 
 -   **Agent availability**
 
@@ -70,7 +70,7 @@ Confirm the following prerequisites before you begin configuration:
 
     1.  Log in to the ServiceNow instance as a system administrator.
 
-    2.  Navigate to **System Properties** &gt; **All Properties**, or search for **sn\_openframe\_logger\_enabled\_users** CSMFSin the filter.
+    2.  Navigate to **System Properties** &gt; **All Properties**, or search for **sn\_openframe\_logger\_enabled\_users** in the filter.
 
     3.  Open the **sn\_openframe\_logger\_enabled\_users** property record.
 
@@ -99,13 +99,5 @@ Confirm the following prerequisites before you begin configuration:
 
 ## Result
 
-After completing this configuration, **Usage Insights** begins capturing events for the agents you enabled. You can verify the setup as follows:
-
--   Navigate to **Platform Analytics** &gt; **Usage Insights** and filter by CSM/FSM Configurable Workspace.
--   Select the **Users** or **Sessions** view. The enabled agents’ sessions should appear after they log in and perform call actions.
--   Select a session and confirm that ICC triggered **NVC events** appear with complete payloads.
-
-If no events appear after an agent has completed a call action, verify that the **Enable Analytics** toggle is set to **ON** in the agent’s preferences and that their **sys\_id** is correctly entered in the **sn\_openframe\_logger\_enabled\_users** property.
-
-**Note:** Users are displayed as \#IDs in **Usage Insights**.
+After completing this configuration, **Usage Insights** begins capturing events for the agents you enabled. To confirm that events are captured, see [Verify usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/verify-usage-insights-for-icc-call-events.md).
 

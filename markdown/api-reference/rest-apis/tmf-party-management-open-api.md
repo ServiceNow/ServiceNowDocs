@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 73
+reading_time_minutes: 74
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -4641,7 +4641,28 @@ partyCharacteristics.name
 
 </td><td>
 
-Name of the party characteristic.Data type: String
+Name of the party characteristic.Accepted values:
+
+-   notes
+-   customer
+-   registrationCode
+-   vendorType
+-   industry
+-   taxId
+-   numEmployees
+-   rankTier
+-   publiclyTraded
+-   stockSymbolstockPrice
+-   vendor
+-   manufacturer
+-   marketCap
+-   profits
+-   revenuePerYear
+-   vendorType
+
+**Note:** The **partyCharacteristic.value** attribute accepts the display value of `rankTier` and `industry` choice fields as input. Invalid values will trigger a warning message in the response.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7141,7 +7162,28 @@ partyCharacteristics.name
 
 </td><td>
 
-Name of the party characteristic.Data type: String
+Name of the party characteristic.Accepted values:
+
+-   notes
+-   customer
+-   registrationCode
+-   vendorType
+-   industry
+-   taxId
+-   numEmployees
+-   rankTier
+-   publiclyTraded
+-   stockSymbolstockPrice
+-   vendor
+-   manufacturer
+-   marketCap
+-   profits
+-   revenuePerYear
+-   vendorType
+
+**Note:** The **partyCharacteristic.value** attribute accepts the display value of `rankTier` and `industry` choice fields as input. Invalid values will trigger a warning message in the response.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7785,400 +7827,402 @@ This returns specified fields for the party management organization records.
 
 ```
 curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
---request POST \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---user 'user':'password'
---data "{
-  \"name\": \"SERVICENOW 144\",
-  \"legalName\": \"Acme Corp Ltd.\",
-  \"tradingName\": \"Acme Inc.\",
-  \"contactMedium\": [
+  --request POST \
+  --header "Accept: application/json" \
+  --header "Content-Type: application/json" \
+  --user 'user:password' \
+  --data '{
+  "name": "SERVICENOW 144",
+  "legalName": "Acme Corp Ltd.",
+  "tradingName": "Acme Inc.",
+  "contactMedium": [
     {
-      \"preferred\": true,
-      \"mediumType\": \"email\",
-      \"emailAddress\": \"athammhd@email.com\",
-      \"@type\": \"EmailContactMedium\"
+      "preferred": true,
+      "mediumType": "email",
+      "emailAddress": "athammhd@email.com",
+      "@type": "EmailContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"phone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"PhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "phone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "PhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"businessPhone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"BusinessPhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "businessPhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "BusinessPhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"homePhone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"HomePhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "homePhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "HomePhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"postalAddress\",
-      \"validFor\": {
-        \"startDateTime\": \"2017-03-15T07:49:25.246Z\"
+      "preferred": false,
+      "mediumType": "postalAddress",
+      "validFor": {
+        "startDateTime": "2017-03-15T07:49:25.246Z"
       },
-      \"@type\": \"GeographicAddressContactMedium\",
-      \"city\": \"chennai\",
-      \"country\": \"INDIA\",
-      \"postCode\": \"608001\",
-      \"stateOrProvince\": \"tamil nadu\",
-      \"street1\": \"samcon street\",
-      \"street2\": \"adyar,chennai\"
+      "@type": "GeographicAddressContactMedium",
+      "city": "chennai",
+      "country": "INDIA",
+      "postCode": "608001",
+      "stateOrProvince": "tamil nadu",
+      "street1": "samcon street",
+      "street2": "adyar,chennai"
     }
   ],
-  \"externalReference\": [
+  "externalReference": [
     {
-      \"externalIdentifierType\": \"Instagram\",
-      \"id\": \"Instagram\"
+      "externalIdentifierType": "Instagram",
+      "id": "Instagram"
     }
   ],
-  \"partyCharacteristic\": [
+  "partyCharacteristic": [
     {
-      \"name\": \"notes\",
-      \"value\": \"Testing for update the notes\",
-      \"valueType\": \"string\",
-      \"@type\": \"StringCharacteristics\"
+      "name": "notes",
+      "value": "Testing for update the notes",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"customer\",
-      \"value\": \"true\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "customer",
+      "value": "true",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"registrationCode\",
-      \"value\": \"001\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "registrationCode",
+      "value": "001",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-     \"name\": \"vendorType\",
-     \"value\": [\"Hardware\"],
-     \"valueType\": \"array\",
-      \"@type\": \"StringArrayCharacteristic\"
-     },
-     {
-      \"name\": \"industry\",
-      \"value\": \"technology_services\",
-      \"valueType\": \"choice\",
-        \"@type\": \"StringCharacteristics\"
+      "name": "vendorType",
+      "value": ["Hardware"],
+      "valueType": "array",
+      "@type": "StringArrayCharacteristic"
     },
     {
-      \"name\": \"taxId\",
-      \"value\": \"CTNUM1000123\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "industry",
+      "value": "Manufacturing",
+      "valueType": "choice",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"numEmployees\",
-      \"value\": \"EMP1000\",
-      \"valueType\": \"integer\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "taxId",
+      "value": "CTNUM1000123",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"rankTier\",
-      \"value\": \"rankTier\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "numEmployees",
+      "value": "10",
+      "valueType": "integer",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"publiclyTraded\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "rankTier",
+      "value": "Valued Partner",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"stockSymbol\",
-      \"value\": \"Market\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "publiclyTraded",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"stockPrice\",
-      \"value\": \"1000\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "stockSymbol",
+      "value": "Market",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"vendor\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "stockPrice",
+      "value": "1000",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"manufacturer\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "vendor",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"marketCap\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "manufacturer",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"profits\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "marketCap",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"revenuePerYear\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "profits",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "revenuePerYear",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
     }
   ],
-  \"relatedParty\": [
+  "relatedParty": [
     {
-      \"role\": \"primaryContact\",
-      \"partyOrPartyRole\": {
-        \"id\": \"eaf68911c35420105252716b7d40ddde\",
-        \"name\": \"John Doe\",
-        \"@type\": \"Individual\"
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": "John Doe",
+        "@type": "Individual"
       }
     },
     {
-      \"role\": \"other\",
-      \"partyOrPartyRole\": {
-        \"id\": \"776a22ea11f43110f877366201dea6b7\",
-        \"name\": \"Mary Star\",
-        \"@type\": \"Individual\"
+      "role": "other",
+      "partyOrPartyRole": {
+        "id": "776a22ea11f43110f877366201dea6b7",
+        "name": "Mary Star",
+        "@type": "Individual"
       }
     }
   ],
-  \"organizationChildRelationship\": [
+  "organizationChildRelationship": [
     {
-      \"relationshipType\": \"partneraccount\",
-      \"organization\": {
-        \"id\": \"0fef075b2fe06a10b79db3bf42faf31a\",
-        \"name\": \"mhd\",
-        \"@type\": \"Organization\"
+      "relationshipType": "partneraccount",
+      "organization": {
+        "id": "0fef075b2fe06a10b79db3bf42faf31a",
+        "name": "mhd",
+        "@type": "Organization"
       }
     }
   ],
-  \"organizationParentRelationship\": 
-    {
-      \"relationshipType\": \"Account\",
-      \"organization\": {
-        \"id\": \"9e2fd2ee11b43110f877366201dea674\",
-        \"name\": \"Global Holdings Ltd.\",
-        \"@type\": \"Organization\"
-      }
-    },
-  \"status\": \"active\",
-  \"@type\": \"Organization\",
-  \"partyOrPartyRole\": {
-    \"@type\":\"Party\",
-    \"name\":\"Customer\",
-    \"role\": \"Account\" 
+  "organizationParentRelationship": {
+    "relationshipType": "Account",
+    "organization": {
+      "id": "9e2fd2ee11b43110f877366201dea674",
+      "name": "Global Holdings Ltd.",
+      "@type": "Organization"
+    }
+  },
+  "status": "active",
+  "@type": "Organization",
+  "partyOrPartyRole": {
+    "@type": "Party",
+    "name": "Customer",
+    "role": "Account"
   }
-}" \
+}'
 ```
 
 Response body.
 
 ```
 {
-   "name": "SERVICENOW 144",
-   "legalName": "Acme Corp Ltd.",
-   "tradingName": "Acme Inc.",
-   "contactMedium": [
-     {
-       "preferred": true,
-       "mediumType": "email",
-       "emailAddress": "athammhd@email.com",
-       "@type": "EmailContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "phone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "PhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "businessPhone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "BusinessPhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "homePhone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "HomePhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "postalAddress",
-       "validFor": {
-         "startDateTime": "2017-03-15T07:49:25.246Z"
-       },
-       "@type": "GeographicAddressContactMedium",
-       "city": "chennai",
-       "country": "INDIA",
-       "postCode": "608001",
-       "stateOrProvince": "tamil nadu",
-       "street1": "samcon street",
-       "street2": "adyar,chennai"
-     }
-   ],
-   "externalReference": [
-     {
-       "externalIdentifierType": "Instagram",
-       "id": "Instagram"
-     }
-   ],
-   "partyCharacteristic": [
-     {
-       "name": "notes",
-       "value": "Testing for update the notes",
-       "valueType": "string",
-       "@type": "StringCharacteristics"
-     },
-     {
-       "name": "customer",
-       "value": "true",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "registrationCode",
-       "value": "001",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
+  "id": "0fef075b2fe06a10b79db3bf42faf31c",
+  "href": "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization/0fef075b2fe06a10b79db3bf42faf31c",
+  "name": "SERVICENOW 144",
+  "legalName": "Acme Corp Ltd.",
+  "tradingName": "Acme Inc.",
+  "contactMedium": [
+    {
+      "preferred": true,
+      "mediumType": "email",
+      "emailAddress": "athammhd@email.com",
+      "@type": "EmailContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "phone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "PhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "businessPhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "BusinessPhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "homePhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "HomePhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "postalAddress",
+      "validFor": {
+        "startDateTime": "2017-03-15T07:49:25.246Z"
+      },
+      "@type": "GeographicAddressContactMedium",
+      "city": "chennai",
+      "country": "INDIA",
+      "postCode": "608001",
+      "stateOrProvince": "tamil nadu",
+      "street1": "samcon street",
+      "street2": "adyar,chennai"
+    }
+  ],
+  "externalReference": [
+    {
+      "externalIdentifierType": "Instagram",
+      "id": "Instagram"
+    }
+  ],
+  "partyCharacteristic": [
+    {
+      "name": "notes",
+      "value": "Testing for update the notes",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "customer",
+      "value": "true",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "registrationCode",
+      "value": "001",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
       "name": "vendorType",
       "value": ["Hardware"],
       "valueType": "array",
-       "@type": "StringArrayCharacteristic"
-      },
-      {
-       "name": "industry",
-       "value": "technology_services",
-       "valueType": "choice",
-         "@type": "StringCharacteristics"
-     },
-     {
-       "name": "taxId",
-       "value": "CTNUM1000123",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "numEmployees",
-       "value": "EMP1000",
-       "valueType": "integer",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "rankTier",
-       "value": "rankTier",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "publiclyTraded",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "stockSymbol",
-       "value": "Market",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "stockPrice",
-       "value": "1000",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "vendor",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "manufacturer",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "marketCap",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "profits",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "revenuePerYear",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     }
-   ],
-   "relatedParty": [
-     {
-       "role": "primaryContact",
-       "partyOrPartyRole": {
-         "id": "eaf68911c35420105252716b7d40ddde",
-         "name": "John Doe",
-         "@type": "Individual"
-       }
-     },
-     {
-       "role": "other",
-       "partyOrPartyRole": {
-         "id": "776a22ea11f43110f877366201dea6b7",
-         "name": "Mary Star",
-         "@type": "Individual"
-       }
-     }
-   ],
-   "organizationChildRelationship": [
-     {
-       "relationshipType": "partneraccount",
-       "organization": {
-         "id": "0fef075b2fe06a10b79db3bf42faf31a",
-         "name": "mhd",
-         "@type": "Organization"
-       }
-     }
-   ],
-   "organizationParentRelationship": 
-     {
-       "relationshipType": "Account",
-       "organization": {
-         "id": "9e2fd2ee11b43110f877366201dea674",
-         "name": "Global Holdings Ltd.",
-         "@type": "Organization"
-       }
-     },
-   "status": "active",
-   "@type": "Organization",
-   "partyOrPartyRole": {
-     "@type":"Party",
-     "name":"Customer",
-     "role": "Account" 
-   }
- }
+      "@type": "StringArrayCharacteristic"
+    },
+    {
+      "name": "industry",
+      "value": "Manufacturing",
+      "valueType": "choice",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "taxId",
+      "value": "CTNUM1000123",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "numEmployees",
+      "value": "10",
+      "valueType": "integer",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "rankTier",
+      "value": "Valued Partner",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "publiclyTraded",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "stockSymbol",
+      "value": "Market",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "stockPrice",
+      "value": "1000",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "vendor",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "manufacturer",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "marketCap",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "profits",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "revenuePerYear",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    }
+  ],
+  "relatedParty": [
+    {
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": "John Doe",
+        "@type": "Individual"
+      }
+    },
+    {
+      "role": "other",
+      "partyOrPartyRole": {
+        "id": "776a22ea11f43110f877366201dea6b7",
+        "name": "Mary Star",
+        "@type": "Individual"
+      }
+    }
+  ],
+  "organizationChildRelationship": [
+    {
+      "relationshipType": "partneraccount",
+      "organization": {
+        "id": "0fef075b2fe06a10b79db3bf42faf31a",
+        "name": "mhd",
+        "@type": "Organization"
+      }
+    }
+  ],
+  "organizationParentRelationship": {
+    "relationshipType": "Account",
+    "organization": {
+      "id": "9e2fd2ee11b43110f877366201dea674",
+      "name": "Global Holdings Ltd.",
+      "@type": "Organization"
+    }
+  },
+  "status": "active",
+  "@type": "Organization",
+  "partyOrPartyRole": {
+    "@type": "Party",
+    "name": "Customer",
+    "role": "Account"
+  },
+  "createdDate": "2025-06-25T14:32:18.000Z",
+  "lastModifiedDate": "2025-06-25T14:32:18.000Z"
+}
 ```
 

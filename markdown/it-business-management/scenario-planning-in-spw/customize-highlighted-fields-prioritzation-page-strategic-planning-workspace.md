@@ -1,5 +1,5 @@
 ---
-title: Create new highlighted values for Prioritization columns in Strategic Planning
+title: Customize highlighted values for Prioritization columns
 description: Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Customizing highlighted fields, Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create new highlighted values for Prioritization columns in Strategic Planning
+# Customize highlighted values for Prioritization columns
 
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
@@ -52,5 +52,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Customizing highlighted fields on Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
+**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
 

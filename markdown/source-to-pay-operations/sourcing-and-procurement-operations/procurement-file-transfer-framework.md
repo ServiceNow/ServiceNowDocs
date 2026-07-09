@@ -59,7 +59,7 @@ The following information can help you with the FTP import and export data.
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

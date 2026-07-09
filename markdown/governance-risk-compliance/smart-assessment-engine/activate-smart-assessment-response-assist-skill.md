@@ -1,6 +1,6 @@
 ---
 title: Activate smart assessment response assist skill
-description: Activate and configure the smart assessment response assist skill in Now Assist to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents. Enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
+description: Activate and configure the smart assessment response assist skill in Now Assist to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents, enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Now Assist, Smart Assessment Engine, Governance, Risk, a
 
 # Activate smart assessment response assist skill
 
-Activate and configure the smart assessment response assist skill in Now Assist to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents. Enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
+Activate and configure the smart assessment response assist skill in Now Assist to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents, enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
 
 ## Before you begin
 
@@ -36,10 +36,19 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 4.  Select **Turn on**.
 
-5.  Select **Risk &amp; Sustainability** to return to the page listing all Risk and Sustainability-related skills or close the dialog box to remain on the same page.
+5.  Choose how to proceed after activating the skill.
 
+    |Option|Steps|
+    |------|-----|
+    |**Return to list**|Select **Risk &amp; Sustainability**.|
+    |**Stay on page**|Close the dialog box.|
+
+
+## Result
+
+The Smart Assessment Response Assist skill is active and available for assessment questionnaires. Configure the skill at the template category level as needed.
 
 ## What to do next
 
-Configure AI response at template category level, for more information refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Configure AI response at template category level, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 

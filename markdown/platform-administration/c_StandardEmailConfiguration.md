@@ -18,7 +18,7 @@ All production instances can send and receive email using ServiceNow - provided 
 
 Below is an example of a basic email network with ServiceNow as the domain.
 
-\[Omitted image "StandardEmailConfiguration.png"\] Alt text: Network layout of basic email
+\[Omitted image "standard-email-configuration.png"\] Alt text: Diagram showing standard ServiceNow email flow, including outbound and inbound messages routed through mail servers and DNS between a user email account and a ServiceNow instance
 
 ## Basic email services and features
 

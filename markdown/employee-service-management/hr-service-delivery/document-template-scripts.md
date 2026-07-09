@@ -18,6 +18,8 @@ With document template scripts, you can dynamically change the text in the body 
 
 You can add a `${template_script:script name}` embedded script tag to the body of the HTML template, replacing script name with the name of the script you created. This makes it easy to use the same scripts in multiple document templates. You can create a script by navigating to**Document Templates** &gt; **Document Templates Script**.
 
+**Note:** The output of the HTML script is automatically sanitized when the **Sanitize** option is enabled in the HTML template. For more details, refer to the **Sanitize** field in [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
+
 ## Example of how to create and use a document template script in an HTML template
 
 1.  The employee\_emergency\_contacts script populates the emergency contacts list in an Employee Profile document.
@@ -111,6 +113,6 @@ Following is an example of how dynamic tokens are translated in an HTML doc temp
 2.  The HTML document template is referenced in an HR case.
 3.  When the agent previews the document, generates the attachment, or initiates document tasks for participants, priority and relationship fields are translated into the German language, and dates appear in the dd/MM/yyyy format.
 
-    \[Omitted image "preview-output.png"\] Alt text: The translated preview of the document template. I is translated to German.
+    \[Omitted image "preview-output.png"\] Alt text: The translated preview of the document template. It is translated to German.
 
 

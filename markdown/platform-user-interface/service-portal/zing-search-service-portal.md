@@ -74,8 +74,8 @@ Search facets render in the Faceted Search widget on the sp\_search page. In new
 
     |API|Use|
     |---|---|
-    |SPScriptedFacetService - Scoped|Creates a single or multi choice facet.|
-    |SPScriptedFacet - Scoped|Defines facet items, filters, or mapped queries for the facet.|
+    |[SPScriptedFacetService - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md)|Creates a single or multi choice facet.|
+    |[SPScriptedFacet - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetScopedAPI.md)|Defines facet items, filters, or mapped queries for the facet.|
 
 
 -   **[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)**  

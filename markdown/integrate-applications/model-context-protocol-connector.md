@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-06-05"
 reading_time_minutes: 3
-breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Build integrations with connectors, Connect, Workflow Data Fabric]
 ---
 
 # Model Context Protocol connectors
@@ -20,7 +20,7 @@ In Connect Hub, an MCP connector represents a configured connection between Serv
 
 ## MCP Registry
 
-ServiceNow MCP Registry is a private registry where large language models \(LLMs\), AI agents, and teams discover and connect to approved MCP servers, finding the best tool for every business problem, governed at every step. The Registry enables AI models and humans query available MCP servers and select the ones best suited to solve a business problem. Every server exposed to an LLM is pre-approved in AICT, helping to ensure autonomous decisions never bypass enterprise governance. It works with AI Agent Studio, Claude, and so on. For more information, see [ServiceNow MCP Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-registry.md).
+ServiceNow MCP Registry is a private registry where large language models \(LLMs\), AI agents, and teams discover and connect to approved MCP servers, finding the best tool for every business problem, governed at every step. The Registry enables AI models and humans query available MCP servers and select the ones best suited to solve a business problem. Every server exposed to an LLM can obtain approval from AICT, helping to ensure autonomous decisions never bypass enterprise governance. It works with AI Agent Studio, Claude, and so on. For more information, see [ServiceNow MCP Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-registry.md).
 
 ## MCP connector registration methods for OAuth 2.1
 

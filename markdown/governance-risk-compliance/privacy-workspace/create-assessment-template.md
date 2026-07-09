@@ -288,7 +288,7 @@ After responses are submitted, review and approve the assessment. For more infor
 
 To map assessment responses to a processing activity, see [Map the processing activity fields to a question response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/copy-responses-to-ropa.md).
 
-To publish a new version of an existing privacy assessment template, see [Create a version of a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+To publish a new version of an existing privacy assessment template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 -   **[Write a processing activity script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-a-processing-activity-script.md)**  
 Write custom scripts on the assessment templates to update the processing activity fields using a script. The script runs when the assessment response is completed. You can write multiple scripts for both screening assessments and impact assessments.

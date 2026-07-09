@@ -1,6 +1,6 @@
 ---
 title: Configure a PDF document template
-description: Upload an editable, fillable PDF template and customize the template as per your business needs.
+description: Upload an editable, interactive PDF template and customize the template according to your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-editable-pdf.html
 release: australia
@@ -14,16 +14,16 @@ breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Docu
 
 # Configure a PDF document template
 
-Upload an editable, fillable PDF template and customize the template as per your business needs.
+Upload an editable, interactive PDF template and customize the template according to your business needs.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.admin and Delegated developer
+Role required: sn\_doc.admin and Delegated developer
 
 **Note:**
 
 -   For legally binding e-signatures and digital signatures use the following signing types: [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/digital-signature.md).
--   Update sets do not support large attachments. If your template includes large documents, manually export the PDF template record XML from the source instance and import it into the target instance.
+-   Update sets don't support large attachments. If your template includes large documents, manually export the PDF template record XML from the source instance and import it into the target instance.
 
 ## About this task
 
@@ -33,7 +33,7 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 1.  Navigate to **All** &gt; **Document Templates** &gt; **All Document Templates**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Select **PDF Document Template**.
 
@@ -154,7 +154,7 @@ Document
 
 </td><td>
 
-Option to upload the attachment of a fillable PDF for further customization.**Note:** This field appears when **Upload new document** is selected in **Attachment type**.
+Option to upload the attachment of a interactive PDF for further customization.**Note:** This field appears when **Upload new document** is selected in **Attachment type**.
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ End date
 
 </td><td>
 
-Date until which the PDF document template is valid. **End date** helps in maintaining multiple versions of same template.By default, if values in **Start date** and **End date** are blank it will imply that the template will always be valid.
+Date until which the PDF document template is valid. **End date** helps in maintaining multiple versions of same template.By default, if values in **Start date** and **End date** are empty it will imply that the template is valid.
 
 If you specify an end date, you must also specify a start date.
 
@@ -215,14 +215,14 @@ Source template
 Source template from which you created a copy of current template.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Save**.
+</table>5.  Select **Submit** or **Save**.
 
 
 ## What to do next
 
--   Click the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
+-   Select the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
 -   In the **Participants** related list, [create participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md).
 -   In the **PDF Template Mappings** related list, [define field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
--   Click [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
+-   Select [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
 -   Publish the template. Flows using the template might get effected in case you want to edit a published template.
 

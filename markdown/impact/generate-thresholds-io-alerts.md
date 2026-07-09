@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Generate thresholds for key alerts
@@ -24,7 +24,7 @@ Role required: admin
 
     \[Omitted image "threshold-banner-io.png"\] Alt text: Shows the Generate Threshold button in the Configure Alerts banner.
 
-    A notification banner displays. If the banner prompts to configure alerts, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
+    A notification banner displays. If the banner prompts to configure alerts, see [Configure key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 2.  Select **Generate Threshold**.
 
@@ -68,5 +68,5 @@ Role required: admin
     **Note:** If you choose three max alerts per day, then you may receive up to three Alerts notification per day for that specific metric. The alert count resets daily at 00:00 UTC.
 
 
-**Parent Topic:**[Key alerts – activation and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)
 

@@ -18,7 +18,7 @@ Configure a MID Server to use source control with the ServiceNow IDE if your Git
 
 ## Before you begin
 
-Install a MID Server with a REST capability. For more information, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md) and [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureCapabilities.md).
+Install a MID Server with a REST capability. For more information, see [Installing the MID Server with manual or guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md) and [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureCapabilities.md).
 
 Role required: admin
 

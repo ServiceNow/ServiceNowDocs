@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, model, successfactor, success factor, success, factor, talent, odata]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtain data from SAP SuccessFactors using OData v2 APIs
@@ -31,5 +31,5 @@ For more information and detailed steps, see [Add an OData service manually in Z
 
 For more information about the APIs, see [SAP SuccessFactors API Reference Guide \(OData V2\)](https://help.sap.com/doc/a7c08a422cc14e1eaaffee83610a981d/2511/en-US/SF_HCM_OData_API_DEV.pdf) on the SAP Help Portal.
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

@@ -47,7 +47,7 @@ You can structure a test plan in the Test Board **Planning** tab, which provides
 Define how to test a product or feature by creating a test plan.
 -   **[Add and modify test cycles and test execution suites in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/use-planning-tab.md)**  
 Add and modify test cycles and test execution suites from a single user interface without having to switch between multiple user interfaces and forms.
--   **[Define a custom column in the Planning tab of Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/add-custom-column.md)**  
+-   **[Define a custom column in Test Board of Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/add-custom-column.md)**  
 Define a custom column to display information important to you in the Test plan work item hierarchy section of the Planning tab. For example, define a column to view the percentage of test plan that has been completed.
 
 **Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)

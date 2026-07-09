@@ -18,6 +18,10 @@ Start a chat session with an agent from the Consumer Portal without logging in t
 
 Role required: none
 
+## About this task
+
+Anonymous chat lets users get support without creating or logging in to an account. The chat connects you to a virtual agent first. If the virtual agent cannot resolve your issue, you can request to speak with a customer service agent.
+
 ## Procedure
 
 1.  Navigate to the Consumer Portal.
@@ -32,4 +36,11 @@ Role required: none
 
 5.  Select **End Conversation** to close the chat.
 
+
+**Related topics**  
+
+
+[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-on-consumer-portal.md)
+
+[Guest users experience on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/guest-users-experience-consumer-portal.md)
 

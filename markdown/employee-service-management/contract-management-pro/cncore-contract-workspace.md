@@ -10,6 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Contracts workspace, Fulfiller workspace, Work on contract request, Contract requests, Contract filters]
+audience: sn\_cm\_core.contract\_fulfiller
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 

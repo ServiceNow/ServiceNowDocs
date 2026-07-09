@@ -94,7 +94,7 @@ Displays an informational message without blocking saves or creating finding rec
 </td></tr></tbody>
 </table>**Note:** Depending on the level of the definition, users may be required to fix a finding before saving a record.
 
-## Finding information window
+## Findings data
 
 When a finding is detected, an information window displays. The fields shown depend on the severity of the finding.
 

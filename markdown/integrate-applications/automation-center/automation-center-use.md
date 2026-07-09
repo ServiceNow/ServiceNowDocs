@@ -24,10 +24,12 @@ Create actions to fix issues that cause automations to fail.
 Reviews enable you to evaluate automations that have been created.
 -   **[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/connection-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
--   **[Migrating automations from UiPath to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
-Migrate UiPath automations to ServiceNow RPA Hub using Automation Center.
+-   **[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
+Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
+-   **[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-integrations.md)**  
+Automation Center integrations enable you to discover, analyze, and automate work from other ServiceNow applications. Rather than manually identifying automation opportunities, integrations help you to tap into existing analysis and user workflow data to find and build automations efficiently.
 -   **[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)**  
-Use Now Assist for Automation Center helps you explore existing automations in your ServiceNow instance. You can use it to streamline and simplify automation request setup from Task Mining workspace.
+Use Now Assist for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
 
 **Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
 

@@ -7,14 +7,14 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ admin settings, CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # User Access Control reference
 
 Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN permissions to specific areas.
 
-**Note:** The User Access utility is enabled via a support request. Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+**Note:** The User Access utility is enabled via a support request. Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## Access levels
 

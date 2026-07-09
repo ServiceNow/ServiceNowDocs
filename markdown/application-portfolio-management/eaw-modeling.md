@@ -68,14 +68,14 @@ You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelli
     -   Use undo or redo action for a label
     **Note:** In read-only mode or after the diagram is submitted for approval, label actions are unavailable.
 
--   **Connector line properties**: Select a connector between two shapes to display a toolbar above the connector. The toolbar has two forms depending on the notation of the connected shapes:
+-   **Connector line properties**: Select a connector between two shapes to display a toolbar on top of the connector. The toolbar has two forms depending on the notation of the connected shapes:
 
     -   If both connected shapes are ArchiMate shapes, the toolbar shows the following controls:
 
         -   **Relationship type**: Sets the ArchiMate relationship type from a predefined list, including Access, Aggregation, Assignment, Association, Composition, Flow, Influence, Realization, Serving, Specialization, Triggering, and Used by.
         -   **Swap direction**: Reverses the connector orientation, switching the left and right sides.
         -   **T+**: Adds a text label to the connector.
-        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button above a connector linking two shapes.
+        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button on top of the connector line linking two shapes.
 
     -   If at least one connected shape is a non-ArchiMate shape \(for example, a CSDM or AWS shape\), or when connecting shapes from two different notations, the toolbar shows the following controls:
 

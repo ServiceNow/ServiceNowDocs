@@ -16,7 +16,7 @@ Automate the decision-making process by using the Decision component in RPA Desk
 
 Watch this video to learn how to use the Decision component.
 
-How to use the Decision component 
+\[Omitted video\] Description: How to use the Decision component
 
 ## Before you begin
 

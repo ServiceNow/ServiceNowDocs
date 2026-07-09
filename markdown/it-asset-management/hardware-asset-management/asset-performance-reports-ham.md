@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-20"
 reading_time_minutes: 7
 keywords: [asset performance reports, hardware assets efficiency]
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset performance reports in the Hardware Asset Workspace

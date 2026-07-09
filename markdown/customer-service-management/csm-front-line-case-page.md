@@ -23,8 +23,6 @@ The Front-line case page focuses on the essential functionality that front-line 
 
 The Front-line case page is included with the CSM Configurable Workspace application.
 
-\[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
-
 ## Front-line case page variant
 
 The Front-line case page variant is included with the CSM Configurable Workspace application. This variant includes the following settings.
@@ -298,8 +296,6 @@ To use the case summarization component with the Front-line case page, activate 
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
 
-\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
-
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
 -   Comment
@@ -444,8 +440,6 @@ The Collaborate component enables agents to communicate with stakeholders and ot
 </table>## Related lists component
 
 The related lists component provides access to the case related lists. This component uses an expandable accordion format. Agents can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
-
-\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 Related lists include the following actions:
 

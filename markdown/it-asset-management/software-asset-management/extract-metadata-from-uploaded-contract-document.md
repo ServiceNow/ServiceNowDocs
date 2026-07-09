@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [contract metadata and obligation extraction in SAM workspace, Initiate contract extraction, initiate contract metadata extraction in SAM workspace, initiate obligation extraction in SAM workspace]
-breadcrumb: [Use manage contract repository agentic workflow, Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use manage contract repository agentic workflow, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace

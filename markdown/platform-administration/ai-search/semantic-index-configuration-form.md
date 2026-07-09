@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-07-06"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]

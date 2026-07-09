@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a parent-child relationship
@@ -38,6 +38,4 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 ## Result
 
 The [Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-copq-expense-line.md) and [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-impacted-asset-action.md) forms are displayed.
-
-**Parent Topic:**[Product Non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 

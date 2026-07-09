@@ -1,6 +1,6 @@
 ---
 title: Create an AI Connection for Hugging Face
-description: Create an AI connection for Hugging Face in AI Control Tower using the  Hugging Face connector.
+description: Create an AI connection for Hugging Face in AI Control Tower using the AI Service Graph Connector for  Hugging Face \(Version 1.1.0\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-hugging-face.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Hugging Face, Service Graph Connectors for AI Control Tower, AI con
 
 # Create an AI Connection for Hugging Face
 
-Create an AI connection for Hugging Face in AI Control Tower using the  Hugging Face connector.
+Create an AI connection for Hugging Face in AI Control Tower using the AI Service Graph Connector for  Hugging Face \(Version 1.1.0\).
 
 ## Before you begin
 
@@ -22,19 +22,17 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Click **Add**.
 
-3.  Select **AI connector for Hugging Face** from all the available connectors.
+3.  Select **AI connector for Hugging Face** from the available connectors.
 
 4.  Click **Create connection**.
 
-    The Review setup instructions page displays
+5.  Review setup instructions page displays.
 
-5.  Verify to follow all the prerequisite steps.
-
-    Setup page appears.
+    **Note:** Verify to follow all the prerequisite steps.
 
 6.  Click **Continue**
 
@@ -75,10 +73,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     2.  Once configured, scheduled jobs run automatically according to their schedule.
 
-15. Select **View all connections** to view the newly created connection
+15. Select **View all connections** to view the newly created connection.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Hugging Face is created and configured.
 

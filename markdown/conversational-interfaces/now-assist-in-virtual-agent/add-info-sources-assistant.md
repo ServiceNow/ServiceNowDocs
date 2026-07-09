@@ -32,12 +32,22 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
 1.  Assign search sources to your chat assistant.
 
-    \[Omitted image "NAinVA-search-sources-122025.png"\] Alt text: View of the information sources.
+    \[Omitted image "NAinVA-search-sources-072026.png"\] Alt text: View of the information sources.
 
     When a chat assistant is created, a search profile for that assistant gets created. All search sources associated with the profile are listed. The default search sources are:
 
     -   Now Assist Multi-Turn Catalog Ordering \(catalog search sources\)
     -   Now Assist Q&amp;A \(knowledge base search sources\)
+    **Note:** By default, portals and mobile apps that use enhanced chat with a dynamic, movable, and resizable chat window inherit the search sources assigned to the assistant, as listed in the following table. This configuration helps ensure that answers returned in portals and mobile apps are consistent with those returned by the assistant.
+
+    If you need different search behavior for portals or mobile apps, you can turn off this setting. When deactivated, enhanced chat uses the portal or mobile app search profile instead of the assistant's search sources, allowing the portal/mobile experience to return answers that differ from the assistant.
+
+    In the **Include AI Responses** column:
+
+    -   True = The search source is included in the synthesized response.
+    -   False = The search source is not included in the synthesized response.
+    To edit the setting, select **Manage Search Profile**. The AI Search Admin console launches. For more information, see [Configure multi-content synthesized sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-multi-content-synthesis-sources.md).
+
 2.  Select the ellipsis if you want to edit the conditions of each skill.
 
 3.  Select **Copy existing configuration** if you have already configured AI Search for your portal, mobile app, or platform search, and you want the assistant to have those same search configurations.
@@ -52,7 +62,7 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     For the Now Assist panel - Platform \(default\) assistant, copy the Global Search application configuration if you want the answers from the assistant and the platform Global Search to be consistent. The name of the default Global Search app is \[AIS\] Next Experience Search Configuration. However, AI Search admins can change which search app is configured for the Global Search.
 
-    When a user starts a chat with the Now Assist - Platform \(default\) assistant from the sparkle icon, search typeahead or the \(+\) button, the Now Assist - Platform \(default\) assistant search application configuration is used for both Virtual Agent and platform searches.
+    When a user starts a chat with the Now Assist panel - Platform \(default\) assistant from the sparkle icon, search typeahead or the \(+\) button, the Now Assist panel - Platform \(default\) assistant search application configuration is used for both Virtual Agent and platform searches.
 
     When a user selects **Ask a follow up** or requests a catalog item from the search results page of a specific workspace, the specific workspace search application configuration is used for both Virtual Agent and search.
 
@@ -86,6 +96,7 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     -   An internal search source refers to all knowledge base search sources on the instance and all catalog search sources on the instance.
     -   An external search source refers to all external content search sources on an instance. Examples of external search sources include Microsoft SharePoint or Confluence. For a complete list of external search sources, see [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-ext-cont-connectors.md).
+    -   Semantic search sources enable the assistant to retrieve AI responses.
     Search sources that aren't a knowledge base, external content, or catalog won't be used for the LLM-generated responses, but they are used for query-based search results shown in the assistant. Tool tips are shown for non-LLM eligible search sources.
 
 10. Select **Restore default search sources** if you want to revert to the default search sources of Now Assist Multi-Turn Catalog Ordering and Now Assist Q&amp;A.
@@ -108,7 +119,7 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
 13. Select **Save and continue**.
 
-    The assistant search profile needs to have at least one KB or external content search source in order to be saved.
+    The assistant search profile needs to have at least one KB or external content search source to be saved.
 
 
 ## What to do next

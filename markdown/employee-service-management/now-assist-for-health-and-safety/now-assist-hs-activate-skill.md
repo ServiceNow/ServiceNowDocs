@@ -34,7 +34,7 @@ The Health and Safety incident summarization skill is available in the base syst
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 

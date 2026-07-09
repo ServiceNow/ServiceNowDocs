@@ -1,5 +1,5 @@
 ---
-title: Map request types to configured data subjects for a jurisdiction
+title: Map request types to data subjects for a jurisdiction
 description: Configure the request types available to each data subject type within a jurisdiction. Hide any requester or agent fields that don't apply on the external-facing Personal Data Rights \(PDR\) form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-request-type-to-ds.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Map request types to configured data subjects for a jurisdiction
+# Map request types to data subjects for a jurisdiction
 
 Configure the request types available to each data subject type within a jurisdiction. Hide any requester or agent fields that don't apply on the external-facing Personal Data Rights \(PDR\) form.
 

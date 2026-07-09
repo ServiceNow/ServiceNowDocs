@@ -1,5 +1,5 @@
 ---
-title: Configure a MID Server for event collection using a push operation \(listener\)
+title: Configure a MID Server push listener for event collection
 description: The MID Server supports the collection of event messages, using the MID Web Server to collect data from external sources and transforming \(parsing\) them to the format required for event fields in the event \[em\_event\] table. The transformed events are then transmitted to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-midserver-event-collection.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure a MID Server for event collection using a push operation \(listener\)
+# Configure a MID Server push listener for event collection
 
 The MID Server supports the collection of event messages, using the MID Web Server to collect data from external sources and transforming \(parsing\) them to the format required for event fields in the event \[em\_event\] table. The transformed events are then transmitted to the instance.
 

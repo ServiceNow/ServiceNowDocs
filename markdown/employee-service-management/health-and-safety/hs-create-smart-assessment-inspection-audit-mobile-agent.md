@@ -32,7 +32,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 
 3.  Tap the smart assessment record.
 
-4.  Complete the questionnaire.
+4.  Answer the questions in the questionnaire.
 
     -   Tap **Next** to complete all sections of the questionnaire.
     -   If the questionnaire is long or if more information is needed, tap the **Partial save** icon \(\[Omitted image "hs-partial-save-icon.png"\] Alt text: partial save icon\) to save the partially filled questionnaire and complete it later.

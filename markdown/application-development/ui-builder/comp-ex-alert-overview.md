@@ -88,7 +88,7 @@ Alert
 
         The **Component ID** field auto-populates.
 
-    5.  Select **Apply.**
+    5.  Select **Apply**.
 
 5.  Configure the alert message.
 
@@ -114,7 +114,7 @@ Alert
 
     4.  Double-click **value1** to select the field, then select again to insert text.
 
-    5.  Enter `"You're loggeded in as "`, making sure to include a trailing space after the exclamation point.
+    5.  Enter `"You're logged in as "`, making sure to include a trailing space after the exclamation point.
 
     6.  Double-click **values** to select the field, then select again to insert text.
 

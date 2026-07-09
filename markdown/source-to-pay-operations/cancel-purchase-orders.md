@@ -31,10 +31,13 @@ Role required: sn\_poem\_core.operational\_buyer
 
 5.  Select **OK**.
 
+    The purchase order exception is canceled.
 
-## Result
-
-The purchase order exception is canceled.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

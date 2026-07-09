@@ -1,20 +1,20 @@
 ---
 title: Set up External connections for configuration rules
-description: External connections enable enrichments in CPQ to retrieve data from systems outside CPQ for use in configuration rules, such as fetching third-party pricing or product attributes during a configuration.
+description: External connections enable enrichments in ServiceNow CPQ to retrieve data from systems outside ServiceNow CPQ for use in configuration rules, such as fetching third-party pricing or product attributes during a configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/external-connections.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up External connections for configuration rules
 
-External connections enable enrichments in CPQ to retrieve data from systems outside CPQ for use in configuration rules, such as fetching third-party pricing or product attributes during a configuration.
+External connections enable enrichments in ServiceNow CPQ to retrieve data from systems outside ServiceNow CPQ for use in configuration rules, such as fetching third-party pricing or product attributes during a configuration.
 
-Enrichments are scripts that run outside the rules engine and affect configurations in CPQ. The following enrichment types are available:
+Enrichments are scripts that run outside the rules engine and affect configurations in ServiceNow CPQ. The following enrichment types are available:
 
 -   On configure/reconfigure
 -   On BOM response
@@ -22,14 +22,14 @@ Enrichments are scripts that run outside the rules engine and affect configurati
 -   Picklist extension pricing
 -   On request
 
-External connections can only be called from an enrichment. When an enrichment calls an external connection, CPQ sends a request to the configured host and path, retrieves the response, and makes the data available to the enrichment script — for example, to populate pricing or product attributes in a configuration.
+External connections can only be called from an enrichment. When an enrichment calls an external connection, ServiceNow CPQ sends a request to the configured host and path, retrieves the response, and makes the data available to the enrichment script — for example, to populate pricing or product attributes in a configuration.
 
 ## External connections and connections
 
-In CPQ, external connections and connections provide the same capability: they define the host, authentication credentials, and path used when CPQ calls an external system. The difference is where each type is used:
+In ServiceNow CPQ, external connections and connections provide the same capability: they define the host, authentication credentials, and path used when ServiceNow CPQ calls an external system. The difference is where each type is used:
 
 -   External connections are referenced in configuration rules, called from enrichment scripts that run during a configuration.
--   Connections are referenced in transaction rules, called from integrations that run in Transaction Manager.
+-   Connections are referenced in transaction rules, called from integrations that run in ServiceNow Quote Experience.
 
 Configure an external connection when the third-party call is triggered by a configuration event. Configure a connection when the call is triggered by a transaction event.
 
@@ -39,7 +39,7 @@ The authentication method required depends on the external system. The following
 
 -   No authentication — use when the external connection calls an open API that does not require credentials.
 -   Bearer token — use when the external system issues a static token for authentication. Supply the token directly in the connection.
--   OAuth client credentials — use when the external system requires an OAuth handshake. CPQ exchanges a client ID and secret with the authorization server to obtain an access token before each request.
+-   OAuth client credentials — use when the external system requires an OAuth handshake. ServiceNow CPQ exchanges a client ID and secret with the authorization server to obtain an access token before each request.
 
 ## Path parameter variables
 

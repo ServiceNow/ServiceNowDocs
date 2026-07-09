@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/questi
 release: australia
 topic_type: concept
 last_updated: "2026-06-04"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -21,8 +21,6 @@ Questionnaires serve several operational purposes across the field service lifec
 -   Checklist-style questionnaires confirm that all necessary actions have been performed before a task is closed.
 -   Structured questions capture task-specific information—such as equipment condition, compliance confirmations, or part usage details—directly in the field, reducing manual follow-up and data entry errors.
 
-Structured questions capture task-specific information—such as equipment condition, compliance confirmations, or part usage details—directly in the field, reducing manual follow-up and data entry errors.
-
 ## Questionnaire types
 
 Field Service Management supports the following two types of questionnaires.
@@ -32,16 +30,12 @@ Field Service Management supports the following two types of questionnaires.
 |Survey-based questionnaire|Uses the Survey Designer to create a list of questions associated with a work order or task.|Survey Designer|
 |Smart Assessment questionnaire|Uses the Smart Assessment Engine template designer, with support for conditional questions, offline execution, and enhanced mobile integration via Now Mobile Agent.|Smart Assessment Engine \(Template Designer\)|
 
-Both types are triggered from the same work order and work order task forms. Smart Assessment allows migration from existing survey-based questionnaires, and once Smart Assessment is enabled, it cannot be disabled.
-
-## Where questionnaires are used
-
-Questionnaires are available across both the web interface and the ServiceNow Agent mobile application. On mobile, agents can view, answer, and submit questionnaires while offline; responses are stored in the device's local cache and synchronized when connectivity is restored. Agents cannot view each other's completed questionnaire responses.
+For more information on the questionnaire workflow and when to use survey-based v/s Smart Assessment questionnaires, see [Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-management-questionnaires.md).
 
 **Related topics**  
 
 
 [Survey-based questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/survey-based-questionnaires.md)
 
-[Smart Assessment Questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
+[Smart Assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/smart-assessment-questionnaire.md)
 

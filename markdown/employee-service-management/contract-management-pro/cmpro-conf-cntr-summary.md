@@ -21,7 +21,7 @@ You can summarize contracts, generate frequently asked questions \(FAQs\), and r
 
 To enable this feature in Contract Management Pro, do the following:
 
-1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 2.  To enable contract summarization for contract documents, supporting documents, and signed contracts, add the following tables in the **Define availability** tab of smart documents skill.
     -   Contract \[ast\_contract\]
     -   Contract Document Revision \[sn\_cm\_core\_document\_revision\]
@@ -48,6 +48,8 @@ To enable this feature in Contract Management Pro, do the following:
 [Configure signature pause duration when modifying signatories]()
 
 [Auto-populate the start date and end date for contract requests]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

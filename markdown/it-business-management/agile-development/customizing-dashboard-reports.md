@@ -26,12 +26,12 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your Agil
 
     Add customizations by overriding methods in empty implementation \(Impl\) classes of UI scripts such as ScrumAreaChartImpl and ScrumVelHistoryImpl.
 
-    For more information, see [Update UI scripts to use customized indicators for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.md).
+    For more information, see [Use customized indicators for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.md).
 
 
 -   **[Customize indicators of your Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customize-indicators-of-your-dashboard-reports.md)**  
 Configure indicators to reflect your customizations on the Agile 2.0 dashboards.
--   **[Update UI scripts to use customized indicators for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.md)**  
+-   **[Use customized indicators for Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/update-ui-scripts-to-use-your-indicators.md)**  
 Customize UI scripts by overriding methods in empty implementation \(Impl\) classes.
 -   **[Customize story states of your Agile Development 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customize-story-states-of-your-agile-dashboard-reports.md)**  
 Configure story states to reflect your customizations on the Agile Development 2.0 dashboards.

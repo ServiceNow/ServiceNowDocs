@@ -33,5 +33,5 @@ The milestones that are out of sync with the item's schedule can be viewed from 
 
 [Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-planning-item-dependencies-apw.md)
 
-[Customizing the dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)
+[Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)
 

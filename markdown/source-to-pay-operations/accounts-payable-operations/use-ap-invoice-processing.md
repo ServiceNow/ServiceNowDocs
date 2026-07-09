@@ -17,14 +17,14 @@ breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 
 Accounts Payable Invoice Processing enables specialists to manage invoice processing cases and perform end-to-end invoice processing from ingestion through approval.
 
--   **[Invoice ingestion using Application programming interface \(API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.md)**  
-The invoice ingestion API enables bulk import of AP invoices from external systems, such as supplier billing platforms and OCR solutions, into Accounts Payable Operations using cXML, JSON, or XML.
+-   **[Invoice ingestion using the AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.md)**  
+The AP Invoice API enables bulk import of AP invoices from external systems, such as supplier billing platforms and OCR solutions, into Accounts Payable Operations using cXML, JSON, or XML.
 -   **[Rules based engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/rules-based-engine.md)**  
 The rule-based engine maps the invoice line to purchase order lines using fields such as unit price, delivered unit price, exact description, exact amount and amount round off.
--   **[Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)**  
+-   **[Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)**  
 Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
 -   **[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)**  
-Accounts Payable Operations integration with Document Intelligence automatically creates invoice processing cases from email attachments, with specialists manually creating or updating invoices when automation is unavailable or fails, and Accounts Payable Specialists use this process to ensure invoice data is complete and accurate for processing.
+Learn how Accounts Payable Operations integration with Document Intelligence creates invoice processing cases automatically from email attachments and how to manage cases that require manual creation. Verify whether the invoice data is complete and accurate.
 -   **[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)**  
 Invoice exceptions are discrepancies identified during invoice processing that must be resolved before payment, such as missing information, tax variances, or supplier issues.
 -   **[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)**  
@@ -34,7 +34,7 @@ Invoice approvals in Accounts Payable Operations route invoices with no exceptio
 -   **[View invoice documents in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-invoice-attachment.md)**  
 View invoice documents directly in the Source-to-Pay Workspace using Document Viewer without downloading them.
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

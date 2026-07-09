@@ -1,5 +1,5 @@
 ---
-title: Assign smart assessment through Mobile agent app
+title: Assign another agent's smart assessment to yourself
 description: You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-assign-smart-assessment-mobile-agent.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Manage the smart assessment for safety inspections and audits from mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Assign smart assessment through Mobile agent app
+# Assign another agent's smart assessment to yourself
 
 You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 

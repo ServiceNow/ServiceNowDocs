@@ -136,6 +136,18 @@ Link one or multiple opportunity stages with a sales cycle.
 
 Opportunity setup writer
 
+</td></tr><tr><td>
+
+[Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md)
+
+</td><td>
+
+Define mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+
+</td><td>
+
+Opportunity setup writer
+
 </td></tr></tbody>
 </table>**Related topics**  
 

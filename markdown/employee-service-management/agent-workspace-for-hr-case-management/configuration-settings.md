@@ -286,7 +286,7 @@ Option to navigate to the Schedule Content page to configure the My frequently u
 **Related topics**  
 
 
-[Create a new case form]()
+[Create a case form]()
 
 [Highlighted value condition form]()
 

@@ -27,7 +27,7 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Overview of domain separation
 
 Domain separation works differently at different access levels of an application. In Knowledge Management, data, requester, and fulfiller access to knowledge bases are domain separated.
 
@@ -55,27 +55,21 @@ Fulfiller: The application can be used by the Fulfiller within the tenant domain
 
 See [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md) to learn how to control contribute and read access to knowledge bases and knowledge articles.
 
-## Use cases
-
-This image demonstrates a basic domain hierarchy that is available in the base system.
-
-\[Omitted image "DomainHierarchy.png"\] Alt text: Domain Separation Use Case
-
 ## Requester use cases
 
 |User domain|Knowledge base domain|Read user criteria domain|Article domain|Result|
 |-----------|---------------------|-------------------------|--------------|------|
 |Global|Global|Global|Global|Can view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Parent domain \(TOP\)|Global|Global|Global|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Child domain \(TOP/ACME\)|Global|Global|Global|Can view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 
 ## Fulfiller use cases
@@ -84,15 +78,15 @@ This image demonstrates a basic domain hierarchy that is available in the base s
 |-----------|---------------------|-------------------------------|--------------|------|
 |Global|Global|Global|Global|Can author, update, view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Parent domain \(TOP\)|Global|Global|Global|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Child domain \(TOP/ACME\)|Global|Global|Global|Can author, update, view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 
 ## Known Issues

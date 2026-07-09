@@ -54,7 +54,7 @@ There might be AI agents installed with the Now Assist application that are not 
 
 -   **CMDB health metrics manager AI agent**
 
-    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs are not configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
+    The CMDB health metrics manager AI agent displays information on CMDB Health Dashboard jobs, health metrics status, and health scores. If the jobs aren't configured, the workflow provides a link to the setup instructions. For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 -   **CMDB data ownership manager AI agent**
 

@@ -1,6 +1,6 @@
 ---
 title: Add a button in Shopping Hub
-description: You can add a new button in Shopping Hub, similar to the existing Don’t see what you need? button.
+description: You can add a button in Shopping Hub, similar to the existing Don’t see what you need? button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-new-button-shoppinghub.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply 
 
 # Add a button in Shopping Hub
 
-You can add a new button in Shopping Hub, similar to the existing Don’t see what you need? button.
+You can add a button in Shopping Hub, similar to the existing Don’t see what you need? button.
 
 ## Before you begin
 

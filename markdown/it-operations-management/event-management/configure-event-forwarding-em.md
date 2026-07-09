@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -49,6 +49,8 @@ You must create a separate configuration record for each target instance to forw
     -   If the connection succeeded, a confirmation message displays.
     -   If the connection didn't succeed, check your credentials and the instance URL.
 7.  When validated, select the **Active** check box to activate the event forwarding to the target instance and select **Submit**.
+
+    To forward events, you must also activate the **Event Management - Event Forwarding Job** scheduled job.
 
     The configuration is created and is listed on the **Event Sync Configurations** page.
 

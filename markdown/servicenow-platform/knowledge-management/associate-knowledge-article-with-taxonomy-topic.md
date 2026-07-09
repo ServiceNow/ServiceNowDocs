@@ -40,8 +40,6 @@ The taxonomy feature enables you to link an article to one or more topics from m
 
 4.  Select a Taxonomy category from the list in the topic picker dialog box.
 
-    \[Omitted image "topic-picker.png"\] Alt text: The screenshot displaying topic picker pop-window to associate knowledge article with a taxonomy category.
-
 5.  Select a topic from a topic picker list and click **OK**.
 
 

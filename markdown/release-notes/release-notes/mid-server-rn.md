@@ -56,6 +56,10 @@ For more information about MID Server upgrades, see the following topics:
 
     MID Server comes bundled with Java Runtime Environment version 21.0.7 and requires a minimum JRE version 17.0.10. The installer automatically configures Java 21.0.7 to run in your environment. If you have installed your own JRE, see the **Important information for upgrading MID Server to Australia** section to ensure your JRE is compatible.
 
+-   **[MID Server security logs require 100MB of storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md)**
+
+    To store the security logs, MID Servers must be installed on a host with at least 100MB of storage capacity.
+
 
 ## Activation information
 

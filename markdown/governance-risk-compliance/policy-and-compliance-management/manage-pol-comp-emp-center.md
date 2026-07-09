@@ -22,8 +22,6 @@ You can view all the tasks that are assigned to you if you login as a user with 
 
 **Note:** You can respond to policy acknowledgement and request a policy exception from the Employee Center portal with the employee operator role \(sn\_grc\_emp\_user.grc\_employee\).
 
-\[Omitted image "RiskcompEmpCenter.png"\] Alt text: Manage GRC compliance tasks from Employee Center.
-
 **Related topics**  
 
 

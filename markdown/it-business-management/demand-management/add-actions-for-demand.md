@@ -43,8 +43,8 @@ After analyzing the risks and issues and taking a decision on how to manage thos
 
 ## What to do next
 
--   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(risks, issues, actions, decisions, and request changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/reassociate-ridac-demand.md).
 
-**Parent Topic:**[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

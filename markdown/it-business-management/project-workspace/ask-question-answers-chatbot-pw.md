@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Ask project questions using the Project Answers agent

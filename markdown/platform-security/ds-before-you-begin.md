@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ds-before-you-begin.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Exploring domain separation, Domain separation for service provider
 
 Domain separation is designed to give ServiceNow® service providers \(SPs\) the ability to configure the services they offer to their customers. It is not designed to enable their customers to administer those services themselves, except in a few areas that this topic details.
 
-## Overview
+## overview
 
 It is safe for SP customers, on their own, to manage data contained within their domain that does not affect licensing or other customers. For example, it is safe for a customer to create new reports or manage configuration items, but it’s not safe for them to customize fields, choices, business rules, and other processes where they can impact other customers on the same instance.
 

@@ -23,7 +23,7 @@ Create a new request to include a new software product to the TRM library. An em
 -   **[Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-product-request-form.md)**  
 The Request TRM product form is used for adding or editing a request to include a new software or hardware product to the Technology Reference Model \(TRM\) library.
 -   **[Create TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-trm-prod-form.md)**  
-As an Enterprise Architect, you can add a new software product to the TRM library. It creates the record directly without sending a request for approval.
+As an Enterprise Architect, you can add software product to the TRM library. It creates the record directly without sending a request for approval.
 -   **[Create TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md)**  
 Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
@@ -153,7 +153,7 @@ Learn about the fields of the General information form. Use this form to provide
 -   **[Options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-options-form.md)**  
 The options that appear depends on whether they are relevant to the selected policy type. Therefore, some of the following options don't appear on your form.
 -   **[Schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-schedule-form.md)**  
-Learn about the fields of the Schedule form. Use this form to define the timing and frequency for executing the certification task.
+Timing and frequency settings for running the certification task.
 -   **[Data filter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-filter-form.md)**  
 Learn about the fields of the Data filter form. Use this form to define which records need certification.
 -   **[Create publishing configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-pub-config-form.md)**  

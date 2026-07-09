@@ -62,15 +62,15 @@ After the consumer sends the sample, the system creates a subscription for each 
 
 6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\) or a non-CMDB table.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d36153e203">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d36181e203">
 
 Option
 
-</th><th align="left" id="d36153e206">
+</th><th align="left" id="d36181e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36153e212">
+</th></tr></thead><tbody><tr><td id="d36181e212">
 
 **Configure data integration for CMDB tables**
 
@@ -90,7 +90,7 @@ The system creates a basic field mappings based on matching field names. Review 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36153e258">
+</td></tr><tr><td id="d36181e258">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -105,7 +105,7 @@ A message is displayed stating that you’re about to navigate to the Transform 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36153e300">
+</td></tr><tr><td id="d36181e300">
 
 **Configure data integration for non-CMDB table**
 

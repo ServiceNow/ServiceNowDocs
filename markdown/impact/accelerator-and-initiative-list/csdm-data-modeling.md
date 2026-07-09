@@ -1,6 +1,6 @@
 ---
 title: CSDM Data Modeling
-description: This accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csdm-data-modeling.html
 release: australia
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [CSDM, Common Service Data Model, Data Modeling, CMDB, Data Architecture]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CSDM Data Modeling
 
-This accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
+This Accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
 
 ## Accelerator Overview
 

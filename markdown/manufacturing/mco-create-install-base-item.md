@@ -1,44 +1,46 @@
 ---
-title: Create an install base item
-description: Create an install base item that represents the instance of the product that has been configured for a customer The install base item enables you to track all the purchases that were made by a customer.
+title: Configure install base item
+description: Create and configure install base item records to track sold products and assets associated with customer accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-install-base-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up Manufacturing Commercial Operations, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Initial setup, Configure, Manufacturing Commercial Operations]
 ---
 
-# Create an install base item
+# Configure install base item
 
-Create an install base item that represents the instance of the product that has been configured for a customer The install base item enables you to track all the purchases that were made by a customer.
+Create and configure install base item records to track sold products and assets associated with customer accounts.
 
 ## Before you begin
 
-Verify that the Customer Service Install Base Management plugin \(com.snc.install\_base\) is installed.
-
-Role required: admin
+Role required: admin or sn\_customerservice\_manager
 
 ## About this task
 
-Install base items help to track instances that have been provisioned for an account or customer. An install base item can be any configuration item that has been made accessible to customers. The install base item enables you to track all the purchases that were made by a customer.
+Install base items represent the products and assets sold to customers. Each install base item links to a corresponding asset record and maintains critical customer and service organization information. Setting up accurate install base items enables proper asset tracking and service delivery.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **MCO Setup** &gt; **Install Base Items**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the Install based item form, fill in the fields.
+3.  Navigate to **MCO Setup** &gt; **Install Base Items**.
+
+4.  Select **New**.
+
+5.  On the Install based item form, fill in the fields.
 
     For a description of the field values, see [Install based item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-based-item-form.md).
 
-4.  Select **Save**.
+6.  Select **Save**.
 
     The Sold Products, Entitlements, and Cases related lists are displayed.
 
-5.  Fill out the related lists as described in the following table.
+7.  Fill out the related lists as described in the following table.
 
 <table id="table_zch_sgz_3hb"><thead><tr><th>
 
@@ -91,7 +93,9 @@ List of contracts that are related to an install base. Edit a contract by select
 </td></tr></tbody>
 </table>    For more information on the related lists, see .
 
-6.  Select **Update**.
+8.  Select **Update**.
+
+    For more information on importing install base items, see .
 
 
 ## Result

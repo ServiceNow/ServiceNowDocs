@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an insight trigger, Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Create an insight trigger, Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Map an insight rule to an existing scheduled job

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 ---
 
 # AI Desktop Actions release notes
@@ -13,6 +13,12 @@ reading_time_minutes: 8
 The ServiceNow® AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions was enhanced and updated in the Australia release.
 
 ## AI Desktop Actions highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Use the unified automation creation journey that spans seamlessly across Task Mining, Automation Center, and AI Agent Studio eliminating context switching and streamlining automation development.
+-   Automatically generate desktop actions from real user task patterns captured by using Task Mining.
+-   Automatically create an AI agent from desktop actions context from Automation Center.
 
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
@@ -47,6 +53,15 @@ See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 ## New in the Australia release
+
+-   **[Unified automation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/explore-agentic-desktop.md)**
+
+    Use the unified automation creation journey that eliminates manual intervention and saves time.
+
+    -   Request automations from Task Mining to automate desktop activities collected by the Task Mining agent.
+    -   Generate automations in Automation Center to create on-screen and background desktop actions.
+    -   From Automation Center, automatically create an AI agent that uses these desktop action tools.
+    -   Test and deploy the AI agent in AI Agent Studio.
 
 -   **[Record desktop actions with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/record-with-ai-ad.md)**
 

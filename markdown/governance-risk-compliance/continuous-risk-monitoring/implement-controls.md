@@ -9,7 +9,7 @@ classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF step 3 - Implement controls
@@ -29,8 +29,6 @@ The **Controls** related list contains all of the controls created from the cont
 ## Procedure
 
 1.  From the list of controls, select the control number \(with a CTRL prefix\) to open the control.
-
-    \[Omitted image "control-implement.png"\] Alt text: Control
 
 2.  The implementation process performed by your system owner and other technical or security personnel employs the control management workflow inherent in the base GRC system.
 

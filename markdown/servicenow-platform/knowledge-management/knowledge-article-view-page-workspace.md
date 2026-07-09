@@ -18,8 +18,6 @@ View the details of a knowledge article in Agent Workspace.
 
 The knowledge article view page in Agent Workspace provides several details about a displayed article.
 
-\[Omitted image "article-view-page-workspace.png"\] Alt text: Knowledge article view page in Agent Workspace
-
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 
 Details

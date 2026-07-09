@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 28
-breadcrumb: [Integrating with Salesforce Marketing Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Salesforce Marketing Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrate Salesforce Marketing Cloud using basic authentication
@@ -1063,15 +1063,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d354714e3343">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d355700e3343">
 
 Interface
 
-</th><th align="left" id="d354714e3346">
+</th><th align="left" id="d355700e3346">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d354714e3352">
+</th></tr></thead><tbody><tr><td id="d355700e3352">
 
 **Core UI**
 
@@ -1082,7 +1082,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d354714e3394">
+</td></tr><tr><td id="d355700e3394">
 
 **Software Asset Workspace**
 
@@ -1225,7 +1225,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

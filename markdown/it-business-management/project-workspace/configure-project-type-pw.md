@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1
 keywords: [project type, dynamic category, custom form view, enterprise-wide deployment, EWD]
-breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure project type fields and layouts

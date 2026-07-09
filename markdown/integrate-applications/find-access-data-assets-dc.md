@@ -21,7 +21,7 @@ When you find an asset, you can view its full details: schema, data lineage, rel
 -   **[Explore data assets in the data catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-assets-in-data-catalog.md)**  
 Find and explore catalog assets through search, filtering, and browsing.
 -   **[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)**  
-View comprehensive information about data assets on the asset detail page.
+The asset detail page organizes data asset information into tabs, including overview, columns, relationships, lineage, quality, and activity.
 -   **[Request access to data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-access-to-data-assets-dc.md)**  
 Request access to data products and data interfaces in the Workflow Data Fabric to consume data for your workflows and applications.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-27"
 reading_time_minutes: 3
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Chat details performance metrics
@@ -52,12 +52,10 @@ This consists of the following metrics:
 -   If Chat Queued count for Live Agents \(LA\) is higher and they are not receiving any chat for Virtual Agent \(VA\), this may be an indication that there is higher load on LA and VA responses for guiding users are limited.
 -   If Chat arrival ratio or acceptance ratio is continuously trending higher, that may indicate that there is demand for availability of more live agents by the users.
 
-**Parent Topic:**[Overview of Instance Observer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
-
-[Instance Observer reports overview]()
 
 [Anomaly insights]()
 

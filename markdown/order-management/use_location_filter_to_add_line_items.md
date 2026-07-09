@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_location\_filter\_to\_add\_line\_items.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---

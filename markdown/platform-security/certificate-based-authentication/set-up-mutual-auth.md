@@ -24,6 +24,13 @@ Role required: sso\_config\_admin
 
 Check that your instance is using an ADCv2 load balancer. For more information, see the[ADCv2 Migration knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0952875). If your instance is not using the ADCv2 load balancer, contact Now Support.
 
+**Note:**
+
+-   Certificate Based Authentication is not supported on the On-Prem and edge encryption enabled instance.
+-   To enable Certificate Based Authentication on self-hosted instance, review this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1272738) and follow the instructions available in the **Native Certificate-Based Authentication** row within the table.
+
+.
+
 ## Procedure
 
 1.  Set up Certificate-based authentication to:

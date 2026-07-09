@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Managing enterprise asset move orders
@@ -28,6 +28,4 @@ Add the enterprise assets that you want to include in a move order.
 Remove any enterprise assets that you no longer want to include in a move order.
 -   **[Completing an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-enterprise-asset-move-order.md)**  
 After you submit a move order for the in-use or consumed enterprise assets that you want to move, you must perform various tasks to complete the order.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

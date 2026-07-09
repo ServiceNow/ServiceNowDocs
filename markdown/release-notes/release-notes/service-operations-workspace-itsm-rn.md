@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [Service Operations Workspace, ITSM, Australia release]
 ---
 
 # Service Operations Workspace for ITSM release notes
@@ -18,10 +19,10 @@ The ServiceNow® Service Operations Workspace \(SOW\) application is a configura
 -   Access SOW configuration and property pages of various SOW applications using granular admin roles.
 -   Improve the focus on relevant contextual information by hiding the contextual side panel for a specific table and tab combination.
 -   Configure reference field auto-load behavior from the SOW Admin Center.
--   Enable service desk agents to easily create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
+-   Enable service desk agents to create, manage, and track checklists for Request and RITM records directly within the workspace to confirm that all steps are completed.
 -   Starting in version 9.2, you can do the following:
     -   Perform various actions on the post incident report \(PIR\) if you have the incident\_write role and added as co-contributor to the PIR.
-    -   Reduce the effort to investigate and resolve incidents using the AI incident summary and resolution plan suggestion in the **Overview** tab of an incident record.
+    -   Investigate and resolve incidents by using the AI incident summary and resolution plan suggestion in the **Overview** tab of an incident record.
 
 See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md) for more information.
 
@@ -31,7 +32,7 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
 -   **[UI16 links to SOW redirection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-admin-console-sow-itsm.md)**
 
-    Improve the fulfiller experience by redirecting UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
+    Redirect UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
 
     For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center. You can enable this feature for the UI16 links and user groups or specifically for a custom table. You can also enable this feature for specific user groups or all user groups within the custom table or applications in SOW.
 
@@ -52,11 +53,11 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
 -   **[Configure reference field auto-load behavior from SOW Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/admin-center-sow.md)**
 
-    Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click ** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
+    Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
 
 -   **[Recent list links in SOW record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/view-inc-record-info-contextual-sidepanel.md)**
 
-    Selecting the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
+    Select the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
 
 -   **[Generate, update and publish PIR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/review-update-pir-mim-sow.md)**
 
@@ -69,7 +70,7 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
 ## Activation information
 
-Service Operations Workspace for ITSM is active by default and its default version is 9.0 in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM 9.0 is automatically installed.
+Service Operations Workspace for ITSM is active by default and its default version is `9.0` in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM `9.0` is automatically installed.
 
 ## Related ServiceNow applications and Features
 
@@ -95,7 +96,7 @@ Service Operations Workspace for ITSM is active by default and its default versi
 
 -   **[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md)**
 
-    The ServiceNow® Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
+    The ServiceNow® Password Reset application helps users create strong, secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
 
 -   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)**
 

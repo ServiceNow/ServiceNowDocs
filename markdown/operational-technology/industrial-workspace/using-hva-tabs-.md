@@ -26,12 +26,12 @@ The Hardware Vulnerability Assessment menu provides information of all vulnerabi
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Industrial Workspace** &gt; **Hardware Vulnerability Assessment. Select the menu icon \(\[Omitted image "hva-menu.png"\] Alt text: Menu icon.\)**.
+1.  Navigate to **Workspaces** &gt; **Industrial Workspace** &gt; **Hardware Vulnerability Assessment. Select the menu icon \(\[Omitted image "icon-hva-menu.png"\] Alt text:\)**.
 
 2.  Perform the following actions on the **Fully matched assessments**, **Partially matched assessments**, **Vulnerable Items**, **Ignored assessments**, and **Awaiting Normalization** tabs as needed:
 
-    1.  Choose additional columns and view them for more information regarding the assessment by selecting the update pPersonalized list icon \(\[Omitted image "update-personalized-list.png"\] Alt text: Update Personalized List.\).
-    2.  Update thethe displayed list of assessments by selecting the refresh icon \( \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon\).
+    1.  Select More Actions icon \(\[Omitted image "more-actions.png"\] Alt text:\) and then select **Personalized fields**. Choose additional columns and view them for more information regarding the assessment.
+    2.  Update the displayed list of assessments by selecting the refresh icon \( \[Omitted image "icon-refresh.png"\] Alt text:\).
     3.  View assessment information in the tab according to the additional filter conditions that you select from the filter list icon \(\[Omitted image "filter-list-icon.png"\] Alt text: Filter list icon\) icon.
     4.  Perform a quick filtration of assessments by selecting **Choose Filters**.
 3.  View the assessment records by selecting the **Fully matched assessments** and **Partially matched assessments** tabs.

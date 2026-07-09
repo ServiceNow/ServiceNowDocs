@@ -92,7 +92,7 @@ Participants
 
 </td><td>
 
-Participants are not supported.You must directly map user fields in HTML template body or PDF template mappings.
+Participants aren't supported.You must directly map user fields in HTML template body or PDF template mappings.
 
 </td><td>
 
@@ -188,7 +188,7 @@ For both HTML and PDF, all three signing types are supported: ServiceNow Sign, D
 
 -   Template must be created in ServiceNow.
 -   Only signing is supported in external system.
--   Templates that are created in DocuSign or AdobeSign are not supported in the Document Templates application.
+-   Templates that are created in DocuSign or AdobeSign aren't supported in the Document Templates application.
 
 </td></tr><tr><td colspan="3">
 
@@ -234,7 +234,7 @@ Automatically create draft document
 
 Automatically Initiate Document tasks
 
-Automatically initiate document tasks based on participant configuration. See .
+Automatically initiate document tasks based on participant configuration.
 
 </td></tr></tbody>
 </table>## Migrate HR Document template \(HTML\) to Document Template

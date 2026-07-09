@@ -1,6 +1,6 @@
 ---
-title: Migrating automations from UiPath to ServiceNow RPA Hub
-description: Migrate UiPath automations to ServiceNow RPA Hub using Automation Center.
+title: Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub
+description: Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/migrating-automations-from-uipath.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Migrating automations from UiPath to ServiceNow RPA Hub
+# Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub
 
-Migrate UiPath automations to ServiceNow RPA Hub using Automation Center.
+Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
 
 -   **[Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md)**  
 Generate a report to view all the automations that you want to import.

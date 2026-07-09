@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Manage RMA requests, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage RMA requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Closing an RMA request

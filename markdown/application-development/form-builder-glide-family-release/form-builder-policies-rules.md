@@ -74,9 +74,7 @@ You can create and edit UI policies only for applications that you own. For more
 4.  Select the **Add new policy** link to display the policy details.
 
     -   If the link is inactive, you must change the scope that you're working with on the **Forms** tab.
-    -   If a field has policy and appears in the view, the active icon appears on the top corner of the field as shown in the following example.
-    \[Omitted image "fb-ui-policy-add.png"\] Alt text: Add new policy link in UI policies section.
-
+    -   If a field has policy and appears in the view, the active icon appears on the top corner of the field.
 5.  On the form, fill in the fields for the Policy details section.
 
     For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/ui-policy-fields.md).

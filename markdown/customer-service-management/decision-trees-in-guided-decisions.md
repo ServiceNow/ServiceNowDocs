@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/dec
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -24,21 +24,6 @@ Decision trees and guidances enable agents to work through a structured troubles
 
     A guidance is an action that an agent can take or information that an agent can share. For example, a guidance can recommend that the agent can share a knowledge article or create a work order. Agents can perform the action by clicking a button on the card.
 
-
-## Decision tree example
-
-The following example uses a flowchart to show the structure of a decision tree that determines customer eligibility for a promotion. This promotion is available to customers who opened their accounts within the last 30 days.
-
-\[Omitted image "decision-tree-basic-diagram1.png"\] Alt text: Decision tree that asks questions to determine if a customer is available for a promotion. Accounts open less than thirty days are eligible.
-
-The agent can select one of two paths to answer the question "Is this a new customer?"
-
--   The **No** path indicates that the customer isn’t eligible for the promotion.
--   The **Yes** path asks an additional question to determine if the account has been open for more than 30 days.
-    -   If **Yes**, the customer isn’t eligible for the promotion.
-    -   If **No**, the customer is eligible to receive the promotion.
-
-\[Omitted image "decision-tree-diagram-detailed.png"\] Alt text: Decision tree nodes include configuration details such as name, type, and input.
 
 For more information about creating a decision tree, see the following topics:
 

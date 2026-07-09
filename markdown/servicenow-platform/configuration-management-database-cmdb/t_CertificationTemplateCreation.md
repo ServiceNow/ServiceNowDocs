@@ -20,6 +20,8 @@ To create a certification template, follow these instructions.
 
 Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
 
+Role required: certification\_admin
+
 ## Procedure
 
 1.  Ensure that you have an appropriate filter that defines the records the template evaluates.

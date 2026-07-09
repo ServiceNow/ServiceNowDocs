@@ -1,6 +1,6 @@
 ---
 title: Responding to assessments
-description: Use the Smart Assessment Engine application to help assessors complete survey requests. Track your progress and let the system automatically save your information. Administrators and template managers manage the assessment process.
+description: Use the Smart Assessment Engine application to help assessors complete assessment requests. Track your progress and let the system automatically save your information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.html
 release: australia
@@ -14,7 +14,9 @@ breadcrumb: [Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 
 # Responding to assessments
 
-Use the Smart Assessment Engine application to help assessors complete survey requests. Track your progress and let the system automatically save your information. Administrators and template managers manage the assessment process.
+Use the Smart Assessment Engine application to help assessors complete assessment requests. Track your progress and let the system automatically save your information.
+
+## Assessment response overview
 
 If you have the Assessment actor \[sn\_smart\_asmt.actor\] role, you can submit responses to an assigned assessment. Here are some more key functionalities:
 
@@ -47,6 +49,6 @@ The following example shows how your progress, save status, assessment status, r
 
 -   **Filtering questions**
 
-    Responders can narrow the question list by selecting one or more filters from the filter drop- down list. Multiple filters can be combined to focus on questions that match every selected criterion. For details on each available filter and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
+    Responders can narrow the question list by selecting one or more filters from the filter drop-down list. Multiple filters can be combined to focus on questions that match every selected criterion. For details on each available filter and how to combine them, see [Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.md).
 
 

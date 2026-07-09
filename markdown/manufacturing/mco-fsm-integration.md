@@ -1,6 +1,6 @@
 ---
 title: FSM integration
-description: Quality Issue Management \(QIM\) integrates with Field Service Management \(FSM\) to support quality actions that require on-site intervention. When a Non-Conformance \(NC\) or Quality Investigation \(QI\) record identifies a need for field verification, containment, or corrective repair, you can create an FSM work order directly from within QIM without switching applications.
+description: Quality Issue Management \(QIM\) integrates with Field Service Management \(FSM\) to support quality actions that require on-site intervention. NC and QI records that require field verification, containment, or corrective repair can trigger a FSM work order directly from within QIM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-fsm-integration.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Integrate, Manufacturing Commercial Operations]
 
 # FSM integration
 
-Quality Issue Management \(QIM\) integrates with Field Service Management \(FSM\) to support quality actions that require on-site intervention. When a Non-Conformance \(NC\) or Quality Investigation \(QI\) record identifies a need for field verification, containment, or corrective repair, you can create an FSM work order directly from within QIM without switching applications.
+Quality Issue Management \(QIM\) integrates with Field Service Management \(FSM\) to support quality actions that require on-site intervention. NC and QI records that require field verification, containment, or corrective repair can trigger a FSM work order directly from within QIM.
 
 Key capabilities:
 
@@ -22,5 +22,5 @@ Key capabilities:
 -   View field progress and completion details without leaving QIM
 -   Avoid premature closure of QIM records when linked FSM work orders are incomplete
 
-Use this integration when a quality issue requires physical on-site activity to resolve — for example, when a non-conformance requires a field inspection to confirm the defect, when containment actions must be carried out at a customer or production site, or when corrective actions involve repair or replacement work that field technicians perform.
+Use this integration when a quality issue requires physical on-site activity to resolve. Examples include field inspections to confirm a defect, containment actions at a customer or production site, and corrective repair or replacement work performed by field technicians.
 

@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a custom integration profile
@@ -33,15 +33,15 @@ If you’re using Software Asset Workspace, the option to create the custom inte
 
 1.  Navigate to the custom integration profile.
 
-<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d257573e91">
+<table id="choicetable_mtv_n33_rcc"><thead><tr><th align="left" id="d258219e91">
 
 Interface
 
-</th><th align="left" id="d257573e94">
+</th><th align="left" id="d258219e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257573e100">
+</th></tr></thead><tbody><tr><td id="d258219e100">
 
 **Core UI**
 
@@ -51,7 +51,7 @@ Action
 2.  Select **Custom Integration Profile**.
 
 
-</td></tr><tr><td id="d257573e136">
+</td></tr><tr><td id="d258219e136">
 
 **Software Asset Workspace**
 

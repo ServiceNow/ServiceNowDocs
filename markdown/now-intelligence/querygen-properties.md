@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-prope
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -28,6 +28,18 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+sn\_query\_gen.default\_source\_type
+
+</td><td>
+
+Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\).
+
+-   Type: String
+-   Default value: table
+-   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
 sn\_query\_gen.hidden\_insights.groupby.min\_fields
 
 </td><td>
@@ -38,6 +50,26 @@ The target number of group-by fields for extended analysis in AI Data Explorer. 
 -   Default value: 5
 -   Location: System Property \[sys\_properties\] table
 -   Learn more: [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.indicator.feature\_enabled
+
+</td><td>
+
+If false, Query Generation does not use indicator data. All calls to Query Generation return only table data.-   Type: Boolean \(true/false\)
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_query\_gen.indicator.search.enabled
+
+</td><td>
+
+Per-execution indicator search gate. If false, the indicator executor returns `INDICATOR_SEARCH_DISABLED`; combined-mode requests can fall back to table.-   Type: Boolean \(true/false\)
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 

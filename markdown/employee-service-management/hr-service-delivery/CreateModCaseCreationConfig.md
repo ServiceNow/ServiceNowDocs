@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [case creation configuration]
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -116,6 +116,22 @@ Read-only field that determines which users are displayed for a search the infor
 
 </td></tr><tr><td>
 
+Allow skipping verification
+
+</td><td>
+
+Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
+
+</td></tr><tr><td>
+
+Search tables
+
+</td><td>
+
+Displays the tables searched when looking up an employee.
+
+</td></tr><tr><td>
+
 Force partial search
 
 </td><td>
@@ -128,11 +144,19 @@ Option for providing the ability to enter a partial name to return search result
 
 </td></tr><tr><td>
 
-Allow skipping verification
+Priority table name
 
 </td><td>
 
-Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
+Option to prioritize employee search results by table when creating a case. The selected table's results display first.**Note:** This field applies only when the **Force partial search** option is enabled.
+
+</td></tr><tr><td>
+
+Priority column
+
+</td><td>
+
+Option to prioritize employee search results by table and column when creating a case. The selected table and column results display first.**Note:** This field applies only when the **Force partial search** option is enabled.
 
 </td></tr></tbody>
 </table>4.  In the **Case Search** related list, modify the default search parameters when searching by case number.

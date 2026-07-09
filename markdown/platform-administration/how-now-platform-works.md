@@ -86,7 +86,7 @@ The ServiceNow AI Platform executes work through a combination of structured wor
 
 Build and extend applications faster with [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md), [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md), [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md), [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md), and [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md), and more. The platform supports server-side JavaScript development, integration configuration, drag-and-drop workflow creation, user interface design, and AI-assisted application building. Create custom workflows, automate processes, and ship production-ready applications without sacrificing governance or control.
 
-For more information, see [App development, vibe coding, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md).
+For more information, see [App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md).
 
 ## Knowledge Management
 

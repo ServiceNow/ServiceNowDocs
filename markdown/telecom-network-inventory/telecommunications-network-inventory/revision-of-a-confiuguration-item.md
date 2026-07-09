@@ -24,7 +24,7 @@ CI revisions enable you to modify network-configured attributes and connection e
 
 ## Operationalization and decommission flow
 
-\[Omitted image "MMASSET00202487-flow-revision-operationalization.png"\] Alt text: Infographic showing the flow diagram of operationalization and decommission. See the following steps for more information
+\[Omitted image "operationalization-and-decommission-flow.png"\] Alt text: Infographic showing the flow diagram of operationalization and decommission. See the following steps for more information
 
 The following process guides you through the flow for a Configuration Item \(CI\) record after a request is created.
 

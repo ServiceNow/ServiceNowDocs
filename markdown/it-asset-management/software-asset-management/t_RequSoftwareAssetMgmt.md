@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Configure, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request Software Asset Management
@@ -45,8 +45,6 @@ Only ServiceNow personnel can activate the Software Asset Management Professiona
     \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
-
-    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -92,8 +90,6 @@ The date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 

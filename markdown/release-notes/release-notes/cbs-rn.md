@@ -14,12 +14,12 @@ The ServiceNow® Core Business Suite \(CBS\) application lays the foundation to 
 
 ## Core Business Suite highlights for the Australia release
 
--   Accelerate application setup with Now Assist in Core Business Suite.
+-   Accelerate application setup with Now Assist in CBS.
 -   Launch CBS applications from a new admin home configuration console, and set up each application from the entry point.
 -   Use the AI-native requester experience in CBS.
 -   Get Employee Slate as your default employee support portal on CBS with two configuration options for more flexibility for different organizations.
--   Install Core Business Suite applications from the Product Hub according to your subscription.
--   Automate assignment rules for the CBS requester role enabling administrators reduce manual effort.
+-   Install CBS applications from the Product Hub depending on your subscription.
+-   Automate assignment rules for the CBS requester role, enabling administrators reduce manual effort.
 -   View performance insights and resolution trends across business units on the Core Business Suite Analytics dashboard.
 
 See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md) for more information.
@@ -53,19 +53,19 @@ See [Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 -   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)[Employee Slate for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/employee-slate-cbs.md)**
 
-    Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface for raising issues, asking for information, and submitting business unit-specific service requests. The default employee support portal for CBS brings all of these functionalities together with Employee Slate.
+    Provide your employees with a consolidated view of the Employee Center widgets with a conversational interface on Employee Slate. Raise issues, ask for information, or submit business unit-specific service requests conversationally. Employee Slate is the default employee support portal for CBS.
 
 -   **[Core Business Suite setup on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-product-hub-overview.md)**
 
-    Install your Core Business Suite application directly from Product Hub, depending on your subscription tier.
+    Install your CBS application directly from Product Hub, depending on your subscription tier.
 
 -   **[CBS requester role enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-requester-role-enhancements.md)**
 
-    Automate assignment of the CBS requester role to enable admins reduce repetitive, manual work.
+    Automate assignment of the CBS requester role to enable admins reduce repetitive, manual work of assigning the role to each new employee.
 
 -   **[View Core Business Suite Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/view-cbs-analytics.md)**
 
-    Access all Core Business Suite \(CBS\) analytics in one place to monitor and review request activity across departments in detail and in AI-enabled summaries.
+    Access all CBS customer insights in one place to monitor and review request activity across departments, both detailed and in AI-enabled summaries on the Core Business Suite Analytics Dashboard.
 
 
 ## Activation information

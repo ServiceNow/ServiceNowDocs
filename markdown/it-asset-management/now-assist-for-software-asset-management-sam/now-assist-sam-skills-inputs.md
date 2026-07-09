@@ -9,7 +9,7 @@ classification: now-assist-for-software-asset-management-sam
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Configure, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Configure, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Skill inputs and triggers for Now Assist for Software Asset Management \(SAM\)

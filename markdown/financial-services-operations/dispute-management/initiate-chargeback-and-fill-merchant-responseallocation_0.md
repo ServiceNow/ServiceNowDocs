@@ -1,5 +1,5 @@
 ---
-title: Initiate chargeback and fill merchant response- Allocation workflow
+title: Initiate chargeback and fill merchant response
 description: This is a part of the allocation dispute workflow for the Chargeback stage. Initiate a chargeback request for the card network issuer to credit the card holder with the card network, and await a response from the merchant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-responseallocation\_0.html
@@ -9,10 +9,10 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Initiate chargeback and fill merchant response- Allocation workflow
+# Initiate chargeback and fill merchant response
 
 This is a part of the allocation dispute workflow for the **Chargeback** stage. Initiate a chargeback request for the card network issuer to credit the card holder with the card network, and await a response from the merchant.
 
@@ -34,15 +34,13 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+6.  Select the **Initiate chargeback and fill merchant response** activity.
 
-7.  Select the **Initiate chargeback and fill merchant response** activity.
+7.  The chargeback reason code and dispute amount is displayed.
 
-8.  The chargeback reason code and dispute amount is displayed.
-
-9.  Submit the request by selecting **Initiate chargeback**.
+8.  Submit the request by selecting **Initiate chargeback**.
 
 
 ## Result

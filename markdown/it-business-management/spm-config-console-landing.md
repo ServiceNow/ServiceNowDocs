@@ -35,11 +35,11 @@ Some ServiceNow resources that can provide helpful information:
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
-    Connect with fellow ServiceNow professionals at 
+    Connect with fellow ServiceNow professionals at [ServiceNow Community](https://community.servicenow.com/community)
 
 -   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
 
-
+    [Impact](http://impact.servicenow.com)
 
 -   **\[Omitted image "dcx-icon-impact.svg"\]Impact**
 
@@ -47,11 +47,11 @@ Some ServiceNow resources that can provide helpful information:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\]ServiceNow University**
 
-    Build skills with instructor-led and online training at 
+    Build skills with instructor-led and online training at [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
 -   **\[Omitted image "dcx-icon-support.svg"\] Support**
     -   Access advice on managing your instances, access self-help, and get technical support at [https://support.servicenow.com/now](https://support.servicenow.com/now)
-    -   Learn more about specific known errors, and any available workarounds, from 
+    -   Learn more about specific known errors, and any available workarounds, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 
 **Related topics**  
 

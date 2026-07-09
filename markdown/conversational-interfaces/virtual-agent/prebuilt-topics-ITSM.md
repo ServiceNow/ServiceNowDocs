@@ -32,7 +32,7 @@ Activation
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Virtual Agent conversations
+[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ After installing the plugins or apps, you can preview \(test\) the topics and to
 -   Previewing topics and topic blocks – After you install the plugins for prebuilt topics, admins or Virtual Agent admins can access the prebuilt topics and topic blocks in the Virtual Agent Designer home page. Select the topic and in the **Flow** tab, select **Test**. Review the conversation as it runs in the test window to determine the topics and topic blocks that you want to use.
 -   Using prebuilt topics and topic blocks – Although prebuilt topics and topic blocks are read only and can't be changed, you can reuse them by [duplicating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.md) and modifying them as needed. After you test a duplicated topic and are ready to deploy it to your Virtual Agent clients, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) the topic. Similarly, after testing a duplicated topic block, publish it to make it available for use in conversation \(calling\) topics.
 
-For details on creating, testing \(previewing\), duplicating, and publishing a topic, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md). For details on working with topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
+For details on creating, testing \(previewing\), duplicating, and publishing a topic, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md). For details on working with topic blocks, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Working with prebuilt ServiceNow NLU models in ServiceNow NLU Workbench
 

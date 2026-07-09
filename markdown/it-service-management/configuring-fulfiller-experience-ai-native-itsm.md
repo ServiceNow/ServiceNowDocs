@@ -139,7 +139,7 @@ SLAs and their associated flows are preconfigured for Incident Management. Respo
 
 </td><td>
 
-Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADefinitions.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_ConfigureSLAs.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 

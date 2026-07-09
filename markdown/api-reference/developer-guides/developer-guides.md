@@ -8,7 +8,7 @@ product: Developer Guides
 classification: developer-guides
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [API implementation and reference]
 ---
 
@@ -27,6 +27,14 @@ Developer guides
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+[Run UI Test Script Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/c_run_ui_test_script.md)
+
+</td><td>
+
+The Run UI Test Script test step runs a client-side test script in the browser to drive and verify the user interface with no server-side execution needed. Use this step to automate multi-step UI journeys on both classic and Now Experience pages, like navigating, filling fields, clicking, impersonating users, uploading attachments, and asserting page state.
+
+</td></tr><tr><td>
 
 [Alarm Management Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/alarm-mgmt_dev-guide.md)
 

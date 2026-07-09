@@ -1,5 +1,5 @@
 ---
-title: Customize service approval settings in SRM
+title: Customize service approval settings
 description: Add an approval process to your services for governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-approval-services.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Customize service approval settings in SRM
+# Customize service approval settings
 
 Add an approval process to your services for governance.
 
@@ -55,5 +55,5 @@ Require approval when Service Reliability Management \(SRM\) admins, managers, o
 
 **Previous topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 
-**Next topic:**[Customize team approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
+**Next topic:**[Customize team approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
 

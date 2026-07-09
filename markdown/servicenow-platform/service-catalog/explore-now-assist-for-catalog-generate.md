@@ -21,7 +21,7 @@ Learn how the Now Assist in Catalog Builder application helps you to create cata
 
 In Catalog Builder, you can describe the catalog item you want, and Now Assist generates the catalog item for you.
 
-The application uses the Catalog item generation skill to create catalog items. For more information about the skill, see .
+The application uses the Catalog item generation skill to create catalog items. For more information about the skill, see [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-catalog-item-generation.md).
 
 **Note:** You must be assigned the catalog\_builder\_editor role to create catalog items using Now Assist.
 

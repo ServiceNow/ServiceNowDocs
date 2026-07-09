@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 5
 breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ By default, the system only generates execution details when you run a test. To 
 
 ## Scheduled table cleanup
 
-The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see .
+The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
 
 <table id="table_hmm_shn_z2b"><thead><tr><th>
 
@@ -43,6 +43,8 @@ sys\_flow\_context
 </td><td>
 
 Parent table that stores all Workflow Studio context records and their associated process plans. Context records store the state and references to the data used to run a flow or action. See the child tables for context records in specific states.
+
+ **Warning:** This table doesn't support running custom business rules. Trying to gather state information from this table may cause performance issues or unexpected flow errors.
 
 </td><td>
 
@@ -161,7 +163,7 @@ Table that stores replicated log entries from the Log \[syslog\] table. Enables 
 
 The system removes these records in 28 days when the table is rotated or when it removes the context record, whichever comes first.
 
- The table rotation on sys\_flow\_log is configurable. For more information, see Table rotation.
+ The table rotation on sys\_flow\_log is configurable. For more information, see [Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
 
 </td></tr><tr><td>
 

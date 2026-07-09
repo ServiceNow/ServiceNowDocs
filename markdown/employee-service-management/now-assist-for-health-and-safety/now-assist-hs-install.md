@@ -24,11 +24,7 @@ Role required: admin
 
 Use the Now Assist Admin console to install and configure Now Assist for Health and Safety. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the skill that you can access from the Now Assist Admin console.
-
-|Health and Safety feature|Skill|
-|-------------------------|-----|
-|Now Assist skills for Health and Safety|Health and Safety incident summarization|
+For more information on AI assets available with Now Assist for Health and Safety, see [Now Assist Health and Safety skills, AI agents, and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-na-skills-activation-status.md).
 
 ## Procedure
 
@@ -40,8 +36,6 @@ The following table lists the skill that you can access from the Now Assist Admi
 ## What to do next
 
 Activate the skill to enable the safety team to use the generative AI skills. For more information, see [Activate a Now Assist for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
-
-For more information on Now Assist for Health and Safety AI assets, see [Now Assist Health and Safety skills, AI agents, and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-na-skills-activation-status.md).
 
 Install Now Assist AI agents to enable the agentic AI experience. For more information, see [Install Now Assist AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.md).
 

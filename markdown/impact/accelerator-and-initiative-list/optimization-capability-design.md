@@ -1,6 +1,6 @@
 ---
 title: Optimization Capability Design
-description: This accelerator provides support in designing capabilities and features to enhance platform health and drive ServiceNow product adoption.
+description: This Accelerator provides support in designing capabilities and features to enhance platform health and drive ServiceNow product adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-capability-design.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: reference
 last_updated: "2026-04-27"
 reading_time_minutes: 3
 keywords: [Optimization, Capability Design, Platform Health, User Stories, ServiceNow Adoption]
-breadcrumb: [Optimization Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Optimization Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Optimization Capability Design
 
-This accelerator provides support in designing capabilities and features to enhance platform health and drive ServiceNow product adoption.
+This Accelerator provides support in designing capabilities and features to enhance platform health and drive ServiceNow product adoption.
 
 ## Accelerator Overview
 
-Optimization Capability Design provides Impact customers with design support for a targeted ServiceNow capability or feature. This accelerator may be initiated based on an Impact recommendation, including but not limited to:
+Optimization Capability Design provides Impact customers with design support for a targeted ServiceNow capability or feature. This Accelerator may be initiated based on an Impact recommendation, including but not limited to:
 
--   Outputs from an Impact accelerator.
+-   Outputs from an Impact Accelerator.
 -   Enabling a new feature not currently in use.
 -   Enhancing or expanding an existing capability.
 -   Supporting a process or workflow improvement initiative.
@@ -36,7 +36,7 @@ Optimization Capability Design provides Impact customers with design support for
     -   Understand customer problem statement and business need.
     -   Review the customer-completed intake form to align on the targeted capability design scope.
     -   Confirm the design scope category and validate the approach, including the level of Customer participation.
-    -   Establish clear expectations on required Customer resources, accelerator activities, and expected outputs.
+    -   Establish clear expectations on required Customer resources, Accelerator activities, and expected outputs.
 -   **Customer Reverse Demo Session**
 
     If applicable, Customer demonstrates their current state solution relevant to the targeted capability design scope.
@@ -58,13 +58,13 @@ Optimization Capability Design provides Impact customers with design support for
 
 ## Requested Customer Resources
 
-Customer will provide the required resources, as communicated by ServiceNow in the Kick-off and Scope Alignment Session, throughout the duration of the accelerator. The same personnel may fulfill multiple responsibilities.
+Customer will provide the required resources, as communicated by ServiceNow in the Kick-off and Scope Alignment Session, throughout the duration of the Accelerator. The same personnel may fulfill multiple responsibilities.
 
 |Customer Resource|Responsibilities|
 |:----------------|:---------------|
 |Business Analyst|Responsible for working with key project stakeholders to capture business and user requirements as stories. The Business Analyst also works with the Platform Administrators to verify stories are understood, developed, tested, and delivered to specification.|
 |Process Owner|Responsible for the correct and complete definition of each of the processes implemented within the ServiceNow platform.|
-|System administrator\(s\)|Responsible for maintaining the stability and usability of the ServiceNow platform by performing application maintenance, managing support for incidents related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features. The ServiceNow System administrator has sound technical ability that enables the fulfillment of common configuration and maintenance tasks.|
+|System Administrator\(s\)|Responsible for maintaining the stability and usability of the ServiceNow platform by performing application maintenance, managing support for incidents related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features. The ServiceNow System Administrator has sound technical ability that enables the fulfillment of common configuration and maintenance tasks.|
 |Subject Matter Expert\(s\) \(SME\)|Responsible for confirming the design to help meet the Customer's requirements, and for working with ServiceNow to identify opportunities for the processes to be moved into ServiceNow. The role may comprise both functional and technical experts. The SME also possesses in-depth functional and technical knowledge of any necessary processes and functions.|
 |Product Owner\(s\)|Responsible for ensuring that the product backlog is defined with stories, visible, transparent, and clear to all, and shows what the team will work on next. The Product Owner also demonstrates the configured functionality to Customer's stakeholders at the end of each sprint.|
 |Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
@@ -73,7 +73,7 @@ Customer will provide the required resources, as communicated by ServiceNow in t
 
 ## Requested Information / Access
 
-Before ServiceNow can begin the accelerator, the following prerequisite tasks must be completed:
+Before ServiceNow can begin the Accelerator, the following prerequisite tasks must be completed:
 
 -   Intake form \(to be provided by the ServiceNow team\) must be completed by the Customer at least four weeks before the Kick-off and Scope Alignment Session.
 -   If applicable, Customer grants ServiceNow resources remote access to Customer's instances for the purpose of providing the Services during the period of performance.

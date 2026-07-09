@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-d
 release: australia
 topic_type: task
 last_updated: "2026-03-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
 
@@ -35,6 +35,10 @@ Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df
 
 5.  Search for the source table in the Data Catalog and add tables to your selection.
 
+    **Note:** The following platform table types are not supported as source tables:
+
+    -   Tables with names that begin with `sys_`
+    -   Child tables
 6.  Review the list of tables and select **Continue \[Omitted image "wdf-data-interface-join-select-table.png"\] Alt text: Select source tables page showing three selected tables with Continue button.**.
 
     The wizard advances to the combination method step.

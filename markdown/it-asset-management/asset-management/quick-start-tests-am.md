@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Quick start test for Asset Management

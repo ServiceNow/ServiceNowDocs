@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 32
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software model fields
@@ -68,7 +68,7 @@ Product
 
 Software product name. The same lookup list provided on the Software Discovery Models form. You can create a custom product from the lookup list, if desired.**Note:** If the relationship between the software publisher \[samp\_sw\_publisher\] and company \[core\_company\] tables isn’t correct, products for that publisher may not be shown.
 
- If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md).
+ If the publisher and product don’t exist, you can [Add a custom software product in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md).
 
 </td></tr><tr><td>
 
@@ -326,7 +326,7 @@ License all installs accessed by clients**Note:** This field appears only on sof
 
 </td><td>
 
-Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
+Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
 
 If you enable this option after you have already added CIs to your client access records, those CIs are deleted from your records and then subsequently licensed based on the conditions that you specify on the software model.
 
@@ -1099,7 +1099,7 @@ Name
 
 </td><td>
 
-Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
+Name of the client access record. Select a name to open the corresponding client access record, where you can view more in-depth information about the record, such as the users or devices that the associated client access licenses \(CALs\) are assigned to and the configuration items \(CIs\) that the associated server software is installed on. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
 
 </td></tr><tr><td>
 

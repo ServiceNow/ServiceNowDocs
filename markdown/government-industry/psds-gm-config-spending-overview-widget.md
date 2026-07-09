@@ -57,7 +57,7 @@ To verify the configuration, open a grant program record and select the **Fundin
 
 **Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-rubric.md)
+**Previous topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-applicant-info-form.md)
 
 **Next topic:**[Configuring Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-investigative-case-management.md)
 

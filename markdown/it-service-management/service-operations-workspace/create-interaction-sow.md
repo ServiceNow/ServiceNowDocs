@@ -24,15 +24,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an interaction.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d147593e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d147945e52">
 
 Option
 
-</th><th align="left" id="d147593e55">
+</th><th align="left" id="d147945e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147593e61">
+</th></tr></thead><tbody><tr><td id="d147945e61">
 
 **From the List menu in the primary navigation**
 
@@ -43,7 +43,7 @@ Description
 3.  Click **New Interaction**.
 
 
-</td></tr><tr><td id="d147593e100">
+</td></tr><tr><td id="d147945e100">
 
 **From an interaction list**
 

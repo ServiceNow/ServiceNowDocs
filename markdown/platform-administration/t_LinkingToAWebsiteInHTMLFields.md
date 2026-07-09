@@ -22,7 +22,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 1.  Move the cursor to the position where the link is to appear.
 
-2.  Select the insert/edit link icon \(\[Omitted image "TinyMCEV4Link.png"\] Alt text: Insert or edit link icon\) in the HTML toolbar.
+2.  Select the insert/edit link icon in the HTML toolbar.
 
 3.  Enter information in each field.
 

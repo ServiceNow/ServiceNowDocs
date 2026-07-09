@@ -103,8 +103,8 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Use Now Assist for FSM to manage shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-shift-manage.dita.md)**
 
@@ -120,11 +120,11 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
 ## Changed in this release
 
--   ****
+-   **[ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home)**
 
     The following plugins are planned for deprecation in the C release. Beginning with the Australia release this plugin will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.
 
-    Beginning with the Australia release, the following applications have been moved to the . Any application enhancements will be delivered through the related store app.
+    Beginning with the Australia release, the following applications have been moved to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Any application enhancements will be delivered through the related store app.
 
     -   [Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appintment-booking-day-level-config.md) \(com.snc.advanced\_appointment\_booking\)
     -   [Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-fsm-contractor-management.md) \(com.snc.fsm\_contractor\_management\)
@@ -155,7 +155,7 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 
     The **Enable assignments only with preferred/secondary agents** constraint has been renamed to **Enable assignments based on technician assignment preference** and updated to restrict task assignment exclusively to technicians marked as required on the work order task. If no required technician is available or eligible, the task is dropped from optimization and logged in the run summary.
 
--   **[Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)**
+-   **[Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md)**
 
     Query range ACLs, which prevent unauthorized users from inferring sensitive data through repeated range-based queries, are now shipped by default. If you customized any of these ACLs in a previous release, your version remains active and the out-of-box ACL is set to inactive; otherwise, the default ACL replaces the previously generated one. The affected tables are:
 

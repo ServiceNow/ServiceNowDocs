@@ -1,5 +1,5 @@
 ---
-title: Risk, issues, decisions, actions, and request change \(RIDAC\) form
+title: RIDAC form fields
 description: Learn about the fields of the RIDAC form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ridac-forms.html
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Risk, issues, decisions, actions, and request change \(RIDAC\) form
+# RIDAC form fields
 
 Learn about the fields of the RIDAC form.
 

@@ -1,13 +1,13 @@
 ---
 title: Discovery for VMware vCenter
-description: Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for disocvery in VMware vCenter.
+description: Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DiscoveryForVMwareVCenter.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 3
 keywords: [VMware vCenter, Discovery VMware vCenter]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 # Discovery for VMware vCenter
 
-Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for disocvery in VMware vCenter.
+Discovery can explore the VMware vCenter process running on a Windows or Linux host. IPv6 is supported for discovery in VMware vCenter.
 
 **Note:**
 
@@ -27,7 +27,7 @@ When a vCenter application is running on a dedicated vCenter appliance, a "Runs 
 
 The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Australia release:
 
--   vCenter versions 8.0 and earlier
+-   vCenter versions 9.0 and earlier
 -   vCenter appliance version 6.7 and earlier
 
 For installations based on the vCenter appliance, a server CI is created for the vCenter appliance and the following fields are populated:

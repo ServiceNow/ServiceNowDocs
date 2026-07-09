@@ -9,7 +9,7 @@ classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Sourcing items in a service catalog request, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a transfer order from a request
@@ -26,15 +26,15 @@ Role required: procurement\_admin or procurement\_user
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d415904e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d416881e68">
 
 UI
 
-</th><th align="left" id="d415904e71">
+</th><th align="left" id="d416881e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d415904e77">
+</th></tr></thead><tbody><tr><td id="d416881e77">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d415904e101">
+</td></tr><tr><td id="d416881e101">
 
 **Hardware Asset Workspace**
 

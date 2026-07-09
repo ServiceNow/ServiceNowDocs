@@ -32,7 +32,5 @@ You can also access Form Builder from the Related Links section of any table. Op
 
 You can access Form Builder directly from the UI Builder stage. Move your mouse device to a form component that has a set **Table** value and **View** value, then select the **Edit Form** button. Your changes appear on the form after closing Form Builder.
 
-\[Omitted image "edit-form-full.png"\] Alt text: UI showing the Edit Form button to open Form Builder within the UI Builder application. Callouts indicate the Table and View values that must be set.
-
 **Parent Topic:**[Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/exploring-fb.md)
 

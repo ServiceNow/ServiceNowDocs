@@ -1,5 +1,5 @@
 ---
-title: Employee Org chart
+title: Employee org chart
 description: The organizational chart provides an interactive visualization of company structure, reporting relationships, and team hierarchies with search and navigation capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-slate-orgchart.html
@@ -13,7 +13,7 @@ keywords: [org chart, organizational chart, reporting structure, employee direct
 breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Org chart
+# Employee org chart
 
 The organizational chart provides an interactive visualization of company structure, reporting relationships, and team hierarchies with search and navigation capabilities.
 
@@ -23,7 +23,7 @@ Employee Slate brings org chart and employee profile functionality together in a
 
 ## Org chart
 
-The org chart surfaces reporting structures and team hierarchies with rich contextual information available upfront. Employees navigate the org chart to understand how the organization is structured and to identify colleagues in specific roles or teams.
+The org chart displays reporting structures and team hierarchies with rich contextual information available upfront. Employees navigate the org chart to see the organization structure and identify colleagues in specific roles or teams.
 
 With Now Assist Chat, the org chart adds the following AI-driven interactions:
 
@@ -48,8 +48,9 @@ The org chart provides the following capabilities:
 -   Multi-level navigation: Displays the employee hierarchy one level at a time with a **Show more** option to expand additional levels.
 -   Search functionality: Finds specific employees by name using the search field on the org chart page.
 -   Profile information: Selecting an employee card opens the corresponding profile page.
--   Contextual positioning: Navigate to any employee position in the org chart from their profile page using the **View Org Chart** button.
+-   Contextual positioning: Go to any employee position in the org chart from their profile page using the **View Org Chart** button.
 -   Team structure indicators: Visual representation of reporting structures.
+-   Visual enhancements: You can enhance Org chart and profile with visual updates and image edits.
 
 ## AI chat interactions
 

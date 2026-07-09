@@ -1,6 +1,6 @@
 ---
 title: Set up the Jira Service Management spoke
-description: Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0 to authenticate ServiceNow requests.Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
+description: Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0 to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-serv-mgmt.html
 release: australia
@@ -28,26 +28,52 @@ Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0
 
 Starting with the Australia release, instructions for generating and using API tokens have been removed from our documentation to align with Atlassian's Acceptable Use Policy. See the Atlassian blog, [Building Secure and Scalable Integrations: Our Guidance for Third-Party Apps](https://www.atlassian.com/blog/developer/building-secure-and-scalable-integrations-our-guidance-for-third-party-apps) for more information.
 
-## Obtain the value of Cloud ID
+## Generate an Atlassian account API token
 
-Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.
+Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.
 
 ### Before you begin
 
-Role required: admin
+Make sure you have an Atlassian account.
+
+Role required: Atlassian administrator credentials
+
+### About this task
+
+Complete these steps from your Atlassian account. See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on generating your API token.
+
+**Note:** This procedure is applicable only if you are using the Jira Cloud subscription.
 
 ### Procedure
 
-1.  Log in to [Atlassian Administration](https://admin.atlassian.com/) as an admin.
+1.  Log in to [Atlassian Start](https://start.atlassian.com/) as an admin.
 
-2.  Click **Select** against the required organization.
+2.  Go to your account profile photo and select **Account Settings**.
 
-3.  From the **Jira Software** product, click **Manage product access**.
+    \[Omitted image "jira-basic-settings.png"\] Alt text: Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.
 
-    A new window is opened and the URL is in this format: `https://admin.atlassian.com/s/<Cloud-ID>/apps`.
+3.  Go to **Security**.
 
-4.  Copy the value of the Cloud ID for later use.
+4.  In the API token section, select **Create and manage API tokens**.
 
+5.  Click **Create API token**.
+
+6.  On the form, provide an integration name for the **Label** field.
+
+7.  Click **Create**.
+
+    \[Omitted image "jira-token.png"\] Alt text: The Create an API token modal with the Create button emphasized.
+
+    The API token is generated.
+
+8.  Click **Copy** and record the value of the API token for later use.
+
+    \[Omitted image "jira-api-token.png"\] Alt text: Confirmation modal of Your new API token with the Copy button emphasized.
+
+
+### What to do next
+
+Use your API token to configure the cloud connection for the Jira spoke.
 
 ## Configure a connection for the Jira Service Management spoke
 

@@ -16,7 +16,7 @@ Generate a document summary to get quick insights into key information from docu
 
 ## Before you begin
 
-Configure the Smart documents skill. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+Configure the Smart documents skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

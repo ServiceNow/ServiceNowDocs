@@ -37,7 +37,7 @@ For a list of Stream Connect plugins, see [Integration Hub plugins](https://raw.
 Below the Related Links are tabs for Topics, Kafka Subscriptions, and Kafka Producers.
 
 -   The Hermes Topics tab displays any connected Hermes topics. This tab only appears on hosted instances that have access to the ServiceNow hosted Hermes service.
--   The Direct Kafka Topics tab displays any connected Direct Kafka topics. This tab generally appears only for on-premise instances where the ServiceNow Stream Connect Direct Kafka \(com.glide.hub.stream\_connect.direct\_kafka\) plugin is installed.
+-   The Direct Kafka Topics tab displays any connected Direct Kafka topics. This tab generally appears only for instances where the ServiceNow Stream Connect Direct Kafka \(com.glide.hub.stream\_connect.direct\_kafka\) plugin is installed.
 -   The Kafka Subscriptions tab displays any associated subscriptions and related statistics. For more on subscription statistics, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
 -   The Kafka Producers tab displays any associated producers and their related statistics. For descriptions of producer statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/producer-statistics.md).
 

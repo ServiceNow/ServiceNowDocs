@@ -1,6 +1,6 @@
 ---
-title: Connect Zero Copy Connector for ERP to SAP using OData and HTTP
-description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables. OData connects to SAP via HTTP.
+title: Connect Zero Copy Connector for ERP to SAP using OData
+description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
 release: australia
@@ -8,14 +8,14 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, http, connection]
+reading_time_minutes: 3
+keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, connection]
 breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connect Zero Copy Connector for ERP to SAP using OData and HTTP
+# Connect Zero Copy Connector for ERP to SAP using OData
 
-Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables. OData connects to SAP via HTTP.
+Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 
 **Important:**
 
@@ -25,13 +25,13 @@ OData v2 does not use snapshot isolation so you might experience some data consi
 
 You must have an SAP system that has been enabled to make an OData connection.
 
-Extract data using OData and an HTTP connection. To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
+To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
 
 ## Enabling download of XML files
 
 The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see .
 
-## New properties
+## System properties
 
 The following are properties related to OData.
 
@@ -56,26 +56,6 @@ Create manually?
 Role needed to edit property
 
 </th></tr></thead><tbody><tr><td>
-
- 
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
 
 sn\_erp\_integration.catalog\_service\_path
 
@@ -196,11 +176,11 @@ No
 admin or sn\_erp\_integration.erp\_admin
 
 </td></tr></tbody>
-</table>**Note:** To add a new property manually, verify that your scope is set to Zero Copy Connector for ERP, then navigate to sys\_properties.list and select **New**.
+</table>**Note:** To add a property manually, verify that your scope is set to Zero Copy Connector for ERP, then navigate to sys\_properties.list and select **New**.
 
 ## Heartbeat information
 
-For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats become active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record. BAPI and table list retrieval is done via RFC. OData retrieval is done via HTTP.
+For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats are set to active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record.
 
 \[Omitted image "erpc-system-heartbeats.png"\] Alt text: System record with ODATA retrieval status of completed.
 
@@ -211,7 +191,7 @@ For more information about using OData in Zero Copy Connector for ERP, see [Crea
 -   **[OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md)**  
 Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md)**  
-Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Create an OData v2 connection to link to SAP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md)**  
 When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Obtain data from SAP SuccessFactors using OData v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md)**  

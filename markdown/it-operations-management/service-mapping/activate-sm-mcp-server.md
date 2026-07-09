@@ -1,6 +1,6 @@
 ---
-title: Activate the Now Assist CMDB MCP Server for Service Mapping tools
-description: Activate the Now Assist CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow instance and query application service data.
+title: Activate the CMDB MCP Server for Service Mapping tools
+description: Activate the CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow instance and query application service data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-mcp-server.html
 release: australia
@@ -13,17 +13,17 @@ keywords: [MCP Server, Service Mapping, activate, OAuth, MCP Server Console, Mac
 breadcrumb: [Service Mapping MCP tools, AI capabilities in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Activate the Now Assist CMDB MCP Server for Service Mapping tools
+# Activate the CMDB MCP Server for Service Mapping tools
 
-Activate the Now Assist CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow® instance and query application service data.
+Activate the CMDB MCP Server and configure the OAuth inbound integration so that external AI clients can connect to your ServiceNow® instance and query application service data.
 
 ## Before you begin
 
-Before activating the Now Assist CMDB MCP Server, confirm the following requirements are met.
+Before activating the CMDB MCP Server, confirm the following requirements are met.
 
 -   Verify that Australia Patch 3 is installed.
 -   You have the MCP Platform Manager version 1.4.0 \(or later\) plugin installed.
--   You have the Now Assist CMDB MCP Server \(sn\_cmdb\_gen\_ai.now\_assist\_cmdb\_mcp\_server\) application installed.
+-   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.0.0, application installed.
 -   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
 Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth\_admin \(or mi\_admin\) role
@@ -32,7 +32,7 @@ Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth
 
 ## About this task
 
-The Service Mapping MCP tools are delivered as part of the Now Assist CMDB MCP Server \(sn\_cmdb\_gen\_ai.now\_assist\_cmdb\_mcp\_server\). Activating it exposes five read-only tools that AI clients can use to query live application service data. The OAuth inbound integration for this server is auto-generated when the server is installed. You must locate this integration, verify its configuration, and add the redirect URL for the AI client before users can authenticate.
+The Service Mapping MCP tools are delivered as part of the CMDB MCP Server. Activating it exposes five read-only tools and one write tool that AI clients can use to query live application service data. The OAuth inbound integration for this server is auto-generated when the server is installed. You must locate this integration, verify its configuration, and add the redirect URL for the AI client before users can authenticate.
 
 For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 
@@ -42,7 +42,7 @@ For detailed information, see [Service Mapping MCP tools](https://raw.githubuser
 
 2.  From the **Configuration** tab, select **Servers**.
 
-3.  Select the **Now Assist CMDB MCP Server** tile.
+3.  Select the **CMDB MCP Server** tile.
 
     **Note:** If the server does not appear, change the application scope to **ITOM AI Agents for Service Mapping**. The MCP Server Console screen opens with all fields populated, including the server URL and short description.
 
@@ -52,13 +52,13 @@ For detailed information, see [Service Mapping MCP tools](https://raw.githubuser
 
 5.  Configure the OAuth inbound integration so that AI clients can authenticate with your instance.
 
-    **Important:** Do not create a new OAuth client for this integration. The integration named sn\_cmdb\_gen\_ai.now\_assist\_cmdb\_mcp\_server is auto-generated when the server is installed. Creating a custom client requires manual auth scope configuration, and misconfiguration is silent — the connection succeeds but no tools appear in the AI client.
+    **Important:** Do not create a new OAuth client for this integration. The integration named sn\_cmdb\_mcp\_server.cmdb\_mcp\_server is auto-generated when the server is installed. Creating a custom client requires manual auth scope configuration, and misconfiguration is silent — the connection succeeds but no tools appear in the AI client.
 
     1.  Set the scope to **Global**.
 
     2.  Navigate to **All** &gt; **Machine Identity Console** and select the **Inbound integrations** tab.
 
-    3.  Locate and open the integration named **sn\_cmdb\_gen\_ai.now\_assist\_cmdb\_mcp\_server**.
+    3.  Locate and open the integration named **sn\_cmdb\_mcp\_server.cmdb\_mcp\_server**.
 
         **Note:** The inbound integrations list may also contain integrations whose names match other server names, including underscores. These are monitoring integrations created by AI Control Tower and should not be used for client connections.
 

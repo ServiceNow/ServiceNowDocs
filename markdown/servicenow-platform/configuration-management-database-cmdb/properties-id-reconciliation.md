@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -507,6 +507,36 @@ Switch between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.dynamic\_ire.auto\_compare
+
+</td><td>
+
+Enables comparison between the processing outputs of Dynamic IRE and Static IRE for all payloads.
+
+ -   Type: true \| false
+-   Default: true
+-   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
+-   Location: System Properties \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+glide.identification\_engine.non\_dependency\_relation.duplicate\_detection
+
+</td><td>
+
+Set IRE behavior when the payload contains duplicate non-dependent relationships \(identical parent/child relationship type\).
+
+When set to **true**, IRE detects duplicate non-dependent relationships in a payload.
+
+When set to **false**, IRE doesn't detect duplicate non-dependent relationships in a payload.
+
+-   Type: true \| false
+-   Default: false
+-   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr></tbody>

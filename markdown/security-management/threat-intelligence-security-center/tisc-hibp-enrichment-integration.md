@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
-breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Run Have I Been Pwned enrichment integration

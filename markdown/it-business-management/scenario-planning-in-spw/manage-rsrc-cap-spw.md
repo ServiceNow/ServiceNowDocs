@@ -19,7 +19,7 @@ Generate and view the total capacity of the resources with primary attributes. C
 ## Before you begin
 
 1.  Enable planning attributes for capacity planning. For more information, see [Enable planning attributes for capacity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/cp-enable-planning-attributes-spw.md).
-2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources to work with Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
+2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 
@@ -33,15 +33,15 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 3.  Use one the following options to view and regenerate the capacity details.
 
-<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d205559e120">
+<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d205194e120">
 
 Choice
 
-</th><th align="left" id="d205559e123">
+</th><th align="left" id="d205194e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205559e129">
+</th></tr></thead><tbody><tr><td id="d205194e129">
 
 **Generate capacity details**
 
@@ -59,7 +59,7 @@ The resource capacity details for the selected combination of primary attributes
 
 **Note:** Capacity generation is an asynchronous process. You can generate capacity for multiple combination of dates and attributes.
 
-</td></tr><tr><td id="d205559e185">
+</td></tr><tr><td id="d205194e185">
 
 **Regenerate capacity details**
 
@@ -69,13 +69,13 @@ The resource capacity details for the selected combination of primary attributes
 2.  In the Regenerate capacity window, filter the date range, if needed, and select **Regenerate**.
 
 
-</td></tr><tr><td id="d205559e215">
+</td></tr><tr><td id="d205194e215">
 
 **Scheduled job**
 
 </td><td>
 
-Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Activate a scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
+Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
 
 </td></tr></tbody>
 </table>

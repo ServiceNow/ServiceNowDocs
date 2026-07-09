@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a product non-conformance case
@@ -57,6 +57,4 @@ Role required: Quality Issue Management Admin or Product Non-conformance Triager
     -   Assign to me
 11. Select **Save**.
 
-
-**Parent Topic:**[Product Non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-lists-product-non-conformance.md)
 

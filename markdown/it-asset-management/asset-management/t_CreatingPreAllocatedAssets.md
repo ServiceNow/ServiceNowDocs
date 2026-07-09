@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage pre-allocated assets, Use, Asset Management, IT Asset Management]
+breadcrumb: [Manage pre-allocated assets, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create pre-allocated assets

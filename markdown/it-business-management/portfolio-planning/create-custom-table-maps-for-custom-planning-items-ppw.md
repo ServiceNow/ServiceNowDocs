@@ -41,5 +41,5 @@ A new table map is created with your alignment and execution table configuration
 
 ## What to do next
 
-Create a business rule to support export of this new table map configuration to PPM. For more information, see [Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.md).
+Create a business rule to support export of this new table map configuration to PPM. For more information, see [Create a business rule for a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.md).
 

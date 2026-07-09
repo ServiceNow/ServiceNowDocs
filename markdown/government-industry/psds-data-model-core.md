@@ -18,7 +18,7 @@ Use the enhanced install base data model to provide authorized users with additi
 
 The following logical diagram shows the tables and their relationships that build the Public Sector Digital Services Core data model.
 
-\[Omitted image "psds-datamodel-core.png"\] Alt text: Public Sector Digital Services Core Data Model
+\[Omitted image "psds-datamodel-core-q3-2026.png"\] Alt text: Public Sector Digital Services Core Data Model
 
 -   **[Tables and Flows installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-core-tables.md)**  
 This section describes the tables and flows installed with the Public Sector Digital Services Core application and shows how they store and manage information.

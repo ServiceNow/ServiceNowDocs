@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [create asset put away task, asset put away,]
-breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an Asset put away task

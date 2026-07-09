@@ -37,7 +37,7 @@ DEX provides in-product reports and dashboards for manual detection, and support
 
 -   **Manual remediation**
 
-    After identifying affected devices through reports or dashboards, trigger bulk remediation directly from an insights report to remediate multiple devices in a single action. You can also use customer-created custom flows for cases that require additional logic beyond a single remedial action. For the bulk remediation procedure, see [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md).
+    After identifying affected devices through reports or dashboards, trigger bulk remediation directly from an insights report to remediate multiple devices in a single action. For cases that require additional logic, use custom flows. For the bulk remediation procedure, see [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md).
 
 -   **Automated remediation**
 

@@ -40,5 +40,5 @@ Role required: admin
 If you need a planning item type other than those available, use one of the five pre-defined custom planning item tables or you can create your own.
 
 -   [Enable pre-defined custom planning item tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-items-for-lenses-and-portfolio-plans.md)
--   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
+-   [Define a planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md)
 

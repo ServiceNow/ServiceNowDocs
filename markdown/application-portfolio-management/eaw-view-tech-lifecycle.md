@@ -50,7 +50,7 @@ The TPM lifecycle data enables you to manage your technology portfolio effective
 
 [Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
-[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
+[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
 [View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 

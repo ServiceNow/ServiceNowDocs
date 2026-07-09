@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an onboarding order for enterprise assets in the Enterprise Asset Workspace
@@ -67,15 +67,15 @@ Date by when the asset onboarding should be complete.This field is optional.
 </td></tr></tbody>
 </table>5.  Determine whether you want to onboard assets of an existing model or a new model.
 
-<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d79683e170">
+<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d80388e170">
 
 Type of asset model
 
-</th><th align="left" id="d79683e173">
+</th><th align="left" id="d80388e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d79683e179">
+</th></tr></thead><tbody><tr><td id="d80388e179">
 
 **Existing model**
 
@@ -83,7 +83,7 @@ Action
 
 In the **Model** field, select the asset model.
 
-</td></tr><tr><td id="d79683e191">
+</td></tr><tr><td id="d80388e191">
 
 **New model**
 

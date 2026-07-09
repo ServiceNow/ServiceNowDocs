@@ -34,10 +34,13 @@ When an agent disputes a transaction on behalf of a customer or through the Cust
 
         This field also displays in the case record in the Card Dispute Transaction related list.
 
-        **Note:** The **Dispute reported date** field cannot be changed to a future date after it has been set.
+        **Note:** The **Dispute reported date** field can't be changed to a future date after it has been set.
 
         \[Omitted image "reg-sla-dispute-reported-date.png"\] Alt text: Card disputes transactions table with Dispute reported date column highlighted.
 
+        **Note:** For more information on where each SLA is triggered, see [Service Level Agreement \(SLA\) definitions installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-content-pack-for-us-regulation.md).
+
+    -   The agent can view active SLAs in the Task SLAs related list.
 3.  Submit the case for investigation.
     -   In the **Submit dispute** activity, the agent reviews the dispute amount. The agent selects the option **Is this a new financial account?** and submits the case for further investigation. For more information on the various stages, see [Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md).
     -   After submitting the case, the agent accesses the **Task SLAs** tab to view the SLA definitions that have been applied.

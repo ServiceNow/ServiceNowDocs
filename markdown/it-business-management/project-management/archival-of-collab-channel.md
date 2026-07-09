@@ -9,7 +9,7 @@ classification: project-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Archiving your project collaboration channel or team
@@ -43,5 +43,5 @@ If the project manager wants to create a channel or team again for this project,
 **Related topics**  
 
 
-[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

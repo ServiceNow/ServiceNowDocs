@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Impact Platform Health
-description: This accelerator provides a demonstration of the possibilities and capabilities of Impact Platform Health.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Impact Platform Health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-impact-platform-health.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Impact Platform Health
 
-This accelerator provides a demonstration of the possibilities and capabilities of Impact Platform Health.
+This Accelerator provides a demonstration of the possibilities and capabilities of Impact Platform Health.
 
 ## Accelerator Overview
 
-Jumpstart Your Impact Platform Health helps platform owners and instance administrators to quickly adopt Impact Platform Health. This session includes an overview of key features and a live demonstration using a copy of the customer's instance. Focused on simplicity and speed, this accelerator enables teams to proactively monitor, maintain, and improve platform health in alignment with leading practices.
+Jumpstart Your Impact Platform Health helps platform owners and instance administrators to quickly adopt Impact Platform Health. This session includes an overview of key features and a live demonstration using a copy of the customer's instance. Focused on simplicity and speed, this Accelerator enables teams to proactively monitor, maintain, and improve platform health in alignment with leading practices.
 
 ## Package Availability
 
@@ -26,7 +26,7 @@ Jumpstart Your Impact Platform Health helps platform owners and instance adminis
 
 ## Prerequisites
 
-While the Impact Store app is required to use Platform Health in production and sub-production instances, it is not needed to take this accelerator.
+While the Impact Store app is required to use Platform Health in production and sub-production instances, it is not needed to take this Accelerator.
 
 ## What You Get
 

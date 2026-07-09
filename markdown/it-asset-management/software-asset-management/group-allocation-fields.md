@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [group allocations]
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Group allocations fields

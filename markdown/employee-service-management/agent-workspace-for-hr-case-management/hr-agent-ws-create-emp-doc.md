@@ -24,15 +24,15 @@ Role required: sn\_hr\_ef.document\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
-3.  Click **Employee documents**.
+3.  Select **Employee documents**.
 
-4.  Click **All**.
+4.  Select **All**.
 
-5.  Click **New**.
+5.  Select **New**.
 
-    Alternatively, you can also create an employee document from **HR Profiles**. Select a HR Profile and from the more actions menu, click **New document**.
+    Alternatively, you can also create an employee document from **HR Profiles**. Select a HR Profile and from the more actions menu, select **New document**.
 
 6.  On the form, fill in the fields.
 
@@ -50,7 +50,7 @@ Employee Document
 
 </td><td>
 
-Employee document to upload.Click **Browse** to upload an employee document.
+Employee document to upload.Select **Browse** to upload an employee document.
 
  By default, the maximum size of a document allowed is 30 MB. The default can be changed from the**Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/employee-doc-properties.md).
 
@@ -58,7 +58,7 @@ Employee document to upload.Click **Browse** to upload an employee document.
 
  The viewer within the UI only supports viewing .pdf documents. Other types of documents can be downloaded and then viewed.
 
- For optimal search results, do not use dashes \(-\) in the name of the document. Using full words separated by spaces or underbars provides better search results.
+ For optimal search results, don't use dashes \(-\) in the name of the document. Using full words separated by spaces or underbars provides better search results.
 
  Check **Yes** in the **Enable Document Viewer to preview pdf documents** in the Employee Documents property to view .pdf documents.
 
@@ -113,7 +113,7 @@ Purge hold status of a document.-   Pending purge authorization: Awaiting author
 
 
 </td></tr></tbody>
-</table>7.  Click **Save** to create the employee document record.
+</table>7.  Select **Save** to create the employee document record.
 
     The **Audit Trail** tab appears.
 

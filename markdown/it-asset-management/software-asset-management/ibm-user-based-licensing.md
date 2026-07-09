@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Supported IBM license types, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Supported IBM license types, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # IBM user-based licenses
@@ -20,7 +20,7 @@ Supported UVU-based licenses include authorized UVU, employee UVU, and external 
 
 IBM user-based licensing enables you to license the users who require access to your IBM software products. You can track and optimize the compliance of your IBM user-based licenses by reconciling the associated IBM software products through client access records. With a client access record, you can specify the total number of users who are granted access to a particular version of an IBM software product. For more granular control, you can also identify the specific users who are granted access to that product. The Software Asset Management application can then compare this information against the software rights and allocations that are defined in the corresponding software entitlements to determine if the associated user-based licenses are compliant.
 
-For more information on client access records in the Software Asset Workspace, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md). For more information on client access records in the Software Asset Management classic application, see [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
+For more information on client access records in the Software Asset Workspace, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md). For more information on client access records in the Software Asset Management classic application, see [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
 
 ## Authorized user licensing
 

@@ -22,6 +22,8 @@ Several types of components are installed with the Task Mining application, incl
 Key terms used in Task Mining.
 -   **[Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/data-management.md)**  
 Task Mining collects workstation and user categories of data.
+-   **[Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-agent-features-and-workarounds.md)**  
+The Task Mining agent is a service installed on a user's workstation that captures workstation logs for active windows only. Task Mining agent user-initiated recording supports mouse actions, hotkeys, and authentication integrations.
 -   **[Agent and system configuration records in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/agent-system-configuration-records.md)**  
 Configuration records manage the behavior of the workstation agent and Task Mining environment.
 -   **[Categorization rule form in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/categorization-rules.md)**  

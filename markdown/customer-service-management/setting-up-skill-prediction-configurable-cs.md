@@ -36,7 +36,7 @@ Role required: sn\_sre.admin
 
     This scheduled job is inactive by default. When you activate it, the job runs daily at 1:00 AM on all cases resolved the previous day. The job then adds the skills to the User Predicted Skill \[sn\_sre\_user\_predicted\_skill\] table and Task Predicted Skill \[sn\_sre\_task\_predicted\_skill\] table.
 
-    **Note:** Recommended skills will start appearing once the number of records in \[sn\_sre\_task\_predicted\_skill\] table exceeds the value defined in the \[sn\_sre.user\_predicted\_skill\_threshold\] [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+    **Note:** Recommended skills will start appearing once the number of records in \[sn\_sre\_task\_predicted\_skill\] table exceeds the value defined in the \[sn\_sre.user\_predicted\_skill\_threshold\] [Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
 
 **Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-coaching-configurable-wfo-cs.md)

@@ -27,9 +27,7 @@ Role required: admin or Employee Slate administrator.
 
 The home page is the personalized starting point for an employee. The page aggregates the relevant tasks, requests, and content for the day.
 
-The home page ships with five out-of-the-box widgets: Tasks and requests, Announcements, Popular Content, Upcoming Holiday, and Quick Links. Configure each widget to scope the content for the audience.
-
-\[Omitted image "es-home-page.png"\] Alt text: Employee Slate home
+Configure each widget to scope the content for the audience.
 
 ## Procedure
 
@@ -41,25 +39,27 @@ The home page ships with five out-of-the-box widgets: Tasks and requests, Announ
 
     Employees use the chat entry to find a knowledge article, request a catalog item, or ask a quick question without navigating away.
 
-3.  Configure the **Tasks and requests** widget.
+    \[Omitted image "es-home-widget-config.png"\] Alt text: Home widget configuration in the Product Configuration console
 
-    Set the task types and the source queues that appear in the widget. Employees can take action on a task from the widget or open the full Tasks and requests view.
+3.  [Configure tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-tasks-requests.md) widget.
 
-4.  Configure the **Announcements** widget.
+    Set the task types and the source queues that appear in the widget. Employees can take action on a task from the widget or open the detailed Tasks and requests view.
+
+4.  [Create an announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
     Select the announcement source and the carousel order. Employees can select a slide to open the announcement details.
 
-5.  Configure the **Popular Content** widget.
-
-    Set the source for knowledge articles and catalog items. The widget shows the most viewed knowledge and the most requested catalog item for the chosen scope.
-
-6.  Configure the **Upcoming Holiday** widget.
+5.  [Configure the Upcoming Holiday widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-upcoming-holiday.md).
 
     Set the holiday source by work location. Employees view the next holiday based on the location set on the user record.
 
-7.  Configure the **Quick Links** widget.
+6.  [Manage quick links widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.md).
 
     Add knowledge articles, catalog items, or external links. Employees select a link to navigate directly to the destination.
+
+7.  Configure the **Popular Content** widget.
+
+    Set the source for knowledge articles and catalog items. The widget shows the most viewed knowledge and the most requested catalog item for the chosen scope.
 
 8.  Verify the home page from an employee account such as Abel Tuter.
 
@@ -72,5 +72,5 @@ The home page ships with five out-of-the-box widgets: Tasks and requests, Announ
 
 ## Result
 
-Employees view the configured chat entry at the top of the page and the five out-of-the-box widgets below. The page presents proactive nudges for tasks and surfaces popular content, the next holiday, and the quick links you configured.
+Employees view the configured chat entry at the top of the page and the five default widgets below. The page presents proactive nudges for tasks and surfaces popular content, the next holiday, and the quick links you configured.
 

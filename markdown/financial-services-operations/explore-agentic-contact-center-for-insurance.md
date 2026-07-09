@@ -1,6 +1,6 @@
 ---
 title: Exploring Agentic Contact Center for Insurance
-description: Insurance customer service representatives \(CSRs\) can use Agentic Contact Center for Insurance to handle customer interactions from a single AI-enhanced workspace that consolidates policy data, live call transcripts, and AI-generated guidance. It reduces application switching and research time, improves interaction quality, and eliminates the complexity of managing multiple applications simultaneously. The details displayed in the workspace are based on the scope
+description: Insurance customer service representatives \(CSRs\) can use Agentic Contact Center for Insurance to handle customer interactions from a single AI-enhanced workspace that consolidates policy data, live call transcripts, and AI-generated guidance. It reduces application switching and research time, improves interaction quality, and eliminates the complexity of managing multiple applications simultaneously. The details displayed in the workspace are based on the scope of the CSR role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/explore-agentic-contact-center-for-insurance.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Agentic Contact Center for Insurance, Insurance applications, Finan
 
 # Exploring Agentic Contact Center for Insurance
 
-Insurance customer service representatives \(CSRs\) can use Agentic Contact Center for Insurance to handle customer interactions from a single AI-enhanced workspace that consolidates policy data, live call transcripts, and AI-generated guidance. It reduces application switching and research time, improves interaction quality, and eliminates the complexity of managing multiple applications simultaneously. The details displayed in the workspace are based on the scope
+Insurance customer service representatives \(CSRs\) can use Agentic Contact Center for Insurance to handle customer interactions from a single AI-enhanced workspace that consolidates policy data, live call transcripts, and AI-generated guidance. It reduces application switching and research time, improves interaction quality, and eliminates the complexity of managing multiple applications simultaneously. The details displayed in the workspace are based on the scope of the CSR role.
 
 ## Agentic Contact Center for Insurance overview
 

@@ -9,7 +9,7 @@ classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Adjust a contract, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Adjust a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Renew a contract

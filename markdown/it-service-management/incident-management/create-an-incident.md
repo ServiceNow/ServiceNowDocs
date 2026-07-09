@@ -30,7 +30,7 @@ This procedure describes how an ITIL agent completes the Incident form. Incident
 
     You can also select **New** from the Incident list view.
 
-    If the **Incident** module is not visible in the **All** menu, contact your system administrator to verify that the **itil** or **sn\_incident\_write** role is assigned to your user record.
+    **Note:** If the **Incident** module is not visible in the **All** menu, contact your system administrator to verify that the **itil** or **sn\_incident\_write** role is assigned to you.
 
 2.  [Use a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_UseATemplateFromAForm.md), if one exists for the type of incident that you are logging.
 

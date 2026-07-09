@@ -1,5 +1,5 @@
 ---
-title: Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics
+title: Analyze log lines to identify an alert root cause
 description: When Health Log Analytics identifies an anomaly, viewing the logs that surround the anomaly provides clues about the state of faulting systems. This information can help you narrow down the root cause of an alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.html
@@ -13,7 +13,7 @@ keywords: [surrounding logs, anomaly investigation, root cause analysis, log tim
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics
+# Analyze log lines to identify an alert root cause
 
 When Health Log Analytics identifies an anomaly, viewing the logs that surround the anomaly provides clues about the state of faulting systems. This information can help you narrow down the root cause of an alert.
 
@@ -25,7 +25,7 @@ You can modify the time range of the displayed log lines, for example to investi
 
 **Note:** Logs that surround the anomaly are retained and available for 30 days after the creation of the alert. The system does not delete these logs when the global retention period of logs expires. When the retention period expires, the surrounding logs are available only on the **Surrounding logs** tab and not in the Log viewer.
 
-Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert and lists the associated log lines. It automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md).
+Health Log Analytics enables you to view the anomalous log data graphically on the Log viewer, accessed from the Service Operations Workspace. The Log viewer displays a chart of the frequency of anomalous log lines during one minute before and one minute after the Log Analytics alert and lists the associated log lines. It automatically shows the query that relates to the anomaly, the selected component, and the appropriate time filter. For more information, see [Review alert logs on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md).
 
 **Related topics**  
 

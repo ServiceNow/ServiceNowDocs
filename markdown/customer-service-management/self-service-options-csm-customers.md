@@ -45,7 +45,7 @@ With Web Embeddables you can embed web components into external websites outside
 
 Web Embeddables offer the following benefits:
 
--   Seamless user experience: Embedding components onto third-party websites enables you to access these components without navigating away from the websites you're on, eliminating the need to switch between multiple websites. This integration maintains a consistent user experience and enhances user engagement.
+-   Seamless user experience: Embedding components onto third-party websites enables you to access them without leaving the current site. You don't need to switch between multiple websites. This maintains a consistent user experience and enhances engagement.
 -   Configuration: Configure the components to fit the specific needs of your website ensuring that the embedded components synchronize with other components on your website. This flexibility enables you to tailor the user experience according to your business requirements.
 -   Reusability: The ability to modify the global code and component code enables you to reconfigure the components without developing new functionalities from scratch.
 -   Low code configuration: Manage updates to data, event handlers, and the presentation of your components with minimal coding. Configure the component code enables you to trigger updates across your component with minimal effort.
@@ -64,15 +64,6 @@ You can configure four types of portals to support your customers and consumers:
 -   [Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-portal.md): Supports your business-to-consumer \(B2C\) customers and is built using configurable widgets.
 
 All the portals offer the same self-service and Virtual Agent assistance features.
-
--   **Self-service on portals**
-
-    You can configure your Customer Service Portal, Consumer Service Portal, Business Portal, or Consumer Portal with the following self-service features:
-
-    \[Omitted image "self-service-portal.png"\] Alt text: Infographic displaying various options for self-service. For the text description, refer to the column in the Self-service on portals table.
-
-    To get started with the portals, see [Configure the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md) and [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md).
-
 
 ## Engagement Messenger
 

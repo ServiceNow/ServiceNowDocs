@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -42,6 +42,8 @@ Change Management supports the three types of service changes ITIL describes —
 
     Normal change requests follow a prescriptive process which requires two levels of approval before being implemented, reviewed, and closed. These changes require a full range of assessments and authorizations such as peer or technical approval, change management, and Change Advisory Board \(CAB\) authorization, to ensure completeness, accuracy, and the least possible disruption to service. These changes are most often scheduled outside of defined change blackout windows or during defined maintenance windows. The normal type is used to implement beneficial change for any change to a service that is not a standard or emergency change.
 
+
+The following table summarizes about the three change types:
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/exploring-change-management.md)
 

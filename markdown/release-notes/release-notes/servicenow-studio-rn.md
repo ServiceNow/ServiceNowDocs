@@ -125,7 +125,7 @@ ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
     Create and edit email notifications that are automatically sent when a record is created or updated. Email notifications are also used as a reference in flows or can be triggered by an event.
 
--   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)**
+-   **Flows in Workflow Studio**
 
     Create and edit flows, subflows, and actions directly in a Workflow Studio tab within ServiceNow Studio.
 
@@ -137,7 +137,7 @@ ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
     Add mobile experiences in a Mobile App Builder within ServiceNow Studio.
 
--   **[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)**
+-   **Playbooks in Workflow Studio**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 

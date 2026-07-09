@@ -28,7 +28,7 @@ You can use an existing or create an HR PDF document template. You can add signe
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Document Templates**.
 
-2.  Click **New** or open a record.
+2.  Select **New** or open a record.
 
     **Note:** If you are creating a record, make sure to select **PDF Document Template**.
 
@@ -103,11 +103,13 @@ HR criteria
 Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
-</table>5.  Right-click on the form header and click **Save**.
+</table>5.  Right-click on the form header and select **Save**.
 
     The PDF Template Mappings section is displayed.
 
-6.  , as appropriate.
+6.  Configure and upload a PDF template as required.
+
+    **Note:** For more information, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
     You can add signers to the document with **Mark Signatures**, and then map each signature field to an appropriate user field in a table. You can also parse the PDF to map document fields to corresponding table fields to auto-populate the document when it is generated for signing.
 
@@ -115,14 +117,14 @@ Defines the conditions that the subject person of an HR case must meet for an HR
 
 7.  If you want to enable serial signing for documents that require multiple signers, assign the signing order for each signature field in the PDF Template Mappings section.
 
-    If the **Signing order** column is not visible, click the gear icon to personalize the list columns. Add the **Signing order** field to the Selected column.
+    If the **Signing order** column is not visible, select the gear icon to personalize the list columns. Add the **Signing order** field to the Selected column.
 
     **Note:**
 
     -   The **Signing order** field remains empty in case of parallel signing.
-    -   Ensure that the **Field name** of **Document field type** `Signature` is specified as Participant1, Participant2, Participant3, and so on.
-    -   Ensure that the signing order of the first participant is lesser than the signing order of the second participant.
-8.  Click **Update**.
+    -   Confirm that the **Field name** of **Document field type** `Signature` is specified as Participant1, Participant2, Participant3, and so on.
+    -   Verify that the signing order of the first participant is lesser than the signing order of the second participant.
+8.  Select **Update**.
 
 
 **Parent Topic:**[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)

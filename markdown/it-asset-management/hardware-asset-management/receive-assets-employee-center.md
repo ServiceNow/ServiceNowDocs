@@ -9,7 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Acknowledge receipt of assets on the Employee Center portal
@@ -69,15 +69,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d67233e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d67544e214">
 
 Asset
 
-</th><th align="left" id="d67233e217">
+</th><th align="left" id="d67544e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67233e223">
+</th></tr></thead><tbody><tr><td id="d67544e223">
 
 **Hardware**
 
@@ -97,7 +97,7 @@ Action
     -   Any receive task associated with that asset is automatically closed.
  **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d67233e336">
+</td></tr><tr><td id="d67544e336">
 
 **Consumables**
 

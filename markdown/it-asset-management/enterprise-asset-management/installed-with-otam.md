@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Installed with OT Asset Management

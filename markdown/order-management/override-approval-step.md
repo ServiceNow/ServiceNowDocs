@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 1
-breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Override an approver

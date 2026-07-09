@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/data-model-for-deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Data model for Deal Registration Management
@@ -28,7 +28,7 @@ Configure the deal registration \(sn\_prm\_dr\_deal\_registration\) table to tra
 -   **[Configure Deal Registration Type table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-deal-registration-type-table.md)**  
 Configure the deal registration type \(sn\_prm\_dr\_deal\_registration\_type\) table to specify the role or involvement of a channel partner in a deal registration.
 
-**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+**Parent Topic:**[Install Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-deal-registration-management.md)
 
 **Related topics**  
 

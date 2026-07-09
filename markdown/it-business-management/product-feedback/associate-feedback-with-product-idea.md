@@ -40,5 +40,5 @@ Role required: pf\_user
 
 [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md)
 
-[Associate a feedback or a product idea record with a non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
+[Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Review AI generated alert information and insights in Express List
+title: Review AI-generated alert insights in Express List
 description: Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Manage alerts autonomously agentic workflow, Use agentic AI, Now Assist for ITOM, IT Operations Management]
 ---
 
-# Review AI generated alert information and insights in Express List
+# Review AI-generated alert insights in Express List
 
 Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 
@@ -52,15 +52,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d131167e213">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d132128e213">
 
 Review AI insights
 
-</th><th align="left" id="d131167e216">
+</th><th align="left" id="d132128e216">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d131167e222">
+</th></tr></thead><tbody><tr><td id="d132128e222">
 
 **Check for the AI Insights badge for alert status**
 
@@ -70,7 +70,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d131167e245">
+</td></tr><tr><td id="d132128e245">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -78,7 +78,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d131167e261">
+</td></tr><tr><td id="d132128e261">
 
 **Filter using AI Insights filter attribute**
 
@@ -86,7 +86,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d131167e280">
+</td></tr><tr><td id="d132128e280">
 
 **Review AI insights in the preview panel**
 
@@ -97,7 +97,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d131167e323">
+</td></tr><tr><td id="d132128e323">
 
 **Review AI Insights in the alert record overview**
 

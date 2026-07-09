@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Configure other integration options
@@ -42,7 +42,7 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 5.  Enter the **Username** and **API token** for authentication.
 
 
-**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
+**Parent Topic:**[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 
 ## Other integration leading practices
 

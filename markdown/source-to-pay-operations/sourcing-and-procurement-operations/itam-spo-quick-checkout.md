@@ -1,6 +1,6 @@
 ---
-title: Create purchase requisition from the ITAM Workspace
-description: As an asset manager, use SPO’s purchasing flow from the ITAM Workspace to complete checkout when the requested item has contractual pricing.
+title: Create purchase requisition from the Asset Management Workspace
+description: As an asset manager, use SPO's purchasing flow from the Asset Management Workspace to complete checkout when the requested item has contractual pricing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.html
 release: australia
@@ -9,12 +9,12 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create SR or PR via ITAM Workspace, Sourcing Procurement Operations integration Asset, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Create SR or PR from Asset Management Workspace, Sourcing and Procurement Operations and Asset Management integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Create purchase requisition from the ITAM Workspace
+# Create purchase requisition from the Asset Management Workspace
 
-As an asset manager, use SPO’s purchasing flow from the ITAM Workspace to complete checkout when the requested item has contractual pricing.
+As an asset manager, use SPO's purchasing flow from the Asset Management Workspace to complete checkout when the requested item has contractual pricing.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ This task describes the options you need to select and the information you need 
 
 ## Procedure
 
-1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
+1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
 
 2.  Submit sourcing request for items without price.
 
@@ -72,11 +72,11 @@ This task describes the options you need to select and the information you need 
 
 The Procurement Specialist reviews the requisition in the Source-to-Pay Workspace and converts it into a purchase order.
 
-**Note:** The PO created in SPO \(sn\_shop\_purchase\_order table\) references the corresponding PO generated in ITAM \(procure\_po table\). The Asset Manager can monitor the progress of the SR, PR, and PO by closely tracking the PO within ITAM.
+**Note:** The PO created in SPO \(sn\_shop\_purchase\_order table\) references the corresponding PO generated in Asset Management \(procure\_po table\). The Asset Manager can monitor the progress of the SR, PR, and PO by closely tracking the PO within Asset Management.
 
 If the asset manager has the Shopping Hub shopper role \(sn\_shop.shopper\), they can also view the status of their request directly in Shopping Hub.
 
-The end user who submitted the original RITM continues to track and monitor the request status on the RITM record. Statuses between SPO and ITAM objects are synchronized so that updates appear in real time.
+The end user who submitted the original RITM continues to track and monitor the request status on the RITM record. Statuses between SPO and Asset Management objects are synchronized so that updates appear in real time.
 
-**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)
+**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)
 

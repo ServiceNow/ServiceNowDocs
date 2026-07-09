@@ -19,7 +19,7 @@ The ServiceNow Health and Safety Incident Management connects with the Industria
 
 ## ICW Health and Safety overview
 
-The ICW Health and Safety Integration helps you to reduce recurring incidents and strengthen workplace safety by connecting by connecting safety incident reporting with ICW task flows, standards, and root cause analysis.
+The ICW Health and Safety Integration helps you to reduce recurring incidents and strengthen workplace safety by connecting safety incident reporting with ICW task flows, standards, and root cause analysis.
 
 When operators encounter safety-related issues during their work, they can report incidents directly from the Digital Factory Workspace or ICW Mobile Experience. These incidents can be linked to existing ICW tasks such as actions, deviations, and Industrial Guided Tasks, providing context for investigation and follow-up.
 
@@ -27,7 +27,7 @@ Safety teams can then triage reported incidents, identify root causes, and take 
 
 For more information on Health and Safety Incident Management, see [Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-hs-incident-mgmt.md).
 
-## ICW Health and Safety Integration Personas
+## ICW Health and Safety Integration personas
 
 |User|Description|
 |----|-----------|

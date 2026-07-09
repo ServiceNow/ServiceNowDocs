@@ -100,6 +100,8 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 [Configure a Date filter in the inline editor]()
 
+[URL filter parameters for dashboard filters]()
+
 [Edit a Platform Analytics filter on a dashboard]()
 
 [Platform Analytics filter tables]()

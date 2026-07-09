@@ -1,5 +1,5 @@
 ---
-title: Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace
+title: Working with SPO playbooks in the Source-to-Pay Workspace
 description: Playbooks provide a streamlined and consistent way of accomplishing various tasks, such as editing a purchase order, editing a purchase requisition, approving or rejecting cancellation requests, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace
+# Working with SPO playbooks in the Source-to-Pay Workspace
 
 Playbooks provide a streamlined and consistent way of accomplishing various tasks, such as editing a purchase order, editing a purchase requisition, approving or rejecting cancellation requests, and so on.
 

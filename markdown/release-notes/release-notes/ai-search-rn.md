@@ -29,6 +29,8 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 ## New in the Australia release
 
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate_multicontent_sythesized-sources.md)**
+
 -   **[Multimodal captioning for attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-multimodal-captioning.md)**
 
     Multimodal captioning automatically generates searchable descriptive captions for images, tables, charts, and other visual elements in indexed attachments. Find attachments by searching for keywords from generated captions.

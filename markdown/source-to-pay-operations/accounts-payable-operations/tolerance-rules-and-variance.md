@@ -46,11 +46,11 @@ View tolerance details at the header level and variance details at the line leve
 **Related topics**  
 
 
-[Invoice ingestion using Application programming interface \(API\)]()
+[Invoice ingestion using the AP Invoice API]()
 
 [Rules based engine]()
 
-[Work with invoices]()
+[Invoice processing overview]()
 
 [Invoice processing cases]()
 

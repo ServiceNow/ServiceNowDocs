@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM
@@ -18,7 +18,7 @@ View AI-generated insights for a portfolio plan in Strategic Planning Workspace 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -43,6 +43,8 @@ The insights are generated for the following categories for a portfolio plan:
 
 3.  From the portfolio plan header, select **Portfolio insights**.
 
+    **Note:** If insights were generated previously, the AI Insights window displays the timestamp of the last generation. You can select **Regenerate** or Refresh icon to generate updated insights and recommendations based on the latest available data.
+
     Portfolio Insights displays risk signals across the following areas: delayed planning items, projects at risk, delayed starts, and planned versus approved date misalignments.
 
 4.  On the Portfolio insights modal, review the insight categories displayed.
@@ -64,5 +66,5 @@ The insights are generated for the following categories for a portfolio plan:
 
 Portfolio Insights identifies prioritized planning items at risk, along with root cause analyses and recommended actions to help you maintain portfolio health.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

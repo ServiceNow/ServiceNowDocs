@@ -1,5 +1,5 @@
 ---
-title: Review a software bill of materials submission from an engagement
+title: Review an SBOM submission from an engagement
 description: Track processing status and review the outcome of a SBOM submission from an engagement, including successful upload, failed upload, and decline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/sbom-review.html
@@ -13,7 +13,7 @@ keywords: [SBOM, software bill of materials, due diligence, vendor risk assessme
 breadcrumb: [Collecting software bill of materials, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Review a software bill of materials submission from an engagement
+# Review an SBOM submission from an engagement
 
 Track processing status and review the outcome of a SBOM submission from an engagement, including successful upload, failed upload, and decline.
 
@@ -63,7 +63,7 @@ Third-party assessment reviewers can view SBOM component records on engagement a
 
         Notify the engagement contact to upload a corrected SBOM file in JSON or XML format.
 
-    -   If the engagement declined to provide a SBOM, the system logs a comment on the external assessment and closes the assessment in the **Responses received** state.
+    -   If the engagement declined to provide an SBOM, the system logs a comment on the external assessment and closes the assessment in the **Responses received** state.
 
         Review the reason for the declination and determine whether further action is required as part of your risk evaluation process.
 

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -18,23 +18,31 @@ You can create change tasks for a change request. A change task is a piece of wo
 
 ## Before you begin
 
+Before creating a change task, confirm you have the required roles. If not, contact your administrator to request access.
+
 Role required: itil, admin, or sn\_change\_write
 
 ## About this task
 
-Change tasks can be created manually or from a workflow. The Change Request form has a **Change Tasks** related list, which includes all manual and workflow change tasks. From this related list, you can edit existing tasks or create tasks. Workflow change tasks are generated automatically in **Review** task type.
+Change tasks can be created manually or from a workflow. The **Change Tasks** related list is displayed by default and includes all manual and workflow-generated change tasks.
+
+To edit existing tasks or create tasks, from the **Related Links** section, select the **Change Tasks** tab and then select **New**.
+
+If the Change task related list is not visible, scroll down the change form or verify that your role has permission to view it. If the list is still not visible, contact your IT administrator to verify your permissions and form configuration.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
-
 2.  Select the change request to add a change task.
 
-3.  In the **Change Tasks** related list, click **New**.
+3.  In the **Related Links** section, select **Change Tasks** tab and then, select **New**.
 
-4.  Fill in the fields, as appropriate.
+4.  To associate an existing change task with the change request, open the change task record and update the **Change** field to the target change request and save the record.
+
+    **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks to the new change request, [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/copy-a-change-request.md)
+
+5.  Fill in the fields, as appropriate.
 
 <table id="table_blp_xnl_sy"><thead><tr><th>
 
@@ -74,7 +82,7 @@ Type
 
 </td><td>
 
-The type of change task, **Planning**, **Implementation**, **Testing**, or **Review**. The default workflow generates tasks in type **Review**.
+The type of change task, **Planning**, **Implementation**, **Testing**, or **Review**. The default workflow generates tasks in type **Planning**.
 
 </td></tr><tr><td>
 
@@ -82,11 +90,11 @@ State
 
 </td><td>
 
-The state of the change task:-   **Pending**: Open and unassigned
--   **Open**: Open and unassigned
--   **In progress**: Open and actively being worked on
--   **Closed**: Inactive and closed. Requires close code and close notes to be provided.
--   **Canceled**
+The state of the change task:-   **Pending**: Not yet ready to be worked on. Waiting for a predecessor task to complete or for the scheduled start time.
+-   **Open**: Ready to be worked but not yet started.
+-   **In progress**: Actively being worked on.
+-   **Closed**: Inactive and closed. Set the **Close code** and **Close notes** fields before you move the task to **Closed**.
+-   **Canceled**: No longer required. The task is closed without being completed.
 
 
 </td></tr><tr><td>
@@ -130,11 +138,17 @@ Description
 A detailed description of the task.
 
 </td></tr></tbody>
-</table>5.  To enter work notes for the change task, click the **Notes** tab.
+</table>6.  To enter work notes for the change task, select the **Notes** tab.
 
-6.  To enter notes on why the task was closed, click the **Closure Information** tab.
+7.  To record the reasons for closing a task, select the **Closure Information** tab and set the **Close code** and **Close notes** fields.
 
-7.  Click **Submit**.
+    Each change task is closed individually. The **Close code** applies to the current change task and not to other change tasks on the change request.
+
+    **Important:**
+
+    Close codes and close notes apply to individual change tasks only and do not affect other change tasks on the change request. Once you submit or close a change task, you cannot revert it to an earlier state, such as **Open** or **In Progress**.
+
+8.  Select **Submit**.
 
     The change task is added to the change request. The assigned user receives a notification that a task was assigned to them.
 

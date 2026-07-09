@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 6
 ---
 
 # API release notes
@@ -110,6 +110,31 @@ API
 Endpoints
 
 </th></tr></thead><tbody><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The REST version of this API is .
+
+</td></tr><tr><td>
 
 Lead to Cash Core
 
@@ -243,6 +268,31 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, the `CatalogSearch` Server API is the base platform API for service catalog item search; the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The REST version of this API is .
+
+</td></tr><tr><td>
+
 Lead to Cash Core
 
 </td><td>
@@ -343,6 +393,87 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
+AI Control Tower
+
+</td><td>
+
+v6.0.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+-   GET /asset-class
+-   GET /details
+
+</td></tr><tr><td>
+
+Healthcare and Life Sciences Service Management Core
+
+</td><td>
+
+v1.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /message
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /api/sn\_prd\_pm/catalog/search**Note:** The script include version of this API is .
+
+</td></tr><tr><td>
+
+Usage Insight Data Export
+
+</td><td>
+
+1.0.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+POST /sn\_uxa\_data\_export/data\_export
+
+</td></tr><tr><td>
+
 Workplace Service Delivery
 
 </td><td>
@@ -442,6 +573,9 @@ Synthetic monitoring
 
 The following tables lists changed API classes and methods in Australia and ServiceNow Store.
 
+|Application|App Version|Release month|API|Methods|
+|-----------|-----------|-------------|---|-------|
+
 <table id="table_gbh_3zx_x3c"><thead><tr><th>
 
 Application
@@ -460,7 +594,7 @@ API
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
 
@@ -534,12 +668,61 @@ On fields set to strict read only, the following methods do nothing and log a wa
 
 For more information, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-only-option.md).
 
-</td></tr></tbody>
-</table>|API|Endpoints|
-|---|---------|
-||setICContext\(\) - New **searchTargetList.quickStats** object provides agent status information.|
+</td></tr><tr><td>
 
-<table id="table_lcz_gmc_tcc"><thead><tr><th>
+
+
+</td><td>
+
+setICContext\(\) - New **searchTargetList.quickStats** object provides agent status information.
+
+</td></tr></tbody>
+</table><table id="table_changed_client_APIs"><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Release month
+
+</th><th>
+
+API
+
+</th><th>
+
+Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Customer Service Management \(CSM\)
+
+</td><td>
+
+v1.2
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+setICContext\(\):
+
+-   added `activeConversations` and `agentSettings` are added as new context inputs.
+
+ subscribe\(\): Added openframe\_awa\_workitem\_cancelled as a new event.
+
+</td></tr></tbody>
+</table><table id="table_lcz_gmc_tcc"><thead><tr><th>
 
 API
 
@@ -568,6 +751,134 @@ Added support for AI-generated wrap‑up codes and notes.-
 -   
 -   
 -   
+
+</td></tr></tbody>
+</table><table id="table_nbf_qmc_tcc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Release month
+
+</th><th>
+
+API
+
+</th><th>
+
+Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+v3.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+The following endpoints are updated as follows:
+
+-   POST /test\_runner: Now supports asynchronous test execution via the new `sync` parameter.
+-   POST /cancel\_test\_runner: Introduces `rootTrackerId` as an alternative identifier for tracking and canceling test runs.
+-   GET /test\_runner\_progress: Introduces `rootTrackerId` as an alternative identifier for tracking and canceling test runs.
+
+ All Cloud Runner Test REST APIs now standardize on HTTP error codes: 400 for validation errors and 500 for unexpected errors.
+
+</td></tr><tr><td>
+
+Telecommunications Service Management
+
+</td><td>
+
+v4.1.1
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+The POST /organization endpoint now supports a list of valid **partyCharacteristic.name** values.As a result, the **partyCharacteristic.value** attribute accepts the display value of `rankTier` and `industry` choice fields as input. Invalid choice values trigger a descriptive warning in the API response, enabling clearer validation feedback and improved data consistency.
+
+</td></tr><tr><td>
+
+Order Management for Telecommunications
+
+</td><td>
+
+v4.0
+
+</td><td>
+
+2026-07
+
+</td><td>
+
+
+
+</td><td>
+
+For all endpoints, the **serviceOrderItem.orderRelationship** parameter is renamed to **serviceOrderItem.serviceOrderItemRelationship**. This change affects both requests and responses.
+
+</td></tr><tr><td>
+
+Order Management for Telecommunications
+
+</td><td>
+
+v12.5.0
+
+</td><td>
+
+2026-06
+
+</td><td>
+
+-   
+-   
+
+</td><td>
+
+The **characteristicObj** parameter is introduced as a fix to validate the **.value** property against allowed choice-type values by default. If an invalid value is submitted, the API adds a work note to the record.A new system property, `sn_ind_tmt_orm.disableCharValueValidation`, allows you to revert to pre-fix behavior when needed. The property isn't shipped by default. To disable validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated.
+
+</td></tr><tr><td>
+
+Workplace Reservation Management
+
+</td><td>
+
+v1.0
+
+</td><td>
+
+2026-05
+
+</td><td>
+
+
+
+</td><td>
+
+In the POST /add endpoint, the **reservable\_module** request parameter is no longer required as of this release, but is required for earlier releases.
 
 </td></tr></tbody>
 </table>## Deprecations

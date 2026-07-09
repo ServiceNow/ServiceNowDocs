@@ -7,7 +7,7 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-07-05"
 reading_time_minutes: 10
 keywords: [Now Assist, Now Assist skills, Generative AI, Gen AI, Security operations, IT operations, ITSM, IT Service management, Customer service management, CSM, Strategic portfolio management, SPM, Field service management, FSM, Financial services operations, FSO, HR Service Delivery, HRSD, Sourcing and procurement operations, SPO]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
@@ -19,9 +19,9 @@ Now Assist products provide generative AI skills that are tailored to meet the n
 
 The following sections describe the available Now Assist skills.
 
-By default, all skills exist in the global domain. When you use Now Assist in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, Now Assist only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 **Note:** Some workflow skills support Now Assist functionality. Deactivating these skills may negatively impact some features.
 
@@ -105,9 +105,10 @@ Technology
 
 </td><td>
 
--   [Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-agent-ci-summarizer.md)
--   [Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-cmdb-mng-dupe-cis-skill.md)
--   [Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-sgc-diagnose.md)
+-   Configuration item \(CI\) summarization
+-   Manage duplicate CIs
+-   Service Graph Connector diagnosis
+-   Summarize CMDB readiness
 
 </td></tr><tr><td>
 
@@ -200,11 +201,11 @@ Technology
 
 </td><td>
 
--   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/alert-summarization-now-assist.md)
--   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/nai-analyze-past-incidents.md)
--   [Analyze service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/analyze-service-health-in-service-observability.md)
--   [Analyze service observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/analyze-a-dashboard-in-service-observability.md)
--   [LEAP installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md)
+-   Alert analysis
+-   Alert investigation
+-   Analyze service health
+-   Analyze service observability dashboard
+-   LEAP installer
 -   Service Mapping Candidate
 -   Service mapping candidates Impact
 
@@ -214,7 +215,7 @@ Technology
 
 </td><td>
 
-
+[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm.md)
 
 </td><td>
 
@@ -224,6 +225,7 @@ Technology
 -   Chat reply recommendation
 -   Chat summarization
 -   Email recommendation
+-   Generate change risk assessments answers and reasoning
 -   Incident assist
 -   Incident sentiment analysis
 -   Incident summarization
@@ -289,15 +291,15 @@ Technology
 
 </td><td>
 
--   [Correlation insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generating-insights-for-now-assist-for-security.md)
--   [Generate content for shift handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-incidents-shifthandover-ai-agent.md)
--   [Post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generate-pia-report-now-assist-security-incident.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generate-closure-notes-si-now-assist-sec-incident.md)
--   [Security incident quality assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/na-sir-quality-assessment.md)
--   [Security incident recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/generate-recommended-actions-now-assist-for-security.md)
--   [Security incident resolution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/config-resolution-plan-skill.md)
--   [Security incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/summarize-security-incident-now-assist-sec-incident.md)
--   [Security operations metrics analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-sir-soc-efficiency-usecase.md)
+-   Correlation insights generation
+-   Generate content for shift handover
+-   Post-incident analysis
+-   Resolution notes generation
+-   Security incident quality assessment
+-   Security incident recommended actions
+-   Security incident resolution plan
+-   Security incident summarization
+-   Security operations metrics analysis
 
 </td></tr><tr><td>
 
@@ -362,11 +364,12 @@ Technology
 
 </td><td>
 
-[Now Assist for Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)
+Now Assist for Threat Intelligence Security Center \(TISC\)
 
 </td><td>
 
-[TISC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-case-summarization.md)
+-   TISC case summarization
+-   TISC report authoring
 
 </td></tr><tr><td>
 
@@ -374,16 +377,16 @@ Technology
 
 </td><td>
 
-[Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
+
 
 </td><td>
 
--   [Approval recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-recommendation-skill.md)
--   [Now Assist recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-recommendation-skill.md)
--   [SEM insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-insights-skill.md)
--   [SPC setup connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-api-connector.md)
--   [Suggest vulnerability solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/solutions-now-assist-vulnerability-response.md)
--   [Vulnerable item deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/dedupe-host-vi-now-assist-vulnerability-response.md)
+-   Approval recommendation
+-   Now Assist recommendation
+-   SEM insights
+-   SPC setup connector
+-   Suggest vulnerability solutions
+-   Vulnerable item deduplication
 
 </td></tr><tr><td>
 
@@ -403,6 +406,10 @@ Customer
 -   Customer summarization
 -   Email recommendation
 -   KB generation
+-   Live Agent Assist - Followup Query Enhancer
+-   Live Agent Assist - Interaction Analyser
+-   Live Agent Assist - KG Query Generator
+-   Live Agent Assist - Recommendation Generator
 -   Resolution notes generation
 -   Sentiment analysis case
 -   Sentiment analysis dashboard
@@ -622,7 +629,7 @@ Creator
 
 -   App generation
 -   
--   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)
+-   Catalog item generation
 -   App summary generation
 -   
 -   Code Assist autocomplete
@@ -637,6 +644,7 @@ Creator
 -   
 -   Mobile card generation
 -   Playbook generation
+-   Playbook generation from KB
 -   Playbook generation with images
 -   Playbook recommendations
 -   Playbook summarization
@@ -659,10 +667,11 @@ Platform
 -   [Article optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-article-optimization.md)
 -   [Complete record generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
 -   [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md)
--   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
--   [Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dynamic-guidance.md)
+-   Document summarization
+-   Dynamic Guidance
 -   [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)
 -   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md)
+-   Identify and review duplicate articles
 -   [Knowledge content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.md)
 -   [Multimodal chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-exploring-now-assist.md)
 -   [Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-global-navigation.md)
@@ -670,6 +679,7 @@ Platform
 -   [Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.md)
 -   [Requester approval checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.md)
 -   [ServiceNow Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
+-   Smart documents
 -   [TextToResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
 
 </td></tr><tr><td>
@@ -719,6 +729,8 @@ Finance &amp; Supply Chain
 </td><td>
 
 -   [Invoice case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-summarize-apo.md)
+-   [Invoice inquiry solution generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/use-invoice-inquiry-solution-generator-skill.md)
+-   [Purchase order line mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/use-purchase-order-line-mapping.md)
 -   [Purchase order summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-fsc-summarize-po.md)
 
 </td></tr><tr><td>
@@ -786,13 +798,13 @@ Vault
 
 </td><td>
 
-[Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)
+
 
 </td><td>
 
--   [Check role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/check-role-access-now-assist-vault.md)
--   [Generate custom data pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)
--   [Schedule Data Discovery job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)
+-   Check role access
+-   Generate custom data pattern
+-   Schedule Data Discovery job
 
 </td></tr><tr><td>
 

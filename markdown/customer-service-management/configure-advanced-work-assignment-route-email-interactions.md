@@ -25,6 +25,8 @@ The Service channel **Email** is configured during the installation of the Email
 
 You can use the  [Advanced Work Assignment \(AWA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) feature to automatically assign work items to users based on their availability and capacity.
 
+**Note:** You can also configure external routing with third-party providers. For more information, see [Enable external routing for queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-awa-external-routing.md).
+
 AWA assigns work items using assignment groups, so it's important that your users and groups are set up correctly.
 
 -   Determine the assignment group to use in the AWA service channel configuration and add users to this group.

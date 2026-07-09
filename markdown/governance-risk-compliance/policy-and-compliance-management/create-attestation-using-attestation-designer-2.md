@@ -303,7 +303,7 @@ If you do not want your users to access to this capability, navigate to **All** 
 
 2.  Select the attestations you want to group.
 
-3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
+3.  From the **Actions on selected rows** choice list, select **Group Assessments**.
 
     \[Omitted image "group-assessments.png"\] Alt text: Group assessments
 
@@ -353,8 +353,6 @@ The **Preview** shows the number of attestations to be grouped. Depending on the
 
     A confirmation message displays, along with a link to the attestation group.
 
-    \[Omitted image "message.png"\] Alt text: Assessment created message
-
     **Note:** When attestation groups are created, you can view them by navigating to **Policy and Compliance** &gt; **Controls** &gt; **My Grouped Attestations**. If you open a grouped attestation, you have the option of removing one or more attestations from the group. This is achieved by selecting the ones you want removed, and selecting **Ungroup Assessment** from the **Actions on selected rows** choice list. If you remove attestations from a group to the point where there is only one attestation, the group is removed.
 
 7.  When you are ready to take the assessment, click the link in the confirmation message or the attestation number in **My Grouped Attestations**.
@@ -388,7 +386,7 @@ When you consolidate control attestations or risk assessments using the Differen
 
 2.  Select the attestations you want to group.
 
-3.  From the **Actions on selected rows** choice list, click **Group Assessments**.
+3.  From the **Actions on selected rows** choice list, select **Group Assessments**.
 
     \[Omitted image "group-assessments.png"\] Alt text: Group assessments
 
@@ -438,8 +436,6 @@ The **Preview** shows the number of attestations to be grouped. Depending on the
 
     A confirmation message displays, along with a link to the attestation group.
 
-    \[Omitted image "message.png"\] Alt text: Assessment created message
-
     **Note:** When attestation groups are created, you can view them by navigating to **Policy and Compliance** &gt; **Controls** &gt; **My Grouped Attestations**. If you open a grouped attestation, you have the option of removing one or more attestations from the group. This is achieved by selecting the ones you want removed, and selecting **Ungroup Assessment** from the **Actions on selected rows** choice list. If you remove attestations from a group to the point where there is only one attestation, the group is removed.
 
 7.  When you are ready to take the assessment, click the link in the confirmation message or the attestation number in **My Grouped Attestations**.
@@ -465,11 +461,7 @@ Role required: sn\_compliance.admin, sn\_compliance.manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Administration** &gt; **Assessment Grouping Criteria**.
 
-    \[Omitted image "assess-group-criteria.png"\] Alt text: Assessment grouping criteria
-
 2.  Click **New**.
-
-    \[Omitted image "assess-group-criteria-new.png"\] Alt text: Create a new assessment grouping criteria record
 
 3.  On the form, fill in the fields.
 

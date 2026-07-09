@@ -29,13 +29,13 @@ Role required: admin or Employee Slate administrator.
 
 The employee profile page is the destination for any user card in the org chart. Employees reach the page from the left navigation or from the chart.
 
-The page presents the About and Team sections. Field groups include work details, bio, personal details, and employment details. The overview UI configuration controls which fields appear and where.
+The page presents the **About** and **Team** sections. Field groups include **Work details**, **Bio**, **Personal details**, and **Employment details**. The overview UI configuration controls which fields appear and where.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee profile** &gt; **Overview UI configuration**.
+1.  Go to **All** &gt; **Employee profile** &gt; **Overview UI configuration**.
 
-    Select the field groups that appear on the profile page. Groups include Bio, Personal details, Team section, Work details, and Employment details.
+    Select the field groups that appear on the profile page. Groups include **Bio**, **Personal details**, **Team section**, **Work details**, and **Employment details**.
 
 2.  For each field group, select the fields to display.
 
@@ -43,7 +43,7 @@ The page presents the About and Team sections. Field groups include work details
 
 3.  Set the editable fields for the employee.
 
-    Common editable fields are nickname, pronouns, and bio. Non-editable fields are read-only on the profile page.
+    Common editable fields are **Nickname**, **Pronouns**, and **Bio**. Non-editable fields are read-only on the profile page.
 
 4.  Show the org chart CTA button on the profile.
 
@@ -51,7 +51,7 @@ The page presents the About and Team sections. Field groups include work details
 
 5.  Verify the profile from an employee account such as Abel Tuter or Beth Anglin.
 
-    Open the profile page from the left navigation. Confirm that the About, Team, and field sections render as configured.
+    Open the profile page from the left navigation. Confirm that the **About**, **Team**, and field sections render as configured.
 
 6.  Save the configuration.
 
@@ -60,7 +60,7 @@ The page presents the About and Team sections. Field groups include work details
 
 ## Result
 
-Employees view the configured About and Team sections, the selected field groups, and the editable fields on the profile page. The profile experience aligns with the organization chart and with the AI conversational use cases that reference user details.
+Employees view the configured **About** and **Team** sections, the selected field groups, and the editable fields on the profile page. The profile experience aligns with the organization chart and with the AI conversational use cases that reference user details.
 
 **Related topics**  
 

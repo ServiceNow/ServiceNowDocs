@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/impact/onboard\_users\_impact\_
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
+reading_time_minutes: 1
+breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Use Guided Setup to onboard users to the Impact Store Application
@@ -57,9 +57,5 @@ Role required: impact app admin
 
 [Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/assign-users-scan-engine-groups.md)
 
-**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
-
-**Next topic:**[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/assign-users-scan-engine-groups.md)
+**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

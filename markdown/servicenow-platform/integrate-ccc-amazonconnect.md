@@ -22,6 +22,8 @@ Connect ServiceNow Voice of your ServiceNow instance with the Amazon Connect ins
 
 Role required: sn\_cti\_amzn\_cct.admin
 
+**Note:** ServiceNow Voice with Amazon Connect integration is not supported for AWS GovCloud.
+
 ## Procedure
 
 1.  Log in to your Amazon Web Services \(AWS\) account and setup an Amazon Connect instance.
@@ -99,6 +101,8 @@ Auto-generated parameters based on the name of the Amazon Connect instance.For e
 </td></tr></tbody>
 </table>3.  Configure the Amazon Connect components in your ServiceNow instance.
 
+    \[Omitted image "amazon-connect-home.png"\] Alt text: Amazon Connect integration setup homepage in the ServiceNow instance
+
     1.  Navigate to **Amazon Connect Integration** &gt; **View Instances**.
 
     2.  Select the instance you want to configure.
@@ -107,13 +111,11 @@ Auto-generated parameters based on the name of the Amazon Connect instance.For e
 
     4.  Work through the guided setup steps in the order displayed, and complete the instructions for components specified in each section.
 
-        Steps to configure Amazon Connect components
-
-<table id="table_r2y_dsd_1nb"><thead><tr><th align="left" id="d148973e341">
+<table id="table_r2y_dsd_1nb"><thead><tr><th>
 
 Guided setup step
 
-</th><th align="left" id="d148973e344">
+</th><th>
 
 Description
 
@@ -139,16 +141,11 @@ Deploy Stack
 
 </td><td>
 
-Set up a collection of the required Amazon Web Services \(AWS\) resources used for this integration. For more information on stacks, see the Amazon [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacks.html).You can deploy the AWS stack using AWS CloudFormation templates.
+Set up a collection of the required Amazon Web Services \(AWS\) resources. For more information on stacks, see the Amazon [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacks.html).You can deploy the AWS stack using AWS CloudFormation templates.
 
 -   Use AWS Cloud Formation template to describe AWS resources and properties
 -   Use AWS Cloud Formation stack to provision the resources described in the template
-The AWS Cloud Formation template creates the following resources:
-
--   Dynamo DB Table – Tracks Interactions and Agent mapping.
--   Kinesis Data Streams and EventBridge Configuration – Used for real-time streaming of contact records and agent event data.
--   Lambda Function – Used for processing data between Amazon Connect and ServiceNow.
-**Note:** If you're upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 22.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
+**Note:** If you are upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 14.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
 
 </td></tr><tr><td>
 
@@ -185,7 +182,7 @@ Import Contact Flows
 
 -   Set up call transfer flows through Amazon Connect using Transfer to Agent Flow and Transfer to Queue Flow. The transfer flows are reusable and can also be applied to ServiceNow Voice for ITSM.
 
--   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see [Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md) or [Associate Amazon Connect queues for CSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-amazonconnect-configurable-csm.md).
+-   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see [Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md) or [Associate Amazon Connect queues with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-amazonconnect-configurable-csm.md).
 
 </td></tr><tr><td>
 
@@ -227,9 +224,9 @@ Launch the Amazon Connect softphone interface within ServiceNow UI by configurin
 
 To use the native voice control in ServiceNow Workspace, follow the steps in the **Enable Interaction Controls** section of the guided setup.
 
-**Note:** If a queue with the same ServiceNow Voice External ID is already mapped to an Amazon Connect queue, update the Provider Queue ID field on the existing record instead of creating a duplicate queue.
+**Note:** If a queue with the same ServiceNow Voice External ID is already mapped to an Amazon Connect queue, clear and update the Provider Queue ID field on the existing record instead of creating a duplicate queue.
 
-See [Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/amazon-connect-for-voice-calls.md).
+See [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md).
 
 </td></tr></tbody>
 </table>

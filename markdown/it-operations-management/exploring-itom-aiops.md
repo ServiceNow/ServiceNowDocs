@@ -25,13 +25,13 @@ ServiceNow® ITOM AIOps provides AIOps capabilities that transform how organizat
 
 Network Operations Center \(NOC\) operators and IT operations teams use Service Operations Workspace as their primary interface for managing IT operations powered by ITOM AIOps. The workspace consolidates alerts, incidents, and operational data from multiple AIOps applications into unified dashboards and workflows.
 
-In their daily work, operators use the workspace to monitor service health across the entire IT infrastructure, investigate alerts with full context from multiple data sources, and coordinate response activities. The workspace presents correlated events, suggested remediation actions, and service impact information in a single interface, enabling operators to quickly understand and respond to issues.
+Operators use the workspace to monitor service health across the entire IT infrastructure, investigate alerts with full context from multiple data sources, and coordinate response activities. The workspace presents correlated events, suggested remediation actions, and service impact information in a single interface. This enables operators to quickly understand and respond to issues.
 
 The workspace integrates data from all AIOps products to provide operators with comprehensive situational awareness and streamlined incident management capabilities.
 
 ## ITOM AIOps workflow
 
-Each AIOPs application focuses on specific aspects of IT operations while contributing to a unified AIOps platform.
+Each AIOPs application focuses on specific aspects of IT operations while contributing to a unified AIOps platform.\[Omitted image "AIOps.png"\] Alt text: Flow of events through ITOM AIOps. Flow described in subsequent paragraphs
 
 -   **Agent Client Collector**
 
@@ -51,7 +51,7 @@ Each AIOPs application focuses on specific aspects of IT operations while contri
 
 -   **Express List**
 
-    Is the SOW view into Event Management, allowing operators to efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents.
+    Provides the Service Operations Workspace view into Event Management, enabling operators to efficiently monitor systems and services, resolve alerts, evaluate the alert impact, track issues, and report incidents.
 
 -   **Service Observability**
 
@@ -70,7 +70,7 @@ Each AIOPs application focuses on specific aspects of IT operations while contri
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 
-Role title \[name\]
+Role
 
 </th><th>
 
@@ -188,18 +188,18 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Service Mapping**
 
-    Service Mapping offers detailed information about application instance services within the \[cmdb\_ci\_service\_discovered\] table. This data helps establish connections between infrastructure and application configuration items \(CIs\) stored in the \[cmdb\_ci\_appl\] table, enhancing visibility into IT environments and facilitating efficient management and monitoring processes.
+    Service Mapping provides information about application instance services within the \[cmdb\_ci\_service\_discovered\] table. This data helps establish connections between infrastructure and application configuration items \(CIs\) stored in the \[cmdb\_ci\_appl\] table, enhancing visibility into IT environments and facilitating efficient management and monitoring processes.
 
 -   **Service Portfolio Management**
 
-    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
+    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide lifecycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
 
 
 ## Products that benefit from ITOM AIOps
 
 -   **Incident Management**
 
-    Incident Management tools leverage downstream information from Event Management to create incidents swiftly, ensuring timely resolution of issues.
+    Incident Management tools use downstream information from Event Management to create incidents swiftly, ensuring timely resolution of issues.
 
 -   **Customer Service Management \(CSM\)**
 

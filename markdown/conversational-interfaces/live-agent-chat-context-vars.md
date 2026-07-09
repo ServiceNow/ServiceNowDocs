@@ -59,7 +59,7 @@ csp\_category
 
 Category defined in the Consumer Service portal in the CSM application \(requires the com.glide.service-portal.consumer-portal plugin\).
 
- For more information, see Using the Consumer Service Portal.
+ For more information, see [Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-consumer-service-portal.md).
 
 </td></tr><tr><td>
 

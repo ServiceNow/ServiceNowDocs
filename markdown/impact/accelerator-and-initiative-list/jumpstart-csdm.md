@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your CSDM: Foundation
@@ -18,7 +18,7 @@ The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator pr
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-landing-page.md).
+Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see .
 
 ## Package Availability
 

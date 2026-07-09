@@ -5,21 +5,55 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-27"
-reading_time_minutes: 4
+reading_time_minutes: 6
 ---
 
 # Virtual Agent release notes
 
 The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 
+## Virtual Agent highlights for the Australia release
+
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Prompts help users ask better questions and get more accurate answers. Admins can turn prompt library on or off and further configure the default recommended prompts for users.
+
+See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+
 ## New in the Australia release
 
--   ****
+-   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
+
+    Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
+
+    By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
+
+    The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
+
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+
+    Mobile custom apps support configuration of enhanced chat and premium chat display options, with availability dependent on the widget's current configuration.
+
+-   **[Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md)**
+
+    If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
+
+    Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
+
+-   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/edit-assistant.md)**
+
+    When editing an assistant with premium chat, create, edit, or delete prompts from the prompt library. Prompts help users ask better questions and get more accurate answers. Use the prompt library to manage prompts that users see in premium chat. Create your own prompts or use the default prompts.
+
+-   **[Prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-prompt-library.md)**
+
+    Browse and select from promoted prompt templates or save your own custom prompts, eliminating the need to retype frequently-used prompts within your chats. Access your reusable templates instantly from the omnibar for faster, more consistent conversations.
+
+
 -   **[Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md)**
 
     For premium chat, catalog items have improved fluidity; however, some of them are no longer conversational. They’ll open in a catalog form instead. This applies to Now Assist in Virtual Agent assistants and Now Assist panel – Platform assistant.
 
--   **[Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
     -   If your instance is eligible, you can opt into the premium chat experience. ServiceNow performs a set of readiness checks to see if your instance is eligible for premium chat. Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they're doing.
     -   An alert is shown when the instance is eligible for premium chat or when there is a possible delay for premium chat to appear as an option on your instance.
     -   When editing the display experience of an existing portal or mobile widget, chat experience options depend on the existing configuration.
@@ -70,7 +104,7 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
     If you have the **com.snc.ex\_ai\_portal** \(Employee Slate\) app installed, the default Employee Slate assistant is shown, and Employee Slate is mapped to it by default. The default Employee Slate assistant can be activated, deactivated, edited, and tested. It can’t be deleted.
 
--   **[Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
+-   **[Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md)**
 
     The default Employee Slate assistant comes with premium chat. Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
 
@@ -92,14 +126,19 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
     Use the **Test Assistant** button to test your LLM assistant in Standard, Enhanced, and Premium Chat, after adding chat experiences in Assistant Designer's **Assistants** tab.
 
+-   **[Now Assist in Virtual Agent on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-va.md)**
+
+    Use the modified version of Now Assist in Virtual Agent on your mobile device. This redesigned version adapts to smaller screens without losing functionality or clarity.
+
+
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Premium chat experience for Now Assist Panel - Platform \(default\) assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
 

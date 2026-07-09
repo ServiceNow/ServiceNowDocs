@@ -31,3 +31,8 @@ Application TCO helps enterprise architects to evaluate the cost of business app
 
 **Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
+**Related topics**  
+
+
+[Add or edit a total cost of ownership record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-tco.md)
+

@@ -1,6 +1,6 @@
 ---
 title: Edit the Query Driver on Metadata tab
-description: Edit the Query Driver on Metadata tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
+description: Edit the Query Driver on Metadata tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-query-driver-on-metadata.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operati
 
 # Edit the Query Driver on Metadata tab
 
-Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
+Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.
 
 ## Before you begin
 

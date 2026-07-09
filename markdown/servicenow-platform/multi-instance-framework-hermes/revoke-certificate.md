@@ -48,3 +48,5 @@ The certificates are revoked and can no longer be used in secure connections to 
 
 [Restricting access to Hermes]()
 
+[Enable encryption at rest for a Hermes topic]()
+

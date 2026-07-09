@@ -1,24 +1,31 @@
 ---
-title: Make emails associated through the CRM Outlook Add-in visible to agents
-description: Configure email promotion so that emails associated with CRM records through the ServiceNow CRM for Outlook add‑in are promoted from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.
+title: Configure email promotion rules for Activity Management
+description: Configure email promotion rules to automatically process staged emails for manual association through the ServiceNow CRM for Outlook add-in or to trigger AI-powered auto-association with existing sales entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/promote-crm-outlook-emails.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-07-07"
 reading_time_minutes: 2
 breadcrumb: [Activity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Make emails associated through the CRM Outlook Add-in visible to agents
+# Configure email promotion rules for Activity Management
 
-Configure email promotion so that emails associated with CRM records through the ServiceNow CRM for Outlook add‑in are promoted from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.
+Configure email promotion rules to automatically process staged emails for manual association through the ServiceNow CRM for Outlook add-in or to trigger AI-powered auto-association with existing sales entities.
 
 ## Before you begin
 
 **Note:** Configuring email promotion is required if you're on CRM Outlook Add-in application version 1.0.1.
 
 Role required: admin
+
+## About this task
+
+Email promotion rules enable the following workflows for managing staged emails:
+
+-   Manual email association: Agents use the ServiceNow CRM for Outlook add-in to associate emails with CRM records, triggering promotion from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table.
+-   AI auto-association: When an agent receives an email with no existing CRM record association, the promotion rule triggers the AI sales activity association workflow to automatically match the email to a relevant sales entity \(Lead, Opportunity, Contact, or Account\) using semantic analysis and intent detection.
 
 ## Procedure
 
@@ -138,7 +145,7 @@ Selected
         |Condition|sn\_crm\_outlook.CRMOutlookAddinConstants.PROMOTED\_TABLE\_LIST\[current.target\_table\] == true &amp;&amp; !gs.nil\(current.instance\) &amp;&amp; gs.nil\(current.email\)|
         |Script|gs.eventQueue\("email\_staged.read", current\);|
 
-        This event initiates asynchronous processing for the staged email record. It triggers the promotion logic that moves emails from the staging table to the Emails \[sys\_email\] table, ensuring all staged emails are processed successfully after the UID duplication issue is resolved.
+        The script event initiates asynchronous processing to promote the staged email and trigger the appropriate association workflow.
 
         The following image shows the Advanced tab with Condition and Script fields populated.
 
@@ -149,12 +156,12 @@ Selected
 
 ## Result
 
-When an agent associates an email with a CRM record through the Microsoft Outlook add-in, the business rule fires and promotes the email from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table. The email then appears in the Emails tab on the associated Lead, Opportunity, or Account record.
+Staged emails that meet the specified conditions are processed according to the configured promotion rules. Promoted emails appear in the Emails tab on manually associated records or in the activity stream on AI-matched records.
 
 **Related topics**  
 
 
-[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_BusinessRules.md)
+[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
 
 [Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)
 

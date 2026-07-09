@@ -34,11 +34,11 @@ A unique, auto-generated identification number for the product request.
 
 </td></tr><tr><td>
 
-Publisher
+Company
 
 </td><td>
 
-Publisher of the software product. Look up and select a publisher from the Companies page.
+Company of the software product. Look up and select a company from the list.
 
 </td></tr><tr><td>
 

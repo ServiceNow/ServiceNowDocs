@@ -218,7 +218,7 @@ User groups that can approve templates created using this change model.
 -   **[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-model-states.md)**  
 Configure states for change models and define transition between multiple states.
 -   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
-Create predefined transition conditions to reuse the conditions for your change models.
+Create predefined transition conditions to reuse the conditions for your Change models.
 -   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md)**  
 You can attach a process with defined conditions to the Change model states to enable state transitions.
 -   **[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)**  

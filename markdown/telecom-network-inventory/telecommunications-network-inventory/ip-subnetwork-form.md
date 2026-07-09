@@ -1,31 +1,33 @@
 ---
 title: IP Subnetwork form
-description: The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork. The fields on this form are listed below.
+description: The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # IP Subnetwork form
 
-The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork. The fields on this form are listed below.
+The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork.
+
+## IP Subnetwork form fields
 
 |Field|Description|
 |-----|-----------|
 |Name \(Nested Pool Name on creation\)|User-friendly name for the IP Subnetwork.|
-|CIDR|The CIDR notation that defines the address range of this subnetwork. Must fall within the parent’s range, must be more specific \(longer prefix\) than the parent’s, and must not duplicate any sibling under the same parent. To learn more about CIDR validation, see[CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md) .|
-|Managed Network|The Managed Network this subnetwork belongs to. Read-only and pre-populated when the parent has a Managed Network set; editable when the parent has none. Can't differ from the parent’s value.|
+|CIDR|The CIDR notation that defines the address range of this subnetwork. Must fall within the parent’s range, must be more specific \(longer prefix\) than the parent’s, and must not duplicate any sibling under the same parent. For more information about CIDR validation, see [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).|
+|Managed Network|The Managed Network this subnetwork belongs to. Read-only and pre-populated when the parent has a Managed Network set; editable when the parent has none. Cannot differ from the parent’s value.|
 |Parent Pool|The parent IP Address Block or IP Subnetwork. Read-only after creation.|
-|DNS Domain|The DNS domain associated with this subnetwork. Optional.|
-|Description|Free-text description. Optional.|
+|DNS Domain|The DNS domain associated with this subnetwork.|
+|Description|Free-text description.|
 |Life Cycle Stage|The current life-cycle stage of the subnetwork. Default value: Operational.|
-|Life Cycle Stage Status|The current life-cycle stage status. Default value: In Use. The sub network is active when Life Cycle Stage is Operational and Life Cycle Stage Status is In Use.|
+|Life Cycle Stage Status|The current life-cycle stage status. Default value: In Use. The subnetwork is active when Life Cycle Stage is Operational and Life Cycle Stage Status is In Use.|
 |Reported Addresses In Use|The count of addresses currently in use under this subnetwork.|
 |Reported Free Addresses|The count of addresses available for use under this subnetwork.|
 |Reported Reserved Addresses|The count of addresses flagged as reserved under this subnetwork.|

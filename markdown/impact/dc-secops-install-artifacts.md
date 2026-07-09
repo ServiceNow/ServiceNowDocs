@@ -73,3 +73,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Formula|Impact VM - Mean time to close SI \(days\)|
 |Automated|Impact VM - Summed duration of closed security incident|
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+

@@ -21,7 +21,7 @@ Empower sales teams to automate and optimize customer engagement at every stage 
 -   **[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)**  
 Sales teams can track decision‑makers, influencers, and evaluators collectively, manage buying decisions that span multiple opportunities or product family, and retain stakeholder context beyond a single sales opportunity.
 -   **[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)**  
-Use the Opportunity Management application to create your opportunity.
+Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 -   **[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)**  
 Sales Forecasting uses the current opportunities in the system to predict future opportunity amounts.​ The Opportunity Management application contains the list of opportunities created for the customers and each of these opportunities are in different stages of the sales cycles.
 -   **[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)**  

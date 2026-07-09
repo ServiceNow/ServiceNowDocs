@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice management, invoice case management, email ingestion]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -41,7 +41,7 @@ Associate an interaction record to an existing invoice case in Source-to-Pay wor
 -   **[View interaction record in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-interaction-record.md)**  
 View interaction record details to analyze supplier interactions, take immediate actions, and link records to invoice cases requiring investigation.
 
-**Parent Topic:**[Use Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 

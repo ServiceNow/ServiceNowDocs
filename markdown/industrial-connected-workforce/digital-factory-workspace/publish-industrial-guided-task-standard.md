@@ -40,17 +40,13 @@ Role required: sn\_icw\_igt.standard\_author
 
 7.  Create an assessment template for your standard.
 
-    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-asmnt-template-populate.md).
+    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see .
 
     The following authoring rules are in place.
 
     -   A standard must have a template with sections and optionally, subsections and questions to be able to move to the next state.
     -   A question can be added directly to a section.
     -   A subsection can’t be added to a section that already contains questions.
-    The following image shows an example of an assessment template for a standard.
-
-    \[Omitted image "task-authoring-tab.png"\] Alt text: Task authoring tab.
-
 8.  When the standard is ready to be reviewed for publishing, select **Request approval**.
 
     If there’s no assigned owner group or the group has no active users, the standard can’t be approved and published. To learn more about approval states and the life cycle of a standard, see [Industrial Guided Task standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-life-cycle.md).

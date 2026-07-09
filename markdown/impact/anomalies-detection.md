@@ -1,5 +1,5 @@
 ---
-title: Anomalies detection
+title: Anomalies detection in performance metrics
 description: Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/anomalies-detection.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Performance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Anomalies detection
+# Anomalies detection in performance metrics
 
 Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
 
@@ -70,5 +70,5 @@ Configure anomaly alerts based on metrics outliers on historical patterns in Ins
 -   **[Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/anomaly-detection-algorithm.md)**  
 Instance Observer is performing anomalies detection through the Z-score Statistical model, otherwise referred to as a univariate method.
 
-**Parent Topic:**[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
 

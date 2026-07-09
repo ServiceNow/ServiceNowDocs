@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with SAP S/4HANA Cloud Public Edition
@@ -143,15 +143,15 @@ If you’re using Software Asset Workspace, the option to create the SAP S/4HANA
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d43018e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d43623e658">
 
 Interface
 
-</th><th align="left" id="d43018e661">
+</th><th align="left" id="d43623e661">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d43018e667">
+</th></tr></thead><tbody><tr><td id="d43623e667">
 
 **Core UI**
 
@@ -162,7 +162,7 @@ Action
 3.  Select **SAP S4Hana Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d43018e709">
+</td></tr><tr><td id="d43623e709">
 
 **Software Asset Workspace**
 
@@ -270,7 +270,7 @@ If you want to set up multiple integration profiles with unique connections, cre
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

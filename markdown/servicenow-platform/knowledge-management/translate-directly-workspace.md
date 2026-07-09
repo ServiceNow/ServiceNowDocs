@@ -58,8 +58,6 @@ If your system administrator has configured languages for the knowledge base, yo
 
     The Original language and Translated language sections appear side by side for easy viewing, as shown in the following figure. The text in the Translated language section still appears in the original language content.
 
-    \[Omitted image "translate-to-from-agent.png"\] Alt text: Translate Article display.
-
 6.  Provide the translation in the Translated language section.
 
     -   If dynamic translation is enabled, click **Machine translate** to automatically replace the draft content in the Translated language section with machine-translated content in the targeted language.

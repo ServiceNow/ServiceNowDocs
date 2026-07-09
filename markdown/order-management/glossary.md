@@ -1,26 +1,26 @@
 ---
 title: Glossary
-description: A list of terms used in CPQ
+description: A list of terms used in ServiceNow CPQ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/glossary.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Glossary
 
-A list of terms used in CPQ
+A list of terms used in ServiceNow CPQ
 
 -   **Associated Picklist \(AP\)**
 
-    CPQ functionality that allows a set to be generated with predetermined rows based on the selection of a picklist field.
+    ServiceNow CPQ functionality that allows a set to be generated with predetermined rows based on the selection of a picklist field.
 
 -   **API \(Application Programming Interface\)**
 
-    A way for two or more computer programs to communicate with each other. In the context of CPQ, APIs are categorized into runtime APIs \(create, update and save configurations\) and admin APIs \(works with blueprints, fields, rules, configurable products, managed tables, and various automation tasks\).
+    A way for two or more computer programs to communicate with each other. In the context of ServiceNow CPQ, APIs are categorized into runtime APIs \(create, update and save configurations\) and admin APIs \(works with blueprints, fields, rules, configurable products, managed tables, and various automation tasks\).
 
 -   **Bill of materials \(BOM\)**
 
@@ -28,7 +28,7 @@ A list of terms used in CPQ
 
 -   **Blueprint**
 
-    A collection of associated CPQ rules and fields utilizing a layout that defines a configuration experience. Identifying a product as a configurable product for a blueprint means it will launch the related configuration experience when selected.
+    A collection of associated ServiceNow CPQ rules and fields utilizing a layout that defines a configuration experience. Identifying a product as a configurable product for a blueprint means it will launch the related configuration experience when selected.
 
 -   **BOM type**
 
@@ -36,11 +36,11 @@ A list of terms used in CPQ
 
 -   **Buyside**
 
-    Refers to the CPQ experience that the end user sees.
+    Refers to the ServiceNow CPQ experience that the end user sees.
 
 -   **Configurable product**
 
-    A product that is associated with a blueprint that kicks off the CPQ configuration experience. The relationship to the blueprint differs whether CPQ is being used as a headless application or in Salesforce.
+    A product that is associated with a blueprint that kicks off the ServiceNow CPQ configuration experience. The relationship to the blueprint differs whether ServiceNow CPQ is being used as a headless application or in Salesforce.
 
 -   **Configuration Line Item \(CLI\)**
 
@@ -56,15 +56,15 @@ A list of terms used in CPQ
 
 -   **Enrichments**
 
-    Scripts that run outside of the rules engine that affects configurations in CPQ. Enrichments can run on configure, on reconfigure, on BOM response, or via picklist extension pricing.
+    Scripts that run outside of the rules engine that affects configurations in ServiceNow CPQ. Enrichments can run on configure, on reconfigure, on BOM response, or via picklist extension pricing.
 
 -   **Expert Services \(ES\)**
 
-    Consulting hours purchased from the CPQ Expert Services team to receive design or implementation guidance, request build work to be done, etc.
+    Consulting hours purchased from the ServiceNow CPQ Expert Services team to receive design or implementation guidance, request build work to be done, etc.
 
 -   **External Connections**
 
-    Allows for data for a CPQ configuration to be retrieved from outside of CPQ. Called from in an enrichment.
+    Allows for data for a ServiceNow CPQ configuration to be retrieved from outside of ServiceNow CPQ. Called from in an enrichment.
 
 -   **Field**
 
@@ -76,31 +76,31 @@ A list of terms used in CPQ
 
 -   **Flightpath**
 
-    CPQ feature that allows administrators to record a configuration session tracks end-user inputs and how the CPQ rules engine responds.
+    ServiceNow CPQ feature that allows administrators to record a configuration session tracks end-user inputs and how the ServiceNow CPQ rules engine responds.
 
 -   **Go-Live**
 
-    When your CPQ implementation is moved to a production environment and begins to be used by end users in some capacity.
+    When your ServiceNow CPQ implementation is moved to a production environment and begins to be used by end users in some capacity.
 
 -   **Headless application**
 
-    An application where the backend \(data, logic, and functionality\) is decoupled from the frontend \(user interface\). CPQ is headless in the sense that customers can leverage its powerful functionality via APIs in their desired techstack.
+    An application where the backend \(data, logic, and functionality\) is decoupled from the frontend \(user interface\). ServiceNow CPQ is headless in the sense that customers can leverage its powerful functionality via APIs in their desired techstack.
 
 -   **Layout**
 
-    The visual experience that an end user sees when configuring a product in CPQ. Every blueprint in CPQ has a layout that can be customized by the Admin. Beginning at the lowest level, layouts contain fields, which are housed in columnsets. Finally, columnsets are situated in containers called tiers, which can be nested if desired.
+    The visual experience that an end user sees when configuring a product in ServiceNow CPQ. Every blueprint in ServiceNow CPQ has a layout that can be customized by the Admin. Beginning at the lowest level, layouts contain fields, which are housed in columnsets. Finally, columnsets are situated in containers called tiers, which can be nested if desired.
 
 -   **Matrix Loader**
 
-    A feature in CPQ that enables the bulk upload of multiple types of data into CPQ, such as data in CSV files or entire CPQ blueprints.
+    A feature in ServiceNow CPQ that enables the bulk upload of multiple types of data into ServiceNow CPQ, such as data in CSV files or entire ServiceNow CPQ blueprints.
 
 -   **Migration**
 
-    The act of moving your CPQ work from one environment to another. This could be from one test environment to another, or from a test environment to a production environment.
+    The act of moving your ServiceNow CPQ work from one environment to another. This could be from one test environment to another, or from a test environment to a production environment.
 
 -   **Picklist extension \(PLE\)**
 
-    CPQ feature for picklist field options that allows product info or additional info to be displayed, as well as filtering options.
+    ServiceNow CPQ feature for picklist field options that allows product info or additional info to be displayed, as well as filtering options.
 
 -   **[Price Book Entry \(PBE\)](https://help.salesforce.com/s/articleView?id=sf.pricebooks_landing_page.htm&type=5)**
 
@@ -108,11 +108,11 @@ A list of terms used in CPQ
 
 -   **Product**
 
-    A product can refer to many things, such as the companyʼs product itself, a configurable product \(e.g “Computer”\) or product part \(e.g. “Motherboard”\) in CPQ, and even an entry of the company product in a CRM like Salesforce.
+    A product can refer to many things, such as the companyʼs product itself, a configurable product \(e.g “Computer”\) or product part \(e.g. “Motherboard”\) in ServiceNow CPQ, and even an entry of the company product in a CRM like Salesforce.
 
 -   **Product action**
 
-    CPQ functionality used in tandem with a rule. The rule would specify the conditions that need to be met, and a product action can be defined to add a product to the BOM accordingly.
+    ServiceNow CPQ functionality used in tandem with a rule. The rule would specify the conditions that need to be met, and a product action can be defined to add a product to the BOM accordingly.
 
 -   **Product ID**
 
@@ -124,7 +124,7 @@ A list of terms used in CPQ
 
 -   **Production environment**
 
-    A CPQ Production environment represents your live and active environment currently being utilized, and is the most sensitive. Best practices are to do any implementation work in your test/sandbox CPQ environment, test it, and then migrate the work to your production environment along with some final testing.
+    A ServiceNow CPQ Production environment represents your live and active environment currently being utilized, and is the most sensitive. Best practices are to do any implementation work in your test/sandbox ServiceNow CPQ environment, test it, and then migrate the work to your production environment along with some final testing.
 
 -   **Quote Calculator Plugin \(QCP\)**
 
@@ -144,11 +144,11 @@ A list of terms used in CPQ
 
 -   **Sandbox environment**
 
-    A type of environment that should be used to build-out new implementations or features of CPQ according to best practices. Once built and tested, the work can be moved into a Production environment and tested again before use in an active workflow. Also known as a test environment.
+    A type of environment that should be used to build-out new implementations or features of ServiceNow CPQ according to best practices. Once built and tested, the work can be moved into a Production environment and tested again before use in an active workflow. Also known as a test environment.
 
 -   **Service level agreement \(SLA\)**
 
-    The level of service expected from a vendor. An example of a CPQ SLA could be how quickly customers can expect a support case to be acknowledged after being created.
+    The level of service expected from a vendor. An example of a ServiceNow CPQ SLA could be how quickly customers can expect a support case to be acknowledged after being created.
 
 -   **Set**
 
@@ -164,11 +164,11 @@ A list of terms used in CPQ
 
 -   **Table**
 
-    CPQ has tables \(relational databases\) that allow data to be stored, which can then be retrieved using able lookups.
+    ServiceNow CPQ has tables \(relational databases\) that allow data to be stored, which can then be retrieved using able lookups.
 
 -   **Table lookup**
 
-    Utilizing a programming language called SQL \(Structured Query Language\), tables in CPQ can be queried using scripts to retrieve specific information.
+    Utilizing a programming language called SQL \(Structured Query Language\), tables in ServiceNow CPQ can be queried using scripts to retrieve specific information.
 
 -   **Test environment**
 
@@ -176,12 +176,12 @@ A list of terms used in CPQ
 
 -   **Twinning**
 
-    The ability to automatically pull data from a Salesforce quote field into a CPQ field by creating a CPQ quote custom field using the format “&lt;fieldName&gt;LGK” in Salesforce, and a matching “&lt;fieldName&gt;” in CPQ.
+    The ability to automatically pull data from a Salesforce quote field into a ServiceNow CPQ field by creating a CPQ quote custom field using the format “&lt;fieldName&gt;LGK” in Salesforce, and a matching “&lt;fieldName&gt;” in ServiceNow CPQ.
 
 -   **User acceptance testing \(UAT\)**
 
     Also known as end-user testing, this is a phase near the end of implementation and before going live. A small group of the end-users will run through various scenarios to validate the desired end-user experience and address any issues or bugs before the full launch.
 
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

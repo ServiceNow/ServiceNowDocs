@@ -32,15 +32,15 @@ Role required: admin
 
 4.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) in the **Location Tracking Options** field to edit the field, and select from the following location tracking options.
 
-<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d47199e127">
+<table id="choicetable_dn4_2vy_2wb"><thead><tr><th align="left" id="d47230e127">
 
 Tracking options
 
-</th><th align="left" id="d47199e130">
+</th><th align="left" id="d47230e130">
 
 Behavior in the Mobile Agent
 
-</th></tr></thead><tbody><tr><td id="d47199e139">
+</th></tr></thead><tbody><tr><td id="d47230e139">
 
 **Manual tracking**
 
@@ -50,7 +50,7 @@ Displays the manual location tracking option to the user.**Note:** Manual locati
 
  \[Omitted image "location-tracking-manual.png"\] Alt text: Manual tracking option.
 
-</td></tr><tr><td id="d47199e164">
+</td></tr><tr><td id="d47230e164">
 
 **Action-based tracking**
 
@@ -60,7 +60,7 @@ Displays the action-based location tracking option.**Note:** Action-based locati
 
  \[Omitted image "location-tracking-action.png"\] Alt text: Action-based tracking option.
 
-</td></tr><tr><td id="d47199e189">
+</td></tr><tr><td id="d47230e189">
 
 **Action-based and manual tracking option**
 

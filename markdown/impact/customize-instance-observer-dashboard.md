@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [User configurable dashboard, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User configurable dashboard, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Create a dashboard
@@ -79,7 +79,7 @@ Select as the default dashboard to make this dashboard as the new homepage when 
 
 4.  Select **Add Widget**.
 
-    -   Custom: Select custom to add your choice of metric, widgets, and aggregation. Note: Categories are equivalent to the pages available in the [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md) section.
+    -   Custom: Select custom to add your choice of metric, widgets, and aggregation. Note: Categories are equivalent to the pages available in the [Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md) section.
     -   Out of the box: Choose from pre-defined widgets available on the base system dashboard to display. Depending on the selected category, the widget varies. These widgets are available for all instances of the account irrespective of the instances selected for the customized dashboard.
     Three widget types are supported:
 
@@ -104,10 +104,10 @@ Select as the default dashboard to make this dashboard as the new homepage when 
     -   From the gear icon on the dashboard users can perform the following actions:
         -   Settings: Change name, description, instances, share settings, and set the dashboard as default if needed.
         -   Clone: Clone a custom dashboard to use as a baseline for a new dashboard.
-        -   Delete: Delete a dashboard, if required. Deleted dashboards will move under the Manage dashboard section and will be available for restoration for 7 days. When a customized dashboard that was set as default is deleted, the out-of-the-box dashboard will automatically become your default dashboard.
+        -   Delete: Delete a dashboard, if required. Deleted dashboards will move under the Manage dashboard section and will be available for restoration for 7 days. When a customized dashboard that was set as default is deleted, the dashboard offered by the base system will automatically be your default dashboard.
         -   Manage Dashboard: Lists all dashboards created by the logged in user, shared with the user, and deleted dashboards.
-    For more information, see [Performance insights in user-configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md).
+    For more information, see [Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md).
 
 
-**Parent Topic:**[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
+**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
 

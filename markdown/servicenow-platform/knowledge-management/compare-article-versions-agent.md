@@ -43,8 +43,6 @@ Role required: agent\_workspace\_user
 
 The **Compare versions** tab opens within Agent Workspace and lists the fields for the selected versions in a side-by-side format. Any differences between the two versions are highlighted as shown in the following example image.
 
-\[Omitted image "workspace-compare.png"\] Alt text: Compare versions example
-
 **Related topics**  
 
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-inbo
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,7 +18,13 @@ Use the inbound email to receive and process incoming emails from external syste
 
 \[Omitted image "ia-inbound-accounts.png"\] Alt text: Image showing inbound accounts
 
-Use Accounts to process inbound emails from external sources and users. On selecting Accounts under Inbound email, a list of existing accounts shows up. Select **Add an account** to create a new account.
+Use Accounts to process inbound emails from external sources and users.
+
+1.  Navigate to **Inbound email** &gt; **Accounts**. A list of existing accounts shows up.
+2.  To create an account, select **Add an account**.
+3.  Select **ServiceNow account** or **Gmail** and select **Next**.
+4.  For Gmail, fill the Application registry form and select **Next**. For information about configuring an OAuth OIDC provider, see [Configure an OAuth OIDC provider for accepting third-party token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/add-OIDC-entity.md).
+5.  Fill the form with email account information.
 
 <table id="table_scf_btj_nhc"><thead><tr><th>
 
@@ -90,7 +96,6 @@ Type of secure connection. Choose a setting:-   None: No secure protocol is used
 
 Selecting a less secure protocol like STARTTLS or None may expose your data. To better ensure the security of data in your email server, select SSL/TLS.
 
-
 </td></tr><tr><td>
 
 Port
@@ -116,7 +121,7 @@ Enable Debug Logging
 Option to create node logs for the raw data that is exchanged with the email server. You can review the node logs by navigating to **System Logs** &gt; **Utilities** &gt; **Node Log File Browser**.
 
 </td></tr></tbody>
-</table>Select **Export** to export the accounts on to an Excel, CSV, JSON or PDF. You can then select the delivery type either through download or email.
+</table>6.  Select **Export** to export the accounts on to an Excel, CSV, JSON or PDF. You can then select the delivery type either through download or email.
 
 ## Properties
 

@@ -50,7 +50,7 @@ Learn about the fields of the roadmap configuration form. Use this form to add n
 Understand the fields of the table map form. This form is used to create a new custom table map for any record to integrate with Agile Development 2.0, SAFe, and PPM.
 -   **[Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmap-milestone-form.md)**  
 Learn about the fields of the roadmap milestone form. Use this form to create a milestone for the timeline of your roadmap in Portfolio Planning.
--   **[Scheduled Script Execution form to generate labor costs for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.md)**  
+-   **[Scheduled Script Execution form to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.md)**  
 Use the Scheduled Script Execution form to enable Generate Labor Costs scheduler job for projects and demands.
 -   **[UX List Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/ux-list-category-form-portfolio-planning.md)**  
 Learn about the fields of the UX List Category form. Use this form to create additional categories for lists in the Lists menu of Portfolio Planning workspaces.

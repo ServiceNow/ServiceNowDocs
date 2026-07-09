@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-05-19"
 reading_time_minutes: 5
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
 # Use self-served contract request
@@ -67,7 +68,7 @@ A workflow for a self-served contract request might progress as follows:
 
 The contract requester can cancel a contract request when the state is in Draft, New, Awaiting Approval, Awaiting signature, or Work in progress.
 
--   **[Work on self-served contract requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
+-   **[Work on requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
 Review and finalize a contract document according to the contract request.
 -   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
 Edit a contract request, regenerate the contract document, and send it for signature.

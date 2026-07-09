@@ -1,6 +1,6 @@
 ---
 title: Activate Investment Funding for projects and demands
-description: Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/activate-investment-funding-ppm.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [PPM Standard \(Project Portfolio Management\), Explore Project Port
 
 # Activate Investment Funding for projects and demands
 
-Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 
 ## Before you begin
 

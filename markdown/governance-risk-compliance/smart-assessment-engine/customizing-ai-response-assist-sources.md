@@ -44,7 +44,7 @@ If no scripted extension point implementation handles the assessment's template 
 
 -   **Previous smart assessments**
 
-    The skill considers a prior smart assessment only if its scope items are an exact match or a superset of the current assessment's scope items. The prior assessment must cover every scope item on the current assessment; it may include additional scope items, but it can't be missing any. Only completed assessments are considered.
+    The skill considers a prior smart assessment only if its scope items are an exact match or a superset of the current assessment's scope items. The prior assessment must cover every scope item on the current assessment; it may include additional scope items, but it can't be missing any. Matching is done on the exact scope-item record \(`sys_id`\); the skill doesn't traverse related records or resolve parent/child relationships such as Control to Entity. Only completed assessments are considered.
 
 -   **Previous classic assessments**
 

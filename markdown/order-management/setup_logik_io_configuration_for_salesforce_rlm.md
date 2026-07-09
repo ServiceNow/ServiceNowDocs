@@ -1,18 +1,18 @@
 ---
-title: Configuring CPQ for SalesForce RLM
-description: Install and configure the Salesforce Revenue Lifecycle Management package for CPQ \(v0.3 or later\).
+title: Configuring ServiceNow CPQ for SalesForce RLM
+description: Install and configure the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ \(v0.3 or later\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup\_logik\_io\_configuration\_for\_salesforce\_rlm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Configuring CPQ for SalesForce RLM
+# Configuring ServiceNow CPQ for SalesForce RLM
 
-Install and configure the Salesforce Revenue Lifecycle Management package for CPQ \(v0.3 or later\).
+Install and configure the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ \(v0.3 or later\).
 
 ## Prerequisites
 
@@ -29,14 +29,14 @@ Salesforce \(SF\) environment:
 Note that Salesforce Development states that its RLM and CPQ apps are incompatible. Therefore, follow these steps:
 
 -   Uninstall the CPQ app, if it is installed.
--   Uninstall any Salesforce CPQ for CPQ package that may be installed on the Salesforce environment.
--   If the CPQ environment previously had a Salesforce Subscription Management for CPQ package installed on it, this must be uninstalled. Some Subscription Management package elements conflict with the elements installed by the Salesforce Revenue Lifecycle Management for CPQ package.
+-   Uninstall any Salesforce CPQ for ServiceNow CPQ package that may be installed on the Salesforce environment.
+-   If the ServiceNow CPQ environment previously had a Salesforce Subscription Management for ServiceNow CPQ package installed on it, this must be uninstalled. Some Subscription Management package elements conflict with the elements installed by the Salesforce Revenue Lifecycle Management for ServiceNow CPQ package.
 
-CPQ base package: Salesforce for Logik Base package v2.2, or greater installed.
+ServiceNow CPQ base package: Salesforce for CPQ Base package v2.2, or greater installed.
 
-## Set up CPQ Configuration for SalesForce RLM
+## Set up ServiceNow CPQ Configuration for SalesForce RLM
 
-This guide walks you through the installation and setup of the Salesforce Revenue Lifecycle Management package for CPQ v0.3 or later. \(This guide does not discuss NGP setup. It will be added in a later version.\)
+This guide walks you through the installation and setup of the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ v0.3 or later. \(This guide does not discuss NGP setup. It will be added in a later version.\)
 
 As the current package is unmanaged, you will be required to uninstall v0.3 to install future releases of this package.
 
@@ -202,13 +202,13 @@ Configure from account is not currently supported. In the future, the user will 
 
 3.  Save, and if needed, Activate and assign as default.
 
-## CPQ Webhook Setup
+## ServiceNow CPQ Webhook Setup
 
-1.  If Webhooks are not enabled on your CPQ environment, create a Support case and request Webhooks be turned on in the environment.
+1.  If Webhooks are not enabled on your ServiceNow CPQ environment, create a Support case and request Webhooks be turned on in the environment.
 
-    To create a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+    To create a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
-2.  When Webhooks are enabled, navigate to CPQ Admin Home → Utilities → Webhooks, and create a new Webhook with the following settings:
+2.  When Webhooks are enabled, navigate to ServiceNow CPQ Admin Home → Utilities → Webhooks, and create a new Webhook with the following settings:
 
     -   Integration Type: Salesforce
     -   Async: false
@@ -217,7 +217,7 @@ Configure from account is not currently supported. In the future, the user will 
     \[Omitted image "cpq-webhook-setup.png"\] Alt text: Webhook screen
 
 
-## CPQ Product Selling Models Setup
+## ServiceNow CPQ Product Selling Models Setup
 
 In a product action, pricing fields for Revenue Lifecycle Management can be set, similar to extended info. These are available in both simple and advanced product actions.
 
@@ -417,7 +417,7 @@ Inspect the Output JSON to see if your product returns. "IsQualified" will be "n
 
 ## Troubleshooting
 
-Issue: The CPQ blueprint was loaded into the RLM org, but no products show in the product catalog during quoting.
+Issue: The ServiceNow CPQ blueprint was loaded into the RLM org, but no products show in the product catalog during quoting.
 
 Diagnosis: This could mean that there's an issue with the Product Discovery settings \(see the [Salesforce: Enable Context Service](https://docs.google.com/document/d/10MqNVlW4X5ikoLvYTH3NeBhQO7mDq6rUUt3bsP428Ig/edit#heading%3Dh.t6hdyrii25c4) section and beyond\).
 
@@ -428,7 +428,7 @@ Diagnosis: This could mean that there's an issue with the Product Discovery sett
 
 Issue: At runtime, the user receives the following error in RLM: `System.IllegalArgumentException: Looks like you don't have access to the place quote service. Salesforce Customer Support can help with that`
 
-Diagnosis: This is a permission set issue. Make sure that the following three RLM permission sets are assigned to the integration user that facilitates the CPQ integration.
+Diagnosis: This is a permission set issue. Make sure that the following three RLM permission sets are assigned to the integration user that facilitates the ServiceNow CPQ integration.
 
 -   Product Catalog Management Designer
 -   ProductAndPriceConfiguration API

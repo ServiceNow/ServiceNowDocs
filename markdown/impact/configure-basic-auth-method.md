@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Register your instance, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
+breadcrumb: [Register your instance, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Configure the Basic authentication method

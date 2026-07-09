@@ -7,8 +7,8 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2025-01-30"
+reading_time_minutes: 10
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -20,19 +20,11 @@ Create a change request to implement a controlled process for modifying approved
 
 Role required: itil, admin, or sn\_change\_write
 
-## About this task
-
-A change request records the detailed information about the change, such as the reason of the change, the priority, the risk, the type of change, and the change category.
-
-If you use conflict detection, the planned start and end dates and the configuration item \(CI\) are required.
-
-**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
-
 ## Procedure
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d187001e99">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d187389e65">
 
 **From the Change module**
 
@@ -40,7 +32,7 @@ If you use conflict detection, the planned start and end dates and the configura
 
 You can create all three types of change from the **Change** module.1.  Navigate to **All** &gt; **Change** &gt; **Create New**.
 2.  Select **Normal**, **Emergency**, or **Standard** changes.
- If you're an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see Change models.
+ If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see Change models.
 
  When you enable the change model properties, you see the following tabs when you navigate to **All** &gt; **Change** &gt; **Create New**.
 
@@ -50,7 +42,7 @@ You can create all three types of change from the **Change** module.1.  Navigate
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d187001e192">
+</td></tr><tr><td id="d187389e158">
 
 **From an incident or a problem**
 
@@ -60,7 +52,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d187001e219">
+</td></tr><tr><td id="d187389e185">
 
 **From an existing change record**
 
@@ -69,20 +61,6 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 If the administrator enabled the change request copy option, you can create a new change by copying an existing change record.1.  Open the change record that you want to copy.
 2.  Select **Copy Change**.
  **Note:** If the create task workflow sets the **create\_from** field in the \[change\_task\] table to **workflow**, manually created tasks from the existing change record are copied.
-
-</td></tr><tr><td id="d187001e249">
-
-**From a change template**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Change** &gt; **Create New**.
-2.  Select **Templates**.
-3.  Search for and select the required template.
-4.  View the new change request record created using the selected template by selecting **Continue**.
- **Note:** When you select an existing template, information in the predefined fields will be populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
-
-For more information on change templates, see [Change templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-templates.md).
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
@@ -125,7 +103,7 @@ Service
 
 </td><td>
 
-Business service that you want to make available for the change request.**Note:** If you select a business service as the configuration item and that business service is also listed as the configuration item in any other active task, the active tasks icon \(\[Omitted image "other-active-task.png"\] Alt text: Active tasks icon.\) appears. Select this icon to view the list of all the other active tasks that are affecting the business service. You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \(\[Omitted image "dependency-icon.png"\] Alt text: Dependency icon.\).
+Business service that you want to make available for the change request.**Note:** If you select a business service as the configuration item and that business service is also listed as the configuration item in any other active task, the active tasks icon \(\[Omitted image "other-active-task.png"\] Alt text: Active tasks icon.\) appears. Click this icon to view the list of all the other active tasks that are affecting the business service. You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \(\[Omitted image "dependency-icon.png"\] Alt text: Dependency icon.\).
 
 </td></tr><tr><td>
 
@@ -145,7 +123,7 @@ Select **Add** to add a CI for the change. You can add a CI for a change in **Ne
 
 CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group will be populated in the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
 
- After selecting a CI, you can select the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
+ After selecting a CI, you can click the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
 
  **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to new customers starting the Paris release.
 
@@ -205,7 +183,7 @@ Conflict status
 
 </td><td>
 
-Status that indicates whether there is a conflict for this change or the conflict is not run.
+Status that indicates whether a scheduling conflict exists for this change, or whether conflict detection has not run. A conflict status means that the change overlaps a blackout window, an active change, or falls outside a maintenance window. To resolve a conflict, review the conflicts listed in the Conflict section and reschedule the change. For more information, see .
 
 </td></tr><tr><td>
 
@@ -225,7 +203,7 @@ Group who will work on the change request. The business rule **Populate Assignme
 
 **Note:** The business rule is triggered when a change request is created or updated and when the **Assignment group** and the **Assigned to** fields are empty.
 
-If you want to override the default value, you must create properties and provide the field in the property value that must be used to populate the **Assignment group** field. Create the properties in the following order of preference:
+If you want to override the default value, you need to create new properties and provide the field in the property value that must be used to populate the **Assignment group** field. Create the properties in the following order of preference:
 
 -   **com.snc.change\_request.ci\_assignment\_group.field\_name**: Identifies which CI field populates the **Assignment group** field.
 -   **com.snc.change\_request.service\_offering\_assignment\_group.field\_name**: Identifies which service offering field populates the **Assignment group** field.
@@ -322,7 +300,7 @@ Service Offerings
 
 List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated to the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
 
- **Note:** If you have customized the default view of your form or related list prior to the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
+ **Note:** If you have customized the default view of your form or related list before the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
 
 </td></tr><tr><td>
 
@@ -338,7 +316,7 @@ Change Tasks
 
 </td><td>
 
-The list of tasks can be created from a workflow. The default workflow generates tasks in the **Implementation** state. You can also create a change task. The **Planned start date** and **Planned end date** in task type **Implementation** must fall within the planned start and end dates specified in the change request.
+The list of tasks can be created from a workflow. The default workflow generates tasks in the **Implementation** state. You can also create a new change task. The **Planned start date** and **Planned end date** in task type **Implementation** must fall within the planned start and end dates specified in the change request.
 
 </td></tr><tr><td>
 
@@ -373,7 +351,9 @@ CAB Agenda Items
 List of agenda items and details of respective items. For example, the meeting start and end time, allocated time for the meeting, state of the meeting, and the decision made for that agenda item.**Note:** The CAB Agenda Items related list is not shown on the form when the list is empty. This feature is available only for Jakarta instances.
 
 </td></tr></tbody>
-</table>9.  When the change request is ready to move to the next state, select **Request Approval**.
+</table>    **Note:**
+
+9.  When the change request is ready to move to the next state, select **Request Approval**.
 
     The state is moved forward based on the type of change request:
 

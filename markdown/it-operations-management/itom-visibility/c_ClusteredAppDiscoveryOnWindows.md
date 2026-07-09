@@ -155,13 +155,13 @@ Role required: admin
 
 ### About this task
 
-The resourceType value refers to the Resource Type column in the Windows Cluster Resources table \[cmdb\_ci\_win\_cluster\_resource\]. The resourceType value can not be empty or null.
+The resourceType value refers to the Resource Type column in the Windows Cluster Resources table \[cmdb\_ci\_win\_cluster\_resource\]. The resourceType value can't be empty or null.
 
 ### Procedure
 
 1.  Navigate to a Windows cluster page to access the Windows Cluster Resources table.
 
-2.  Click the **Windows Cluster Resources** tab.
+2.  Select the **Windows Cluster Resources** tab.
 
 
 ### Example
@@ -189,7 +189,7 @@ isMatch: function(process, resource) {
 }
 ```
 
-The following script indicates that if if there is a resource of type SQL Server, and the application name is equal to the resource name, then the process is classified as a clustered application.
+The following script indicates that if there is a resource of type SQL Server, and the application name is equal to the resource name, then the process is classified as a clustered application.
 
 ```
 resourceType: "SQL Server" 
@@ -199,9 +199,5 @@ isMatch: function(process, resource) {
 }
 ```
 
-If there are multiple matches to the resourceType condition, the matching function is called multiple times. For the following resourceType example, the matching function is called twice because there are two entries that have **Physical Disk** in the **Resource Type** column in the sample Windows Cluster Resources table.
-
-```
-resourceType: "Physical Disk" 
-```
+If there are multiple matches to the resourceType condition, the matching function is called multiple times. For example, if there are two entries with the same resource type \(such as Physical Disk\), the matching function runs twice—once for each matching entry \(for example, Cluster Disk 1 and Cluster Disk 2\).
 

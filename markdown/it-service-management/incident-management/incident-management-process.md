@@ -52,7 +52,7 @@ Any user can record an incident and track it through the entire incident life cy
 
 ## Additional resources
 
-For implementation guidelines and case studies, see .
+For implementation guidelines and case studies, see [ServiceNow Community](https://community.servicenow.com/community).
 
 -   **[Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md)**  
 Incident Management is responsible for managing the life cycle of incidents, from creation to closure.

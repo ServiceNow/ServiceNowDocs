@@ -101,3 +101,8 @@ Retype the password.
 
 Your registration is complete. You can log in to the Consumer Portal.
 
+**Related topics**  
+
+
+[Log in to the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/log-in-to-consumer-portal.md)
+

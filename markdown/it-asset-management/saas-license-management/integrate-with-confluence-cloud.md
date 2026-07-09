@@ -9,7 +9,7 @@ classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 12
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Confluence Cloud
@@ -76,6 +76,8 @@ site admin
 Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.
 
 ### Before you begin
+
+**Important:** This procedure is applicable for the Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.0 and earlier. If you're on version 17.4.1 or later, skip this task and proceed directly to [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 Atlassian Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md) table.
 
@@ -185,15 +187,15 @@ If you’re using Software Asset Workspace, the option to create the Confluence 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d108461e678">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d109293e703">
 
 Interface
 
-</th><th align="left" id="d108461e681">
+</th><th align="left" id="d109293e706">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d108461e687">
+</th></tr></thead><tbody><tr><td id="d109293e712">
 
 **Core UI**
 
@@ -204,7 +206,7 @@ Action
 3.  Select **Confluence Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d108461e729">
+</td></tr><tr><td id="d109293e754">
 
 **Software Asset Workspace**
 
@@ -321,6 +323,10 @@ Connection URL
 
 Provide the URL of your Confluence Cloud instance in the `https://api.atlassian.com/ex/confluence/<Cloud-ID` format. For more information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
+</td></tr><tr><td class="sub-head" colspan="2">
+
+The following fields are applicable for the Australia release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 17.4.0 and earlier. Starting with version 17.4.1, these fields aren't available.
+
 </td></tr><tr><td>
 
 OAuth Client ID
@@ -426,7 +432,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

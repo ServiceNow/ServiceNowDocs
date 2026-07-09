@@ -1,6 +1,6 @@
 ---
 title: ServiceNow SDK CLI
-description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create an application or convert an existing application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code in a local global application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.
+description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create an application or convert an existing application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code in a local global application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.Runs a read-only REST Table API query on an instance to return a filtered list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/servicenow-sdk-cli-commands.html
 release: australia
@@ -8,7 +8,7 @@ product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 18
 breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -84,7 +84,7 @@ The method to use to authenticate with the target instance. Specify `basic` for 
 
 </td><td>
 
-basic
+oauth
 
 </td></tr><tr><td>
 
@@ -1246,4 +1246,44 @@ For example:
 ```cmd
 now-sdk explain uipage-api --format raw
 ```
+
+## query
+
+Runs a read-only REST Table API query on an instance to return a filtered list of records.
+
+The `query` command can help with referring to instance data while writing ServiceNow Fluent code, such as looking up sys\_ids, inspecting table schemas, checking existing records, and reading choice values. You can use this command with the `explain` command to provide an AI agent with instance data.
+
+The `query` command has the following structure:
+
+```cmd
+now-sdk query <table> --query <encoded query> [--limit <number>] [--offset <number>] [--fields <field list>] [--display-value <value>] [--exclude-reference-link <flag>] [--no-count <flag>] [--timeout <time>] [--view <view>] [--query-category <category>] [--query-no-domain <flag>] [--auth <alias>] [--output <format>]
+```
+
+|Parameter|Type|Description|Default value|
+|---------|----|-----------|-------------|
+|table|String|The name of a table to query, such as incident or sys\_dictionary.|—|
+|--query, -q|String|An encoded query string \(sysparm\_query\) used to filter records, such as `"active=true^priority<=2"`.|—|
+
+|Parameter|Type|Description|Default value|
+|---------|----|-----------|-------------|
+|--limit|Number|The maximum number of records to return per page \(sysparm\_limit\).|100|
+|--offset|Number|The starting record offset for pagination \(sysparm\_offset\). If --output is `json`, use the `nextOffset` value returned in a previous response to fetch the next page.|0|
+|--fields, -f|String|A comma-separated list of fields to return \(sysparm\_fields\). If omitted, all fields are returned.|—|
+|--display-value|String|An option to return display values instead of raw values \(sysparm\_display\_value\). Specify `true` to return display values, `false` to return raw values, or `all` to return both.|false|
+|--exclude-reference-link|Boolean|An option to exclude reference link metadata in the response \(sysparm\_exclude\_reference\_link\).|true|
+|--no-count|Boolean|An option to skip calculating the total record count \(sysparm\_no\_count\). Skipping the count can improve performance for large tables.|false|
+|--timeout|Number|The per-request timeout in milliseconds. Each page fetch is bounded by this value.|30000|
+|--view|String|A UI view used to determine which fields to return \(sysparm\_view\).|—|
+|--query-category|String|A query category for extended queries \(sysparm\_query\_category\).|—|
+|--query-no-domain|Boolean|An option to ignore domain separation when querying \(sysparm\_query\_no\_domain\).|false|
+|--auth, -a|String|An alias for the credentials to use to authenticate to the instance.|If set, the default alias.|
+|--output, -o|String|The output format for the response. Specify `json` to paginate the response and return a machine-readable JSON envelope with `ok`, `hasMore`, `nextOffset`, and `records` fields. When this parameter is used, log output is suppressed.|—|
+
+For example:
+
+```cmd
+now-sdk query incident --query 'active=true^priority<=2' --limit 50 --fields 'number,short_description,priority' --auth devuser1 --output json
+```
+
+For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md).
 

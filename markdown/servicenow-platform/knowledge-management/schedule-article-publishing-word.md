@@ -37,7 +37,7 @@ Ensure that the system administrator verifies the following settings:
 
 2.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-3.  On the Home tab of the Word document, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
+3.  On the Home tab of the Word document, click the Knowledge icon .
 
 4.  In the Knowledge Management pane of the Word document, in the **Search** box, enter the knowledge article short description.
 
@@ -45,7 +45,7 @@ Ensure that the system administrator verifies the following settings:
 
     **Note:** The knowledge article must have been originally created using Microsoft Word.
 
-6.  In the **Scheduled publish date** field, click the show calendar icon \[Omitted image "show-calendar.png"\] Alt text: Show calendar icon.
+6.  In the **Scheduled publish date** field, click the show calendar icon .
 
 7.  Select any future date from the calendar.
 

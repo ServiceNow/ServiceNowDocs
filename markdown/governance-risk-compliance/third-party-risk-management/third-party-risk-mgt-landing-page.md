@@ -83,7 +83,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>**Important:**
 
-The Vendor Management Workspace for ITSM \(sn\_itsm\_vendor\) is deprecated as of the Australia release. It is hidden and no longer available for activation for new customers. References to Vendor Management Workspace throughout this documentation refer to the GRC: Vendor Management Workspace \(sn\_vrm\_ws\), which is a separate application included with Third-party Risk Management and is not affected by this deprecation. For details about the ITSM deprecation, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+The Vendor Management Workspace for ITSM \(sn\_itsm\_vendor\) is deprecated as of the Australia release. It is hidden and no longer available for activation for new customers. References to Vendor Management Workspace throughout this documentation refer to the GRC: Vendor Management Workspace \(sn\_vrm\_ws\), which is a separate application included with Third-party Risk Management and is not affected by this deprecation. For details about the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Troubleshoot and get help
 

@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management Content Service
@@ -20,7 +20,7 @@ The Software Asset Management Content Service is an IT Asset Management \(ITAM\)
 
 The Software Asset Management Content Service transfers data between your organization and ServiceNow through a Content Data Service \(CDS\) instance. In commercial deployments, data is transferred through a CDS instance that is deployed in a commercial data center. In National Security Cloud \(NSC\) Department of Defense \(DOD\) Impact Level 5 \(IL5\) deployments, data is transferred through a CDS instance that is deployed in an NSC DOD IL5 data center.
 
-**Note:** Data for your NSC DOD IL5 deployments can be transferred only from ServiceNow to your organization. It cannot be transferred from your organization to ServiceNow. Since you cannot share any unnormalized software installation data with ServiceNow, you must manually create a software content request for any software product that you want to add to the Software Asset Management Content Library. After the software product is added to the Content Library, the Software Asset Management application can begin normalizing the corresponding software installations that are discovered in your NSC DOD IL5 deployments. See [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-itam-content-request.md) for instructions on how to create a software content request.
+**Note:** Data for your NSC DOD IL5 deployments can be transferred only from ServiceNow to your organization. It cannot be transferred from your organization to ServiceNow. Since you cannot share any unnormalized software installation data with ServiceNow, you must manually create a software content request for any software product that you want to add to the Software Asset Management Content Library. After the software product is added to the Content Library, the Software Asset Management application can begin normalizing the corresponding software installations that are discovered in your NSC DOD IL5 deployments. See [Create IT Asset Management content request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-itam-content-request.md) for instructions on how to create a software content request.
 
 No personally identifiable information is shared with ServiceNow. However, please note the exception for custom software products, as described in the Software Asset Management Content Service asset data types table below.
 

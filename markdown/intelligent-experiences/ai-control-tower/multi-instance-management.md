@@ -54,5 +54,5 @@ If there’s any upgrade to version 6.2.4 in a sub-prod, then it’s advisable t
 
 For information about configuring Multi-instance management for AI Control Tower, see [Configure multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
 
-For information about Data section, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md)
+For information about Data section, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/data.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-profile-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-18"
 reading_time_minutes: 2
 breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -14,7 +14,11 @@ breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer 
 
 Configure the user profile page using widgets and widget instances, enabling UK citizens to view and manage their personal profiles, preferences, and activity history.
 
-This page provides the basic structure for a GDS-conforming user profile page that specifies details about an user like their name, company, title, and location. By default, the User Profile page contains the following widgets that can be customized or removed:
+By default, constituents editing their profile in the GDS Service Portal will be shown the user profile page, which houses several GDS-adherant widgets and page components that allow them to add, update, or delete information from their user profile.
+
+\[Omitted image "psds\_uk\_gds\_portal\_user\_profile.png"\] Alt text: GDS Portal User Profile Page.
+
+This default page provides the basic structure for a user profile page that specifies details about an user like their name, company, title, and location. By default, the User Profile page contains the following widgets that can be customized or removed:
 
 -   Header widget, which controls which options appear in the page header. Contains GOV.UK logo, global navigation, language selector, notifications, user profile.
 
@@ -33,9 +37,5 @@ This page provides the basic structure for a GDS-conforming user profile page th
     **Note:** Add or edit a footer for your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md).
 
 
-.
-
 For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
-
-**Parent Topic:**[Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md)
 

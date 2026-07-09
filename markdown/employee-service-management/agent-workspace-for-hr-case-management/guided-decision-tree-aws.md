@@ -28,11 +28,11 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text:\).
 
 3.  Select an HR case.
 
-4.  In Contextual Side Panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text: Recommendations icon\).
+4.  In Contextual Side Panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text:\).
 
 5.  Review similar cases, relevant KB articles, and suggested actions in the context of the current case.
 
@@ -42,8 +42,8 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
     |**KB search**|Use the following options as needed: Attach and add link in comment, Read article, Attach and add link in email, Add link in worknote, and Copy link.|
     |**Suggested actions**|Use the Create an HR approval option to add an approval to the case as needed.|
 
-    \[Omitted image "recommendation-hrsd.png"\] Alt text:
+    \[Omitted image "recommendation-hrsd.png"\] Alt text: Recommendations panel showing similar cases, KB search results, and suggested actions for HR case
 
-    \[Omitted image "rec-hr-case-approval.png"\] Alt text:
+    \[Omitted image "rec-hr-case-approval.png"\] Alt text: Create HR approval dialog with approval details and assignment options
 
 

@@ -1,33 +1,33 @@
 ---
 title: Installation and setup guide for environments linked to Salesforce orgs
-description: Step-by-step instructions for setting up CPQ in an environment linked to a Salesforce org.
+description: Step-by-step instructions for setting up ServiceNow CPQ in an environment linked to a Salesforce org.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Installation and setup guide for environments linked to Salesforce orgs
 
-Step-by-step instructions for setting up CPQ in an environment linked to a Salesforce org.
+Step-by-step instructions for setting up ServiceNow CPQ in an environment linked to a Salesforce org.
 
 ## Before you begin
 
-Designate a user in the org who will serve as the first CPQ admin user, and note the user name. This user will need to grant other users access after they have attempted to access the CPQ Admin once and appear in the User Access list of users. For more information, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Designate a user in the org who will serve as the first ServiceNow CPQ admin user, and note the user name. This user will need to grant other users access after they have attempted to access the ServiceNow CPQ Admin once and appear in the User Access list of users. For more information, see [User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-Provide CPQ Support with the following information:
+Provide ServiceNow CPQ Support with the following information:
 
 -   The Org ID of your org \(found in Setup &gt; Company Information\)
 -   the My Domain URL of the org \(found in Setup &gt; My Domain\)
 
-**Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ \(Logik.ai\) Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+**Note:** Create a support case by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for ServiceNow CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
-The CPQ DevOps team will provision the environment. Once ready, Support will confirm with your CPQ custom URL.
+The ServiceNow CPQ DevOps team will provision the environment. Once ready, Support will confirm with your ServiceNow CPQ custom URL.
 
-**Note:** If your Salesforce site was refreshed from another previously CPQ connected Salesforce site, uninstall the CPQ connected app before continuing. It holds metadata associated with the CPQ environment connected to the original Salesforce site. To uninstall, navigate to Setup &gt; Manage Connected Apps &gt; **Logik Connected App** &gt; Uninstall.
+**Note:** If your Salesforce site was refreshed from another previously ServiceNow CPQ connected Salesforce site, uninstall the ServiceNow CPQ connected app before continuing. It holds metadata associated with the ServiceNow CPQ environment connected to the original Salesforce site. To uninstall, navigate to Setup &gt; Manage Connected Apps &gt; **ServiceNow CPQ Connected App** &gt; Uninstall.
 
 \[Omitted image "cpq-manage-connected-apps-uninstall.png"\] Alt text: Connected applications screen
 
@@ -35,17 +35,17 @@ Role required: Admin
 
 ## About this task
 
-If your environment has never had CPQ installed, start at step 1. If you are upgrading existing packages, start at step 7.
+If your environment has never had ServiceNow CPQ installed, start at step 1. If you are upgrading existing packages, start at step 7.
 
 ## Procedure
 
-1.  Navigate to your CPQ custom URL, and click the Settings tab in the navigation menu.
+1.  Navigate to your ServiceNow CPQ custom URL, and click the Settings tab in the navigation menu.
 
 2.  Create a Refresh Token user name.
 
-    The user name can be any userʼs username, but CPQ recommends a user with a system administrator profile.
+    The user name can be any userʼs username, but ServiceNow CPQ recommends a user with a system administrator profile.
 
-3.  When prompted in the pop-up window, allow access for the CPQ API User connected app.
+3.  When prompted in the pop-up window, allow access for the ServiceNow CPQ API User connected app.
 
     If you are using an integration user that is not a system Admin, the following are the necessary requirements for the integration user \(or a permission set associated with that user/profile\):
 
@@ -59,13 +59,13 @@ If your environment has never had CPQ installed, start at step 1. If you are upg
         -   Pricebook2
         -   PricebookEntry
     -   For subscription management, the user with also need Read/View All access to the ProductSellingModel object.
-4.  In a new browser, navigate to your CPQ custom URL again and confirm that the Refresh Token user name was updated correctly.
+4.  In a new browser, navigate to your ServiceNow CPQ custom URL again and confirm that the Refresh Token user name was updated correctly.
 
-5.  Click reset again to obtain a new refreshToken, or navigate to https://&lt;YourLogikURL&gt;/refreshToken.
+5.  Click reset again to obtain a new refreshToken, or navigate to https://&lt;YourCPQURL&gt;/refreshToken.
 
 6.  Enter Salesforce setup, and search in the Quick Find box for Connected Apps oAuth Usage.
 
-    1.  Find the Logik Connected App and click **Install**.
+    1.  Find the ServiceNow CPQ Connected App and click **Install**.
 
     2.  Click **Allow**.
 
@@ -73,39 +73,39 @@ If your environment has never had CPQ installed, start at step 1. If you are upg
 
         Permitted users should be set to **Admin approved users are pre-authorized**.
 
-    4.  Scroll to Manage Profiles, and link to the system administrator profile or any other profiles that will be using CPQ as an admin.
+    4.  Scroll to Manage Profiles, and link to the system administrator profile or any other profiles that will be using ServiceNow CPQ as an admin.
 
 7.  Click the gear icon in the upper right and go into the “Setup” page for your SFDC org.
 
-    If you are upgrading the Logik Base Managed Package from one major version to a newer major version, \(for example, from 1.x to 2.x\), submit a support case noting this. CPQ needs to update the package version for your environment in our database.
+    If you are upgrading the ServiceNow CPQ Base Managed Package from one major version to a newer major version, \(for example, from 1.x to 2.x\), submit a support case noting this. ServiceNow CPQ needs to update the package version for your environment in our database.
 
 8.  Navigate to Installed Packages.
 
-    If you are only upgrading your existing CPQ packages, this is the only step you must complete.
+    If you are only upgrading your existing ServiceNow CPQ packages, this is the only step you must complete.
 
-    1.  Install the Logik Base Managed Package and select **Install for All Users**.
+    1.  Install the ServiceNow CPQ Base Managed Package and select **Install for All Users**.
 
         -   If your org logs in through test.salesforce.com or has sandbox in the My Domain URL of the org, click [here](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDm000000cYuyIAE).
         -   If your org logs in through login.salesforce.com, click [here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm000000cYuyIAE).
-        The installation key is `Logik.io-2025!`
+        The installation key is `CPQ-2025!`
 
-    2.  If using with Salesforce CPQ, ensure that Salesforce CPQ is installed and is version 244.2 or later, install the CPQ Extension for Salesforce CPQ package.
+    2.  If using with Salesforce CPQ, ensure that Salesforce CPQ is installed and is version 244.2 or later, install the ServiceNow CPQ Extension for Salesforce CPQ package.
 
         -   If your org logs in through test.salesforce.com or has sandbox in the My Domain URL of the org, click [here](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDm000000cYvDIAU).
         -   If your org logs in through login.salesforce.com, click [here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm000000cYvDIAU).
-        The installation key is `Logik.io-2025!`
+        The installation key is `CPQ-2025!`
 
 9.  For CPQ usage, navigate to Installed Packages again.
 
     1.  Find Salesforce CPQ and click **Configure**.
 
-    2.  In Additional Settings &gt; External Configurator URL, update to `https://<YourLogikURL>/ui/configure`, and click **Save**.
+    2.  In Additional Settings &gt; External Configurator URL, update to `https://<YourCPQURL>/ui/configure`, and click **Save**.
 
     3.  Check the box next to Third Party Configurator, and click **Save**.
 
-10. Add your domain \(https://&lt;YourLogikURL&gt;\) to the 'Logik.io Admin Custom Settings' object in Salesforce.
+10. Add your domain \(https://&lt;YourCPQURL&gt;\) to the 'CPQ Admin Custom Settings' object in Salesforce.
 
-    If needed, set a runtime client token to use Logik with the Salesforce Partner Community.
+    If needed, set a runtime client token to use ServiceNow CPQ with the Salesforce Partner Community.
 
 11. Click **Save**.
 
@@ -126,7 +126,7 @@ If your environment has never had CPQ installed, start at step 1. If you are upg
     Give the new URL the following settings, and then click **Save**.
 
     -   In the API Name section, give the URL a name, such as "ServiceNow CPQ." \(It can be any name so long as you can reference it later.\)
-    -   Add your domain to the URL section. \(If you want to make sure this setting retain access after an SFDC refresh, enter `https://*logik.io` to ensure that any logik.io site is trusted.
+    -   Add your domain to the URL section. \(If you want to make sure this setting retain access after an SFDC refresh, enter `https://*cpq` to ensure that any cpq site is trusted.
     -   Check `Active`.
     -   Set the CSP Context to **All**.
     -   In CSP Directives, check the **frame-src \(iframe content\)** and **img-src \(images\)** options.
@@ -134,32 +134,32 @@ If your environment has never had CPQ installed, start at step 1. If you are upg
 
     1.  Navigate to Page Layouts and click **Page Layout Assignments**.
 
-    2.  Find the page layout assigned to system administrator or other profiles needing CPQ Admin access \(as determined when setting up Logik Connected App above\).
+    2.  Find the page layout assigned to system administrator or other profiles needing ServiceNow CPQ Admin access \(as determined when setting up ServiceNow CPQ Connected App above\).
 
     3.  Select the page layout assigned to the system administrator.
 
-    4.  Drag **View Logik.io Setup** and **Logik.io Enabled** to the desired section of the page layout \(usually the top\).
+    4.  Drag **View ServiceNow CPQ.io Setup** and **ServiceNow CPQ.io Enabled** to the desired section of the page layout \(usually the top\).
 
 15. Navigate to Salesforce CPQ to confirm that the new tabs are visible.
 
-16. In the Product tab, confirm that there is a new view called **Logik.io View**.
+16. In the Product tab, confirm that there is a new view called **ServiceNow CPQ View**.
 
-17. Test by creating or editing a product and checking **Logik.io Enabled** box, checking **Active Box**, and then saving and assigning it a Price Book entry.
+17. Test by creating or editing a product and checking **ServiceNow CPQ Enabled** box, checking **Active Box**, and then saving and assigning it a Price Book entry.
 
-    -   On the new product’s detail page, follow the Click Here link under **View Logik.io Setup** to ensure access to CPQ Admin.
+    -   On the new product’s detail page, follow the Click Here link under **View ServiceNow CPQ Setup** to ensure access to ServiceNow CPQ Admin.
     -   If you receive the error "Cannot get Configurable Product. Product &lt;ProductId&gt; is not available in cache" when you try to access a configurable product, you may have skipped the refresh token user setup at the top of this page. Create the user and try again.
-    -   If you are able, please grant CPQ a user with the email address of provisioning@logik.io and we can verify the setup once you have completed it.
+    -   If you are able, please grant ServiceNow CPQ a user with the email address and we can verify the setup once you have completed it.
 
 -   If you receive the error "Cannot get Configurable Product. Product &lt;ID&gt; is not available in cache" when you try to access a configurable product, you may have skipped step 2 to create a Refresh Token user name. Repeat step 2.
--   If you receive an "OAuth Error" with the code OAUTH\_APPROVAL\_ERROR\_GENERIC when you try to access your Logik URL, your user is blocked by recent changes Salesforce has made to connected apps. To resolve the problem, add the following text to your Salesforce My Domain URL, and then click **Allow**:
+-   If you receive an "OAuth Error" with the code OAUTH\_APPROVAL\_ERROR\_GENERIC when you try to access your ServiceNow CPQ URL, your user is blocked by recent changes Salesforce has made to connected apps. To resolve the problem, add the following text to your Salesforce My Domain URL, and then click **Allow**:
 
-    -   For the Logik Connected App:
+    -   For the ServiceNow CPQ Connected App:
 
         ```
         /identity/app/AppInstallApprovalPage.apexp?app_id=0Ci5e000000bn6b&app_org_id=00D5e000005AHE7
         ```
 
-    -   For the Logik API User Connected App:
+    -   For the ServiceNow CPQ API User Connected App:
 
         ```
         /identity/app/AppInstallApprovalPage.apexp?app_id=0Ci5e000000L18c&app_org_id=00D5e000005AHE7

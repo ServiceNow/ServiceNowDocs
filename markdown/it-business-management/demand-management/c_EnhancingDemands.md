@@ -8,7 +8,7 @@ product: Demand Management
 classification: demand-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -55,7 +55,7 @@ To [add a resource assignment to the demand](https://raw.githubusercontent.com/S
 
 ## Add and recalculate strategy and goal allocations
 
-The Strategy Allocations related list displays the percentage of the demand's total cost and benefits allocated toward the achievement of the associated strategies. The Goal Allocations related list displays the percentage of demand's total cost and benefits allocated toward achievement of goals associated with the demand. For more information, see [Allocate or modify the strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md).
+The Strategy Allocations related list displays the percentage of the demand's total cost and benefits allocated toward the achievement of the associated strategies. The Goal Allocations related list displays the percentage of demand's total cost and benefits allocated toward achievement of goals associated with the demand. For more information, see [Allocate strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md).
 
 Recalculate and update cost field values in the Strategy and Goal Allocation tabs. Use the Recalculate Strategy and Goal Allocation related link to update the demand's total cost and benefits when strategy and goal allocations for the demand are changed. For more information, see [Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md).
 
@@ -82,7 +82,7 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 
 [View demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand]()
+[RIDACs records for a demand]()
 
 [Reset a demand to Draft state]()
 

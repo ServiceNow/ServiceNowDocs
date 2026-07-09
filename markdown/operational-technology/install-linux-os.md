@@ -21,7 +21,7 @@ Role required: admin
 ## About this task
 
 -   Install the distribution with minimal configuration, including an SSH server, and confirm the VM supports AVX/AVX2 instructions.
--   Allocate 16 GB of RAM for installation. ​For resource requirements, see [Operational Technology Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) or .
+-   Allocate 16 GB of RAM for installation. ​For resource requirements, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md) or [Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reqs-ot-console-installation.md).
 
 ## Procedure
 
@@ -29,8 +29,9 @@ Role required: admin
 
     |OS|Description|
     |---|-----------|
-    |**Red Hat/Rocky 8.x and 9.x**|See [https://docs.redhat.com/en/documentation/red\_hat\_enterprise\_linux/10\#Installing%20RHEL](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10#Installing%20RHEL).|
-    |**Debian 12**|See [https://www.debian.org/releases/testing/amd64/](https://www.debian.org/releases/testing/amd64/).|
-    |**Ubuntu 22.04 and 24.04**|See [https://ubuntu.com/tutorials/install-ubuntu-desktop\#1-overview](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).|
+    |**RedHat Enterprise Linux \(RHEL\) 8.x, 9x, and 10x**|See [https://docs.redhat.com/en/documentation/red\_hat\_enterprise\_linux/10\#Installing%20RHEL](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10#Installing%20RHEL)|
+    |**Rocky 8.x, 9x, and 10x**|See [https://docs.rockylinux.org/10/guides/installation/](https://docs.rockylinux.org/10/guides/installation/)|
+    |**Debian 12 and 13**|See [https://www.debian.org/releases/testing/amd64/](https://www.debian.org/releases/testing/amd64/)|
+    |**Ubuntu 22.04 and 24.04**|See [https://ubuntu.com/tutorials/install-ubuntu-desktop\#1-overview](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)|
 
 

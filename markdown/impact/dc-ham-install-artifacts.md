@@ -62,3 +62,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Impact VM - Legacy HAM systems annual run-rate|
 |Automated|Impact VM - \# of unplanned outages from HW issues this month|
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-ham.md)
+

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [acc plugin package, create plugin structure, acc plugin, remedial action plugin, powershell remedial action, ruby script plugin]
 breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 

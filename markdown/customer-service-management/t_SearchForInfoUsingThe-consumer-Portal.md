@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
 
@@ -35,6 +35,13 @@ The portal has a search feature that you can use to search for information acros
 4.  Select a link to view an article.
 
 
+**Related topics**  
+
+
+[Search the Knowledge Base on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+
+[View common questions on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-faqs-consumer-portal.md)
+
 ## Search the Knowledge Base on Consumer Portal
 
 Search the knowledge base from the Consumer Portal to find articles, browse by product category, or view featured and popular content.
@@ -60,7 +67,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d115805e215">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d116622e234">
 
 **Select a product to display more specific information**
 
@@ -68,7 +75,7 @@ The Consumer Portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d115805e224">
+</td></tr><tr><td id="d116622e243">
 
 **Select a link from one of the lists**
 
@@ -76,7 +83,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d115805e233">
+</td></tr><tr><td id="d116622e252">
 
 **Type a topic in the __Search__ field and press the Enter key**
 
@@ -86,3 +93,10 @@ Displays a list of related articles. Select a link to display the desired articl
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Search for information using Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+
+[View common questions on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-faqs-consumer-portal.md)
+

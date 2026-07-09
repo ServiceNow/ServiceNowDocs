@@ -82,7 +82,7 @@ The Create Knowledge UI action is available to the customer service agents who h
     -   If no similar cases exist, this modal doesn’t appear, and the article is created. The generated article, based on the chosen relevant records, is linked to both the account case and all the relevant cases selected. Similar cases are populated by the AI Search profile titled \[KM\] Multi-task Article Generation.
     -   You can select up to five additional relevant cases in the new modal to generate the article.
     -   You can modify the draft before saving it. The article appears in a new tab with a unique ID number for the knowledge article and is attached to the parent record.
-    -   If Now LLM Service fails to generate a result, an error message is displayed.
+    -   If LLM service fails to generate a result, an error message is displayed.
     -   When creating an article by using Now Assist, after the process is triggered, it can't be stopped. Now Assist continues to generate the article even if you close the modal.
 8.  Select the **Knowledge Base** and the **Language** in the pop-up window **What language should Now Assist draft this article in**.
 
@@ -98,7 +98,7 @@ The Create Knowledge UI action is available to the customer service agents who h
 
 12. Review the Now Assist generated article and select **Save** or **Publish**.
 
-    The Now Assist success message disappears which means that it’s no longer a Now LLM Service generated article.
+    The Now Assist success message disappears which means that it’s no longer an LLM service generated article.
 
     **Note:** Now Assist icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Now assist icon. is also available for the published KB articles.
 

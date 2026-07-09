@@ -36,8 +36,6 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
     If you want to reply to an existing comment, select **Reply**
 
-    \[Omitted image "post-comment.png"\] Alt text: post a comment
-
 4.  Enter your comment or reply and add links, images, and attachments as required.
 
     **Note:** Attachments to comments posted in the Knowledge Management Service Portal are not displayed in the Live Feed. If attachments to comments are posted in Live Feed, they are displayed in the Knowledge Management Service Portal.

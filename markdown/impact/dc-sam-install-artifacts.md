@@ -74,3 +74,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Widget|SW audit financial settlements as a % of SW spend - monthly|
 |Dashboard|Impact VM - SAM|
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-sam.md)
+

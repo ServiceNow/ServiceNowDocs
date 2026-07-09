@@ -9,6 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [install hiring tab, hiring manager plugin, admin installation, hiring tab installation]
 breadcrumb: [Configure, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

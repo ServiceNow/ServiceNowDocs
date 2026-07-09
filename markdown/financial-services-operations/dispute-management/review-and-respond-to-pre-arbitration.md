@@ -9,7 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review and respond to a pre-arbitration request
@@ -38,31 +38,29 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review and respond to pre arbitration** activity.
 
-8.  Select the **Review and respond to pre arbitration** activity.
-
-9.  Review the pre-arbitration request by opening the record under the **Pre arbitration request** field.
+7.  Review the pre-arbitration request by opening the record under the **Pre arbitration request** field.
 
     You can also view the merchant response as an attachment in the activity stream.
 
     **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
-10. Respond in one of the following ways.
+8.  Respond in one of the following ways.
 
-<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d79348e221">
+<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d79537e203">
 
 Option
 
-</th><th align="left" id="d79348e224">
+</th><th align="left" id="d79537e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79348e230">
+</th></tr></thead><tbody><tr><td id="d79537e212">
 
 **Resolved**
 
@@ -72,7 +70,7 @@ Determine whether to reverse provisional credit using the **Reverse provisional 
 
  As a result, the issuer accepts the pre-arbitration request of the acquirer. It reverses provisional credit or convert provisional credit to final credit.
 
-</td></tr><tr><td id="d79348e257">
+</td></tr><tr><td id="d79537e239">
 
 **Unresolved**
 
@@ -92,7 +90,7 @@ After the request executes successfully, the transaction state changes to **Awai
 
 ## What to do next
 
-You can recall the request if you're within three days from the submission date and you haven't received a response yet. To recall the request, select **Recall**. When an arbitration case filing is received, the **Incoming arbitration received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
+You can recall the request if you are within three days from the submission date and you haven't received a response yet. To recall the request, select **Recall**. When an arbitration case filing is received, the **Incoming arbitration received** value changes to **Yes** and the transaction state moves to **Work to Progress**.
 
 **Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

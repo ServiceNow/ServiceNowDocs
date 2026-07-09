@@ -21,7 +21,7 @@ Governance addresses the following:
 -   Quality assurance: Automated code is validated through testing and review.
 -   Visibility and control: Prevents shadow IT and enforces lifecycle transparency.
 
-ServiceNow embeds security and governance directly into the agentic development workflow, so AI-generated applications meet enterprise standards by default. Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's vibe coded and developed with AI on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
+ServiceNow embeds security and governance directly into the agentic development workflow, so AI-generated applications meet enterprise standards by default. Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's developed agentically on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
 
 **Note:** Build Agent requires the admin role.
 
@@ -104,5 +104,5 @@ For more information, see [AI Control Tower](https://raw.githubusercontent.com/S
 
 When using agentic development, prompts should not only describe functionality but also embed governance requirements. This helps generated apps comply with security, compliance, and quality standards.
 
-See [Example prompts for vibe coding and AI-assisted development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
+See [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
 

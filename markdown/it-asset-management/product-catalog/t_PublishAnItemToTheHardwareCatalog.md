@@ -9,7 +9,7 @@ classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, IT Asset Management]
+breadcrumb: [Create a vendor catalog item, Vendor catalog items, Product Catalog, Common applications, Asset Management]
 ---
 
 # Publish an item to the hardware catalog

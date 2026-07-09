@@ -22,6 +22,10 @@ Role required: sn\_customerservice.consumer
 
 **Note:** You must be a householdHead to view household members. For details, see [Add consumers to a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-consumer-to-household.md).
 
+## About this task
+
+A household groups related consumers under a single account. Viewing household members lets you see who is associated with your household and access their individual details. Only the household head can view this list.
+
 ## Procedure
 
 1.  Navigate to the Consumer Portal.

@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add details of the enterprise assets to an onboarding order

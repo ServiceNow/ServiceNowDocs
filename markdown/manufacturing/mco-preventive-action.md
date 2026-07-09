@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for quality issues, Create a product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Related list for quality issues, Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a preventive action
@@ -30,8 +30,6 @@ Role required: admin
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-related-list-for-pqi.md)
 
 **Related topics**  
 

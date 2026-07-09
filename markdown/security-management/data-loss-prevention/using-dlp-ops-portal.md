@@ -1,6 +1,6 @@
 ---
 title: Data Loss Prevention Incident Response Analyst Workspace
-description: Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace so that you can review the DLP incidents and assign or resolve them. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.Add a Playbook in the Data Loss Prevention Incident Response Analyst workspace that can act as a guide for addressing and mitigating data loss incidents that can compromise your organization’s security.Cancel a Data Loss Prevention Incident Response Playbook to stop a business flow when it is no longer valid.Use the DLP Analyst workspace to view or reactivate the archived DLP incidents.
+description: Use the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace to view the DLP incidents. Assign the incidents to end users for resolution and more.Access the Data Loss Prevention Incident Response \(DLP IR\) Analyst Workspace so that you can review the DLP incidents and assign or resolve them. You can track trends on incidents by severity, top offenders, incidents by scan source, and incidents by policy.Manage DLP incident lists in the Data Loss Prevention Incident Response Analyst Workspace. Save copies of default lists, create custom lists, and share lists with your team.Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.A Data Loss Prevention Incident Response Playbook is a step-by-step guide for addressing and mitigating data loss incidents, which can include unauthorized exposures, leaks, or breaches of sensitive information that can compromise your organization’s security.Add a Playbook in the Data Loss Prevention Incident Response Analyst workspace that can act as a guide for addressing and mitigating data loss incidents that can compromise your organization’s security.Cancel a Data Loss Prevention Incident Response Playbook to stop a business flow when it is no longer valid.Use the DLP Analyst workspace to view or reactivate the archived DLP incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/using-dlp-ops-portal.html
 release: australia
@@ -8,7 +8,7 @@ product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 18
 keywords: [Preview Evidence Files, DLP analyst workspace, Data Loss Prevention Incident Response, add a new DLP Playbook]
 breadcrumb: [Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -95,6 +95,7 @@ List of actions that you can perform. Choices are as follows:-   **Save as**
 -   **Rename**
 -   **Save**
 -   **Delete**
+-   **Share**: Share the custom list with your team so that other members can view and use it.
 
 
 </td></tr><tr><td>
@@ -326,7 +327,99 @@ Action to close the incident as false positive. You can also add any additional 
         -   User action pending
         -   Cloned Incidents
         -   Archived Incidents
-    -   **My Lists** tab: Displays any lists that you’ve renamed and any lists that you created.
+    -   **My Lists** tab: Displays any lists that you’ve renamed and any lists that you created. You can also share the lists you create with your team members so that they can view and use them.
+
+## Work with lists in the DLP IR Analyst Workspace
+
+Manage DLP incident lists in the Data Loss Prevention Incident Response Analyst Workspace. Save copies of default lists, create custom lists, and share lists with your team.
+
+### Before you begin
+
+Role required:
+
+-   sn\_dlir.analyst
+-   sn\_dlir.analyst\_read and sn\_dlir.read
+
+### About this task
+
+The Lists category in the Data Loss Prevention Incident Response DLP IR Analyst Workspace consists of two tabs:
+
+-   **Lists** tab: The default \(predefined\) lists for DLP incidents, such as **Open**, **Escalated**, and **Pending Assessments**. You cannot rename, delete, or share a default list, but you can save a copy of it to your My Lists.
+-   **My Lists** tab: The lists that you create or save a copy of. You can rename, share, and delete the lists in this tab.
+
+### Procedure
+
+1.  From the home page of the Data Loss Prevention Incident Response DLP IR Analyst Workspace, go to the top-left of the page and select the **Lists** tab.
+
+    The default lists for DLP incidents are displayed.
+
+    -   All
+    -   Open
+    -   My Incidents
+    -   Assigned to my group
+    -   Escalated
+    -   Overdue
+    -   Pending Assessments
+    -   User action pending
+    -   Cloned Incidents
+    -   Archived Incidents
+2.  Save a copy of a default list to **My Lists**.
+
+    1.  Select a default list, such as **Open**, **Escalated**, or **Pending Assessment**.
+
+    2.  Select the Menu item actions icon \[Omitted image "dlp-menu-item-actions.png"\] Alt text: Menu item actions icon.
+
+    3.  Select **Save a copy**.
+
+    4.  Enter a name for the list and apply your changes.
+
+        The copy of the default list is saved under the **My Lists** tab, where you can rename, share, and delete it.
+
+3.  Create a list under **My Lists**.
+
+    1.  Select the **My Lists** tab, and then select **Add new list**.
+
+    2.  To create a different version of an existing list, select the **Start from existing** tab in the New List dialog box and specify the required details.
+
+    3.  To create your own list, select the **Create your own** tab in the New List dialog box, add the conditions for the incidents that you want to show, and select the columns to display.
+
+    4.  Select **Create**.
+
+        The list is saved under the **My Lists** tab.
+
+4.  To manage a list under **My Lists**, select the list, select the more actions \(**...**\) icon, and then choose the option that is appropriate for you.
+
+    |Option|Description|
+    |------|-----------|
+    |Save a copy|Save a copy of the list under the **My Lists** tab.|
+    |Rename|Change the name of the list.|
+    |Share|Share the list with one or more team members so that they can view and use it.|
+    |Delete|Remove the list from the **My Lists** tab.|
+
+5.  Share a list with your team.
+
+    1.  Under the **My Lists** tab, select the list that you want to share.
+
+    2.  Select the more actions \(**...**\) icon, and then select **Share**.
+
+    3.  Select the users that you want to share the list with.
+
+    4.  If your list contains more than one filter, select the specific filter that you want to share.
+
+        Only the filter that you share is visible to the recipients.
+
+    5.  Apply your changes.
+
+        The selected filter is shared with the users that you chose. The shared list appears under the recipient's **Shared with me** tab, along with the name of the user who shared it.
+
+6.  Locate your lists using the tabs under **My Lists**.
+
+    |Tab|Description|
+    |---|-----------|
+    |Created by me|The lists that you created or saved a copy of. You can save a copy of, rename, share, and delete these lists.|
+    |Shared with me|The lists that other users shared with you. Each list shows the name of the user who shared it. For a shared list, you can only select **Copy**. To make changes to a shared list, copy it to your **Created by me** tab, and then rename and manage your copy.|
+    |Opened by link|The lists that you opened by using a shared link.|
+
 
 ## Preview evidence files
 

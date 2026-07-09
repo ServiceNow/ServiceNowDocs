@@ -62,7 +62,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\) for the skill.
 
-    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
+    Each skill relies on a base input table and input fields with descriptions to provide context for the LLM service to generate a response.
 
     Select only those related tables that are offered as the base system as part of the input data.
 
@@ -105,7 +105,7 @@ Description of the base input field value.
 </td></tr></tbody>
 </table>    2.  For each input template state \(New, Work in progress, or Resolved\), configure the rule conditions by using the condition builder to filter the data.
 
-        The rule conditions determine when the input template is used. By default, the record state determines the input template that the Now LLM Service uses.
+        The rule conditions determine when the input template is used. By default, the record state determines the input template that the LLM service uses.
 
         You can build the condition out further by selecting **+New condition set** and configuring additional parameters.
 
@@ -119,7 +119,7 @@ Description of the base input field value.
 
     3.  For each input template state \(New, Work in progress, or Resolved\), select **+New data source** to configure the additional related table and activity stream data, as needed.
 
-        Adding input data sources, like the related tables and activity streams, provide more context to the Now LLM Service in a related list.
+        Adding input data sources, like the related tables and activity streams, provide more context to the LLM service in a related list.
 
         You can also add the rule conditions to these additional data sources.
 

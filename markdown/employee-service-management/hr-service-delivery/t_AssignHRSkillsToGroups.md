@@ -34,10 +34,6 @@ Role required: sn\_hr\_core.admin
 
 5.  Click **Save**.
 
-    Messages are displayed to notify you of the skills that were assigned to each group member.
-
-    \[Omitted image "MessagesForGroupSkillAssignment.png"\] Alt text: Group skill assignment messages
-
 
 **Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

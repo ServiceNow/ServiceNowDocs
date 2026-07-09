@@ -18,7 +18,7 @@ The Now Assist Q&amp;A Genius Results skill enables users to get answers to thei
 
 ## Overview of Now Assist Q&amp;A Genius Results
 
-Now Assist Q&amp;A Genius Results answers your questions in the Now Assist panel using content from knowledge base articles, external sources, such as Microsoft SharePoint, Google Drive, and Confluence Cloud, and files you upload. You can also attach images or documents to get answers grounded in that content. Answers are summarized from the most relevant content across one or more sources, so you get a single, consolidated response instead of a list of articles to read through. Each response shows the source so you can refer back to the original article or document. If the skill cannot find a relevant answer, it returns a no-result response instead of a generic reply.
+Now Assist Q&amp;A Genius Results answers your questions in the Now Assist panel using content from knowledge base articles, external sources, such as Microsoft SharePoint, Google Drive, and Confluence Cloud, and files you upload. You can also attach images or documents to get answers grounded in that content. Answers are summarized from the most relevant content across one or more sources, so you get a single, consolidated response instead of a list of articles to read through. Each response shows the source so you can refer back to the original article or document. If the skill can't find a relevant answer, it returns a no-result response instead of a generic reply.
 
 The skill supports multi-turn conversations by retaining your conversation history so that follow-up questions are answered in the context of what you previously asked without re-uploading your file or repeating yourself.
 

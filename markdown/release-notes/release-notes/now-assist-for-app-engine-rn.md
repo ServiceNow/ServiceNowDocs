@@ -14,7 +14,13 @@ The ServiceNow® Now Assist for App Engine application enables creators to enhan
 
 ## Now Assist for App Engine highlights for the Australia release
 
-If you have a Now Assist for Creator subscription, you can create AI assets conversationally using Build Agent.
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   Prepare for Now LLM Service to be deprecated in a future release.
+
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+
+-   If you have a Now Assist for Creator subscription, you can create AI assets conversationally using Build Agent.
 
 See  for more information.
 
@@ -22,9 +28,14 @@ See  for more information.
 
 ## New in the Australia release
 
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 -   **Create AI assets conversationally with Build Agent**
 
-    If you have a Now Assist for Creator subscription, you can leverage the power of Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
+    If you have a Now Assist for Creator subscription, you can use Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -32,8 +43,8 @@ See  for more information.
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets and create your own
-    Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information

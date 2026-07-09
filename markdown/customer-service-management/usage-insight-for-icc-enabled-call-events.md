@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/usa
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
@@ -55,5 +55,5 @@ Each event entry for usage insights includes a complete payload. The following t
 |interaction sys\_id|The sys\_id of the corresponding interaction record in the ServiceNow instance.|
 |external\_id|An identifier from the external CCaaS provider associated with this interaction.|
 
-Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage Insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md).
+Enable call events tracking by configuring the Usage Insights capability. See: [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md).
 

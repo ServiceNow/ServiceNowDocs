@@ -1,6 +1,6 @@
 ---
-title: Agent Client Collector for Visibility - Content default checks and policies
-description: Agent Client Collector for Visibility - Content \(ACC-VC\) provides various checks and policies as well as a business rule.
+title: Agent Client Collector for Visibility Content default checks and policies
+description: Agent Client Collector for Visibility Content \(ACC-VC\) provides various checks and policies as well as a business rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-visibility-checks-policies.html
 release: australia
@@ -8,14 +8,14 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
-# Agent Client Collector for Visibility - Content default checks and policies
+# Agent Client Collector for Visibility Content default checks and policies
 
-Agent Client Collector for Visibility - Content \(ACC-VC\) provides various checks and policies as well as a business rule.
+Agent Client Collector for Visibility Content \(ACC-VC\) provides various checks and policies as well as a business rule.
 
 ## Policies
 
@@ -31,7 +31,7 @@ Description
 
 </th><th>
 
-Checks definitions
+Check definitions
 
 </th></tr></thead><tbody><tr><td>
 
@@ -204,7 +204,8 @@ For details on web usage data system properties, see [Web usage data collection 
 
 </td><td>
 
-VISC Get URL metrics
+-   VISC Get URL metrics
+-   VISC Get targeted URL metric
 
 </td></tr></tbody>
 </table>**Note:** Windows endpoint devices include devices that have a Windows operating system and belong to CI class: computer.
@@ -295,10 +296,18 @@ File-based discovery
 
 Fetches the file data from the agent.
 
+</td></tr><tr><td>
+
+VISC Get targeted URL metric
+
+</td><td>
+
+Gathers per-day usage metrics for the monitored URL from each managed device, and sends the data back to the instance.
+
 </td></tr></tbody>
 </table>## Business rule
 
 The **Enhanced Discovery – On CI Delete** business rule triggers the Endpoint Discovery Check when the CI associated with a given CI is deleted from sn\_agent\_cmdb\_ci\_agent.
 
-**Parent Topic:**[Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

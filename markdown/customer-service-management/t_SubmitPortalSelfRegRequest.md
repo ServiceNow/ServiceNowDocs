@@ -43,3 +43,10 @@ Role required: none
     If the code was incorrect, you see this message: “Incorrect Registration Code".
 
 
+**Related topics**  
+
+
+[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PortalSelfRegistration.md)
+
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInToPortalFirstTime.md)
+

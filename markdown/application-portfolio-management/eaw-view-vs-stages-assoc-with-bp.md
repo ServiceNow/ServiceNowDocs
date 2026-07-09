@@ -48,5 +48,5 @@ Role required: sn\_apm.apm\_user
 
 [Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-stream-stage.md)
 
-[Add or remove a business process from a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 

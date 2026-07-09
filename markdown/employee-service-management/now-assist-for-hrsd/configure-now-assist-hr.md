@@ -37,7 +37,7 @@ The following list contains skills that you can access from the Now Assist Admin
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 

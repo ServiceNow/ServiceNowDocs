@@ -44,7 +44,7 @@ Role required: admin
 
 6.  Configure the budget attribute to expense type or cost type to manage the budget of your planning items.
 
-    For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
+    For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
 
 7.  Customize the Create cost plan form fields to match the requirements of your organization.
 
@@ -60,14 +60,14 @@ Role required: admin
 
 10. Activate and define a scheduled job to migrate budget for your planning items.
 
-    For more information, see [Activate a scheduled job to migrate budget of your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.md)
+    For more information, see [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.md)
 
 11. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
 
-    For more information, see [Activate a scheduled job to create financial baselines for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
+    For more information, see [Scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
 
 12. Activate and define a scheduled job to generate labor costs for your projects and demands based on the attribute-based resource assignments.
 
-    For more information, see [Activate a scheduled job to generate labor costs for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
+    For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
 
 

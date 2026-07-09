@@ -18,6 +18,8 @@ Understand how to set up the Employee Relations integration with Navex Ethicspoi
 
 ## Before you begin
 
+Ensure that a MID server is already configured and running.
+
 Role required: sn\_hr\_navex\_ep.admin
 
 ## Procedure

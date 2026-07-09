@@ -28,7 +28,7 @@ You must enable [Enable article health score calculation](https://raw.githubuser
 
 ## How the Knowledge Health Score is calculated
 
-Each knowledge article is scanned against six quality parameters and assigned an article health score from 0 to 100. Knowledge Base scores are the average of all article scores within that Knowledge Base, and the score is the average of all Knowledge Base scores. See [Article health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/healthscore-metrics.md) for the full parameter breakdown and weighted calculation.
+Each knowledge article is scanned against six quality parameters and assigned an article health score from 0 to 100. Knowledge Base scores are the average of all article scores within that Knowledge Base, and the score is the average of all aggregated Knowledge Base scores. See [Article health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/healthscore-metrics.md) for the full parameter breakdown and weighted calculation.
 
 ## Score aggregation across levels
 
@@ -42,7 +42,7 @@ Article scores aggregate upward through two additional levels:
 
     The average of all article health scores within a Knowledge Base selected by the user.
 
--   **Aggregated score**
+-   **Aggregated Knowledge Base score**
 
     The average of all Knowledge Base scores across the Knowledge Base. This is the score displayed on the Knowledge Management homepage gauge by default.
 

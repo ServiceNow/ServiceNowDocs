@@ -1,6 +1,6 @@
 ---
 title: Create TRM product form
-description: As an Enterprise Architect, you can add a new software product to the TRM library. It creates the record directly without sending a request for approval.
+description: As an Enterprise Architect, you can add software product to the TRM library. It creates the record directly without sending a request for approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-new-trm-prod-form.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architectur
 
 # Create TRM product form
 
-As an Enterprise Architect, you can add a new software product to the TRM library. It creates the record directly without sending a request for approval.
+As an Enterprise Architect, you can add software product to the TRM library. It creates the record directly without sending a request for approval.
 
 ## TRM Product form fields
 
@@ -26,11 +26,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Publisher
+Company
 
 </td><td>
 
-Publisher of the software product. Look up and select a publisher from the Companies page.
+Company of the software product. Look up and select a company from the list.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ TRM Phase
 
 </td><td>
 
-Phase of the product. Use the following choice list:-   Approved
+Phase of the product. Use the following list:-   Approved
 -   Approved with Constraints
 -   Divest
 -   Evaluation
@@ -66,7 +66,7 @@ Investment direction
 
 </td><td>
 
-Purpose for the investment. Use the following choice list:-   Divest
+Purpose for the investment. Use the following list:-   Divest
 -   Eliminated
 -   Invest
 -   Maintain
@@ -84,6 +84,8 @@ Business justification for the product request.
 
 **Related topics**  
 
+
+[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
 
 [Add or edit your TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-edit-my-trm-prod.md)
 

@@ -32,14 +32,14 @@ Role required: admin
 
 4.  There are two prerequisites you much complete before you can create connections for the Service Graph Connector for ServiceNow OT Discovery:
 
-5.  The first prerequisite is download and install the OT Discovery components.
+5.  The first prerequisite is download and install the OT Discoverycomponents.
 
     \[Omitted image "downloadpage2-sgcc.png"\] Alt text: OT Discovery Downloads
 
     1.  Download and install the Discovery Console for OT package.
     2.  Download and install the Discovery Sensor for OT package \(ISO and OVR\).
     3.  Download and install the OT Discovery Collector package that's compatible with your OS.
-    **Note:** If you want to download and install the Console and Collector containerized packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md) for more information.
+    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. See [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md) for more information.
 
 6.  The second prerequisite is to configure the MID Server.
 

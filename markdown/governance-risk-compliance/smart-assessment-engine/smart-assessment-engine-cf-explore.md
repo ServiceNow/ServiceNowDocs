@@ -16,7 +16,7 @@ breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 
 The ServiceNow®Smart Assessment Engine \(SAE\) helps you reduce the manual burden and costs of your assessment processes through automation.
 
-\[Omitted video\] Description: Smart Assessmemnt Engine Overview
+\[Omitted video\] Description: Smart Assessment Engine Overview
 
 ## Smart Assessment Engine
 
@@ -58,7 +58,7 @@ Template reader \[sn\_smart\_asmt.template\_reader\], Template manager \[sn\_sma
 
 Use the template designer for the following tasks:
 
- -   Create and customize the assessment templates that support a range of types including Control Attestation and Risk Identification.
+ -   Create and customize the assessment templates that support a range of types including Control Attestation and Risk Identification \(processes that verify adherence to established controls and identify potential risks\).
 -   Set the assessment parameters such as the question types, justifications, and conditional visibility.
 -   Add the instructions, questions, and reference information by using the template designer.
 

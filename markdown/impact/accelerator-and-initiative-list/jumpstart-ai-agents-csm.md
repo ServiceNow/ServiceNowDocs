@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your AI Agents for CSM
@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator overview
 
-This accelerator provides  Impact customers with an overview and applied demonstration of AI Agents for CSM. By harnessing the power of GenAI, this accelerator highlights how AI agents revolutionize the CSM process by using advanced reasoning to complete key tasks. AI agents handle repetitive tasks such as generating detailed resolution notes, summarizing cases and chat conversations, and more, freeing up human agents to focus on higher-value work. This offering provides key resources and leading practices to get started with AI Agents for CSM.
+This Accelerator provides  Impact customers with an overview and applied demonstration of AI Agents for CSM. By harnessing the power of GenAI, this Accelerator highlights how AI agents revolutionize the CSM process by using advanced reasoning to complete key tasks. AI agents handle repetitive tasks such as generating detailed resolution notes, summarizing cases and chat conversations, and more, freeing up human agents to focus on higher-value work. This offering provides key resources and leading practices to get started with AI Agents for CSM.
 
 ## Package Availability
 

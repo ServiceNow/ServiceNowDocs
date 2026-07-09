@@ -45,7 +45,7 @@ The Service Operations Workspace for TNI a converged experience for agents to vi
 **Related topics**  
 
 
-[Assign user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
+[Telecom Network Inventory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)
 
 [Exploring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.md)
 

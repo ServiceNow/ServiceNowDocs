@@ -1,5 +1,5 @@
 ---
-title: Customize the planning item display preferences for Prioritization and Roadmap in Portfolio Planning Workspace
+title: Customize planning item display preferences in Portfolio Planning
 description: Update source table configurations so that you can customize the roadmap view in Portfolio Planning according to your business priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-source-table-preferences-roadmap-portfolio-planning.html
@@ -13,7 +13,7 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Customize the planning item display preferences for Prioritization and Roadmap in Portfolio Planning Workspace
+# Customize planning item display preferences in Portfolio Planning
 
 Update source table configurations so that you can customize the roadmap view in Portfolio Planning according to your business priorities.
 

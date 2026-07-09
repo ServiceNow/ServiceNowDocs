@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Data Privacy
-description: This accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
+description: This Accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-data-privacy.html
 release: australia
@@ -9,16 +9,16 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Data Privacy
 
-This accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
+This Accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
 
 ## Accelerator Overview
 
-Jumpstart Your Data Privacy helps platform owners, security administrators, and compliance leads to learn how to classify and protect sensitive data across production and sub-production environments. It guides teams in setting up real-time protections to prevent unwanted sensitive data from entering the instance using the Data Privacy and Vault Console. This accelerator also introduces leading practices for data governance, anonymization, and privacy safeguards to support alignment with the regulatory and internal security standards.
+Jumpstart Your Data Privacy helps platform owners, security administrators, and compliance leads to learn how to classify and protect sensitive data across production and sub-production environments. It guides teams in setting up real-time protections to prevent unwanted sensitive data from entering the instance using the Data Privacy and Vault Console. This Accelerator also introduces leading practices for data governance, anonymization, and privacy safeguards to support alignment with the regulatory and internal security standards.
 
 ## Package Availability
 
@@ -28,7 +28,7 @@ Jumpstart Your Data Privacy helps platform owners, security administrators, and 
 
 -   Confirm admin access is in place to activate Data Privacy.
 -   Have a non-production instance ready for testing.
--   Maintain a foundational understanding of data privacy principles and compliance requirements to get the most value from this accelerator.
+-   Maintain a foundational understanding of data privacy principles and compliance requirements to get the most value from this Accelerator.
 
 ## What You Get
 

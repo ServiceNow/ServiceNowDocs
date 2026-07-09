@@ -52,7 +52,7 @@ With the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can review non-standa
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management]()
+[Sourcing and Procurement Operations integration with Asset Management]()
 
 [Sourcing and Procurement Operations integration with Employee Center]()
 

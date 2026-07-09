@@ -33,3 +33,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_secops.png"\] Alt text: Example with Mar 2024 cell selected.
 
 
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+

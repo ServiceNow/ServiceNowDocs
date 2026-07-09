@@ -9,7 +9,7 @@ classification: asset-audits
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Asset Audit Response, IT Asset Management]
+breadcrumb: [Configure, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Install Asset Audit Response

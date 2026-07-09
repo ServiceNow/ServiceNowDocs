@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -19,6 +19,8 @@ Start an iteration of a Sprint or PI so that your team can start working and tra
 ## Before you begin
 
 Role required: sn\_cwm.cwm\_user
+
+This task doesn't apply to teams connected to CWM. For these teams, start or complete sprints from the CWM Board instead. For more information, see [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/integrate-eap-with-collaborative-work-management.md).
 
 ## Procedure
 

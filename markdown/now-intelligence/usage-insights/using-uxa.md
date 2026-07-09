@@ -46,6 +46,8 @@ View user analytics event occurrences to help you analyze core steps within your
 The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
 -   **[Exporting data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/export-data.md)**  
 You can export data records to CSV format. Exporting user and session lists, and other analytics data to CSV is available wherever you see the download icon \(\[Omitted image "csv-download.png"\] Alt text: CSV export download icon.\).
+-   **[Export data in bulk export via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/data-export-restapi.md)**  
+Usage Insights data export is a store app that enables you to programmatically export Usage Insights \(UXA\) usage data from your ServiceNow® instance for integration with your enterprise analytics platform.
 -   **[Access analytics overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-access-analytics-overlay.md)**  
 Use the utility icon for quick, in-context page usage metrics, offering faster access to analytics without leaving the page.
 

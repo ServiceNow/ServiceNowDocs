@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-partner-program-deal-type-relationship-table.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Configure Deal Registration Type table, Data model for Deal Registration Management, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Deal Registration Type table, Data model for Deal Registration Management, Install Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Partner Program Deal Type Relationship table

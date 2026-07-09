@@ -59,3 +59,12 @@ The task is assigned to the assignee. You can't make any changes to the record u
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
+**Related topics**  
+
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+
+[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-on-a-purchase-order-exception.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
+

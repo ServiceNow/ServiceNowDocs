@@ -9,7 +9,7 @@ classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-06-08"
 reading_time_minutes: 7
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Components installed with Enterprise Asset Management
@@ -82,12 +82,12 @@ Enterprise technician \[enterprise\_asset\_technician\]
 
 </td><td>
 
-This role is for users who perform work tasks and update asset records as part of the asset lifecycle. This role has access to the following enterprise asset tasks: -   all RMA tasks except the Prepare task
--   all recall tasks
--   all disposal tasks
--   all loaner tasks except the Prepare task
--   enterprise asset audit
--   lease-end Collection, Preparation, and Shipment tasks
+This role is for users who perform work tasks and update asset records as part of the asset life cycle. This role has access to the following enterprise asset tasks: -   All RMA tasks except the Prepare task
+-   All recall tasks
+-   All disposal tasks
+-   All loaner tasks except the Prepare task
+-   Enterprise asset audits
+-   Lease-end Collection, Preparation, and Shipment tasks
 
 </td><td>
 

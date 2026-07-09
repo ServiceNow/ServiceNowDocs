@@ -60,7 +60,7 @@ For more information, see the following topics:
 -   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-an-existing-application-using-build-agent.md)
 -   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creating-or-updating-an-app-file.md)
 -   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/revert-app-changes-using-build-agent.md)
--   [Build Agent conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)
+-   [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-conversational-change-log.md)
 -   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-example-prompts.md)
 
 <table id="table_x2g_4c2_m3c"><thead><tr><th>

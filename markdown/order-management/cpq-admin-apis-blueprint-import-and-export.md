@@ -1,30 +1,30 @@
 ---
 title: Admin APIs: Blueprint import and export
-description: You can export a blueprint to back it up, or export and import a blueprint to move it from one CPQ environment to another.
+description: You can export a blueprint to back it up, or export and import a blueprint to move it from one ServiceNow CPQ environment to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-admin-apis-blueprint-import-and-export.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [API overview and resources, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [API overview and resources, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Admin APIs: Blueprint import and export
 
-You can export a blueprint to back it up, or export and import a blueprint to move it from one CPQ environment to another.
+You can export a blueprint to back it up, or export and import a blueprint to move it from one ServiceNow CPQ environment to another.
 
-The CPQ blueprint admin APIs provide the import and export API calls for working with blueprints. Common use cases include migrating blueprints across CPQ environments and backing up blueprints. To view the CPQ blueprint admin APIs, see:
+The ServiceNow CPQ blueprint admin APIs provide the import and export API calls for working with blueprints. Common use cases include migrating blueprints across ServiceNow CPQ environments and backing up blueprints. To view the ServiceNow CPQ blueprint admin APIs, see:
 
-[CPQ blueprint admin APIs](https://github.com/logikioopensource/API-Documentation/blob/main/Admin/blueprint.yml)
+[ServiceNow CPQ blueprint admin APIs](https://github.com/logikioopensource/API-Documentation/blob/main/Admin/blueprint.yml)
 
-For a comprehensive list of all CPQ APIs, see the CPQ API Reference:
+For a comprehensive list of all ServiceNow CPQ APIs, see the ServiceNow CPQ API Reference:
 
-[https://api-docs.logik.io/\#introduction](https://api-docs.logik.io/#introduction)
+API documentation introduction.
 
-You can also view the CPQ open source API documentation on Github:
+You can also view the ServiceNow CPQ open source API documentation on Github:
 
-[https://github.com/logikioopensource/API-Documentation](https://github.com/logikioopensource/API-Documentation)
+[https://github.com/opensource/API-Documentation](https://github.com/opensource/API-Documentation)
 
 To learn how to set up admin API keys for calling blueprint APIs, see:
 
@@ -49,7 +49,7 @@ The sequence of API calls to export and download a blueprint is:
     Use the same Job ID to download a ZIP file that contains the blueprint.
 
 
-To view the source code for the Export blueprint call, see:
+To view the source code for the Export blueprint call, see the openSource API documentation from the Github.
 
 [Export blueprint call](https://github.com/logikioopensource/API-Documentation/blob/3a6c7259ae1f6bb35f4f80c5ec6f23c86871c342/Admin/blueprint.yml#L32C9-L32C9)
 

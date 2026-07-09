@@ -96,5 +96,7 @@ Modifications made in the Project Management application do not propagate to a l
 
 [Project and portfolio funding]()
 
+[Project scheduling in Project Management]()
+
 [Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

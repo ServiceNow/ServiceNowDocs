@@ -35,3 +35,8 @@ For all new portals you create, bot sessions are captured in the Service Portal 
     The report shows the session count for all sessions and a separate count of sessions generated due to bots, crawlers, and DDoS attacks.
 
 
+**Related topics**  
+
+
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+

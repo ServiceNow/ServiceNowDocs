@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management publisher pack for Oracle
@@ -84,7 +84,7 @@ The Software Asset Management application supports the following license metrics
     -   Oracle WebLogic Server
     If a user operates a device that accesses any of these Oracle products, the NUP license metric licenses both the user and the device. Use this license metric in environments where users and devices are easily identifiable and countable.
 
-    **Important:** To use this license metric, you must create a corresponding client access record. Client access records enable you to track and manage the users or devices that are accessing a particular version of your software. The Software Asset Management application can then use the information in these client access records to reconcile your software. For more information on client access records, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) or [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
+    **Important:** To use this license metric, you must create a corresponding client access record. Client access records enable you to track and manage the users or devices that are accessing a particular version of your software. The Software Asset Management application can then use the information in these client access records to reconcile your software. For more information on client access records, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) or [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
 
     The NUP license metric implements different licensing minimums based on the Oracle Database or Oracle WebLogic Server edition that your users and devices are accessing.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [View Connections, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [View Connections, Build integrations with connectors, Connect, Workflow Data Fabric]
 ---
 
 # Search and filter connections

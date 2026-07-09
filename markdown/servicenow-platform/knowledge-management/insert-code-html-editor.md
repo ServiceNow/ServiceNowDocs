@@ -30,7 +30,7 @@ You can also use the HTML editor when creating or editing a knowledge article us
 
 1.  In the Article body section, place the cursor where you want to insert the code snippet.
 
-2.  Click the insert/edit code sample icon \(\[Omitted image "insert-code.png"\] Alt text: Insert/Edit code sample icon\) on the HTML toolbar.
+2.  Click the insert/edit code sample icon on the HTML toolbar.
 
 3.  In the Insert/Edit code sample dialog box, select a markup or programming language from the Language list.
 
@@ -38,8 +38,8 @@ You can also use the HTML editor when creating or editing a knowledge article us
 
     Alternatively, you can copy the code from an external source and paste it.
 
-5.  Click **Ok**.
+5.  Click **OK**.
 
-6.  Edit the code by clicking the code snippet, and then clicking the insert/edit code sample icon \(\[Omitted image "insert-code.png"\] Alt text: Insert/Edit code sample icon\).
+6.  Edit the code by clicking the code snippet, and then clicking the insert/edit code sample icon .
 
 

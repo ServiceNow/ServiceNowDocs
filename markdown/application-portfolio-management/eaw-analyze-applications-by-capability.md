@@ -48,7 +48,7 @@ You can also generate insights into business applications using Now Assist. For 
 
         **Note:**
 
-        -   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator with an application scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
+        -   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
         -   If the created indicator isn’t displayed in the bubble size list, make sure that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
     -   Bubble color: The bubble color is based on the planned disposition value of the application. You can refer to the legend displayed on the bubble chart to see the significance of each color.
 
@@ -76,5 +76,5 @@ You can also generate insights into business applications using Now Assist. For 
 
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
-[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 

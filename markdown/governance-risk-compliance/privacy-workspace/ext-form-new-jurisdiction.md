@@ -1,5 +1,5 @@
 ---
-title: Personal Data Rights external facing form location configuration
+title: Personal Data Rights location configuration form fields
 description: Populate a new location configuration record. Field choices determine whether requesters in the mapped jurisdictions see authorized agent paths, what URLs the form links to, and what introductory text appears at the start of the Personal Data Rights \(PDR\) form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/ext-form-new-jurisdiction.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure jurisdiction, Configure external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Personal Data Rights external facing form location configuration
+# Personal Data Rights location configuration form fields
 
 Populate a new location configuration record. Field choices determine whether requesters in the mapped jurisdictions see authorized agent paths, what URLs the form links to, and what introductory text appears at the start of the Personal Data Rights \(PDR\) form.
 

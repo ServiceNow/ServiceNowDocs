@@ -1,6 +1,6 @@
 ---
-title: Create entitlements in Software Asset Management classic
-description: Create entitlements in the Software Asset Management application classic to record your license details and allocate purchased software rights to users or devices.
+title: Create entitlements in Software Asset Management Core UI
+description: Create entitlements in the Software Asset Management Core UI application to record your license details and allocate purchased software rights to users or devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/track-software-rights.html
 release: australia
@@ -9,12 +9,12 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create entitlements in Software Asset Management classic
+# Create entitlements in Software Asset Management Core UI
 
-Create entitlements in the Software Asset Management application classic to record your license details and allocate purchased software rights to users or devices.
+Create entitlements in the Software Asset Management Core UI application to record your license details and allocate purchased software rights to users or devices.
 
 ## Before you begin
 
@@ -80,7 +80,7 @@ Define license details, for all publishers other than Microsoft, to manage all y
 -   **[Create entitlements for Microsoft Software Assurance in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-microsoft-sa.md)**  
 Define license details for Microsoft Software Assurance \(SA\) to manage your contracts start and end dates, software upgrades, and related software entitlements.
 
-**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 
 **Related topics**  
 

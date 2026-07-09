@@ -46,7 +46,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     \[Omitted image "oracle-fin-workflow-studio.png"\] Alt text: Flows or subflows in Workflow Studio
 
-9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
+9.  You can use the Subflow Inputs and Outputs as a part of the base system to execute the flow or subflow.
 
     **Note:** Don’t modify the trigger condition.
 

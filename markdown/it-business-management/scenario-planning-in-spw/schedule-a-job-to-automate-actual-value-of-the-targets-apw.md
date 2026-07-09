@@ -1,5 +1,5 @@
 ---
-title: Update a schedule job to automate Actual value of the targets
+title: Update scheduled job to automate target actual values
 description: Use the Goal Framework for SPM application to modify the run time for the scheduled job according to your preference to auto-update the actual value of the targets for which a target source has been configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/schedule-a-job-to-automate-actual-value-of-the-targets-apw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring goals in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update a schedule job to automate Actual value of the targets
+# Update scheduled job to automate target actual values
 
 Use the Goal Framework for SPM application to modify the run time for the scheduled job according to your preference to auto-update the actual value of the targets for which a target source has been configured.
 

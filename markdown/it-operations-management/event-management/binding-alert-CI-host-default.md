@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-06-25"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -53,4 +53,18 @@ Imagine a server \(Server-123\) in your network generates an event. The event re
 2.  Applying Event Rules: Even if the Node resolves to Server-123, additional event rules might determine if the alert should be linked differently. For example, an event rule may specify that alerts from Server-123 should be linked to a parent CI \(like a cluster\) instead of the individual server.
 
 **Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+
+## Fallback CI binding fields
+
+Use these **Additional Info** fields to help the system bind alerts to the correct Configuration Item \(CI\) when standard CI binding methods don't find a match.
+
+-   sn\_fallback\_binding\_ci\_id: Specifies the exact CI to bind to by providing the CI's `sys_id`
+-   sn\_fallback\_binding\_ci\_name: Specifies the name of the CI to search for and bind to. If multiple CIs have the same name, the system uses the first matching CI.
+-   sn\_fallback\_binding\_ci\_type: Used in conjunction with `sn_fallback_binding_ci_name`: Use this field together with sn\_fallback\_binding\_ci\_name to narrow the search when multiple CIs share the same name. This field specifies the CI class or type that the system should match.
+
+The system evaluates these fallback fields only after it attempts all standard CI binding strategies and finds no matching CI. Store these fields \(keys\) in the Additional Info field of an event and populate them with relevant CI information. When standard binding methods fail, the system uses the values of these fields as fallback criteria for CI binding. For example, the Additional Info field might contain:
+
+`{"sn_fallback_binding_ci_name": "linux01"}`
+
+In this example, the system uses the value of `sn_fallback_binding_ci_name` \(`linux01`\) to find and bind the appropriate CI when standard CI binding strategies don't identify a match.
 

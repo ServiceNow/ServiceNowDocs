@@ -52,7 +52,7 @@ Role required: import\_transformer, import\_admin, or admin
 
 [Project field mapping]()
 
-[Create custom field mapping for Microsoft Project file import]()
+[Create custom field mapping for Microsoft Project import]()
 
 [Project import from Microsoft Project]()
 

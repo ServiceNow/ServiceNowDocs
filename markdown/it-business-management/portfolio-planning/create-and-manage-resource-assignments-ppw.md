@@ -8,8 +8,8 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create and manage resource assignments
@@ -45,16 +45,14 @@ Role required: it\_demand\_manager
     **Note:**
 
     -   To delete a resource assignment record, select the record and select **Delete** from the More Actions option.
-    -   Alternatively, you can create, edit, or delete resource assignment records using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+    -   Alternatively, you can create, edit, or delete resource assignment records using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
     After completing your work on the resource assignment record, use the breadcrumb navigation to return to the **Resource Assignments** tab.
 
 
 **Related topics**  
 
 
-[Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
-
-[Demand default playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-default-playbook-stages-activities-ppw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 
 [Create resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-resource-assignment-form-ppw.md)
 
