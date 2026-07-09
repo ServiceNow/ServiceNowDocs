@@ -13,7 +13,8 @@ is republished to [the product documentation site](https://www.servicenow.com/do
 normally at least monthly, sometimes more often.
 
 ## Change log
-
+- __09 July 2026__:
+  * July docs refresh
 - __18 June 2026__:
   * Issues 8 and 17: All links within and between publications are absolute URLs to the GitHub raw format.
   * Issue 16: Media references are rendered as annotations indicating an omitted image with any alternative text retained.
