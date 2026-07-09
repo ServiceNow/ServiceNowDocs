@@ -38,7 +38,7 @@ The high-level workflow of the GRC and Enterprise Architecture integration solut
 
     **Note:** The application owner's responses are retained when the questionnaire is sent back.
 
-8.  When the risk manager is satisfied with the responses, the inherent assessment is initiated based on the risk assessment methodology configuration in GRC. For more information, see [Configure inherent assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-inherent-assessment.md).
+8.  When the risk manager is satisfied with the responses, the inherent assessment is initiated based on the risk assessment methodology configuration in GRC. For more information, see [Configure inherent assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configure-inherent-assessment.md).
 9.  GRC maps the risks and compliance objects based on the entity types.
 10. The risk manager reviews the information object mapping.
 11. The system executes the recommendation engine based on the algorithm selected in the configuration.
@@ -49,5 +49,5 @@ The high-level workflow of the GRC and Enterprise Architecture integration solut
 **Related topics**  
 
 
-[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
+[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/risk-and-apm-better-together.md)
 

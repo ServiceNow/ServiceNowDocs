@@ -34,7 +34,7 @@ View the Software Product Lifecycle report to be informed about the products nea
 
 The Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table calculates the current and upcoming lifecycle phases from the lifecycle phases mentioned in the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table.
 
-For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb-sam-sw-install\] table. The software installation records are linked to lifecycles via the **Installs associated to lifecycle** column in the Software Installation \[cmdb-sam-sw-install\] table.
+For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb\_sam\_sw\_install\] table. The software installation records are linked to lifecycles via the **Installs associated to lifecycle** column in the Software Installation \[cmdb\_sam\_sw\_install\] table.
 
 For better visibility into all life-cycle phases, the following columns have been added to the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table:
 

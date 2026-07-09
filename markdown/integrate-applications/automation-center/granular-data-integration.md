@@ -8,8 +8,8 @@ product: Automation Center
 classification: automation-center
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+reading_time_minutes: 2
+breadcrumb: [Optimizing automations, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Enable granular integration for automations
@@ -108,5 +108,5 @@ Specify the time that is saved per work item.
     The queue remains, however, granular data integration isn’t used to calculate the time and cost saved.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Optimizing automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/optimizing-automations.md)
 

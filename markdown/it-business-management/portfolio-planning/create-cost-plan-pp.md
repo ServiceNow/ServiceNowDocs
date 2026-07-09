@@ -20,21 +20,27 @@ Create a cost plan for a required duration to track your planned and actual expe
 
 Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+The video is recorded using the Project Workspace view. Navigate to your portfolio to use cost plans in Strategic Planning.\[Omitted video\] Description: Manage cost plans for your planning items.
+
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and open a planning item.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and select portfolio plan.
 
-2.  Select the **Financials** tab.
+2.  Select a planning item from the Planning module.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d235354e71">
+3.  Select the **Financials** tab.
+
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d250721e98">
 
 Choice
 
-</th><th align="left" id="d235354e74">
+</th><th align="left" id="d250721e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d235354e80">
+</th></tr></thead><tbody><tr><td id="d250721e107">
 
 **To create a cost plan**
 
@@ -51,7 +57,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d235354e130">
+</td></tr><tr><td id="d250721e157">
 
 **To edit a cost plan**
 
@@ -62,7 +68,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use Tab key to navigate to next fiscal period and continue editing.
 
-</td></tr><tr><td id="d235354e155">
+</td></tr><tr><td id="d250721e182">
 
 **To delete a cost plan**
 

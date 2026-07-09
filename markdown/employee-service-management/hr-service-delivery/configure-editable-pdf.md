@@ -22,12 +22,12 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 **Note:**
 
--   For legally binding e-signatures and digital signatures use the following signing types: [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/digital-signature.md).
+-   For legally binding e-signatures and digital signatures use the following signing types: [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/digital-signature.md).
 -   Update sets do not support large attachments. If your template includes large documents, manually export the PDF template record XML from the source instance and import it into the target instance.
 
 ## About this task
 
-How to configure a PDF document template 
+\[Omitted video\] Description: How to configure a PDF document template
 
 ## Procedure
 
@@ -112,7 +112,7 @@ Signing type
 
 </td><td>
 
-Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/digital-signature.md).
+Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/digital-signature.md).
 
 **Note:** Signing Types are available only when respective integration plugins are installed.
 

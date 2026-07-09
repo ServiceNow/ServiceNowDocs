@@ -23,7 +23,7 @@ Role required: admin
 
 -   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) or the Agent Chat \(com.glide.interaction.awa\) plugin. You can activate the Glide Virtual Agent plugin only if you have a subscription.
 
-    **Note:** For information about using Now Assist in Virtual Agent in portals, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+    **Note:** For information about using Now Assist in Virtual Agent in portals, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 
 ## Procedure
@@ -281,7 +281,7 @@ Use the spContextManager class in a widget client script to pass dynamic page da
 
 Role required: admin
 
-Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
+Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
 ### Procedure
 
@@ -318,7 +318,7 @@ Examine the widget to understand how data is passed to the widget client script.
 
         In a script field, use the `vaContext` object to access the context variable passed from the Service Portal.
 
-        For more information about creating a Virtual Agent topic, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+        For more information about creating a Virtual Agent topic, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/create-virtual-agent-topic.md).
 
         For example, this script accesses the value of the `approval_count` variable in the Approvals widget.
 

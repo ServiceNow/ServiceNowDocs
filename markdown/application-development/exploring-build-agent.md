@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/
 release: zurich
 topic_type: concept
 last_updated: "2026-05-11"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, Now Assist, AI Agents, generative AI, agentic AI]
 audience: developer
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -42,7 +42,7 @@ Build Agent currently supports the following models:
 -   Azure OpenAI 5.4
 -   Opus 4.6
 
-For information on changing the model, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/edit-model-providers.md).
+For information on changing the model, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/edit-model-providers.md).
 
 Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
 
@@ -54,15 +54,13 @@ Build Agent generates code in ServiceNow Fluent, the domain-specific language fo
 
 ## Build Agent \(Trial\) app overview
 
-Build Agent is available as a trial app on a freemium model. To install Build Agent \(Trial\), visit the [ServiceNow Store](https://www.servicenow.com/products/vibe-coding.html#benefits).
-
 After you install the Build Agent \(Trial\) app, your instance will receive 100 free user interactions for 30 days at no additional charge, enabling you to explore Build Agent features at no additional cost.
 
-If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent. For more information on how to install Build Agent, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/install-build-agent.md).
+If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
 
 ## Localization and Build Agent
 
-Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework/localization-framework-landing.md).
+Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/localization-framework-landing.md).
 
 ## How prompts are counted
 

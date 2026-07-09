@@ -29,13 +29,13 @@ Zero Copy Connector for ERP supports connecting to multiple systems.
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
 4.  On the form, fill in the fields.
 
-    \[Omitted image "erpc-system-new-ys2.png"\] Alt text: new ERP system form.
+    \[Omitted image "image.erpc-system-new-ys2"\] Alt text: new ERP system form.
 
     **Note:** To use the HTTP connection option, you must have an SAP system that is enabled to make an OData connection.
 

@@ -59,5 +59,5 @@ Copy an Platform Analytics Solution dashboard, including the tabs, portal pages,
 **Related topics**  
 
 
-[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_ActivateAPlugin.md)
+[Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md)
 

@@ -1,19 +1,19 @@
 ---
-title: Example prompts for vibe coding and AI-assisted development
-description: Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform vibe coding and AI-assisted development tools.
+title: Example prompts for agentic development
+description: Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vibe-coding-example-prompts.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 7
 keywords: [reference, prompts, vibe coding, AI-assisted development, Build Agent, app development, business rules, security, user interface, governance, ATF, testing]
 breadcrumb: [Reference, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Example prompts for vibe coding and AI-assisted development
+# Example prompts for agentic development
 
-Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform vibe coding and AI-assisted development tools.
+Use these example prompts to build data models, implement security, create business rules, and generate user interfaces when building an app with ServiceNow AI Platform agentic development tools.
 
 To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
 

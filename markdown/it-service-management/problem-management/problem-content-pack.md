@@ -42,5 +42,5 @@ Use this dashboard to track the progress of open problems across different age b
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

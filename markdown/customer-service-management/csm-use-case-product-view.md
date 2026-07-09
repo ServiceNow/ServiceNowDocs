@@ -31,7 +31,7 @@ Understand the tables within the CSDM framework that are needed to support the f
 
 The following sections include details of the activities needed for the use case.
 
-See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/common-service-data-model-csdm/use-cases.md) for more information on Common Service Data Model use cases.
+See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/use-cases.md) for more information on Common Service Data Model use cases.
 
 ## CSM data model
 

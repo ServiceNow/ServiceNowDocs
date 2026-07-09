@@ -7,16 +7,15 @@ release: zurich
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-04-27"
+last_updated: "2026-06-22"
 reading_time_minutes: 8
+keywords: [App Engine, App Engine ServiceNow, App Engine Studio, low code development, ServiceNow App Engine, performance review template, app template, app engine studio in servicenow]
 breadcrumb: [App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Exploring App Engine Studio
 
 Learn how you can use the low-code app development tool, App Engine Studio \(AES\), to build powerful applications using guided setup, predefined templates, and workflows.
-
-This video shows a visual overview of the app creation process using App Engine Studio.
 
 ## App Engine Studio users
 
@@ -32,7 +31,7 @@ The following illustration describes the basic tasks involved in creating an app
 
 **Note:** Select the image to enlarge it.
 
-\[Omitted image "aes-app-creation-process-with-roles-asset0013219.png"\] Alt text: Infographic for creating apps workflow. For the text description, refer to the workflow steps that follow.
+\[Omitted image "aes-app-creation-process-MMASSET0022003.png"\] Alt text: Infographic for creating apps workflow. For the text description, refer to the workflow steps that follow.
 
 The workflow for creating apps in App Engine Studio is as follows:
 

@@ -16,7 +16,7 @@ Send ServiceNow notifications to users via your own Slack bot.
 
 ## Before you begin
 
--   [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+-   [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-ih-overview.md)
 -   [Request Messaging Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/request-messaging-notification.md)
 -   Create a custom application for Slack
 

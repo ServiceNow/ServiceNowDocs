@@ -92,7 +92,7 @@ Enter URL
 
 </td><td>
 
-Webhook URL as configured on your third-party \(external\) application.For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
+Webhook URL as configured on your third-party \(external\) application.For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/t_CreateAScriptedRESTService.md)
 
 </td></tr></tbody>
 </table>    \[Omitted image "io-webhook-third-party-integ.png"\] Alt text: Create a webhook integration for a third-party application.

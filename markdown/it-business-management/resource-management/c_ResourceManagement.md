@@ -45,7 +45,7 @@ The Resource Management application is activated as part of the [PPM Standard](h
 The resource plan is the key to understanding how resource management works.
 -   **[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/c_ResourcePlans.md)**  
 Resource plans are the key element in resource management.
--   **[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
+-   **[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
 Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
 -   **[Create requested allocations for a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/request-allocation.md)**  
 Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.

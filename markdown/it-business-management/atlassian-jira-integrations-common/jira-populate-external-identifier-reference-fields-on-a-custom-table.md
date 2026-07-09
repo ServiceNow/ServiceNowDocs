@@ -1,5 +1,5 @@
 ---
-title: Populate Jira project identifier reference fields for Agile Development 2.0 custom table
+title: Populate Jira identifier reference fields for Agile Development 2.0 custom table
 description: Enable Jira identifier reference fields for your Agile Development 2.0 custom table that you added to the map configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Populate Jira project identifier reference fields for Agile Development 2.0 custom table
+# Populate Jira identifier reference fields for Agile Development 2.0 custom table
 
 Enable Jira identifier reference fields for your Agile Development 2.0 custom table that you added to the map configuration.
 
@@ -65,9 +65,9 @@ Configure the form layout or personalize the list layout of your custom table to
 **Related topics**  
 
 
-[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_PersonalLists.md)
+[Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_PersonalLists.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md)
 
 [Populate external identifier on custom tables for Azure DevOps](https://www.servicenow.com/community/spm-articles/populate-external-identifier-on-custom-tables-for-azure-devops/ta-p/3359244)
 

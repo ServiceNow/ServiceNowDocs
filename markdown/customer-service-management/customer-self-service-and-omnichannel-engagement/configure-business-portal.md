@@ -26,7 +26,7 @@ The Business Portal is a self-service web portals based on the Service Portal ap
 
 The Business Portal supports your business-to-business \(B2B\) customers.
 
-Configure Business Portal 
+\[Omitted video\] Description: Configure Business Portal
 
 Use the portals to provide information and support for your customers. The portals provides ready to use features that require minimal setup. These include:
 
@@ -63,5 +63,5 @@ You can add additional self-service capabilities such as order management by ins
 **Related topics**  
 
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ServicePortal.md)
 

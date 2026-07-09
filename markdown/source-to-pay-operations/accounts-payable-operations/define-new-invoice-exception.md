@@ -16,7 +16,7 @@ breadcrumb: [Invoice exceptions, Using Accounts Payable Invoice Processing, Use,
 
 You can create invoice exception definition for invoices of types PO, Non-PO, credit memo.
 
-Create an exception definition 
+\[Omitted video\] Description: Create an exception definition
 
 ## Before you begin
 

@@ -27,7 +27,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "image.erpc-extraction-table-icon"\] Alt text: in the side panel.
 
 3.  Select an extraction table to work with by selecting the **Name**.
 

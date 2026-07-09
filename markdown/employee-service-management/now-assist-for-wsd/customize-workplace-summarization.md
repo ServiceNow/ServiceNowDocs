@@ -32,15 +32,15 @@ Role required: admin
 
 5.  Edit any of the following sections based on your requirement.
 
-<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d234094e105">
+<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d527236e105">
 
 Section
 
-</th><th align="left" id="d234094e108">
+</th><th align="left" id="d527236e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234094e114">
+</th></tr></thead><tbody><tr><td id="d527236e114">
 
 **General details**
 
@@ -48,7 +48,7 @@ Description
 
 Edit basic information about the skill like the name, workflow, large language model \(LLM\), and skill template.
 
-</td></tr><tr><td id="d234094e123">
+</td></tr><tr><td id="d527236e123">
 
 **Choose input**
 
@@ -56,17 +56,17 @@ Edit basic information about the skill like the name, workflow, large language m
 
 Select the fields to be included as an input for the summarization skill. For example, you can add the start and end time fields as an input to the summary.You can customize inputs for every state of the case like new, work in progress, or resolved.
 
-For more information about customizing the input fields, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
+For more information about customizing the input fields, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
-</td></tr><tr><td id="d234094e140">
+</td></tr><tr><td id="d527236e140">
 
 **Customize prompt**
 
 </td><td>
 
-Add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like New, Work in progress, or Resolved.For more information about customizing the prompt output, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
+Add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like New, Work in progress, or Resolved.For more information about customizing the prompt output, see [Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
-</td></tr><tr><td id="d234094e155">
+</td></tr><tr><td id="d527236e155">
 
 **Role attribution**
 
@@ -74,15 +74,15 @@ Add or remove sections that are included in the generated summary. You can custo
 
 Select the table, fields for the requester and fulfiller, and fulfiller roles for the skill.
 
-</td></tr><tr><td id="d234094e165">
+</td></tr><tr><td id="d527236e165">
 
 **Define availability**
 
 </td><td>
 
-Customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+Customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-</td></tr><tr><td id="d234094e178">
+</td></tr><tr><td id="d527236e178">
 
 **Define access**
 
@@ -90,13 +90,13 @@ Customize whether the skill is available by default, or only available based on 
 
 Add roles to provide the access required to summarize a case. For example, `sn_wsd_core.workplace_manager`.
 
-</td></tr><tr><td id="d234094e190">
+</td></tr><tr><td id="d527236e190">
 
 **Select display**
 
 </td><td>
 
-Configure where the case summarization feature is displayed. For more information about configuring the display, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-a-now-assist-skill.md).
+Configure where the case summarization feature is displayed. For more information about configuring the display, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 </td></tr></tbody>
 </table>6.  After you make your changes, select **Exit**.

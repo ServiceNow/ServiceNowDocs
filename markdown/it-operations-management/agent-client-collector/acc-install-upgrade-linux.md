@@ -22,11 +22,8 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 -   Restart the MID Web Server.
 -   Collect host data, to ensure that all files are up to date. For details, see [Run host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/collect-host-data-agent.md).
 -   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-linux-concept.md).
+-   The upgrade procedure is the same for both MID Server and MID-less deployments.
 -   Role required: agent\_client\_collector\_admin
-
-## About this task
-
-The upgrade procedure is the same for both MID Server and MID-less deployments.
 
 ## Procedure
 

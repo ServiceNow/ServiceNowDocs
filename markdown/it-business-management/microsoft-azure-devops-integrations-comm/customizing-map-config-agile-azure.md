@@ -1,5 +1,5 @@
 ---
-title: Customizing your map configuration for Azure DevOps integration
+title: Customizing your map configuration for Microsoft Azure DevOps integration
 description: Customize the table, field, or state map configuration between Azure DevOps and Agile Development 2.0 according to your organizational preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Customizing your map configuration for Azure DevOps integration
+# Customizing your map configuration for Microsoft Azure DevOps integration
 
 Customize the table, field, or state map configuration between Azure DevOps and Agile Development 2.0 according to your organizational preferences.
 
@@ -25,7 +25,7 @@ Configure table maps between tasks, iterations, and work areas of Azure DevOps a
 Create a custom field map configuration to map a field in an Agile Development 2.0 table for Azure DevOps projects of a process type.
 -   **[Customize your state map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/customize-choice-map-config.md)**  
 Create a custom state map for a field of an Agile Development 2.0 table to map the workflow states of your preference for Azure DevOps projects of a process type.
--   **[Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md)**  
+-   **[Apply a custom table map using a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md)**  
 Create a business rule to enable export from your new custom map configuration of an Agile Development 2.0 table to your Azure DevOps projects.
 -   **[Allow import and export of attachments on a custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/allow-import-and-export-of-attachments-on-custom-table-maps.md)**  
 Enable import and export of attachments between Azure DevOps and Agile Development 2.0 for a custom table that you added to the map configuration of a process type.

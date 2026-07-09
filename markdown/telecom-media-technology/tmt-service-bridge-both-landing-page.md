@@ -56,9 +56,11 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/service-bridge-rn.md).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/).
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-media-technology/tmt-api-reference.md).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/service-bridge-for-implementers?id=learning_path_prev&path_id=995e40f5c3008ad45922751ce00131cf&s=1&ssa=3).
+-   Get step-by-step guidance to help with your ServiceNow® implementations, upgrades, and more, see [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Connect with other Service Exchange users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+-   Find useful resources related to your role and explore general guidelines at the [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   View KB articles at [Service Exchange Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1509053)
 -   Access Service Exchange product page from [Service Exchange product](https://www.servicenow.com/products/service-bridge.html).
 

@@ -61,5 +61,10 @@ Role required: sn\_ni\_core.inventory\_admin
 
 The selected model or inventory template with all related records is downloaded in the selected format.
 
+-   **[Export models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/export-models-and-templates.md)**  
+Export selected inventory model or template records efficiently
+-   **[Export hierarchy of models and templates as JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-templates-as-json.md)**  
+Learn how to export network equipment models, inventory templates, and their related records from an instance. Use this feature to promote validated configurations from a lower environment to production.
+
 **Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

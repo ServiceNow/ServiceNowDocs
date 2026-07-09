@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configuring bring your own model \(BYOM\), Configuring an external or custom embedding model, AI Search Retrieval Augmented Generation \(RAG\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
+breadcrumb: [Configuring bring your own model \(BYOM\), Configuring an external or custom embedding model, Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Set a provider for an embedding model
@@ -18,7 +18,7 @@ Determine which AI provider to use so that your embedding model can work in the 
 
 ## Before you begin
 
-Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
+Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
 Role required: admin
 

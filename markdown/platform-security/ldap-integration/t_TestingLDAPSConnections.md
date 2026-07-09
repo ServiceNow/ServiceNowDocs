@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
+breadcrumb: [Active Directory Application Mode \(ADAM\), LDAP integration, Access Management]
 ---
 
 # Test the LDAPS connections

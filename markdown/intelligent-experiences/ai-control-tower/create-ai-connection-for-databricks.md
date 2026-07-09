@@ -22,19 +22,17 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
-2.  Select **Add**.
+2.  Click **Add**.
 
-3.  Select **Databricks** from all the available connectors.
+3.  Select **Databricks** from the available connectors.
 
-4.  Select **Create connection**.
+4.  Click **Create connection**.
 
-    The Review setup instructions page displays
+5.  Review setup instructions page displays.
 
-5.  Verify to follow all the prerequisite steps.
-
-    Setup page appears.
+    **Note:** Verify to follow all the prerequisite steps.
 
 6.  Create and test connection
 
@@ -66,10 +64,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     4.  Select **Continue**.
 
-    5.  Select **View all connections** to view the newly created connection.
+8.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Databricks is created and configured.
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Private Key JWT Support for OAuth 2.0 Client Authentication, OAuth outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Private Key JWT Support for OAuth 2.0 Client Authentication, OAuth outbound, OAuth authentication, Access Management]
 ---
 
 # Configure Private Key JWT for OIDC based SSO

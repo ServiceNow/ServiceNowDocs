@@ -35,14 +35,14 @@ To enable AI agents in Virtual Agent:
     The configuration consists of the following:
 
     -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
     \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
 2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
     \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
-3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
+3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
 

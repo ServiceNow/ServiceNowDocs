@@ -32,21 +32,21 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 3.  Click the **Skills** tab.
 
-    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/skills-management.md).
+    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management.md).
 
     You can also filter the skill matrix based on users, groups, skill type, skill level, or skill category. Reset the filter if you want to view the skills for all users.
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d143020e123">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d268365e123">
 
 To
 
-</th><th align="left" id="d143020e126">
+</th><th align="left" id="d268365e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d143020e132">
+</th></tr></thead><tbody><tr><td id="d268365e132">
 
 **Add a skill**
 
@@ -57,7 +57,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d143020e162">
+</td></tr><tr><td id="d268365e162">
 
 **Update a skill level**
 

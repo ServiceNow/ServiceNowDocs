@@ -7,8 +7,8 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -57,6 +57,22 @@ Runs daily to refresh pre-aggregated indicator data for the Data Foundations pro
 </td><td>
 
 Runs daily to refresh pre-aggregated indicator data for the Hardware Asset Management \(HAM\) product and invoke the Performance Analytics data collector jobs. Populates the charts and metrics on the HAM advisor dashboard.
+
+</td></tr><tr><td>
+
+**CMDB success advisor data collection for Data Foundation**
+
+</td><td>
+
+Runs on demand, invoked daily by the **CMDB Advisor - DF Daily Data Collection** scheduled script, to collect Performance Analytics scores for pre-aggregated Data Foundations indicators. Populates the charts and metrics on the Data Foundations advisor dashboard.
+
+</td></tr><tr><td>
+
+**CMDB success advisor data collection for HAM**
+
+</td><td>
+
+Runs on demand, invoked daily by the **CMDB Advisor - HAM Daily Data Collection** scheduled script, to collect Performance Analytics scores for pre-aggregated HAM indicators. Populates the charts and metrics on the HAM advisor dashboard.
 
 </td></tr></tbody>
 </table>## Tables installed

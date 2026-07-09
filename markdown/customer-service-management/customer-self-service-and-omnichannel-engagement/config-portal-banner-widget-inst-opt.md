@@ -26,7 +26,7 @@ Role required: sp\_admin or admin
 
 ## About this task
 
-Configure portal banner widget 
+\[Omitted video\] Description: Configure portal banner widget
 
 ## Procedure
 

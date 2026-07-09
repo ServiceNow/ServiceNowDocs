@@ -20,7 +20,7 @@ Role required: admin, or delegated\_developer
 
 ## About this task
 
-The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you are trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md) instead.
+The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you are trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md) instead.
 
 The application data only includes the version of the records that existed when the records were shared. The system does not update this snapshot of the application data when the records change. Application designers can include data on a table by table basis.
 
@@ -39,7 +39,7 @@ The application data only includes the version of the records that existed when 
 
 4.  For **Load When**, select when the application record includes application data.
 
-<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d47288e133">
+<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d48508e133">
 
 **__New Install and Upgrades__**
 
@@ -47,7 +47,7 @@ The application data only includes the version of the records that existed when 
 
 Includes application data whenever the application is installed or upgraded.
 
-</td></tr><tr><td id="d47288e145">
+</td></tr><tr><td id="d48508e145">
 
 **__New Install__**
 
@@ -55,7 +55,7 @@ Includes application data whenever the application is installed or upgraded.
 
 Includes application data only when the application is installed.
 
-</td></tr><tr><td id="d47288e157">
+</td></tr><tr><td id="d48508e157">
 
 **__New Install with Demo Data__**
 

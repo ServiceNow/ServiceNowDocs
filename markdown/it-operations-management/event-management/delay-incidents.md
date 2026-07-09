@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Event Management, delay incidents, noise reduction]
-breadcrumb: [ITOM Configuration console for Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Delay incidents

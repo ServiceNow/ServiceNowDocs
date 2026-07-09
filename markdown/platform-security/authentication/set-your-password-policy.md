@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
+breadcrumb: [Password complexity requirements, Local authentication, Access Management]
 ---
 
 # Configure your password policy

@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -18,7 +18,7 @@ Specify the semantic indexing configuration settings you want to apply when AI S
 
 ## Before you begin
 
-The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md) is installed on your instance.
+The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) is installed on your instance.
 
 Role required: ais\_admin
 
@@ -36,7 +36,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 3.  In the Semantic Index Configuration related list, select **New**.
 
-    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md) installed. Installing any Now Assist application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
+    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md) installed. Installing any Now Assist application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
 
 4.  On the Semantic Index Configuration form, fill in the fields.
 
@@ -48,7 +48,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
     The Semantic Index Configuration form reloads and displays your selected field values and the Semantic Index Fields related list.
 
-6.  In the Semantic Index Fields related list, create a new record for each field with content that you want to include in the semantic index for the specified indexed source.
+6.  In the Semantic Index Fields related list, create a record for each field with content that you want to include in the semantic index for the specified indexed source.
 
     1.  Select **New**.
 
@@ -63,9 +63,9 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 ## What to do next
 
-After changing the semantic index configuration settings for an indexed source, you need to reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
+After changing the semantic index configuration settings for an indexed source, you must reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
 
-**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you've defined a semantic index configuration for it.
+**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you have defined a semantic index configuration for it.
 
 **Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

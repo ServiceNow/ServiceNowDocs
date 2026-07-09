@@ -7,8 +7,8 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ Understand how to create advanced queries for Service Observability dashboard ch
 
 Advanced queries in Service Observability support most vendor-specific query languages. Simply copy a query from the observability chart and paste it into the Advanced query field in Service Observability. However, queries to AWS and Azure must be JSON-formatted and follow the guidelines outlined in this topic.
 
-**Note:** As of version 1.10, you can import charts directly from AWS and Azure. See [Edit observability data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/edit-service-observability-dashboards.md) for more information.
+**Note:** As of version 1.10, you can import charts directly from AWS and Azure. See [Edit data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/edit-service-observability-dashboards.md) for more information.
 
 ## AWS advanced queries
 

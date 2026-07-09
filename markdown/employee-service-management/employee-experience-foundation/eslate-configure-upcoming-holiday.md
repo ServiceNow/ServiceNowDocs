@@ -29,13 +29,13 @@ Role required: admin
 
 ## About this task
 
-The Upcoming Holiday widget displays the next relevant holiday based on the work location of the signed-in employee. The widget queries the holiday calendar table and matches holidays to employee locations automatically.
+The Upcoming Holiday widget displays the next relevant holiday based on the work location of the logged-in employee. The widget queries the holiday calendar table and matches holidays to employee locations automatically.
 
 ## Procedure
 
 1.  Navigate to the holiday calendar table in your ServiceNow instance.
 
-    Access the table through the Application Navigator or System Definition tables.
+    Access the table through the **Application Navigator** or **System Definition tables**.
 
 2.  Create a new holiday record for each location and holiday combination.
 
@@ -58,11 +58,11 @@ The Upcoming Holiday widget displays the next relevant holiday based on the work
 
 5.  Locate the Upcoming Holiday widget settings.
 
-    Find the widget configuration options in the Admin Console interface.
+    Find the widget configuration options in the **Admin Console** interface.
 
 6.  Set the widget visibility to **Visible**.
 
-    When set to hidden, the widget doesn't appear on any employee home page regardless of holiday data.
+    If the widget visibility is **Hidden**, the widget does not appear on any employee home page regardless of holiday data.
 
     The widget is available for display on employee home pages.
 

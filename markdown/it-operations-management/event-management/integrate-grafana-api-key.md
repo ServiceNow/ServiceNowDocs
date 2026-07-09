@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -49,6 +49,16 @@ Role required: evt\_mgmt\_integration
     The system generates a token and saves it in the **Token** field. To see the token, use the lock icon and copy the contents display below the field. This is your query parameter \(or header\) value when your other system sends a REST API request to ServiceNow.
 
     \[Omitted image "em-rest-api-token.png"\] Alt text: Rest API token generated in the Token field.
+
+6.  In Grafana, continue using the same webhook configuration and add the REST API key in one of the following ways:
+
+    -   Add `x-sn-apikey=<rest_api_token>` as a query parameter to the webhook URL.
+    -   Add `x-sn-apikey` as a header name and the REST API key as the header value.
+    For example:
+
+    ```
+    https://<instance_name>.service-now.com/api/sn_em_connector/em/inbound_event?source=grafana&x-sn-apikey=<rest_api_token>
+    ```
 
 
 **Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/grafana-events-integration.md)

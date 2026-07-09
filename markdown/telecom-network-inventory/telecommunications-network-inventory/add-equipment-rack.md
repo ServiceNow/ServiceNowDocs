@@ -55,5 +55,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 The equipment record is added in the Rack view. You can edit the rack. The relationship or affected CIs are also updated with the datacenter or site information.
 
-**Parent Topic:**[Instantiating inventory using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

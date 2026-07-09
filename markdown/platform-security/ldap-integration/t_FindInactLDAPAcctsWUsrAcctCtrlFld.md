@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Inactive LDAP user accounts, LDAP record synchronization, LDAP integration, Authentication, Access Management]
+breadcrumb: [Inactive LDAP user accounts, LDAP record synchronization, LDAP integration, Access Management]
 ---
 
 # Find inactive LDAP accounts by using the userAccountControl field

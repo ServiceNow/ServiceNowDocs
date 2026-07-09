@@ -36,7 +36,7 @@ An example trigger condition might be that the state in the control table change
 
     The settings on the form are described in [Trigger Smart Assessment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.md).
 
-4.  Test the action as described in [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md).
+4.  Test the action as described in [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md).
 
     For descriptions of all these settings, see [Settings in the Test action pop-up window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-test-action-popup.md).
 
@@ -52,9 +52,9 @@ Assessments are triggered.
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
-[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flows.md)
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md)
 
-[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/create-flow.md)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md)
 

@@ -83,8 +83,6 @@ Specifies the type of validation to perform. The options are:-   Required Fields
 </td></tr></tbody>
 </table>    **Note:** All conditions must pass for the transition to succeed.
 
-    \[Omitted image "WF-transition-condition1.png"\] Alt text: Adding state transition conditions.
-
 7.  Select **Submit** to save the transition condition.
 
 

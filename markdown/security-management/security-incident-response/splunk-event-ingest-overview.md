@@ -58,11 +58,11 @@ This integration supports version 6.0 or later of Splunk Enterprise. The integra
 
 ## MID Server
 
-This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service if the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. For more information about MID Servers, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service if the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. For more information about MID Servers, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Integration architecture and systems connection
 
-For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
+For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
 
 ## Checklist
 
@@ -78,7 +78,7 @@ The following section lists the setup tasks that you are required to complete in
 Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
 3.  [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-create-profile.md)  
 Create an event profile in your ServiceNow AI Platform instance and determine which Splunk alerts create security incidents.
-4.  [Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
+4.  [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 
 **Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/sir_integrations.md)

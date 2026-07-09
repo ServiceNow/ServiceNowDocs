@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Access Management]
 ---
 
 # Configure knowledge-based authentication

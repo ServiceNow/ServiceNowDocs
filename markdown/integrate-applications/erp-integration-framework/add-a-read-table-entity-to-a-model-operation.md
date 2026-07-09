@@ -27,7 +27,7 @@ You must have already added the read operation before you can add an entity to i
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add an operation entity to.
 
@@ -39,11 +39,11 @@ You must have already added the read operation before you can add an entity to i
 
 7.  Select **Select entity** on the **Manage entities** tab.
 
-    \[Omitted image "erpc-manage-entities-manager-ys22.png"\] Alt text: Add operation entities on the manage models tab.
+    \[Omitted image "image.erpc-manage-entities-manager-ys22"\] Alt text: Add operation entities on the manage models tab.
 
 8.  In **Select type**, select **Read table**.
 
-    \[Omitted image "erpc-add-entity-manager-ys2.png"\] Alt text: Select the type of entity you're adding.
+    \[Omitted image "image.erpc-add-entity-manager-ys2"\] Alt text: Select the type of entity you're adding.
 
     You can select **Preview table data** to view table details before specifying an entity. For more information, see [Preview read table entities in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-preview-entity.md).
 
@@ -57,7 +57,7 @@ You must have already added the read operation before you can add an entity to i
 
     The entity card shows the date and time information was last retrieved.
 
-    \[Omitted image "erp-add-read-entity-to-model1.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
+    \[Omitted image "image.erp-add-read-entity-to-model1"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 
 11. Rearrange and delete table entities as needed.
 

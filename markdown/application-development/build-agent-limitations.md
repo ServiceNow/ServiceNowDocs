@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-limitations.html
 release: zurich
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-06-15"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -19,7 +19,7 @@ Plan deployments and troubleshoot issues by learning about Build Agent constrain
 
 If you encounter something that Build Agent can't currently do, complete that step directly on the ServiceNow AI Platform® and keep working with Build Agent for the rest of your development. Build Agent is designed to complement your workflow, not to replace it.
 
-For details on troubleshooting, see [Common issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-troubleshooting.md).
+For details on troubleshooting, see [Issues and solutions in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-troubleshooting.md).
 
 ## General limitations of Build Agent
 
@@ -30,7 +30,7 @@ Be aware of the following limitations when using Build Agent:
 
     **Note:** Build Agent can work on existing applications. You can use Build Agent to enhance base workflows, such as creating business rules on existing tables.
 
--   Security in apps developed with Build Agent is at the application and API level, not at granular record and field level by default. However, you can vibe code security onto the app by making requests. For examples, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md).
+-   Security in apps developed with Build Agent is at the application and API level, not at granular record and field level by default. However, you can use agentic development to build security onto the app by making requests. For examples, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md).
 -   Limited support for cross-product AI integration.
 
 Build Agent can generate data models and business rules. You should understand where data from your AI-generated apps is stored on the ServiceNow AI Platform.
@@ -43,6 +43,19 @@ To understand the upper limit of what Build Agent can do, review the ServiceNow 
 -   [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-fluent.md)
 
 If there isn't a mapping between ServiceNow Fluent and the XML metadata, then Build Agent can't update the data unless you understand the platform well enough to precisely instruct Build Agent to make the changes you need.
+
+## Regulated environments
+
+Build Agent and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
+
+Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.
+
+In regulated environments where Build Agent v2 is unavailable, you can continue to use the following:
+
+-   Developer Sandboxes
+-   Core update set and Git workflows in ServiceNow Studio
+-   Instance Scan
+-   ReleaseOps
 
 ## Feedback on Build Agent
 

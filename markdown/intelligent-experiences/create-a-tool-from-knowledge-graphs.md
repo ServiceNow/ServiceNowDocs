@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-06-08"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Create tool Knowledge graph for MCP]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -59,6 +59,14 @@ An internal name for the tool.
 
 </td></tr><tr><td>
 
+MCP app
+
+</td><td>
+
+An active MCP app linked to this Knowledge graph tool.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -78,8 +86,8 @@ One or more servers you want to add your tool to.
 </td></tr></tbody>
 </table>    In the Tool inputs section, the fields associated with the capability are added. \[Omitted image "mcp-server-create-tool-kg-toolinput.png"\] Alt text: Tool input for Knowledge graph
 
-    -   anchortables: Use one or more table names to make your query more specific. This is helpful when you know which tables are relevant to your question.
-    -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph.
+    -   anchortables: Use one or more table names to make your query more specific when you select Enterprise Graph or Enterprise Graph \(small\). This is helpful when you know which tables are relevant to your question. This is an optional field.
+    -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph and Enterprise Graph \(small\) though they are only mandatory for the latter. See [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md) for details on creating Knowledge Graph tags.
     -   description: Your query or request that will use Knowledge Graph.
     -   apioptions
     See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on the MCP Server and discoverable by MCP clients.

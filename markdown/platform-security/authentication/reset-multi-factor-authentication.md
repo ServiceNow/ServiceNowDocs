@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Reset Multi-factor Authentication \(MFA\) for users

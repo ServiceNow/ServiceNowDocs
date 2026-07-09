@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [LDAP integration via MID Server, LDAP integration setup, LDAP integration, Authentication, Access Management]
+breadcrumb: [LDAP integration via MID Server, LDAP integration setup, LDAP integration, Access Management]
 ---
 
 # Import binary data through a MID Server

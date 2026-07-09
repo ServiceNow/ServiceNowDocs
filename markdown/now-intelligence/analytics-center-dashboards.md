@@ -14,7 +14,7 @@ breadcrumb: [Platform Analytics experience, Platform Analytics]
 
 Dashboards are canvasses for organizing and sharing data visually. They contain data visualizations, filters, and other visual elements.
 
-Overview of creating and populating Platform Analytics experience dashboards including library content, new visualizations, and filters.
+\[Omitted video\] Description: Overview of creating and populating Platform Analytics experience dashboards including library content, new visualizations, and filters.
 
 ## Get started
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customize-email-interaction-experience.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md).
 
 ## Procedure
 
@@ -33,11 +33,11 @@ For more information on UI Builder, see [UI Builder](https://raw.githubuserconte
 
 4.  Navigate to **Pages and variants** &gt; **Record** &gt; **Email Interaction Page**.
 
-5.  Select the Open menu icon \(\[Omitted image "Open\_menu\_icon\_EaaI.png"\] Alt text: Open menu icon\).
+5.  Select the Open menu icon.
 
 6.  Select **Duplicate variant**.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-variant.md).
 
 7.  On the Tell us about your variant screen, enter `Custom Email Interaction Page` in the **Name** field.
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Self-register to ServiceNow instance, Access Management]
 ---
 
 # Enable external user self-registration for Service Portal

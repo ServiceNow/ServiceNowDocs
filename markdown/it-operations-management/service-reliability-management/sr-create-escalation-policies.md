@@ -57,7 +57,7 @@ An escalation policy is a set of guidelines that outlines how and when incidents
 8.  Add another escalation policy to the team for another category of alert or incident by selecting **Add a policy**.
 
 
--   **[Create an escalation trigger for an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)**  
+-   **[Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)**  
 To address issues promptly, define the conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
 
 **Parent Topic:**[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-work-teams.md)

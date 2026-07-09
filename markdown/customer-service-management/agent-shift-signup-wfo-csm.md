@@ -34,7 +34,7 @@ When a schedule plan is enabled for sign-up, you can receive notifications. You 
 
     1.  Select the **Team Calendar** tab.
 
-    2.  In the Contextual side panel, click the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
+    2.  In the Contextual side panel, select the Show Schedules icon \[Omitted image "show-schedules-icon.png"\] Alt text: Show Schedules icon. to display the schedules.
 
         **Tip:** Select the filter icon \(\[Omitted image "show-filter-icon.png"\] Alt text: Filter schedule\) and then select the desired sign-up state and sign-up dates to narrow down the schedule plans enabled for sign-up.
 
@@ -117,15 +117,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d49719e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d137390e377">
 
 To
 
-</th><th align="left" id="d49719e376">
+</th><th align="left" id="d137390e380">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49719e382">
+</th></tr></thead><tbody><tr><td id="d137390e386">
 
 **Auto-assign agents**
 
@@ -133,7 +133,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d49719e397">
+</td></tr><tr><td id="d137390e401">
 
 **Assign agents manually**
 

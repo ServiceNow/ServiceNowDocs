@@ -16,7 +16,7 @@ If you are showing multiple metrics in a time series data visualization, you can
 
 **Note:** Additional data sources must use the same unit as the first metric. Otherwise, only the first metric is used in the visualization.
 
-Multiple metrics being added to a time series visualization 
+\[Omitted video\] Description: Multiple metrics being added to a time series visualization
 
 ## Separate visualization for each metric
 

@@ -21,7 +21,7 @@ Employee Center portal enables customers to scale their service solutions across
 
 This video shows a visual overview of the Employee Center and its capabilities.
 
-Employee Center overview 
+\[Omitted video\] Description: Employee Center overview
 
 ## Get started
 

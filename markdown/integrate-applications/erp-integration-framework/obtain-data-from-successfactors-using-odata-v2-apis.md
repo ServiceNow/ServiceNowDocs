@@ -22,7 +22,7 @@ SAP SuccessFactors is a set of integrated applications for HR functions such as 
 
 To use SAP SuccessFactors data in Zero Copy Connector for ERP, upload an SAP SuccessFactors metadata \(xml\) file when adding an entity to a model using OData.
 
-\[Omitted image "erp-successfac1.png"\] Alt text: Add service manually modal with xml file added.
+\[Omitted image "image.erp-successfac1"\] Alt text: Add service manually modal with xml file added.
 
 You can download, edit, or delete the metadata file using the icons.
 

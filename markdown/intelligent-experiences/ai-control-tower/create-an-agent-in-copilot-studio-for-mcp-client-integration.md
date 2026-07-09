@@ -1,6 +1,6 @@
 ---
 title: Connecting with Microsoft Copilot Studio Via AI Gateway
-description: Connecting with a Microsoft Copilot Studio via AI Gateway.
+description: Connecting with Microsoft Copilot Studio via AI Gateway.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.html
 release: zurich
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect to MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Connecting to MCP servers, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Connecting with Microsoft Copilot Studio Via AI Gateway
 
-Connecting with a Microsoft Copilot Studio via AI Gateway.
+Connecting with Microsoft Copilot Studio via AI Gateway.
 
 ## Before you begin
 

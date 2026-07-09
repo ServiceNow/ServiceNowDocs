@@ -1,6 +1,6 @@
 ---
-title: Use Control Objective Change Agent to update control objectives
-description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+title: Use the control objective change agent to update control objectives
+description: Use the control objective change agent to review and update impacted control objectives based on the latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.html
 release: zurich
@@ -13,15 +13,15 @@ keywords: [Update impacted control objectives, Now Assist panel, Control Objecti
 breadcrumb: [AI agents in Now Assist for IRM, Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Use Control Objective Change Agent to update control objectives
+# Use the control objective change agent to update control objectives
 
-Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
+Use the control objective change agent to review and update impacted control objectives based on the latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 
 ## Before you begin
 
 Role required: sn\_grc\_sharegenai.compliance\_library\_aiagent\_user
 
-Ensure you also have Corporate Compliance Manager access for Compliance Workspace.
+Ensure that you have Corporate Compliance Manager access for Compliance Workspace.
 
 Confirm that the control objective is active.
 
@@ -29,7 +29,7 @@ Confirm that the control objective is active.
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the List icon \(\[Omitted image "list-icon.png"\]\).
+2.  Select the List icon \[Omitted image "list-icon.png"\].
 
 3.  Select **Compliance change recommendations** &gt; **Control objectives**.
 
@@ -41,7 +41,7 @@ Confirm that the control objective is active.
 
 6.  Review the suggested updates, and provide feedback to refine the updates.
 
-    -   The AI agent analyzes all associated citations and suggests updated description and supplemental guidance. Suggestions are based on the latest citation changes and relevance to the control objective.
+    -   The AI agent analyzes all associated citations and suggests an updated description and supplemental guidance. Suggestions are based on the latest citation changes and relevance to the control objective.
     -   After each update, the Now Assist panel displays the latest revision, highlighting changes and prompting for additional feedback or acceptance.
 7.  Finalize the changes by accepting the suggested updates when prompted by the Now Assist panel.
 

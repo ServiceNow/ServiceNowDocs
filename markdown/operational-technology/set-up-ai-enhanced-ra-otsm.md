@@ -22,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/create-ext-cont-connector-mspo.md).
 
-2.  [Configure crawl settings for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md).
+2.  [Configure crawl settings for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md).
 
 3.  Set up the search source.
 
@@ -34,7 +34,7 @@ Role required: admin
     4.  Select **Create and link**.
     5.  In the **Indexed source** field, select **SharePoint Online**.
 
-        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/search-source-form-ais.md).
+        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-source-form-ais.md).
 
     6.  Select **Submit**.
 4.  If needed, add or remove the OT incident record fields that are later used to produce search results.

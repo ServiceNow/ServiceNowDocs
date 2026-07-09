@@ -21,7 +21,7 @@ Process extensions are subflows that can use one or more models. Process extensi
 
 Process extensions in a data product are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
 
-\[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing data product process extensions.
+\[Omitted image "image.erpc-process-extensions-list-ws"\] Alt text: Workflow Studio subflows list showing data product process extensions.
 
 ## Process extension example
 

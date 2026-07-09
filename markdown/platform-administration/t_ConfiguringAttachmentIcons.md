@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ConfiguringAttachmentIcons.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-03"
 reading_time_minutes: 1
 breadcrumb: [Attachments, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
 ---
@@ -22,21 +22,25 @@ Role required: admin
 
 1.  Determine the path of the image file or upload a new image.
 
+    To view the images available for attachment icons, navigate to `https://<instance-name>.service-now.com/image_picker.do` in your browser. Hover over the icons to see their paths in the tooltips.
+
+    You can also store your own icons and use them as attachment icons. See [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+
 2.  Navigate to **System UI** &gt; **Attachment Icon Rules**.
 
-3.  Open an existing rule or click **New** to create a new rule.
+3.  Open an existing rule or select **New** to create a new rule.
 
 4.  Enter the rule details.
 
-<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d61705e123">
+<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d74345e145">
 
 Field
 
-</th><th align="left" id="d61705e126">
+</th><th align="left" id="d74345e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61705e132">
+</th></tr></thead><tbody><tr><td id="d74345e154">
 
 **Select icon by**
 
@@ -44,7 +48,7 @@ Description
 
 Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon specified by **MIME Type** and a different icon specified by **File Extension**, the **MIME Type** icon takes precedence.
 
-</td></tr><tr><td id="d61705e159">
+</td></tr><tr><td id="d74345e181">
 
 **MIME type**
 
@@ -52,7 +56,7 @@ Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon 
 
 If **Select icon by** is **MIME Type**, enter the MIME type and subtype to associate with the icon, separated by a slash \(example: `application/pdf`\).
 
-</td></tr><tr><td id="d61705e177">
+</td></tr><tr><td id="d74345e199">
 
 **File extension**
 
@@ -60,7 +64,7 @@ If **Select icon by** is **MIME Type**, enter the MIME type and subtype to assoc
 
 If **Select icon by** is **FIle Extension**, enter the file extension to associate with the icon beginning with the period \(example: `.pdf`\).
 
-</td></tr><tr><td id="d61705e195">
+</td></tr><tr><td id="d74345e217">
 
 **Icon**
 

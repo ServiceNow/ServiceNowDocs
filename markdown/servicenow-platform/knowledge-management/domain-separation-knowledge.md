@@ -7,8 +7,8 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -25,9 +25,9 @@ Domain separation is supported in Knowledge Management. Domain separation enable
 
 Sample use case: An Admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Overview of domain separation
 
 Domain separation works differently at different access levels of an application. In Knowledge Management, data, requester, and fulfiller access to knowledge bases are domain separated.
 
@@ -47,19 +47,13 @@ Requester: Requester activities are supported within tenant domains. Users can s
 
 Fulfiller: The application can be used by the Fulfiller within the tenant domains as a tenant domain-owned application. Users are allowed to author articles in knowledge bases of their domain, any child domain, and the global domain if the knowledge base has user criteria set up to grant contribute access.
 
--   Articles are automatically saved to the user’s current domain when the article is created.
+-   Articles are automatically saved to the user's current domain when the article is created.
 
 -   If the `glide.knowman.allow_edit_global_articles` system property is enabled, users from a domain other than the global domain can check out and edit global articles. Otherwise, system administrators and users from a domain other than the global domain cannot check out global articles and are shown a warning message to that effect. Depending on their access, users can change their domain to the global domain to check out and edit the global articles.
 -   Domains of versioned articles will be maintained as per the latest article version's domain. This includes updating the domain for kb\_version, kb\_knowledge, kb\_feedback, and sys\_attachment tables.
--   If domains contain another domain: If Domain A contains Domain B, users with access to Domain A can author articles in Domain B by toggling the domain scope. To learn more about toggling domain scope, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/c_DomainVisibility.md).
+-   If domains contain another domain: If Domain A contains Domain B, users with access to Domain A can author articles in Domain B by toggling the domain scope. To learn more about toggling domain scope, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_DomainVisibility.md).
 
 See [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/user-access-knowledge.md) to learn how to control contribute and read access to knowledge bases and knowledge articles.
-
-## Use cases
-
-This image demonstrates a basic domain hierarchy that is available in the base system.
-
-\[Omitted image "DomainHierarchy.png"\] Alt text: Domain Separation Use Case
 
 ## Requester use cases
 
@@ -67,15 +61,15 @@ This image demonstrates a basic domain hierarchy that is available in the base s
 |-----------|---------------------|-------------------------|--------------|------|
 |Global|Global|Global|Global|Can view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Parent domain \(TOP\)|Global|Global|Global|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Child domain \(TOP/ACME\)|Global|Global|Global|Can view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 
 ## Fulfiller use cases
@@ -84,15 +78,15 @@ This image demonstrates a basic domain hierarchy that is available in the base s
 |-----------|---------------------|-------------------------------|--------------|------|
 |Global|Global|Global|Global|Can author, update, view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Parent domain \(TOP\)|Global|Global|Global|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 |Child domain \(TOP/ACME\)|Global|Global|Global|Can author, update, view, comment, rate articles.|
 |Parent domain \(TOP\)|Parent domain \(TOP\)|Parent domain \(TOP\)|
-|Child domain \(TOP/ACME|Child domain \(TOP/ACME|Child domain \(TOP/ACME|
+|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|Child domain \(TOP/ACME\)|
 |MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|MSP domain \(TOP/MSP\)|
 
 ## Known Issues
@@ -111,5 +105,5 @@ This image demonstrates a basic domain hierarchy that is available in the base s
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [OAuth 2.0, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth 2.0, OAuth authentication, Access Management]
 ---
 
 # Set up OAuth

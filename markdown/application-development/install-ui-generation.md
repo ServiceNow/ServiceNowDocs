@@ -38,7 +38,7 @@ Role required: admin
 
     3.  On the UI Generation card, verify that the Experience Generation skill is active.
 
-    For more information about Now Assist Admin, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
+    For more information about Now Assist Admin, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 
 ## What to do next
@@ -50,5 +50,5 @@ Grant the ui\_builder\_admin role to each user you want to use UI generation.
 **Related topics**  
 
 
-[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md)
 

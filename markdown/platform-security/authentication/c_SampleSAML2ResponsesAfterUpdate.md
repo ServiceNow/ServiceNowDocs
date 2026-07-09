@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Update your existing SAML 2.0 integration, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Update your existing SAML 2.0 integration, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Sample SAML 2 responses after the update

@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration with Contact Center as a Service \(CCaaS\), Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Interaction wrap up feature is available for interaction type: **Phone**. When e
 
 **Note:** You can view the wrap up record within the Wrap up sub-list inside the Interaction list.
 
-\[Omitted image "nav-ws.png"\] Alt text: Interaction wrap up
+\[Omitted image "nav-ws.png"\] Alt text: Interaction list showing Wrap up sub-list with interaction records in Wrap Up state
 
 ## Configuring interaction wrap up
 
@@ -33,11 +33,11 @@ The interaction wrap up configuration includes the following information:
 -   Whether wrap up is automatically ended by the system and, if automatically ended the duration of the wrap up period.
 -   Whether a countdown timer that displays the wrap up duration is shown to agents in CSM Configurable Workspace.
 
-For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
+For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/create-interaction-wrap-up-config.md).
 
 ## Starting and ending a wrap up
 
 The wrap up period begins when either the agent or the customer ends a conversation. Ending the wrap up period can be performed manually by the agent or automatically by the system.
 
-For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md).
+For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/interaction-wrap-up-state.md).
 

@@ -7,25 +7,25 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-02-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist skill, Now Assist, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Demand summarization]
-breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Summarize demands with demand summarization skill
 
 Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 
-This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management. 
+\[Omitted video\] Description: This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: it\_demand\_user, it\_demand\_manager, sn\_ppm\_read
 
-If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-security-implementation.md).
+If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Procedure
 

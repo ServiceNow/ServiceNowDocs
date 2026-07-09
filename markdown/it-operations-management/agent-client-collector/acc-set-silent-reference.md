@@ -38,7 +38,9 @@ To prevent the agent from shutting itself off when CPU memory reaches a certain 
 
 </td><td>
 
-The percentage of the agent's CPU usage that sends the agent into CPU protection mode. Default=5%
+The percentage of the agent's CPU usage that sends the agent into CPU protection mode. Default=5
+
+**Note:** When working with Windows event and metric checks, set this value to 10.
 
 </td></tr><tr><td>
 

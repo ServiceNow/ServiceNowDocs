@@ -35,7 +35,9 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Understand user roles and related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>**Note:** Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights
+
+## Troubleshoot and get help
 
 -   Ask questions and view Usage Insights articles and video content in the [Platform Analytics community](https://www.servicenow.com/community/platform-analytics/ct-p/platform-analytics).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
@@ -43,8 +45,8 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 
 ## Additional references
 
--   [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mobile-analytics.md)
--   [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/sp-analytics.md)
+-   [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-analytics.md)
+-   [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/sp-analytics.md)
 
 -   **[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/usage-insights/exploring-user-exp-analytics.md)**  
 The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.

@@ -88,15 +88,16 @@ Enabling an OpenSSL secure signing mechanism for plugins works with an Agent Cli
 
 6.  Set the plugin file as **active=true**.
 
-7.  Place the `sign.crt` file in the Agent Client Collector's `cert` directory, which is located in the `config` folder.
+7.  Place the `sign.crt` file into one of the following locations:
 
-    Alternatively:
-
-    1.  Navigate to the MID Server's `agent/static/cert` directory.
-    2.  Create a directory called **customer**.
-    3.  Place the `sign.crt` file in the `customer` directory.
+    -   The Agent Client Collector's `cert` directory, located in the `config` folder.
+    -   On the MID Server, compress the file into a `.zip` file and place it in the `agent/static/cert/customer` folder.
 8.  In the `acc.yml` file, set `verify-plugin-signature` to **true**.
 
+
+## What to do next
+
+Add the self-signed `sign.crt` file to the agent host trust store, as described in [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 **Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-certificates.md)
 

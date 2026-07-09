@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [MFA Dashboard, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [MFA Dashboard, Multi-factor authentication, Access Management]
 ---
 
 # MFA Guided Setup
@@ -33,5 +33,5 @@ Complete the following task to become familiar with the MFA configurations:
 -   User Communication and Onboarding
 -   Monitoring
 
-To know more about how to use the Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
+To know more about how to use the Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md).
 

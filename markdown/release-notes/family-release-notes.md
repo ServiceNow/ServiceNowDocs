@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/family-release-notes.html
 release: zurich
 topic_type: concept
-last_updated: "2026-06-16"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 ---
 
@@ -48,7 +48,7 @@ New Zurich release versions are released throughout the year. Here are the curre
 
 Learn how to navigate the redesigned release notes and find the information you’re looking for. Use new release notes tools to improve your upgrade experience.
 
-How to use release notes
+\[Omitted video\] Description: How to use release notes
 
 ## Release notes tools
 

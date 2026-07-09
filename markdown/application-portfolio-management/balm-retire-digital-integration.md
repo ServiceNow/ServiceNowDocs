@@ -1,5 +1,5 @@
 ---
-title: Use Business Application Lifecycle Management to retire a digital integration
+title: Retire a digital integration
 description: Retire a digital integration that you no longer need. Submit a request using the Application Lifecycle Management module to retire a digital integration in Enterprise Architecture \(formerly Application Portfolio Management\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/balm-retire-digital-integration.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Digital integrations, Manage digital integrations, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use Business Application Lifecycle Management to retire a digital integration
+# Retire a digital integration
 
 Retire a digital integration that you no longer need. Submit a request using the Application Lifecycle Management module to retire a digital integration in Enterprise Architecture \(formerly Application Portfolio Management\).
 

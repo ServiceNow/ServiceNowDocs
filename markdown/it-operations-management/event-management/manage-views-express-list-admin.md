@@ -137,36 +137,36 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d323008e353">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d675516e353">
 
 Task
 
-</th><th align="left" id="d323008e356">
+</th><th align="left" id="d675516e356">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d323008e362">
+</th></tr></thead><tbody><tr><td id="d675516e362">
 
 **Assign a user to the selected Express List view**
 
 </td><td>
 
 1.  In the **Users** tab, select **Insert a new row**.
-2.  Select the search icon \[Omitted image "search-icon.png"\] Alt text: Search iconand search for the relevant user in the **Users** table.
+2.  Select the search icon \[Omitted image "search-icon.png"\]and search for the relevant user in the **Users** table.
 3.  Select the user.
-4.  Select the save icon \[Omitted image "save-icon.png"\] Alt text: Save icon..
+4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d323008e406">
+</td></tr><tr><td id="d675516e402">
 
 **Assign a user group to the selected Express List view**
 
 </td><td>
 
 1.  In the **Groups** tab, select **Insert a new row**.
-2.  Select the search icon \[Omitted image "search-icon.png"\] Alt text: Search icon and search for the relevant group in the **Groups** table.
+2.  Select the search icon \[Omitted image "search-icon.png"\] and search for the relevant group in the **Groups** table.
 3.  Select the group.
-4.  Select the save icon \[Omitted image "save-icon.png"\] Alt text: Save icon..
+4.  Select the save icon \[Omitted image "save-icon.png"\].
  **Note:** Users who belong to a group can only see the views that you assigned to that group. If a user belongs to multiple groups, they can see the views you configured for all of these groups.
 
 </td></tr></tbody>
@@ -227,7 +227,7 @@ Procedure
 
     4.  Select **Update**.
 
-    **Note:** You can view the updated state of a field or a field attribute in the table by selecting the list controls icon \[Omitted image "list-controls-button.png"\] Alt text: List control button and then selecting **Refresh List**.
+    **Note:** You can view the updated state of a field or a field attribute in the table by selecting the list controls icon \[Omitted image "list-controls-button.png"\] and then selecting **Refresh List**.
 
 11. When you're satisfied with the Express List view, select **Update**.
 

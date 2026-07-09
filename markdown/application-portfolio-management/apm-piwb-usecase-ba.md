@@ -1,5 +1,5 @@
 ---
-title: Suggest an application category based on similar business applications - Legacy
+title: Suggest application category from similar applications
 description: Use a Predictive Intelligence Workbench guided template that walks you through training the Similar Business Applications solution definition for finding similar business applications and suggesting an application category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/apm-piwb-usecase-ba.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Suggest an application category based on similar business applications - Legacy
+# Suggest application category from similar applications
 
 Use a Predictive Intelligence Workbench guided template that walks you through training the Similar Business Applications solution definition for finding similar business applications and suggesting an application category.
 
@@ -37,7 +37,7 @@ Role required: piwb\_manager
     Configure or train the Similarity solution for finding similar business applications.
 
     -   To configure the Similar Business Applications solution definition \(ml\_sn\_sn\_apm\_ml\_global\_ba\_similarity\), click **Configure**.
-    -   To train the Similar Business Applications solution definition \(ml\_sn\_sn\_apm\_ml\_global\_ba\_similarity\), click **Train**. For more information, see [Train the similarity solution for Enterprise Architecture to categorize applications while registering - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/similarity-solution-apm.md).
+    -   To train the Similar Business Applications solution definition \(ml\_sn\_sn\_apm\_ml\_global\_ba\_similarity\), click **Train**. For more information, see [Train similarity solution to categorize apps - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/similarity-solution-apm.md).
 
 **Parent Topic:**[Configuring Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-apm.md)
 

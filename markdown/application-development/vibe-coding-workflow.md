@@ -32,7 +32,7 @@ ServiceNow has tools to help you review, refine, and test apps for both vibe cod
 
     -   If you're using Build Agent, include as much context as possible in your first prompt to enable more robust development. Include roles, data requirements, and success criteria.
     -   You can craft a prompt and then feed it to an LLM, such as Claude, and ask for it to be made more specific for ServiceNow.
-    For more information on example prompts, see [Example prompts for vibe coding and AI-assisted development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-example-prompts.md).
+    For more information on example prompts, see [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-example-prompts.md).
 
 2.  Generate the plan: Build Agent interprets your prompt and creates a blueprint, including tables, roles, UI components, and workflows.
 

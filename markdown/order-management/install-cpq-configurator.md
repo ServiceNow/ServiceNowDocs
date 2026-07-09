@@ -1,18 +1,18 @@
 ---
-title: Install CPQ Configurator
-description: You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+title: Activate CPQ Configurator
+description: You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-cpq-configurator.html
 release: zurich
 topic_type: task
 last_updated: "2025-10-02"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Install CPQ Configurator
+# Activate CPQ Configurator
 
-You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the CPQ Configurator application \(sn\_cpq\_config\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Find the CPQ Configurator application \(sn\_cpq\_config\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     A list of the versions available to you are displayed.
 

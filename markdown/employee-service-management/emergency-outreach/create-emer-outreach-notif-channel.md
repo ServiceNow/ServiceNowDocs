@@ -86,7 +86,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
 
     1.  Create a subflow to use in the outreach notification.
 
-        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/subflows.md).
+        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/subflows.md).
 
         Use the following inputs in the subflow that you create:
 

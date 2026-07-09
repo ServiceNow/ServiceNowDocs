@@ -25,7 +25,7 @@ Each component is represented as a tile and grouped by function such as Navigati
 -   **[Preview components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-preview-components.md)**  
 As you’re creating or managing your theme, you can preview the components available for inclusion on your instance.
 -   **[Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-components.md)**  
-Edit Theme Builder individual components to better suit your brand and to meet accessibility conformance standards. The theme hooks that you can edit are specific to each type of component.
+Edit Theme Builder individual components to better suit your brand and to support accessibility requirements. Each component type supports specific customization options called theme hooks.
 
 **Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/tb-edit-theme.md)
 

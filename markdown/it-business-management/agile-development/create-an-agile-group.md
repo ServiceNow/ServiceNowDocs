@@ -7,7 +7,7 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Assignment groups in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Creating assignment groups in Agile Development 2.0 
+\[Omitted video\] Description: Creating assignment groups in Agile Development 2.0
 
 ## Procedure
 

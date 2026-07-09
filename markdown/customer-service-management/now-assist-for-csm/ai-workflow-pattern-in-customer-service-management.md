@@ -41,7 +41,7 @@ The following table describes the key user interface components that support in-
 
 The AI workflow tab provides a single view of all AI workflows related to a record. It shows workflow status, step‑by‑step details, and any required inputs, which you can enter directly in the tab. Workflows can also be canceled when needed.
 
-By default, this feature is turned off in the base system. To enable it, admin must set the system property com.glide.agentic\_processes\_view.enabled. Once the system property is enabled by an admin, the **Triage Cases** button \(UI Action\) and the **AI Workflow** tab is set to visible. If you prefer to hide this option, you can disable it in AI Agent Studio. To disable the **Triage Cases** button:
+By default, this feature is turned off in the base system. To enable it, admin must set the system property com.glide.agentic\_processes\_view.enabled in global scope. Once the system property is enabled by an admin, the **Triage Cases** button \(UI Action\) and the **AI Workflow** tab is set to visible. If you prefer to hide this option, you can disable it in AI Agent Studio. To disable the **Triage Cases** button:
 
 1.  Open AI Agent Studio.
 2.  Select the **Triage Cases** agentic workflow.

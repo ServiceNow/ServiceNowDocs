@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, agentic AI assessment]
+keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
 breadcrumb: [Using Now Assist Readiness Evaluation dashboard, Use, Now Assist Readiness Evaluation, Enable AI experiences]
 ---
 
@@ -48,5 +48,7 @@ The following list describes details of the agentic AI - Assessment dashboard ta
 
 You can select each widget on the dashboard to have that table data open in a separate tab.
 
-\[Omitted image "nare-agentic-ai-dashboard-assessment.png"\] Alt text: Agentic AI - Assessment tab that shows each area of the dashboard, all including data that is automatically populated.
+\[Omitted image "nare-agentic-ai-dashboard-assessment.png"\] Alt text: agentic AI - Assessment tab that shows each area of the dashboard, all including data that is automatically populated.
+
+**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to `true`. For more information, see [Now Assist Readiness Evaluation system properties](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.html).
 

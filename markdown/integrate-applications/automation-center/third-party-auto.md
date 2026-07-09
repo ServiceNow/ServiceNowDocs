@@ -18,7 +18,7 @@ Track any third-party automations in Automation Center.
 
 In Automation Center you can track any third-party automations. You can do that by using the Automation Center API.
 
-For more information, see Automation Center API .
+For more information, see [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/auto-api.md) .
 
 **Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-setup.md)
 

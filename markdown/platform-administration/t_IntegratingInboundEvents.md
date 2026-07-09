@@ -62,7 +62,7 @@ The following example steps assume you have your own demonstration instance.
 
 10. Verify that the import set table has an event matching your JSON request.
 
-    \[Omitted image "RESTImportSetTable.png"\] Alt text: REST import set table
+    \[Omitted image "rest-import-set-table.png"\] Alt text: Import set table showing an event record that matches the JSON request data
 
 
 **Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/references-inbound-email.md)

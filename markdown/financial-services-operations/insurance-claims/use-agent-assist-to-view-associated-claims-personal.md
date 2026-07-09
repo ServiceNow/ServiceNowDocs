@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative, sn\_ins\_claim\_pers.a
 
 3.  Open the task from the case playbook or the Personal auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d68738e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d69064e85">
 
 Option
 
-</th><th align="left" id="d68738e88">
+</th><th align="left" id="d69064e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68738e94">
+</th></tr></thead><tbody><tr><td id="d69064e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d68738e118">
+</td></tr><tr><td id="d69064e118">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to [Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/agent-assist.md).
+    For more detailed information about Agent assist, refer to [Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/agent-assist.md).
 
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [MFA Dashboard, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [MFA Dashboard, Multi-factor authentication, Access Management]
 ---
 
 # Log in Metrics

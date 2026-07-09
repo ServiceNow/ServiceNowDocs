@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/edit-an-existing-application-using-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-30"
-reading_time_minutes: 4
+last_updated: "2026-06-25"
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
@@ -21,15 +21,17 @@ Install and enable Build Agent. For more information, see [Install Build Agent](
 
 For some prompting guidelines and ideas, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md).
 
+You can convert existing apps to ServiceNow Fluent and work on them in Build Agent. For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-sdk/convert-application-now-sdk.md).
+
 Role required: admin
 
 ## About this task
 
 You can edit an application with Build Agent in both ServiceNow Studio and the ServiceNow IDE. If you're using the ServiceNow IDE, the application must be open in your workspace. You can add it to the workspace in the following ways:
 
--   Applications created with Build Agent are automatically added to the workspace in which they were created. They can also be opened in other workspace in the ServiceNow IDE.
+-   Applications created with Build Agent are automatically added to the workspace in which they were created. They can also be opened in other workspaces in the ServiceNow IDE.
 -   For applications that were not developed using the ServiceNow IDE, ServiceNow Studio, or the ServiceNow SDK, you must convert them into Fluent format to enable development within the Build Agent. You can prompt the Build Agent to use the open app tool to locate the application you want. Alternatively, you can search for an application directly within the Build Agent, and it will automatically use the open app tool. The open app tool can find an application, convert it to Fluent format, and then add the converted app to your workspace.
--   Clone an existing application created with the ServiceNow IDE or ServiceNow SDK from a Git repository. For more information, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
+-   Copy an existing application created with the ServiceNow IDE or ServiceNow SDK from a Git repository. For more information, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
 
 ## Procedure
 
@@ -59,7 +61,7 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
 6.  Review the changes in the Change Log in a tab in ServiceNow Studio and continue iterating to refine the app.
 
-    For more information on the change log, see [Build Agent conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
+    For more information on the change log, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
 
     Review updates to generated tables, flows, and scripts, and preview any user interfaces created in your application. You can interact with the preview to make additional edits, for example, select a button in the **Preview** tab and tell Build Agent to `Change the color of the button to purple`.
 
@@ -67,7 +69,7 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
     1.  If prompted, select **Review all edits** to view the changes.
 
-    2.  If you’re happy with the changes, select **Approve plan**.
+    2.  If the changes are correct, select **Approve plan**.
 
 8.  Prompt and **Approve** Build Agent to build and deploy the application to an update set if it doesn't do so automatically.
 
@@ -76,11 +78,11 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
 The application is built and installed.
 
-**Note:** Even though this process is standard, be sure to follow the on-screen instructions, as the Build Agent functions interactively.
+**Note:** Follow the on-screen instructions, as the Build Agent functions interactively.
 
 ## What to do next
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
 \[Omitted image "ba-create-app-4.png"\] Alt text: App details panel showing the Planner Tracker application metadata organized in a hierarchical tree structure
 

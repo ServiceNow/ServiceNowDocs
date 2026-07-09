@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth authentication, Access Management]
 ---
 
 # OAuth inbound

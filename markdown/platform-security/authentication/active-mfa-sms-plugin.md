@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Activate the MFA with SMS plugin
@@ -43,6 +43,6 @@ Dependent Plugin: Integration - Multifactor Authentication \(`com.snc.integratio
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 

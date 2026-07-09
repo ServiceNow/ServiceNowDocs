@@ -1,5 +1,5 @@
 ---
-title: Export data of portfolio plan items from Prioritization to Excel or CSV
+title: Export portfolio plan items from Prioritization
 description: Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/export-data-from-list-view-of-prioritization-spw.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Export data of portfolio plan items from Prioritization to Excel or CSV
+# Export portfolio plan items from Prioritization
 
 Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 

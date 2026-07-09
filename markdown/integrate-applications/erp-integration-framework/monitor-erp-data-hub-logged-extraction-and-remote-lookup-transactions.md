@@ -25,11 +25,11 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP monitor page by selecting the monitor icon \[Omitted image "erp-monitor-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP monitor page by selecting the monitor icon \[Omitted image "image.erp-monitor-icon-sidebar"\] Alt text: in the side panel.
 
 3.  Select the **Asynchronous transactions**, **Synchronous transactions**, and **Logged errors** tabs to view information.
 
-    \[Omitted image "erp-monitor-extractions-tab.png"\] Alt text: Zero Copy Connector for ERP monitor page with asynchronous transactions tab selected.
+    \[Omitted image "image.erp-monitor-extractions-tab"\] Alt text: Zero Copy Connector for ERP monitor page with asynchronous transactions tab selected.
 
     Filter the information as needed. For example, show only successes, failures, or information for a specific system.
 

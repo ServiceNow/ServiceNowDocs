@@ -54,11 +54,11 @@ Role required: pki\_admin or admin
 
 5.  Assign a credential alias to the credential.
 
-    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
+    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/discovery-credential-alias.md).
 
     1.  In the **Credential alias** field, select the Unlock Credential alias icon \[Omitted image "lock-icon.png"\].
 
-    2.  Select the Lookup using list icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. to find and select the credential alias.
+    2.  Select the Lookup using list icon \[Omitted image "lookup-using-list.png"\] to find and select the credential alias.
 
     3.  Select the Lock Credential alias icon \[Omitted image "unlock-outline-24.svg"\].
 

@@ -46,8 +46,8 @@ Analyze time worked summary of your team
 
 </td><td>
 
-1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
-2.  Under Schedule Adherence, click **Time Worked Summary**.
+1.  Select the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
+2.  Under Schedule Adherence, select **Time Worked Summary**.
 
 **Note:** The **Available Non Planned** time captures the time the agent was available and clocked in outside of the agent's scheduled work events. For example, if an agent is scheduled to attend a training from 13:00 to 14:00 but forgets to clock out that attendance, that time is considered the clocked-in time. The training time from 13:00 to 14:00 is captured as the available non-planned time.
 
@@ -57,8 +57,8 @@ View your agents' time attendance
 
 </td><td>
 
-1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
-2.  Under Schedule Adherence, click **Time Attendance**.
+1.  Select the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
+2.  Under Schedule Adherence, select **Time Attendance**.
 
 
 </td></tr></tbody>

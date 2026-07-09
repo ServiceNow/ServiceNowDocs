@@ -29,8 +29,8 @@ A second option is to enable a system property and use Workflow Studio. The com.
 3.  Check that the **Value** is set to **True**.
 4.  After the property is enabled, use Workflow Studio to check executions.
 
-    \[Omitted image "erp-data-explorer-workflow6.png"\] Alt text: Workflow studio operations tab, with two executions highlighted.
+    \[Omitted image "image.erp-data-explorer-workflow6"\] Alt text: Workflow studio operations tab, with two executions highlighted.
 
-    For more information, see .
+    For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md).
 
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
-last_updated: "2025-08-21"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Generate SIR Shift Handover Report, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

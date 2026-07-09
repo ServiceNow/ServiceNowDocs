@@ -205,7 +205,7 @@ For example, if you want to find all current logins from a specific type of brow
 
 -   Click a user name to access the user profile record. You can modify the user profile only if you have an assigned admin role.
 
-**Note:** To learn more about user profiles, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_CreateAUser.md).
+**Note:** To learn more about user profiles, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUser.md).
 
 
 </td></tr><tr><td>
@@ -432,7 +432,7 @@ It enables you to perform the following tasks:
 
 **Note:** To learn more about how to use and activate the Virtual Agent, see:
 
--   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+-   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md)
 -   [Activate the ISC Virtual Agent interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/activating-virtual-agent-interface.md)
 
 -   **[Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-center-to-security-center-migration.md)**  

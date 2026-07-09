@@ -27,6 +27,8 @@ Data transfer between the Impact Delivery Instance and Impact Store Application 
 Manual registration is generally used by advanced users or to obtain configuration support from your Impact Squad. Regulated and GCC customers are also required to use manual registration.
 -   **[Domain Separation in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-domain-separation.md)**  
 Domain separation is unsupported for Impact. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Impact storage estimation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-store-app-storage-estimation.md)**  
+The Impact store app stores data within your ServiceNow instance and contributes to your instance's overall storage footprint. Storage usage varies depending on whether your instance is connected to the Impact Delivery Instance and on the level of collaboration activity.
 
 **Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/impact-landing-page.md)
 

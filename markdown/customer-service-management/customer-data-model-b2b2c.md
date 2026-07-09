@@ -1,24 +1,24 @@
 ---
-title: Customer Data Models for B2B2C
-description: The Customer Data Models for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
+title: Customer data models for B2B2C
+description: The customer data model for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-data-model-b2b2c.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Customer service business models, Configure Customer Data Models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Customer Data Models for B2B2C
+# Customer data models for B2B2C
 
-The Customer Data Models for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
+The customer data model for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
 
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-## Overview
+## Overview of data models
 
 Organizations have complex business models with multi-level relationships. These complex structures often exist between an organization and the end consumers. In the B2B model, while organizations do business directly with other organizations \(business customers\), the users of the service provided can be different. A user can be a direct customer \(B2C\), or a business customers' customer \(B2B2C\), or a business customer's employee \(B2B2E\).
 
@@ -36,7 +36,7 @@ The business-to-business-to-consumer \(B2B2C\) data model supports different mul
     -   Business customer's customer: B2B2C
     -   Business customer's employee: B2B2E
 
-For details on the advantages of using the B2B2C Data Model application, see the text that follows in the Benefits section.
+For details on the advantages of using the B2B2C data model application, see the text that follows in the Benefits section.
 
 ## Benefits
 

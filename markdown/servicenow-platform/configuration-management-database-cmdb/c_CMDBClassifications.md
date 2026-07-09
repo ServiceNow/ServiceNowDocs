@@ -49,8 +49,8 @@ You can upgrade, downgrade, or switch the class of a CI by modifying its **Class
 You can use the CI Class Manager to delete CIs that are no longer needed.
 -   **[View and edit class definitions and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/t_ViewTableDefinitions.md)**  
 Use the CI Class Manager as a central location to explore the CMDB class hierarchy, CI table definitions, and class CIs. View the details of each table such as its label and fields, relationships, and all related metadata definitions.
--   **[Update class list in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md)**  
-A Principal Class is a designation for those CMDB classes that are most important or critical for foundational data health and governance in the organization. Manage the list of classes in the Principal Class filter so that those classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
+-   **[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)**  
+A Principal Class is a designation for these CMDB classes that are most critical for foundational data health and governance in the organization. Those designated classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
 
 **Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

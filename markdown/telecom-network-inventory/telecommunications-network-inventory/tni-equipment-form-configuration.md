@@ -1,0 +1,100 @@
+---
+title: Telco Equipment form
+description: The Telco Equipment form enables you to create, review, and modify the network asset details for a piece of equipment.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-form-configuration.html
+release: zurich
+product: Telecommunications Network Inventory
+classification: telecommunications-network-inventory
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Reference, Telecommunications Network Inventory]
+---
+
+# Telco Equipment form
+
+The Telco Equipment form enables you to create, review, and modify the network asset details for a piece of equipment.
+
+<table id="table_f3c_dmd_wrb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Part number
+
+</td><td>
+
+Assigned part number for this network asset.
+
+</td></tr><tr><td>
+
+Date of manufacture
+
+</td><td>
+
+Date that this network asset was manufactured.
+
+</td></tr><tr><td>
+
+Date of last service
+
+</td><td>
+
+Date that this network asset was last serviced.
+
+</td></tr><tr><td>
+
+Rack units occupied
+
+</td><td>
+
+Number of equipment holder units that are in use in this network asset.
+
+</td></tr><tr><td>
+
+Firmware manufacturer
+
+</td><td>
+
+Manufacturer of the firmware.
+
+</td></tr><tr><td>
+
+Firmware version
+
+</td><td>
+
+Version of the firmware that is used in this network asset.
+
+</td></tr><tr><td>
+
+Memory size \(MB\)
+
+</td><td>
+
+Size of the memory device that is used in this network asset, in megabytes. For example, 2500 MB for a 2.5-GB memory chip.
+
+</td></tr><tr><td>
+
+Storage size \(GB\)
+
+</td><td>
+
+Storage size of the device, in gigabytes. For example, 2.5 GB.
+
+</td></tr></tbody>
+</table>**Note:** To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
+
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+
+**Related topics**  
+
+
+[7caa6327c2947bf4e3fc7e6fbe4cac73b55e16d5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)
+

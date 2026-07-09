@@ -15,7 +15,7 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
-[Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Streamline, automate, and measure critical workflows across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-events-landing.md)
+[Customer Success Management \[Omitted image "bus-events-tmt.svg"\] Alt text: Streamline, automate, and measure critical workflows across the enterprise.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 
 </td><td>
 
@@ -31,7 +31,7 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 </td><td>
 
-[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
+[Proactive Service Experience Workflows\[Omitted image "bus-workflow-tmt.svg"\] Alt text: Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/proactive-service-exp-workflows/assurance-workflows.md)
 
 </td><td>
 
@@ -47,11 +47,11 @@ The ServiceNow® Telecommunications, Media, and Technology \(TMT\) product suite
 
 </td><td>
 
-[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
+[Telecommunications Network Inventory \[Omitted image "bus-server-tmt.svg"\] Alt text: Build and monitor your physical, logical networks, and provisioned services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-network-inventory/telecom-network-inventory.md)
 
 </td></tr><tr><td>
 
-[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-service-operations-management.md)
+[Telecommunications Service Operations Management\[Omitted image "bus-siem-tmt.svg"\] Alt text: Proactively monitor the health of your networks and services to prevent downtime.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-service-ops/telecommunications-service-operations-management.md)
 
 </td><td>
 

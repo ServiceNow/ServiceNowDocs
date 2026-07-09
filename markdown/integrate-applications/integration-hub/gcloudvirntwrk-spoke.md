@@ -37,8 +37,8 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   Complex Object \(com.glide.cobject\)
--   [Google Persistent Disk Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(sn\_gpdisk\_spoke\)
--   [Google Compute Engine Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(sn\_gcompute\_spoke\)
+-   [Google Persistent Disk Spoke]() \(sn\_gpdisk\_spoke\)
+-   [Google Compute Engine Spoke]() \(sn\_gcompute\_spoke\)
 
 **Note:** Some of these plugins are licensable features and require an appropriate license if used outside the spoke implementation. For information on licenses, contact your account manager.
 

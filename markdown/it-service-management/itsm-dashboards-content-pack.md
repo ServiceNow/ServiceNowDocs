@@ -40,5 +40,5 @@ View the open incidents, problems, and requests that belong to you and your assi
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

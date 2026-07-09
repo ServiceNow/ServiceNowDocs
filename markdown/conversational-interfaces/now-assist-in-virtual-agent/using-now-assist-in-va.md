@@ -21,7 +21,7 @@ Now Assist in Virtual Agent enhances the user experience by combining AI Search 
 
 During the Now Assist in Virtual Agent guided setup, you may be presented with three user experiences to select from: standard chat, enhanced chat, or premium chat. Standard chat is a conversational support experience within a static chat widget. Enhanced chat and premium chat are conversational experiences within a resizable and movable chat window that include the ability to have multiple active conversations. Enhanced and premium chat enable users to choose their way of engaging with Now Assist on their ServiceNow portals from a variety of entry points. When choosing enhanced or premium chat from the guided setup, if you also have AI Search enabled on your portal, you’re presented with the **Allow the search bar to open into a full-page chat experience** option. If you select this option, your conversational and search experience appears as a full page inside the portal. The conversational fluidity and citation behavior between the enhanced or premium chat and the chat's full-page experience remains the same regardless of which chat experience you choose. You can still access enhanced or premium chat's resizable and moveable chat window when you have full-page experience turned on and are on screens other than the full-page experience itself. Turning on enhanced or premium chat's full-page experience further combines chat and search capabilities by redirecting you into a full-page chat after entering a query into a portal's search bar.
 
-**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+**Note:** For more information about selecting a chat experience in the admin guided setup, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 The following table outlines feature differences between standard, enhanced, and premium chat.
 
@@ -189,7 +189,7 @@ Redirects into the full-page experience's chat tab.
 
 Standard, enhanced, and premium chat require the ServiceNow default chat widget button to be turned on. The following actions must be completed for enhanced or premium chat to display a synthesized response after entering a search query through the portal:
 
--   [Configure the portal's AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/configuring-ais.md)
+-   Configure the portal's AI Search
 -   Turn on the ServiceNow default Search page widget.
 -   Turn on the ServiceNow default chat widget button.
 
@@ -205,11 +205,11 @@ The following actions must be completed for enhanced or premium chat to display 
 Want to learn more? Visit these resources.
 
 -   For more information on enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
--   For more information on enhanced chat in Employee Center, see [Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md).
--   For more information on enhanced chat in self-service portals, see [Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nass-portal.md).
+-   For more information on enhanced chat in Employee Center, see .
+-   For more information on enhanced chat in self-service portals, see .
 -   For more information on premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
--   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
--   For more information on Now Assist in AI Search, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/now-assist-ais.md).
--   For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/translation-for-now-assist.md).
+-   For more information on Now Assist, see [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   For more information on Now Assist in AI Search, see .
+-   For more information on language support, see .
 -   For more information on Now Assist in Virtual Agent analytics, see .
 

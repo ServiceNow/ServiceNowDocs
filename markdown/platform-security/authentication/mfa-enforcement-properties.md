@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [MFA enforcement, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [MFA enforcement, Multi-factor authentication, Access Management]
 ---
 
 # Multi-factor Authentication enforcement properties

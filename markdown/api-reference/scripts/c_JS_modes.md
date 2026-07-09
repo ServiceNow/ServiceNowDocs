@@ -22,7 +22,9 @@ For more information about features supported by the ECMAScript 2021 \(ES12\) an
 
 ## ECMAScript 2021 \(ES12\) mode
 
-ECMAScript 2021 \(ES12\) mode is the default mode when you create new scoped applications. When you create new scripts, ECMAScript 2021 \(ES12\) mode is turned on by default regardless of the JavaScript mode configured for the application. This mode doesn’t preserve the legacy behaviors in the pre-Tokyo JavaScript engine or work with global scripts.
+ECMAScript 2021 \(ES12\) mode is the default mode when you create new scoped applications. It isn't supported for global applications but can be turned on for individual global scripts.
+
+When you create new scripts, ECMAScript 2021 \(ES12\) mode is turned on by default regardless of the JavaScript mode configured for the application. This mode doesn’t preserve the legacy behaviors in the pre-Tokyo JavaScript engine.
 
 ECMAScript 2021 \(ES12\) mode supports a subset of ECMAScript 2021 \(ES12\) and ECMAScript 2022 \(ES13\) syntax and features, including the following features:
 
@@ -45,7 +47,7 @@ To learn about specific ECMAScript 2021 \(ES12\) features, see the [Let's Learn 
 
 ## ES5 Standards mode
 
-ES5 Standards mode is the default mode for global applications and is an option for scoped applications. This mode doesn’t preserve the legacy behaviors in the pre-Helsinki JavaScript engine.
+ES5 Standards mode is the default mode for new global applications and is an option for scoped applications. This mode doesn’t preserve the legacy behaviors in the pre-Helsinki JavaScript engine.
 
 ES5 standards mode supports ECMAScript5 syntax and features, including the following features:
 

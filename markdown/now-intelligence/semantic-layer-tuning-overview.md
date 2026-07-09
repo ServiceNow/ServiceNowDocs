@@ -15,7 +15,7 @@ breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Plat
 
 The semantic layer maps natural language questions to ServiceNow AI Platform® tables and fields. Tune the semantic layer to improve AI Data Explorer accuracy for your organization's terminology and data structure.
 
-The [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) identifies the best matching [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(tables\), [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(fields\), and [segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) \(filters\) when users ask questions in AI AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
+The [semantic layer]() identifies the best matching [entities]() \(tables\), [dimensions]() \(fields\), and [segments]() \(filters\) when users ask questions in AI AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
 
 ## How the semantic layer works
 
@@ -36,11 +36,11 @@ When a user asks a question, the system identifies the best matching components 
 
 ## When to tune the semantic layer
 
-Before you tune, verify that the issue is repeatable. The [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
+Before you tune, verify that the issue is repeatable. The [LLM]() occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
 
 Tune the semantic layer when:
 
--   The system selects the wrong table or cannot find one
+-   The system selects the wrong table or cannot find one. For example, the system could be processing queries on reference fields, and the referenced tables are missing from the semantic layer.
 -   A field is missing or the wrong field is selected
 -   Your organization uses different terminology than the auto-generated labels
 -   The right table or field is selected, but the query is constructed incorrectly
@@ -48,7 +48,7 @@ Tune the semantic layer when:
 
 ## Validation and iteration process
 
-1.  Capture the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) and expected result.
+1.  Capture the [utterance]() and expected result.
 2.  Classify the failure as entity, dimension, segment, or ACL.
 3.  If results are wrong for only some users, verify read ACL access to the intended table and fields before retuning.
 4.  Apply one targeted tuning change.

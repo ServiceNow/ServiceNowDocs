@@ -16,11 +16,11 @@ The system matches incoming email to the conditions of the active inbound action
 
 The default inbound actions create or update task record under these conditions.
 
-\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
+\[Omitted image "inbound-email-action-type-old.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
 If you customize or deactivate the default inbound actions, the system checks the conditions of the active inbound actions. If the system cannot find an inbound action with matching conditions, it sets the state to **Processed**.
 
-\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Work flow for matching email to custom inbound actions
+\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Workflow for matching email to custom inbound actions
 
 <table id="table_axb_pk4_m4"><thead><tr><th>
 

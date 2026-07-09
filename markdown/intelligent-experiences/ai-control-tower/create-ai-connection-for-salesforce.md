@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for Salesforce
-description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce.
+description: Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(Version 1.1.0\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, AI conne
 
 # Create an AI connection for Salesforce
 
-Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce.
+Create an AI connection for Salesforce in AI Control Tower using the  AI Service Graph Connector for Salesforce \(Version 1.1.0\).
 
 ## Before you begin
 
@@ -24,17 +24,15 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connections**.
 
-2.  Select **Add**.
+2.  Click **Add**.
 
-3.  Select **Salesforce** from all the available connectors.
+3.  Select **Salesforce** from the available connectors.
 
-4.  Select **Create connection**.
+4.  Click **Create connection**.
 
-    The Review setup instructions page displays.
+5.  Review setup instructions page displays.
 
-5.  Verify to follow all the prerequisite steps.
-
-    Setup page appears.
+    **Note:** Verify to follow all the prerequisite steps.
 
 6.  Create and test connection
 
@@ -64,10 +62,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     4.  Select **Continue**
 
-    5.  Select **View all connections** to view the newly created connection
+8.  Select the **Confirm connection setup** activity to verify whether the connection was configured.
 
 
 ## Result
+
+Click **View all connections** to view the newly created connection.
 
 The AI connection for Salesforce is created and configured.
 

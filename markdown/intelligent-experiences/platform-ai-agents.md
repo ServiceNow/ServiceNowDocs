@@ -20,7 +20,7 @@ Looking for an AI agent?
 -   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
-AI agents are also provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent. For more information, see [Available AI agents for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/available-spk-ai-agents.md).
+AI agents are also provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent. For more information, see [Available AI agents for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/available-spk-ai-agents.md).
 
 -   **[Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/platform-approval-aia.md)**  
 The Approval assistance AI agent is an AI agent that enables you to see your list of pending approvals, as well as see the details about your pending approvals. You can then approve or reject requests and tickets from Now Assist in Virtual Agent.

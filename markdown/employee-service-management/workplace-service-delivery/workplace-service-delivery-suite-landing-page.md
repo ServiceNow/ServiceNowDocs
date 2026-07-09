@@ -19,13 +19,11 @@ Provide employees with a single place to manage workplace tasks like reserving r
 
 Workplace Service Delivery \(WSD\) provides digitized workplace experiences to employees for managing their workplace activities. It provides flexible workplace solutions to drive employee productivity and workplace decisions.
 
-Workplace Service Delivery Overview Video 
+\[Omitted video\] Description: Workplace Service Delivery Overview Video
 
 ## Enhanced Employee Experience with digitized workplace services
 
 WSD provides digital entities and automation tools to enhance and streamline work processes for employees. Employees can digitize their hybrid workplace days, collaborate, and gain access to physical workspaces in their organization. Employees can manage their reservations, reserve their favorite or preferred desks, meeting rooms and parking spaces. Employees can manage workspaces tailored to their privacy and location preferences. Administrators and facility managers can get detailed insights on employee engagement and real-estate usage to manage capacity planning. Workplace digitization helps create a more connected work environment by transforming how teams interact, share information, and collaborate across platforms and businesses.
-
-\[Omitted image "wsd-landing-page-many-products.png"\] Alt text: Workplace Service Delivery application.
 
 ## Intelligent routing of workplace requests with Now Assist for WSD
 
@@ -38,8 +36,6 @@ With WSD you can optimize workplace operations with smart building integrations.
 ## Automated workflows
 
 Workflow automation in WSD provides both digital workspace apps and physical workplace resources to redesign workplace facilities. Workplace procedures and tasks are automated for employees to increase workplace productivity and collaborate effectively with preferred collaborators in their in-office presence days.
-
-\[Omitted image "wsd-landing-page-infographic-use.png"\] Alt text: Workplace Service Delivery digital experience.
 
 ## Optimize space management with space utilization insights
 

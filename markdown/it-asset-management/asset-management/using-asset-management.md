@@ -16,8 +16,6 @@ breadcrumb: [Asset Management, IT Asset Management]
 
 Use the Asset Management application to manage your assets efficiently.
 
--   **[Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/mobile-my-asset.md)**  
-Use the ServiceNow Mobile and ServiceNow Agent apps to manage your assets.
 -   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-asset-ci.md)**  
 Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
 -   **[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/c_AssetClasses.md)**  

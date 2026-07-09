@@ -1,5 +1,5 @@
 ---
-title: Generate, accept, and reject risks using risk generation skill
+title: Generate, accept, and reject risks with AI
 description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/generate-risks-using-ai-pw.html
@@ -9,10 +9,10 @@ classification: project-workspace
 topic_type: task
 last_updated: "2026-04-20"
 reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Generate, accept, and reject risks using risk generation skill
+# Generate, accept, and reject risks with AI
 
 Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 
@@ -52,5 +52,5 @@ The AI Identified Risks menu is visible only to project managers when the risk g
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks to navigate directly to the related record, without searching for the ID manually.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-ridac-pw.md)
 

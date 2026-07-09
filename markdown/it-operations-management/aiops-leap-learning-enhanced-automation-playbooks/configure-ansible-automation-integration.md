@@ -34,9 +34,17 @@ Role required: **sn\_itom\_leap.leap\_admin**
 
 The Ansible Automation Integration requires configuration of the MCP Server Console connection and agent to enable communication between LEAP and Ansible Automation Platform.
 
+For more details about the integration, select **Help** on the Connectors page, and then select **Learn more** to open the LEAP and Ansible MCP server guide.
+
 ## Procedure
 
 1.  Navigate to **LEAP Settings** &gt; **Connectors**, and select **Connect**.
+
+    **Note:**
+
+    You can also start this configuration by selecting **Connect** in the Ansible connection banner on the LEAP homepage.
+
+    \[Omitted image "ansible-connector-leap-settings.png"\] Alt text: Ansible connector in LEAP settings
 
 2.  Configure the Ansible MCP Server Console connection by completing these fields:
 
@@ -57,4 +65,6 @@ The Ansible Automation Integration requires configuration of the MCP Server Cons
 ## Result
 
 After you configure the Ansible Automation Integration, the Ansible discovery agent analyzes automation opportunities and identifies relevant job templates, and the Ansible execution agent launches mapped automations during incident remediation.
+
+The configured connection appears in the Connectors table on the LEAP settings page.
 

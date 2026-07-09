@@ -1,5 +1,5 @@
 ---
-title: Authorized SAM Provider \(ASP\) integrations for IBM
+title: Client Value Acceleration \(CVA\) integrations for IBM
 description: You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/ibm-asp-integration.html
@@ -12,13 +12,13 @@ reading_time_minutes: 8
 breadcrumb: [Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
-# Authorized SAM Provider \(ASP\) integrations for IBM
+# Client Value Acceleration \(CVA\) integrations for IBM
 
 You can track and manage IBM licenses in both VMware vSphere environments and IBM LPAR infrastructures by integrating the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program. With these integrations, you can track and manage IBM licensing directly without having to integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory.
 
-The CVA Program is an invitation-only license verification program that allows clients who contract with Authorized SAM Providers \(ASPs\) to report on their IBM license usage independently. For more information on the CVA Program, see [CVA Program Verification](https://www.ibm.com/about/software-licensing/verification/cva_program).
+The CVA Program is a license verification program that allows clients who contract with Authorized SAM Providers \(ASPs\) to report on their IBM license usage independently. For more information on the CVA Program, refer to the [IBM CVA Program](https://www.ibm.com/about/software-licensing/us-en/sam/cva_program) page.
 
-**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you are an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program.
+**Important:** As of January 1, 2025, IBM has withdrawn its IBM Authorized SAM Provider \(IASP\) Program and replaced it with the CVA Program. If you are an existing IASP Program user, contact your IBM representative to upgrade to the new CVA agreement and migrate to the CVA Program. For more details, refer to the [IBM IASP Program Verification](https://www.ibm.com/about/software-licensing/us-en/verification/iasp) page.
 
 The IBM publisher pack supports integrations with the following ASPs:
 
@@ -39,18 +39,18 @@ After your discovered IBM software is properly classified and bundled, the ASP s
 
 Before you can integrate the IBM publisher pack with an ASP, you must complete the following prerequisites:
 
--   Complete all prerequisites for participating in the CVA Program. For more information on these prerequisites, refer to the How it works section of [CVA Program Verification](https://www.ibm.com/about/software-licensing/verification/cva_program).
+-   Complete all prerequisites for participating in the CVA Program. For more information on these prerequisites, refer to the How it works section of [CVA Program Verification](https://www.ibm.com/about/software-licensing/us-en/sam/cva_program).
 -   Request and install the IBM License Compliance for Software Asset Management application from the ServiceNow® Store. See [Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md) for detailed instructions.
 -   Enable the **Use ServiceNow Software Asset Management and Discovery for IBM license compliance** \(**com.snc.samp.ibm.use\_samp\_ibm\_licensing**\) Software Asset Management property. See [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sam-properties.md) for more information on this property.
--   Activate the Discovery \(com.snc.discovery\) plugin on your ServiceNow instance. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for detailed instructions.
--   Activate the File-based Discovery \(com.snc.discovery.file\_based\_discovery\) plugin on your ServiceNow instance. See [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/file-based-discovery.md) for more information on file-based Discovery.
--   Request and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/). See [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) for more information on Discovery and Service Mapping patterns.
--   If you want to use domain separation for the integration, activate the Domain Support - Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) plugin on your ServiceNow instance. See [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/domain-sep-plugin.md) for detailed instructions.
+-   Activate the Discovery \(com.snc.discovery\) plugin on your ServiceNow instance. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) for detailed instructions.
+-   Activate the File-based Discovery \(com.snc.discovery.file\_based\_discovery\) plugin on your ServiceNow instance. See [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/file-based-discovery.md) for more information on file-based Discovery.
+-   Request and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/). See [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_MappingPatternsCustomization.md) for more information on Discovery and Service Mapping patterns.
+-   If you want to use domain separation for the integration, activate the Domain Support - Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) plugin on your ServiceNow instance. See [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/domain-sep-plugin.md) for detailed instructions.
 -   Download the IBM software discovery catalog from the ASP.
 -   If you want to track and manage IBM licensing in public cloud environments, configure one or more for the following services to automatically scan for and update the CMDB with cloud infrastructure changes every 30 minutes:
-    -   For public clouds hosted by AWS, configure the AWS Config service. See [Configure AWS Config event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/aws-config-service-cloud-mgt.md) for detailed instructions.
-    -   For public clouds hosted by Microsoft Azure, configure the Microsoft Azure Alert service. See [Configure the Microsoft Azure Alert service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md) for detailed instructions.
-    -   For public clouds hosted by Google Cloud Platform \(GCP\), configure the Google Cloud Logging service. See [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/gcp-stackdriver-service.md) for detailed instructions.
+    -   For public clouds hosted by AWS, configure the AWS Config service. See [Configure AWS Config event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/aws-config-service-cloud-mgt.md) for detailed instructions.
+    -   For public clouds hosted by Microsoft Azure, configure the Microsoft Azure Alert service. See [Configure the Microsoft Azure Alert service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/microsoft-azure-alert-driven-discovery.md) for detailed instructions.
+    -   For public clouds hosted by Google Cloud Platform \(GCP\), configure the Google Cloud Logging service. See [Configure the Google Cloud Logging service to auto-update the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/gcp-stackdriver-service.md) for detailed instructions.
 
 If you are integrating the IBM publisher pack with Anglepoint, you must also complete these additional prerequisites:
 

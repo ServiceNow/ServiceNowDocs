@@ -18,7 +18,7 @@ Accept or reject absences requests, resolve gaps and conflicts by providing cove
 
 ## Before you begin
 
-Get an overview of how to manage shifts in this video.Manage shifts
+Get an overview of how to manage shifts in this video.\[Omitted video\] Description: Manage shifts
 
 Role required: rota\_manager, rota\_admin
 

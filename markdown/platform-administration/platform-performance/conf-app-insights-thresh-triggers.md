@@ -42,7 +42,7 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
 
     Modify the base template to fit your needs.
 
-    For more information about using the Workflow Studio, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md).
+    For more information about using the Workflow Studio, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md).
 
 5.  Select **Send Email**.
 

@@ -17,7 +17,7 @@ ServiceNow® Proactive Service Experience Workflows provide a way for telecommun
 
 Watch this short video for an introduction to the Proactive Service Experience Workflows application.
 
-Proactive Service Experience Workflow overview 
+\[Omitted video\] Description: Proactive Service Experience Workflow overview
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
@@ -55,9 +55,9 @@ Proactive Service Experience Workflow overview
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [Proactive Service Experience Workflows release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/proactive-service-experience-worflows-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/telecommunications-media-and-technology-core/tmt-api-reference.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflows features at [Now Create](https://learning.servicenow.com/nowcreate).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).
--   Connect with other Proactive Service Experience Workflows users at [Now Community](https://www.servicenow.com/community/).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/telecom-media-technology/tmt-api-reference.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Product Support for Technology features at [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/proactive-service-experience?id=learning_course_prev&course_id=58f0f69f87a4ae90cfa68519dabb35ec&s=1&ssa=3)
+-   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Connect with other Product Support for Technology users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
 

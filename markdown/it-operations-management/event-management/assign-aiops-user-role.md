@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-22"
 reading_time_minutes: 1
 keywords: [Event Management, ITOM, AIOps, user roles, evt\_mgmt\_admin, Now Assist]
-breadcrumb: [ITOM Configuration console for Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign user to Event Management admin role

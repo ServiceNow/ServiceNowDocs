@@ -38,5 +38,5 @@ Role required: model\_manager
 **Related topics**  
 
 
-[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-development/agile-landing-page.md)
+[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-landing-page.md)
 

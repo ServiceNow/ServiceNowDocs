@@ -52,7 +52,7 @@ When the Similar Closed HR Cases is configured and the predictive model is train
 
 When the configuration is complete, the solution displays the most relevant HR closed cases to an HR agent to help resolve the current HR case.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery]().
 
 ## What to do next
 
@@ -63,7 +63,7 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-predictive-intelligence.md)
 

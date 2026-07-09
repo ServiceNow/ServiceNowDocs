@@ -27,7 +27,7 @@ As an agent, you should have any of the following roles to receive an inbound ca
 
 After a customer dials in, the corresponding contact flow is invoked in Amazon Connect. Through the configured nodes, the request is forwarded to an operation handler in the ServiceNow instance.
 
-If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
+If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agent-experience.md).
 
 |If|Then the interaction|
 |---|--------------------|
@@ -118,7 +118,7 @@ The activity stream of the associated interaction record is populated with your 
 **Related topics**  
 
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-overview.md)
 
 ## Transferring a call to an agent or queue
 

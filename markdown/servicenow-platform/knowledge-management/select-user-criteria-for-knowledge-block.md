@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a knowledge block, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,8 +41,6 @@ Role required: knowledge\_admin or admin
     -   If a user meets any **Can Contribute** criteria at the knowledge base level, they can read all knowledge block content, regardless of the **Can read** and **Cannot read** criteria set at the knowledge block level.
     -   If a user meets any **Cannot read** criteria at the knowledge block level, they cannot read the block content, regardless of the **Can read** criteria set at the knowledge block level.
     -   If a user has access to knowledge article and doesn't have access to one or more blocks within article then user can still read the content but without specify block content.
-    \[Omitted image "knowledge-block-user-criteria-flow.png"\] Alt text: Who can read or not read knowledge block content based on user criteria set at the knowledge base and knowledge block level.
-
 4.  Right-click the form header and click **Save**.
 
 

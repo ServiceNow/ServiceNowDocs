@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Use, Field Service Management]
 ---
@@ -20,15 +20,19 @@ Complete the answers to questions associated with a work order task and store th
 
 Agents can’t view each others completed questionnaire, even if the agent impersonates the other agent’s profile.
 
+## About this task
+
+The **Change Approval Policy** activity generates approvals from the associated change approval policy. Approval timing, due dates, and escalation are governed by the approval definitions in the policy and not by the activity. To set due dates and automatic resolution \(approve, reject, or cancel on due date\), use the Apply Change Approval policy flow action.For more information, see Change approval policy
+
 ## Before you begin
 
-You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/work-order-questionnaire.md).
+You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/work-order-management/work-order-questionnaire.md).
 
 Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Open the ServiceNow Agent application.
+1.  Open the Now Mobile Agent application.
 
 2.  Tap **My Work**.
 
@@ -42,12 +46,15 @@ Role required: wm\_agent or wm\_dispatcher
 
     If the questionnaire is required, you can’t close the task until you complete the questionnaire.
 
-7.  Tap **Submit**.
+7.  Tap **Get Started** and answer each question in the questionnaire.
 
-    Once submitted, you can view your questionnaire but can’t change it.
+8.  Perform one of the following actions.
 
+    |To|Complete these steps|
+    |---|--------------------|
+    |**Save the questionnaire**|Tap **Save**. You can edit the questionnaire later.|
+    |**Submit the questionnaire**|Tap **Submit**. Once submitted, you can view but can’t change your questionnaire.|
 
-## Result
+    The submitted questionnaire appears in the **Completed** tab.
 
-The submitted questionnaire appears in the **Completed** tab.
 

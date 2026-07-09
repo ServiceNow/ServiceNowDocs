@@ -16,7 +16,7 @@ Generate summary and ask questions to gain quick insights from your documents by
 
 ## Before you begin
 
-Configure the smart document skill. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-skill-smart-documents.md).
+Configure the smart document skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-skill-smart-documents.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 

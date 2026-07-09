@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ Use Microsoft Word to edit a knowledge article originally created in Microsoft W
 
 ## About this task
 
-**Note:** You can’t edit a knowledge article that uses an article template in Word.
+**Note:** You can't edit a knowledge article that uses an article template in Word.
 
 ## Procedure
 

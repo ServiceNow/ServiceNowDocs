@@ -18,9 +18,9 @@ AI Search extends support to search within Help Panel for knowledge articles and
 
 **Note:** This feature is dependent on the AI Search Plugin. AI Search is a ServiceNow AI Platform feature that is active by default.
 
-
+\[Omitted image "aes-ai-search.png"\] Alt text: AI Search engine help panel
 
 **Note:** The search results will be from knowledge tables and embedded help tables. Results are based on context that are relevant to the users.
 
-For more information about AI Search see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/overview-ais.md).
+For more information about AI Search see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/overview-ais.md).
 

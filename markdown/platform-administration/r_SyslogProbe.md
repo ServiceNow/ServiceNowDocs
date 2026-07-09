@@ -16,7 +16,7 @@ The ServiceNow Syslog probe uses the MID Server to deliver log messages from a S
 
 ## How the Syslog probe works
 
-The syslog probe is launched by a ServiceNow [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md) \(called Syslog\) that can be invoked from a [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/business-rules-classic/c_BusinessRules.md), event, or Orchestration activity and is launched by a MID Server. A syslog server or any server that can receive messages using the syslog protocol must be installed on the recipient \(target\) machine. Typically, a dedicated log server in the network is configured to receive all internal syslog messages. Some products that accept syslog messages are:
+The syslog probe is launched by a ServiceNow [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptIncludes.md) \(called Syslog\) that can be invoked from a [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md), event, or Orchestration activity and is launched by a MID Server. A syslog server or any server that can receive messages using the syslog protocol must be installed on the recipient \(target\) machine. Typically, a dedicated log server in the network is configured to receive all internal syslog messages. Some products that accept syslog messages are:
 
 -   ArcSight
 -   Splunk
@@ -26,8 +26,6 @@ The syslog probe is launched by a ServiceNow [Script includes](https://raw.githu
 ## Example
 
 The Acme Corporation wants to send a log message from their ServiceNow instance to an ArcSight syslog server inside their corporate firewall each time a user login fails. The system administrator uses the login.failed event to trigger a business rule that invokes the Syslog Script Include each time a login fails. Acme's MID Server checks the ECC Queue for work and picks up the syslog probe, which contains the log entry. The MID Server then sends the log message to the ArcSight server, which gathers log messages from all the machine in the internal network.
-
-\[Omitted image "SyslogProbeDiagram.png"\] Alt text: Syslog probe diagram
 
 ## Code sample
 

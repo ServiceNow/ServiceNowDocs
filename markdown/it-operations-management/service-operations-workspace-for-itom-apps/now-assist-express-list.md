@@ -18,7 +18,7 @@ Use the ServiceNow® Now Assist for IT Operations Management \(ITOM\) applicatio
 
 The Now Assist for IT Operations Management \(ITOM\) application in Express List uses AI agents and skills to help you investigate and act on alerts. Use AI agents and skills to enhance alert triage, investigation, and analysis.
 
-[Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md)
+[Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md)
 
 -   **[View an alert analysis by Now Assist in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/alert-simplification-el.md)**  
 View an alert analysis created by Now Assist using generative AI. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.

@@ -1,6 +1,6 @@
 ---
-title: Exploring Now Assist for Playbooks
-description: Use Now Assist to generate playbook outlines from text or image inputs. For example, you can enter a text description to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+title: Playbook generation from text prompt or image
+description: Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/playbook-assist.html
 release: zurich
@@ -12,27 +12,25 @@ reading_time_minutes: 4
 breadcrumb: [Playbook generation, Now Assist for Creator, Build workflows]
 ---
 
-# Exploring Now Assist for Playbooks
+# Playbook generation from text prompt or image
 
-Use Now Assist to generate playbook outlines from text or image inputs. For example, you can enter a text description to generate a playbook outline for managing customer support cases. Playbook Assist is part of the Now Assist for Creator application.
+Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 
 Now Assist for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
 
 ## Activation
 
-Playbook generation is a skill that is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+Playbook generation is a skill that is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. You must enable the Playbook generation skill to generate playbooks using AI.
 
 ## Supported user interfaces
 
-Access the playbook generation skill when you’re creating a playbook in Workflow Studio.
+Access the Playbook generation skill when you're creating a playbook in Workflow Studio.
 
 \[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
 
-## Writing prompts and reviewing playbook outlines
+## Writing prompts
 
-Follow these guidelines when creating playbooks with playbook generation skills.
-
-Write prompts:
+Follow these guidelines when writing prompts to generate playbooks.
 
 -   **Provide a meaningful name for the playbook**
 
@@ -45,6 +43,12 @@ Write prompts:
 
     -   Specify if any stages or activities run at the same time.
 
+-   **Use clear images**
+
+    Use high resolution images with clear shapes, text, and arrows. Avoid using blurred screenshots and images of unclear whiteboard diagrams.
+
+    You can use one image of up to 10 MB, in JPG, JPEG, PNG, or WEBP format.
+
 -   **Experiment with prompts**
 
     Save your prompts somewhere, including any modified versions. Saving your prompts enables easy comparison of results.
@@ -52,7 +56,9 @@ Write prompts:
     **Note:** Prompts used only to generate a preview aren't saved, but prompts used for a saved playbook outline are in the playbook's Properties setting.
 
 
-Review playbook outlines:
+## Reviewing playbooks
+
+Follow these guidelines to review the generated playbooks.
 
 -   **Check for accuracy**
 
@@ -136,4 +142,9 @@ The following examples can help you to generate playbook outlines:
 
 
 **Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/monitoring-now-assist-usage.md).
+
+**Related topics**  
+
+
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/generate-a-playbook-outline.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Page configurations
@@ -24,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the settings icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon\).
+2.  Select the settings icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text:\).
 
-3.  Personalize your page configurations\[Omitted image "page-config-aws.png"\] Alt text: Page configurations.
+3.  Personalize your page configurations\[Omitted image "page-config-aws.png"\] Alt text: Page configurations dialog showing customization options for Agent Workspace for HR Case Management.
 
     For a description of the fields, see [Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md).
 

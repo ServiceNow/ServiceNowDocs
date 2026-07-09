@@ -25,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "erp-outbound-messages-icon.png"\] Alt text: in the side panel.
+2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "image.erp-outbound-messages-icon"\] Alt text: in the side panel.
 
 3.  Select an outbound message.
 
@@ -38,7 +38,7 @@ Role required: sn\_erp\_integration.erp\_admin
     For example:
 
     -   Check the **Status** field to see if the message was successful.
-    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see  for detailed information and examples using the API.
+    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md) for detailed information and examples using the API.
     -   The **IDoc number** can also be useful.
     For a detailed description of the field values, see [Outbound message transaction details tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.md).
 

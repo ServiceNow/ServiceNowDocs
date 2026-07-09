@@ -129,7 +129,7 @@ This template walks you through customizing a use case model to categorize the e
 
 ## Result
 
-When the configuration is complete, the solution auto-categorizes the HR service for email cases. For more information, see [Auto-case creation from an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+When the configuration is complete, the solution auto-categorizes the HR service for email cases. For more information, see [Auto-case creation from an email]()
 
 ## What to do next
 
@@ -140,9 +140,9 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
+[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-predictive-intelligence.md)
 
 [bundle-itsm.itsm-piwb-integ-implem-custom]
 

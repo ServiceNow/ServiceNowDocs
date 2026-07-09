@@ -9,7 +9,7 @@ classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Copy a case in Agent Workspace for HR Case Management

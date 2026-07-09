@@ -1,5 +1,5 @@
 ---
-title: Performance Analytic indicators to measure application performance
+title: Performance Analytics indicators for applications
 description: Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/pa-indicators-jobs.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Preconfigured indicators and their source applications - Legacy, Framework setup for application assessment - Legacy, Application assessment - Legacy, Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Preconfigured indicators and their sources - Legacy, Framework setup for application assessment - Legacy, Application assessment - Legacy, Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Performance Analytic indicators to measure application performance
+# Performance Analytics indicators for applications
 
 Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
 
@@ -80,5 +80,5 @@ If there is a large number of business applications installed, then all the brea
 3.  Enter the maximum number in the **Maximum number of breakdown elements in scorecard lists** field.
 4.  Click **Save**.
 
-**Parent Topic:**[Preconfigured indicators and their source applications - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/preconfigured-indicators-and-sources.md)
+**Parent Topic:**[Preconfigured indicators and their sources - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/preconfigured-indicators-and-sources.md)
 

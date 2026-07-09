@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Authentication, Access Management]
+breadcrumb: [Access Management]
 ---
 
 # Multi-Provider single sign-on \(SSO\)

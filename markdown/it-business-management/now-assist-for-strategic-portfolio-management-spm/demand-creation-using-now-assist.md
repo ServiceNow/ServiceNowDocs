@@ -28,7 +28,7 @@ Role required: none
 
 ## About this task
 
-Creating demands using Now Assist 
+\[Omitted video\] Description: Creating demands using Now Assist
 
 In the application that supports Virtual Agent, for example Employee Service Center, start with a prompt to create a demand in the chat. Through a series of questions, Virtual Agent prompts you to provide information for the questions that you configured for a catalog item. Now Assist in Virtual Agent understands the context and maps the information that you provide in response to a question to an appropriate catalog item, in this case, a demand.
 
@@ -94,5 +94,5 @@ Using the context that you provided, Virtual Agent automatically matches it to t
 **Related topics**  
 
 
-[Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
+[Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md)
 

@@ -1,0 +1,75 @@
+---
+title: Customize team approval settings
+description: Customize how team approvals work when non-admin users create or add a team in Service Reliability Management \(SRM\). This feature, also known as team governance, helps you control access and align with internal policies.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/sr-add-approval-teams.html
+release: zurich
+product: Service Reliability Management
+classification: service-reliability-management
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+---
+
+# Customize team approval settings
+
+Customize how team approvals work when non-admin users create or add a team in Service Reliability Management \(SRM\). This feature, also known as team governance, helps you control access and align with internal policies.
+
+## Before you begin
+
+Role required: srm\_admin oradmin
+
+## About this task
+
+By default, team governance is active in SRM. When non-admin users request a team, SRM creates two records: a parent request and a requested item. The approval team is notified, and any member can approve the request from My approvals. Once approved, the team is created or added, the parent request is set to `Approved`, and the requested item is set to `Closed Complete`.
+
+You can customize team governance by turning off approvals or changing the approval team.
+
+**Note:** Non-admin users are SRM managers and SRM responders. When team governance is active, admins and SRM admins can still create and add teams without approval.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Configurations**.
+
+2.  Under **Service Reliability Management**, select **Governance and autonomy** and then select **Team governance**.
+
+3.  Review or update the approval options.
+
+    |Option|Description|
+    |------|-----------|
+    |**Approval required when creating a new team**|Clear this option to let non-admin users create teams in SRM without approval.|
+    |**Approval required when associating an existing team**|Clear this option to let non-admin users add existing teams to SRM without approval.|
+
+4.  Review or update the approval team for one or both options.
+
+    By default, the approval team is set to `SRM Team approvers`. You can view its members in `sys_user_group.list`.
+
+    **Note:** Any member of the approval team can approve requests, but they need the `sn_request_read` role to view request details. Without that role, they only see the approval task.
+
+5.  Select **Save** to update your team governance settings.
+
+
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
+
+**Related topics**  
+
+
+[Install Service Reliability Management from Admin Center or ServiceNow Store]()
+
+[Assign an administrator to Service Reliability Management]()
+
+[Activate teams and services in SRM]()
+
+[Customize service approval settings]()
+
+[Configure error budget actions for breached SRM SLOs]()
+
+[Approve a change request for SRM]()
+
+[Configure fields for escalation triggers]()
+
+[Configure Twilio to send notifications in SRM]()
+
+[Install the Alert Automation application]()
+

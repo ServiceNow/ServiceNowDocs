@@ -1,6 +1,6 @@
 ---
 title: Quote Management integration with Contract Management Pro
-description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales and Order Management \(com.sn\_som\_clm\).
+description: The Quote Management integration with Contract Management Pro is known as Contract Management for Sales CRM \(com.sn\_som\_clm\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-management-int-contracts-pro.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Quote Management, Configure, price, quote, Explore, Sales Customer 
 
 # Quote Management integration with Contract Management Pro
 
-The Quote Management integration with Contract Management Pro is known as Contract Management for Sales and Order Management \(com.sn\_som\_clm\).
+The Quote Management integration with Contract Management Pro is known as Contract Management for Sales CRM \(com.sn\_som\_clm\).
 
 Quote Management integrates with Contract Management Pro to help sales agents create legal sales contracts from a quote. A legal sales contract confirms the sales deal and agreements between your company and customer.
 
@@ -23,7 +23,7 @@ The following roles are required to initiate, view, and manage contract executio
 
 A contract generation process consists of the following steps:
 
--   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md).
+-   A sales ops specialist creates a contract type and document template, defines signatory rules, and completes configurations for the contract generation process. To learn more, see .
 -   A sales agent then initiates the contract creation process through the Initiate contract UI action by filling the required details, such as Type of paper, Contract type, Signature type, and Start and End dates.
 
     -   **Inititate Contract** UI action is visible only when a quote is in Completed state.

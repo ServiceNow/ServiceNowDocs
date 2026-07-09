@@ -22,7 +22,7 @@ Role required: rate\_limit\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Web Services** &gt; **REST** &gt; **Rate Limits**.
+1.  Navigate to **All** &gt; **System Web Services** &gt; **REST** &gt; **Rate Limit Rules**.
 
 2.  Select the rate limit rule for which you want to monitor rate limit counts and violations.
 

@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Access Management]
 ---
 
 # Private Key JWT Support for OAuth 2.0 Client Authentication

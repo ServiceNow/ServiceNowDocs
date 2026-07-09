@@ -24,7 +24,7 @@ When you create a customer service case from a support conversation, the system 
 
 **Important:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/migrate-from-connect-support.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ Starting in Utah, Connect Support has been deprecated and is no longer supported
 **Related topics**  
 
 
-[Connect workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/connect/c_CollaborationWorkspace.md)
+[Connect workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_CollaborationWorkspace.md)
 

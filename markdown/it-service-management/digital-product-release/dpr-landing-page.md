@@ -16,6 +16,8 @@ breadcrumb: [IT Service Management]
 
 ServiceNow® Digital Product Release \(DPR\) is a release management solution that helps release managers, product managers, and program managers manage the release process.
 
+This video provides an overview of Digital Product Release and its capabilities.\[Omitted video\] Description: End-to-end overview of managing digital product releases from planning through execution and delivery.
+
 ## Get started
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>

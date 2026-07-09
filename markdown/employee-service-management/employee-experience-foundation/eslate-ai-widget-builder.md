@@ -43,9 +43,9 @@ The Widget Builder generates the widget tag name, element name, and description 
 
 |Property|Description|
 |--------|-----------|
-|Tag name and description|Identifies the widget in the library and in generated code.|
-|Chat compatibility|Controls whether the widget maps to the output of tools that agents use. When enabled, the widget can be mapped to a tool output with interactive and inline toggle view in the conversation.|
-|Role access|Limits the widget to employees with specific roles. For example, assign an administrator role to restrict the widget to administrators.|
+|**Tag name and description**|Identifies the widget in the library and in generated code.|
+|**Chat compatibility**|Controls whether the widget maps to the output of tools that agents use. When turned on, administrators can map the widget to a tool output with interactive and inline toggle view in the conversation.|
+|**Role access**|Limits the widget to employees with specific roles. For example, assign an administrator role to restrict the widget to administrators.|
 
 ## Preview and code review
 

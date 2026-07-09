@@ -46,5 +46,5 @@ By default, the order buttons on the right are not displayed. Follow the procedu
 **Related topics**  
 
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_DictionaryAttributes.md)
 

@@ -23,12 +23,12 @@ Role required: admin
 
 **Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). At this time, OAuth cannot be used for tables, BAPI, or RFC.
 
-To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_SettingUpOAuth.md) and [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/oauth-inbound.md).
+To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_SettingUpOAuth.md) and [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
 
 Consult with your SAP administrator:
 
 -   Obtain the client ID and client secret. You need this information for the application registry form.
--   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_ManageTokens.md).
+-   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_ManageTokens.md).
 -   Ask them to enable the gateway services to expose the OData endpoints you want to use.
 -   Ask them to create a scope in SAP for the exposed OData endpoints and give you the name and OAuth scope. You need this to configure the scope on the application registry form.
 
@@ -42,7 +42,7 @@ Consult with your SAP administrator:
 
     2.  Select **Connect to a third party OAuth Provider**
 
-        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
+        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connect-3rd-party-oauth-provider.md).
 
     3.  Enter a **Name**.
 
@@ -52,7 +52,7 @@ Consult with your SAP administrator:
 
     6.  Unlock the **Authorization URL** and **Token URL** fields to enter the URLs.
 
-        \[Omitted image "erp-oauth-usage-flow1.png"\] Alt text: Application registry form with fields containing information.
+        \[Omitted image "image.erp-oauth-usage-flow1"\] Alt text: Application registry form with fields containing information.
 
     7.  Select the **OAuth Entity Scopes** tab.
 
@@ -60,7 +60,7 @@ Consult with your SAP administrator:
 
         You can add multiple scopes.
 
-        \[Omitted image "erp-oauth-usage-flow2.png"\] Alt text: OAuth entity scopes tab on the application registry form.
+        \[Omitted image "image.erp-oauth-usage-flow2"\] Alt text: OAuth entity scopes tab on the application registry form.
 
     9.  Select **Submit**.
 
@@ -70,7 +70,7 @@ Consult with your SAP administrator:
 
     2.  Select **OAuth 2.0 credentials**.
 
-        For detailed information about the fields on this form, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+        For detailed information about the fields on this form, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-2-credentials.md).
 
     3.  Enter a **Name**.
 
@@ -80,7 +80,7 @@ Consult with your SAP administrator:
 
         In most cases, it is acceptable to use system-based credentials. However, if you are trying to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
-        \[Omitted image "erp-oauth-usage-flow3.png"\] Alt text: Oauth 2.0 credentials form with fields containing information.
+        \[Omitted image "image.erp-oauth-usage-flow3"\] Alt text: Oauth 2.0 credentials form with fields containing information.
 
     6.  Select **Submit**.
 
@@ -90,7 +90,7 @@ Consult with your SAP administrator:
 
     2.  On the **Connections** tab, select **New**.
 
-        For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+        For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md).
 
     3.  Enter a **Name**.
 

@@ -26,9 +26,9 @@ Role required: tag\_governance\_admin
 
 1.  Navigate to **All** &gt; **Tag Governance** &gt; **Tag Categories**.
 
-2.  Verify that you are in the leaf domain.
+2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the globe icon \[Omitted image "globe-icon.png"\].
+    1.  In the page header, select the domain icon \(\[Omitted image "globe-icon.png"\]\).
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 

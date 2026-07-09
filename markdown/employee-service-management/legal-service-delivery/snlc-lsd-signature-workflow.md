@@ -7,8 +7,8 @@ release: zurich
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 9
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -125,7 +125,9 @@ For contract request fulfilled by the contract user: A contract user can submit 
  For contract request fulfilled by contract fulfiller: The contract fulfiller creates a document revision manually or by using regenerate option and resends the document for signature.
 
 </td></tr></tbody>
-</table>    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
+</table>    **Note:** When signatory roles are enabled, each signatory participates in the electronic signature workflow according to their assigned role. For information about available roles and how to enable them, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
 
 
 ## Wet signature workflow
@@ -180,6 +182,8 @@ All the signatories have signed the document
 
 </td></tr></tbody>
 </table>
+**Note:** In the wet signature workflow, only signatories with the Signer role participate. Signatories with Viewer, Receiver, or Approver roles are not included. For more information, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
 ## Offline signature workflow
 
 Use the offline signature workflow when the contract is signed outside Contract Management Pro — for example, the parties physically sign the contract document or through a third-party application, and you want to record the signed document against the contract request.
@@ -195,7 +199,7 @@ Use the offline signature workflow when the contract is signed outside Contract 
 
 ## Modify signatories when the signature workflow is in progress
 
-Modify Signatories options enables you to add, remove, edit, or reorder pending signatories while a signature workflow is in progress. Initiating this action pauses the signature workflow for a duration defined by the system property **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the **Resume Signature** option to resume the workflow.
+Modify Signatories options enables you to add, remove, edit, or reorder pending signatories  while a signature workflow is in progress. Initiating this action pauses the signature workflow  for a duration defined by the system property  **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the  **Resume Signature ** option to resume the workflow.
 
 The workflow might progress as follows:
 
@@ -224,7 +228,7 @@ Access to a contract document is based on the following user roles and condition
 -   Requesters can view only the contract documents for which they submitted the contract request.
 -   Users added to the watch list can view only contract documents for contract requests they have added.
 
-While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven't been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
+While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven’t been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
 -   **[Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.md)**  
 Upload the wet signed contract document you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.

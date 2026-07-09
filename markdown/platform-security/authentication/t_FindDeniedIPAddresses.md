@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [IP range based authentication, Authentication, Access Management]
+breadcrumb: [IP range based authentication, Access Management]
 ---
 
 # Find denied IP addresses

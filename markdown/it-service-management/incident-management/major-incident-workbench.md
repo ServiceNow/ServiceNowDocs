@@ -7,7 +7,7 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Manage major incidents, Incident Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Manage major incidents, Incident Management, IT Service Management]
 
 The major incident workbench is a single pane view designed for major incident managers, communication managers, and resolver groups. The workbench helps to manage major incidents by aggregating and providing actionable information.
 
-To navigate to the major incident workbench, open a major incident or a major incident candidate, and click **View Workbench** on the form header.
+To navigate to the major incident workbench, open a major incident or a major incident candidate, and select **View Workbench** on the form header.
 
 \[Omitted image "major-incident-workbench.png"\] Alt text: major-incident-workbench
 
@@ -24,11 +24,11 @@ To navigate to the major incident workbench, open a major incident or a major in
 
 ## Header components
 
--   From the workbench, to navigate back to the incident form, click **View Form** that appears on the header of the workbench.
--   If an incident is not yet in the **Resolved** state, then the header displays the **Resolve** button. To resolve an incident, click **Resolve**.
+-   From the workbench, to navigate back to the incident form, select **View Form** that appears on the header of the workbench.
+-   If an incident is not yet in the **Resolved** state, then the header displays the **Resolve** button. To resolve an incident, select **Resolve**.
 -   When an incident is not yet accepted as a major incident, then the workbench displays a choice list on the header. The list displays options to promote the incident to a major incident or to reject the incident.
--   Use the chat icon \(\[Omitted image "MIM-chat.png"\] Alt text: chat icon\) on the header to initiate a chat on the incident level. The chat is a record feed — whatever you write in the chat appears in the activity stream.
--   You can click \[Omitted image "edit-icon.png"\] Alt text: edit icon to change the state of the incident.
+-   Use the chat icon \(\[Omitted image "MIM-chat.png"\] Alt text: Open record chat\) on the sidebar discussions to initiate a chat on the incident level. The chat is a record feed — whatever you write in the chat appears in the activity stream. For more information, see [Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/collaboration-sow.md).
+-   You can select \[Omitted image "edit-icon.png"\] Alt text: edit icon to change the state of the incident.
 -   Duration is an active timer that tracks the time since the creation of the incident. The timer stops when the incident is resolved.
 
 -   **[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/mi-workbench-ui-elements.md)**  
@@ -43,4 +43,9 @@ Add similar incidents to a major incident so that the support teams can work on 
 Access on-call roster and escalation details from major incident workbench to reach out to a support group.
 
 **Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-management.md)
+
+**Related topics**  
+
+
+[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/collaboration-sow.md)
 

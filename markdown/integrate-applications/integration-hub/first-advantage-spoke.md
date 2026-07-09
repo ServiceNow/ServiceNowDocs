@@ -50,8 +50,8 @@ The First Advantage spoke provides sample flows to demonstrate automating the Fi
 
 |Flow|Description|
 |----|-----------|
-|First Advantage - Candidate Background Verification using Invite|Initiates background check of the candidate using invite. Sends a request to the candidate to complete an application. For information about creating a case, see [Create a case in First Advantage from ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).|
-|First Advantage - Candidate Background Verification using Order|Initiates background check of the candidate using order. An order record is created and request to provide essential details is sent to the candidate. For information about creating a case, see [Create a case in First Advantage from ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).|
+|First Advantage - Candidate Background Verification using Invite|Initiates background check of the candidate using invite. Sends a request to the candidate to complete an application. For information about creating a case, see [Create a case in First Advantage from ServiceNow]().|
+|First Advantage - Candidate Background Verification using Order|Initiates background check of the candidate using order. An order record is created and request to provide essential details is sent to the candidate. For information about creating a case, see [Create a case in First Advantage from ServiceNow]().|
 |First Advantage - \(Order As\) Candidate Background Verification using Order|Initiates background check of the candidate using order and places order on behalf of the required user.|
 |First Advantage - \(Order As\) Candidate Background Verification using Invite|Initiates background check of the candidate using invite and places order on behalf of the required user.|
 

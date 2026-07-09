@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Authentication factors, Authentication, Factors, Factors in ServiceNow, Authentication factors for AI Voice, Authentication AI Agents]
-breadcrumb: [Authentication, Access Management]
+breadcrumb: [Access Management]
 ---
 
 # Authentication factors

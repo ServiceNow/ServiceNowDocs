@@ -41,16 +41,16 @@ The following remote tables are available through Zero Copy Connector for ERP an
 |SAP Vendor Invoice|sn\_erp\_integration\_st\_sap\_vendor\_invoice|Sales|
 |SAP Transport|sn\_erp\_integration\_st\_sap\_transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables/remote-tables.md).
+For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/remote-tables.md).
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   ServiceNow Studio
--   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
--   Playbooks in Workflow Studio
--   Table Builder
--   UI Builder
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md)
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md)
+-   [Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/workspace-builder-landing.md)
 
 You can also access data from the system of record through the Glide API.
 

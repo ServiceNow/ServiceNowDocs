@@ -35,7 +35,7 @@ In the Cost screen, you can:
 -   Manage cost plans for your planning items. For more information, see [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md).
 -   Add or edit expense lines for your planning items to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-expense-line.md).
 -   Generate labor costs based on the resource assignments. For more information, see [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md).
--   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines for your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-compare-baselines.md).
+-   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-compare-baselines.md).
 -   [Configure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configure-financial-widgets.md) to get a high-level overview of the financial data for your planning item.
 -   All financial details from sub-projects will be aggregated and displayed in the parent project's cost plans and widgets.
 
@@ -136,7 +136,7 @@ View only planned costs for the full range and manage the planned costs using th
 </table>**Note:**
 
 -   If you don’t see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md) at instance level.
--   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget of your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+-   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
 The last selected view is saved as user preferences.
 

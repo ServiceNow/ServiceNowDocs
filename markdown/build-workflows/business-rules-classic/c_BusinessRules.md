@@ -397,7 +397,7 @@ If you run into issues with your business rule, see the [Business Rule FAQ \[KB0
 **Related topics**  
 
 
-[How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md)
 
 ## Global variables in business rules
 

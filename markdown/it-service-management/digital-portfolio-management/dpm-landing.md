@@ -16,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 Manage and maintain all your solutions \(services, service offerings, business applications, and service instances\) from a single location using the ServiceNow® Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 
-DPM Overview. 
+\[Omitted video\] Description: DPM Overview.
 
 This video provides an overview to manage your service-related data in the DPM Workspace using the plan, build, run life cycle.
 

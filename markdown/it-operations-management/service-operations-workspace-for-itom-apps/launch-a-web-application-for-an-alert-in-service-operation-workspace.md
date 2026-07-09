@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-06"
 reading_time_minutes: 1
 breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -30,8 +30,8 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     The alert opens in a separate tab, displaying the **Overview** subtab. In the right panel, the **Utilities** tab is selected by default.
 
-    \[Omitted image "el-close-menu.png"\] Alt text: The Utilities section displaying the web apps that you can launch.
-
 4.  In the Utilities section, select the web application to launch the app.
+
+    **Note:** For information on how to add a web application that can be launched, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-alert-management-rule.md).
 
 

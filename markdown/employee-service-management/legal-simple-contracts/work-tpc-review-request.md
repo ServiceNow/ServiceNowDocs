@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d269451e114">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d292899e114">
 
 Option
 
-</th><th align="left" id="d269451e117">
+</th><th align="left" id="d292899e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269451e123">
+</th></tr></thead><tbody><tr><td id="d292899e123">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d269451e152">
+</td></tr><tr><td id="d292899e152">
 
 **As a collaborator**
 
@@ -73,15 +73,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 5.  In the **Document Revisions** tab, manage all revisions of the contract document.
 
-<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d269451e206">
+<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d292899e206">
 
 Option
 
-</th><th align="left" id="d269451e209">
+</th><th align="left" id="d292899e209">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269451e215">
+</th></tr></thead><tbody><tr><td id="d292899e215">
 
 **To review an existing document revision**
 
@@ -93,7 +93,7 @@ Steps
 -   To mark the document revision as ready, select **Ready**.
 
 
-</td></tr><tr><td id="d269451e251">
+</td></tr><tr><td id="d292899e251">
 
 **To create another document revision**
 

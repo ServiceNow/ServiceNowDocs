@@ -39,7 +39,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
     Complete the steps specified in the setup guide:
 
-    1.  Complete [AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/aws-lambda-spoke.md) and OAuth credential setup.
+    1.  Complete [AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/aws-lambda-spoke.md) and OAuth credential setup.
 
     2.  Download the recommended hold music using the link in the setup guide \(you can choose your own hold music, but it cannot be longer than 5 seconds\).
 
@@ -47,7 +47,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 6.  Set up AWA queue to route Amazon Connect phone calls.
 
-    To setup AWA, see [Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/advanced-work-assignment/implement-awa.md).
+    To setup AWA, see [Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/implement-awa.md).
 
 
 ## What to do next

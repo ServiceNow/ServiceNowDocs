@@ -9,7 +9,7 @@ classification: microsoft-azure-devops-integrations-comm
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Customizing your map configuration for Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Customize your table map configuration
@@ -56,7 +56,7 @@ Configure table maps between tasks, iterations, and work areas of Azure DevOps a
 2.  In the Table maps related list, if the Valid column of your configuration shows:
     -   true, validation of your map configuration is successful.
     -   false, validation of your map configuration failed. Ensure that you enter correct values for all fields and validate again.
-3.  Create a business rule to support export of this new table map configuration to Azure DevOps. For more information, see [Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md).
+3.  Create a business rule to support export of this new table map configuration to Azure DevOps. For more information, see [Apply a custom table map using a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.md).
 
-**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

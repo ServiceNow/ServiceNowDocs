@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 1
-breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Access Management]
 ---
 
 # Map KBA questions to answers

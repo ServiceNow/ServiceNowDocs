@@ -25,7 +25,7 @@ Dependencies and requirements:
 -   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Observability Commons for CMDB \(sn\_observability\), which is only required for event ingestion. This must be installed prior to installing the connector for Event Management to work. For more information, see [Observability Commons for CMDB](https://store.servicenow.com/sn_appstore_store.do#!/store/application/97e04562072020107add6a77c4a9351a) on the ServiceNow Store.
 
@@ -39,7 +39,7 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Observability - New Relic application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **New Relic** &gt; **Setup**.
 
@@ -180,7 +180,7 @@ Select the connection alias that you created in step [4](https://raw.githubuserc
 
     4.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select the **Active** check box to activate the scheduled job.
 

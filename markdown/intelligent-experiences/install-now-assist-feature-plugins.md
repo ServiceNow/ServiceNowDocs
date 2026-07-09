@@ -54,7 +54,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
     3.  Request the license.
 
-        For additional information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/getting-apps-trials.md).
+        For additional information, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/getting-apps-trials.md).
 
 4.  Navigate to **Admin** &gt; **Application Manager** &gt; **Available for you**.
 
@@ -70,7 +70,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/manage-customizations-store-apps.md).
 
 9.  Include demo data if it's desired and available.
 
@@ -86,15 +86,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d38398e446">
+<table><thead><tr><th align="left" id="d84930e446">
 
 Installation option
 
-</th><th align="left" id="d38398e449">
+</th><th align="left" id="d84930e449">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d38398e455">
+</th></tr></thead><tbody><tr><td id="d84930e455">
 
 **Install now**
 
@@ -104,7 +104,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d38398e479">
+</td></tr><tr><td id="d84930e479">
 
 **Install later**
 

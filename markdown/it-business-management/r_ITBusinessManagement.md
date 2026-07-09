@@ -13,7 +13,7 @@ reading_time_minutes: 6
 
 Strategically align work with business goals to deliver products and services. ServiceNow® Strategic Portfolio Management \(SPM\), enables digital transformation by helping you can plan, deliver, and track value across different methodologies and drive customer value faster.
 
-Strategic Portfolio Management overview 
+\[Omitted video\] Description: Strategic Portfolio Management overview
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
@@ -81,7 +81,7 @@ Business Applications and Business Capabilities modules are also available withi
 
 -   [Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
 -   [Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-landing.md)
--   Now Assist for CWM
+-   [Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md)
 -   [Product Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/product-feedback-landing.md)
 -   [Portfolio Planning in SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 -   [Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/eap-landing.md)

@@ -30,15 +30,15 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 4.  Add an assessment metric \(a question\) to the category using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d76145e102">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d77306e102">
 
 Option
 
-</th><th align="left" id="d76145e105">
+</th><th align="left" id="d77306e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76145e111">
+</th></tr></thead><tbody><tr><td id="d77306e111">
 
 **Create a question**
 
@@ -46,7 +46,7 @@ Description
 
 Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
-</td></tr><tr><td id="d76145e134">
+</td></tr><tr><td id="d77306e134">
 
 **Add a question**
 

@@ -20,7 +20,7 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 
 ## About this task
 
-Video showing the steps to set up business objects 
+\[Omitted video\] Description: Video showing the steps to set up business objects
 
 ## Procedure
 

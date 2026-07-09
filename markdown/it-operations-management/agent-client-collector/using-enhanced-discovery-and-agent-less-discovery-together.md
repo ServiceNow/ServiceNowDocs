@@ -1,6 +1,6 @@
 ---
-title: Using push-based Discovery and horizontal IP-based Discovery together
-description: Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
+title: Using push-based and horizontal IP-based Discovery together
+description: Discovery performed by Agent Client Collector for Visibility Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.html
 release: zurich
@@ -13,11 +13,11 @@ keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC fo
 breadcrumb: [ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
-# Using push-based Discovery and horizontal IP-based Discovery together
+# Using push-based and horizontal IP-based Discovery together
 
-Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
+Discovery performed by Agent Client Collector for Visibility Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 
-To avoid conflicts, ACC-VC does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/r_AvailableSystemProperties.md) for more details.
+To avoid conflicts, ACC-VC does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
 
 To enable Discovery using Agent Client Collector, enable the following Discovery properties on the Discovery properties page \(**All** &gt; **Discovery Definition** &gt; **Properties**\):
 

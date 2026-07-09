@@ -7,7 +7,7 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Work an HR case, Use HR Case Management, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ There are multiple ways to generate documents in HR Service Delivery.
 
 The document is made available for the subject person to sign. Only after the signature is added, the document will be generated automatically. Following are some examples:
 
--   A document such as Tuition Reimbursement Request must be sent to the employee for signature. The Request Tuition Reimbursement service has a work flow that triggers a task for the subject person \(employee\) of the case.
+-   A document such as Tuition Reimbursement Request must be sent to the employee for signature. The Request Tuition Reimbursement service has a workflow that triggers a task for the subject person \(employee\) of the case.
 
     An administrator enables the**Automatically Create Draft Document** case option on the HR service and sets up the HR service. When a case is created with that HR service and its state is changed to Work in Progress or Ready, a task gets automatically generated for the employee with the document available for signing.
 
@@ -39,17 +39,17 @@ The document is made available for the subject person to sign. Only after the si
 
 Documents like offer letters can require multiple signatures. When all signatures are collected, the document is automatically generated.
 
-**Note:** For more information on setting this feature up, please see [Advanced form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/advanced-form-administration.md) and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
+**Note:** For more information on setting up this feature, see [Advanced form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/advanced-form-administration.md) and [Advanced Forms Management in HR Service Delivery](https://community.servicenow.com/community?id=community_article&sys_id=a1676d67dba71410b1b102d5ca961941).
 
 ## Preview, Sign, or Save
 
-Some documents require an HR agent to review, sign, or save it prior to sending it to a subject person for an HR case. An example is when a subject person requests an employment verification letter. This document requires an HR agent to review it for accuracy, sign it, and send it to the requested email address.
+Some documents require an HR agent to review, sign, or save it before sending it to a subject person for an HR case. An example is when a subject person requests an employment verification letter. This document requires an HR agent to review it for accuracy, sign it, and send it to the requested email address.
 
 -   Open a case requiring a document to be sent to the subject person.
--   Ensure that the state is **Work in Progress**.
--   The Form Header shows:\[Omitted image "HRCaseButtons.png"\] Alt text: Form header for HR workforce administration case form.
--   Click **Preview Document** to view the document.
--   Click **Sign Document** for documents that require an HR signature.
+-   Confirm that the state is **Work in Progress**.
+-   The form header shows:\[Omitted image "HRCaseButtons.png"\] Alt text: Form header for HR workforce administration case form.
+-   Select **Preview Document** to view the document.
+-   Select **Sign Document** for documents that require an HR signature.
 
     **Note:** By default, the document is available for the subject person to view once you preview it. Change this behavior by changing the **State** field on the HR task template. You can access the task template from the HR Case form by selecting the **HR service** &gt; **Service Activities** &gt; **Child task template**.
 
@@ -59,7 +59,7 @@ Some documents require an HR agent to review, sign, or save it prior to sending 
 When there are errors in the document:
 
 -   Check the table the incorrect information is pulled from.
--   Check the HR case to ensure correct case information.
+-   Check the HR case to confirm correct case information.
 -   Check the document template for errors within the body of the document, incorrect field mapping, or variable information.
 
 -   **[Edit a generated document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/agent-edit-document.md)**  

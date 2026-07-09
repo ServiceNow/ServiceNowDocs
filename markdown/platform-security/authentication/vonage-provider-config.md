@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Vonage Provider custom configuration \(Tutorial\)

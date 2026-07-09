@@ -30,18 +30,18 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     Use a builder application, such as Creator Studio or ServiceNow Studio, to create an application in a new scope. For detailed information and steps, see:
 
-    -   Create the foundation of an app in Creator Studio
-    -   
-    -   
+    -   [Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-app-creator-studio.md)
+    -   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-an-application-in-servicenow-studio.md)
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
     1.  Navigate to **All** &gt; **System update sets** &gt; **Local update sets**.
 
     2.  Find the default update set created for the new application and select the name to open the record.
 
-        \[Omitted image "erpc-check-update-set-content-pack-model-clone.png"\] Alt text: Update set list with default update set for the new application highlighted.
+        \[Omitted image "image.erpc-check-update-set-content-pack-model-clone"\] Alt text: Update set list with default update set for the new application highlighted.
 
-        If a default update set wasn't created for the new application, follow the instructions in .
+        If a default update set wasn't created for the new application, follow the instructions in [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-select-update-set.md).
 
     3.  In **Name**, enter a unique name for the update set.
 
@@ -49,11 +49,11 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
 3.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-4.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+4.  Open the ERP models page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 5.  Review the list of ERP models.
 
-    \[Omitted image "erpc-select-content-pack-model.png"\] Alt text: List of models with name column highlighted.
+    \[Omitted image "image.erpc-select-content-pack-model"\] Alt text: List of models with name column highlighted.
 
 6.  Select a data product model to clone.
 
@@ -65,7 +65,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     A second message states the current application scope, which should be the application you created earlier in this procedure.
 
-    \[Omitted image "erpc-check-scope-content-pack-model-clone.png"\] Alt text: Model page with two scope messages highlighted.
+    \[Omitted image "image.erpc-check-scope-content-pack-model-clone"\] Alt text: Model page with two scope messages highlighted.
 
 8.  Select **Clone**.
 
@@ -75,7 +75,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     3.  Select **Clone this model**.
 
-        \[Omitted image "erpc-cloned-content-pack-model.png"\] Alt text: Clone this model modal with new name added.
+        \[Omitted image "image.erpc-cloned-content-pack-model"\] Alt text: Clone this model modal with new name added.
 
         When the clone is complete, a success message is displayed.
 

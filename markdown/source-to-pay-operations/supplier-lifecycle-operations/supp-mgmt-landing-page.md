@@ -18,7 +18,7 @@ With ServiceNow® Supplier Lifecycle Operations \(SLO\), you can effectively col
 
 This video provides a visual overview of Supplier Lifecycle Operations and its key capabilities.
 
-Supplier Lifecycle Operations overview
+\[Omitted video\] Description: Supplier Lifecycle Operations overview
 
 \[Omitted image "supp-mgmt-value-proposition.png"\] Alt text: Supplier Lifecycle Operations value proposition.
 

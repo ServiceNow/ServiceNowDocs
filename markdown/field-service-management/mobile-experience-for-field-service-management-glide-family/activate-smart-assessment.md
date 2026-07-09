@@ -30,13 +30,14 @@ Before purchasing a subscription, you can evaluate this feature on a non-product
 
 Role required: admin, questionnaire\_admin
 
-Ensure the following plugins are activated before you install Smart Assessment for Field Service Questionnaire.
+Ensure the following plugins and store applications are activated before you install Smart Assessment for Field Service Questionnaire.
 
 -   Field Service Management \(field\_service\_management\)
 -   Field Service Questionnaire
 -   Field Service Mobile
 -   Smart Assessment for Mobile
 -   Smart Assessment Dependencies
+-   Basic Scoring for Smart Assessment
 -   Smart Assessment Core
 -   Smart Assessment Designer
 -   Smart Assessment Connected
@@ -66,6 +67,13 @@ For more information, see [Smart Assessment components](https://raw.githubuserco
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
+
+**Related topics**  
+
+
+[Enable Smart Assessment Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-smart-assessment-questionnaire.md)
+
+[Migrating to Smart Assessment from survey-based questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.md)
 

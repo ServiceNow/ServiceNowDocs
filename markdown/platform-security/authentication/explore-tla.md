@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Access Management]
 ---
 
 # Explore Time limited authentication

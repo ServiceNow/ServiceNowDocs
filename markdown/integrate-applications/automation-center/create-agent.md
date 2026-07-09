@@ -1,5 +1,5 @@
 ---
-title: Create an agent
+title: Create an agent for Task Mining requests
 description: Create an automation request agent to efficiently manage the tasks of the automation request without manual intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/create-agent.html
@@ -9,10 +9,10 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-02-23"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Integration with Task Mining, Integration with Task Mining, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Create an agent
+# Create an agent for Task Mining requests
 
 Create an automation request agent to efficiently manage the tasks of the automation request without manual intervention.
 
@@ -44,16 +44,16 @@ Role required: sn\_aia.admin, sn\_ac.automation\_admin, sn\_ac.automation\_techn
 
     You can select the current instance or any other instance. Ensure that the instance you choose has Automation Center installed.
 
-    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    To configure an instance, set the connection alias for the **AC Agent Enablement connection** alias. For information on configuring an instance, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
     A summary of the agent that is in progress is displayed.
 
 6.  Select **Create agent in AI studio** after reviewing the content.
 
-    For the detailed procedure to create an agent in AI studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/configure-next-best-action-agent.md).
+    For the detailed procedure to create an agent in AI studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
     The agent is created for the automation request.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)
 

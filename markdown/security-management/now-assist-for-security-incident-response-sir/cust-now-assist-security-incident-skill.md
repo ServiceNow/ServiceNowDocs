@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist Security Operations]
 breadcrumb: [Configure, Now Assist for Security Incident Response, Security Operations]
@@ -18,6 +18,8 @@ breadcrumb: [Configure, Now Assist for Security Incident Response, Security Oper
 Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 
 ## Before you begin
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Roles required: sn\_si.admin
 
@@ -46,7 +48,7 @@ Roles required: sn\_si.admin
     -   Security Incident Quality Assessment
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  Select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.** &gt; **Make a copy**.
+    1.  Select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.\)** &gt; **Make a copy**.
 
     2.  Confirm your choice in the modal.
 
@@ -132,7 +134,7 @@ Now Assist panel
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr><tr><td>
 

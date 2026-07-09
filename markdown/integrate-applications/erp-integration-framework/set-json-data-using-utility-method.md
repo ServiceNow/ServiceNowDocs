@@ -24,9 +24,9 @@ Role required: admin
 
 When using the API withJSON\(Object data\), you can create the JSON manually or use the segment handler utility method explained in this topic. For detailed information about the API, see the following:
 
--   
--   
--   
+-   [API - withJSON\(Object data\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
+-   [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)
+-   [SegmentHandler API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/SegmentHandlerAPIScoped.md)
 
 ## Procedure
 

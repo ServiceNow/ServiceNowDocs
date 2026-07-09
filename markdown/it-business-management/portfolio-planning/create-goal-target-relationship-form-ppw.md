@@ -1,20 +1,20 @@
 ---
-title: Create goal/target relationship form
-description: The goal/target relationship form information is used to create a relationship between a goal and a demand.
+title: Goal/target relationship form
+description: The goal/target relationship form enables you to define how a goal relates to a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-goal-target-relationship-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create goal/target relationship form
+# Goal/target relationship form
 
-The goal/target relationship form information is used to create a relationship between a goal and a demand.
+The goal/target relationship form enables you to define how a goal relates to a demand.
 
 <table id="table_irz_1dp_c3c"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Demand
 
 </td><td>
 
-Demand with which a goal relationship is created with the goal.
+Demand associated with the goal.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Primary
 
 </td><td>
 
-Indicates that this goal is the primary goal associated with a demand. Although multiple goals can be linked to a demand, only one of them must be designated as the primary goal.
+Option that indicates whether this goal is the primary goal associated with a demand. Only one can be designated as the primary goal.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Status
 
 </td><td>
 
-Status of the goal. Status can be Red, Yellow, Green, or None.
+Status of the goal. The available values are Red, Yellow, Green, or None.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ State
 
 </td><td>
 
-State of the goal. The state can be Draft, In progress, Approved, Complete, Pending, Achieved, or Not Achieved.
+State of the goal. The available values are Draft, In progress, Approved, Complete, Pending, Achieved, or Not Achieved.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Start date
 
 </td><td>
 
-Start date for the goal. By default, the start date of the current quarter is populated. For a subgoal, start date of its parent goal is populated.
+Start date for the goal. By default, the start date of the current quarter is populated. For a subgoal, the start date of its parent goal is populated.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Progress
 
 </td><td>
 
-Percentage completion for the goal. If the goal has subgoals or/and targets, the progress value is calculated automatically.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/progress-value-calculation.md).
+Percentage completion for the goal. If the goal has subgoals or targets, the progress value is calculated automatically.For details about how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/goal-framework/progress-value-calculation.md).
 
 </td></tr><tr><td>
 

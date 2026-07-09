@@ -100,7 +100,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 
--   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/user-criteria.md) .
+-   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/user-criteria.md) .
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 

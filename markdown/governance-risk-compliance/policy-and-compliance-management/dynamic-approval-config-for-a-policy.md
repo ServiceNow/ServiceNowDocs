@@ -47,9 +47,7 @@ This use case highlights the importance of integrating dynamic approval configur
 
 ## Approval configurator
 
-To use the approval configuration, the approval method on the policy should be selected as **Use approval rule** as shown in the following example.
-
-\[Omitted image "use-approval-rule.png"\] Alt text: Use approval rule.
+To use the approval configuration, the approval method on the policy should be selected as **Use approval rule**.
 
 Approval configuration should be created for the policy and valid approval rules should be configured for the users.
 
@@ -91,28 +89,16 @@ When you set up approval configuration on a policy record, the workflow contains
 4.  The dynamic approval configuration then retrieves the approvers from each approval level record and sends an approval request for each level.
 5.  If a valid configuration is not found, an error message is displayed that there is no valid configuration for the policy.
 
-The workflow steps are shown in the following example.
-
-\[Omitted image "policy-approval-process.png"\] Alt text: Approval configuration process.
-
 If you are the policy owner, you can select the approvers for the policy in the **Approvers** field of the Policy form. The approvers are usually the users who have the Compliance User role. If you do not have proper access, you cannot access the policy record. To request access to the policy record, you must contact the Compliance Administrator.
 
 ## Integrating dynamic approval configuration with a policy
 
 To integrate dynamic approval configuration with a policy record, you can set up multiple approval levels and for each level, you can set up the approval rules. Based on the approval levels and rules setup, the approvals are triggered automatically. When one level is approved, the policy record is submitted for the next level of approval.
 
-The workflow for integrating dynamic approval configuration with a policy is shown in the following example and steps.
-
-\[Omitted image "integrating-approval-config-with-policy.png"\] Alt text: Integrating dynamic approval configuration.
-
 -   When an approval is requested for the policy, the state of the policy changes to the **Awaiting approval** state.
 -   The dynamic approval configuration searches for the approval configuration record that is suitable to the current policy.
 -   If dynamic approval configuration is not set up on a policy record or even though it is set up, it is not applicable to that particular policy record, an error message is displayed that no valid configuration is found for the policy record and the record gets aborted. Users have to go back to your policy record and select the approvers or create a valid configuration for the policy record.
 -   If dynamic approval configuration is set up, the approvers, approval levels, and rules are added based on the configuration of the approval configuration record.
-
-The complete workflow is shown in the following example.
-
-\[Omitted image "approval-config-workflow.png"\] Alt text: Workflow.
 
 ## Components used for dynamic approval configuration
 

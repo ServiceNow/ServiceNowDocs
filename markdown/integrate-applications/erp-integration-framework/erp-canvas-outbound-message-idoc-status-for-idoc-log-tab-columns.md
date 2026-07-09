@@ -21,7 +21,7 @@ For process details, see [View and troubleshoot IDoc messages](https://raw.githu
 
 This feature is available starting with the Zurich Patch 4 release.
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see .
+Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 <table id="table_c51_mfb_ghc"><thead><tr><th>
 

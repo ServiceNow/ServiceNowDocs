@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-09-15"
+last_updated: "2026-06-29"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
@@ -23,7 +23,7 @@ Role required: sn\_ext\_conn.xcc\_admin or admin
 
 ## About this task
 
-To make results from an external content connector searchable in a portal or search application, you need to link one of its search sources to the search profile used by that portal or search application. As an example, linking a connector's search source to the **Now Assist in VA** search profile makes filtered content from that connector available in Now Assist in Virtual Agent conversations.
+To make results from an external content connector searchable in a portal or search application, you need to link one of its search sources to the search profile used by that portal or search application. As an example, linking a connector's search source to the **Service Portal** search profile makes filtered content from that connector available in Service Portal searches.
 
 Each external content connector type feeds its crawled results to a unique indexed source. By default, the system creates a search source for each connector type which has no filters and includes all documents from the connector's indexed source. You can define additional search sources for the indexed source with filter sets applied to limit which documents are searchable. To learn more about search sources and filters, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/search-sources-ais.md).
 

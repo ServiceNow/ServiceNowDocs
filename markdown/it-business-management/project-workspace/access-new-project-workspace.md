@@ -1,6 +1,6 @@
 ---
-title: Access the new Project Workspace
-description: Learn how to navigate to the new Project Workspace and open a project in the planning page.
+title: Access Project Workspace
+description: Learn how to navigate to Project Workspace and open a project in the planning page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/access-new-project-workspace.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Access the new Project Workspace
+# Access Project Workspace
 
-Learn how to navigate to the new Project Workspace and open a project in the planning page.
+Learn how to navigate to Project Workspace and open a project in the planning page.
 
 ## Before you begin
 

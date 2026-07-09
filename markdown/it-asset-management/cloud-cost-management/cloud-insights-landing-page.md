@@ -18,7 +18,7 @@ ServiceNow® Cloud Cost Management application \(formerly known as Cloud Insight
 
 Watch this short video for an introduction to the Cloud Cost Management application.
 
-Introduction to the Cloud Cost Management application.
+\[Omitted video\] Description: Introduction to the Cloud Cost Management application.
 
 **Important:** Cloud Cost Management version 8.0.0 and below are in the Planned Deprecation phase \(see [Deprecation Process](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) for more details\). These versions won’t be available on the ServiceNow Store for download and installation for new deployments, but continue to be supported for existing deployments.
 

@@ -60,5 +60,5 @@ Operationalize a Configuration Item so that you can finalize the changes and app
     **Note:** On selecting a change request, all the revised Configuration Items \(CIs\) listed under the **Affected CIs** tab are operationalized and the work notes are updated accordingly.
 
 
-**Parent Topic:**[Instantiating inventory using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

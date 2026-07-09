@@ -46,7 +46,7 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
     6.  Select **Activate**.
 
-        For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-edit.md), [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-test.md), and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/flow-activate.md).
+        For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-edit.md), [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-test.md), and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-activate.md).
 
 
 ## What to do next

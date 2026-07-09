@@ -22,7 +22,7 @@ Role required: sn\_ot\_change\_write
 
 ## About this task
 
-For a walkthrough of how to create an OT change request, watch this video.Creating an OT change request in the Industrial Workspace 
+For a walkthrough of how to create an OT change request, watch this video.\[Omitted video\] Description: Creating an OT change request in the Industrial Workspace
 
 ## Procedure
 

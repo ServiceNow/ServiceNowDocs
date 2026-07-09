@@ -18,9 +18,9 @@ Enable AI Data Explorer skills under Now Assist skills for Data and Analytics to
 
 Install the AI Data Explorer application from the ServiceNow® Store. The correct Workflow Data Fabric entitlement is required.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-The Query Generation skills "analytics query generation," "analytics insight generation," "analytics hidden insight generation," and "analytics follow-up generation" are required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-query-generation.md).
+The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/enable-query-generation.md).
 
 Role required: now\_assist\_explorer\_admin or higher
 
@@ -44,9 +44,9 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
 6.  Configure the analytics exploration skill.
 
-    1.  In the **Advanced analysis** page, you can activate record-level analysis and set which tables it applies to.
+    1.  In the **Advanced analysis** page, you can activate record-level analysis or deactivate indicator support.
 
-        For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/record-level-analysis.md).
+        For record-level analysis, you can also set which tables it applies to. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/record-level-analysis.md).
 
     2.  Select **Save and continue**.
 

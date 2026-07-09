@@ -84,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/now-assist-guardian.md)
+[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-guardian.md)
 

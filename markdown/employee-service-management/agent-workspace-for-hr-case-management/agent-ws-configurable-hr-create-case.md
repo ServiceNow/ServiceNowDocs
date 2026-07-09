@@ -18,7 +18,7 @@ Create a new HR case in Agent Workspace for HR Case Management.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.case\_writerCreate a case in Agent Workspace 
+Role required: sn\_hr\_core.case\_writer\[Omitted video\] Description: Create a case in Agent Workspace
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: sn\_hr\_core.case\_writerCreate a case in Agent Workspace
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
+    For more information, see [Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
 
 6.  Select **Create case**.
 

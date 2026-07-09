@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 This video was recorded in the Zurich release.
 
-Video that shows how to add an operation to a model in Zero Copy Connector for ERP. 
+\[Omitted video\] Description: Video that shows how to add an operation to a model in Zero Copy Connector for ERP.
 
 ## About this task
 
@@ -37,7 +37,7 @@ Video that shows how to add an operation to a model in Zero Copy Connector for E
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "image.erpc-data-model-icon"\] Alt text: in the side panel.
 
 3.  Select the model to which you want to add an operation.
 
@@ -45,14 +45,14 @@ Video that shows how to add an operation to a model in Zero Copy Connector for E
 
 5.  Select **Add model operation**.
 
-    \[Omitted image "erpc-model-operation-page-manager-ys2.png"\] Alt text: Add model operation button appears on the ERP model manager page.
+    \[Omitted image "image.erpc-model-operation-page-manager-ys2"\] Alt text: Add model operation button appears on the ERP model manager page.
 
 6.  Specify the type of operation that you're adding in the **Select type** field of the **Add operation** modal.
 
     -   **Update** sends data back to write to the ERP system.
     -   **Read** reads and retrieves data from the ERP system and brings it onto the ServiceNow AI Platform.
     -   **Create** is used to create a new instance of the business object in the SAP system.
-    \[Omitted image "erpc-add-operation-modal.png"\] Alt text: Specify the type of operation you're adding
+    \[Omitted image "image.erpc-add-operation-modal"\] Alt text: Specify the type of operation you're adding
 
 7.  Starting with the Zurich Patch 4 release, select at least one user role or group that can read or run the model operation.
 
@@ -62,7 +62,7 @@ Video that shows how to add an operation to a model in Zero Copy Connector for E
 
     Starting with the Zurich Patch 4 release, the operation tile is displayed with the roles and groups you added.
 
-    \[Omitted image "erp-operation-security1.png"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
+    \[Omitted image "image.erp-operation-security1"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
 
 
 ## Result

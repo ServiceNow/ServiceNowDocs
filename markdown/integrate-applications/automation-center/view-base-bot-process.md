@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Execute and monitor, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Review the bot processes
@@ -41,5 +41,5 @@ You can't create a bot process.
 5.  Review the information on the bot process page.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/execute-and-monitor.md)
 

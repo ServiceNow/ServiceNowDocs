@@ -1,6 +1,6 @@
 ---
-title: Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery
-description: Discovering java installation data using Agent Client Collector for Visibility - Content file-based discovery enables you to discover file information in your system.
+title: Discover java installation data using Agent Client Collector for Visibility Content file-based discovery
+description: Discovering java installation data using Agent Client Collector for Visibility Content file-based discovery enables you to discover file information in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-file-based-discovery.html
 release: zurich
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Application patterns for the Agent Client Collector, ACC Discovery, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
-# Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery
+# Discover java installation data using Agent Client Collector for Visibility Content file-based discovery
 
-Discovering java installation data using Agent Client Collector for Visibility - Content file-based discovery enables you to discover file information in your system.
+Discovering java installation data using Agent Client Collector for Visibility Content file-based discovery enables you to discover file information in your system.
 
 ## Before you begin
 
--   Install the latest version of Agent Client Collector for Visibility - Content.
+-   Install the latest version of Agent Client Collector for Visibility Content.
 -   Install file-based discovery.
 -   Enable the Oracle Global License Advisory Services \(GLAS\) hardware data collection policy.
 
@@ -49,5 +49,5 @@ Role required: discovery\_admin
 
 ## Result
 
-When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected during Agent Client Collector for Visibility - Content file-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
+When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected during Agent Client Collector for Visibility Content file-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 

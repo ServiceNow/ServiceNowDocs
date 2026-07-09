@@ -26,6 +26,8 @@ Reviews enable you to evaluate automations that have been created.
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
 -   **[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
 Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
+-   **[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)**  
+Task Mining integration helps you use Task Mining to identify, design, and build automation agents that handle repetitive user workflows. Task Mining captures screen activity from user sessions and analyzes what users do, enabling you to automate those exact workflows.
 -   **[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)**  
 Use Now Assist for Automation Center to streamline and simplify automation request setup from Task Mining workspace.
 

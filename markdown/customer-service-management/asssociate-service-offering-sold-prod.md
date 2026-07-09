@@ -36,5 +36,5 @@ Verify that the Customer Service with Service Portfolio Management \(SPM\) plugi
 **Related topics**  
 
 
-[Create a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.md)
+[Create a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/create-or-mod-SPM2-service-offerings.md)
 

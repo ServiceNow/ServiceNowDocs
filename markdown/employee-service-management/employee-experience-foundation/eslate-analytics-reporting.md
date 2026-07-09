@@ -17,7 +17,7 @@ breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified E
 
 Track user engagement, content performance, and AI assistant quality across the employee experience with built-in analytics tools.
 
-## User Experience Analytics
+## User experience analytics
 
 Employee Slate includes User Experience Analytics \(UXA\) with no additional setup required. UXA captures behavioral data across every user session and surfaces it in a dedicated dashboard. Administrators and experience owners use the dashboard to understand employee engagement patterns across the portal.
 
@@ -25,7 +25,7 @@ UXA automatically captures the following interactions:
 
 -   Every user session from start to end.
 -   Page visits, including the home page and Tasks and requests.
--   Widget renders for example the Employee sidebar and org chart card.
+-   Widget renders, for example, the Employee sidebar and org chart card.
 -   Selections on specific widgets and page elements, beyond standard page views.
 
 The UXA Overview Dashboard visualizes how employees navigate Employee Slate. Administrators use the dashboard to identify common navigation paths and exit points in the experience.

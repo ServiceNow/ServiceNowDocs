@@ -222,6 +222,8 @@ Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server
 The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
 -   **[User Role Inheritance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/user-role-inheritance-api.md)**  
 The User Role Inheritance API provides endpoints that allow you to see the roles that a specific user inherited.
+-   **[UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/usage-insight-data-exp-api.md)**  
+The UXA Data Export Service API provides an endpoint to asynchronously export user experience analytics \(UXA\) data. The data export result is delivered in batches to a dedicated Hermes topic for your ServiceNow instance.
 -   **[Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/verifyentitlements-api.md)**  
 The Verify Entitlements API provides endpoints that enable you to obtain a list of valid entitlements, details about the characteristics of entitlements, and an entitlement's latest usage information.
 -   **[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/rest-apis/bot-api.md)**  

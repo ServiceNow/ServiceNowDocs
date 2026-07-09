@@ -201,7 +201,5 @@ Option to select when the recipients are from more than 2 tables. These are dyna
 **Related topics**  
 
 
-[Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/provider-notifications-landing.md)
-
-[Create default content in a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/create-default-content.md)
+[bundle-platadm.provider-notifications-landing]
 

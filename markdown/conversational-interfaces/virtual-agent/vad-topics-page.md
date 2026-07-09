@@ -67,7 +67,7 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
 
 You can use three testing options: Standard Chat, Enhanced Chat, or Premium chat.  If you configured either Enhanced Chat or Premium Chat for your instance, you can use that test option.  If you configured both Enhanced and Premium chat, you can choose between the two.  If you configured Standard Chat, you can choose from all three options.
 
-You can see which chat experiences an assistant has by checking **Display experiences** under the assistant's **Settings** tab. For more information on assistants and testing options, see [Testing Now Assist enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md) and [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+You can see which chat experiences an assistant has by checking **Display experiences** under the assistant's **Settings** tab. For more information on assistants and testing options, see [Testing Now Assist enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
 **Note:** If you have not filtered topics with **Select assistant**, the option **Test in Now Assist panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
@@ -76,8 +76,8 @@ You can see which chat experiences an assistant has by checking **Display experi
         -   **Subflows**: Button to view only conversational subflows.
         -   **Actions**: Button to view only conversational actions.
         -   **Custom skills**: Button to view custom skills from Now Assist Skill Kit.
-    -   **AI agents**: Button to view list of AI agents. For more information, see [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/exploring-ai-agents.md).
-    -   **Agentic workflows**: Button to view list of Agentic workflows. For more information, see [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/sn-aia-use-cases-list.md).
+    -   **AI agents**: Button to view list of AI agents. For more information, see .
+    -   **Agentic workflows**: Button to view list of Agentic workflows. For more information, see [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
     -   NLU controls:
 
 ○ **Test active topics**: Button to test all active NLU/keyword topics.

@@ -60,7 +60,7 @@ A shared address refers to a shared mailbox that multiple users or team members 
 
 A forwarding address is an email address where emails are automatically redirected or forwarded from another account.
 
- **Note:** Account type is specific to personal corporate mailbox. For more information,see .
+ **Note:** Account type is specific to personal corporate mailbox.
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ System address filter to apply to the email account. If left blank, the system u
 
     The system displays a pop-up window with the results of the connection test.
 
-    \[Omitted image "connection-successful.png"\] Alt text: Connection Test pop-up window displaying the results connection successful.
+    \[Omitted image "connection-successful.png"\] Alt text: Connection Test dialog showing successful connection result
 
     If the test succeeds, select **Close** to return to the email account record. If the test fails, select **View Logs** to display more information about the test results.
 

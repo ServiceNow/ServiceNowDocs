@@ -66,7 +66,7 @@ Deploying the ServiceNow External Issuer in Kubernetes involves the following st
 5.  \(Optional\) Customize any additional configurations in the files to suit your specific requirements.
 6.  Ensure that the deployment is successful and the ServiceNow External Issuer is up and running.
 
-## Request new certificate flow
+## Request a certificate flow
 
 After deployment, submit a certificate resource with the following information in a file named `certificate_clusterissuer.yaml`.
 

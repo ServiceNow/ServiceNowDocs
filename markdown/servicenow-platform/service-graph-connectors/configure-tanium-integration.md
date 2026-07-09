@@ -40,7 +40,7 @@ For more information on the Service Graph Connector for Tanium setup, see [How d
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Tanium application by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationPicker.md).
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Tanium** &gt; **Setup**.
 
@@ -183,7 +183,7 @@ Tanium base URL or IP address. **Note:** This field is automatically set to the 
 
         **Note:** When using a token-based authentication, the user you specify in the **Run as** field for a scheduled job must have the connection\_admin role.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Update**.
 
@@ -294,7 +294,7 @@ Tanium base URL or IP address. **Note:** This field is automatically set to the 
 
             **Note:** When using a token-based authentication, the user you specify in the **Run as** field for a scheduled job must have the connection\_admin role.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select **Update**.
         5.  Repeat steps [6.h.ii](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-tanium-integration.md) to [6.h.iv](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/configure-tanium-integration.md) for each scheduled job for data import.

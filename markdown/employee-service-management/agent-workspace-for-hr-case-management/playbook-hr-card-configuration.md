@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Setting up HR Service Delivery Playbook, Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up HR Service Delivery Playbook, HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure HR Service Delivery playbook card
@@ -62,7 +62,7 @@ Condition
 
 </td><td>
 
-The conditions that determine if the type values render to an HR Playbook card.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+The conditions that determine if the type values render to an HR Playbook card.**Note:** When defining conditions like case sensitivity or null values, see [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

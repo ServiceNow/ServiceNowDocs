@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Citrix XenApp and Presentation Server
+title: Mapping Citrix XenApp and Presentation Server services
 description: Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.Map an application service containing Citrix XenApps, Presentation Servers, and Citrix Usage Collectors and verify that Service Mapping discovered all Citrix components correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/mapping-services-citrix.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Citrix XenApp and Presentation Server
+# Mapping Citrix XenApp and Presentation Server services
 
 Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.
 
@@ -149,7 +149,7 @@ Citrix Application Icon Path
 </td></tr></tbody>
 </table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
-## Map application services containing Citrix XenApp and Presentation Server
+## Map Citrix XenApp and Presentation Server services
 
 Map an application service containing Citrix XenApps, Presentation Servers, and Citrix Usage Collectors and verify that Service Mapping discovered all Citrix components correctly.
 
@@ -158,11 +158,11 @@ Map an application service containing Citrix XenApps, Presentation Servers, and 
 -   Provide a user with permissions to read and query the Citrix repository:
     -   For versions 4.5 and later, a PowerShell script from the XenApp server.
     -   For versions earlier than 4.5, a Microsoft Visual Basic Script \(VBScript\) from the Citrix Presentation Server
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_WindowsCredentialsForm.md).
 
     **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
--   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md)
+-   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/enable-winRM-MID-servers.md)
 -   Configure a user with permissions to run PowerShell commands on the Citrix server.
 -   \(For discovery of Citrix Presentation Server only\) Find out the icon path for the entry point:
     1.  In the Citrix Access Management Console, navigate to **Presentation Server** &gt; **Applications**.

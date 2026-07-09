@@ -113,7 +113,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
 -   **Improve IT asset management accuracy**
 
-    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see [Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/asset-management/mobile-my-asset.md).
+    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see [Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/mobile-my-asset.md).
 
 
 ## IT Operator
@@ -162,7 +162,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Agents use the Mobile Agent app to engage and respond to major incidents. They can see proposed major incident candidates and quickly review and promote them. Collaborate by kicking off a conference call right from the app to serve as an in-person war room for the team.
 
-    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md).
+    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-mobile-agent.md).
 
 
 ## Learn more about the Mobile Agent app

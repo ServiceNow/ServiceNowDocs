@@ -32,13 +32,13 @@ The AI assistant uses the reasoning engine to identify the records that must cha
 
 ## Procedure
 
-1.  On the home page, select the chat bar.
+1.  On the home page, select the **chat bar**.
 
 2.  Enter a natural-language request that describes the records to update, for example, `Update my address and add an emergency contact`.
 
 3.  Provide the details that the assistant asks for in the chat conversation.
 
-    The assistant collects the new address and the emergency contact information directly in the chat. You don't have to navigate, fine, or open a separate form.
+    The assistant collects the new address and the emergency contact information directly in the chat. You don't have to navigate or open a separate form.
 
 4.  Review the summary of the intended changes.
 

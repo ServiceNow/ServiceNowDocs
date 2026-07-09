@@ -58,6 +58,8 @@ The ServiceNow® Project Workspace application helps you to manage projects, res
 Set up and configure the Project Workspace application to initiate and plan your projects, financials, and resources.
 -   **[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)**  
 Use the features of Project Workspace to plan and manage your project.
+-   **[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-ridac-pw.md)**  
+Use RIDAC to identify, track, and manage risks, issues, decisions, actions, and change requests in Project Workspace.
 -   **[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-financials-prj-wrkspc.md)**  
 Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 -   **[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)**  

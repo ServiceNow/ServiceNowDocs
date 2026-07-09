@@ -21,7 +21,7 @@ The search icon lets agents perform keyword-based searches to find activities su
 -   The search bar appears automatically when the page loads on these pages, Front-line case page, CSM default record page, and Default Interaction page.
 -   The search bar is hidden by default on all other pages. Select the search icon anytime to show or hide it.
 
-\[Omitted image "cust-central-search-feature.png"\] Alt text: Customer History search bar
+\[Omitted image "cust-central-history-component.png"\] Alt text: Customer History search bar
 
 ## Filter
 

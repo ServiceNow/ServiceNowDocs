@@ -1,5 +1,5 @@
 ---
-title: APIs used by Azure and Copilot
+title: Azure and Copilot APIs
 description: Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/apis-used-by-amazon-connector.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used by Azure and Copilot
+# Azure and Copilot APIs
 
 Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 

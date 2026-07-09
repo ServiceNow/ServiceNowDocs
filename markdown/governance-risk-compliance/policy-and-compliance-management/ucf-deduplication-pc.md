@@ -24,8 +24,6 @@ Duplication occurs when you download UCF content that has multiple citations tie
 
 Duplication is identified when the downloaded citations tied to an authority document have similar **Reference**, **Authority document**, and **Description** details but a different **Source ID**. Such citations that belong to the same authority document but downloaded multiple times are termed as duplicate citations.
 
-\[Omitted image "citation-ucf-duplication.png"\] Alt text: Duplicate citations downloaded from UCF.
-
 ## Deduplication of UCF citations
 
 You can retain one citation as active and mark the rest of the duplicate citations as inactive. The relationship of this inactive citation with that of the control objective is removed from the m2m table. In its stead, the record of the active citation is added to the control objective in the m2m table.
@@ -49,8 +47,6 @@ After the fix:
 3.  Select **Reference** in the list.
 
     You can view citations with unique Reference ID, unique Description, and each citation belongs to a different AO. In the **Active** column, the active citation is **true**, and the duplicate citations are marked as **false**. Select and open one of the citation record, all control objectives are grouped in the Control objectives related list, and its child citations in the Citations related list.
-
-    \[Omitted image "citation-dedup-fix.png"\] Alt text: Active citation marked as true and duplicate citations marked as false.
 
     **Note:** Citations are considered as duplicate only when their **Reference ID**, **Authority document**, **Description** are the same. Even if one of these conditions isn’t fulfilled, then they’re considered as two different citations and not as duplicate.
 

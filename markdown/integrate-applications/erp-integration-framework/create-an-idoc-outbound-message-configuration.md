@@ -27,7 +27,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "erp-outbound-messages-icon.png"\] Alt text: in the side panel.
+2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "image.erp-outbound-messages-icon"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
@@ -41,7 +41,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 8.  Specify the **Message type**.
 
-    \[Omitted image "erp-create-idoc-outbound-message1.png"\] Alt text: New outbound message configuration record with fields completed.
+    \[Omitted image "image.erp-create-idoc-outbound-message1"\] Alt text: New outbound message configuration record with fields completed.
 
     For a detailed description of the field values, see [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md).
 

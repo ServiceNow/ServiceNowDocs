@@ -1,5 +1,5 @@
 ---
-title: Set up the AI Gateway and Client registration
+title: Configure Client registration and AI Gateway Setup
 description: Set up the AI Gateway tab and create the MCP Client registration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Set up the AI Gateway and Client registration
+# Configure Client registration and AI Gateway Setup
 
 Set up the AI Gateway tab and create the MCP Client registration.
 
 ## Before you begin
 
-Role required: sn\_ai\_governance.ai\_steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
@@ -51,5 +51,5 @@ A connection to the MCP server is set up via the AI Gateway.
 
 **Note:** The Client ID and Client secret are automatically generated and available in the MCP server record. These credentials are used to authenticate the client when connecting to the AI Gateway.
 
-To connect with Copilot Studio via AI Gateway, see [Connecting with Microsoft Copilot Studio Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.md).
+To connect with Copilot Studio via AI Gateway, see [Connecting with Microsoft Copilot Studio Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Report a knowledge gap from a case in Agent Workspace for HR Case Management
@@ -24,11 +24,11 @@ Role required: none
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select an HR case.
 
-4.  Select the More icon \[Omitted image "more-icon.png"\] Alt text: More icon and select **Report knowledge gap** from the drop-down list.
+4.  Select the More icon \(\[Omitted image "more-icon.png"\] Alt text: More icon\) and select **Report knowledge gap** from the drop-down list.
 
 5.  In the Knowledge feedback task form, enter a description in the **Description** field.
 

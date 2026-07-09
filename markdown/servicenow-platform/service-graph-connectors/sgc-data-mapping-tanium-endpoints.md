@@ -20,7 +20,7 @@ When you complete setting up the connection, you can configure the integration t
 
 **Important:** The Service Graph Connector for Tanium Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
 
-The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for Tanium.
+The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for the Service Graph Connector for Tanium Endpoints.
 
 <table id="table_data_mapping" class="custom-rows"><thead><tr><th class="filter">
 
@@ -87,7 +87,7 @@ Software Usage \[samp\_sw\_usage\]
 
 </td><td>
 
-The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
+The SG-Tanium Usage data source is available only when the Software Asset Management Professional plugin \(com.snc.samp\) plugin is activated on your ServiceNow instance. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
 
 </td></tr><tr><td>
 

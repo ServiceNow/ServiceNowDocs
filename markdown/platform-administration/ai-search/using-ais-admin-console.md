@@ -38,6 +38,8 @@ You can customize the appearance and layout of the result-card interface in AI S
 If you have the ais\_admin role, you can create, view, or edit indexed sources directly from the AI Search Admin console.
 -   **[Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/enable-hybrid-search-aisac.md)**  
 Control hybrid search settings in AI Search applications to optimize search performance. Enable hybrid search to create context-aware results that combine keyword matching with semantic understanding. Disabling it generates results that rely solely on keyword-based queries.
+-   **[Configure multi-content synthesized sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-multi-content-synthesis-sources.md)**  
+Configure indexed sources so that AI Search includes content from multiple sources when generating responses. When you configure a source for synthesis, the large language model draws from that source alongside others to produce more complete, contextually relevant answers.
 
 **Parent Topic:**[AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console.md)
 

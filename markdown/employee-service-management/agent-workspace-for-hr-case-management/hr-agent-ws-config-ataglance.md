@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using At a Glance, Contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -40,7 +40,7 @@ You can customize which fields appear in the panel to match your organization's 
 
 4.  In the **Form view and section** area, select **At a Glance** from the **View name** drop-down list.
 
-    \[Omitted image "hr-agent-workspace-at-a-glance-3.png"\] Alt text: Form layout configuration showing At a Glance view selection
+    \[Omitted image "hr-agent-workspace-at-a-glance-3.png"\] Alt text: Form layout configuration dialog with At a Glance selected in View name drop-down list
 
     The form layout displays the current At a Glance configuration with available sections.
 
@@ -59,5 +59,5 @@ You can customize which fields appear in the panel to match your organization's 
 
 ## Result
 
-The customized At a Glance panel now displays your selected fields when agents view employee profiles. Fields without data for a specific employee do not appear in that employee's panel, keeping the display clean and relevant.
+The customized At a Glance panel now displays your selected fields when agents view employee profiles. Fields without data for a specific employee don't appear in that employee's panel, keeping the display clean and relevant.
 

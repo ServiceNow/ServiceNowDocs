@@ -7,9 +7,9 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Docs for demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Docs for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create and manage pages and subpages for demands
@@ -33,15 +33,15 @@ Role required:
 
 3.  Create or manage docs in any of the following ways.
 
-<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d242323e112">
+<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d252941e112">
 
 Action
 
-</th><th align="left" id="d242323e115">
+</th><th align="left" id="d252941e115">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d242323e121">
+</th></tr></thead><tbody><tr><td id="d252941e121">
 
 **Create a blank page**
 
@@ -49,7 +49,7 @@ Procedure
 
 Select **Create page**.The new page is created and added to your Doc with the name **Untitled**, which you can rename.
 
-</td></tr><tr><td id="d242323e138">
+</td></tr><tr><td id="d252941e138">
 
 **Create a page from templates**
 
@@ -63,7 +63,7 @@ Select **Create page**.The new page is created and added to your Doc with the na
 
 \[Omitted image "spw-doc-templates-list.png"\] Alt text: Doc templates list.
 
-</td></tr><tr><td id="d242323e174">
+</td></tr><tr><td id="d252941e174">
 
 **Create a subpage**
 
@@ -71,7 +71,7 @@ Select **Create page**.The new page is created and added to your Doc with the na
 
 Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Create subpage**.\[Omitted image "eap-doc-create-subpage.png"\] Alt text: Create subpage for a Doc in Portfolio Planning.
 
-</td></tr><tr><td id="d242323e201">
+</td></tr><tr><td id="d252941e201">
 
 **Delete a page or subpage**
 
@@ -79,7 +79,7 @@ Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.pn
 
 Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Delete**.
 
-</td></tr><tr><td id="d242323e223">
+</td></tr><tr><td id="d252941e223">
 
 **Duplicate a page**
 
@@ -87,7 +87,7 @@ Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.pn
 
 Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Duplicate page**.
 
-</td></tr><tr><td id="d242323e244">
+</td></tr><tr><td id="d252941e244">
 
 **Apply template to a page**
 
@@ -98,7 +98,7 @@ Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.pn
 
 \[Omitted image "spw-doc-templates-list.png"\] Alt text: Doc templates list.
 
-</td></tr><tr><td id="d242323e283">
+</td></tr><tr><td id="d252941e283">
 
 **Save a page as a template**
 

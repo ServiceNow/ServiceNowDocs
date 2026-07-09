@@ -18,7 +18,7 @@ Create and evaluate strategic scenarios to explore different planning approaches
 
 ## Scenario planning overview
 
-Scenario planning in Strategic Planning enables organizations to create, evaluate, and approve the best strategic scenario that aligns with their strategic goals and intended business outcomes. This process helps in visualizing different approaches, assessing their impacts, and making informed decisions before implementing the live plan. By using scenario planning, organizations can anticipate potential challenges.Scenario planning overview
+Scenario planning in Strategic Planning enables organizations to create, evaluate, and approve the best strategic scenario that aligns with their strategic goals and intended business outcomes. This process helps in visualizing different approaches, assessing their impacts, and making informed decisions before implementing the live plan. By using scenario planning, organizations can anticipate potential challenges.\[Omitted video\] Description: Scenario planning overview
 
 ## What is a scenario
 

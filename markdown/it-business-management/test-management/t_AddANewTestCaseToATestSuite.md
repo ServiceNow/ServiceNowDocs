@@ -1,6 +1,6 @@
 ---
 title: Add a test case to a test suite
-description: Create and add a new test case to an existing test suite.
+description: Create and add test case to an existing test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_AddANewTestCaseToATestSuite.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Test suites, Setting up the manual testing process, Test Management
 
 # Add a test case to a test suite
 
-Create and add a new test case to an existing test suite.
+Create and add test case to an existing test suite.
 
 ## Before you begin
 

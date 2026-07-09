@@ -26,7 +26,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **Workspace** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the \[Omitted image "lists-icon.png"\] Alt text: List Icon icon.
+2.  Select \[Omitted image "lists-icon.png"\] Alt text: List Icon from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

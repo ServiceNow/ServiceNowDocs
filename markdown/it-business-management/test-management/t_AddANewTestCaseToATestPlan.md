@@ -1,5 +1,5 @@
 ---
-title: Add a new test case to a test plan
+title: Add test case to a test plan
 description: Add new test cases to your test plans so that you can assign them to testers and start test execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/test-management/t\_AddANewTestCaseToATestPlan.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Test plans, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
 
-# Add a new test case to a test plan
+# Add test case to a test plan
 
 Add new test cases to your test plans so that you can assign them to testers and start test execution.
 

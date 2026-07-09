@@ -46,7 +46,10 @@ The CyberArk integration supports these ServiceNow credential types:
 -   SNMPv3
 -   Basic Auth
 -   SSH Key Pair
--   SSH Private Key \(with key, pass phrase, and password\)
+-   SSH Private Key \(with key and password\)
+
+    **Note:** CyberArk returns the decrypted private key; passphrase is not required.
+
 -   VMware
 -   Windows
 -   Applicative Credentials
@@ -57,8 +60,8 @@ ServiceNow AI Platform features that use these network protocols also support th
 
 |Network protocol|ServiceNow® Workflow Studio support|Orchestration support|
 |----------------|-----------------------------------|---------------------|
-|SOAP|SOAP Step|[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md) with basic authentication overrides|
-|REST|REST Step|[Create a REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md) with basic authentication overrides|
+|SOAP|SOAP Step|[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateASOAPWebServiceActivity.md) with basic authentication overrides|
+|REST|REST Step|[Create a REST web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateARESTWebServiceActivity.md) with basic authentication overrides|
 |JDBC|JDBC Step|JDBC activity|
 |SSH|SSH Step|SSH activity|
 |PowerShell|PowerShell Step|PowerShell activity|

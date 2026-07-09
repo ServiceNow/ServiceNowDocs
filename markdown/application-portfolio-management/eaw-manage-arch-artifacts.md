@@ -26,7 +26,7 @@ Associate an architectural artifact to existing entities such as business capabi
 You can share architectural artifacts with users or groups for enhanced and effective collaboration with all relevant stakeholders, in the Enterprise Architecture Workspace.
 -   **[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)**  
 You can manage the user or group access to specific architectural artifacts from the Enterprise Architecture Workspace.
--   **[Request approval for an architectural artifact of type URL or Attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-req-approval-artifact-version.md)**  
+-   **[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-req-approval-artifact-version.md)**  
 You can request approval for architectural artifacts of the type **URL** or **Attachment** from users who are part of the Enterprise Architect user group. The user reviews and approves the request.
 -   **[Download an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-download-artifact-version.md)**  
 Download a version of an architectural artifact that has the file type defined as **Attachment**.

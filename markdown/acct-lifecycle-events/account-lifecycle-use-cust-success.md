@@ -17,7 +17,7 @@ Learn how your organization can use the customer success solution to engage with
 **Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 -   **[Success report dashboard overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-report-overview.md)**  
-The success report dashboard enables customer success managers to oversee and manage the overall customer portfolio.
+The success report dashboard helps customer success managers manage the overall customer portfolio.
 -   **[Success portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-success-landing.md)**  
 Get an overall view of your success portfolio including your engagements, account status, escalations, and risks.
 -   **[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)**  

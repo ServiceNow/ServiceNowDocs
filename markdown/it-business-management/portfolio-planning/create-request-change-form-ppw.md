@@ -1,20 +1,20 @@
 ---
-title: Create request change form
-description: The request change form information is used to create a request change for a demand.
+title: Request change form
+description: The request change form enables you to request for a change in the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/create-request-change-form-ppw.html
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create request change form
+# Request change form
 
-The request change form information is used to create a request change for a demand.
+The request change form enables you to request for a change in the demand.
 
 <table id="table_igb_mx2_1vb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ State
 
 </td><td>
 
-Current state of the request change. All new request change records are created in the Open state.The available states are:
+Current state of the change request. Change requests are created in the Open state.The available values are:
 
 -   Pending
 -   Open
@@ -53,7 +53,13 @@ Priority
 
 </td><td>
 
-Urgency for approving the requested changes based on impact.
+Urgency for approving the requested changes based on impact. Change requests are created with Low priority.The available values are:
+
+-   Critical
+-   High
+-   Moderate
+-   Low
+-   Planning
 
 </td></tr><tr><td>
 
@@ -69,7 +75,11 @@ Impact
 
 </td><td>
 
-Impact on the outcome of the demand if you don’t approve the requested changes.
+Impact of the change on the demand. Change requests are created with Low impact.The available values are:
+
+-   High
+-   Medium
+-   Low
 
 </td></tr><tr><td>
 
@@ -77,7 +87,12 @@ Approval
 
 </td><td>
 
-Status of approval from the stakeholders for the requested changes.
+Status of approval from the stakeholders.The available values are:
+
+-   Not Yet Requested
+-   Requested
+-   Approved
+-   Rejected
 
 </td></tr><tr><td>
 
@@ -85,7 +100,7 @@ Assigned to
 
 </td><td>
 
-Primary resource assigned to work on the request change.
+Resource assigned to work on the change request.
 
 </td></tr><tr><td>
 
@@ -93,7 +108,7 @@ Due date
 
 </td><td>
 
-Requested date to complete the request change.
+Requested date to complete the change request.
 
 </td></tr><tr><td>
 
@@ -101,7 +116,7 @@ Category
 
 </td><td>
 
-Entity for which you’re creating the request change. The options are:-   Resource
+Entity associated with the change request. The available values are:-   Resource
 -   Scope
 -   Cost
 -   Schedule
@@ -112,7 +127,7 @@ Parent
 
 </td><td>
 
-Demand number to which this request change belongs.
+Demand associated with the change request. This field is auto-populated.
 
 </td></tr><tr><td>
 
@@ -128,7 +143,7 @@ Description
 
 </td><td>
 
-Details of the request change and its potential impact.
+Brief description of the change request and its impacts on the demand.
 
 </td></tr><tr><td>
 
@@ -136,7 +151,7 @@ Business Justification
 
 </td><td>
 
-Reason for requesting the proposed change in the demand. The change's impact on the business.
+Reason for requesting the proposed change to the demand.
 
 </td></tr><tr><td>
 
@@ -144,7 +159,7 @@ Work notes
 
 </td><td>
 
-Additional information to indicate progress on the demand request change.
+Information about the change request.
 
 </td></tr></tbody>
 </table>

@@ -1,20 +1,20 @@
 ---
 title: Customize tab label in Agent Workspace for HR Case Management
-description: Change the tab title for the HR Cases, in Agent Workspace for HR Case Management, based on any of the case field values enabling you to see more details on the tab when multiple tabs are open.
+description: Customize tab labels to display case field values, making it easier to identify cases when multiple tabs are open.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Customize tab label in Agent Workspace for HR Case Management
 
-Change the tab title for the HR Cases, in Agent Workspace for HR Case Management, based on any of the case field values enabling you to see more details on the tab when multiple tabs are open.
+Customize tab labels to display case field values, making it easier to identify cases when multiple tabs are open.
 
 ## Before you begin
 
@@ -36,6 +36,6 @@ Role required: admin
 
     Tab titles can also contain multiple fields. The key value remains the table name, but the value can be a list of strings. For example: "sn\_hr\_core\_case": \["opened\_for", "number"\].
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Choose the right method for discovery and mapping application services
+title: Choose the right method for discovering and mapping services
 description: Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/choose-mapping-method.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Choose the right method for discovery and mapping application services
+# Choose the right method for discovering and mapping services
 
 Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 

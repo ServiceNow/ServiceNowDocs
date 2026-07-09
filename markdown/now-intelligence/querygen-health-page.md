@@ -69,7 +69,7 @@ The health of the various Query Generation components
 
 </td><td>
 
-If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-search/indexing-content-ais.md).
+If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/indexing-content-ais.md).
 
 </td></tr><tr><td>
 

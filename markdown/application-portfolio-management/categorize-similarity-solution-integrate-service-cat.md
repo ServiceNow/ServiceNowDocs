@@ -1,5 +1,5 @@
 ---
-title: Use similarity solution to categorize applications and integrate with service catalog - Legacy
+title: Categorize applications with similarity solution - Legacy
 description: Use the machine-learning engine to suggest a category for a business application that you are registering into the Enterprise Architecture inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/categorize-similarity-solution-integrate-service-cat.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Integrate - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Use similarity solution to categorize applications and integrate with service catalog - Legacy
+# Categorize applications with similarity solution - Legacy
 
 Use the machine-learning engine to suggest a category for a business application that you are registering into the Enterprise Architecture inventory.
 

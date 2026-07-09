@@ -131,5 +131,5 @@ Description of the widget.
 -   **[Associate a widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/associate-widget-to-project.md)**  
 After you configure a widget, associate it with the Project table to show the financial data of a project.
 
-**Parent Topic:**[View forecasts and manage financial plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
+**Parent Topic:**[View and manage financial plans in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
 

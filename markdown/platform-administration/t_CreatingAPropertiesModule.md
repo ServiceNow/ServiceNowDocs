@@ -44,7 +44,7 @@ Role required: admin
 
 ## What to do next
 
-If you want to include additional parameters for the list of system properties module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
+If you want to include additional parameters for the list of system properties module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/test-steps-app-navigator-category.md).
 
 **Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/p_CoreConfigurationOverview.md)
 

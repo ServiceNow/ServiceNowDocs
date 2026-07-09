@@ -14,9 +14,9 @@ breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configur
 
 Use the following sections to discover answers to the issues you're dealing with in an open record.
 
-Depending on the issue at hand, you might be ordering a hardware component for a requester, issuing a server restart to solve an issue, or creating and assigning an incident record to remedy a software issue.
+Depending on the issue at hand, you might be ordering a hardware component for a requester, issuing a server restart to solve an issue, or creating and assigning an incident record to remedy a software issue. Review the following image for more details\[Omitted image "agent-workflow-whole-2.png"\] Alt text: Agent Workflow example.
 
-When you use the landing page or list view to open a record, workspace provides a lot of information about the record. Here's how you might look at the different parts of workspace to understand and resolve an issue.
+When you use the landing page or list view to open a record, workspace provides a lot of information about the record. Here's how you might look at the different parts of workspace to understand and resolve an issue. Refer to the record view example, below\[Omitted image "record-view-4.jpg"\] Alt text: Record view example.
 
 1.  In the Form Header, read the record's short description, priority, status, and issue category.
 2.  In the Ribbon, read about the requester, how long the issue has been open, and what the SLA is in solving the issue.

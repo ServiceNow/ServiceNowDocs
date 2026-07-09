@@ -17,7 +17,7 @@ Build Agent is available in ServiceNow Studio \(UI-first, declarative workflows\
 
 You can watch a short video on how to access Build Agent in ServiceNow Studio.
 
-Access Build Agent 
+\[Omitted video\] Description: Access Build Agent
 
 **Note:** Your instance must be on Zurich Patch 8 or higher to use Build Agent in ServiceNow Studio.
 

@@ -7,8 +7,8 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-06-03"
-reading_time_minutes: 1
+last_updated: "2026-07-07"
+reading_time_minutes: 2
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -75,6 +75,36 @@ dynatrace\_api\_batch\_size
 Specify the maximum number of records to be returned per Dynatrace API request. This property controls pagination for Dynatrace data fetch operations.Lower values might reduce the payload size but increase the number of API calls, while higher values might improve performance but increase the payload size.
 
 Default value: `50`
+
+</td></tr><tr id="row_rkx_j33_vjc"><td>
+
+dynatrace\_classic\_connection\_alias\_sys\_id
+
+</td><td>
+
+Connection alias sys\_id from the Dynatrace Classic connector \(SGO-Dynatrace\). When this property is set, the connector performs a one-time cleanup of stale process CIs originally created by the classic connector.Leave the value field empty to skip classic migration cleanup.
+
+Default value: empty
+
+</td></tr><tr><td>
+
+segment\_id
+
+</td><td>
+
+Specify the Dynatrace segment ID to be used for filtering entities. When a value is specified, only entities that belong to the specified segment are imported.**Note:** Only one segment ID can be specified.
+
+If no value is specified, no segment filter is applied, and all entities are imported.
+
+Default value: empty
+
+</td></tr><tr id="row_kyc_xh3_vjc"><td>
+
+ci\_retirement\_threshold\_days
+
+</td><td>
+
+Number of days to wait before retiring a CI that is no longer reported by Dynatrace. Configuration items that aren't seen for longer than this period are soft‑retired by setting their operational status to non‑operational.Default value: `35 days`
 
 </td></tr></tbody>
 </table>## System property

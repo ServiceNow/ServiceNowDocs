@@ -1,5 +1,5 @@
 ---
-title: Add or remove CIs for multiple application services using connection suggestions
+title: Manage CI connections for multiple services using suggestions
 description: If the discovery based on Predictive Intelligence is enabled, the newly mapped application services include only CIs and CI connections added by discovery patterns. Use connection suggestions to decide which configuration items \(CIs\) to include or exclude globally. Service Mapping then updates all relevant discovered application services to reflect your decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map multiple application services suggested by classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Add or remove CIs for multiple application services using connection suggestions
+# Manage CI connections for multiple services using suggestions
 
 If the discovery based on Predictive Intelligence is enabled, the newly mapped application services include only CIs and CI connections added by discovery patterns. Use connection suggestions to decide which configuration items \(CIs\) to include or exclude globally. Service Mapping then updates all relevant discovered application services to reflect your decisions.
 

@@ -24,7 +24,7 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 
 2.  Select **New**.
 
-    For detailed information on Task SLA, refer [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
+    For detailed information on Task SLA, refer [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/t_CreateAnSLADefinition.md).
 
 
 **Parent Topic:**[Related lists for Non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
@@ -32,5 +32,5 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 **Related topics**  
 
 
-[Create SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-level-management/create-sla-breakdown-definitions.md)
+[Create SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/create-sla-breakdown-definitions.md)
 

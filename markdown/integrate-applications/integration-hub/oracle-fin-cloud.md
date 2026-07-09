@@ -36,7 +36,7 @@ This spoke was built for Oracle Financial Cloud API version 11.13.18.05.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Utility Actions Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+-   [Utility Actions Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/utilityact-spoke.md)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
@@ -186,7 +186,7 @@ Displays the journal records. The Import Journals flow imports these records fro
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r-credentials.md).
 
 Two connection and credential records are available along with the spoke. You must configure these alias record to use the spoke. See [Set up the Oracle Financial Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/setup-oracle-fin-cloud.md) for more information.
 

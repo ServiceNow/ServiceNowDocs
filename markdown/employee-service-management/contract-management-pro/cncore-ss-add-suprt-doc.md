@@ -1,20 +1,20 @@
 ---
 title: Add supporting documents to the contract request
-description: As a contract user or fulfiller, add single or multiple supporting documents to the contract request and classify them.
+description: Add one or more supporting documents from your computer, cloud storage, or activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-16"
 reading_time_minutes: 1
 breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add supporting documents to the contract request
 
-As a contract user or fulfiller, add single or multiple supporting documents to the contract request and classify them.
+Add one or more supporting documents from your computer, cloud storage, or activity stream.
 
 ## Before you begin
 
@@ -22,13 +22,11 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 ## About this task
 
--   The contract requests supports the upload of single contracts or multiple contracts and supporting documents. Only the contract documents are sent for signature.
--   You can attach multiple documents one at a time.
--   You cannot attach multiple supporting documents with the same name.
--   A contract user can attach supporting document when the state is Draft.
--   A contract fulfiller can attach supporting document when the state is Work in progress,
-
-You can attach supporting documents only when the State is Draft or Work in progress.
+-   The contract request supports single or multiple supporting documents. Only contract documents are sent for signature.
+-   You can attach multiple documents in a single action.
+-   You can't attach multiple supporting documents with the same name.
+-   In the Draft state, contract users can attach supporting documents.
+-   In the Work in Progress, Awaiting Review, Awaiting Approval, Awaiting Signature, and Contract Signed states, both contract users and fulfillers can attach supporting documents without impacting the contract workflow.
 
 ## Procedure
 
@@ -36,18 +34,38 @@ You can attach supporting documents only when the State is Draft or Work in prog
 
 2.  Open the contract request.
 
-3.  In the Supporting Document tab, select **Attach Document**.
+3.  Navigate to the **Supporting Documents** tab.
 
-4.  In the Upload from drop-down, select a storage type and upload a new document.
+4.  Select **Attach Document**.
 
-    -   **Computer**: Select **Attach File** and upload a document.
-    -   **Inbound Email**: In the Document field, select the document that is displayed based on an attachment in the activity stream.
-5.  Add more information about the document in the **Work notes** field.
+5.  In the **Attach documents** form, select a storage source and upload one or more documents.
 
-6.  Select **Upload**.
+    -   **To upload from your computer**
 
-    The selected file is attached and listed in the Supporting Documents related list.
+        -   Select **Computer**.
+        -   Select **Add file** and attach one or more documents.
+        -   Select **Upload** when single file is attached or **Upload All** when multiple files are attached. A preview is available for image files only.
+        -   After the file is uploaded, select **Attach**.
+        To rename the file, use the Actions \[Omitted image "cmpro-supp-doc-action-icon.png"\] Alt text: Actions icon to download, delete, or rename the attachment option.
 
+    -   **To upload from the activity stream**
 
-**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+        The activity stream includes documents attached while requesting changes for a contract or documents received through email. The **Document** field appears when you select this option.
+
+        -   Select **Activity stream**.
+        -   From the **Document** list, select one or more documents.
+        -   Select **Attach**.
+    -   **To upload from an external storage**
+
+        This option is available only when external storage is enabled. The **External storage** field appears when you select this option.
+
+        -   Select **External storage**.
+        -   From the **Document** list, select one or more documents.
+        -   Select **Attach**.
+
+## Result
+
+The selected files are attached and listed in the Supporting Documents related list.
+
+**Parent Topic:**[Use non-self-served contract request]()
 

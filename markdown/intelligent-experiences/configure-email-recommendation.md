@@ -25,7 +25,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
     If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
 
@@ -41,7 +41,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 5.  In the **Write with Now Assist** step, choose whether you want the Now Assist context menu to be active and then select the actions you want to be available.
 
-    After each step, select **Save and continue**. For more information about these choices, see [Skill inputs and triggers for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.md).
+    After each step, select **Save and continue**. For more information about these choices, see [Skill inputs and triggers for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/now-assist-hrsd-skill-inputs.md).
 
     \[Omitted image "na-email-rec-wwna.png"\] Alt text: Write With Now Assist step in guided setup for email recommendation
 

@@ -18,7 +18,7 @@ The AI Service Graph Connector for Snowflake enables you to discover and import 
 
 The connector integrates with your Snowflake account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
-Key Capabilities:
+Key capabilities:
 
 -   Automated discovery of Cortex agents and models
 -   Fine-tuning job monitoring and metadata capture
@@ -94,13 +94,16 @@ Complete the following configuration steps in your Snowflake environment before 
 
 Network Configuration
 
-**Note:** The outbound integration IP addresses for your ServiceNow instance must be allowed in your Snowflake network policies. See the [How to find IP address and datacenter information for your instance \[KB0538621\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0538621) article in the Now Support Knowledge Base.
+**Note:** The outbound integration IP addresses for your ServiceNow instance must be allowed in your Snowflake network policies. See the [How to find IP address and datacenter information for your instance \[KB0538621\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0538621) article in the Now Support Knowledge Base to find the Source address used for integrations into customer network IP address range.
 
 Account Identifier Format
 
 **Note:** The Snowflake Statements API requires account identifiers in LDF \(Lowercase-Digit-Hyphen\) format in the connection URL. Account identifiers with uppercase letters or special characters must be converted to lowercase or replaced with the account locator.
 
-Use the following format for your connection URL: https://&lt;account\_locator&gt;.snowflakecomputing.com and don't use this format: https://&lt;account\_identifier&gt;.snowflakecomputing.com.
+We should always use the following format for connection url.
+
+-   https://&lt;account\_identifier&gt;.snowflakecomputing.com
+-   If account identifier contains uppercase letters or special characters, use your account locator in connection URL as follows https://&lt;account\_locator&gt;.snowflakecomputing.com
 
 If your account identifier contains uppercase letters or special characters, use your account locator \(for example, xy12345\) instead. Your account locator is always LDF-safe.
 
@@ -110,7 +113,7 @@ Create a dedicated service account in Snowflake with least-privilege access. The
 
 Create a Role with Required Privileges
 
-Create a new role for the connector and grant the following privileges:
+create role for the connector and grant the following privileges:
 
 Core Discovery Access:
 
@@ -140,23 +143,21 @@ For detailed steps on generating RSA key pairs and configuring key-pair authenti
 
 The connector maps Snowflake AI assets to ServiceNow CMDB tables and custom tables for comprehensive asset management.
 
-.
-
-<table id="table_ktv_2nr_djc"><tbody><tr><td>
+<table><tbody><tr><td>
 
 Data Source
 
 </td><td>
 
-Staging Table
+Import Set Table
 
 </td><td>
 
-Target CMDB Tables
+Target Table\(s\)
 
 </td></tr><tr><td>
 
-Snowflake Agents
+SG-Snowflake Agents
 
 </td><td>
 
@@ -164,11 +165,41 @@ sn\_ai\_disc\_sgc\_sno\_sgc\_snowflake\_agents
 
 </td><td>
 
-cmdb\_ci\_function\_ai, alm\_ai\_system\_digital\_asset, alm\_ai\_model\_digital\_asset, sn\_ai\_disc\_ai\_usage
+cmdb\_ci\_function\_ai
+
+ cmdb\_ci\_ai\_model\_deployment
+
+ cmdb\_ai\_model\_product\_model
+
+ cmdb\_ai\_dataset\_product\_model
+
+ cmdb\_ai\_prompt\_product\_model
+
+ cmdb\_ai\_system\_component\_product\_model
+
+ alm\_ai\_model\_digital\_asset
+
+ alm\_ai\_dataset\_digital\_asset
+
+ alm\_ai\_system\_digital\_asset
+
+ cmdb\_ci\_ai\_model\_deployment
+
+ cmdb\_rel\_ci
+
+ sn\_ai\_disc\_ai\_lineage
+
+ sn\_ai\_disc\_ai\_tool
+
+ sn\_ai\_disc\_ai\_prompt
+
+ sn\_ai\_disc\_ai\_usage
+
+ sn\_ent\_ai\_system\_subcomponent\_m2m
 
 </td></tr><tr><td>
 
-Snowflake Usage
+SG-Snowflake Usage
 
 </td><td>
 

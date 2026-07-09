@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-horizontal-stages.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-06-26"
 reading_time_minutes: 8
 breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -60,7 +60,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Case playbook: horizontal stages page variant does not have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/add-audiences.md).
+The audience determines who can see the page variant. The Case playbook: horizontal stages page variant does not have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-audiences.md).
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -99,7 +99,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -135,9 +135,9 @@ The Case playbook: horizontal stages page variant includes a horizontal stage pi
 
 The stages in the stage picker include icons that indicate the stage status:
 
--   A check mark \[Omitted image "circle-check-outline-24.svg"\] Alt text: Check mark image. indicates that the stage is complete.
--   A pen icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Pen image. indicates the current stage.
--   A lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock image. indicates that a stage is locked and can’t be started until the previous stage is complete.
+-   A check mark indicates that the stage is complete.
+-   A pen icon indicates the current stage.
+-   A lock icon indicates that a stage is locked and can’t be started until the previous stage is complete.
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ The contextual side panel component includes different tools that agents can use
 -   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/configure-email-templates.md)
+-   [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-email-templates.md)
 -   Templates
 -   Record Information
 

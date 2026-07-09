@@ -20,7 +20,7 @@ Connect to your Agile Development 2.0 instance using the DevOps Change Workspace
 
 Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
-Activate the Agile Development 2.0 plugin. For more information, see [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/agile-development/activate-agile-development.md).
+Activate the Agile Development 2.0 plugin. For more information, see [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/activate-agile-development.md).
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Agile Development 2.0.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d414309e107">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d434172e107">
 
 Option
 
-</th><th align="left" id="d414309e110">
+</th><th align="left" id="d434172e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d414309e116">
+</th></tr></thead><tbody><tr><td id="d434172e116">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d414309e143">
+</td></tr><tr><td id="d434172e143">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Agile Development 2.0 from the **Plan** category.
 
 
-</td></tr><tr><td id="d414309e195">
+</td></tr><tr><td id="d434172e195">
 
 **Tools module**
 

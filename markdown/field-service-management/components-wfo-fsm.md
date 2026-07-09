@@ -771,7 +771,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must add this system property to set the desired value. For more information, see [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+You must add this system property to set the desired value. For more information, see [Add this system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 When you synchronize third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail. For more information, see [Integrate Coaching With Learning with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/integrate-learning-third-party-configurable-wfo-cs.md).
 

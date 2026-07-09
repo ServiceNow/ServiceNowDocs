@@ -155,5 +155,5 @@ Most recent time when the alert information or state was updated.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Sections and cards on the Overview tab for a Log Analytics group in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
+**Parent Topic:**[Overview tab sections for Log Analytics alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)
 

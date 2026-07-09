@@ -40,7 +40,7 @@ The Discovery Operations Monitor dashboard displays visuals for discovery perfor
 
 Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More options** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/common-dashboard-tasks.md).
 
-Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\] Alt text: More actions icon.\) on a visualization to export it in CSV, JPEG, PNG, or Excel format.
+Select the **More options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a visualization to export it in CSV, JPEG, PNG, or Excel format.
 
 |Report title|Type|Description|
 |------------|----|-----------|

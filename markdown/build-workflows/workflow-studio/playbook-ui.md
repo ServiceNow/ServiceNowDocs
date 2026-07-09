@@ -22,7 +22,7 @@ Playbooks are built by admins in Workflow Studio, customized by admins in UI Bui
 
 -   Playbooks may appear in the side panel or in the related items of records configured with playbook.
 -   Activities that you must perform to complete the business workflow are displayed. Some activities may be performed by an AI Agent instead. You're able to see what you of an AI Agent has done and what still must be done to complete the playbook. You can collapse activities to display relevant activities, and expand them again.
--   Activities are typically performed sequentially. You can go back to those activities to complete them later. Complete an activity and go to the next activity, or complete the playbook.
+-   Activities are typically performed sequentially. You can go back to those activities to complete them later. Complete an activity and go to the next activity, or complete the playbook, as shown below. \[Omitted image "playbook-flow.gif"\] Alt text: Playbook flow example
 
 ## Playbook UI
 
@@ -30,7 +30,9 @@ Playbooks contain helpful UI features.
 
 -   **Header**
 
-    Shows the title of a Playbook. A header exists for each playbook attached to a record. Selecting a Playbook header expands the stages nested under it.
+    Shows the title of a Playbook. A header exists for each playbook attached to a record. Selecting a Playbook header expands the stages nested under it, as shown below.
+
+    \[Omitted image "playbook-header.png"\] Alt text: Playbook header example
 
 -   **Stages**
 
@@ -50,7 +52,9 @@ Playbooks contain helpful UI features.
 
 -   **Activity cards**
 
-    Playbook activity cards display details about an activity, which may include the status, SLA timer, form data, and attachments. Use playbook activity cards to complete tasks by filling in forms, completing checklists, and adding attachments.
+    Playbook activity cards display details about an activity, which may include the status, SLA timer, form data, and attachments. Use playbook activity cards to complete tasks by filling in forms, completing checklists, and adding attachments, as shown below.
+
+    \[Omitted image "playbook-activity-cards.png"\] Alt text: Playbook activity cards
 
 
 **Parent Topic:**[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)

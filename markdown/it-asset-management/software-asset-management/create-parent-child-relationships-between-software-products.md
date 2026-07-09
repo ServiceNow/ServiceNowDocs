@@ -46,6 +46,8 @@ Role required: sam\_admin
 
 The Software Asset Management application automatically updates the life-cycle dates of the specified child product with the life-cycle dates of the specified parent product, given that the child product does not already have its own specific life-cycle dates.
 
+**Note:** These life-cycle dates are automatically populated only in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table. If you want to populate them in the Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table, you must create custom life cycles. For more information on these tables and on custom life cycles, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/calculated-lifecycles.md).
+
 ## What to do next
 
 View life-cycle dates and other life-cycle information for both your parent and child software products in the Lifecycle management dashboard. You can access this dashboard by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Lifecycle management**. See [Lifecycle management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/lifecycle-management-dashboard.md) for more information on this dashboard.

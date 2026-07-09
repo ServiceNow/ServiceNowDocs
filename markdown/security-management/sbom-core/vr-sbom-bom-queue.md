@@ -9,7 +9,7 @@ classification: sbom-core
 topic_type: task
 last_updated: "2025-09-09"
 reading_time_minutes: 1
-breadcrumb: [Reviewing reports and dashboards, Use, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Reviewing reports and dashboards, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # View upload status for Software Bill of Materials files

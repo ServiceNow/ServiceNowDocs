@@ -1,18 +1,18 @@
 ---
 title: CSM Configurable Workspace form headers
-description: Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
+description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-form-headers.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
 breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace form headers
 
-Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
+Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
 
 Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md).
 
@@ -37,9 +37,9 @@ The cards that appear in the Record Information tab can be configured in the rib
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/using-ui-builder.md).
+For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder.md).
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 
-The Data Value Block component is used to display secondary values in the form header and the Contextual side panel. .
+The Data Value Block component is used to display secondary values in the form header and the Contextual side panel.
 

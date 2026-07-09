@@ -43,13 +43,13 @@ When adding an entity to a model operation, use the **Ask AI** button to receive
 
     For example, enter `Get the list of Purchase Orders created in the last 3 years for the vendors that are blocked`.
 
-    Read the **AI suggestions** for the relevant data sources \(for example, table, BAPI, OData, RFC\) available. Select the plus icon \(\[Omitted image "erp-plus-icon.png"\] Alt text:\) next to any option for more information.
+    Read the **AI suggestions** for the relevant data sources \(for example, table, BAPI, OData, RFC\) available. Select the plus icon \(\[Omitted image "image.erp-plus-icon"\] Alt text:\) next to any option for more information.
 
-    \[Omitted image "erp-entity-ask-ai1.png"\] Alt text: Entity suggestions listed based on text entered to describe the needed entity.
+    \[Omitted image "image.erp-entity-ask-ai1"\] Alt text: Entity suggestions listed based on text entered to describe the needed entity.
 
-    A separate list shows any already installed models that contain the suggested entities. For example, after entering `Show list of all change documents that are in progress`, several installed models were listed. Select the plus icon \(\[Omitted image "erp-plus-icon.png"\] Alt text:\) next to any model for more information.
+    A separate list shows any already installed models that contain the suggested entities. For example, after entering `Show list of all change documents that are in progress`, several installed models were listed. Select the plus icon \(\[Omitted image "image.erp-plus-icon"\] Alt text:\) next to any model for more information.
 
-    \[Omitted image "erp-entity-ask-ai2.png"\] Alt text: Entity suggestions with separate highlighted list of installed models.
+    \[Omitted image "image.erp-entity-ask-ai2"\] Alt text: Entity suggestions with separate highlighted list of installed models.
 
     If there are any relevant data products, they are listed with a link to the ServiceNow Store page for more information about purchasing and installing.
 
@@ -57,7 +57,7 @@ When adding an entity to a model operation, use the **Ask AI** button to receive
 
     At any time, select a **Previous AI response** to see the suggestions again.
 
-    \[Omitted image "erp-entity-ask-ai3.png"\] Alt text: Entity suggestions with previous AI responses list highlighted.
+    \[Omitted image "image.erp-entity-ask-ai3"\] Alt text: Entity suggestions with previous AI responses list highlighted.
 
 
 **Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)

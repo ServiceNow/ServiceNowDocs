@@ -1,5 +1,5 @@
 ---
-title: Relate the information object to the database catalog - Legacy
+title: Relate information object to database catalog - Legacy
 description: The information object draws the physical data from the database catalog, which references the database instances. Hence, create a relationship that is suggested between the information object and the database catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/relate-info-object-database-catalog.html
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Relate the information object to the database catalog - Legacy
+# Relate information object to database catalog - Legacy
 
 The information object draws the physical data from the database catalog, which references the database instances. Hence, create a relationship that is suggested between the information object and the database catalog.
 

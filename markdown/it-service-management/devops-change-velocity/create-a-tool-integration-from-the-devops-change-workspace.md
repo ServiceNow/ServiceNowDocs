@@ -28,7 +28,7 @@ Set the application scope to the custom application.
 
 Watch this video to understand how to create a tool integration from the DevOps Change Workspace.
 
-Create a tool integration from the DevOps Change Workspace 
+\[Omitted video\] Description: Create a tool integration from the DevOps Change Workspace
 
 ## Procedure
 

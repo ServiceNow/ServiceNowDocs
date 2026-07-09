@@ -41,5 +41,5 @@ Care Team Operations for Facilities contains the case types to report and fulfil
  
 
 </td></tr></tbody>
-</table>
+</table>\[Omitted video\]
 

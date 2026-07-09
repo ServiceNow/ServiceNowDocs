@@ -48,7 +48,7 @@ Project \[pm\_project\] table
 
 </td><td>
 
-To navigate to the Project form, see []().
+To navigate to the Project form, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).
 
 </td></tr><tr><td>
 

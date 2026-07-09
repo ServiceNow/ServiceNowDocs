@@ -129,5 +129,5 @@ A script to determine advanced assignment rule functionality. Scripts provide ac
 **Related topics**  
 
 
-[Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
+[Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_DefineAssignmentRules.md)
 

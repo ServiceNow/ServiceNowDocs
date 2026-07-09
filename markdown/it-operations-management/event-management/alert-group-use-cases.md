@@ -141,6 +141,8 @@ A system administrator receives multiple alerts about different services failing
 </td></tr></tbody>
 </table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster modes, and Network Traffic, a virtual alert, representing the oldest and most severe alert in the group, is created as the parent alert.
 
+By default, the main alert of the group is the oldest and the alert with the highest severity. There is a script include, GroupingProduceVirtualHook, using which we can change the main alert selection logic. The method that you should customize is getVirtual.
+
 **Note:** In domain-separated environments, alert groups are created only for alerts within the same domain.
 
 For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on different grouping types, see [Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/Alert-Groups.md).

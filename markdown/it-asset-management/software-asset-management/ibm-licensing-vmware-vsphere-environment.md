@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Virtualization technologies and cloud platforms supported by IASP integrations, Authorized SAM Provider \(ASP\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Virtualization technologies and cloud platforms supported by IASP integrations, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # IBM licensing in VMware vSphere environments

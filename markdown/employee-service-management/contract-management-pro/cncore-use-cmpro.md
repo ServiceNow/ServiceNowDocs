@@ -25,9 +25,9 @@ As a case owner or fulfiller, initiate a contract or amendment request for the c
 As a contract user or contract administrator, view the details and track the activities of the contract request.
 -   **[Assign a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-assign-con-req.md)**  
 As a contract fulfiller or contract administrator, assign a contract request to yourself or to someone in your assignment group.
--   **[Use self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+-   **[Use self-served contract request]()**  
 Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
--   **[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+-   **[Use non-self-served contract request]()**  
 Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 -   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-amend-landing.md)**  
 The contract amendment workflow enables you to initiate, manage, and track changes to existing contracts through amendment requests.
@@ -40,7 +40,7 @@ As a contract fulfiller, create a document revision to upload an updated version
 -   **[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-expert-review.md)**  
 Get your contract document reviewed by internal subject matter experts who have the expertise you need.
 -   **[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)**  
-Link a parent contract to a child contract to establish hierarchical relationships between contract requests and inherit fields from the parent contract request.
+The contract family hierarchy in the Related contract requests tab shows all related contract requests and lets you link, inherit from, and unlink parent contract requests.
 -   **[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md)**  
 Initiate an ad hoc approval for a contract document revision from a user or a user group.
 -   **[Compare contract revisions in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-compare-docs.md)**  

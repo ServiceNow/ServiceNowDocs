@@ -1,5 +1,5 @@
 ---
-title: Configure an HR PDF document template for an ad hoc document
+title: Configure an ad hoc PDF document template
 description: If you are using the DocuSign integration, configure an HR PDF document template for each ad hoc document that you want to make available for signing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-pdf-document-template-for-docusign-ad-hoc-document.html
@@ -7,18 +7,18 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [DocuSign service, HR Integrations, Integrate with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure an HR PDF document template for an ad hoc document
+# Configure an ad hoc PDF document template
 
 If you are using the DocuSign integration, configure an HR PDF document template for each ad hoc document that you want to make available for signing.
 
 ## Before you begin
 
-Create the managed document that you want to make available for signing through the DocuSign system. See [Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md) for more information.
+Create the managed document that you want to make available for signing through the DocuSign system. See [Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/c_ManagedDocuments.md) for more information.
 
 Role required: sn\_hr\_core.admin
 
@@ -28,7 +28,7 @@ You can use an existing or create a new HR PDF document template. You can add si
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Document Templates**.
 
-2.  Click **New** or open a record
+2.  Select **New** or open a record
 
     **Note:** If you are creating a new record, make sure to select **PDF Document Template**.
 
@@ -38,7 +38,7 @@ You can use an existing or create a new HR PDF document template. You can add si
 
 4.  Configure the HR PDF document template, as appropriate.
 
-    You can add signers to the document with **Mark Signatures**, and then map each signature field to an appropriate user field in a table. You can also parse the PDF to map document fields to corresponding table fields to auto-populate the document when it is generated for signing. For further details on configuring an HR PDF document template, see [Configure an HR PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/PDFTemplate.md).
+    You can add signers to the document with **Mark Signatures**, and then map each signature field to an appropriate user field in a table. You can also parse the PDF to map document fields to corresponding table fields to auto-populate the document when it is generated for signing. For further details on configuring an HR PDF document template, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
 
     **Note:** The positioning of **Mark Signatures** is not used, and the integration allows the signer to sign anywhere in the document.
 
@@ -47,10 +47,10 @@ You can use an existing or create a new HR PDF document template. You can add si
     **Note:**
 
     -   By default, if a document has two or more signature fields, parallel signing is enabled.
-    -   If the **Signing order** column is not visible, click the gear icon to personalize the list columns. Add the **Signing order** field to the Selected column.
+    -   If the **Signing order** column is not visible, select the gear icon to personalize the list columns. Add the **Signing order** field to the Selected column.
     \[Omitted image "docusign-serial-signing.png"\] Alt text: How to assign the signing order for serial signing in DocuSign.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 **Parent Topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)

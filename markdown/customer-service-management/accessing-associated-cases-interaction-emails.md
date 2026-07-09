@@ -27,7 +27,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon.
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -54,7 +54,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon.
 
 3.  From the Cases section, select **My Cases**.
 

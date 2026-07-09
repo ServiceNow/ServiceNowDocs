@@ -34,11 +34,11 @@ The unified data model of the ServiceNow AI Platform helps with the seamless int
 1.  Have your administrator use the Connections and Credentials app to configure credentials to connect to the ERP system of record. For more information, see [Connect to a system of record from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
 2.  Create an ERP system in Zero Copy Connector for ERP using the connection and credentials alias that you configured. For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
-    **Note:** The rest of the workflow steps are in Zero Copy Connector for ERP. Build your ERP systems, ERP models, and tables in a development instance, and then promote them to a production instance when you're ready. For more information, see .
+    **Note:** The rest of the workflow steps are in Zero Copy Connector for ERP. Build your ERP systems, ERP models, and tables in a development instance, and then promote them to a production instance when you're ready. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/manage-deployments-using-p-and-d-aemc.md).
 
 3.  Clone or create an ERP model that scans the specified ERP module in the system of record for available tables and fields. Note the tables and fields in the ERP model for use in extraction and remote tables, as well as for mapping parameters to create records on, read, and update the system of record.For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
-    \[Omitted image "erp-explore-1.png"\] Alt text: Zero copy connector for ERP models tab displaying a list of several models.
+    \[Omitted image "image.erp-explore-1"\] Alt text: Zero copy connector for ERP models tab displaying a list of several models.
 
 4.  Add create, read, and update operations to connect to the ERP system by adding tables, mapping fields, and building table joins to include additional data in the ERP model. For more information, see the following topics:
     -   [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-managing-models-read.md)
@@ -49,7 +49,7 @@ The unified data model of the ServiceNow AI Platform helps with the seamless int
     -   [Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-query-remote-table.md)
 6.  Work with ETL extraction tables to scan the system of record regularly and extract data to a staging table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
 
-    \[Omitted image "erp-explore-2.png"\] Alt text: Zero copy connector for ERP extraction tables tab displaying a list of several extraction tables.
+    \[Omitted image "image.erp-explore-2"\] Alt text: Zero copy connector for ERP extraction tables tab displaying a list of several extraction tables.
 
     -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
     -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/system-import-sets/t_CreateATransformMap.md).
@@ -58,12 +58,12 @@ The unified data model of the ServiceNow AI Platform helps with the seamless int
 7.  Build flows in Workflow Studio to specify details for when you query or update the ERP \(Enterprise Resource Planning\) system. For more information, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md).
 8.  Move the ERP systems, ERP models, tables, operations, and flows to a production environment when they're ready. For more information, see [Managing ERP development pipelines in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/manage-erp-tables-pipelines.md).
 9.  Use the ERP data as the data source when building apps on the ServiceNow AI Platform using:
-    -   ServiceNow Studio: For more information, see  and .
-    -   Flows in Workflow Studio: For more information, see .
-    -   Playbooks in Workflow Studio: For more information, see .
-    -   Table Builder: For more information, see .
-    -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder/data-resources.md).
-    -   Workspace Builder: For more information, see .
+    -   ServiceNow Studio: For more information, see [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-an-application-in-servicenow-studio.md) and [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-create-app-file.md).
+    -   Flows in Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configuring-flow-designer.md).
+    -   Playbooks in Workflow Studio: For more information, see [Getting started with process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/getting-started-process-automation.md).
+    -   Table Builder: For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/table-builder.md).
+    -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/data-resources.md).
+    -   Workspace Builder: For more information, see [Add a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-record-page-workspace.md).
 
 ## Benefits of Zero Copy Connector for ERP
 

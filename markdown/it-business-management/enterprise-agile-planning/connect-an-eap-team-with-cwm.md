@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-11-19"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 breadcrumb: [Connect with CWM, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -47,6 +47,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
     \[Omitted image "eap-cwm-space-board.png"\] Alt text: EAP team's Space and Board in CWM.
 
+-   The Backlog and Hierarchy tabs remain available for this team in EAP, but the **Start Sprint** and **Complete Sprint** options are no longer available there. Start and complete sprints from the Collaborative Work Management Board instead.
 
 ## What to do next
 

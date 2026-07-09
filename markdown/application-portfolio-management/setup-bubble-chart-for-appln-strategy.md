@@ -1,5 +1,5 @@
 ---
-title: Create or edit a bubble chart for application strategies - Legacy
+title: Create bubble charts for application strategies - Legacy
 description: Set up a bubble chart to compare and evaluate the relative standing of applications in selected categories. The chart helps you determine which applications to invest more in, keep, replace, or eliminate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/setup-bubble-chart-for-appln-strategy.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Analyze application scores in a bubble chart - Legacy, Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create or edit a bubble chart for application strategies - Legacy
+# Create bubble charts for application strategies - Legacy
 
 Set up a bubble chart to compare and evaluate the relative standing of applications in selected categories. The chart helps you determine which applications to invest more in, keep, replace, or eliminate.
 

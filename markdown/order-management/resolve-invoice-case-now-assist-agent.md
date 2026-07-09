@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/resolve
 release: zurich
 topic_type: task
 last_updated: "2026-05-18"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Now Assist for Order Management]
 ---
@@ -19,9 +19,9 @@ Resolve invoice dispute cases using Now Assist directly from the CSM/FSM Configu
 
 The invoice dispute assist agentic workflow must be made available on the Now Assist panel. For more information, see [Make the invoice dispute assist workflow available in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
 
-Now Assist for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.md).
+Now Assist for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see .
 
-Chat Summarization must be configured to use the summarization and recommendation features. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist_0.md).
+Chat Summarization must be configured to use the summarization and recommendation features. For more information, see .
 
 Role required: awa\_agent, sn\_csm\_invoice.agent, sn\_otc.accounts\_receivable\_agent, and now\_assist\_panel\_user
 
@@ -31,7 +31,7 @@ When a customer escalates an invoice dispute to a human agent either through a V
 
 When a customer is transferred from the Virtual Assistant, the interaction record opens automatically with a conversation summary, giving you full context of the dispute discussed on the Virtual Assistant side.
 
-You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see [Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.md) and [Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md).
+You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see  and .
 
 ## Procedure
 
@@ -94,7 +94,5 @@ When the dispute is resolved, the invoice case is closed with the resolution det
 **Related topics**  
 
 
-[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
-
-[Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.md)
+[bundle-csm.now-assist-csm-using]
 

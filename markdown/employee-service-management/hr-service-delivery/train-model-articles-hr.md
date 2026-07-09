@@ -32,5 +32,5 @@ The Similar Knowledge Articles for HR Case solution definition is configured and
 
 You can also [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery]()
 

@@ -1,0 +1,37 @@
+---
+title: Modify a published quiz
+description: Post changes to existing questions immediately. Make new questions available to users who have not started the quiz.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/t\_ModifyAPublishedQuiz.html
+release: zurich
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Create quizzes with forms, Use, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Modify a published quiz
+
+Post changes to existing questions immediately. Make new questions available to users who have not started the quiz.
+
+## Before you begin
+
+Role required: none
+
+## Procedure
+
+1.  You can edit a quiz even after it has been distributed, with these results:
+
+    -   Added questions are available only on quizzes that are distributed after this change.
+    -   Changes to existing questions are immediately available to users before the quiz is submitted or during the [retake period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/t_EnableAQuizRetake.md). This includes changes to the answers, such as additional choices or changes to the data type.
+    -   Deleted questions are also deleted from the distributed quizzes in users' queues.
+
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/c_CreateQuizzesWithForms.md)
+
+**Related topics**  
+
+
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/t_CreateaQuiz.md)
+
+[Change the order of an answer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md)
+

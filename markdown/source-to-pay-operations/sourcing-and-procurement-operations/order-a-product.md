@@ -16,7 +16,7 @@ breadcrumb: [Using Shopping Hub, Use Sourcing and Procurement Operations, Sourci
 
 Order a product or service that you want to purchase from the product catalog available on Shopping Hub Home.
 
-Describes a procedure to order a product with quick checkout on ShoppingHub. 
+\[Omitted video\] Description: Describes a procedure to order a product with quick checkout on ShoppingHub.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -70,7 +70,7 @@ Verify that the ServiceNow core applications required to support the Microsoft D
 
 </td><td>
 
-Verify that the following DLP IR applications and security support common applications are installed and activated from the ServiceNow Store. If not installed, then install and activate on the application. -   Security Support Common
+Verify that the following DLP IR applications and security support common applications are installed and activated from the ServiceNow Store. Install and activate through the application, if required. -   Security Support Common
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
@@ -116,7 +116,7 @@ Read DLP policy events including detected sensitive data.
 
 </td><td>
 
-To ingest the DLP events from MSFT Purview to ServiceNow.**Note:** This permission is a must to get the MSFT data into ServiceNow.
+To ingest the DLP events from MSFT Purview to ServiceNow.**Note:** This permission is required to get the Microsoft data into ServiceNow.
 
 </td><td align="center">
 
@@ -140,7 +140,7 @@ Read files in all site collections that you can access.
 
 </td><td>
 
-Download File: To download the attachment on the ServiceNow instance that caused the DLP event from OneDrive or SharePoint **Note:** This is optional. You can skip this API permission if you don't want to allow the analysts to download the attachment that caused the DLP event.
+Download File: To download the attachment on the ServiceNow instance that caused the DLP event from OneDrive or SharePoint **Note:** This permission is optional. You can skip this API permission if you don't want to allow the analysts to download the attachment that caused the DLP event.
 
 </td><td align="center">
 

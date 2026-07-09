@@ -19,7 +19,7 @@ Generate and view the total capacity of the resources with primary attributes. C
 ## Before you begin
 
 1.  Enable planning attributes for capacity planning. For more information, see [Enable planning attributes for capacity in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/cp-enable-planning-attributes-pp.md).
-2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources to work with capacity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.md).
+2.  Generate employee profiles for resources. For more information, see [Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/gen-emp-profiles-cp-pp.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 
@@ -33,15 +33,15 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 3.  Use one the following options to view and regenerate the capacity details.
 
-<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d161106e122">
+<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d167572e122">
 
 Choice
 
-</th><th align="left" id="d161106e125">
+</th><th align="left" id="d167572e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d161106e131">
+</th></tr></thead><tbody><tr><td id="d167572e131">
 
 **Generate capacity details**
 
@@ -59,7 +59,7 @@ The resource capacity details for the selected combination of primary attributes
 
 **Note:** Capacity generation is an asynchronous process. You can generate capacity for multiple combination of dates and attributes.
 
-</td></tr><tr><td id="d161106e187">
+</td></tr><tr><td id="d167572e187">
 
 **Regenerate capacity details**
 
@@ -69,13 +69,13 @@ The resource capacity details for the selected combination of primary attributes
 2.  In the Regenerate capacity window, filter the date range, if needed, and select **Regenerate**.
 
 
-</td></tr><tr><td id="d161106e217">
+</td></tr><tr><td id="d167572e217">
 
 **Scheduled job**
 
 </td><td>
 
-Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Activate a scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
+Activate a schedule job to automatically generate the capacity details of your resources at required cadence. For more information on how to activate a scheduled job, see [Scheduled job to automatically generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/generate-capacity-scheduled-job-pp.md).
 
 </td></tr></tbody>
 </table>

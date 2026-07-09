@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Report knowledge gap from a case, Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Report knowledge gap from a case, Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # View assigned knowledge tasks in Agent Workspace for HR Case Management
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.kb\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **My tasks - feedback** under **Knowledge**.
 

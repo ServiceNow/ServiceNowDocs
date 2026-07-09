@@ -20,7 +20,7 @@ Reference topics provide additional information about the cards, lists, and form
 Several types of components are installed with activation of the DEX application \[sn\_dex\] plugin, including user roles and tables.
 -   **[Landing page cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dashboard-cards.md)**  
 The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications, facilitating efficient data analysis across various categories.
--   **[]()**  
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-diff-ra-updated.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-diff-ra-updated.md)**  
 
 -   **[DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/insights-reports.md)**  
 The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time, which enables efficient monitoring and issue identification.

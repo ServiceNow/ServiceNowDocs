@@ -24,7 +24,7 @@ Use the ServiceNow platform to build apps.
 
 </td><td>
 
-[Mobile App Builder \[Omitted image "icon-mobile-app-builder.png"\] Build ServiceNow mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/mab-concept.md)
+[Mobile App Builder \[Omitted image "icon-mobile-app-builder.png"\] Build ServiceNow mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mab-concept.md)
 
 </td></tr></tbody>
 </table>

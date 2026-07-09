@@ -26,9 +26,7 @@ Role required: sn\_compliance.attestation\_creator
 
 2.  Click **New**.
 
-    \[Omitted image "exception-quest-new.png"\] Alt text: New exception questionnaire
-
-    **Note:** Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
+    Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
 
 3.  On the form, fill in the fields.
 
@@ -41,7 +39,7 @@ Role required: sn\_compliance.attestation\_creator
     |State|The publish state of the assessment: **Draft** or **Published**.|
     |Enforce condition|When selected, all records that do not meet the conditions defined are deleted.|
     |Roles|Roles that have Read access to the information in the assessment.|
-    |Condition|Conditions for selecting records from the selected table to be assessed. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_ConditionBuilder.md).|
+    |Condition|Conditions for selecting records from the selected table to be assessed. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ConditionBuilder.md).|
     |Description|A description for this exception questionnaire.|
 
 4.  Save the questionnaire record.

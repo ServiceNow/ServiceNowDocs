@@ -32,11 +32,7 @@ To import data into these default tables, follow these steps:
 
     **Note:** Verify that the XLSX file contains the accurate data that passes all the pre-defined validation checks or any custom validations that have been defined.
 
-    The uploaded file appears in the Upload &amp; process file page.
-
-    \[Omitted image "account-onboarding-data-upload.png"\] Alt text: Account onboarding: uploaded files
-
-    You can upload multiple files. For each uploaded file, the name of the file, the date on which it was uploaded, the person who uploaded the file, and upload status \(Unprocessed\) is displayed.
+    The uploaded file appears in the Upload &amp; process file page. You can upload multiple files. For each uploaded file, the name of the file, the date on which it was uploaded, the person who uploaded the file, and upload status \(Unprocessed\) is displayed.
 
 3.  Select one or more files to be uploaded, and select **Process files**.
 

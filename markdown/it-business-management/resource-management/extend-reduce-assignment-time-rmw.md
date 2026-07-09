@@ -42,7 +42,7 @@ Extend or reduce the duration of an assignment from the grid view in the Resourc
 
 ## Result
 
-The resource assignment reflects the updated start and end dates and the allocated effort redistributes proportionally across the new date range based on the configured allocation interval.
+Once the dates are updated, the initial effort is recalculated for the entire assignment duration including the new date range.
 
 **Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/using-rmw.md)
 

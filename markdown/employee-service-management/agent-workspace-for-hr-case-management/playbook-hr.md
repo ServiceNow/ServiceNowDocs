@@ -1,20 +1,20 @@
 ---
 title: HR Service Delivery Playbook
-description: Currently, HR Service Delivery Playbook offers you a single pane to view and work all tasks and steps required for resolving a lifecycle event case.
+description: HR Service Delivery Playbook provides a single-pane view of all tasks and steps for resolving lifecycle event cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Service Delivery Playbook
 
-Currently, HR Service Delivery Playbook offers you a single pane to view and work all tasks and steps required for resolving a lifecycle event case.
+HR Service Delivery Playbook provides a single-pane view of all tasks and steps for resolving lifecycle event cases.
 
 **Important:**
 
@@ -35,7 +35,7 @@ Because there can be multiple activity sets in a lifecycle event case that also 
 
 Using an accordion button, you can expand or collapse activity sets to view the activities within.
 
-Within an activity set, you can view all tasks, state, owners, and have the ability to take action.
+Within an activity set, you can view all tasks, state, owners, and can take action.
 
 **Note:** For more information about lifecycle events, see [Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md).
 

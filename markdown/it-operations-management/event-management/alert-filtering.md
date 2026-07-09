@@ -41,7 +41,7 @@ If your filter specifies alerts whose configuration item class is not Linux, the
     3.  Select the alert group type:
 
         -   Automated
-        -   Test
+        -   Text
         -   CMDB
         You can assign more than one group type with a single filter condition.
 

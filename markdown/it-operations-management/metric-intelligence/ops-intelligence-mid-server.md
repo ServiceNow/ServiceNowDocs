@@ -1,5 +1,5 @@
 ---
-title: MID Server and MID Server distributed cluster for Metric Intelligence
+title: MID Server distributed cluster for Metric Intelligence
 description: Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/metric-intelligence/ops-intelligence-mid-server.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
-# MID Server and MID Server distributed cluster for Metric Intelligence
+# MID Server distributed cluster for Metric Intelligence
 
 Using Metric Intelligence requires at least one MID Server distributed cluster which contains a single MID Server that is configured for Metric Intelligence.
 
@@ -42,13 +42,13 @@ Each Metric Intelligence MID Server must be configured with the following settin
 
 **Note:** The Metric Intelligence MID Server does not support IPv6.
 
-The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see [Configure applications included in ALL Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md).
+The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see [Configure applications included in ALL Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md).
 
 If Domain Support - Domain Extensions Installer is activated, then you can configure a MID Server with the Metrics capability, per domain. In this case, metrics for a business service are processed on the MID Server that is in the same domain as the business service. Otherwise, a MID Server from the global domain is used.
 
 Ensure that the MID Server that you want to configure for Metric Intelligence:
 
--   Is validated. For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
+-   Is validated. For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_ValidateAMIDServer.md)
 -   Is in running state
 -   Meets all software, hardware, and configuration requirements
 
@@ -100,6 +100,8 @@ Windows
 32-bit and 64-bit versions:-   Windows 2008 R2
 -   Windows Server 2012 R2
 -   Windows Server 2019
+-   Windows Server 2022
+-   Windows Server 2025
 
 </td><td>
 

@@ -26,7 +26,7 @@ Role required: sn\_erp\_mining.erp\_user
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  In the side panel, select the candidates icon \[Omitted image "erpcm-candidates-icon.png"\] Alt text:.
+2.  In the side panel, select the candidates icon \[Omitted image "image.erpcm-candidates-icon"\] Alt text:.
 
 3.  View and edit basic candidate details by selecting the candidate **Name** in the list.
 

@@ -16,8 +16,15 @@ breadcrumb: [Contractor capabilities, Set up workforce, Configure, Field Service
 
 You can configure Contractor Marketplace to enable dispatchers to push tasks to marketplace when internal agents are unavailable.
 
+Contractor managers receive notifications in the Field Service Contractor for mobile application for the tasks pushed to the marketplace.
+
 ## Configuration overview
 
 1.  [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md)
 2.  [Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md)
+
+**Related topics**  
+
+
+[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Normalized value and application score for an assessment - Legacy
+title: Normalized value and application score - Legacy
 description: If the source of the indicator is Assessments in the Data source field, then the Target maximum, Target minimum, Application weight, and Total weight values are considered as zero.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/nv-and-app-score-for-assessments.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Job schedule to compute application scores - Legacy, Application assessment - Legacy, Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Normalized value and application score for an assessment - Legacy
+# Normalized value and application score - Legacy
 
 If the source of the indicator is **Assessments** in the **Data source** field, then the Target maximum, Target minimum, Application weight, and Total weight values are considered as zero.
 

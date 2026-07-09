@@ -1,5 +1,5 @@
 ---
-title: Configure the business application form for risk management - Legacy
+title: Configure business application form for risk - Legacy
 description: Configure the business application form to enable application managers to provide risk and control information associated with a business application through a risk assessment questionnaire or a control attestation survey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/configure-related-lists-risk.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Configure the business application form for risk management - Legacy
+# Configure business application form for risk - Legacy
 
 Configure the business application form to enable application managers to provide risk and control information associated with a business application through a risk assessment questionnaire or a control attestation survey.
 

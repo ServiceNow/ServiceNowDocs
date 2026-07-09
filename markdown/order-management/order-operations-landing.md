@@ -1,0 +1,39 @@
+---
+title: Order operations
+description: Explore tools that help manage exceptions, returns, and process visibility across the order life cycle.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-operations-landing.html
+release: zurich
+topic_type: reference
+last_updated: "2025-10-03"
+reading_time_minutes: 1
+breadcrumb: [Explore, Sales Customer Relationship Management]
+---
+
+# Order operations
+
+Explore tools that help manage exceptions, returns, and process visibility across the order life cycle.
+
+## Get started
+
+Select a link from the following table to explore tools that support exception handling, returns, process visibility, and sales operations across the lead-to-cash life cycle.
+
+|Application|Description|
+|-----------|-----------|
+||Capture and manage order exceptions.|
+||Track and manage multiple related issues in a single case.|
+||Capture and manage invoice exceptions.|
+|[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-lead-cash-process-management.md)|Create dashboards using consolidated sales data across ERP and ServiceNow systems to gain visibility into the full sales process.|
+|[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/return-merchandise-authorization.md)|Manage return, replacement, or refund cases for installed products.|
+
+## What to do next
+
+Configure the order operations applications, so your agents and customers can use them in their sales workflows. For more information, see [Configuring the order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-order-operations.md).
+
+**Related topics**  
+
+
+[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-order-operations.md)
+
+[Order operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-order-operations.md)
+

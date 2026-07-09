@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -22,13 +22,13 @@ Role required: sn\_dlir.admin
 
 ## Procedure
 
-1.  Download the  Microsoft DLP integration from the  ServiceNow® Store and install it.
+1.  Download and install the  Microsoft DLP integration from the  ServiceNow® Store.
 
 2.  Navigate to **Security Operations** &gt; **Integrations ** &gt; **Integration Configurations**.
 
 3.  Configure the Microsoft DLP integration.
 
-    1.  Search for **DLP Incident Response Integration with Microsoft** tile and click  **Configure**.
+    1.  Search for **DLP Incident Response Integration with Microsoft** tile and select  **Configure**.
 
         \[Omitted image "dlp-microsoft.png"\] Alt text: Click Configure for Microsoft.
 
@@ -41,7 +41,7 @@ Role required: sn\_dlir.admin
         |Client Secret|Client Secret of the app created on Microsoft Azure portal.|
         |Tenant ID|Tenant ID of the user.|
 
-    3.  Click **Submit**.
+    3.  Select **Submit**.
 
     After you successfully validate and submit the configuration, the Microsoft DLP Integration is saved on the Security Integrations page as a tile.
 
@@ -49,7 +49,7 @@ Role required: sn\_dlir.admin
 
     1.  In the Security Integrations page, search for **Azure Storage Configuration** tile.
 
-    2.  In the Azure Storage Configuration tile, click **Update**.
+    2.  In the Azure Storage Configuration tile, select **Update**.
 
         \[Omitted image "dlp-microsoft-azure-storage.png"\] Alt text: Click Update for Azure Storage Configuration.
 
@@ -62,7 +62,7 @@ Role required: sn\_dlir.admin
         |Container Name|Container name created in storage account on Azure portal.|
         |Shared Access Key|Shared access key for the Storage account.|
 
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
     After you successfully validate and submit the configuration, the Azure Storage Configuration is saved on the Security Integrations page as a tile.
 
@@ -70,7 +70,7 @@ Role required: sn\_dlir.admin
 
     1.  In the Security Integrations page, search for **AWS Storage Configuration** tile.
 
-    2.  In the AWS Storage Configuration tile, click **Update**.
+    2.  In the AWS Storage Configuration tile, select **Update**.
 
         \[Omitted image "dlp-microsoft-aws-storage.png"\] Alt text: Click Update for AWS Storage Configuration.
 
@@ -84,7 +84,7 @@ Role required: sn\_dlir.admin
         |Access Key|Access key with read, write, and delete access.|
         |Secret Key|Shared key with read, write, and delete access|
 
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
 
 ## Result

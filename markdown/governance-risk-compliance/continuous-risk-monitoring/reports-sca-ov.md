@@ -26,8 +26,6 @@ Users with the following roles can access the dashboard:
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **SCA Overview**.
 
-\[Omitted image "cam-sca-overview.png"\] Alt text: SCA Overview dashboard displaying the different reports.
-
 ## Reports on the SCA Overview dashboard
 
 |Report|Description|

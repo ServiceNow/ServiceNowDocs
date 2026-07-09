@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Client Credentials, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Client Credentials, Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Add the OAuth Application User

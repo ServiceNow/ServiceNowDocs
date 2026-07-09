@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-11-24"
 reading_time_minutes: 1
-breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View my reports

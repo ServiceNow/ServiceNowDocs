@@ -30,8 +30,6 @@ Users with the following roles can access the dashboard:
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **AO Overview**.
 
-\[Omitted image "cam-ao-ovrvw-washingtondc.gif"\] Alt text: Short video displaying the different tabs of the AO Overview dashboard.
-
 ## AO Overview - Authorization Packages tab
 
 The Authorization Packages tab on the AO Overview dashboard provides central visibility into the state of all packages. The reports on the Baseline Controls tab provide a general overview of the baseline controls in your system.

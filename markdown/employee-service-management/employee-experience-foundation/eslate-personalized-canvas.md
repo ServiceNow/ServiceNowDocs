@@ -32,8 +32,8 @@ The personal canvas supports the following personalization actions:
 
 Employee Slate supports role-based canvases that Employee Slate populates based on the organizational role of the employee. Two sources populate role-based canvases:
 
--   **Users**: Employees with a specific role configure the role canvas to reflect the tools and data most relevant to that role.
--   **AI agents**: AI agents populate role-based canvases with widgets, data, and actions for the workflows for the role.
+-   Users: Employees with a specific role configure the role canvas to reflect the tools and data most relevant to that role.
+-   AI agents: AI agents populate role-based canvases with widgets, data, and actions for the workflows for the role.
 
 ## Canvas configurations
 
@@ -56,10 +56,10 @@ Administrators manage the canvas experience through three configuration layers:
 
 Administrators have controls over the canvas environment at the organizational level:
 
--   Define **mandatory widgets** that appear on all employee canvases and that employees can't remove. Use mandatory widgets for compliance requirements, critical announcements, or high-priority organizational initiatives.
--   Define **priority widgets** that Employee Slate prepopulates on employee canvases but that employees can remove or reposition. Use priority widgets for targeted campaigns or role-specific tooling.
+-   Define mandatory widgets that appear on all employee canvases and that employees can't remove. Use mandatory widgets for compliance requirements, critical announcements, or high-priority organizational initiatives.
+-   Define priority widgets that Employee Slate prepopulates on employee canvases but that employees can remove or reposition. Use priority widgets for targeted campaigns or role-specific tooling.
 
 ## Widget ecosystem
 
-Employee Slate includes a library of out-of-the-box widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the AI-powered Widget Builder.
+Employee Slate includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the AI-powered Widget Builder.
 

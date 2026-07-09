@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -18,8 +18,7 @@ View overall service health and related events, like alerts and changes, with th
 
 ## Before you begin
 
--   For version 1.5, a service must be activated. For more information, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/activate-teams-and-services.md).
--   A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
+A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
 Role required: operator \[snc\_sow\_svcobs.manager\]
 

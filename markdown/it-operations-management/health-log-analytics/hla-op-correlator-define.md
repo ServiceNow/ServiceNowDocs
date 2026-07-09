@@ -1,5 +1,5 @@
 ---
-title: Add a log correlator to identify relationships between alerts in log data
+title: Add a log correlator to identify related alerts
 description: Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-correlator-define.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Find correlations between alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Add a log correlator to identify relationships between alerts in log data
+# Add a log correlator to identify related alerts
 
 Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 
@@ -28,15 +28,15 @@ For information about the types and functions of log correlators, see [Identifyi
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d263324e72">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d343735e72">
 
 Option
 
-</th><th align="left" id="d263324e75">
+</th><th align="left" id="d343735e75">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d263324e81">
+</th></tr></thead><tbody><tr><td id="d343735e81">
 
 **Add a log correlator for a specific log source**
 
@@ -47,7 +47,7 @@ Procedure
 3.  Click **New**.
 
 
-</td></tr><tr><td id="d263324e120">
+</td></tr><tr><td id="d343735e120">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 

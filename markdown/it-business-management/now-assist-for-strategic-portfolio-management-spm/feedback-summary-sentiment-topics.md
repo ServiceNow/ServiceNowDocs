@@ -8,7 +8,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Feedback summarization, Multi summarization skill, Summarize feedback]
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now As
 
 Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the Now Assist for Strategic Portfolio Management \(SPM\) application.
 
-Multi feedback summarization video.
+\[Omitted video\] Description: Multi feedback summarization video.
 
 ## Before you begin
 
@@ -37,6 +37,8 @@ Multi feedback summarization video.
 
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
+
+The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 Role required: pf\_user
 
@@ -76,15 +78,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d87422e197">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d189931e213">
 
 Option
 
-</th><th align="left" id="d87422e200">
+</th><th align="left" id="d189931e216">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d87422e206">
+</th></tr></thead><tbody><tr><td id="d189931e222">
 
 **Expand or collapse the summary**
 
@@ -92,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse-spm.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d87422e227">
+</td></tr><tr><td id="d189931e243">
 
 **More information on summary**
 
@@ -100,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d87422e242">
+</td></tr><tr><td id="d189931e258">
 
 **View more or less summary**
 
@@ -108,7 +110,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d87422e257">
+</td></tr><tr><td id="d189931e273">
 
 **Provide feedback for the summary**
 
@@ -116,7 +118,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d87422e281">
+</td></tr><tr><td id="d189931e297">
 
 **Copy the feedback summary**
 
@@ -124,7 +126,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d87422e296">
+</td></tr><tr><td id="d189931e312">
 
 **Refresh the summary**
 
@@ -132,7 +134,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d87422e308">
+</td></tr><tr><td id="d189931e324">
 
 **Copy and create epic from summary**
 

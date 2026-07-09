@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Now Assist for Security Incident Response, Security Operations]
 ---

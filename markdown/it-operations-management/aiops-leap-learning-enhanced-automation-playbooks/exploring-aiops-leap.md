@@ -24,7 +24,9 @@ LEAP helps you manage incidents and operational tasks efficiently. It uses AI to
 
 \[Omitted image "aiops-leap-landing-page.png"\] Alt text: LEAP landing page
 
-The landing page displays the number of records analyzed on the right-hand side of Automation opportunities section. The tool tip provides details about the duration considered for record analysis.
+The landing page displays the number of records analyzed in the Automation opportunities section. The tooltip provides details about the duration considered for record analysis. [https://player.vimeo.com/video/1203972930?h=a3a7ebd490&amp;badge=0&amp;autopause=0&amp;player\_id=0&amp;app\_id=58479%22](https://player.vimeo.com/video/1203972930?h=a3a7ebd490&badge=0&autopause=0&player_id=0&app_id=58479%22)
+
+When the LEAP homepage loads, it displays a banner that you can use to connect Ansible Automation Platform. The banner makes the Ansible automation integration discoverable so that you can connect the automation tool and map playbooks to resolution steps. Select **Connect** to open the LEAP settings page and configure the connection. To dismiss the banner, select **Remind me later**. The banner reappears when you refresh the homepage until a connection is configured. After you connect Ansible, the banner no longer appears on the homepage.
 
 ## Grouping of automation opportunities in LEAP
 
@@ -158,7 +160,7 @@ The LEAP AI agent uses automation opportunities created by LEAP analysis to gene
 |--------|-------------|
 |LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts — problem records, AI-enhanced knowledge base articles, or playbooks — based on user requests.|
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## What to explore next
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [log data, streaming, sources, status, overview, integration, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Log data flow monitoring and configuration optimization, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Monitor log data flow and optimize integration settings, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Review log streaming data and adjust integration settings in Health Log Analytics
@@ -29,7 +29,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-For more information about the data shown in the **Overview** screen, see [Monitoring log data flow and optimizing integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
+For more information about the data shown in the **Overview** screen, see [Monitor log data flow and optimize integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-integration-overview-tab.md).
 
 ## Procedure
 
@@ -95,7 +95,7 @@ Log Viewer
 
 </td><td>
 
-Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing the logs that are connected with an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Review alert-related logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>7.  When you have resolved any data streaming issues and fixed the configuration, select **Test and save**.

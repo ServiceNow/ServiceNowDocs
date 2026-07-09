@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d290769e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d495737e105">
 
 Option
 
-</th><th align="left" id="d290769e108">
+</th><th align="left" id="d495737e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d290769e114">
+</th></tr></thead><tbody><tr><td id="d495737e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d290769e143">
+</td></tr><tr><td id="d495737e143">
 
 **As a collaborator**
 
@@ -74,5 +74,5 @@ The state of the legal matter updates to Work in Progress.
 
 The selected legal requests are added to the matter and listed in the **Related Requests** tab.
 
-**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Work on a legal matter]()
 

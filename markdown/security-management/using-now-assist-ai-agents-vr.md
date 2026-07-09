@@ -123,7 +123,7 @@ Legacy and Unified Security Exposure Management \(USEM\)
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+To modify an agentic workflow, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow. The Now Assist for Vulnerability Response AI agents included with the application are activated by default.
 -   If required, you can add a trigger to invoke the agentic workflow automatically.
@@ -131,6 +131,6 @@ To modify an agentic workflow, you must first [duplicate the agentic workflow](h
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/find-ai-agents.md).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

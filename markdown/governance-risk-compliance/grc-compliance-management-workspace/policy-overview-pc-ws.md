@@ -20,7 +20,5 @@ The policy module helps you to create and document all policies. Policies are hi
 
 The overview page of a policy record describes the necessity of the policy with respect to the organization's assets. It also gives you the status of the policy, its overall compliance percent, non-compliant entities, and control objectives. It also tracks the open and overdue policy acknowledgements, policy exceptions, and issues.
 
-Select the \[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon. icon to know the regulations that the policy has addressed and the related risk statements.
-
-\[Omitted image "record-page-mig-policy.png"\] Alt text: Overview page of a policy record.
+Select the sidebar icon to know the regulations that the policy has addressed and the related risk statements.
 

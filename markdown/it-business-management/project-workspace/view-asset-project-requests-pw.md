@@ -28,7 +28,7 @@ This helps portfolio or project managers quickly understand which asset requests
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the details page of the project by selecting **Details** from the list.
 

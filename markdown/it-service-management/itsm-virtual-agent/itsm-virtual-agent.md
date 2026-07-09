@@ -26,13 +26,11 @@ ITSM Virtual Agent helps you automate employee workflows by addressing common IT
 
 ITSM Virtual Agent includes pre-built topic conversations that cover common IT interactions. These conversations run in the web chat client and are also available in supported ITSM Virtual Agent messaging integrations.
 
-\[Omitted image "itsm-va-overview.png"\] Alt text: Overview of ITSM Virtual Agent components.
-
 Conversations between Virtual Agent and the user accomplish an IT goal. The information exchanged during the conversation flow, such as user inputs and Virtual Agent responses, enables Virtual Agent to fulfill a request or help complete a task.
 
-ITSM Virtual Agent integrates with ServiceNow® [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/integrationhub.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/flow-designer.md). Some topics may require specific spokes to be installed.
+ITSM Virtual Agent integrates with ServiceNow® [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md). Some topics may require specific spokes to be installed.
 
-For more information about Virtual Agent features, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
+For more information about Virtual Agent features, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## Languages supported for NLU services on the ITSM Virtual Agent
 
@@ -49,7 +47,7 @@ In addition to English, ITSM Virtual Agent supports the following languages for 
 -   Dutch
 -   Chinese \(Simplified\)
 
-For details about NLU, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
+For details about NLU, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-NLU.md).
 
 The ITSM Virtual Agent topics re-factored with gs.getMessageLang\(\) provide you the improved operations on the ITSM Virtual Agent by utilizing and displaying all the messages in the bot conversations in your preferred language. The gs.getMessageLang method checks the UI Message table \[sys\_ui\_message\] for the translated version of the text in the language provided using the *vaContext.getRequesterLang\(\)* variable.
 

@@ -8,7 +8,7 @@ product: Automation Center
 classification: automation-center
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
 
@@ -104,6 +104,128 @@ sn\_ac.use\_recommended\_actions
 
 When turned on \(by setting the value to **True**\), Recommended Actions application is enabled in the Automation Center workspace.-   Type: **True/False**
 -   Default value: **False**
+
+</td></tr></tbody>
+</table><table id="table_ajs_lyf_q3c"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_ac.max\_number\_of\_actions
+
+</td><td>
+
+Sets the maximum number of actions to show in all actions section in action center.-   Type: **True/False**
+-   Default value: **False**
+
+</td></tr><tr><td>
+
+sn\_ac.max\_number\_of\_recent\_executions
+
+</td><td>
+
+Controls the number of action log cards we want to show in the recent section in action center.-   Type: **Integer**
+-   Default value: **12**
+
+</td></tr><tr><td>
+
+sn\_ac.new\_action\_threshold
+
+</td><td>
+
+Controls the number of days the "New action" tag should appear for the newly created actions.-   Type: **Integer**
+-   Default value: **12**
+
+</td></tr></tbody>
+</table><table id="table_vfq_czf_q3c"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_ac.rpamigration.base.url
+
+</td><td>
+
+When you migrate UiPath automations to RPA Hub using Automation Center, this URL is used. When you generate a report using repository URL, in the **Base URL** field this value is populated.
+
+ -   Type: **string**
+-   Default value: **https://rpamigration-prod-default/**
+
+</td></tr><tr><td>
+
+sn\_ac.polling\_timeout\_migration\_report
+
+</td><td>
+
+Defines the maximum duration \(in milliseconds/seconds\) to wait while polling for the migration report status before the request times out. This ensures that long-running or stalled migration status checks do not block the process indefinitely.-   Type: **Integer**
+-   Default value: **300**
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_ac\_assist.auto\_calculate\_savings
+
+</td><td>
+
+Defines the number of automations for which the time and cost savings will be automatically calculated.-   Feature: **Automation Explorer**
+-   Type: **integer**
+-   Default value: **2**
+
+</td></tr><tr><td>
+
+sn\_ac\_assist.enterprise\_dev\_hourly\_rate
+
+</td><td>
+
+Defines the value of development hourly rate for enterprise.-   Feature: **Automation Explorer**
+-   Type: **integer**
+-   Default value: **50**
+
+</td></tr><tr><td>
+
+sn\_ac\_assist.max\_calculate\_savings
+
+</td><td>
+
+Defines the maximum number of automations that can be selected at once for calculation of the time and cost savings.-   Feature: **Automation Explorer**
+-   Type: **integer**
+-   Default value: **10**
+
+</td></tr><tr><td>
+
+sn\_ac.pdi\_instance\_types
+
+</td><td>
+
+Controls which instance types are PDI \(Personal Developer Instances\). When creating an agent, you need an instance. When you create an instance, this property is used to decide which instance types are PDI.-   Type: **string**
+-   Default value: **Demonstration, Shared-Demo, Developer, Subproduction**
+
+</td></tr><tr><td>
+
+sn\_ac.lens\_image\_batch\_size
+
+</td><td>
+
+Number of images sent per call to the lens skill for image processing. Suggested range is from 5 to 10.-   Type: **integer**
+-   Default value: **8**
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-reference.md)

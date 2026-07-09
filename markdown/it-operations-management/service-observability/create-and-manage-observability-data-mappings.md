@@ -7,8 +7,8 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-06-12"
+reading_time_minutes: 4
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ Map your services to the data from a connected external observability vendor ins
 
 ## Before you begin
 
--   If you are on version 1.5.0, activate the services that have data from an external observability instance. For instructions on how to activate the services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/activate-teams-and-services.md). For later versions, you don't need to activate services. You can map any of the following service types:
+-   You can map any of the following service types:
     -   Service instance
     -   Mapped application service
     -   Calculated application service
@@ -32,6 +32,10 @@ Map your services to the data from a connected external observability vendor ins
 Role required: sn\_sow\_svcobs.admin
 
 ## About this task
+
+**Tip:**
+
+If you want to use MetricBase as your data source, follow the procedure described in [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md) instead.
 
 When a service CI is mapped to specific observability vendor metric tag key/value pairs, Service Observability displays metrics containing those tags for that service. These metrics are grouped by the following entity types:
 
@@ -52,25 +56,21 @@ For a description of the field values, see [Service Observability data mapping f
 
 ## Procedure
 
-1.  Navigate to the Data mappings page, following the procedures for your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Observability** &gt; **Configure Data mappings**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data mappings**
-    -   Version 1.6.x or later: Navigate to **All** &gt; **Service Observability** &gt; **Configure Data mappings**.
 2.  Select **Create your first mapping** or **Create mapping**.
 
 3.  On the Observability data mapping page, enter a name for the mapping.
 
 4.  Choose the services that should use this mapping.
 
-    -   For version 1.5.0: Enter the names of the activated services that you want to map. For information about activating services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/activate-teams-and-services.md)
-    -   For version 1.6.x and later:
-        1.  Choose **Select services**.
-        2.  Use the navigation to narrow down the list to the type of service you're searching for.
-        3.  Select the services to add to the mapping. You can add services from any combination of service type.
+    1.  Choose **Select services**.
+    2.  Use the navigation to narrow down the list to the type of service you're searching for.
+    3.  Select the services to add to the mapping. You can add services from any combination of service type.
 
-            **Note:** Use the filter to narrow down the service list.
+        **Note:** Use the filter to narrow down the service list.
 
-        4.  Select **Add services** to add them to the mapping.
+    4.  Select **Add services** to add them to the mapping.
     The Mapping preview pane updates to show the selected service, or the first service in a list of services.
 
 5.  Create a rule to determine how Service Observability should map internal services to the observability entities using tag keys and values.

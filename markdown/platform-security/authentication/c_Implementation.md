@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Implement a nonce, Local authentication, Authentication, Access Management]
+breadcrumb: [Implement a nonce, Local authentication, Access Management]
 ---
 
 # Implement a nonce

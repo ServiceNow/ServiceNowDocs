@@ -32,7 +32,7 @@ Activate a configuration, add teams to your Agile structure, and define your pla
 
 ## Backlog and Planning board configuration
 
--   [Configure display of other work item types in EAP Backlog and Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
+-   [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
 -   [Configure the display limit of iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configure-the-display-limit-of-iterations-in-eap-backlog.md).
 
 ## Hierarchy tab configuration

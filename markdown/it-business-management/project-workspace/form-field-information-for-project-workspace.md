@@ -24,8 +24,8 @@ Use this form to create cost plans for your planning items.
 Use this form to create expense lines for your actual expense.
 -   **[Create status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-status-report-form.md)**  
 Learn about the fields on the Create status report form of the Project Workspace. Use this form to create a new status report according to your requirement. The following are the heads in a report created using the Default status report template. A report created using the One-page status report template has fewer information heads.
--   **[Create new document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-new-document-template-form.md)**  
-Learn about the fields on the Create new document template form of the Project Workspace. Use this form to create a new status report template according to your requirement.
+-   **[Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-new-document-template-form.md)**  
+Learn about the fields on the Create document template form of the Project Workspace. Use this form to create a status report template according to your requirement.
 -   **[Decision form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/decision-form-project-workspace.md)**  
 Learn about the fields on the Decision form of the Project Workspace. Use this form to add decisions to your projects.
 -   **[Export status report form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/export-status-report-form-project-workspace.md)**  

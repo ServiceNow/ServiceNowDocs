@@ -22,7 +22,7 @@ You can view the list of test plans by navigating to **Test Management** &gt; **
 
 -   **[Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_CreateATestPlan.md)**  
 Create a test plan to detail how a product or a feature is to be tested.
--   **[Add a new test case to a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_AddANewTestCaseToATestPlan.md)**  
+-   **[Add test case to a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/t_AddANewTestCaseToATestPlan.md)**  
 Add new test cases to your test plans so that you can assign them to testers and start test execution.
 
 **Parent Topic:**[Setting up the manual testing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/test-management/c_TestManager.md)

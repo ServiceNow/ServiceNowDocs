@@ -23,7 +23,7 @@ Before you start, confirm the following:
 
 -   Your organization has connected internal sources, such as SharePoint, to the AI assistant.
 -   Your organization has enabled the opt-in connection to the external large language model.
--   Your organization has connected signing service, such as DocuSign, for document delivery.
+-   Your organization has connected a signing service, such as DocuSign, for document delivery.
 
 Role required: Employee
 
@@ -37,28 +37,28 @@ The AI assistant keeps external research, internal proof points, and artifact ge
 
     For example: `Prep me for a meeting with Atlas Industrial Group, a manufacturing prospect`.
 
-2.  When the assistant asks, opt in to the external large language model.
+2.  When the assistant prompts you, opt in to the external large language model.
 
-    The assistant asks for opt-in only when internal sources do not contain the industry knowledge that the query needs. The assistant grounds every external insight with citations.
+    The assistant prompts for opt-in only when internal sources do not contain the industry knowledge that the query needs. The assistant grounds every external insight with citations.
 
-3.  Review the themes and citations that the assistant returns.
+3.  Review the themes and citations that the assistant provides.
 
     Examples of themes for a manufacturing prospect include workforce pressure, supply chain volatility, and operational efficiency.
 
 4.  Ask the assistant for internal proof points in the same conversation.
 
-    For example: `Find manufacturing case studies`. The assistant surfaces relevant internal case studies from connected sources such as SharePoint.
+    For example: `Find manufacturing case studies`. The assistant retrieves relevant internal case studies from connected sources such as SharePoint.
 
 5.  Ask the assistant to generate a ready-to-send document.
 
-    For example: `Send an NDA to Bob before the meeting`. The assistant generates a custom document that is pre-populated with the contact information and relevant details.
+    For example: `Send an NDA to Bob before the meeting`. The assistant generates a custom document that the assistant populates with the contact information and relevant details.
 
 6.  Confirm the send.
 
-    The assistant asks for confirmation before the document goes out through DocuSign.
+    The assistant prompts for confirmation before the document goes out through DocuSign.
 
 
 ## Result
 
-You complete external research, internal discovery, and artifact generation in one conversation. The generated document is sent to the recipient through the connected signing service.
+You complete external research, internal discovery, and artifact generation in one conversation. The connected signing service sends the generated document to the recipient.
 

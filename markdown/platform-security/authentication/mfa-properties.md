@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Multi-factor Authentication system properties

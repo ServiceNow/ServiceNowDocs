@@ -16,7 +16,7 @@ breadcrumb: [Use, Usage Insights, Platform Analytics]
 
 A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 
-Learn more about cohorts 
+\[Omitted video\] Description: Learn more about cohorts
 
 Cohort analysis reports provide you with information on how one in-app action relates to another. You can see measurements of how much time passes between a sequence of actions, and trends in user behavior and engagement over periods of time.
 

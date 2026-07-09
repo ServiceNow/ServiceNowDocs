@@ -16,8 +16,6 @@ breadcrumb: [Employee Service Management]
 
 ServiceNow Universal Request empowers customers in their journey toward Enterprise Service Management \(ESM\) or Global Business Services \(GBS\) by enabling agents to resolve cases seamlessly across the enterprise to provide a better employee experience.
 
-\[Omitted image "ur-landing-infographics.png"\] Alt text: Universal Request application
-
 ## Employee experience
 
 Enhance the experience by eliminating the employee confusion when figuring out which department to reach out to for help. Hide the complexities of the service delivery process by handling request transfers across the enterprise behind the scenes.

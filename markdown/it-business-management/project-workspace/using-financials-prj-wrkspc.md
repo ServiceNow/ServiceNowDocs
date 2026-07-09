@@ -134,7 +134,7 @@ View only planned costs for the full range and manage the planned costs using th
 </table>**Note:**
 
 -   If you don’t see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/enable-fin-budget-pws.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md) at instance level.
--   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget of your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+-   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
 The last selected view is saved as user preferences.
 

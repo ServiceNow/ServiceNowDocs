@@ -7,7 +7,7 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -26,6 +26,7 @@ The Service Observability dashboards use vendor-specific templates. You can see 
 -   [Cisco ThousandEyes templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/cisco-thousand-eyes-templates-for-service-observability.md)
 -   [Datadog templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/datadog-templates.md)
 -   [Dynatrace templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/dynatrace-templates.md)
+-   [LogicMonitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/logic-monitor-templates.md)
 -   [New Relic templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/new-relic-templates.md)
 -   [Prometheus templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/prometheus-templates.md)
 -   [SolarWinds templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/solarwinds-templates.md)
@@ -38,8 +39,8 @@ Along with observability data, you can also add charts for data from ServiceNow 
 
 When you customize a template, a copy of the original is saved so that you can reimplement it if needed. Default dashboards display a `Certified` tag.
 
--   **[Edit observability data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/edit-service-observability-dashboards.md)**  
-Edit Service Observability dashboard templates to view different observability vendor metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
+-   **[Edit data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/edit-service-observability-dashboards.md)**  
+Edit Service Observability dashboard templates to view different observability metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
 -   **[Edit ServiceNow data on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/edit-sn-based-charts.md)**  
 Edit Service Observability dashboard templates to view data from problem and business app records on the Overview or Observability dashboards.
 -   **[Add MetricBase charts to Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/add-metric-base-charts.md)**  

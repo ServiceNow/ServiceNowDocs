@@ -9,7 +9,7 @@ classification: agent-workspace-for-hr-case-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Agent Workspace for HR Case Management Guided Setup
@@ -22,5 +22,5 @@ To access Agent Workspace for HR Case Management Guided Setup, navigate to **HR 
 
 In the Agent Workspace for HR Case Management Guided Setup page, you will see a list of different categories. Select the **Get Started** button under each category to start the configuration.
 
-For more information on **Guided Setup**, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/adoption-services/guided-setup.md).
+For more information on **Guided Setup**, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/guided-setup.md).
 

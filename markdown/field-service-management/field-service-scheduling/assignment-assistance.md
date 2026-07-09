@@ -18,7 +18,7 @@ Quickly sort a list of the best agents to assign a work order task based on the 
 
 ## Before you begin
 
-Assignment assistance 
+\[Omitted video\] Description: Assignment assistance
 
 Role required: wm\_dispatcher
 

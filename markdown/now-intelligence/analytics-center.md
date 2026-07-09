@@ -1,0 +1,35 @@
+---
+title: Analytics Center
+description: The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/analytics-center.html
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Platform Analytics experience, Platform Analytics]
+---
+
+# Analytics Center
+
+The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics.
+
+\[Omitted image "your-analytics.png"\] Alt text: The Analytics Q&amp;A, Dashboards, and Data Visualizations sections of the Analytics Center.
+
+Access the Analytics Center by navigating to **All** &gt; **Platform Analytics** &gt; **Analytics Center**. It contains the following components:
+
+-   **\[Omitted image "step-a.png"\] Alt text: Image section A- Analytics Q&amp;A Analytics Q&amp;A**
+
+    A field where you can ask natural language questions about the trends and health of your processes. \(The Natural Language Query feature is required.\) For information about configuring and using this component, see the [Analytics Q&amp;A reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/sn-nlq-analytics/overview) on the Developer Site.
+
+-   **\[Omitted image "step-b.png"\] Alt text: Image section B- Dashboards Dashboards**
+
+    A set of tiles for each dashboard that you have bookmarked or that an administrator has certified. Click a tile to open that dashboard. To see all the dashboards you have access to, select **View all**. This action opens the Dashboards library. To start creating a new dashboard immediately, select **Create new dashboard**. This action opens either the inline dashboard editor or a dialog where you can select the inline editor or the technical editor, depending on your roles. For information about configuring and using this component, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md).
+
+-   **\[Omitted image "step-c.png"\] Alt text: Image section C- Data Visualizations Data Visualizations**
+
+    A list of the saved visualizations that you can access based on your roles. You can select visualizations that you have bookmarked or that an administrator has certified. This action opens the Data Visualizations library. To start creating a new data visualization immediately, select **Create new visualization**. This action opens the visualization designer. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-data-visualizations.md).
+
+
+You can add an Analytics Center to another experience or configurable workspace. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/adding-analytics-center-to-ws.md).
+

@@ -1,5 +1,5 @@
 ---
-title: Create business capability and relate the capability with an application - Legacy
+title: Create business capability and relate to application-Legacy
 description: Business capabilities are the abilities of an organization to do an activity to fulfill its business goals. Align your organization goals with business capabilities by creating capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/create-a-business-capability.html
@@ -10,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create business capability and relate the capability with an application - Legacy
+# Create business capability and relate to application-Legacy
 
 Business capabilities are the abilities of an organization to do an activity to fulfill its business goals. Align your organization goals with business capabilities by creating capabilities.
 
@@ -70,7 +70,7 @@ Following are the conditions to update or delete a capability:
 
 8.  To relate the capability with an application, select open the business capability.
 
-9.  In the Related Items section of the business capability form, select the Add CI relationship \(\) icon to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
+9.  In the Related Items section of the business capability form, select the Add CI relationship \(\) icon to launch the relationship editor and create the [CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateCIRelationship.md).
 
 10. Select the **Provided by \(Parent\)** from the Suggested relationship types section.
 

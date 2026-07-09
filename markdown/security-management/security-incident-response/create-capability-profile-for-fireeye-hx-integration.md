@@ -1,5 +1,5 @@
 ---
-title: Create a capability profile for the FireEye Endpoint integration
+title: Create a capability profile
 description: Create a profile and select the FireEye HX capabilities that you want the profile to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/create-capability-profile-for-fireeye-hx-integration.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Create a capability profile for the FireEye Endpoint integration
+# Create a capability profile
 
 Create a profile and select the FireEye HX capabilities that you want the profile to run.
 

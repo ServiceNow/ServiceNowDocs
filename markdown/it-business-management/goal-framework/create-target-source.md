@@ -1,5 +1,5 @@
 ---
-title: Create a target source for automating the Actual value of the targets
+title: Create a target source to automate target actual values
 description: Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/goal-framework/create-target-source.html
@@ -7,12 +7,12 @@ release: zurich
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring target source for target automation, Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
-# Create a target source for automating the Actual value of the targets
+# Create a target source to automate target actual values
 
 Create a target source so that the goal user can configure it for the targets to automate the Actual value of the targets.
 
@@ -24,7 +24,7 @@ Role required: sn\_gf.goal\_admin
 
 ## About this task
 
-The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+The context variable is required for target source types Assessment/Survey and PA Indicator. The mandatory context variables are automatically created while creating a target source with the type selected as Assessment/Surveys or PA Indicator. For more information on when the mandatory context variables are created, see [Context variable in target source]().
 
 ## Procedure
 
@@ -34,7 +34,7 @@ The context variable is required for target source types Assessment/Survey and P
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+    For a description of the field values, see [Target Source form]().
 
 4.  Click **Submit**.
 

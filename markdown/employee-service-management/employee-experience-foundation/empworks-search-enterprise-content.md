@@ -43,9 +43,9 @@ Enterprise Search gives you one place to find any content connected to Employee 
     -   **Source**: For example, **SharePoint** for company-wide content or **OneDrive** for private files.
     -   **Date**: Limit the results to a time range that matches the query.
     -   **Type**: Limit the results to a content type, such as documents, Slack threads, or training guides.
-5.  Ask a follow-up question or take action, select **Dive Deeper**.
+5.  To ask a follow-up question or take action, select **Dive Deeper**.
 
-    The AI assistant picks up where the search left off, with the full context already loaded. Ask a follow-up question such as `Who is the presales expert for manufacturing?`. The assistant surfaces the person and the source reference.
+    The AI assistant resumes the conversation with the full context already loaded. Ask a follow-up question such as `Who is the presales expert for manufacturing?`. The assistant displays the person and the source reference.
 
 
 ## Result

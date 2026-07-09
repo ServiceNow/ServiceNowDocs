@@ -18,7 +18,7 @@ Execute a code until a specified condition is true using the While component in 
 
 Watch this video to learn how to use the While component.
 
-How to use the While component 
+\[Omitted video\] Description: How to use the While component
 
 ## Before you begin
 

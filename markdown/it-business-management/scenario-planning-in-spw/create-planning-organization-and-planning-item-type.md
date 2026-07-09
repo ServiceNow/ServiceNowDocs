@@ -1,5 +1,5 @@
 ---
-title: Define a new planning item type in Strategic Planning
+title: Define a planning item type in Strategic Planning
 description: Create a custom planning item type in Strategic Planning to enable planning them on the portfolio plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Define a new planning item type in Strategic Planning
+# Define a planning item type in Strategic Planning
 
 Create a custom planning item type in Strategic Planning to enable planning them on the portfolio plans.
 
@@ -43,5 +43,5 @@ Role required: admin
 
 ## What to do next
 
-If you've created any planning item types, create relevant form views for it. For more information, see [Create form views for new planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
+If you've created any planning item types, create relevant form views for it. For more information, see [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
 

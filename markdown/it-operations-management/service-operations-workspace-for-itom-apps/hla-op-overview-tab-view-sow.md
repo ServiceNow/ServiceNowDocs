@@ -8,7 +8,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -51,11 +51,11 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
     When the action is complete, it appears in the **Completed** card.
 
 
--   **[Sections and cards on the Overview tab for a Component-based alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-comp-based-alerts-sow.md)**  
+-   **[Overview tab sections for Component-based alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-comp-based-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Component-based alerts.
--   **[Sections and cards on the Overview tab for a Log Analytics group in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)**  
+-   **[Overview tab sections for Log Analytics alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-log-anltcs-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics groups.
--   **[Information on the Overview tab for a Log Analytics alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.md)**  
+-   **[Overview tab sections for Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-ovrvw-tab-single-ci-alerts-sow.md)**  
 The **Overview** tab in the Service Operations Workspace helps you understand Log Analytics alerts.
 
 **Parent Topic:**[Log Analytics in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-binder-sow.md)

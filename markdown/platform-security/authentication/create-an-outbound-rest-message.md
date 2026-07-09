@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Access Management]
 ---
 
 # Create an outbound REST message

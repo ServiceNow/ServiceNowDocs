@@ -18,5 +18,5 @@ When deploying the Agent Client Collector, perform deployment and management tas
 
 Server deployment uses MID Servers to connect your agents to a ServiceNow instance. Agents deployed on data center servers open WebSocket connections to your MID Servers, which relay data to your instance. You manage the sizing, certificates, and load balancing of the MID Server.
 
-Use server deployment when your agents are in controlled environments such as data centers, where you are already running MID Servers and want to keep traffic on your network. Agent Client Collector Monitoring \(ACC-M\) and Agent Client Collector Log Analytics \(ACC-L\) require server deployment, and you can deploy Agent Client Collector for Visibility - Content \(ACC-VC\) with servers as well.
+Use server deployment when your agents are in controlled environments such as data centers, where you are already running MID Servers and want to keep traffic on your network. Agent Client Collector Monitoring \(ACC-M\) and Agent Client Collector Log Analytics \(ACC-L\) require server deployment, and you can deploy Agent Client Collector for Visibility Content \(ACC-VC\) with servers as well.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,13 +22,13 @@ Open the knowledge article in which you want to use the HTML editor.
 
 ## About this task
 
-You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown) or [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+You can also use the HTML editor when creating or editing a knowledge article using the Knowledge Management application in the ServiceNow AI Platform interface or in Agent Workspace. To create or edit a knowledge article in the ServiceNow AI Platform interface, see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/create-knowledge-article.md) or [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-knowledge-article.md). To create or edit a knowledge article in Agent Workspace, see [Create a knowledge article in Agent Workspace]() or [Edit a knowledge article in Agent Workspace]().
 
 ## Procedure
 
 1.  In the Article body section, place the cursor anywhere.
 
-2.  Click the find and replace icon \(\[Omitted image "findandreplace.png"\] Alt text: Find and replace icon\) on the HTML toolbar.
+2.  Click the find and replace icon on the HTML toolbar.
 
 3.  In the Find and Replace dialog box, in the **Find** field, enter the search term you want to find.
 
@@ -42,15 +42,15 @@ You can also use the HTML editor when creating or editing a knowledge article us
     -   To limit the search to text that matches one or more complete words only, select the **Whole words** check box.
 6.  Find or replace the search term.
 
-<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d479417e170">
+<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d628087e164">
 
 To
 
-</th><th align="left" id="d479417e173">
+</th><th align="left" id="d628087e167">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d479417e179">
+</th></tr></thead><tbody><tr><td id="d628087e173">
 
 **Find instances of the search text**
 
@@ -58,7 +58,7 @@ Do this
 
 Click **Find**.
 
-</td></tr><tr><td id="d479417e191">
+</td></tr><tr><td id="d628087e185">
 
 **Replace individual instances of the found text with the replacement text entered in the __Replace with__ field**
 
@@ -66,7 +66,7 @@ Click **Find**.
 
 Click **Replace**.Use the **Prev** and **Next** buttons to navigate to the previous and next instance of the search term, respectively.
 
-</td></tr><tr><td id="d479417e215">
+</td></tr><tr><td id="d628087e209">
 
 **Replace all instances of the search text automatically in the selected field**
 

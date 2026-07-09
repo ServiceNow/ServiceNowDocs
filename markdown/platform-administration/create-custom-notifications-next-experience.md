@@ -158,7 +158,7 @@ Recipient\(s\) listed in event parm1
 
 </td><td>
 
-Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/system-events/events.md).
+Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/events.md).
 
 </td></tr><tr><td>
 

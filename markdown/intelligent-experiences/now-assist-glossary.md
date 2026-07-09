@@ -121,7 +121,7 @@ A feature in Now Assist that uses the LLMs provided by Now LLM Service, Azure Op
 
 Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
-To learn more about Now Assist, see [Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md).
+To learn more about Now Assist, see [Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
 ## Now Assist Admin console
 

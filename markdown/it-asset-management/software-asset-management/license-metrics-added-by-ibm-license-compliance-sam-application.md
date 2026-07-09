@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Request the License Compliance for authorized Software Asset Management provider integrations, Setting up an IASP integration, Authorized SAM Provider \(ASP\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Request the License Compliance for authorized Software Asset Management provider integrations, Setting up an IASP integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # License metrics added by the IBM License Compliance for Software Asset Management application

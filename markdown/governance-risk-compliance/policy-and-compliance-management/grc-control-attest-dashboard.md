@@ -28,9 +28,9 @@ The GRC Attestation Overview dashboard contains the following visualizations:
 
 |Name|Type|Description|
 |----|----|-----------|
-|My Past Due Attestations|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Total number of past due attestations assigned to you|
-|My Attestations|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Total number of attestations assigned to you, broken down by state|
-|My Pending Attestations|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|A list of the pending attestations assigned to you|
+|My Past Due Attestations|Column|Total number of past due attestations assigned to you|
+|My Attestations|Column|Total number of attestations assigned to you, broken down by state|
+|My Pending Attestations|List|A list of the pending attestations assigned to you|
 
 **Parent Topic:**[My Attestation Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/my-attestation-ovrview-pa-pc.md)
 

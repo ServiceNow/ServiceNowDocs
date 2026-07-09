@@ -22,6 +22,10 @@ Role required: sam\_integrator
 
 ## About this task
 
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Error resolution recommendation and Error log summarization generative AI skill.
+
 Now Assist for SAM generates the troubleshooting guidance for all SaaS integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both existing and new SaaS integrations.
 
 ## Procedure
@@ -32,15 +36,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS integrati
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d259266e106">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d304820e127">
 
 Integration
 
-</th><th align="left" id="d259266e109">
+</th><th align="left" id="d304820e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d259266e115">
+</th></tr></thead><tbody><tr><td id="d304820e136">
 
 **Existing**
 
@@ -54,7 +58,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d259266e143">
+</td></tr><tr><td id="d304820e164">
 
 **New**
 

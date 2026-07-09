@@ -46,8 +46,6 @@ Only ServiceNow personnel can activate the Software Asset Management Professiona
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
-
 4.  Select your instance.
 
 5.  Select **Actions &gt; Activate Plugin**.
@@ -92,8 +90,6 @@ The date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 

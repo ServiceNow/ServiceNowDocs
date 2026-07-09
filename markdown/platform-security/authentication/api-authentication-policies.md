@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [API access policy, Authentication, Access Management]
+breadcrumb: [API access policy, Access Management]
 ---
 
 # API Authentication Policies

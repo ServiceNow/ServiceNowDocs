@@ -1,5 +1,5 @@
 ---
-title: Activate rollup property for projects to view portfolio financials
+title: Rollup property to view portfolio financials
 description: Activate project cost rollup property to view the rolled up costs of top projects in portfolio financials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/portfolio-planning/fin-activate-system-rollup-prop-ppw.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure portfolio financials in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Activate rollup property for projects to view portfolio financials
+# Rollup property to view portfolio financials
 
 Activate project cost rollup property to view the rolled up costs of top projects in portfolio financials.
 

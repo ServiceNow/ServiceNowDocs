@@ -22,5 +22,5 @@ However, if you don't have admin rights and need a sandbox, you should contact y
 
 The ServiceNow admin in your company can help you with things like activating plugins, kicking off upgrades, unlocking accounts, updating user permissions, and much more.
 
-How to get help from your admin 
+\[Omitted video\] Description: How to get help from your admin
 

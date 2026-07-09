@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Job schedule to compute application scores - Legacy, Application assessment - Legacy, Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -50,12 +50,53 @@ The normalized value of the application score, which is measured on a scale of 1
     -   Value entered in the Target minimum field is 100.
     With these assumptions, the Target minimum value considered is 10, as the defined Target minimum value \(100\) is greater than the minimum application weight \(10\).
 
--   The **Target maximum** and **Target minimum** values are applied during normalization only when the indicator frequency matches the fiscal period being scored. If the frequencies don't match, the system uses dynamic normalization and derives the minimum and maximum boundaries from the actual application weights in the current scoring run.
 
-    This behavior is intentional for indicators where raw values vary by fiscal period — for example, Performance Analytics indicators and Query Condition indicators that aggregate counts over time. For these indicators, applying a monthly target maximum to a quarterly or yearly aggregated value produces incorrect scores.
+**Target Maximum and Target Minimum Behavior:**
 
-    For Query Condition indicators that read a static field value from the business application record — such as active user count — the raw value is the same regardless of the fiscal period. For such indicators, using the same absolute target values across all frequencies produces consistent and meaningful scores. However, because the system applies the same frequency-matching rule to all indicator types, absolute target values aren't used when the frequencies don't match.
+The absolute target maximum and target minimum values are applied during normalization. The consideration of these values changes based on the Consider Absolute Values check box configuration.
 
+-   **Consider Absolute Values check box is selected:**
+    -   When indicator frequency matches the fiscal period being scored: The absolute target maximum and target minimum values defined in the indicator are applied for normalization.
+    -   When indicator frequency does not match the fiscal period being scored: The system derives the target minimum and maximum values from the application weights of all indicators in the current scoring run.
+-   **Consider Absolute Values check box is cleared:**
+
+    The system applies intelligent logic to determine target maximum and target minimum values. This logic is applied regardless of whether the indicator frequency matches the fiscal period being scored. The following formulas describe how these values are calculated:
+
+    -   Target maximum = Minimum value of \(Target maximum value defined in the Indicator \[apm\_metric\] table, Maximum value of Application Weights for the fiscal period\)
+    -   Target minimum = Maximum value of \(Target minimum value defined in the Indicator \[apm\_metric\] table, Minimum value of Application Weights for the fiscal period\)
+
+## Monthly cost indicator scored at different frequencies
+
+An indicator named **Monthly Infrastructure Cost** is configured as follows:
+
+-   Frequency: Monthly
+-   **Target maximum**: $50,000
+-   **Target minimum**: $10,000
+-   Direction: Minimize \(lower cost is better\)
+
+Three applications have the following monthly costs: App A = $12,000, App B = $28,000, App C = $45,000.
+
+**Consider Absolute Values selected, scoring period is Monthly \(frequency matches\):**
+
+The system uses the absolute target values. For App B \($28,000\):
+
+```
+normalizedValue = (($28,000 - $10,000) / ($50,000 - $10,000)) * 9 + 1 = 5.05
+finalScore (Minimize) = (10 - 5.05) + 1 = 5.95
+```
+
+**Consider Absolute Values selected, scoring period is Quarterly \(frequency does not match\):**
+
+The system ignores the absolute target values and derives boundaries from actual application weights: minWeight = $12,000 \(App A\), maxWeight = $45,000 \(App C\). For App B \($28,000\):
+
+```
+normalizedValue = (($28,000 - $12,000) / ($45,000 - $12,000)) * 9 + 1 = 5.36
+finalScore (Minimize) = (10 - 5.36) + 1 = 5.64
+```
+
+**Consider Absolute Values cleared \(any scoring period\):**
+
+The system applies intelligent logic. Target maximum = MIN\($50,000, $45,000\) = $45,000. Target minimum = MAX\($10,000, $12,000\) = $12,000. For App B \($28,000\), the result is the same as the frequency-mismatch scenario above, because the actual application weights fall within the defined target range.
 
 The **Application Weight** that is lesser than or equal to the target minimum is given the lower score, which is 1.
 
@@ -85,6 +126,8 @@ If the source of the indicator is **Indicators** in the **Data source** field, t
 -   The normalized value, indicator score, application weight, target maximum, target minimum, and total weight are all rounded to two decimal places only.
 
 In the figure, since the Cost and Incident indicators are set to minimize, the applications with lower costs and lower number of incidents have higher scores.
+
+\[Omitted image "ApmSampleBusAppScore.png"\] Alt text: Sample application scores
 
 **Parent Topic:**[Job schedule to compute application scores - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/job-run-compute-application-scores.md)
 

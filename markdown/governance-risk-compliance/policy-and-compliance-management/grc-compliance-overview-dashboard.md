@@ -36,20 +36,12 @@ The Compliance Overview dashboard contains the following visualizations:
 
 |Name|Type|Description|
 |----|----|-----------|
-|Compliance Requirements|Donut chart \[Omitted image "donut-icon.png"\] Alt text: Donut icon.|The number of open requirements by authority document|
-|Overall Compliance|Donut chart\[Omitted image "donut-icon.png"\] Alt text: Donut icon.|Overall compliance percentage of Citation Authority Document|
-|Non compliant entities|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Overall entities with non-compliant controls.|
-|Compliance by authority document|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|The regulations, certifications, frameworks, standards, and best practices that an organization chooses or is required for compliance with regulations.|
-|Compliance score trends|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon.|Overall compliance by Authority Document|
-|Compliance Breakdown|Multilevel pivot\[Omitted image "pivot-scorecard-icon.png"\] Alt text: Multilevel pivot icon.|Citations are records with the specific requirements cited by an authority document.|
-
-## Compliance Overview – PA Premium dashboard
-
-**Important:** The Compliance Overview dashboard with PA filters is now available as part of the Policy and Compliance Management plugin.
-
-Starting with version 18.1.0, the Compliance Overview – PA Premium dashboard is being prepared for future deprecation. It will be no longer available on new instances.
-
-The Compliance Overview dashboard provides views into the source of compliance requirements, the level of compliance, and trends.\[Omitted image "compliance-overview-dashbrd.png"\] Alt text: The Compliance Overview dashboard showing the Compliance Requirements, Overall Compliance, and Compliance by Authority Document dashboards
+|Compliance Requirements|Donut chart|The number of open requirements by authority document|
+|Overall Compliance|Donut chart|Overall compliance percentage of Citation Authority Document|
+|Non compliant entities|Bar chart|Overall entities with non-compliant controls.|
+|Compliance by authority document|Bar chart|The regulations, certifications, frameworks, standards, and best practices that an organization chooses or is required for compliance with regulations.|
+|Compliance score trends|Horizontal bar|Overall compliance by Authority Document|
+|Compliance Breakdown|Multilevel pivot|Citations are records with the specific requirements cited by an authority document.|
 
 **Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

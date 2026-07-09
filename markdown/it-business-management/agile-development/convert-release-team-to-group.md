@@ -1,5 +1,5 @@
 ---
-title: Convert a release team to a group \(only for existing customers having release teams\)
+title: Convert a release team to a group in Agile Development 2.0
 description: Convert an existing release team to an assignment group of type Agile Team so that you can assign them to a product or a release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/convert-release-team-to-group.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Assignment groups in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
-# Convert a release team to a group \(only for existing customers having release teams\)
+# Convert a release team to a group in Agile Development 2.0
 
 Convert an existing release team to an assignment group of type Agile Team so that you can assign them to a product or a release.
 

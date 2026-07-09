@@ -17,10 +17,6 @@ breadcrumb: [Workflow Data Fabric]
 
 Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions and element-based automations that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
-Watch this video to learn about the overview of RPA Hub.
-
-Watch this video to learn how to set up a workflow using automation components in the RPA Desktop Design Studio.
-
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>

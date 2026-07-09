@@ -1,5 +1,5 @@
 ---
-title: Register a business application by using the conversational experience
+title: Register a business application conversationally
 description: Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/register-business-application-using-conversational-experience.html
@@ -10,13 +10,13 @@ reading_time_minutes: 2
 breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Register a business application by using the conversational experience
+# Register a business application conversationally
 
 Use the conversational experience of Now Assist in Virtual Agent to register a business application from any application that supports Virtual Agent.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Ensure that the following tasks are completed:
 
@@ -39,15 +39,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d94348e165">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d120204e162">
 
 Instruction
 
-</th><th align="left" id="d94348e168">
+</th><th align="left" id="d120204e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d94348e174">
+</th></tr></thead><tbody><tr><td id="d120204e171">
 
 **Short: Register a business application**
 
@@ -63,7 +63,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d94348e224">
+</td></tr><tr><td id="d120204e221">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

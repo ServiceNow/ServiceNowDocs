@@ -1,5 +1,5 @@
 ---
-title: Assess the performance of applications in the dashboard - Legacy
+title: Assess application performance - Legacy
 description: Use the Application Assessments dashboard for an overview of reports on the performance of the business applications. The spline chart gives you a trend of the application indicators against the normalized value over different quarters in a fiscal period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/use-appln-assessment-dashboard.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Assess the performance of applications in the dashboard - Legacy
+# Assess application performance - Legacy
 
 Use the Application Assessments dashboard for an overview of reports on the performance of the business applications. The spline chart gives you a trend of the application indicators against the normalized value over different quarters in a fiscal period.
 
@@ -51,7 +51,7 @@ The following reports are provided on the dashboard to help you analyze trends:
 **Related topics**  
 
 
-[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting/c_GenerateReports.md)
+[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_GenerateReports.md)
 
-[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/create-and-edit-dashboards.md)
 

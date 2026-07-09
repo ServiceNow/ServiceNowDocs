@@ -38,7 +38,7 @@ If you delete a candidate from ERP Semantic Mining, the candidate automatically 
 
     ERP Semantic Mining accesses the remote table that calls the system of record instance, and temporarily mirrors that data in the ServiceNow AI Platform.
 
-2.  Select the candidates icon \[Omitted image "erpcm-candidates-icon.png"\] Alt text: in the side panel.
+2.  Select the candidates icon \[Omitted image "image.erpcm-candidates-icon"\] Alt text: in the side panel.
 
 3.  Select the candidate that you want to save as potential.
 

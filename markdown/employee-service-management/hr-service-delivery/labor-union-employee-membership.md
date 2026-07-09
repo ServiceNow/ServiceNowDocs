@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Labor Unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create employee union memberships
@@ -106,5 +106,5 @@ The employee's job code within your company.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Components installed with Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/labor-unions.md)
 

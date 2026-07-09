@@ -32,13 +32,13 @@ Configure the settings in the Triaging Dashboard so that you can view your team'
 
 Role required: sn\_hr\_core.case\_writer
 
-**Note:** Ensure that Kanban Components \[sn\_knbn\_comp\] and Kanban board component \[sn\_visual\_board\] are installed.
+**Note:** Verify if Kanban Components \[sn\_knbn\_comp\] and Kanban board component \[sn\_visual\_board\] are installed.
 
 ### Procedure
 
 1.  Open HR Agent Workspace.
 
-2.  Select the Triaging Dashboard icon \[Omitted image "triaging-dashboard-icon.png"\] Alt text: Triaging dashboard.
+2.  Select the Triaging Dashboard icon \(\[Omitted image "triaging-dashboard-icon.png"\]\).
 
 3.  Select the Settings icon \[Omitted image "triage-settings.png"\] Alt text: Settings.
 

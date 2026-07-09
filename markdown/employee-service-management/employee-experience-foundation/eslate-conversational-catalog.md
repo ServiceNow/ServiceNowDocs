@@ -9,27 +9,27 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-22"
 reading_time_minutes: 1
-breadcrumb: [Employee Slate home, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
 ---
 
 # Conversation-first catalog and knowledge
 
 The chat in Employee Slate resolves plain-language requests to catalog items and knowledge articles. Employees submit requests and get answers without knowing the exact item or article name.
 
-Based on your query, the chat identifies the correct catalog item or knowledge article. You can open it in a split view. The chat performs the following actions:
+Based on your query, the chat locates the correct catalog item or knowledge article. You can open it in a **split view**. The chat performs the following actions:
 
--   Understands the intent and query.
--   Identifies and shows the catalog item or KB article based on your intent.
--   Responds to follow-up questions about the opened KB article or catalog in the split view.
+-   Interprets the intent and query.
+-   Matches and displays the catalog item or KB article based on your intent.
+-   Displays answers to follow-up questions about the opened KB article or catalog in the **split view**.
 
 ## Chat assistance for catalog
 
-When an employee describes a need, the chat identifies the matching catalog item and returns it with links to the source.
+When an employee describes a need, the chat matches the matching catalog item and returns it with links to the source.
 
 -   When the employee selects the item, the catalog form opens alongside the chat.
--   The chat completes the user intent through slot filling or by extracting specific information using both the current message and conversation context.
+-   The chat populates the form fields through slot filling or by extracting specific information using both the current message and conversation context.
 -   To submit a request, the employee completes the form, selects order, reviews the details, and selects **Checkout**.
--   The submitted request appears in the chat response and in Tasks and requests.
+-   The submitted request appears in the chat response and in **Tasks and requests**.
 
 ## Chat assistance for knowledge
 

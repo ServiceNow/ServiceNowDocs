@@ -16,7 +16,7 @@ breadcrumb: [Using Supplier Relationship and Performance Management, Use, Suppli
 
 Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
 
-Create action plan for KPIs. 
+\[Omitted video\] Description: Create action plan for KPIs.
 
 ## Before you begin
 

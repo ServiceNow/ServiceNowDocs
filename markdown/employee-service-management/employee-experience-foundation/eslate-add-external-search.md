@@ -19,7 +19,7 @@ Add external search sources to include non-ServiceNow content in Employee Slate 
 
 ## Before you begin
 
-The Employee Slate for Now Assist product is installed and configured through the Product Configuration console.
+The Employee Slate for Now Assist product is installed and configured through the **Product Configuration console**.
 
 You have network and credential details for the external source.
 
@@ -27,11 +27,11 @@ Role required: admin
 
 ## About this task
 
-No external source is linked out of the box for Employee Slate for Now Assist. Add an existing external connector or create a new connector to surface content from third-party systems in the conversational assistant.
+No external source is linked by default for Employee Slate for Now Assist. Add an existing external connector or create a new connector to surface content from third-party systems in the conversational assistant.
 
 ## Procedure
 
-1.  In the **Data Sources** module of the Product Configuration console, open the **External Sources** configuration.
+1.  In the **Data Sources** module of the **Product Configuration console**, open the **External Sources** configuration.
 
 2.  Select **Create New**.
 
@@ -59,9 +59,9 @@ No external source is linked out of the box for Employee Slate for Now Assist. A
 
     After the crawl completes, results from the external source appear in the conversational assistant response for relevant queries.
 
-10. Select **Manage External Content Connectors** to open the External Content admin home.
+10. Select **Manage External Content Connectors** to open the **External Content admin home**.
 
-    Use the External Content admin home to manage crawl schedules, crawl history, analytics, and other advanced connector settings.
+    Use the **External Content admin home** to manage crawl schedules, crawl history, analytics, and other advanced connector settings.
 
 
 ## Result

@@ -1,6 +1,6 @@
 ---
 title: Now Assist assessment dashboard tab
-description: The Now Assist Readiness Evaluation dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
+description: The Now Assist Readiness Evaluation Dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-readiness-evaluation/now-assist-assessment-dashboard.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Using Now Assist Readiness Evaluation dashboard, Use, Now Assist Re
 
 # Now Assist assessment dashboard tab
 
-The Now Assist Readiness Evaluation dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
+The Now Assist Readiness Evaluation Dashboard's Now Assist dashboard tab helps determine generative AI readiness for Now Assist by delivering automated, data-driven insights.
 
 **Note:** For results to appear in this dashboard, verify that you have completed the configuration steps first. For more information on configuration, see [Configuring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md).
 
@@ -49,4 +49,6 @@ The following list describes details of the Now Assist Assessment dashboard tab.
 You can select each widget on the dashboard to have that table data open in a separate tab.
 
 \[Omitted image "nare-dashboard-na-assessment.png"\] Alt text: Now Assist Assessment tab showing each area of the dashboard, all including data that is automatically populated.
+
+**Note:** This tab displays the Total Estimated Effort \(Days\), Remediation Effort by Category, and Estimated Effort – Trends cards when the **sn\_assess.effort\_visibility** system property is set to `true`. For more information, see [Now Assist Readiness Evaluation system properties](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.html).
 

@@ -32,7 +32,7 @@ Role required: sn\_si.read or higher
 **Related topics**  
 
 
-[Introduction to searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+[Introduction to searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_IntroductionToSearching.md)
 
-[Zing text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+[Zing text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ZingTextSearch.md)
 

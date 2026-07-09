@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
+Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/API-key-credential-form.md).
 
 ## About this task
 
@@ -69,7 +69,7 @@ Configure the Datadog API Key credential from **All** &gt; **Connections and Cre
 
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see []().
+    For more information on fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

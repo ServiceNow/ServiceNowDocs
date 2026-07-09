@@ -1,0 +1,32 @@
+---
+title: Tracks
+description: Tracks provide a way to logically separate points assigned in the communities into different areas.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/communities/gamification-components-tracks.html
+release: zurich
+product: Communities
+classification: communities
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Gamification components, Gamification, Using communities, Communities, Customer Service Management]
+---
+
+# Tracks
+
+Tracks provide a way to logically separate points assigned in the communities into different areas.
+
+Gamification includes two pre-configured tracks:
+
+-   Community Expertise
+-   Community Participation
+
+While the application is configured to accumulate points by tracks, gamification does not currently display tracks in the community portal.
+
+**Parent Topic:**[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/gamification-components.md)
+
+**Related topics**  
+
+
+[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/communities/gamification-create-track.md)
+

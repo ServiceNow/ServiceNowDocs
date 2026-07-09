@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [System or Export Processors, API access policy, Authentication, Access Management]
+breadcrumb: [System or Export Processors, API access policy, Access Management]
 ---
 
 # Configure Authentication profile for Processor

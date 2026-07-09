@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2024-12-19"
 reading_time_minutes: 2
 keywords: [Event Management, deployment, production, update sets]
-breadcrumb: [ITOM Configuration console for Event Management, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure Event Management using Setup Hub, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Learn how to deploy Event Management to production
@@ -25,7 +25,7 @@ Before deploying to production, verify that all configurations work correctly in
 
 ## Update set process
 
-[Update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets/system-update-sets.md) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
+[Update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/system-update-sets.md) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
 
 The deployment process involves creating an update set, capturing your changes, exporting the update set, and importing it into your production environment. Always review the update set contents before deployment.
 

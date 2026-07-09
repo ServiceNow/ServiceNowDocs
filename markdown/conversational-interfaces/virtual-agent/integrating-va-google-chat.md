@@ -42,6 +42,8 @@ Role required: admin or virtual\_agent\_admin.
 
 3.  Sign in to your Google Chat account to complete the integration.
 
+    **Note:** If you're using the self-configured bot, do not check the **Join spaces and group conversations** box in the Enabled APIs &amp; services tab. Conversational Integration with Google Chat only supports 1-on-1 conversations.
+
 
 ## Result
 

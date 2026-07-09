@@ -31,7 +31,7 @@ Create custom menus in the Next Experience Unified Navigation that contain just 
 -   **[Add a workspace to the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/add-workspace-unified-navigation.md)**  
 Configure the Unified Navigation to display a workspace in the Workspaces menu.
 -   **[Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/set-order-workspace-unified-navigation.md)**  
-Set the order of your workspaces and control how they appear in the Unified Navigation Workspaces menu.
+Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 -   **[Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/configuring-search-next-experience.md)**  
 Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
 -   **[Create custom notifications in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/create-custom-notifications-next-experience.md)**  

@@ -8,7 +8,7 @@ product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
@@ -39,9 +39,19 @@ CAM roles that are required for particular tasks are listed in [CAM user roles](
 
 RMF was mandated by the U.S. Federal government to provide the necessary resiliency to support the economic and national security interests of the United States. CAM employs the seven steps defined by the RMF to allow you to make better-informed decisions about your security posture.
 
-RMF consists of the seven steps illustrated here.
+The RMF System Life Cycle consists of seven interconnected phases that work together to provide a comprehensive approach to managing information system security risks. Each phase has a specific focus area and contributes to the overall authorization and continuous monitoring of the system.
 
-\[Omitted image "rmf.png"\] Alt text: RMF diagram.
+## RMF phases
+
+|Phase|Phase Name|Scope|Description|
+|-----|----------|-----|-----------|
+|1|Prepare|Information System|Define the system boundary, assign roles, identify common controls, and prepare for the RMF process.|
+|2|Categorize|Information System|Define criticality/sensitivity of information system according to potential worse case, adverse impact to mission/business.|
+|3|Select|System Controls|Select baseline controls; apply tailoring guidance and supplement controls as needed based on risk assessments.|
+|4|Implement|System Controls|Implement controls within enterprise architecture using sound systems engineering practices; apply configuration settings.|
+|5|Assess|System Controls|Determine control effectiveness \(that is, controls implemented correctly, operating as intended, meeting requirements for information system\).|
+|6|Authorize|Information System|Determine risk to organizational operations and assets, individuals, other organizations, and the Nation; if acceptable, authorize operation.|
+|7|Monitor|System Controls|Continuously track changes to the information system that may affect security controls and reassess control effectiveness.|
 
 ## What to explore next
 

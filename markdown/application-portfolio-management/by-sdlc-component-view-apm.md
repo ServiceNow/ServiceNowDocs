@@ -22,7 +22,7 @@ There are two SDLC component types, Application and Infrastructure. Examples for
 
 A CMDB relationship between a business application, application service, and SDLC component can be created using the CI relationship \[cmdb\_rel\_ci\] table. To create a CMDB relationship with the compliance of CSDM v4.0, a relationship between an application service and an SDLC component and then between the SDLC component and the business application must be created.
 
-The advantage of the By SDLC Component view is that you can directly view all the application services and business applications that are related to an SDLC component. For information on how to create a CMDB relationship, see [Relate business application to application service using CI relationship editor - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/relate-business-application-to-business-service.md).
+The advantage of the By SDLC Component view is that you can directly view all the application services and business applications that are related to an SDLC component. For information on how to create a CMDB relationship, see [Relate business application to application service - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/relate-business-application-to-business-service.md).
 
 **Note:** With this view, you can only view the application services that have at least one SDLC component associated.
 

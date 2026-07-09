@@ -9,7 +9,7 @@ classification: sbom-core
 topic_type: concept
 last_updated: "2025-09-09"
 reading_time_minutes: 4
-breadcrumb: [Reviewing reports and dashboards, Use, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Reviewing reports and dashboards, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Creating rules for application vulnerable items in the Software Bill of Materials Workspace

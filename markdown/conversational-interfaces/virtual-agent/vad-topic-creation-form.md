@@ -46,7 +46,7 @@ Model Type
 
 The **LLM** value is used for topic discovery within LLMs, and the **NLU/Keywords** value is used for either keyword or NLU discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm.md).
 
- **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+ **Note:** If this field doesn't appear, verify that both the Now Assist panel and Now Assist in Virtual Agent are turned on. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md) and [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ A detailed explanation of the LLM topic's purpose, which differentiates it from 
 
 A weak example would be: `Help users see how many vacation days they have left.` A stronger example would be `This topic is about a holiday calendar for employees in a company. Users can ask for the holiday list or company holiday for a specific year, specific date, inquire about a specific holiday, or ask if they have a day off for a particular holiday. The topic also covers the availability of a holiday calendar and specific holidays like Freedom Day and wellbeing Day.`
 
-For more information, see.
+For more information, see[LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 </td></tr><tr><td>
 

@@ -18,7 +18,7 @@ Azure cloud metrics are gathered from Azure virtual machines \(VMs\) and Azure s
 
 ## Azure cloud metrics collection - Overview
 
-To begin collecting Azure cloud metrics, you must select the metrics that you want to add to the CMDB and set the relevant system configurations. For example, you can monitor the number of bytes sent and received from Azure resources. For details, see [Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md).
+To begin collecting Azure cloud metrics, you must select the metrics that you want to add to the CMDB and set the relevant system configurations. For example, you can monitor the number of bytes sent and received from Azure resources. For details, see [Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md).
 
 ## Using Azure policies
 

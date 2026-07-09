@@ -22,5 +22,5 @@ The admin console displays the required updates or plugins for Benchmarks that h
 -   KPI participation: You can review and configure the KPIs opted in for the ITSM, ITOM, and Success dashboard categories.
 -   Opt out: You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
 
-\[Omitted image "bm-gs.png"\] Alt text: Admin Console Benchmarks dashboard Getting Started with the Success Dashboard Admin Console 
+\[Omitted image "bm-gs.png"\] Alt text: Admin Console Benchmarks dashboard \[Omitted video\] Description: Getting Started with the Success Dashboard Admin Console
 

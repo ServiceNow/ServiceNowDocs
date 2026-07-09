@@ -44,7 +44,7 @@ The Calendar Management specialized assistant opens with suggested prompts, prel
 
 4.  Ask the assistant to modify a specific meeting by describing the changes.
 
-    For example: `change the meeting time, add an attendee, or add conferencing details.`.
+    For example: `change the meeting time, add an attendee, or add conferencing details.`
 
 5.  Select a time slot from the options that the assistant displays.
 

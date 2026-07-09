@@ -48,5 +48,5 @@ The document is linked in the model risk record.
 **Related topics**  
 
 
-[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-management-services/document-services-landing-page.md)
+[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/document-services-landing-page.md)
 

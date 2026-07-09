@@ -20,25 +20,25 @@ Configure an external storage system to store documents attached to legal reques
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure for legal apps.
 
--   **[Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/box-spoke.md) v3.1.0 or later version**
+-   **[Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/box-spoke.md) v3.1.0 or later version**
 
-    For more information on the setup and creating the Box account, see [Set up Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-box-spoke.md).
+    For more information on the setup and creating the Box account, see [Set up Box spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-box-spoke.md).
 
--   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/googledrive-spoke.md) v1.3.0 or later version**
+-   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/googledrive-spoke.md) v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-gdrive.md).
+    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-gdrive.md).
 
--   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/onedrive-spoke.md) v2.1.0 or later version**
+-   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/onedrive-spoke.md) v2.1.0 or later version**
 
-    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
+    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-msonedrive.md).
 
--   **[Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md) v2.2.0 or later version**
+-   **[Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sharepoint-online-spoke.md) v2.2.0 or later version**
 
-    For more information on setting up Microsoft SharePoint, see [Configure Microsoft SharePoint Online connection record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-microsoft-sharepoint-online-and-connection-record.md).
+    For more information on setting up Microsoft SharePoint, see [Configure Microsoft SharePoint Online connection record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-microsoft-sharepoint-online-and-connection-record.md).
 
--   **[iManage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/imanage-spoke.md) spoke v1.0.0**
+-   **[iManage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/imanage-spoke.md) spoke v1.0.0**
 
-    For more information on the setup and creating the iManage account, see [Set up iManage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
+    For more information on the setup and creating the iManage account, see [Set up iManage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-imanage-spoke.md).
 
     **Important:** After setting up the spoke, give the iManage spoke user \[sn\_imanage\_spk.user\] role to users accessing iManage external storage.
 
@@ -51,15 +51,15 @@ Role required: sn\_lg\_ops.request\_config
 
 2.  Create or modify an external app configuration.
 
-<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d83589e203">
+<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d449579e203">
 
 Option
 
-</th><th align="left" id="d83589e206">
+</th><th align="left" id="d449579e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d83589e212">
+</th></tr></thead><tbody><tr><td id="d449579e212">
 
 **To create an external app configuration**
 
@@ -69,7 +69,7 @@ Steps
 2.  On the Integration Type page, select the **External Storage** link.
 
 
-</td></tr><tr><td id="d83589e236">
+</td></tr><tr><td id="d449579e236">
 
 **To modify an existing external app configuration**
 
@@ -180,7 +180,7 @@ Attributes
 
 Additional configuration items based on your Microsoft SharePoint and iManage configuration. Add the following details:**Microsoft SharePoint**
 
--   **Tenant**: Add the sys\_id of the [Microsoft SharePoint tenant record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integration-hub/create-tenant.md).
+-   **Tenant**: Add the sys\_id of the [Microsoft SharePoint tenant record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-tenant.md).
 -   **Site\_Name**: Add the name of the site in the tenant.
 -   **Document Library**: Add the document library set up in the site where all documents related to legal requests and legal matters are stored.
 For more information on managing Microsoft SharePoint tenants, sites, and document libraries, see the Microsoft documentation.

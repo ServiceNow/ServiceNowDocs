@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add a RIDAC record to a project in Project Workspace
@@ -24,13 +24,13 @@ Role required: it\_project\_manager
 
 You can select the type of record you want to create, fill in the required details, and associate it to your project. You can use the RIDAC page in Project Workspace to view, add, manage, and evaluate all the RIDAC records.
 
-For information about RIDAC records for project management, see [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ridac-entries-for-project.md).
+For information about RIDAC records for project management, see [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/ridac-entries-for-project.md).
 
 ## Procedure
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
@@ -61,5 +61,5 @@ For information about RIDAC records for project management, see [Adding RIDAC \(
 -   Convert an existing project risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/convert-ridac-project-workspace.md).
 -   Associate a project risk with existing issues so that you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/associate-ridac-project-workspace.md).
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/manage-ridac-pw.md)
 

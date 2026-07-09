@@ -39,7 +39,7 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_MappingPatternsCustomization.md)
 
 </td><td>
 

@@ -18,7 +18,7 @@ Reference information to provide additional details about Strategic Planning suc
 
 -   **[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)**  
 Easily track the milestones of your roadmap timeline or its planning items by choosing how the milestones are displayed on the roadmap view.
--   **[Customizing the dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)**  
+-   **[Dependencies display on the roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-dependencies-display-on-roadmap.md)**  
 Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 -   **[Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md)**  
 Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.

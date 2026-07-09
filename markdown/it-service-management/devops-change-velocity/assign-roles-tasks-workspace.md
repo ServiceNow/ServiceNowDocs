@@ -30,15 +30,15 @@ Role required: admin or sn\_devops.admin
     -   From the left navigation panel, navigate to **Administration** &gt; **Onboarding** and select the onboarding task.
 3.  Onboard users and groups by assigning them roles and tasks.
 
-<table id="choicetable_u1j_pcz_qwb"><thead><tr><th align="left" id="d207979e98">
+<table id="choicetable_u1j_pcz_qwb"><thead><tr><th align="left" id="d423613e98">
 
 Onboarding task
 
-</th><th align="left" id="d207979e101">
+</th><th align="left" id="d423613e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207979e107">
+</th></tr></thead><tbody><tr><td id="d423613e107">
 
 **Assign user roles**
 
@@ -54,7 +54,7 @@ For more information on the roles, see [Components installed with DevOps Change 
 5.  Select **Done**.
 
 
-</td></tr><tr><td id="d207979e155">
+</td></tr><tr><td id="d423613e155">
 
 **Assign group roles**
 
@@ -71,7 +71,7 @@ For more information on the roles, see [Components installed with DevOps Change 
 6.  Select **Done**.
 
 
-</td></tr><tr><td id="d207979e210">
+</td></tr><tr><td id="d423613e210">
 
 **Assign user tasks**
 
@@ -85,7 +85,7 @@ For more information on the roles, see [Components installed with DevOps Change 
 6.  Select **Done**.
 
 
-</td></tr><tr><td id="d207979e256">
+</td></tr><tr><td id="d423613e256">
 
 **Assign group tasks**
 

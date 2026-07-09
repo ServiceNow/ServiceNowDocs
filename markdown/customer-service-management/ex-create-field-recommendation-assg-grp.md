@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ex-create-field-recommendation-assg-grp.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Example: Recommend an assignment group for a router issue, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -63,8 +63,6 @@ Creating a field recommendation involves two main steps:
     2.  In **Field**, select the Assignment group field.
 
     3.  In the **Recommendation message** field, enter `You can assign this issue to` and use the pill-picker to add the recommended value **Field recommendation inputs** &gt; **Assignment group** as part of the message.
-
-        \[Omitted image "ex-config-recommendation-message.png"\] Alt text: Recommendation message displaying the recommended value, specifically the assignment group in this case, as part of the message.
 
         **Note:** If the resource generator returns an empty field value, the recommendation message isn’t displayed.
 

@@ -1,5 +1,5 @@
 ---
-title: Add a time card and log time through the Mobile Time Sheets application
+title: Add and log time through the Mobile Time Sheets application
 description: Create time cards to log time from your mobile application for the work you have done.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/time-card-management/create-timecard-mobile.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Add a time card and log time through the Mobile Time Sheets application
+# Add and log time through the Mobile Time Sheets application
 
 Create time cards to log time from your mobile application for the work you have done.
 
@@ -34,15 +34,15 @@ The **Allow time card reporting on** field on the [project form](https://raw.git
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d170023e101">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d255304e101">
 
 Time card type
 
-</th><th align="left" id="d170023e104">
+</th><th align="left" id="d255304e104">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d170023e110">
+</th></tr></thead><tbody><tr><td id="d255304e110">
 
 **All time cards for project and non-project tasks from a selected time sheet**
 
@@ -50,7 +50,7 @@ Option
 
 Tap Copy from previous time sheet
 
-</td></tr><tr><td id="d170023e119">
+</td></tr><tr><td id="d255304e119">
 
 **Time cards for all project tasks assigned to the user for the time sheet week that are in progress or planned in that week**
 
@@ -58,7 +58,7 @@ Tap Copy from previous time sheet
 
 Tap Generate time cards
 
-</td></tr><tr><td id="d170023e128">
+</td></tr><tr><td id="d255304e128">
 
 **Time card for assigned task**
 
@@ -69,7 +69,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d170023e152">
+</td></tr><tr><td id="d255304e152">
 
 **Time card for unassigned task**
 
@@ -80,7 +80,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d170023e177">
+</td></tr><tr><td id="d255304e177">
 
 **Time card for operational work, such as administration, meeting, and KTLO**
 

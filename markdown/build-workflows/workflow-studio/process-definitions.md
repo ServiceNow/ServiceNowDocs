@@ -72,7 +72,7 @@ Run on extended
 
 </td><td>
 
-Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
+Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md).
 
 </td></tr></tbody>
 </table>**Note:** After you create a playbook, you can't change the trigger's input table or trigger type. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md).
@@ -100,8 +100,6 @@ Verify that your playbook works as expected by running the playbook with test tr
 Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
 -   **[Duplicate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/duplicate-process.md)**  
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
--   **[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-summarization.md)**  
-Playbook summarization generates AI-powered overviews of the stages, activities, triggers, and inputs of a playbook so you can understand its purpose and flow without reviewing individual activity details.
 -   **[Add translations for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-translations-playbooks.md)**  
 Make playbooks available in multiple languages during runtime, to support worldwide business processes.
 -   **[View all buttons without hover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  

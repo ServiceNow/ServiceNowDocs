@@ -1,6 +1,6 @@
 ---
 title: Contract Management Pro
-description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: zurich
@@ -15,13 +15,13 @@ breadcrumb: [Legal and Contract Operations, Employee Service Management]
 
 # Contract Management Pro
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. It also supports AI-driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 
 You can use the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 
 With Contracts Dashboard, you can analyze the various contract request trends and also get insights into the volume of contract requests that are handled by your team.
 
-The following video provides an overview of Contract Management Pro.Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long. 
+The following video provides an overview of Contract Management Pro.\[Omitted video\] Description: Video providing an overview of Contract Management Pro and its capabilities. Approximately four minutes long.
 
 \[Omitted image "mmasset0021176-final-clm.png"\] Alt text: An overview diagram of the various stages of Contract Management Pro.
 

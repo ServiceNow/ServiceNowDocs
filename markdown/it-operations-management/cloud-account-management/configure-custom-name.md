@@ -24,9 +24,9 @@ Role required: sn\_itom\_cam.cw\_admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-2.  From the list of titles, search for the Cloud Account Management and double-click on the name to make the modification.
+2.  From the list of titles, search for the Cloud Account Management and double-click the name to make the modification.
 
-3.  Enter a custom name and select the check \[Omitted image "check-icon.png"\] Alt text: check iconmark.
+3.  Enter a custom name and select the check mark icon \( \[Omitted image "check-icon.png"\]\).
 
 4.  Re-login to see the change.
 

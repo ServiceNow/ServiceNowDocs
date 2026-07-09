@@ -26,23 +26,23 @@ You can create custom event types and add or remove the desired fields. For more
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
-3.  Click the **Team Calendar** tab.
+3.  Select the **Team Calendar** tab.
 
-4.  Click **+New**.
+4.  Select **+New**.
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d49713e118">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d103687e118">
 
 To
 
-</th><th align="left" id="d49713e121">
+</th><th align="left" id="d103687e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49713e127">
+</th></tr></thead><tbody><tr><td id="d103687e127">
 
 **Create a meeting, training, or time-off request.**
 
@@ -61,23 +61,23 @@ Do this
         -   For a time-off request, enter the names of the agents in the **Agents** field.
 In the **Attendees** field, start typing the name of each of the attendees for the meeting and select the name.
 
-    3.  In the **Start date** field, click the calendar icon and select the date you want to start the meeting and click **OK**.
-    4.  In the **End date** field, click the calendar icon and select the date you want to end the meeting and click **OK**.
-    5.  If the meeting spans for the whole day, click the **All Day** slider.
+    3.  In the **Start date** field, select the calendar icon and select the date you want to start the meeting and select **OK**.
+    4.  In the **End date** field, select the calendar icon and select the date you want to end the meeting and select **OK**.
+    5.  If the meeting spans for the whole day, select the **All Day** slider.
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d49713e233">
+</td></tr><tr><td id="d103687e233">
 
 **Create a work shift**
 
 </td><td>
 
-1.  Click **Work**.
+1.  Select **Work**.
 2.  In the **Agents** field, start typing the name of each agent to be assigned to the work shift and select the name.
-3.  In the **Start date** field, click the calendar icon, select the date you want to start the work shift, and click **OK**.
-4.  In the **End date** field, click the calendar icon, select the date you want to end the work shift, and click **OK**.
-5.  Click the **Select Shift** field and select a shift.
+3.  In the **Start date** field, select the calendar icon, select the date you want to start the work shift, and select **OK**.
+4.  In the **End date** field, select the calendar icon, select the date you want to end the work shift, and Select **OK**.
+5.  Select the **Select Shift** field and select a shift.
 
 
 </td></tr></tbody>

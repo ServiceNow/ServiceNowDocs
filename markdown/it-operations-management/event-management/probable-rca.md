@@ -7,8 +7,8 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-06-25"
+reading_time_minutes: 2
 breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -28,6 +28,10 @@ RCA maps the alerts and change requests to the CIs. It proceeds to calculate the
 
 By default, the list shows the five probable root causes with the highest score. It lists the CIs related to each alert, and the reason RCA identified them as probable root causes.
 
+Each probable root cause includes a reason that explains how RCA correlated the alert with the change request. The reason can indicate that the change request was applied directly to the CI that generated the alert, to a CI in the affected CIs list, to a related CI, to an application service, or to software installed on the CI or related infrastructure. RCA identifies installed software by using the `cmdb_software_instance` table.
+
+For alert groups, RCA uses topology analysis to identify upstream CIs that might explain cascading failures in the group. Changes on these topology origin CIs receive higher priority in the probable root cause score.
+
 Scoring for probable root causes is determined by the following criteria, in the indicated order \(lower number = higher priority\):
 
 1.  Change on a CI that originates from topology.
@@ -36,7 +40,7 @@ Scoring for probable root causes is determined by the following criteria, in the
 4.  Change on a related CI/change on an application service/change on software.
 5.  Alert on the CI that originates from topology.
 
-To disable the Probable Root Cause Analysis feature, you must create the property **sa\_analytics.disable\_prc** and set the value to `true`. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To disable the Probable Root Cause Analysis feature, you must create the property **sa\_analytics.disable\_prc** and set the value to `true`. For more information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 -   **[Customize RCA settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/set-rca-change-query-filters.md)**  
 Modify default settings that determine RCA behavior.

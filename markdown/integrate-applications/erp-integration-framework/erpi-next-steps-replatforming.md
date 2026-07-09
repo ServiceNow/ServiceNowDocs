@@ -33,12 +33,12 @@ After ERP data is available on tables in the ServiceNow AI Platform, you can use
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   ServiceNow Studio
--   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio/exploring-flows.md)
--   Playbooks in Workflow Studio
--   Table Builder
--   UI Builder
--   
+-   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md)
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md)
+-   [Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/workspace-builder-landing.md)
 
 ## Using Glide to query ERP data
 

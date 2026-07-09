@@ -52,7 +52,7 @@ Configure specification version updates so that product specification versions c
 
 </td><td>
 
-To configure update specification versions, see [Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/sales-and-order-management/som-configure-specification-version-update.md).
+To configure update specification versions, see [Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/som-configure-specification-version-update.md).
 
 </td></tr></tbody>
 </table>

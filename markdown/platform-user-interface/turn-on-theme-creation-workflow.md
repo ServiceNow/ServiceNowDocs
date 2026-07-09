@@ -16,9 +16,9 @@ Turn on the theme creation workflow to generate themes using the Now Assist pane
 
 ## Before you begin
 
-Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
+Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/install-now-assist-for-creator.md).
 
-Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/activate-now-assist-panel.md)
+Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md)
 
 Role required: admin
 

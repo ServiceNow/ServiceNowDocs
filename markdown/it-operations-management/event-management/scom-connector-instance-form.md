@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -72,7 +72,7 @@ Host IP
 
 </td><td>
 
-Specify the SCOM IP address.This field does not appear when **SCOM metrics** is selected as the Connector definition.
+Specify the SCOM server IP address or hostname.This field does not appear when **SCOM metrics** is selected as the Connector definition.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,9 @@ Credential
 
 </td><td>
 
-Select Windows credentials.**Note:** When configuring Windows credentials, if the credential applies to specific MID servers, ensure that the MID Servers you specify on the credential record match the MID Servers specified in the **MID Servers for Connectors** section on the Connector Instance form.
+Select Windows credentials.This is the credential used to connect to the SCOM API — you can use the MID service account or a Windows credential from the credential store. Optionally set Bi-directional to enable bi-directional alert exchange.
+
+**Note:** When configuring Windows credentials, if the credential applies to specific MID servers, ensure that the MID Servers you specify on the credential record match the MID Servers specified in the **MID Servers for Connectors** section on the Connector Instance form.
 
 This field does not appear when **SCOM metrics** is selected as the Connector definition.
 

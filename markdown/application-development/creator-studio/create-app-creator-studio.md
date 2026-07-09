@@ -22,7 +22,7 @@ If you don't have permission to create an app, you can request that a teammate c
 
 You can also watch a short video on how to create an app.
 
-Video on how to create an app 
+\[Omitted video\] Description: Video on how to create an app
 
 Your administrator must add you to the Creator Studio Users group.
 

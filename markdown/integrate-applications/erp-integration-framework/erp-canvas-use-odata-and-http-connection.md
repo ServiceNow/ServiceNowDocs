@@ -29,7 +29,7 @@ Extract data using OData and an HTTP connection. To give users OData access, see
 
 ## Enabling download of XML files
 
-The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see .
+The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see [Restrict attachment file extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 ## New properties
 
@@ -202,7 +202,7 @@ admin or sn\_erp\_integration.erp\_admin
 
 For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats become active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record. BAPI and table list retrieval is done via RFC. OData retrieval is done via HTTP.
 
-\[Omitted image "erpc-system-heartbeats.png"\] Alt text: System record with ODATA retrieval status of completed.
+\[Omitted image "image.erpc-system-heartbeats"\] Alt text: System record with ODATA retrieval status of completed.
 
 ## More information
 

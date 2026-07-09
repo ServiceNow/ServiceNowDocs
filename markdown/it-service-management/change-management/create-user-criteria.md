@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
@@ -19,6 +19,8 @@ Create a user criteria record to control user access to widgets.
 ## Before you begin
 
 Role required: admin
+
+## About this task
 
 ## Procedure
 

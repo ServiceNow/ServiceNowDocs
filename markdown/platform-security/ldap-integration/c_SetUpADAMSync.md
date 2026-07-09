@@ -9,7 +9,7 @@ classification: ldap-integration
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use ADAMSync to populate ADAM, Active Directory Application Mode \(ADAM\), LDAP integration, Authentication, Access Management]
+breadcrumb: [Use ADAMSync to populate ADAM, Active Directory Application Mode \(ADAM\), LDAP integration, Access Management]
 ---
 
 # Set up ADAMSync

@@ -18,11 +18,11 @@ The ServiceNow® Software Asset Management \(SAM\) application systematically tr
 
 Watch this short video for an introduction to the Software Asset Management application.
 
-Introduction to the Software Asset Workspace 
+\[Omitted video\] Description: Introduction to the Software Asset Workspace
 
 **Note:** Beginning with the ServiceNow AI Platform Zurich release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
 
-For the ITSM Software Asset Management feature of Asset Management, see [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/asset-management/itsm-sam.md).
+For the ITSM Software Asset Management feature of Asset Management, see [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-sam.md).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

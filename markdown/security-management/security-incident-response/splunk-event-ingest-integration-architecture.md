@@ -1,5 +1,5 @@
 ---
-title: Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+title: Integration architecture and external systems connection
 description: The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/splunk-event-ingest-integration-architecture.html
@@ -7,12 +7,12 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+# Integration architecture and external systems connection
 
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 
@@ -69,7 +69,7 @@ The following key terms are used during the installation and configuration. For 
 
 An event profile is a container that you create, name, and configure for a singular connection and call to the Splunk service to pull the most current triggered alerts that match specific criteria. After triggered alerts that match your profile have been pulled from Splunk, you select which of these alerts you want displayed as a ServiceNow AI Platform Security Incident Response SIR security incident. A default view of the Splunk Enterprise alert fields is available, and you edit this mapping of alert fields to the fields on a SIR security incident to meet your needs. You preview your mapping to verify that you have all the required alert field values populated on the SIR security incident. To complete the configuration of the alert profile, you schedule the retrieval of alerts and then activate the profile. After you activate the profile in the ServiceNow AI Platform, you are ready to ingest historical and on-going Splunk alerts automatically.
 
-As a user with the sn\_si.admin role, if you determine that a new triggered alert is similar to alerts previously ingested, you can aggregate new triggered alerts to existing SIR security incidents. You set criteria to specify matching target field values in the Splunk Enterprise alert profile that define when an existing security incident is updated and when a new security incident is created. If the aggregation feature is enabled in your event profile, when the import set is transformed, your ServiceNow AI Platform instance checks for an existing record in the target table that has the same value in the target and source fields. If an existing record with a matching value in the target table is found, that record is updated. If no matching record is found, a new record is created in the target table. If enabled, the aggregation option updates existing security incidents with new triggered alerts, and you avoid creating multiple security incidents. For more information about updating records using aggregation options, see [Updating records using coalesce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_ImportSetCoalesce.md).
+As a user with the sn\_si.admin role, if you determine that a new triggered alert is similar to alerts previously ingested, you can aggregate new triggered alerts to existing SIR security incidents. You set criteria to specify matching target field values in the Splunk Enterprise alert profile that define when an existing security incident is updated and when a new security incident is created. If the aggregation feature is enabled in your event profile, when the import set is transformed, your ServiceNow AI Platform instance checks for an existing record in the target table that has the same value in the target and source fields. If an existing record with a matching value in the target table is found, that record is updated. If no matching record is found, a new record is created in the target table. If enabled, the aggregation option updates existing security incidents with new triggered alerts, and you avoid creating multiple security incidents. For more information about updating records using aggregation options, see [Updating records using coalesce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ImportSetCoalesce.md).
 
 This application uses the Splunk API service to retrieve information from the Splunk service. An outbound HTTPS connection from the MID server to this environment is necessary for the integration to work properly.
 

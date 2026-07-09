@@ -20,7 +20,7 @@ Starting with the Zurich release, Application Insights is no longer deployed, en
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see [MID Server ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md).
+Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see [MID Server ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ecc-queue-mid-server.md).
 
 You can monitor the relationship between the number of ready, processing, and processed records by viewing the ECC queue graphs. Use the ECC queue graphs to monitor the following:
 

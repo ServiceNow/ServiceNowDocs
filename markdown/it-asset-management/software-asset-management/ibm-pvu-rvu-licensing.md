@@ -16,7 +16,7 @@ breadcrumb: [Supported IBM license types, Software Asset Management publisher pa
 
 If you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, you can track and manage IBM PVU and RVU licenses. Alternatively, you can track and manage these licenses when you integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 1 or 2 of the integration APIs.
 
-With these integrations, the publisher pack adds the Processor Value Unit \(PVU\) and Resource Value Unit \(RVU\) license metrics for IBM so that you can calculate licensing for these license types. For more details on Authorized SAM Provider \(ASP\) integrations, see [Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md). For more details on ILMT and BigFix Inventory integrations, see [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md).
+With these integrations, the publisher pack adds the Processor Value Unit \(PVU\) and Resource Value Unit \(RVU\) license metrics for IBM so that you can calculate licensing for these license types. For more details on Authorized SAM Provider \(ASP\) integrations, see [Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md). For more details on ILMT and BigFix Inventory integrations, see [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md).
 
 **Note:** IBM PVU and RVU licensing is supported in both physical and virtualized environments.
 
@@ -36,7 +36,7 @@ You can gain visibility into how your PVU licenses are applied to your devices b
 
     For more details on the available device settings, see [Verify the meta data for your IBM hosts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/verify-ibm-device-meta-data.md).
 
-    For more details on ASPs, see [Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md).
+    For more details on ASPs, see [Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md).
 
 
 Refer to [Processor Value Units \(PVU\)](https://www.ibm.com/software/passportadvantage/pvu_licensing_for_customers.html) for more information on IBM PVU licensing, including the complete list of supported processor technologies and corresponding PVUs per Core values.
@@ -172,7 +172,7 @@ You can gain visibility into how your RVU licenses are applied to your devices b
 
     For more details on the available device settings, see [Verify the meta data for your IBM hosts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/verify-ibm-device-meta-data.md).
 
-    For more details on ASPs, see [Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md).
+    For more details on ASPs, see [Client Value Acceleration \(CVA\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/ibm-asp-integration.md).
 
 
 **Parent Topic:**[Supported IBM license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/supported-ibm-license-types.md)

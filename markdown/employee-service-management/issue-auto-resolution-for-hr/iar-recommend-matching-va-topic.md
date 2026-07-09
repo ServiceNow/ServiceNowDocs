@@ -7,7 +7,7 @@ release: zurich
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
@@ -29,9 +29,9 @@ The Virtual Agent process is as follows:
 1.  An HR case is submitted by the employee through an email.
 2.  The employee receives an email with the Virtual Agent topic recommendation in it.
 3.  The employee selects **Go to portal** to access the details of the case on the portal.
-4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "icon-chat-va.png"\] Alt text: VA chat icon. on the portal and selecting the case recommendation notification.
+4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "chat-icon.png"\] on the portal and selecting the case recommendation notification.
 
 ## Enhanced recommendations preview on email for AI search flow
 
-The new recommendations section displays the titles of the knowledge articles and catalog items in the email. The \[Omitted image "iar-knowledge-article.png"\] Alt text: IAR knowledge article icon. icon indicates that the recommendation title is a catalog item. The \[Omitted image "iar-catalog-item.png"\] Alt text: IAR catalog item icon. icon indicates that the recommendation title is a knowledge article.
+The new recommendations section displays the titles of the knowledge articles and catalog items in the email. If the recommendation title is a catalog item, it's indicated by the paper icon \(\[Omitted image "iar-catalog-item.png"\]\). If the recommendation title is a knowledge article, it's indicated by pen on paper icon \(\[Omitted image "iar-knowledge-article.png"\]\).
 

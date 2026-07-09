@@ -22,7 +22,7 @@ Consolidate and analyze the business applications based on multiple scores.
 Create a demand for an application from the bubble chart.
 -   **[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)**  
 Set the planned disposition of a business application to track decisions on the plan of the application.
--   **[Add business application lifecycle data using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)**  
+-   **[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)**  
 Create or edit the life cycle of a business application to manage the business application.
 -   **[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)**  
 You can make updates to the business application record directly from the list, without leaving the bubble chart view.

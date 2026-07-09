@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-01-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Enable lean budgeting for demands, Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

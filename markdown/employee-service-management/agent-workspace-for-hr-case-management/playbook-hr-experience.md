@@ -7,9 +7,9 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up HR Service Delivery Playbook, Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up HR Service Delivery Playbook, HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Playbook Experience
@@ -54,6 +54,4 @@ A Playbook experience is tied to Playbook Configurations and Playbook Activity O
 
     -   Render a component \(Add Approvers or Close Complete\).
     -   Update the record \(change its state\).
-
-To make changes to the default configurations, see Update playbook experience configurations.
 

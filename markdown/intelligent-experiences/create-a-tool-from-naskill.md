@@ -5,9 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-a-tool-from-naskill.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
-keywords: [Create NA skills tools for MCP]
 breadcrumb: [Create a tool, Configure, MCP Server Console, Enable AI experiences]
 ---
 
@@ -59,6 +58,14 @@ An internal name for the tool.
 
 </td></tr><tr><td>
 
+MCP app
+
+</td><td>
+
+An active MCP app linked to this tool.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -76,6 +83,6 @@ MCP Servers
 One or more servers you want to add your tool to.
 
 </td></tr></tbody>
-</table>    In the Tool inputs section, the fields associated with the capability are added. See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on the MCP Server and discoverable by MCP clients.
+</table>    In the Tool inputs section, the fields associated with the capability are added. See [Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-tool-mcp-server.md) to learn more. The tool is now published on the MCP Servers and discoverable by MCP clients.
 
 

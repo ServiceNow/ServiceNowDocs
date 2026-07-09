@@ -1,5 +1,5 @@
 ---
-title: Relate a business application to an information object - Legacy
+title: Relate business application to information object - Legacy
 description: Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object, which can be used to leverage the business application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/relate-business-app-information-object.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Relate a business application to an information object - Legacy
+# Relate business application to information object - Legacy
 
 Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object, which can be used to leverage the business application.
 

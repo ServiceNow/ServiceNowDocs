@@ -18,6 +18,6 @@ Plan and configure Lifecycle Events.
 
 ## Configuration overview
 
-1.  [Activate Lifecycle Events for Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+1.  [Activate Lifecycle Events for Enterprise]()
 2.  [Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 

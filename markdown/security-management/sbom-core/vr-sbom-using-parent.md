@@ -7,7 +7,7 @@ release: zurich
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2025-09-09"
+last_updated: "2026-06-23"
 reading_time_minutes: 2
 breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -20,9 +20,9 @@ The SBOM applications enable you to upload files and view details for entities, 
 
 You can upload your software bill of material files via an API or manually. View the files that you import as entities, which are inventories of the third-party component libraries used in your software, including any transitive dependencies.
 
--   [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-preparing-upload.md).
+-   The Upload API is used for uploading and ingesting an SBOM file \(CycloneDX/SPDX\) into your instance.
 
-    The Upload API is used for uploading and ingesting an SBOM file \(CycloneDX/SPDX\) into your instance.
+    The Content-Type header is required when calling the Upload API. Set the Content-Type value to match the SBOM file content being submitted in the request body. See [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-preparing-upload.md) for more information.
 
 -   [Upload Software Bill of Materials files manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-ingest.md).
 

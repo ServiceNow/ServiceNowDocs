@@ -18,7 +18,7 @@ Review and work on an amendment request for an existing contract.
 
 ## Before you begin
 
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -41,15 +41,15 @@ A sample workflow while working on an amendment request would be:
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88158e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d90087e112">
 
 Option
 
-</th><th align="left" id="d88158e115">
+</th><th align="left" id="d90087e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88158e121">
+</th></tr></thead><tbody><tr><td id="d90087e121">
 
 **As an assignee**
 
@@ -61,7 +61,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d88158e150">
+</td></tr><tr><td id="d90087e150">
 
 **As a collaborator**
 

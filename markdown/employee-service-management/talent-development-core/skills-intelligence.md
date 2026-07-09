@@ -16,9 +16,9 @@ breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Managemen
 
 The ServiceNow® Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 
-**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management/skills-management.md).
+**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/skills-management.md).
 
-Skills Foundation overview 
+\[Omitted video\] Description: Skills Foundation overview
 
 You can empower your employees by enhancing their essential skills as part of their career aspirations using Talent Development and Skills Foundation.
 

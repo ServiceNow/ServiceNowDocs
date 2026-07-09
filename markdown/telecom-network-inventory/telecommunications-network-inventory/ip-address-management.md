@@ -1,0 +1,33 @@
+---
+title: IP address management
+description: IP address management in the Telecommunications Network Inventory application lets you create, view, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-management.html
+release: zurich
+product: Telecommunications Network Inventory
+classification: telecommunications-network-inventory
+topic_type: concept
+last_updated: "2026-07-09"
+reading_time_minutes: 1
+breadcrumb: [Explore, Telecommunications Network Inventory]
+---
+
+# IP address management
+
+IP address management in the Telecommunications Network Inventory application lets you create, view, and update IP Address Blocks, IP Subnetworks, allocated IP addresses, and IP addresses.
+
+## Address space structure
+
+An IP Subnetwork can itself contain further nested IP Subnetworks, which lets you subdivide IP address space to any depth. A Managed Network defines a network scope within which an IP Address Block's CIDR must be unique; the same CIDR may exist in different Managed Networks without conflict.
+
+**Related topics**  
+
+
+[IP addresses allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/exploring-ip-addresses-allocation.md)
+
+[Managed Network and IP address allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/managed-network-and-ip-address-allocation.md)
+
+[CMDB relationships for IP address records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/cmdb-relationships-for-ip-address-records.md)
+
+[IP address inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/ip-address-inventory-management-data-model.md)
+

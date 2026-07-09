@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-The EAM Populate Licensing Data scheduled job runs every Sunday to generate subscription consumption information for the application. Any changes to your subscription consumption are reflected only after the weekly scheduled job runs.
+The EAM Populate Licensing Data scheduled job runs daily to generate subscription consumption information for the application. Any changes to your subscription consumption are reflected only after the next scheduled job runs.
 
 ## Procedure
 

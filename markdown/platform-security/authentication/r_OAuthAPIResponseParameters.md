@@ -9,7 +9,7 @@ classification: authentication
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create an endpoint for clients to access the instance, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Create an endpoint for clients to access the instance, Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # OAuth API response parameters
@@ -33,7 +33,7 @@ The OAuth 2.0 API produces a JSON response containing the following parameters a
 |Type|true\|false|
 |Value|false|
 
-For details on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md)
+For details on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 The following example illustrates the JSON string returned by an access token request. \(Spaces have been added to improve readability\).
 

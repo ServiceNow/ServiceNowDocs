@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create custom mapping configurations, Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,5 +43,5 @@ A new table map is created with your alignment and execution table configuration
 
 ## What to do next
 
-Create a business rule to support export of this new table map configuration to Agile Development 2.0, SAFe, or PPM. For more information, see [Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.md).
+Create a business rule to support export of this new table map configuration to Agile Development 2.0, SAFe, or PPM. For more information, see [Create a business rule for custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Open a Configurable Workspace experience task conkeyrefs
+title: Open a Configurable Workspace experience
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/workspace-open-uib.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Open a Configurable Workspace experience task conkeyrefs
+# Open a Configurable Workspace experience
 
 Access your Configurable Workspace experience in UI Builder for editing.
 

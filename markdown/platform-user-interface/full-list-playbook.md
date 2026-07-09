@@ -18,5 +18,7 @@ To open a full list within playbook, click the **Open List** icon \(\[Omitted im
 
 \[Omitted image "playbook-open-list-card.png"\] Alt text: Playbook card displaying a Open List button
 
-A new tab opens to show a full list.
+A new tab opens to show a full list, as shown in the following image.
+
+\[Omitted image "playbook-list-tab.png"\] Alt text: Playbook List Tab example
 

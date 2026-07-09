@@ -25,13 +25,13 @@ New permission rules for model operations require you to have a specified role o
 
 On a single model, different operations can have different permissions. For example, a financial data model can have some users with only read access to review data, but they can't update or create a financial record. For that same model, other users or groups can be given access to update and create financial records.
 
-\[Omitted image "erp-operation-security1.png"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
+\[Omitted image "image.erp-operation-security1"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
 
 To help prevent disruptions, all existing model operations have been assigned the admin role and the erp\_user role by default.
 
 You can edit these permissions on the existing operations at any time to suit your needs. To change the permissions, select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\] Alt text: on the model operation card.
 
-\[Omitted image "erp-operation-security2.png"\] Alt text: Manage model page with create, read, and update operations that have the admin and erp\_user role assigned.
+\[Omitted image "image.erp-operation-security2"\] Alt text: Manage model page with create, read, and update operations that have the admin and erp\_user role assigned.
 
 To learn more about adding an operation, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 

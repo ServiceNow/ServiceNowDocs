@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Install the identity provider certificate, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Install the identity provider certificate, SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Replace a missing certificate for SAML

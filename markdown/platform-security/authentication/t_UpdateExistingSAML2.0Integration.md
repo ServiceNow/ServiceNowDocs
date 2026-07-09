@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Access Management]
 ---
 
 # Update your existing SAML 2.0 integration
@@ -47,7 +47,7 @@ Test the Update.
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.authenticate.sso.saml2.debug with a value of true.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.authenticate.sso.saml2.debug with a value of true.
 
 2.  Attempt SAML 2.0 login.
 

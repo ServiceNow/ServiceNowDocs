@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  In the side panel, select the configuration icon \[Omitted image "configuration-alias-icon.png"\] Alt text:.
+2.  In the side panel, select the configuration icon \[Omitted image "image.configuration-alias-icon"\] Alt text:.
 
 3.  Select the **Change system** button.
 
@@ -42,13 +42,13 @@ Role required: admin
 
         In the **Snapshots** tab, the automatic export is **Pending**. Select the refresh icon to see the **Status** change to **In progress** and then **Complete**.
 
-        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see .
+        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md).
 
     2.  When the export is finished, go to the **Snapshots** tab on the **Configuration** page and select the completed export.
 
     3.  On the snapshot record, in **Attachments**, select the **Download** icon.
 
-5.  In the side panel, select the configuration icon \[Omitted image "configuration-alias-icon.png"\] Alt text:.
+5.  In the side panel, select the configuration icon \[Omitted image "image.configuration-alias-icon"\] Alt text:.
 
 6.  Select the **Change system** button, and then select **Import data**.
 

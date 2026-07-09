@@ -30,11 +30,11 @@ Role required: admin
 
 2.  Filter the name field to locate and open **Data generation for financials in SPW/PPW**.
 
-3.  Select the Active option to activate and schedule the job.
+3.  Select Active option to activate and schedule the job.
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
 5.  Remove the condition `'active=true'` to generate the financial data and work on costs for inactive planning items.
 

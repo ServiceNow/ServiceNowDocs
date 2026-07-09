@@ -1,25 +1,25 @@
 ---
-title: Common issues and solutions in Build Agent
-description: Identify and resolve common issues in Build Agent. Use this reference alongside the general debugging approach to identify and fix problems.
+title: Issues and solutions in Build Agent
+description: Identify and resolve common issues in Build Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-troubleshooting.html
 release: zurich
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-06-24"
 reading_time_minutes: 5
 keywords: [troubleshooting, build failures, empty UI pages, context limits, rate limit errors, deployment issues, debugging, error messages, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Common issues and solutions in Build Agent
+# Issues and solutions in Build Agent
 
-Identify and resolve common issues in Build Agent. Use this reference alongside the general debugging approach to identify and fix problems.
+Identify and resolve common issues in Build Agent.
 
 ## General debugging approach
 
-When something goes wrong, paste the exact error message into the Build Agent chat. Build Agent can often diagnose and fix the issue directly. If not, the error message is your starting point for debugging.
+Copy the error message and paste it into the Build Agent chat. Build Agent can often diagnose and fix the issue directly. If not, the error message is your starting point for debugging.
 
-If you attempt several fixes in the same conversation without progress, use a structured approach before starting a new chat.
+If several fixes in the same conversation don't resolve the issue, use a structured approach before starting a new chat.
 
 **Tip:**
 
@@ -27,14 +27,14 @@ Use the following prompt to structure your debugging session:
 
 `I'm seeing this error: [paste exact error]. This happens when: [describe scenario]. Before suggesting fixes: 1) Help me reproduce this consistently. 2) Review the debugger output and logs. 3) Check for access or configuration issues. 4) Examine if this is a known issue.`
 
-Then test hypotheses from simplest to most complex:
+Test hypotheses from simplest to most complex:
 
 -   Is this an access or role issue?
 -   Is this a configuration problem?
 -   Is this a naming convention mismatch?
 -   Is this a logic edge case?
 
-If structured investigation does not resolve the issue within a few attempts, start a fresh conversation with a more specific prompt.
+If structured investigation doesn't resolve the issue within a few attempts, start a fresh conversation with a more specific prompt.
 
 Save any debugging information to convey if you need to contact Now Support.
 
@@ -54,7 +54,7 @@ Now Assist panel not visible
 
 </td><td>
 
--   Quick check: Required plugins are installed and your user has the right roles. The ServiceNow IDE needs the admin role plus the documented Build Agent plugins \(`sn_glider` and `sn_build_agent` for Trial; `sn_now_creator` for Paid\). In ServiceNow Studio, confirm you're on a supported release.
+-   Quick check: Required plugins are installed and your account has the required roles. The ServiceNow IDE needs the admin role plus the documented Build Agent plugins \(`sn_glider` and `sn_build_agent` for Trial; `sn_now_creator` for Premium\). In ServiceNow Studio, confirm you're on a supported release.
 -   Try: Refresh the page or sign out and back in.
 -   If still failing, capture: The exact error or behavior, your release, and the role list on your user.
 
@@ -165,7 +165,7 @@ Long-running prompt times out
 </td><td>
 
 -   Quick check: Your session timeout setting.
--   Try: For labs and workshops, set **glide.ui.session\_timeout** to `1440` in sys\_properties. Coordinate with the platform admin on a shared instance before changing it.
+-   Try: For labs and workshops, set **glide.ui.session\_timeout** to `1440` in the System Property \[sys\_properties\] table. Coordinate with the platform admin on a shared instance before changing it.
 -   If still failing, capture: The session length and the prompt that timed out.
 
 </td></tr></tbody>

@@ -1,6 +1,6 @@
 ---
 title: Employee profile
-description: The Employee profile enables you to search for colleagues, view profiles, and access contact information through an intuitive directory interface.
+description: The Employee profile enables you to search for colleagues, view profiles, and access contact information through an directory interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-employee-profile.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified E
 
 # Employee profile
 
-The Employee profile enables you to search for colleagues, view profiles, and access contact information through an intuitive directory interface.
+The Employee profile enables you to search for colleagues, view profiles, and access contact information through an directory interface.
 
 Employee profiles provide a centralized view of individual employee information, including basic details, organizational relationships, and contact information. Profiles are accessible through the org chart, search results, or direct navigation from the profile section.
 
@@ -37,7 +37,7 @@ Select the **Profile** option to find more information about the employee. The p
 
 -   **Personal details**
 
-    Displays non-sensitive personal information that the organization selects to surface on the profile.
+    Displays non-sensitive personal information that the organization selects to display on the profile.
 
 -   **Team**
 
@@ -50,8 +50,8 @@ Each profile page includes an **Org chart** call-to-action that opens the org ch
 
 The profile applies role-aware permissions to control what each employee views and edits:
 
--   Personalize your profile and provide additional context with information such as Nickname, Pronouns, and Bio. You can edit this info based on the configurations that the administrator sets.
--   Employees have view-only access to profiles for colleagues profiles.
+-   Personalize your profile and provide additional context with information such as **Nickname**, **Pronouns**, and **Bio**. You can edit this information based on the configurations that the administrator sets.
+-   Employees have view-only access to profiles for colleagues.
 
 ## AI-powered profile discovery
 

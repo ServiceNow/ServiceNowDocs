@@ -24,7 +24,7 @@ Role required: wm\_admin
 
 ## About this task
 
-This video demonstrates how to configure intraday optimization for a specific group or territory. 
+\[Omitted video\] Description: This video demonstrates how to configure intraday optimization for a specific group or territory.
 
 **Note:** This video demonstrates how to configure intraday optimization for a specific group or territory. To create a default intraday configuration for all groups and territories, see step 5.
 

@@ -54,7 +54,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md).
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-page-inspector.md).
 
 </td></tr><tr><td>
 

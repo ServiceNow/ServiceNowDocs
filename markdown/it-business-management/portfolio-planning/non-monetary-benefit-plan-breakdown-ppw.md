@@ -7,9 +7,9 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-04"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Non-monetary benefit plan breakdown form
@@ -23,7 +23,7 @@ The non-monetary benefit breakdown form information is used to create and edit a
 |Measure|Measure type specified in the benefit plan.|
 |Actual benefit|Actual benefit that is incurred from the demand.|
 |Benefit plan|Benefit plan to which the benefit plan breakdown belongs.|
-|Fiscal period|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).|
+|Fiscal period|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_FiscalCalendar.md).|
 |Entered benefit|Benefit in entered value.|
 |Variance|The difference between the estimated and actual benefit.|
 

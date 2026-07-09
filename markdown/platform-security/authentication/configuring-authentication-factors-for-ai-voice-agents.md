@@ -9,7 +9,7 @@ classification: authentication
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Authentication factors, Authentication, Access Management]
+breadcrumb: [Authentication factors, Access Management]
 ---
 
 # Configure authentication factors for AI voice agents

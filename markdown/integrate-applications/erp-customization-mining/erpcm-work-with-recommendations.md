@@ -32,7 +32,7 @@ For example, you may have to create a workflow in Workflow Studio for one candid
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Semantic Mining**.
 
-2.  In the side panel, select the candidates icon \[Omitted image "erpcm-candidates-icon.png"\] Alt text:.
+2.  In the side panel, select the candidates icon \[Omitted image "image.erpcm-candidates-icon"\] Alt text:.
 
     Alternatively, you can select a candidate directly on the ERP Semantic Mining home page. For more information, see [Browse an overview of candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-customization-mining/erpcm-view-home-page-overview.md).
 

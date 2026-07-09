@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-23"
 reading_time_minutes: 2
 breadcrumb: [Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -20,6 +20,7 @@ You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Servi
 
 -   Confirm that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [AIOps Experience](https://store.servicenow.com/sn_appstore_store.do#!/store/application/38f8f09e68752110f87762d826aeb7f4/24.2.3?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%25253Bsnow_solution%26q%3DAIOps%2520Experience&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   For a list of plugins or applications installed with Service Operations Workspace for ITOM, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/plugin-app-itom-health.md).
 -   Service Operations Workspace supports domain separation. For details, see [Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/domain-separation-event-management.md).
 
 Role required: admin

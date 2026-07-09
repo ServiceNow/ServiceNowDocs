@@ -1,11 +1,11 @@
 ---
 title: Document an application using Build Agent
-description: Generate documentation for an application's structure, tables, and UI components. Build Agent reads the codebase and creates a README file describing the application architecture.
+description: Generate documentation for the structure, tables, and UI components of an application. Build Agent reads the codebase and creates a README file describing the application architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-document-an-app.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-06-24"
 reading_time_minutes: 1
 keywords: [Build Agent, document application, README, ServiceNow IDE, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -13,7 +13,7 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 # Document an application using Build Agent
 
-Generate documentation for an application's structure, tables, and UI components. Build Agent reads the codebase and creates a README file describing the application architecture.
+Generate documentation for the structure, tables, and UI components of an application. Build Agent reads the codebase and creates a README file describing the application architecture.
 
 ## Before you begin
 
@@ -35,11 +35,11 @@ Build Agent processes the application's codebase and produces a README file summ
 
     For example, enter `Document this app`.
 
-3.  Allow Build Agent to process the request.
+3.  Review the response in the Build Agent chat panel.
 
     Build Agent processes the existing files in the application and generates a README file.
 
-4.  In the File Explorer, open the `README` file that Now Assist for Build Agent creates.
+4.  In the File Explorer, open the `README` file that Build Agent creates.
 
     The README file displays a description of the application's tables, sample data, and UI page.
 

@@ -18,7 +18,7 @@ MID Server capabilities define the specific functions of a MID Server within an 
 
 ## Nmap capability
 
-The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/install-nmap-on-mid-server.md)
+The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/install-nmap-on-mid-server.md)
 
 ## MID Server capability values
 
@@ -50,7 +50,7 @@ To view the script for evaluating this capability, navigate to **MID Server** &g
 
 \[Omitted image "MIDServerResolveDNS.png"\] Alt text: MID capabilities
 
--   **[Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/configure-capabilities.md)**  
+-   **[Configure MID Server capabilities]()**  
 MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, , and .
 
 **Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationMID.md)

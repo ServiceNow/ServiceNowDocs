@@ -39,7 +39,7 @@ To specify which option to use, configure the **sn\_imt\_tracing.wifi\_log\_cisc
 
         -   USA region: `https://dnaspaces.io/integrations/servicenow`
         -   Europe region: `https://dnaspaces.eu/integrations/servicenow`
-        For more information on creating the OAuth application endpoint and description of other fields on the form, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+        For more information on creating the OAuth application endpoint and description of other fields on the form, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_CreateEndpointforExternalClients.md).
 
     2.  Log in to the Cisco DNA Spaces portal to register and authenticate the application to complete the integration.
 

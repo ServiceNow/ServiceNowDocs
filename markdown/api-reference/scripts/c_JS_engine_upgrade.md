@@ -44,5 +44,5 @@ Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standar
 **Related topics**  
 
 
-[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-classic/modify-an-apps-settings-in-servicenow-studio.md)
+[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/modify-an-apps-settings-in-servicenow-studio.md)
 

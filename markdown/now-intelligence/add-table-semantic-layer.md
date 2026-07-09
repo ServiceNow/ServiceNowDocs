@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/add-tab
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -16,7 +16,7 @@ Add more tables to the Query Generation semantic layer so that users can use Now
 
 ## Before you begin
 
-Adding a table to the semantic data layer 
+\[Omitted video\] Description: Adding a table to the semantic data layer
 
 Semantic table configuration supports regular tables, database views, and Workflow Data Fabric tables.
 
@@ -29,6 +29,10 @@ Role required: sn\_query\_gen.admin or higher
 1.  Navigate to **All** &gt; **Query Generation** &gt; **Administration** &gt; **Semantic table config**.
 
     If you do not have this navigation path despite having the correct roles, you may be missing a required entitlement.
+
+    **Note:** As an alternative to this procedure, you can select one or more tables in a list and apply the Enable for Query Generation list action.
+
+    \[Omitted image "enable-qg-from-list-of-tables.png"\] Alt text: The Enable for query generation action for tables in a list of tables.
 
 2.  In the Semantic Tables Configurations list, select **New**.
 
@@ -55,7 +59,7 @@ Your table is added to the list. If you enabled semantic generation, records for
 
 ## Adding the Contract table hierarchy to the semantic layer
 
-If you have users who need to explore and discuss data relating to asset contracts, you need to add the Contract \[ast\_contract\] table to the semantic layer. This table hierarchy is not supported by default.
+If you have users who need to explore and discuss data relating to asset contracts, add the Contract \[ast\_contract\] table to the semantic layer. This table hierarchy is not supported by default.
 
 1.  First, you open the Semantic Table Configuration list \[sn\_query\_gen\_table\_config\_list\] and press the **New** button.
 

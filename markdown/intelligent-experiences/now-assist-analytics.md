@@ -15,7 +15,7 @@ breadcrumb: [Exploring Now Assist Admin, Now Assist, Enable AI experiences]
 
 Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
-Monitor the usage, performance, and value of Now Assist Analytics. 
+\[Omitted video\] Description: Monitor the usage, performance, and value of Now Assist Analytics.
 
 ## Get started
 

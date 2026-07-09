@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2025-11-02"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
@@ -38,9 +38,33 @@ You can automate web-based tasks that involve adaptive steps using desktop actio
 
 AI Desktop Actions integrates with AI Agent Studio, enabling you to publish, manage, and incorporate desktop actions into your broader ServiceNow workflows. This integration lets you automate both cloud and desktop applications, giving your AI agents broader capabilities within ServiceNow.
 
+## Creating desktop actions from Task Mining
+
+Build desktop automations by transforming task mining observations into production-ready desktop actions and AI agents through five integrated stages.
+
+-   **Stage 1: Process Mining**
+
+    Process analysts identify improvement opportunities in Process Mining and create a Task Mining project.
+
+-   **[Stage 2: Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/integration-with-automation-center.md)**
+    -   Workstation users capture desktop activities using Task Mining agent for the Task Mining project. Captured desktop activities are stored as tasks in Task Mining.
+    -   Task Mining analyst run a mining job on the Task Mining project to generate an analysis of the collected data.
+    -   Task Mining analysts review the task timeline to define specific optimization opportunities and automation candidates, and submit automation requests.
+-   **Stage 3: Automation Center**
+
+    Automation developers generate automations to automatically create desktop actions in Automation Center.
+
+-   **[Stage 4: AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-next-best-action-agent.md)**
+
+    Automation developers verify auto-generated agent description, agent steps, and associated desktop action tools. Test and deploy the AI agent in AI Agent Studio.
+
+-   **[Stage 5: AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/use-agentic-desktop.md)**
+    -   Automation developers verify the anchors and steps of on-screen task desktop actions.
+    -   End-users trigger AI agents that execute desktop actions in the Execution workspace of AI Desktop Actions.
+
 ## Impersonating users
 
-You can trigger AI agents from the Now Assist panel while impersonating another user, provided the impersonated user has the required roles. The sn\_aia.admin role is required to use AI Agent Studio, and the now\_assist\_panel\_user role is required to trigger AI agents that execute desktop actions in the Execution workspace. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
+You can trigger AI agents from the Now Assist panel while impersonating another user, provided the impersonated user has the required roles. The sn\_aia.admin role is required to use AI Agent Studio, and the now\_assist\_panel\_user role is required to trigger AI agents that execute desktop actions in the Execution workspace. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ImpersonateAUser.md).
 
 ## What to explore next
 

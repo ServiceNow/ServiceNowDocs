@@ -62,5 +62,5 @@ Elevate a project risk to an enterprise risk if the project risk has an impact o
 **Related topics**  
 
 
-[About Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+[About Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/c_ProjectPortfolioSuite.md)
 

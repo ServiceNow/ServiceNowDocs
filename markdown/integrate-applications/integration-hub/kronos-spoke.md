@@ -1,6 +1,6 @@
 ---
 title: UKG Spoke
-description: Manage time off requests in Kronos from your ServiceNow instance.
+description: Manage time off requests in UKG from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/kronos-spoke.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workfl
 
 # UKG Spoke
 
-Manage time off requests in Kronos from your ServiceNow instance.
+Manage time off requests in UKG from your ServiceNow instance.
 
 ## Request apps on the Store
 
@@ -26,11 +26,11 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-UKG spoke v3.6.0 is the latest version.
+UKG spoke v3.6.1 is the latest version.
 
 ## Supported versions
 
-This spoke was built for Kronos version v1, but may be compatible with later versions.
+This spoke was built for UKG version v1, but may be compatible with later versions.
 
 ## Spoke dependencies
 
@@ -46,13 +46,13 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke flows
 
-The UKG spoke provides sample flows to demonstrate automating the Kronos tasks. To customize a sample flow, copy it to a new application scope. Available sample flows include:
+The UKG spoke provides sample flows to demonstrate automating the UKG tasks. To customize a sample flow, copy it to a new application scope. Available sample flows include:
 
 |Flow|Description|
 |----|-----------|
 |Kronos - Create Manager Time Off Request|Creates the time of request for a manager or employee.|
-|Kronos - Get New Refresh And Access Token|Retrieves access token for Kronos and generates a new refresh token periodically.|
-|Kronos - Refresh The Access Token|Refreshes the access token for Kronos.|
+|Kronos - Get New Refresh And Access Token|Retrieves access token for UKG and generates a new refresh token periodically.|
+|Kronos - Refresh The Access Token|Refreshes the access token for UKG.|
 |Kronos - Retrieve And Update Manager Time Off Request Status|Retrieves status of the time off request status and updates the details of the associated request item.|
 |Kronos - Time Off Details House Keeping|Deletes the time off requests based on the provided criteria. By default, the flow deletes time off requests that have been approved 7 days ago.|
 
@@ -60,11 +60,11 @@ Every flow triggers an associated subflow.
 
 ## Spoke subflows
 
-The Kronos spoke provides sample subflows to demonstrate automating Kronos tasks. To customize a sample subflow, copy it to a new application scope. Available sample subflows include:
+The UKG spoke provides sample subflows to demonstrate automating Kronos tasks. To customize a sample subflow, copy it to a new application scope. Available sample subflows include:
 
 |Subflow|Description|
 |-------|-----------|
-|Kronos - Get Kronos Token|Uses the details provided during spoke setup to retrieve a valid refresh token from Kronos.|
+|Kronos - Get Kronos Token|Uses the details provided during spoke setup to retrieve a valid refresh token from UKG.|
 |Kronos - Create Manager Time Off Request|Creates the time off request and saves the information in your ServiceNow instance.|
 |Kronos - Manager Time Off Request|Creates the time off request for a manager or employee.|
 |Kronos - Retrieve Manager Time Off Request Status Update|Retrieves status of the time off request status and updates the details of the associated request item.|
@@ -73,12 +73,12 @@ The Kronos spoke provides sample subflows to demonstrate automating Kronos tasks
 
 ## Spoke actions
 
-The UKG spoke provides actions to automate Kronos tasks when events occurs in ServiceNow. Available actions include:
+The UKG spoke provides actions to automate UKG tasks when events occurs in ServiceNow. Available actions include:
 
 |Category|Action|Description|
 |--------|------|-----------|
-|Authentication Management|Get Kronos Refresh Token|Retrieves the Refresh Token for Kronos.|
-|Get Kronos Token|Retrieves the Token for Kronos.|
+|Authentication Management|Get Kronos Refresh Token|Retrieves the Refresh Token for UKG.|
+|Get Kronos Token|Retrieves the Token for UKG.|
 |Persons|Create Persons|Creates records for one or more persons.|
 |Retrieve Person by ID|Retrieves the details of a person for the specified record ID.|
 |Retrieve Persons|Retries the record details of a list of persons based on the search criteria.|
@@ -109,7 +109,7 @@ The UKG spoke provides actions to automate Kronos tasks when events occurs in Se
 |Retrieve Licenses|Retrieves a list of licenses.|
 |Retrieve Pay Rules|Retrieves a list of pay rules.|
 |Retrieve Symbolic Period ID|Retrieves the specified symbolic period.|
-|Retrieve All Pay Codes|Retrieves all the play code in Kronos.|
+|Retrieve All Pay Codes|Retrieves all the play code in UKG.|
 |Retrieve Employee Request Subtype|Retrieves a list of request subtypes associated with the required Person Number.|
 |Retrieve Manager Request Subtype By Employee ID|Retrieves a list of request subtypes associated with the required Employee ID.|
 |Retrieve Manager Request Subtype By Person Number|Retrieves a list of request subtypes associated with the required Person Number. The action output is necessary for subsequent actions such as, the Retrieve Employee Accrual Balance action from manager’s perspective.|
@@ -132,21 +132,21 @@ The UKG spoke provides actions to automate Kronos tasks when events occurs in Se
 
 ## Spoke module
 
-The Kronos spoke adds a Kronos application to your ServiceNow instance. The Kronos application has these modules.
+The UKG spoke adds a UKG application to your ServiceNow instance. The UKG application has these modules.
 
 |Module|Description|
 |------|-----------|
-|Credentials|Details of the Kronos users with permissions to perform the required actions.|
+|Credentials|Details of the UKG users with permissions to perform the required actions.|
 |Time Off Request Details|Details of the time off requests, along with the status.|
 |Time Off Request Details Staging Tables|Details of the time off requests from the staging tables.|
 
-## Kronos spoke account requirements
+## UKG spoke account requirements
 
-The Kronos spoke requires registering an OAuth 2.0 application in your Kronos account to generate OAuth 2.0 tokens for the Kronos spoke. Record the generated Client ID, Client Secret, and Application key for later use.
+The UKG spoke requires registering an OAuth 2.0 application in your UKG account to generate OAuth 2.0 tokens for the UKG spoke. Record the generated Client ID, Client Secret, and Application key for later use.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r-credentials.md).
 
 For information about setting up the spoke, see .
 

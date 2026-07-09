@@ -36,8 +36,6 @@ Role required: sn\_irm\_cont\_auth.admin
     |State field|Select **State Model \[state\_model\]**.|
     |State model|Select **Step \[step\]**.|
 
-    \[Omitted image "WF-state-model1.png"\] Alt text: Creating state model.
-
 4.  Select **Submit**.
 
     You’re directed to the **GRC state models** list page.

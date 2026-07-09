@@ -49,7 +49,7 @@ The **Detail description** field is required for LLM topics but not for NLU/keyw
 
 **Note:** NLU utterances themselves are not effective if you use them as topic descriptions for LLM topics. Avoid using NLU utterances for LLM topic descriptions. LLM topic descriptions require more specific detailed information.
 
-For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/migrate-nlu-llm.md). For examples of strong topic descriptions, see .
+For more information on editing topic descriptions, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/migrate-nlu-llm.md). For examples of strong topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 ## Node descriptions
 
@@ -80,7 +80,7 @@ Contains script or data pill
 Migrates using the following template: `Collect + Node name`.For example, if you have an NLU node named `Get incident number` and the **Prompt** field's value contains a script or data pill, then the migrated LLM node's **Detail description** field's value is `Collect Get incident number`.
 
 </td></tr></tbody>
-</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see .
+</table>If the topics that you plan to migrate include scripts or data pills in their existing **Prompt** field, review and update the LLM **Detail description** field after migration for each affected topic. A warning message of `Add relevant detail description` appears for LLM topics on the Virtual Agent Designer canvas for each node that migrated with the template of `Collect + Node name`. Updating the description to something more accurate and descriptive improves your users' experience of interacting with the Virtual Agent. For an example of a strong node description, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
 The following entities can be migrated from NLU nodes to LLM nodes:
 

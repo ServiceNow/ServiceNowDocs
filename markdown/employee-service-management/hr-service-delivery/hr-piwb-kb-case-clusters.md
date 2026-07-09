@@ -22,7 +22,7 @@ Role required: sn\_piwb\_hr\_content.admin
 
 ## About this task
 
-This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
+This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-demand-insights.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ This template helps customizing a use case model to configure the Knowledge Dema
 
     \[Omitted image "piwb-hr-ml-list.png"\] Alt text: List of ML usecases for HR PIWB
 
-3.  Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
+3.  Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-demand-insights.md).
 
 4.  Go to **Clustering** &gt; **Knowledge demand for HR case clusters** from the available Solution Definitions, click **Configure**.
 
@@ -54,7 +54,7 @@ This template helps customizing a use case model to configure the Knowledge Dema
 
 You can use a demand insights for knowledge gap analysis and create actionable knowledge articles for missing topics.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery]().
 
 ## What to do next
 
@@ -65,7 +65,7 @@ You can verify the integration status from **HR Administration** &gt; **HR AI Co
 **Related topics**  
 
 
-[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-similarity-solution.md)
 
-[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-clustering-solution.md)
 

@@ -18,7 +18,7 @@ You can use response templates with HR Service Delivery to resolve cases faster 
 
 Response templates \(formerly known as templated snippets\) are reusable messages. You can copy these messages created from these templates to an HR case, task, email, or chat to provide quick and consistent messages to employees. For example, a response template for a payroll discrepancy case enables HR agents to use a standardized message when responding to that case type.
 
-**Note:** For more information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/response-templates-templated-snippets.md).
+**Note:** For more information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 ## Response template channels
 
@@ -36,13 +36,11 @@ To create a universal response template that is available for all channels, assi
 
 ## Activation information
 
-The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/ai-platform-capabilities/activate-templated-snippets.md).
+The response templates feature automatically activates when Case and Knowledge Management activates. See [Activate response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-templated-snippets.md).
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
-For more information, see  and Setting up Workspace Agent Chat.
-
-For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
+For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## How to use response templates with form \(HR case or task\)
 
@@ -54,13 +52,13 @@ Response templates appear for an HR case form for templates associated with the 
 
 **Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using a Response template in an HR case or HR task record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Use response templates in HR cases or tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
 
 ## Components installed with response templates
 
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -121,11 +119,11 @@ None
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AssignARoleToAUser.md).
 
-For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/user-administration/c_UserAdministration.md).
+For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UserAdministration.md).
 
 ### Tables installed
 
@@ -170,7 +168,7 @@ Note Template for Table\[sn\_m2m\_note\_template\_for\_table\]
 Maps notes to response templates.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_TableAdministration.md).
 
 ## Create or modify an HR Service Delivery response template
 
@@ -421,6 +419,6 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  Once copied, you can paste the content to a field on the form, such as to **Comments**, or into an email that you send to the employee.
 
-    **Note:** For information on using response templates in HR Agent Workspace, see .
+    **Note:** For information on using response templates in HR Agent Workspace, see [Response templates in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-response-template.md).
 
 

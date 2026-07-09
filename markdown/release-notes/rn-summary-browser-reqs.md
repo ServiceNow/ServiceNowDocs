@@ -54,7 +54,7 @@ Agent experience for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Automated Test Framework
 
 </td><td>
 
-Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see .
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see [Browser recommendations for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/browser-recommendations-atf.md).
 
 Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 
@@ -85,7 +85,7 @@ Case management for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see .
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Intelligence for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Manufacturing Commercial Operations
 
 </td><td>
 
-ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
+ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -263,7 +263,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
-Internet Explorer isn't supported. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/browser-support.md).
+Internet Explorer isn't supported. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 

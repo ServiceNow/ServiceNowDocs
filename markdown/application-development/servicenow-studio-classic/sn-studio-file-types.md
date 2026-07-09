@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/sc-access-control.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Determines whether access is granted for a specified operation to a specific ent
 
 </td></tr><tr><td>
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ sys\_script
 
 </td><td>
 
-Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/business-rules-classic/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
+Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
 -   The script can run:
     -   before or after the database action is performed \(runs as part of the database operation\).
     -   asynchronously \(at some point after the database operation\).
@@ -86,7 +86,7 @@ Used for changing the appearance of forms, displaying different fields based on 
 
 </td></tr><tr><td>
 
-[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_EmailTemplates.md)
+[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailTemplates.md)
 
 </td><td>
 
@@ -98,7 +98,7 @@ Enable administrators to create reusable content for the subject line and messag
 
 </td></tr><tr><td>
 
-[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/actions-inbound-email.md)
+[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/actions-inbound-email.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Script how the system responds to inbound emails.
 
 </td></tr><tr><td>
 
-[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/c_MapPages.md)
+[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_MapPages.md)
 
 </td><td>
 
@@ -122,7 +122,7 @@ Display ServiceNow data graphically on a Google map page based on location data 
 
 </td></tr><tr><td>
 
-[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md)
+[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
 
 </td><td>
 
@@ -137,7 +137,7 @@ Used for importing data. Transform maps:
 
 </td></tr><tr><td>
 
-[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md)
+[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateANotification.md)
 
 </td><td>
 
@@ -161,7 +161,7 @@ Provide customizable URL endpoints that can execute arbitrary server-side JavaSc
 
 </td></tr><tr><td>
 
-[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-administration-and-data-management/table-relationships.md)
+[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-relationships.md)
 
 </td><td>
 
@@ -173,7 +173,7 @@ Used to extend tables, reference records in another table, create many-to-many r
 
 </td></tr><tr><td>
 
-[Scheduled script executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_ScheduledJobs.md)
+[Scheduled script executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ScheduledJobs.md)
 
 </td><td>
 
@@ -185,7 +185,7 @@ Define automated, server-side script logic that executes at a specific time or o
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/system-events/r_ScriptActions.md)
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/r_ScriptActions.md)
 
 </td><td>
 
@@ -213,7 +213,7 @@ Contain scripts that can be functions or classes. These scripts run only when ca
 
 </td></tr><tr><td>
 
-[Schedule items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/t_ViewAScheduleItem.md)
+[Schedule items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ViewAScheduleItem.md)
 
 </td><td>
 
@@ -221,11 +221,11 @@ sys\_trigger
 
 </td><td>
 
-Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/time-configuration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. You can access schedule item records to troubleshoot scheduling.
+Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. You can access schedule item records to troubleshoot scheduling.
 
 </td></tr><tr><td>
 
-[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_UIActions.md)
+[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_UIActions.md)
 
 </td><td>
 
@@ -261,7 +261,7 @@ Used to create and display forms, dialogs, lists, and other UI components.
 
 </td></tr><tr><td>
 
-[Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateAUIPolicy.md)
+[Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAUIPolicy.md)
 
 </td><td>
 
@@ -292,7 +292,7 @@ Contains client scripts stored for reuse. Only used when called from other scrip
 
 </td></tr><tr><td>
 
-[UI style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_DefineFieldStyles.md)
+[UI style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_DefineFieldStyles.md)
 
 </td><td>
 
@@ -304,7 +304,7 @@ Enables you to declare individual CSS styles for a field in a list or form.
 
 </td></tr><tr><td>
 
-[Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_NestedWidgets.md)
+[Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_NestedWidgets.md)
 
 </td><td>
 

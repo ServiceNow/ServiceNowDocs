@@ -34,7 +34,7 @@ The SCOM connector instance requires configuration before receiving alerts and M
 
 
 -   **[Configure the SCOM connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMConfigureSCOMConnector.md)**  
-Configure the Microsoft System Center Operations Manager \(SCOM\) connector instance to receive alerts and Metric Intelligence raw data from the SCOM server.
+Configure the Microsoft System Center Operations Manager \(SCOM\) connector to receive alerts and Metric Intelligence raw data from the SCOM server. SCOM event collection and metric collection are handled by two separate connector definitions: SCOM \(for alerts and bi-directional exchange\) and SCOM Metrics \(for Metric Intelligence raw data\).
 -   **[Limit collected SCOM alerts to specific SCOM groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMAssignRoleSCOMGroup.md)**  
 Limit the collection of SCOM alerts to only those alerts that belong to the specified SCOM group.
 -   **[SCOM metric event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/scom-event-rules.md)**  

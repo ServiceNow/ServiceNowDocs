@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Create a new Agent Client Collector policy, Collecting data from your system devices, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create an ACC policy, Collecting data from your system devices, ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
 ---
 
 # Edit a published policy

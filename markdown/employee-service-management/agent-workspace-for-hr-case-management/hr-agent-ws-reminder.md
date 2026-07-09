@@ -1,20 +1,20 @@
 ---
 title: Create a reminder in Agent Workspace for HR Case Management
-description: You can create reminders from an HR case or task to receive an intimation which will allow you to follow up by a specific date. Reminders enable timely communication and make sure that the actions are taken.
+description: Create reminders for HR cases or tasks to receive notifications for follow-up actions by a specific date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-reminder.html
 release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a reminder in Agent Workspace for HR Case Management
 
-You can create reminders from an HR case or task to receive an intimation which will allow you to follow up by a specific date. Reminders enable timely communication and make sure that the actions are taken.
+Create reminders for HR cases or tasks to receive notifications for follow-up actions by a specific date.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Role required: sn\_hr\_core.case\_writer
     |User|The name of the logged in user that created the reminder.|
     |Reminder|Status of the reminder.|
 
-6.  Click **Save**.
+6.  Select **Save**.
 
     You can view your reminders from the HR case list, by scrolling down and selecting **Reminders**.
 

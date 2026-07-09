@@ -1,0 +1,60 @@
+---
+title: Business capability record form
+description: Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/business-capability-new-record-form.html
+release: zurich
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Business capability record form
+
+Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+
+## Business Capability record form fields
+
+<table id="table_dq3_rzs_zcb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for the business capability.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Short description of the business capability.
+
+</td></tr><tr><td>
+
+Parent
+
+</td><td>
+
+If the capability is to be a root level capability or at level 0, then leave the field blank.Adding a parent renders the capability as a child and not as a root capability.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-reference.md)
+
+**Related topics**  
+
+
+[Manage capability hierarchy in the capability map - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-relationships-in-capability-map.md)
+
+[Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-a-capability.md)
+

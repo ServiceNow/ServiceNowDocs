@@ -38,7 +38,7 @@ Define and assign custom statuses for resource assignments to mark the assignmen
 -   **[Configure resource profiling score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-resource-profiling-score-rmw.md)**  
 Configure the resource profiling score to adjust how the AI Resource Finder ranks candidates by modifying attribute weights in the CandidateProfileScoringConfigSNC script include.
 -   **[Configure progressive disclosure for the resource board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-progressive-disclosure-rmw.md)**  
-Limit the number of users loaded on the resource board in the Resource Management Workspace to reduce performance impact on instances with large user datasets.
+Configure whether the resource board in the Resource Management Workspace uses progressive disclosure to load users incrementally or loads all 200 users at once.
 
 **Parent Topic:**[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
 

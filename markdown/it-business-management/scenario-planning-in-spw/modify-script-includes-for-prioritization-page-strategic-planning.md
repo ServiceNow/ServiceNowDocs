@@ -40,7 +40,7 @@ Role required: admin
 
 ## What to do next
 
-[Create new highlighted values for Prioritization columns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
+[Customize highlighted values for Prioritization columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
 
-**Parent Topic:**[Customizing highlighted fields on Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
+**Parent Topic:**[Customize highlighted fields on Prioritization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
 

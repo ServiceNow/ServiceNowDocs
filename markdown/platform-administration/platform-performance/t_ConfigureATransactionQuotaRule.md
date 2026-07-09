@@ -58,5 +58,5 @@ Before setting transaction quotas, navigate to **All** &gt; **User Administratio
 **Related topics**  
 
 
-[Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md)
+[Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/t_optimizeWidgetRenderingTime.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -98,5 +98,5 @@ The insights are generated for the following categories for a portfolio plan:
 
 ## What to do next
 
-To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View portfolio insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/view-portfolio-insights.md).
+To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/view-portfolio-insights.md).
 

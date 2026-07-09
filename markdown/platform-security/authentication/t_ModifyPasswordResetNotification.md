@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Password Reset, Local authentication, Authentication, Access Management]
+breadcrumb: [Password Reset, Local authentication, Access Management]
 ---
 
 # Modify the Password Reset notification email text
@@ -22,7 +22,7 @@ Role required: password\_reset\_admin
 
 ## About this task
 
-This process is relevant only if users are [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_SubscriptionBasedNotifications.md).
+This process is relevant only if users are [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
 
 ## Procedure
 
@@ -32,6 +32,6 @@ This process is relevant only if users are [Subscription-based notifications](ht
 
 3.  Modify the text of the email in the **What it will contain** section.
 
-    For information on configuring other aspects of the notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/t_CreateANotification.md).
+    For information on configuring other aspects of the notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateANotification.md).
 
 

@@ -24,7 +24,7 @@ Use Enterprise Architecture \(formerly APM\) to gain a comprehensive understandi
 Classifying applications into groups and categories helps your organization track and compare the applications. You can identify relationships and redundancies between the applications more easily. You can also build a complete applications inventory and map the applications to the business functions.
 -   **[Manage the life cycle of a business application - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-app-model-lifecycle.md)**  
 Create or edit the life cycle of a business application to better manage the business application.
--   **[Run a scheduled job to generate an application model for business applications - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-job-gen-model-id-ba.md)**  
+-   **[Generate application models - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-job-gen-model-id-ba.md)**  
 Execute a script to generate the application model for existing business applications. An application model is a structured representation of a business application's components and their relationships and interactions within your application landscape.
 -   **[Add a data classification group - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-data-class-group.md)**  
 Create a data classification group to categorize data classifications.
@@ -34,11 +34,11 @@ Create a data classification to apply it to an information object. Effectively c
 Apply data classification tags to an information object to get better visibility and control over the information objects data.
 -   **[Schedule a data certification task - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/schedule-data-in-business-applications.md)**  
 Keep your business applications inventory up to date by certifying the data in the business applications table periodically. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
--   **[Run audits to determine invalid and missing configuration data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md)**  
+-   **[Run configuration data audits - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md)**  
 Run the scripted audits and desired state audit to determine invalid and missing information in the configuration data. These audits help you find the gaps in business capability, business application, software models, and the life-cycle information.
--   **[Train the similarity solution for Enterprise Architecture to categorize applications while registering - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/similarity-solution-apm.md)**  
+-   **[Train similarity solution to categorize apps - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/similarity-solution-apm.md)**  
 Train the business application similarity definition included within the Predictive Intelligence for Enterprise Architecture to suggest a category for a business application when it is being registered or on-boarded.
--   **[Suggest an application category based on similar business applications - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-piwb-usecase-ba.md)**  
+-   **[Suggest application category from similar applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-piwb-usecase-ba.md)**  
 Use a Predictive Intelligence Workbench guided template that walks you through training the Similar Business Applications solution definition for finding similar business applications and suggesting an application category.
 -   **[Configure script to customize risk calculation - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-risk-bubble.md)**  
 Configure the risk calculation script at the extension points where the risks bubble up to the next level. With such configuration, the risk engine ignores the default logic of risk calculation and looks for the custom logic.
@@ -54,7 +54,7 @@ Enterprise Architecture supports domain separation for managed service providers
 Schedule a job to run at a scheduled time or on a recurring schedule for CMDB query. Ensure to do this action in global scope.
 -   **[Schedule a job to generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/schedule-job-generate-tpm-data.md)**  
 Enable the  **Populate TPM Discovered Technologies and Lifecycles** scheduled job to regularly compute the technology lifecycle risks.
--   **[Run a scheduled job to generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md)**  
+-   **[Generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md)**  
 Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 -   **[Schedule a job to generate TPM technology risk - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/schedule-job-generate-tpm-risk.md)**  
 Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the TPM technology lifecycle risks and populate the result in the TPM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.

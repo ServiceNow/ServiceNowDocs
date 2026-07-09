@@ -29,8 +29,8 @@ ACME comes with two options:
 
 Perform the following tasks to start using ACME:
 
--   [Request new certificate using ACME manual flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow.md)
--   [Request new certificate using ACME automated flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow-dns.md)
+-   [Request certificates using ACME manual DNS challenge flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow.md)
+-   [Request certificates using ACME automated DNS challenge flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow-dns.md)
 -   [Renew certificate using ACME manual flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/renew-certificate-using-acme-automated-flow.md)
 -   [Renew certificate using ACME automated flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/renew-certificate-using-acme-automated-flow-dns.md)
 -   [Revoke certificate using ACME automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.md)

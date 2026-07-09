@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,17 +24,17 @@ Role required: admin
 
 ## About this task
 
-If you are using Knowledge Management within the Customer Service Management \(CSM\) application, you can automatically make knowledge articles public by activating and running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
+If you're using Knowledge Management within the Customer Service Management \(CSM\) application, you can automatically make knowledge articles public by activating and running the Make KM Service Portal Pages Public fix script after you install the Customer Service Management plugin \(com.sn\_customerservice\).
 
-If you are using Knowledge Management as a standalone application, perform the steps in this procedure.
+If you're using Knowledge Management as a standalone application, perform the steps in this procedure.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Pages**.
 
-2.  In the Pages list, search for and select **kb\_home**.
+2.  In the Pages list, search for and open **kb\_home**.
 
-    **Note:** If the application scope isn't set to Knowledge Management - Service Portal, you cannot edit the form and a warning message appears. To make the form editable, click the word **here** at the end of the message.
+    **Note:** If the application scope isn't set to Knowledge Management - Service Portal, you cannot edit the form and a warning message appears. To make the form editable, select the word **here** at the end of the message.
 
 3.  Enable public or external users to view knowledge articles from the Knowledge Management Service Portal.
 
@@ -53,7 +53,7 @@ Make knowledge service portal pages visible to public users
 </td><td>
 
 1.  On the Page form, select the **Public** check box.
-2.  Click **Update**.
+2.  Select **Update**.
 
 
 </td></tr><tr><td>
@@ -62,10 +62,10 @@ Make knowledge service portal pages visible to external users
 
 </td><td>
 
-1.  On the Page form, in the **Roles** field, click the edit user roles icon \[Omitted image "edit-user-roles.png"\] Alt text: Edit User Roles icon..
+1.  On the Page form, in the **Roles** field, select the edit user roles icon
 2.  On the Roles form, move **snc\_external** from the available roles in the **Available** column to the **Selected** column.
-3.  On the Roles form, click **Done**.
-4.  On the Page form, click **Update**.
+3.  On the Roles form, select **Done**.
+4.  On the Page form, select **Update**.
 
 
 </td></tr></tbody>
@@ -75,7 +75,7 @@ Make knowledge service portal pages visible to external users
 
     |Action|Description|
     |------|-----------|
-    |Enable access to the knowledge base for public.|After you set the page to public as described in step 3, ensure that the Cannot Read and Can Read user criteria are not set and the **glide.knowman.block\_access\_with\_no\_user\_criteria** property is set to false for the knowledge bases you want to give access to public users.|
+    |Enable access to the knowledge base for public.|After you set the page to public as described in step 3, configure user criteria for your knowledge bases by navigating to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Knowledge Bases**, and opening the record for each knowledge base. In each record you can use the **Can Read** related list to add the public role.|
     |Enable access to the knowledge base for external users.|After you add the snc\_external role to the page as described in step 3, ensure that external users have read access to the knowledge bases for which you want to give access.|
 
     For more information about providing access to knowledge bases, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/user-access-knowledge.md).

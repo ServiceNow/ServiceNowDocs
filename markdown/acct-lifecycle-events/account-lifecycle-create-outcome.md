@@ -189,10 +189,6 @@ Tracking method for this outcome.-   Manual: Enter the measurement unit and valu
     -   The source and the resolving context tables must be correctly configured. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md).
 
 
-</td></tr><tr><td colspan="2">
-
-\[Omitted image "account-lifecycle-success-obj-mapping.png"\] Alt text: Context engine mapping
-
 </td></tr><tr><td>
 
 Base value

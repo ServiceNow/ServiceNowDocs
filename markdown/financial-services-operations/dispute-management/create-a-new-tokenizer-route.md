@@ -34,7 +34,7 @@ You need to create new connection aliases to third-party services that use our t
 
 2.  Create a Connection &amp; Credential alias for your third-party connection.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connection-alias.md).
 
     You will see records for VROLCardDataSecurity or MastercomCardDataSecurity if Visa Spoke or Mastercard Spoke are installed.
 
@@ -42,7 +42,7 @@ You need to create new connection aliases to third-party services that use our t
 
 4.  In the Related Links section, select **Connections** &gt; **New**.
 
-5.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/create-https-connection.md) to create a new credential record for this connection.
+5.  Follow the steps in [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/create-https-connection.md) to create a new credential record for this connection.
 
     When selecting the type of credentials to create, select the credential type that match the authentication method you defined in our tokenizer service as part of the steps in [Set up connections to the tokenizer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/set-up-outbound-connections.md).
 

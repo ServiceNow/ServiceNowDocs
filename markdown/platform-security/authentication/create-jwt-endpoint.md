@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Access Management]
 ---
 
 # Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)
@@ -113,7 +113,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/building-applications/c_ApplicationAccessSettings.md).
+Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationAccessSettings.md).
 
 </td></tr><tr><td>
 

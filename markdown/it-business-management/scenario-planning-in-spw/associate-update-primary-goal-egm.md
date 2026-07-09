@@ -1,5 +1,5 @@
 ---
-title: Associate or update the primary goal or target for a planning item
+title: Associate or update the primary goal for a planning item
 description: Associate a primary goal or target for the planning items where the items contribute to achieving the goal or target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.html
@@ -7,12 +7,12 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Associate or update the primary goal or target for a planning item
+# Associate or update the primary goal for a planning item
 
 Associate a primary goal or target for the planning items where the items contribute to achieving the goal or target.
 
@@ -37,15 +37,15 @@ After you associate planning items with goals or targets, you can check these re
 
 1.  Open the required planning item form using one of the following options.
 
-<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d191445e115">
+<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d199981e115">
 
 Option
 
-</th><th align="left" id="d191445e118">
+</th><th align="left" id="d199981e118">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d191445e124">
+</th></tr></thead><tbody><tr><td id="d199981e124">
 
 **From the Portfolio Plans tab**
 
@@ -61,7 +61,7 @@ The side panel opens with the **Details** tab.
 
 Alternatively, you can select **Full details** and open the item's record page. Select the **Details** tab from the record page.
 
-</td></tr><tr><td id="d191445e189">
+</td></tr><tr><td id="d199981e189">
 
 **From the Free-form Roadmaps tab**
 

@@ -202,7 +202,7 @@ Source template from which you created a copy of current template.
 
 7.  In the **PDF Template Mappings** related list, define additional PDF field mappings.
 
-    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md) for more information.
+    **Note:** The **PDF Template Mappings** related list is only available for an editable PDF. See [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/edit-pdf-mappings.md) for more information.
 
 8.  Navigate to **Decision Management** &gt; **Decision Builder**.
 

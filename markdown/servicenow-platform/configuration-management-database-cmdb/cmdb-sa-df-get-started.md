@@ -28,7 +28,7 @@ Role required: sn\_cmdb\_admin
 
 When you install or upgrade CMDB success advisor, the **CMDB Advisor - Auto Setup** on-demand scheduled job can automatically configure the Data Foundations advisor dashboard if all eligibility conditions are met. Open the CMDB success advisor landing page to confirm the dashboard setup state before proceeding manually.
 
-For more information on eligibility conditions and the auto-setup process, see [Automatic dashboard setup in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
+For more information on eligibility conditions and the auto-setup process, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
 
 ## Manual setup
 

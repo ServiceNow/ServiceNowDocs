@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 10
+reading_time_minutes: 9
 breadcrumb: [Using Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -96,7 +96,7 @@ Configuration item
 
 </td><td>
 
-JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see [Configure pop-ups on read-only fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/ai-platform-administration/c_ReferenceIcon.md) . Click \[Omitted image "alert-dependency-view-icon.png"\] Alt text: Dependency view icon to open the alert in dependency view.
+JSON string that represents a configuration item. For example, `{"name":"SAP ORA01","type":"Oracle"}`. The CI identifier that generated the event appears in the **Additional information** field. Maximum length: 1000 characters. Note: Reference pop-ups and click-throughs are hidden by default for read-only fields. For **Configuration item** and other read only fields, you can optionally change the read-only setting. For more information, see [Configure pop-ups on read-only fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ReferenceIcon.md) . Click \[Omitted image "alert-dependency-view-icon.png"\] Alt text: Dependency view icon to open the alert in dependency view.
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ You can respond to the alert in the following ways:
 |------|-----------|
 |Submit|Save the modifications that were made to the form and return to the **Alerts** list.|
 |Acknowledge the alert.|Click **Acknowledge**. If the alert is reopened, this button reappears so you can reacknowledge the alert.|
-|Create an incident.|Click **Create incident**. For more information, see [Create incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md).|
+|Create an incident.|Click **Create incident**. For more information, see .|
 |If Security Incident Response is activated, create a security incident response.|Click **Create Security Incident**.|
 |Designate that the alert is in maintenance.|Select the **Maintenance** check box. For more information, see [View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewAlertmaintenance.md).|
 |Close the alert.|Click **Close**. For more information, see [Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCloseAlert.md).|
@@ -307,8 +307,6 @@ You can view alerts that are specifically in the flapping state.
 The **Maintenance** status indicates that the CI is under maintenance. For example, there is a software upgrade, and the issues can result from that activity, therefore all maintenance alerts are discarded.
 -   **[Collaborate from within an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/em-collaborate-from-alert.md)**  
 You can collaborate with colleagues and write work notes while working in an alert.
--   **[Create incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md)**  
-When an alert must be escalated and assigned to someone who can resolve the underlying issue, you can open an incident.
 -   **[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)**  
 You can manually place any alert into maintenance to hide it from the Alerts list and Agent Workspace.
 -   **[Alert insight information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-insight-information.md)**  
@@ -321,5 +319,5 @@ In an alert, use the `Quick Response` feature to apply remediation to the alert 
 **Related topics**  
 
 
-[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
+[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/c_ScIncdUseAlrts.md)
 

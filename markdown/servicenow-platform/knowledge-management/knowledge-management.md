@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,18 +41,6 @@ The ServiceNow® Knowledge Management \(KM\) application enables the sharing of 
 </td><td>
 
 [Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Platform Analytics Solutions and Demand Insights dashboards to improve your business processes and practices
-
-</td></tr><tr><td>
-
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/exploring-knowledge-center.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

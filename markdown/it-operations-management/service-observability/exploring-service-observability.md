@@ -7,8 +7,8 @@ release: zurich
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-06-12"
+reading_time_minutes: 6
 breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -27,12 +27,15 @@ Service Observability supports the following observability vendors:
 -   Cisco ThousandEyes synthetic tests
 -   Datadog
 -   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
 -   Prometheus on-premise
 -   SolarWinds on-premise
 -   Splunk Observability and logs from Splunk Enterprise
 -   Zabbix on-premise
+
+Service Observability also supports MetricBase as a data source. For setup instructions, see [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md).
 
 Service Observability supports the following databases:
 
@@ -64,9 +67,7 @@ System admin
 
 </td><td>
 
-Version 1.5 only.
-
- System admins configure users and teams, register services to be monitored, connect Service Observability to observability vendors, and then map those services to that data. They can also view the data in the SOW
+System admins configure users and teams, register services to be monitored, connect Service Observability to observability vendors, and then map those services to that data. They can also view the data in the SOW
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Service Observability admin
 
 </td><td>
 
-Version 1.6.x and later.Service Observability admins can configure users and teams, connect Service Observability to observability vendors, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
+Service Observability admins can configure users and teams, connect Service Observability to observability vendors, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ See Service Observability data as part of Incident Management workflows
 
 </td><td>
 
-[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md)
+[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/dex-so-metric-views-investigate-tab.md)
 
 </td><td>
 

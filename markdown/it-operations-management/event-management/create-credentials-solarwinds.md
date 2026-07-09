@@ -18,6 +18,8 @@ Create a Basic Auth credential in ServiceNow to store the SolarWinds user name a
 
 ## Before you begin
 
+Confirm you have a local SolarWinds Orion account for Basic authentication \(username + password\) with rights to query the SolarWinds Information Service \(SWIS\) REST API. Create this account in the Orion Web Console; it is the account ServiceNow uses to poll alerts.
+
 -   Role required: evt\_mgmt\_admin
 -   Make sure that you have a SolarWinds account with access to the SolarWinds API.
 
@@ -51,5 +53,5 @@ The credential for use with the SolarWinds monitor connector is created.
 **Related topics**  
 
 
-[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/connections-and-credentials/r-credentials.md)
+[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r-credentials.md)
 

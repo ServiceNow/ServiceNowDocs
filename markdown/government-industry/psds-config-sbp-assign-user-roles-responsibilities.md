@@ -20,7 +20,7 @@ Assign roles to members of your benefits agency Social Benefits Playbook applica
 
 There are a few guidelines when assigning roles to users:
 
--   Determine the roles who would be working on the benefit cases for the agency, and what user would do what. For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and []()
+-   Determine the roles who would be working on the benefit cases for the agency, and what user would do what. For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md)
 -   Create as many users as needed in your organization.
 
 Role required: admin
@@ -56,5 +56,5 @@ To create a user assignment group:
 8.  Add the desired roles to the group.
 9.  Select **Save**.
 
-For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and []().
+For more information on the roles available in Social Benefits Playbook and to determine which makes sense for each user, see [Social Benefits Playbook roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/roles-installed-with-public-sector-digital-services.md) and [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-sbp-personas.md).
 

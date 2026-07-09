@@ -58,7 +58,7 @@ You must run the following scheduled jobs to populate the TPM and TRM data in EA
 
     **Note:** The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.
 
-    For instructions, see [Run a scheduled job to generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md). For updating the TPM data for a selected business application, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md).
+    For instructions, see [Generate TPM lifecycle data - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.md). For updating the TPM data for a selected business application, see [Update TPM data for business applications or services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md).
 
 -   Populate TRM technical debts in the EA Workspace
 

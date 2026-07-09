@@ -18,5 +18,5 @@ When deploying the Agent Client Collector, perform deployment and management tas
 
 Endpoint deployment connects agents directly to the ServiceNow® cloud through ITOM Cloud Services \(ICS\). Agents on laptops, remote offices, and distributed sites reach ICS over the internet using a secure connection, without a MID Server. ServiceNow® manages the infrastructure and issues certificates automatically.
 
-Choose endpoint deployment when your agents operate beyond the data center, where maintaining MID Servers isn't practical. Digital End-User Experience \(DEX\) requires this architecture, and Agent Client Collector for Visibility - Content \(ACC-VC\) supports it in specific use cases.
+Choose endpoint deployment when your agents operate beyond the data center, where maintaining MID Servers isn't practical. Digital End-User Experience \(DEX\) requires this architecture, and Agent Client Collector for Visibility Content \(ACC-VC\) supports it in specific use cases.
 

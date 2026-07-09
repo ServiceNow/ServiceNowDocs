@@ -21,11 +21,11 @@ Employee Slate replaces menu-driven navigation with a chat-first interface. Empl
 
 ## Conversation-first
 
-The home page features a prominent AI-powered chat and search bar. Employees interact with the chat in natural language. When employees start typing, the bar expands into a full-page conversation view. The view is powered by Moveworks or Now Assist Chat. The view answers questions, submits requests, and surfaces relevant content.
+The home page features a prominent AI-powered chat and search bar. Employees interact with the chat in natural language. When employees start typing, the bar expands into a full-page conversation view. The view is powered by Moveworks or Now Assist Chat. The view displays answers, processes requests, and surfaces relevant content.
 
 ## Conversation-everywhere
 
-The chat assistant follows employees across every page in Employee Slate. Employees open the chat from the home page, the inbox, the canvas, the org chart, or any other page. The assistant retains the active conversation context across pages. Employees continue any task without restarting the chat.
+The chat assistant follows employees across every page in Employee Slate. Employees open the chat from the **Home**, the **Inbox**, the **Canvas**, the **Org Chart**, or any other page. The assistant retains the active conversation context across pages. Employees continue any task without restarting the chat.
 
 ## Interactive split view
 
@@ -44,7 +44,7 @@ The full-page search expands the chat into a dedicated workspace. Employees see 
 
 ## Persistent side navigation
 
-The persistent side navigation menu provides quick access to core areas of Employee Slate from any page. The menu lists the home page, inbox, canvas, org chart, and other primary destinations. The menu stays visible during chat and split-view sessions. Employees switch context with one selection.
+The persistent side navigation menu provides quick access to core areas of Employee Slate from any page. The menu lists the **Home**, **Inbox**, **Canvas**, **Org Chart**, and other primary destinations. The menu stays visible during chat and split-view sessions. Employees switch context with one selection.
 
 ## Follow-up chats
 

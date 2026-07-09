@@ -147,7 +147,7 @@ Discover and Store Data
 Finds the data from the server and then updates the records in the Application, Collection, and Deployment tables.
 
 </td></tr></tbody>
-</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
+</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application]() is installed.
 
 ## Spoke actions
 
@@ -259,7 +259,7 @@ Retrieves the MECM Script Execution Response from the MECM server.
 
 </td></tr><tr><td rowspan="4">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application]() is installed.
 
 </td><td>
 
@@ -472,7 +472,7 @@ The MECM spoke adds the MECM application to your instance. The application inclu
 |Deployments|Displays the list of deployments from the Microsoft Endpoint Configuration Manager server.|Deployment \[sn\_ms\_epcfgmgr\_spk\_deployment\]|
 |Collections|Displays the list of collections from the Microsoft Endpoint Configuration Manager server.|Collection \[sn\_ms\_epcfgmgr\_spk\_collection\]|
 
-**Note:** These modules are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/csd-app-2.md) is installed.
+**Note:** These modules are available only when the [Client Software Distribution 2.0 application]() is installed.
 
 ## Connection and credential alias requirements
 
@@ -482,7 +482,7 @@ For information about setting up the spoke, see [Configure Microsoft Endpoint Co
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/mid-server-landing.md).
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

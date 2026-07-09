@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ex-create-rule.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -34,7 +34,7 @@ New rules can only be created from context records.
 
 4.  In the **Name** field, enter `Active rule`.
 
-5.  In the **Roles** field, select the Edit User Roles \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit User Roles icon icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
+5.  In the **Roles** field, select the Edit User Roles icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
 
     The selected user roles can see recommendations for this rule.
 

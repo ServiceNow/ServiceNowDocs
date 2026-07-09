@@ -19,7 +19,7 @@ Allocate, manage, and approve budget for your planning items. Lean budgeting ena
 ## Before you begin
 
 -   As an Admin, enable the property to work on budgeting. For more information, see [Enable financial budget allocation for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md).
--   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level to allocate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
+-   As an Admin, configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
 -   Role required: it\_portfolio\_manager
 
 ## Procedure
@@ -30,13 +30,13 @@ Allocate, manage, and approve budget for your planning items. Lean budgeting ena
 
 3.  Select the **Financials** tab.
 
-4.  Enable the **Budget allocation** toggle \(\[Omitted image "fin-budget-allocation-toggle.png"\] Alt text: Budget allocation toggle enabled to view budget.\).
+4.  Use the Display mode list and select **Budget allocation**.
 
-5.  You can manage the budget by one of the following ways for the selected time scale at monthly, quarterly, or yearly level.
+5.  Manage budget using one of the following ways for the selected time scale at monthly, quarterly, or yearly level.
 
     -   Double-click each cell in the Budget column to manually enter the value.
-    -   Select **Copy cost as budget** from the Budget column options to copy the EAC as budget.
-    You can always reforecast the budget for each cost type using the in-grid editing feature even if the EAC is copied as budget.
+    -   Select **Copy cost as budget** from the Budget column options to copy Forecast value as budget.
+    You can edit the budget values using the in-grid editing feature after copying Forecast to budget.
 
     **Note:** Unapproved budget values are indicated with \[Omitted image "fin-copy-budget-icon.png"\] Alt text: Tick mark in a circle representing the unapproved budget icon.
 

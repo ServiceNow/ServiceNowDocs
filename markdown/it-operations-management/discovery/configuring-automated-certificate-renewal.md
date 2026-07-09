@@ -24,5 +24,5 @@ Configuring for automated certificate renewal involves the following steps:
 
 1.  [Configure your MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
 2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
-3.  [Configure System Properties for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md). This step is optional if you use the Now Assist certificate renewal AI agent.
+3.  [Configure automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md). This step is optional if you use the Now Assist certificate renewal AI agent.
 

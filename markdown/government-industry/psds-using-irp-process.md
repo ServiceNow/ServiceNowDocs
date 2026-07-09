@@ -45,13 +45,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
     A case task is now created and assigned to the Legal Review assignment group for approval. If the uploaded documents are rejected during the legal review, you may need to make changes and request a review again or move the case directly to the Decision stage.
 
-    **Note:** A legal review group must already have been created. For more information on how to configure legal assignment groups for use with Information Request Playbook, see []().
+    **Note:** A legal review group must already have been created. For more information on how to configure legal assignment groups for use with Information Request Playbook, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
 
 2.  After the documents have been approved by the legal review group, document the work done in the work notes, then select **Send for Final Review**.
 
     The case is moved to the Final Review activity, where the documents and details of the request are reviewed by the Final Review Team assignment group.
 
-    **Note:** A final review group must already have been created. For more information on how to configure review assignment groups for use with Information Request Playbook, see []().
+    **Note:** A final review group must already have been created. For more information on how to configure review assignment groups for use with Information Request Playbook, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
 
 3.  After the documents have been approved by the Final Review Team, document the work done in the work notes and select **Move to Decision**.
 

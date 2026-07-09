@@ -25,13 +25,13 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "image.erp-systems-icon-sidebar"\] Alt text: in the side panel.
 
 3.  Open a system.
 
 4.  Select the **RFC heartbeats** or **HTTP heartbeats** tab.
 
-    \[Omitted image "erpc-system-rfc-heartbeat-ys2.png"\] Alt text: Zero Copy Connector for ERP system record with HTTP heartbeats tab displayed.
+    \[Omitted image "image.erpc-system-rfc-heartbeat-ys2"\] Alt text: Zero Copy Connector for ERP system record with HTTP heartbeats tab displayed.
 
     View information about the heartbeats, including updated date and time, and status. If there's an error, the error text is displayed and a link to a knowledge base article \(if available\) is provided. For more information, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 

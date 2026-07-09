@@ -7,8 +7,8 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
@@ -66,20 +66,6 @@ HR cases fulfilled by lifecycle events. For more information, see [Lifecycle eve
 
 </td></tr><tr><td>
 
-All ER cases
-
-</td><td>
-
-The following categories of ER cases are displayed:-   **Assigned to me**: List of ER cases assigned to you.
--   **Open**: List of all open ER cases.
--   **Closed**: List of all closed ER cases.
--   **All**: All ER cases.
-
-For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
-
-
-</td></tr><tr><td>
-
 Other
 
 </td><td>
@@ -89,14 +75,7 @@ Hr cases in the following categories:-   HRIT cases
 -   Talent management cases
 -   Total rewards cases
 -   Workforce administration cases
-
-</td></tr><tr><td>
-
-Interactions
-
-</td><td>
-
-All interactions. For more information, see [Using interactions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.md).
+-   Employee relations cases
 
 </td></tr><tr><td>
 
@@ -147,5 +126,5 @@ Delegation
 Cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
 </td></tr></tbody>
-</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.md). For general information on using lists, see [Using lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-user-experiences/list-menu.md).
+</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.md).
 

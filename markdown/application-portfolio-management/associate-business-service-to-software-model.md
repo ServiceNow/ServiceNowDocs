@@ -1,5 +1,5 @@
 ---
-title: Associate an application service to a software model - Legacy
+title: Associate application service to software model - Legacy
 description: Business applications have multiple instances such as development, QA, and production. Instances are nothing but application services. Application services must be associated with software models \(to the respective full versions\) to know the risk of the application service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/associate-business-service-to-software-model.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Associate an application service to a software model - Legacy
+# Associate application service to software model - Legacy
 
 Business applications have multiple instances such as development, QA, and production. Instances are nothing but application services. Application services must be associated with software models \(to the respective full versions\) to know the risk of the application service.
 

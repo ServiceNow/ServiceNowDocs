@@ -35,5 +35,5 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 Operational resource assignment is created. You can navigate to **All** &gt; **Resource Assignment** &gt; **Operational Resource Assignments** view the list of operational resource assignments.
 
-**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

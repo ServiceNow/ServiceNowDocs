@@ -7,7 +7,7 @@ release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Appointment booking configuration, Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Configure scheduled appointment reminders for Walk-up Experience users. Reminder
 
 ## Before you begin
 
-Role required: admin or sn\_csm\_walkup.walkup\_admin
+Role required: sn\_csm\_walkup.walkup\_admin
 
 ## About this task
 
@@ -30,9 +30,9 @@ For using appointment booking reminders, you must activate the **Appointment Boo
 
 2.  Search for **Appointment Booking Reminders** by name and click to open.
 
-3.  Click the **Active** field to activate the scheduled job.
+3.  Select the **Active** field to activate the scheduled job.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 5.  To add the **Appointment reminder** field to the **Appointment Booking Service Configuration** form, navigate to **Walk-up Experience** &gt; **Administration** &gt; **Appointment Configurations**.
 
@@ -40,11 +40,11 @@ For using appointment booking reminders, you must activate the **Appointment Boo
 
     The system opens an **Appointment Booking Service Configuration** form.
 
-7.  Click the menu button \( \[Omitted image "Form\_MenuIcon.png"\] Alt text: Menu icon.\) and scroll to **Configure** &gt; **Form Layout**.
+7.  Select the menu button and then select **Configure** &gt; **Form Layout**.
 
 8.  Select **Appointment reminder** from the **Available** list and move it to the **Selected** list using the add button.
 
-9.  Click **Save**.
+9.  Select **Save**.
 
     The **Appointment Booking Service Configuration** form displays with the **Appointment reminder** field.
 
@@ -52,6 +52,6 @@ For using appointment booking reminders, you must activate the **Appointment Boo
 
     The hour/hours you choose represents the amount of time before a scheduled appointment that you want to send a reminder for. For example, two hours before a scheduled appointment.
 
-11. Click **Update** to add the appointment reminder configuration.
+11. Select **Update** to add the appointment reminder configuration.
 
 

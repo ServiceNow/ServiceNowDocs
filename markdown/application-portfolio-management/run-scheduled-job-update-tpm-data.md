@@ -1,5 +1,5 @@
 ---
-title: Run a scheduled job to generate TPM lifecycle data - Legacy
+title: Generate TPM lifecycle data - Legacy
 description: Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/run-scheduled-job-update-tpm-data.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Run a scheduled job to generate TPM lifecycle data - Legacy
+# Generate TPM lifecycle data - Legacy
 
 Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 

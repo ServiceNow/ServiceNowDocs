@@ -49,15 +49,15 @@ Role required: admin
 
 1.  Access the archive rule that you want to stop in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d191361e185">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d218674e185">
 
 Option
 
-</th><th align="left" id="d191361e188">
+</th><th align="left" id="d218674e188">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191361e194">
+</th></tr></thead><tbody><tr><td id="d218674e194">
 
 **Using a data management policy**
 
@@ -68,7 +68,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to stop.
 
 
-</td></tr><tr><td id="d191361e227">
+</td></tr><tr><td id="d218674e227">
 
 **Using the Archive Rules module**
 
@@ -101,15 +101,15 @@ Role required: admin
 
 1.  Navigate to the archived record that you want to restore in one of the following ways.
 
-<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d191361e368">
+<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d218674e368">
 
 Option
 
-</th><th align="left" id="d191361e371">
+</th><th align="left" id="d218674e371">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191361e377">
+</th></tr></thead><tbody><tr><td id="d218674e377">
 
 **Using a data management policy**
 
@@ -122,7 +122,7 @@ Steps
 5.  In the Archive Log related list, select the archived record that you want to restore.
 
 
-</td></tr><tr><td id="d191361e416">
+</td></tr><tr><td id="d218674e416">
 
 **Using the Archive Log module**
 

@@ -14,7 +14,7 @@ breadcrumb: [Supported integration interfaces, Integration options, Integration 
 
 You can add a ServiceNow login link to your intranet.
 
-To deliver ServiceNow content from a web page, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
+To deliver ServiceNow content from a web page, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_ServicePortal.md).
 
 **Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/r_SupportedIntegrationInterfaces.md)
 

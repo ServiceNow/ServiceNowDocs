@@ -25,5 +25,5 @@ To enable the solution plugin for Discovery, an admin can navigate to **System D
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

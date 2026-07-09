@@ -31,7 +31,7 @@ The user role determines which certification tasks are included in the dashboard
 
 Navigate to either workspace:
 
--   Navigate to **Workspaces** &gt; **CMDB Workspace**, then select **My Work** in the CMDB Workspace menu bar. In the My tasks section, select the Certification tasks tab.
+-   Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the Home view, select the **Data Certification Dashboard** quick link.
 -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification**.
 
 ## Reviewing certification tasks

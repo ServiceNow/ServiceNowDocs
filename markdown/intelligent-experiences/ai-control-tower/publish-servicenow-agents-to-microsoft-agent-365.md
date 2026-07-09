@@ -9,6 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 1
+keywords: [generative AI]
 breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -18,7 +19,7 @@ Make ServiceNow agents available in Microsoft Agent 365 so end users can discove
 
 ## Before you begin
 
-Role required: AI steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
@@ -26,7 +27,7 @@ Role required: AI steward
 
 2.  Open an asset from the list.
 
-    **Note:** Verify that the asset’s
+    **Note:** Confirm that the asset meets the following criteria:
 
     -   Lifecycle Phase is deployed
     -   Lifecycle State is deployed
@@ -40,7 +41,7 @@ Role required: AI steward
 
 5.  Select Publish.
 
-    **Note:** A banner displays ‘Successfully initiated the publish to Microsoft Agent 365’ and the Deployment state changes to Deployed.
+    **Note:** A banner displays 'Successfully initiated the publish to Microsoft Agent 365' and the Deployment state changes to Deployed.
 
 
 ## Result

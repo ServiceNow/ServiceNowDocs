@@ -16,7 +16,7 @@ breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer
 
 Configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 
-Configure chat recommendation skill 
+\[Omitted video\] Description: Configure chat recommendation skill
 
 ## Before you begin
 

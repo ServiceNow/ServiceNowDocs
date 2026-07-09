@@ -1,6 +1,6 @@
 ---
 title: Configure progressive disclosure for the resource board
-description: Limit the number of users loaded on the resource board in the Resource Management Workspace to reduce performance impact on instances with large user datasets.
+description: Configure whether the resource board in the Resource Management Workspace uses progressive disclosure to load users incrementally or loads all 200 users at once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/config-progressive-disclosure-rmw.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Resource Management Workspace, Project Portfolio Managem
 
 # Configure progressive disclosure for the resource board
 
-Limit the number of users loaded on the resource board in the Resource Management Workspace to reduce performance impact on instances with large user datasets.
+Configure whether the resource board in the Resource Management Workspace uses progressive disclosure to load users incrementally or loads all 200 users at once.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-The resource board in Resource Management Workspace loads up to 200 users by default. If your organization manages many users and the board is experiencing performance impact, set the **com.snc.resource\_management.progressive\_disclosure** property to **false** to reduce the initial load to 100 users.
+The resource board in Resource Management Workspace uses progressive disclosure by default to load users incrementally and reduce performance impact. Setting the **com.snc.resource\_management.progressive\_disclosure** property to **false** disables this behavior and loads all 200 users at once, which may affect performance on instances with large user datasets.
 
 ## Procedure
 
@@ -33,14 +33,14 @@ The resource board in Resource Management Workspace loads up to 200 users by def
 
 3.  In the Value field, enter **false**.
 
-    Setting the value to **false** limits the resource board to load 100 users. The default value is **true**, which loads up to 200 users.
+    Setting the value to **false** disables progressive disclosure and loads all 200 users at once, which may be slower on instances with large user datasets. The default value is **true**, which enables progressive disclosure for faster initial load.
 
 4.  Select **Update**.
 
 
 ## Result
 
-The resource board loads a maximum of 100 users. To restore the default behavior and load up to 200 users, set the property value back to **true**.
+The resource board loads all 200 users at once. To restore progressive disclosure and improve load performance, set the property value back to **true**.
 
 **Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/configure-rmw.md)
 

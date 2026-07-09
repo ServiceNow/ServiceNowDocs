@@ -23,12 +23,12 @@ Employee Slate surfaces all relevant platform updates in a single notification t
 
 The notification system delivers timely information about events requiring your attention or awareness. Notifications are grouped and prioritized to reduce noise while important information reaches you promptly.
 
-You can deliver notifications on portal and in-app in mobile web.
+Employee Slate delivers notifications on the portal and in the mobile web app.
 
--   **Notifications**: Left navigation shows the count of new notifications. Select the bell icon to open the notification tray and view the list. New notifications appear with a green dot and highlighted background for quick identification of unread items.
+-   **Notifications**: Left navigation shows the count of new notifications. Select the **Bell** icon to open the notification tray and view the list. New notifications appear with a green dot and highlighted background for quick identification of unread items.
 -   **Grouped notifications**: Track and review multiple updates. Employee Slate groups the unread notifications into a single entry in the tray. The grouped entry uses aggregated template to show the most recent update with a summary of earlier activity.
 -   **Mark all as read**: Clear the notification count without opening each notification. Select **Mark all as read** to move all notifications to the **Opened** state. Opening the tray marks all notifications as viewed.
--   **Navigate to the source record**: Select any notification in the tray to open the related record or page. Examples include an approved request, an HR case needing follow-up, or an incident with a new comment. You don't search for the record or navigate through menus. The notification takes you directly to the location where you can review details and respond.
+-   **Navigate to the source record**: Select any notification in the tray to open the related record or page. Examples include an approved request, an HR case needing follow-up, or an incident with a new comment. You don't search for the record or navigate through menus. Selecting a notification opens the location where you can review details and respond.
 
 ## Notification states
 
@@ -36,7 +36,7 @@ Every notification moves through three states that reflect how you have interact
 
 -   **__New__**
 
-    A notification that you have not yet seen. New notifications appear with a green dot and contribute to the count on the bell icon.
+    A notification that you have not yet seen. New notifications appear with a green dot and contribute to the count on the **Bell** icon.
 
 -   **__Viewed__**
 
@@ -68,5 +68,5 @@ Employee Slate for Now Assist includes 14 preconfigured notification use cases. 
 
 ## Moveworks notifications in Employee Slate
 
-In Moveworks deployments, administrators configure notifications on the Moveworks platform instead of through Employee Slate Admin Console. Moveworks notifications appear in Employee Slate persistent navigation alongside platform-triggered notifications. You see all your alerts in one place. Selecting a Moveworks notification brings the related update into Moveworks AI Assistant context. You can ask follow-on questions or take direct action from the assistant.
+In Moveworks deployments, administrators configure notifications on the Moveworks platform instead of through **Employee Slate Admin Console**. Moveworks notifications appear in Employee Slate persistent navigation alongside platform-triggered notifications. You see all your alerts in one place. Selecting a Moveworks notification brings the related update into Moveworks AI Assistant context. You can ask follow-on questions or take direct action from the assistant.
 

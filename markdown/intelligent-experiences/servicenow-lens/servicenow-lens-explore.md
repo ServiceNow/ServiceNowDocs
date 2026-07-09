@@ -1,6 +1,6 @@
 ---
 title: Exploring ServiceNow AI Lens
-description: ServiceNow AI Lens is a ServiceNow Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and help improve your workflows.
+description: ServiceNow AI Lens is a ServiceNow Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-explore.html
 release: zurich
@@ -15,13 +15,13 @@ breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
 
 # Exploring ServiceNow AI Lens
 
-ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and help improve your workflows.
+ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and take action—such as automatically filling in forms with scanned information—to help improve your workflows.
 
 ## ServiceNow AI Lens overview
 
 Get an overview of the capabilities and a few use cases of ServiceNow AI Lens.
 
-Overview of the ServiceNow AI Lens capabilities and use cases 
+\[Omitted video\] Description: Overview of the ServiceNow AI Lens capabilities and use cases
 
 The ServiceNow AI Lens application extracts and analyzes data from screens or the screenshots of documents such as a scanned handwritten note or an email that you capture or files that you upload. ServiceNow AI Lens is integrated with the ServiceNow® forms so that you can create or update forms on the ServiceNow instance by auto-filling data.
 
@@ -31,7 +31,7 @@ You can leverage Lens actions to customize the Lens behavior by providing defaul
 
 Extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and autofill catalog item forms in the Service Portal. For example, autofill a new vendor onboarding form by extracting key details such as vendor name, address, contact email, and banking information from multiple artifacts, including Excel files, emails, images, and PDF documents. For more information, see [Autofill catalog item forms on Service Portal using ServiceNow AI Lens.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md)
 
-Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see [Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/mobile-platform/servicenow-lens-mobile.md)
+Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see [Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/servicenow-lens-mobile.md)
 
 Get started with ServiceNow AI Lens directly from your browser - no downloading or installation required orby downloading and installing the desktop application for Windows and macOS
 
@@ -54,6 +54,8 @@ Admins can enable the ServiceNow AI Lens skill in the Now Assist Admin console. 
 -   Preview the extracted data.
 -   Provide instructions to extract data in a specific way or to get a specific output.
 -   Capture multiple screenshots to gather insights from multiple images.
+
+Beyond individual user actions, the ServiceNow AI Lens skill can be used by the AI Agents to incorporate any of these capabilities—data extraction, form auto-filling, and visual analysis—as part of a larger AI Agent workflow or automated workflow step.
 
 To view the procedure to enable the ServiceNow AI Lens skill, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
 

@@ -18,6 +18,8 @@ A list of Now Assist applications that come with Query Generation and the tables
 Query Generation and the applications that use it to generate data visualizations support these visualization types.
 -   **[Supported query operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/qg-supported-query-operations.md)**  
 The following encoded query operators are supported for creating context objects.
+-   **[Unsupported field types in Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/querygen-unsupported-field-types.md)**  
+Query Generation explicitly does not support some field types.
 -   **[Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/query-generation-logs.md)**  
 Every call to a Query Generator and its results are logged in the Query Generation Log \[sn\_query\_gen\_log\] table.
 -   **[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/tables-sched-jobs-query-gen.md)**  

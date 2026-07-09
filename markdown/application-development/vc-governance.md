@@ -21,7 +21,7 @@ Governance addresses the following:
 -   Quality assurance: Automated code is validated through testing and review.
 -   Visibility and control: Prevents shadow IT and enforces lifecycle transparency.
 
-ServiceNow embeds security and governance directly into the agentic development workflow, so AI-generated applications meet enterprise standards by default. Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's vibe coded and developed with AI on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
+ServiceNow embeds security and governance directly into the agentic development workflow, so AI-generated applications meet enterprise standards by default. Build Agent automatically generates Access Control Lists \(ACLs\) that enforce role-based access, validates scripts for security vulnerabilities, and applies code optimization during generation. Every app that's developed agentically on the ServiceNow AI Platform includes audit trails, security controls, and compliance checks without requiring explicit prompts for these features.
 
 **Note:** Build Agent requires the admin role.
 
@@ -52,7 +52,7 @@ From the AI asset record in AI Control Tower, stewards can see governance health
 
 If your organization uses AI Risk and Compliance, apps built through agentic development can be evaluated against regulatory frameworks such as the NIST AI Risk Management Framework and the EU Artificial Intelligence Act. Risk classification and compliance posture are available on the Risk and Compliance tab of each AI asset record.
 
-For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md).
+For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
 ## Core governance principles
 
@@ -93,16 +93,16 @@ For more information, see [AI Control Tower](https://raw.githubusercontent.com/S
 |Tool|Description|More information|
 |----|-----------|----------------|
 |App Engine Management Center|Governance hub for approvals and monitoring.|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-engine-management-center.md)|
-|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)|
-|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-ai-platform-security/servicenow-vault-landing.md)|
+|AI Control Tower|Monitors AI agent behavior, enforces guardrails, tracks AI-generated code changes, and provides dashboards showing which apps were created by Build Agent, what data they access, and how they comply with organizational policies.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-landing.md)|
+|ServiceNow Vault|Discovers and protects sensitive data across workflows, so AI-generated apps handle confidential information appropriately.|[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/servicenow-vault-landing.md)|
 |ReleaseOps Toolkit|Update set automation and metadata pipelines.|[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/releaseops/releaseops-landing.md)|
 |Automated Test Framework|Automated testing for ServiceNow apps.|[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/automated-test-framework-atf/atf-landing-page.md)|
 |Developer Sandboxes|Develop in a secure, isolated Developer Sandboxes environment.|[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/sandboxes-landing.md)|
-|Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management/knowledge-management.md)|
+|Knowledge Base articles|Data handling and AI usage guidelines.|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/knowledge-management.md)|
 
 ## Governance general guidelines
 
 When using agentic development, prompts should not only describe functionality but also embed governance requirements. This helps generated apps comply with security, compliance, and quality standards.
 
-See [Example prompts for vibe coding and AI-assisted development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
+See [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
 

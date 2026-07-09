@@ -26,7 +26,7 @@ Role required: sn\_pp.admin
 
 2.  Search and select a page to add the prompt widget.
 
-    You can also create a new page and then add the widget. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) and [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
+    You can also create a new page and then add the widget. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/t_ConfigureAPage.md) and [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/service-portal-widgets.md).
 
 3.  Select the **Open in Designer** related link.
 

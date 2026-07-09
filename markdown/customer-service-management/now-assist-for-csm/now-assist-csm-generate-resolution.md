@@ -21,7 +21,7 @@ Generate the resolution notes for a case, propose the resolution to the customer
 
 Watch this video to learn how to generate the resolution notes for a case.
 
-Generate resolution notes for a case 
+\[Omitted video\] Description: Generate resolution notes for a case
 
 ## Before you begin
 

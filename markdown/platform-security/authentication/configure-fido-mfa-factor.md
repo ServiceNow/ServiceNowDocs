@@ -9,7 +9,7 @@ classification: authentication
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [FIDO2 as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [FIDO2 as an MFA factor, MFA factor policies, MFA verification methods, Configure MFA, Multi-factor authentication, Access Management]
 ---
 
 # Configure FIDO2 as an MFA factor

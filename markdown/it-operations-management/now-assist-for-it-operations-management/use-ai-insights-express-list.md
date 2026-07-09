@@ -1,5 +1,5 @@
 ---
-title: Review AI generated alert information and insights in Express List
+title: Review AI-generated alert insights in Express List
 description: Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.html
@@ -12,19 +12,19 @@ reading_time_minutes: 4
 breadcrumb: [Manage alerts autonomously agentic workflow, Use agentic AI, Now Assist for ITOM, IT Operations Management]
 ---
 
-# Review AI generated alert information and insights in Express List
+# Review AI-generated alert insights in Express List
 
 Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 
 ## Before you begin
 
-For this feature, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/install-now-assist-feature-plugins.md).
+For this feature, you must have Now Assist for IT Operations Management \(ITOM\) installed on your instance. For more information about installing Now Assist plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-ai-experiences/define-sec-controls-aw.md).
+[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 \[Optional\] Additional configuration is required for some skills used in the agentic workflow:
 
--   **Observability skills**: Configure the relevant observability skills to surface data from observability tools integrated with Event Management. See .
+-   **Observability skills**: Configure the relevant observability skills to surface data from observability tools integrated with Event Management. See [Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
 -   **Log analytics skills**: Install and configure Health Log Analytics to enable analysis of log analytics alerts. See [Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-configuring.md).
 -   **Service health skill**: Install and configure Service Observability and activate the analyze service health skill to automatically surface insights about service health in an alert. See [Install Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/install-service-observability.md) and [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-health-skill.md) for more information.
 
@@ -58,15 +58,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d122266e277">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d128475e281">
 
 Review AI insights
 
-</th><th align="left" id="d122266e280">
+</th><th align="left" id="d128475e284">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d122266e286">
+</th></tr></thead><tbody><tr><td id="d128475e290">
 
 **Check for the AI Insights badge for alert status**
 
@@ -76,7 +76,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d122266e309">
+</td></tr><tr><td id="d128475e313">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -84,7 +84,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d122266e325">
+</td></tr><tr><td id="d128475e329">
 
 **Filter using AI Insights filter attribute**
 
@@ -92,7 +92,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d122266e344">
+</td></tr><tr><td id="d128475e348">
 
 **Review AI insights in the preview panel**
 
@@ -103,7 +103,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d122266e387">
+</td></tr><tr><td id="d128475e391">
 
 **Review AI Insights in the alert record overview**
 

@@ -18,7 +18,7 @@ Set up RPA Desktop Design Studio to add your ServiceNow RPA Hub instance details
 
 Watch this video to learn about the configuration of RPA Desktop Design Studio.
 
-Setup of RPA Desktop Design Studio application 
+\[Omitted video\] Description: Setup of RPA Desktop Design Studio application
 
 ## Before you begin
 

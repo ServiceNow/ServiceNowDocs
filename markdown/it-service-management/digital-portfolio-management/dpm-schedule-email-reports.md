@@ -20,7 +20,7 @@ Send periodic emails of KPI metrics to the DPM solution owners.
 
 Role required: sn\_dpm.dpm\_admin
 
-Configure the Admin Center and schedule email reports 
+\[Omitted video\] Description: Configure the Admin Center and schedule email reports
 
 ## Procedure
 

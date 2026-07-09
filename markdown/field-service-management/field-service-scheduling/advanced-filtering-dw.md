@@ -18,7 +18,7 @@ You can create your own advanced resource filters in Dispatcher Workspace to mak
 
 ## Before you begin
 
-Filter resources in Dispatcher Workspace 
+\[Omitted video\] Description: Filter resources in Dispatcher Workspace
 
 Role required: wm\_dispatcher.
 

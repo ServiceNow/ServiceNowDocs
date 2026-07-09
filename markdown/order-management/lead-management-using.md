@@ -28,6 +28,16 @@ The Lead Management interface contains the following tabs:
 |[Line items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-line-items-tab.md)|Add different line items to a lead.|
 |[Emails tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-emails-tab.md)|Create emails to communicate with the required stakeholders.|
 
+## Touchpoints and meetings
+
+Use the following tasks to log customer interactions and schedule meetings directly from a lead record.
+
+|Task|Description|
+|----|-----------|
+|Manage touchpoints on a lead|View, create, and delete touchpoints associated with a lead from the touchpoints related list.|
+|Create a touchpoint from a lead|Create a touchpoint to log a customer interaction directly from a lead record.|
+|Schedule a meeting from a lead|Schedule a client meeting directly from a lead record to associate it with the lead.|
+
 -   **[Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-new-lead.md)**  
 Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
 -   **[Update a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-edit-update.md)**  

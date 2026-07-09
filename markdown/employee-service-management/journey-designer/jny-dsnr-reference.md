@@ -31,5 +31,5 @@ The journey template page has information that is useful to the plan configurati
 -   **[Components installed with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/components-installed-with-jny-dsgnr.md)**  
 Several types of components install with the activation of the Journey designer application, including user roles and tables.
 
-**Parent Topic:**[Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
+**Parent Topic:**[Journey designer]()
 

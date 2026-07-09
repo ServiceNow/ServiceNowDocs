@@ -7,7 +7,7 @@ release: zurich
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using chat feature, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the \[Omitted image "icon-inbox.png"\] Alt text: HR Agent WS - Inbox icon inbox icon.
+2.  Select the Inbox icon \(\[Omitted image "icon-inbox.png"\] Alt text: HR Agent WS - Inbox icon\).
 
 3.  From **Status**, select **Available**.
 
@@ -32,7 +32,7 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  From the active chat panel, you can start chatting.
 
-6.  Select the \[Omitted image "quick-action-icon.png"\] Alt text: HR Agent Workspace - Quick action icon quick action icon, or enter a back slash \(/\) in the chat area.
+6.  Select the \[Omitted image "quick-action-icon.png"\] Alt text: HR Agent Workspace - Quick action icon quick action icon, or enter a backslash \(/\) in the chat area.
 
 7.  Select a quick action to quickly create an HR case, show related response templates, transfer chat to another agent, or transfer the chat to another queue.
 
