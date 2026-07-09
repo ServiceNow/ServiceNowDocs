@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-playbook-exp-components.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Playbook Experience Components application on the Servic
 
 ## Version history
 
+-   **Version 29.4.0 - July 2026 \(Australia\)**
+
+    Changed: Increased question character limit for Questionnaires from 50 characters to 500 characters.
+
+-   **Version 28.6.0 - July 2026 \(Zurich\)**
+    -   Changed: Increased question character limit for Questionnaires from 50 characters to 500 characters.
+    -   Fixed: Improved performance and load time of Playbook Experience components.
 -   **Version 29.3.0 - June 2026 \(Australia\)**
     -   Fixed:
         -   The Playbook stage picker header hid stages at 400% browser zoom or 320px viewport width in the CSM/FSM workspace.

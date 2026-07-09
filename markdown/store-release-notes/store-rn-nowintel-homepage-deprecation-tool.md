@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-homepage-deprecation-tool.html
 release: store
 topic_type: reference
-last_updated: "2024-11-07"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Homepage deprecation help tool application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.3 - July 2026**
+
+    Fixed: "Homepages connected to menus/favorites" widgets are not populated with data
 
 -   **Version 2.0.2 - November 2024**
 

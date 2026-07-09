@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-alignment-planner-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Alignment Planner Workspace application on the ServiceNo
 
 ## Version history
 
+-   **Version 8.15.3 - July 2026**
+    -   Fixed:
+        -   Resolved an issue where the Create Demand modal in Portfolio Planning did not work.
+        -   Resolved an issue that prevented creating a portfolio plan with the Planning Item lens when only standard Portfolio Planning was installed.
+        -   Resolved an issue where targets added to a portfolio plan did not reflect correctly in the Financials tab.
+        -   Resolved an issue where status values were incorrectly copied when duplicating planning items.
+        -   Resolved an issue where the Documents tab displayed a blank page in Spanish in Enterprise Agile Planning.
+        -   Resolved a text concatenation issue affecting translated strings in SPM Prioritization.
+        -   Resolved unclear empty-state messaging in the Manage Access modal.
 -   **Version 8.15.0 - June 2026**
     -   New:
         -   Use the Planning item lens to plan, prioritize, and roadmap work directly with planning items, without configuring organization structure, programs, portfolios, or products.

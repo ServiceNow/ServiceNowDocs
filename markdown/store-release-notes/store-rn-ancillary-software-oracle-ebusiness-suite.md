@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ancillary-software-oracle-ebusiness-suite.html
 release: store
 topic_type: reference
-last_updated: "2024-09-10"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow Oracle E-Business Suite Spoke Dependencies in
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.1 - July 2026**
+
+    Patch for Cancel Purchase Order action
 
 -   **Version 1.11.0 - September 2024**
 

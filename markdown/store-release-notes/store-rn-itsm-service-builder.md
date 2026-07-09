@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-service-builder.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Service Builder application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 202607.0.0 - July 2026 \(Zurich+\)**
+    -   Changed: Security Enhancements
+    -   Fixed:
+        -   PRB2039510 - Fixed an issue where clearing the team field values didn't transfer during publishing
+        -   PRB2035654 - Fixed an issue with the tooltip on the lifecycle fields
+        -   PRB1998194 - Fixed an issue that caused cascade deletions of previously draft, now published services when the scheduled job 'asset - create asset delayed sync' ran
 -   **Version 202601.0.1 - March 2026 \(Zurich+\)**
     -   Fixed:
         -   PRB1961526 -The current user was being incorrectly added to the delegate related list on publish

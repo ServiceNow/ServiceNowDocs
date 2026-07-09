@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-reservation-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 57
+last_updated: "2026-07-09"
+reading_time_minutes: 59
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,35 @@ Version history for the Workplace Service Delivery Workplace Reservation Managem
 
 ## Version history
 
+-   **Version 3.5.0 - July 2026**
+    -   Changed: Improve performance of reservation search page
+    -   Fixed:
+        -   Reservations created through Outlook and conflicted with an existing reservation could be indicated as cancelled
+        -   The reservation search could show the previously selected floor when switching between reservable modules
+        -   Past reservations now display consistently in a user's reservation history
+        -   Extra services configured with a record producer now retain the values entered before the reservation is submitted
+        -   Changing reservable modules with different max days in the future could result in employees who cannot select a day in the future
+        -   In some cases, the recurring score was not calculated correctly when a conflict exists in the middle of a planned series
+        -   Previously selected date was displayed when reloading the page, while the map was loading
+        -   It was not possible to reserve space on the Workplace Kiosk using certain date and time formats
+        -   A conflicted reservation could move to a confirmed state after updating the reservation without any changes
+        -   Extra-services handling in the Outlook add-in behaved inconsistently when changing date, time, location, or the all-day setting
+        -   The "To Time" field would not reflect the correct timing when all day is required for a reservable module
+        -   Search result counts were displayed incorrectly after changing the floor
+        -   Push notifications were not sent to attendees when a group reservation got cancelled
+        -   Microsoft Exchange login prompt was not displayed, as required, when using the NowMobile application while reserving spaces
+        -   Min and max duration were not always correctly available within conversational experiences
+        -   Availability checks on department, neighborhood, and more were not always available within conversational experiences
+        -   Employees with Australia/Melbourne timezone and specific date formats could book spaces for future dates via the location directory on NowMobile
+        -   Blocker reservations could get stuck in awaiting approval when approvals were required
+        -   Several design enhancements for recurring reservations, using the Outlook add-in, filter button alignment, and more
+        -   Quick actions and the status badge on the Waitlist Summary page now align correctly on mobile for Confirmed and Queued states
+        -   The right-hand chevron is now visible in the Schedule view of Make a Reservation on mobile browsers
+        -   The reservation page schedule view displayed the date and time in the correct format
+        -   General accessibility improvements for screen readers and other areas
+        -   Improvements to translations when adding attendees, creating a recurring series, selecting the reservable module, and more
+        -   Improvements to translations to the Event Planner in Workplace Central
+        -   Improvements to support ATF tests
 -   **Version 3.4.1 - June 2026**
     -   New: Enable employees to subscribe to a space in case all are available spaces are booked. Space allocation is done based on weight \(priority\) and other factors.
     -   Fixed:

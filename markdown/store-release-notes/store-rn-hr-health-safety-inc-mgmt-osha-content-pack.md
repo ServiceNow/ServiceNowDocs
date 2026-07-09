@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-inc-mgmt-osha-content-pack.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Health and Safety Incident Management OSHA Content Pack 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.3.2 - July 2026**
+
+    Fixed: Date of birth and Date of hire now populate correctly on exported OSHA 301 PDF form.
 
 -   **Version 11.3.0 - June 2026**
 

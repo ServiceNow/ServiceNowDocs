@@ -20,6 +20,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 Version history for Account Lifecycle Events application the on the ServiceNow Store.
 -   **[Configurable Workspace for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-config-workspace-order-mgmt.md)**  
 Version history for the Configurable Workspace for Order Management application on the ServiceNow Store.
+-   **[Customer Discovery Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tmt-customer-discovery-hub.md)**  
+Version history for the ServiceNow® Customer Discovery Hub application on the ServiceNow Store.
 -   **[Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-customer-success-mgmt.md)**  
 Version history for the Customer Success Management application on the ServiceNow Store.
 -   **[Field Service Management for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-fsm-telecom.md)**  

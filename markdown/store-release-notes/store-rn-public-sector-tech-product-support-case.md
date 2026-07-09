@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-tech-product-support-case.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Technology Product Support Case application on the Servi
 
 ## Version history
 
+-   **Version 4.3.6 - July 2026 \(Australia\)**
+    -   This release contains one targeted fix to ensure correct upgrade behaviour on existing instances.
+    -   Form element upgrade-safety fix — Two sys\_ui\_element entries in the case form section now carry the correct INSERT\_OR\_UPDATE action tag, ensuring those records are applied correctly during upgrade rather than being skipped on instances where they already exist.
+-   **Version 4.2.7 - July 2026 \(Zurich\)**
+    -   This release contains one targeted fix to ensure correct upgrade behaviour on existing instances.
+    -   Form element upgrade-safety fix — Two sys\_ui\_element entries in the case form section now carry the correct INSERT\_OR\_UPDATE action tag, ensuring those records are applied correctly during upgrade rather than being skipped on instances where they already exist.
+-   **Version 4.1.7 - July 2026 \(Yokohama\)**
+    -   This release contains one targeted fix to ensure correct upgrade behaviour on existing instances.
+    -   Form element upgrade-safety fix — Two sys\_ui\_element entries in the case form section now carry the correct INSERT\_OR\_UPDATE action tag, ensuring those records are applied correctly during upgrade rather than being skipped on instances where they already exist.
 -   **Version 4.3.2 - June 2026 \(Australia\)**
     -   No new features are being released in this version. This release focuses on platform compliance, security hardening, and quality improvements to keep the application current with the latest platform standards.
         -   Platform compliance — Updates to meet platform-wide security directives including default-deny agentic AI ACLs, cross-scope access enforcement, and CSRF protection on public APIs.

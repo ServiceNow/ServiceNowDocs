@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Health and Safety Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 13.2.2 - July 2026**
+    -   Fixed:
+        -   Corrected hardcoded strings and date/time formats in the Health and Safety Workspace that did not adapt to non-English locales.
+        -   Resolved an issue where "Link Documents" and "Select Documents" action labels appeared untranslated on initial page load.
+        -   Prevented users from creating and linking Health and Safety actions to a restricted incident without the required access permissions.
+        -   Fixed an intermittent issue that prevented incident playbook triggers from firing.
 -   **Version 13.2.0 - June 2026**
     -   New: Contextual Action Planner to create and manage actions in context while reviewing a Health and Safety record
     -   Fixed:

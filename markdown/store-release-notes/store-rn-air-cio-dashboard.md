@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-cio-dashboard.html
 release: store
 topic_type: reference
-last_updated: "2025-12-04"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the CIO Dashboard application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.1.2 - July 2026**
+    -   Fixed:
+        -   Remove deprecated pa\_job indicators from Communities plugin
+        -   Duplicated Change management Indicator
 -   **Version 2.1.1 - December 2025**
     -   Fixed:
         -   Translations issues

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 17
+last_updated: "2026-07-09"
+reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the IT Operations Management Agent Client Collector Framewor
 
 ## Version history
 
+-   **Version 6.6.1 - July 2026**
+    -   New:
+        -   1. ACC-F support for 64-bit Linux Ubuntu with an ARM processor.
+        -   2. ACC-F support for for RHEL 10, Rocky Linux 10, and Oracle Linux 10 operating systems.
+    -   Fix: In the event of a plugin asset validation failure, ACC retrieves the required public certificates from ICS.
 -   **Version 6.5.0 - June 2026**
     -   New:
         -   Installer &amp; Deployment

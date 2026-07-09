@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-content.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 37
 breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ITOM Visibility Content application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.32.2 - July 2026**
+
+    Changed: AWS is updating its account information structure. AWS discovery patterns have been updated accordingly. Upgrade to this release to maintain AWS discovery. For more information, see https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB3120531.
 
 -   **Version 6.32.0 - June 2026**
     -   New:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the AI Case Management application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 22.4.2 - July 2026 \(Australia\)**
+
+    New: Generate responses to assessment questions based on past assessments and reference documentation on AI Case Management.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New: Manage Smart Assessment  templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-safety-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Workplace Service Delivery Workplace Core application on
 
 ## Version history
 
+-   **Version 2.28.5 - July 2026**
+    -   Fixed:
+        -   The clear \(×\) button on the Building field is now reachable as a distinct focus stop for VoiceOver users, improving accessibility for screen reader navigation.
+        -   The location directory legend now displays a color swatch next to every neighborhood, even when more than approximately 145 neighborhoods are configured.
+        -   Users in the Reservation Portal can now only see neighborhoods they are assigned to in the dropdown menu.
 -   **Version 2.28.1 - June 2026**
     -   Fixed:
         -   Long space names could overlap in the user card

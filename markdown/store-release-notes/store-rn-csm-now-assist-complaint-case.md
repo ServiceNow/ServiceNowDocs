@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist-complaint-case.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [ServiceNow Store - Customer Service Management release notes, Servi
 # Now Assist for Complaint Case \(CSM\) release notes
 
 Version history for the ServiceNow® Now Assist for Complaint Case \(CSM\) application on the ServiceNow Store.
+
+-   **Version 2.1.6 - July 2026**
+
+    Changed: No changes to features, version update only.
 
 -   **Version 2.1.5 - June 2026**
 

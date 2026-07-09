@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-cco-dashboard.html
 release: store
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Sto
 Version history for the ServiceNow® CCO Dashboard application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.0.9 - July 2026**
+
+    Fixed: Remove deprecated pa\_jobs indicators for Communities plugin
 
 -   **Version 2.0.8 - December 2025**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist-for-order-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,10 @@ Version history for the ServiceNow® Now Assist for Order Management application
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.2.2 - July 2026**
+    -   Changed:
+        -   The Manage Invoice Operations subflow now runs as the user who initiates the session.
+        -   The subflow has been assigned the interaction\_Agent and sn\_csm\_invoice.writer roles to maintain its ability to update work notes and create interaction-related records.
 -   **Version 2.2.1 - June 2026 \(Zurich\)**
     -   Automate the end-to-end creation, validation, and resolution of order exception cases on the Business Portal for Expedite, Additional Quantity, and Ship to Different Location requests.
     -   Capture customer inputs in the Virtual Agent, extract intent and values inline, validate them against inventory, availability, location, and unit-of-measure rules, and confirm with the customer before acting.

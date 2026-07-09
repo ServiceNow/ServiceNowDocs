@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the CMDB Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.2.2 - July 2026**
+    -   Fixed:
+        -   The 'Edit' button is now enabled when a CMDB Data Manager task contains only one CI to review, allowing users to make necessary edits without restriction.
+        -   The 'Remediate' button on de-duplication tasks is consistently available when accessing the De-duplication dashboard.
+        -   Location hierarchy information is now correctly showing in Conditional Search in Service Graph Workspace, ensuring that users can view and select locations as expected.
 -   **Version 9.2.0 - June 2026**
     -   New:
         -   Data Manager

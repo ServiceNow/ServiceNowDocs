@@ -64,8 +64,8 @@ Version history for the Conversational Appointment Booking application on the Se
 Version history for the Conversational Integration with Apple Messages for Business application on the ServiceNow Store.
 -   **[Conversational Integration with Google Business Messages release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-convo-int-google-msg.md)**  
 Version history for the Conversational Integration with Google Business Messages application on the ServiceNow Store.
--   **[Conversational Integration with Google chat release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-convo-int-google-chat.md)**  
-Version history for the Conversational Integration with Google chat application on the ServiceNow Store.
+-   **[Conversational Integration with Google Chat release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-convo-int-google-chat.md)**  
+Version history for the Conversational Integration with Google Chat application on the ServiceNow Store.
 -   **[Conversational Integration with Line release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-conversational-integration-line.md)**  
 Version history for the Conversational Integration with Line on the ServiceNow Store.
 -   **[Conversational Integration with WhatsApp release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-conversational-int-whatsapp.md)**  
@@ -92,6 +92,8 @@ Version history for the CSM Data Classification application on the ServiceNow St
 Version history for the ServiceNow® CSM Extension for Proxy Contacts application on the ServiceNow Store.
 -   **[CSM Manager Dashboard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-manager-dashboard.md)**  
 Version history for the ServiceNow® CSM Manager Dashboard application on the ServiceNow Store.
+-   **[CSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-mcp-server.md)**  
+Version history for the ServiceNow® CSM MCP Server application on the ServiceNow Store.
 -   **[Customer Central release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-customer-central.md)**  
 Version history for the Customer Central application on the ServiceNow Store.
 -   **[Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-customer-contracts-entitlements.md)**  
@@ -154,6 +156,8 @@ Version history for the Guided Decisions applications on the ServiceNow Store.
 Version history for the Guided Decisions Experience application on the ServiceNow Store.
 -   **[Guided Decisions - Guidance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-guided-decisions-guidance.md)**  
 Version history for the Guided Decisions - Guidance applications on the ServiceNow Store.
+-   **[HL7 FHIR Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-hl7-fhir-spoke.md)**  
+Version history for the ServiceNow® HL7 FHIR Spoke application on the ServiceNow Store.
 -   **[Impact Value Management - CSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-impact-value-mgmt.md)**  
 Version history for the Impact Value Management - CSM application on the ServiceNow Store.
 -   **[Incident Management for Field Service release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-incident-mgmt-field-service.md)**  

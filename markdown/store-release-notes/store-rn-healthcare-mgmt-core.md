@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-mgmt-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Healthcare and Life Sciences Service Management Core app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.6.2 - July 2026**
+
+    Added query-range ACL support for core Healthcare and Life Sciences data tables to strengthen row-level security enforcement.
 
 -   **Version 11.5.0 - June 2026**
     -   This release delivers platform-wide accessibility \(WCAG 2.2 AA, 400% zoom/reflow\) and security and subscription-alignment hardening for HCLS Service Management Core.

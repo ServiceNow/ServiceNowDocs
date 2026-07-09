@@ -46,6 +46,8 @@ Version history for the ServiceNow® CVDB Integrations application on the Servic
 Version history for the Cybersecurity Executive Dashboard application on the ServiceNow Store.
 -   **[Data Model for SBOM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-data-model-SBOM.md)**  
 Version history for the Vulnerability Response Data Model for SBOM application on the ServiceNow Store.
+-   **[Early Warning for Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-early-warning-security-exposure-mgmt.md)**  
+Version history for the ServiceNow® Early Warning for Security Exposure Management application on the ServiceNow Store.
 -   **[Exception Management for Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.md)**  
 Version history for the ServiceNow® Exception Management for Unified Security Exposure Management application on the ServiceNow Store.
 -   **[Fortify Application Vulnerability Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-fortify.md)**  

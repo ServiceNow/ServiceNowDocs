@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-network-inventory-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Network Inventory Core application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 6.2.2 - July 2026**
+    -   IPAM messages now show the correct localized text on first load instead of a placeholder
+    -   A single large CI can now be placed in multiple locations on the map
+    -   The "New" button now appears in the All Sites list view
+    -   Reduced scoped-app error-log noise from Inventory Number Management
+    -   Managed network list now displays correctly for the Inventory Agent and DC Ops Agent personas
+    -   Improved internationalization of hard-coded text
 -   **Version 6.1.2 - June 2026**
     -   This release strengthens data center and physical inventory management, hardens platform security, and improves overall reliability.
     -   New &amp; Improved Capabilities  - Rack &amp; slot management — Card placement now supports multi-slot cards, and the slot picker automatically hides occupied slots, making it faster and more accurate to  position equipment in racks.  - Slot span validation — Added validation so rack and template slot spans are always correctly defined, preventing incomplete or empty slot-span configurations.  - Smarter hierarchy naming — Cards in the hierarchy tree are now named from their model, with an automatic fallback to the template name when no model name is available,  giving clearer and more consistent naming.  - Network interface form layout — Network Interface and Network Interface Model records now surface additional relevant fields directly in the Network Inventory view for  quicker editing.

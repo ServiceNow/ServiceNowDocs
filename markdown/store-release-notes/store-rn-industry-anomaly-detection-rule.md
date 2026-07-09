@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-anomaly-detection-rule.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
@@ -18,7 +18,11 @@ Version history for the ServiceNow® Anomaly Detection Rule application on the S
 
 ## Version history
 
--   **Version 1.2.0 - June 2026 \(Zurich\)**
+-   **Version 2.1.0 - July 2026**
+
+    No release notes.
+
+-   **Version 2.0.0 - July 2026 \(Zurich\)**
 
     No release notes.
 
@@ -26,6 +30,10 @@ Version history for the ServiceNow® Anomaly Detection Rule application on the S
     -   New:
         -   Threshold mismatch detection rule:Ruleset - Inflated claim detection for repair claim case lines
         -   Inflated claim detection rule:Ruleset - Threshold based approval for repair claim case line
+-   **Version 1.2.0 - June 2026 \(Zurich\)**
+
+    No release notes.
+
 -   **Version 1.1.2 - April 2026**
     -   Anomaly Detection in Warranty Claims is a component of the "Resolve warranty claims faster" agentic AI workflow in Manufacturing Commercial Operations \(MCO\). It automatically flags suspicious warranty claims before they are approved and reimbursed by identifying duplicate submissions, mismatched parts, reused images, and unusual claim patterns. This helps OEMs and their dealer networks reduce warranty leakage and lower overall warranty costs — without requiring manual review of every incoming claim.
     -   This component works natively on the ServiceNow platform and integrates seamlessly with existing MCO warranty claims processing workflows.

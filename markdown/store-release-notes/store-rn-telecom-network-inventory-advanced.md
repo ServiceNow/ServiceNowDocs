@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-network-inventory-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Network Inventory Advanced application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.2.1 - July 2026**
+
+    See network inventory core for details
 
 -   **Version 6.1.1 - June 2026**
     -   This release delivers major enhancements to IP address management, improves data center design workflows, and includes security and usability fixes.

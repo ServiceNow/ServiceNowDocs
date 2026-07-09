@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-user-experience-analytics-funnel.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Usage Insights Funnel on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.3.9 - July 2026**
+    -   Whats new?
+        -   Cross-application conversion funnels — Build funnels where each step can belong to a different application, so you can follow a user journey as it spans multiple workspaces and portals.
+        -   Session-based and user-based funnels — Choose whether steps must complete within one session \(time-to-value\) or across multiple sessions over time \(overall task completion\).
+        -   Previous period comparison in conversion funnel — Compare completion rate, step conversion, and transition timing against a prior period. Each metric shows its delta, and a step comparison table breaks down engaged users, sessions, and conversion time side by side — turning a snapshot into an adoption trend.
 -   **Version 6.2.2 - June 2026**
     -   Added session-based funnel analysis to the Usage Insights Conversion Funnel.
     -   Users can toggle Session-based vs. user-based mode via the Funnel type filter.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-ms-defender-endpoint.html
 release: store
 topic_type: reference
-last_updated: "2025-05-01"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Service Graph Connector for Microsoft Defender Endpoint 
 
 ## Version history
 
+-   **Version 1.3.0 - July 2026**
+    -   New:
+        -   Query ACLs are now built into the application.
+        -   Auditor scripts don't need to be manually re-run after each new installation.
 -   **Version 1.2.0 - May 2025**
 
     Fixed: Mapped the devices to the computer class, and implemented Windows server classification.

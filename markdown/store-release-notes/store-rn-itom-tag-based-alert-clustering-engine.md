@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-tag-based-alert-clustering-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Tag Based Alert Clustering Engine on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 18.24.4 - July 2026**
+
+    Fix query\_range SA on sn\_em\_tbac\_sim\_session\_alerts.\*
 
 -   **Version 18.24.0 - June 2026**
 

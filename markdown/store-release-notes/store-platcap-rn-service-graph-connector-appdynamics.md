@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-appdynamics.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Service Graph Connector for Observability - AppDynamics 
 
 ## Version history
 
+-   **Version 1.7.0 - July 2026**
+    -   Fixed:
+        -   Resolved an issue where the AppDynamics connection test could fail during validation when the AppDynamics API returned unusually large responses.
+        -   Implemented security fixes by adding query range ACLs, with a fix script for customization scenarios.
+        -   Enforced cross-scope access restrictions on GlideElement.getRefRecord\(\)to prevent unauthorized record access.
+        -   Improved exception handling within the AppDynamics connector listener to properly capture and report runtime errors.
 -   **Version 1.6.0 - December 2025**
 
     New: Added support for multi-instance setup.

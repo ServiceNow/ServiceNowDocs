@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-playbook-complaints.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Customer Service Management Case Playbook for Complaints
 
 ## Version history
 
+-   **Version 9.1.1 - July 2026**
+    -   Changed:
+        -   Agentic activity Enhancements to support Research AI agent
+        -   The show/hide the complaint case research agent activity is based on the research agent availability.
 -   **Version 9.0.0 - June 2026**
     -   Changed:
         -   AI Sparkle on Fields: AI-generated field indicators are now displayed consistently across both the platform UI and Workspace.

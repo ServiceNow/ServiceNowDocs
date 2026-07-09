@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-par-coreui-migration-scripts.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,29 @@ Version history for the PAR CoreUI Migration Scripts application on the ServiceN
 
 ## Version history
 
+-   **Version 4.0.6 - July 2026**
+    -   Fixed in this version:
+        -   Calendar report event display fields migrate correctly across all tables during HighCharts migration
+        -   Cascading filters with 4+ levels and multiple targets migrate correctly
+        -   Previous period comparison charts in widgets migrate to the correct visualization type during HighCharts migration
+        -   Migrated dashboards support opening list records in workspace after migration
+        -   Migrated pivot table data visualizations display correct source table labels instead of an empty "Total Count \(\)" placeholder
+        -   Migrated dashboard column charts display the correct colors when grouped by 'Created by' field. Charts no longer show the same color for all users.
+        -   Fixed Migration Center progress panel to render correctly when a migration worker is cancelled
+-   **Version 3.0.13 - July 2026**
+    -   Fixed in this version:
+        -   Migrated dashboards support opening list records in workspace after migration
+        -   Migration Center Summary window accurately counts dashboards from all domains when performing migrations in the global domain
+        -   Fixed issue preventing migrated UI pages from being edited when running in compatibility mode
+        -   Calendar report event display fields migrate correctly across all tables during HighCharts migration
+        -   Cascading filters with 4+ levels and multiple targets migrate correctly
+        -   Previous period comparison charts in widgets migrate to the correct visualization type during HighCharts migration
+        -   Migrated pivot table data visualizations display correct source table labels instead of an empty "Total Count \(\)" placeholder
+        -   Migrated dashboard column charts display the correct colors when grouped by 'Created by' field. Charts no longer show the same color for all users.
+-   **Version 2.0.14 - July 2026**
+    -   Fixed in this version:
+        -   Works transparently in the background
+        -   Enables all Core UI analytics assets to be visualized in the Platform Analytics dashboards
 -   **Version 4.0.5 - May 2026**
     -   Fixed:
         -   Multipivot migration should set wrap header configuration to true by default.

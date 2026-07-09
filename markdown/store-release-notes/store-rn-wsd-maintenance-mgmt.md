@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-maintenance-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Workplace Maintenance Management application on the Serv
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.11.5 - July 2026**
+
+    Fixed: Date formats in Workplace Maintenance Management are now localized correctly, respecting regional formatting preferences instead of displaying a hardcoded format.
 
 -   **Version 1.11.0 - June 2026**
 

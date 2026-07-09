@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-store-services.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Retail Store Services application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 4.0.1 - July 2026**
+    -   New:
+        -   Retail Break-fix case feature to streamline store equipment failure management \(POS terminals, printers, scanners, scales etc.\) by enabling store staff and RM/AM to raise break-fix cases via Portal and Mobile, with duplicate detection and case tracking. HQ Support Agents can triage cases in the CSM/FSM workspace, selecting service issue types \(hardware or software\) to propose solutions, create linked incidents or work orders, and communicate resolutions.
+        -   Moveworks break-fix case notification integration to enable real-time webhook notifications to Moveworks when break-fix cases \(raised via the Moveworks chatbot\) undergo key state transitions - assignment, resolution, or awaiting information. Store associates receive proactive updates directly in the Moveworks chatbot, closing the conversational loop without needing to check the ServiceNow portal.
+    -   Changed: Support for now-sdk APIs is enabled.
 -   **Version 3.7.0 - June 2026**
 
     Fixed: Security directive implementation.

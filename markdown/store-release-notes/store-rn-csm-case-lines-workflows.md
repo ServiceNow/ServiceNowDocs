@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-lines-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Case lines and workflows application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.5.5 - July 2026**
+
+    Fixed: Security defect \(PRB2036893\)
 
 -   **Version 4.5.1 - June 2026**
     1.  Non-Glide Cobalt Raven ACLs in Product Code - Security enhancements to query access controls for Customer Service Document Template.

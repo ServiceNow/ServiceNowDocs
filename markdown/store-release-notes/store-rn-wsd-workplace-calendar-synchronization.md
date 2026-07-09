@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-calendar-synchronization.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,15 @@ Version history for the Workplace Service Delivery Workplace Calendar Synchroniz
 
 ## Version history
 
+-   **Version 3.4.11 - July 2026**
+    -   Fixed:
+        -   Reservations with similar Exchange event IDs, e.g., a caption that differs by a single letter, could be ignored.
+        -   In certain conditions, the original reservation is cancelled and a new one is created when changing the location of a reservation.
+        -   Updating the start or end date/time of a reservation created from Outlook could create a parent case in the "Incomplete" state.
+        -   Creating an all-day reservation with office hours could set the all-day flag to false after Exchange confirms the reservation.
+        -   The reservation state could be moved to error after updating the date/time for reservations containing attendees and services.
+        -   The reservation was not removed from the resource calendar when it required approval but lacked approvers.
+        -   Unnecessary events were triggered when cancelling an expired reservation.
 -   **Version 3.4.6 - June 2026**
     -   Fixed:
         -   The provider payload is not getting updated on read Events.

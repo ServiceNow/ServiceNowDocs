@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-cmdb-coverage.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -16,6 +16,13 @@ Version history for the ServiceNow® CMDB Coverage application on the ServiceNow
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+## Version history
+
+-   **Version 1.1.0 - July 2026**
+    -   Improved dashboard accessibility to meet WCAG 2.2 AA standards.
+    -   Added entry points in the Insights and Governance section of Service Graph Workspace for easier navigation and adoption.
+    -   Enhanced dashboard filtering with multi-select support for IP versions and improved subnet, IP, and network drill-down experience.
+    -   Addressed security gaps by adding query range ACLs across application-owned tables with a fix script for customization scenarios.
 -   **Version 1.0.1 - May 2026**
     -   Fixed:
         -   Fixed the Discovery Gap scheduled job to update the gap number correctly in the widget.

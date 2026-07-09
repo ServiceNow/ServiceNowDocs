@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-product-inventory-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,14 @@ Version history for the Product Inventory Advanced application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 14.1.0 - July 2026 \(Australia\)**
+
+    Fixed: Minor defect fix for Product Inventory lines that do not get pricing method.
+
+-   **Version 13.2.1 - July 2026 \(Zurich\)**
+
+    Fixed: Minor defect fix for Product Inventory lines that do not get pricing method.
 
 -   **Version 14.0.1 - June 2026 \(Australia\)**
 

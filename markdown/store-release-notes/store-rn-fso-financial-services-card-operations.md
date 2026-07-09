@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-card-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,13 @@ Version history for the Financial Services Operations Financial Services Card Op
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 14.0.0 - July 2026**
+    -   New: Added new questionnaire fields, with updated labels, for Mastercard disputes.
+    -   Changed: The Visa dispute experience has moved from the Playbook into the dispute Workspace, with a restructured task form and layout for a more streamlined agent experience.
+-   **Version 12.0.7 - July 2026 \(Zurich\)**
+
+    New: Added new questionnaire fields, with updated labels, for Mastercard disputes
 
 -   **Version 12.0.5 - June 2026 \(Zurich\)**
     -   Changed:

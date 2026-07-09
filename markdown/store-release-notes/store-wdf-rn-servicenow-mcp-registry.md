@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-servicenow-mcp-registry.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® MCP Registry application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.0.11 - July 2026**
+    -   Security defect fixes
+    -   removed external system records
 -   **Version 1.0.9 - June 2026**
     -   New: New MCP Servers
     -   Fixed: MCP One-Click Setup

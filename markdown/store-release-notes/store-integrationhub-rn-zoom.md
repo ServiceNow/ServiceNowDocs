@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-zoom.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Integration Hub Zoom spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.8.0 - July 2026**
+    -   Changed:
+        -   Migrated Zoom Phone Number actions to new Number Management APIs for improved reliability and performance
+        -   Migrated Zoom Phone Number Stream actions to new Number Management APIs
 -   **Version 4.7.0 - June 2026**
 
     Fixed: Streamline ACLs.

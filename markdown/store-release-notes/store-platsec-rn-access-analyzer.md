@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platsec-rn-access-analyzer.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Operations Shared apps for release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Access Analyzer on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.2.1 - July 2026**
+
+    Fixed: Defects and minor enhancements
 
 -   **Version 6.1.0 - March 2026**
     -   New: Access analyzer support for Agentic workflows and AI agents in compare user access and access simulation features.

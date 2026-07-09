@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-lifecycle-mgmt-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Customer Life Cycle Management Workflows application on 
 
 ## Version history
 
+-   **Version 5.4.65 - July 2026**
+    -   Following defects are fixed:
+        -   Ramp schedules were lost when upsell quotes were edited or created.
+        -   Some upsell quotes were displaying the wrong currency or leaving out products. That has been corrected, and the upsell now matches the original quote.
+        -   The quote editor was freezing for certain quote types, and some quotes were not completing. Both issues have been resolved, so quotes now open and process normally.
 -   **Version 5.4.0 - June 2026**
     -   New: Enhanced the agent workspace with a hierarchical view for Sold Products and Product Inventory, making it easier to navigate and manage complex product relationships in configurable workspaces.
     -   Changed: Refined the Modify action for Sold Products to ensure only root-level records can be modified. The option is automatically hidden or disabled for child records across all views, preventing unintended modifications to dependent records.

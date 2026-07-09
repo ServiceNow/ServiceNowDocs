@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-slm-supplier-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Supplier Case Management application on the ServiceNow S
 
 ## Version history
 
+-   **Version 8.0.4 - July 2026 \(Zurich\)**
+    -   Fixed:
+        -   Requests raised by a supplier contact from the Supplier Collaboration Portal now correctly transition to the "New" state.
+        -   Contact invitation for a supplier from workspace and Supplier collaboration portal is fixed.
+        -   Default supplier catalog item shows list of suppliers.
+        -   Supplier filtering conditions accepted in document configs validated.
+        -   Resolved catalog item visibility issue while creating supplier task of action type- "Complete a form".
 -   **Version 11.0.0 - June 2026 \(Australia\)**
     -   Fixed:
         -   Improved access controls for better security.

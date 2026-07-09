@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-leap.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-07-09"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the AIOps LEAP application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.1.0 - July 2026**
+    -   New:
+        -   Autonomous AI Agent that scans incident clusters and automatically generates draft knowledge base articles and problem records based on configurable incident count and severity thresholds
+        -   Agent-generated artifacts display with an AI icons on LEAP home page with hover cards linking to related records for visibility. The Action Insights panel on the automation opportunity details page of agent-generated artifact uses gradient styling.
+        -   Ansible Connector integration now available on LEAP Home page with dedicated help section
+        -   Three new generative AI models now supported: Gemini 3.5 Flash, GPT 5.4 mini, and GPT 5.1
+    -   Changed: Now LLM Service is no longer the default model provider for new or inactive AI assets. Third-party LLM is selected by default, while existing configurations using Now LLM service continue to remain unchanged and are available for manual selection.
 -   **Version 4.0.0 - June 2026**
     -   New:
         -   Discover and execute Ansible playbooks from LEAP automation opportunities to promote faster incident resolution

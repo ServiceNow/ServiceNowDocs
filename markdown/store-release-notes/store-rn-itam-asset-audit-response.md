@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-asset-audit-response.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Asset Audit Response application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 2.0.3 - July 2026 \(Australia\)**
+    -   Track and manage impacted records that are associated with your remediation tasks.
+    -   Gain insight into the citations that are associated with your evidence requests.
 -   **Version 2.0.2 - May 2026**
     -   Track and manage impacted records that are associated with your remediation tasks.
     -   Gain insight into the citations that are associated with your evidence requests.

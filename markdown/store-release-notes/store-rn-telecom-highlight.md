@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-te
 release: store
 topic_type: reference
 last_updated: "2025-05-01"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store release notes]
 ---
 
@@ -26,6 +26,8 @@ Version history for the Compatibility Management application on the ServiceNow S
 Version history for the Configurable Workspace for Order Management application on the ServiceNow Store.
 -   **[Customer Service Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-cust-service-problem-mgmt.md)**  
 Version history for the Customer Service Problem Management application on the ServiceNow Store.
+-   **[Data Center Network Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-data-center-network-asset-mgmt.md)**  
+Version history for the ServiceNow® Data Center Network Asset Management application on the ServiceNow Store.
 -   **[Data Model for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-order-mgmt-data-model.md)**  
 Version history for the Telecommunications Service Management Data Model for Order Management on the ServiceNow Store.
 -   **[DCNAM for Telecommunications, Media and Technology - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-dcnam-tmt-advanced.md)**  
@@ -94,6 +96,8 @@ Version history for the ServiceNow® Telecommunications, Media and Technology - 
 Version history for the ServiceNow® Telecommunications, Media and Technology - Prime application on the ServiceNow Store.
 -   **[Telecommunications, Media and Technology Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-media-tech-core.md)**  
 Version history for the Telecommunications, Media and Technology Core application on the ServiceNow Store.
+-   **[TNI - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-tni-advanced.md)**  
+Version history for the ServiceNow® TNI - Advanced application on the ServiceNow Store.
 -   **[TNI for Telecommunications, Media and Technology - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-tni-tmt-advanced.md)**  
 Version history for the ServiceNow® TNI for Telecommunications, Media and Technology - Advanced application on the ServiceNow Store.
 -   **[TSOM Event Management Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-tsom-event-mgmt-connectors.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-obs-new-relic.html
 release: store
 topic_type: reference
-last_updated: "2026-02-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Service Graph Connector for Observability - New Relic ap
 
 ## Version history
 
+-   **Version 1.5.0 - July 2026**
+    -   New:
+        -   Query ACLs are now built into the application.
+        -   Auditor scripts don't need to be manually re-run after each new installation.
 -   **Version 1.4.1 - February 2026**
 
     Fixed: Fixed the issue where relationships don't exist for Calculated Application Service \[cmdb\_ci\_service\_calculated\].

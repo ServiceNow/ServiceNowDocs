@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-config-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the CSM Configurable Workspace application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 26.3.3 - July 2026**
+
+    Defect fixes on activity stream.
+
+-   **Version 25.4.2 - July 2026 \(Zurich\)**
+
+    Defect fixes on activity stream and compose areas.
 
 -   **Version 26.3.2 - June 2026**
 

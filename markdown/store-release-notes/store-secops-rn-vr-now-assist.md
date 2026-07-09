@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Now Assist Vulnerability Response application on the Ser
 
 ## Version history
 
+-   **Version 5.1.0 - July 2026 \(USEM\)**
+    -   Changed:
+        -   Updated the default LLM provider for Now Assist for Vulnerability Response skills to 3P \(Third-Party\) models where required for consistency across all supported skills.
+        -   Added support for the following models for all AI features:
+            -   Google Gemini 3.5
+            -   FlashOpenAI GPT 5.1
+            -   OpenAI GPT 5.4 Mini
 -   **Version 5.0.0 - June 2026 \(USEM\)**
 
     New: The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to USEM. Users can now ask questions in plain language and get answers grounded in their own ServiceNow data — across all types of findings within USEM.

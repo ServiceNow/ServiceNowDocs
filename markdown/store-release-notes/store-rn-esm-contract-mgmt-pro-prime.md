@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-contract-mgmt-pro-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,15 @@ Version history for the ServiceNow® Contract Management Pro - Prime application
 
 ## Version history
 
+-   **Version 1.0.11 - July 2026**
+    -   New:
+        -   Signature workflows on the Docusign envelope now support adding signatories with different roles.
+        -   Resolution time for contract requests is now calculated automatically based on calendar duration and terminal state.
+    -   Changed:
+        -   View the complete contract family hierarchy — including parent, sibling, and child contract requests — from the Related contract requests tab of the contract request.
+        -   Upload multiple supporting documents in a single action from your computer, activity stream, or external storage.
+        -   Upload supporting documents across any contract request state rather than a restricted subset of states.
+    -   Fixed: The contract administrator on a contract repository records is correctly assigned based on configured mapping rules.
 -   **Version 1.0.9 - June 2026**
     -   Changed:
         -   Identify missing clauses in contract revisions with improved accuracy.

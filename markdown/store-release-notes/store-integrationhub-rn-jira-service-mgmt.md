@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jira-service-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Jira Service Management spoke integration on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.1 - July 2026**
+
+    Fixed: Jira SM Spoke now correctly handles Retry-After: 0responses by applying a minimum backoff interval, preventing zero-delay retry loops.
 
 -   **Version 2.0.0 - May 2026**
     -   New:

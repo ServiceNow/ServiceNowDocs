@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-dv-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
+last_updated: "2026-07-09"
+reading_time_minutes: 10
 breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,23 @@ Version history for the Data visualization core application on the ServiceNow St
 
 ## Version history
 
+-   **Version 29.1.1 - July 2026**
+    -   Fixed: Export button not hidden based on export properties in client-side export for data visualizations.
+    -   Fixed: Pivot Table displayed flat instead of in the correct hierarchical format.
+    -   Fixed: Dashboards displayed "No data available" when drilling down on an Indicator.
+    -   Fixed: Additional group-by fields could not be selected via dot-walking.
+    -   Fixed: Group By option displayed the backend name of the Assignment Group field instead of the visible label after adding an alternative group-by selector.
+    -   Fixed: Pivot aggregation not preserved when drilling down to KPI details.
+    -   Fixed: Column chart bars widened unexpectedly when hiding a data source on a Business Calendar monthly chart.
+    -   Fixed: Spline charts did not show the grid when the second metric had no data.
+    -   Fixed: Selecting "Total Value" in a donut chart did not load the filtered list table.
+-   **Version 28.5.1 - July 2026**
+    -   Fixed: IS ONE OF condition in Data Visualization Data source conditions no longer expands the condition bar horizontally.
+    -   Fixed: PA Dashboard no longer shows "No data available" when drilling down on an Indicator.
+    -   Fixed: Group By option now displays the correct visible label for the Assignment Group field instead of the backend name.
+    -   Fixed: Pivot aggregation is now preserved when drilling down to KPI details.
+    -   Fixed: Spline charts now display the grid correctly when the second metric has no data.
+    -   Fixed: Selecting "Total Value" in a donut chart now loads the filtered list table correctly
 -   **Version 29.1.0 - June 2026**
     -   New:
         -   Calendar improvement: color highlighting based on field styling and source selection

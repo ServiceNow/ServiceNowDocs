@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-grants-mgmt-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Grants Management application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.41.0 - July 2026**
+    -   This release introduces flexibility in how you manage program budgets and review documents, along with other enhancements.
+    -   Changed:
+        -   Configurable program stepper: The Program Lifecycle Stepper can now be turned on or off per instance, giving you control over how the program journey is displayed. It's off by default.
+        -   More flexible program budgets: You can now set up programs with multiple awards and variable payout amounts, and choose how funding is allocated across awards \(single award, multiple equal awards, or multiple variable awards\). Budget changes now flow through automatically to award totals, funding records, and validation.
+        -   Easier document review: Reviewers can now request a corrected document directly, with the related task created automatically. If a document is flagged by mistake, a new "Undo" option sends it back for verification, making corrections quicker and less error-prone.
+    -   Fixed: Bug fixes
 -   **Version 1.31.1 - June 2026**
     -   Rolling grant application submissions and approvals let you submit funding or decline recommendations for any scored proposal subset, enabling incremental funding decisions without waiting for the entire proposal portfolio to complete review.
     -   Release result letters per proposal for rolling grant approval scenarios in Grants Management.

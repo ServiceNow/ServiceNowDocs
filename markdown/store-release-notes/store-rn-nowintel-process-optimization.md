@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-process-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Process Mining application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.7.10 - July 2026 \(Australia\)**
+
+    Fixed: Preservation of Process Mining usage table across clones- Record count for child tables- Rounding of Average duration on the project- Removed the form view details from URL while accessing log table
 
 -   **Version 29.7.9 - May 2026 \(Australia\)**
     -   No configuration changes required. All improvements take effect automatically.

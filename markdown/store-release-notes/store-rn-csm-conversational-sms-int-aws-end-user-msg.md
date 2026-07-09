@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-conversational-sms-int-aws-end-user-msg.html
 release: store
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Conversational SMS Integration with AWS End User Messagi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.1 - July 2026**
+
+    Defect fixes and performance improvements.
 
 -   **Version 1.0.2 - February 2025**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Retail Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.4.0 - July 2026**
+    -   New: Enhanced employee experience by enabling install base menu option to view Affected devices \(install base items\) in the store.
+    -   Changed: Support for now-sdk APIs is enabled.
 -   **Version 7.3.0 - June 2026**
     -   Fixed:
         -   Implemented WCAG 2.2AA compliance including 400% zoom and reflow support across Retail Core screens.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-checklist-component.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Checklist Component application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 26.0.4 - July 2026**
+    -   Added instructional text, "Press Enter to add item", below the input field to improve usability.
+    -   Fixed translatability issues in UI Builder.\* Removed the "Delete all" button in empty checklist.
 -   **Version 26.0.2 - March 2026**
 
     Fixed an issue where custom properties in checklist item objects were not returned in event payload

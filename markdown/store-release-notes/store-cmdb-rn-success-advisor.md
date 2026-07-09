@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-success-advisor.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -16,6 +16,17 @@ Version history for the ServiceNow® CMDB success advisor application on the Ser
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.1.0 - July 2026**
+    -   New:
+        -   CMDB success advisor for HAM dashboard is set up automatically on upgrade to v2.1.
+        -   Model categories are recommended for CMDB success advisor for HAM scope selection.
+        -   CMDB success advisor for HAM can be set up without HAM installation, but HAM Pro entitlement is required.
+        -   CMDB success advisor for HAM generates a summary of CMDB data quality for HAM outcomes and lists the top 5 issues with guided remediation actions.
+        -   HAM CI install status vs. asset state supports life cycle stage mismatch between CI and asset for instances where CSDM plugin \(com.snc.cmdb.csdm.activation\) is installed and migrated to life cycle stage.
+    -   Changed:
+        -   Charts show the top 10 values with the remainder grouped as "Others" on CMDB success advisor for Data Foundations and CMDB success advisor for HAM dashboards.
+        -   Data Foundation advisor setup and edit modals no longer show exclusion-list CI classes.
+    -   Fixed: Data Foundations advisor scope modal not showing principal classes marked via CI Class Manager when absent from inclusion list or on exclusion list.
 -   **Version 2.0.0 - June 2026**
     -   New:
         -   Role-based access for Data Foundations advisor with cmdb\_user and cmdb\_editor roles can only view dashboards with no access to Settings and Integrations tabs. The cmdb\_admin role retains full access to advisor.

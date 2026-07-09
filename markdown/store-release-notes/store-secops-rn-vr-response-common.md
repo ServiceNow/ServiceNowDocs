@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-response-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
+last_updated: "2026-07-09"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Vulnerability Response Common application on the Service
 
 ## Version history
 
+-   **Version 30.4.4 - July 2026 \(USEM\)**
+    -   Fixed:
+        -   Corrected the compensating controls workflow to support risk rating increases, allowing mitigated risk scores to be adjusted upward when appropriate.
+        -   Replaced default configuration records with valid unique identifiers to prevent conflicts.
 -   **Version 30.4.2 - June 2026 \(USEM\)**
     -   New:
         -   Extended the Split Test Results framework.

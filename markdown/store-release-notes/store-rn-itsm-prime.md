@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -16,6 +16,53 @@ Version history for the ServiceNow® ITSM - Prime application on the ServiceNow 
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+## Version history
+
+-   **Version 2.2.2 - July 2026**
+    -   New:
+        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
+        -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
+        -   In-form ticket deflection in Service Portal — An AI pipeline embedded in the ticket-creation form classifies intent, enriches context, retrieves knowledge, and suggests a resolution before a ticket is submitted.
+        -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
+        -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
+        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
+    -   Changed:
+        -   Conversational Analytics dashboard \(Phase 2\) — Adds a topic detail page, Now Assist Data Explorer integration, standardized visualizations, and improved topics tables.
+        -   Default model change — Now LLM is no longer the default model for ITSM skills and agents; each now defaults to an optimal small third-party model \(large third-party models require approval\).
+        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
+        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
+        -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
+        -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
+        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
+        -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
+-   **Version 2.1.2 - July 2026 \(Zurich\)**
+    -   New:
+        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
+        -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
+        -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
+        -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
+        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
+    -   Changed:
+        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
+        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
+        -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
+        -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
+        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
+        -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
+-   **Version 1.3.1 - July 2026 \(Zurich\)**
+    -   New:
+        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
+        -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
+        -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
+        -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
+        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
+    -   Changed:
+        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
+        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
+        -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
+        -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
+        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
+        -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
 -   **Version 1.0.9 - June 2026**
 
     Defect fixes and plugin upgrade issue fixed.

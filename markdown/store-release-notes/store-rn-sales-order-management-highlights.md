@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sa
 release: store
 topic_type: reference
 last_updated: "2025-06-05"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **[Advanced Approval Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-advanced-approval-mgmt.md)**  
 Version history for the ServiceNow® Advanced Approval Management application on the ServiceNow Store.
+-   **[Advanced Approval Management AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-advanced-approval-mgmt-ai.md)**  
+Version history for the ServiceNow® Advanced Approval Management AI application on the ServiceNow Store.
+-   **[AI agents and skills for Quote Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-ai-agents-skills-quote-mgmt.md)**  
+Version history for the ServiceNow® AI agents and skills for Quote Management application on the ServiceNow Store.
+-   **[AI sales activity association release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-ai-sales-activity-association.md)**  
+Version history for the ServiceNow® AI sales activity association application on the ServiceNow Store.
 -   **[Assist Order Management AI Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-assist-order-mgmt-ai-agent.md)**  
 Version history for the ServiceNow® Assist Order Management AI Agent application on the ServiceNow Store.
 -   **[Business Object Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-business-object-core.md)**  
@@ -30,10 +36,14 @@ Version history for the Contract Management for Sales Customer Relationship Mana
 Version history for the ServiceNow® CPQ - Advanced application on the ServiceNow Store.
 -   **[CPQ - Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-cpq-foundation.md)**  
 Version history for the ServiceNow® CPQ - Foundation application on the ServiceNow Store.
+-   **[CPQ Config Agent A2A release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-cpq-config-agent-a2a.md)**  
+Version history for the ServiceNow® CPQ Config Agent A2A application on the ServiceNow Store.
 -   **[CPQ Configurator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-cpq-configurator.md)**  
 Version history for the ServiceNow® CPQ Configurator application on the ServiceNow Store.
 -   **[CPQ Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-cpq-integration.md)**  
 Version history for the ServiceNow® CPQ Integration application on the ServiceNow Store.
+-   **[CPQ Transaction release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-cpq-transaction.md)**  
+Version history for the ServiceNow® CPQ Transaction application on the ServiceNow Store.
 -   **[CRM Outlook Add-in release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-crm-outlook-add-in.md)**  
 Version history for the ServiceNow® CRM Outlook Add-in application on the ServiceNow Store.
 -   **[CRM Touchpoint release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-crm-touchpoint.md)**  

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-saas-license-mgmt-integrations.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 14
+last_updated: "2026-07-09"
+reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the IT Asset Management Software Asset Management - SaaS Lic
 
 ## Version history
 
+-   **Version 17.4.1 - July 2026 \(Australia\)**
+    -   Added support for required OAuth scopes per flow in the Jira and Confluence Cloud integrations to accommodate the new Atlassian marketplace app.
+    -   Fixed for SAM - Optimize Adobe Subscriptions scheduled job failure in the Adobe integration.
+    -   Fixed UI issues in the Salesforce CRM integration playbook.
+-   **Version 16.7.1 - July 2026 \(Zurich\)**
+
+    Added support for required OAuth scopes per flow in the Jira and Confluence Cloud integrations to accommodate the new Atlassian marketplace app.
+
+-   **Version 15.4.2 - July 2026 \(Yokohama\)**
+    -   Fixed for SAM - Optimized Adobe Subscriptions scheduled job failure in the Adobe integration.
+    -   Added support for required OAuth scopes per flow in the Jira and Confluence Cloud integrations to accommodate the new Atlassian marketplace app.
 -   **Version 17.4.0 - June 2026 \(Australia\)**
     -   In this version, the following enhancements have been made:
         -   Enhanced ACC-V capabilities

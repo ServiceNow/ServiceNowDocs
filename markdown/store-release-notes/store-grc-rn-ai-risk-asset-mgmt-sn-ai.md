@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-risk-asset-mgmt-sn-ai.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the ServiceNow® AI Risk and Asset Management for ServiceNow
 
 ## Version history
 
+-   **Version 1.3.1 - July 2026 \(Australia\)**
+    -   New:
+        -   Create and document governance, risk, and compliance issues with guided assistance from the employee center.
+        -   Generate concise summaries of complex GRC issues for faster review and decision-making.
+        -   Create executive summaries of risk assessments to communicate findings to stakeholders.
+        -   Generate responses to assessment questions based on past assessments and reference documentation.
+        -   Identify related control objectives from your controls library to reduce duplication.
 -   **Version 1.2.0 - June 2026 \(Australia\)**
     -   New:
         -   Manage Smart Assessment  templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.

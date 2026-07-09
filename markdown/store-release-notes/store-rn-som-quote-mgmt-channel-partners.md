@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-channel-partners.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release n
 Version history for the ServiceNow® Quote Management for Channel Partners application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.1.1 - July 2026 \(Zurich\)**
+
+    Updating translations
+
+-   **Version 3.1.2 - July 2026**
+
+    New: Added translations
 
 -   **Version 3.1.1 - June 2026**
     -   Features added:

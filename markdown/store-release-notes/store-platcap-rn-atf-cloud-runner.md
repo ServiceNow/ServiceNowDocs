@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-atf-cloud-runner.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the ATF Test Generator and Cloud Runner on the ServiceNow St
 
 ## Version history
 
+-   **Version 3.1.1 - July 2026 \(Australia\)**
+    -   Added the role sn\_atf\_tg.cloud\_runner\_admin which allows users to set the cloud user and start test generations without needing the admin role themselves
+    -   Added asynchronous option to Test Runner Rest API which returns the root tracker id and does not wait for the Browser Orchestration Queue record to be inserted
+    -   Improved consistency of HTTP response codes to Cloud Runner Rest APIs
+    -   Improved consistency of progress percentage for test runs in the Browser Orchestration Queue table
 -   **Version 3.0.5 - May 2026**
     -   Removed legacy ca certificate which is no longer necessary for mutual auth
     -   Fixed a bug that prevented an invalid cloud user from being properly unset

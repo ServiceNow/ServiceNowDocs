@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-microsoft-sccm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
 
 ## Version history
 
+-   **Version 3.9.0 - July 2026**
+    -   New:
+        -   Query ACLs are now built into the application.
+        -   Auditor scripts don't need to be manually re-run after each new installation.
 -   **Version 3.8.3 - June 2026**
 
     Fixed the issue with creating connections.

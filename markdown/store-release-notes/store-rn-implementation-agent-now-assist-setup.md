@@ -1,23 +1,30 @@
 ---
-title: Now Assist for Setup release notes
-description: Version history for the ServiceNow Now Assist for Setup application on the ServiceNow Store.
+title: Setup Hub release notes
+description: Version history for the ServiceNow Setup Hub application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-implementation-agent-now-assist-setup.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Now Assist for Setup release notes, ServiceNow Store release notes]
+last_updated: "2026-07-09"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Setup Hub release notes, ServiceNow Store release notes]
 ---
 
-# Now Assist for Setup release notes
+# Setup Hub release notes
 
-Version history for the ServiceNow® Now Assist for Setup application on the ServiceNow Store.
+Version history for the ServiceNow® Setup Hub application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 3.1.4 - July 2026**
+    -   New:
+        -   PoCs to explore LitJS and AIUX \(Horizon 2.0\) for Product Hub and Admin Home redesign/UIs
+        -   Continue defining and tracking the U2 metrics framework
+        -   Explore Golden Config and App Manager Suite Installation APIs for installs
+        -   Address GA defect fixes and defects; explore AINPX for the console
+        -   HA: Fix security defects, stabilize HA and agent responses across LLM providers, and improve UX and content
 -   **Version 3.0.2 - June 2026**
     -   June Release Highlights:
         -   Tiered SKU Support for AI Native ITSM &amp; CBS: Added support for Advanced and Prime SKUs across AI Native ITSM and CBS, including associated entitlement-driven flows and experiences.
@@ -35,8 +42,8 @@ Version history for the ServiceNow® Now Assist for Setup application on the Ser
     April GA priority defect fixes
 
 -   **Version 2.0.7 - April 2026**
-    -   Now Assist for Setup provides a single, guided experience for installing, configuring, and deploying supported ServiceNow products. It replaces fragmented setup workflows with a structured flow that automates installation, applies best‑practice defaults, tracks progress, and packages changes for production deployment.
+    -   Setup Hub provides a single, guided experience for installing, configuring, and deploying supported ServiceNow products. It replaces fragmented setup workflows with a structured flow that automates installation, applies best‑practice defaults, tracks progress, and packages changes for production deployment.
     -   The experience spans Admin Home, Product Hubs, and Configuration Console powered by Now Assist, reducing setup time and operational risk while improving consistency and auditability.
 
-**Parent Topic:**[ServiceNow Store - Now Assist for Setup release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)
+**Parent Topic:**[ServiceNow Store - Setup Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)
 

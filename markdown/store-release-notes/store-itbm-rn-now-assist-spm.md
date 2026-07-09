@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
+last_updated: "2026-07-09"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Now Assist for Strategic Portfolio Management \(SPM\) ap
 
 ## Version history
 
+-   **Version 9.7.1 - July 2026**
+    -   Fixed:
+        -   AI forecasted status and AI rationale fields from goal insights are updated on the grid in realtime without grid refresh.
+        -   Portfolio Insights button is visible faded out when Portfolio Insights panel is open
+        -   Project Answers \(Ask Now Assist\) now deliver improved formatting and more enhanced query parsing for complex questions.
+    -   Changed: Experience a more streamlined RIDAC with three dedicated views:AI-Identified Risks \(Project Risk Detection\),RIDAC by Type with separate tabs for each RIDAC type, and the completeAll RIDAC overview. The new presentation list layout replaces the flat grid, making records easier to browse, organize, and manage.
 -   **Version 9.6.0 - June 2026**
     -   New:
         -   IntroducedProject Q&amp;A conversational capability to ask questions about your project in natural language and get instant, AI-generated answers directly from the project workspace, without having to manually analyze project data.

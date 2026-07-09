@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-indoor-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,16 @@ Version history for the Workplace Indoor Mapping application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.18.6 - July 2026**
+    -   Fixed:
+        -   Added the favorite icon to Location Directory space cards in card view.
+        -   Improved hover behavior for neighborhood, campus, building, and floor information on Location Directory space cards.
+        -   Corrected neighborhood information displayed on Location Directory space cards when neighborhoods are disabled.
+        -   Improved configuration of the record producer and catalog category used by the "Raise a Request" action in Location Directory.
+        -   Added support for redirection to configurable pages from Location Directory space cards.
+        -   Improved the synchronization between Indoor Mapping and WSD for translated content.
+        -   Improved map display in Kiosk portrait mode.
+        -   Applied translation improvements.
 -   **Version 1.18.5 - June 2026**
     -   Fixed:
         -   Fixed an issue where the Directions button was missing from the map in the Kiosk experience.

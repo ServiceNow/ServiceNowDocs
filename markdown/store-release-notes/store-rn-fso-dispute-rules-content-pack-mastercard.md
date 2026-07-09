@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-rules-content-pack-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Dispute Rules Content Pack for Mastercard application on
 
 ## Version history
 
+-   **Version 4.2.0 - July 2026 \(Zurich\)**
+    -   New:
+        -   Added Mastercard chargeback eligibility rules for cardholder disputes, covering reason codes RC 4854 and RC 4853 variants \(GOSWEN, GOS, TESNR\).
+        -   Added Mastercard chargeback eligibility rules for processing errors under reason code RC 4834 \(TAD, CE, and MRCERICCEXL\).
+        -   Added decision-table rules to evaluate authorization transactions.
+    -   Changed: Refined existing Mastercard chargeback rules across multiple cardholder-dispute reason codes \(ADD, IDORT, CDORT, CG, DGP, RNP, RPAP, Timeshares, NOSHC, TDNC\), including clearer rule names.
 -   **Version 4.1.0 - June 2026 \(Zurich\)**
     -   Changed:
         -   Updated the ineligibility reason for Mastercard reason code 4871 \(Chip Liability Shift - Lost/Stolen/Never Received Issue Fraud\) to clarify that this reason code is not applicable for transactions reported as lost, stolen, or never received to the fraud and loss database within three days of the chargeback date, in accordance with Mastercard's fraud and loss database reporting requirements.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-psds-investigative-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow
 Version history for the ServiceNow® PSDS Investigative Case Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.0.0 - July 2026**
+
+    This epic introduces two configurable system properties, x\_snc\_icm.case\_write\_access and x\_snc\_icm.case\_read\_access, enabling agencies to extend write access and restrict read access to cases based on Assigned Office, Assignment Group, or both. This allows automatic case access alignment with organizational units without manual Teams tab management, preserving existing access pathways and role-based permissions. The system enforces validation ensuring read access always encompasses write access, preventing invalid configurations. The outcome provides flexible, secure case visibility and editability at implementation, supporting efficient collaboration and tighter data control while maintaining global visibility of linked entities.
 
 -   **Version 1.2.1 - June 2026**
 

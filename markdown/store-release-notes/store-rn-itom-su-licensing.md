@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-su-licensing.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow ITOM SU Licensing content on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.13.1 - July 2026**
+
+    Fixed: Removed vulnerable ACLs and added new ACLs for credit counts table.
 
 -   **Version 3.13.0 - June 2026**
     -   New:

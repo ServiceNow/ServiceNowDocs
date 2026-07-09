@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-now-assist-ham.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,9 @@ Version history for the Now Assist for Hardware Asset Management on the ServiceN
 
 ## Version history
 
+-   **Version 4.4.0 - July 2026**
+    -   Asset Summary Text Formatting — Fixed text display issues in asset summaries on on-premises instances to ensure consistent, readable formatting across all deployment types
+    -   Change Request Visibility — Resolved an issue where change requests were not appearing in asset summaries, giving you complete visibility into all asset-related changes
 -   **Version 4.3.0 - June 2026**
     -   This release delivers UI modernization and quality improvements. The Now Assist for HAM interface has been upgraded to the latest UI framework, with improved parsing and rendering of Asset Summary responses. Accessibility improvements have also been applied.
     -   Improvements:

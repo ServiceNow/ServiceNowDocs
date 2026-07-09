@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-hybrid-analysis-int.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Security Incident Response release notes, Servic
 Version history for the ServiceNow® Security Operations Hybrid Analysis Integration application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 10.7.4 - July 2026**
+
+    Fixed: An issue with the threat lookup result's finding.
 
 -   **Version 10.7.1 - June 2026**
     -   Fixed:

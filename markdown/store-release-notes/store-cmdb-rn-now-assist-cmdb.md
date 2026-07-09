@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-now-assist-cmdb.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the Now Assist for CMDB application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.0.0 - July 2026**
+    -   New:
+        -   AI-powered HAM advisor dashboard summarization:Leverage the summary section in HAM advisor dashboard to get precise recommendations and insights on what actions to take to get your CMDB ready to drive HAM business outcomes.
+        -   Impact Analysis:Get qualitative impact analysis for change and incident records associated with CIs. This capability looks at the dependencies of a CI, takes the semantics of the topology into account, and provides details on severity of the impact on connected CIs.
+    -   Fixed:
+        -   The broken "click here" link in the Search CMDB AI Agent panel has been resolved. The link now provides correct results.
+        -   Security fixes
+    -   Removed: CMDB MCP server is no longer available via this plugin and has been deprecated. All registry records are now marked as inactive. The ServiceNow CMDB MCP and Visibility Server is now available as a separate application.
 -   **Version 3.8.0 - June 2026**
 
     Fixed: Security fixes

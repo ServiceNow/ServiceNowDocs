@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-care-team-portal.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Care Team Portal application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.0 - July 2026**
+
+    This release includes internal platform improvements and maintenance updates. No new customer-facing features in this version.
 
 -   **Version 2.3.0 - June 2026**
     -   This release delivers a menu visibility and layout fix, platform-wide accessibility \(WCAG 2.2 AA, 400% zoom/reflow\), and security-directive access-control hardening for the Care Team Portal.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
+last_updated: "2026-07-09"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Health and Safety Incident Management application on the
 
 ## Version history
 
+-   **Version 13.2.2 - July 2026**
+    -   Fixed:
+        -   Resolved a scrolling issue in the Injury Details section that prevented the delete option for the last added injury from being reachable.
+        -   Restricted work notes on Health and Safety incidents from being visible to end users.
+        -   Prevented Risk Management ACLs from overriding involved party access.
+        -   Corrected the body part picker so that clicking the back of the hand now selects the correct body part instead of the palm of the hand.
+        -   Corrected Date of birth and Date of hire fields to populate correctly on exported OSHA 301 PDF form.
+        -   Resolved a cross-scope access violation in the Attach Health and Safety Case primary record to universal request business rule that prevented the Transfer and Create Associated Ticket buttons from appearing.
+        -   Enforced ACL checks on Health and Safety incident records for all applicable extension points.
 -   **Version 13.2.0 - June 2026**
     -   Changed:
         -   Applied timezone-safe date and time handling to the incident Occurred\_onfield to prevent timezone conversion errors

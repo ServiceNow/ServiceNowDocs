@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-digital-portfolio-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 26
+last_updated: "2026-07-09"
+reading_time_minutes: 28
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the Digital Portfolio Management application on the ServiceN
 
 ## Version history
 
+-   **Version 7.6.2 - July 2026 \(Zurich+\)**
+    -   !!! WARNING: This release removes over 700 read ACLs on secondary/tertiary tables from the DPM Manager role. !!!This impacts existing installations as well as new installations. This means that if you drill down into a record \(say an incident or change record\) you will still have access to that primary record, but will not automatically be granted read access to all of the related tables that associate with incidents and changes. This change was made to remove the overly broad access given to default by the dpm\_manager role. If this impacts you, you will need to go in and manually add any specific access to specific tables your DPM managers required back to the dpm\_manager role \(or create a new sub-role, or add read access directly for certain users\).
+    -   Changes for this release:
+        -   New: DPM now supports the new enterprise agile planning tables for business applications
+        -   Fixed: PRB2004635 - removed deprecated DPM breakdown, improving the performance of the DPM data collection job
+        -   Removed: Removed over 700 direct read ACLs from the sn\_dpm.dpm\_manager role. See warning above.
+-   **Version 7.5.0 - July 2026 \(Zurich+\)**
+    -   !!! WARNING: This release removes over 700 read ACLs on secondary/tertiary tables from the DPM Manager role. !!!This impacts existing installations as well as new installations. This means that if you drill down into a record \(say an incident or change record\) you will still have access to that primary record, but will not automatically be granted read access to all of the related tables that associate with incidents and changes. This change was made to remove the overly broad access given to default by the dpm\_manager role. If this impacts you, you will need to go in and manually add any specific access to specific tables your DPM managers required back to the dpm\_manager role \(or create a new sub-role, or add read access directly for certain users\).
+    -   Changes for this release:
+        -   New: DPM now supports the new enterprise agile planning tables for business applications
+        -   Fixed: PRB2004635 - removed deprecated DPM breakdown, improving the performance of the DPM data collection job
+        -   Removed: Removed over 700 direct read ACLs from the sn\_dpm.dpm\_manager role. See warning above.
 -   **Version 7.5.0 - June 2026 \(Zurich+\)**
     -   !!! WARNING: This release removes over 700 read ACLs on secondary/tertiary tables from the DPM Manager role. !!!This impacts existing installations as well as new installations. This means that if you drill down into a record \(say an incident or change record\) you will still have access to that primary record, but will not automatically be granted read access to all of the related tables that associate with incidents and changes. This change was made to remove the overly broad access given to default by the dpm\_manager role. If this impacts you, you will need to go in and manually add any specific access to specific tables your DPM managers required back to the dpm\_manager role \(or create a new sub-role, or add read access directly for certain users\).
     -   New: DPM now supports the new enterprise agile planning tables for business applications

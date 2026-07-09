@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ui-builder.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 15
+last_updated: "2026-07-09"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the UI Builder application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 29.5.11 - July 2026**
+    -   This release is focused on prioritizing platform health and making small but impactful improvement
+        -   Key issues fixed in this release:
+            -   In Interaction Builder user were unable to add and branch after swapping event
+            -   Some Guided Tours were unable to be completed
+            -   The Delete popover was not dismissed when clicking outside of it
+            -   In Interaction Builder the Custom modal editor did not display content properties available for configuration
+            -   Server script step gets executed multiple times
+            -   The Config panel for custom modal or modeless dialog saved the configuration of the user input modal
+            -   User were unable to add the Calendar component to a page in UIB
 -   **Version 29.4.29 - June 2026**
 
     What’s New: New ‘find and fix issue’ alert that warns users against having too many controllers or data brokers on a page as they can cause performance issues. Users are advised to consolidate or reduce the number of controllers and data brokers to prevent slow page loading

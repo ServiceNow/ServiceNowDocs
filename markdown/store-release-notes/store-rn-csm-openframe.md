@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-openframe.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the CSM Openframe application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 28.2.1 - July 2026 \(Zurich\)**
+    -   The following issues have been resolved in this release:
+        -   Improved CSRF token validation to strengthen security.
+        -   Fixed an issue preventing successful outbound call initiation in certain scenarios.
+        -   Fixed event handling when rejecting outbound call transfers.
+        -   Fixed an issue where accepting a work item could create duplicate interactions.
 -   **Version 29.4.0 - June 2026 \(Australia\)**
 
     Changed in this release: Updated OpenFrame App to v29.4.0.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-microsoft-graph-security-api-alert.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Microsoft Graph Security API Alert Ingestion integration
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 10.5.5 - July 2026**
+
+    Fixed: Restored the buildInputValue function in the Graph Security API transform, fixing SIR fields being mapped as empty when a referenced source field is missing from the alert response.
 
 -   **Version 10.5.3 - June 2026**
 

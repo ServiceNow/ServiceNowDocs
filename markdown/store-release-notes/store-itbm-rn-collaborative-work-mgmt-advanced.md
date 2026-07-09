@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-collaborative-work-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
 ---
@@ -15,6 +15,24 @@ breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, Se
 Version history for the ServiceNow® Collaborative Work Management - Advanced application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.0.5 - July 2026**
+
+    New
+
+    None
+
+    Changed
+
+    None
+
+    Fixed
+
+    Minor fixes
+
+    Removed
+
+    None
 
 -   **Version 2.0.3 - June 2026**
     -   New:

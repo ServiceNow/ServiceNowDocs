@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-releaseops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-07-09"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,25 @@ Version history for the ReleaseOps application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.2.1 - July 2026**
+    -   New Features &amp; Enhancements
+        -   Faster Multi-Instance Communication
+            -   Deployment operations that communicate between instances \(pulling update sets, running tests, checking instance status\) now use synchronous messaging instead of polling. This reduces latency during deployments and makes the overall deployment request lifecycle faster and more responsive.
+    -   Defects Fixes
+        -   Deployment Request Lifecycle
+            -   PRB0844191 — Cancelling a DR after release freeze still moves it to the final environment at release time
+            -   PRB0799063 — commit\_time is invalid when generating an info record during the release
+        -   Security &amp; Access Control
+            -   PRB0837079 — Add query range ACL records for remote deployment request table
+            -   PRB0849539 — Remove itil role from ReleaseOps roles
+            -   PRB0798923 — Pull update set failure shows incorrect information for users without update set access
+        -   UI &amp; Localization
+            -   PRB0807809 — No way to see all Update Set Order records for all related DRs on a Release form
+            -   PRB0823483 — DR and Release work notes enhancement
+            -   PRB0827398 — Missing translations — UI issues in Hebrew/French language
+        -   ATF tests
+            -   PRB0815891 — Failed to update an existing deployment request ATF suite
+            -   PRB0786816 — Misleading work notes when running ATF tests on a deployment request
 -   **Version 1.3.1 - June 2026**
     -   Defect fixes.
         -   Deployment Request Lifecycle

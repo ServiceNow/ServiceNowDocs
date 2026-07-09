@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-setup-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Setup Hub application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 1.1.2 - July 2026**
+    -   New:
+        -   PoCs to explore LitJS and AIUX \(Horizon 2.0\) for Product Hub and Admin Home redesign/uplifts
+        -   Continue defining and tracking the U2 metrics framework
+        -   Explore Golden Config and App Manager Suite Installation APIs for installs
+    -   Fixed: GA defect fixes
 -   **Version 1.0.1 - June 2026**
     -   Now Assist for Setup provides a single, guided experience for installing, configuring, and deploying supported ServiceNow products. It replaces fragmented setup workflows with a structured flow that automates installation, applies best‑practice defaults, tracks progress, and packages changes for production deployment.
     -   The experience spans Admin Home, Product Hubs, and Configuration Console powered by Now Assist, reducing setup time and operational risk while improving consistency and auditability.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-collaboration-services.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the IT Service Management Collaboration Services application
 
 ## Version history
 
+-   **Version 3.14.0 - July 2026 \(Australia+\)**
+    -   Fixed:
+        -   The evaluation logic for Query Range ACLs has been updated.
+        -   Accessibility related issues.
 -   **Version 3.13.3 - June 2026**
     -   Fixed:
         -   A user with a comma in the name will get "and" instead of the comma.

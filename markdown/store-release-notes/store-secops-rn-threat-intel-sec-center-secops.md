@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel-sec-center-secops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Threat Intelligence Security Center for Security Operati
 
 ## Version history
 
+-   **Version 4.7.0 - July 2026**
+    -   Fixed:
+        -   Resolved modal loading issues when fetching related records in Investigation Canvas.
+        -   Fixed the issue with Affected Services retrieval while fetching vulnerability related data in Internal Intelligence.
+        -   Improved observable correlation logic to prevent valid relationships from being skipped when existing self-relations are present.
+        -   Fixed the Done button in Scoping Hunt task stage to properly advance the workflow to completion.
 -   **Version 4.5.0 - June 2026**
     -   New:
         -   AI-powered case summarization for threat intelligence workflows helps analysts create concise summaries with overviews, findings, actions, and next steps.

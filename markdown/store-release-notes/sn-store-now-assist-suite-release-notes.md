@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html
 release: store
 topic_type: reference
-last_updated: "2026-06-18"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 6
 ---
 
 # Now Assist Suite release notes
@@ -32,6 +32,57 @@ Release date
 Suite version and compatible patch
 
 </th></tr></thead><tbody><tr><td>
+
+[July 09 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-09.md)
+
+</td><td>
+
+-   27.11.20260709 - Yokohama Patch 11
+-   27.12.20260709 - Yokohama Patch 12
+-   27.13.20260709 - Yokohama Patch 13
+-   28.5.20260709 - Zurich Patch 5
+-   28.6.20260709 - Zurich Patch 6
+-   28.7.20260709 - Zurich Patch 7
+-   28.8.20260709 - Zurich Patch 8
+-   28.9.20260709 - Zurich Patch 9
+-   28.10.20260709 - Zurich Patch 10
+-   28.11.20260709 - Zurich Patch 11
+-   29.0.20260709 - Australia Patch 0
+-   29.1.20260709 - Australia Patch 1
+-   29.2.20260709 - Australia Patch 2
+-   29.3.20260709 - Australia Patch 3
+-   29.4.20260709 - Australia Patch 4
+
+</td></tr><tr><td>
+
+[July 04 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-04.md)
+
+</td><td>
+
+-   28.10.20260704 - Zurich Patch 10
+-   29.3.20260704 - Australia Patch 3
+
+</td></tr><tr><td>
+
+[July 02 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-02.md)
+
+</td><td>
+
+-   28.9.20260702 - Zurich Patch 9
+-   28.10.20260702 - Zurich Patch 10
+-   29.2.20260702 - Australia Patch 2
+-   29.3.20260702 - Australia Patch 3
+
+</td></tr><tr><td>
+
+[June 25 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-25.md)
+
+</td><td>
+
+-   28.9.20260625 - Zurich Patch 9
+-   29.2.20260625 - Australia Patch 2
+
+</td></tr><tr><td>
 
 [June 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-06-18.md)
 
@@ -122,17 +173,17 @@ Suite version and compatible patch
 
 </td><td>
 
--   v27.11.20260505 - Yokohama Patch 11
--   v27.12.20260505 - Yokohama Patch 12
--   v27.13.20260505 - Yokohama Patch 13
--   v28.5.20260505 - Zurich Patch 5
--   v28.6.20260505 - Zurich Patch 6
--   v28.7.20260505 - Zurich Patch 7
--   v28.8.20260505 - Zurich Patch 8
--   v28.9.20260505 - Zurich Patch 9
--   v29.0.20260505 - Australia Early Availability \(Patch 0\)
--   v29.1.20260505 - Australia Patch 1
--   v29.2.20260505 - Australia Patch 2
+-   27.11.20260505 - Yokohama Patch 11
+-   27.12.20260505 - Yokohama Patch 12
+-   27.13.20260505 - Yokohama Patch 13
+-   28.5.20260505 - Zurich Patch 5
+-   28.6.20260505 - Zurich Patch 6
+-   28.7.20260505 - Zurich Patch 7
+-   28.8.20260505 - Zurich Patch 8
+-   28.9.20260505 - Zurich Patch 9
+-   29.0.20260505 - Australia Early Availability \(Patch 0\)
+-   29.1.20260505 - Australia Patch 1
+-   29.2.20260505 - Australia Patch 2
 
 </td></tr><tr><td>
 
@@ -140,7 +191,7 @@ Suite version and compatible patch
 
 </td><td>
 
-v28.8.20260430 - Zurich Patch 8
+28.8.20260430 - Zurich Patch 8
 
 </td></tr><tr><td>
 
@@ -148,8 +199,8 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v28.8.20260423 - Zurich Patch 8
--   v28.8.20260423 - Australia Patch 1
+-   28.8.20260423 - Zurich Patch 8
+-   28.8.20260423 - Australia Patch 1
 
 </td></tr><tr><td>
 
@@ -157,8 +208,8 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v28.7.20260416 - Zurich Patch 7
--   v28.8.20260417 - Zurich Patch 8
+-   28.7.20260416 - Zurich Patch 7
+-   28.8.20260417 - Zurich Patch 8
 
 </td></tr><tr><td>
 
@@ -166,12 +217,12 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v28.5.20260409 - Zurich Patch 5
--   v28.6.20260409 - Zurich Patch 6
--   v28.7.20260409 - Zurich Patch 7
--   v28.8.20260409- Zurich Patch 8
--   v29.0.20260409 - Australia Early Availability
--   v29.1.20260409 - Australia Patch 1
+-   28.5.20260409 - Zurich Patch 5
+-   28.6.20260409 - Zurich Patch 6
+-   28.7.20260409 - Zurich Patch 7
+-   28.8.20260409- Zurich Patch 8
+-   29.0.20260409 - Australia Early Availability
+-   29.1.20260409 - Australia Patch 1
 
 </td></tr><tr><td>
 
@@ -179,12 +230,12 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v27.11.10 - Yokohama Patch 11
--   v27.12.4 - Yokohama Patch 12
--   v28.5.9 - Zurich Patch 5
--   v28.6.6 - Zurich Patch 6
--   v28.7.3 - Zurich Patch 7
--   v29.0.3 - Australia Early Availability \(Patch 0\)
+-   27.11.10 - Yokohama Patch 11
+-   27.12.4 - Yokohama Patch 12
+-   28.5.9 - Zurich Patch 5
+-   28.6.6 - Zurich Patch 6
+-   28.7.3 - Zurich Patch 7
+-   29.0.3 - Australia Early Availability \(Patch 0\)
 
 </td></tr><tr><td>
 
@@ -192,12 +243,12 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v27.11.8 - Yokohama Patch 11
--   v27.12.2 - Yokohama Patch 12
--   v28.5.7 - Zurich Patch 5
--   v28.6.4 - Zurich Patch 6
--   v28.7.1 - Zurich Patch 7
--   v29.0.1 - Australia Early Availability \(Patch 0\)
+-   27.11.8 - Yokohama Patch 11
+-   27.12.2 - Yokohama Patch 12
+-   28.5.7 - Zurich Patch 5
+-   28.6.4 - Zurich Patch 6
+-   28.7.1 - Zurich Patch 7
+-   29.0.1 - Australia Early Availability \(Patch 0\)
 
 </td></tr><tr><td>
 
@@ -205,10 +256,10 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
--   v27.11.6 - Yokohama Patch 11
--   v27.12.1 - Yokohama Patch 12
--   v28.5.6 - Zurich Patch 5
--   v28.6.3 - Zurich Patch 6
+-   27.11.6 - Yokohama Patch 11
+-   27.12.1 - Yokohama Patch 12
+-   28.5.6 - Zurich Patch 5
+-   28.6.3 - Zurich Patch 6
 -   29.0.0 - Australia Early Availability \(Patch 0\)
 
 </td></tr><tr><td>
@@ -217,7 +268,7 @@ v28.8.20260430 - Zurich Patch 8
 
 </td><td>
 
-v28.7.0 - Zurich Patch 7
+28.7.0 - Zurich Patch 7
 
 </td></tr><tr><td>
 
@@ -225,8 +276,8 @@ v28.7.0 - Zurich Patch 7
 
 </td><td>
 
--   v27.11.5 - Yokohama Patch 11
--   v28.5.4 - Zurich Patch 5
+-   27.11.5 - Yokohama Patch 11
+-   28.5.4 - Zurich Patch 5
 
 </td></tr><tr><td>
 
@@ -234,7 +285,7 @@ v28.7.0 - Zurich Patch 7
 
 </td><td>
 
-v27.12.0 - Yokohama Patch 12
+27.12.0 - Yokohama Patch 12
 
 </td></tr></tbody>
 </table>

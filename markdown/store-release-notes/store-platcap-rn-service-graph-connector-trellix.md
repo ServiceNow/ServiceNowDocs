@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-trellix.html
 release: store
 topic_type: reference
-last_updated: "2025-06-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Service Graph Connector for Trellix on the ServiceNow St
 
 ## Version history
 
+-   **Version 1.1.0 - July 2026**
+    -   New:
+        -   Query ACLs are now built into the application.
+        -   Auditor scripts don't need to be manually re-run after each new installation.
 -   **Version 1.0.0 - June 2025**
     -   Service Graph Connector for Trellix imports device data to the ServiceNow CMDB quickly, seamlessly, and securely. This integration is part of ServiceNow-developed Service Graph Connectors. The plug-and-play Service Graph Connectors simplify setup and facilitate quick integration.
     -   Trellix is a centralized security management platform to orchestrate and manage all your endpoints, eliminating complexity, offering a comprehensive platform to plan and scale operations, and providing unrivaled threat intel.

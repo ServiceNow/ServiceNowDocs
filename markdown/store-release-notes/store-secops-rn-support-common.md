@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-support-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
+last_updated: "2026-07-09"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,9 @@ Version history for the Security Support Common on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.5.1 - July 2026**
+    -   New: Added parallel processing for Software Bill of Materials \(SBOM\) ingestion jobs, improving throughput for large-scale data processing
+    -   Fixed: Resolved an issue where state changes on a remediation task were not rolled down to associated vulnerable items when the task contained more than 200 items
 -   **Version 30.4.1 - June 2026**
     -   New:
         -   Added new granular roles and access controls to improve access management and maintain consistent permissions across integrated modules.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
+last_updated: "2026-07-09"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the SOW Synthetic Monitoring application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.7.1 - July 2026**
+    -   New:
+        -   Synthetic Monitoring now supports JWT authentication and unified secrets gateway for MID Server compliance. All monitor types execute successfully on JWT-authenticated MID Servers, with backward compatibility for Basic Auth. Credential retrieval uses unified secrets gateway, ensuring correct data mapping and exposure classification. Mixed authentication fleets are supported without regression.
+        -   Bulk edit functionality enables enhanced monitor management. Duplicate monitor creation is prevented during bulk re-upload. Synthetic monitoring automatically picks service or support group relationships when there is one.
+    -   Fixed: Monitor execution stability and performance have been improved for high-volume customers. ECC queue saturation and cache overflow issues have been addressed to ensure monitors reliably transition from pending to executed state. Monitor executions via ACC now scale efficiently.
 -   **Version 1.6.0 - June 2026**
     -   Synthetic Monitoring -- Defect Fixes
         -   Usability

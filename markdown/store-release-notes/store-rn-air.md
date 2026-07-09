@@ -112,6 +112,8 @@ Version history for the ServiceNow® Skill Rule application on the ServiceNow St
 Version history for the Task Intelligence Admin Console application on the ServiceNow Store.
 -   **[Task Mining Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-task-mining-core.md)**  
 Version history for the Task Mining Core application on the ServiceNow Store.
+-   **[Usage Insight Data Export release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air-usage-insight-data-export.md)**  
+Version history for the ServiceNow® Usage Insight Data Export application on the ServiceNow Store.
 -   **[Usage Insights application release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-user-experience-analytics-application.md)**  
 Version history for the Usage Insights application on the ServiceNow Store.
 -   **[Usage Insights Funnel release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-user-experience-analytics-funnel.md)**  

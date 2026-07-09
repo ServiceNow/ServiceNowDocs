@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-mobile-sdk-libraries-ios.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Mobile SDK Libraries - iOS application on the ServiceNow
 
 ## Version history
 
+-   **Version 2.23.0 - July 2026**
+    -   Added Now Assist Premium Chat support
+    -   Supported Theming for NowWeb
 -   **Version 2.22.0 - June 2026**
     -   Voice Agent support
     -   General stability improvements

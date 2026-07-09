@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-health-content.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Impact Health Content application on the Se
 
 ## Version history
 
+-   **Version 4.0.3 - July 2026**
+    -   Changed: sn\_SE10061 – Enhanced the Catalog UI Policy Action definition to evaluate the Value action and Field message type fields, improving validation coverage.
+    -   Fixed:
+        -   sn\_SE10292 – Fixed an issue where the definition could block the creation of records in the Number column and generate incorrect findings during update set scans.
+        -   sn\_SE10513 – Fixed an issue where the definition could incorrectly block the creation of Scheduled Imports and Data Sources.
 -   **Version 3.0.3 - June 2026**
 
     Fixed definition behaviour for sn\_SE10096 during update set scans.

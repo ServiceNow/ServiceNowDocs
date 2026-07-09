@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-social-benefits-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Social Benefits Playbook application on the ServiceNow S
 
 ## Version history
 
+-   **Version 2.12.2 - July 2026**
+    -   Fix the plugin dependency issue from the previous release and deliver a Zurich-compatible version.
+    -   Fix security defects
 -   **Version 2.12.0 - June 2026**
     -   Make changes for the Cobalt Directive
     -   Cleanup roles per the Big Rock Directive

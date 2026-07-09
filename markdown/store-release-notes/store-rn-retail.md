@@ -28,6 +28,8 @@ Version history for the Retail In-Store Operations application on the ServiceNow
 Version history for the Retail Mobile application on the ServiceNow Store.
 -   **[Retail Playbook for Store Plan release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-retail-playbook-store-plan.md)**  
 Version history for the ServiceNow® Retail Playbook for Store Plan application on the ServiceNow Store.
+-   **[Retail Store Audit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail-store-audit.md)**  
+Version history for the ServiceNow® Retail Store Audit application on the ServiceNow Store.
 -   **[Retail Store Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-retail-store-services.md)**  
 Version history for the Retail Store Services application on the ServiceNow Store.
 -   **[Retail Task Management Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-retail-task-mgmt-core.md)**  

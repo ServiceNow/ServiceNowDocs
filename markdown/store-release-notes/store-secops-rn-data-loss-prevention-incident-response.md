@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-data-loss-prevention-incident-response.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Data Loss Prevention Incident Response application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.0 - July 2026**
+
+    Fixed: Added the feature to share lists in the DLP IR Analyst workspace.
 
 -   **Version 2.3.0 - June 2026**
     -   Fixed:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-visibility-content.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Agent Client Collector for Visibility Content on the Ser
 
 ## Version history
 
+-   **Version 1.10.0 - July 2026**
+    -   Fixed:
+        -   Installed software check definition successfully running on Linux machines.
+        -   File Based Discovery configuration parameters such as sleep and throttle are available for configuration in Linux.
 -   **Version 1.9.0 - June 2026**
     -   New: Software License Key Discovery Framework: Enables users to discover and manage software license keys from Windows registry locations.
     -   File-based Discovery Enhancements: Discover Files inside ZIP/JAR files through File-based Discovery \(Agent-based\).

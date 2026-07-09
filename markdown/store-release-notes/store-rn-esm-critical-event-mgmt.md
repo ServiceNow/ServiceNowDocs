@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-critical-event-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Critical Event Management application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.2.5 - July 2026**
+    -   Fixed:
+        -   Hardcoded strings in the Critical Event Management dashboard within the Health and Safety Workspace were not displaying correctly in non-English locales.
+        -   A "Do not show again" checkbox was missing from the "Need Help" popup.
+        -   A duplicate Properties option appeared in the application properties configuration.
+        -   The Total Impacted list and loading bar intermittently became stuck.
+        -   Child critical events could be added to closed Critical Event Management records.
 -   **Version 1.2.3 - June 2026**
     -   Fixed:
         -   Fixed an issue where the Health and Safety workspace failed to load impacted people when adding new impacted people to a critical event

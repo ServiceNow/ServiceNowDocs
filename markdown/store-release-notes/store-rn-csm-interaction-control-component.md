@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-interaction-control-component.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Interaction Control Component application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.7.0 - July 2026 \(Australia\)**
+
+    Fixed: Fixed incorrect heading hierarchy in the Set idle state capabilities, Set agent capabilities, and Transfer capabilities pages.
+
+-   **Version 3.2.4 - July 2026 \(Zurich\)**
+
+    The following issues has been resolved in this release: The Agent-initiated Wrap-Up using Interaction Controls Component \(ICC\) now works as expected, and allows agents to open the wrap-up modal, select codes, and submit summary notes during active calls.
 
 -   **Version 4.6.0 - June 2026 \(Australia\)**
     -   New in this release:
