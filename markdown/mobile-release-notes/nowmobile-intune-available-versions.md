@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile-release-notes/nowmobile-intune-available-versions.html
 release: mobile
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-07-09"
 reading_time_minutes: 8
 breadcrumb: [Mobile app version history for iOS and Android]
 ---
@@ -26,7 +26,8 @@ To download the latest release, visit the [Apple App Store](https://apps.apple.c
 
 |Release version|Release type|Released in|Availability|
 |---------------|------------|-----------|------------|
-|[Now Mobile - Intune for iOS v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-4-0.md)|Version|June 2026|Available|
+|[Now Mobile - Intune for iOS v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-5-0.md)|Version|July 2026|Available|
+|[Now Mobile - Intune for iOS v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-4-0.md)|Version|June 2026|Unavailable|
 |[Now Mobile - Intune for iOS v21.3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-3-1.md)|Hotfix|May 2026|Unavailable|
 |[Now Mobile - Intune for iOS v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-3-0.md)|Version|May 2026|Unavailable|
 |[Now Mobile - Intune for iOS v21.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-ios-v21-2-0.md)|Version|April 2026|Unavailable|
@@ -71,7 +72,8 @@ To download the latest release, visit the [Google Play store](https://play.googl
 |---------------|------------|-----------|------------|
 |[Now Mobile - Intune for Android v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-3-0.md)|Version|May 2026|Available|
 |[Now Mobile - Intune for Android v21.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-2-0.md)|Version|April 2026|Unavailable|
-|[Now Mobile - Intune for Android v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-4-0.md)|Version|June 2026|Available|
+|[Now Mobile - Intune for Android v21.5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-5-0.md)|Version|July 2026|Available|
+|[Now Mobile - Intune for Android v21.4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-4-0.md)|Version|June 2026|Unavailable|
 |[Now Mobile - Intune for Android v21.3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-3-0.md)|Version|May 2026|Unavailable|
 |[Now Mobile - Intune for Android v21.2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-2-0.md)|Version|April 2026|Unavailable|
 |[Now Mobile - Intune for Android v21.1.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/mobile/markdown/mobile-release-notes/nowmobile-intune-android-v21-1-1.md)|Hotfix|March 2026|Unavailable|
