@@ -14,6 +14,8 @@ normally at least monthly, sometimes more often.
 
 ## Change log
 
+- __09 July 2026__:
+  * July docs refresh
 - __24 June 2026__:
   * Reverted URLs to May refresh versions to match doc site URls.
 - __21 June 2026__:
